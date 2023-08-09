@@ -1,0 +1,111 @@
+﻿l_german:
+# Übersetzt von Lys
+
+ #Default LP Feudal tiers
+ baron_lp_feudal_male:0 "Lord"
+ baron_lp_feudal_female:0 "Lady"
+ barony_lp_feudal:0 "Kleinlordschaft"
+
+ count_lp_feudal_male:0 "Lord"
+ count_lp_feudal_female:0 "Lady"
+ county_lp_feudal:0 "Lordschaft"
+
+ duke_lp_feudal_male:0 "Lord"
+ duke_lp_feudal_female:0 "Lady"
+ duchy_lp_feudal:0 "Hochlordschaft"
+ duke_lp_feudal_independent:0 "Lord"
+ duke_lp_feudal_independent_female:0 "Lady"
+ duchy_lp_feudal_independent:0 "Hochlordschaft"
+
+ kingdom_lp_feudal:0 "[CHARACTER.Custom('LP_FEUDAL_TITLE')]" 
+ kingdom_lp_feudal_default:0 "Oberste Lehnsherrschaft"
+ kingdom_lp_feudal_independent_default:0 "Königreich"
+ kingdom_lp_feudal_independent_rhoynish:0 "Fürstentum"
+
+ king_lp_feudal_male:0 "[CHARACTER.Custom('LP_FEUDAL_MALE')]"
+ king_lp_feudal_female:0 "[CHARACTER.Custom('LP_FEUDAL_FEMALE')]"
+ king_lp_feudal_male_default:0 "Lord"
+ king_lp_feudal_female_default:0 "Lady"
+ king_lp_feudal_male_targ:0 "Prinz"
+ king_lp_feudal_female_targ:0 "Prinzessin"
+ king_lp_feudal_independent_rhoynish:0 "Prinz"
+ queen_lp_feudal_independent_rhoynish:0 "Prinzessin"
+
+ empire_lp_feudal:0 "Königreich"
+ empire_iron_throne:0 "Königslande" 
+ empire_lp_feudal_default:0 "Königreich"
+
+ emperor_lp_feudal_male:0 "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_MALE')]"
+ emperor_lp_feudal_female:0 "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_FEMALE')]"
+ emperor_lp_feudal_male_default:0 "König"
+ emperor_lp_feudal_female_default:0 "Königin"
+
+
+ principality_lp_feudal:0 "Fürstentum"
+ principality_lp_feudal_male:0 "Fürst" 
+ principality_lp_feudal_female:0 "Fürstin" 
+
+ prince_lp_kingdom_male:0 "[CHARACTER.Custom('PRINCE_LP_FEUDAL_KINGDOM_MALE')]"
+ prince_lp_kingdom_female:0 "[CHARACTER.Custom('PRINCE_LP_FEUDAL_KINGDOM_FEMALE')]"
+ prince_lp_kingdom_male_default:0 "Lord"
+ prince_lp_kingdom_female_default:0 "Lady"
+ prince_lp_kingdom_male_targ:0 "Prinz"
+ prince_lp_kingdom_female_targ:0 "Prinzessin"
+ prince_lp_feudal_male_dorne:0 "Prinz" 
+ prince_lp_feudal_female_dorne:0 "Prinzessin" 
+
+ prince_lp_empire_male:0 "Prinz"
+ prince_lp_empire_female:0 "Prinzessin"
+
+ #Wolfswood Clansman Master Title
+ wolfswood_clansman_master_male:0 "Master"
+ wolfswood_clansman_master_female:0 "Mistress"
+
+ #Riverlands 
+
+ e_the_riverlands_old:0 "Die Flüsse und Hügel"
+
+ #Dorne 
+ empire_dorne:0 "Fürstentum"
+ empire_dorne_male:0 "Fürst"
+ empire_dorne_female:0 "Fürstin"
+
+ #Magnar
+ magnar_count:0 "Magnar"
+ magnar_duke:0 "Magnar"
+ magnar_king:0 "Magnar"
+ magnar_emperor:0 "Magnar des Freien Volks"
+
+ #Ruin
+ ruin_title:0 ""
+
+ #King Flavourisation
+ king_stormlands:0 "Sturmkönig"
+ queen_stormlands:0 "Sturmkönigin"
+ king_north:0 "König"
+ queen_north:0 "Königin"
+ king_riverlands:0 "Flusskönig"
+ queen_riverlands:0 "Flusskönigin"
+ king_dorne:0 "Fürst"
+ queen_dorne:0 "Fürstin"
+ king_wall:0 "Lord Kommandant" # wurde nachträglich von Lordcommander zu Night's King geändert
+ queen_wall:0 "Lord Kommandantin"
+
+ #Smaller Kingdoms
+ king_duskendale:0 "Dämmerkönig"
+ queen_duskendale:0 "Dämmerkönigin"
+ king_dreadfort:0 "Roter König"
+ queen_dreadfort:0 "Rote Königin"
+ king_runestone:0 "Bronzekönig"
+ queen_runestone:0 "Bronzekönigin"
+ king_neck:0 "Marschkönig"
+ queen_neck:0 "Marschkönigin"
+ king_banefort:0 "Vermummter König"
+ queen_banefort:0 "Vermummte Königin"
+
+ #Faegon Host
+ lp_empire_male_faegon:0 "König"
+ lp_empire_female_faegon:0 "Königin"
+
+ head_of_faith_male_normal:0 "[CHARACTER.GetFaith.ReligiousHeadName|U]"
+ head_of_faith_male_fots:0 ""

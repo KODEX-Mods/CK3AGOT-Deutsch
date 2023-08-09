@@ -1,0 +1,15 @@
+﻿l_german:
+ catalyst_raided_holding:0 "Überfiel einen [Concept('struggle_involved', 'beteiligten')|E] [ruler|E]"  #Selbst geschrieben/abgetippt - Mit Verbesserungen aus den Vanilla Files
+ catalyst_raided_holding_desc:0 "Einen [Concept('struggle_involved', 'beteiligten')|E] [ruler|E] überfallen"  #Selbst geschrieben/abgetippt - Mit Verbesserungen aus den Vanilla Files
+ catalyst_went_war_with_nw:0 "[struggle_catalyst_catalyst|E] „War im Krieg mit der Nachtwache“"  #Selbst geschrieben/abgetippt - Mit Verbesserungen aus den Vanilla Files
+ catalyst_went_war_with_nw_desc:0 "In den Krieg gegen die Nachtwache ziehen"  #Selbst geschrieben/abgetippt - Mit Verbesserungen aus den Vanilla Files
+ catalyst_formed_interculture_alliance_with_important_character:0 "[struggle_catalyst_catalyst|E] „Interkulturelles [alliance|E] gegründet“"  #Selbst geschrieben/abgetippt - Mit Verbesserungen aus den Vanilla Files
+ catalyst_formed_interculture_alliance_with_important_character_desc:5 "Ein Bündnis mit einem [Concept('struggle_involved', 'beteiligten')|E] [ruler|E] einer anderen [culture|E] eingehen"  #Selbst geschrieben/abgetippt  - Mit Verbesserungen aus den Vanilla Files
+ catalyst_grant_land_diff_culture:0 "[struggle_catalyst_catalyst|E] „Einem örtlichen Adligen gewährt“"  #Selbst geschrieben/abgetippt - Mit Verbesserungen aus den Vanilla Files
+ catalyst_grant_land_diff_culture_desc:0 "Eine Eurer [counties|E] an einen Adligen einer [Concept('struggle_involved', 'beteiligten')|E] [culture|E] vergeben"  #Selbst geschrieben - Mit Verbesserungen aus den Vanilla Files
+ catalyst_invite_diff_culture_to_feast:0 "[struggle_catalyst_catalyst|E] „Eingeladen zu [feast|E]“"  #Selbst geschrieben/abgetippt
+ catalyst_invite_diff_culture_to_feast_desc:0 "Einen [Concept('struggle_involved', 'Beteiligten')|E] [ruler|E] einer anderen [culture|E] zu einem [feast|E] einladen"  #Selbst geschrieben/abgetippt - Mit Verbesserungen aus den Vanilla Files
+ catalyst_convert_local_culture:0 "[struggle_catalyst_catalyst|E] „Zur örtlichen Kultur konvertiert“"  #Selbst geschrieben/abgetippt - Mit Verbesserungen aus den Vanilla Files
+ catalyst_convert_local_culture_desc:0 "Zur örtlichen [Concept('struggle_involved', 'beteiligten')|E] [culture|E] konvertieren"  #Selbst geschrieben/abgetippt - Mit Verbesserungen aus den Vanilla Files
+ catalyst_improve_development_vassal_diff_culture:0 "[struggle_catalyst_catalyst|E] „Entwicklung erhöht“" 
+ catalyst_improve_development_vassal_diff_culture_desc:2 "Die [development|E] in einer [county|E] einer anderen [culture|E] erhöhen"

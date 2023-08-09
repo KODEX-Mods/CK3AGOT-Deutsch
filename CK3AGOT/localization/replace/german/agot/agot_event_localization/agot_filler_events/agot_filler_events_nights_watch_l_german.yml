@@ -1,0 +1,283 @@
+﻿l_german:
+
+
+ ################################################
+ #   agot_nights_watch.0000 - NIGHTSWATCHMAN ARRIVES  #
+ ################################################
+
+ nightswatch_arrived.title:0 "Ein neuer Bruder der Nachtwache"
+ nightswatch_arrived.desc:0 "[nightswatch_candidate.GetShortUIName|U] hat sich der Nachtwache als geschworener Bruder angeschlossen."
+
+
+ ################################################
+ #   agot_nights_watch.0001 - MULE SHORTAGE (SETUP)  #
+ ################################################
+
+ agot_filler_nights_watch.0001.message.t:0 "Maultierknappheit in $c_eastwatch$"
+ agot_filler_nights_watch.0001.message.tt:0 "Die Maultiere, die in $c_eastwatch$ für die Patrouille an der Mauer abgerichtet wurden, waren in letzter Zeit Mangelware."
+
+ ########################################
+ #   agot_nights_watch.0002 - MULE SHORTAGE  #
+ ########################################
+
+ agot_filler_nights_watch.0002.t:0 "Maultierknappheit"
+ agot_filler_nights_watch.0002.opening:0 "[teller.Custom2('MyCharacterIntroduction', ROOT.Char)|U] steht vor mir"
+ agot_filler_nights_watch.0002.bold:0 "und klopft sich auf die Brust."
+ agot_filler_nights_watch.0002.anger:0 "schimpfend und wetternd."
+ agot_filler_nights_watch.0002.paranoia:0 "mit einem grausamen, herzlosen Blick in den Augen."
+ agot_filler_nights_watch.0002.fallback:0 "in völligem Unglauben."
+ agot_filler_nights_watch.0002.middle:0 "\n\n"[fallguy.GetName] verkauft unsere Maultiere", sagt [teller.GetSheHe] mit Abscheu. "Die Herde, die wir für die Patrouillen an der Mauer einsetzen, ist im letzten Jahr immer kleiner geworden, und ich bin mir sicher, dass [fallguy.GetSheHe] sie verkauft. [fallguy.GetSheHe|U] könnte bis zu zweihundert Golddrachen gemacht haben!"
+ agot_filler_nights_watch.0002.special.less_than.learning:0 "\n\nWenn ich mir [teller.GetFirstNameNoTooltip] ansehe, weiß ich in meinem Herzen, dass [teller.GetSheHe] gut gebildet ist, aber"
+ agot_filler_nights_watch.0002.special.less_than.stewardship:0 "\n\n[teller.GetSheHe|U] mag die Buchführung gut genug verwalten, denke ich, während ich [teller.GetHerHim] betrachte, aber weiß [teller.GetSheHe] hier wirklich am besten Bescheid?"
+ agot_filler_nights_watch.0002.special.less_than.learning.humble:0 "\n\nIch kann [teller.GetTitledFirstName|U] nicht einfach ignorieren, wenn [teller.GetSheHe] so belesen ist, aber"
+ agot_filler_nights_watch.0002.special.less_than.stewardship.humble:0 "\n\nIch bin vielleicht nicht so geschickt in der Verwaltung der Buchhaltung wie [teller.GetTitledFirstName], aber"
+ agot_filler_nights_watch.0002.special.greater_than.learning:0 "\n\nAber natürlich bin ich erfahrener als [teller.GetTitledFirstNameNoTooltip] und weiß, dass"
+ agot_filler_nights_watch.0002.special.greater_than.stewardship:0 "\n\nDoch während ich [teller.Custom('DE_PRO_PER_S_3P_A')] anstarre, ist mir bewusst, dass ich mehr über die Finanzen weiß, als [teller.GetTitledFirstNameNoTooltip] jemals wissen wird, und dass"
+ agot_filler_nights_watch.0002.special.greater_than.learning.arrogant:0 "\n\nIch starre [teller.GetHerHim] an, zufrieden damit, dass ich weit mehr über diese Dinge weiß, als [teller.SheHe] sich je vorstellen kann, und dass"
+ agot_filler_nights_watch.0002.special.greater_than.stewardship.arrogant:0 "\n\nIch starre ihn an und bin mir sicher, dass ich mehr über unsere Finanzen weiß als dies[teller.Custom('DE_END_ADJ_NUL_S_N')] [teller.Custom('InsultNoun')] von ein[teller.Custom('DE_END_ADJ_NUL_S_D')] [teller.GetWomanMan], und ich weiß, dass"
+ agot_filler_nights_watch.0002.special.stupid:0 "[fallguy.GetTitledFirstNameNoTooltip] viel zu dumm ist, um einen solchen Plan durchzuführen."
+ agot_filler_nights_watch.0002.special.cowardly:0 "[fallguy.GetTitledFirstNameNoTooltip] viel zu feige für ein solches Vorhaben ist."
+ agot_filler_nights_watch.0002.special.fallback:0 "[fallguy.GetTitledFirstNameNoTooltip] viel zu wenig geeignet ist, um eine solche Intrige zu organisieren."
+ agot_filler_nights_watch.0002.special.closing:0 "Es ist viel wahrscheinlicher, dass [undercutter.GetTitledFirstName] derjenige ist, der vom Verkauf unserer Maultiere profitiert."
+ agot_filler_nights_watch.0002.a.greedy:0 "Lasst [undercutter.GetTitledFirstNameNoTooltip] Euch in den Plan einweihen"
+ agot_filler_nights_watch.0002.a.fallback:0 "Lasst [undercutter.GetTitledFirstNameNoTooltip] zurückzahlen, was [undercutter.GetSheHe] gestohlen hat"
+ agot_filler_nights_watch.0002.a.random_1.desc:0 "[undercutter.GetTitledFirstNameNoTooltip] zahlt zurück, was [undercutter.GetSheHe] gestohlen hat"
+ agot_filler_nights_watch.0002.a.random_2.desc:0 "[undercutter.GetTitledFirstNameNoTooltip] flieht von der Mauer"
+ agot_filler_nights_watch.0002.a.message.t:0 "Ihr richtet [undercutter.GetTitledFirstNameNoTooltip] hin."
+ agot_filler_nights_watch.0002.b.banish:0 "Verbannt [undercutter.GetTitledFirstNameNoTooltip] für [undercutter.Custom('DE_PRO_POS_S_3P')]e Verbrechen gegen die Wache"
+ agot_filler_nights_watch.0002.b.execute:0 "Richtet [undercutter.GetTitledFirstNameNoTooltip] hin für [undercutter.Custom('DE_PRO_POS_S_3P')]e Verbrechen gegen die Wache"
+ agot_filler_nights_watch.0002.c:0 "Lasst [fallguy.GetTitledFirstNameNoTooltip] zurückzahlen, was [fallguy.GetSheHe] gestohlen hat"
+ agot_filler_nights_watch.0002.c.random_1.desc:0 "[fallguy.GetTitledFirstNameNoTooltip] flieht von der Mauer"
+ agot_filler_nights_watch.0002.c.random_2.desc:0 "[fallguy.GetTitledFirstNameNoTooltip] pays back what [fallguy.GetSheHe] is accused of stealing"
+ agot_filler_nights_watch.0002.c.toast.t:0 "[fallguy.GetTitledFirstName] flieht von der Mauer"
+ agot_filler_nights_watch.0002.c.toast.tt:0 "[fallguy.GetTitledFirstNameNoTooltip] ist von [fallguy.GetHerHis] Posten geflohen, nachdem er beschuldigt wurde, die Wache bestohlen zu haben"
+ agot_filler_nights_watch.0002.c.random_2.tt:0 "Wenn [fallguy.GetSheHe] nicht zurückzahlt, was gestohlen wurde, habt Ihr das Recht, [fallguy.Custom('DE_PRO_PER_S_3P_A')] zu bestrafen."
+ agot_filler_nights_watch.0002.d.banish:0 "Verbannt [fallguy.GetTitledFirstNameNoTooltip] für [undercutter.Custom('DE_PRO_POS_S_3P')]e Verbrechen gegen die Wache"
+ agot_filler_nights_watch.0002.d.execute:0 "Richtet [fallguy.GetTitledFirstNameNoTooltip] hin für [undercutter.Custom('DE_PRO_POS_S_3P')]e Verbrechen gegen die Wache"
+ agot_filler_nights_watch.0002.d.message.t:0 "Ihr richtet [fallguy.GetTitledFirstName] hin"
+ agot_filler_nights_watch.0002.e.arrogant:0 "Ich weiß besser als Ihr, was in $c_eastwatch$ vor sich geht."
+ agot_filler_nights_watch.0002.e.arbitrary:0 "Maultiere sind mir ziemlich egal, [teller.GetFirstNameNoTooltip]"
+ agot_filler_nights_watch.0002.e.just:0 "Bringt mir Beweiese, dann unterhalten wir uns."
+ agot_filler_nights_watch.0002.e.fallback:0 "Ihr nervt mich mit diesem Blödsinn? Hinfort, [teller.GetFirstNameNoTooltip]."
+ every_member_of_nights_watch:0 "Jeder Bruder der Nachtwache"
+ every_close_relation:0 "Jeder enge Verwandte des Hingerichteten"
+
+ ############################################
+ #   agot_nights_watch.0003 - GOLD REINVESTMENT  #
+ ############################################
+
+ agot_filler_nights_watch.0003.t:0 "Reinvestition"
+ agot_filler_nights_watch.0003.desc:0 "[teller.Custom2('MyCharacterIntroduction', ROOT.Char)|U] findet mich im Ratssaal und gibt sich keine Mühe, [teller.Custom('DE_PRO_POS_S_3P')]e Empörung zu verbergen.\n\n"Das Gold, das Ihr nach dem Komplott von [undercutter.GetTitledFirstNamePossessive] beschlagnahmt habt, muss in die Wache reinvestiert werden." [teller.GetSheHe|U] geht mit fuchtelnden Händen durch den Raum. "Wenn Ihr das Gold behaltet, kommt das einem Diebstahl gleich, [ROOT.Char.Custom('DE_Anrede')]. Ihr #EMP müsst#! es der Wache zurückgeben."
+ agot_filler_nights_watch.0003.a.wrathful:0 "Ich muss? Ich #EMP muss?#! Soll das ein Befehl sein?"
+ agot_filler_nights_watch.0003.a.calm:0 "Bei Gelegenheit, [teller.GetFirstNameNoTooltip], und nicht vorher."
+ agot_filler_nights_watch.0003.a.cynical:0 "Und es Euch überlassen? Ich denke nicht."
+ agot_filler_nights_watch.0003.a.vengeful:0 "Das reicht. Erwähnt es nicht noch einmal."
+ agot_filler_nights_watch.0003.a.zealous:0 "Bei den alten und neuen Göttern, lasst es sein."
+ agot_filler_nights_watch.0003.a.fallback:0 "Behaltet das Gold für Euch"
+ agot_filler_nights_watch.0003.a.cynical.tt:0 "Jeder Bruder der Nachtwache, der Euren Worten Glauben schenkt, die [teller.GetFirstNameNoTooltip] als unehrlich darstellen, verliert #N 10#! [opinion|E] von [teller.Custom('DE_PRO_PER_S_3P_D')]"
+ agot_filler_nights_watch.0003.a.tt:0 "Ihr behaltet das Gold."
+ agot_filler_nights_watch.0003.b.impatient:0 "Ja, ja. Nehmt es..."
+ agot_filler_nights_watch.0003.b.content:0 "Nun, die bescheidene Menge an Gold kann ich mir sparen."
+ agot_filler_nights_watch.0003.b.forgiving:0 "Ich vertraue darauf, dass Ihr gütiger damit umgeht, als mit mir."
+ agot_filler_nights_watch.0003.b.fallback:0 "Gebt das Gold an die Nachtwache zurück."
+ agot_filler_nights_watch_0003_b_content:0 "Jeder Vasall, der eher arm ist"
+ agot_filler_nights_watch.0003.b.forgiving.tt:0 "[teller.GetTitledFirstName] fühlt sich schlecht, weil er so forsch mit Euch umgegangen ist"
+ agot_filler_nights_watch.0003.b.tt:0 "Ihr übergebt das Gold an die Wache"
+
+ ############################################
+ #   agot_nights_watch.0004 - BEGGING FOR MERCY  #
+ ############################################
+
+ agot_filler_nights_watch.0004.t:0 "Ein Flehen um Gnade"
+ agot_filler_nights_watch.0004.opening:0 "[fallguy.Custom2('MyCharacterIntroduction', ROOT.Char)|U] hat sich in letzter Zeit große Mühe gegeben, mich zu meiden. Die Schuld, die auf [fallguy.Custom('DE_PRO_POS_S_3P')]en Schultern lastet, ist immens, aber sie ist nicht weniger als das, was [fallguy.GetSheHe] für [fallguy.Custom('DE_PRO_POS_S_3P')]e Rolle bei dem Betrug an der Wache verdient hat. Tagelang schleicht [fallguy.GetSheHe] um mich herum, bis er schließlich den Mut aufbringt, mich heute Morgen beim Fastenbrechen zu sehen.\n\n"[ROOT.Char.Custom('DE_Anrede')]," sagt [fallguy.GetSheHe] "
+ agot_filler_nights_watch.0004.humble:0 "mit der Demut eines Unterlegenen, "was ich schulde, kann ich nicht bezahlen. Ich flehe Euch an - bitte glaubt mir, dass ich nichts mit diesem Komplott zu tun hatte! Habt Erbarmen, [ROOT.Char.Custom('DE_Anrede')]."
+ agot_filler_nights_watch.0004.vengeful:0 "gehässig, "Ich weiß, dass ich nichts sagen kann, um Euch zu überzeugen, dass ich nichts mit diesem Plan zu tun hatte, aber eines solltet Ihr auch wissen: Ich werde niemals zahlen, was mir angelastet wird."
+ agot_filler_nights_watch.0004.diligent:0 "mit einer neu gewonnenen Entschlossenheit, "Eure Forderungen, dass ich eine Schuld zurückzahle, die nicht rechtmäßig die meinige #italic ist#!, sind grausam, und ich bitte Euch, Euer Urteil aufzuheben, wonach ich sie bezahlen soll."
+ agot_filler_nights_watch.0004.lazy:0 "mit Gleichgültigkeit, "bitte, zwingt mich nicht, diese Schuld zurückzuzahlen. Das ist nicht gerecht."
+ agot_filler_nights_watch.0004.impatient:0 "mit einer gereizten Miene, "Eure Forderung, dass ich diese Schuld zurückzahle, ist unbillig. Ich habe nichts Unrechtes getan, und ich werde nicht zulassen, dass Ihr mir diese absurden Bedingungen aufdrückt."
+ agot_filler_nights_watch.0004.shy:0 "leise: "Ich kann die Schulden nicht zurückzahlen. Könntet Ihr bitte in Betracht ziehen, mich davon zu befreien? Ich finde das nicht recht."
+ agot_filler_nights_watch.0004.deceitful:0 "mit einem schelmischen Schmunzeln, "Ich achte Eure Entscheidung, mich zu verschonen, damit ich meine Schuld zurückzahlen kann. Das zeugt wahrlich von Eurer Weitsicht. Wenn Ihr mir erlaubt, in den Süden zu reisen, kann ich die Schulden in ein oder zwei Wochen begleichen."
+ agot_filler_nights_watch.0004.fallback:0 "meine Schulden kann ich nicht begleichen. Ich flehe Euch an, glaubt mir bitte, dass ich nichts mit diesem Komplott zu tun hatte und dass ich niemals das Gold haben werde, um das zurückzuzahlen, was ich angeblich schuldig bin."
+ agot_filler_nights_watch.0004.a.gold:0 "Das ist nicht nötig. Vergesst die Schulden ganz und gar."
+ agot_filler_nights_watch.0004.a.fallback:0 "Befreit [fallguy.Custom('DE_PRO_PER_S_3P_A')] von den Schulden"
+ agot_filler_nights_watch.0004.a.tt:0 "Ihr entbindet [fallguy.GetTitledFirstNameNoTooltip] von der Verpflichtung, das Gold zurückzuzahlen, das [fallguy.GetSheHe] mit dem Verkauf von Maultieren gestohlen hat, um Profit zu machen"
+ agot_filler_nights_watch.0004.b.vengeful:0 "Ihr zahlt #EMP jetzt,#! [fallguy.GetTitledFirstNameNoTooltip]!"
+ agot_filler_nights_watch.0004.b.deceitful:0 "Dann geht - und kommt schnell zurück."
+ agot_filler_nights_watch.0004.b.fallback:0 "Verlangt, dass [fallguy.GetSheHe] etwas zurückzahlt, #EMP sofort#!"
+ agot_filler_nights_watch.0004.b.deceitful.tt:0 "[fallguy.GetTitledFirstNameNoTooltip] wird die Mauer vorübergehend verlassen, um die Schulden zu begleichen"
+
+ ##########################################
+ #   agot_nights_watch.0006 - IMPRISONED THIEF #
+ ##########################################
+
+ agot_filler_nights_watch.0006.message.t:0 "[teller.GetTitledFirstName] eingekerkert"
+ agot_filler_nights_watch.0006.message.tt:0 "[teller.GetTitledFirstName] hat [victim.GetTitledFirstName] in einem Streit getötet und wurde eingekerkert"
+
+ ###############################################
+ #   agot_nights_watch.0007 - BENEFACTOR GIVES GOLD #
+ ###############################################
+
+ agot_filler_nights_watch.0007.t:0 "[benefactor.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
+ agot_filler_nights_watch.0007.desc:0 "Ich hoffe, diese Nachricht erreicht Euch wohlauf. Ich weiß, dass mein [fallguy.Custom2('RelationToMe', SCOPE.sC('benefactor'))] Euch und Eurer Bruderschaft etwas schuldet. Obwohl [fallguy.GetSheHe] auf [fallguy.Custom('DE_PRO_POS_S_3P')]er Unschuld besteht, werde ich diese Schuld in [fallguy.Custom('DE_PRO_POS_S_3P')]em Namen begleichen, in der Erwartung, dass Ihr mein[fallguy.Custom('DE_END_PRO_S_A')] [fallguy.Custom2('RelationToMe', SCOPE.sC('benefactor'))] dafür nicht länger jagen werdet.\n\nDa ich diese Schuld mehr als angemessen beglichen habe - eine Schuld, die Ihr sonst nie hättet eintreiben können - werde ich von Euch eines Tages erwarten, dass Ihr Euch bei mir revanchiert."
+ agot_filler_nights_watch.0007.a:0 "In Ordnung."
+
+ ####################################################
+ #   agot_nights_watch.0008 - FALLGUY FLEES (FOLLOW-UP)  #
+ ####################################################
+
+ agot_filler_nights_watch.0008.t.good:0 "[ROOT.Char.Custom2('AppropriateGreetingPositive', SCOPE.sC('fallguy'))]"
+ agot_filler_nights_watch.0008.t.bad:0 "An den Schwachsinnigen, der immer noch in [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] weilt"
+ agot_filler_nights_watch.0008.desc.good:0 "Vielleicht habt Ihr es schon bemerkt, aber ich werde nicht zur Mauer zurückkehren.\n\nEs tut mir leid, dass ich Euch getäuscht habe, aber ich kann die Schuld, die Ihr mir auferlegt habt, nicht tragen. Ich schwöre Euch, bei den Alten und den Neuen Göttern, ich habe die Wache nicht bestohlen.\n\nIch weiß, dass Ihr mir nicht glaubt, also werde ich daran arbeiten, meinen entehrten Namen wiederherzustellen, auch wenn ich dafür den Rest meiner Tage in Schande leben muss."
+ agot_filler_nights_watch.0008.desc.bad:0 "Ihr habt meine Abwesenheit in den letzten Wochen nicht einmal bemerkt, oder? Und genau diese verblüffende Unfähigkeit ist es, die mich so verblüfft.\n\nMir gefiel weder Eure Unterstellung des Diebstahls noch Eure Forderung, dass ich irgendeine Schuld zurückzahlen soll, die ich nicht rechtmäßig trage. Deshalb freue ich mich, Euch mitteilen zu können, dass ich nicht zur Mauer zurückkehren werde - nicht jetzt und auch sonst nicht.\n\nIn einem Jahr liege ich vielleicht tot in einem Graben und die Welt verflucht meinen ehrlosen Namen, und doch wird es ein besseres Schicksal sein, als einen solch hirnlosen Herrn Mylord zu nennen."
+ agot_filler_nights_watch.0008.a.good:0 "So sei es."
+ agot_filler_nights_watch.0008.a.bad:0 "Bastard."
+
+ ############################################
+ #   agot_nights_watch.0009 - TROUBLE ADJUSTING  #
+ ############################################
+
+ agot_filler_nights_watch.0009.t:0 "Sonderpädagogik"
+ agot_filler_nights_watch.0009.desc:0 "Sie kommen manchmal als kleine Lordlinge zur Wache, aber am häufigsten als gebrochene Knaben. [troublemaker.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ist ein solcher missratener Bengel, der seine Ausbilder nicht achtet und ohne Anlass zu kämpfen beginnt. Als er den Waffenmeister schließlich zur Weißglut treibt, wird er zu mir geschickt.\n\n"Warum streitest du dich so schnell mit deinen neuen Brüdern?", höhne ich. "Wärst du lieber in einem Zwinger als auf der Mauer?"\n\n"Ja", sagt er sanft. "Ich verdiene keine zweite Chance, nicht nach allem, was ich getan habe. Ich verdiene einen Käfig oder ein Loch, in dem Ihr mich verscharren könnt.""
+ agot_filler_nights_watch.0009.a:0 "So sei es."
+ agot_filler_nights_watch.0009.a.tt:0 "Ihr richtet [troublemaker.GetTitledFirstName] hin"
+ agot_filler_nights_watch.0009.b:0 "Das ist dein Leben, Junge. Akzeptiere es oder such dir selber eine Schaufel."
+ agot_filler_nights_watch.0009.c:0 "Mutters Junge und der Mann auf der Mauer sind nicht derselbe."
+ agot_filler_nights_watch.0009.d:0 "Ich schlage ihn. "Reue wird dich auf der Mauer nicht warm halten."
+ agot_filler_nights_watch.0009.e:0 "Versprecht ihm mehr Verantwortung, damit er seinen Platz finden kann."
+ agot_filler_nights_watch.0009.court_position.tt:0 "#i [troublemaker.GetTitledFirstNameNoTooltip] erwartet in nächster Zeit ein Hofamt#!"
+
+ ############################################
+ #   agot_nights_watch.0010 - TROUBLE ADJUSTING  #
+ ############################################
+
+ agot_filler_nights_watch.0010.toast.t:0 "Ihr bracht ein Versprechen, mehr Verantwortung zu übertragen"
+
+ ###############################################
+ #   agot_nights_watch.0011 - SQUATTER AT THE WALL #
+ ###############################################
+
+ agot_filler_nights_watch.0011.t:0 "Landstreicher an der Mauer"
+ agot_filler_nights_watch.0011.opening:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))|U] [councillor.GetFirstName] wirft mir eine bedauernswert aussehende Kreatur vor die Füße. "Der hier hockte in den Ruinen von [derelict.GetNameNoTier]", sagt [councillor.GetSheHe], aber als [councillor.GetSheHe] spricht, liegt Angst in [councillor.Custom('DE_PRO_POS_S_3P')]en Worten. "[squatter_1.GetSheHe|U]... weiß Dinge. Dinge, die niemand wissen dürfte."\n\n"Gebt mir Obdach", krächzt der Landstreicher, "oder ich werde Eure dunkelsten Gedanken entblößen... Eure geheimen Schandtaten aufdecken."\n\n[councillor.GetTitledFirstNameNoTooltip] verpasst [squatter_1.Custom('DE_PRO_PER_S_3P_D')] einen Tritt, und [squatter_1.GetSheHe] verstummt. "[ROOT.Char.Custom('DE_Anrede')], wir sollten [squatter_1.Custom('DE_PRO_PER_S_3P_A')] hängen."\n\nDer Landstreicher zuckt mit [squatter_1.Custom('DE_PRO_POS_S_3P')]em Daumen in die Richtung von [councillor.GetFirstNameNoTooltip]."
+ agot_filler_nights_watch.0011.secret_murder:0 "Der hier hat [target.GetTitledFirstName] kaltblütig ermordet,"
+ agot_filler_nights_watch.0011.secret_murder_attempt:0 "Der hier wird [target.GetTitledFirstName] kaltblütig töten,"
+ agot_filler_nights_watch.0011.secret_cannibal:0 "Der hier frisst Menschenfleisch,"
+ agot_filler_nights_watch.0011.secret_lover:0 "Der hier treibt es mit [target.GetTitledFirstName],"
+ agot_filler_nights_watch.0011.secret_incest:0 "Der widerliche Bock hier teilt sein Bett oft mit [target.GetTitledFirstName],"
+ agot_filler_nights_watch.0011.secret_sodomite:0 "Die degenerierte Entartung hier teibt es mit anderen Männern,"
+ agot_filler_nights_watch.0011.secret_deviant:0 "Der hier hat einen Hang zu ungewöhnlichen Freuden,"
+ agot_filler_nights_watch.0011.secret_heritage:0 "Die Abstammung von dem hier ist nicht ganz so eindeutig,"
+ agot_filler_nights_watch.0011.closing:0 "sagt [squatter_1.GetSheHe], und das Blut entweicht dem Gesicht von [councillor.GetFirstNameNoTooltip]. "Und Ihr, [ROOT.Char.GetNameNoTooltip]... Auch Ihr habt Geheimnisse, die noch nicht gelüftet wurden.""
+ agot_filler_nights_watch.0011.a:0 "Gebt [squatter_1.Custom('DE_PRO_PER_S_3P_D')] einen Platz zum Ausruhen"
+ agot_filler_nights_watch.0011.a.message.t:0 "Komplott aufgedeckt"
+ agot_filler_nights_watch.0011.a.message.tt:0 "Aus Dankbarkeit verrät Euch der Hausbesetzer, dass ein [scheme.GetSchemeType.GetTypeNameNoTooltip] gegen Euch geschmiedet wird"
+ agot_filler_nights_watch.0011.b:0 "Werft [squatter_1.Custom('DE_PRO_PER_S_3P_A')] in den Kerker"
+ agot_filler_nights_watch.0011.b.message.t:0 "[squatter_1.GetFirstName] deckt Euer Geheimnis auf"
+ agot_filler_nights_watch.0011.b.message.tt:0 "Während der Landstreicher weggebracht wird, verrät #V [squatter_1.GetSheHe]#! allen Euer Geheimnis ([my_secret.GetName])"
+ agot_filler_nights_watch.0011.b.sadistic:0 "Hängt [squatter_1.Custom('DE_PRO_PER_S_3P_A')]"
+ agot_filler_nights_watch.0011.c:0 "Reißt [squatter_1.Custom('DE_PRO_POS_S_3P')]e Zunge raus, bevor [squatter_1.GetSheHe] noch mehr preisgibt"
+
+ ###########################################
+ #   agot_nights_watch.0012 - THE WOLF'S SHADOW #
+ ###########################################
+ agot_filler_nights_watch.0012.t:0 "Der Schatten des Wolfes"
+ agot_filler_nights_watch.0012.opening:0 "Ein Rudel grauer Wölfe hat in der Schenkung Jagd auf das gemeine Volk gemacht, aber die beiden Jagdtrupps, die ausgesandt wurden, kehrten nicht nur mit einem einzelnen Pelz zurück, sondern auch mit einem übel zugerichteten Bruder, [eaten.GetTitledFirstName]. Die Männer sind seither rastlos geworden und nun kursieren Gerüchte in der Wache, dass ein Schattenwolf das Rudel anführt.\n\n"Südlich der Mauer?" [goon.GetTitledFirstName] schnaubt einen der Männer an, als wir uns versammeln. "Es gibt keinen Schattenwolf südlich der Mauer. Das ist eine gerade erst abgestillte Hündin. Ein Schwertstreich und sie geht in die Knie, genau wie"
+ agot_filler_nights_watch.0012.joke.lowborn:0 "[joke.GetFirstNamePossessive] armselige Hure von einer Mutter in Mulwarft."
+ agot_filler_nights_watch.0012.joke.fallback:0 "die Mädchen in Mulwarft."
+ agot_filler_nights_watch.0012.joke.response.new_speaker:0 "\n\n[joke.GetFirstNameNoTooltip] zeigt auf [goon.GetTitledFirstNameNoTooltip]. "Warum tötet Ihr diese einfache Hündin dann nicht?"
+ agot_filler_nights_watch.0012.joke.response.fallback:0 "\n\n[joke.GetFirstNameNoTooltip] zeigt auf [goon.GetTitledFirstNameNoTooltip]. "Warum tötet Ihr diese einfache Hündin dann nicht?"
+ agot_filler_nights_watch.0012.closing:0 "\n\n"Nun, ich möchte [ROOT.Char.GetTitledFirstNameNoTooltip] nicht den Ruhm stehlen", sagt [goon.GetTitledFirstNameNoTooltip] verlegen. "[ROOT.Char.GetSheHe|U] sollte derjenige sein, der den Wolf tötet."
+ agot_filler_nights_watch.0012.a.trusting:0 "Ich verlasse mich voll und ganz auf Euch, [goon.GetFirstName]."
+ agot_filler_nights_watch.0012.a.arrogant:0 "Ihr könnt mir niemals den Ruhm stehlen, [goon.GetFirstName], doch versucht es."
+ agot_filler_nights_watch.0012.a.arbitrary:0 "Da [goon.GetFirstName] die Jagd für so einfach hält, leitet [goon.GetSheHe] sie an."
+ agot_filler_nights_watch.0012.a.cynical:0 "Nein, bitte, zeigt uns, wie simpel es ist, [goon.GetFirstName]"
+ agot_filler_nights_watch.0012.a.fallback:0 "Schickt [goon.GetFirstName], um die nächste Jagd anzuführen."
+ agot_filler_nights_watch.0012.a.tt:0 "Ihr schickt [goon.GetTitledFirstName], um die Wolfsjagd zu leiten"
+ agot_filler_nights_watch.0012.b.arrogant:0 "Ich dürfte der einzige sein, der fähig ist, ihn zu erlegen."
+ agot_filler_nights_watch.0012.b.impatient:0 "Ich werde es selbst tun, jetzt sofort."
+ agot_filler_nights_watch.0012.b.brave:0 "Ich werde ihn jagen - allein, wenn es sein muss."
+ agot_filler_nights_watch.0012.b.paranoid:0 "Ich weiß nicht einmal, ob es Wölfe sind, ich werde ich selbst herausfinden."
+ agot_filler_nights_watch.0012.b.callous:0 "Ich kümmere mich selbst darum, dann wird es sicher erledigt."
+ agot_filler_nights_watch.0012.b.fallback:0 "Sagt ihnen, dass Ihr die nächste Jagd anführen werdet."
+ agot_filler_nights_watch.0012.b.tt:0 "Ihr werdet die Wolfsjagd selbst leiten"
+
+ ###########################################
+ #   agot_nights_watch.0013 - THE WOLF'S SHADOW #
+ ###########################################
+
+ agot_filler_nights_watch.0013.message.great_success.t:0 "[goon.GetTitledFirstName] hat den Wolf erschlagen"
+ agot_filler_nights_watch.0013.message.great_success.tt:0 "[goon.GetTitledFirstName] wurde ausgesandt, um das Wolfsrudel auszurotten, das die Schenkung geplagt hatte, und hat eine erfolgreiche Jagd geführt. Der Leitwolf des Rudels wurde getötet und das Rudel zurück in die Wildnis getrieben."
+ agot_filler_nights_watch.0013.message.success.t:0 "[goon.GetTitledFirstName] hat die Wölfe vertrieben"
+ agot_filler_nights_watch.0013.message.success.tt:0 "Der Jagdtrupp, den Ihr ausgesandt habt, um mit den Wölfen fertig zu werden, war nicht in der Lage, den Leitwolf zu töten, aber das Rudel wurde aus den Dörfern und Festungen der Schenkung vertrieben."
+
+ ###########################################
+ #   agot_nights_watch.0014 - THE WOLF'S SHADOW #
+ ###########################################
+
+ agot_filler_nights_watch.0014.t:0 "Der Schatten des Wolfes"
+ agot_filler_nights_watch.0014.opening.forgiving:0 "Die Jagdtrupps haben ihr Bestes gegeben, aber wenn ich die Angst in ihren Gesichtern sehe, weiß ich, dass die Aufgabe mir zufallen muss."
+ agot_filler_nights_watch.0014.opening.arrogant:0 "Wer außer mir könnte dieses Problem lösen?"
+ agot_filler_nights_watch.0014.opening.brave:0 "Der Gedanke, einem Wolf von Angesicht zu Angesicht gegenüberzustehen, ist entmutigend, aber ich werde tun, was ich tun muss, um die Menschen in der Schenkung zu beschützen."
+ agot_filler_nights_watch.0014.opening.sadistic:0 "Während wir uns auf die Jagd vorbereiten, kann ich nur daran denken, die Bestie aufzuspalten und ihren Kopf auf meiner Mauer aufzuspießen."
+ agot_filler_nights_watch.0014.opening.lustful:0 "Niemand in den Sieben Königslanden wird mir widerstehen können, wenn sie von meinen Heldentaten auf dieser Jagd hören."
+ agot_filler_nights_watch.0014.opening.gluttonous:0 "Ein Wolf hat nicht gerade das beste Fleisch, aber es hat etwas Befriedigendes, das Herz des frisch erlegten Tieres zu essen, und ich bin begierig darauf."
+ agot_filler_nights_watch.0014.opening.impatient:0 "#EMP Los jetzt, #! ist alles, was ich rufen möchte, als wir uns im Hof versammeln und die Männer sich Zeit lassen."
+ agot_filler_nights_watch.0014.opening.hunter:0 "Mein Blut pocht bei dem Gedanken, wieder einmal auf die Jagd zu gehen, und ich weiß, dass ich bald eine neue Trophäe für meine Sammlung haben werde."
+ agot_filler_nights_watch.0014.opening.ambitious:0 "Oh, die Lieder, die sie von dieser Jagd singen werden. Ich kann es kaum erwarten, wenn sich die Männer in fünf Jahren um das Feuer versammeln und darüber schwärmen, wie ich allein dieses Rudel gejagt habe."
+ agot_filler_nights_watch.0014.opening.fickle:0 "Vielleicht ist es ein Fehler, die Jagd selbst in die Hand zu nehmen, aber wer sollte es sonst tun?"
+ agot_filler_nights_watch.0014.closing:0 "Wir brechen noch vor der Dämmerung auf, unsere Gruppe besteht aus mehr als einem Dutzend Schwarzer Brüder. Mit Leichtigkeit finden wir die Fährte des Rudels, und nach ein paar Tagen stellen wir die Wölfe in einem Waldstück, das möglicherweise seit den Ersten Menschen unberührt ist.\n\nDoch je weiter wir in den Wald vordringen, desto mehr scheint [goon.Custom2('MyCharacterIntroduction', ROOT.Char)] die Nerven zu verlieren, und bald wird [goon.GetHerHis] Gejammer unruhig und furchtsam.\n\nDie Abenddämmerung bricht herein, die Fackeln werden entzündet und [goon.GetFirstNameNoTooltip] packt mich am Arm. "Ich spüre ihre Blicke", flüstert [goon.GetSheHe]. "Wir werden verfolgt." Vögel zwitschern und im tiefen Dickicht um uns herum starren die brennenden Lichter unerbittlicher roter Augen zurück und fixieren uns, als wöge der Wald selbst ab, ob wir Raubtier oder Beute sind."
+ agot_filler_nights_watch.0014.a:0 "Befehlt den Männern, Verteidigungsstellung einzunehmen."
+ agot_filler_nights_watch.0014.a.tt:0 "#I Bevorzugt von klugen Charakteren#!"
+ agot_filler_nights_watch.0014.b:0 "Stürmt ins Dickicht, um die Viecher zu verscheuchen."
+ agot_filler_nights_watch.0014.b.tt:0 "#I Bevorzugt von kühnen Charakteren#!"
+
+ ###########################################
+ #   agot_nights_watch.0014 - THE WOLF'S SHADOW #
+ ###########################################
+
+ agot_filler_nights_watch.0015.t:0 "Der Schatten des Wolfes"
+ agot_filler_nights_watch.0015.dire_wolf.defense:0 "Wir lassen die Pferde rasten und nehmen unsere Verteidigungsstellungen ein. Klingen werden in der Dunkelheit gezogen, Stahl blitzt im Fackelschein auf. Zweige rascheln. Büsche zittern. Die Vögel schweigen so still, dass eine kalte Ruhe in jeden von uns eindringt, dann ertönt ein quälendes Geheul, und in der Finsternis antwortet sein Gefährte.\n\nWölfe stürmen aus dem Wald, Reißzähne und Krallen und graues Fell, das wie ein aufgewühltes graues Meer um uns herumwirbelt. Über dem Gebell der Bestien schreit [goon.GetTitledFirstName] vor Schmerz auf. [goon.GetSheHe|U] liegt auf dem Bauch, über ihm thront ein ungeheurer, knurrender Schattenwolf, seine Schnauze blutverschmiert und seine blauen Augen so kalt wie der Winter. Sein Blick richtet sich auf mich und er hechtet los, sein Maul schnappt vor Hass,\n\n"
+ agot_filler_nights_watch.0015.dire_wolf.offense:0 "Ich ziehe mein Schwert, brülle auf, stürme auf das Dickicht zu. Die anderen schwarzen Brüder sind erschrocken und folgen mir nur zögerlich. Äste knacken, Wölfe winseln und flüchten vor Angst, als ich mich durch eine verzweigte Bresche in den Wald schlage.\n\nDann erstarre ich. Ein Schattenwolf von gewaltiger Größe stellt sich mir in den Weg, als ich das Gebüsch lichte. Sein heißer, stinkender Atem weht mir ins Gesicht, derweil er knurrt und geifert. Ich halte die Stellung, woraufhin er einen kleinen Schritt zurückweicht, und als ich seine Angst spüre, greife ich an. Seine messerscharfen Klauen schlagen nach mir, aber"
+ agot_filler_nights_watch.0015.grey_wolf.defense:0 "Wir lassen die Pferde rasten und nehmen unsere Verteidigungsstellungen ein. Klingen werden in der Dunkelheit gezogen, Stahl blitzt im Fackelschein auf. Zweige rascheln. Büsche zittern. Die Vögel schweigen so still, dass eine kalte Ruhe in jeden von uns eindringt, dann ertönt ein quälendes Geheul, und in der Finsternis antwortet sein Gefährte.\n\nWölfe stürmen aus dem Wald, Reißzähne und Krallen und graues Fell, das wie ein aufgewühltes graues Meer um uns herumwirbelt. Über dem Gebell der Bestien schreit [goon.GetTitledFirstName] vor Schmerz auf. [goon.GetSheHe|U] liegt auf dem Bauch, über ihm thront ein knurrender, grauer Wolf, seine Schnauze blutverschmiert und seine blauen Augen so kalt wie der Winter. Sein Blick richtet sich auf mich und er hechtet los, sein Maul schnappt vor Hass,"
+ agot_filler_nights_watch.0015.grey_wolf.offense:0 "Ich ziehe mein Schwert, brülle auf, stürme auf das Dickicht zu. Die anderen schwarzen Brüder sind erschrocken und folgen mir nur zögerlich. Äste knacken, Wölfe winseln und flüchten vor Angst, als ich mich durch eine verzweigte Bresche in den Wald schlage.\n\nDann erstarre ich. Ein grauer Wolf von gewaltiger Größe stellt sich mir in den Weg, als ich das Gebüsch lichte. Sein heißer, stinkender Atem weht mir ins Gesicht, derweil er knurrt und geifert. Ich halte die Stellung, woraufhin er einen kleinen Schritt zurückweicht, und als ich seine Angst spüre, greife ich an. Seine messerscharfen Klauen schlagen nach mir, aber"
+ agot_filler_nights_watch.0015.success:0 "aber ich weiche seinem Streich aus und stoße mein Schwert durch die Kehle der Bestie. Jaulend verkrampft er sich und bricht vor mir zusammen, während die anderen Wölfe die Flucht ergreifen."
+ agot_filler_nights_watch.0015.failure:0 "und ich kann den Schlag nicht abwehren. Die Klauen bohren sich in meinen Arm und schleudern mich zu Boden. Blut durchtränkt meinen Mantel, dicke Klumpen schwarzen Schmutzes bedecken mein Gesicht, derweil sich die Welt um mich herum dreht und dreht und dreht.\n\n Die Bestie knurrt"
+ agot_filler_nights_watch.0015.failure.craven:0 "und ich pisse mich vor Angst ein."
+ agot_filler_nights_watch.0015.failure.brave:0 "und mein Herz hämmert. Dies wird nicht mein Ende sein."
+ agot_filler_nights_watch.0015.failure.patient:0 "und in meinen Gedanken fordere ich ihn auf, näher zu kommen."
+ agot_filler_nights_watch.0015.failure.callous:0 "und ich lächle vor mich hin, amüsiert über diese Wendung der Ereignisse."
+ agot_filler_nights_watch.0015.failure.trusting:0 "und ich bete um Erlösung."
+ agot_filler_nights_watch.0015.failure.calm:0 "und ich drehe mich um und blicke in den leeren Nachthimmel. Wird es so enden?"
+ agot_filler_nights_watch.0015.failure.fallback:0 "und ich atme tief durch, um mich auf das vorzubereiten, was kommt."
+ # Success
+ agot_filler_nights_watch.0015.compassionate:0 "Die arme Bestie..."
+ agot_filler_nights_watch.0015.calm:0 "Ich habe Glück, noch am Leben zu sein."
+ agot_filler_nights_watch.0015.deceitful:0 "Hatte ich Angst? Nicht einen Moment lang."
+ agot_filler_nights_watch.0015.brave.dire_wolf:0 "Ein würdiger Gegner."
+ agot_filler_nights_watch.0015.brave.grey_wolf:0 "Er war nicht annähernd so bestialisch wie ich befürchtet hatte."
+ agot_filler_nights_watch.0015.craven:0 "Ich werde nie wieder etwas so Dummes tun"
+ agot_filler_nights_watch.0015.wrathful:0 "Ich bin unantastbar!"
+ agot_filler_nights_watch.0015.greedy:0 "Er wird auf der Mauer gut aussehen, nicht wahr?"
+ agot_filler_nights_watch.0015.cynical:0 "Hätte [goon.GetFirstNameNoTooltip] das gleiche für mich getan?"
+ agot_filler_nights_watch.0015.impatient:0 "Und jetzt nichts wie raus aus diesem verdammten Wald."
+ agot_filler_nights_watch.0015.ambitious:0 "Haus [ROOT.Char.GetDynastyName]!"
+ agot_filler_nights_watch.0015.just:0 "Gibt es nicht noch mehr?"
+ agot_filler_nights_watch.0015.vengeful:0 "Habe ich Glück oder bin ich geschickt?"
+ agot_filler_nights_watch.0015.zealous:0 "Die Anderen sollten sie alle holen!"
+ agot_filler_nights_watch.0015.gregarious:0 "Seid Ihr noch auf meiner Seite, [goon.GetFirstNameNoTooltip]?"
+ agot_filler_nights_watch.0015.lustful:0 "Und jetzt ein junges Weib!"
+ agot_filler_nights_watch.0015.gluttonous:0 "Gibt es etwas Besseres als selbst erlegtes Wild?"
+ # Failure
+ agot_filler_nights_watch.0015.failure_1:0 "Zieht einen Dolch und kämpft um euer Leben"
+ agot_filler_nights_watch.0015.failure_2:0 "Stellt Euch tot"
+ agot_filler_nights_watch.0015.failure_3:0 "Akzeptiert Euer Schicksal"
+ every_dedicated_black_brother_0015:0 "Jeder Bruder der Nachtwache, dem es nicht gefällt, dass Ihr Eurem eigenen Haus gegenüber Loyalität zeigt"
+ agot_filler_nights_watch.0015.bear.offense:0 "Ich ziehe mein Schwert, brülle auf und stürze auf das Dickicht zu. Erschrocken folgen mir die anderen schwarzen Brüder zögernd. Ich stürze durch das Gebüsch und erwarte, dass sich die Wölfe sogleich auf mich stürzen, aber stattdessen finde ich mich allein auf einer Lichtung wieder. Wo sind die Wölfe?\n\nDann sehe ich das Monster, das die Schenkung geplagt hat. Es ist nicht der Schattenwolf, den jeder meiner Brüder insgeheim fürchtete, es ist nicht einmal ein gewöhnlicher Wolf.\n\nDer Bär ist riesig, seine Hinterläufe sind größer und stärker als die eines Streitrosses, seine Vorderpranken haben die Größe eines Schildes. Mit einem Brüllen wie ein Schiff, das gegen Felsen kracht, stürmt die Bestie auf mich zu. Die Zeit bleibt stehen und ich erblicke plötzlich die Wölfe, die die Lichtung einkreisen und darauf warten, dass das größere Biest mich erledigt.\n\nDas Maul des Bären ist weit aufgerissen, als er sich auf mich stürzt,"
+ agot_filler_nights_watch.0015.bear.defense:0 ""Wir lassen die Pferde rasten und nehmen unsere Verteidigungsstellungen ein. Klingen werden in der Dunkelheit gezogen, Stahl blitzt im Fackelschein auf. Zweige rascheln. Büsche zittern. Die Vögel schweigen so still, dass eine kalte Ruhe in jeden von uns eindringt, dann ertönt ein quälendes Geheul, und in der Finsternis antwortet sein Gefährte.\n\nWölfe stürmen aus dem Wald, Reißzähne und Krallen und graues Fell, das wie ein aufgewühltes graues Meer um uns herumwirbelt. Über dem Gebell der Bestien schreit [goon.GetTitledFirstName] vor Schmerz auf. [goon.GetSheHe|U] liegt auf dem Bauch, über ihm thront nicht der gefürchtete Schattenwolf, auch kein gewöhnlicher Wolf, sondern ein Bär von ungeheurem Wuchs. Er wendet sich mir zu, sein breites Antlitz ist blutverschmiert, seine Augen sind weit und gierig. Schneller als jedes Tier dieser Größe sich bewegen kann, stürzt er sich auf mich,"
+
+ agot_filler_nights_watch.0016.t:0 "PLATZHALTER"
+ agot_filler_nights_watch.0016.desc:0 "PLATZHALTER"
+ agot_filler_nights_watch.0016.a:0 "PLATZHALTER"
+
+ agot_filler_nights_watch.0017.t:0 "Der Schatten des Wolfes"
+ agot_filler_nights_watch.0017.desc:0 "Die Überbleibsel des Jagdtrupps, der ausgesandt wurde, um das Wolfsrudel zu vertreiben, das die Schenkung in Angst und Schrecken versetzt hat, humpelt geschlagen und blutig nach Hause. Einige meiner Brüder sind erst gar nicht von der Schenkung zurückgekehrt, und ich spüre ihren Verlust wie einen Dolchstoß in meinem Magen. Diese Wölfe scheinen kein gewöhnliches Rudel zu sein. Als einer meiner Männer endlich die Fassung wiederfindet und einen schlüssigen Bericht über die Geschehnisse liefert, spricht er von einer mächtigen Bestie mit blauen Augen und schwarzem Fell. Sie wurden in einen Hinterhalt gelockt, sagt er, und sind nur knapp mit dem Leben davongekommen.\n\nWas ist aus der Nachtwache geworden? Wir sind verpflichtet, die Reiche der Menschen zu schützen, aber wir können nicht einmal unsere Nächsten vor wilden Tieren schützen."
+ agot_filler_nights_watch.0017.a:0 "Dieser Misserfolg ist ein Schandfleck für den Ruf der Nachtwache."

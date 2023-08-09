@@ -1,0 +1,401 @@
+﻿l_german:
+#Übersetzt von Dillo
+
+##########################
+#       Morne            #
+#       0100 - 0101      #
+##########################
+
+ agot_filler_stormlands.0100.t:0 "Antikes Wissen von Morne"
+ agot_filler_stormlands.0100.desc:0 "Mein [steward.GetCouncilTitle], [steward.GetTitledFirstName], kommt mit einem beeindruckenden Vorschlag auf mich zu: Die Überlieferungen besagen, dass an der Ostküste von Tarth einst ein altes Kleinkönigreich seinen Sitz hatte.\n\nOb die Kleinkönige Andalen oder Erste Menschen waren, ist zwar umstritten, aber bekannt ist, dass der Vollkommene Ritter, Ser Galladon, Morne seine Heimat nannte. \n\n"Welch uraltes Wissen könnte in diesen Ruinen verborgen sein...", sagt [steward.GetFirstNameNicknamedNoTooltip] mit einem Lächeln, "wenn wir nur eine Expedition aussenden würden, um diese Küsten zu erkunden...""
+ agot_filler_stormlands.0100.a:0 "Das Streben nach Wissen ist den Preis wert."
+ agot_filler_stormlands.0100.a_tt:0 "Ihr nehmt das Angebot an, eine Expedition zu finanzieren, aber wie viel Geld wird dafür benötigt?"
+ agot_filler_stormlands.0100.b:0 "Hoffentlich lohnt sich dieses Unterfangen..."
+ agot_filler_stormlands.0100.b_tt:0 "Ihr akzeptiert widerwillig die Finanzierung einer Expedition, doch wie viel Geld wird dafür benötigt?"
+ agot_filler_stormlands.0100.c:0 "Warum sollte ich mein Gold für die Torheiten von Gemeinen ausgeben?"
+ agot_filler_stormlands.0100.c_tt:0 "Ihr lehnt die Finanzierung der Expedition ab. Sicherlich ist sie die Kosten nicht wert."
+
+ agot_filler_stormlands.0101.t:0 "Antikes Wissen von Morne"
+ agot_filler_stormlands.0101.desc:0 "Die Expedition ist zu den uralten Ruinen von Morne aufgebrochen.\n\nEs heißt, dass Ser Galladons Taten so großartig waren, dass sich die Jungfrau selbst in ihn verliebte. Die Expedition wird die Ruinen nach Anzeichen für die sagenumwobene Klinge des Vollkommenen Ritters, #italic Gerechte Maid#!, durchsuchen und alles seltene Wissen, das an den Ufern der Vergangenheit verborgen ist, zurückbringen.\n\n"Jetzt müssen wir nur noch bestimmen, wie lange diese Expedition dauern soll", erinnert mich [steward.GetTitledFirstName]."
+ agot_filler_stormlands.0101.a:0 "Das reicht doch sicher..."
+ agot_filler_stormlands.0101.a_tt:0 "Ihr erklärt Euch bereit, die Expedition für sechs Monate zu finanzieren."
+ agot_filler_stormlands.0101.b:0 "Wissen ist jeden Preis wert!"
+ agot_filler_stormlands.0101.b_tt:0 "Ihr erklärt Euch bereit, die Expedition ein Jahr lang zu finanzieren."
+ agot_filler_stormlands.0101.c:0 "Wenn ich es mir recht überlege..."
+ agot_filler_stormlands.0101.c_tt:0 "Ihr verweigert die Finanzierung der Expedition. Das war reine Zeitverschwendung!"
+
+############################
+#       TODO Witch         #
+#       0200 - 0204?       #
+############################
+
+ agot_filler_stormlands.0200.t:0 "Hexe im Regenwald" 
+ agot_filler_stormlands.0200.desc:0 "Es war eine Nacht wie viele andere, als ich in meinen Gemächern in stiller Einkehr saß und endlich eine Pause von dem ständigen Ansturm meiner Höflinge und Ratsmitglieder hatte. Meine Ruhe wurde - natürlich - durch das unaufhörliche Klopfen von [steward.GetTitledFirstName] an meiner Tür gestört. Schließlich stand ich auf, um [Kämmerer.Custom('DE_PRO_PER_S_3P_A')] hereinzulassen, und ließ durch meine mürrische Miene erkennen, dass ich die Unterbrechung durch [Kämmerer.Custom('DE_PRO_PER_S_3P_A')] nicht besonders schätzte.\n\n“[ROOT.Char.Custom('DE_Anrede')], wir haben... beunruhigende Berichte über eine Frau erhalten, die tief im Regenwald unheilvolle Rituale durchführt. Manche würden sagen, dass es sich um die üblichen Lügengeschichten des gemeinen Volkes handelt, aber da sich die Berichte häufen, wäre es töricht, dies zu ignorieren. Möchtet Ihr, dass ich eine Gruppe von Rittern losschicke, um die Sache zu untersuchen?”"
+ agot_filler_stormlands.0200.a:0 "“Was ich möchte, [steward.GetTitledFirstName], ist Ruhe.”"
+ agot_filler_stormlands.0200.a_tt:0 "Die Beschwerden der Bevölkerung werden wahrscheinlich anhalten..."
+
+ agot_filler_stormlands.0201.t:0 "Hexe im Regenwald"
+ agot_filler_stormlands.0201.desc:0 "Ich dachte, die Geschichten über diese #N Hexe#! im Regenwald wären nur Hörensagen, aber jetzt steht eine Masse von Bauern vor mir, die allesamt dasselbe beunruhigende Flehen vorbringen wollen...\n\nDas Gesindel übertreibt vielleicht, aber vielleicht sollte ich ihrem Hilferuf nachkommen."
+ agot_filler_stormlands.0201.a:0 "Ich werde [marshal.GetTitledFirstName] senden, um dies zu klären."
+ agot_filler_stormlands.0201.a_tt:0 "Mit [marshal.Custom('DE_PRO_PER_S_3P_G')] ruhiger Hand wird sich die Situation sicher glätten."
+ agot_filler_stormlands.0201.b:0 "Ich habe genug von diesen grausamen Geschichten gehört!"
+ agot_filler_stormlands.0201.b_tt:0 "Ein solches Gerede wird Euch sicher in Euren Träumen verfolgen..."
+
+ agot_filler_stormlands.0202.t:0 "Hexe im Regenwald"
+ agot_filler_stormlands.0202.desc:0 "[marshal.GetTitledFirstName] ist zurückgekehrt, und ich bin begierig darauf, die Sache mit der #N-Hexe#! hinter mir zu lassen. Aber ich weiß von dem Moment an, in dem [marshal.GetSheHe] hereinkommt, dass die Nachrichten düster sein werden.\n\n“Custom('DE_Anrede'),” [marshal.GetSheHe] sagt er leise, kaum ein Flüstern. “Die Hexe verlangt nach einer Audienz...”"
+ agot_filler_stormlands.0202.a:0 "Das ist ein #bold Alptraum#!."
+ agot_filler_stormlands.0202.a_tt:0 "Ihr müsst Vorbereitungen treffen, bevor Ihr einen solchen Besuch gestattet. Aber Ihr werdet es nicht wagen, diese Bitte zu ignorieren..."
+
+ agot_filler_stormlands.0203.t:0 "Hexe im Regenwald"
+ agot_filler_stormlands.0203.desc:0 "Meine Vorbereitungen sind getroffen, und [marshal.GetTitledFirstName] wurde ein weiteres Mal ausgesandt, um mit der #N Hexe#! zu verhandeln. [marshal.GetSheHe] soll sie zu einer Audienz an den Hof bringen.\n\nDer Sturm vor den Mauern scheint besonders heftig zu sein, als [marshal.GetFirstNameNicknamedNoTooltip] zurückkehrt. Ein Blitz erhellt den Raum, gefolgt von einem lauten Donnerschlag... Und da ist sie - blendend in der Erscheinung, mit einer fast unheimlichen Anmut.\n\nDie Worte der Hexe scheinen direkt in meinen Kopf zu dringen, während meine Höflinge sie fassungslos anstarren. Sie fordert mich auf, ihr zu dienen..."
+ agot_filler_stormlands.0203.a:0 "Ja, Mylady..."
+ agot_filler_stormlands.0203.a_tt:0 "Auch wenn Tage vergehen, könnt Ihr die Stimme der Hexe in Eurem Kopf nicht abschütteln."
+ agot_filler_stormlands.0203.b:0 "#bold Hinfort, Weibsstück!#!"
+ agot_filler_stormlands.0203.b_tt:0 "Ihr treibt die Hexe aus, aber eine solche Behandlung ist nicht ungefährlich."
+
+################################
+#       Dornish Traders        #
+#       0300 - 0303?           #
+################################
+
+ agot_filler_stormlands.0300.t:0 "Eine dornische Handelskarawane"
+ agot_filler_stormlands.0300.desc:0 "Mein [steward.GetCouncilTitle], [steward.GetTitledFirstName], kennt sich gut mit dem Handel aus - und noch mehr damit, welche Waren auf unseren heimischen Märkten einen hübschen Gewinn abwerfen werden.\n\nHeute ist [steward.GetSheHe|l] mit einem verblüffenden Vorschlag zu mir gekommen: Eine Handelskarawane aus Dorne hat um die Erlaubnis gebeten, ihre Waren in meiner Domäne zu verkaufen. [steward.GetSheHe|U] verspricht, dass es sich lohnen wird."
+ agot_filler_stormlands.0300.a:0 "Das klingt nach einem guten Geschäft!"
+ agot_filler_stormlands.0300.a_tt:0 "Ihr baut eine neue Handelsbeziehung mit den Dornischen auf."
+ agot_filler_stormlands.0300.b:0 "Mir gefällt nicht, wie das klingt."
+ agot_filler_stormlands.0300.b_tt:0 "Handel mag Wohlstand bringen, aber er bringt auch Fremde ins Land..."
+ agot_filler_stormlands.0300.c:0 "Ich werde ihren Vorschlag in Betracht ziehen, doch zu einem gewissen Preis."
+ agot_filler_stormlands.0300.c_tt:0 "Ihr bietet an, Euch mit den dornischen Händlern zu treffen, wenn sie zuerst ihre Truhen öffnen."
+ agot_filler_stormlands.0300.d:0 "Ich werde zusagen, aber ich muss mir über meine neuen Handelspartner sicher sein."
+ agot_filler_stormlands.0300.d_tt:0 "Ihr heuert einige vertrauenswürdige Geschäftspartner an, um sicherzustellen, dass die Dornischen nichts Böses im Schilde führen."
+ agot_filler_stormlands.0300.e:0 "Ah, ja, nun... Ich möchte lieber nicht mit noch mehr Leuten zu tun haben."
+ agot_filler_stormlands.0300.e_tt:0 "Allein #italic diese#! Unterhaltung ist schon genug gewesen!"
+
+ agot_filler_stormlands.0301.t:0 "Eine dornische Handelskarawane: Die Erpressung"
+ agot_filler_stormlands.0301.desc:0 "Die dornischen Händler waren in der Lage, für die Gelegenheit, mich zu treffen, zu bezahlen... Was haben sie mir also noch zu bieten?\n\nIch habe sie zu einem Treffen eingeladen, doch sie werden zahlen müssen.."
+ agot_filler_stormlands.0301.a:0 "Vielleicht sollten wir ein anderes Mal darauf zurückkommen."
+ agot_filler_stormlands.0301.a_tt:0 "Ihr seid von der Masche nicht begeistert und schlagt vor, das Treffen zu verschieben."
+ agot_filler_stormlands.0301.b:0 "Zeit, die Zeche zu zahlen!"
+ agot_filler_stormlands.0301.b_tt:0 "Ihr nehmt den dornischen Händlern ihre Wertsachen und ihr gesamtes Gold ab."
+ agot_filler_stormlands.0301.c:0 "Oh, das wird ein Spaß..."
+ agot_filler_stormlands.0301.c_tt:0 "Ihr beschließt, die Händler noch ein wenig länger warten zu lassen... #bold in Eurem Kerker!#!"
+
+ agot_filler_stormlands.0302.t:0 "Eine dornische Handelskarawane: Die Erpressung"
+ agot_filler_stormlands.0302.desc:0 "Ich kann mich kaum noch daran erinnern, warum ich diese Dornischen eingesperrt habe, aber meine Höflinge werden langsam unruhig angesichts dieser Situation.\n\nEs ist an der Zeit, dass ich mich mit diesen Händlern auseinandersetze, und zwar endgültig."
+ agot_filler_stormlands.0302.a:0 "So viel zu dem Handelsangebot!"
+ agot_filler_stormlands.0302.a_tt:0 "Ihr foltert die dornischen Händler zu Tode."
+
+################################
+#       Unbearable Storm       #
+#       0400 - 0402            #
+################################
+
+ agot_filler_stormlands.0400.t:0 "Unerbittlicher Sturm"
+ agot_filler_stormlands.0400.desc:0 "Durran Götterfluch wusste, was er tat, als er einen Bergfried baute, um den Stürmen zu trotzen. Jetzt zweifle ich an seiner Entscheidung.\n\nSeit gefühlten Monaten tobt ein unerträglicher Sturm gegen meinen Bergfried. Da kein Ende in Sicht ist, habe ich mich die ganze Zeit versteckt.\n\nIch fürchte, der Sturm treibt mich in den Wahnsinn. Ich muss handeln. Ich steige in die oberste Ebene des Trommelturms und öffne ein Fenster..."
+ agot_filler_stormlands.0400.a:0 "#bold UNSER IST DER ZORN!#!"
+ agot_filler_stormlands.0400.a_tt:0 "Ihr schreit laut in die stürmische Leere."
+
+ agot_filler_stormlands.0401.t:0 "Unerbittlicher Sturm"
+ agot_filler_stormlands.0401.desc:0 "#bold Es hat geholfen!#! Ich hatte nicht erwartet, dass der Schrei etwas bewirken würde, doch sobald ich das Fenster schloss, verstummte das Geräusch des prasselnden Regens."
+ agot_filler_stormlands.0401.a:0 "Ich sollte öfter mal schreien..."
+ agot_filler_stormlands.0401.a_tt:0 "Das war unerwartet!"
+
+ agot_filler_stormlands.0402.t:0 "Unerbittlicher Sturm"
+ agot_filler_stormlands.0402.desc:0 "Mein Schrei zerriss den Lärm des prasselnden Regens, aber der Sturm ging trotzig weiter. Doch als ich das Fenster schließe, habe ich das Gefühl, dass die Übel, die meinen Körper heimgesucht haben, im Sog des Sturms davongefegt wurden."
+ agot_filler_stormlands.0402.a:0 "Ich bin neu geboren."
+ agot_filler_stormlands.0402.a_tt:0 "Ihr sprecht ein Gebet zu Elenei, der Tochter des Meergottes."
+
+###########################
+#       Plötzlicher Sturm      #
+#     ZombieSchrodCat     #
+#       0403 - 0410       #
+###########################
+
+ agot_filler_stormlands.0403.t:0 "Plötzlicher Sturm"
+ agot_filler_stormlands.0403.desc:0 "Als ich durch meine Ländereien ritt, war zunächst alles in Ordnung. Die Sonne stand hoch am Himmel und wärmte meinen Rücken mit ihrer Umarmung. Doch die Sturmlande machen ihrem Namen alle Ehre und lassen weder den Himmel noch die See lange ruhig bleiben. \n\nEs fängt nur mit Nieselregen an, aber schon bald hat sich der Himmel vollständig zugezogen und die Winde heulen so stark durch das Tal wie in den Erzählungen von Durran Götterfluch. Zu meinem Unglück scheint mein Sturmkap für diesen Tag ein altes, verfallenes Gehöft zu sein, das ich ein paar hundert Meter entfernt auf einem Bergrücken entdeckt habe."
+ agot_filler_stormlands.0403.a:0 "Ich werde schnellstmöglich dorthin reiten!"
+
+ agot_filler_stormlands.0404.t:0 "Plötzlicher Sturm: Banditen suchen Schutz"
+ agot_filler_stormlands.0404.desc:0 "Ich erreichte das Bauernhaus recht schnell und schaffte es, mich einzurichten. Ein paar alte Holzscheite lagen neben der Feuerstelle, und zum Glück gelang es mir, sie anzuzünden, was mir ein wenig Trost spendete, als der Nachmittag zum Abend wurde. Als die Dämmerung einsetzte, hörte ich das Trommeln von Hufen auf dem Boden, das das Rauschen des Regens durchbrach, der gegen das undichte Dach peitschte. \n\nIch stehe auf und werfe einen Blick aus dem Fenster auf eine Gruppe von Landstreichern, die vor der Tür aufgetaucht sind und mein Pferd mit böser Miene beäugen. Sie sind von der Sorte, die ich schon aus einer Meile Entfernung als Gauner erkenne. Sie haben offensichtlich seit vielen Monaten kein warmes Bett mehr gesehen.\n\nAls sie näher kommen, entscheide ich, dass es das Beste ist, den ersten Schritt zu machen. Ich gehe zur Tür und öffne sie, während der Anführer der Gruppe nur wenige Meter von mir entfernt steht."
+ agot_filler_stormlands.0404.a:0 "Ich ziehe mein Schwert und greife den Anführer an."
+ agot_filler_stormlands.0404.b:0 ""Meine Herren! Ich bin froh über etwas Gesellschaft.""
+ agot_filler_stormlands.0404.c:0 "Ich bezahle sie, dann werden sie mich nicht anrühren."
+ agot_filler_stormlands.0404.d:0 "Ich werde versuchen, mit ihrem Anführer zu verhandeln."
+ agot_filler_stormlands.0404.success_title:0 "Frieden geschlossen"
+ agot_filler_stormlands.0404.failure_title:0 "Ein Kampf bricht aus!"
+
+ agot_filler_stormlands.0405.t:0 "Plötzlicher Sturm: Ein Kampf auf Leben und Tod"
+ agot_filler_stormlands.0405.desc:0 "Der Anführer der Banditen zieht kurz nach Euch sein Schwert. Friedlich aus dieser Situation zu entkommen, war anscheinend nie eine Option. Er gestikuliert zu seinen Handlangern und weist sie wortlos an, die Sache ihm zu überlassen. Er ist ärmlich gekleidet, sein Gambeson ist an einigen Stellen gerissen, von früheren Kämpfen und vom Verschleiß.\n\n“Seid Ihr sicher, dass Ihr das tun wollt?” sagt er und hebt seine Deckung, als Ihr Euch nähert, ohne auch nur einen Zentimeter zu weichen."
+ agot_filler_stormlands.0405.a:0 ""Ich habe schon größere Krieger geschlagen als Euch.""
+ agot_filler_stormlands.0405.success_title:0 "Kampf gewonnen"
+ agot_filler_stormlands.0405.failure_title:0 "Kampf verloren..."
+
+ agot_filler_stormlands.0406.t:0 "Plötzlicher Sturm: Ungebetene Gäste"
+ agot_filler_stormlands.0406.desc:0 "Die Nacht mit einem Haufen Banditen zu verbringen, war in etwa so friedlich, wie es sich anhört. Keiner von ihnen hat mich behelligt, den Göttern sei Dank, aber ihnen dabei zuzusehen, wie sie sich in der gemeinsten, kehligen Sprache unterhalten und ranzige Weinschalen leer trinken, war nicht gerade ein angenehmer Abend. Es ist unnötig zu erwähnen, dass es keine gute Idee war, in der Nähe einer Bande von Halsabschneidern zu schlafen, nur um die Zeit zu überbrücken.\n\nAls der Tag anbrach, zog auch der Sturm ab. Es scheint, als hätte der Himmel nichts mehr zu bieten, was sich auf Eure Ländereien ergießen könnte. Nicht lange nachdem sich der Sturm gelegt hatte, zogen auch die Banditen von dannen."
+ agot_filler_stormlands.0406.a:0 "Ich bete, dass sich unsere Wege nie wieder kreuzen."
+
+ agot_filler_stormlands.0407.t:0 "Plötzlicher Sturm: Eine einsame Nacht"
+ agot_filler_stormlands.0407.desc:0 "Nachdem ich mein Pferd eingespannt hatte, machte ich mich auf den Weg zu dem verfallenen Heim. Dem Aussehen nach zu urteilen, war es schon seit mindestens einem Jahrzehnt verlassen. Das Innere roch nach Feuchtigkeit und Fäulnis, und die spärlichen Möbel des Bauern, der es bewohnt hatte, wimmelten von Asseln. Es herrschte jedoch eine seltsame Ruhe. Keine Ratsherren, die mich mit ihren Gesuchen belästigten, keine Speichellecker oder Kriecher, die um meine Gunst warben. Etwas Zeit für mich selbst, wenn auch nicht unter den besten Umständen.\n\nEs dauerte die ganze Nacht, bis sich der Sturm legte, aber immerhin konnte ich ein paar Stunden Schlaf bekommen. "
+ agot_filler_stormlands.0407.a:0 "Es ist Zeit, nach Hause zu gehen."
+
+ agot_filler_stormlands.0408.t:0 "Plötzlicher Sturm: Die Kriegsbeute"
+ agot_filler_stormlands.0408.desc:0 "Sobald ich mein Pferd angebunden hatte, machte ich mich auf den Weg zu dem verfallenen Haus. Dem Aussehen nach zu urteilen, war es schon seit mindestens einem Jahrzehnt verlassen. Das Innere roch nach Feuchtigkeit und Fäulnis, und die spärlichen Möbel des Bauern, der es bewohnt hatte, wimmelten von Asseln. So wie es aussieht, wurde es überstürzt verlassen; die Bewohner wurden wahrscheinlich durch den Krieg verjagt.\n\nIn ihrer Eile hatten sie jedoch all ihre Wertsachen zurückgelassen. Oder, was wahrscheinlicher ist, sie hatten sie bewusst versteckt, in der Hoffnung, dass sie zurückkommen würden, um sie zurückzuholen. Als ich zur Feuerstelle hinüberging, sah ich, dass eine der Bodendielen weggefault war und eine kleine Schatulle zum Vorschein kam, in der ein paar Golddrachen und vierzig Silberhirsche lagen."
+ agot_filler_stormlands.0408.a:0 "Es scheint, dass mir das Glück doch noch hold ist."
+
+ agot_filler_stormlands.0409.t:0 "Plötzlicher Sturm"
+ agot_filler_stormlands.0409.desc:0 "Als ich zu dem Gehöft galoppierte, sah ich bald, dass ich nicht der Einzige in der Gegend war, der Zuflucht zu suchen gedachte. Ein Maultier saß untätig an einem der wenigen verbliebenen Zaunpfähle angebunden, doch zum Glück war noch ein weiterer vorhanden, an dem ich mein Pferd festbinden konnte. Der Sattel des Maultiers war ziemlich schlicht, abgesehen von einem siebenzackigen Stern, der auf der linken Seite aufgenäht war.\n\nDie Tür öffnete sich knarrend und ein dürrer alter Mann stand an ihrer Stelle - ein reisender Septon, der wallende weiße Gewänder und einen Kristall um den Hals trug. Er winkte mich freundlich herein und unterhielt sich bis in die frühen Morgenstunden mit mir über den Glauben. Er hörte erst auf, als es hell wurde und der Sturm nachließ."
+ agot_filler_stormlands.0409.a:0 "Eher hätte ich mit seinem Maultier über den Glauben gesprochen als mit ihm."
+ agot_filler_stormlands.0409.b:0 "Er hat einige sehr interessante Punkte genannt..."
+ agot_filler_stormlands.0409.c:0 "Ich bin mir nicht sicher, was ich von seinen Worten halten soll..."
+
+ agot_filler_stormlands.0410.t:0 "Plötzlicher Sturm: Heckenritter"
+ agot_filler_stormlands.0410.desc:0 "Als ich zum Gehöft galoppierte, sah ich bald, dass ich nicht der Einzige in der Gegend war, der die Idee hatte, Schutz zu suchen. Draußen waren zwei Pferde an einem Pflock angebunden, ein großer Runtzid und ein kleiner Zlelter. Beide trugen reichlich Proviant auf dem Rücken, und der Runtzid trug zudem ein Schild mit unbekanntem Wappen darauf.\n\nAls der Mann meine Schritte hörte, öffnet er die Tür. Er steht in einem leicht ramponierten Waffenrock da, die Hand am Griff seines Schwertes. Er beruhigt sich jedoch schnell, als er merkt, dass ich kein Räuber bin. Er bittet mich herein und gibt sich als Heckenritter zu erkennen. Wir saßen bis in die frühen Morgenstunden zusammen und sprachen über die Turniere, an denen wir beide teilgenommen hatten, und über die Schlachten, in denen wir beide gekämpft hatten."
+ agot_filler_stormlands.0410.a:0 "Als wir aufbrechen, lade ich ihn ein, an meinem Hof zu dienen."
+ agot_filler_stormlands.0410.b:0 "Es war ein sehr angenehmer Abend."
+
+###############################
+# The "Sand" Storm of a Woman #
+#     ZombieSchrodCat         #
+#       0411 - 0414           #
+###############################
+
+ agot_filler_stormlands.0411.t:0 "Ein Sandsturm von einer Frau"
+ agot_filler_stormlands.0411.desc:0 "Der Anführer meiner Garde kam zu mir und berichtete von einer Verhaftung, die er zu vollstrecken hatte. Die niedriggeborene Tochter eines einfachen dornischen Edelmanns ward von seinen Männern gefangen, nachdem sie sich in einer Schenke in eine Rauferei mit einer Schar von Männern verwickelte - da sie vernommen hatte, wie jene einige leichtsinnige Worte über die Dornischen verlauten ließen. Als die Gardisten eintrafen, um sie dingfest zu machen, gelang es ihr, drei von ihnen abzuwehren, bevor sie schließlich überwältigt wurde.\n\nObgleich sie ein Bastard von edlem Blut ist, wollte er von mir eine Entscheidung darüber erhalten, was mit ihr zu geschehen hat."
+ agot_filler_stormlands.0411.a:0 "Sie scheint ein tolles Weib zu sein! Ich könnte eine starke Gattin gebrauchen..."
+ agot_filler_stormlands.0411.b:0 "Wenn sie sich für eine Kriegerin hält, werde ich sie gerne korrigieren."
+ agot_filler_stormlands.0411.c:0 "Edles Blut oder nicht, sie wird die Gerechtigkeit des Königs erfahren."
+ agot_filler_stormlands.0411.d:0 "Ich muss sie mit eigenen Augen sehen! Holt sie, und etwas Wein!"
+ agot_filler_stormlands.0411.e:0 "Ich lasse sie zurück über die Roten Berge geleiten."
+
+ agot_filler_stormlands.0412.t:0 "Ein Sandsturm von einer Frau: Das Duell"
+ agot_filler_stormlands.0412.desc:0 "Während einer meiner Diener mein Wams festbindet, schmückt sich die Frau mit ihrer traditionellen dornischen Panzerung und hat sich bereits vollständig gerüstet, als ich erst zur Hälfte fertig bin. Dann setzt sie sich hin, starrt mich an und poliert die Spitze ihres Speers, bis mein Harnisch endlich angelegt ist. "Ich werde mein Bestes tun, um Euch nicht zu sehr in Mitleidenschaft zu ziehen", sage ich, als ein anderer meiner Diener mir mein Schwert überreicht.\n\n“Ich werde Euch nicht die gleiche Höflichkeit gewähren, [ROOT.Char.Custom('DE_Anrede')], und Mitleid werde ich Euch nicht schenken,” erwiderte sie und wirbelte elegant ihren Speer herum, als wir uns der Mitte des Hofes näherten.."
+ agot_filler_stormlands.0412.a:0 ""Lasst uns tanzen.""
+ agot_filler_stormlands.0412.success_title:0 "Kampf gewonnen!"
+ agot_filler_stormlands.0412.failure_title:0 "Kampf verloren..."
+
+ agot_filler_stormlands.0413.t:0 "Ein Sandsturm von einer Frau: Sieg"
+ agot_filler_stormlands.0413.desc:0 "Der Kampf ist bei weitem nicht so leicht zu gewinnen, wie ich es mir vorgestellt hatte. Die Anmut und das Können dieser Frau sind größer als bei vielen Rittern, gegen die ich bisher gekämpft habe, da bin ich mir sicher. Mit ihrem Speer führt sie geschickte Streiche aus und bemüht sich redlich, den Abstand zwischen uns zu wahren.\n\nSchließlich komme ich aber doch näher heran, und aus der Nähe ist ihr Speer eher hinderlich als nützlich. Ich lande eine Handvoll sauberer Treffer in kurzer Folge und, und sie findet sich auf dem Rücken liegend wieder.\n\nBei ihrem Sturz verliert sie den Halt an ihrem Speer und er fliegt zur Seite. Nun, da sie wehrlos ist, gibt sie widerwillig auf. Ich biete ihr eine Hand an, doch sie schlägt sie wortlos und verärgert weg, steht auf und marschiert aus dem Hof, wobei sie nicht einmal innehält, um ihren Speer zu holen."
+ agot_filler_stormlands.0413.a:0 ""So ist es recht, haut ab zurück nach Dorne!""
+
+ agot_filler_stormlands.0414.t:0 "Ein Sandsturm von einer Frau: Niederlage"
+ agot_filler_stormlands.0414.desc:0 "Der Kampf ist einer der schwierigsten, die ich je erlebt habe. Ihre Beweglichkeit und Geschicklichkeit sind mit nichts zu vergleichen, was ich je gesehen habe. Jedes Mal, wenn ich versuche, die Distanz zu verringern, sticht sie entweder mit ihrem Speer nach mir, um mich aufzuhalten, oder sie weicht aus und trifft mich in die Seite. Mit dem Gewicht meiner Rüstung ist es ein regelrechter Zermürbungskrieg, den ich verliere.\n\nAnfangs kann ich noch mithalten, aber nach ein paar Minuten bin ich völlig erschöpft - und da gelingt es ihr, mir einen Schlag direkt in die Kniekehle zu versetzen. Ich falle zu Boden.\n\nWiderstrebend ergebe ich mich. Die Frau nickt nur selbstgefällig mit dem Kopf und verlässt meinen Hof, um mich mit der Schande meiner Niederlage zurückzulassen. Einer meiner Diener kommt herüber, um mir die Hand zu reichen, doch ich weise ihn unwirsch ab und richte mich auf."
+ agot_filler_stormlands.0414.a:0 "Zum Glück wurde nur mein Stolz verletzt..."
+
+###############################
+#   The Grief of Fathers      #
+#     ZombieSchrodCat         #
+#       0415 - 0420           #
+###############################
+
+ agot_filler_stormlands.0415.t:0 "Der Kummer der Väter"
+ agot_filler_stormlands.0415.desc:0 "Zwei Väter sind vor mich getreten und haben sich gegenseitig die Schuld für den Tod ihrer beiden Söhne gegeben.\n\nDie Söhne hatten den Beruf des Seemanns ergriffen, nur um auf ihrer ersten Reise in der Sturmbucht zu sterben. Beide Väter behaupten, sie hätten ihre Kinder dahingehend beeinflusst, diesen Beruf zu wählen."
+ agot_filler_stormlands.0415.a:0 "Ich werde versuchen, sie zur Vernunft zu bringen."
+ agot_filler_stormlands.0415.b:0 "Ich kenne den Kummer nur zu gut. Kommt, lasst uns offen sprechen."
+ agot_filler_stormlands.0415.c:0 "Lasst den Krieger entscheiden, wer im Recht ist!"
+ agot_filler_stormlands.0415.c_tt:0 "Die beiden Väter werden bis zum Tod kämpfen, und der Sieger wird zur Mauer geschickt."
+ agot_filler_stormlands.0415.d:0 "Ihr beide solltet in meinen Kerker weiter streiten..."
+
+ agot_filler_stormlands.0416.t:0 "Der Kummer der Väter"
+ agot_filler_stormlands.0416.desc:0 "Ich lade die beiden Väter ein, sich an meine Tafel zu setzen, und wir beginnen, die Lage zu bereden.\n\nEs ist zwar leicht, in dieser Situation die Schuld zuzuweisen, aber die Wahrheit ist, dass die Welt ein grausamer Ort ist und niemand außer dem Fremden die Schuld am Tod seiner Söhne trägt.\n\nNach einigen Momenten des Schweigens einigen sich die Väter darauf, gemeinsam um ihre verlorenen Söhne zu trauern, anstatt sich sinnlos zu hassen."
+ agot_filler_stormlands.0416.a:0 "Ich bin froh, dass wir das geklärt haben."
+
+ agot_filler_stormlands.0417.t:0 "Der Kummer der Väter"
+ agot_filler_stormlands.0417.desc:0 "[grieving_father_1.GetFirstNameNicknamedNoTooltip] kehrt an meinen Hof zurück, doch dieses Mal ist er allein. Ich erkenne an seinem stolpernden Gang, dass er getrunken hat.\n\n"[ROOT.Char.Custom('DE_Anrede')]", lallt er. "Ich komm zu Euch mit eim' Gestä... *Hicks*... Gestännis. Ich habe [grieving_father_2.GetFirstNameNicknamedNoTooltip] erschlagen!" Ich weiß, dass ihn die Schuld an dem Mord umtreibt, und dennoch - ich kann ein solches Verbrechen nicht ungestraft lassen."
+ agot_filler_stormlands.0417.a:0 "Ihr werdet in meinem Kerker verrotten."
+ agot_filler_stormlands.0417.b:0 "Ihr werdet mit Eurem Leben bezahlen!"
+
+ agot_filler_stormlands.0418.t:0 "Der Kummer der Väter"
+ agot_filler_stormlands.0418.desc:0 "Die Väter nehmen ihre Plätze auf den gegenüberliegenden Seiten meines Thronsaals ein und bewaffnen sich mit Schwertern. Der Kampf wird auf Leben und Tod ausgetragen, und der Sieger wird das Schwarz anlegen und sich der Nachtwache anschließen.\n\nMöge der Fremde über ihre Schicksale entscheiden."
+ agot_filler_stormlands.0418.a:0 "Sie werden das wie Männer klären."
+
+ agot_filler_stormlands.0419.t:0 "Der Kummer der Väter"
+ agot_filler_stormlands.0419.desc:0 "[grieving_father_1.GetFirstNameNicknamedNoTooltip] scheint sofort die Oberhand zu haben. Er landet ein paar schnelle Schläge, verwundet [grieving_father_2.GetFirstNameNicknamedNoTooltip] und bremst seinen Vorstoß.\n\nNach nur wenigen Augenblicken holt er zum vernichtenden Schlag aus und lässt [grieving_father_2.GetFirstNameNicknamedNoTooltip] tot auf den steinernen Boden sinken."
+ agot_filler_stormlands.0419.a:0 "Ihr habt Eure Rache bekommen, nun legt das Schwarz an."
+
+ agot_filler_stormlands.0420.t:0 "Der Kummer der Väter"
+ agot_filler_stormlands.0420.desc:0 "[grieving_father_2.GetFirstNameNicknamedNoTooltip] gewinnt langsam die Oberhand. Er pariert ein paar rasche Schläge, bevor er einen harten Hieb auf den Schwertarm von [grieving_father_1.GetFirstNameNicknamedNoTooltip] landet.\n\nNach nur wenigen Augenblicken holt er zum vernichtenden Schlag aus und lässt [grieving_father_1.GetFirstNameNicknamedNoTooltip] tot auf den Steinboden sinken."
+ agot_filler_stormlands.0420.a:0 "Ihr habt Eure Rache bekommen, nun legt das Schwarz an."
+
+###############################
+#       The Goshawk           #
+#     ZombieSchrodCat         #
+#       0421 - 0433           #
+###############################
+
+ agot_filler_stormlands.0421.t:0 "Der verwaiste Habicht"
+ agot_filler_stormlands.0421.desc:0 "Eine weitere stürmische Nacht hat mein Reich heimgesucht - der heulende Wind peitscht über meine Burg. Heute Morgen entdecke ich einen verletzten #bold Habicht#!, ein Jungvogel, den der Wind wohl aus seinem Nest gestoßen hat."
+ agot_filler_stormlands.0421.a:0 "Ich muss versuchen, ihn wieder aufzupäppeln!"
+ agot_filler_stormlands.0421.a_tt:0 "Ihr werdet versuchen, den Jungvogel zu retten, doch das ist mit Risiken verbunden."
+ agot_filler_stormlands.0421.b:0 "Für so einen Vogel würden manche gut bezahlen..."
+ agot_filler_stormlands.0421.c:0 "So ist die Natur, armes Ding."
+
+ agot_filler_stormlands.0422.t:0 "Der verwaiste Habicht"
+ agot_filler_stormlands.0422.desc:0 "Ungeachtet meiner Bemühungen ist der junge Habicht krank geworden. Wir müssen etwas tun, um das arme Geschöpf zu retten!"
+ agot_filler_stormlands.0422.a:0 "Ich kann nur auf seine Genesung hoffen..."
+ agot_filler_stormlands.0422.b:0 "Ich kann aus meinem medizinischen Wissen Nutzen ziehen!"
+ agot_filler_stormlands.0422.c:0 "Ich werde dem Vögelchen nicht von der Seite weichen."
+
+ agot_filler_stormlands.0423.t:0 "Der verwaiste Habicht"
+ agot_filler_stormlands.0423.desc:0 "Meine Anstrengungen haben sich gelohnt! Der Habicht hat etwas Kraft zurückgewonnen - vielleicht erholt er sich ja noch."
+ agot_filler_stormlands.0423.a:0 "Das Schicksal lächelt auf uns herab!"
+
+ agot_filler_stormlands.0424.t:0 "Der verwaiste Habicht"
+ agot_filler_stormlands.0424.desc:0 "Ich hoffte, dass meine Mühe den Besuch des Fremden abwenden würde, doch es kam anders...\n\nDer junge Habicht stößt einen letzten keuchenden Schrei aus, bevor er verendet."
+ agot_filler_stormlands.0424.a:0 "Armes Kerlchen..."
+
+ agot_filler_stormlands.0425.t:0 "Der verwaiste Habicht"
+ agot_filler_stormlands.0425.desc:0 "Den jungen Habicht wieder gesund zu pflegen, ist eine Herausforderung. Als ich heute versuche, ihn mit einem kleinen Stück Fleisch zu füttern, beißt mich der Vogel!"
+ agot_filler_stormlands.0425.a:0 "Ich bewundere diesen Kampfgeist!"
+ agot_filler_stormlands.0425.b:0 "Es ist vielleicht das Beste, den Vogel jemand anderem zu überlassen."
+ agot_filler_stormlands.0425.b_tt:0 "Ihr gebt es auf, den Vogel zu retten und übergebt ihn an einen Stallknecht, der gut mit Tieren umgehen kann."
+
+ agot_filler_stormlands.0426.t:0 "Der verwaiste Habicht"
+ agot_filler_stormlands.0426.desc:0 "Meine Versuche, den jungen Falken gesund zu pflegen, sind gut verlaufen. Doch heute, als ich zu seiner üblichen Fütterung zurückkehre, ist der Falke ausgebüchst! #bold VERFLIXT!#!"
+ agot_filler_stormlands.0426.a:0 "Ich muss versuchen, ihn zu finden."
+
+ agot_filler_stormlands.0427.t:0 "Der verwaiste Habicht"
+ agot_filler_stormlands.0427.desc:0 "Warum hat meine Burg so viele Ecken und Winkel? Ich muss einen halben Tag damit verbracht haben, die Burg zu durchsuchen, bevor ich einen vertrauten Ruf höre. Dort, hinter einer alten Truhe, sitzt der junge Habicht."
+ agot_filler_stormlands.0427.a:0 "Ich bin erstaunt, dass du es bis hierher geschafft hast!"
+
+ agot_filler_stormlands.0428.t:0 "Der verwaiste Habicht"
+ agot_filler_stormlands.0428.desc:0 "Warum hat meine Burg so viele Ecken und Winkel? Ich muss einen halben Tag damit verbracht haben, die Burg zu durchsuchen, bevor ich aufgebe. Der junge Habicht ist nirgends zu finden..."
+ agot_filler_stormlands.0428.a:0 "Könnte ihn jemand gestohlen haben?"
+ agot_filler_stormlands.0428.a_tt:0 "Ihr werdet womöglich nie wieder jemandem vertrauen."
+
+ agot_filler_stormlands.0429.t:0 "Der verwaiste Habicht"
+ agot_filler_stormlands.0429.desc:0 "Meine Pflege hat bereits zu einer deutlichen Verbesserung der Verfassung des jungen Habichts geführt. Während er weiter zu Kräften kommt, scheint sich der Vogel mit mir wohlzufühlen.\n\nAls ich heute Abend mein Mahl zu mir nehme, bemerke ich, wie er mit großen Augen zu mir aufschaut..."
+ agot_filler_stormlands.0429.a:0 "Ich brauche nicht das ganze Fleisch."
+
+ agot_filler_stormlands.0430.t:0 "Der verwaiste Habicht"
+ agot_filler_stormlands.0430.desc:0 "So wie der junge Falke seine Gesundheit wiedererlangt hat, so hat er auch seinen Lebensmut wiedergefunden. Der Vogel scheint bereit zu sein, in die Lüfte zurückzukehren - aber bin ich bereit, ihn gehen zu lassen?\n\nEs gibt noch eine andere Möglichkeit, überlege ich. Vielleicht sollte ich mit der Falknerei beginnen?"
+ agot_filler_stormlands.0430.a:0 "Ich werde mit dem Abrichten des Vogels beginnen."
+ agot_filler_stormlands.0430.b:0 "Er gehört in die Wildnis; ich werde ihn freilassen."
+
+ agot_filler_stormlands.0431.t:0 "Der verwaiste Habicht"
+ agot_filler_stormlands.0431.desc:0 "Die Herausforderungen bei der Ausbildung eines Jagdgefährten sind wohlbekannt, aber mein Habichtbegleiter ist ein natürlicher Jäger. Mit jedem Ausflug spüre ich, wie unsere Bindung wächst.\n\nWer hätte gedacht, dass ich mal ein Falkner werde?"
+ agot_filler_stormlands.0431.a:0 "Ich muss mehr Rezepte für die Zubereitung von Kaninchen finden."
+
+ agot_filler_stormlands.0432.t:0 "Der verwaiste Habicht"
+ agot_filler_stormlands.0432.desc:0 "Die Herausforderungen bei der Ausbildung eines Jagdgefährten sind wohlbekannt, und ich hatte wirklich zu kämpfen. Selbst mit der Anleitung meines zuverlässigen Marschalls hatte ich kein Glück beim Erlernen der Tandemjagd mit dem Habicht.\n\n"Vielleicht solltet Ihr es aufgeben, [ROOT.Char.Custom('DE_Anrede')]?""
+ agot_filler_stormlands.0432.a:0 "Ihr habt ja recht, ich werde ihn freilassen."
+ agot_filler_stormlands.0432.b:0 "Ich werde es Euch zeigen!"
+ agot_filler_stormlands.0432.b_tt:0 "Ihr verdoppelt Eure Anstrengungen."
+
+###############################
+# The Knight from the Reach   #
+#     ZombieSchrodCat         #
+#       0433 - 0442           #
+###############################
+
+ agot_filler_stormlands.0433.t:0 "Eine Geschichte zweier Ritter"
+ agot_filler_stormlands.0433.desc:0 "Ein Mann der Weite, ein Heckenritter, kam heute mit einem recht merkwürdigen Anliegen an meinen Hof. Er ist hinter einem dornischen Ritter her, von dem er behauptet, er habe den Geldbeutel des Siegers eines Turniers gestohlen und außerdem seinen Knappen bei der Flucht ermordet.\n\nDer Ritter glaubt, dass der Dornische auf dem Weg in seine Heimat über die Roten Berge durch meine Ländereien kommt. Er bittet mich um die Erlaubnis, diesen Gauner aufzuspüren."
+ agot_filler_stormlands.0433.a:0 "Ihr habt meine Erlaubnis."
+ agot_filler_stormlands.0433.b:0 "Ich allein habe das Recht, in diesen Landen einen Menschen zu richten."
+ agot_filler_stormlands.0433.c:0 "Ich werde Euch helfen!"
+
+ agot_filler_stormlands.0434.t:0 "Eine Geschichte zweier Ritter: Vergeltung"
+ agot_filler_stormlands.0434.desc:0 "Der Heckenritter ist an Euren Hof zurückgekehrt. Er erzählt Euch, dass er den dornischen Ritter volltrunken in einem Bordell aufgefunden hat. Als er versuchte, ihn zu fassen, zog der besoffene Tölpel seinen Stahl und ließ ihm keine andere Wahl, als zu #bold kämpfen#!\n\nGlücklicherweise war er nach einer Nacht der Hurerei und des Weines nicht mehr in der Lage, dem Mann der Weite zu schaden."
+ agot_filler_stormlands.0434.a:0 "Es scheint, dass das Reich heute Abend einen Schurken weniger hat."
+
+ agot_filler_stormlands.0435.t:0 "Eine Geschichte zweier Ritter: Tod im Bordell"
+ agot_filler_stormlands.0435.desc:0 "Ein Trupp Eurer Gardisten bringt einen Dornischen vor Euch und teilt Euch mit, dass er der Mann ist, nach dem der Heckenritter gesucht hat. Die beiden hatten in einem Bordell die Klingen gekreuzt, wobei der Dornische den Mann der Weite erschlug, bevor Eure Wachen einschreiten konnten.\n\nEr beteuert seine Unschuld und erklärt, er habe den Knappen nie gekannt und der Heckenritter habe sich nur dafür rächen wollen, dass er von ihm einst vom Pferd gestoßen wurde. Was den Diebstahl des Geldbeutels des Siegers angeht, so erklärt er, dass auch er selbst zur Hälfte des Turniers vom Pferd gefallen und abgereist war."
+ agot_filler_stormlands.0435.a:0 "Es ist genug Blut geflossen, lasst ihn frei."
+ agot_filler_stormlands.0435.b:0 "Dieser Bursche wird der Gerechtigkeit des Königs unterworfen."
+
+ agot_filler_stormlands.0436.t:0 "Eine Geschichte zweier Ritter: Tod im Bordell"
+ agot_filler_stormlands.0436.desc:0 "Ein Trupp Eurer Gardisten bringt einen Dornischen vor Euch und teilt Euch mit, dass er der Mann ist, nach dem der Heckenritter gesucht hat. Die beiden hatten in einem Bordell die Klingen gekreuzt, wobei der Dornische den Mann der Weite erschlug, bevor Eure Wachen einschreiten konnten.\n\nEr beteuert seine Unschuld und erklärt, er habe den Knappen nie gekannt und der Heckenritter habe sich nur dafür rächen wollen, dass er von ihm einst vom Pferd gestoßen wurde. Was den Diebstahl des Geldbeutels des Siegers angeht, so erklärt er, dass auch er selbst zur Hälfte des Turniers vom Pferd gefallen und abgereist war."
+ agot_filler_stormlands.0436.a:0 "Es ist genug Blut geflossen, lasst ihn frei."
+ agot_filler_stormlands.0436.b:0 "Dieser Bursche wird der Gerechtigkeit des Königs unterworfen."
+
+ agot_filler_stormlands.0437.t:0 "Eine Geschichte zweier Ritter: Selbstjustiz"
+ agot_filler_stormlands.0437.desc:0 "Ein Trupp Eurer Gardisten führt den Heckenritter vor Euch. Offenbar hat er sich gegen Euren Willen auf die Suche nach dem dornischen Ritter gemacht. Die beiden haben in einem örtlichen Bordell bis zum Tod gekämpft.\n\nEure Wachen trafen erst ein, nachdem er den Dornischen erschlagen hatte. Er erklärt, dass es ihm leid täte, gegen Eure Befehle verstoßen zu haben, aber dass er den Tod seines Knappen rächen musste."
+ agot_filler_stormlands.0437.a:0 "Das ist verständlich, lasst den Mann frei."
+ agot_filler_stormlands.0437.b:0 "Er wird Gerechtigkeit erfahren wie jeder andere Mörder auch."
+
+ agot_filler_stormlands.0438.t:0 "Eine Geschichte zweier Ritter: Verdeckt im Bordell"
+ agot_filler_stormlands.0438.desc:0 "Nachdem Ihr beschlossen habt, dem Heckenritter zu helfen, macht Ihr Euch mit Euren Männern auf die Suche. Ihr findet den dornischen Ritter in einem Bordell, wo er sich mit Wein und Weibern vergnügt, anders als man es von einem Mann auf der Flucht erwarten würde.\n\nEr ist bestürzt, als Ihr ihm die Anschuldigungen eröffnet und beteuert seine Unschuld. Er erklärt, dass er das Turnier verlassen habe, nachdem er vom Pferd gestoßen wurde und dass er den Knappen des Heckenritters nie getroffen habe. Interessanterweise erinnert er sich aber daran, einen Mann entsattelt zu haben, auf den die Beschreibung des Mannes aus der Weite passt."
+ agot_filler_stormlands.0438.a:0 "Ihr beteuert also Eure Unschuld?"
+ agot_filler_stormlands.0438.b:0 "Wachen! Legt diesen Verbrecher in Ketten."
+
+ agot_filler_stormlands.0439.t:0 "Eine Geschichte zweier Ritter: Verdeckt im Bordell"
+ agot_filler_stormlands.0439.desc:0 "Während Ihr versucht, mehr über die Unschuldsbeteuerungen des Dornischen zu erfahren, stürmt der Heckenritter mit gezücktem Stahl auf ihn zu und attackiert ihn. Er verflucht den Dornischen für den Tod seines Knappen und für die Niederlage beim Turnier. Der Angeklagte zieht seine eigene Waffe und wehrt jede Behauptung mit weiteren Unschuldsbeteuerungen ab."
+ agot_filler_stormlands.0439.a:0 "Es scheint, als hätten wir nun ein Urteil durch Kampf."
+ agot_filler_stormlands.0439.b:0 "Wachen! Nehmt sie beide fest."
+ agot_filler_stormlands.0439.c:0 "Es reicht! Ich werde die Wahrheit selbst in Erfahrung bringen..."
+
+ agot_filler_stormlands.0440.t:0 "Eine Geschichte zweier Ritter: Endlich die Wahrheit"
+ agot_filler_stormlands.0440.desc:0 "Ihr wart stundenlang in den Kerkern und habt die beiden Ritter bearbeitet. Beide hatten Euch mit ihrer Zähigkeit beeindruckt, aber schließlich brachen sie zusammen und gestanden Euch, wie alle Männer. Der dornische Ritter hatte in der Tat das Preisgeld des Turniers gestohlen, nachdem er vom Pferd gestiegen und gefallen war, aber er war nicht für den Tod des Knappen verantwortlich. Die Schuld daran trug der Heckenritter, der den armen Knappen in seiner Wut darüber, dass er entsattelt wurde, zu Tode geprügelt hatte.\n\nKeiner der beiden lebte lange nach den Geständnissen. Ihr habt euch entschlossen, das restliche Preisgeld des Siegers als Lohn für Eure harte Arbeit zu behalten."
+ agot_filler_stormlands.0440.a:0 "Dunkle Schauplätze sind am besten für dunkle Taten geeignet."
+
+ agot_filler_stormlands.0441.t:0 "Eine Geschichte zweier Ritter: Der Dornischer"
+ agot_filler_stormlands.0441.desc:0 "Die beiden Ritter prallten heftig aufeinander. Der Mann der Weite versuchte, dem Dornischen einen heftigen Schlag zu versetzen, doch er öffnete sich dadurch für einen Gegenangriff. Der dornische Ritter nutzte dies gnadenlos aus und rammte seine Klinge in die Schwachstelle der Verteidigung seines Gegners.\n\nAls er dann sah, dass meine Wachen ihn umzingelten, ließ er schnell seine Waffe fallen und beschwor abermals seine Unschuld."
+ agot_filler_stormlands.0441.a:0 "Verlasst mein Land und kehrt niemals zurück."
+ agot_filler_stormlands.0441.b:0 "Wachen, verhaftet diesen Mörder!"
+
+ agot_filler_stormlands.0442.t:0 "Eine Geschichte zweier Ritter: Der Mann der Weite"
+ agot_filler_stormlands.0442.desc:0 "Die beiden Ritter prallten heftig aufeinander. Der Dornische versuchte, dem Mann der Weite einen heftigen Schlag zu versetzen, doch er öffnete sich dadurch für einen Gegenangriff. Der Heckenritter nutzte dies gnadenlos aus und trieb seine Klinge in die Schwachstelle der Verteidigung seines Gegners.\n\nAls er dann sah, dass meine Wachen ihn umzingelten, ließ er schnell seine Waffe fallen und beschwor mich, dass ihm keine andere Wahl geblieben sei, als den Mann zu töten, um seinen Knappen zu rächen."
+ agot_filler_stormlands.0442.a:0 "Verlasst mein Land und kehrt niemals zurück."
+ agot_filler_stormlands.0442.b:0 "Wachen, verhaftet diesen Vigilanten!"
+
+###############################
+#   Inferno at the Mill       #
+#     ZombieSchrodCat         #
+#       0443 - 0448           #
+###############################
+
+ agot_filler_stormlands.0443.t:0 "Inferno in der Mühle"
+ agot_filler_stormlands.0443.desc:0 "Mein [marshal.GetCouncilTitle], [marshal.GetTitledFirstName], kam in meine Gemächer und platzte etwas unhöflich und uneingeladen herein, während ich in stiller Einkehr dasaß. “Die Dorfmühle einer Siedlung, die eine Meile von der Burg entfernt liegt, wurde vom Blitz getroffen, [ROOT.Char.Custom('DE_Anrede')]. Wie lautet Euer Befehl?”, sagt [marshal.GetSheHe|l], steht wie angewurzelt da und wartet besorgt auf meine Antwort."
+ agot_filler_stormlands.0443.a:0 "Steht nicht einfach herum! Holt Eure Männer und ein paar Kübel, Ihr Narr!"
+ agot_filler_stormlands.0443.b:0 "Ich werde das beaufsichtigen! Der Stallknecht soll mein Pferd satteln!"
+
+ agot_filler_stormlands.0444.t:0 "Inferno in der Mühle"
+ agot_filler_stormlands.0444.desc:0 "Als wir ankamen und abstiegen, war die Mühle bereits ein einziges Höllenfeuer. Ein paar Bauern hatten sich versammelt und schütteten eimerweise Wasser auf die Mühle, aber sie konnten dem Feuer nicht mehr viel entgegensetzen."
+ agot_filler_stormlands.0444.a:0 "Ich organisiere die Brandbekämpfung sowohl meiner Männer als auch der Bauern."
+ agot_filler_stormlands.0444.b:0 "Ich befehle meinen Männern, sich an die Arbeit zu machen."
+ agot_filler_stormlands.0444.c:0 "Ich gehe auf die Knie und bete."
+
+ agot_filler_stormlands.0445.t:0 "Inferno in der Mühle"
+ agot_filler_stormlands.0445.desc:0 "Selbst mit der Hilfe meiner Männer konnte nichts getan werden, um das aufzuhalten, was in Gang gesetzt worden war. Innerhalb weniger Minuten war die Mühle nichts weiter als eine riesige Fackel, die so hell brannte, dass es mich nicht wundern würde, wenn man sie von der Mauer aus sehen könnte. Der Müller und ein paar Knechte kämpften weiter gegen die Flammen an, bis sie den Kampf endgültig verloren hatten, aber ich wies meine Männer an, ihre Kübel wegzustellen."
+ agot_filler_stormlands.0445.a:0 "Es scheint, ich muss die Schatzkammern öffnen."
+ agot_filler_stormlands.0445.b:0 "Ich lasse mir ein paar Bauarbeiter von meiner Burg herschicken."
+
+ agot_filler_stormlands.0446.t:0 "Inferno in der Mühle"
+ agot_filler_stormlands.0446.desc:0 "Glücklicherweise schienen wir gerade noch rechtzeitig gekommen zu sein. Mit der Hilfe meiner Männer und meiner Aufsicht gelang es uns, das Feuer rasch zu löschen. An der Mühle muss einiges instand gesetzt werden, aber das Gebäude selbst wurde gerettet."
+ agot_filler_stormlands.0446.a:0 "Gute Arbeit, Männer!"
+
+ agot_filler_stormlands.0447.t:0 "Inferno in der Mühle"
+ agot_filler_stormlands.0447.desc:0 "Trotz meiner inbrünstigen Stoßgebete und der größten Anstrengungen meiner Männer haben die Götter es offenbar für richtig befunden, die Mühle bis auf die Grundmauern niederbrennen zu lassen, denn das Feuer verschlang innerhalb weniger Minuten das gesamte Gebäude. Ich erhob mich von meinen Knien, geschlagen; meine Männer und die Dorfbewohner setzten ihre Eimer ab, als das Dach einbrach. Warum haben die Götter das zugelassen?"
+ agot_filler_stormlands.0447.a:0 "Die Götter sind launisch und wirken rätselhaft..."
+ agot_filler_stormlands.0447.b:0 "Ich beginne zu glauben, dass die Götter sich nicht um uns scheren..."
+
+ agot_filler_stormlands.0448.t:0 "Inferno in der Mühle"
+ agot_filler_stormlands.0448.desc:0 "Die Götter waren gütig! Der Sturm über uns wurde noch heftiger und der Regen peitschte stärker und heftiger als zuvor. Ich musste weinen, als ich mich erhob und spürte, dass meine Gebete vielleicht zum ersten Mal tatsächlich erhört worden waren. Dank des sintflutartigen Wolkenbruchs und der eifrigen Bemühungen meiner Männer und der Dorfbewohner konnte das Feuer bald eingedämmt werden. Möge das Korn noch viele Jahre lang durch die Mühle rieseln!"
+ agot_filler_stormlands.0448.a:0 "Gepriesen seien die Götter!"
+
+###############################
+#   Stormlands: The Library   #
+#     ZombieSchrodCat         #
+#       0449 - 0453           #
+###############################
+
+ agot_filler_stormlands.0449.t:0 "Sturmlande: Die Bibliothek"
+ agot_filler_stormlands.0449.desc:0 "In einer unruhigen Nacht fand ich mich in der Bibliothek wieder und durchsuchte die Regale. In letzter Zeit hatte mich der Stress des Herrschens schwer belastet. Ich hoffte, dass ein Wälzer eine angenehme Ablenkung für meinen Geist sein würde."
+ agot_filler_stormlands.0449.a:0 "Vielleicht dieses Buch."
+
+ agot_filler_stormlands.0450.t:0 "Die Bibliothek: Eine Warnung für junge Mädchen"
+ agot_filler_stormlands.0450.desc:0 "Ich fand einen Folianten, der hinter ein paar Büchern versteckt war, als ob ihn jemand verstecken wollte. Der Foliant war ein Bericht über das Leben von Lady Coryanne Wyld, die viele erotische Abenteuer erlebt, sowohl in Westeros als auch in Essos. In dem Buch ist Coryanne die Zofe einer Königin, die Geliebte eines jungen Ritters, eine Mitläuferin in den Streitenden Landen, ein Dienstmädchen in Myr, ein Mummenschanz in Tyrosh, das "Spielzeug" einer Korsarenkönigin auf den Basiliskeninseln, eine Sklavin in Volantis (wo sie tätowiert und ihre Brustwarzen mit Ringen durchbohrt wurden), die Dienerin eines Hexenmeisters aus Qarthe und die Herrin eines Freudenhauses in Lys. Am Ende bereut Coryanne ihre Sünden, wird eine Septa in der Sternensept in Altsass und schreibt ihre Lebensgeschichte als Mahnung für junge Maiden nieder. So anstößig der Text war, so anstößig waren die Illustrationen, die ihn ergänzten!"
+ agot_filler_stormlands.0450.a:0 "Sehr... #italic spannend#!"
+ agot_filler_stormlands.0450.b:0 "Dieses Buch sollte verbrannt werden!"
+
+ agot_filler_stormlands.0451.t:0 "Die Bibliothek: Die Sippe des Hirsches"
+ agot_filler_stormlands.0451.desc:0 "Ich erblickte das Buch #bold Die Sippe des Hirsches#! von Maester Hubert. Der Wälzer war sehr interessant. Maester Hubert behauptet, dass der legendäre Krieger Galladon von Morne nicht im Zeitalter der Helden gelebt hat, sondern in jüngerer Zeit. Dabei beruft sich Hubert auf die Rolle der Gerechten Maid in der Geschichte von Ser Galladon. Hubert weist auch daraufhin, dass Morne der Sitz von Kleinkönigen an der Ostküste von Tarth war, ehe die Sturmkönige die Insel unterwarfen, die Ruinen aber darauf hindeuten, dass das Bauwerk von Andalen und nicht von den Ersten Menschen stammte."
+ agot_filler_stormlands.0451.a:0 "Ein interessanter Einwand, Maester Hubert."
+
+ agot_filler_stormlands.0452.t:0 "Die Bibliothek: Triumphe und Niederlagen"
+ agot_filler_stormlands.0452.desc:0 "Das Werk von Erzmaester Vyron mit dem Titel #bold Triumphe und Niederlagen#! hat meine Aufmerksamkeit erregt. Der Erzmaester stellt in seinem Werk fest, dass Sturmkap, die siebte Burg, die von Durran Götterfluch erbaut wurde, eine Verbindung zu den Andalen aufweist. Er behauptet sogar, dass das Sturmkap nach der Ankunft der Andalen erbaut wurde!"
+ agot_filler_stormlands.0452.a:0 "Dann muss Brandon der Baumeister sehr lange gelebt haben!"
+
+ agot_filler_stormlands.0453.t:0 "Die Bibliothek: Mühen des Lesens"
+ agot_filler_stormlands.0453.desc:0 "Ich habe einige der Bände ausprobiert, aber bei den meisten verliere ich schnell das Interesse - oder schlimmer noch, einige sind ein verwirrendes Durcheinander! Wie können diese Maester nur erwarten, dass jemand einen solchen Schwachsinn liest!"
+ agot_filler_stormlands.0453.a:0 "Das war eine Zeitverschwendung!"
+

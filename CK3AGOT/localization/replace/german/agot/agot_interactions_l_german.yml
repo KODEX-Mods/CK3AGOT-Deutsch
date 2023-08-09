@@ -1,0 +1,61 @@
+﻿l_german:
+ #Übersetzt vom Dillo
+ btw_struggle_reason_reason:0 "[recipient.GetSheHe|U] ist Teil des [btw_struggle|E] und Ihr nicht: $VALUE|=+0$"
+
+
+#Prisoner Interactions
+
+ mute_interaction:0 "Zunge herrausschneiden"
+ mute_interaction_desc:0 "Macht [recipient.GetShortUINameNoTooltip] zu einem [GetTrait('mute').GetName( GetPlayer )]n"
+
+
+
+#septa 
+ septa_child_language_rank_1:0 "Die [aptitude|E] Eurer [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 5#! zusätzlich [success_chance|E] und [scheme_power|E]"
+ septa_child_language_rank_2:0 "Die [aptitude|E] Eurer [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 10#! zusätzlich [success_chance|E] und [scheme_power|E]"
+ septa_child_language_rank_3:0 "The [aptitude|E] Eurer [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 15#! zusätzlich [success_chance|E] und [scheme_power|E]"
+ septa_child_language_rank_4:0 "Die [aptitude|E] Eurer [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 20#! zusätzlich [success_chance|E] und [scheme_power|E]"
+ septa_child_language_rank_5:0 "Die [aptitude|E] Eurer [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 25#! zusätzlich [success_chance|E] und [scheme_power|E]"
+
+
+ maester_child_language_rank_1:0 "Die [aptitude|E] Eurer [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 5#! zusätzlich [success_chance|E] und [scheme_power|E]"
+ maester_child_language_rank_2:0 "Die [aptitude|E] Eurer [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 10#! zusätzlich [success_chance|E] und [scheme_power|E]"
+ maester_child_language_rank_3:0 "Die [aptitude|E] Eurer [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 15#! zusätzlich [success_chance|E] und [scheme_power|E]"
+ maester_child_language_rank_4:0 "Die [aptitude|E] Eurer [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 20#! zusätzlich [success_chance|E] und [scheme_power|E]"
+ maester_child_language_rank_5:0 "Die [aptitude|E] Eurer [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 25#! zusätzlich [success_chance|E] und [scheme_power|E]"
+
+# Nightswatch / Kingsguard Vows interaction Desc
+ ORDER_VOWS_MARRIED_OR_BETROTHED:0 "Ich bin [betrothed|E]: $VALUE|=+0$"
+ ORDER_VOWS_DIFFERENT_FAITH:0 "Eure Götter sind falsch: $VALUE|=+0$"
+
+ ORDER_VOWS_AMBITION:0 "[TARGET_CHARACTER.GetShortUIName|U] hat sich das ganze Leben lang dafür vorbereitet."
+
+
+ ORDER_VOWS_LOWBORN:0 "Würdet Ihr 'ne [lowborn|E] nehm'n, Herr?!: $VALUE|=+0$"
+ ORDER_VOWS_HEIR_1:0 "Ich bin der [primary_heir|E] eines Titels: $VALUE|=+0$"
+ ORDER_VOWS_HEIR_2:0 "Ich bin in einer Erbfolge: $VALUE|=+0$"
+ ORDER_VOWS_HEIR_3:0 "Ich bin in eienr Erbfolge: $VALUE|=+0$"
+
+ ORDER_VOWS_ZEAL:0 "[personality|E] — #italic Sich einer größeren Sache zu widmen, ist ein glorreiches Ziel:#! $VALUE|=+0$"
+ ORDER_VOWS_SKEPTIC:0 "[personality|E] — #italic [recipient.GetSheHe|U] ist nicht am Dienst um des Dienstes willen interessiert:#! $VALUE|=+0$"
+ ORDER_VOWS_HONOR:0 "[personality|E] — #italic In der Königsgarde zu dienen ist eine große Ehre:#! $VALUE|=+0$"
+ ORDER_VOWS_BOLD:0 "[personality|E] — #italic [recipient.GetSheHe|U] genießt die Chance zu kämpfen:#! $VALUE|=+0$"
+ ORDER_VOWS_CRAVEN:0 "[personality|E] — #italic [recipient.GetSheHe|U] hegt nicht den Wunsch zu sterben:#! $VALUE|=+0$"
+ ORDER_VOWS_HORNY:0 "[personality|E] — #italic Ein Leben im Zölibat klingt wie ein Leben im Kerker:#! $VALUE|=+0$"
+
+ WHEREABOUTS_UNKNOWN:0 "Der Aufenthaltsort von [CHARACTER.GetShortUIName|U] ist unbekannt
+
+ offer_vassalization_shattered_world_tt:0 "Gleichgewicht der Zersplitterten Welt: $VALUE|=+0$"
+
+ offer_dawn_interaction:0 "Dämmerung anbieten"
+ offer_dawn_interaction_desc:0 "Bietet [recipient.GetShortUINameNoTooltip] Dämmerung an. Wenn [recipient.GetSheHe] nicht würdig ist, darf [recipient.GetSheHe] nicht annehmen..."
+ dawn_refused_title:0 "Dämmerung abgelehnt"
+ dawn_refused_desc:0 "[recipient.GetShortUINameNoTooltip] hat Dämmerung abgelehnt, weil [recipient.GetSheHe] sich nicht für würdig erachtet, das Schwert zu tragen."
+ worthy_of_dawn:0 "[personality|E] — #italic Würdig, Dämmerung zu tragen:#! $VALUE|=+0$"
+ unworthy_of_dawn:0 "[personality|E] — #italic Nicht würdig, Dämmerung zu tragen:#! $VALUE|=+0$"
+ dawn_greedy:1 "[personality|E] — #italic Begehrt Dämmerung:#! $VALUE|=+0$"
+
+ raise_to_nobility_interaction:0 "In den Adel erheben"
+ raise_to_nobility_interaction_desc:0 "Erhebt [recipient.GetShortUINameNoTooltip] in den Adelsstand"
+ raise_to_nobility_tt:0 "Wird in den Adelsstand erhoben werden und eine neue Dynastie gründen" #
+ raised_me_to_nobility_opinion:0 "In den Adel erhoben"

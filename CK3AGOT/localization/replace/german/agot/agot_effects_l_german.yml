@@ -1,0 +1,69 @@
+﻿l_german:
+ #Übersetzt von Rico und Dillo
+
+ ###########
+ #KNIGHTING#
+ ###########
+
+ GET_AGOT_SQUIRE:0 "Erhält [TARGET_CHARACTER.GetShortUIName] als #V [Concept('squire', Knappen)|e]#!"
+ I_GET_AGOT_SQUIRE:1 "[TARGET_CHARACTER.GetShortUIName|U] wird Euer #V [squire|e]#!"
+ I_GOT_AGOT_SQUIRE:1 "[TARGET_CHARACTER.GetShortUIName|U] wurde Euer #V [squire|e]#!"
+ THEY_GET_AGOT_SQUIRE:0 "[TARGET_CHARACTER.GetShortUIName|U] wird [CHARACTER.GetShortUINamePossessive] #V [squire|e]#!"
+ THEY_GOT_AGOT_SQUIRE:0 "[TARGET_CHARACTER.GetShortUIName|U] wurde [CHARACTER.GetShortUIName] #V [squire|e]#!"
+ LOSE_AGOT_SQUIRE:0 "Verliert [TARGET_CHARACTER.GetShortUIName] als Euren #V [Concept('squire', Knappen)|e]#!"
+ I_LOSE_AGOT_SQUIRE:1 "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger Euer #V [squire|e]#!"
+ THEY_LOSE_AGOT_SQUIRE:0 "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger [CHARACTER.GetShortUINamePossessive] #V [squire|e]#!"
+
+
+ GET_AGOT_KNIGHT:0 "Erhält [TARGET_CHARACTER.GetShortUIName] als #V [agot_knight|e]#!"
+ I_GET_AGOT_KNIGHT:1 "[TARGET_CHARACTER.GetShortUIName|U] wird Euer #V [agot_knight|e]#!"
+ I_GOT_AGOT_KNIGHT:1 "[TARGET_CHARACTER.GetShortUIName|U] wurde Euer #V [agot_knight|e]#!"
+ THEY_GET_AGOT_KNIGHT:0 "[TARGET_CHARACTER.GetShortUIName|U] wird [CHARACTER.GetShortUINamePossessive] #V [agot_knight|e]#!"
+ THEY_GOT_AGOT_KNIGHT:0 "[TARGET_CHARACTER.GetShortUIName|U] wurde [CHARACTER.GetShortUIName] #V [agot_knight|e]#!"
+ LOSE_AGOT_KNIGHT:0 "Verliert [TARGET_CHARACTER.GetShortUIName] als Euren #V [agot_knight|e]#!"
+ I_LOSE_AGOT_KNIGHT:1 "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger Euer #V [agot_knight|e]#!"
+ THEY_LOSE_AGOT_KNIGHT:0 "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger [CHARACTER.GetShortUIName] #V [agot_knight|e]#!"
+
+#Paramours
+ GET_PARAMOUR:0 "Erhält [TARGET_CHARACTER.GetShortUIName] als Konkubine" 
+ I_GET_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] wird Eure Konkubine"
+ I_GOT_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] wurde Eure Konkubine"
+ THEY_GET_PARAMOUR:0 "[TARGET_CHARACTER.GetShortUIName|U] wird [CHARACTER.GetShortUINamePossessive] Konkubine"
+ THEY_GOT_PARAMOUR:0 "[TARGET_CHARACTER.GetShortUIName|U] wurde [CHARACTER.GetShortUINamePossessive] Konkubine"
+ LOSE_PARAMOUR:0 "Verliert [TARGET_CHARACTER.GetShortUIName] als Eure Konkubine"
+ I_LOSE_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger Eure Konkubine"
+ THEY_LOSE_PARAMOUR:0 "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger [CHARACTER.GetShortUINamePossessive] Konkubine"
+
+
+#Lifestyle perks 
+ SPYNETWORK_MASSES_DESCRIPTION:1 "Verdoppelt die Anzahl der Spione, die ohne Strafe rekrutiert werden können"
+ I_SPYNETWORK_MASSES_DESCRIPTION:2 "Ihr könnt ohne Strafe doppelt so viele Spione rekrutieren"
+ THEY_SPYNETWORK_MASSES_DESCRIPTION:1 "[CHARACTER.GetShortUIName|U] kann ohne Strafe doppelt so viele Spion rekrutieren"
+
+ SPYNETWORK_INSTRUCTED_DESCRIPTION:1 "Erhöht die Wahrscheinlichkeit, dass Spione Geheimnisse finden"
+ I_SPYNETWORK_INSTRUCTED_DESCRIPTION:2 "Eure Spione finden mit größerer Wahrscheinlichkeit Geheimnisse"
+ THEY_SPYNETWORK_INSTRUCTED_DESCRIPTION:1 "[CHARACTER.GetShortUIName|U] Spione sind eher in der Lage, Geheimnisse zu finden" 
+
+ SPYNETWORK_CONVINCING_DESCRIPTION:1 "Charaktere sind allgemein eher bereit, für Euch zu spionieren"
+ I_SPYNETWORK_CONVINCING_DESCRIPTION:2 "Charaktere sind allgemein eher bereit, für Euch zu spionieren"
+ THEY_SPYNETWORK_CONVINCING_DESCRIPTION:1 "Charaktere sind allgemein eher bereit, für [CHARACTER.GetShortUIName|U] zu spionieren" 
+
+ SPYNETWORK_CHARISMATIC_DESCRIPTION:1 "Angezogene Charaktere sind eher bereit, für Euch zu spionieren"
+ I_SPYNETWORK_CHARISMATIC_DESCRIPTION:2 "Angezogene Charaktere sind eher bereit, für Euch zu spionieren"
+ THEY_SPYNETWORK_CHARISMATIC_DESCRIPTION:1 "Angezogene Charaktere sind eher bereit, für [CHARACTER.GetShortUIName|U] zu spionieren "  
+
+ SPYNETWORK_BIRDS_DESCRIPTION:1 "Ihr könnt Kinder, die älter als 8 Jahre sind, als Spion anheuern"
+ I_SPYNETWORK_BIRDS_DESCRIPTION:2 "Ihr könnt Kinder, die älter als 8 Jahre sind, als Spion anheuern"
+ THEY_SPYNETWORK_BIRDS_DESCRIPTION:1 "[CHARACTER.GetShortUIName|U] kann Kinder ab 8 Jahren als Spion anheuern"   
+
+ SPYNETWORK_INNOCENT_DESCRIPTION:1 "Kinder, die für Euch spionieren, haben eine höhere Chance, Geheimnisse zu finden"
+ I_SPYNETWORK_INNOCENT_DESCRIPTION:2 "Kinder, die für Euch spionieren, haben eine höhere Chance, Geheimnisse zu finden"
+ THEY_SPYNETWORK_INNOCENT_DESCRIPTION:1 "Kinder, die für [CHARACTER.GetShortUIName|U] spionieren, haben eine höhere Chance, Geheimnisse zu finden"   
+
+ SPYNETWORK_OMERTA_DESCRIPTION:1 "Wenn Eure Spione erwischt werden, ist es viel unwahrscheinlicher, dass sie aussagen und Euren Namen verraten."
+ I_SPYNETWORK_OMERTA_DESCRIPTION:2 "Wenn Eure Spione erwischt werden, ist es viel unwahrscheinlicher, dass sie aussagen und Euren Namen verraten."
+ THEY_SPYNETWORK_OMERTA_DESCRIPTION:1 "Wenn Spione von [CHARACTER.GetShortUIName|U] erwischt werden, ist es viel unwahrscheinlicher, dass sie aussagen und [CHARACTER.Custom('DE_PRO_POS_S_3P')]en Namen verraten."  
+
+ SPYNETWORK_SLEEPER_DESCRIPTION:1 "Es ist wahrscheinlicher, dass Eure Spione sich Euren feindseligen Komplotten als Agenten anschließen."
+ I_SPYNETWORK_SLEEPER_DESCRIPTION:2 "Es ist wahrscheinlicher, dass Eure Spione sich Euren feindseligen Komplotten als Agenten anschließen."
+ THEY_SPYNETWORK_SLEEPER_DESCRIPTION:1 "Es ist wahrscheinlicher, dass Spione von [CHARACTER.GetShortUIName|U] sich [CHARACTER.Custom('DE_PRO_POS_S_3P')]en feindseligen Komplotten als Agenten anschließen" 
