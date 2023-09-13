@@ -705,7 +705,9 @@
 
  #Offer Vassalization/Fealty
  offer_vassalization_true_ruler_perk_tt:0 "Ihr habt [GetPerk('true_ruler_perk').GetName(GetPlayer)]: $VALUE|=+0$"
+ 
  offer_vassalization_emissary_accolade_tt:0 "Mindestens ein politisch begabter $knight_culture_player_no_tooltip_lowercase$ ist bei Euch in Anstellung"
+ offer_vassalization_education_diplomacy_5_tt: "[GetTrait('education_diplomacy_5').GetName( GetNullCharacter )]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_differentfaith_tt:0 "Ihr gehört einem anderen [Concept('faith', 'Glauben')|E] an: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_culture_tt:0 "Ihr gehört einer anderen [culture|E] an: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_culture_group_tt:2 "Ihr habt eine andere [heritage|E]: $VALUE|=+0$"
@@ -835,10 +837,28 @@
  char_interaction.0079.desc:0 "Ich dachte, wir hätten vereinbart, dass [guardian.GetTitledFirstName] [ward.GetTitledFirstName] unterweist, doch jetzt muss ich hören, dass [guardian.Custom('DE_PRO_PER_S_3P_N')] die Hände voll mit anderen Mündeln hat?! [guardian.Custom('DE_PRO_PER_S_3P_N')|U] sollte sich schämen."
  char_interaction.0079.a:0 "Ich könnte einen Fehler gemacht haben …"
 
- char_interaction.0080.desc:0 "Wir freuen uns, Eure vorgeschlagene Ausbildung anzunehmen: eine edle Erziehung für einen edlen Geist!"
+ char_interaction.0080.desc: "Ich wäre glücklich, wenn mein[ward.Custom('DE_END_PRO_S_N')] [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))] [ward.GetShortUINameNoFormat] von [guardian.GetShortUINameNoFormat] unterweisen wird – eine edle Erziehung für einen edlen Geist!"
+ char_interaction.0080.desc_self: "Ich wäre glücklich, wenn mein[ward.Custom('DE_END_PRO_S_N')] [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))] [ward.GetShortUINameNoFormat] von Euch unterweisen wird – eine edle Erziehung für einen edlen Geist!"
+ char_interaction.0080.desc_guardian_self_ward: "Ich werde Euch gern unterweisen – eine edle Erziehung für einen edlen Geist!"
+ char_interaction.0080.desc_guardian_self: "[Select_CString(ward.IsFemale, 'Eure', 'Euer')] [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))] [ward.GetShortUIName] darf gern von mir unterweisen werden – eine edle Erziehung für einen edlen Geist!"
+ char_interaction.0080.desc_guardian: "Gern darf [guardian.GetShortUINameNoFormat], mein[guardian_liege.Custom('DE_END_PRO_S_N')] [guardian_liege.Custom2('RelationToMeShort', SCOPE.sC('guardian'))], [ward.GetShortUINameNoFormat] unterweisen – eine edle Erziehung für einen edlen Geist!"
+ 
 
  char_interaction.0081.desc:0 "Leider findet die von Euch vorgeschlagene Ausbildungsvereinbarung nicht unser Gefallen."
  char_interaction.0081.a:0 "Bedauerlich."
+
+ char_interaction.0082.t: "Eine lebende Fundgrube des Wissens"
+ char_interaction.0082.intro: "[guardian.GetTitledFirstName] ist endlich aus [guardian_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] eingetroffen, beladen mit Folianten und Schriftrollen."
+ char_interaction.0082.desc.liege: "\n\n[guardian.Custom('DE_PRO_PER_S_3P_N')|U] sagt mir, dass der Unterricht von [ward.GetFirstNameNoTooltip] bald beginnen wird!"
+ char_interaction.0082.desc: "\n\n[guardian.Custom('DE_PRO_PER_S_3P_N')|U] sagt mir, dass mein Unterricht bald beginnen wird!"
+ char_interaction.0082.a: "Sehr gut."
+ char_interaction.0083.t: "Ein formbarer Geist"
+ char_interaction.0083.intro: "[ward.Custom('DE_ART_DEF_S_N')|U] junge [ward.GetTitledFirstName], [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))] von [ward_liege.GetTitledFirstName], ist endlich aus [ward_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] eingetroffen, um unterwiesen zu werden."
+ char_interaction.0083.desc.host: "\n\n[guardian.GetTitledFirstName] wird bald [guardian.Custom('DE_PRO_POS_S_3P')]en Unterricht beginnen."
+ char_interaction.0083.desc: "\n\nSobald [ward.Custom('DE_PRO_PER_S_3P_N')] sich eingelebt hat, beginnt der Unterricht."
+ char_interaction.0083.a: "Hervorragend."
+ char_interaction.0084.desc: "[Select_CString(ward.IsFemale, 'Eure', 'Euer')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('ward'))] [ward.GetTitledFirstName] ist sicher in [guardian_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] eingetroffen und ich werde auf der Stelle mit [ward.Custom('DE_PRO_POS_S_3P')]em Unterricht beginnen."
+ char_interaction.0084.a: "Sehr gut."
 
 
  char_interaction.0090.from_ward.desc:0 "Ich fürchte, meine Ausbildung an Eurem Hof passt nicht mehr zu meinen Bedürfnissen. Ich werde auf der Stelle nach [capital.GetNameNoTierNoTooltip] zurückkehren."
@@ -1212,6 +1232,7 @@
  RULERS_FAMILY_IS_MARRIED_TO_THEM:0 "[CHARACTER.GetShortUIName] ist mit einem Kind, Elternteil, Geschwister, Enkel, Großelternteil, Onkel, Tante, Nichte oder Neffen von [TARGET_CHARACTER.GetShortUIName] verheiratet"
  RULERS_CHILD_PARENT_SIBLING_IS_MARRIED_TO_OTHER_RULERS:0 "Ein Kind, Elternteil oder Geschwister von [CHARACTER.GetTitledFirstName] ist mit einem Kind, Elternteil oder Geschwister von [TARGET_CHARACTER.GetShortUIName] verheiratet"
  HAS_SENT_INTERACTION_ALREADY:1 "Ihr könnt nur eine dieser Interaktionen gleichzeitig schicken"
+ HAS_NO_OPTION_SELECTED: "Ihr müsst mindestens eine der Optionen auswählen"
  ALREADY_HAS_AN_ALLIANCE_DEAL:1 "Ihr könnt nur ein vorgeschlagenes [alliance|E] aktiv haben"
  NOT_ALREADY_HAS_AN_ALLIANCE_DEAL:0 "Ihr habt schon ein vorgeschlagenes [alliance|E] aktiv"
  negotiate_alliance_effect_tooltip:0 "[recipient.GetTitledFirstName] und ich sind ein wechselseitiges [alliance|E] eingegangen"
@@ -1375,7 +1396,8 @@
  NOT_TAKE_VOWS_INTERACTION_MARTIAL_EDUCATION:0 "[TARGET_CHARACTER.GetTitledFirstName] hat #bold keine#! [Concept('martial', 'Kriegsführungs')|E]-[education_trait|E]"
  TAKE_VOWS_INTERACTION_MARTIAL_EDUCATION:0 "hat eine [Concept('martial', 'Kriegsführungs')|E]-[education_trait|E] und kann sich einem [holy_order|E] anschließen"
 
- release_pow_at_end_of_war:0 "Im Krieg festgesetzte [hostages|E] aller Kriegsteilnehmer werden freigelassen."
+ release_pow_at_end_of_war: "Im Krieg festgesetzte [valuable_prisoners|E] aller Kriegsteilnehmer werden freigelassen."
+ 
 
  INTERACTION_MARTIAL_EDUCATION:0 "[recipient.Custom('DE_PRO_PER_S_3P_N')|U] hat eine [education|E] in Sachen [martial|E]: $VALUE|=+0$"
  INTERACTION_CRAVEN:0 "[GetTrait('craven').GetName(recipient)]: $VALUE|=+0$"
@@ -1639,3 +1661,26 @@
  find_suitable_accolade_successor_interaction:0 "Würdige Auszeichnungsnachfolger suchen"
  find_suitable_accolade_successor_interaction_desc:0 "Nach einem geeigneten [knight|E] suchen, der sich Eurem [court|E] anschließt"
  find_suitable_accolade_successor_interaction.tt:0 "Ein [knight|E], der die Voraussetzungen für diese [accolade|E] erfüllt, wird innerhalb von #high 6 Monaten#! Eurem [court|E] anschließen\n\n@alert_icon! #alert_trial „Würdige Auszeichnungsnachfolger suchen“ wird #high 2 Jahre#! nicht verfügbar sein#!"
+ adoption.0001.opening: "[recipient.Custom2('AppropriateGreetingPositive', actor)|U]"
+ adoption.0001.desc: "Ich nehme Euer Adoptionsangebot an. Ich bin stolz darauf, mich als Teil von Haus [actor.GetHouse.GetBaseName] und Eurer Verwandtschaft bezeichnen zu dürfen!"
+ adoption.0001.a: "Bitte sagt doch „[actor.Custom('GetMumDad')]“ zu mir."
+ ward_invalidated_during_travel_title: "Mündel annulliert"
+ guardian_invalidated_during_travel_title: "Vormund annulliert"
+ ward_departs_title: "Mündel bricht auf"
+ ward_departs_tt: "[ward.GetFirstNameNoTooltip] bricht nach [guardian.GetCurrentLocation.GetNameNoTooltip] auf"
+ guardian_departs_title: "Vormund bricht auf"
+ guardian_departs_tt: "[guardian.GetFirstNameNoTooltip] bricht nach [guardian.GetCurrentLocation.GetNameNoTooltip] auf"
+ adoptee_departs_title: "Adoptivkind bricht auf"
+ adoptee_departs_tt: "[adoptee.GetFirstNameNoTooltip] bricht nach [adopter.GetCurrentLocation.GetNameNoTooltip] auf"
+ adoptee_leaves_for_adopter_tt: "@alert_icon! #alert_trial [adoptee.GetFirstName] muss zuerst zum Hof von [adopter.GetFirstName] [Concept('travel', 'reisen')|E]#!"
+ ward_leaves_for_guardian_tt: "@alert_icon! #alert_trial [ward|E] muss zuerst zum Hof des [Concept('guardian', 'Vormunds')] [Concept('travel', 'reisen')|E]#!"
+ guardian_leaves_for_ward_tt: "@alert_icon! #alert_trial [guardian|E] muss zuerst zum Hof des [Concept('warden', 'Wärters')] [Concept('travel', 'reisen')|E]#!"
+ ward_already_offered_awaiting_response_tt: "Verhandelt bereits, um das [ward|E] von jemand anderem zu werden"
+ guardian_already_offered_awaiting_response_tt: "Verhandelt bereits, um der [guardian|E] von jemand anderem zu werden"
+ ward_already_offered_awaiting_travel_tt: "$ward_already_offered_awaiting_response_tt$"
+ guardian_already_offered_awaiting_travel_tt: "$guardian_already_offered_awaiting_response_tt$"
+ ward_effects_on_arrival_tt: "Wenn [TARGET_CHARACTER.GetFirstName] eintrifft:"
+ ward_nearing_adulthood_tt: "@warning_icon! #X [TARGET_CHARACTER.GetShortUIName] wird bald erwachsen sein#!"
+ ward_travelling_tt: "[THIS.Char.GetShortUIName|U] ist bereits auf der Reise, um ein [ward|E] zu werden"
+ guardian_travelling_tt: "[THIS.Char.GetShortUIName|U] ist bereits auf der Reise, um ein [guardian|E] zu werden"
+

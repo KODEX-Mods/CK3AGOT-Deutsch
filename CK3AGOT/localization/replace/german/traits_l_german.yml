@@ -33,6 +33,9 @@
  trait_education_intrigue_4:0 "Flüchtiger Schatten"
  trait_education_intrigue_4_desc:0 "Der Flüchtige Schatten hat sich als ein Meister des Ränkespiels hervorgetan, und er ist in einen Schleier der Geheimhaltung gehüllt, der seinesgleichen sucht."
  trait_education_intrigue_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat sich als [ROOT.GetCharacter.Custom('DE_ART_IND_N')] Meister[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')] des Ränkespiels hervorgetan, und [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] ist in einen Schleier der Geheimhaltung gehüllt, der seinesgleichen sucht."
+ trait_education_intrigue_5: "Hinterlistiger Puppenspieler"
+ trait_education_intrigue_5_desc: "Der Hinterlistige Puppenspieler ist ein Flüstern im Wind, ein Schatten an der Wand. Sein Dolch zeigt Wirkung, wo Worte versagen."
+ trait_education_intrigue_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein Flüstern im Wind, ein Schatten an der Wand. [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')] Dolch zeigt Wirkung, wo Worte versagen."
  trait_education_diplomacy_1:0 "Einfältiger Beschwichtiger"
  trait_education_diplomacy_1_desc:0 "Der Einfältige Beschwichtiger hat zwar eine gewisse Ausbildung in der Kunst der Diplomatie erhalten, ist aber trotzdem in der Regel eine Peinlichkeit für sich selbst und alle in seiner Umgebung."
  trait_education_diplomacy_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat zwar eine gewisse Ausbildung in der Kunst der Diplomatie erhalten, ist aber trotzdem in der Regel eine Peinlichkeit für sich selbst und alle in [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Umgebung."
@@ -45,6 +48,9 @@
  trait_education_diplomacy_4:0 "Graue Eminenz"
  trait_education_diplomacy_4_desc:0 "Die Graue Eminenz kennt die Feinheiten der Diplomatie wie ihre Westentasche und ist eine Meisterin ihrer Kunst."
  trait_education_diplomacy_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kennt die Feinheiten der Diplomatie wie [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]e Westentasche und ist [ROOT.GetCharacter.Custom('DE_ART_IND_N')] Meister[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')] [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Kunst."
+ trait_education_diplomacy_5: "Virtuoser Vermittler"
+ trait_education_diplomacy_5_desc: "Die silberne Zunge des Virtuosen Vermittlers kann selbst ein steinernes Herz erweichen und jede verrammelte Tür öffnen."
+ trait_education_diplomacy_5_character_desc: "Die silberne Zunge von [ROOT.GetCharacter.GetFirstNameNoTooltip] kann selbst ein steinernes Herz erweichen und jede verrammelte Tür öffnen."
  trait_education_stewardship_1:0 "Zügelloser Verschwender"
  trait_education_stewardship_1_desc:0 "Der Zügellose Verschwender hat eine Verwaltungsausbildung erhalten, um den Fluss des Geldes nachvollziehen zu können, doch bedauerlicherweise scheint der letztere immer nur in eine Richtung zu strömen …"
  trait_education_stewardship_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat eine Verwaltungsausbildung erhalten, um den Fluss des Geldes nachvollziehen zu können, doch bedauerlicherweise scheint Letzterer immer nur in eine Richtung zu strömen …"
@@ -57,6 +63,9 @@
  trait_education_stewardship_4:0 "Kaufmännisches Genie"
  trait_education_stewardship_4_desc:0 "Das Kaufmännische Genie erzielt in der Kunst der Verwaltung einen Erfolg nach dem anderen, und es ist vollkommen unstrittig, dass es sie erstklassig beherrscht."
  trait_education_stewardship_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] erzielt in der Kunst der Verwaltung einen Erfolg nach dem anderen, und es ist vollkommen unstrittig, dass [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] sie erstklassig beherrscht."
+ trait_education_stewardship_5: "Goldener Souverän"
+ trait_education_stewardship_5_desc: "Der Goldene Souverän kann selbst mit dem kleinen Finger eine scheiternde Unternehmung noch zu Wohlstand führen. Reichtümer sprießen, wo zuvor nur leere Kassen waren."
+ trait_education_stewardship_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] kann selbst mit dem kleinen Finger eine scheiternde Unternehmung noch zu Wohlstand führen. Reichtümer sprießen, wo zuvor nur leere Kassen waren."
  trait_education_martial_1:0 "Inkompetenter Kommandant"  #Selbst geschrieben/abgetippt
  #AGOT Modified, Martial Education Descs Reworked
  # trait_education_martial_1_desc:0 "The Misguided Warrior has received an education in the art of war, but is more likely to hurt themselves than their enemies."
@@ -95,6 +104,9 @@
  # trait_education_martial_prowess_4:0 "Famous Champion"
  # trait_education_martial_prowess_4_desc:0 "The Famous Champion is known, respected, and perhaps even feared throughout the realm as a paragon of their culture's warrior practices."
  # trait_education_martial_prowess_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is known, respected, and perhaps even feared throughout the realm as a paragon of [ROOT.Char.GetCulture.GetName] warrior practices."
+ trait_education_martial_prowess_5: "Quecksilberklinge"
+ trait_education_martial_prowess_5_desc: "Über das Kampfgeschick der Quecksilberklinge spricht man nur flüsternd, denn der Name allein reicht schon, um selbst erfahrensten Veteranen eine Gänsehaut zu bescheren."
+ trait_education_martial_prowess_5_character_desc: "Über das Kampfgeschick von [ROOT.GetCharacter.GetFirstNameNoTooltip] spricht man nur flüsternd, denn der Name allein reicht schon, um selbst erfahrensten Veteranen eine Gänsehaut zu bescheren."
  trait_education_martial_prowess_1:0 "Unerfahrener Kämpfer"  #Selbst geschrieben/abgetippt
  trait_education_martial_prowess_1_desc:0 "Der unerfahrene Kämpfer ist mehr als fähig, Bauern zu verprügeln, aber seine Verfassung ist wild und unreif."  #Selbst geschrieben/abgetippt
  trait_education_martial_prowess_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist mehr als fähig, Bauern zu verprügeln, aber [ROOT.GetCharacter.GetHerHis] Verfassung ist wild und unreif."  #Selbst geschrieben/abgetippt
@@ -119,8 +131,10 @@
  trait_education_learning_4:0 "Meisterhafter Philosoph"
  trait_education_learning_4_desc:0 "Der Meisterhafte Philosoph verfügt über unheimlich tiefe Einblicke in alle Aspekte der höheren Bildung."
  trait_education_learning_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] verfügt über unheimlich tiefe Einblicke in alle Aspekte der höheren Bildung."
-
-#Lifestyle Traits
+ trait_education_learning_5: "Gelehrtes Orakel"
+ trait_education_learning_5_desc: "Das Wissen des Gelehrten Orakels über Göttliches wie Weltliches ist unübertroffen, und selbst die Größten und Besten der Gelehrten hören auf solchen Rat."
+ trait_education_learning_5_character_desc: "Das Wissen von [ROOT.GetCharacter.GetFirstNameNoTooltip] über Göttliches wie Weltliches ist unübertroffen, und selbst die Größten und Besten der Gelehrten hören auf solchen Rat."
+ #Lifestyle Traits
  trait_diplomat:0 "Diplomat"
  trait_diplomat_desc:0 "Der Diplomat kreuzt geschickt durch die trügerischen Gewässer des menschlichen Miteinanders und erreicht seine Ziele dank einer überwältigenden Ausstrahlung und seiner Überzeugungskraft, wenn er zwischen den höchsten Herrschern im Land vermittelt."
  trait_diplomat_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kreuzt geschickt durch die trügerischen Gewässer des menschlichen Miteinanders und erreicht [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]e Ziele dank einer überwältigenden Ausstrahlung und [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Überzeugungskraft, wenn [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] zwischen den höchsten Herrschern im Land vermittelt."
@@ -339,6 +353,9 @@
  trait_forgiving:0 "Nachsichtig"
  trait_forgiving_desc:0 "Dieser Charakter lässt schlimme Dinge schnell hinter sich."
  trait_forgiving_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] lässt schlimme Dinge schnell hinter sich."
+ trait_eccentric: "Exzentrisch"
+ trait_eccentric_desc: "Das Verhalten dieses Charakters wird von anderen als unberechenbar und unvernünftig gesehen, doch sein Wahnsinn scheint Methode zu haben."
+ trait_eccentric_character_desc: "Das Verhalten von [ROOT.GetCharacter.GetFirstNameNoTooltip] wird von anderen als unberechenbar und unvernünftig gesehen."
  trait_rowdy:0 "Rauflustig"
  trait_rowdy_desc:1 "Dieses Kind ist immer in Bewegung, steckt voller Tatendrang und hat den Schalk im Nacken. Wenn es etwas ausheckt, kommt es nicht selten vor, dass andere dadurch Schaden nehmen."
  trait_rowdy_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] ist immer in Bewegung, steckt voller Tatendrang und hat den Schalk im Nacken. Wenn [ROOT.Char.Custom('DE_PRO_PER_S_3P_N')] etwas ausheckt, kommt es nicht selten vor, dass andere dadurch Schaden nehmen."
@@ -363,8 +380,8 @@
  TRAIT_FLAG_DESC_join_factions_more:0 "Schließt sich mit höherer Wahrscheinlichkeit [factions|E] gegen den eigenen [Concept('liege', 'Lehnsherrn')|E] an"
 
  trait_disloyal:0 "Untreu"
- trait_disloyal_desc:0 "Wo die meisten Menschen eine Beziehung sehen, sieht diese Person eine Gelegenheit."
- trait_disloyal_character_desc:0 "Wo die meisten Menschen eine Beziehung sehen, sieht [ROOT.GetCharacter.GetFirstNameNoTooltip] eine Gelegenheit."
+ trait_disloyal_desc: "Wo die meisten Menschen eine Beziehung sehen, sieht dieser Charakter eine Gelegenheit."
+ trait_disloyal_character_desc: "Wo die meisten Menschen eine Beziehung sehen, sieht [ROOT.GetCharacter.GetFirstNameNoTooltip] eine Gelegenheit."
 
 #Stress traits
  trait_drunkard:0 "Trunkenbold"

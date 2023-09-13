@@ -475,6 +475,7 @@
 
  # Swords
  artifact_sword_name:0 "Schwert $artifact_name_prefix$"
+ artifact_longsword_name:0 "$artifact_name_prefix$ Longsword"
  artifact_sword_description:3 "Ein [newly_created_artifact.GetFeatureText('blade_metal')]-Schwert von [SCOPE.Custom('ArtifactQuality')]er Machart. [newly_created_artifact.Custom('ArtifactSwordDecoration')]"
  sword_decoration_hilt_and_blade:1 "[ROOT.Artifact.GetFeatureText('hilt_decoration')|U] und [ROOT.Artifact.GetFeatureText('blade_decoration')]."
  sword_decoration_hilt:1 "[ROOT.Artifact.GetFeatureText('hilt_decoration')|U]."
@@ -1167,7 +1168,7 @@
  # Easter eggs
  easteregg_artifact_elisabeth_plush:0 "Elisabeths ausgestopfter Fuchs"
  easteregg_artifact_elisabeth_plush_description:0 "Elisabeths ausgestopfter Fuchs ist ein heiß geliebtes Spielzeug und hat sie den Großteil ihres Lebens begleitet. Oft sah man Elisabeth, wie sie mit ihm sprach, während sie die schmuckvollen Chiffren für ihre Arbeitgeber wob. Es ist beruhigend und ermutigt den Besitzer, es dem schlauen Fuchs gleich zu tun."
- easteregg_artifact_nicks_weapon:1 "Aufruhr"
+ easteregg_artifact_nicks_weapon:2 "Glücklicher Kerkermeister"
  easteregg_artifact_nicks_weapon_description:0 "Eine wahrhaft prächtige Waffe, ob deren Gegenwart Fürsten und Fürstinnen gleichermaßen ins Schwärmen geraten. Eine kleine Inschrift im Heft lautet: „Falls Feinsinnigkeit versagt.“"
  #AGOT Modified
  easteregg_artifact_chad_book:0 "Das kommentierte Der Rand der Welt" #AGOT Changed
