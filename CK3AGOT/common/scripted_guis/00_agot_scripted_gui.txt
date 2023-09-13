@@ -4,10 +4,10 @@ agot_name = {
 	scope = character
 
 	is_shown = {
-		NOT = { #For High Speton Flavour
+		NOT = { #For High Septon flavor
 			has_title = title:k_the_most_devout
 		}
-		NOT = { #For Bastard Flavour
+		NOT = { #For bastard flavor
 			AND = {
 				is_alive = yes
 				is_landed = no
@@ -15,10 +15,14 @@ agot_name = {
 				NOT = { any_spouse = { is_landed = yes } }
 				NOT = { has_council_position = kingsguard_lord_commander } #For when a bastard becomes Lord Commander
 			}
-			has_trait = maester  #Maester Flavour
+			has_trait = maester  #Maester flavor
+			AND = { #SS flavor
+				has_trait = silent_sister
+				is_ruler = no
+			}
 		}
 		OR = {
-			NOT = { #Covering all other Flavour here
+			NOT = { #Covering all other Flavor here
 				OR = {
 					has_trait = knight
 					AND = {
@@ -93,6 +97,7 @@ agot_ser_knight = {
 		NOT = { has_council_position = kingsguard_lord_commander }
 		NOT = { any_spouse = { is_landed = yes } }
 		NOT = { has_trait = bastard }
+		NOT = { has_trait = silent_sister }
 		is_landed = no
 		is_alive = yes
 		NOR = {
@@ -121,6 +126,7 @@ agot_name_bastard = {
 		is_landed = no
 		NOT = { has_council_position = kingsguard_lord_commander}
 		NOT = { any_spouse = { is_landed = yes } }
+		NOT = { has_trait = silent_sister }
 		NOT = {
 			OR = {
 				has_trait = knight
@@ -153,6 +159,7 @@ agot_ser_knight_bastard = {
 	is_shown = {
 		is_alive = yes
 		has_trait = bastard
+		NOT = { has_trait = silent_sister }
 		OR = {
 			has_trait = knight
 			AND = {
@@ -185,6 +192,16 @@ agot_maester = {
 	is_shown = {
 		has_trait = maester
 		is_landed = no
+		NOT = { has_trait = silent_sister }
+	}
+}
+
+agot_silent_sister = {
+	scope = character
+
+	is_shown = {
+		has_trait = silent_sister
+		is_ruler = no
 	}
 }
 

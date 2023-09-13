@@ -33,3 +33,6 @@
 
  recall_wanderer_interaction:0 "Wanderer zurückrufen"
  recall_wanderer_interaction_desc:0 "Holt Euer eigensinniges Hausmitglied heim"
+ 
+ sent_to_silent_sisterhood_interaction:0 "An die Schweigenden Schwestern entsenden"
+ sent_to_silent_sisterhood_interaction_desc:0 "Sende [recipient.GetShortUINameNoTooltip] um das Schweigegelübde abzulegen und den Schweigenden Schwestern anzugehören."

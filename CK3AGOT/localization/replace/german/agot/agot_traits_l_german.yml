@@ -35,8 +35,12 @@
  trait_septon_male_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat das Gelübde eines Septons geleistet und den Namen seines Hauses abgelegt."
 
  trait_septon_female:0 "Septa"
- trait_septon_female_desc:0 "Dieser Charakter hat das Gelübde eines Septons geleistet und den Namen seines Hauses abgelegt."
- #trait_septon_male_character_desc0:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat das Gelübde eines Septons geleistet und den Namen seines Hauses abgelegt."
+ trait_septon_female_desc:0 "Dieser Charakter hat das Gelübde einer Septa geleistet und den Namen ihres Hauses abgelegt."
+ trait_septon_female_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat das Gelübde einer Septa geleistet und den Namen ihres Hauses abgelegt."
+ 
+ trait_silent_sister:0 "Schweigende Schwester"
+ trait_silent_sister_desc:0 "Dieser Charakter hat das Gelübde einer schweigenden Schwester abgelegt, und im Namen der Frömmigkeit ihren Hausnamen und ihre eigene Stimme abgelegt."
+ trait_silent_sister_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat das Gelübde einer schweigenden Schwester abgelegt und im Namen der Frömmigkeit ihren Hausnamen und ihre eigene Stimme abgelegt."
 
  trait_septon:0 "Septon"
  trait_septon_desc:0 "Dieser Charakter hat das Gelübde eines Septons geleistet und den Namen seines Hauses abgelegt."
