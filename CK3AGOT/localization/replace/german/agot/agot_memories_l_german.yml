@@ -76,6 +76,11 @@
  agot_joined_nightswatch_desc_second_perspective_1:0 "Ihr tratet der Nachtwache unter [commander.GetTitledFirstName] bei"
  agot_joined_nightswatch_desc_third_perspective_1:0 "[owner.GetName] trat der Nachtwache unter [commander.GetTitledFirstName] bei"
 
+ agot_joined_silent_sisters:0 "Beitritt bei den Schweigenden Schwestern"
+ agot_joined_silent_sisters_desc_1:0 "Ich habe mich den Schweigenden Schwestern unter [silent_mother.GetTitledFirstName] angeschlossen."
+ agot_joined_silent_sisters_desc_second_perspective_1:0 "Ihr seid den Schweigenden Schwestern unter [silent_mother.GetTitledFirstName] beigetreten."
+ agot_joined_silent_sisters_desc_third_perspective_1:0 "[owner.GetName] trat den Schweigenden Schwestern unter [silent_mother.GetTitledFirstName] bei."
+
  agot_got_paramour:0 "Nahm eine Konkubine"
  agot_got_paramour_desc_1:0 "Ich nahm [paramour.GetFirstName] zur Konkubine"
  agot_got_paramour_desc_second_perspective_1:0 "Ihr nahmt [paramour.GetFirstName] zur Konkubine"

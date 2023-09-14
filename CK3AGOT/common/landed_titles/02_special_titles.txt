@@ -101,6 +101,27 @@ d_the_citadel = {
 	de_jure_drift_disabled = yes
 
 }
+d_the_silent_sisterhood = {
+	color = { 243 237 180 }
+
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+
+	capital = c_oldtown
+
+	# title = "SILENT_MOTHER"
+	# foa = "SILENT_MOTHER_FOA"
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	#destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}
 
 d_wildling_army = { #for when wildlings breach the wall
 	color = { 94 83 70 }
