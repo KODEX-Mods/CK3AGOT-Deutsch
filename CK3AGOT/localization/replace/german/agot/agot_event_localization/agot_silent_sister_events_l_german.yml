@@ -31,7 +31,7 @@
  agot_silent_sisters.0006.c:0 "Dies war offensichtlich ein Fehler."
  agot_silent_sisters.0006.c.flavor:0 "[attractive_silent_sister.GetFirstName] wird nicht erfreut sein, dass sie ihr Gelübde für dich gebrochen hat."
  
- agot_silent_sisters.0007.t:0 "Eine wahrhaft dunkle Schwester"
+ agot_silent_sisters.0007.t:0 "Eine wahrhaft düstere Schwester"
  agot_silent_sisters.0007.desc.deviant:0 "Es war eine schöne Zeremonie zum Gedenken an [dead_relative.GetFirstName] und all [dead_relative.Custom('DE_PRO_POS_S_3P')]e Taten. In Gedanken über den Sinn des Lebens und des Todes versunken, befinde ich mich noch lange nach der Messe in der Septe. Ich muss so still gewesen sein, dass die Schweigende Schwester [defiler.GetFirstName] meine Anwesenheit nicht bemerkte, während sie zu dem leblosen Körper schritt.\n\nZuerst dachte ich, dass sie die letzten Vorbereitungen für den Leichnam trifft, aber als sie anfängt, sich zu entkleiden, wird mir klar, dass... oh... oh... bei den Göttern!"
  agot_silent_sisters.0007.desc.cannibal:0 "Es war eine schöne Zeremonie zum Gedenken an [dead_relative.GetFirstName] und all [dead_relative.Custom('DE_PRO_POS_S_3P')]e Taten. In Gedanken über den Sinn des Lebens und des Todes versunken, befinde ich mich noch lange nach der Messe in der Septe. Ich muss so still gewesen sein, dass die Schweigende Schwester [defiler.GetFirstName] meine Anwesenheit nicht bemerkte, während sie zu dem leblosen Körper schritt.\n\nZuerst dachte ich, dass sie die letzten Vorbereitungen für den Leichnam trifft, aber dann beugt sie sich über den Körper und beißt einen blutiges Stück von [dead_relative.GetFirstNamePossessiveNoTooltip] frischem Leichnam ab!"
  agot_silent_sisters.0007.a:0 "„Wachen! Nehmt dieses abscheuliche Weib fest!”"
