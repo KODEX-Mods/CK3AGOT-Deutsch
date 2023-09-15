@@ -148,17 +148,24 @@ window = {
 				# }
 			}
 
+			expand = {}
+
+			hbox = {
+				margin_top = 50
+				layoutpolicy_horizontal = expanding
+				expand = {}
+
 			### Jailor / Imprisoner / Imprisoned by
-			vbox = {
+				vbox = {
 				name = "imprisoned_by"
 				datacontext = "[CharacterWindow.GetCharacter.GetImprisonedBy]"
 				visible = "[Character.IsValid]"
 
-				margin_right = 20
+					margin_right = 20
 					layoutpolicy_vertical = expanding
 					using = Animation_Character_Window_Refresh
 
-				portrait_head_small = {
+					portrait_head_small = {
 						blockoverride "portrait_transformation"
 						{
 							portrait_scale = { -1 1 }
@@ -171,6 +178,7 @@ window = {
 					}
 					expand = {}
 				}
+
 				### Hostage Home Court
 				vbox = {
 					name = "hostage_home_court"
@@ -839,6 +847,7 @@ window = {
 									default_format = "#high"
 									tooltip = "[Character.GetUINameNotMeNoTooltip]"
 								}
+
 								text_single = {
 									name = "character_name_silent_sister"
 									visible = "[GetScriptedGui('agot_silent_sister').IsShown(GuiScope.SetRoot(Character.MakeScope).End)]"
@@ -3606,7 +3615,6 @@ window = {
 			}
 		}
 
-
 		vbox = {
 			layoutpolicy_horizontal = fixed
 			layoutpolicy_vertical = fixed
@@ -3624,6 +3632,7 @@ window = {
 				}
 			}
 		}
+
 
 		vbox = {
 			name = "history"
