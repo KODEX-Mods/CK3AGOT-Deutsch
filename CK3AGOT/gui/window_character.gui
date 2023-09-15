@@ -849,6 +849,19 @@ window = {
 								}
 
 								text_single = {
+									name = "character_name_seer"
+									visible = "[GetScriptedGui('agot_seer').IsShown(GuiScope.SetRoot(Character.MakeScope).End)]"
+									raw_text = "Seher[Character.Custom('DE_END_NOU_S_GS_N')] [Character.GetTitledFirstNameNicknamedNoTooltip]"
+									margin_left = 2
+									max_width = 400
+									fontsize = 20
+									fontsize_min = 14
+									align = nobaseline
+									default_format = "#high"
+									tooltip = "[Character.GetUINameNotMeNoTooltip]"
+								}
+
+								text_single = {
 									name = "character_name_silent_sister"
 									visible = "[GetScriptedGui('agot_silent_sister').IsShown(GuiScope.SetRoot(Character.MakeScope).End)]"
 									raw_text = "Silent Sister [Character.GetTitledFirstNameNicknamedNoTooltip]"

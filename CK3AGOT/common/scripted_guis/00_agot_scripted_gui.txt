@@ -45,6 +45,7 @@ agot_name = {
 				has_trait = maester
 				has_trait = bastard
 				has_trait = septon
+				has_council_position = councillor_court_chaplain
 			}
 			is_landed = yes
 			has_council_position = kingsguard_lord_commander
@@ -95,6 +96,7 @@ agot_ser_knight = {
 
 		NOT = { has_trait = maester } #you shouldn't be able to knight maesters anyway but just in case
 		NOT = { has_council_position = kingsguard_lord_commander }
+		NOT = { has_council_position = councillor_court_chaplain }
 		NOT = { any_spouse = { is_landed = yes } }
 		NOT = { has_trait = bastard }
 		NOT = { has_trait = silent_sister }
@@ -125,6 +127,7 @@ agot_name_bastard = {
 		has_trait = bastard
 		is_landed = no
 		NOT = { has_council_position = kingsguard_lord_commander}
+		NOT = { has_council_position = councillor_court_chaplain }
 		NOT = { any_spouse = { is_landed = yes } }
 		NOT = { has_trait = silent_sister }
 		NOT = {
@@ -181,6 +184,7 @@ agot_ser_knight_bastard = {
 		}
 		NOT = { has_trait = maester } #you shouldn't be able to knight maesters anyway but just in case
 		NOT = { has_council_position = kingsguard_lord_commander}
+		NOT = { has_council_position = councillor_court_chaplain }
 		NOT = { any_spouse = { is_landed = yes } }
 		is_landed = no
 	}
@@ -201,6 +205,19 @@ agot_silent_sister = {
 
 	is_shown = {
 		has_trait = silent_sister
+		is_ruler = no
+	}
+}
+
+agot_seer = {
+	scope = character
+
+	is_shown = {
+		has_council_position = councillor_court_chaplain
+		NOT = { has_trait = maester }
+		NOT = { has_trait = septon }
+		NOT = { has_trait = silent_sister }
+		NOT {has_title = title:k_the_most_devout}
 		is_ruler = no
 	}
 }
