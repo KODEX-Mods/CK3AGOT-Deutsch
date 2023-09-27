@@ -64,8 +64,8 @@
  game_concept_castellan:0 "Kastellan" #Selbst geschrieben/abgetippt
  game_concept_castellan_desc:1 "Der $game_concept_castellan$ ist Euer [councillor|E], der in seiner Funktion als Eure starke rechte Hand agiert. Er kann je nach seinen Fähigkeiten verschiedene [councillor_tasks|E] durchführen, mit Eurer Stimme sprechen und in Eurem Namen handeln." #Selbst geschrieben/abgetippt
 
- activity_kinguard_bodyguard_name: "Leibwächterpflichten" #Selbst geschrieben/abgetippt
- activity_kinguard_bodyguard: "Leibwächterpflichten" #Selbst geschrieben/abgetippt
+ activity_kinguard_bodyguard_name:0 "Leibwächterpflichten" #Selbst geschrieben/abgetippt
+ activity_kinguard_bodyguard:0 "Leibwächterpflichten" #Selbst geschrieben/abgetippt
 
- activity_location_set: "Reisen" #Selbst geschrieben/abgetippt
- activity_location_set_name: "Reisen" #Selbst geschrieben/abgetippt
+ activity_location_set:0 "Reisen" #Selbst geschrieben/abgetippt
+ activity_location_set_name:0 "Reisen" #Selbst geschrieben/abgetippt

@@ -73,3 +73,11 @@
  agot_knighthood_maintenance.0501.opening:0 "An meinen treuen Untergebenen,"
  agot_knighthood_maintenance.0501.desc:0 "Nachdem ich die Titel und Ländereien geerbt habe, ist klar, dass ich nicht mehr die Zeit finde, ein Knappe zu bleiben. Um meiner Regentschaft volle Aufmerksamkeit widmen zu können, bitte ich Euch ergebenst darum, dass ihr mich auf der Stelle zum Ritter schlagt!"
  agot_knighthood_maintenance.0501.a:0 "Wie Ihr befehlt..."
+
+ agot_knighthood_maintenance.0550.t:0 "Der Knappe kehrt heim"
+ agot_knighthood_maintenance.0550.desc:0 "Ich habe mein Kind, [cancelled_squire_child.GetUIName], aus [childs_knight.GetUINamePossessive] Vormundschaft abberufen.\n\nEs ist also an der Zeit, dass [cancelled_squire_child.GetUIName] aufhört, ein Knappe zu sein."
+ agot_knighthood_maintenance.0550.a:0 "Sie werden vorerst aufhören, ein Knappe zu sein."
+
+ agot_knighthood_maintenance.0551.opening:0 "Für den Ritter meines Kindes,"
+ agot_knighthood_maintenance.0551.desc:0 "Aus Gründen, die mein Haus betreffen, muss ich [cancelled_squire_child.GetName] an meinen Hof zurückrufen und damit Eure ritterliche Vormundschaft über [cancelled_squire_child.Custom('DE_PRO_PER_S_3P_A ')] aufheben."
+ agot_knighthood_maintenance.0551.a:0 "Dies ist bedauerlich."
