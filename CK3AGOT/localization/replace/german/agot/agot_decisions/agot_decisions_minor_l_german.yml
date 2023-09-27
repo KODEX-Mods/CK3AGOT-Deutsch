@@ -52,6 +52,10 @@
  agot_minor_decisions_events.0004.desc:0 "Die Tragödie von Sommerhall hätte fast das Ende der Targaryens besiegelt... und dennoch findet sich ein seltsamer Friede zwischen den Ruinen. Nun fühle ich mich um so vieles klarer."
  agot_minor_decisions_events.0004.a:0 "Es wird Zeit heimzukehren..."
 
+ agot_minor_decisions_events.0005.t:0 "Mich selbst gehen lassen"
+ agot_minor_decisions_events.0005.desc:0 "#italic [ROOT.Char.GetFullNameNicknamedNoTooltip] ist vollkommen dem Wahnsinn verfallen...#!\n\nIch höre das Getuschel bei Hofe. Meine Höflinge halten mich für ein Ärgernis, sowohl vom Verhalten als auch vom Aussehen her. Wenn sie mich als solches betrachten, sollte ich vielleicht aufhören, den Schein zu wahren."
+ agot_minor_decisions_events.0005.a:0 "Hinfort, Barbier!"
+
  end_the_ironborn_decision:0 "Die Eisenmänner vernichten"
  end_the_ironborn_decision_desc:0 "Seit Jahrhunderten haben die Eisengeborenen, diese Mischlingshunde, vergewaltigt, geplündert und sich ihren Weg durch Westeros und darüber hinaus gepflügt. Es ist nun unausweichlich geworden, dass wir gegen diese seefahrenden Räuber vorgehen und ihre Macht ein für alle Mal zerschlagen müssen. Wir müssen einen so vernichtenden Krieg gegen sie führen, dass nie wieder ein Eisenkönig auf dem Meersteinthron sitzen wird."
  end_the_ironborn_decision_confirm_text_desc:0 "Zu den Waffen!"
@@ -61,11 +65,6 @@
  ironborn_rebellion_decision_desc:0 "Schon viel zu lange haben die Männer der grünen Länder bequem in ihren Bettchen geschlafen. In der Tat hat Westeros seit dem Tod von Harren dem Schwarzen die Eisenmänner nicht mehr wirklich gefürchtet, nur vereinzelte Scharen von Plünderern sind an Land gegangen, um den Eisernen Preis zu zahlen. Ein König nach dem anderen hat auf dem Eisernen Thron gesessen. Doch haben wir vergessen, dass wir unseren eigenen Thron haben, dass wir jahrhundertelang unsere eigenen Könige hatten?\n\nAndere mögen das getan haben, aber ich nicht. Ich werde die Ketten abwerfen, die unser Volk fesseln; ich werde der König über Salz und Stein sein. Die Andalen, die Rhoynar und die Ersten Menschen werden wieder erfahren, was es heißt, die Eisenmänner zu fürchten."
  ironborn_rebellion_decision_tooltip:0 "Weine, oh Westeros, wenn sich die Inseln wieder erheben!"
  ironborn_rebellion_decision_confirm_text_desc:0 "Wir werden den Eisernen Preis zahlen!"
-
- agot_expose_true_parentage_decision:0 "Jons wahre Abstammung offenlegen"
- agot_expose_true_parentage_decision_tooltip:0 "Ihr werdet enthüllen, was wirklich im Turm der Freude geschehen ist."
- agot_expose_true_parentage_decision_desc:0 "Ich erinnere mich nur zu gut an die Versprechen, die inmitten der Winterrosen gemacht wurden... Und doch steht vor mir ein Kind, dessen ganzes Leben auf einer Lüge beruht. Es ist nicht recht, dass dieses Kind leben und sterben soll, ohne jemals die Wahrheit zu erfahren."
- agot_expose_true_parentage_decision_confirm:0 "Die Wahrheit muss ans Licht!"
 
  agot_weirwood_events.0002.t:0 "Ein überraschender Besucher"
  agot_weirwood_events.0002.desc:0 "Der Götterhain ist ein friedlicher Ort der Befreiung von den Ängsten meiner Herrschaft; der Herzbaum ein uralter Ratgeber, dem ich große und kleine Sorgen vortragen kann.\n\nIch bereite mich darauf vor, mit dem großen #agot_weirwood_events in Kontakt zu treten, als ein plötzliches Rascheln meine Konzentration stört. Dort, fast gänzlich vom Laub verdeckt, wälzt sich ein winziges Kätzchen und miaut leise."
@@ -94,3 +93,12 @@
  recruit_forder_specialist_decision_desc:0 "Rekrutiert einen Befehlshaber, der nicht nur weiß, wie man effektiv Flüsse überquert, sondern auch ein geschickter Krieger ist, wenn er dies tut."
  recruit_forder_specialist_decision_tooltip:0 "Ein Befehlshaber mit der Furtner-Eigenschaft wird sich Eurem Hof anschließen."
  recruit_forder_specialist_decision_confirm:0 "Ich hoffe, es findet sich jemand"
+
+ recruit_forder_specialist_decision_confirm:0 "I hope I find one"
+
+ stress_loss_uncouth_decision:0 "Lasst euch gehen"
+ stress_loss_uncouth_decision_desc:0 "Der Druck dieser Welt ist viel zu groß geworden. Wenn die Welt in mir ein Monster sehen will, dann soll sie mich auch als Monster sehen."
+ stress_loss_uncouth_decision_tooltip:0 "Ihr werdet es aufgeben, euer Äußeres zu pflegen und eure Haare und Nägel wild wachsen lassen."
+ stress_loss_uncouth_decision_confirm:0 "Wer braucht schon ein Bad?"
+ uncouth_stopped_cutting:0 "Ungeschnittenes Haar"
+ uncouth_stopped_cutting_desc:0 "Diese Person hat aufgehört, sich die Haare zu schneiden, was ein ungepflegtes Aussehen zur Folge hat."

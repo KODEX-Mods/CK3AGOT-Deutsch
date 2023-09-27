@@ -54,6 +54,10 @@
  stress_threshold.1501.d:0 "Warum soll ich etwas essen, wenn doch alles wie Asche schmeckt?"
  stress_threshold.1501.e:0 "Ich darf mich von diesen finsteren Gedanken nicht ablenken lassen."
  stress_threshold.1501.f:0 "Das Leben als [scoped_ruler.GetFaith.GetAdherentName] hat keinen Sinn."
+ #AGOT Added
+ stress_threshold.1501.g:0 "Warum muss ich den Schein wahren?"
+ #AGOT Added
+ stress_threshold.1501.h:0 "Ich kann mich nicht mehr anstrengen, #italic richtig#! zu handeln."
 
  stress_threshold.1502.t:0 "Geistiger Zusammenbruch: Ablehnung"
  stress_threshold.1502.intro.desc:0 "Warum muss ich immer alles selbst machen? Wie kann man denn von mir erwarten, dass ich [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] regiere, wenn die Hälfte meiner Dienstboten nicht in der Lage ist, meine Befehle zu befolgen, und die andere Hälfte nicht in der Lage ist, sie zu verstehen?"
@@ -66,6 +70,8 @@
  stress_threshold.1502.e:0 "Ich werde das einfach ertragen müssen."
  stress_threshold.1502.f:0 "Vielleicht sollte ich ein Tagebuch meines Unglücks anlegen?"
  stress_threshold.1502.g:0 "[scoped_ruler.GetFaith.HighGodName], ich brauche etwas zu trinken!"
+ #AGOT Added
+ stress_threshold.1502.h:0 "Vielleicht wird es unerträglich werden, in meiner Nähe zu sein!"
 
  stress_threshold.1503.t:0 "Geistiger Zusammenbruch: Innere Leere"
  stress_threshold.1503.desc:0 "Nichts stellt mich noch zufrieden. Trotz all meiner Bemühungen fühle ich weder Freude noch Frieden in mir. Es ist, als ob da etwas fehlen würde.\n\nWas kann dieses Loch schließen, dass da an meiner Seele nagt?"
@@ -86,6 +92,10 @@
  stress_threshold.1504.f:0 "Ich bin umgeben von Narren!"
  stress_threshold.1504.g:0 "Ich werde meine Gedanken schriftlich sammeln."
  stress_threshold.1504.h:0 "Sattelt mein Pferd. Ich muss hier raus!"
+ #AGOT Added
+ stress_threshold.1504.i:0 "Ich kann keine Energie daran verschwenden, was andere von mir denken!"
+ #AGOT Added
+ stress_threshold.1504.j:0 "Ich muss einfach loslassen... #EMP *Furz*#!"
 
  stress_threshold.1601.t:0 "Geistiger Zusammenbruch: Wirbelnde Gedanken"
  stress_threshold.1601.desc:0 "Ich kann mich nicht konzentrieren, meine Gedanken laufen wild im Kreis! Ich muss mich um die Residenz kümmern, die Truppen inspizieren und dann noch …\n\nWie soll ich zur Ruhe kommen, wenn mich selbst meine Gedanken derart hintergehen?!"
@@ -99,6 +109,10 @@
  stress_threshold.1601.rakish.effect:0 "Bei einem Besuch im Freudenhaus kann ich stets meine Gedanken sammeln!"
  stress_threshold.1601.reclusive.gain:0 "Vielleicht könnte ich mich besser konzentrieren, wenn ich alleine bin …"
  stress_threshold.1601.reclusive.effect:0 "Ich kann mich immer gut konzentrieren, wenn ich alleine bin …"
+ #AGOT Added
+ stress_threshold.1601.uncouth.gain:0 "Vielleicht könnte ich besser denken, wenn ich weniger Zeit mit meinem Aussehen verbringen würde..."
+ #AGOT Added
+ stress_threshold.1601.uncouth.effect:0 "I can focus much better when I don't worry about what others think of me."
  stress_threshold.1601.irritable.gain:0 "Vielleicht könnte ich ja nachdenken, wenn die Leute einfach mal #EMP ruhig#! wären!"
  stress_threshold.1601.irritable.effect:0 "Ich sage den Leuten, sie sollen #EMP ruhig sein#!!"
  stress_threshold.1601.confider.gain:0 "„[friend.GetFirstName], helft mir bitte, meine Gedanken zu sortieren!“"
@@ -135,6 +149,10 @@
  stress_threshold.1602.rakish.effect:0 "Durch nichts finde ich meine innere Mitte wie durch starkes Verlangen und Lust!"
  stress_threshold.1602.reclusive.gain:0 "Vielleicht könnte ich mich beruhigen, wenn ich alleine bin …"
  stress_threshold.1602.reclusive.effect:0 "Wenn ich alleine bin, kann ich immer klar denken."
+ #AGOT Added
+ stress_threshold.1602.uncouth.gain:0 "Vielleicht wäre es einfacher, wenn ich mich gehen lassen würde..."
+ #AGOT Added
+ stress_threshold.1602.uncouth.effect:0 "Ich fühle mich viel besser, wenn ich mich gehen lasse."
  stress_threshold.1602.irritable.gain:0 "Es wäre einfacher, wenn mich die Menschen einfach #EMP in Ruhe lassen#! könnten!"
  stress_threshold.1602.irritable.effect:0 "Ich werde ihnen schon sagen, was ich von ihrem #EMP Misstrauen#! halte!"
  stress_threshold.1602.confider.gain:0 "Es könnte helfen, mit [friend.GetFirstName] darüber zu reden."

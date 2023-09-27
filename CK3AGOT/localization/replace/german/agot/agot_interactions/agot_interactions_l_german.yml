@@ -36,3 +36,6 @@
  
  sent_to_silent_sisterhood_interaction:0 "An die Schweigenden Schwestern entsenden"
  sent_to_silent_sisterhood_interaction_desc:0 "Sende [recipient.GetShortUINameNoTooltip] um das Schweigegelübde abzulegen und den Schweigenden Schwestern anzugehören."
+
+ reveal_royal_bastardry_interaction:0 "Königlichen Bastard enthüllen"
+ reveal_royal_bastardry_interaction_desc:0 "Ihr überlegt, ob ihr [recipient.GetShortUINameNoTooltip]s Herkunft preisgeben solltet."
