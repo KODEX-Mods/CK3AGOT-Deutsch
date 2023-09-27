@@ -284,9 +284,13 @@
  helped_commoners_modifier:0 "Retter des Volkes"
  helped_commoners_modifier_desc:0 "Dieser Charakter folgte den Hilferufen der örtlichen Gemeinen und wird dafür von ihnen geschätzt."
 
-#Working off Bastardry - Sililex
+ # Working off Bastardry - Sililex
  agot_working_off_bastardry:0 "Abarbeiten des Bastard-Dasein"
  agot_working_off_bastardry_desc:0 "Obwohl sie unter weniger erfreulichen Umständen geboren wurde, arbeitet diese Person hart daran, ihrem Familienstamm Ehre zu machen."
+
+ # Reversed Claims Forswearing - Sililex
+ agot_reversed_claim_forswear:0 "Verworfene Ansprüche geltend machen"
+ agot_reversed_claim_forswear_desc:0 "Obwohl er geschworen hat, seine Ansprüche nicht geltend zu machen, hat er diese Erklärung rückgängig gemacht und seine Ehre für immer beschmutzt."
 
 ### RELIGION ###
  rf_faith_of_the_seven_opinion:0 "$faith_of_the_seven_religion$ Meinung von Euch"

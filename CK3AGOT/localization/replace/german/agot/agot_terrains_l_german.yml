@@ -1,5 +1,6 @@
 ﻿l_german:
  # Übersetzt von gitSh0Xx
+ urban:0 "Städtisch"
  frozen_flats:0 "Gefrorene Ebenen"
  glacier:0 "Gletscher"
  canyon:0 "Schlucht"
@@ -21,6 +22,14 @@
  majorroad_steppe:0 "Steppe (Hauptstraße)"
  majorroad_floodplains:0 "Auen (Hauptstraße)"
  majorroad_drylands:0 "Trockengebiete (Hauptstraße)"
+ majorroad_urban:0 "Städtisch (Hauptstraße)"
+ majorroad_frozen_flats:0 "Gefrorene Ebenen (Hauptstraße)"
+ majorroad_glacier:0 "Gletscher (Hauptstraße)"
+ majorroad_canyon:0 "Schlucht (Hauptstraße)"
+ majorroad_highlands:0 "Hochland (Hauptstraße)"
+ majorroad_cloudforest:0 "Nebelwald (Hauptstraße)"
+ majorroad_taiga_bog:0 "Taiga-Moor (Hauptstraße)"
+ majorroad_the_bog:0 "Sumpfgebiet (Hauptstraße)"
  minorroad_plains:0 "Ebenen (Nebenstraße)"
  minorroad_farmlands:0 "Weideland (Nebenstraße)"
  minorroad_hills:0 "Hügel (Nebenstraße)"
@@ -35,7 +44,14 @@
  minorroad_steppe:0 "Steppe (Nebenstraße)"
  minorroad_floodplains:0 "Auen (Nebenstraße)"
  minorroad_drylands:0 "Trockengebiete (Nebenstraße)"
- urban:0 "Städtisch"
+ minorroad_urban:0 "Städtisch (Nebenstraße)"
+ minorroad_frozen_flats:0 "Gefrorene Ebenen (Nebenstraße)"
+ minorroad_glacier:0 "Gletscher (Nebenstraße)"
+ minorroad_canyon:0 "Schlucht (Nebenstraße)"
+ minorroad_highlands:0 "Hochland (Nebenstraße)"
+ minorroad_cloudforest:0 "Nebelwald (Nebenstraße)"
+ minorroad_taiga_bog:0 "Taiga-Moor (Nebenstraße)"
+ minorroad_the_bog:0 "Sumpfgebiet (Nebenstraße)"
 
  # Combat Modifiers
  combat_urban:0 "Verteidigen in einer Stadt"

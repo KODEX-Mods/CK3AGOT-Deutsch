@@ -18,6 +18,10 @@
  stress_threshold.1701.c.flagellant.effect:0 "$stress_threshold.1701.c.flagellant.gain$"
  stress_threshold.1701.d.profligate.gain:0 "Vielleicht würde mich ein neuer Umhang ja aufmuntern …"
  stress_threshold.1701.d.profligate.effect:0 "$stress_threshold.1701.d.profligate.gain$"
+ #AGOT Added
+ stress_threshold.1701.l.uncouth.gain:0 "Vielleicht würde es helfen, mich gehen zu lassen..."
+#AGOT Added
+ stress_threshold.1701.b.uncouth.effect:0 "$stress_threshold.1701.l.uncouth.gain$"
  stress_threshold.1701.g.journaller.gain:0 "Ich muss Feder zu Papier bringen, um diese Gedanken loszuwerden."
  stress_threshold.1701.g.journaller.effect:0 "$stress_threshold.1701.g.journaller.gain$"
  stress_threshold.1701.h.confider.gain:0 "Vielleicht unterstützt [friend.GetFirstNameNoTooltip] mich ja?"
@@ -44,6 +48,10 @@
  stress_threshold.1711.desc.rump:0 "\n\nDer Kaufmann schaut mich mit offenem Mund an und blinzelt schockiert. Habe ich etwas Falsches gesagt?"
  stress_threshold.1711.a.reclusive.gain:0 "Den noch, und dann will ich allein sein."
  stress_threshold.1711.a.reclusive.effect:0 "$stress_threshold.1711.a.reclusive.gain$"
+ #AGOT Added
+ stress_threshold.1711.j.uncouth.gain:0 "Vielleicht werde ich dem nächsten Bittsteller gegenüber ein Arsch sein."
+ #AGOT Added
+ stress_threshold.1711.j.uncouth.effect:0 "$stress_threshold.1711.j.uncouth.gain$"
  stress_threshold.1711.b.flagellant.gain:0 "Vielleicht würde es die Sünden des Reichs tilgen, wenn ich mich selbst geißle …"
  stress_threshold.1711.b.flagellant.effect:0 "$stress_threshold.1711.b.flagellant.gain$"
  stress_threshold.1711.c.profligate.gain:0 "$stress_threshold.1701.d.profligate.gain$"
@@ -123,6 +131,10 @@
  stress_threshold.1731.a.rakish.effect:0 "$stress_threshold.1701.a.rakish.gain$"
  stress_threshold.1731.b.reclusive.gain:0 "Das kann warten. Das kann alles warten."
  stress_threshold.1731.b.reclusive.effect:0 "$stress_threshold.1731.b.reclusive.gain$"
+ #AGOT Added
+ stress_threshold.1731.b.uncouth.gain:0 "Sehe ich so aus, als ob mich das einen #bold feuchten Kehricht#! interessiert, du Idiot?"
+ #AGOT Added
+ stress_threshold.1731.b.uncouth.effect:0 "$stress_threshold.1731.b.uncouth.gain$"
  stress_threshold.1731.c.profligate.gain:0 "Ich muss nur unterwegs einige Dinge kaufen …"
  stress_threshold.1731.c.profligate.effect:0 "$stress_threshold.1731.c.profligate.gain$"
  stress_threshold.1731.d.comfort_eater.gain:0 "Ich überlege, ob ich nicht früher zum Abendessen zurückkehren soll."

@@ -171,18 +171,6 @@
  agot_scenario_rr_toj.0200.desc.alive_dead:0 "Selbst in den dunkelsten Stunden kann man Freude finden - aber das Weinen einer Mutter, die um ihr neugeborenes Kind trauert, kann selbst bei den größten Träumern Zweifel aufkommen lassen. \n\nNach heftigen, blutigen und qualvollen Wehen hat Lyanna die Niederkunft überlebt - und eine Totgeburt zur Welt gebracht."
  agot_scenario_rr_toj.0200.desc.dead_dead:0 "All dieses Blut, all diese Tränen und gebrochenen Herzen - all dieser #italic Krieg#! - für nichts. Für absolut nichts. \n\nTrotz eines langen und schweren Kampfes konnten weder Lyanna noch ihr Kind die Qualen ihrer Wehen überstehen. Beide starben, bevor das Kleine auch nur den ersten Atemzug tun konnte. \n\nWas ist das für ein Ort in den Herzen der Menschen? Ah, ja. Die Grube der Verzweiflung..."
 
-
-### Reveal baby snow's true parentage; agot_expose_true_parentage_decision ###
-
- agot_scenario_rr_toj.0500.t:0 "Winterrosen"
- agot_scenario_rr_toj.0500.desc:0 "Jedes Mal, wenn ich [reveal_scope.GetFirstName] ansehe, erinnere ich mich an gegebene Versprechen und längst schlummernde Gefahren, aber ich sehe auch ein Kind, dessen ganzes Leben auf einer Lüge aufgebaut ist. Es ist nicht gerecht [reveal_scope.Custom('DE_PRO_PER_S_3P_D')] gegenüber, dass [reveal_scope.GetSheHe] leben und sterben muss, ohne jemals die Wahrheit zu erfahren. Ich kann nicht länger der Urheber dieser Ungerechtigkeit sein."
- agot_scenario_rr_toj.0500.a:0 "[reveal_scope.GetFirstName], du wurdest in einem Bett von Winterrosen als Kind einer Frau namens Lyanna Stark geboren..."
- agot_scenario_rr_toj.0500.b:0 "Und doch muss ich es tun. Meine Schuld kann das Versprechen nicht aufwiegen, das ich gegeben habe."
- agot_scenario_rr_toj.0501.t:0 "Winterrosen"
- agot_scenario_rr_toj.0501.desc:0 "Mein Vater bittet mich, ihn zu einem Ausritt außerhalb des Schlosses zu begleiten und führt mich zu einem Eichenhain, wo wir absteigen und uns setzen. Ich habe ihn noch nie so angespannt gesehen - es fällt ihm schwer, mir überhaupt in die Augen zu sehen.\n\n\"Es gibt keinen einfachen Weg, dies zu sagen, also werde ich es unverblümt tun. [ROOT.char.GetFirstName], du wurdest in einem Bett von Winterrosen als Kind einer Frau namens Lyanna Stark geboren. Dein Vater war Rhaegar Targaryen. Ich habe geschworen, dieses Geheimnis zu wahren, aber ich konnte mich nicht dazu durchringen, diese Täuschung aufrecht zu erhalten. Ich fürchte, ich habe dir nur eine Last gegen eine schwerere auferlegt, aber zumindest kannst du selbst entscheiden, was du mit dieser Wahrheit anfangen willst.\"\n\nDie Eichenblätter rascheln im Wind. Ich möchte diese Offenbarung von mir weisen, in den Wind brüllen, dass sie nicht wahr ist, aber in meinem Herzen weiß ich, dass es doch so ist. Die Frage ist nur, was ich daraus machen soll."
- agot_scenario_rr_toj.0501.a:0 "Ich werde mich nicht verstecken. Jeder soll es wissen."
- agot_scenario_rr_toj.0501.b:0 "Das muss nichts ändern. Ich werde weitermachen wie bisher."
-
  agot_scenario_rr_toj.0600.t:0 "Die Wölfin von Winterfell"
  agot_scenario_rr_toj.0600.desc:0 "Lyanna kehrt in der Nacht zurück, ohne ein einziges Wort. Sie ist blass und in sich gekehrt und weigert sich, ein Wort darüber zu verlieren, was seit der Nacht ihrer Entführung geschehen ist.\n\n \"Würde es etwas ändern? Es herrscht nun Krieg. Vater ist tot, Brandon ist tot... manche Dinge, die einmal geschehen sind, kann man nicht ungeschehen machen." Sie wendet sich schweigend ab. "Winterfell ist mein Zuhause, ich hätte es nie verlassen dürfen. Ich bin mir nicht sicher, ob ich es jemals wieder verlassen möchte.""
  agot_scenario_rr_toj.0600.a:0 "Das wirst du nicht, das schwöre ich."
