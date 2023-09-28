@@ -295,7 +295,8 @@
 ### RELIGION ###
  rf_faith_of_the_seven_opinion:0 "$faith_of_the_seven_religion$ Meinung von Euch"
  red_god_opinion:0 "$red_god$ Meinung"
- bearded_god_opinion:0 "$bearded_god$ Meinung"
+ bearded_god_opinion:0 "$bearded_god$ Meinung" 
+ old_gods_religion_opinion:0 "$old_gods_religion$ Meinung"
 
 ## Riverlands Filler Modifiers ## 
  agot_heard_good_tales:0 "Inspirierter Zuhörer"

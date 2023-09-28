@@ -9,6 +9,7 @@
  decision_employ_maester:0 "Einen Maester von der Zitadelle anfordern"
  decision_employ_maester_tooltip:0 "Ihr werdet nach einem [maester|E] verlangen."
  decision_employ_maester_desc:0 "Die Zitadelle von Altsass ist in der ganzen bekannten Welt als Zentrum des Wissens der Westerosi bekannt und versorgt jede Burg in Westeros mit einem ausgebildeten Gelehrten. Vielleicht sollte ich nach einem solchen Mann schicken."
+ decision_employ_maester_effect:0 "Ein fähiger Maester wird ausgewählt werden, um Euch zu begleiten und wird in Kürze an Eurem Hof eintreffen."
  decision_employ_maester_confirm:0 "Schickt einen Raben nach Altsass." 
  tooltip_employ_maester:0 "Wir dürfen keine geeigneten Männer an unserem Hof haben."
 

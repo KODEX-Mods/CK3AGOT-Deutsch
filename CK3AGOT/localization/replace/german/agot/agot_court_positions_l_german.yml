@@ -80,7 +80,9 @@
 
 #NIGHTS WATCH
 
-
+ nw_septon:0 "Septon"
+ nw_septon_desc:0 "Der ansässige Septon, der den Brüdern der Nachtwache dient, die den Sieben folgen."
+ 
  COURT_POSITION_CATEGORY_CASTLE_KEEPER:0 "Festungkommandant"
  b_the_shadow_tower_keeper:0 "Kommandant des Schattenturms"
  b_the_shadow_tower_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt den Schattenturm"

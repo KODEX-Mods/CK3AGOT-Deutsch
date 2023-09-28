@@ -13,13 +13,13 @@ agot_name = {
 				is_landed = no
 				has_trait = bastard
 				NOT = { any_spouse = { is_landed = yes } }
-				NOT = { has_council_position = kingsguard_lord_commander } #For when a bastard becomes Lord Commander
 			}
 			has_trait = maester  #Maester flavor
 			AND = { #SS flavor
 				has_trait = silent_sister
 				is_ruler = no
 			}
+			has_council_position = kingsguard_lord_commander
 		}
 		OR = {
 			NOT = { #Covering all other Flavor here
@@ -48,7 +48,6 @@ agot_name = {
 				has_council_position = councillor_court_chaplain
 			}
 			is_landed = yes
-			has_council_position = kingsguard_lord_commander
 			any_spouse = { is_landed = yes }
 			is_alive = no
 			OR = {
@@ -187,6 +186,23 @@ agot_ser_knight_bastard = {
 		NOT = { has_council_position = councillor_court_chaplain }
 		NOT = { any_spouse = { is_landed = yes } }
 		is_landed = no
+	}
+}
+agot_lord_commander = {
+	scope = character
+
+	is_shown = {
+		has_council_position = kingsguard_lord_commander
+		is_lowborn = no
+	}
+}
+
+agot_lord_commander_lowborn = {
+	scope = character
+
+	is_shown = {
+		has_council_position = kingsguard_lord_commander
+		is_lowborn = yes
 	}
 }
 

@@ -286,3 +286,19 @@ dynn_Densmore = {
 	name = "dynn_Densmore"
 	culture = "stormlander"
 }
+dynn_Spurn = {
+	name = "dynn_Spurn"
+	culture = "stormlander"
+}
+dynn_Ginett = {
+	name = "dynn_Ginett"
+	culture = "stormlander"
+}
+dynn_Peck = {
+	name = "dynn_Peck"
+	culture = "stormlander"
+}
+dynn_Lambert = {
+	name = "dynn_Lambert"
+	culture = "stormlander"
+}

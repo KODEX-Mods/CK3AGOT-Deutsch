@@ -1,14 +1,13 @@
 ﻿l_german:
  #TerrainType
- #TerrainType
- terrain_frozen_flats:0 "Eisige Weite"
- terrain_glacier:0 "Gletscher"
- terrain_highlands:0 "Hochland"
- terrain_cloudforest:0 "Nebelwald"
- terrain_the_bog:0 "Das Moor"
- terrain_taiga_bog:0 "Taiga-Moor"
- terrain_canyon:0 "Schlucht"
- terrain_urban:0 "Städtisch"
+ terrain_frozen_flats:0 "eisige weite"
+ terrain_glacier:0 "gletscher"
+ terrain_highlands:0 "hochland"
+ terrain_cloudforest:0 "nebelwald"
+ terrain_the_bog:0 "das moor"
+ terrain_taiga_bog:0 "taiga-moor"
+ terrain_canyon:0 "schlucht"
+ terrain_urban:0 "städtisch"
 
  #Random religious texts
  random_religious_text_holy_prayer:0 "Das Buch der Heiligen Gebete"
