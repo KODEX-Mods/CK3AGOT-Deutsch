@@ -1,0 +1,6 @@
+﻿l_german:
+ rule_ub_best_friend_to_heir_friend:0 "Freundschaftliches Erbe ("Unvollendete Angelegenheiten")"
+ setting_ub_best_friend_to_heir_friend_allowed:0 "Standard"
+ setting_ub_best_friend_to_heir_friend_allowed_desc:0 "Der beste Freund des Vorgängers kann bei der Erbfolge der Freund des Erben werden."
+ setting_ub_best_friend_to_heir_friend_blocked:1 "#high Direkte Erbschaft nicht zulässig#!"
+ setting_ub_best_friend_to_heir_friend_blocked_desc:0 "Der beste Freund des Vorgängers kann bei der Erbfolge nicht der Freund des Erben werden."

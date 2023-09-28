@@ -36,8 +36,14 @@
  PORTRAIT_MODIFIER_custom_headgear_female_stanniscrown:0 "Stannis´ Krone"
 
  PORTRAIT_MODIFIER_custom_headgear_daeneryscrown:0 "Daenerys´ Krone"
+ PORTRAIT_MODIFIER_custom_headgear_female_daeneryscrown:0 "Daenerys´ Krone"
 
 #Crowns of Consorts of the Iron Throne & Misc
+ PORTRAIT_MODIFIER_custom_headgear_rhaellacrown:0 "Rhaellas Krone"
+ PORTRAIT_MODIFIER_custom_headgear_female_rhaellacrown:0 "Rhaellas Krone"
+
+ PORTRAIT_MODIFIER_custom_headgear_visenya_circlet:0 "Visenyas Reif"
+ PORTRAIT_MODIFIER_custom_headgear_female_visenya_circlet:0 "Visenyas Reif"
 
 #Maester Chains
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_maester_chain_1:0 "Maesterkette Stufe 1"
@@ -74,6 +80,18 @@
  PORTRAIT_MODIFIER_custom_headgear_reed_crown:0 "Schilfkrone"
  PORTRAIT_MODIFIER_custom_headgear_female_reed_crown:0 "Schilfkrone"
 
+ PORTRAIT_MODIFIER_custom_headgear_crown_of_the_wall:0 "Die Krone der Mauer"
+ PORTRAIT_MODIFIER_custom_headgear_female_crown_of_the_wall:0 "Die Krone der Mauer"
+
+ PORTRAIT_MODIFIER_custom_headgear_crown_of_the_nights_king:0 "Krone des Nachtkönigs"
+ PORTRAIT_MODIFIER_custom_headgear_female_crown_of_the_nights_king:0 "Krone des Nachtkönigs"
+
+ PORTRAIT_MODIFIER_custom_headgear_crown_of_true_winter:0 "Eis-Krone"
+ PORTRAIT_MODIFIER_custom_headgear_female_crown_of_true_winter:0 "Eis-Krone"
+
+ PORTRAIT_MODIFIER_custom_headgear_crown_of_winter_roses:0 "Krone der Winterrosen"
+ PORTRAIT_MODIFIER_custom_headgear_female_crown_of_winter_roses:0 "Krone der Winterrosen"
+
 #Riverlander Crowns
  PORTRAIT_MODIFIER_custom_headgear_riverlandscrown:0 "Krone des Tridents"
  PORTRAIT_MODIFIER_custom_headgear_female_riverlandscrown:0 "Krone des Tridents"
@@ -86,6 +104,9 @@
 
  PORTRAIT_MODIFIER_custom_headgear_frey_crown:0 "Krone der Zwillinge"
  PORTRAIT_MODIFIER_custom_headgear_female_frey_crown:0 "Krone der Zwillinge"
+
+ PORTRAIT_MODIFIER_custom_headgear_crown_of_mudd:0 "Schlammkrone"
+ PORTRAIT_MODIFIER_custom_headgear_female_crown_of_mudd:0 "Schlammkrone"
 
 #Crownlander Crowns
  PORTRAIT_MODIFIER_custom_headgear_cargyll_crown:0 "Gänsekrone"
@@ -108,6 +129,9 @@
  PORTRAIT_MODIFIER_custom_headgear_harlaw_crown:0 "Krone der Harlaus"
  PORTRAIT_MODIFIER_custom_headgear_female_harlaw_crown:0 "Krone der Harlaus"
 
+ PORTRAIT_MODIFIER_custom_headgear_crown_of_the_grey_king_rusted:0 "Krone des Grauen Königs"
+ PORTRAIT_MODIFIER_custom_headgear_female_crown_of_the_grey_king_rusted:0 "Krone des Grauen Königs"
+
 
 #Westerman Crowns
  PORTRAIT_MODIFIER_custom_headgear_westerlandscrown:0 "Steinreif" 
@@ -115,6 +139,12 @@
 
  PORTRAIT_MODIFIER_custom_headgear_westerlands2crown:0 "Steinkrone"
  PORTRAIT_MODIFIER_custom_headgear_female_westerlands2crown:0 "Steinkrone"
+
+ PORTRAIT_MODIFIER_custom_headgear_crown_of_westerling:0 "Krone von Hochklipp"
+ PORTRAIT_MODIFIER_custom_headgear_female_crown_of_westerling:0 "Krone von Hochklipp"
+
+ PORTRAIT_MODIFIER_custom_headgear_crown_of_jeyne_westerling:0 "Jeyne Westerlings Crown"
+ PORTRAIT_MODIFIER_custom_headgear_female_crown_of_jeyne_westerling:0 "Jeyne Westerlings Crown"
 
 #Stormlander Crowns
  PORTRAIT_MODIFIER_custom_headgear_stormlandscrown:0 "Sturmkrone"
@@ -142,6 +172,12 @@
  PORTRAIT_MODIFIER_custom_headgear_florent_crown:0 "Blumenkrone"
  PORTRAIT_MODIFIER_custom_headgear_female_florent_crown:0 "Blumenkrone"
 
+ PORTRAIT_MODIFIER_custom_headgear_crown_of_gardener_peace:0 "Friedenskrone von Gärtner"
+ PORTRAIT_MODIFIER_custom_headgear_female_crown_of_gardener_peace:0 "Friedenskrone von Gärtner"
+
+ PORTRAIT_MODIFIER_custom_headgear_crown_of_gardener_war_iron:0 "Kriegskrone von Gärtner"
+ PORTRAIT_MODIFIER_custom_headgear_female_crown_of_gardener_war_iron:0 "Kriegskrone von Gärtner"
+
 #Dornish Crowns
  PORTRAIT_MODIFIER_custom_headgear_dornecrown:0 "Dornische Krone"
  PORTRAIT_MODIFIER_custom_headgear_female_dornecrown:0 "Dornische Krone"
@@ -160,8 +196,18 @@
  PORTRAIT_MODIFIER_custom_headgear_valyriancrown1:0 "Valyrische Krone"
  PORTRAIT_MODIFIER_custom_headgear_female_valyriancrown1:0 "Valyrische Krone"
 
+ PORTRAIT_MODIFIER_custom_headgear_crown_of_the_tides:0 "Krone der Gezeiten"
+ PORTRAIT_MODIFIER_custom_headgear_female_crown_of_the_tides:0 "Krone der Gezeiten"
+
 #Religious Crowns
  PORTRAIT_MODIFIER_custom_headgear_highsepton_1:0 "Kristallkrone des hohen Septon"
+
+ PORTRAIT_MODIFIER_custom_headgear_crown_of_rhllor:0 "Krone von R'hllor"
+ PORTRAIT_MODIFIER_custom_headgear_female_crown_of_rhllor:0 "Krone von R'hllor"
+
+ PORTRAIT_MODIFIER_custom_headgear_circlet_of_rhllor:0 "Reif von R'hllor"
+ PORTRAIT_MODIFIER_custom_headgear_female_circlet_of_rhllor:0 "Reif von R'hllor"
+
 
 
 ######################################
@@ -182,6 +228,12 @@
  PORTRAIT_MODIFIER_custom_hair_male_hair_custom_09:0 "Glattes, Langes, Offenes Haar"
  PORTRAIT_MODIFIER_custom_hair_female_hair_rtt_01flip:0 "Hochgesteckt mit Rasierten Seiten"
  PORTRAIT_MODIFIER_custom_hair_female_hair_rtt_01flip2:0 "Hochgesteckt mit Rasierten Seiten"
+
+  #Nerdman Hairstyles
+ PORTRAIT_MODIFIER_custom_hair_male_hair_custom_10:0 "Dunkelstern"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_custom_11:0 "Haarmähne"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_custom_12:0 "Gesichtsloser Mann"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_custom_13:0 "Junger Prinz"
 
 
 ### Female ###
@@ -213,6 +265,10 @@
  PORTRAIT_MODIFIER_custom_hair_female_hair_custom_25:0 "Rasierte Seiten"
  PORTRAIT_MODIFIER_custom_hair_female_hair_custom_26:0 "Hochsteckfrisur der Westländer"
  PORTRAIT_MODIFIER_custom_hair_female_hair_custom_27:0 "Lange Hochgesteckte Wellen"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_custom_36:0 "Kurze Locken"
+
+ #Nerdman Hairstyles
+ PORTRAIT_MODIFIER_custom_hair_female_hair_custom_37:0 "Dame der Pergamente"
 
 #Baby Hairs
  PORTRAIT_MODIFIER_custom_hair_female_hair_western_baby_01:0 "Kurz und Lieb"
@@ -284,6 +340,9 @@
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_dornish_war_03:1 "Dornische Beinplatten"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_dornish_war_03:1 "Dornische Beinplatten"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dorne_war_03:0 "Dornischer Helm"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_viper_prince_01:0 "Dornische Viper (Salzdornisch)"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_viper_prince_02:0 "Dornische Viper (Sanddornisch)"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_viper_prince_03:0 "Dornische Viper (Steindornisch)"
 
  ## Reach Shit
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_reach_war_03:0 "Rüstung der Weite"
@@ -293,6 +352,9 @@
 
  ## Riverlands Shit
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_riverlands_war_03:0 "Flussänderhelm"
+
+  ## Crownlands Shit
+ #PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dragon_prince_01:1 "Dragon Prince"
 
  ## Valyrian Shit
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_valyrian_war_04:0 "Rhaegars Rüstung"
@@ -316,7 +378,7 @@
 
  ## RED PRIESTESS STUFF
 
-
+ PORTRAIT_MODIFIER_custom_jewelry_red_priest_necklace_sphere_01:0 "Halskette der Roten Priesterinnen"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_redpreistess_01: "Robe der Roten Priesterinnen"
 
  ## Maester Poop
@@ -339,6 +401,7 @@
 
  ## Legwear
  #PORTRAIT_MODIFIER_custom_legwear0:1 "Beinbekleidung"
+ #PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_dragon_prince_01:1 "Dragon Prince"
 
  PORTRAIT_MODIFIER_custom_legwear_male_empty:1 "Keine Beinbekleidung"
  PORTRAIT_MODIFIER_custom_legwear_female_empty:1 "$PORTRAIT_MODIFIER_custom_legwear_male_empty$"
@@ -349,4 +412,11 @@
  PORTRAIT_MODIFIER_custom_cloaks_nw_male_clothes_furs_nw_01:0 "Mantel der Nachtwache"
 
  ## Other
- PORTRAIT_MODIFIER_custom_cloaks_it_male_handchain:0 "Ketten"
+ PORTRAIT_MODIFIER_custom_jewelry_it_male_handchain:0 "Ketten"
+  ## Jewelry
+ PORTRAIT_MODIFIER_custom_jewelry:1 "Schmuck"
+
+ PORTRAIT_MODIFIER_custom_jewelry_male_empty:1 "Keinen Schmuck"
+ PORTRAIT_MODIFIER_custom_jewelry_female_empty:1 "$PORTRAIT_MODIFIER_custom_jewelry_male_empty$"
+ PORTRAIT_MODIFIER_custom_jewelry_boy_empty:1 "$PORTRAIT_MODIFIER_custom_jewelry_male_empty$"
+ PORTRAIT_MODIFIER_custom_jewelry_girl_empty:1 "$PORTRAIT_MODIFIER_custom_jewelry_male_empty$"
