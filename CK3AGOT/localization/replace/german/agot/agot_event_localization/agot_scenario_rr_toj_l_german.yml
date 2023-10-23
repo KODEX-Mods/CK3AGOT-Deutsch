@@ -1,4 +1,4 @@
-﻿l_german: 
+﻿l_german:
 #Übersetzt von Dillo
  #TOWER OF JOY
  agot_scenario_rr_toj.0001.t:0 "Der Turm der Freude"
@@ -42,7 +42,7 @@
  agot_scenario_rr_toj.9006.a:0 "Wir haben überlebt."
 
  #agot_scenario_rr_toj.0006.t:0 "Tower of Joy" # This option is made duplicative by 0004! Why did we even loc this?
- #agot_scenario_rr_toj.0006.desc:0 "\"I looked for you on the Trident.\" \n\n"\"We were not there,\" The White Bull replied. \n\nThe Targaryen dynasty had fallen, yet these knights of the Kingsguard still stood, their knees unbent. Lords Tyrell and Redwyne had dipped their banners at Storm's End, the remnants of the royal family and their loyalists escaped to Dragstone. \n\n"\"The Kingsguard does not flee,\" Ser Gerold reminded me." \n\nIt was seven against three, 
+ #agot_scenario_rr_toj.0006.desc:0 "\"I looked for you on the Trident.\" \n\n"\"We were not there,\" The White Bull replied. \n\nThe Targaryen dynasty had fallen, yet these knights of the Kingsguard still stood, their knees unbent. Lords Tyrell and Redwyne had dipped their banners at Storm's End, the remnants of the royal family and their loyalists escaped to Dragstone. \n\n"\"The Kingsguard does not flee,\" Ser Gerold reminded me." \n\nIt was seven against three,
  #agot_scenario_rr_toj.0006.desc.a:0 "White cloaks billowing in the wind, the kingsguard attacks"
  #agot_scenario_rr_toj.0006.desc.b:0 "The kingsguard lay down their weapons, but do not kneel." # This option is not real, actually
  #Sagot_scenario_rr_toj.0006.a:0 "Meet steel with steel."
@@ -65,11 +65,7 @@
  agot_scenario_rr_toj.0010.a:0 "Ich verspreche es, Lyanna. Ich werde mich um das Kind kümmern und seine Identität  geheim halten."
  agot_scenario_rr_toj.0010.b:0 "Ich verspreche es, Lyanna. Ich werde mich um das Kind kümmern, aber die wahre Elternschaft muss offengelegt werden."
  agot_scenario_rr_toj.0010.c:0 "Ich verspreche es, Lyanna. Das Kind wird in Sicherheit sein, aber das geht nur, wenn einer meiner Gefährten es adoptiert."
- agot_scenario_rr_toj.0010.d:0 "Komm, Lyanna. Wir müssen nach Hause."
- agot_scenario_rr_toj.0010.e:0 "Ich verspreche es, Lyanna. Das Kind ist von meinem Blut und wird auch so aufwachsen."
- agot_scenario_rr_toj.0010.f:0 "Ich verspreche es, Lyanna. Das Kind ist von meinem Blut und wird als legitim behandelt werden."
- agot_scenario_rr_toj.0010.g:0 "Lass uns heiraten, Lyanna, und ich schwöre, dass unsere Kinder das Reich erben werden."
- agot_scenario_rr_toj.0010.h:0 "Lass uns heiraten, Lyanna, und diese schweren Zeiten hinter uns lassen."
+ agot_scenario_rr_toj.0010.d:0 "Komm, Lyanna. Wir müssen heimkehren."
  agot_scenario_rr_toj.0016.desc.a:0 "Mein Herz ist schwer, als wir die Treppe hinaufsteigen. Oben angekommen, betrete ich einen Raum, der nach Rosen duftet. Lyanna liegt im Bett, die Arme um ihren geschwollenen Bauch gelegt. Sie ist schwanger.\n\nEinen atemlosen Moment lang kann ich nur starren. Lyanna erwidert meinen Blick, ein wilder Trotz brennt in ihren eisgrauen Augen.\n\n\"Der Vater?\", frage ich.\n\n\"Rhaegar Targaryen. Mein geliebter Prinz.\""
  agot_scenario_rr_toj.0016.desc.b:0 "Mein Herz ist schwer, als wir die Treppe hinaufsteigen. Ich erreiche die Spitze und betrete einen Raum, der nach Rosen duftet. Lyanna steht an einem Fenster, ihr braunes Haar weht im Wind. Sie dreht sich zu mir um, und trotz all der Monate, die sie in diesen Bergen verbracht hat, liegt so viel Leben in ihren eisgrauen Augen, dass mir der Atem stockt.\n\n\"Ich wusste, dass Du mich holen kämest,\" sagt sie."
  agot_scenario_rr_toj.0016.desc.c:0 "Mein Herz schlägt höher, als wir die Treppe hinaufsteigen. Ich erreiche die Spitze und betrete ein Zimmer, das nach Rosen duftet. Meine Lyanna liegt im Bett, die Arme um ihren geschwollenen Bauch gelegt. #italic Unser Kind #!. Ihr Lächeln verkörpert alles Gute in ihr - Wildheit, Stolz, Verstand und Schönheit. In diesem Lächeln und in Lyannas Schoß liegt die Hoffnung für die Sieben Königslande und für die Welt. In diesem Lächeln liegt das Lied von Eis und Feuer."
@@ -112,13 +108,12 @@
  agot_scenario_rr_toj.0018.desc.b:0 "Lyannas Geist treibt mich die Stufen des Turms der Freude hinauf. Ich höre ihre Stimme, als ob wir nebeneinander gingen und sie nicht unter dem Steinhaufen begraben wäre, an dem ich auf dem Bergrücken vorbeikam. Die Kammer oben ist kalt, aber sie duftet immer noch nach den Rosen, die Lyanna so sehr liebte. Verwelkte Blütenblätter bedecken den Boden.\n\nEiner der Ritter meiner Königsgarde reicht mir das Kind und spricht einige Worte des Mitgefühls, die ich nicht ertragen kann. Der Preis, den ich für dieses Kind gezahlt habe - den Lyanna gezahlt hat, den das ganze Reich gezahlt hat - ist nicht recht, schon gar nicht gegenüber dem Kind selbst. Und doch ist dies der Prinz, der versprochen wurde. Er wird viele Bürden zu tragen haben."
  agot_scenario_rr_toj.0018.desc.c:0 "Lyannas Tränen treiben mich die Stufen des Turms der Freude hinauf. Das Gemach oben an der Spitze ist kalt, aber es duftet immer noch nach den Rosen, die Lyanna so sehr liebt. Verwelkte Blütenblätter liegen auf dem Boden. Lyanna erwidert meinen Blick und zum ersten Mal sehe ich nicht das wilde Funkeln in ihren Augen, das mich in den Flusslanden so verzaubert hat. In ihren Augen, in ihrer Berührung liegt nichts als Schmerz für mich, und doch habe ich eine Verpflichtung, selbst in dieser Situation. Ich trete an sie heran, wiege sie in meinen Armen. Es gibt keine Worte für den Kummer, den wir teilen, und so spreche ich nicht. Es fließen keine Tränen mehr - Lyanna hat keine mehr zu geben. Wir leiden in kaltem Schweigen."
  agot_scenario_rr_toj.0018.desc.d:0 "Lyannas Geist treibt mich die Stufen des Turms der Freude hinauf. Ich höre ihre Stimme, als ob wir nebeneinander gingen und sie nicht unter dem Steinhaufen begraben wäre, an dem ich auf dem Bergrücken vorbeikam. Die Kammer oben ist kalt, aber sie duftet immer noch nach den Rosen, die Lyanna so sehr liebte. Verwelkte Blütenblätter bedecken den Boden.\n\nHier ist so viel Schmerz und so viel zerstörte Hoffnung. Die Kälte in der Kammer kündigt den kommenden Winter an, der das Ende aller Freude sein wird.\n\nIch balle meine Faust, dass es schmerzt. Ich kann nicht zulassen, dass ich trauere, dass ich aufgebe. Ich kann dieses Unheil noch aufhalten, aber nicht, wenn ich der Schwermut nachgebe."
- agot_scenario_rr_toj.0018.a:0 "Lass uns heiraten, Lyanna, und diese schweren Zeiten hinter uns lassen."
- agot_scenario_rr_toj.0018.b:0 "Lass uns heiraten, Lyanna, und dieses Kind zu unserem wahrhaftigen Prinzen ausrufen."
- agot_scenario_rr_toj.0018.c:0 "Das Reich wird wissen, dass dieses Kind von mir ist."
- agot_scenario_rr_toj.0018.d:0 "Ich werde dieses Kind zu einem gebürtigen Targaryen erklären."
- agot_scenario_rr_toj.0018.e:0 "Wir werden gemeinsam trauern."
- agot_scenario_rr_toj.0018.f:0 "Ich sollte sie trösten..."
- agot_scenario_rr_toj.0018.g:0 "Vielleicht sollte es einfach nicht sein..."
+ agot_scenario_rr_toj.rhaegar.a:0 "Ich verspreche es dir, Lyanna. Das Kind ist von meinem Blut und wird entsprechend aufwachsen."
+ agot_scenario_rr_toj.rhaegar.b:0 "Ich verspreche es dir, Lyanna. Das Kind ist von meinem Blut und wird wie ein rechtmäßiges behandelt werden."
+ agot_scenario_rr_toj.rhaegar.c:0 "Lass uns heiraten, Lyanna, und ich schwöre, dass unsere Kinder das Reich beherrschen werden!"
+ agot_scenario_rr_toj.rhaegar.d:0 "Lass uns heiraten, Lyanna, und diese unruhigen Zeiten hinter uns lassen."
+ agot_scenario_rr_toj.rhaegar.e:0 "Ich sollte sie trösten..."
+ agot_scenario_rr_toj.rhaegar.f:0 "Vielleicht sollte es einfach nicht sein..."
 
  agot_scenario_rr_toj.0050.desc.a:0 "Ein Brief wird von den schwarzen Schwingen eines Raben zu mir getragen, und nie habe ich schwärzere Worte gelesen. Meine geliebte Lyanna ist tot — ermordet von Targaryen-Abschaum in einem unbekannten Turm in Dorne.\n\nEs gibt nicht genug Blut auf der ganzen Welt, um für dieses Übel zu bezahlen, aber solange ich lebe, wird keine Drachenbrut jemals sicher sein. Ich werde dafür sorgen, dass ihre Linie unter meinem Absatz im Dreck zermalmt wird."
  agot_scenario_rr_toj.0050.desc.b:0 "Ein Brief wird von den schwarzen Schwingen eines Raben zu mir getragen, und nie habe ich schwärzere Worte gelesen. Meine geliebte Lyanna ist tot — raped by dragonspawn scum and killed delivering Rhaegar's child.\n\nEs gibt nicht genug Blut auf der Welt, um für dieses Übel zu bezahlen, aber für die Erinnerung an Lyanna werde ich die Linie der Targaryen unter meinem Absatz im Dreck zermalmen."

@@ -15,7 +15,7 @@
  building_monastery_02_desc:1 ""
  building_monastery_03:1 "Konvent"
  building_monastery_03_desc:1 ""
- building_monastery_04:1 "Septei" 
+ building_monastery_04:1 "Septei"
  building_monastery_04_desc:1 ""
 
  building_type_godswood_01:0 "Götterhain"
@@ -227,7 +227,7 @@
  building_the_red_keep_01:0 "$building_type_the_red_keep_01$"
  building_the_red_keep_01_desc:0 "$building_type_the_red_keep_01_desc$"
 
- building_type_seven_gates_01:0 "Die sieben Tore von Königsmund"
+ building_type_seven_gates_01:0 "Die Sieben Tore von Königsmund"
  building_type_seven_gates_01_desc:0 "Auf Befehl von König Aegon I. von Ser Osmund Kraft und Großmaester Gawen erbaut, werden die Mauern von Königsmund von sieben massiven Toren beherrscht: das Tor der Götter, das Löwentor, das Flusstor, das Alte Tor, das Eiserne Tor, das Königstor und das Drachentor."
  building_seven_gates_01:0 "$building_type_seven_gates_01$"
  building_seven_gates_01_desc:0 "$building_type_seven_gates_01_desc$"
