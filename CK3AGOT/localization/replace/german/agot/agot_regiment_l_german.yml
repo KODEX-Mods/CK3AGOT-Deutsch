@@ -22,14 +22,16 @@
  summer_knights:0 "Sommerritter"
  river_bows:0 "Flussbogenschützen"
  sun_spears:0 "Sonnenspeere"
- sand_steeds:0 "Sandrösser" 
+ sand_steeds:0 "Sandrösser"
  misty_shields:0 "Nebelschilder"
  sistermen_pirates:0 "Schwestermänner-Piraten"
  unicorn_riders:0 "Einhornreiter"
  pass_pikes:0 "Passpikeniere"
  storm_knights:0 "Sturmritter"
  winged_knights:0 "Flügelritter"
+
  bloody_balesters:0 "Blutbalester"
+
  sea_snakes:0 "Seeschlangen"
  wolfswood_hunters:0 "Wolfswaldjäger"
  bronze_raiders:0 "Bronzeplünderer"
@@ -55,10 +57,10 @@
  arbor_marines_flavor:0 "Diese leicht gepanzerten Truppen sind es gewohnt, an Bord von Schiffen der Rothweyn-Flotte zu kämpfen und sind geschickte Plänkler."
  barrow_knights_flavor:0 "Die schwere Kavallerie der Hügellande ist zwar nicht so gut gepanzert wie ihre südlichen Gegenstücke, kann aber mit wenigen Ausnahmen die diszipliniertesten Verbände schnell aufmischen."
  marsh_walker_flavor:0 "Dass es den Andalen nicht gelang, das Klauenhorn zu erobern, lag nicht nur an dem unwegsamen Gelände, sondern auch an den leichten Kämpfern, die es sich zunutze machten. Diese Regimenter führen das Erbe der Überraschungsangriffe mit großem Erfolg fort."
- trackers_flavor:0 "Diese leicht bewaffneten Pfahlbaumänner stammen aus den Sümpfen der Eng und sind ebenso unberechenbar wie lästig gegen langsamere Fußtruppen."
+ trackers_flavor:0 "Diese leicht bewaffneten Truppen, die mit ihrer traditionellen Waffe, dem Froschspeer, jagen, sind eine Bedrohung für alle, die ihnen auf den Fersen sind."
  royal_crossbowmen_flavor:0 "Armbrüste erfordern weniger Ausbildung als herkömmliche Bögen, können aber die beste Rüstung mit Leichtigkeit durchschlagen und so den Vorteil schwerer Infanterie und Kavallerie aufheben."
  finger_scouts_flavor:0 "Obwohl ihr Angriff weniger wirkungsvoll ist als der schwer gepanzerter Ritter, ist die Schnelligkeit der Kavallerie der Fingermänner von unschätzbarem Wert, wenn es darum geht, langsamere Formationen abzudecken und flüchtende Feinde zu verfolgen."
- cape_watch_flavor:0 "Krakenkap war lange Zeit Schauplatz von Kämpfen zwischen Eisenmännern und Nordmännern, und die hiesigen Krieger entstammen den militärischen Traditionen beider Seiten."
+ cape_watch_flavor:0 "Die Drachenwächter sind schwer bewaffnete und gepanzerte Männer, die auf den Dienst des Hauses Targaryen und der anderen hochvalyrischen Lords der Meerenge eingeschworen sind."
  green_hand_flavor:0 "Als letztes Überbleibsel eines alten Ordens, der von einem König der Weite gegründet wurde, bringen diese Ritter aus dem Norden südländische Ritterlichkeit und Taktik mit verheerender Wirkung gegen Infanterie-Formationen zum Einsatz."
  dragonkeepers_flavor:0 "Die Drachenhüter waren einst die Wachen der Drachengrube. Bewaffnet mit ihren Schwertern und Speeren verteidigen sie nun die Targaryen, trotz der Zerstörung der Drachengrube."
  honeywine_quirrels_flavor:0 "Armbrustschützen aus der Weite sind gut geeignet, um die Plattenrüstungen von Rittern und schwerer Infanterie zu bekämpfen, wenngleich ihre Ausrüstung teurer ist als die einfacher Bogenschützen."
@@ -105,6 +107,31 @@
  #Spawned Armies
  black_brothers:0 "Schwarze Brüder"
 
- #Do not know where else to place this 
+ #Do not know where else to place this
  holy_order_poor_fellows:0 "Arme Gefährten"
  holy_order_warriors_sons:0 "Söhne des Kriegers"
+
+# Innovation MaAs
+ northern_spears:0 "Eisenholzspeere"
+ northern_spears_flavor:0 "Mit Speeren aus Eisenholz bewaffnet, erweisen sich diese Truppen aus dem Norden als tödlicher Gegner für die Ritter aus dem Süden."
+
+ dornish_crossbows:0 "Dornische Vipern"
+ dornish_crossbows_flavor:0 "Die mit Armbrüsten bewaffneten Dornischen sind für ihre tödliche Treffsicherheit und ihre mit Gift versehenen Bolzen bekannt."
+
+ vale_heavy_infantry:0 "Blutgarde"
+ vale_heavy_infantry_flavor:0 "Diese Schwertkämpfer sind für die Verteidigung des Bluttores bekannt und verteidigen das Grüne Tal entschlossen."
+
+ crownlands_spears:0 "Speere der Dämmerung"
+ crownlands_spears_flavor:0 "Diese Speerkämpfer kennen die Ländereien der Schwarzwasserbucht gut und sind für den Stadtkampf berüchtigt."
+
+ reach_light_cavalry:0 "Boten der Hand"
+ reach_light_cavalry_flavor:0 "Diese schnellen und leichtfüßigen Reiter können die gesamte Weite schneller als jede andere berittene Truppe durchqueren, um Nachrichten zu überbringen oder den Feind zu verfolgen."
+
+ riverlands_light_infantry:0 "Barkenkrieger"
+ riverlands_light_infantry_flavor:0 "Auf dem Trident und seinen vielen, vielen Nebenflüssen unterwegs, stellen diese Seeleute ihren Herren eine schnelle und mobile Infanterietruppe zur Verfügung."
+
+ westerlands_knights:0 "Löwenritter"
+ westerlands_knights_flavor:0 "Die starken und zähen Ritter der Westlande sind so wild wie Löwen."
+
+ stormlands_heavy_infantry:0 "Hirschkrieger"
+ stormlands_heavy_infantry_flavor:0 "Armored and armed in cold steel, these men adorn their helmets with antlers to show their fury."
