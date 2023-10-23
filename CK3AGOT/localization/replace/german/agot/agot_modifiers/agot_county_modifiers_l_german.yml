@@ -41,4 +41,6 @@
  agot_scorched_earth_btw:0 "Siedlung gebrandschatzt"
  agot_scorched_earth_btw_desc:0 "Nach der Belagerung dieser Siedlung haben die Angreifer diese niedergebrannt."
  agot_camp_ransacked:0 "Siedlung geplündert"
- agot_camp_ransacked_desc:0 "Nach der Belagerung dieser Siedlung haben die Angreifer nur noch die armseligen Habseligkeiten zurück gelassen." 
+ agot_camp_ransacked_desc:0 "Nach der Belagerung dieser Siedlung haben die Angreifer nur noch die armseligen Habseligkeiten zurück gelassen."
+
+ agot_roads_modifier:0 "Dünenstraße"
