@@ -1,23 +1,23 @@
 ﻿l_german:
  # Expose someone elses true parentage
- agot_expose_true_parentage_decision:0 "Expose True Parentage"
- agot_expose_true_parentage_decision_tooltip:0 "You will reveal the truth of the claiment's parentage."
- agot_expose_true_parentage_decision_tooltip.jon:0 "You will reveal what truly occurred at the Tower of Joy."
- agot_expose_true_parentage_decision_desc.jon:0 "I remember all too keenly the promises made amid the winter roses...and yet, before me is a child whose whole life is built upon a lie. It is not fair that Lyanna's child should live and die without ever knowing the truth."
- agot_expose_true_parentage_decision_desc.man:0 "What I know cannot help but haunt me. To believe you are so low, yet to have come from so high. Before me is a child whose whole life is built upon a lie. A child now a man grown. It is not fair that he should live and die without ever knowing the truth."
- agot_expose_true_parentage_decision_desc.woman:0 "What I know cannot help but haunt me. To believe you are so low, yet to have come from so high. Before me is a child whose whole life is built upon a lie. A child now a woman grown. It is not fair that she should live and die without ever knowing the truth."
- agot_expose_true_parentage_decision_requirement_yes:0 "You know of a secret royal bastard who is an adult."
- agot_expose_true_parentage_decision_confirm:0 "The truth must be known!"
- 
+ agot_expose_true_parentage_decision:0 "Wahre Abstammung aufdecken"
+ agot_expose_true_parentage_decision_tooltip:0 "Ihr werdet die Wahrheit über die Abstammung des Anspruchstellers enthüllen."
+ agot_expose_true_parentage_decision_tooltip.jon:0 "Ihr werdet enthüllen, was wirklich im Turm der Freude geschehen ist."
+ agot_expose_true_parentage_decision_desc.jon:0 "Ich erinnere mich nur zu gut an die Versprechen, die inmitten der Winterrosen abgelegt wurden... und doch steht vor mir ein Kind, dessen ganzes Leben auf einer Lüge beruht. Es ist nicht recht, dass Lyannas Kind leben und sterben soll, ohne jemals die Wahrheit zu erfahren."
+ agot_expose_true_parentage_decision_desc.man:0 "Was ich weiß, kann ich nicht ändern, aber es verfolgt mich. Zu glauben, dass du so tief unten bist und doch von so weit oben kommst. Vor mir steht ein Kind, dessen ganzes Leben auf einer Lüge beruht. Ein Kind, das jetzt ein erwachsener Mann ist. Es ist nicht recht, dass er leben und sterben soll, ohne jemals die Wahrheit zu erfahren."
+ agot_expose_true_parentage_decision_desc.woman:0 "Was ich weiß, kann ich nicht ändern, aber es verfolgt mich. Zu glauben, dass du so tief unten bist und doch von so weit oben kommst. Vor mir steht ein Kind, dessen ganzes Leben auf einer Lüge aufgebaut ist. Ein Kind, das jetzt eine erwachsene Frau ist. Es ist nicht recht, dass sie leben und sterben soll, ohne jemals die Wahrheit zu erfahren."
+ agot_expose_true_parentage_decision_requirement_yes:0 "Ihr wisst von einem geheimen Königsbastard, der ein Erwachsener ist."
+ agot_expose_true_parentage_decision_confirm:0 "Die Wahrheit muss ans Licht!"
+
  # Expose my true parentage
- agot_expose_my_true_parentage_decision:0 "Expose Your True Parentage"
- agot_expose_my_true_parentage_decision_tooltip:0 "You will reveal the truth of your parentage."
- agot_expose_my_true_parentage_decision_desc:0 "What I know cannot help but haunt me. To have believed I was so low, yet to have come from so high. My whole life was built upon a lie. No more. Now that I am respected with lands of my own, the truth shall be revealed. I am royal blood, and the world shall know it!"
- agot_expose_my_true_parentage_decision_confirm:0 "The truth must be known!"
- 
+ agot_expose_my_true_parentage_decision:0 "Eure wahre Abstammung enthüllen"
+ agot_expose_my_true_parentage_decision_tooltip:0 "Ihr werdet die Wahrheit über Eure Abstammung preisgeben."
+ agot_expose_my_true_parentage_decision_desc:0 "Das, was ich weiß, verfolgt mich unweigerlich. Zu glauben, ich sei so tief unten und doch von so weit oben gekommen. Mein ganzes Leben beruhte auf einer Lüge. Doch damit ist jetzt Schluss. Jetzt, da ich mit eigenen Ländereien bedacht wurde, wird die Wahrheit ans Licht kommen. Ich bin von königlichem Blut, und die Welt soll es erfahren!"
+ agot_expose_my_true_parentage_decision_confirm:0 "Die Wahrheit muss ans Licht!"
+
  # Expose my true parentage
- agot_royal_bastard_claim_decision:0 "Press Your Claim on the Iron Throne"
- agot_royal_bastard_claim_decision_tooltip:0 "You will claim your birthright due to your royal blood."
- agot_royal_bastard_claim_decision_desc.forswore:0 "Despite my baseborn origins, I have risen high in the esteem of Westeros. Though I may have publically declared no intent, the reality remains that the royal blood flowing through my veins gives me an undeniable claim to the Seven Kingdoms. Of course, given my prior actions such a declaration would besmirch my honor, not to mention such a blatant challenge to the throne would put me on a path towards war that I could not turn from once embarked."
- agot_royal_bastard_claim_decision_desc:0 "Despite my baseborn origins, I have risen high in the esteem of Westeros. The royal blood flowing through my veins gives me the right to claim the Seven Kingdoms if I so wished it. Of course, such a blatant challenge to the throne would put me on a path towards war that I could not turn from once embarked."
- agot_royal_bastard_claim_decision_confirm:0 "I must claim my birthright!"
+ agot_royal_bastard_claim_decision:0 "Euren Anspruch auf den Eisernen Thron durchsetzen"
+ agot_royal_bastard_claim_decision_tooltip:0 "Ihr werdet Euer Geburtsrecht einfordern, denn Ihr seid von königlichem Blut."
+ agot_royal_bastard_claim_decision_desc.forswore:0 "Trotz meines niederen Hintergrunds genieße ich in Westeros ein hohes Ansehen. Auch wenn ich öffentlich keine Ambitionen geäußert habe, bleibt die Tatsache bestehen, dass das königliche Blut, das durch meine Adern fließt, mir einen unbestreitbaren Anspruch auf die Sieben Königslande verleiht. In Anbetracht meiner früheren Taten würde eine solche Erklärung natürlich meine Ehre beschmutzen, ganz zu schweigen davon, dass eine solch unverhohlene Herausforderung des Throns mich auf einen Pfad in den Krieg führen würde, von dem ich, einmal eingeschlagen, nicht mehr abkommen könnte."
+ agot_royal_bastard_claim_decision_desc:0 "rotz meines niederen Hintergrunds genieße ich in Westeros ein hohes Ansehen. Auch wenn ich öffentlich keine Ambitionen geäußert habe, bleibt die Tatsache bestehen, dass das königliche Blut, das durch meine Adern fließt, mir einen unbestreitbaren Anspruch auf die Sieben Königslande verleiht. In Anbetracht meiner früheren Taten würde eine solche Erklärung natürlich meine Ehre beschmutzen, ganz zu schweigen davon, dass eine solch unverhohlene Herausforderung des Throns mich auf einen Pfad in den Krieg führen würde, von dem ich, einmal eingeschlagen, nicht mehr abkommen könnte."
+ agot_royal_bastard_claim_decision_confirm:0 "Ich muss mein Geburtsrecht einfordern!"
