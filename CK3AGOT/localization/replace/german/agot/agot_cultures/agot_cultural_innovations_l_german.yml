@@ -21,8 +21,8 @@
  innovation_agot_vale_fighting_desc:0 "Die Mondberge sind ein zweischneidiges Schwert. Einerseits bieten sie dem Grünen Tal Schutz vor Eindringlingen, andererseites beherbergen sie auch die Mondstämme, welche jeden angreifen, der unglücklich genug ist, sich durch die steinernen Höhen bewegen zu müssen. Um dieses tückische Gebirge passieren zu können, benötigt es die besten Ritter der Königslande."
  unlock_vale_heavy_infantry:0 "Kann Blutgarde als Kriegsvolk rekrutieren"
 
- innovation_agot_reach_fighting:0 "Ackerkrieger"
- innovation_agot_reach_fighting_desc:0 "Als zweitgrößtes Reich ist die Weite berühmt für ihre weitläufigen, fruchtbaren Felder, auf denen Getreide angebaut wird. Aufgrund der agrarischen Kultur waren die Menschen besonders vewundbar. Aus diesem Grund wurden Pferde gezüchtet, die als schnelle Boten fungieren, um die Nachricht einer zu überbringen."
+ innovation_agot_reach_fighting:0 "Grüne Krieger"
+ innovation_agot_reach_fighting_desc:0 "Als zweitgrößtes Königreich ist die Weite berühmt für ihre weitläufigen, fruchtbaren Felder, auf denen Getreide angebaut wird. Aufgrund der agrarischen Kultur waren die Menschen besonders vewundbar. Aus diesem Grund wurden Pferde gezüchtet, mit denen man rasch Kunde von Feindbewegungen überbringen oder gegnerische Trupps verfolgen kann."
  unlock_reach_light_cavalry:0 "Kann Boten der Hand als Kriegsvolk rekrutieren"
 
  innovation_agot_crownlands_fighting:0 "Schwarzwasserkrieger"
@@ -30,11 +30,11 @@
  unlock_crownlands_spears:0 "Kann Speere der Dämmerung als Kriegsvolk rekrutieren"
 
  innovation_agot_riverlands_fighting:0 "Tridentkrieger"
- innovation_agot_riverlands_fighting_desc:0 "Aufgrund ihrem Platz im Zentrum des Kontinents sind die Flusslande sind schon immer Bedrohungen aus alles Richtungen ausgesetzt gewesen. Sie verlassen sich seit langem auf ihre Flüsse und die Barken, die auf ihnen fahren, um schnell auf Bedrohungen reagieren zu können."
+ innovation_agot_riverlands_fighting_desc:0 "Aufgrund ihrer Lage im Zentrum des Kontinents sind die Flusslande seit jeher Bedrohungen aus allen Richtungen ausgesetzt. Schon immer haben sie sich auf ihre Flüsse und die auf ihnen fahrenden Schiffe verlassen, um schnell auf Bedrohungen reagieren zu können."
  unlock_riverlands_light_infantry:0 "Kann Barkenkrieger als Kriegsvolk rekrutieren"
 
  innovation_agot_westerlands_fighting:0 "Steinkrieger"
- innovation_agot_westerlands_fighting_desc:0 "Die felsigen Hügel der Westlande haben eine starke und widerstandsfähige schwere Kavallerie hervorgebracht, die das Land beherrscht."
+ innovation_agot_westerlands_fighting_desc:0 "Die felsigen Hügel der Westlande haben eine starke und widerstandsfähige schwere Kavallerie hervorgebracht, die die Schlachtfelder dominiert."
  unlock_westerlands_knights:0 "Kann Löwenritter als Kriegsvolk rekrutieren"
 
  innovation_agot_stormlands_fighting:0 "Sturmkrieger"
