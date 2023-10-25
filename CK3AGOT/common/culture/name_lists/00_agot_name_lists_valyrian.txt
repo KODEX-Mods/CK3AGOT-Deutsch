@@ -158,7 +158,7 @@ name_list_high_valyrian = {
 			Daemion Daemon
 			Gaemon
 			Haegon
-			Maegon Maekar Maelor Maelys Matarys
+			Maegon Maekar Maelor Maelys Maenar Matarys
 			Rhaegar Rhaegel
 			Vaegon Valarr Valerion
 		}
