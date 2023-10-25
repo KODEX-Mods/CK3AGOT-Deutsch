@@ -71,6 +71,7 @@
  pay_iron_bank_decision_tooltip_confirm_text_desc:0 "Begleicht Eure Schulden bei der Eisernen Bank."
  loan_iron_bank_decision:0 "Darlehen bei der Eisernen Bank von Braavos erbitten"
  loan_iron_bank_decision_desc:0 "Als wohlhabendstes und angesehenstes Bankhaus der bekannten Welt gewährt die Eiserne Bank mit Freuden jedermann Kredite, den sie für vertrauenswürdig hält. Doch seid gewarnt: Es heißt nicht umsonst, dass die Eiserne Bank bekommt, was ihr zusteht."
+ loan_iron_bank_decision_effect:0 "Ein Vertreter der Eisernen Bank wird entsandt, um über ein Darlehen und dessen Konditionen zu verhandeln."
  loan_iron_bank_decision_tooltip:0 "Sendet ein Schreiben an die Eiserne Bank mit der Bitte um ein Darlehen."
  loan_iron_bank_decision_tooltip_confirm_text_desc:0 "Die Eiserne Bank wird Gesandte schicken."
 
