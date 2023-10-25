@@ -3,3 +3,4 @@
  ANY_COUNTY_PROVINCE_TRIGGER:0 "Jede gehaltene Provinz:"
  HAS_HOLDING_TYPE_TRIGGER:0 "Hat $HOLDING$ [holding_type|E]"
  ANY_HAS_BUILDING_TRIGGER:0 "Hat ein $BUILDING|V$ [building|E]"
+ agot_can_create_duchy:0 "Title has same or higher tier than the primary title of your pre-war [liege|E]"

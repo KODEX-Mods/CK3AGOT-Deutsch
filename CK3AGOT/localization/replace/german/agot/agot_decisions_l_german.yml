@@ -67,7 +67,17 @@
  agot_buy_knighthood_decision_tooltip:0 "Erkauft Euch die Ritterwürde"
  agot_decision_bought_knighthood_effect_tt:0 "Eure #V unmittelbare Familie#! wird von Eurem Ritterschlag unterrichtet werden."
 
-#Dawn
+ ############################
+ ## Show Valyrian Steel Loc ##
+ ############################
+ show_valyrian_steel_decision:0 "Show Valyrian Steel Blades"
+ show_valyrian_steel_decision_desc:0 "Bring to me the list of all known Valyrian Steel Blades."
+ show_valyrian_steel_decision.tt:0 "You will be presented with a list of all those in possession of Valyrian Steel Swords"
+ show_valyrian_steel_decision_confirm:0 "Show me!"
+ show_valyrian_steel_decision_tooltip:0 "You will be brought a list of all known owners of Valyrian Steel Swords"
+
+
+ #Dawn
  claim_dawn_unworthy_decision:0 "Dämmerung beanspruchen"
  claim_dawn_unworthy_decision_desc:0 "Das Schwert ist mein, dem Recht nach. Ob ich nun "würdig" bin oder nicht, ich beanspruche es als mein Eigentum."
  claim_dawn_unworthy_decision_tooltip:0 "Erhebt Anspruch auf das legendäre Schwert Dämmerung"

@@ -292,11 +292,18 @@
  agot_reversed_claim_forswear:0 "Verworfene Ansprüche geltend machen"
  agot_reversed_claim_forswear_desc:0 "Obwohl er geschworen hat, seine Ansprüche nicht geltend zu machen, hat er diese Erklärung rückgängig gemacht und seine Ehre für immer beschmutzt."
 
+ agot_visited_crypts:0 "Visited Winterfell's Crypts"
+ agot_visited_crypts_desc:0 "This character visited Winterfell's crypts and is inspired by the famous Starks that are entombed there."
+
 ### RELIGION ###
  rf_faith_of_the_seven_opinion:0 "$faith_of_the_seven_religion$ Meinung von Euch"
  red_god_opinion:0 "$red_god$ Meinung"
  bearded_god_opinion:0 "$bearded_god$ Meinung" 
  old_gods_religion_opinion:0 "$old_gods_religion$ Meinung"
+ faith_of_the_seven_religion_opinion:0 "$faith_of_the_seven_religion$ Opinion"
+ drowned_god_religion_opinion:0 "$drowned_god_religion$ Opinion"
+ rhllor_religion_opinion:0 "$rhllor_religion$ Opinion"
+ valyrian_religion_opinion:0 "$valyrian_religion$ Opinion"
 
 ## Riverlands Filler Modifiers ## 
  agot_heard_good_tales:0 "Inspirierter Zuhörer"
@@ -345,7 +352,25 @@
  salt_dornish_opinion:0 "$salt_dornish$ Meinung"
  stone_dornish_opinion:0 "$stone_dornish$ Meinung"
  high_valyrian_opinion:0 "$high_valyrian$ Meinung"
+ ironborn_opinion:0 "$ironborn$ Meinung"
+ northman_opinion:0 "$northman$ Meinung"
+ barrowman_opinion:0 "$barrowman$ Meinung"
+ crannogman_opinion:0 "$crannogman$ Meinung"
+ hill_clansman_opinion:0 "$hill_clansman$ Meinung"
+ wolfswood_clansman_opinion:0 "$wolfswood_clansman$ Meinung"
+ krakenman_opinion:0 "$krakenman$ Meinung"
+ harborman_opinion:0 "$harborman$ Meinung"
+ riverlander_opinion:0 "$riverlander$ Meinung"
+ stormlander_opinion:0 "$stormlander$ Meinung"
+ marcher_opinion:0 "$marcher$ Meinung"
  westerman_opinion:0 "$westerman$ Meinung"
+ forestman_opinion:0 "$forestman$ Meinung"
+ fangman_opinion:0 "$fangman$ Meinung"
+ ice_riverman_opinion:0 "$ice_riverman$ Meinung"
+ frozen_shoreman_opinion:0 "$frozen_shoreman$ Meinung"
+ thenn_opinion:0 "$thenn$ Meinung"
+ nightrunner_opinion:0 "$nightrunner$ Meinung"
+ lakeman_opinion:0 "$lakeman$ Meinung"
  braavosi_opinion:0 "$braavosi$ Meinung"
 
  ## Rebuilding Modifiers ## 
