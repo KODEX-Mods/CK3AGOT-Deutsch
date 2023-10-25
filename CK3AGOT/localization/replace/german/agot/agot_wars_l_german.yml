@@ -42,7 +42,7 @@
 
 
  RECLAIM_CB_NAME:0 "Rückeroberung der [de_jure|E]-Ländereien der Nachtwache"
- RECLAIM_CB_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Rückeroberungskreig der Nachtwache"
+ RECLAIM_CB_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Rückeroberungskrieg der Nachtwache"
  RECLAIM_CB_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  de_reclaim_wall_victory_desc:0 "Die Nachtwache erhält den umkämpften [title|E]."
  de_reclaim_wall_defeat_desc:0 "Die Wildlinge behalten den umkämpften [title|E]."
