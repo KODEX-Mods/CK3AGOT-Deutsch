@@ -1,4 +1,4 @@
-l_german:
+﻿l_german:
  DEFAULT_NICKNAME_DESC:2 "Friends and foes across the land know [CHARACTER.GetShortUINameNoTooltipNoFormat] as '[CHARACTER.GetNicknameNoTooltip]'."
 
  nick_tiny:0 "Tiny"

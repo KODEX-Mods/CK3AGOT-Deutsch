@@ -1,4 +1,4 @@
-l_german:
+﻿l_german:
  game_concept_royal_court:0 "Royal Court"
  game_concept_royal_courts:0 "Royal Courts"
  game_concept_royal_court_desc:2 "Distinguished [rulers|E] are famed enough to maintain a Royal Court, which gives access to a variety of bonuses and opportunities.\n\nWhen a [GetGovernment( 'feudal_government' ).GetName], [GetGovernment( 'clan_government' ).GetName], or [GetGovernment( 'tribal_government' ).GetName] [ruler|E] becomes [king|E] or [emperor|E], they gain access to their Royal Court.\n\nEach Royal Court has a [court_grandeur_level|E], which gives benefits based on how famed the Royal Court is, and which [court_type|E] the Royal Court is.\n\nPetitioners, [vassals|E], and [courtiers|E] may appear at your Royal Court, or you can [hold_court|E] to invite anyone in the [realm|E] to air their grievances.\n\nA Royal Court also allows the Ruler to display [court_artifacts|E], and [inspired|E] [guests|E] may appear at the Royal Court, offering to create new [artifacts|E].\n\nWhen you die, your [player_heir|E] will inherit your Royal Court."
