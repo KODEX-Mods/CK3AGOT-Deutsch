@@ -3784,6 +3784,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_sunspear
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_sunspear.title_capital_county
 			}
 			c_sunspear = {
@@ -3923,6 +3927,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_lemonwood
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_lemonwood.title_capital_county
 			}
 			c_lemonwood = {
@@ -4042,6 +4050,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_salt_shore
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_salt_shore.title_capital_county
 			}
 			c_salt_shore = {
@@ -4181,6 +4193,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_godsgrace
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_godsgrace.title_capital_county
 			}
 			c_godsgrace = {
@@ -4363,6 +4379,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_spottswood
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_broken_arm.title_capital_county
 			}
 			c_spottswood = {
@@ -4468,6 +4488,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_ghost_hills
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_ghost_hills.title_capital_county
 			}
 			c_ghost_hills = {
@@ -4583,6 +4607,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_the_tor
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_tor.title_capital_county
 			}
 			c_the_tor = {
@@ -4726,6 +4754,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_the_bramble
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_scourgehead.title_capital_county
 			}
 			c_the_bramble = {
@@ -4879,6 +4911,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_vaith
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_red_dunes.title_capital_county
 			}
 			c_vaith = {
@@ -5076,6 +5112,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_hellholt
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_brimstone.title_capital_county
 			}
 			c_hellholt = {
@@ -5356,6 +5396,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_first_well
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_oldwell.title_capital_county
 			}
 			c_first_well = {
@@ -5524,6 +5568,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_sandstone
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_sandstone.title_capital_county
 			}
 			c_sandstone = {
@@ -5794,6 +5842,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_starfall
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_torrentine.title_capital_county
 			}
 			c_starfall = {
@@ -6064,6 +6116,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_yronwood
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_yronwood.title_capital_county
 			}
 			c_yronwood = {
@@ -6281,6 +6337,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_skyreach
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_princes_pass.title_capital_county
 			}
 			c_skyreach = {
@@ -6468,6 +6528,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_blackmont
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_blackmont.title_capital_county
 			}
 			c_blackmont = {
@@ -6641,6 +6705,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_kingsgrave
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_redmarch.title_capital_county
 			}
 			c_kingsgrave = {
@@ -6814,6 +6882,10 @@ e_dorne = {
 			definite_form = yes
 			capital = c_wyl
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_stoneway.title_capital_county
 			}
 			c_wyl = {
@@ -7011,6 +7083,10 @@ e_the_iron_islands = {
 			definite_form = yes
 			capital = c_pyke
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_pyke.title_capital_county
 			}
 			c_pyke = {
@@ -7095,6 +7171,10 @@ e_the_iron_islands = {
 			definite_form = yes
 			capital = c_bloatstone
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_saltcliffe.title_capital_county
 			}
 			c_bloatstone = {
@@ -7136,6 +7216,10 @@ e_the_iron_islands = {
 			definite_form = yes
 			capital = c_pebbleton
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_east_wyk.title_capital_county
 			}
 			c_pebbleton = {
@@ -7244,6 +7328,10 @@ e_the_iron_islands = {
 			definite_form = yes
 			capital = c_hammerhorn
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_hardstone_hills.title_capital_county
 			}
 			c_hammerhorn = {
@@ -7473,6 +7561,10 @@ e_the_iron_islands = {
 			definite_form = yes
 			capital = c_bleachbone
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_old_wyk.title_capital_county
 			}
 			c_bleachbone = {
@@ -7538,6 +7630,10 @@ e_the_iron_islands = {
 			definite_form = yes
 			capital = c_nettlemont
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_orkmont.title_capital_county
 			}
 			c_nettlemont = {
@@ -7627,6 +7723,10 @@ e_the_iron_islands = {
 			definite_form = yes
 			capital = c_blacktyde
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_blacktyde.title_capital_county
 			}
 			c_blacktyde = {
@@ -7663,6 +7763,10 @@ e_the_iron_islands = {
 			definite_form = yes
 			capital = c_ten_towers
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_harlaw.title_capital_county
 			}
 			c_ten_towers = {
@@ -7878,6 +7982,10 @@ e_the_iron_islands = {
 			definite_form = yes
 			capital = c_lonely_light
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_lonely_light.title_capital_county
 			}
 			c_lonely_light = {
@@ -7914,6 +8022,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_kings_landing
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_kings_landing.title_capital_county
 			}
 			c_kings_landing = {
@@ -8082,6 +8194,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_hayford
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_hayford.title_capital_county
 			}
 			c_hayford = {
@@ -8206,6 +8322,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_rosby
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_rosby.title_capital_county
 			}
 			c_rosby = {
@@ -8338,6 +8458,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_stokeworth
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_stokeworth.title_capital_county
 			}
 			c_stokeworth = {
@@ -8490,6 +8614,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_duskendale
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_duskendale.title_capital_county
 			}
 			c_duskendale = {
@@ -8661,6 +8789,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_rooks_rest
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_rooks_rest.title_capital_county
 			}
 			c_rooks_rest = {
@@ -8765,6 +8897,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_dyre_den
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_crackclaw_point.title_capital_county
 			}
 			c_dyre_den = {
@@ -8965,6 +9101,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_antlers
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_deerfield.title_capital_county
 			}
 			c_antlers = {
@@ -9077,6 +9217,10 @@ e_the_iron_throne = {
 			color = { 173 92 167 }
 			capital = c_rollingford
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_blackwater_rush.title_capital_county
 			}
 			definite_form = yes
@@ -9201,6 +9345,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_the_gauntlet
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_baywater_woods.title_capital_county
 			}
 			c_the_gauntlet = {
@@ -9300,6 +9448,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_farring_cross
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_wendwater_forest.title_capital_county
 			}
 			c_farring_cross = {
@@ -9428,6 +9580,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_stonedance
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_masseys_hook.title_capital_county
 			}
 			c_stonedance = {
@@ -9612,6 +9768,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_dragonstone
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_dragonstone.title_capital_county
 			}
 			c_dragonstone = {
@@ -9652,6 +9812,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_driftmark
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_driftmark.title_capital_county
 			}
 			c_driftmark = {
@@ -9726,6 +9890,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_claw_isle
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:c_claw_isle.title_capital_county
 			}
 			c_claw_isle = {
@@ -9761,6 +9929,10 @@ e_the_iron_throne = {
 			definite_form = yes
 			capital = c_sharp_point
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:c_sharp_point.title_capital_county
 			}
 			c_sharp_point = {
@@ -9973,6 +10145,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_winterfell
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_winterfell.title_capital_county
 			}
 			c_winterfell = {
@@ -10304,6 +10480,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_last_hearth
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_last_lands.title_capital_county
 			}
 			c_last_hearth = {
@@ -10626,6 +10806,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_frostguard
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_frostfields.title_capital_county
 			}
 			c_frostguard = {
@@ -10923,6 +11107,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_karhold
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_karhold.title_capital_county
 			}
 			c_karhold = {
@@ -11393,6 +11581,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_the_dreadfort
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_dreadfort.title_capital_county
 			}
 			c_the_dreadfort = {
@@ -11887,6 +12079,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_white_harbor
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_white_harbor.title_capital_county
 			}
 			c_white_harbor = {
@@ -12258,6 +12454,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_oldcastle
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_keystone.title_capital_county
 			}
 			c_oldcastle = {
@@ -12506,6 +12706,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_ramsgate
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_everstead.title_capital_county
 			}
 			c_ramsgate = {
@@ -12759,6 +12963,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_hornwood
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_hornwood.title_capital_county
 			}
 			c_hornwood = {
@@ -12973,6 +13181,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_widows_watch
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_crestview.title_capital_county
 			}
 			c_widows_watch = {
@@ -13236,6 +13448,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_grailheart
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_rills.title_capital_county
 			}
 			c_grailheart = {
@@ -13784,6 +14000,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_whitecaster
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_stony_shore.title_capital_county
 			}
 			c_whitecaster = {
@@ -14154,6 +14374,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_blackpool
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_grey_downs.title_capital_county
 			}
 			c_blackpool = {
@@ -14465,6 +14689,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_torrhens_square
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_edgewood.title_capital_county
 			}
 			c_torrhens_square = {
@@ -14767,6 +14995,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_deepwood
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_wolfswood.title_capital_county
 			}
 			c_deepwood = {
@@ -15099,6 +15331,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_ironrath
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_blackpines.title_capital_county
 			}
 			c_ironrath = {
@@ -15352,6 +15588,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_sea_dragon_point
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_sea_dragon_point.title_capital_county
 			}
 			c_sea_dragon_point = {
@@ -15512,6 +15752,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_trenchwood
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_kings_course.title_capital_county
 			}
 			c_trenchwood = {
@@ -15785,6 +16029,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_barrowton
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_barrowlands.title_capital_county
 			}
 			c_barrowton = {
@@ -16343,6 +16591,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_holdwater
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_northern_mountains.title_capital_county
 			}
 			c_holdwater = {
@@ -16822,6 +17074,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_greywater_watch
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_neck.title_capital_county
 			}
 			c_greywater_watch = {
@@ -17183,6 +17439,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_churwell
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_silvereed.title_capital_county
 			}
 			c_churwell = {
@@ -17441,6 +17701,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_greycrann
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_fever.title_capital_county
 			}
 			c_greycrann = {
@@ -17645,6 +17909,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_flints_finger
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_flints_finger.title_capital_county
 			}
 			c_flints_finger = {
@@ -18095,6 +18363,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_waterstone
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_lakelands.title_capital_county
 			}
 			c_waterstone = {
@@ -18358,6 +18630,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_drihisesk
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_skagos.title_capital_county
 			}
 			c_drihisesk = {
@@ -18648,6 +18924,10 @@ e_the_north = {
 			definite_form = yes
 			capital = c_mormont
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_bear_island.title_capital_county
 			}
 			c_mormont = {
@@ -18798,6 +19078,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_highgarden
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_highgarden.title_capital_county
 			}
 			c_highgarden = {
@@ -18985,6 +19269,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_cider_crossing
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_orchard_way.title_capital_county
 			}
 			c_cider_crossing = {
@@ -19138,6 +19426,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_ashford
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_cockleswhent.title_capital_county
 			}
 			c_ashford = {
@@ -19301,6 +19593,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_starpike
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_palemarch.title_capital_county
 			}
 			c_starpike = {
@@ -19503,6 +19799,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_horn_hill
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_westmarch.title_capital_county
 			}
 			c_horn_hill = {
@@ -19705,6 +20005,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_uplands
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_ridgeview.title_capital_county
 			}
 			c_uplands = {
@@ -19921,6 +20225,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_the_ring
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_oldhills.title_capital_county
 			}
 			c_the_ring = {
@@ -20108,6 +20416,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_whisper_point
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_garden_coast.title_capital_county
 			}
 			c_whisper_point = {
@@ -20334,6 +20646,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_oldtown
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_oldtown.title_capital_county
 			}
 			c_oldtown = {
@@ -20575,6 +20891,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_blackcrown
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_black_sound.title_capital_county
 			}
 			c_blackcrown = {
@@ -20753,6 +21073,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_brightwater
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_brightwater.title_capital_county
 			}
 			c_brightwater = {
@@ -20974,6 +21298,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_honeyholt
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_honeylands.title_capital_county
 			}
 			c_honeyholt = {
@@ -21132,6 +21460,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_coldmoat
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_northmarch.title_capital_county
 			}
 			c_coldmoat = {
@@ -21304,6 +21636,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_red_lake
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_red_front.title_capital_county
 			}
 			c_red_lake = {
@@ -21481,6 +21817,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_goldengrove
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_goldengrove.title_capital_county
 			}
 			c_goldengrove = {
@@ -21751,6 +22091,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_oakheart
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_ocean_road.title_capital_county
 			}
 			c_oakheart = {
@@ -21977,6 +22321,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_hayholt
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_darstone.title_capital_county
 			}
 			c_hayholt = {
@@ -22125,6 +22473,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_darkdell
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_darkdell.title_capital_county
 			}
 			c_darkdell = {
@@ -22312,6 +22664,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_sagecrown
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_roseroad.title_capital_county
 			}
 			c_sagecrown = {
@@ -22523,6 +22879,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_risley_glade
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_manderfields.title_capital_county
 			}
 			c_risley_glade = {
@@ -22691,6 +23051,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_woodbine
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_sunnyvale.title_capital_county
 			}
 			c_woodbine = {
@@ -22844,6 +23208,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_norcross
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_goldenfields.title_capital_county
 			}
 			c_norcross = {
@@ -23007,6 +23375,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_wesselvare
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_heartland_heights.title_capital_county
 			}
 			c_wesselvare = {
@@ -23179,6 +23551,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_tumbleton
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_tumbleton.title_capital_county
 			}
 			c_tumbleton = {
@@ -23410,6 +23786,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_bitterbridge
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_bitterbridge.title_capital_county
 			}
 			c_bitterbridge = {
@@ -23626,6 +24006,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_grassy_vale
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_blueburn.title_capital_county
 			}
 			c_grassy_vale = {
@@ -23813,6 +24197,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_longtable
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_fullharvest.title_capital_county
 			}
 			c_longtable = {
@@ -23995,6 +24383,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_oakenshield
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_shield_islands.title_capital_county
 			}
 			c_oakenshield = {
@@ -24133,6 +24525,10 @@ e_the_reach = {
 			definite_form = yes
 			capital = c_wynegarde
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_arbor.title_capital_county
 			}
 			c_wynegarde = {
@@ -24310,6 +24706,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_riverrun
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_riverrun.title_capital_county
 			}
 			c_riverrun = {
@@ -24486,6 +24886,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_raventree
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_blackwood_vale.title_capital_county
 			}
 			c_raventree = {
@@ -24745,6 +25149,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_seagard
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_cape_of_eagles.title_capital_county
 			}
 			c_seagard = {
@@ -24956,6 +25364,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_the_twins
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_crossing.title_capital_county
 			}
 			c_the_twins = {
@@ -25230,6 +25642,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_stillfen
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_lakeleaf_highlands.title_capital_county
 			}
 			c_stillfen = {
@@ -25432,6 +25848,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_willow_wood
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_willow_wood.title_capital_county
 			}
 			c_willow_wood = {
@@ -25595,6 +26015,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_darry
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_tridents_mouth.title_capital_county
 			}
 			c_darry = {
@@ -25811,6 +26235,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_maidenpool
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_maidenpool.title_capital_county
 			}
 			c_maidenpool = {
@@ -25964,6 +26392,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_harrenhal
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_harrenhal.title_capital_county
 			}
 			c_harrenhal = {
@@ -26194,6 +26626,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_lakehaven
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_lakehaven.title_capital_county
 			}
 			c_lakehaven = {
@@ -26376,6 +26812,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_atranta
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_atranta.title_capital_county
 			}
 			c_atranta = {
@@ -26553,6 +26993,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_stoney_sept
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_knellstone.title_capital_county
 			}
 			c_stoney_sept = {
@@ -26716,6 +27160,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_stone_hedge
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_southstone.title_capital_county
 			}
 			c_stone_hedge = {
@@ -26976,6 +27424,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_pinkmaiden
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_pinkmaiden.title_capital_county
 			}
 			c_pinkmaiden = {
@@ -27217,6 +27669,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_wayfarers_rest
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_wayfarers_rest.title_capital_county
 			}
 			c_wayfarers_rest = {
@@ -27482,6 +27938,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_ramsford
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_fairmarket.title_capital_county
 			}
 			c_ramsford = {
@@ -27606,6 +28066,10 @@ e_the_riverlands = {
 			definite_form = yes
 			capital = c_lancewood
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_three_forks.title_capital_county
 			}
 			c_lancewood = {
@@ -27708,6 +28172,10 @@ e_the_riverlands = {
 		d_the_moonbrooks = {
 			capital = c_oldferns
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_moonbrooks.title_capital_county
 			}
 			c_oldferns = {
@@ -27793,6 +28261,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_storms_end
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_shipbreaker_bay.title_capital_county
 			}
 			c_storms_end = {
@@ -27966,6 +28438,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_griffins_roost
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_nestridge.title_capital_county
 			}
 			c_griffins_roost = {
@@ -28095,6 +28571,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_crows_nest
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_slayne.title_capital_county
 			}
 			c_crows_nest = {
@@ -28224,6 +28704,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_grandview
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_grandview.title_capital_county
 			}
 			c_grandview = {
@@ -28377,6 +28861,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_gallowsgrey
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_dark_harrow.title_capital_county
 			}
 			c_gallowsgrey = {
@@ -28535,6 +29023,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_rainshore
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_drench.title_capital_county
 			}
 			c_rainshore = {
@@ -28669,6 +29161,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_mistfall
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_cape_wrath.title_capital_county
 			}
 			c_mistfall = {
@@ -28856,6 +29352,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_whirlyng
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_rainwood.title_capital_county
 			}
 			c_whirlyng = {
@@ -29014,6 +29514,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_estermont
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_estermont_isles.title_capital_county
 			}
 			c_estermont = {
@@ -29108,6 +29612,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_stonehelm
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_red_watch.title_capital_county
 			}
 			c_stonehelm = {
@@ -29280,6 +29788,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_blackhaven
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_blackhaven.title_capital_county
 			}
 			c_blackhaven = {
@@ -29438,6 +29950,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_harvest_hall
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_marchfields.title_capital_county
 			}
 			c_harvest_hall = {
@@ -29567,6 +30083,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_nightsong
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_nightsong.title_capital_county
 			}
 			c_nightsong = {
@@ -29715,6 +30235,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_fawnton
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_whentway.title_capital_county
 			}
 			c_fawnton = {
@@ -29883,6 +30407,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_broad_arch
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_valor_meadows.title_capital_county
 			}
 			c_broad_arch = {
@@ -30017,6 +30545,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_poddingfield
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_greatstock.title_capital_county
 			}
 			c_poddingfield = {
@@ -30194,6 +30726,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_felwood
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_kingswood.title_capital_county
 			}
 			c_felwood = {
@@ -30449,6 +30985,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_the_haystacks
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_stackfield.title_capital_county
 			}
 			c_the_haystacks = {
@@ -30578,6 +31118,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_parchments
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_vellum_coast.title_capital_county
 			}
 			c_parchments = {
@@ -30707,6 +31251,10 @@ e_the_stormlands = {
 			definite_form = yes
 			capital = c_evenfall
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_tarth.title_capital_county
 			}
 			c_evenfall = {
@@ -30845,6 +31393,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_the_eyrie
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_giants_lance.title_capital_county
 			}
 			c_the_eyrie = {
@@ -31007,6 +31559,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_the_redfort
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_strongstone.title_capital_county
 			}
 			c_the_redfort = {
@@ -31185,6 +31741,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_wickenden
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_wickenden.title_capital_county
 			}
 			c_wickenden = {
@@ -31285,6 +31845,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_ninestars
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_ninestars.title_capital_county
 			}
 			c_ninestars = {
@@ -31414,6 +31978,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_ironoaks
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_ironoaks.title_capital_county
 			}
 			c_ironoaks = {
@@ -31582,6 +32150,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_old_anchor
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_old_anchor.title_capital_county
 			}
 			c_old_anchor = {
@@ -31706,6 +32278,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_longbow_hills
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_eastweald.title_capital_county
 			}
 			c_longbow_hills = {
@@ -31947,6 +32523,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_gulltown
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_gulltown.title_capital_county
 			}
 			c_gulltown = {
@@ -32085,6 +32665,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_runestone
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_runestone.title_capital_county
 			}
 			c_runestone = {
@@ -32218,6 +32802,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_coldwater_burn
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_drainlands.title_capital_county
 			}
 			c_coldwater_burn = {
@@ -32386,6 +32974,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_crown_crescent
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_crowncrests.title_capital_county
 			}
 			c_crown_crescent = {
@@ -32510,6 +33102,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_hearts_home
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_hearts_home.title_capital_county
 			}
 			c_hearts_home = {
@@ -32673,6 +33269,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_strongsong
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_strongsong.title_capital_county
 			}
 			c_strongsong = {
@@ -32899,6 +33499,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_snakewood
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_snakewood_forest.title_capital_county
 			}
 			c_snakewood = {
@@ -33135,6 +33739,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_the_paps
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_grimholm.title_capital_county
 			}
 			c_the_paps = {
@@ -33268,6 +33876,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_hersy
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_northbreach.title_capital_county
 			}
 			c_hersy = {
@@ -33493,6 +34105,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_sunrise_bite
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_cut.title_capital_county
 			}
 			c_sunrise_bite = {
@@ -33646,6 +34262,10 @@ e_the_vale = {
 			definite_form = yes
 			capital = c_sunderland
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_sisters.title_capital_county
 			}
 			c_sunderland = {
@@ -33752,6 +34372,10 @@ e_the_wall = {
 			definite_form = yes
 			capital = c_castle_black
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_wall.title_capital_county
 			}
 			no_automatic_claims = yes
@@ -33871,6 +34495,10 @@ e_the_wall = {
 			definite_form = yes
 			capital = c_weatherback_ridge
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_brandons_gift.title_capital_county
 			}
 			no_automatic_claims = yes
@@ -34030,6 +34658,10 @@ e_the_wall = {
 			definite_form = yes
 			capital = c_norlinton
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_new_gift.title_capital_county
 			}
 			no_automatic_claims = yes
@@ -34224,6 +34856,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_casterly_rock
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_casterly_rock.title_capital_county
 			}
 			c_casterly_rock = {
@@ -34435,6 +35071,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_crakehall
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_crakehall.title_capital_county
 			}
 			c_crakehall = {
@@ -34598,6 +35238,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_cornfield
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_fieldlands.title_capital_county
 			}
 			c_cornfield = {
@@ -34751,6 +35395,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_roundtowers
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_rundridge.title_capital_county
 			}
 			c_roundtowers = {
@@ -34870,6 +35518,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_silverhill
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_sterling.title_capital_county
 			}
 			c_silverhill = {
@@ -35100,6 +35752,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_deep_den
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_denslane.title_capital_county
 			}
 			c_deep_den = {
@@ -35248,6 +35904,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_worthmark
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_gold_road.title_capital_county
 			}
 			c_worthmark = {
@@ -35372,6 +36032,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_hornvale
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_hornvale.title_capital_county
 			}
 			c_hornvale = {
@@ -35515,6 +36179,10 @@ e_the_westerlands = {
 			color = { 202 23 10 }
 			capital = c_the_golden_tooth
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_golden_tooth.title_capital_county
 			}
 			definite_form = yes
@@ -35640,6 +36308,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_ashemark
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_ashemark.title_capital_county
 			}
 			c_ashemark = {
@@ -35788,6 +36460,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_provence
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_goldmarch.title_capital_county
 			}
 			c_provence = {
@@ -35873,6 +36549,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_banefort
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_withermoore.title_capital_county
 			}
 			c_banefort = {
@@ -36007,6 +36687,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_the_crag
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_the_crag.title_capital_county
 			}
 			c_the_crag = {
@@ -36126,6 +36810,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_castamere
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_castamere.title_capital_county
 			}
 			c_castamere = {
@@ -36289,6 +36977,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_seven_points
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_tarrich.title_capital_county
 			}
 			c_seven_points = {
@@ -36408,6 +37100,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_feastfires
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_lanns_point.title_capital_county
 			}
 			c_feastfires = {
@@ -36512,6 +37208,10 @@ e_the_westerlands = {
 			definite_form = yes
 			capital = c_faircastle
 			can_create = {
+				custom_tooltip = {
+					text = agot_can_create_duchy
+					agot_can_create_duchy_title = yes
+				}
 				has_title = title:d_fair_isle.title_capital_county
 			}
 			c_faircastle = {
