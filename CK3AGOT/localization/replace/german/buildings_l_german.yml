@@ -32,42 +32,44 @@
  # building_type_temple_01:0 "Temple"
  building_type_temple_01:0 "Tempelbesitztum"
  building_type_temple_01_desc:1 "Eine Verehrungsstätte, über die der Klerus gebietet und an die eine Siedlung voller gläubiger Bauern angrenzt."
- building_temple_01:1 "Schrein"
- building_temple_01_desc:0 "$building_type_temple_01_desc$"
- building_temple_02:1 "Tempelanlage"
- building_temple_02_desc:1 "Ein Tempel steht in der Mitte des Dorfs. Die örtlichen Handwerker haben ihn mit viel Hingabe errichtet, um ihre Ergebenheit gegenüber ihrem Glauben zu beweisen."
- building_temple_03:1 "Gotteshaus"
- building_temple_03_desc:1 "In den Tempel passen zwar viele Gläubige, doch der Gottesdienst ist nicht sein einziger Zweck: Hier ist auch der Klerus untergebracht, es gibt eine große Schriftensammlung und Reliquien werden verwahrt. Durch ein zusätzliches Gotteshaus werden die Gläubigen immer genug Platz zum Beten haben."
- building_temple_04:1 "Großtempel"
- building_temple_04_desc:1 "Die örtlichen Handwerker und Architekten waren mit einem kleinen und bescheidenen Tempel nicht zufrieden. Daher haben sie sich zusammengetan, um ein wahres Wunder der Baukunst zu vollbringen. Der Großtempel erfüllt anscheinend jeden Gläubigen mit der Macht des Himmels selbst, wenn er seine glorreichen Mauern betritt."
+ #AGOT Modified
+ #building_temple_01:1 "Shrine"
+ #building_temple_01_desc:0 "$building_type_temple_01_desc$"
+ #building_temple_02:1 "Temple Grounds"
+ #building_temple_02_desc:1 "A temple sits at the center of the village, carefully constructed by local craftsmen to show their dedication to the faith."
+ #building_temple_03:1 "House of Worship"
+ #building_temple_03_desc:1 "While the temple can take in a lot of worshipers, that is not its only purpose — it also has to house the clergy, support a large library and protect relics. With the addition of the house of worship there's always plenty of room for the faithful to pray."
+ #building_temple_04:1 "Grand Temple"
+ #building_temple_04_desc:1 "Not satisfied with a small and modest temple, local artisans and architects have worked together to create a true work of art. This grand temple seemingly calls down the power of heaven itself into any worshiper who enters its glorious halls."
+ building_temple_01:0 "Shrine"
+ building_temple_01_desc:0 "A small village has grown up around the local shrine which is directly run bypriests sworn to the diety of the shrine."
+ building_temple_02:0 "Temple Grounds"
+ building_temple_02_desc:0 "A temple sits at the centre of the village, carefully constructed by local craftsmen to show their dedication to the faith."
+ building_temple_03:0 "House of Worship"
+ building_temple_03_desc:0 "While the temple can take in a lot of worshipers, that is not its only purpose - it also has to house the clergy, support a large library and protect relics. With the addition of the house of worship there's always plenty of room for the faithful to pray."
+ building_temple_04:0 "Grand Temple"
+ building_temple_04_desc:0 "Not satisfied with a small and modest temple, local artisans and architects have worked together to create a true work of art. This grand temple seemingly calls down the power of heaven itself into any worshiper who enters its glorious halls.
  #AGOT Modified
  # building_type_city_01:0 "City"
  building_type_city_01:0 "Stadt"
  building_type_city_01_desc:1 "Eine bevölkerungsreiche Siedlung, die das Zuhause einer großen Zahl von Bürgern, Kaufleuten und hart arbeitenden Menschen ist."
  #AGOT Modified
  # building_city_01:1 "Village Center"
- building_city_01:1 "Kleines Dorf" #Selbst geschrieben/abgetippt
- #AGOT Modified
  # building_city_01_desc:0 "$building_type_city_01_desc$"
- building_city_01_desc:0 "Ein kleines Dorf"
- #AGOT Modified
  # building_city_02:1 "Large City"
- building_city_02:1 "Dorf"
- #AGOT Modified
  # building_city_02_desc:1 "This city has attracted the attention of traders and craftsmen from all around, with wealthy merchants setting up shop and diligent craftsmen erecting new houses almost daily."
- building_city_02_desc:1 "Ein Dorf"
- #AGOT Modified
  # building_city_03:1 "City Center"
- building_city_03:1 "Kleine Stadt"
- #AGOT Modified
  # building_city_03_desc:1 "No longer content with just occupying its original area, the city now subsumes nearby farmland into its prosperous center. The city is vast and full of wealth and opportunity."
- building_city_03_desc:1 "Eine kleine Stadt"
- #AGOT Modified
  # building_city_04:1 "Bustling Metropolis"
- building_city_04:1 "Große Stadt"
- #AGOT Modified
  # building_city_04_desc:1 "This city is known far and wide for the bountiful opportunities that lie within — it is said that even the lowliest peasant can find fortune here. Houses line the streets for as far as the eye can see, with carts and animals busy transporting goods wherever you look."
- building_city_04_desc:1 "Eine große Stadt"
+ building_city_01:0 "Kleines Dorf"
+ building_city_01_desc:0 "Ein kleines Dorf, in dem ein großer Teil des einfachen Volkes lebt, das dem örtlichen Lord eine Menge Steuern einbringt."
+ building_city_02:0 "Dorf"
+ building_city_02_desc:0 "In diesem Dorf von nicht unbeträchtlicher Größe leben sowohl Kleinbauern, die das Land bearbeiten, als auch Händler und andere spezialisierte Arbeiter."
+ building_city_03:0 "Kleinstadt"
+ building_city_03_desc:0 "Die Stadt begnügt sich nicht mehr damit, ihr ursprüngliches Gebiet zu besetzen, sondern bezieht das nahe gelegene Ackerland in ihr blühendes Zentrum ein. Die Stadt ist wirklich ein Zentrum des Wohlstands und der Möglichkeiten."
+ building_city_04:0 "Große Stadt"
+ building_city_04_desc:0 "Diese große Stadt ist weithin bekannt für die zahlreichen Möglichkeiten, die sich hier bieten - es heißt, dass selbst der kleinste Bauer hier sein Glück finden kann. Häuser ziehen sich durch die Straßen, so weit das Auge reicht, und überall sind Karren und Tiere mit dem Transport von Waren beschäftigt."
  building_type_common_tradeport_01:0 "Handelshafen"
  building_type_common_tradeport_01_desc:1 "Handelsschiffe ver- und entladen ihre Güter in diesem Hafen."
  building_common_tradeport_01:1 "Kleiner Hafen"

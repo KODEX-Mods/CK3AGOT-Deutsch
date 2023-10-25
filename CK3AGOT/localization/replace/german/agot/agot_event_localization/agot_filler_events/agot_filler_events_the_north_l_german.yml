@@ -770,6 +770,25 @@ Belohnung verdient. Er war ein Held und ein Wilderer. Da [heroic_poacher.GetFirs
  agot_filler_north.0127.t:0 "Verschneiter Tag: Kriegsspiele"
  agot_filler_north.0127.desc:0 "Ich starre auf die Karte, während sich die Schlacht in meinem Kopf abspielt. Neue Strategien entwickeln sich, und so wie mein Marschall seine Figuren bewegt, ziehe auch ich. Schließlich hat mich mein Marschall umzingelt, und ich gebe mich nur widerwillig geschlagen..."
  agot_filler_north.0127.a:0 "Gut gespielt..."
+ 
+ agot_filler_north.0128.t:0 "The Crypts of Winterfell"
+ agot_filler_north.0128.desc:0 "I am wandering through Winterfell aimlessly, when suddenly before me stands an old ironwood door: the entrance to the labyrinthine crypts. Something in me compels me to open the door and enter. Each step downward is marked by a new chill as I descend from the world of the living to the catacombs of the dead.\n\nWalking amid the crypts, I find the dark corridors a maze. The faint torchlight gives little guidance. As I come to an intersection, I must choose #bold right#! or #bold left#!."
+ agot_filler_north.0128.a:0 "I will head to the right, I think I see something down that way."
+ agot_filler_north.0128.b:0 "There is a torch to the left; that must be the way to go!"
+ agot_filler_north.0128.c:0 "Maybe I should just turn around..."
+
+ agot_filler_north.0129.t:0 "Lessons from the Dead"
+ agot_filler_north.0129.intro:0 "As I continue down the corridor, I find myself face to face with a statue of a man, a crowned king. To either side of his throne are stone direwolves, and upon his lap is a sword, long ago rusted. The few words etched upon the side are slightly worn away, but still decipherable:\n\n"
+ agot_filler_north.0129.jon:0 "#bold [stark_ancestor.GetFullNameNicknamed].#! I can't help but look upon the statue with more respect. Here is the King who drove out the raiders and slavers from the east and built the Wolf's Den, the ancient precursor of White Harbor. The man was fearsome warrior and a strong king."
+ agot_filler_north.0129.brandon:0 "#bold [stark_ancestor.GetFullNameNicknamed].#! I can't help but look upon the statue with more respect. This was the famed king who united with Joramun, King-Beyond-the-Wall, to bring an end to the Night's King and his Corpse Bride. Together, the two would defend the realms of men from the horrors that the Night's King would have surely wrought."
+ agot_filler_north.0129.theon:0 "#bold [stark_ancestor.GetFullNameNicknamed].#! I can't help but look upon the statue with more respect. The Hungry Wolf is famed even outside of the North, known for uniting the North before the coming of the Andals, and then defeating said invaders — and then attacking even Andalos itself in Essos. He battled anyone and everyone, from Andal to Ironmen, and more; he was a true lord of war."
+ agot_filler_north.0129.rodrik:0 "#bold [stark_ancestor.GetFullNameNicknamed].#! I can't help but look upon the statue with more respect. Rodrik Stark is sung of even to this day, especially when any troubles with the Ironmen arose. He is said to have won Bear Island from the squids in an arm wrestle and bestowed it upon House Mormont. "
+ agot_filler_north.0129.a:0 "The history here is palpable."
+
+ agot_filler_north.0130.t:0 "A Dragon In Winterfell"
+ agot_filler_north.0130.desc:0 "I have clearly chosen the wrong way, for I now find myself even further lost in these corridors. The torches are randomly placed, only leading me further and further downward. #italic Each step deeper brings a further chill.#!\n\nI can feel a strange heat emanating from the walls and the ceiling, drawing me further into the depths. Coming around a corner, I see the last thing I would have expected to find in the crypts beneath Winterfell...\n\nBefore me is a #bold dragon egg#!! Placed in some sort of holder, it was clearly left here for a purpose, but what such a purpose could be, I cannot even begin to fathom. "
+ agot_filler_north.0130.a:0 "Surely its purpose is to remain in this place."
+ agot_filler_north.0130.b:0 "After all, why not? Why shouldn't I take it?"
 
 ##############################################
 #   FUR TRADERS OVER HUNTING WOODS  #
