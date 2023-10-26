@@ -19,7 +19,7 @@
  building_monastery_04_desc:1 "Die einst kleine religiöse Gemeinschaft ist zu einem großen Kloster herangewachsen, das Hunderten von eingeschworenen Brüdern und Schwestern als geistige Stätte dient und in dem über die tiefsten Glaubensinhalte diskutiert werden kann. Der nahe gelegene Ort ist zu einer kleinen Stadt herangewachsen, um die vielen Menschen zu versorgen, die im großen Kloster ein- und ausgehen."
 
  building_type_godswood_01:0 "Götterhain"
- building_type_godswood_01_desc:0 "Als die Ersten Menschen die alten Götter der Kinder des Waldes aufnahmen, schufen sie Götterhaine, Haine innerhalb ihrer Burgen und Dörfer, in denen ein einzelner Wehrholzbaum, der als "Herzbaum" bekannt ist und in den ein Gesicht geschnitzt wurde, gepflanzt wurde, damit die Götter verehrt werden konnten."
+ building_type_godswood_01_desc:0 "Als die Ersten Menschen die alten Götter der Kinder des Waldes aufnahmen, schufen sie Götterhaine, Haine innerhalb ihrer Burgen und Dörfer, in denen ein einzelner Wehrholzbaum, der als „Herzbaum“ bekannt ist und in den ein Gesicht geschnitzt wurde, gepflanzt wurde, damit die Götter verehrt werden konnten."
  building_godswood_01:0 "Kleiner Götterhain"
  building_godswood_01_desc:0 "Ein kleiner Götterhain mit mehreren Bäumen und einem Herzbaum in der Mitte. Dieser Götterhain ist ein schöner Ort für den Herrscher dieses Betriebs, um spazieren zu gehen und nachzudenken."
  building_godswood_02:0 "Götterhain"
@@ -336,7 +336,7 @@
  building_orkmont_mines_02_desc:1 "$building_castamere_mines_02_desc$"
  building_orkmont_mines_03:0 "Orgmont-Bergwerk"
  building_orkmont_mines_03_desc:0 "$building_castamere_mines_03_desc$"
- building_orkmont_mines_04:0 "Orgmont-Bergwerkanlage
+ building_orkmont_mines_04:0 "Orgmont-Bergwerkanlage"
  building_orkmont_mines_04_desc:0 "$building_castamere_mines_04_desc$"
 
  building_type_hardstone_hills_mines_01:0 "Minen des Hartsteinhügels"

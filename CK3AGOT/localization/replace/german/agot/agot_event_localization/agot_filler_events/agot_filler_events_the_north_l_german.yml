@@ -51,7 +51,7 @@
 #######################################
 
  agot_filler_north.0020.t:0 "Schattenwolfmäntel zu verkaufen!"
- agot_filler_north.0020.desc:0 ""Schattenwolfmäntel! Schattenwolfmäntel zu verkaufen," brüllt der Händler. Ich drehe mich um und sehe, dass der Händler drei große, pelzige Mäntel hinter sich aufgespannt hat. Er bemerkt meine interessierten Blicke und lädt mich ein, die Mäntel zu inspizieren..."
+ agot_filler_north.0020.desc:0 "„Schattenwolfmäntel! Schattenwolfmäntel zu verkaufen,“ brüllt der Händler. Ich drehe mich um und sehe, dass der Händler drei große, pelzige Mäntel hinter sich aufgespannt hat. Er bemerkt meine interessierten Blicke und lädt mich ein, die Mäntel zu inspizieren..."
  agot_filler_north.0020.a:0 "Inspiziert die Mäntel."
  agot_filler_north.0020.b:0 "Schattenwölfe? Die sind ausgestorben! Erklärt Euch, Händler."
  agot_filler_north.0020.c:0 "Ich benötige keine Mäntel."
@@ -70,7 +70,7 @@
  agot_filler_north.0022.a:0 "Ich sollte Euch dafür einsperren lassen..."
 
  agot_filler_north.0023.t:0 "'Schattenwolf'-Mäntel, hä?"
- agot_filler_north.0023.desc:0 ""Der Schattenwolf? Ausgestorben? Nein, nein, nein", murmelt der Händler. "Südlich der Mauer, gewiss. Aber diese Mäntel wurden aus Schattenwölfen hergestellt, die von Wildlingen jenseits der Mauer gejagt wurden! Ich habe große Mühen auf mich genommen, um diese frischen Waren für Abnehmer wie Euch südlich der Mauer liefern zu lassen. Nur zu, begutachtet sie! Überzeugt Euch selbst.""
+ agot_filler_north.0023.desc:0 "„Der Schattenwolf? Ausgestorben? Nein, nein, nein“, murmelt der Händler. „Südlich der Mauer, gewiss. Aber diese Mäntel wurden aus Schattenwölfen hergestellt, die von Wildlingen jenseits der Mauer gejagt wurden! Ich habe große Mühen auf mich genommen, um diese frischen Waren für Abnehmer wie Euch südlich der Mauer liefern zu lassen. Nur zu, begutachtet sie! Überzeugt Euch selbst.“"
  agot_filler_north.0023.a:0 "Überprüft die Mäntel."
  agot_filler_north.0023.b:0 "Das interessiert mich nicht."
 
@@ -89,7 +89,7 @@
 #######################################
 
  agot_filler_north.0031.t:0 "Der Winter kam früh"
- agot_filler_north.0031.desc:0 ""[ROOT.Char.Custom('DE_Anrede')], [ROOT.Char.Custom('DE_Anrede')]", sagt der frustrierte Bauer vor mir, "Diese Sommerschneestürme haben meine Ernte zerstört! Ich habe keine Hoffnung, dass ich den vollen Saatertrag wiederherstellen kann, vor allem, weil die Ernte bald ansteht. Ich weiß nicht, was ich tun soll, wenn ich meine Familie in dieser Erntezeit nicht ernähren kann, gerade wenn der Winter naht... Es muss doch etwas geben, was Ihr für mich tun könnt!"\n\nDer Bauer ist mutig, von mir Hilfe für seinen Hof zu verlangen... aber diese Sommerschneestürme #italic haben#! den Höfen im ganzen Land Schaden zugefügt... "
+ agot_filler_north.0031.desc:0 "„[ROOT.Char.Custom('DE_Anrede')], [ROOT.Char.Custom('DE_Anrede')]“, sagt der frustrierte Bauer vor mir, „Diese Sommerschneestürme haben meine Ernte zerstört! Ich habe keine Hoffnung, dass ich den vollen Saatertrag wiederherstellen kann, vor allem, weil die Ernte bald ansteht. Ich weiß nicht, was ich tun soll, wenn ich meine Familie in dieser Erntezeit nicht ernähren kann, gerade wenn der Winter naht... Es muss doch etwas geben, was Ihr für mich tun könnt!“\n\nDer Bauer ist mutig, von mir Hilfe für seinen Hof zu verlangen... aber diese Sommerschneestürme #italic haben#! den Höfen im ganzen Land Schaden zugefügt... "
  agot_filler_north.0031.a:0 "Ich werde Euch nur für die zerstörte Saat entschädigen."
  agot_filler_north.0031.b:0 "Die Alten Götter bestraften Euch für Eure Sünden."
  agot_filler_north.0031.c:0 "Ihr seid ein NORDMANN! Ihr solltet auf Schnee vorbereitet sein."
@@ -182,7 +182,7 @@
 ############################################
 
  agot_filler_north.0040.t:0 "Sagen des Nordens"
- agot_filler_north.0040.desc:0 "Das Lagerfeuer brennt lichterloh, als ich neben den anderen Platz nehme. Eine Woche in den Wäldern zu verbringen, völlig losgelöst vom Hof und vom Herrschen - und von den kleinen Problemen des Lebens - ist etwas, wovon die meisten in meiner Position nur träumen können. Aber im Norden ist das unsere Tradition. Unser Erbe.\n\nDer Mond steht hoch über unseren Köpfen, und unser Gastgeber, ein Mann namens Beron, blickt mit finsterer Miene vom Feuer auf.\n\n"Meine Freunde", sagt er, während das Feuer im Schwarz seiner Augen tanzt, "man sagt, es gibt eine Sage über diese Wälder. Eine beängstigende und alte Sage. Kennt Ihr sie alle?" Die Männer murmeln ablehenend und fordern ihn auf, sie zu erzählen.\n\n"Vor langer Zeit mieden Jäger und Sammler diese Wälder, als ob sie von Drachen bevölkert wären. Der Lord dieser Wälder war irritiert, denn hier gab es gutes Wild zu jagen und schmackhafte Beeren zu ernten. Also wagte er sich in den Wald, um herauszufinden, warum er für seine Leute wie Gift war."\n\n"In diesen Wäldern suchte er viele Tage und Nächte nach irgendwelchen Anzeichen. Aber er fand nichts, wohin er auch blickte. Bis er eines Nachts, als der Mond hoch am Himmel stand, einen eisigen und bedrohlichen Wind spürte. Plötzlich sah er hinter sich keinen Geringeren als einen #italic Anderen#, der gekommen war, um ihn zu töten-"\n\nAus dem Nichts hört Ihr und Eure Begleiter ein Rascheln im Gebüsch... Beron schnappt nach Luft, als jemand aus dem Dickicht springt und Euch wild brüllend angreift! Ihr könnt, wie Beron wie wild über ob des Gebrülls lacht!"
+ agot_filler_north.0040.desc:0 "Das Lagerfeuer brennt lichterloh, als ich neben den anderen Platz nehme. Eine Woche in den Wäldern zu verbringen, völlig losgelöst vom Hof und vom Herrschen - und von den kleinen Problemen des Lebens - ist etwas, wovon die meisten in meiner Position nur träumen können. Aber im Norden ist das unsere Tradition. Unser Erbe.\n\nDer Mond steht hoch über unseren Köpfen, und unser Gastgeber, ein Mann namens Beron, blickt mit finsterer Miene vom Feuer auf.\n\n„Meine Freunde“, sagt er, während das Feuer im Schwarz seiner Augen tanzt, „man sagt, es gibt eine Sage über diese Wälder. Eine beängstigende und alte Sage. Kennt Ihr sie alle?“ Die Männer murmeln ablehenend und fordern ihn auf, sie zu erzählen.\n\n„Vor langer Zeit mieden Jäger und Sammler diese Wälder, als ob sie von Drachen bevölkert wären. Der Lord dieser Wälder war irritiert, denn hier gab es gutes Wild zu jagen und schmackhafte Beeren zu ernten. Also wagte er sich in den Wald, um herauszufinden, warum er für seine Leute wie Gift war.“\n\n„In diesen Wäldern suchte er viele Tage und Nächte nach irgendwelchen Anzeichen. Aber er fand nichts, wohin er auch blickte. Bis er eines Nachts, als der Mond hoch am Himmel stand, einen eisigen und bedrohlichen Wind spürte. Plötzlich sah er hinter sich keinen Geringeren als einen #italic Anderen#, der gekommen war, um ihn zu töten-“\n\nAus dem Nichts hört Ihr und Eure Begleiter ein Rascheln im Gebüsch... Beron schnappt nach Luft, als jemand aus dem Dickicht springt und Euch wild brüllend angreift! Ihr könnt, wie Beron wie wild über ob des Gebrülls lacht!"
  agot_filler_north.0040.a:0 "AHHHHHH!"
  agot_filler_north.0040.b:0 "FLIEHT! NACH HAUSE!"
  agot_filler_north.0040.c:0 "HAHA, toller Streich, Beron!"
@@ -282,7 +282,7 @@
  agot_filler_north.0055.t:0 "Die Bibliothek: Der Norden"
  agot_filler_north.0055.desc:0 "Meine Nächte sind rastlos, was zum Teil auf den Stress zurückzuführen ist, mit dem ich in letzter Zeit zu kämpfen hatte. Mein Geist scheint nicht in der Lage zu sein, den Stress des Herrschens auch nur für einen kurzen Moment der Ruhe zu verdrängen.\n\nAls ich heute Nacht durch die Burg wanderte, fand ich mich in der Bibliothek wieder. Vielleicht könnte ein Wälzer meinen Geist ablenken?"
  agot_filler_north.0055.a:0 "Mal sehen... Wie wäre es hiermit?"
- agot_filler_north.0055.a.tt:0 Ein gutes Buch kann Euch von Euren Problemen ablenken, hoffentlich."
+ agot_filler_north.0055.a.tt:0 "Ein gutes Buch kann Euch von Euren Problemen ablenken, hoffentlich."
  agot_filler_north.0055.b:0 "Hm, oder vielleicht dieses?"
  agot_filler_north.0055.b.tt:0 "Ein gutes Buch kann Euch von Euren Problemen ablenken, hoffentlich."
 
@@ -410,7 +410,7 @@
  agot_filler_north.0073.c.tt:0 "Ihr habt Euch in der Vergangenheit bei Euren Aufenthalten mehrfach mit dem Vorbesitzer unterhalten. Ihr hörtet nie etwas von einem Bruder und auch nichts schlechtes über den Norden."
 
  agot_filler_north.0074.t:0 "Der neue Besitzer der Schenke"
- agot_filler_north.0074.desc:0 "Meine Männer bestätigten meinen Verdacht, als sie den Erdkeller genauer untersuchten. Der Vorbesitzer war wie ein altes Stück Rindfleisch aufgehängt worden - und genau wie bei einem Rind waren aus seinem Körper Fleischstücke herausgeschnitten worden. Einer meiner Männer verlor den Inhalt seines Magens bei der Feststellung, dass dieser "neue Besitzer" den Gästen Speisen serviert hatte, die aus dem Fleisch des Vorbesitzers hergestellt worden waren."
+ agot_filler_north.0074.desc:0 "Meine Männer bestätigten meinen Verdacht, als sie den Erdkeller genauer untersuchten. Der Vorbesitzer war wie ein altes Stück Rindfleisch aufgehängt worden - und genau wie bei einem Rind waren aus seinem Körper Fleischstücke herausgeschnitten worden. Einer meiner Männer verlor den Inhalt seines Magens bei der Feststellung, dass dieser „neue Besitzer“ den Gästen Speisen serviert hatte, die aus dem Fleisch des Vorbesitzers hergestellt worden waren."
  agot_filler_north.0074.a:0 "Ergreift diesen abartigen Mörder!"
  agot_filler_north.0074.a.tt:0 "Ein solches Monster sollte nicht frei herumlaufen..."
 
@@ -429,7 +429,7 @@
  agot_filler_north.0076.a.lose.title:0 "Ihr seid gestorben..."
 
  agot_filler_north.0077.t:0 "Der neue Besitzer der Schenke"
- agot_filler_north.0077.desc:0 "Ein Fleischerbeil ist keine gute Wahl gegen burggeschmiedeten Stahl. Der Mörder lernt es auf die harte Tour, als meine Waffe sein Schlüsselbein durchdringt. Die klaffende Wunde raubt ihm den Kampfesmut, und er dreht sich weg, um zu fliehen - aber ich würde eine solche Bestie nicht entkommen lassen. Sobald der "neue Besitzer" tot ist, beginne ich mit der Durchsuchung der Schenke.\n\nIch finde meine Männer im Keller zusammen mit dem Vorbesitzer, aufgereiht wie Tiere, die geschlachtet werden. Mir dreht sich der Magen um, als mir dämmert, #italic was genau#! in den Pasteten war, die ich gegessen hatte."
+ agot_filler_north.0077.desc:0 "Ein Fleischerbeil ist keine gute Wahl gegen burggeschmiedeten Stahl. Der Mörder lernt es auf die harte Tour, als meine Waffe sein Schlüsselbein durchdringt. Die klaffende Wunde raubt ihm den Kampfesmut, und er dreht sich weg, um zu fliehen - aber ich würde eine solche Bestie nicht entkommen lassen. Sobald der „neue Besitzer“ tot ist, beginne ich mit der Durchsuchung der Schenke.\n\nIch finde meine Männer im Keller zusammen mit dem Vorbesitzer, aufgereiht wie Tiere, die geschlachtet werden. Mir dreht sich der Magen um, als mir dämmert, #italic was genau#! in den Pasteten war, die ich gegessen hatte."
  agot_filler_north.0077.a:0 "Solch ein Wahnsinn..."
  agot_filler_north.0077.a.tt:0 "Der Anblick ekelt Euch an. Ihr hofft, dass niemand erfährt, was Ihr in dieser verlassenen Schenke gespeist habt."
 
@@ -483,9 +483,7 @@
  agot_filler_north.0082.d.tt:0 "Ein Krimineller mit Ehrgefühl ist genau das, was die Nachtwache braucht. Wenn er gut dient, wird er vielleicht in der Hierarchie aufsteigen."
 
  agot_filler_north.0083.t:0 "Der Heldenhafte Wilderer"
- agot_filler_north.0083.desc:0 "Es schmerzt mich zwar, einem solchen Mann so etwas anzutun, doch eine gute Tat gleicht die schlechte
-nicht aus, und eine schlechte Tat nicht die gute. Jede hat ihre eigene
-Belohnung verdient. Er war ein Held und ein Wilderer. Da [heroic_poacher.GetFirstNameNoTooltip] jahrelang auf einem Auge blind für die Gerechtigkeit war, habe ich ihm eines seiner Augen genommen.\n\nNach der Tat biete ich [heroic_poacher.GetFirstNameNoTooltip] einen Platz an meinem Hof an und verspreche ihm, dass er nie wieder wildern muss, um seinen Lebensunterhalt zu verdienen, wenn er mir ehrenhaft dient."
+ agot_filler_north.0083.desc:0 "Es schmerzt mich zwar, einem solchen Mann so etwas anzutun, doch eine gute Tat gleicht die schlechte nicht aus, und eine schlechte Tat nicht die gute. Jede hat ihre eigene Belohnung verdient. Er war ein Held und ein Wilderer. Da [heroic_poacher.GetFirstNameNoTooltip] jahrelang auf einem Auge blind für die Gerechtigkeit war, habe ich ihm eines seiner Augen genommen.\n\nNach der Tat biete ich [heroic_poacher.GetFirstNameNoTooltip] einen Platz an meinem Hof an und verspreche ihm, dass er nie wieder wildern muss, um seinen Lebensunterhalt zu verdienen, wenn er mir ehrenhaft dient."
  agot_filler_north.0083.a:0 "Auge um Auge."
  agot_filler_north.0083.a.tt:0 "Die Pflicht ist getan. Jetzt, da er sich Eurem Hof angeschlossen hat, muss er nicht kriminell sein. Der Wilderer scheint es Euch nicht übel genommen zu haben, nachdem er ein Auge durch Euch verloren hat."
 
@@ -659,11 +657,11 @@ Belohnung verdient. Er war ein Held und ein Wilderer. Da [heroic_poacher.GetFirs
  agot_filler_north.0108.c:0 "Das ist reine Zeitverschwendung..."
 
  agot_filler_north.0109.t:0 "Ein hochgefährliches Spiel: Der Warg"
- agot_filler_north.0109.desc:0 "Als die Sonne fast untergegangen war, sahen wir es. "Bei den Göttern", stammelte einer meiner Leute, als ein Mann von der Größe eines Zelters aus dem Wald auftauchte und auf ein Schaf in der Nähe zulief. Als das Ungetüm das Schaf aufhob, stürmten wir auf unseren Schlachtrössern heran. Der seltsame, in Pelze gehüllte Mann schrie und versuchte, in den Wald zurückzulaufen, wobei er auf der Flucht um sein Leben flehte.\n\nWir holten ihn rasch ein. Der Mann war ein gewöhnlicher, wenn auch plumper Wilderer, der seine ergaunerten Pelze benutzt hatte, um sich zu verkleiden und das Vieh zu stehlen. Die Dorfbewohner erkannten ihn sogar als denjenigen, der die Geschichten über einen Warg verbreitete."
+ agot_filler_north.0109.desc:0 "Als die Sonne fast untergegangen war, sahen wir es. „Bei den Göttern“, stammelte einer meiner Leute, als ein Mann von der Größe eines Zelters aus dem Wald auftauchte und auf ein Schaf in der Nähe zulief. Als das Ungetüm das Schaf aufhob, stürmten wir auf unseren Schlachtrössern heran. Der seltsame, in Pelze gehüllte Mann schrie und versuchte, in den Wald zurückzulaufen, wobei er auf der Flucht um sein Leben flehte.\n\nWir holten ihn rasch ein. Der Mann war ein gewöhnlicher, wenn auch plumper Wilderer, der seine ergaunerten Pelze benutzt hatte, um sich zu verkleiden und das Vieh zu stehlen. Die Dorfbewohner erkannten ihn sogar als denjenigen, der die Geschichten über einen Warg verbreitete."
  agot_filler_north.0109.a:0 "Eine sehr ungewöhnliche Jagd!"
 
  agot_filler_north.0110.t:0 "Ein hochgefährliches Spiel: Der Warg"
- agot_filler_north.0110.desc:0 "Als die Sonne fast untergegangen war, sahen wir es. "Bei den Göttern", stammelte einer meiner Leute, als ein Mann von der Größe eines Zelters aus dem Wald auftauchte und auf ein Schaf in der Nähe zulief. Als das Ungetüm das Schaf aufhob, stürmten wir auf unseren Schlachtrössern heran. Der seltsame, in Pelze gehüllte Mann schrie und versuchte, in den Wald zurückzulaufen, wobei er auf der Flucht um sein Leben flehte.\n\nAm nächsten Morgen fand ich ihn mit aufgeschlitzter Kehle in diesem Wald. Als ich von ihm abließ, sah ich einen Wolf, der mich mit fast menschlichen Augen anstarrte, bevor er in den Wald zurücklief."
+ agot_filler_north.0110.desc:0 "Als die Sonne fast untergegangen war, sahen wir es. „Bei den Göttern“, stammelte einer meiner Leute, als ein Mann von der Größe eines Zelters aus dem Wald auftauchte und auf ein Schaf in der Nähe zulief. Als das Ungetüm das Schaf aufhob, stürmten wir auf unseren Schlachtrössern heran. Der seltsame, in Pelze gehüllte Mann schrie und versuchte, in den Wald zurückzulaufen, wobei er auf der Flucht um sein Leben flehte.\n\nAm nächsten Morgen fand ich ihn mit aufgeschlitzter Kehle in diesem Wald. Als ich von ihm abließ, sah ich einen Wolf, der mich mit fast menschlichen Augen anstarrte, bevor er in den Wald zurücklief."
  agot_filler_north.0110.a:0 "Irgendetwas war merkwürdig an dieser Jagd..."
 
  agot_filler_north.0111.t:0 "Ein hochgefährliches Spiel: Der Warg"
@@ -713,7 +711,7 @@ Belohnung verdient. Er war ein Held und ein Wilderer. Da [heroic_poacher.GetFirs
  agot_filler_north.0116.t:0 "Die Wildlinge im Turm"
  agot_filler_north.0116.desc:0 "Meine Männer finden einen alten Karren und beladen ihn mit Zunder, während die Sonne allmählich untergeht. Die Wildlinge entdecken uns, als meine Männer den Karren zum Turm rollen und versuchen, ihn mit ihren Bogenschützen aufzuhalten. Doch der Karren rollt bis zum Fuß des Wachturms - und auf mein Signal hin lassen meine Männer ihre brennenden Pfeile auf den Zunder im Karren los.\n\nWährend sich das Feuer auszubreitet, versuchen die Wildlinge verzweifelt ihre eigenen Befestigungen niederzureißen. Das Feuer ist schneller, und als es beginnt, den Turm zu verschlingen, springen einige der Wildlinge von den höheren Etagen schreiend in den Tod, anstatt sich von den Flammen verzehren zu lassen. Die Stunde des Wolfes ist gekommen, und der Turm ist ein flammendes Inferno."
  agot_filler_north.0116.a:0 "Ein Anblick, der sich für immer in mein Gedächtnis eingebrannt hat."
- agot_filler_north.0116.a.tt:0 "Die Nachricht von Ihrem "Scheiterhaufen" wird sich sicher als Warnung herumsprechen..."
+ agot_filler_north.0116.a.tt:0 "Die Nachricht von Ihrem „Scheiterhaufen“ wird sich sicher als Warnung herumsprechen..."
 
  agot_filler_north.0117.t:0 "Die Wildlinge im Turm"
  agot_filler_north.0117.desc:0 "Gegen den Willen meiner Männer nähere ich mich dem Wachturm unbewaffnet. Nah genug, dass sie mich hören können, rufe ich ihnen zu und biete ihnen eine Wahl an: \n\n Ich habe Platz an meinem Hof und könnte ihnen Unterkunft und Nahrung bieten. Im Gegenzug würden sie mir dienen und diese Ländereien nicht mehr plündern.\n\nWährend ich ihre Antwort abwarte, bricht der Turm in Gebrüll und Geschrei aus. Die schrecklichen Schreie verstummen schließlich, und zwei Wildlinge reißen die Barrikade nieder und kommen vorsichtig auf mich zu. Beide sind blutverschmiert und erzählen mir, dass sie die anderen getötet haben, die mein Angebot nicht annehmen wollten.\n\nBeide Wildlinge beugen das Knie vor mir."

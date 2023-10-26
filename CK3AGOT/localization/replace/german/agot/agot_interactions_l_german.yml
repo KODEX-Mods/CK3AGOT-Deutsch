@@ -43,7 +43,7 @@
  ORDER_VOWS_CRAVEN:0 "[personality|E] — #italic [recipient.GetSheHe|U] hegt nicht den Wunsch zu sterben:#! $VALUE|=+0$"
  ORDER_VOWS_HORNY:0 "[personality|E] — #italic Ein Leben im Zölibat klingt wie ein Leben im Kerker:#! $VALUE|=+0$"
 
- WHEREABOUTS_UNKNOWN:0 "Der Aufenthaltsort von [CHARACTER.GetShortUIName|U] ist unbekannt
+ WHEREABOUTS_UNKNOWN:0 "Der Aufenthaltsort von [CHARACTER.GetShortUIName|U] ist unbekannt"
 
  offer_vassalization_shattered_world_tt:0 "Gleichgewicht der Zersplitterten Welt: $VALUE|=+0$"
 

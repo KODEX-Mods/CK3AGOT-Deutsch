@@ -21,7 +21,7 @@
  small_councillor_custom:0 "[CHARACTER.Custom('small_councillor_custom')]"
  small_councillor_custom_input:0 "[ROOT.Char.GetLocalizedText('small_council_title')]"
 
- set_relation_small_councillor: "[TARGET_CHARACTER.GetTitledFirstName|V] beginnt, in Eurem kleinen Rat mitzuwirken."" 
+ set_relation_small_councillor: "[TARGET_CHARACTER.GetTitledFirstName|V] beginnt, in Eurem kleinen Rat mitzuwirken." 
 
 ### MODIFIERS ###
 

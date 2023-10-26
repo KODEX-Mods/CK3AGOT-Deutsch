@@ -67,7 +67,7 @@
 
  #AGOT Modified
  #catalyst_successfully_expelled_interloper:0 "Win [iberian_reclamation|E] [struggle_catalyst_catalyst|E]"
- catalyst_successfully_expelled_interloper:0 "[struggle_catalyst_catalyst|E] „[btw_reclamation|E] gewinnen“  #Selbst geschrieben/abgetippt
+ catalyst_successfully_expelled_interloper:0 "[struggle_catalyst_catalyst|E] „[btw_reclamation|E] gewinnen“" #Selbst geschrieben/abgetippt
  #AGOT Modified
  #catalyst_successfully_expelled_interloper_desc:0 "Win an [iberian_reclamation|E] against an [struggle_uninvolved|E] $game_concept_character$"
  catalyst_successfully_expelled_interloper_desc:0 "Eine [btw_reclamation|E] gegen einen am [Concept('struggle_uninvolved', 'Konflikt unbeteiligten')|E] $game_concept_character$ gewinnen"  #Selbst geschrieben/abgetippt

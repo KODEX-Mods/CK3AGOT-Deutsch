@@ -725,7 +725,7 @@
  b_lake_rustwell:0 "Rostbrunnsee"
  b_rustwell:0 "Rostbrunn"
  b_rushcrest:0 "Binsenkamm"
- b_red_barrow:0 "Rotgräben
+ b_red_barrow:0 "Rotgräben"
  b_blackhorse:0 "Rappen"
  b_floodbottle:0 "Trinkfluth"
  b_grey_nest:0 "Graunest"
@@ -1554,7 +1554,7 @@
  b_framehouse:0 "Rahmenheim"
  b_crooked_guard:0 "Krummwacht"
  b_lonely_nest:0 "Einsamnest"
- b_sweet_kiss:0 Süßkuss"
+ b_sweet_kiss:0 "Süßkuss"
  b_kentwood:0 "Kentwald"
  b_morrenhold:0 "Morrenburg"
  b_cobbleton:0 "Pflasterlingen" # eE Abweichung von bereits ähnlich vorhandenen Orten
@@ -1654,7 +1654,7 @@
  b_ghostskin_tower:0 "Geisterhautturm" # eE
  b_childrens_tower:0 "Kindersturm" # eE
  b_bogmans_tower:0 "Moorleichenturm" # eE
- b_cailinsmarsh:0 "Grabenmarsch" # eE hergeleitet von "Maidengraben"
+ b_cailinsmarsh:0 "Grabenmarsch„ # eE hergeleitet von “Maidengraben"
  b_the_missingkeep:0 "Irrfeste" # eE
  b_lizardfields:0 "Echsenfelden" # eE
  b_riverrun:0 "Schnellwasser" # kanon

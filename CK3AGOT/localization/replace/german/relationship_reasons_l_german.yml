@@ -217,7 +217,7 @@
 
  friend_gaming:0 "[CHARACTER.GetShortUIName|U] und [TARGET_CHARACTER.GetShortUIName] wurden Freunde, nachdem sie Brettspiele gespielt hatten."
 
- friend_emergency_surgery:0 "Der rasch durchgeführte Eingriff durch [TARGET_CHARACTER.GetShortUIName] rettete [CHARACTER.GetShortUIName] das Leben, wofür [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] immer dankbar sein wird.
+ friend_emergency_surgery:0 "Der rasch durchgeführte Eingriff durch [TARGET_CHARACTER.GetShortUIName] rettete [CHARACTER.GetShortUIName] das Leben, wofür [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] immer dankbar sein wird."
 
  friend_emergency_surgery_corresponding: "Der rasch durchgeführte Eingriff durch [CHARACTER.GetShortUIName] rettete [TARGET_CHARACTER.GetShortUIName] das Leben, wofür [TARGET_CHARACTER.Custom('DE_PRO_PER_S_3P_N')] immer dankbar sein wird."
  

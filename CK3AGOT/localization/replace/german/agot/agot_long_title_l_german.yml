@@ -45,4 +45,4 @@
  print_flag: "[THIS.GetFlagName]"
 
  en_garde_name: "En Garde"
- en_garde_abb_name: "En Garde (hinten bewaffnen)" #Übersetzung von "(arm behind) - keine bessere Idee
+ en_garde_abb_name: "En Garde (hinten bewaffnen)„ #Übersetzung von "(arm behind) - keine bessere Idee

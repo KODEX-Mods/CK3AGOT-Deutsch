@@ -64,7 +64,7 @@
  remove_eye_gem_decision_confirm:0 "Es ist vielleicht an der Zeit, mein Aussehen zu ändern..."
  remove_facemask.0003.a:0 "Ich würde gerne wieder eine Augenklappe tragen..."
  buy_facemask.0001.f:0 "Vergiss es..."
- eyereplace.0005.desc:0 "Wenn ich in den Spiegel schaue, frage ich mich...\n\n"Ist es an der Zeit, diesen Edelstein, den ich anstelle meines Auges habe, zu entfernen?"\n\nIch überlege, ob ich wieder eine Augenklappe tragen soll."
+ eyereplace.0005.desc:0 "Wenn ich in den Spiegel schaue, frage ich mich...\n\n„Ist es an der Zeit, diesen Edelstein, den ich anstelle meines Auges habe, zu entfernen?“\n\nIch überlege, ob ich wieder eine Augenklappe tragen soll."
 
  # Buy GEM STUFF
 
@@ -114,8 +114,8 @@
 #  trait_one_eyed_green:0 "One-eyed"
 
  eyereplace.0001.t:0 "Ein neues Aussehen"
-#  eyereplace.0001.desc:0 "I summon my craftsman and order him to bring me a chest of his finest gems. It is time to ditch this horrid eye patch in favor of something…more interesting.\n\n \"My [ROOT.Char.GetLadyLord|U], what gem best suites you?\" He asks, presenting me with a chest full of shining gemstones:"
-#  eyereplace.0011.desc:0 "My craftsman lays out all of his gems again.\n\n \"My [ROOT.Char.GetLadyLord|U], what gem best suites you?\" He asks, presenting me with a chest full of shining gemstones:"
+#  eyereplace.0001.desc:0 "I summon my craftsman and order him to bring me a chest of his finest gems. It is time to ditch this horrid eye patch in favor of something…more interesting.\n\n \„My [ROOT.Char.GetLadyLord|U], what gem best suites you?\“ He asks, presenting me with a chest full of shining gemstones:"
+#  eyereplace.0011.desc:0 "My craftsman lays out all of his gems again.\n\n \„My [ROOT.Char.GetLadyLord|U], what gem best suites you?\“ He asks, presenting me with a chest full of shining gemstones:"
 
 #  eyereplace.0001.a:0 "I think a #BOLD;COLOR:{0.63,0.51,0.93} Sapphire#!, #BOLD;COLOR:{0.48,0.05,0.09} Ruby#!, or #BOLD;COLOR:{0.93,0.93,0.93} Diamond#! would do..."
 #  eyereplace.0001.b:0 "#BOLD;COLOR:{0.0,0.0,0.74} Opal#!, #BOLD;COLOR:{0.3,0.3,0.3} Obsidian#!, or #BOLD;COLOR:{0.12,0.3,0.18} Emerald #! will suit me just fine..."

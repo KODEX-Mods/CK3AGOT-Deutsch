@@ -11,7 +11,7 @@
 
 
  host_feast_decision_desc_vassals:1 "Die [opinion|E] Eurer Vasallen von Euch könnte steigen"
- host_feast_decision_desc_shy:1 "#N Da Ihr [GetTrait('shy').GetName( GetPlayer )] seid, werdet Ihr keine [stress|E] verlieren#!" #bleibt stress, stress oder wird es Stress-Level? ggf. in "wird sich dein [stress|E] nicht verringern" ändern #Antwort v. Dillo: Es wird Anspannung (-sstufe) :)
+ host_feast_decision_desc_shy:1 "#N Da Ihr [GetTrait('shy').GetName( GetPlayer )] seid, werdet Ihr keine [stress|E] verlieren#!„ #bleibt stress, stress oder wird es Stress-Level? ggf. in “wird sich dein [stress|E] nicht verringern" ändern #Antwort v. Dillo: Es wird Anspannung (-sstufe) :)
  host_feast_decision_desc_pensive:0 "#N Da Ihr [GetTrait('pensive').GetName( GetPlayer )] seid, werdet Ihr [stress|E] verlieren#!"
  host_feast_decision_desc_stress_medium:1 "Eure [stress|E] wird sich verringern"
  host_feast_decision_desc_stress:1 "Eure [stress|E] könnte sich verringern"

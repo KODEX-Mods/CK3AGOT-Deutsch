@@ -10,7 +10,7 @@
  #Same religion/culture notifications
  councillor_personal_steward_learning.1003.religion.desc:1 "Persönlicher Kämmerer vermittelt mit [councillor.GetFaith.GetAdjectiveNoTooltip]en Untertanen"
  councillor_personal_steward_learning.1003.culture.desc:1 "Persönlicher Kämmerer vermittelt mit [councillor.GetCulture.GetNameNoTooltip]en Untertanen"
- councillor_personal_steward_learning.1301.t:1 "Persönlicher Kämmerer: Beeinflusst religiöse Bekehrung“
+ councillor_personal_steward_learning.1301.t:1 "Persönlicher Kämmerer: Beeinflusst religiöse Bekehrung"
  councillor_personal_steward_learning.1302.t:1 "Persönlicher Kämmerer: Beeinflüsst religiöse Bekehrung"
  councillor_personal_steward_learning.1303.desc:0 "Persönlicher Kämmerer fördert Theologen"
 
@@ -81,6 +81,6 @@
  councillor_personal_steward_learning.2603.a:0 "[chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] könnte einen Tutor gebrauchen."
  councillor_personal_steward_learning.2603.b:0 "[marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip] würde Eure Hilfe nicht schaden."
  councillor_personal_steward_learning.2603.c:0 "Erteilt meinem [steward.GetCouncilTitle] [steward.GetFirstNameNoTooltip] ein wenig Unterricht."
- councillor_personal_steward_learning.2603.d:0 ""Vielleicht habt Ihr ja Rat für [spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip]."
+ councillor_personal_steward_learning.2603.d:0 "„Vielleicht habt Ihr ja Rat für [spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip]."
  councillor_personal_steward_learning.2603.e:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] könnte Eure Unterweisung gebrauchen."
  councillor_personal_steward_learning.2603.f:0 "Bleibt doch lieber hier bei mir …"

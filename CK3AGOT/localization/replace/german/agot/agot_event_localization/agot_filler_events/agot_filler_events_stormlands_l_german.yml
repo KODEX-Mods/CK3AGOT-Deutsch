@@ -7,7 +7,7 @@
 ##########################
 
  agot_filler_stormlands.0100.t:0 "Antikes Wissen von Morne"
- agot_filler_stormlands.0100.desc:0 "Mein [steward.GetCouncilTitle], [steward.GetTitledFirstName], kommt mit einem beeindruckenden Vorschlag auf mich zu: Die Überlieferungen besagen, dass an der Ostküste von Tarth einst ein altes Kleinkönigreich seinen Sitz hatte.\n\nOb die Kleinkönige Andalen oder Erste Menschen waren, ist zwar umstritten, aber bekannt ist, dass der Vollkommene Ritter, Ser Galladon, Morne seine Heimat nannte. \n\n"Welch uraltes Wissen könnte in diesen Ruinen verborgen sein...", sagt [steward.GetFirstNameNicknamedNoTooltip] mit einem Lächeln, "wenn wir nur eine Expedition aussenden würden, um diese Küsten zu erkunden...""
+ agot_filler_stormlands.0100.desc:0 "Mein [steward.GetCouncilTitle], [steward.GetTitledFirstName], kommt mit einem beeindruckenden Vorschlag auf mich zu: Die Überlieferungen besagen, dass an der Ostküste von Tarth einst ein altes Kleinkönigreich seinen Sitz hatte.\n\nOb die Kleinkönige Andalen oder Erste Menschen waren, ist zwar umstritten, aber bekannt ist, dass der Vollkommene Ritter, Ser Galladon, Morne seine Heimat nannte. \n\n„Welch uraltes Wissen könnte in diesen Ruinen verborgen sein...“, sagt [steward.GetFirstNameNicknamedNoTooltip] mit einem Lächeln, „wenn wir nur eine Expedition aussenden würden, um diese Küsten zu erkunden...“"
  agot_filler_stormlands.0100.a:0 "Das Streben nach Wissen ist den Preis wert."
  agot_filler_stormlands.0100.a_tt:0 "Ihr nehmt das Angebot an, eine Expedition zu finanzieren, aber wie viel Geld wird dafür benötigt?"
  agot_filler_stormlands.0100.b:0 "Hoffentlich lohnt sich dieses Unterfangen..."
@@ -16,7 +16,7 @@
  agot_filler_stormlands.0100.c_tt:0 "Ihr lehnt die Finanzierung der Expedition ab. Sicherlich ist sie die Kosten nicht wert."
 
  agot_filler_stormlands.0101.t:0 "Antikes Wissen von Morne"
- agot_filler_stormlands.0101.desc:0 "Die Expedition ist zu den uralten Ruinen von Morne aufgebrochen.\n\nEs heißt, dass Ser Galladons Taten so großartig waren, dass sich die Jungfrau selbst in ihn verliebte. Die Expedition wird die Ruinen nach Anzeichen für die sagenumwobene Klinge des Vollkommenen Ritters, #italic Gerechte Maid#!, durchsuchen und alles seltene Wissen, das an den Ufern der Vergangenheit verborgen ist, zurückbringen.\n\n"Jetzt müssen wir nur noch bestimmen, wie lange diese Expedition dauern soll", erinnert mich [steward.GetTitledFirstName]."
+ agot_filler_stormlands.0101.desc:0 "Die Expedition ist zu den uralten Ruinen von Morne aufgebrochen.\n\nEs heißt, dass Ser Galladons Taten so großartig waren, dass sich die Jungfrau selbst in ihn verliebte. Die Expedition wird die Ruinen nach Anzeichen für die sagenumwobene Klinge des Vollkommenen Ritters, #italic Gerechte Maid#!, durchsuchen und alles seltene Wissen, das an den Ufern der Vergangenheit verborgen ist, zurückbringen.\n\n„Jetzt müssen wir nur noch bestimmen, wie lange diese Expedition dauern soll“, erinnert mich [steward.GetTitledFirstName]."
  agot_filler_stormlands.0101.a:0 "Das reicht doch sicher..."
  agot_filler_stormlands.0101.a_tt:0 "Ihr erklärt Euch bereit, die Expedition für sechs Monate zu finanzieren."
  agot_filler_stormlands.0101.b:0 "Wissen ist jeden Preis wert!"
@@ -118,7 +118,7 @@
  agot_filler_stormlands.0404.t:0 "Plötzlicher Sturm: Banditen suchen Schutz"
  agot_filler_stormlands.0404.desc:0 "Ich erreichte das Bauernhaus recht schnell und schaffte es, mich einzurichten. Ein paar alte Holzscheite lagen neben der Feuerstelle, und zum Glück gelang es mir, sie anzuzünden, was mir ein wenig Trost spendete, als der Nachmittag zum Abend wurde. Als die Dämmerung einsetzte, hörte ich das Trommeln von Hufen auf dem Boden, das das Rauschen des Regens durchbrach, der gegen das undichte Dach peitschte. \n\nIch stehe auf und werfe einen Blick aus dem Fenster auf eine Gruppe von Landstreichern, die vor der Tür aufgetaucht sind und mein Pferd mit böser Miene beäugen. Sie sind von der Sorte, die ich schon aus einer Meile Entfernung als Gauner erkenne. Sie haben offensichtlich seit vielen Monaten kein warmes Bett mehr gesehen.\n\nAls sie näher kommen, entscheide ich, dass es das Beste ist, den ersten Schritt zu machen. Ich gehe zur Tür und öffne sie, während der Anführer der Gruppe nur wenige Meter von mir entfernt steht."
  agot_filler_stormlands.0404.a:0 "Ich ziehe mein Schwert und greife den Anführer an."
- agot_filler_stormlands.0404.b:0 ""Meine Herren! Ich bin froh über etwas Gesellschaft.""
+ agot_filler_stormlands.0404.b:0 "„Meine Herren! Ich bin froh über etwas Gesellschaft.“"
  agot_filler_stormlands.0404.c:0 "Ich bezahle sie, dann werden sie mich nicht anrühren."
  agot_filler_stormlands.0404.d:0 "Ich werde versuchen, mit ihrem Anführer zu verhandeln."
  agot_filler_stormlands.0404.success_title:0 "Frieden geschlossen"
@@ -126,7 +126,7 @@
 
  agot_filler_stormlands.0405.t:0 "Plötzlicher Sturm: Ein Kampf auf Leben und Tod"
  agot_filler_stormlands.0405.desc:0 "Der Anführer der Banditen zieht kurz nach Euch sein Schwert. Friedlich aus dieser Situation zu entkommen, war anscheinend nie eine Option. Er gestikuliert zu seinen Handlangern und weist sie wortlos an, die Sache ihm zu überlassen. Er ist ärmlich gekleidet, sein Gambeson ist an einigen Stellen gerissen, von früheren Kämpfen und vom Verschleiß.\n\n“Seid Ihr sicher, dass Ihr das tun wollt?” sagt er und hebt seine Deckung, als Ihr Euch nähert, ohne auch nur einen Zentimeter zu weichen."
- agot_filler_stormlands.0405.a:0 ""Ich habe schon größere Krieger geschlagen als Euch.""
+ agot_filler_stormlands.0405.a:0 "„Ich habe schon größere Krieger geschlagen als Euch.“"
  agot_filler_stormlands.0405.success_title:0 "Kampf gewonnen"
  agot_filler_stormlands.0405.failure_title:0 "Kampf verloren..."
 
@@ -168,14 +168,14 @@
  agot_filler_stormlands.0411.e:0 "Ich lasse sie zurück über die Roten Berge geleiten."
 
  agot_filler_stormlands.0412.t:0 "Ein Sandsturm von einer Frau: Das Duell"
- agot_filler_stormlands.0412.desc:0 "Während einer meiner Diener mein Wams festbindet, schmückt sich die Frau mit ihrer traditionellen dornischen Panzerung und hat sich bereits vollständig gerüstet, als ich erst zur Hälfte fertig bin. Dann setzt sie sich hin, starrt mich an und poliert die Spitze ihres Speers, bis mein Harnisch endlich angelegt ist. "Ich werde mein Bestes tun, um Euch nicht zu sehr in Mitleidenschaft zu ziehen", sage ich, als ein anderer meiner Diener mir mein Schwert überreicht.\n\n“Ich werde Euch nicht die gleiche Höflichkeit gewähren, [ROOT.Char.Custom('DE_Anrede')], und Mitleid werde ich Euch nicht schenken,” erwiderte sie und wirbelte elegant ihren Speer herum, als wir uns der Mitte des Hofes näherten.."
- agot_filler_stormlands.0412.a:0 ""Lasst uns tanzen.""
+ agot_filler_stormlands.0412.desc:0 "Während einer meiner Diener mein Wams festbindet, schmückt sich die Frau mit ihrer traditionellen dornischen Panzerung und hat sich bereits vollständig gerüstet, als ich erst zur Hälfte fertig bin. Dann setzt sie sich hin, starrt mich an und poliert die Spitze ihres Speers, bis mein Harnisch endlich angelegt ist. „Ich werde mein Bestes tun, um Euch nicht zu sehr in Mitleidenschaft zu ziehen“, sage ich, als ein anderer meiner Diener mir mein Schwert überreicht.\n\n“Ich werde Euch nicht die gleiche Höflichkeit gewähren, [ROOT.Char.Custom('DE_Anrede')], und Mitleid werde ich Euch nicht schenken,” erwiderte sie und wirbelte elegant ihren Speer herum, als wir uns der Mitte des Hofes näherten.."
+ agot_filler_stormlands.0412.a:0 "„Lasst uns tanzen.“"
  agot_filler_stormlands.0412.success_title:0 "Kampf gewonnen!"
  agot_filler_stormlands.0412.failure_title:0 "Kampf verloren..."
 
  agot_filler_stormlands.0413.t:0 "Ein Sandsturm von einer Frau: Sieg"
  agot_filler_stormlands.0413.desc:0 "Der Kampf ist bei weitem nicht so leicht zu gewinnen, wie ich es mir vorgestellt hatte. Die Anmut und das Können dieser Frau sind größer als bei vielen Rittern, gegen die ich bisher gekämpft habe, da bin ich mir sicher. Mit ihrem Speer führt sie geschickte Streiche aus und bemüht sich redlich, den Abstand zwischen uns zu wahren.\n\nSchließlich komme ich aber doch näher heran, und aus der Nähe ist ihr Speer eher hinderlich als nützlich. Ich lande eine Handvoll sauberer Treffer in kurzer Folge und, und sie findet sich auf dem Rücken liegend wieder.\n\nBei ihrem Sturz verliert sie den Halt an ihrem Speer und er fliegt zur Seite. Nun, da sie wehrlos ist, gibt sie widerwillig auf. Ich biete ihr eine Hand an, doch sie schlägt sie wortlos und verärgert weg, steht auf und marschiert aus dem Hof, wobei sie nicht einmal innehält, um ihren Speer zu holen."
- agot_filler_stormlands.0413.a:0 ""So ist es recht, haut ab zurück nach Dorne!""
+ agot_filler_stormlands.0413.a:0 "„So ist es recht, haut ab zurück nach Dorne!“"
 
  agot_filler_stormlands.0414.t:0 "Ein Sandsturm von einer Frau: Niederlage"
  agot_filler_stormlands.0414.desc:0 "Der Kampf ist einer der schwierigsten, die ich je erlebt habe. Ihre Beweglichkeit und Geschicklichkeit sind mit nichts zu vergleichen, was ich je gesehen habe. Jedes Mal, wenn ich versuche, die Distanz zu verringern, sticht sie entweder mit ihrem Speer nach mir, um mich aufzuhalten, oder sie weicht aus und trifft mich in die Seite. Mit dem Gewicht meiner Rüstung ist es ein regelrechter Zermürbungskrieg, den ich verliere.\n\nAnfangs kann ich noch mithalten, aber nach ein paar Minuten bin ich völlig erschöpft - und da gelingt es ihr, mir einen Schlag direkt in die Kniekehle zu versetzen. Ich falle zu Boden.\n\nWiderstrebend ergebe ich mich. Die Frau nickt nur selbstgefällig mit dem Kopf und verlässt meinen Hof, um mich mit der Schande meiner Niederlage zurückzulassen. Einer meiner Diener kommt herüber, um mir die Hand zu reichen, doch ich weise ihn unwirsch ab und richte mich auf."
@@ -200,7 +200,7 @@
  agot_filler_stormlands.0416.a:0 "Ich bin froh, dass wir das geklärt haben."
 
  agot_filler_stormlands.0417.t:0 "Der Kummer der Väter"
- agot_filler_stormlands.0417.desc:0 "[grieving_father_1.GetFirstNameNicknamedNoTooltip] kehrt an meinen Hof zurück, doch dieses Mal ist er allein. Ich erkenne an seinem stolpernden Gang, dass er getrunken hat.\n\n"[ROOT.Char.Custom('DE_Anrede')]", lallt er. "Ich komm zu Euch mit eim' Gestä... *Hicks*... Gestännis. Ich habe [grieving_father_2.GetFirstNameNicknamedNoTooltip] erschlagen!" Ich weiß, dass ihn die Schuld an dem Mord umtreibt, und dennoch - ich kann ein solches Verbrechen nicht ungestraft lassen."
+ agot_filler_stormlands.0417.desc:0 "[grieving_father_1.GetFirstNameNicknamedNoTooltip] kehrt an meinen Hof zurück, doch dieses Mal ist er allein. Ich erkenne an seinem stolpernden Gang, dass er getrunken hat.\n\n„[ROOT.Char.Custom('DE_Anrede')]“, lallt er. „Ich komm zu Euch mit eim' Gestä... *Hicks*... Gestännis. Ich habe [grieving_father_2.GetFirstNameNicknamedNoTooltip] erschlagen!“ Ich weiß, dass ihn die Schuld an dem Mord umtreibt, und dennoch - ich kann ein solches Verbrechen nicht ungestraft lassen."
  agot_filler_stormlands.0417.a:0 "Ihr werdet in meinem Kerker verrotten."
  agot_filler_stormlands.0417.b:0 "Ihr werdet mit Eurem Leben bezahlen!"
 
@@ -276,7 +276,7 @@
  agot_filler_stormlands.0431.a:0 "Ich muss mehr Rezepte für die Zubereitung von Kaninchen finden."
 
  agot_filler_stormlands.0432.t:0 "Der verwaiste Habicht"
- agot_filler_stormlands.0432.desc:0 "Die Herausforderungen bei der Ausbildung eines Jagdgefährten sind wohlbekannt, und ich hatte wirklich zu kämpfen. Selbst mit der Anleitung meines zuverlässigen Marschalls hatte ich kein Glück beim Erlernen der Tandemjagd mit dem Habicht.\n\n"Vielleicht solltet Ihr es aufgeben, [ROOT.Char.Custom('DE_Anrede')]?""
+ agot_filler_stormlands.0432.desc:0 "Die Herausforderungen bei der Ausbildung eines Jagdgefährten sind wohlbekannt, und ich hatte wirklich zu kämpfen. Selbst mit der Anleitung meines zuverlässigen Marschalls hatte ich kein Glück beim Erlernen der Tandemjagd mit dem Habicht.\n\n„Vielleicht solltet Ihr es aufgeben, [ROOT.Char.Custom('DE_Anrede')]?“"
  agot_filler_stormlands.0432.a:0 "Ihr habt ja recht, ich werde ihn freilassen."
  agot_filler_stormlands.0432.b:0 "Ich werde es Euch zeigen!"
  agot_filler_stormlands.0432.b_tt:0 "Ihr verdoppelt Eure Anstrengungen."
@@ -383,7 +383,7 @@
  agot_filler_stormlands.0449.a:0 "Vielleicht dieses Buch."
 
  agot_filler_stormlands.0450.t:0 "Die Bibliothek: Eine Warnung für junge Mädchen"
- agot_filler_stormlands.0450.desc:0 "Ich fand einen Folianten, der hinter ein paar Büchern versteckt war, als ob ihn jemand verstecken wollte. Der Foliant war ein Bericht über das Leben von Lady Coryanne Wyld, die viele erotische Abenteuer erlebt, sowohl in Westeros als auch in Essos. In dem Buch ist Coryanne die Zofe einer Königin, die Geliebte eines jungen Ritters, eine Mitläuferin in den Streitenden Landen, ein Dienstmädchen in Myr, ein Mummenschanz in Tyrosh, das "Spielzeug" einer Korsarenkönigin auf den Basiliskeninseln, eine Sklavin in Volantis (wo sie tätowiert und ihre Brustwarzen mit Ringen durchbohrt wurden), die Dienerin eines Hexenmeisters aus Qarthe und die Herrin eines Freudenhauses in Lys. Am Ende bereut Coryanne ihre Sünden, wird eine Septa in der Sternensept in Altsass und schreibt ihre Lebensgeschichte als Mahnung für junge Maiden nieder. So anstößig der Text war, so anstößig waren die Illustrationen, die ihn ergänzten!"
+ agot_filler_stormlands.0450.desc:0 "Ich fand einen Folianten, der hinter ein paar Büchern versteckt war, als ob ihn jemand verstecken wollte. Der Foliant war ein Bericht über das Leben von Lady Coryanne Wyld, die viele erotische Abenteuer erlebt, sowohl in Westeros als auch in Essos. In dem Buch ist Coryanne die Zofe einer Königin, die Geliebte eines jungen Ritters, eine Mitläuferin in den Streitenden Landen, ein Dienstmädchen in Myr, ein Mummenschanz in Tyrosh, das „Spielzeug“ einer Korsarenkönigin auf den Basiliskeninseln, eine Sklavin in Volantis (wo sie tätowiert und ihre Brustwarzen mit Ringen durchbohrt wurden), die Dienerin eines Hexenmeisters aus Qarthe und die Herrin eines Freudenhauses in Lys. Am Ende bereut Coryanne ihre Sünden, wird eine Septa in der Sternensept in Altsass und schreibt ihre Lebensgeschichte als Mahnung für junge Maiden nieder. So anstößig der Text war, so anstößig waren die Illustrationen, die ihn ergänzten!"
  agot_filler_stormlands.0450.a:0 "Sehr... #italic spannend#!"
  agot_filler_stormlands.0450.b:0 "Dieses Buch sollte verbrannt werden!"
 
