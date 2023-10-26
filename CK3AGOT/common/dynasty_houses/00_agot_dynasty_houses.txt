@@ -246,7 +246,7 @@ house_Otherys = {
 }
 # of Essos
 house_Essos = {
-	prefix = "dynn_von"
+	prefix = "dynnp_von"
 	name = "dynn_Essos"
 	dynasty = dynn_Essos
 	motto = dynn_Targaryen_motto

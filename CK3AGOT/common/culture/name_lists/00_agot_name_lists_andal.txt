@@ -81,7 +81,7 @@
 			Ysabel
 		}
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -140,7 +140,7 @@ name_list_andal = {
 	female_names = {
 		Alyssa
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -225,7 +225,7 @@ name_list_marcher = {
 		Venessa
 		Yrma
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -316,7 +316,7 @@ name_list_reachman = {
 		Yrma Ysalaine
 		Zoe
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -407,7 +407,7 @@ name_list_riverlander = {
 		Walda Waldra Wenella Willow Wynafrei Wynafryd
 		Zhoe Zia
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -497,7 +497,7 @@ name_list_shieldman = {
 		Wylla Wynafryd Wynella
 		Ynys
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -581,7 +581,7 @@ name_list_stone_dornish = {
 		Wylla Wynafryd Wynora
 		Ynessa Ynys Yolande Ysilla
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -667,7 +667,7 @@ name_list_stormlander = {
 		Walessa
 		Ysme
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -759,7 +759,7 @@ name_list_valeman = {
 		Wylera Wylla
 		Yolanda Yorena Ysilla Yve
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -843,7 +843,7 @@ name_list_westerman = {
 		Victoria
 		Willemina Wynda
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -914,7 +914,7 @@ name_list_harborman = {
 		Tyalla Tyrene
 		Wylla Wynafryd Wynella
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
