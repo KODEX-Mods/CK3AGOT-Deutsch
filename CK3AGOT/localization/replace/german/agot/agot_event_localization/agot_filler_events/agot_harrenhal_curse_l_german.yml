@@ -8,7 +8,7 @@
 ###############################
 
  agot_harrenhal_curse.0002.t:0 "Der Fluch von Harrenhall: Schlüpfrige Stufen"
- agot_harrenhal_curse.0002.desc:0 "Während ich eine der vielen Treppen im Turm der Angst hinabsteige, rutscht einer meiner Füße unter mir weg! Gerade noch schaffe ich es, mir nicht den Hals zu brechen und bemerke dabei eine kleine Pfütze Blut, die wohl der Übeltäter gewesen ist. Seufzend sage ich mir, dass wohl einer der Diener ein Stück rohes Fleisch hat fallen lassen, doch die alte Geschichte des "Fluchs von Harrenhall" - die ich fast wieder hätte aufleben lassen - geht mir nicht aus dem Kopf."
+ agot_harrenhal_curse.0002.desc:0 "Während ich eine der vielen Treppen im Turm der Angst hinabsteige, rutscht einer meiner Füße unter mir weg! Gerade noch schaffe ich es, mir nicht den Hals zu brechen und bemerke dabei eine kleine Pfütze Blut, die wohl der Übeltäter gewesen ist. Seufzend sage ich mir, dass wohl einer der Diener ein Stück rohes Fleisch hat fallen lassen, doch die alte Geschichte des „Fluchs von Harrenhall“ - die ich fast wieder hätte aufleben lassen - geht mir nicht aus dem Kopf."
  agot_harrenhal_curse.0002.a:0 "Ich werde den Kämmerer informieren!"
  agot_harrenhal_curse.0002.a.tt:0 "Selbstverständlich muss das Küchenpersonal bestraft werden..."
  agot_harrenhal_curse.0002.b:0 "HILFE! Es ist der Geist des Schwarzen Harren!"
@@ -36,8 +36,8 @@
 #       0004                  #
 ###############################
 
- agot_harrenhal_curse.0004.t:0 "Der Fluch von Harrenhall: Harren der Schwarze""
- agot_harrenhal_curse.0004.desc:0 "Ich versuchte gerade, die Quelle eines schwachen Geruchs von verkochtem Fleisch zu entdecken, als ich den Schlachtruf hörte. Aus den Schatten heraus stürmte ein mit Axt und Speer bewaffneter Eisenmann auf mich zu. War dies die Quelle des grässlichen Schreis? Ich dachte an den Erbauer von Harrenhal, Harren "der Schwarze" Hoffartt, den der Schwarze Schrecken in diesen Hallen zu Asche verbrannt hatte..."
+ agot_harrenhal_curse.0004.t:0 "Der Fluch von Harrenhall: Harren der Schwarze"
+ agot_harrenhal_curse.0004.desc:0 "Ich versuchte gerade, die Quelle eines schwachen Geruchs von verkochtem Fleisch zu entdecken, als ich den Schlachtruf hörte. Aus den Schatten heraus stürmte ein mit Axt und Speer bewaffneter Eisenmann auf mich zu. War dies die Quelle des grässlichen Schreis? Ich dachte an den Erbauer von Harrenhal, Harren „der Schwarze“ Hoffartt, den der Schwarze Schrecken in diesen Hallen zu Asche verbrannt hatte..."
  agot_harrenhal_curse.0004.a:0 "Ich muss von hier entkommen!!!"
  agot_harrenhal_curse.0004.a.tt:0 "Hoffentlich ist das nur ein Albtraum..."
  agot_harrenhal_curse.0004.b:0 "Ha! Als ob die Geister toter Eisenmänner mir Angst machen würden!!!!"
@@ -69,7 +69,7 @@
 ###############################
 
  agot_harrenhal_curse.0006.t:0 "Der Fluch von Harrenhall: Larys Kraft"
- agot_harrenhal_curse.0006.desc:0 "*klopf*... *klopf*... Das Geräusch ist so leise, dass es außer mir niemand zu hören scheint. Also gebe ich meiner Neugier nach und mache mich auf der Suche nach dem Ursprung des Klopfens. Nach einiger Zeit führt mich meine Suche zu den Galgen. Dort finde ich einen Einbeinigen vor, der auf eine Krücke gestützt den Richtblock für die Enthauptungen betrachtet. Auf meine Frage, wer er sei, schaut er mich an und sagt: "Ich grübelte lediglich über die schlimmste Art zu sterben”, und noch bevor ich etwas erwidern kann, ist der Mann verschwunden, als hätte er sich in Luft aufgelöst..."
+ agot_harrenhal_curse.0006.desc:0 "*klopf*... *klopf*... Das Geräusch ist so leise, dass es außer mir niemand zu hören scheint. Also gebe ich meiner Neugier nach und mache mich auf der Suche nach dem Ursprung des Klopfens. Nach einiger Zeit führt mich meine Suche zu den Galgen. Dort finde ich einen Einbeinigen vor, der auf eine Krücke gestützt den Richtblock für die Enthauptungen betrachtet. Auf meine Frage, wer er sei, schaut er mich an und sagt: „Ich grübelte lediglich über die schlimmste Art zu sterben“, und noch bevor ich etwas erwidern kann, ist der Mann verschwunden, als hätte er sich in Luft aufgelöst..."
  agot_harrenhal_curse.0006.a:0 "Meine...Augen... sie müssen mir einen Streich gespielt haben..."
  agot_harrenhal_curse.0006.a.tt:0 "Dieser Mann kann eindeutig nicht hier gewesen sein...."
  agot_harrenhal_curse.0006.b:0 "Der Klumpfuß! Götter, wieso peinigt mich diese Burg so?"
@@ -84,7 +84,7 @@
 ###############################
 
 agot_harrenhal_curse.0007.t:0 "Der Fluch von Harrenhall: Die Hure von Eggen"
- agot_harrenhal_curse.0007.desc:0 "Kaum habe ich den Raum betreten, werde ich von einem vor Freude weinenden Mann regelrecht überfallen. "Was für ein glücklicher Tag… Meine Tochter ist eine Prinzessin!" Mit tränennassem Gesicht gestikuliert der Mann zu einer jungen Frau hinüber, die sich halb in den Schatten der Wände verbirgt. "Ihr müsst gekommen sein, um Prinz Maegor und seiner Frau Alys Eggen, #italic meiner Tochter,#! ein Geschenk zu überreichen. nicht wahr?", fragt der weinerliche Mann und stützt seine Hand auf den Griff seines Dolches."
+ agot_harrenhal_curse.0007.desc:0 "Kaum habe ich den Raum betreten, werde ich von einem vor Freude weinenden Mann regelrecht überfallen. „Was für ein glücklicher Tag… Meine Tochter ist eine Prinzessin!“ Mit tränennassem Gesicht gestikuliert der Mann zu einer jungen Frau hinüber, die sich halb in den Schatten der Wände verbirgt. „Ihr müsst gekommen sein, um Prinz Maegor und seiner Frau Alys Eggen, #italic meiner Tochter,#! ein Geschenk zu überreichen. nicht wahr?“, fragt der weinerliche Mann und stützt seine Hand auf den Griff seines Dolches."
  agot_harrenhal_curse.0007.a:0 "Ein Geschenk... ja... hier."
  agot_harrenhal_curse.0007.a.tt:0 "Ich zahle besser... lieber mit Gold als mit dem Leben..."
  agot_harrenhal_curse.0007.b:0 "Genug von diesem Mummenschanz!"
@@ -101,7 +101,7 @@ agot_harrenhal_curse.0007.t:0 "Der Fluch von Harrenhall: Die Hure von Eggen"
 ###############################
 
  agot_harrenhal_curse.0008.t:0 "Der Fluch von Harrenhall: Gebadet in Blut"
- agot_harrenhal_curse.0008.desc:0 "Die süße Danelle flüstert mir die Geheimnisse ihres jugendlichen Glanzes ins Ohr. Sie lädt mich ein, mich mit ihr den Unsterblichen anzuschließen. "Mein Liebster, es ist ein so simples Rezept. Die Zutaten sind im Handumdrehen zu beschaffen."
+ agot_harrenhal_curse.0008.desc:0 "Die süße Danelle flüstert mir die Geheimnisse ihres jugendlichen Glanzes ins Ohr. Sie lädt mich ein, mich mit ihr den Unsterblichen anzuschließen. „Mein Liebster, es ist ein so simples Rezept. Die Zutaten sind im Handumdrehen zu beschaffen.“"
  agot_harrenhal_curse.0008.a:0 "Ich werde wunderschön sein..."
  agot_harrenhal_curse.0008.a.tt:0 "Sie wird mich ihre Geheimnisse lehren"
  agot_harrenhal_curse.0008.b:0 "Nein... ich werde niemanden verletzten..."
@@ -114,7 +114,7 @@ agot_harrenhal_curse.0007.t:0 "Der Fluch von Harrenhall: Die Hure von Eggen"
 ###############################
 
 agot_harrenhal_curse.0009.t:0 "Der Fluch von Harrenhall: Eine Lektion im Schwertkampf"
- agot_harrenhal_curse.0009.desc:0 "Der Schwarze Harren hatte mir den ganzen Tag lang ins Ohr geflüstert. Eine in diese Richtung geführte Klinge würde die Arterie durchtrennen, ein Stich hier hindurch würde einen Mann töten, aber nicht zu schnell, Lektion um Lektion wurde mir von ihm erteilt. Schließlich stoßen wir auf einen meiner Höflinge, der nachts durch die Hallen streift. Harren beugt sich an mein Ohr: "Es ist Zeit, mir zu zeigen, was ich dich gelehrt habe...""
+ agot_harrenhal_curse.0009.desc:0 "Der Schwarze Harren hatte mir den ganzen Tag lang ins Ohr geflüstert. Eine in diese Richtung geführte Klinge würde die Arterie durchtrennen, ein Stich hier hindurch würde einen Mann töten, aber nicht zu schnell, Lektion um Lektion wurde mir von ihm erteilt. Schließlich stoßen wir auf einen meiner Höflinge, der nachts durch die Hallen streift. Harren beugt sich an mein Ohr: „Es ist Zeit, mir zu zeigen, was ich dich gelehrt habe...“"
  agot_harrenhal_curse.0009.a:0 "*Zieht das Schwert*"
  agot_harrenhal_curse.0009.a.tt:0 "Es wird Zeit, meine Technik zu verfeinern..."
  agot_harrenhal_curse.0009.b:0 "Nein... ich werde niemanden verletzen..."
@@ -129,6 +129,6 @@ agot_harrenhal_curse.0009.t:0 "Der Fluch von Harrenhall: Eine Lektion im Schwert
 ###############################
 
  agot_harrenhal_curse.0010.t:0 "Der Fluch von Harrenhall: Ein wunderbares Festmahl"
- agot_harrenhal_curse.0010.desc:0 "Der Geruch ist köstlich! Danelle hat sich selbst übertroffen, als ich auf den reichlich gedeckten Tisch mit gebratenem Fleisch schaue. Ihre Gäste stürzen sich wie ausgehungerte Jagdhunde auf das Fleisch. Ich habe sie nicht wiedererkannt. Vielleicht waren sie, wie Danelle, einst Bewohner von Harrenhal. Danelle reichte mir einen Becher. "Setzt Euch zu uns, bevor das Fleisch kalt wird...""
+ agot_harrenhal_curse.0010.desc:0 "Der Geruch ist köstlich! Danelle hat sich selbst übertroffen, als ich auf den reichlich gedeckten Tisch mit gebratenem Fleisch schaue. Ihre Gäste stürzen sich wie ausgehungerte Jagdhunde auf das Fleisch. Ich habe sie nicht wiedererkannt. Vielleicht waren sie, wie Danelle, einst Bewohner von Harrenhal. Danelle reichte mir einen Becher. „Setzt Euch zu uns, bevor das Fleisch kalt wird...“"
  agot_harrenhal_curse.0010.a:0 "Eine herrliche Köstlichkeit nach der anderen!"
  agot_harrenhal_curse.0010.a.tt:0 "Ich frage mich, wer diese Speise war?"

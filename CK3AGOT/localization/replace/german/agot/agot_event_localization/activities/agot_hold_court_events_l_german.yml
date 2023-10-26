@@ -3,7 +3,7 @@
 
  # Guest offers to share rumors from a nearby foreign realm.
  agot_hold_court.1001.t:0 "$hold_court_header$ Titelschenkung"
- agot_hold_court.1001.desc:0 "Mein Vasall [paramount_petitioner.GetTitledFirstName] nähert sich meinem Thron und verneigt sich tief.\n\n"Seid gegrüßt, Euer Gnaden. Der [title|E], [paramount_title.GetName], wird momentan von der Krone regiert. Ich möchte mich anbieten, Euch diese Last abzunehmen und in Eurem Namen diese Ländereien zu verwalten.""
+ agot_hold_court.1001.desc:0 "Mein Vasall [paramount_petitioner.GetTitledFirstName] nähert sich meinem Thron und verneigt sich tief.\n\n„Seid gegrüßt, Euer Gnaden. Der [title|E], [paramount_title.GetName], wird momentan von der Krone regiert. Ich möchte mich anbieten, Euch diese Last abzunehmen und in Eurem Namen diese Ländereien zu verwalten.“"
  agot_hold_court.1001.a:0 "Ihr sollt an meiner Statt über den [title|E] [paramount_title.GetName] wachen."
  agot_hold_court.1001.b:0 "Ihr? Regieren?! Ihr bekommt gar nichts! Schönen Tag noch!"
 

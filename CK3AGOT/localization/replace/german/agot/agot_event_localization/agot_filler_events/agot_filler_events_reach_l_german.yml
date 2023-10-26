@@ -20,12 +20,12 @@
  agot_filler_reach.101.d_tt:0 "#bold Das muss aufhören.#!"
 
  agot_filler_reach.102.t:0 "Brennende Felder: Erneuertes Land"
- agot_filler_reach.102.desc:0 "[steward.GetTitledFirstName] berichtet mir an diesem schönen Tag aufregende Neuigkeiten! "Dank Eurer Hilfe, [ROOT.Char.Custom('DE_Anrede')], ist das verbrannte Land nun wieder nutzbar", sagt [steward.GetSheHe].\n\n"Endlich können die Bauern auf ihre Felder zurückkehren, und das gemeine Volk singt Euch zu Lobe!""
+ agot_filler_reach.102.desc:0 "[steward.GetTitledFirstName] berichtet mir an diesem schönen Tag aufregende Neuigkeiten! „Dank Eurer Hilfe, [ROOT.Char.Custom('DE_Anrede')], ist das verbrannte Land nun wieder nutzbar“, sagt [steward.GetSheHe].\n\n„Endlich können die Bauern auf ihre Felder zurückkehren, und das gemeine Volk singt Euch zu Lobe!“"
  agot_filler_reach.102.a:0 "Nun können wir mit der Aussaat beginnen."
  agot_filler_reach.102.a_tt:0 "Ruft Männer zur Feldarbeit zurück."
 
  agot_filler_reach.103.t:0 "Brennende Felder: Brandstifter entkommen"
- agot_filler_reach.103.desc:0 "[spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip] betritt schleichend mein Schlafgemach, mit einem besorgten Blick auf [spymaster.Custom('DE_PRO_POS_S_3P')|l]em Gesicht. \n\n"[ROOT.Char.Custom('DE_Anrede')], ich entschuldige mich für meinen späten Besuch. Ich habe von meinen kleinen Vögeln gehört, aber wir haben immer noch keine Hinweise auf den Aufenthaltsort des Brandstifters", sagt [spymaster.GetSheHe|l] zögerlich. "Höchstwahrscheinlich ist er untergetaucht, doch er könnte #italic überall#! sein...""
+ agot_filler_reach.103.desc:0 "[spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip] betritt schleichend mein Schlafgemach, mit einem besorgten Blick auf [spymaster.Custom('DE_PRO_POS_S_3P')|l]em Gesicht. \n\n„[ROOT.Char.Custom('DE_Anrede')], ich entschuldige mich für meinen späten Besuch. Ich habe von meinen kleinen Vögeln gehört, aber wir haben immer noch keine Hinweise auf den Aufenthaltsort des Brandstifters“, sagt [spymaster.GetSheHe|l] zögerlich. „Höchstwahrscheinlich ist er untergetaucht, doch er könnte #italic überall#! sein...“"
  agot_filler_reach.103.a:0 "Ihr nutzloser Trottel!"
  agot_filler_reach.103.a_tt:0 "Ihr entlasst Euren Ratsspitzel."
  agot_filler_reach.103.b:0 "Woher weiß ich, dass Ihr nichts damit zu tun habt?"
@@ -49,7 +49,7 @@
 
 # Harvest Yield
  agot_filler_reach.311.t:0 "Ertrag der Ernte"
- agot_filler_reach.311.desc:0 "In meinen Ländereien gibt es viele Höfe und Felder mit Arbeitern, die den ganzen Sommer lang schuften, um eine gute Ernte einzufahren. \n\nMein [steward.GetCouncilTitle] [steward.GetFirstNameNoTooltip] tritt mit Neuigkeiten über die Saisonwende an mich heran. "Es ist Zeit für eine große Ernte, [ROOT.Char.Custom(DE_Anrede)]", verkündet [steward.GetSheHe|l]. "Wenn die Ernten üppig ausfallen, wird das Reich gedeihen! Doch wenn sie schlecht sind...""
+ agot_filler_reach.311.desc:0 "In meinen Ländereien gibt es viele Höfe und Felder mit Arbeitern, die den ganzen Sommer lang schuften, um eine gute Ernte einzufahren. \n\nMein [steward.GetCouncilTitle] [steward.GetFirstNameNoTooltip] tritt mit Neuigkeiten über die Saisonwende an mich heran. „Es ist Zeit für eine große Ernte, [ROOT.Char.Custom(DE_Anrede)]“, verkündet [steward.GetSheHe|l]. „Wenn die Ernten üppig ausfallen, wird das Reich gedeihen! Doch wenn sie schlecht sind...“"
  agot_filler_reach.311.a:0 "Zeit zu ernten, was wir gesät haben!"
  agot_filler_reach.311.a_tt:0 "Ihr hofft nur, dass es reichen wird."
 
@@ -88,13 +88,13 @@
  agot_filler_reach.315.c:0 "Das endet jetzt..."
 
  agot_filler_reach.316.t:0 "Der Maester und der Käfer"
- agot_filler_reach.316.desc:0 "In den Baracken ist heute Abend ungewöhnlich viel los. Als ich mich bei meinem [marshal.GetCouncilTitle] danach erkundige, teilt [marshal.GetSheHe|l] mir mit, dass der gastierende Maester etwas von seinem Wissen mit den Soldaten geteilt hat. \n\n"Die Männer fanden es interessant, wenn auch nicht in der Weise, die sich der Maester erhofft hatte", erzählt mir [marshal.GetFirstNameNoTooltip] mit einem Schmunzeln. Offenbar ist diese Käferart darauf aus, dass die Männchen um ihre Partnerin kämpfen, was die Soldaten zu einem wahren Wettsport gemacht haben!"
+ agot_filler_reach.316.desc:0 "In den Baracken ist heute Abend ungewöhnlich viel los. Als ich mich bei meinem [marshal.GetCouncilTitle] danach erkundige, teilt [marshal.GetSheHe|l] mir mit, dass der gastierende Maester etwas von seinem Wissen mit den Soldaten geteilt hat. \n\n„Die Männer fanden es interessant, wenn auch nicht in der Weise, die sich der Maester erhofft hatte“, erzählt mir [marshal.GetFirstNameNoTooltip] mit einem Schmunzeln. Offenbar ist diese Käferart darauf aus, dass die Männchen um ihre Partnerin kämpfen, was die Soldaten zu einem wahren Wettsport gemacht haben!"
  agot_filler_reach.316.a:0 "Ich denke, ich werde ein paar Münzen einsetzen."
  agot_filler_reach.316.b:0 "Haha, sehr schön, weiter so!"
  agot_filler_reach.316.c:0 "*QUETSCH*"
 
  agot_filler_reach.317.t:0 "Der Maester und der Käfer"
- agot_filler_reach.317.desc:0 "Die beiden Käfer kämpfen gegeneinander und versuchen, sich gegenseitig von dem Baumstamm zu werfen, der ihnen als Arena dient. Die Männer haben die Käfer sogar nach legendären Reitern benannt, obwohl ich bezweifle, dass das als Schmeichelei angesehen werden würde. Die beiden in diesem Kampf heißen "Der Lachende Sturm" und "Der Drachenritter". \n\nEndlich stößt einer der Käfer seinen Gegner aus dem Gleichgewicht und stößt ihn unter dem Jubel und Gejohle der Männer vom Stamm."
+ agot_filler_reach.317.desc:0 "Die beiden Käfer kämpfen gegeneinander und versuchen, sich gegenseitig von dem Baumstamm zu werfen, der ihnen als Arena dient. Die Männer haben die Käfer sogar nach legendären Reitern benannt, obwohl ich bezweifle, dass das als Schmeichelei angesehen werden würde. Die beiden in diesem Kampf heißen „Der Lachende Sturm“ und „Der Drachenritter“. \n\nEndlich stößt einer der Käfer seinen Gegner aus dem Gleichgewicht und stößt ihn unter dem Jubel und Gejohle der Männer vom Stamm."
  agot_filler_reach.317.a:0 "Ach, was für ein Spaß!"
  agot_filler_reach.317.a_tt:0 "Aber auf welchen Käfer habt Ihr gewettet?"
 
@@ -115,7 +115,7 @@
  agot_filler_reach.320.b_tt:0 "Ihr besucht das Fest nicht."
 
  agot_filler_reach.321.t:0 "Ein Gartenfest"
- agot_filler_reach.321.desc:0 "Genau so habe ich es mir vorgestellt! Die Gäste verteilen sich auf verschiedene Gruppen, die sich über die unterschiedlichsten Dinge unterhalten. Zwei Gruppen stechen mir ins Auge - die eine diskutiert im Garten über die Vielfalt der Pflanzen im Garten und die andere spielt auf der Terasse Trinkspiele.""
+ agot_filler_reach.321.desc:0 "Genau so habe ich es mir vorgestellt! Die Gäste verteilen sich auf verschiedene Gruppen, die sich über die unterschiedlichsten Dinge unterhalten. Zwei Gruppen stechen mir ins Auge - die eine diskutiert im Garten über die Vielfalt der Pflanzen im Garten und die andere spielt auf der Terasse Trinkspiele."
  agot_filler_reach.321.a:0 "Ich werde in den Garten garten."
  agot_filler_reach.321.a_tt:0 "Interessante Gespräche über Pflanzen wären schön!"
  agot_filler_reach.321.b:0 "Ich werde in den Garten gehen."
@@ -283,7 +283,7 @@
 # Grafting - Zombieschrodcat
 # events: 349-352
  agot_filler_reach.349.t:0 "Veredelung von Bäumen"
- agot_filler_reach.349.desc:0 "Als ich zu Pferde in der Nähe des Waldes unterwegs bin, treffe ich auf einen Maester, der ein seltsames Experiment mit einigen wilden Obstbäumen durchführt. Als ich ihn frage, was er da treibt, erklärt er mir, dass er verschiedene Bäume miteinander "veredelt". \n\nAnscheinend kann man einen einzigen Baum dazu bringen, Früchte beider Sorten zu tragen, indem man den Zweig eines Baumes auf den Zweig eines anderen, ähnlichen Baumes aufpfropft."
+ agot_filler_reach.349.desc:0 "Als ich zu Pferde in der Nähe des Waldes unterwegs bin, treffe ich auf einen Maester, der ein seltsames Experiment mit einigen wilden Obstbäumen durchführt. Als ich ihn frage, was er da treibt, erklärt er mir, dass er verschiedene Bäume miteinander „veredelt“. \n\nAnscheinend kann man einen einzigen Baum dazu bringen, Früchte beider Sorten zu tragen, indem man den Zweig eines Baumes auf den Zweig eines anderen, ähnlichen Baumes aufpfropft."
  agot_filler_reach.349.a:0 "Ein Obstgarten mit verschiedenen Fruchtsorten!"
  agot_filler_reach.349.b:0 "Ist das mit blühenden Bäumen möglich?"
  agot_filler_reach.349.c:0 "Dies ist #italic mein#! land, verschwindet von hier!"

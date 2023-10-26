@@ -71,7 +71,7 @@
  agot_filler_hedges.0012.a:0 "Offenbar ist Ser [wandering_hedgeknight.GetFirstNameNoTooltip] ein scharfsinniger Stratege."
 
  agot_filler_hedges.0013.t:0 "Der wandernde Heckenritter: Die Abreise"
- agot_filler_hedges.0013.desc:0 ""Meine Zeit hier ist vorbei.", trägt mir Ser [wandering_hedgeknight.GetFirstName] vor, "Ich will Eure großzügige Gastfreundlichkeit nicht länger beanspruchen. Ich bedanke mich für Speis und Obdach, das Ihr mir gabt, jedoch ist es jetzt an der Zeit, dass ich mich für den Aufbruch bereit mache.""
+ agot_filler_hedges.0013.desc:0 "„Meine Zeit hier ist vorbei.“, trägt mir Ser [wandering_hedgeknight.GetFirstName] vor, „Ich will Eure großzügige Gastfreundlichkeit nicht länger beanspruchen. Ich bedanke mich für Speis und Obdach, das Ihr mir gabt, jedoch ist es jetzt an der Zeit, dass ich mich für den Aufbruch bereit mache.“"
  agot_filler_hedges.0013.a:0 "Euer Talent ist da draußen verschwendet. Bleibt und dient mir!"
  agot_filler_hedges.0013.b:0 "Ich wünsche Euch eine gute Abreise."
 
@@ -133,7 +133,7 @@
  agot_filler_hedges.0021.a:0 "Ich hinterließ wohl einen guten Eindruck!"
 
  agot_filler_hedges.0022.t:0 "Abreisender Maester" 
- agot_filler_hedges.0022.desc:0 "[traveling_maester.GetTitledFirstName] trat vor mich, um seine Abreise zu verkünden. Er bedankt sich für meine Gastfreundlichkeit. "Ich werde meinem neuen Lord und auch sicherlich meinen Kollegen in der Zitadelle von Eurem... #italic scharfen Verstand#! berichten!" sagte er, wobei er zum Schluss schon fast lachte."
+ agot_filler_hedges.0022.desc:0 "[traveling_maester.GetTitledFirstName] trat vor mich, um seine Abreise zu verkünden. Er bedankt sich für meine Gastfreundlichkeit. „Ich werde meinem neuen Lord und auch sicherlich meinen Kollegen in der Zitadelle von Eurem... #italic scharfen Verstand#! berichten!“ sagte er, wobei er zum Schluss schon fast lachte."
  agot_filler_hedges.0022.a:0 "Scheinbar denkt er, dass ich dumm bin."
 
 ###############################
@@ -224,7 +224,7 @@
  agot_filler_hedges.0036.b:0 "Eine solche Handwerkskunst muss einen guten Preis erzielen."
 
  agot_filler_hedges.0037.t:0 "Des Künstlers Meisterwerk: #italic Das Monster aus der Nacht!"
- agot_filler_hedges.0037.desc:0 "Heute wollte ich den Künstler besuchen, um nachzusehen, wie er vorankommt. Zu meiner Überraschung ist seine Schlafkammer leer, weder er noch sein Gepäck in Sicht. Wie es scheint, ist er in aller Früh abgereist und hat niemandem Bescheid gegeben. Als ich das Hinterzimmer, das er als Atelier nutzte, betrete, fällt mir sofort die riesige Leinwand ins Auge: Eine bizarre Kreatur... Fast vollständig in Dunkel gehüllt, kaum erkennbar und dennoch löst sie in mir tiefste Furcht aus! Sie hat eine menschenartige Gestalt, jedoch scheint sie riesig zu sein und hat Klauen statt Hände. Sie hat zwei Köpfe und Messer als Zähne. Auf der Rückseite steht etwas gekritzelt: "Flieht, solange Ihr noch könnt. Diese Kreatur lauert in den Tiefen Eurer Feste!""
+ agot_filler_hedges.0037.desc:0 "Heute wollte ich den Künstler besuchen, um nachzusehen, wie er vorankommt. Zu meiner Überraschung ist seine Schlafkammer leer, weder er noch sein Gepäck in Sicht. Wie es scheint, ist er in aller Früh abgereist und hat niemandem Bescheid gegeben. Als ich das Hinterzimmer, das er als Atelier nutzte, betrete, fällt mir sofort die riesige Leinwand ins Auge: Eine bizarre Kreatur... Fast vollständig in Dunkel gehüllt, kaum erkennbar und dennoch löst sie in mir tiefste Furcht aus! Sie hat eine menschenartige Gestalt, jedoch scheint sie riesig zu sein und hat Klauen statt Hände. Sie hat zwei Köpfe und Messer als Zähne. Auf der Rückseite steht etwas gekritzelt: „Flieht, solange Ihr noch könnt. Diese Kreatur lauert in den Tiefen Eurer Feste!“"
  agot_filler_hedges.0037.a:0 "Es hat eine abstrakte Bedeutung! Es wird die Wand im Thronsaal zieren!"
  agot_filler_hedges.0037.b:0 "Dieses Teufelswerk gehört verbrannt..."
 

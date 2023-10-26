@@ -48,7 +48,7 @@
  building_temple_03:0 "House of Worship"
  building_temple_03_desc:0 "While the temple can take in a lot of worshipers, that is not its only purpose - it also has to house the clergy, support a large library and protect relics. With the addition of the house of worship there's always plenty of room for the faithful to pray."
  building_temple_04:0 "Grand Temple"
- building_temple_04_desc:0 "Not satisfied with a small and modest temple, local artisans and architects have worked together to create a true work of art. This grand temple seemingly calls down the power of heaven itself into any worshiper who enters its glorious halls.
+ building_temple_04_desc:0 "Not satisfied with a small and modest temple, local artisans and architects have worked together to create a true work of art. This grand temple seemingly calls down the power of heaven itself into any worshiper who enters its glorious halls."
  #AGOT Modified
  # building_type_city_01:0 "City"
  building_type_city_01:0 "Stadt"
@@ -125,7 +125,7 @@
 
  building_type_pastures_01:3 "Viehweide"
  building_type_pastures_01_desc:1 "Ein beträchtlicher Anteil dieser Provinz wird für die Viehzucht und die Weidewirtschaft genutzt."
- building_pastures_01:1 Einfaches Weideland"
+ building_pastures_01:1 "Einfaches Weideland"
  building_pastures_01_desc:1 "Weideland wird von den örtlichen Bauern genutzt, um kleineres Vieh wie Schafe oder Ziegen zu halten."
  building_pastures_02:1 "Gehöfte"
  building_pastures_02_desc:1 "Gehöfte beherbergen Bauern, die Korn anbauen und Vieh zum eigenen Gebrauch halten."

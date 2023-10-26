@@ -23,13 +23,13 @@
  agot_travel_events.0002.gluttonous.tt:0 "Zitronige, zitronige Zitronenkuchen..."
 
  agot_travel_events.0003.t:0 "Am Kreuzweg: Verdrossener Söldner"
- agot_travel_events.0003.desc:0 "Inmitten der ausgelassenen Runde treffe ich [sellsword.GetFullName], der der Anführer der Truppe zu sein scheint. [sellsword.Custom('DE_PRO_POS_S_3P')|U] mürrisches Gesicht offenbart schnell [sellsword.Custom('DE_PRO_POS_S_3P')]e Probleme.\n\n"Um die Wahrheit zu sagen, [ROOT.Char.Custom('DE_Anrede')], wir hatten weniger Erfolg als ich gehofft hatte. Die meisten meiner Männer sind entweder gestorben oder desertiert. Wenn ich nicht bald einen Vertrag für den Rest auftreibe, fürchte ich, dass sie alle verschwinden werden... oder Schlimmeres."\n\nNach einem weiteren Schluck fügt [sellsword.GetSheHe] hinzu: "Vielleicht ist dieses Leben nicht das Richtige für mich und es wäre besser so, dann hätte ich wenigstens die Aussicht, nach Hause zurückzukehren." Doch trotz seiner Bitterkeit kann ich einen Hauch von Entschlossenheit in seinen Augen sehen..."
+ agot_travel_events.0003.desc:0 "Inmitten der ausgelassenen Runde treffe ich [sellsword.GetFullName], der der Anführer der Truppe zu sein scheint. [sellsword.Custom('DE_PRO_POS_S_3P')|U] mürrisches Gesicht offenbart schnell [sellsword.Custom('DE_PRO_POS_S_3P')]e Probleme.\n\n„Um die Wahrheit zu sagen, [ROOT.Char.Custom('DE_Anrede')], wir hatten weniger Erfolg als ich gehofft hatte. Die meisten meiner Männer sind entweder gestorben oder desertiert. Wenn ich nicht bald einen Vertrag für den Rest auftreibe, fürchte ich, dass sie alle verschwinden werden... oder Schlimmeres.“\n\nNach einem weiteren Schluck fügt [sellsword.GetSheHe] hinzu: „Vielleicht ist dieses Leben nicht das Richtige für mich und es wäre besser so, dann hätte ich wenigstens die Aussicht, nach Hause zurückzukehren.“ Doch trotz seiner Bitterkeit kann ich einen Hauch von Entschlossenheit in seinen Augen sehen..."
  agot_travel_events.0003.a:0 "Verzweifelt nicht, ich habe genau das Richtige für Euch."
  agot_travel_events.0003.b:0 "Ich heuere Eure Männer an, geht und seid frei."
  agot_travel_events.0003.c:0 "Söldnern ist nicht zu trauen."
 
  agot_travel_events.0004.t:0 "Am Kreuzweg: Betrunkener Ritter"
- agot_travel_events.0004.desc:0 "Als ich mich dem Tisch nähere, wird das Gesicht des größten Ritters ganz rot, und plötzlich springt [drunk_knight.GetSheHe] vom Platz auf und schreit: "Sieh an, sieh an! Seht mal, wer da ist! [ROOT.Char.GetName] höchstselbst!"\n\nObwohl [drunk_knight.GetSheHe] mich zu kennen scheint, kann ich [drunk_knight.GetHerHim] nicht erkennen. Bevor ich auch nur hoffen kann zu antworten, zieht der Ritter sein Schwert und fordert mich heraus: "Ich frage mich, ob Ihr wirklich so gut seid, wie man sagt. Oder seid Ihr vielleicht nur ein Schlappschwanz in einer schicken Rüstung?"\n\nDas Gasthaus wird immer stiller und ich kann die Blicke aller auf mir spüren."
+ agot_travel_events.0004.desc:0 "Als ich mich dem Tisch nähere, wird das Gesicht des größten Ritters ganz rot, und plötzlich springt [drunk_knight.GetSheHe] vom Platz auf und schreit: „Sieh an, sieh an! Seht mal, wer da ist! [ROOT.Char.GetName] höchstselbst!“\n\nObwohl [drunk_knight.GetSheHe] mich zu kennen scheint, kann ich [drunk_knight.GetHerHim] nicht erkennen. Bevor ich auch nur hoffen kann zu antworten, zieht der Ritter sein Schwert und fordert mich heraus: „Ich frage mich, ob Ihr wirklich so gut seid, wie man sagt. Oder seid Ihr vielleicht nur ein Schlappschwanz in einer schicken Rüstung?“\n\nDas Gasthaus wird immer stiller und ich kann die Blicke aller auf mir spüren."
  agot_travel_events.0004.a:0 "Wenn Ihr auf einen Kampf aus seid, werdet Ihr einen bekommen!"
  agot_travel_events.0004.a.success:0 "Ihr schlagt den Ritter!"
  agot_travel_events.0004.a.failure:0 "Der Ritter demütigt Euch."
@@ -66,7 +66,7 @@
  agot_travel_events.0006.c:0 "Eigentlich... sind wir nur auf der Durchreise."
 
  agot_travel_events.0007.t:0 "Am Kreuzweg: der Hinterhalt"
- agot_travel_events.0007.desc:0 "Während wir uns vorbereiten, kommt [fellow_knight.GetName] auf mich zu und schlägt vor: "[ROOT.Char.Custom('DE_Anrede')], hier zu sitzen und zu warten, derweil wir zuerst zuschlagen könnten, wäre ein Fehler. Ich habe ein paar Männer aus dem Gasthaus zusammengetrommelt, die diese Gegend besser kennen als jeder andere. Lasst mich mit ihnen losziehen, damit wir den Banditen einen Hinterhalt legen können, bevor sie uns erreichen."
+ agot_travel_events.0007.desc:0 "Während wir uns vorbereiten, kommt [fellow_knight.GetName] auf mich zu und schlägt vor: „[ROOT.Char.Custom('DE_Anrede')], hier zu sitzen und zu warten, derweil wir zuerst zuschlagen könnten, wäre ein Fehler. Ich habe ein paar Männer aus dem Gasthaus zusammengetrommelt, die diese Gegend besser kennen als jeder andere. Lasst mich mit ihnen losziehen, damit wir den Banditen einen Hinterhalt legen können, bevor sie uns erreichen."
  agot_travel_events.0007.a:0 "Ich riskiere nicht Eure Leben, wir werden gemeinsam kämpfen."
  agot_travel_events.0007.a.tt:0 "Ihr wartet weiterhin auf die Ankunft der Banditen."
  agot_travel_events.0007.b:0 "Nun gut, ich warte auf Eure Rückkehr."
@@ -88,8 +88,8 @@
  #agot_travel_events.0009 - Maintenance event
 
  agot_travel_events.0010.t:0 "Am Kreuzweg: die Abreise"
- agot_travel_events.0010.desc:0 "Als wir uns zum Aufbruch bereit machen, kommt [innkeeper.GetFirstName] mit einer kleinen Holzkiste in [innkeeper.Custom('DE_PRO_POS_S_3P')]en Händen auf mich zu.\n\n"Ich weiß, es ist nicht viel, aber das ist alles, was wir nach dem jüngsten Überfall noch haben. Bitte nehmt dies als ein Zeichen unserer Dankbarkeit. Ohne Eure Hilfe, wer weiß, was hier passiert wäre...""
- agot_travel_events.0010.greed_desc:0 "Als wir uns zum Aufbruch bereit machen, kommt [innkeeper.GetFirstName] auf mich zu, um sich zu bedanken.\n\n"Wer weiß, was ohne Eure Hilfe hier passiert wäre... Ich wünsche Euch eine gute Reise und werde dafür sorgen, dass andere von Eurer Tapferkeit erfahren.""
+ agot_travel_events.0010.desc:0 "Als wir uns zum Aufbruch bereit machen, kommt [innkeeper.GetFirstName] mit einer kleinen Holzkiste in [innkeeper.Custom('DE_PRO_POS_S_3P')]en Händen auf mich zu.\n\n„Ich weiß, es ist nicht viel, aber das ist alles, was wir nach dem jüngsten Überfall noch haben. Bitte nehmt dies als ein Zeichen unserer Dankbarkeit. Ohne Eure Hilfe, wer weiß, was hier passiert wäre...“"
+ agot_travel_events.0010.greed_desc:0 "Als wir uns zum Aufbruch bereit machen, kommt [innkeeper.GetFirstName] auf mich zu, um sich zu bedanken.\n\n„Wer weiß, was ohne Eure Hilfe hier passiert wäre... Ich wünsche Euch eine gute Reise und werde dafür sorgen, dass andere von Eurer Tapferkeit erfahren.“"
  agot_travel_events.0010.a:0 "Lebt wohl."
  agot_travel_events.0010.aa:0 "Eine sehr willkommene Belohnung."
  agot_travel_events.0010.b:0 "Nicht nötig. Es war das einzig Richtige."

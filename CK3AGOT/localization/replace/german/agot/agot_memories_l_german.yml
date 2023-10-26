@@ -99,7 +99,7 @@
  agot_widowed_memory:0 "Tod [spouse.Custom('DE_ART_DEF_S_G')] Ehe[spouse.GetWomanMan|L]" #Zu Testen, ob der spouse string funktioniert
  agot_widowed_memory_desc_1:0 "Mein[spouse.Custom('DE_END_PRO_S_N')] Ehe[spouse.GetWomanMan|L] starb und ließ mich als Witw[owner.Custom('DE_END_ADJ_IND_S_N')] zurück"
  agot_widowed_memory_desc_second_perspective_1:0 "[spouse.Custom('DE_PRO_POS_P_2P_N')|U] Ehe[spouse.GetWomanMan|L] starb und ließ Euch als Witw[owner.Custom('DE_END_ADJ_IND_S_N')] zurück."
- agot_widowed_memory_desc_third_perspective_1:0 "[owner.GetNamePossessive] Ehe[spouse.GetWomanMan|L] starb und ließ [owner.Custom('DE_PRO_PER_S_3P_A')] als Witw[owner.Custom('DE_END_ADJ_IND_S_N')] zurück
+ agot_widowed_memory_desc_third_perspective_1:0 "[owner.GetNamePossessive] Ehe[spouse.GetWomanMan|L] starb und ließ [owner.Custom('DE_PRO_PER_S_3P_A')] als Witw[owner.Custom('DE_END_ADJ_IND_S_N')] zurück"
 
  agot_tortured_memory:0 "Wurde gefoltert"
  agot_tortured_memory_desc:0 "Ich wurde von [torturer.GetTitledFirstName] gefoltert"

@@ -39,7 +39,7 @@
  doctrine_old_gods_vale_pantheon_desc:0 "Dieser Glaube verehrt die Alten Götter von Wald, Fluss und Stein. Namenlose Götter des Landes, welche mit den Wehrholzbäumen, die man überall im Grünen Tal finden kann, verbunden sind."
  doctrine_parameter_vale_clans_patrons:0 "Erlaubt es [characters|E] dieses [Concept('faith', 'Glaubens')|E], sich einen der vielen Alten Götter des Tals als Schutzpatron zu wählen."
  doctrine_drowned_god_pantheon_name:0 "Der Ertrunkene Gott"
- doctrine_drowned_god_pantheon_desc:0 "Dieser Glaube verehrt den Ertrunkenen Gott, der unter den Wellen ins seinen Wasserhallen herrscht. Als Erschaffer der Meere und als Vater der Gläubigen ist der Ertrunkene Gott mit den Meeren der Welt verbunden.
+ doctrine_drowned_god_pantheon_desc:0 "Dieser Glaube verehrt den Ertrunkenen Gott, der unter den Wellen ins seinen Wasserhallen herrscht. Als Erschaffer der Meere und als Vater der Gläubigen ist der Ertrunkene Gott mit den Meeren der Welt verbunden."
  doctrine_parameter_drowned_god_patrons:0 "Gewährt diesem [faith|E] Zugang zu den Schutzpatronen des Ertrunkenen Gottes."
  doctrine_foe_pantheon_name:0 "Die Acht der Eisenmänner"
  doctrine_foe_pantheon_desc:0 "Dieser Glaube verehrt die Sieben und den Ertrunkenen Gott, der unter den Wellen herrscht, in seinen Wasserhallen. Als Schöpfer der Meere und Vater der Gläubigen ist der Ertrunkene Gott mit den Meeren der bekannten Welt verbunden und herrscht zweifellos über die Sieben Götter der Andalen."
@@ -99,7 +99,7 @@
 
  doctrine_concubine_type_name:0 "Art des Konkubinats" #ja, das ist tatsächlich ein deutsches Wort :D
  doctrine_no_concubinage_name:0 "Nicht erlaubt"
- doctrine_no_concubinage_desc:0 "Die Ehe ist heilig. Daher wäre es unangemessen sich außerhalb ihrer Bande zu verbinden.
+ doctrine_no_concubinage_desc:0 "Die Ehe ist heilig. Daher wäre es unangemessen sich außerhalb ihrer Bande zu verbinden."
  doctrine_paramourial_name:0 "Dornische Buhlerei"
  doctrine_paramourial_desc:0 "Die Ehe mag heilig sein, doch ist eine inoffizielle Liebschaft notwendig, um die Treue der Eheleute zu gewährleisten."
  doctrine_two_concubines_name:0 "Bigames Konkubinat"
@@ -319,7 +319,7 @@
  tenet_dragon_bonding_name:0 "Drachenbund"
  tenet_dragon_bonding_desc:0 "Nur ein Narr wäre nicht in der Lage, die den Drachen innewohnende Göttlichkeit zu erkennen. Die wenigen Auserwählten, die die Möglichkeit haben, eine bedeutungsvolle Beziehung zu diesen prachtvollen Geschöpfen aufzubauen, können wahrlich als gesegnet bezeichnet werden. Diejenigen wiederum, die ihnen Schaden zufügen wollen, sind abscheulich und verachtenswert."
  tenet_the_others_name:0 "Kult der Anderen"
- tenet_the_others_desc:0 "Obgleich das Ende der Tage durch sie kommen wird, können wir uns vielleicht etwas Zeit verschaffen, indem wir sie mit unseren Neugeborenen vertrösten. Andere werden auf uns herabblicken und uns dafür verurteilen. Doch wenn der Winter für sie kommt, werden sie dazu nicht mehr in der Lage sein.
+ tenet_the_others_desc:0 "Obgleich das Ende der Tage durch sie kommen wird, können wir uns vielleicht etwas Zeit verschaffen, indem wir sie mit unseren Neugeborenen vertrösten. Andere werden auf uns herabblicken und uns dafür verurteilen. Doch wenn der Winter für sie kommt, werden sie dazu nicht mehr in der Lage sein."
  tenet_the_mark_name:0 "Das Mal" ##siehe Traits - Maester Dillo
  tenet_the_mark_desc:0 "Es heißt, dass diejenigen, die glücklich geboren werden, vom Göttlichen mit Schwimmhäuten an Händen und Füßen gekennzeichnet werden. Eindeutig bevorzugt, gelten diese Menschen als die besten unter ihnen."
  tenet_blinded_followers_name:0 "Geblendete Anhänger"

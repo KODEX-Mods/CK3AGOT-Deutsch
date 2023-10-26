@@ -1,4 +1,4 @@
-﻿﻿l_german:
+﻿l_german:
  #Übersetzt von Rico
  #Bastard Nicknames
  nick_waters:0 "Wasser" #Crownlands
@@ -325,14 +325,14 @@
  nick_the_brawler:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Zänker[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Keinen Charakter gefunden
  nick_the_breaker:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Brecher[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_breaker_of_chains:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Sprenger[CHARACTER.Custom('DE_END_NOU_S_GS_N')] der Ketten" #Daenerys the Breaker of Chains
- nick_the_breaker_of_chains_desc:0 "Für die Befreiung zahlloser Sklaven von ihrem unwürdigen Dasein ist [CHARACTER.GetFirstName] als "Sprenger[CHARACTER.Custom('DE_END_NOU_S_GS_N')] der Ketten" bekannt." 
+ nick_the_breaker_of_chains_desc:0 "Für die Befreiung zahlloser Sklaven von ihrem unwürdigen Dasein ist [CHARACTER.GetFirstName] als „Sprenger[CHARACTER.Custom('DE_END_NOU_S_GS_N')] der Ketten“ bekannt." 
  nick_the_bridegroom:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] [CHARACTER.Custom('GetBrideGroom')|U]"
  nick_the_bright_prince:0 "Leuchtflamme" #Aerion the Bright Prince 
  nick_the_broken_king:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Gebrochene König[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Aegon the Broken King 
  nick_the_broken_king_desc:0 "[CHARACTER.GetFirstName] neigt zu melancholischer Isolation und gilt als gebrochener Mann." 
  nick_the_bronzeman:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Bronze[CHARACTER.GetWomanMan|l]" #ttrpg
  nick_the_brown_dragon:0 "der Braune Drache" #Daemon the Brown Dragon
- nick_the_brown_dragon_desc:0 "[CHARACTER.GetFirstName] fiel nach einem Turnier in eine Matschlache, was ihm leider den Namen "der Braune Drache" einbrachte, in Verspottung des Beinamens seines Vaters." 
+ nick_the_brown_dragon_desc:0 "[CHARACTER.GetFirstName] fiel nach einem Turnier in eine Matschlache, was ihm leider den Namen „der Braune Drache“ einbrachte, in Verspottung des Beinamens seines Vaters." 
  nick_the_brute:0 "die Bestie" #Otho Bracken
  nick_the_bull:0 "der Bulle"
  nick_the_bull_of_blackcrown:0 "der Bulle von Schwarzkron" #von Haus Schwarzkron

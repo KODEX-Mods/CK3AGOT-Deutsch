@@ -51,7 +51,7 @@
  game_concept_bastard_house:0 "Bastardlinie"
  game_concept_bastard_branch:0 "Bastardlinie"
  game_concept_bastard_houses:0 "Bastardlinien"
- game_concept_bastard_branches:0 "Bastardlinien
+ game_concept_bastard_branches:0 "Bastardlinien"
  game_concept_bastard_house_desc:0 "[Concept('bastard', 'Bastarde')|E] gründen ihr eigenes [house|E], wenn sie Nachkommen bekommen. Solche Ablegerhäuser funktionieren wie [cadet_branches|E] - sie agieren als eigenständiger Zweig innerhalb der größeren Dynastie."
 
  game_concept_reaving:0 "Ernte" ##Wenn damit die Raubzüge der Eisenmänner gemeint sind,  ansonsten änern!!! - Maester Dillo

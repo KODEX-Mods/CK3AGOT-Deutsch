@@ -15,7 +15,7 @@
  agot_filler_westerlands.0001.b:0 "Ich sollte wohl doch lieber zur Burg zurückkehren."
 
  agot_filler_westerlands.0002.t:0 "Das Brüllen des Löwen"
- agot_filler_westerlands.0002.desc:0 "Mein Schwert ist gezückt, mein Griff fest. Ich weiß, dass ich nur ein oder zwei saubere Schläge auf die Bestie landen kann, bevor ihre scharfen Klauen mich treffen würden.\n\n"Das ist die Stunde meines Ruhms", sage ich zu mir selbst. Ich atme tief durch und stürme in die Höhle."
+ agot_filler_westerlands.0002.desc:0 "Mein Schwert ist gezückt, mein Griff fest. Ich weiß, dass ich nur ein oder zwei saubere Schläge auf die Bestie landen kann, bevor ihre scharfen Klauen mich treffen würden.\n\n„Das ist die Stunde meines Ruhms“, sage ich zu mir selbst. Ich atme tief durch und stürme in die Höhle."
  agot_filler_westerlands.0002.a:0 "Über mich wird man Lieder schreiben!"
  agot_filler_westerlands.0002.a_tt:0 "Doch was werden sie erzählen?"
 
@@ -29,7 +29,7 @@
 ########################
 
  agot_filler_westerlands.0004.t:0 "Der Edelstein des alten Mannes"
- agot_filler_westerlands.0004.desc:0 "In meiner freien Zeit wandere ich oft durch den Wald, um den Kopf frei von den Sorgen des Herrschens zu bekommen. Bei meinem heutigen Spaziergang treffe ich auf einen alten Mann. Normalerweise beachte ich die Dorfbewohner nicht, aber dieser hier scheint meine Aufmerksamkeit zu verlangen... \n\nDer alte Mann stellt sich als [old_man_filler1.GetFirstNameNoTooltip] vor und behauptet, seine Vorfahren seien nicht immer einfache Leute gewesen. "Wir waren einst Adlige, die Euch nicht unähnlich waren", sagt er mit einem schiefen Grinsen. "Aber wie wir unseren Stand verloren, ist ein Lied für einen anderen Tag..."\n\nEr zieht einen merkwürdigen Edelstein aus seiner Tasche hervor. Er schimmert in roten und goldenen Schattierungen. "Meine Vorfahren waren reich, selbst für Westländer. Dieser Edelstein ist eines der letzten Überbleibsel unserer einst so mächtigen Herrschaft. Wie ich sehe, hat es Euer Interesse geweckt", sein Grinsen verfestigt sich zu einem finsteren Blick. "Ich würde mich von diesem Juwel trennen, aber der Preis wäre beträchtlich...""
+ agot_filler_westerlands.0004.desc:0 "In meiner freien Zeit wandere ich oft durch den Wald, um den Kopf frei von den Sorgen des Herrschens zu bekommen. Bei meinem heutigen Spaziergang treffe ich auf einen alten Mann. Normalerweise beachte ich die Dorfbewohner nicht, aber dieser hier scheint meine Aufmerksamkeit zu verlangen... \n\nDer alte Mann stellt sich als [old_man_filler1.GetFirstNameNoTooltip] vor und behauptet, seine Vorfahren seien nicht immer einfache Leute gewesen. „Wir waren einst Adlige, die Euch nicht unähnlich waren“, sagt er mit einem schiefen Grinsen. „Aber wie wir unseren Stand verloren, ist ein Lied für einen anderen Tag...“\n\nEr zieht einen merkwürdigen Edelstein aus seiner Tasche hervor. Er schimmert in roten und goldenen Schattierungen. „Meine Vorfahren waren reich, selbst für Westländer. Dieser Edelstein ist eines der letzten Überbleibsel unserer einst so mächtigen Herrschaft. Wie ich sehe, hat es Euer Interesse geweckt“, sein Grinsen verfestigt sich zu einem finsteren Blick. „Ich würde mich von diesem Juwel trennen, aber der Preis wäre beträchtlich...“"
  agot_filler_westerlands.0004.a:0 "Nun, das scheint ein seltener Schatz zu sein!"
  agot_filler_westerlands.0004.a_tt:0 "Was, wenn es eine Fälschung ist..."
  agot_filler_westerlands.0004.b:0 "Ich bin adelig. Ich nehme mir, was ich will!"
@@ -37,7 +37,7 @@
  agot_filler_westerlands.0004.c:0 "Nein, danke. Diese Aufdringlichkeit ist nicht gerade förderlich."
 
  agot_filler_westerlands.0005.t:0 "Der Edelstein des alten Mannes"
- agot_filler_westerlands.0005.desc:0 "Ich ertappe mich dabei, wie ich angestrengt mit dem rot-goldenen Edelstein herumspiele. War er den Preis wirklich wert, den ich für ihn bezahlt habe? Könnte er tatsächlich das letzte Überbleibsel eines ausgelöschten Hauses sein?\n\nMein [steward.GetCouncilTitle], [steward.GetTitledFirstName], bemerkt mein besorgtes Gemüt und bietet mir seine Unterstützung an. "Vertraut mir den Edelstein an, und ich kann die Echtheit seiner Herkunft prüfen", sagt [steward.GetSheHe]. Ich habe kaum Gelegenheit zu antworten, bevor der Edelstein in den Händen von [steward.GetHerHis] landet..."
+ agot_filler_westerlands.0005.desc:0 "Ich ertappe mich dabei, wie ich angestrengt mit dem rot-goldenen Edelstein herumspiele. War er den Preis wirklich wert, den ich für ihn bezahlt habe? Könnte er tatsächlich das letzte Überbleibsel eines ausgelöschten Hauses sein?\n\nMein [steward.GetCouncilTitle], [steward.GetTitledFirstName], bemerkt mein besorgtes Gemüt und bietet mir seine Unterstützung an. „Vertraut mir den Edelstein an, und ich kann die Echtheit seiner Herkunft prüfen“, sagt [steward.GetSheHe]. Ich habe kaum Gelegenheit zu antworten, bevor der Edelstein in den Händen von [steward.GetHerHis] landet..."
  agot_filler_westerlands.0005.a:0 "Ich hoffe, es entlastet mich."
  agot_filler_westerlands.0005.a_tt:0 "Aber vertraut Ihr Eurem Kämmerer wirklich?"
 
@@ -47,7 +47,7 @@
  agot_filler_westerlands.0006.a_tt:0 "Ihr solltet Euch vielleicht einen neuen Verwalter suchen..."
 
  agot_filler_westerlands.0007.t:0 "Der Edelstein des alten Mannes"
- agot_filler_westerlands.0007.desc:0 "[steward.GetTitledFirstName] betritt den Thronsaal und zittert - vor Angst oder vor Begeisterung, ich vermag es nicht zu deuten. "[ROOT.Char.Custom('DE_Anrede')], verzeiht die Störung, aber ich habe... beunruhigende Neuigkeiten", stammelt [steward.GetSheHe].\n\n"Sprecht deutlicher", fordere ich. Dann holt [steward.GetSheHe] mit einem Seufzer den rot-goldenen Edelstein aus [steward.Custom('DE_PRO_POS_S_3P')]er Tasche. Anhand [steward.Custom('DE_PRO_POS_S_3P')]es Blickes erkenne ich, dass die Prüfung der Echtheit des Steines abgeschlossen ist.\n\n"Eine Fälschung, [ROOT.Char.Custom('DE_Anrede')]", sagt [steward.GetSheHe] und reicht mir den #italic 'Edelstein'#! zurück."
+ agot_filler_westerlands.0007.desc:0 "[steward.GetTitledFirstName] betritt den Thronsaal und zittert - vor Angst oder vor Begeisterung, ich vermag es nicht zu deuten. „[ROOT.Char.Custom('DE_Anrede')], verzeiht die Störung, aber ich habe... beunruhigende Neuigkeiten“, stammelt [steward.GetSheHe].\n\n„Sprecht deutlicher“, fordere ich. Dann holt [steward.GetSheHe] mit einem Seufzer den rot-goldenen Edelstein aus [steward.Custom('DE_PRO_POS_S_3P')]er Tasche. Anhand [steward.Custom('DE_PRO_POS_S_3P')]es Blickes erkenne ich, dass die Prüfung der Echtheit des Steines abgeschlossen ist.\n\n„Eine Fälschung, [ROOT.Char.Custom('DE_Anrede')]“, sagt [steward.GetSheHe] und reicht mir den #italic 'Edelstein'#! zurück."
  agot_filler_westerlands.0007.a:0 "Verdammter Mistkerl!"
  agot_filler_westerlands.0007.a_tt:0 "Ihr spürt, wie die Wut eines Löwen von Euch Besitz ergreift, als Ihr Euch auf Euren Kämmerer stürzt."
  agot_filler_westerlands.0007.b:0 "Verdammter Dieb!"
@@ -60,7 +60,7 @@
  agot_filler_westerlands.0008.a_tt:0 "So viel Blut..."
 
  agot_filler_westerlands.0009.t:0 "Der Edelstein des alten Mannes"
- agot_filler_westerlands.0009.desc:0 "[steward.GetTitledFirstName] betritt den Thronsaal und zittert - vor Angst oder vor Begeisterung, ich vermag es nicht zu deuten. "[ROOT.Char.Custom('DE_Anrede')], verzeiht meine Störung, aber ich habe... #bold wunderbare#! Neuigkeiten", sagt [steward.GetSheHe] und atmet schwer. [steward.GetSheHe] hatte es offensichtlich eilig. \n\n"Sprecht deutlicher", fordere ich [steward.GetTitledFirstName] auf. Mit einem Keuchen holt [steward.GetSheHe] den rot-goldenen Edelstein aus [steward.Custom('DE_PRO_POS_S_3P')]er Tasche. [steward.Custom('DE_PRO_POS_S_3P')]em Blick entnehme ich, dass [steward.GetSheHe] sich von der Echtheit des Edelsteins überzeugt hat. \n\n"Dieser Edelstein ist tadellos, [ROOT.Char.Custom('DE_Anrede')]", sagt [steward.GetSheHe] und reicht ihn mir. "Ich konnte feststellen, dass es sich tatsächlich um einen Schatz des ausgelöschten Hauses Regn handelt!""
+ agot_filler_westerlands.0009.desc:0 "[steward.GetTitledFirstName] betritt den Thronsaal und zittert - vor Angst oder vor Begeisterung, ich vermag es nicht zu deuten. „[ROOT.Char.Custom('DE_Anrede')], verzeiht meine Störung, aber ich habe... #bold wunderbare#! Neuigkeiten“, sagt [steward.GetSheHe] und atmet schwer. [steward.GetSheHe] hatte es offensichtlich eilig. \n\n„Sprecht deutlicher“, fordere ich [steward.GetTitledFirstName] auf. Mit einem Keuchen holt [steward.GetSheHe] den rot-goldenen Edelstein aus [steward.Custom('DE_PRO_POS_S_3P')]er Tasche. [steward.Custom('DE_PRO_POS_S_3P')]em Blick entnehme ich, dass [steward.GetSheHe] sich von der Echtheit des Edelsteins überzeugt hat. \n\n„Dieser Edelstein ist tadellos, [ROOT.Char.Custom('DE_Anrede')]“, sagt [steward.GetSheHe] und reicht ihn mir. „Ich konnte feststellen, dass es sich tatsächlich um einen Schatz des ausgelöschten Hauses Regn handelt!“"
  agot_filler_westerlands.0009.a:0 "Ein wahrlich seltener Fund!"
  agot_filler_westerlands.0009.a_tt:0 "Aber heißt das... Der alte Mann, den ich traf..."
 
@@ -70,7 +70,7 @@
 ##################
 
  agot_filler_westerlands.0010.t:0 "Ein Felsrutsch"
- agot_filler_westerlands.0010.desc:0 "In den Westlanden herrscht kein Mangel an Gefahren, vor allem nicht in den felsigen Hügeln und Bergen.\n\nWährend ich mit [steward.GetTitledFirstName] ein zerklüftetes Gelände in meinen Ländereien begutachte, kommt ein Bote eilig auf uns zu. "Was gibt es?", blafft ihn mein [steward.GetCouncilTitle] an.\n\n"Verzeiht, ich möchte nicht stören, aber wir erhielten Nachricht aus einem nahegelegenem Dorf, dass ein massiver Felssturz einen wichtigen Abschnitt des Handelswegs zum Dorf zerstört hat", erklärt der Bote. "Die Dorfbewohner bitten [Select_CString( CHARACTER.IsFemale, 'ihre Lady', 'ihren Lord' )] um Hilfe in dieser schwierigen Zeit."
+ agot_filler_westerlands.0010.desc:0 "In den Westlanden herrscht kein Mangel an Gefahren, vor allem nicht in den felsigen Hügeln und Bergen.\n\nWährend ich mit [steward.GetTitledFirstName] ein zerklüftetes Gelände in meinen Ländereien begutachte, kommt ein Bote eilig auf uns zu. „Was gibt es?“, blafft ihn mein [steward.GetCouncilTitle] an.\n\n„Verzeiht, ich möchte nicht stören, aber wir erhielten Nachricht aus einem nahegelegenem Dorf, dass ein massiver Felssturz einen wichtigen Abschnitt des Handelswegs zum Dorf zerstört hat“, erklärt der Bote. „Die Dorfbewohner bitten [Select_CString( CHARACTER.IsFemale, 'ihre Lady', 'ihren Lord' )] um Hilfe in dieser schwierigen Zeit."
  agot_filler_westerlands.0010.a:0 "So etwas kommt vor..."
  agot_filler_westerlands.0010.a_tt:0 "Ihr seid sicher, dass die Dorfbewohner das Problem selbst lösen können."
  agot_filler_westerlands.0010.b:0 "Meine Männer können das in Ordnung bringen."
@@ -78,12 +78,12 @@
  agot_filler_westerlands.0010.c_tt:0 "Ihr werdet Euch selbst auf den Weg machen - und zeigen, wie gewissenhaft Ihr herrscht."
 
  agot_filler_westerlands.0011.t:0 "Verärgerte Dorfbewohner"
- agot_filler_westerlands.0011.desc:0 "Das Ende eines weiteren langen Tages rückt näher. Während meine Ratsmitglieder und ich eine Besprechung beenden, bricht ein unbändiger Lärm in den sonst so ruhigen Thronsaal ein.\n\nEin Bittsteller tritt aufgebracht vor. "[ROOT.Char.Custom('DE_Anrede')], Ihr habt uns in unserer Notlage im Stich gelassen! Durch den Felssturz, der unsere Haupthandelsroute blockierte, sind Mütter und Säuglinge verhungert. Deren Blut klebt nun an Euren Händen", schreit er, bevor ihn meine Wachen zusammen mit seinen Begleitern aus dem Saal zerren."
+ agot_filler_westerlands.0011.desc:0 "Das Ende eines weiteren langen Tages rückt näher. Während meine Ratsmitglieder und ich eine Besprechung beenden, bricht ein unbändiger Lärm in den sonst so ruhigen Thronsaal ein.\n\nEin Bittsteller tritt aufgebracht vor. „[ROOT.Char.Custom('DE_Anrede')], Ihr habt uns in unserer Notlage im Stich gelassen! Durch den Felssturz, der unsere Haupthandelsroute blockierte, sind Mütter und Säuglinge verhungert. Deren Blut klebt nun an Euren Händen“, schreit er, bevor ihn meine Wachen zusammen mit seinen Begleitern aus dem Saal zerren."
  agot_filler_westerlands.0011.a:0 "Was hätte ich tun können?"
  agot_filler_westerlands.0011.a_tt:0 "Es wird  wohl notwendig sein, dass Ihr Eure Männer schickt, um diese Sache zu bereinigen..."
 
  agot_filler_westerlands.0012.t:0 "Felsbrocken wurden entfernt"
- agot_filler_westerlands.0012.desc:0 "Mein [marshal.GetCouncilTitle] [marshal.GetTitledFirstName] betritt den Thronsaal mit einem stolzen Gesichtsausdruck. "[ROOT.Char.Custom('DE_Anrede')], ich habe erfreuliche Nachrichten von den Männern erhalten, die Ihr ausgesandt habt, um die Schäden des Felssturzes zu beseitigen", erklärt [marshal.GetSheHe] freudig. "Die Straße ist wieder frei, und die Dorfbewohner sind voll des Lobes. Die Männer sind in diesem Moment auf dem Weg zurück.""
+ agot_filler_westerlands.0012.desc:0 "Mein [marshal.GetCouncilTitle] [marshal.GetTitledFirstName] betritt den Thronsaal mit einem stolzen Gesichtsausdruck. „[ROOT.Char.Custom('DE_Anrede')], ich habe erfreuliche Nachrichten von den Männern erhalten, die Ihr ausgesandt habt, um die Schäden des Felssturzes zu beseitigen“, erklärt [marshal.GetSheHe] freudig. „Die Straße ist wieder frei, und die Dorfbewohner sind voll des Lobes. Die Männer sind in diesem Moment auf dem Weg zurück.“"
  agot_filler_westerlands.0012.a:0 "Den Göttern sei Dank!"
  agot_filler_westerlands.0012.a_tt:0 "Jetzt werden die Dorfbewohner ein Loblied auf Euch singen."
  agot_filler_westerlands.0012.b:0 "Die Männer verdienen einen heldenhaften Empfang!"

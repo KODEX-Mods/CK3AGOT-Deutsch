@@ -31,7 +31,7 @@
  martial_strategy.2000.b.success:0 "Ich stoße auf uraltes Wissen"
  martial_strategy.2000.b.success.tt:1 "Ihr erhaltet #P 1#! [martial|E], #P 1#! [learning|E] und #V 20 Jahre lang#! einen [commander|E]-Bonus."
  martial_strategy.2000.b.failure:0 "Ich kann die Schriftrolle nicht entziffern"
- martial_strategy.2000.b.failure.tt:1 "Ihr müsst akzeptieren, dass Eure [stress|E] steigt, oder aufgeben
+ martial_strategy.2000.b.failure.tt:1 "Ihr müsst akzeptieren, dass Eure [stress|E] steigt, oder aufgeben"
 
  martial_strategy.2001.start.desc:0 "Nicht einmal mithilfe eines staubigen Glossars kann ich der Schriftrolle ihre Geheimnisse entlocken, aber ich mache weiter. Im Laufe der Nacht enthüllt sich mir eine unglaubliche Geschichte …\n\n"
  martial_strategy.2001.gaixia.desc:1 "#F Die Schriftrolle beschreibt die Schlacht von Gaixia. Han Xin, Befehlshaber der Han, brach den Kampfeswillen des Gegners, indem er seine Leute Lieder aus dessen Heimat singen ließ: dem Königreich Chu. Befehlshaber Xiang Yu von Chu entkam mit einem kleinen Trupp treuer Leute, wurde aber aufgespürt und besiegt.#!"

@@ -35,7 +35,7 @@
 
  maester_court_position:0 "Maester" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')]
  maester_tradition_bonus:0 "Von [culture_tradition|E]"
- maester_court_position_desc:1 Der $maester_court_position$ ist für die Gesundheit und das Wohlergehen des [Concept('court', 'Hofes')|E], dem er angehört, verantwortlich. Er wird Krankheiten behandeln und Wunden nach besten Kräften vernähen."
+ maester_court_position_desc:1 "Der $maester_court_position$ ist für die Gesundheit und das Wohlergehen des [Concept('court', 'Hofes')|E], dem er angehört, verantwortlich. Er wird Krankheiten behandeln und Wunden nach besten Kräften vernähen."
  maester_employer_custom_effect_description:1 "Führt [medical_treatments|E] durch#!\nVerbessert [education|E]-Ergebnisse \nSchaltet die #V [interaction|E] $make_child_learn_language_interaction$#! frei \n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen Euch#!"
 
  household_guard_court_position:0 "Hauptmann der Leibgarde"
@@ -93,7 +93,7 @@
  b_eastwatch_by_the_sea_keeper_desc:0 "Beaufsichtigt und verteidigt Ostwacht an der See"
 
  b_the_nightfort_keeper:0 "Kommandant der Nachtfeste"
- b_the_nightfort_keeper_employer_custom_effect_description:0 Beaufsichtigt und verteidigt die Nachtfeste"
+ b_the_nightfort_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt die Nachtfeste"
  b_the_nightfort_keeper_desc:0 "Beaufsichtigt und verteidigt die Nachtfeste"
 
  b_icemark_keeper:0 "Kommandant von Eismark"

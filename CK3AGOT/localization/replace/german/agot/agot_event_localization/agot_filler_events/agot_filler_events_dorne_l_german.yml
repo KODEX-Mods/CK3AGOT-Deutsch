@@ -16,7 +16,7 @@
  agot_filler_dorne.0001.a:0 "Oh, zu leben und zu lieben. Sollen sie es doch ausfechten."
  agot_filler_dorne.0001.a_tt:0 "Ihr ermutigt die Adligen, sich um sie zu duellieren."
  agot_filler_dorne.0001.b:0 "Nein, dieses Weib ist kein adliges Blut wert."
- agot_filler_dorne.0001.b_tt:0 Ihr ratet den Edelmännern vom Duellieren ab."
+ agot_filler_dorne.0001.b_tt:0 "Ihr ratet den Edelmännern vom Duellieren ab."
  agot_filler_dorne.0001.c:0 "Vielleicht wäre sie ja mehr an mir interessiert..."
  agot_filler_dorne.0001.c_tt:0 "Ihr ladet die Frau in Euer Schlafgemach ein."
 
@@ -178,7 +178,7 @@
  agot_filler_dorne.0020.d_tt:0 "Ihr beginnt einen Kampf."
 
  agot_filler_dorne.0021.t:0 "Der Basar: Goldenes Angebot"
- agot_filler_dorne.0021.desc:0 "Die Wachen des Händlers greifen noch fester zu, als ich mein Angebot herauswinsle. Der Händler denkt aufgesetzt darüber nach - er kratzt sich am Kinn, umschreitet den verwüsteten Verkaufsstand und fragt sogar eine der Wachen nach ihrer Meinung.\n\nSchließlich sieht mich der Händler an und sagt nur: "Ich brauche #bold mehr als das#! Meine Ware ist viel mehr wert!" Empört will ich etwas erwidern, aber eine #bold Hand schlägt#! mir ins Gesicht! Der Händler sagt mir, er wolle meine Einwände nicht hören. Nur wie viel Entschädigung er bekommen wird. Er beugt sich vor und sagt mir, dass seine Wachen viel härter zuschlagen als er selbst..."
+ agot_filler_dorne.0021.desc:0 "Die Wachen des Händlers greifen noch fester zu, als ich mein Angebot herauswinsle. Der Händler denkt aufgesetzt darüber nach - er kratzt sich am Kinn, umschreitet den verwüsteten Verkaufsstand und fragt sogar eine der Wachen nach ihrer Meinung.\n\nSchließlich sieht mich der Händler an und sagt nur: „Ich brauche #bold mehr als das#! Meine Ware ist viel mehr wert!“ Empört will ich etwas erwidern, aber eine #bold Hand schlägt#! mir ins Gesicht! Der Händler sagt mir, er wolle meine Einwände nicht hören. Nur wie viel Entschädigung er bekommen wird. Er beugt sich vor und sagt mir, dass seine Wachen viel härter zuschlagen als er selbst..."
  agot_filler_dorne.0021.a:0 "Fein! Ihr bekommt mehr Gold!"
  agot_filler_dorne.0021.a_tt:0 "Ihr bietet dem Händler an, eine #bold große#! Summe Gold zu zahlen."
  agot_filler_dorne.0021.b:0 "Versucht, was Ihr wollt... Ihr werdet nichts mehr von mir bekommen!"
@@ -196,11 +196,11 @@
  agot_filler_dorne.0023.a_tt:0 "Ihr werdet brutal verprügelt und ausgeraubt."
 
  agot_filler_dorne.0024.t:0 "Der Basar: Ein Handel"
- agot_filler_dorne.0024.desc:0 ""Mein eigenes Land", wiederholt der Händler und ein Grinsen breitet sich auf seinem Gesicht aus, "Ja, ja, das wird reichen. Das wird genügen. Ihr unterschreibt die Urkunden, die mich zum Herrscher über diese Ländereien machen, also keine faulen Spielchen!"\n\nDer Händler bittet die Wachen, ihren Griff zu lockern, während er etwas auf ein Pergament schreibt. Nach einiger Zeit legt er ein formell wirkendes Schriftstück vor, wonach ich ihm Titel und Ländereien gewähren werde... Woher kann er eigentlich so gut schreiben?"
+ agot_filler_dorne.0024.desc:0 "„Mein eigenes Land“, wiederholt der Händler und ein Grinsen breitet sich auf seinem Gesicht aus, „Ja, ja, das wird reichen. Das wird genügen. Ihr unterschreibt die Urkunden, die mich zum Herrscher über diese Ländereien machen, also keine faulen Spielchen!“\n\nDer Händler bittet die Wachen, ihren Griff zu lockern, während er etwas auf ein Pergament schreibt. Nach einiger Zeit legt er ein formell wirkendes Schriftstück vor, wonach ich ihm Titel und Ländereien gewähren werde... Woher kann er eigentlich so gut schreiben?"
  agot_filler_dorne.0024.a:0 "Meine freien Ländereien für mein Leben, so kommen wir ins Geschäft..."
 
  agot_filler_dorne.0025.t:0 "Der Basar: Verhandlung"
- agot_filler_dorne.0025.desc:0 ""Lasst mich los, lasst mich los!" schreie ich, "es war ein Unfall, ich schwöre! Wir können darüber reden - wir können verhandeln!". Der Händler hört mein Flehen und lächelt. Er sieht mich an und sagt: "Ihr habt recht, es war ein Unfall. Aber Ihr habt den Unfall verursacht. Also lasst uns über eine Entschädigung #italic verhandeln#!...""
+ agot_filler_dorne.0025.desc:0 "„Lasst mich los, lasst mich los!“ schreie ich, „es war ein Unfall, ich schwöre! Wir können darüber reden - wir können verhandeln!“. Der Händler hört mein Flehen und lächelt. Er sieht mich an und sagt: „Ihr habt recht, es war ein Unfall. Aber Ihr habt den Unfall verursacht. Also lasst uns über eine Entschädigung #italic verhandeln#!...“"
  agot_filler_dorne.0025.a:0 "Richtig... lasst uns reden."
  agot_filler_dorne.0025.a.success:0 "Ihr feilscht eine Entschädigung aus."
  agot_filler_dorne.0025.a.failure:0 "Ihr könnt den Händler nicht überzeugen."
@@ -239,7 +239,7 @@
  agot_filler_dorne.0036.a.failure:0 "#N Ihr fangt keinen Fisch.#!"
 
  agot_filler_dorne.0037.t:0 "Ein Schwergewicht"
- agot_filler_dorne.0037.desc:0 "Ich fühle, wie der Fisch den Haken schnappt und ziehe so fest ich kann.  Doch in meinem Bemühen gerate ich ins Taumeln und schwanken... und das nächste, woran ich mich erinnere, ist ein riesiger Schnurrwels am Ende meiner Rute. Nur mit vereinten Kräften können der Fischer und ich ihn über die Kante des Bootes hieven. Mein Angelführer klopft mir auf den Rücken und sagt: "Das war eine gute Arbeit!"
+ agot_filler_dorne.0037.desc:0 "Ich fühle, wie der Fisch den Haken schnappt und ziehe so fest ich kann.  Doch in meinem Bemühen gerate ich ins Taumeln und schwanken... und das nächste, woran ich mich erinnere, ist ein riesiger Schnurrwels am Ende meiner Rute. Nur mit vereinten Kräften können der Fischer und ich ihn über die Kante des Bootes hieven. Mein Angelführer klopft mir auf den Rücken und sagt: „Das war eine gute Arbeit!“"
  agot_filler_dorne.0037.a:0 "Das war aufregend!"
 
  agot_filler_dorne.0038.t:0 "Angeln auf dem Grünblut"

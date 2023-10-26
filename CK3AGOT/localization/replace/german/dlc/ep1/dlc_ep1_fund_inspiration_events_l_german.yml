@@ -93,7 +93,7 @@
  fund_inspiration.0041.option_history:0 "Etwas, was die Geschichte von [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] veranschaulicht."
  fund_inspiration.0041.option_life:0 "Eine Darstellung dessen, wie das Leben in meinem Reich ist."
 
- #fund_inspiration.0042.desc: ""Thank you for putting your trust in me, my [ROOT.Char.GetLadyLord]! [inspiration_owner.GetTitledFirstName] smiles and continues "The idea I have for [inspiration_owner.Custom('InspirationTypeDescription')] is glorious indeed, and is sure to impress all of your courtiers and foreign guests!"\n\n"As soon as I am done, I shall send word to you so that you may be the first to gaze upon my work."
+ #fund_inspiration.0042.desc: "„Thank you for putting your trust in me, my [ROOT.Char.GetLadyLord]! [inspiration_owner.GetTitledFirstName] smiles and continues “The idea I have for [inspiration_owner.Custom('InspirationTypeDescription')] is glorious indeed, and is sure to impress all of your courtiers and foreign guests!„\n\n“As soon as I am done, I shall send word to you so that you may be the first to gaze upon my work."
 
  fund_inspiration.0042.t:0 "Weber-Inspiration finanziert"
 
@@ -184,7 +184,7 @@
  fund_inspiration.1031.desc_nemesis_died:0 "„[nemesis.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)|U] mag verstorben sein, doch dieses Buch zeugt von dem Hass, den Ihr für [nemesis.Custom('DE_PRO_PER_S_3P_A')] empfunden habt.“\n\n"
  fund_inspiration.1031.desc_cat_died:0 "„Eure geliebte Katze mag verstorben sein, doch dieses Buch wird dafür sorgen, dass niemand die Katze namens [inspiration_owner.Custom('CatStoryName')] je vergessen wird!“\n\n"
  fund_inspiration.1031.desc_dog_died:0 "„Euer geliebter Hund mag verstorben sein, doch dieses Buch wird dafür sorgen, dass niemand den Hund namens [inspiration_owner.Custom('DogStoryName')] je vergessen wird!“\n\n"
- fund_inspiration.1031.desc_low_content_quality:0 "„Das Buch ist fertig. Ich hoffe, das abgeschlossene Werk überschattet meine Unkenntnis in diesem Thema. Bitte seht es Euch an!"\n\n"
+ fund_inspiration.1031.desc_low_content_quality:0 "„Das Buch ist fertig. Ich hoffe, das abgeschlossene Werk überschattet meine Unkenntnis in diesem Thema. Bitte seht es Euch an!“\n\n"
  fund_inspiration.1031.desc:0 "„Mein Buch – mein #EMP Meisterwerk#! ist fertig! Seht selbst.“\n\n"
  fund_inspiration.1031.a:0 "Ich bin beeindruckt!"
 
@@ -221,7 +221,7 @@
  fund_inspiration.1051.a:0 "Das ist großartig!"
  fund_inspiration.1051.b:0 "Das muss von den besten Leuten gehütet werden"
 
- fund_inspiration.1061.desc_floor_bound_artifact:0 "„M[ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetLadyLord]!“, ruft [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] mit einem breiten Grinsen auf dem Gesicht und winkt mich zu einem von Stoff verhüllten Gegenstand hinüber. „Ich habe viele Tage und Nächte geschuftet, und endlich ist mein Werk vollbracht!"\n\n[inspiration_owner.Custom('DE_PRO_PER_S_3P_N')|U] reißt die Abdeckung herunter und ich mache große Augen, als ich sehe, was sich darunter befindet.\n\n"
+ fund_inspiration.1061.desc_floor_bound_artifact:0 "„M[ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetLadyLord]!“, ruft [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] mit einem breiten Grinsen auf dem Gesicht und winkt mich zu einem von Stoff verhüllten Gegenstand hinüber. „Ich habe viele Tage und Nächte geschuftet, und endlich ist mein Werk vollbracht!“\n\n[inspiration_owner.Custom('DE_PRO_PER_S_3P_N')|U] reißt die Abdeckung herunter und ich mache große Augen, als ich sehe, was sich darunter befindet.\n\n"
  fund_inspiration.1061.desc:0 "„Hier drüben, m[ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetLadyLord]!“, ruft [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] und winkt mich mit einem breiten Grinsen herüber. „Ich habe viele Tage und Nächte daran gearbeitet, doch endlich ist mein Werk vollbracht!“\n\n[inspiration_owner.Custom('DE_PRO_PER_S_3P_N')|U] überreicht mir einen in Stoff eingewickelten Gegenstand. Als ich enthülle, was sich darin verbirgt, mache ich große Augen.\n\n"
 
  fund_inspiration.1081.desc_opening:0 "„Mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]!“ [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] winkt mich mit einem breiten Grinsen im Gesicht zu [inspiration_owner.Custom('DE_PRO_POS_S_3P')]em unordentlichen Schreibtisch hinüber."
@@ -354,7 +354,7 @@
  fund_inspiration.2021.b:0 "Ich werde Euch nicht noch mehr Gold geben."
 
  fund_inspiration.2030.t:0 "$fund_inspiration.title$ Ein freundliches Wort"
- fund_inspiration.2030.desc:0 "Mein[friend.Custom('DE_END_PRO_S_N')] Freund[friend.Custom('DE_END_NOU_S_GS_N')] [friend.GetTitledFirstName] hält mich mit einem strahlenden Lächeln auf dem Gang auf.\n\n"Ah, #EMP da#! steckt Ihr, [ROOT.Char.GetFirstNameNoTooltip]! Ich habe gerade mit [inspiration_owner.GetTitledFirstName] gesprochen! Ich hörte von [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Arbeit für Euch – ich konnte der Versuchung nicht widerstehen, [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Wirkungsstätte einen Besuch abzustatten!\n\nIch habe mit [inspiration_owner.Custom('DE_PRO_PER_S_3P_D')] darüber geredet, wie man Euren Erwartungen gerecht werden kann: Ich denke, Euch wird das Ergebnis gefallen!“"
+ fund_inspiration.2030.desc:0 "Mein[friend.Custom('DE_END_PRO_S_N')] Freund[friend.Custom('DE_END_NOU_S_GS_N')] [friend.GetTitledFirstName] hält mich mit einem strahlenden Lächeln auf dem Gang auf.\n\n„Ah, #EMP da#! steckt Ihr, [ROOT.Char.GetFirstNameNoTooltip]! Ich habe gerade mit [inspiration_owner.GetTitledFirstName] gesprochen! Ich hörte von [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Arbeit für Euch – ich konnte der Versuchung nicht widerstehen, [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Wirkungsstätte einen Besuch abzustatten!\n\nIch habe mit [inspiration_owner.Custom('DE_PRO_PER_S_3P_D')] darüber geredet, wie man Euren Erwartungen gerecht werden kann: Ich denke, Euch wird das Ergebnis gefallen!“"
  fund_inspiration.2030.a:0 "„Oh! Danke, [friend.GetFirstNameNoTooltip]!“"
 
  fund_inspiration.2040.t:0 "$fund_inspiration.title$ Sabotage"
@@ -444,7 +444,7 @@
  fund_inspiration.2080.antiquarian:0 "„Das ist lächerlich!“, beschwert sich [rival.GetTitledFirstName]. „Da ich die persönliche Sammlung hüte, die [ROOT.Char.Custom('DE_ART_DEF_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip] zusammengetragen hat, ist es meine Pflicht, die Güte Eurer Arbeit zu gewährleisten!“"
  fund_inspiration.2080.artificer:0 "„Das ist lächerlich!“, beschwert sich [rival.GetTitledFirstName]. „[ROOT.Char.Custom('DE_ART_DEF_S_N')|U] [ROOT.Char.GetTitleAsNameNoTooltip] zählt mich zu [ROOT.Char.Custom('DE_PRO_POS_S_3P')]en treuesten Handwerkern! Ich könnte vielleicht helfen, wenn Ihr mich Euer Werk nur in Augenschein nehmen ließet!“"
  fund_inspiration.2080.desc:0 "\n\n„Ihr werdet die Arbeit sehen, sobald sie fertig ist!“, erwidert [inspiration_owner.GetTitledFirstName]. „Ihr solltet einen Menschen in Frieden lassen, wenn er gerade dabei ist, etwas zu erschaffen, was eines Königs würdig ist!“"
- fund_inspiration.2080.a:0 "„[antiquarian.GetFirstNameNoTooltip] #EMP wird#! die Güte der Arbeit gewährleisten, [inspiration_owner.GetFirstNameNoTooltip].""
+ fund_inspiration.2080.a:0 "„[antiquarian.GetFirstNameNoTooltip] #EMP wird#! die Güte der Arbeit gewährleisten, [inspiration_owner.GetFirstNameNoTooltip].“"
  fund_inspiration.2080.b:0 "„Haltet Euch an Eure eigenen Pflichten, [antiquarian.GetFirstNameNoTooltip].“"
  fund_inspiration.2080.success:0 "[antiquarian.GetFirstNameNoTooltip] verbessert die Arbeit von [inspiration_owner.GetFirstNameNoTooltip]"
  fund_inspiration.2080.failure:0 "[antiquarian.GetFirstNameNoTooltip] behindert [inspiration_owner.GetFirstNameNoTooltip]"
@@ -536,7 +536,7 @@
  fund_inspiration.2131.desc_antiquarian:0 "[second.GetTitledFirstName] hat darauf bestanden, uns zu begleiten, und sieht den Vorgängen aus gebührendem Abstand zu. [second.Custom('DE_PRO_PER_S_3P_N')|U] zuckt jedes Mal zusammen, wenn ein Gegenstand falsch behandelt oder benannt wird.\n\n"
  fund_inspiration.2131.artificer:0 "[second.GetTitledFirstName] schließt sich uns gern an, da [second.Custom('DE_PRO_PER_S_3P_N')] stets an den Schaffensprozessen von seinesgleichen interessiert ist.\n\n"
  fund_inspiration.2131.desc_equipped:0 "[inspiration_owner.Custom('DE_ART_DEF_S_N')|U] [inspiration_owner.Custom('GetInspirationOwnerType')][inspiration_owner.Custom('DE_END_NOU_S_GS_N')] hält beinahe ehrfürchtig inne, als [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')] eines meiner Artefakte ([artifact_1.GetName]) untersucht. „Ah, sehr schön, Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] … [inspiration_owner.Custom('GetInspirationMaterialType')|U] … Könnte … Könnte ich das verwenden?“"
- fund_inspiration.2131.desc_unequipped:0 "Im Lager bleibt [inspiration_owner.Custom('DE_ART_DEF_S_N')] [inspiration_owner.Custom('GetInspirationOwnerType')][inspiration_owner.Custom('DE_END_NOU_S_GS_N')] unvermittelt stehen, um eines meiner Artefakte ([artifact_1.GetName]) sehr genau in Augenschein zu nehmen. „Ja … [inspiration_owner.Custom('GetInspirationMaterialType')|U] … Das sollte gehen … Braucht … Braucht Ihr das noch? Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]?""
+ fund_inspiration.2131.desc_unequipped:0 "Im Lager bleibt [inspiration_owner.Custom('DE_ART_DEF_S_N')] [inspiration_owner.Custom('GetInspirationOwnerType')][inspiration_owner.Custom('DE_END_NOU_S_GS_N')] unvermittelt stehen, um eines meiner Artefakte ([artifact_1.GetName]) sehr genau in Augenschein zu nehmen. „Ja … [inspiration_owner.Custom('GetInspirationMaterialType')|U] … Das sollte gehen … Braucht … Braucht Ihr das noch? Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]?“"
  fund_inspiration.2131.desc_fallback:1 "[inspiration_owner.Custom('DE_PRO_PER_S_3P_N')|U] macht ein paar Runden durch den Raum, um dann ganz niedergeschlagen zu mir zurückzukehren. „Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')], hier ist nichts, was mir ins Auge fallen würde … Gibt es denn sonst nichts anderes?“"
  fund_inspiration.2131.a:0 "„Dieses Artefakt ([artifact_1.GetNameNoTooltip])? Wohlan denn …“"
  fund_inspiration.2131.b:0 "„Was ist mit meinem anderen Artefakt?“ ([artifact_2.GetNameNoTooltip])"
@@ -560,7 +560,7 @@
  fund_inspiration.3001.desc_torturer:0 "„Dies[inspiration_owner.Custom('DE_END_ADJ_IND_S_N')] [inspiration_owner.GetWomanMan] schreibt über unaussprechliche, sadistische Umtriebe!"
  fund_inspiration.3001.desc_lustful:0 "„Dies[inspiration_owner.Custom('DE_END_ADJ_IND_S_N')] [inspiration_owner.GetWomanMan] schreibt über unaussprechliche, perverse Umtriebe!"
  fund_inspiration.3001.desc_other:0 "„Dies[inspiration_owner.Custom('DE_END_ADJ_IND_S_N')] [inspiration_owner.GetWomanMan] schreibt über unfromme Dinge!"
- fund_inspiration.3001.desc_ending:0 "Mit Illustrationen! Ich kann nur davon ausgehen, dass Ihr davon nichts wusstet, mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]."\n\n[inspiration_owner.GetTitledFirstNameNoTooltip] bläst verächtlich die Backen und versucht ein weiteres Mal, an die Schriften zu kommen, doch mein [court_chaplain.Custom('CouncilPosition')] weicht dem aus.\n\n„Doch da dieser üble Schmutzfink nun enttarnt ist, werdet Ihr gewiss das einzig Angemessene tun und das Buch den höchsten Mächten widmen.“"
+ fund_inspiration.3001.desc_ending:0 "Mit Illustrationen! Ich kann nur davon ausgehen, dass Ihr davon nichts wusstet, mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord].“\n\n[inspiration_owner.GetTitledFirstNameNoTooltip] bläst verächtlich die Backen und versucht ein weiteres Mal, an die Schriften zu kommen, doch mein [court_chaplain.Custom('CouncilPosition')] weicht dem aus.\n\n„Doch da dieser üble Schmutzfink nun enttarnt ist, werdet Ihr gewiss das einzig Angemessene tun und das Buch den höchsten Mächten widmen.“"
  fund_inspiration.3001.a:0 "Selbstverständlich. Ich hatte ja keine Ahnung, dass [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')] über derlei Dinge schreibt."
  fund_inspiration.3001.a_tt:0 "[inspiration_owner.GetShortUIName] wird über den Glauben schreiben, nicht über das alte Thema"
  fund_inspiration.3001.b:0 "Wisst Ihr, was hier angemessen wäre? Dass Ihr [inspiration_owner.Custom('DE_PRO_PER_S_3P_A')] in Ruhe lasst!"
@@ -1042,7 +1042,7 @@
  fund_inspiration.8014.c.tt:0 "Ihr verkauft sämtliche alchemistische Ausrüstung, die Ihr gekauft habt"
 
  fund_inspiration.8015.t:0 "$fund_inspiration.title$ In Trauer"
- fund_inspiration.8015.desc:0 "„Alchemisten haben Macht über sämtliche Materie. Sie können Wunder erschaffen. Warum sollte das Leben da etwas anderes sein? Wie sollte es bei [loved_one.GetFirstName] etwas anderes sein?!“\n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] schüttelt nur den Kopf und tut meine Trauer ab. Was nutzt mir die Wissenschaft, wenn sie mir nicht einmal diesen einen Wunsch erfüllen kann?\n\n„Mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord], ein solches Wunder kann ich nicht vollbringen. Allerdings habe ich festgestellt, dass ein offenes Ohr seine ganz eigene Magie wirken kann, wenn die Trauer düster aufragt. Bitte setzt Euch doch.""
+ fund_inspiration.8015.desc:0 "„Alchemisten haben Macht über sämtliche Materie. Sie können Wunder erschaffen. Warum sollte das Leben da etwas anderes sein? Wie sollte es bei [loved_one.GetFirstName] etwas anderes sein?!“\n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] schüttelt nur den Kopf und tut meine Trauer ab. Was nutzt mir die Wissenschaft, wenn sie mir nicht einmal diesen einen Wunsch erfüllen kann?\n\n„Mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord], ein solches Wunder kann ich nicht vollbringen. Allerdings habe ich festgestellt, dass ein offenes Ohr seine ganz eigene Magie wirken kann, wenn die Trauer düster aufragt. Bitte setzt Euch doch.“"
  fund_inspiration.8015.a:0 "Aber … Ich … Ihr habt recht. Habt Dank."
  fund_inspiration.8015.b:0 "Nein. Ihr werdet mir [loved_one.Custom('DE_PRO_PER_S_3P_A')] zurückbringen!"
  fund_inspiration.8015.b.tt:0 "[inspiration_owner.GetShortUINameNoTooltip] wird das Unmögliche versuchen"
@@ -1168,7 +1168,7 @@
  inspiration_type_material_ingredients:0 "Ingredienzen"
  inspiration_type_material_fallback:0 "Material"
  # Banner
- fund_inspiration.1042.desc:0 "„Gleich hier drüben, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] deutet auf zwei Diener, die aus [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Weberei aufgetaucht sind und eine Rolle aus Stoff tragen.\n\n[inspiration_owner.Custom('DE_PRO_PER_S_3P_N')|U] nickt. Das Banner entrollt sich, gehalten von einem hölzernen Aufhänger. Ich kann nicht anders, als die feinen Details und die makellosen Linien zu bestaunen.\n\n"
+ fund_inspiration.1042.desc:0 "„Gleich hier drüben, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]!“ [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] deutet auf zwei Diener, die aus [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Weberei aufgetaucht sind und eine Rolle aus Stoff tragen.\n\n[inspiration_owner.Custom('DE_PRO_PER_S_3P_N')|U] nickt. Das Banner entrollt sich, gehalten von einem hölzernen Aufhänger. Ich kann nicht anders, als die feinen Details und die makellosen Linien zu bestaunen.\n\n"
  fund_inspiration.0043.desc:0 "„Ja, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')], ich werde ein mächtiges Banner für Euch spinnen!“ [inspiration_owner.GetTitledFirstName] ist ernsthaft begeistert darüber, für mich zu arbeiten. „Die Adligen des Reichs kennen meine Arbeit gut, doch dies ist eine ganz neue Ehre!\n\nVertraut mir: Das wird keine schlichte Stoffstandarte. Das wird das königlichste Tuch! Ich muss nur eines wissen: Welches Wappen soll ich für Euch sticken?“"
  fund_inspiration.0043.option_title:0 "Das Wappen von [ROOT.Char.GetPrimaryTitle.GetDefinitiveNameNoTooltip|U]."
  fund_inspiration.0043.option_house:0 "Das Motto von Haus [ROOT.Char.GetHouse.GetNameNoTooltip]."

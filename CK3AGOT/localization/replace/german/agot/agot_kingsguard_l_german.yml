@@ -53,7 +53,7 @@
 
 
 # Failed selection: Seems we cannot scope to the holding character from the modifier itself.
-#[SelectLocalization(ROOT.Char.MakeScope.Var('latest_kingsguard_bodyguard').IsSet,ROOT.Var('latest_kingsguard_bodyguard').Char.GetFirstName,'a member of the Kingsguard.'] x[Character.GetFirstName]y"
+#[SelectLocalization(ROOT.Char.MakeScope.Var('latest_kingsguard_bodyguard').IsSet,ROOT.Var('latest_kingsguard_bodyguard').Char.GetFirstName,'a member of the Kingsguard.'] x[Character.GetFirstName]y
  kingsguard_bodyguard_1: "$kingsguard_bodyguard$"
  kingsguard_bodyguard_2: "$kingsguard_bodyguard$"
  kingsguard_bodyguard_3: "$kingsguard_bodyguard$"

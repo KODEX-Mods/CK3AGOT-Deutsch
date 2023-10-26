@@ -16,7 +16,7 @@
  agot_filler_ironislands.0012.b:0 "Dieser Ort ist verflucht..."
  agot_filler_ironislands.0012.b.tt:0 "Ihr lasst den Edelstein unangetastet und verlasst die Insel sofort."
  agot_filler_ironislands.0013.t:0 "Eine seltsame Insel"
- agot_filler_ironislands.0013.desc:0 "Langsam wache ich auf und habe das Gefühl, mich durch einen dichten Nebel meiner eigenen Gedanken zu kämpfen.\n\n#italic Wo bin ich?#! frage ich mich, derweil ich mich umschaue. In der Ferne steht ein einsamer Mann neben einer großen Sau... Ich beginne, auf sie zuzugehen, und meine Füße scheinen sich von selbst zu bewegen.\n\n"Mein Sohn", sagt der geheimnisvolle Mann, als ich näher komme. "Ich habe auf dich gewartet. Das Abendbrot ist fast fertig. Morgen beginnt die Ernte, und ich werde dich brauchen.""
+ agot_filler_ironislands.0013.desc:0 "Langsam wache ich auf und habe das Gefühl, mich durch einen dichten Nebel meiner eigenen Gedanken zu kämpfen.\n\n#italic Wo bin ich?#! frage ich mich, derweil ich mich umschaue. In der Ferne steht ein einsamer Mann neben einer großen Sau... Ich beginne, auf sie zuzugehen, und meine Füße scheinen sich von selbst zu bewegen.\n\n„Mein Sohn“, sagt der geheimnisvolle Mann, als ich näher komme. „Ich habe auf dich gewartet. Das Abendbrot ist fast fertig. Morgen beginnt die Ernte, und ich werde dich brauchen.“"
  agot_filler_ironislands.0013.a:0 "Beim Ertrunkenen Gott, was geschieht...?"
  agot_filler_ironislands.0013.a.tt:0 "Eure Reise geht weiter..."
  agot_filler_ironislands.0013.b:0 "Das Schwein sieht merkwürdig #italic attraktiv#! aus?"
@@ -28,7 +28,7 @@
  agot_filler_ironislands.0014.b:0 "Bitte, #italic tötet#! mich einfach!"
  agot_filler_ironislands.0014.b.tt:0 "Eure Reise geht weiter..."
  agot_filler_ironislands.0015.t:0 "Eine seltsame Insel"
- agot_filler_ironislands.0015.desc:0 "Ich erwache abermals, dieses Mal in einer dunklen, kühlen Gasse. Dieser Hafen kommt mir bekannt vor und wirkt dennoch fremd. Es gibt nur einen Weg nach vorne, auf den Hauptplatz der Stadt. Meine Füße tragen mich einmal mehr voran...\n\nAls ich aus der Gasse trete, bin ich von Menschen umgeben — nicht nur von irgendwelchen Menschen, sie scheinen alle... #N ich zu sein?!#!\n\nSie beschimpfen und beschreien mich. #bold "Gleichgültigkeit ist der Tod!"#!"
+ agot_filler_ironislands.0015.desc:0 "Ich erwache abermals, dieses Mal in einer dunklen, kühlen Gasse. Dieser Hafen kommt mir bekannt vor und wirkt dennoch fremd. Es gibt nur einen Weg nach vorne, auf den Hauptplatz der Stadt. Meine Füße tragen mich einmal mehr voran...\n\nAls ich aus der Gasse trete, bin ich von Menschen umgeben — nicht nur von irgendwelchen Menschen, sie scheinen alle... #N ich zu sein?!#!\n\nSie beschimpfen und beschreien mich. #bold „Gleichgültigkeit ist der Tod!“#!"
  agot_filler_ironislands.0015.a:0 "GLEICHGÜLTIGKEIT IST DER TOD!"
  agot_filler_ironislands.0015.a.tt:0 "Ihr stimmt in ihren Ruf ein."
  agot_filler_ironislands.0015.b:0 "Sind das etwa Kürbisse?"
@@ -40,7 +40,7 @@
  agot_filler_ironislands.0017.t:0 "Eine seltsame Reise"
  agot_filler_ironislands.0017.desc:0 "Ich schrecke auf. Ich liege auf dem Deck meines Schiffes, umgeben von meinen Besatzungsmitgliedern.\n\nIch bin schon seit Tagen nicht mehr ansprechbar, sagt einer meiner Männer zu mir. Ich bellte alberne Befehle, ließ meine Hosen herunter und murmelte vor mich hin...\n\nIch habe mir sogar mit einem Eimer auf den Kopf geschlagen, aber plötzlich habe ich mich wieder gefangen! #italic Wer weiß, wann es wieder passieren wird?#!"
  agot_filler_ironislands.0017.a:0 "Hoffen wir, dass dies das letzte Mal war."
- agot_filler_ironislands.0017.a.tt:0 "Und bei alledem scheint Ihr dieses schöne Juwel verloren zu haben!
+ agot_filler_ironislands.0017.a.tt:0 "Und bei alledem scheint Ihr dieses schöne Juwel verloren zu haben!"
 # A Challenge At Sea 200
  agot_filler_ironislands.002.t:0 "Eine Herausforderung auf See"
  agot_filler_ironislands.002.desc:0 "Wir sind noch nicht lange unterwegs und das Land beginnt in der Ferne zu verschwinden, als [mutineer.GetFirstNameNicknamedNoTooltip] sein Ruder ablegt und auf mich zugeht. Seinem Blick entnehme ich, dass wir ein Problem haben werden. Die anderen Besatzungsmitglieder beginnen sich zu versammeln, einige sehen genauso verärgert aus"
@@ -106,7 +106,7 @@
  agot_filler_ironislands.0045.a:0 "Das wird sie im Zaum halten."
  agot_filler_ironislands.0045.a_tt:0 "Hoffentlich."
  agot_filler_ironislands.0046:0 "Die Bedeutsamkeit des Eisernen Preises"
- agot_filler_ironislands.0046.desc:0 "Ihr trinkt gerade ein Bier in der Schenke, als Marq und ein paar seiner Schläger mit blutigen Klingen in der Hand hereinplatzen. "Du hättest ruhig bleiben und mir das Gold überlassen sollen, [GetPlayer.GetName].""
+ agot_filler_ironislands.0046.desc:0 "Ihr trinkt gerade ein Bier in der Schenke, als Marq und ein paar seiner Schläger mit blutigen Klingen in der Hand hereinplatzen. „Du hättest ruhig bleiben und mir das Gold überlassen sollen, [GetPlayer.GetName].“"
  agot_filler_ironislands.0046.a:0 "Es gibt keinen Ausweg. Ich muss um mein Leben kämpfen."
  agot_filler_ironislands.0046.a_tt:0 "Das sieht düster aus..."
  agot_filler_ironislands.0047:0 "Die Bedeutsamkeit des Eisernen Preises"
@@ -116,14 +116,14 @@
 
  #Thrall House No More - used to remove Thrall House dynasty modifier once criteria has been meet
  agot_filler_ironislands.005.t:0 "Nie wieder ein Haus von Leibeigenen!"
- agot_filler_ironislands.005.desc:0 "Ich hörte zu, wie andere ihre Becher hoben und den Namen der angeseheneren Häuser der Eisenmänner riefen, von denen einige schwächer waren als mein eigenes. Ich ergriff meinen eigenen Becher, hob ihn hoch und rief den Namen meines Hauses. Wie erwartet antworteten einige, die tief in ihren Bechern steckten oder mir gegenüber loyal waren, andere taten so, als hätte ich nichts gesagt. Ich ließ mich nicht beirren. "Wird mein Haus nicht zu den Mächtigen der Eiseninseln gezählt?" Niemand würde das bestreiten. "Haben nicht ich, mein Vater und seine Väter an der Seite von Euch und den Euren Vätern gelebt und gekämpft? "Mein Haus beansprucht nicht, vom Grauen König abzustammen; es ist wohlbekannt, dass meine Vorfahren Leibeigene und Salzweiber waren. Doch unsere Banner versetzen die Grünländer in Angst und Schrecken, unser Blut befleckt die Eiseninseln bei ihrer Verteidigung! Ich frage Euch, hat mein Haus nicht den Eisernen Preis bezahlt, um mehr als nur als Leibeigene zu gelten? Hat das Blut, das wir vergossen haben, nicht den Schandfleck unserer Dynastie weggewaschen?" Ich wusste, dass ich mit meinen Worten ins Schwarze getroffen hatte, als Männer aus allen Häusern der Eiseninsel, ob groß oder klein, ihre Becher hoben und mein Haus ausriefen."
+ agot_filler_ironislands.005.desc:0 "Ich hörte zu, wie andere ihre Becher hoben und den Namen der angeseheneren Häuser der Eisenmänner riefen, von denen einige schwächer waren als mein eigenes. Ich ergriff meinen eigenen Becher, hob ihn hoch und rief den Namen meines Hauses. Wie erwartet antworteten einige, die tief in ihren Bechern steckten oder mir gegenüber loyal waren, andere taten so, als hätte ich nichts gesagt. Ich ließ mich nicht beirren. „Wird mein Haus nicht zu den Mächtigen der Eiseninseln gezählt?“ Niemand würde das bestreiten. „Haben nicht ich, mein Vater und seine Väter an der Seite von Euch und den Euren Vätern gelebt und gekämpft? Mein Haus beansprucht nicht, vom Grauen König abzustammen; es ist wohlbekannt, dass meine Vorfahren Leibeigene und Salzweiber waren. Doch unsere Banner versetzen die Grünländer in Angst und Schrecken, unser Blut befleckt die Eiseninseln bei ihrer Verteidigung! Ich frage Euch, hat mein Haus nicht den Eisernen Preis bezahlt, um mehr als nur als Leibeigene zu gelten? Hat das Blut, das wir vergossen haben, nicht den Schandfleck unserer Dynastie weggewaschen?“ Ich wusste, dass ich mit meinen Worten ins Schwarze getroffen hatte, als Männer aus allen Häusern der Eiseninsel, ob groß oder klein, ihre Becher hoben und mein Haus ausriefen."
  agot_filler_ironislands.005.a:0 "Der Makel der Leibeigenen ist verschwunden"
  agot_filler_ironislands.005.a_tt:0 "Nach dem heutigen Tag wird niemand auf den Eiseninseln mehr wegen seiner Ursprünge auf Euer Haus herabsehen!"
 
 
  #A child has paid the gold price 
  agot_filler_ironislands.006.t:0 "Geschmückt wie eine Hure"
- agot_filler_ironislands.006.desc:0 "Als ich von einer Sitzung mit meinen Ratsmitgliedern in meinen großen Saal zurückkehrte, fand ich dort eine Versammlung vor, in deren Mittelpunkt mein[gold_price.Custom('DE_END_PRO_S_N')] [gold_price.Custom('DaughterSon')] [gold_price.GetName] stand. [gold_price.Custom('DE_PRO_PER_S_3P_N')|U] steht inmitten eines Kreises kichernder Speichellecker, die Gewänder aus Seide und Juwelen tragen. Mein Kind erzählt einen Witz, und sie kichern wieder über ihre mit Arborgold und dornischem Roten gefüllten Kelche. Dann bemerkt einer von ihnen, dass ich in der Ecke lauere, und das Lachen verstummt im Raum.\n\n"Seid gegrüßt [ROOT.Char.GetMotherFather]," [gold_price.GetName] hat Schluckauf und [gold_price.Custom('quirk_pos_present')]. "Möchtet Ihr etwas trinken?""
+ agot_filler_ironislands.006.desc:0 "Als ich von einer Sitzung mit meinen Ratsmitgliedern in meinen großen Saal zurückkehrte, fand ich dort eine Versammlung vor, in deren Mittelpunkt mein[gold_price.Custom('DE_END_PRO_S_N')] [gold_price.Custom('DaughterSon')] [gold_price.GetName] stand. [gold_price.Custom('DE_PRO_PER_S_3P_N')|U] steht inmitten eines Kreises kichernder Speichellecker, die Gewänder aus Seide und Juwelen tragen. Mein Kind erzählt einen Witz, und sie kichern wieder über ihre mit Arborgold und dornischem Roten gefüllten Kelche. Dann bemerkt einer von ihnen, dass ich in der Ecke lauere, und das Lachen verstummt im Raum.\n\n„Seid gegrüßt [ROOT.Char.GetMotherFather],“ [gold_price.GetName] hat Schluckauf und [gold_price.Custom('quirk_pos_present')]. „Möchtet Ihr etwas trinken?“"
  agot_filler_ironislands.006.a:0 "Hast du den Eisernen Preis für diese Spielereien bezahlt?"
  agot_filler_ironislands.006.b:0 "Die alten Bräuche sind eher eine Richtschnur als ein Gesetz."
  agot_filler_ironislands.006.c:0 "Meersalz in der Lunge ist das einzige Heilmittel für eine solche Dekadenz."

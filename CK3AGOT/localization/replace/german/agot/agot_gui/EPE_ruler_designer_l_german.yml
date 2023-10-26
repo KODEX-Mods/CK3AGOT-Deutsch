@@ -316,7 +316,7 @@
 
  gene_bs_mouth_center_curve: "Mundkrümmung"   
  vanilla_mouth_center_curve: "Vanilla Mundkrümmung"    
- mouth_center_curve_max: Maximale Mundkrümmung"    
+ mouth_center_curve_max: "Maximale Mundkrümmung"    
  mouth_center_curve_min: "Minimale Mundrümmung"  
  
 ##Blend shape Mouth Glamour Lips

@@ -119,7 +119,7 @@
  BOOKMARK_DATE_STRING:0 "$DAY|O$ $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
 
  ### Text replacements in main menu
- FRONTEND_CONTINUE_TT:0 "#T Von Spielstand fortsetzen\n#!"[SaveGameItem.GetName]"\n[SaveGameItem.GetPlayerName|V]\n[SaveGameItem.GetTitleName|VU]\n[SaveGameItem.GetDate.GetStringShortNoYear|V], $ERA_SEL_SGI$ $YEAR_SEL_SGI$\n[Select_CString(SaveGameItem.IsCloudSave, 'Cloud-Speicherstand', '' )]"
+ FRONTEND_CONTINUE_TT:0 "#T Von Spielstand fortsetzen\n#!„[SaveGameItem.GetName]“\n[SaveGameItem.GetPlayerName|V]\n[SaveGameItem.GetTitleName|VU]\n[SaveGameItem.GetDate.GetStringShortNoYear|V], $ERA_SEL_SGI$ $YEAR_SEL_SGI$\n[Select_CString(SaveGameItem.IsCloudSave, 'Cloud-Speicherstand', '' )]"
  LOAD_SAVE_ITEM_DATE:0 "Date: [SaveGameItem.GetDate.GetStringShortNoYear], $ERA_SEL_SGI$ $YEAR_SEL_SGI$"
  PICK_ANY_CHARACTER:0 "Spielt als Herrscher im Jahr #light_background;bold $ERA_SEL_SR$ $YEAR_SEL_SR$#!..."
 
