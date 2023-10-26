@@ -201,7 +201,7 @@
  court.4700.desc_blind:0 "Eure Sicht ist nicht fort, sie ist nur getrübt. In Euren Augen schwimmen Geister. Ich kann hinabtauchen und sie herausholen.“"
  court.4700.desc_lunatic:0 "Eure Entscheidungen werden von einer Schar unwilliger Geister getroffen. Sie sind wie eine Versammlung von Verrückten. $court.4700.growth$ Wir können sie herausholen. Mithilfe von ein paar Nägeln.“"
  court.4700.desc_headache:0 "Es heißt, Ihr würdet unter überwältigenden Kopfschmerzen leiden. Da Ihr in Eurem Leben oft unter Druck steht, haben sich immer mehr Geister ansammeln können, die sich an den Sorgen in Eurem Schädel laben. $court.4700.desc_passage$“"
- court.4700.desc_trepanning_vices:0 "Die Laster, die Euch vorgeworfen werden, sind nicht Eure eigenen. Sie sind dem flüchtigen Einfluss einiger Geister geschuldet. $court.4700.desc_passage$"
+ court.4700.desc_trepanning_vices:0 "Die Laster, die Euch vorgeworfen werden, sind nicht Eure eigenen. Sie sind dem flüchtigen Einfluss einiger Geister geschuldet. $court.4700.desc_passage$“"
  court.4700.growth:0 "Sie könnten sogar in einer Wucherung in Eurem Gehirn lauern."
  court.4700.desc_passage:0 "Ich könnte einen Durchgang schaffen, um sie zu befreien."
  court.4700.a:0 "Der reine Hohn! Mein Leid ist weit mehr als Aberglaube!"

@@ -182,7 +182,7 @@
  NW_ruler_petition_inital_reject:0 "Ihr lehnt das Gesuch der Nachtwache ab."
 
  AGOT_btw_struggle_nightswatch.1003.t:0 "Ein[NW_petition_envoy.Custom('DE_END_PRO_S_N')] Gesandt[NW_petition_envoy.Custom('DE_END_ADJ_IND_S_N')] der Nachtwache"
- AGOT_btw_struggle_nightswatch.1003.desc:0 "„“Es ist mir eine Ehre, einen Bruder der Nachtwache zu empfangen„, beginne ich mit einem schelmischen Grinsen. “Und jemand wie Ihr muss den Ernst Eures Anliegens kennen. Warum sonst hätte der Lord Commander einen Gesandten anstelle eines Raben geschickt?„“\n\nDamit scheint [NW_petition_envoy.GetTitledFirstName] verstanden zu haben, was ich meine. „Wenn ich dieses Gesuch der Nachtwache annehmen würde, bräuchte ich eine #italic Gegenleistung#!...“"
+ AGOT_btw_struggle_nightswatch.1003.desc:0 "„Es ist mir eine Ehre, einen Bruder der Nachtwache zu empfangen“, beginne ich mit einem schelmischen Grinsen. „Und jemand wie Ihr muss den Ernst Eures Anliegens kennen. Warum sonst hätte der Lord Commander einen Gesandten anstelle eines Raben geschickt?“\n\nDamit scheint [NW_petition_envoy.GetTitledFirstName] verstanden zu haben, was ich meine. „Wenn ich dieses Gesuch der Nachtwache annehmen würde, bräuchte ich eine #italic Gegenleistung#!...“"
  AGOT_btw_struggle_nightswatch.1003.a:0 "Befreie die Gefangenen der Wildlinge."
  AGOT_btw_struggle_nightswatch.1003.b:0 "Nehmt diesen Taugenichts mit."
  AGOT_btw_struggle_nightswatch.1003.c:0 "Greift einen Wildlingsstamm für mich an."

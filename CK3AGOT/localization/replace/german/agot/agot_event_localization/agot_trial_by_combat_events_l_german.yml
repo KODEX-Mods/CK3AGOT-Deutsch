@@ -82,13 +82,13 @@
  agot_trial_by_combat.3004.a:0 "Pah, there was no justice here."
 
  agot_trial_by_combat.9000.t:0 "Trial-by-Combat"
- agot_trial_by_combat.9000.desc:0 "I am brought from the prison in chains to the site where my trial by combat is to take place. Instead of a battlefield however, I find two pyres; one with my champion [actor_champion.GetTitledFirstName] already tied to it.\n\n\„I have chosen fire as my champion today,\“ [recipient.GetTitledFirstName] cackles madly."
- agot_trial_by_combat.9000.desc.self_champion:0 "I am brought from the prison in chains to the site where my trial by combat is to take place. Instead of a battlefield however, I find a pyre ready, and the guards begin dragging me towards it.\n\n\„I have chosen fire as my champion today,\“ [recipient.GetTitledFirstName] cackles madly."
+ agot_trial_by_combat.9000.desc:0 "I am brought from the prison in chains to the site where my trial by combat is to take place. Instead of a battlefield however, I find two pyres; one with my champion [actor_champion.GetTitledFirstName] already tied to it.\n\n„I have chosen fire as my champion today,“ [recipient.GetTitledFirstName] cackles madly."
+ agot_trial_by_combat.9000.desc.self_champion:0 "I am brought from the prison in chains to the site where my trial by combat is to take place. Instead of a battlefield however, I find a pyre ready, and the guards begin dragging me towards it.\n\n„I have chosen fire as my champion today,“ [recipient.GetTitledFirstName] cackles madly."
  agot_trial_by_combat.9000.a:0 "Oh."
 
  agot_trial_by_combat.9001.t:0 "Trial-by-Combat"
- agot_trial_by_combat.9001.desc:0 "When [actor_champion.GetTitledFirstName] arrives, I am ready. I have my guards seize [actor_champion.GetHerHim] and tie [actor_champion.GetHerHim] to one of the two pyres I had prepared, and then send for [actor.GetTitledFirstName].\n\n The look on [actor.GetHerHis] face when [actor.GetSheHe] realizes is glorious.\n\n\„I have chosen fire as my champion today,\“ I say. \„Now let us begin.\“"
- agot_trial_by_combat.9001.desc.self_champion:0 "As soon as the pyre is ready, I send for [actor.GetTitledFirstName].\n\n The look on [actor.GetHerHis] face when [actor.GetSheHe] realizes is glorious.\n\n\„I have chosen fire as my champion today,\“ I say. \„Now let us begin.\“"
+ agot_trial_by_combat.9001.desc:0 "When [actor_champion.GetTitledFirstName] arrives, I am ready. I have my guards seize [actor_champion.GetHerHim] and tie [actor_champion.GetHerHim] to one of the two pyres I had prepared, and then send for [actor.GetTitledFirstName].\n\n The look on [actor.GetHerHis] face when [actor.GetSheHe] realizes is glorious.\n\n„I have chosen fire as my champion today,“ I say. „Now let us begin.“"
+ agot_trial_by_combat.9001.desc.self_champion:0 "As soon as the pyre is ready, I send for [actor.GetTitledFirstName].\n\n The look on [actor.GetHerHis] face when [actor.GetSheHe] realizes is glorious.\n\n„I have chosen fire as my champion today,“ I say. „Now let us begin.“"
  agot_trial_by_combat.9001.a:0 "It's beautiful."
  agot_trial_by_combat.9001.tt:0 "[actor.GetTitledFirstName] and [actor.GetHerHis] champion, [actor_champion.GetTitledFirstName], both die."
  agot_trial_by_combat.9001.tt.self_champion:0 "[actor.GetTitledFirstName] dies."

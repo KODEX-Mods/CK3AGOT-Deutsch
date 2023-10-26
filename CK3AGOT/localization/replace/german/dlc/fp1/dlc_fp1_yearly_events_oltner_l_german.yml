@@ -58,7 +58,7 @@
  fp1_yearly.2200.trigger_failure:0 "Mein Duell gegen [new_berserker.GetFirstNameNoTooltip] wurde annulliert"
  fp1_yearly.2203.t:0 "Berserker-Langeweile: Besänftigter Zorn"
  fp1_yearly.2203.desc:0 "„Ihr seid stärker, als Ihr ausseht!“, bringt [new_berserker.GetFirstNameNoTooltip] hervor.\n\n[new_berserker.Custom('DE_ART_DEF_S_N')|U] [new_berserker.GetWomanMan] liegt blutend auf dem Boden, und [new_berserker.Custom('DE_PRO_POS_S_3P')] Zorn ist besänftigt … Fürs Erste.\n\n„Ich würde allzu gern an Eurer Seite kämpfen. Gemeinsam wären wir #EMP unaufhaltsam!#!“, ruft [new_berserker.Custom('DE_PRO_PER_S_3P_N')]."
- fp1_yearly.2203.a:0 "„Ich bedaure es, doch Euer Weg endet hier!"
+ fp1_yearly.2203.a:0 "„Ich bedaure es, doch Euer Weg endet hier!“"
  fp1_yearly.2203.b:0 "„Es wäre mir eine Ehre, an Eurer Seite zu kämpfen!“"
  fp1_yearly.2203.c:0 "„Ihr habt schon genug Schaden angerichtet. Geht jetzt.“"
  fp1_yearly.2204.t:0 "Berserker-Langeweile: Sanfter Riese"

@@ -1654,7 +1654,7 @@
  b_ghostskin_tower:0 "Geisterhautturm" # eE
  b_childrens_tower:0 "Kindersturm" # eE
  b_bogmans_tower:0 "Moorleichenturm" # eE
- b_cailinsmarsh:0 "Grabenmarsch„ # eE hergeleitet von “Maidengraben"
+ b_cailinsmarsh:0 "Grabenmarsch" # eE hergeleitet von Maidengraben
  b_the_missingkeep:0 "Irrfeste" # eE
  b_lizardfields:0 "Echsenfelden" # eE
  b_riverrun:0 "Schnellwasser" # kanon
