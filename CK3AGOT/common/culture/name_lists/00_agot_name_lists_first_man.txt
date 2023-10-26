@@ -56,7 +56,7 @@ name_list_northman = {
 		Vivian
 		Zei
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -115,7 +115,7 @@ name_list_crannogman = {
 		Meera
 		Wylla
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -223,7 +223,7 @@ name_list_wolfswood_clansman = {
 		Mira Moreg Moryne
 		Sybelle
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -284,7 +284,7 @@ name_list_hill_clansman = {
 		Mira Moreg Moryne
 		Sybelle
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -344,7 +344,7 @@ name_list_wildling = {
 		Val
 		Ygritte
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -406,7 +406,7 @@ name_list_thenn = {
 		Toraka Tekkeda Tarya Tansa Theyna
 		Vikunna Varrya Val Varka
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -522,7 +522,7 @@ name_list_frozen_shore = {
 		Slippery_Otter Pretty_Otter Young_Otter Little_Otter Darting_Otter Sneaking_Otter Swimming_Otter Laughing_Otter Blue_Otter Red_Otter Gray_Otter White_Otter Yellow_Otter Ice_Otter Snow_Otter
 		Otter_Eater Otter_Eyes Otter_Nose Wet_Otter Precious_Otter Playful_Otter
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -587,7 +587,7 @@ name_list_mountain_clansman = {
 		Val
 		Zata
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -654,7 +654,7 @@ name_list_skagosi = {
 		Sansa Sarra Sigrid
 		Wylla
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -709,7 +709,7 @@ name_list_first_man = {
 		Skagga Sygea Skagleka Syga Sygarra Syganna Sygarda Sygaly Sannsa Skeyga Syri Soyni Syansa
 		Toraka Tyosa Tekkeda Tarya Tansa Thesa
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -782,7 +782,7 @@ name_list_clawman = {
 		Tansy Tilly
 		Wella Wenda Willow Wylla
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
@@ -860,7 +860,7 @@ name_list_sisterman = {
 		Wylera Wylla
 		Yenna Yolanda Yorena Ysilla
 	}
-	dynasty_of_location_prefix = "dynn_von"
+	dynasty_of_location_prefix = "dynnp_von"
 
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 15
