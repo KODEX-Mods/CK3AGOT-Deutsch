@@ -272,7 +272,7 @@
  nick_the_arrogant:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Arrogante"
  nick_the_avenger:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Rächer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_bad:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schlechte" #Brandon der Schlechte
- nick_the_bad_apple:0 "der Faule Apfel" #Derrick Fossowey
+ nick_the_bad_apple:0 "der Faule Apfel" #derrick Fossowey
  nick_the_bald:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kahle"
  nick_the_barber:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Barbier[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_bard:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Bard[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
@@ -296,7 +296,7 @@
  nick_the_black:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schwarze" #Harren the Black
  nick_the_black_centaur:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schwarze Zentaur[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_black_dragon:0 "der Schwarze Drache" #Daemon the Black Dragon
- nick_the_black_dragon_desc:0 "Der Sohn von Aegon IV, [Charakter.GetFullName], wählte als Siegel einen schwarzen Drachen auf einem roten Feld." 
+ nick_the_black_dragon_desc:0 "der Sohn von Aegon IV, [Charakter.GetFullName], wählte als Siegel einen schwarzen Drachen auf einem roten Feld." 
  nick_the_black_lightning:0 "der Schwarze Blitz"
  nick_the_black_lion:0 "der Schwarze Löwe"
  nick_the_black_prefix:0 "Schwarz"
@@ -363,7 +363,7 @@
  nick_the_darling_of_the_vale:0 "der Liebling des Grünen Tals" #Denys the Darling of the Vale
  nick_the_daughterless:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Tochterlose" 
  nick_the_defiant_daena:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Trotzige" #Daena the Defiant 
- nick_the_defiant_daena_desc:0 "Die willensstarke Person [CHARACTER.GetFirstName] ist dafür bekannt, dass sie sich den ständigen Versuchen ihres Bruders Baelor, sie einzusperren, widersetzt." 
+ nick_the_defiant_daena_desc:0 "die willensstarke Person [CHARACTER.GetFirstName] ist dafür bekannt, dass sie sich den ständigen Versuchen ihres Bruders Baelor, sie einzusperren, widersetzt." 
  nick_the_delayer:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Zögerliche" #Donnel Hohenturm
  nick_the_demon_of_darry:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Dämon[CHARACTER.Custom('DE_END_NOU_S_GS_N')] von Darry" 
  nick_the_demonlover:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Dämonenfreund[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Othgar the Demonlover 
@@ -377,7 +377,7 @@
  nick_the_dragon:0 "der Drache"
  nick_the_dragon_prince:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Drachen[CHARACTER.Custom('GetPrincessPrince')|l]" #Rhaegar the Dragon Prince
  nick_the_dragon_queen:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Drachenkönig[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Daenerys the Dragon Queen
- nick_the_dragon_wolf:0 "Der Drachenwolf"
+ nick_the_dragon_wolf:0 "der Drachenwolf"
  nick_the_dragonbane:0 "der Drachentod" #Aegon the Dragonbane
  nick_the_dragonbane_desc:0 "Weil die Person während des Todes des letzten Drachens regierte, ist [CHARACTER.GetFullName] als Drachentod bekannt" 
  nick_the_dragonknight:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Drachenritter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Aemon the Dragonknight
@@ -393,7 +393,7 @@
  nick_the_drunken_desc:0 "[CHARACTER.GetFirstName] wird häufiger betrunken gesehen als nicht." 
  nick_the_eagle:0 "der Adler" #Erich the Eagle
  nick_the_elder:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Ältere" #Aegon the Elder
- nick_the_elder_desc:0 "Dieser [CHARACTER.GetFirstName] ist der ältere [CHARACTER.GetFirstName] seiner Familie zu dieser Zeit." 
+ nick_the_elder_desc:0 "dieser [CHARACTER.GetFirstName] ist der ältere [CHARACTER.GetFirstName] seiner Familie zu dieser Zeit." 
  nick_the_elegant:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Elegante"
  nick_the_enlightened:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Erleuchtete"
  nick_the_even_younger_prince:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Noch Jüngere [CHARACTER.Custom('GetPrincessPrince')]" #Matarys the Even Younger Prince
@@ -473,7 +473,7 @@
  nick_the_hungry_wolf:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Hungrige W[Select_CString( CHARACTER.IsFemale, 'ö', 'o' )]lf[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_hunter:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Jäger[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_huntsman:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Jägers[CHARACTER.GetWomanMan]" 
- nick_the_imp:0 "Der Gnom"
+ nick_the_imp:0 "der Gnom"
  nick_the_impaler:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Pfähler[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_imperious:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Imperiale"
  nick_the_implacable:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Unversöhnliche" 
@@ -542,7 +542,7 @@
  nick_the_mad_bard:0 "der Irre Barde"
  nick_the_mad_heir:0 "der Irre Erbe" #Arnold the Mad Heir
  nick_the_mad_king:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Irre König[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Aerys the Mad King #gucken
- nick_the_mad_king_desc:0 "Der Wahnsinn von [CHARACTER.GetFirstName], der zu Anfällen von Paranoia, mutwilliger Grausamkeit und Realitätsferne neigt, ist für alle sichtbar." 
+ nick_the_mad_king_desc:0 "der Wahnsinn von [CHARACTER.GetFirstName], der zu Anfällen von Paranoia, mutwilliger Grausamkeit und Realitätsferne neigt, ist für alle sichtbar." 
  nick_the_mad_maid:0 "die Irre Maid"
  nick_the_mad_mouse:0 "die Irre Maus"
  nick_the_madling:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Verrückte" #Mern III. Gärtner
@@ -582,7 +582,7 @@
  nick_the_old:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Alte"
  nick_the_old_bear:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Alte Bär[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_old_falcon:0 "der Alte Falke" #Osgood the Old Falcon
- nick_the_old_grey_gull:0 "Die Alte Graue Möwe"
+ nick_the_old_grey_gull:0 "die Alte Graue Möwe"
  nick_the_old_king:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Alte König[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Jaehaerys the Old
  nick_the_old_king_desc:0 "[CHARACTER.GetFullName] hat ein wahrhaft hohes Alter erreicht, das im Guten wie im Schlechten andere Lebenswerke überschattet hat." 
  nick_the_old_kraken:0 "der Alte Kraken"
