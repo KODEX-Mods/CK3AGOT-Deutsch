@@ -1,4 +1,4 @@
 ﻿l_german:
- game_concept_family_friend:0 "Freund der Familie"
- game_concept_family_friends:0 "Freunde der Familie"
- game_concept_family_friend_desc:0 "Ein Freund der Familie ist eine implizite Beziehung, die entsteht, wenn Sie mindestens drei Freunde haben, die [close_family_members|E] zueinander sind.\nDer Freund der Familie erhält die Meinung aller Mitglieder dieser[close_family|E].\nMan kann nicht Freund seiner eigenen [close_family|E] werden."
+ game_concept_family_friend:0 "Family Friend"
+ game_concept_family_friends:0 "Family Friends"
+ game_concept_family_friend_desc:0 "A Family Friend is an implicit relation formed when you have at least three friends who are [close_family_members|E] to each other.\nThe Family Friend gains opinion of all members of that [close_family|E].\nOne cannot become Family Friend with their own [close_family|E]"

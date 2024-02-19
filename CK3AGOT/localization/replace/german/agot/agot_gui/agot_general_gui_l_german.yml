@@ -1,6 +1,6 @@
 ﻿l_german:
- #Übersetzt von Gilian Torhammer
-
- COUNCIL_TASK_CASTELLAN_REVERT:0 "Eurem [castellan|E] eine neue Rolle zuweisen"
+ 
+ COUNCIL_TASK_CASTELLAN_REVERT:0 "Reassign your [castellan|E]'s role"
 
  HOUSE_LIST_BASTARD:0 "[bastard_house|E]"
+ PERSONAL_ARMS_COOLTIP:0 "Personal Arms"

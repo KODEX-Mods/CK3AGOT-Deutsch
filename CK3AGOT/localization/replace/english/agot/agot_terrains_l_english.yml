@@ -7,6 +7,7 @@
  cloudforest:0 "Cloud Forest"
  taiga_bog:0 "Taiga Bog"
  farmlands:0 "Meadows"
+ the_bog:0 "The Bog"
  majorroad_plains:0 "Plains (Major Road)"
  majorroad_farmlands:0 "Meadows (Major Road)"
  majorroad_hills:0 "Hills (Major Road)"
@@ -27,7 +28,7 @@
  majorroad_canyon:0 "Canyon (Major Road)"
  majorroad_highlands:0 "Highlands (Major Road)"
  majorroad_cloudforest:0 "Cloud Forest (Major Road)"
- majorroad_taiga_bog:0 "Taiga Bod (Major Road)"
+ majorroad_taiga_bog:0 "Taiga Bog (Major Road)"
  majorroad_the_bog:0 "The Bog (Major Road)"
  minorroad_plains:0 "Plains (Minor Road)"
  minorroad_farmlands:0 "Meadows (Minor Road)"
@@ -49,7 +50,7 @@
  minorroad_canyon:0 "Canyon (Minor Road)"
  minorroad_highlands:0 "Highlands (Minor Road)"
  minorroad_cloudforest:0 "Cloud Forest (Minor Road)"
- minorroad_taiga_bog:0 "Taiga Bod (Minor Road)"
+ minorroad_taiga_bog:0 "Taiga Bog (Minor Road)"
  minorroad_the_bog:0 "The Bog (Minor Road)"
 
  # Combat Modifiers

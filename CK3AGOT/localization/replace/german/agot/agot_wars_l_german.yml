@@ -1,88 +1,121 @@
 ﻿l_german:
- AGOT_VASSALIZATION_CB_NAME:2 "[vassalization_casus_belli|E] des Eisernen Throns gegen [DEFENDER.GetShortUIName]"
+ AGOT_VASSALIZATION_CB_NAME:2 "Iron Throne [vassalization_casus_belli|E] of [DEFENDER.GetShortUIName]"
 
- AGOT_VASSALIZATION_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Vasallierungskrieg des Eisernen Throns"
+ AGOT_VASSALIZATION_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Iron Throne Vassalization War"
  AGOT_VASSALIZATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-
- # AGOT REBELLION
- agot_independence_war:0 "Unabhängigkeitskrieg"
- agot_independence_war_name:0 "Unabhängigkeitskrieg"
+ 
+# AGOT REBELLION
+ agot_independence_war:0 "Independence War"
+ agot_independence_war_name:0 "Independence War"
 
  agot_rebellion_war:0 "Rebellion"
- agot_rebellion_war_name:0 "Rebellion gegen [DEFENDER.GetShortUINameNotMe]"
- agot_rebellion_war_victory_desc:0 "[attacker.GetTitledFirstName] wird darüber entscheiden, wer den Thron von [defender.GetPrimaryTitle.GetName] besteigt."
- AGOT_Realm_will_rebuild:0 "\nMit dem Ende des Krieges wird die alte Ordnung wieder hergestellt. Jedoch stellt sich die Frage: Wird sie halten?" # AGOT TODO why cant I rename this one?
- agot_rebellion_war_white_peace_desc_defender:0 "Weißer Friede sollte hier nicht möglich sein. Sagt Gaytriarch auf dem AGOT-Discord Bescheid, wenn Ihr das seht."
- agot_rebellion_war_white_peace_desc:0 "Weißer Friede sollte hier nicht möglich sein. Sagt Gaytriarch auf dem AGOT-Discord Bescheid, wenn Ihr das seht."
- agot_rebellion_war_defeat_desc_defender:0 "Ihr werdet über die Rebellen richten."
- agot_rebellion_war_defeat_desc:0 "[defender.GetName] wird über die Rebellen richten."
+ agot_rebellion_war_name:0 "Rebellion against [DEFENDER.GetShortUINameNotMe]"
+ agot_rebellion_war_victory_desc:0 "With the success of [attacker.GetHerHis] rebellion, [attacker.GetTitledFirstName] will decide who will rule the [defender.GetPrimaryTitle.GetName]."
+ agot_rebuild_realm_effect_loc:0 "\nWith the end of the war, the old order will be restored, but will it continue to hold?" # AGOT TODO why cant I rename this one?
+ agot_rebuild_realm_effect_loc_past:0 "\nWith the end of the war, the old order is restored, but will it continue to hold?" # AGOT TODO why cant I rename this one?
+ agot_rebellion_war_white_peace_desc_defender:0 "White peace defender - Invalid boss. Tell Gaytriarch if you see this."
+ agot_rebellion_war_white_peace_desc:0 "White peace attacker - Invalid boss. Tell Gaytriarch if you see this."
+ agot_rebellion_war_defeat_desc_defender:0 "[attacker.GetNamePossessive] rebellion for the [defender.GetPrimaryTitle.GetName] has failed. [defender.GetName] will decide the fate of the rebels."
+ agot_rebellion_war_defeat_desc:0 "[attacker.GetNamePossessive] rebellion for the [defender.GetPrimaryTitle.GetName] has failed. [defender.GetName] will decide the fate of the rebels."
 
 # AGOT REVOLT
- agot_revolt_war:0 "Revolte"
- agot_revolt_war_name:0 "Revolte gegen [DEFENDER.GetShortUINameNotMe]"
- agot_revolt_war_victory_desc:0 "[attacker.GetName] und seine Rebellen entgehen erfolgreich ihrer Bestrafung und untergraben dabei [defender.GetNamePossessive] Autorität."
- agot_revolt_war_white_peace_desc:0 "Weißer Friede sollte hier nicht möglich sein. Sagt Gaytriarch auf dem AGOT-Discord Bescheid, wenn Ihr das seht."
- agot_revolt_war_defeat_desc_defender:0 "[attacker.GetName] und seine Rebellen erhalten die Strafe, der sie zu entgehen versuchten."
- agot_revolt_war_defeat_desc:0 "[attacker.GetName] und seine Rebellen erhalten die Strafe, der sie zu entgehen versuchten."
+ agot_revolt_war:0 "Revolt"
+ agot_revolt_war_name:0 "Revolt against [DEFENDER.GetShortUINameNotMe]"
+ agot_revolt_war_victory_desc:0 "[attacker.GetName] and the rebels successfully avert punishment and undermine [defender.GetNamePossessive] authority."
+ agot_revolt_war_white_peace_desc:0 "This is a revolt war, but they dont white peace. If you see this, tell Gaytriarch."
+ agot_revolt_war_defeat_desc_defender:0 "[attacker.GetNamePossessive] revolt has failed, and the punishment they have attempted to avert will now come to pass."
+ agot_revolt_war_defeat_desc:0 "[attacker.GetNamePossessive] revolt fails, resulting in the rebels' original sentence coming to pass."
 
- agot_liberty_faction_war:0 "Befreiungskrieg"
+ agot_liberty_faction_war:0 "Liberty War"
 
 
- wildling_raid_wars_victory_desc:0 "Die Wildlinge erstürmen die Mauer und nehmen alles mit sich, das nicht niet- und nagelfest ist."
- wildling_raid_wars_defeat_desc:0 "Die Wildlinge werden abgewehrt, wie schon in den Jahrtausenden zuvor."
+ wildling_raid_wars_victory_desc:0 "The Wildlings have overpowered the Watch and will take all they can carry!"
+ wildling_raid_wars_defeat_desc:0 "The Wildlings were defeated by the Watch as they have been for thousands of years"
 
  #AGOT TODO
- wildling_raid_wars_white_peace_desc:0 "Platzhalter Weißer Friede"
- wildling_raid_wars_invalidated_desc:0 "Platzhalter Annuliert"
+ wildling_raid_wars_white_peace_desc:0 "Placeholder White Peace Text"
+ wildling_raid_wars_invalidated_desc:0 "Placeholder Invalidated Text"
 
- WILDLING_RAID_WAR_NAME:0 "Wildlingsüberfall"
- WILDLING_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"  #Zu testen
- wildling_raid_cb:0 "Wildlingsüberfall"
+ WILDLING_RAID_WAR_NAME:0 "Wildling Raid"
+ WILDLING_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ wildling_raid_cb:0 "Wildling Raid"
  WILDLINGS:0 "Wildlings"
 
-
- RECLAIM_CB_NAME:0 "Rückeroberung der [de_jure|E]-Ländereien der Nachtwache"
- RECLAIM_CB_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Rückeroberungskrieg der Nachtwache"
+ RECLAIM_CB_NAME:0 "Reclaim the Night's Watch [de_jure|E] Lands"
+ RECLAIM_CB_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Night's Watch Reclamation War"
  RECLAIM_CB_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
- de_reclaim_wall_victory_desc:0 "Die Nachtwache erhält den umkämpften [title|E]."
- de_reclaim_wall_defeat_desc:0 "Die Wildlinge behalten den umkämpften [title|E]."
+ de_reclaim_wall_victory_desc:0 "The Wildlings are defeated and the land has been returned to the Night's Watch."
+ de_reclaim_wall_defeat_desc:0 "The Wildlings successfully held back the offensive, retaining the territory claimed by the Night's Watch."
 
- #AGOT ADDED
- reclaim_captives_war_victory_desc:0 "[attacker.GetShortUIName|U] befreit alle Gefangenen von [defender.GetShortUIName|U] und [defender.Custom('DE_PRO_PER_S_3P_G')] [vassals|e]."
- reclaim_captives_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] befreit alle Gefangenen von Euch und Euren [vassals|e]."
- reclaim_captives_war_white_peace_desc:0 "Es werden keine Gefangenen befreit."
- reclaim_captives_war_defeat_desc:0 "Es werden keine Gefangenen befreit."
- reclaim_captives_war_invalidated_desc:0 "$RECLAIM_CAPTIVES_WAR_NAME$ annuliert!"
- reclaim_captives_war:0 "Gefangene befreien."
- RECLAIM_CAPTIVES_NAME:0 "Gefangene befreien."
- RECLAIM_CAPTIVES_WAR_NAME:1 "Gefangene von [DEFENDER.GetPrimaryTitle.GetNameNoTier] befreien."
- #Agot Added
- #By Typical
- agot_6th_blackfyre_rebellion: "Die Sechste Schwarzfeuer-Rebellion"
- agot_6th_blackfyre_rebellion_name: "Die Sechste Schwarzfeuer-Rebellion"
- agot_6th_blackfyre_rebellion_invalidated: "Die Sechste Schwarzfeuer-Rebellion wurde aufgrund des Todes von [attacker.GetFullNameRegnal|U] annuliert!"
- agot_6th_blackfyre_rebellion_defeat_desc_defender: "[attacker.GetFullNameRegnal|U] wird eingekerkert."
- agot_6th_blackfyre_rebellion_defeat_defeat_desc: "[defender.GetFullNameRegnal|U] wird eingekerkert."
- agot_rebellion_war_white_peace_desc: "Weißer Friede sollte hier nicht möglich sein. Sagt Gaytriarch auf dem AGOT-Discord Bescheid, wenn Ihr das seht."
- agot_6th_blackfyre_rebellion_victory_desc_attacker: "[defender.GetFullNameRegnal|U] wird [deposed|E] und Ihr erhaltet den umkämpften [title|E]."
- agot_6th_blackfyre_rebellion_victory_desc: "[attacker.GetFullNameRegnal|U] wird eingekerkert."
- agot_6th_blackfyre_realm_rebuild_loc: "Nach vielen gescheiterten Versuchen, den Eisernen Thron zu erkämpfen, herrscht Haus Schwarzfeuer über die Königslande."
+ STEPSTONES_CONQUEST_CB_NAME:0 "Disputed Lands Conquest for [county|E]"
+ disputed_lands_conquest_cb:0 "Disputed Lands Conquest"
 
- agot_faegon_landing_war_name: "[ATTACKER.GetFullNamePossessiveRegnal] Invasion" 
- agot_faegon_landing_war_invalidated: "[attacker.GetFullNamePossessiveRegnal|U] Invasion wurde aufgrund des Todes von [attacker.GetFullNameRegnal|U] annuliert!"
- agot_faegon_landing_war_white_peace_desc: "Weißer Friede sollte hier nicht möglich sein. Sagt Typical auf dem AGOT-Discord Bescheid, wenn Ihr das seht."
- agot_faegon_landing_defeat_desc_defender: "Ihr behaltet den umkämpften [title|E]."
- agot_faegon_landing_defeat_defeat_desc: "[attacker.GetFullNameRegnal|U] wird eingekerkert."
- agot_faegon_landing_war_victory_desc_attacker: "[defender.GetFullNameRegnal|U] wird [deposed|E] und Ihr erhaltet den umkämpften [title|E]."
- agot_faegon_landing_war_victory_desc: "[defender.GetFullNameRegnal|U] wird eingekerkert."
- agot_faegon_realm_rebuild_loc: "Nach vielen Jahren im Exil sitzt Haus Tagaryen wieder auf dem Eisernen Thron und herrscht über die Königslande."
+ stepstones_adventurer_conquest:0 "Stepstones Conquest"
+ stepstones_adventurer_event_troops:0 "Pirate Adventurers"
+ STEPSTONES_ARMY_NEUTRAL_NAME:0 "Pirate Crew"
 
- agot_bastard_claimant_war_name:0 "Die [CLAIMANT.GetHouse.GetBaseName]-Rebellion" # Inspired by Blackfyre Rebellion convention
- agot_bastard_claimant_war_invalid:0 "[claimant.GetName] ist verstorben. [claimant.Custom('DE_PRO_POS_S_3P')|U] Anspruch kann nicht mehr aufrechterhalten werden."
- agot_bastard_claimant_war_victory:0 "[claimant.GetName] wird als Herrscher von [defender.GetPrimaryTitle.GetName] eingesetzt werden!"
- agot_bastard_claimant_war_white_peace:0 "[attacker.GetName] und [defender.GetName] einigten sich, dem Blutvergießen ein Ende zu setzen. [claimant.GetName] wird heimkehren und diese Angelegenheit ist damit vom Tisch."
- agot_bastard_claimant_war_defeat:0 "[defender.GetName] wird gewinnen und die Rebellen werden [defender.Custom('DE_PRO_POS_S_3P')]em Urteil unterworfen sein."
+ reclaim_captives_war_victory_desc:0 "You free all captives that are held by [defender.GetShortUIName|U] and their [vassals|e]."
+ reclaim_captives_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] frees all captives held by you and your [vassals|e]."
+ reclaim_captives_war_white_peace_desc:0 "No captives are freed."
+ reclaim_captives_war_defeat_desc:0 "No captives are freed."
+ reclaim_captives_war_invalidated_desc:0 "$RECLAIM_CAPTIVES_WAR_NAME$ invalidated!"
+ reclaim_captives_war:0 "Free Captives"
+ RECLAIM_CAPTIVES_NAME:0 "Free Captives"
+ RECLAIM_CAPTIVES_WAR_NAME:1 "Free Captives of [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
 
+ agot_blackfyre_claim:0 "Blackfyre Rebellion"
+ BLACKFYRE_WAR_NAME:0 "[ATTACKER.Custom('BlackfyreRebellions')]"
+ agot_blackfyre_claim_first:0 "The Blackfyre Rebellion"
+ agot_blackfyre_claim_second:0 "The Second Blackfyre Rebellion"
+ agot_blackfyre_claim_third:0 "The Third Blackfyre Rebellion"
+ agot_blackfyre_claim_fourth:0 "The Fourth Blackfyre Rebellion"
+ agot_blackfyre_claim_fifth:0 "The Fifth Blackfyre Rebellion"
+ agot_blackfyre_claim_sixth:0 "The Sixth Blackfyre Rebellion"
+ agot_blackfyre_claim_seventh:0 "The Seventh Blackfyre Rebellion"
+ agot_blackfyre_claim_eight:0 "The Eigth Blackfyre Rebellion"
+ agot_blackfyre_claim_ninth:0 "The Ninth Blackfyre Rebellion"
+ agot_blackfyre_claim_tenth:0 "The Tenth Blackfyre Rebellion"
+ agot_blackfyre_claim_more:0 "Another Fucking Blackfyre Rebellion"
+
+ ninepenny_conquest_cb:0 "Ninepenny Conquest"
+ NINEPENNY_WAR_NAME:2 "$ORDER$ The Band of Nine's War for [CLAIMANT.GetShortUINamePossessive] Claim on the [TITLE.GetBaseName]"
+ ninepenny_conquest_cb_victory_desc_defender:0 "[claimant.GetShortUIName|U] seizes the target [title|E]."
+ ninepenny_conquest_cb_victory_desc_attacker:0 "[claimant.GetShortUIName|U] seizes the target [title|E]."
+ ninepenny_conquest_cb_victory_desc:0 "[claimant.GetShortUIName|U] seizes the target [title|E]."
+ ninepenny_conquest_cb_defeat_desc:0 "[defender.GetShortUIName|U] keeps the target [title|E]. [claimant.GetShortUIName|U] loses [claimant.GetHerHis] [claim|E] to it."
+ ninepenny_conquest_cb_defeat_desc_defender:0 "You keep the target [title|E]. [claimant.GetShortUIName|U] loses [claimant.GetHerHis] [claim|E] to it."
+ ninepenny_conquest_cb_defeat_desc_attacker:0 "[claimant.GetShortUIName|U] keeps the target [title|E]. You lose your [claim|E] to it."
+ NINEPENNY_TRUCE:0 "\nTruce bound in blood between [attacker.GetTitledFirstName] and [claimant.GetTitledFirstName] as members of the Band of the Nine"
+
+ reyne_rebellion:0 "Reyne Rebellion"
+ REYNE_REBELLION_NAME:0 "The Reyne Rebellion"
+
+ agot_6th_blackfyre_rebellion: "The Sixth Blackfyre Rebellion"
+ agot_6th_blackfyre_rebellion_name: "The Sixth Blackfyre Rebellion"
+ agot_6th_blackfyre_rebellion_invalidated: "The Sixth Blackfyre Rebellion was invalidated because of [attacker.GetFullNameRegnal|U]'s death"
+ agot_6th_blackfyre_rebellion_defeat_desc_defender: "[attacker.GetFullNameRegnal|U] gets imprisoned"
+ agot_6th_blackfyre_rebellion_defeat_defeat_desc: "[defender.GetFullNameRegnal|U] gets imprisoned"
+ agot_rebellion_war_white_peace_desc: "If you see me it means something broke, report to Typical ASAP"
+ agot_6th_blackfyre_rebellion_victory_desc_attacker: "I depose [defender.GetFullNameRegnal|U] and take [defender.GetPrimaryTitle.GetName] for myself"
+ agot_6th_blackfyre_rebellion_victory_desc: "The Sixth Blackfyre Rebellion is defeated and [attacker.GetFullNameRegnal|U] gets imprisoned"
+ agot_6th_blackfyre_realm_rebuild_loc: "House Blackfyre, after generations of fighting and struggle, finally sit upon the Iron Throne."
+
+ agot_faegon_landing_war_name: "[ATTACKER.GetFullNameRegnal]'s Invasion" 
+ agot_faegon_landing_war_invalidated: "[attacker.GetFullNameRegnal|U] Invasion was invalidated because of of [attacker.GetFullNameRegnal|U]'s death"
+ agot_faegon_landing_war_white_peace_desc: "FAegon Invasion ended in white peace this should never happen, report to Typical"
+ agot_faegon_landing_defeat_desc_defender: "I defeat the [attacker.GetFullNameRegnal|U] and retain control over the [defender.GetPrimaryTitle.GetName]"
+ agot_faegon_landing_defeat_defeat_desc: "[attacker.GetFullNameRegnal|U] gets imprisoned"
+ agot_faegon_landing_war_victory_desc_attacker: "I depose [defender.GetFullNameRegnal|U] and take the [defender.GetPrimaryTitle.GetName] for myself"
+ agot_faegon_landing_war_victory_desc: "[defender.GetFullNameRegnal|U] gets imprisoned"
+ agot_faegon_realm_rebuild_loc: "After years in exile, House Targaryen sits upon the Iron Throne once again."
+ 
+ #AGOT Bastard Events
+ agot_bastard_claimant_war_name:0 "The War of [CLAIMANT.GetNicknameNoTooltip]"
+ agot_bastard_claimant_war_invalid:0 "[claimant.GetName] has died. [claimant.GetHerHis] claim can no longer be pressed."
+ agot_bastard_claimant_war_victory:0 "[claimant.GetName] will be installed as ruler of [defender.GetPrimaryTitle.GetName]!"
+ agot_bastard_claimant_war_white_peace:0 "[attacker.GetName] and [defender.GetName] agree to cease the bloodshed. [claimant.GetName] will return home and this matter put to rest."
+ agot_bastard_claimant_war_defeat:0 "[defender.GetName] will win and the rebels will be subject to [defender.GetHerHis] judgment."
+ 
  #BTW Struggle
  CB_COST_STRUGGLE_PHASE_OPPORTUNITY:0 "[struggle_phase_btw_opportunity|E]"
  CB_COST_STRUGGLE_PHASE_HOSTILITY:0 "[struggle_phase_btw_hostility|E]"

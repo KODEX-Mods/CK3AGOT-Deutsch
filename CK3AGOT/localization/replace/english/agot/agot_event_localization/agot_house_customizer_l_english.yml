@@ -5,7 +5,7 @@
  agot_house_customizer.0001.t:0 "House Customizer"
  agot_house_customizer.0001.desc:0 "#P Welcome to the House Customizer#!! Please follow these instructions in order to use this feature correctly.\n\nIf you wish to play as an #N extinct house#!, such as House Blackfyre, you may select that option and find the house under its region of origin.\n\nIf you want to play as member of a house that is alive, you need to find someone of that house, right click their portrait, and select "Join House".\n\n@warning_icon! #N Starting as a bastard will result in the creation of a cadet house of your dynasty after you have children!"
  agot_house_customizer.0001.a:0 "I want to play as an #N extinct house#!."
- agot_house_customizer.0001.b:0 "I want to play as an #P alive house#!."
+ agot_house_customizer.0001.b:0 "I want to play as an #P extant house#!."
 
  agot_house_customizer.0002.t:0 "Select Region"
  agot_house_customizer.0002.desc:0 "Select the Extinct House's Region"
@@ -18,6 +18,7 @@
  agot_house_customizer.0002.reach:0 "The Reach"
  agot_house_customizer.0002.westerlands:0 "The Westerlands"
  agot_house_customizer.0002.ironborn:0 "The Iron Islands"
+ agot_house_customizer.0002.essos:0 "Essos"
 
  agot_house_customizer.0003.t:0 "Select Extinct Northern House"
  agot_house_customizer.0003.desc:0 "Select Your House"
@@ -79,18 +80,27 @@
  agot_house_customizer.0010.reyne:0 "Reyne"
  agot_house_customizer.0010.tarbeck:0 "Tarbeck"
 
- agot_house_customizer.0011.t:0 "Select Extinct Westerlands House"
+ agot_house_customizer.0011.t:0 "Select Extinct Iron Islands House"
  agot_house_customizer.0011.desc:0 "Select Your House"
  agot_house_customizer.0011.greyiron:0 "Greyiron"
  agot_house_customizer.0011.hoare:0 "Hoare"
 
+ agot_house_customizer.0012.t:0 "Select Extinct Essos House"
+ agot_house_customizer.0012.desc:0 "Select Your House"
+ agot_house_customizer.0012.varezys:0 "Varezys"
+ agot_house_customizer.0012.varezys.tt:0 "This is the dynasty of the self-proclaimed Emperor of Valyria, Aurion"
+ agot_house_customizer.0012.mataeryon:0 "Mataeryon"
+ agot_house_customizer.0012.belaerys:0 "Belaerys"
+
  agot_house_customizer.0020.t:0 "House Customizer"
- agot_house_customizer.0020.desc:0 "Select your relation"
+ agot_house_customizer.0020.desc:0 "Select Your Relation"
  agot_house_customizer.0020.a:0 "I want to play as their #bold sibling#!"
  agot_house_customizer.0020.b:0 "I want to play as their #bold child#!"
  agot_house_customizer.0020.c:0 "I want to play as their #bold relative#!"
  agot_house_customizer.0020.d:0 "I want to play as the #bold child of King Aerys II#!"
  agot_house_customizer.0020.e:0 "I want to play as the #bold child of Prince Rhaegar#!"
+ agot_house_customizer.0020.f:0 "I want to play as their #bold secret bastard#!"
+ agot_house_customizer.0020.f.flavor:0 "You will know the truth of your birth and be able to reveal it to the realm as a decision."
 
  agot_house_customizer.0021.t:0 "House Customizer - Play as Relative"
  agot_house_customizer.0021.desc:0 "Play as their relative!"
@@ -103,7 +113,10 @@
  agot_house_customizer.0026.b:0 "No, I want to keep my character's appearance as it is now."
 
 
- 
+ agot_house_customizer.0200.t:0 "House Customizer - Select Relative"
+ agot_house_customizer.0200.desc:0 "Select the relative you wish to be related to from the list below."
+ agot_house_customizer.0200.ex:0 "I want to be related to this person!"
+ agot_house_customizer.0200.li:0 "I want to be related to this person!"
  
 
  

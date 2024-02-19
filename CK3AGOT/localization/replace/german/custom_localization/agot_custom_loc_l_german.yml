@@ -4,9 +4,7 @@
  SECOND_TITLE_LINE_1:0 ""
 
  # Mega Wars
- punishment:0 "Bestraft\n[GetPlayer.MakeScope.Var('selected_traitor').Char.GetTitledFirstNameNoTooltip]"
- show_mercy:0 "Seid gnädig mit\n[GetPlayer.MakeScope.Var('selected_traitor').Char.GetTitledFirstNameNoTooltip]"
- mw_rebels:0 "Rebellen"
- mw_loyalists:0 "Loyalisten"
-
-
+ mw_punishment:0 "Punish\n[GetPlayer.MakeScope.Var('selected_traitor').Char.GetTitledFirstNameNoTooltip]"
+ mw_show_mercy:0 "Show Mercy to\n[GetPlayer.MakeScope.Var('selected_traitor').Char.GetTitledFirstNameNoTooltip]"
+ mw_rebels:0 "Rebels"
+ mw_loyalists:0 "Loyalists"

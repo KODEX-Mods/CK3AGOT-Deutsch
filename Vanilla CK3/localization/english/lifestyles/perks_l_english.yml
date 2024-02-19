@@ -107,7 +107,7 @@
  flatterer_perk_name:0 "Flatterer"
  groomed_to_rule_perk_name:0 "Groomed to Rule"
  familial_familiar_perk_name:1 "Heart of the Family"
- thicker_than_water_perk_name:0 "Thicker than Water"
+ thicker_than_water_perk_name:1 "Bound by Blood"
  friendly_counsel_perk_name:0 "Friendly Counsel"
  sound_foundations_perk_name:0 "Sound Foundations"
  family_man_perk_male_name:0 "Patriarch"
@@ -156,7 +156,7 @@
 
  # Other
  groomed_to_rule_msg_title:0 "Groomed to Rule"
- LOYALTY_AND_RESPECT_PERK_STATS_EFFECT:0 "[skills|E] from [spouse|E] [councillor_tasks|E]: #p +25%#!"
+ LOYALTY_AND_RESPECT_PERK_STATS_EFFECT:1 "[skills|E] from [spouse|E] or [vizier|E] [councillor_tasks|E]: #p +25%#!"
  dark_insight_gain_stats_tt:0 "Might gain some [GetPerk('dark_insights_perk').GetName(GetPlayer)]"
  dark_insights_maximum_insight_tt:0 "Has already learned all possible [GetPerk('dark_insights_perk').GetName(GetPlayer)]"
  dark_insights_gain_message:0 "Dark Insights"
