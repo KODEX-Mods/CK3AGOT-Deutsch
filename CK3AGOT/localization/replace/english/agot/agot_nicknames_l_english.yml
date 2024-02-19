@@ -96,12 +96,15 @@
  nick_dance_for_me:0 "Dance-For-Me"
  nick_darkrobin:0 "Darkrobin"
  nick_darkstar:0 "Darkstar"
+ nick_darkstar_desc:0 "Men call [CharYouHerHim(CHARACTER)] Darkstar. [CharYouSheHe(CHARACTER)|U] [CharAreIs(CHARACTER)] of the night."
  nick_dashing_prefix:0 "Dour"
  nick_daughter_of_the_sand:0 "Daughter of the Sand"
+ nick_deaf:0 "Deaf"
  nick_dolorous:0 "Dolorous"
  nick_dour_prefix:0 "Dour"
  nick_dread_prefix:0 "Dread"
  nick_drunken_giant:0 "Drunken Giant"
+ nick_the_ebon_prince:0 "the Ebon Prince"
  nick_evenstar:0 "Evenstar"
  nick_ever_sweet:0 "Ever Sweet"
  nick_fair:0 "Fair" #Fair Walda
@@ -129,7 +132,7 @@
  nick_grey_eyes:0 "Grey Eyes"
  nick_greybeard:0 "Greybeard"
  nick_greycloak:0 "Greycloak"
- nick_greysteel:0 "Greysteel"
+ nick_greysteel_historical:0 "Greysteel"
  nick_half_hoare:0 "Half-Hoare"
  nick_halfblood:0 "Halfblood"
  nick_halfhand:0 "Halfhand"
@@ -137,6 +140,7 @@
  nick_hardhand:0 "Hardhand" #Harwyn Hardhand
  nick_hardstone:0 "Hardstone"
  nick_hodor:0 "Hodor"
+ nick_hot:0 "Hot"
  nick_honeyed:0 "Honeyed"
  nick_ice_eyes:0 "Ice-Eyes"
  nick_iron:0 "Iron"
@@ -150,6 +154,7 @@
  nick_knight_of_the_pantry:0 "the Knight of the Pantry"
  nick_lame:0 "Lame"
  nick_lap_goose:0 "Lap Goose"
+ nick_lazy:0 "Lazy"
  nick_lefthand:0 "Lefthand"
  nick_lemoncloak:0 "Lemoncloak"
  nick_lightheart:0 "Lightheart"
@@ -191,8 +196,9 @@
  nick_of_the_vines:0 "of The Vines"
  nick_old_hawk:0 "Old Hawk"
  nick_one_ear:0 "One-Ear" #Wulf One-Ear
- nick_one_eye:0 "One-Eye" #Aemond One-Eye
- nick_one_hand:0 "one Hand"
+ nick_one_eye_historical_jonnel:0 "One-Eye"
+ nick_one_eye_historical_aemond:0 "One-Eye"
+ nick_one_hand_historical:0 "One Hand"
  nick_palehair:0 "Palehair"
  nick_pennylover:0 "Pennylover"
  nick_pimple:0 "Pimple"
@@ -233,6 +239,8 @@
  nick_sick_leek:0 "Sick Leek" #Flavour - nc - Alliser Leek
  nick_silveraxe:0 "Silveraxe"
  nick_silverhair:0 "Silverhair"
+ nick_silverhorn:0 "Silverhorn"
+ nick_silvertongue:0 "Silvertongue" #Alequo Adarys
  nick_sixskins:0 "Sixskins"
  nick_small:0 "Small"
  nick_smalljon:0 "Smalljon"
@@ -256,6 +264,7 @@
  nick_strong_prefix:0 "Strong"
  nick_strongboar:0 "Strongboar"
  nick_stump_hand:0 "Stump-Hand" #Harras Stump-Hand
+ nick_sweetberry:0 "Sweetberry"
  nick_swiftspur:0 "Swiftspur"
  nick_swordbiter:0 "Swordbiter"
  nick_tailcutter:0 "Tailcutter"
@@ -272,11 +281,11 @@
  nick_the_avenger:0 "the Avenger"
  nick_the_bad:0 "the Bad"
  nick_the_bad_apple:0 "the Bad Apple"
- nick_the_bald:0 "the Bald"
+ nick_the_bald_historical:0 "the Bald"
  nick_the_barber:0 "the Barber"
  nick_the_bard:0 "the Bard"
  nick_the_barren:0 "the Barren" #
- nick_the_bastard:0 "the Bastard"
+ nick_the_bastard_historical:0 "the Bastard"
  nick_the_bear:0 "the Bear"
  nick_the_beast_of_harrenhal:0 "the Beast of Harrenhal"
  nick_the_beautiful:0 "the Beautiful"
@@ -294,15 +303,15 @@
  nick_the_bitter:0 "the Bitter"
  nick_the_black:0 "the Black" #Harren the Black
  nick_the_black_centaur:0 "the Black Centaur"
- nick_the_black_dragon:0 "the Black Dragon" #Daemon the Black Dragon
- nick_the_black_dragon_desc:0 "Baseborn of Aegon IV, [Character.GetFullName] took for his sigil a black dragon on a red field."
+ nick_the_black_dragon_historical:0 "the Black Dragon" #Daemon the Black Dragon
+ nick_the_black_dragon_historical_desc:0 "Baseborn of Aegon IV, [Character.GetFullName] took for his sigil a black dragon on a red field."
  nick_the_black_lightning:0 "the Black Lightning"
- nick_the_black_lion:0 "the Black Lion"
+ nick_the_black_lion_historical:0 "the Black Lion"
  nick_the_black_prefix:0 "Black"
- nick_the_black_rose:0 "the Black Rose"
+ nick_the_black_rose_historical:0 "the Black Rose"
  nick_the_black_serpent:0 "the Black Serpent"
  nick_the_black_shepherd:0 "the Black Shepherd"
- nick_the_black_swan:0 "the Black Swan"
+ nick_the_black_swan_historical:0 "the Black Swan"
  nick_the_blackmane:0 "the Blackmane"
  nick_the_blessed:0 "the Blessed" #Baelor the Blessed
  nick_the_blessed_desc:0 "[CHARACTER.GetFullName] is so holy as to be considered blessed by the Gods."
@@ -310,7 +319,6 @@
  nick_the_blind_bowman:0 "the Blind Bowman"
  nick_the_blind_king:0 "the Blind King"
  nick_the_blood_motherfather:0 "the Blood-[CHARACTER.GetMotherFather|U]"
- nick_the_bloody:0 "the Bloody"
  nick_the_blue:0 "the Blue"
  nick_the_blue_bard:0 "the Blue Bard"
  nick_the_boarkiller:0 "the Boarkiller"
@@ -319,8 +327,8 @@
  nick_the_bold:0 "the Bold" #Barristan the Bold
  nick_the_boy_king:0 "the Boy King" #Daeron the Boy King
  nick_the_boy_king_desc:0 "Coming to rule at a young age, [CHARACTER.GetFirstName] is known as the Boy King."
- nick_the_brave:0 "the Brave" #Baelon the Brave
- nick_the_brave_desc:0 "When [CHARACTER.GetFirstName] first visited the Dragonpit, he hit the great dragon Balerion the Black Dread on the snout, earning the nickname "the Brave"."
+ nick_the_brave_historical:0 "the Brave" #Baelon the Brave
+ nick_the_brave_historical_desc:0 "When [CHARACTER.GetFirstName] first visited the Dragonpit, he hit the great dragon Balerion the Black Dread on the snout, earning the nickname "the Brave"."
  nick_the_brawler:0 "The Brawler"
  nick_the_breaker:0 "the Breaker"
  nick_the_breaker_of_chains:0 "the Breaker of Chains" #Daenerys the Breaker of Chains
@@ -337,9 +345,8 @@
  nick_the_bull_of_blackcrown:0 "the Bull of Blackcrown"
  nick_the_bully:0 "the Bully"
  nick_the_burner:0 "the Burner"
- nick_the_butcher:0 "the Butcher"
+ nick_the_butcher_historical:0 "the Butcher"
  nick_the_callow:0 "the Callow"
- nick_the_cannibal:0 "the Cannibal"
  nick_the_champion:0 "the Champion"
  nick_the_chaste:0 "the Chaste"
  nick_the_chronicler:0 "the Chronicler"
@@ -379,8 +386,8 @@
  nick_the_dragon_wolf:0 "the Dragon Wolf"
  nick_the_dragonbane:0 "the Dragonbane" #Aegon the Dragonbane
  nick_the_dragonbane_desc:0 "For reigning during the death of the last dragon [CHARACTER.GetFullName] is known as the Dragonbane"
- nick_the_dragonknight:0 "the Dragonknight" #Aemon the Dragonknight
- nick_the_dragonknight_desc:0 "For [CharYourHerHis(CHARACTER)] nobility, valor, and clear displays of Targaryen heritage, [CHARACTER.GetFirstName] is known as the Dragonknight"
+ nick_the_dragonknight_historic:0 "the Dragonknight" #Aemon the Dragonknight
+ nick_the_dragonknight_historic_desc:0 "For [CharYourHerHis(CHARACTER)] nobility, valor, and clear displays of Targaryen heritage, [CHARACTER.GetFirstName] is known as the Dragonknight"
  nick_the_dragonless:0 "the Dragonless" #Vaegon the Dragonless
  nick_the_dragonless_desc:0 "Against the convention of [CharYourHerHis(CHARACTER)] house, [CHARACTER.GetFirstName] has not hatched or tamed a dragon."
  nick_the_dread:0 "the Dread"
@@ -412,6 +419,7 @@
  nick_the_fool:0 "the Fool"
  nick_the_foolish:0 "the Foolish"
  nick_the_fortunate:0 "the Fortunate" #Aegon the Fortunate
+ nick_the_forgotten:0 "the Forgotten"
  nick_the_fox:0 "the Fox"
  nick_the_frog:0 "the Frog"
  nick_the_fruitful:0 "the Fruitful"
@@ -420,6 +428,7 @@
  nick_the_gardener:0 "the Gardener"
  nick_the_generous:0 "the Generous"
  nick_the_giantslayer:0 "the Giantslayer"
+ nick_the_girlfather:0 "The Girlfather"
  nick_the_glass:0 "the Glass"
  nick_the_glorious:0 "the Glorious" #Gaemon the Glorious
  nick_the_glorious_desc:0 "Whether for wisdom, war or wit, [CHARACTER.GetFirstName] has acquired much glory."
@@ -456,6 +465,7 @@
  nick_the_handsome:0 "the Handsome" #Harmund the Handsome
  nick_the_hardhead:0 "the Hardhead"
  nick_the_harelip:0 "the Harelip"
+ nick_the_harper:0 "the Harper"
  nick_the_hawk:0 "the Hawk"
  nick_the_heartbreaker:0 "the Heartbreaker"
  nick_the_heartless:0 "the Heartless" #Hagon the Heartless
@@ -511,9 +521,9 @@
  nick_the_last_valyrian:0 "the Last Valyrian"
  nick_the_late_lord:0 "the Late Lord"
  nick_the_latecomer:0 "the Latecomer"
- nick_the_laughing_lion:0 "the Laughing Lion"
- nick_the_laughing_storm:0 "the Laughing Storm"
- nick_the_laughing_wolf:0 "the Laughing Wolf"
+ nick_the_laughing_lion_historical:0 "the Laughing Lion"
+ nick_the_laughing_storm_historical:0 "the Laughing Storm"
+ nick_the_laughing_wolf_historical:0 "the Laughing Wolf"
  nick_the_lawgiver:0 "the Lawgiver"
  nick_the_lazy:0 "the Lazy"
  nick_the_learned:0 "the Learned"
@@ -552,6 +562,7 @@
  nick_the_maid:0 "the Maid"
  nick_the_maiden_of_the_vale:0 "the Maiden of the Vale" #Jeyne the Maiden of the Vale
  nick_the_martyr:0 "the Martyr"
+ nick_the_mapper:0 "the Mapper"
  nick_the_mason:0 "the Mason"
  nick_the_meek:0 "the Meek"
  nick_the_merciful:0 "the Merciful"
@@ -569,7 +580,7 @@
  nick_the_morrey:0 "the Morrey"
  nick_the_mother_of_dragons:0 "the Mother of Dragons" #Daenerys the Mother of Dragons
  nick_the_mountain_that_rides:0 "the Mountain That Rides"
- nick_the_mountain_that_rides_desc:0 "[CHARACTER.GetFullName] is so large that to see [CharYourHerHim(CHARACTER)] ride is to think a mountain is approaching you."
+ nick_the_mountain_that_rides_desc:0 "[CHARACTER.GetFullName] is so large that to see [CHARACTER.GetHerHim] ride is to think a mountain is approaching you."
  nick_the_mummer:0 "the Mummer"
  nick_the_necromancer:0 "the Necromancer"
  nick_the_neveryield:0 "Neveryield"
@@ -580,8 +591,8 @@
  nick_the_norrey:0 "the Norrey"
  nick_the_oak:0 "the Oak"
  nick_the_old:0 "the Old"
- nick_the_old_bear:0 "the Old Bear"
- nick_the_old_falcon:0 "the Old Falcon" #Osgood the Old Falcon
+ nick_the_old_bear_historical:0 "the Old Bear"
+ nick_the_old_falcon_historical:0 "the Old Falcon" #Osgood the Old Falcon
  nick_the_old_grey_gull:0 "the Old Grey Gull"
  nick_the_old_king:0 "the Old King" #Jaehaerys the Old
  nick_the_old_king_desc:0 "[CHARACTER.GetFullName] has lived to a truly old age which has, for good or ill, overshadowed other life works."
@@ -620,9 +631,10 @@
  nick_the_raven:0 "the Raven"
  nick_the_reader:0 "the Reader"
  nick_the_reaver:0 "the Reaver"
- nick_the_red_crab:0 "the Red Crab"
+ nick_the_red_crab_historical:0 "the Red Crab"
+ nick_the_red_dog:0 "the Red Dog"
  nick_the_red_kraken:0 "the Red Kraken"
- nick_the_red_lion:0 "the Red Lion"
+ nick_the_red_lion_historical:0 "the Red Lion"
  nick_the_red_viper:0 "the Red Viper"
  nick_the_red_widow:0 "the Red Widow"
  nick_the_redsmile:0 "the Redsmile"
@@ -650,11 +662,8 @@
  nick_the_shepherd:0 "the Shepherd"
  nick_the_shieldsmasher:0 "the Shieldsmasher"
  nick_the_shipwright:0 "the Shipwright"
- nick_the_silver_lion:0 "the Silver Lion"
  nick_the_silver_prefix:0 "Silver"
  nick_the_silver_prince:0 "the Silver Prince" #Rhaegar the Silver Prince
- nick_the_silver_rose:0 "the Silver Rose"
- nick_the_silver_stag:0 "the Silver Stag"
  nick_the_simple:0 "the Simple" #Vaella the Simple
  nick_the_sleepy:0 "the Sleepy"
  nick_the_sly:0 "the Sly"
@@ -709,6 +718,7 @@
  nick_the_uncrowned:0 "the Uncrowned" #Aegon the Uncrowned
  nick_the_uncrowned_desc:0 "Unjustly usurped by his uncle, [CHARACTER.GetFirstName] did not survive his sire long enough to be crowned as the next King of the Seven Kingdoms."
  nick_the_undefeated:0 "the Undefeated"
+ nick_the_undisputed:0 "the Undisputed"
  nick_the_unforseen:0 "the Unforseen"
  nick_the_unhappy:0 "the Unhappy" #Aegon the Unhappy
  nick_the_unhappy_desc:0 "[CHARACTER.GetFullName] is known from Dorne to the Wall as morose, upset, and downright unhappy."
@@ -729,6 +739,7 @@
  nick_the_wandering_wolf:0 "the Wandering Wolf"
  nick_the_war_hound:0 "the War Hound"
  nick_the_wasp:0 "the Wasp"
+ nick_the_weak_legs:0 "the Weak Legs"
  nick_the_weeper:0 "the Weeper"
  nick_the_wetnurse:0 "the Wetnurse"
  nick_the_whisperer:0 "the Whisperer"

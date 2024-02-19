@@ -29,6 +29,7 @@
  sun_spears:0 "Sun Spears"
  sand_steeds:0 "Sand Steeds"
  pass_pikes:0 "Pass Pikes"
+ she_bears:0 "She-Bears"
 
  outriders:0 "Outriders"
 
@@ -43,7 +44,9 @@
  indentured_legion:0 "Indentured Legion"
  cohort_of_the_three_thousand:0 "Cohort of the Three Thousand"
  stepstone_sailors:0 "Stepstone Sailors"
- triarch's_herd:0 "Triarch's Herd"
+ triarchs_herd:0 "Triarch's Herd"
+ ornate_helms:0 "Ornate Helms"
+ ornate_helms_flavor:0 "Adorned in the intricate helms of their mother-ctiy, the Ornate Helms are unit of pikemen famed for fighting in the Disputed Lands."
 
  unsullied:0 "Unsullied"
  collared_bows:0 "Collared Bows"
@@ -84,6 +87,7 @@
  sea_snakes_flavor:0 "Hailing from the islands of Blackwater Bay and accustomed to the chaos of naval boarding actions, the quickness and aggression of these regiments serve them well in both pursuit and retreat."
  wolfswood_hunters_flavor:0 "The vastness of the Wolfswood harbors not just wild animals, but also men who make a living hunting them. On the battlefield, such men make crafty archers."
  bronze_raiders_flavor:0 "Hailing from the rugged tundra of the Thenn valley, the Rronze Raiders are some of the few Wildling soldiers that make use of native-made metal weapons. Alongside their impressive armaments, the Bronze Raiders are fearsome in battle; the only heavy infantry found North of the Wall."
+ she_bears_flavor:0 "The women of Bear Island have grown rugged and hardy when compared to their mainland counterparts; and are more than capable of splitting an Ironman's skull in twain."
 
  sarsfield_horse_archers:0 "Sarsfield Archers"
  sarsfield_horse_archers_flavor:0 "#F This elite retinue of mounted archers serve House Sarsfield as the personification of their sigil, relentlessly soaring where their lord fires them.#!"
@@ -96,7 +100,7 @@
  indentured_legion_flavor:0 "#F PLACEHOLDER.#!"
  cohort_of_the_three_thousand_flavor:0 "#F PLACEHOLDER.#!"
  stepstone_sailors_flavor:0 "#F PLACEHOLDER.#!"
- triarch's_herd_flavor:0 "Triarch's Herd"
+ triarchs_herd_flavor:0 "#F PLACEHOLDER.#!"
 
  unsullied_flavor:0 "#F PLACEHOLDER.#!"
  collared_bows_flavor:0 "#F PLACEHOLDER.#!"
@@ -111,6 +115,9 @@
  holy_order_warriors_sons:0 "Warrior's Sons"
 
  # Innovation MaAs
+ battering_ram:0 "Battering Ram"
+ battering_ram_flavor:0 "A ram for battering down the gates and walls of any enemy!"
+
  northern_spears:0 "Ironwood Spears"
  northern_spears_flavor:0 "Armed with spears of Ironwood, these northern troops prove a deadly counter to the knights of the south."
 
@@ -118,7 +125,7 @@
  dornish_crossbows_flavor:0 "Armed with crossbows, these Dornishmen are known for their deadly accuracy and poison tipped quarrels."
 
  vale_heavy_infantry:0 "Bloody Guard"
- vale_heavy_infantry_flavor:0 "Known for their defence of the Bloody Gate, these swordsmen are resolute in the defence of the Vale."
+ vale_heavy_infantry_flavor:0 "Known for their defense of the Bloody Gate, these swordsmen are resolute in the defense of the Vale."
  
  crownlands_spears:0 "Dusk Spears"
  crownlands_spears_flavor:0 "These spearmen know the lands of Blackwater Bay well, and are renowned for fighting in cities."
@@ -127,7 +134,7 @@
  reach_light_cavalry_flavor:0 "Fast and light, these outriders can cover the breadth of the Reach faster than any other mounted force, either to bring word or harass the enemy."
 
  riverlands_light_infantry:0 "Bargemen"
- riverlands_light_infantry_flavor:0 "Travelling up and down the Trident and its many, many tributaries these Bargemen provide their lords a quick and mobile infantry force."
+ riverlands_light_infantry_flavor:0 "Traveling up and down the Trident and its many, many tributaries, these Bargemen provide their lords a quick and mobile infantry force."
 
  westerlands_knights:0 "Lion Knights"
  westerlands_knights_flavor:0 "Strong and hardy, the knights of the Westerlands are as fierce as lions."
@@ -135,5 +142,8 @@
  stormlands_heavy_infantry:0 "Antlermen"
  stormlands_heavy_infantry_flavor:0 "Armored and armed in cold steel, these men adorn their helmets with antlers to show their fury."
 
+ westerosi_sellswords:0 "Westerosi Sellswords"
+ westerosi_sellswords_flavor:0 "Many Westerosi knights find service in the Free Companies of Essos, they are not as dedicated as those sworn to the lords in Westeros, for coin is never as strong as an oath."
 
- 
+ stepstone_sailors:0 "Stepstones Pirates"
+ stepstone_sailors_flavor:0 "The pirates of the Stepstones have been a nuisance since the Breaking and will be till the return of the Long Night."

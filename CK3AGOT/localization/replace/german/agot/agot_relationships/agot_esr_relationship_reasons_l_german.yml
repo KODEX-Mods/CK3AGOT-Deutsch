@@ -1,5 +1,5 @@
 ﻿l_german:
- esr_rival_declared_war_vengeful:0 "[TARGET_CHARACTER.GetShortUIName|U] erklärte [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'eurem', TARGET_CHARACTER.Custom('DE_PRO_POS_S_3P')em )] Rivalen, [CHARACTER.GetShortUIName|U]."
+ esr_rival_declared_war_vengeful:0 "[TARGET_CHARACTER.GetShortUIName|U] declared war on [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'your', TARGET_CHARACTER.GetHerHis )] rival, [CHARACTER.GetShortUIName|U]."
  esr_rival_declared_war_vengeful_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessive] rival, [CHARACTER.GetShortUIName|U], declared war on [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'you', TARGET_CHARACTER.GetHerHim )]."
 
  esr_rival_attempted_murder_vengeful:0 "[TARGET_CHARACTER.GetShortUINamePossessive] attempt at murdering [CHARACTER.GetShortUIName|U] was discovered."

@@ -1,9 +1,8 @@
 ﻿l_german:
- ##Übersetzt von Dillo dem Unfehlbaren
  #NOTE: follows the order of dynasties in the \common\dynasties\ files
  ### PREFIXES ###
- dynnp_of_the:0 "von "
-
+ dynnp_of_the:0 "of the "
+ 
  ### SUMMER ISLES DYNASTIES/CADET BRANCHES ###
  #Summer Islander
  dynn_Xho:0 "Xho"
@@ -14,7 +13,7 @@
  dynn_Mo:0 "Mo"
  dynn_Qho:0 "Qho"
  dynn_Xhoan:0 "Xhoan"
- dynn_Xhanu:0 "Xhanu"
+ dynn_Xhanu: "Xhanu"
  dynn_Luxho:0 "Luxho"
  dynn_Xhaxos:0 "Xhaxos"
  dynn_Uxo:0 "Uxo"
@@ -47,12 +46,12 @@
  dynn_Turalu:0 "Turalu"
  dynn_Jho:0 "Jho"
  dynn_Lho:0 "Lho"
-
+ 
  #Bassilisk Isles
  dynn_Salukho:0 "Salukho"
- #dynn_Bone0:0 "Bone"
-
+ dynn_Bone:0 "Bone"
+ 
  #Naath
  dynn_Kizwe:0 "Kizwe"
-
+ 
  #Brindlemen

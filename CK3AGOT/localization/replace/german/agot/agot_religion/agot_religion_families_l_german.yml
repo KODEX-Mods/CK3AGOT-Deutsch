@@ -1,10 +1,11 @@
-﻿l_german:
+﻿# by TitanRogue
 
+l_german:
 
  #Common Old Gods Localization
- rf_faith_of_the_seven:0 "Die Neuen Götter"
- rf_westerosi:0 "Die Alten Götter"
- rf_winter:0 "Finsternis"
- rf_valyrian:0 "Valyrisch"
- rf_rhoynish:0 "Rhoynisch"
- rf_dawnbringers:0 "Lichtbringer"
+ rf_faith_of_the_seven:0 "Faith of the Seven"
+ rf_westerosi:0 "Westerosi"
+ rf_winter:0 "Winter"
+ rf_valyrian:0 "Freehold"
+ rf_rhoynish:0 "Rhoynar"
+ rf_dawnbringers:0 "Dawnbringer"

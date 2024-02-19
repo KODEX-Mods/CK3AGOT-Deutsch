@@ -59,7 +59,7 @@
  agot_trial_by_combat.3002.t:0 "$agot_trial_by_combat.0000.t$: Defeat!"
  agot_trial_by_combat.3002.desc.intro:0 "[recipient.GetFaith.PantheonTerm|U] did not smile on me yesterday."
  agot_trial_by_combat.3002.desc.actor_own_champion:0 "As the despicable [actor.GetName] cleaves through [recipient_champion.GetName] I sigh. Why have the Gods' forsaken me? Looking down, [actor.GetName] grins broadly at me and gives a mocking bow before leaving."
- agot_trial_by_combat.3002.desc.both_champion:0 "As the despicable [actor.GetName]'s champion, [actor_champion.GetName] cleaves through [recipient_champion.GetName] I sigh. Why have the Gods' forsaken me? \n\n Looking over at [actor.GetName], [actor.GetSheHe] grins and gives a mocking bow before leaving. "
+ agot_trial_by_combat.3002.desc.both_champion:0 "As the despicable [actor.GetName]'s champion, [actor_champion.GetName] cleaves through [recipient_champion.GetName] I sigh. Why have the Gods' forsaken me? \n\nLooking over at [actor.GetName], [actor.GetSheHe] grins and gives a mocking bow before leaving. "
  agot_trial_by_combat.3002.desc.outro:0 "\n\nYesterday, we put our quarrel before [actor.GetFaith.PantheonTerm], and the Gods have sided against me. For what has my house done to earn their displeasure?"
  agot_trial_by_combat.3002.a:0 "Pah, there was no justice here."
 
@@ -68,7 +68,7 @@
  agot_trial_by_combat.3003.desc.intro:0 "[recipient.GetFaith.PantheonTerm|U] smiled heartily on me yesterday!"
  agot_trial_by_combat.3003.desc.both_fighting:0 "As I bring my weapon down, [actor.GetName] falls. I stand there panting, before I realize that I have won! The Gods have spared me and shown I was always in the right!"
  agot_trial_by_combat.3003.desc.actor_own_champion:0 "As [recipient_champion.GetName] kills [actor.GetName] I stand, vindicated in the eyes of Men and Gods!"
- agot_trial_by_combat.3003.desc.recipient_own_champion:0 "As I bring my weapon down, [actor._champion.GetName] falls. I stand there panting before, I look up and grin at [actor.GetName] before leaving."
+ agot_trial_by_combat.3003.desc.recipient_own_champion:0 "As I bring my weapon down, [actor_champion.GetName] falls. I stand there panting before, I look up and grin at [actor.GetName] before leaving."
  agot_trial_by_combat.3003.desc.both_champion:0 "As [recipient_champion.GetName] kills [actor_champion.GetName] I stand, vindicated in the eyes of Men and Gods! And, as I leave I grin at [actor.GetName]."
  agot_trial_by_combat.3003.desc.outro:0 "\n\nYesterday, we put our quarrel before [actor.GetFaith.PantheonTerm], and [actor.GetFaith.PantheonTerm] answered wisely."
  agot_trial_by_combat.3003.a:0 "Justice is served."
@@ -94,3 +94,4 @@
  agot_trial_by_combat.9001.tt.self_champion:0 "[actor.GetTitledFirstName] dies."
 
  lost_trial_by_combat_opinion:0 "Lost Trial By Combat"
+ denied_trial_by_combat_opinion:0 "Denied Me Trial By Combat"

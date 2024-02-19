@@ -6,7 +6,7 @@
  nick_bluetooth:0 "Bluetooth"
  nick_bluetooth_desc:1 "A solitary, blackened tooth gives [CHARACTER.GetShortUINameNoTooltipNoFormat] a uniquely famous grin."
  nick_canmore:1 "the Big Headed"
- nick_canmore_desc:1 "Also called „Great Chief“, [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] considered a strong, uniting force for the realm."
+ nick_canmore_desc:1 "Also called "Great Chief", [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] considered a strong, uniting force for the realm."
  nick_tanglehair:0 "Tanglehair"
  nick_tanglehair_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] made a vow, never to comb, cut, or clean [CharYourHerHis(CHARACTER)] hair before uniting the feuding lordlings of Norway."
  nick_fairhair:0 "Fairhair"
@@ -18,9 +18,9 @@
  nick_hildetand:0 "Wartooth"
  nick_hildetand_desc:1 "Legends abound of [CHARACTER.GetShortUINameNoTooltipNoFormat] losing teeth dramatically in battle — only to miraculously sprout two new ones."
  nick_lodbrok:1 "Loðbrók"
- nick_lodbrok_desc:1 "The cowering masses of the world call [CharYouHerHim(CHARACTER)] „Hairy Britches“, for it is said that [CharYouSheHe(CHARACTER)] wear[_s(CHARACTER)] trousers of hide torn from the corpse of a mighty wyrm. Naturally, one #EMP [CharYouSheHe(CHARACTER)]#! slew."
+ nick_lodbrok_desc:1 "The cowering masses of the world call [CharYouHerHim(CHARACTER)] "Hairy Britches", for it is said that [CharYouSheHe(CHARACTER)] wear[_s(CHARACTER)] trousers of hide torn from the corpse of a mighty wyrm. Naturally, one #EMP [CharYouSheHe(CHARACTER)]#! slew."
  nick_ring:0 "Ring"
- nick_ring_desc:1 "No one really knows why the world calls [CharYouHerHim(CHARACTER)] „$nick_ring$“, though eager peasants hope it's because [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] generous with [CharYourHerHis(CHARACTER)] purse."
+ nick_ring_desc:1 "No one really knows why the world calls [CharYouHerHim(CHARACTER)] "$nick_ring$", though eager peasants hope it's because [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] generous with [CharYourHerHis(CHARACTER)] purse."
  nick_snake_in_the_eye:0 "Snake-in-the-Eye"
  nick_snake_in_the_eye_desc:1 "Travellers whisper that [CharYouSheHe(CHARACTER)] bear[_s(CHARACTER)] the ouroboros as a blemish in [CharYourHerHis(CHARACTER)] eye — the eternal symbol of a snake biting its own tail. Few are willing to get close enough to check the veracity of such claims."
  nick_the_affable:0 "the Affable"
@@ -44,7 +44,7 @@
  nick_the_blind:0 "the Blind"
  nick_the_blind_desc:1 "[CharYourHerHis(CHARACTER)|U] lack of vision seems to be the only thing the world can see about [CHARACTER.GetShortUINameNoTooltipNoFormat]."
  nick_the_bold:0 "the Bold"
- nick_the_bold_desc:1 "Daring, dauntless, intrepid, valorous, heroic — [CharYourHerHis(CHARACTER)] name is synonymous with direct action swiftly taken. Even [CharYourHerHis(CHARACTER)] enemies call [CHARACTER.GetShortUINameNoTooltipNoFormat] „$nick_the_bold$“; at least it stops the tidal wave of synonyms."
+ nick_the_bold_desc:1 "Daring, dauntless, intrepid, valorous, heroic — [CharYourHerHis(CHARACTER)] name is synonymous with direct action swiftly taken. Even [CharYourHerHis(CHARACTER)] enemies call [CHARACTER.GetShortUINameNoTooltipNoFormat] "$nick_the_bold$"; at least it stops the tidal wave of synonyms."
  nick_the_boneless:0 "the Boneless"
  nick_the_boneless_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] frail skeleton belies the fierceness of [CharYourHerHis(CHARACTER)] mind and spirit."
  nick_the_brave:0 "the Brave"
@@ -142,10 +142,9 @@
  # nick_the_monk:0 "the Monk"
  # nick_the_monk_desc:1 "[CharYourHerHis(CHARACTER)|U] religious bearing and restrained lifestyle make [CHARACTER.GetShortUINameNoTooltipNoFormat] the ideal monk in the minds of many."
  nick_the_noble:0 "the Noble"
- # Technically "HerHim„ would be more correct here, be “SheHe" reads nicer IMHO.
+ # Technically "HerHim" would be more correct here, be "SheHe" reads nicer IMHO.
  nick_the_noble_desc:1 "Though there are many nobles in this world, few live up to the ideals of the word as much as [CharYouSheHe(CHARACTER)]."
  nick_the_old:0 "the Old"
- nick_the_old_prefix:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Alte"
  nick_the_old_desc:1 "It's not uncommon for people to greet [CHARACTER.GetShortUINameNoTooltipNoFormat] with astonishment that [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] still alive."
  nick_the_pious:0 "the Pious"
  nick_the_pious_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] fervor and dedication to [CHARACTER.GetFaith.GetName] are considered a mark of intense, inspirational devotion."
@@ -370,7 +369,7 @@
  nick_the_judge:0 "the Judge"
  nick_the_judge_desc:1 "$k_israel$ has called for just and true judges throughout history. [CharYouSheHe(CHARACTER)|U] [CharAreIs(CHARACTER)] sometimes remembered alongside them."
  nick_the_saoshyant:0 "the Saoshyant"
- nick_the_saoshyant_desc:1 "When all the world seemed swallowed by Ahura Mazda, [CharYouSheHe(CHARACTER)] [CharWereWas(CHARACTER)] there to restore the Light."
+ nick_the_saoshyant_desc:1 "When all the world seemed swallowed by [CHARACTER.GetFaith.DevilName], [CharYouSheHe(CHARACTER)] [CharWereWas(CHARACTER)] there to restore the Light."
  nick_the_timely_rain:0 "the Timely Rain"
  nick_the_timely_rain_desc:1 "The generosity of [CharYourHerHis(CHARACTER)] spirit and the respect in [CharYourHerHis(CHARACTER)] bearing do [CHARACTER.GetShortUINameNoTooltipNoFormat] credit."
  nick_the_jade_unicorn:0 "the Jade Unicorn"
@@ -386,7 +385,7 @@
  nick_the_whirlwind:0 "the Whirlwind"
  nick_the_whirlwind_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] strike hard, fast, and above all, unpredictably."
  nick_the_beautiful_beard:0 "the Beautiful Beard"
- # "HerHim„ is probably more grammatically correct, but “SheHe" has a nice ring to it here.
+ # "HerHim" is probably more grammatically correct, but "SheHe" has a nice ring to it here.
  nick_the_beautiful_beard_desc:1 "Its volume, its curls, its fragrant perfume; can anyone in the world claim to sport so majestic a beard as [CharYouSheHe(CHARACTER)]?"
  nick_the_tattooed_monk:0 "the Tattooed Monk"
  nick_the_tattooed_monk_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] prodigious strength may be legendary, but [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] happy that people think first of [CharYourHerHis(CHARACTER)] decorous body ink."
@@ -439,7 +438,7 @@
  nick_the_truthspeaker:0 "the Truthspeaker"
  nick_the_truthspeaker_desc:1 "No matter the gravity of the matter, people know that they can rely on [CharYourHerHis(CHARACTER)] honesty and integrity."
  nick_the_curthose:0 "Curthose"
- nick_the_curthose_desc:1 "As a child, [CharYourHerHis(CHARACTER)] father called [CHARACTER.GetShortUINameNoTooltipNoFormat] „Little Boot“. As an adult, [CharYouSheHe(CHARACTER)] can't get people to #EMP stop#! calling [CharYouHerHim(CHARACTER)] Little Boot."
+ nick_the_curthose_desc:1 "As a child, [CharYourHerHis(CHARACTER)] father called [CHARACTER.GetShortUINameNoTooltipNoFormat] "Little Boot". As an adult, [CharYouSheHe(CHARACTER)] can't get people to #EMP stop#! calling [CharYouHerHim(CHARACTER)] Little Boot."
  nick_the_deep_minded:0 "the Deep-Minded"
  nick_the_deep_minded_desc:1 "People talk of [CharYourHerHis(CHARACTER)] weighty thoughts and deep opinions. [CharYouSheHe(CHARACTER)|U] prefer[_s(CHARACTER)] to sit and think."
  nick_the_white:0 "the White"
@@ -449,7 +448,7 @@
  nick_the_bard:0 "the Bard"
  nick_the_bard_desc:1 "[CharYourHerHis(CHARACTER)|U] beautiful singing voice and fine playing-fingers make [CHARACTER.GetShortUINameNoTooltipNoFormat] something of a celebrity at every court [CharYouSheHe(CHARACTER)] deign[_s(CHARACTER)] to visit."
  nick_the_bard_ironic:0 "$nick_the_bard$"
- nick_the_bard_ironic_desc:1 "They call [CHARACTER.GetShortUINameNoTooltipNoFormat] „$nick_the_bard$“, because [CharYouSheHe(CHARACTER)] would be more entertaining strapped to the side of a charging horse than trying to sing."
+ nick_the_bard_ironic_desc:1 "They call [CHARACTER.GetShortUINameNoTooltipNoFormat] "$nick_the_bard$", because [CharYouSheHe(CHARACTER)] would be more entertaining strapped to the side of a charging horse than trying to sing."
  nick_hotspur:0 "Hotspur"
  nick_hotspur_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] foes whisper that, when campaigning, [CharYourHerHis(CHARACTER)] spurs never even touch the ground, such is [CharYourHerHis(CHARACTER)] time spent in the saddle and the fury of [CharYourHerHis(CHARACTER)] attacks. This somewhat carries over into a middling skill at football."
  nick_the_black_adder:0 "the Black Adder"
@@ -461,7 +460,7 @@
  nick_the_diseased:0 "the Diseased"
  nick_the_diseased_desc:1 "The first thing people usually hear about [CHARACTER.GetShortUINameNoTooltipNoFormat] is [CharYourHerHis(CHARACTER)] cough."
  nick_the_flash:0 "the Flash of [CHARACTER.GetFaith.HighGodName]"
- nick_the_flash_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharTryTries(CHARACTER)] not to think of [CharYourHerHimself(CHARACTER)] as the Wrath of [CHARACTER.GetFaith.HighGodName]. „Flash“ is much more diplomatic."
+ nick_the_flash_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharTryTries(CHARACTER)] not to think of [CharYourHerHimself(CHARACTER)] as the Wrath of [CHARACTER.GetFaith.HighGodName]. "Flash" is much more diplomatic."
  nick_hand:0 "Bad Hand"
  nick_hand_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] lack of luck and propensity to take decisions that later turn out to be disastrous has, occasionally, been noted."
  nick_bloody:0 "Bloody"
@@ -483,7 +482,7 @@
  nick_the_rash:0 "the Rash"
  nick_the_rash_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] think[_s(CHARACTER)] of [CharYourHerHimself(CHARACTER)] as direct, but the wider world sees [CHARACTER.GetShortUINameNoTooltipNoFormat] as thoughtless and hasty."
  nick_moneybags:0 "Moneybags"
- nick_moneybags_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] would perhaps rather be known as „the Wealthy“, but unfortunately people have a very specific view of [CharYourHerHis(CHARACTER)] wealth."
+ nick_moneybags_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] would perhaps rather be known as "the Wealthy", but unfortunately people have a very specific view of [CharYourHerHis(CHARACTER)] wealth."
  nick_the_elegant:0 "the Elegant"
  nick_the_elegant_desc:0 "A delicate touch begets a graceful result, a refined process cultivates a sophisticated reputation."
  nick_the_eager:0 "the Eager"
@@ -691,7 +690,7 @@
  nick_the_justicar_desc:1 "Folk mostly agree that [CharYourHerHis(CHARACTER)] rulings are fair and balanced."
  nick_the_green:0 "the Green"
  nick_the_green_desc:2 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] thought to be a dab-hand with a trowel."
-
+ 
  # EP1
  nick_king_of_fashion:0 "the [CHARACTER.GetTitleAsNameNoTooltip] of Fashion"
  nick_king_of_fashion_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] found power and influence in a world of silk and sable."
@@ -713,6 +712,8 @@
  nick_the_heart_throb_desc:1 "It's a rare heart left unfluttered in [CharYourHerHis(CHARACTER)] wake."
  nick_the_beautiful:0 "the Beautiful"
  nick_the_beautiful_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] divine, stunning, and perpetually sought-after."
+ nick_the_beautiful_generous: "the Beautiful"
+ nick_the_beautiful_desc_generous: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] perhaps not beautiful in the traditional sense, but nonetheless go by this nickname on account of [CharYourHerHis(CHARACTER)] actions."
  nick_the_blushing:0 "the Blushing"
  nick_the_blushing_desc:1 "Social situations have a way of bringing a shine to [CharYourHerHis(CHARACTER)] cheeks."
  nick_the_stutterer:0 "the Stutterer"
@@ -724,7 +725,7 @@
  nick_the_stud:0 "the Stud"
  nick_the_stud_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] appearance has been known to give people #EMP ideas#!."
 
- # FP2
+  # FP2
  nick_the_bell_keeper:0 "the Bell-Keeper"
  nick_the_bell_keeper_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] opinions on bell-ringing are... a touch unorthodox."
  nick_the_requiem:0 "the Requiem"
@@ -747,6 +748,8 @@
  nick_the_pragmatic_desc:0 "The best solution is the most appropriate one for the moment."
  nick_the_equitable:1 "the Equitable"
  nick_the_equitable_desc:1 "A fair and even-handed partition is [CharYourHerHis(CHARACTER)] preference in all things."
+ nick_the_crownless:0 "the Crownless"
+ nick_the_crownless_desc: "Though not especially poetic, [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] epithet is evocative, direct, and burns [CharYourHerHis(CHARACTER)] ears every time."
 
  # BP1
  nick_the_real:0 "The Real"
@@ -769,7 +772,6 @@
  nick_the_smelly_desc:0 "Somehow, some way, it #EMP still#! lingers."
  nick_the_venator:0 "the Venator"
  nick_the_venator_desc:1 "No mere animal can evade [CharYourHerHis(CHARACTER)] keen hunting instincts."
-
 
  # EP2
  nick_the_dirty:0 "the Dirty"
@@ -1041,6 +1043,36 @@
  nick_the_abominable:0 "the Abominable"
  nick_the_abominable_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] looks paired with [CharYourHerHis(CHARACTER)] terrible demeanor invites comparions to horrible beasts."
  nick_bloody_hand:0 "the Bloody-Hand"
+
+#FP3
+ nick_the_coppersmith: "the Coppersmith"
+ nick_the_eagle_of_arasbaran: "the Eagle of Arasbaran"
+ nick_the_eagle_of_arasbaran_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] restored a great fort in the Arasbaran mountains."
+ nick_the_fortress_builder: "the Fortress-Builder"
+ nick_the_fortress_builder_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] rebuilt a great fort in the mountains."
+ nick_the_fire_quencher: "the Fire-Quencher"
+ nick_the_fire_quencher_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] famous for having quenched the Sacred Fires."
+ nick_the_firekeeper: "the Fire Keeper"
+ nick_the_firekeper_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for having reformed [CHARACTER.GetFaith.GetName], but saved the Sacred Fires."
+ nick_the_fortunate: "the Fortunate"
+ nick_the_ambidextrous: "the Ambidextrous"
+ nick_the_lute_player: "the Lute-Player"
+ nick_the_lute_player_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known to be extremely skilled with a lute."
+ nick_the_rekindler_of_iran: "the Flame of Persia"
+ nick_the_rekindler_of_iran_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] restored Persian independence after centuries of Arabic hegemony."
+
+ nick_the_righteous_caliph: "the Righteous"
+ nick_the_righteous_caliph_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for being righteous and just in the eyes of [CHARACTER.GetFaith.HighGodNameAlternate]"
+ nick_the_conceding: "the Conceding"
+ nick_the_conceding_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] was forced to make concessions to stay in power."
+ nick_order_of_the_realm: "the Order of the Realm"
+ nick_order_of_the_realm_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] one of the realm's fairest, most capable, and best regarded civil servants."
+ nick_the_martyr_king: "the Martyr King"
+ nick_the_younger_missionary: "the Younger Missionary"
+ nick_the_younger_missionary_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for championing the [CHARACTER.GetFaith.GetAdherentNameNoTooltip] cause, though less than [Select_CString( CHARACTER.IsLocalPlayer, 'your', 'his' )] brother."
+ nick_the_caliph_protector: "the Protector of the Caliphate"
+ nick_the_caliph_protector_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] has subjugated the Sunni Caliphate."
+ 
  nick_bloody_hand_desc:1 "After a desperate act of self-mutilation, [CHARACTER.GetShortUINameNoTooltipNoFormat] was forever known as '[CHARACTER.GetNicknameNoTooltip]'"
  nick_the_nameless:0 "the Nameless"
  nick_the_nameless_desc:0 "Who?"
@@ -1057,3 +1089,10 @@
  nick_the_castle_builder_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] renowned for [CharYourHerHis(CHARACTER)] knowledge of how to build sturdy and reliable castles."
  nick_the_temple_builder: "the Temple Builder"
  nick_the_temple_builder_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] showing [CharYourHerHis(CHARACTER)] dedication to a higher plane by constructing monuments on earth."
+
+ 
+ nick_chief_of_the_zanj: "Sahib az-Zanj"
+ nick_chief_of_the_zanj_desc: "Having been adopted by the mistreated Zanj labourers as their leader in their struggle for freedom, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] is known as The Chief of the Zanj."
+ nick_albaghid: "Albaghid"
+ nick_albaghid_desc: "While some would describe him as a idealist revolutionary, [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U]'s stumbling from place to place, while escaping authorities from their many failed uprisings have earned them the epithet "Albaghid", the Abominable."
+

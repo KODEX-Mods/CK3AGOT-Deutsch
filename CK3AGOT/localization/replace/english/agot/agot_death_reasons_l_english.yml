@@ -1,6 +1,6 @@
 ﻿l_english:
  #AGOT
- death_broken_heart:0 "died of a broken heart" # sadge 
+ death_broken_heart:0 "died of a broken heart" # sadge
 
 
  #left all the ones from vanilla in temporarily, fix if you care
@@ -10,7 +10,7 @@
  death_wildfire_killer:0 "was set ablaze with wildfire by [TARGET_CHARACTER.GetUIName]"
  death_wildfire_killer_killer:0 "was set ablaze with wildfire by [TARGET_CHARACTER.GetUIName]"
  death_wildfire_KL_killer:0 "Incinerated during the Wildfire Explosion of King's Landing when [TARGET_CHARACTER.GetUIName] "Burned Them All""
- death_wildfire_KL:0 "Incinerated during the Wildfire Explosion of King's Landing" 
+ death_wildfire_KL:0 "Incinerated during the Wildfire Explosion of King's Landing"
  death_drinking_wildfire:0 "died after drinking wildfire"
  death_wildfire_accident:0 "Was burned to death in a wildfire accident"
  death_duel_trial_by_combat:0 "died in a Trial by Combat"
@@ -28,9 +28,25 @@
  death_tourney_joust:0 "died in a jousting accident"
  death_wolf_hunt:0 "died hunting a wolf"
  death_spring_sickness:0 "died from a bad case of [GetTrait('spring_sickness').GetName( CHARACTER.Self )]"
- death_winter_fever:0 "died from a bad case of [GetTrait('winter_fever').GetName( CHARACTER.Self )]"
+ death_winter_fever:0 "died from a bad case of Winter Fever"
  death_greyscale:0 "died from a bad case of greyscale"
- death_bloody_flux:0 "died from a bad case of [GetTrait('bloody_flux').GetName( CHARACTER.Self )]"
+ death_bloody_flux:0 "died from a bad case of Bloody Flux"
  death_stillborn:0 "died stillborn"
  death_rabble:0 "killed by the rabble"
  death_crushed_by_boulder:0 "crushed by a plummeting boulder"
+ death_suffocate_on_cock:0 "suffocated on his own mangled cock"
+ death_turned_into_soup:0 "cooked down into a bowl of brown"
+ death_turned_into_soup_killer:0 "cooked down into a bowl of brown by [TARGET_CHARACTER.GetUIName]"
+ death_devoured_in_womb:0 "was devoured in the womb"
+ death_devoured_in_womb_killer:0 "was devoured in the womb by [TARGET_CHARACTER.GetUIName]"
+ death_vanished_slave_trade:0 "vanished after being sold into slave trade"
+ death_vanished_slave_trade_killer:0 "vanished after being sold into slave trade by [TARGET_CHARACTER.GetUIName]"
+ death_fell_off_the_wall:0 "fell off the Wall"
+ death_jumped_off_the_wall:0 "jumped off the Wall"
+ death_disappeared_on_ranging:0 "disappeared on a ranging"
+ death_grabbed_by_grumkins:0 "grabbed by grumkins"
+ death_lost_in_snowstorm:0 "lost in snowstorm"
+ death_wildlings:0 "was abducted by wildlings"
+ death_moonclans:0 "was abducted by Vale clansmen"
+ death_shot_arrow:0 "was shot by an arrow"
+ death_shot_arrow_murder:0 "was shot by an arrow fired by [TARGET_CHARACTER.GetUIName]"
