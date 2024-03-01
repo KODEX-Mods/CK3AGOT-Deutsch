@@ -1,56 +1,57 @@
 ﻿l_german:
+ ##Übersetzt von dem ehrenwerten Strhoynar Dillo
  #NOTE: follows the order of dynasties in the \common\dynasties\ files
  ### RHOYNAR CULTURE DYNASTIES/CADET BRANCHES ###
  #Sand Dornish
  dynn_Gapalgar:0 "Gapalgar"
  dynn_Norland:0 "Norland"
- dynn_Galesand:0 "Galesand"
+ dynn_Galesand:0 "Galsand"
  dynn_Ramdrin:0 "Ramdrin"
  dynn_Manroner:0 "Manroner"
  dynn_Santon:0 "Santon"
- dynn_Tidmarsh:0 "Tidmarsh"
+ dynn_Tidmarsh:0 "Ebbmarsch"
  dynn_Paldwyn:0 "Paldwyn"
- dynn_Goodwyn:0 "Goodwyn"
+ dynn_Goodwyn:0 "Guthwyn"
  dynn_Byrnell:0 "Byrnell"
  dynn_Ryparr:0 "Ryparr"
- dynn_Whitestaff:0 "Whitestaff"
- dynn_Redham:0 "Redham"
- dynn_Tawnell:0 "Tawnell"
- dynn_Summers:0 "Summers"
+ dynn_Whitestaff:0 "Weyßstab"
+ dynn_Redham:0 "Rothyn"
+ dynn_Tawnell:0 "Tonell"
+ dynn_Summers:0 "Sommern"
  dynn_Briddon:0 "Briddon"
- dynn_Spears:0 "Spears"
- dynn_Shadbolt:0 "Shadbolt"
- dynn_Bells:0 "Bells"
+ dynn_Spears:0 "Speeren"
+ dynn_Shadbolt:0 "Schattenbolt"
+ dynn_Bells:0 "Schellen"
  dynn_Qowell:0 "Qowell"
- 
+
  #Salt Dornish
- dynn_Greystoke:0 "Greystoke"
+ dynn_Greystoke:0 "Grauschyrf"
  dynn_Solhart:0 "Solhart"
- dynn_Alminset:0 "Alminset"
+ dynn_Alminset:0 "Alminser"
  dynn_Aldana:0 "Aldana"
- dynn_Tanatell:0 "Tanatell"
+ dynn_Tanatell:0 "Tannatell"
  dynn_Solavar:0 "Solavar"
- dynn_Reddune:0 "Reddune"
- dynn_Jordion:0 "Jordion"
- dynn_Sourton:0 "Sourton"
- dynn_Barrows:0 "Barrows"
- dynn_Sevengrace:0 "Sevengrace"
- dynn_Nymercain:0 "Nymercain"
- dynn_Seacourt:0 "Seacourt"
- dynn_Driftway:0 "Driftway"
+ dynn_Reddune:0 "Redden"
+ dynn_Jordion:0 "Jordyn"
+ dynn_Sourton:0 "Sauerten"
+ dynn_Barrows:0 "Karenn"
+ dynn_Sevengrace:0 "Siebengnad"
+ dynn_Nymercain:0 "Nymerkayn"
+ dynn_Seacourt:0 "Seehof"
+ dynn_Driftway:0 "Driftweg"
  dynn_Somberlyn:0 "Somberlyn"
  dynn_Quarton:0 "Quarton"
  dynn_Lockhart:0 "Lockhart"
- dynn_Wendane:0 "Wendane"
+ dynn_Wendane:0 "Wendayn"
  dynn_Dartyng:0 "Dartyng"
- dynn_Dancer:0 "Dancer"
- dynn_Woodlyn:0 "Woodlyn"
- dynn_Ethers:0 "Ethers"
- dynn_Nightfall:0 "Nightfall"
- dynn_Lemonwood:0 "Lemonwood"
+ dynn_Dancer:0 "Tänzern"
+ dynn_Woodlyn:0 "Waldyn"
+ dynn_Ethers:0 "Eters"
+ dynn_Nightfall:0 "Nachtfall"
+ dynn_Lemonwood:0 "Zitronenhain"
  dynn_Meredyn:0 "Meredyn"
- dynn_Merrihill:0 "Merrihill"
- 
+ dynn_Merrihill:0 "Merriberg"
+
  #Sarhoyan
  dynn_Treboros:0 "Treboros"
  dynn_Myros:0 "Myros"
@@ -69,20 +70,20 @@
  dynn_Malloren:0 "Malloren"
  dynn_Nystos:0 "Nystos"
  dynn_Noylos:0 "Noylos"
- dynn_Mirtayne:0 "Mirtayne"
+ dynn_Mirtayne:0 "Mirtayn"
  dynn_Feron:0 "Feron"
  dynn_Sandamel:0 "Sandamel"
- dynn_Hylane:0 "Hylane"
+ dynn_Hylane:0 "Hyleyn"
  dynn_Nysaros:0 "Nyaros"
- dynn_Somayne:0 "Somayne"
- dynn_Silvane:0 "Silvane"
+ dynn_Somayne:0 "Somayn"
+ dynn_Silvane:0 "Silvayn"
  dynn_Sallerion:0 "Sallerion"
  dynn_Choyan:0 "Choyan"
- dynn_Ghoyane:0 "Ghoyane"
+ dynn_Ghoyane:0 "Ghoyan"
  dynn_Armell:0 "Armell"
  dynn_Larnoy:0 "Larnoy"
  dynn_Nymell:0 "Nymell"
- 
+
  #Sar Melli
  dynn_Treboros:0 "Treboros"
  dynn_Myros:0 "Myros"
@@ -114,7 +115,7 @@
  dynn_Armell:0 "Armell"
  dynn_Larnoy:0 "Larnoy"
  dynn_Nymell:0 "Nymell"
- 
+
  #Chroyani
  dynn_Treboros:0 "Treboros"
  dynn_Myros:0 "Myros"
@@ -136,7 +137,7 @@
  dynn_Mirtayne:0 "Mirtayne"
  dynn_Feron:0 "Feron"
  dynn_Sandamel:0 "Sandamel"
- dynn_Hylane:0 "Hylane"
+ dynn_Hylane:0 "Hyleyn"
  dynn_Nysaros:0 "Nysaros"
  dynn_Somayne:0 "Somayne"
  dynn_Silvane:0 "Silvane"
@@ -146,7 +147,7 @@
  dynn_Armell:0 "Armell"
  dynn_Larnoy:0 "Larnoy"
  dynn_Nymell:0 "Nymell"
- 
+
  #Ny Sari
  dynn_Treboros:0 "Treboros"
  dynn_Myros:0 "Myros"
@@ -169,7 +170,7 @@
  dynn_Mirtayne:0 "Mirtayne"
  dynn_Feron:0 "Feron"
  dynn_Sandamel:0 "Sandamel"
- dynn_Hylane:0 "Hylane"
+ dynn_Hylane:0 "Hyleyn"
  dynn_Nysaros:0 "Nysaros"
  dynn_Somayne:0 "Somayne"
  dynn_Silvane:0 "Silvane"
@@ -180,12 +181,10 @@
  dynn_Larnoy:0 "Larnoy"
  dynn_Nymell:0 "Nymell"
 
- ## unlocalized ones 
+ ## unlocalized ones
  dynn_Tidmarch:0 "Tidmarch"
  dynn_Rhoynos:0 "Rhoynos"
- 
- #Upper Rhoynar (excluded due to continued replication of dynasty names — if a localisation is found missing then manually add them in)
- 
- #Ar Noyan (excluded due to continued replication of dynasty names — if a localisation is found missing then manually add them in)
 
- 
+ #Upper Rhoynar (excluded due to continued replication of dynasty names — if a localisation is found missing then manually add them in)
+
+ #Ar Noyan (excluded due to continued replication of dynasty names — if a localisation is found missing then manually add them in)

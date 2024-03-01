@@ -1,9 +1,10 @@
 ﻿l_german:
+ ##Übersetzt von Dillo
  #NOTE: follows the order of dynasties in the \common\dynasties\ files
  ### PREFIXES ###
- dynnp_of_the:0 "of the "
- dynnp_the:0 "the "
- 
+ dynnp_of_the:0 "von "
+ dynnp_the:0 "der "    ##?????? -maester Dillo
+
  ### FREE CITIES DYNASTIES/CADET BRANCHES ###
  #Volantis
  dynn_Kirines:0 "Kirines"
@@ -21,7 +22,7 @@
  dynn_Dynion:0 "Dynion"
  dynn_Istarion:0 "Istarion"
  dynn_Menarios:0 "Menarios"
- 
+
  #Braavos
  dynn_Otharys:0 "Otharys"
  dynn_Zalyne:0 "Zalnye"
@@ -54,7 +55,7 @@
  dynn_Ydorys:0 "Ydorys"
  dynn_Saar:0 "Saar"
  dynn_Malhorvys:0 "Malhorvys"
- 
+
  #Tyrosh
  dynn_Basetys:0 "Basetys"
  dynn_Camardoon:0 "Camardoon"
@@ -71,7 +72,7 @@
  dynn_Jayn:0 "Jayn"
  dynn_Tyraanis:0 "Tyraanis"
  dynn_Baerdoon:0 "Baerdoon"
- 
+
  #Myr
  dynn_Myr:0 "Myr"
  dynn_Trellos:0 "Trellos"
@@ -93,10 +94,10 @@
  dynn_Deorel:0 "Deorel"
  dynn_Unerelos:0 "Unerelos"
  dynn_Valduran:0 "Valduran"
- 
+
  #Stepstones
  dynn_Lashare:0 "Lashare"
- 
+
  #Lys
  dynn_Ormollen:0 "Ormollen"
  dynn_Erosenes:0 "Erosenes"
@@ -117,7 +118,7 @@
  dynn_Cithien:0 "Cithien"
  dynn_Stepstones:0 "Stepstones"
  dynn_Mahr:0 "Mahr"
- 
+
  #Norvos
  dynn_Nyelossos:0 "Nyelossos"
  dynn_Daryth:0 "Daryth"
@@ -127,18 +128,18 @@
  dynn_Falos:0 "Falos"
  dynn_Galathis:0 "Galathis"
  dynn_Hotah:0 "Hotah"
- dynn_Golden_Axe_Order:0 "Golden Axe Order"
- dynn_Black_Axe_Order:0 "Black Axe Order"
- dynn_Order_of_Nyel:0 "Order of Nyel"
- dynn_Order_of_the_Bear:0 "Order of the Bear"
- dynn_Order_of_Service:0 "Order of Service"
- dynn_Iron_Order:0 "Iron Order"
- dynn_Order_of_War:0 "Order of War"
- dynn_White_Beard_Order:0 "White Beard Order"
- dynn_Inspiration_Order:0 "Inspiration Order"
+ dynn_Golden_Axe_Order:0 "Orden der Goldenen Axt"
+ dynn_Black_Axe_Order:0 "Orden der Schwarzen Axt"
+ dynn_Order_of_Nyel:0 "Orden von Nyel"
+ dynn_Order_of_the_Bear:0 "Orden des Bären"
+ dynn_Order_of_Service:0 "Orden des Dienstes"
+ dynn_Iron_Order:0 "Eisenorden"
+ dynn_Order_of_War:0 "Orden des Krieges"
+ dynn_White_Beard_Order:0 "Weißbartorden"
+ dynn_Inspiration_Order:0 "Orden der Erleuchtung"
  dynn_golathis:0 "Golathis"
  dynn_Votyris:0 "Votyris"
- 
+
  #Qohor
  dynn_Zhander:0 "Zhander"
  dynn_Reymnos:0 "Reymnos"
@@ -153,7 +154,7 @@
  dynn_Rolgott:0 "Rolgott"
  dynn_Malavott:0 "Malavott"
  dynn_Mott:0 "Mott"
- 
+
  #Pentos
  dynn_Mopatis:0 "Mopatis"
  dynn_Narratys:0 "Narratys"
@@ -187,7 +188,7 @@
  dynn_Butcher:0 "Butcher"
  house_Gold_Draz:0 "Draz"
  house_Red_Draz:0 "Draz"
- 
+
  #Lorath
  dynn_Naylan:0 "Naylan"
  dynn_Reltis:0 "Reltis"
@@ -200,14 +201,14 @@
  dynn_N_ghan:0 "N'ghan"
  dynn_Delyios:0 "Delyios"
  dynn_H_ghar:0 "H'ghar"
- 
+
  #Essaria
  dynn_Pahryris:0 "Pahryris"
  dynn_Naeyor:0 "Naeyor"
  dynn_Iranoran:0 "Iranoran"
  dynn_Hestyrion:0 "Hestyrion"
  dynn_Sorrerion:0 "Sorrerion"
- 
+
  #Gogossos
  dynn_Paenohrin:0 "Paenohrin"
  dynn_Brenaris:0 "Brenaris"
@@ -215,5 +216,5 @@
  dynn_Vhassorlan:0 "Vhassorlan"
  dynn_Ennyrion:0 "Ennyrion"
 
- ## Three Daughters 
+ ## Three Daughters
  dynn_Cravys:0 "Cravys"
