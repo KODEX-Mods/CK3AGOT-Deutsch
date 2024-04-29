@@ -14,7 +14,7 @@
  DIARCHY_WINDOW_SWING_SCALES: "Die Waagschalen ausschlagen lassen"
  DIARCHY_WINDOW_END_DIARCHY: "[DiarchyWindow.GetDiarchyOwner.GetDiarchyTypeNameNoTooltip|U] beenden"
  DIARCHY_WINDOW_DIARCH_SELECTION_TOOLTIP: "#T [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle] designieren\n#!Wählt Euren designierten [Concept('diarch', 'Diarchen')|E] ([DiarchyWindow.GetDiarchyOwner.GetDiarchTitle]) aus und überschreibt damit die Nachfolge\n\n[SelectLocalization(DiarchyWindow.IsDesignateDiarchOnCooldown, 'DIARCHY_WINDOW_TMP', '')]"
- DIARCHY_WINDOW_TMP: "@warning_icon!#X Ein neuer [regent|E] kann erst nach [DiarchyWindow.GetNextDesignationText|V] bestimmt werden#!"
+ DIARCHY_WINDOW_TMP: "@warning_icon! #X Ein neuer [regent|E] kann erst nach [DiarchyWindow.GetNextDesignationText|V] bestimmt werden#!"
  DIARCHY_WINDOW_DIARCH_APTITUDE: "Gesamt-[Concept('diarch_aptitude', 'Eignung')|E]: [DiarchyWindow.GetDiarchAptitudeText(Character.Self)]"
  DIARCHY_WINDOW_DIARCH_APTITUDE_LIST: "[Concept('diarch_aptitude', 'Eignung')|E]: [CharacterListItem.GetText('aptitude_label')]"
  DIARCHY_WINDOW_DIARCH_APTITUDE_TOOLTIP: "[Concept('diarch_aptitude', 'Eignungs')|E]-Punkte"

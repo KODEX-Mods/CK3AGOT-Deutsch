@@ -532,7 +532,7 @@
  #Vassal relation
  FRAME_RELATION_POWERFUL_VASSAL: "#T Mächtiger Vasall#!\nDieser [ruler|E] ist ein [powerful_vassal|E], der nichts von Euch erwartet"
  FRAME_RELATION_HAPPY_POWERFUL_VASSAL: "#T Mächtiger Vasall#!\nDieser [ruler|E] ist ein [powerful_vassal|E], der erwartet, im [council|E] zu bleiben"
- FRAME_RELATION_UNAHAPPY_POWERFUL_VASSAL: "#T Mächtiger Vasall#!\n@warning_icon!#X Dieser [ruler|E] ist ein [powerful_vassal|E], dessen [opinion|E] über Euch schlechter ausfällt, weil Ihr ihm keinen Posten im [council|E] gewährt habt#!"
+ FRAME_RELATION_UNAHAPPY_POWERFUL_VASSAL: "#T Mächtiger Vasall#!\n@warning_icon! #X Dieser [ruler|E] ist ein [powerful_vassal|E], dessen [opinion|E] über Euch schlechter ausfällt, weil Ihr ihm keinen Posten im [council|E] gewährt habt#!"
  FRAME_RELATION_NON_POWERFUL_VASSAL: "#T Vasall#!"
  #To address someone (RelationToMeAddress)
  relation_my_love: "mein Schatz"

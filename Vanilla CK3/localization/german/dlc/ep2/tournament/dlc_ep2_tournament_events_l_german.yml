@@ -52,6 +52,7 @@
  tournament_events.0150.c: "[tournament_champion.GetFirstNameNoTooltip] hat sich für [tournament_champion.Custom('DE_PRO_POS_S_3P')]en Sieg einen Bonus verdient!"
  tournament_events.0150.b.success: "Eure Worte stoßen auf Zuspruch"
  tournament_events.0150.b.failure: "Niemand schenkt Euch besondere Beachtung"
+ tournament_events.0150.legendseeddrop: "\nIch habe nun schon zum dritten Mal einen Wettbewerb gewonnen. Die Geschichten meiner Erfolge verbreiten sich bereits weit und breit.\n"
  tournament_events.0160.t: "$tournament_header$ Die Ausbeute"
  tournament_events.0160.desc: "Die Wettbewerbe sind endlich vorbei, und mein angekündigter Preis, die Hand von [marriage_prize.GetTitledFirstName] an einen würdigen Gewinner zu übergeben, wurde von den Teilnehmern nicht vergessen – und auch mein[marriage_prize.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', marriage_prize)] erinnert sich noch daran …\n\n"
  tournament_events.0160.a: "Es scheint, als hätte ich selbst Eure Hand in der Ehe gewonnen, [ROOT.Char.Custom2('RelationToMeShort', marriage_prize)]!"

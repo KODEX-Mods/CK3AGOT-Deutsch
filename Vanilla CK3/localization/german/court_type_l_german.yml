@@ -1,7 +1,7 @@
 ﻿l_german:
  CHANGE_COURT_TYPE_HIDE: "#I „Hofart ändern“-Fenster verbergen#!"
  CHANGE_COURT_TYPE_SHOW: "#I Klicken, um Hofart zu ändern#!"
- COURT_TYPE_NOT_VALID: "@warning_icon!#X Ihr könnt nicht zu dieser Hofart wechseln:#!"
+ COURT_TYPE_NOT_VALID: "@warning_icon! #X Ihr könnt nicht zu dieser Hofart wechseln:#!"
  CHANGE_COURT_TYPE_ACCEPT: "Hofart ändern"
  CHANGE_COURT_TYPE_ACCEPT_NO_SELECTION: "Wählt eine Hofart"
  CHANGE_COURT_TYPE_HEADER: "Hofart ändern"

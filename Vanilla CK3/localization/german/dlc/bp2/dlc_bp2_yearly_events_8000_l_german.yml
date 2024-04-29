@@ -34,7 +34,7 @@
  bp2_yearly.8080.a.dislikes.tt: "[ward.GetFirstNameNoTooltip] spricht schlecht von Euch"
  bp2_yearly.8080.b: "So tief werde ich nicht sinken."
  bp2_yearly.8081.t: "Mein Loblied singen"
- bp2_yearly.8081.desc: "Ich schicke [ward.GetFirstName] hinüber zu [Select_CString(target.IsFemale, 'meiner', 'meinem')] Angebeteten, und im Nu schaut [target.GetFirstName] mit einem Lächeln auf den Lippen zu mir, während [target.Custom('DE_PRO_PER_S_3P_N)] mit meinem jungen Mündel spricht."
+ bp2_yearly.8081.desc: "Ich schicke [ward.GetFirstName] hinüber zu [Select_CString(target.IsFemale, 'meiner', 'meinem')] Angebeteten, und im Nu schaut [target.GetFirstName] mit einem Lächeln auf den Lippen zu mir, während [target.Custom('DE_PRO_PER_S_3P_N')] mit meinem jungen Mündel spricht."
  bp2_yearly.8081.a: "Was für ein wundervolles Kind."
  bp2_yearly.8082.t: "Geschmäht"
  bp2_yearly.8082.desc: "Ich schicke [ward.GetFirstName] hinüber zu [Select_CString(target.IsFemale, 'meiner', 'meinem')] Angebeteten und bin voller Erwartungsfreude. Es dauert nicht allzu lang, bis [target.GetFirstName] zu mir schaut und jedes Mal, wenn [ward.GetFirstNameNoTooltip] den Mund öffnet, heftig kichert.\n\nIch kann nicht viel verstehen, doch ich höre die Worte „[ROOT.Char.Custom('InsultAdjective')|l]“, „[ROOT.Char.Custom('InsultNoun')]“ und „stinkend“, die mehrfach Erwähnung finden."

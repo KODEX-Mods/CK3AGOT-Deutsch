@@ -3,6 +3,9 @@
  death_old_age: "starb an Altersschwäche"
  death_bubonic_plague: "starb an der [GetTrait('bubonic_plague').GetName(CHARACTER.Self)]"
  death_smallpox: "starb an den [GetTrait('smallpox').GetName(CHARACTER.Self)]"
+ death_measles: "starb an [GetTrait('measles').GetName(CHARACTER.Self)]"
+ death_dysentery: "starb an der [GetTrait('dysentery').GetName(CHARACTER.Self)]"
+ death_ergotism: "tanzte sich wegen [GetTrait('ergotism').GetName(CHARACTER.Self)] zu Tode"
  death_typhus: "starb an [GetTrait('typhus').GetName(CHARACTER.Self)]"
  death_cancer: "starb an [GetTrait('cancer').GetName(CHARACTER.Self)]"
  death_pneumonic: "starb an [GetTrait('pneumonic').GetName(CHARACTER.Self)]"
@@ -324,3 +327,5 @@
  #BP2
  death_hostage_execution: "wurde als Geisel hingerichtet"
  death_hostage_execution_killer: "wurde als Geisel von [TARGET_CHARACTER.GetUIName] hingerichtet"
+ #CE1
+ death_peaceful: "wurde von den höchsten Mächten ([CHARACTER.GetFaith.HighGodName]) im Schlaf geholt"

@@ -1,6 +1,6 @@
 ﻿l_german:
  ep2_activities_legacy_track_name: "Aktivitäten"
- ep2_activities_legacy_track_desc: "Um die Welt wirklich zu erleben, müssen wir andere Menschen erleben."
+ ep2_activities_legacy_track_desc: "Um die Welt wirklich zu erleben, müssen wir andere Menschen erleben"
  ep2_activities_legacy_track: "[dynasty_perk|E]-Aktivitäten"
  ep2_activities_legacy_1_name: "Zu wandern auf heiligen Pfaden"
  ep2_activities_legacy_1_pilgrimages_cheaper_effect: "[GetActivityType('activity_pilgrimage').GetName]n sind [EmptyScope.ScriptValue('ep2_activities_legacy_1_pilgrimages_discount_value')|0+%] günstiger"

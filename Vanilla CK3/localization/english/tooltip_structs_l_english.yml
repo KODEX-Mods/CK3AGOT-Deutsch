@@ -1,7 +1,6 @@
 ﻿l_english:
  game_concept_struct:2 "#TOOLTIP:GAME_CONCEPT,$DESC_KEY$ $KEY_LOC$#!"
  CHARACTER_TAG_TOOLTIP:0 "#ONCLICK:CHARACTER,$ID$ #TOOLTIP:CHARACTER,$ID$ #L $NAME$#!#!#!"
- CHARACTER_CONTEXT_TOOLTIP:0 "#ONCLICK:CHARACTER,$ID$ #TOOLTIP:CHAR_CONTEXT_TOOLTIP,$ID$,$KEY$ #L $TEXT$#!#!#!"
  game_culture_struct:1 "#ONCLICK:CULTURE,$ID$ #TOOLTIP:CULTURE,$DESC_KEY$ $KEY_LOC|L$#!#!"
  game_faith_struct:2 "#ONCLICK:FAITH,$ID$ #TOOLTIP:FAITH,$DESC_KEY$ $KEY_LOC|L$#!#!"
  game_religion_struct:0 "#TOOLTIP:RELIGION,$DESC_KEY$ $KEY_LOC|L$#!"
@@ -19,9 +18,11 @@
  game_scheme_struct:0 "#TOOLTIP:SCHEME,$DESC_KEY$ $KEY_LOC|L$#!"
  game_static_modifier_struct_positive:0 "#TOOLTIP:STATIC_MODIFIER,$DESC_KEY$ #P $KEY_LOC|L$#!#!"
  game_static_modifier_struct_negative:0 "#TOOLTIP:STATIC_MODIFIER,$DESC_KEY$ #N $KEY_LOC|L$#!#!"
+ game_static_modifier_struct_mixed: "#TOOLTIP:STATIC_MODIFIER,$DESC_KEY$ #M $KEY_LOC|L$#!#!"
  game_static_modifier_struct:0 "#TOOLTIP:STATIC_MODIFIER,$DESC_KEY$ #V $KEY_LOC|L$#!#!"
  game_scaled_static_modifier_struct_positive:0 "#TOOLTIP:SCALED_STATIC_MODIFIER,$DESC_KEY$,$MULTIPLIER$,$MAIN_DESC_KEY$,$EFFECT_DESC_KEY$ #P $KEY_LOC|L$#!#!"
  game_scaled_static_modifier_struct_negative:0 "#TOOLTIP:SCALED_STATIC_MODIFIER,$DESC_KEY$,$MULTIPLIER$,$MAIN_DESC_KEY$,$EFFECT_DESC_KEY$ #N $KEY_LOC|L$#!#!"
+ game_scaled_static_modifier_struct_mixed:0 "#TOOLTIP:SCALED_STATIC_MODIFIER,$DESC_KEY$,$MULTIPLIER$,$MAIN_DESC_KEY$,$EFFECT_DESC_KEY$ #M $KEY_LOC|L$#!#!"
  game_scaled_static_modifier_struct:0 "#TOOLTIP:SCALED_STATIC_MODIFIER,$DESC_KEY$,$MULTIPLIER$,$MAIN_DESC_KEY$,$EFFECT_DESC_KEY$ #V $KEY_LOC|L$#!#!"
  game_law_struct:0 "#TOOLTIP:LAW,$DESC_KEY$ $KEY_LOC|L$#!"
  game_terrain_struct:0 "#TOOLTIP:TERRAIN,$DESC_KEY$ $KEY_LOC|L$#!"
@@ -59,4 +60,6 @@
  game_house_unity_stage_struct: "#TOOLTIP:HOUSE_UNITY_STAGE,$DESC_KEY$ $KEY_LOC|L$#!"
  game_decision_struct: "#ONCLICK:DECISION,$KEY$ #TOOLTIP:DECISION,$DESC_KEY$ $KEY_LOC|L$#!#!"
  game_tax_slot_obligation_struct: "#TOOLTIP:TAX_SLOT_OBLIGATION,$DESC_KEY$ $KEY_LOC|L$#!"
-  
+ game_epidemic_struct: "#ONCLICK:EPIDEMIC,$DESC_KEY$ #TOOLTIP:EPIDEMIC,$DESC_KEY$ $KEY_LOC|L$#!#!"
+ game_legend_struct: "#ONCLICK:LEGEND,$DESC_KEY$ #TOOLTIP:LEGEND,$DESC_KEY$ $KEY_LOC|L$#!#!"
+ game_province_struct: "#ONCLICK:PROVINCE,$DESC_KEY$ #TOOLTIP:PROVINCE,$DESC_KEY$ $KEY_LOC|L$#!#!"

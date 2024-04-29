@@ -188,7 +188,7 @@
  bp1_house_feud.0830.opening: "Endlich kann ich ruhen,"
  bp1_house_feud.0830.desc: " sicher in dem Wissen, dass das verfluchte Haus [first_rival.GetHouse.GetBaseName] vom Antlitz der Erde getilgt wurde, wodurch die Blutfehde, die es einst auf so törichte Art provozierte ([story.Custom('GetFamilyFeudShortFlavor')]), nun ein für alle Mal vorüber ist."
  bp1_house_feud.0830.first_owner: "\n\nIch habe triumphiert, und [Select_CString(first_rival.IsFemale, 'diese Närrin', 'dieser Narr')] [first_rival.GetTitledFirstName] ist endlich unter der Erde!"
- bp1_house_feud.0830.fallback: "\n\nObschon [first_owner.GetTitledFirstName] diesen Tag nicht mehr erlebt hat, hoffe ich, dass [first_owner.Custom('DE_PRO_PER_S_3P_N')] im Jenseits nun zufrieden ist."
+ bp1_house_feud.0830.fallback: "\n\nObschon [first_owner.GetTitledFirstName] diesen Tag nicht mehr erleben durfte, hoffe ich, dass [first_owner.Custom('DE_PRO_PER_S_3P_N')] im Jenseits ([ROOT.Char.GetFaith.PositiveAfterLife]) nun zufrieden ist."
  bp1_house_feud.0830.losing: "\n\nAuch wenn sie unserer Familie einen hohen Preis abgerungen haben, der noch Jahre nach wirken wird, gibt es keine größere Befriedigung oder Erleichterung als das Wissen, dass ihr Banner nie wieder wehen wird."
  bp1_house_feud.0830.winning: "\n\nWir haben ihre Zahl vollkommen dezimiert und so dafür Sorge getragen, dass niemand unserer Familie trotzen wird, der nicht dazu bereit ist, einen hohen Preis dafür zu zahlen."
  bp1_house_feud.0830.even: "\n\nJedes Mal, wenn wir ihm einen Verlust zufügten, gab es eine Vergeltung, doch nun haben wir den Schlussstrich unter die Geschichte von Haus [first_rival.GetHouse.GetBaseNameNoTooltip] gezogen."
@@ -371,4 +371,4 @@
  swap_feud_tt: "Beendet eine [house_feud|E] mit [house|E] [house_feud_existing.GetBaseName]"
  #Tweaks
  house_feud_cooldown_tt: "Euer [house|E] wird für 25 Jahre keine weitere [house_feud|E] beginnen können."
- house_reward_modifier_tt: "Dieser Modifikator beruht auf Euren derzeitigen [house_feud|E]-Punkten"
+ house_reward_modifier_tt: "#italic Dieser Modifikator beruht auf Euren derzeitigen [house_feud|E]-Punkten#!"

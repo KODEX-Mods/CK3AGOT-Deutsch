@@ -1,4 +1,5 @@
 ﻿l_german:
+ HEALTH_VALUE_FORMAT_ALREADY_DEAD: "#N Der Schnitter naht#!"
  HEALTH_VALUE_FORMAT_CATASTROPHIC_PENALTY: "#N Katastrophaler Malus#!"
  HEALTH_VALUE_FORMAT_EXTREME_PENALTY: "#N Extremer Malus#!" #Replaced with Critical
  HEALTH_VALUE_FORMAT_CRITICAL_PENALTY: "#N Kritischer Malus#!"

@@ -316,7 +316,7 @@
  hunt.1062.guest: "[host.GetTitledFirstName] sieht aufgeregt zu, als [host.Custom('DE_PRO_POS_S_3P')] Jagdvogel ein Ziel aufnimmt und sich hoch in die Lüfte erhebt."
  hunt.1062.exotic: "\n\nIch klettere in Position, um die [activity.Custom('GetAnimalPlural')] zu verfolgen, und mein Vogel ([activity.Custom('GetRaptorType')]) macht alles richtig! Die in Panik geratene Beute schlägt Alarm und verstreut sich, doch es ist zu spät!"
  hunt.1062.water: "\n\nDie Treiber haben die lärmenden [activity.Custom('GetAnimalColor')|l]en [activity.Custom('GetAnimalPlural')] aufgescheucht, die nun die Luft mit dem Geräusch ihrer flatternden Flügel erfüllen."
- hunt.1062.ground: "\n\nDie [activity.Custom('GetAnimalPlural')] haben noch keine Ahnung, dass mein ([activity.Custom('GetRaptorType')] von hoch oben den Boden nach ihnen absucht."
+ hunt.1062.ground: "\n\nDie [activity.Custom('GetAnimalPlural')] haben noch keine Ahnung, dass mein [activity.Custom('GetRaptorType')] von hoch oben den Boden nach ihnen absucht."
  hunt.1062.sky: "\n\nEr stürzt herab wie ein Blitzschlag: Einen Moment später vernehmen wir das hörbare Krachen des Aufpralls, als seine Beute vom Himmel herabfällt!"
  hunt.1062.floor: "\n\nEr stürzt herab wie ein Blitzschlag: Die Beute sucht panisch Deckung, doch es ist bereits zu spät!!!"
  hunt.1062.a: "#EMP JA!#!"

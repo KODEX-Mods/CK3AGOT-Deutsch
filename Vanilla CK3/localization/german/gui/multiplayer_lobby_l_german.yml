@@ -1,6 +1,6 @@
 ﻿l_german:
  MULTIPLAYER_LOBBY_DIFFICULTY_HEADER: "Schwierigkeiten:"
- MULTIPLAYER_LOBBY_DIFFICULTY_INFO_TEXT: "@warning_icon!#X [Character.GetDifficultyInfoText]#!"
+ MULTIPLAYER_LOBBY_DIFFICULTY_INFO_TEXT: "@warning_icon! #X [Character.GetDifficultyInfoText]#!"
  MULTIPLAYER_LOBBY_CHOOSE_RANDOM_CHARACTER: "Zufälliger Charakter"
  MULTIPLAYER_LOBBY_PLAY_OBSERVER: "Als Zuschauer spielen"
  MULTIPLAYER_LOBBY_NOT_READY: "#N Kein Charakter ausgewählt#!"

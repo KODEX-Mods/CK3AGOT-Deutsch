@@ -1,6 +1,6 @@
 ﻿l_german:
  ACTIVE_COUNCIL_TASK_TT: "Mein [ActiveCouncilTask.GetPositionType.GetName] [ActiveCouncilTask.GetCouncillor.GetUIName] ist der Aufgabe [ActiveCouncilTask.GetTaskType.GetName|V] zugewiesen"
- ACTIVE_COUNCIL_TASK_FROZEN_TT: "#T [ActiveCouncilTask.GetTaskType.GetName|V]#!\n@warning_icon!#X Weist diesem Ratsposten einen Charakter zu, damit die Aufgabe fortgesetzt wird#!"
+ ACTIVE_COUNCIL_TASK_FROZEN_TT: "#T [ActiveCouncilTask.GetTaskType.GetName|V]#!\n@warning_icon! #X Weist diesem Ratsposten einen Charakter zu, damit die Aufgabe fortgesetzt wird#!"
  POTENTIAL_COUNCIL_TASK_TT: "[ActiveCouncilTask.GetCouncillor.GetUIName] wird der Aufgabe [ActiveCouncilTask.GetTaskType.GetName|V] zugewiesen"
  COUNCIL_TASK_TT: "#T [ActiveCouncilTask.GetTaskType.GetName]#!\n[SelectLocalization(GuiPotentialCouncilTask.IsActive, 'ACTIVE_COUNCIL_TASK_TT', 'POTENTIAL_COUNCIL_TASK_TT')]"
  COUNCIL_TASK_MAP_TT: "#T [ActiveCouncilTask.GetTaskType.GetName]#!\n$ACTIVE_COUNCIL_TASK_TT$"

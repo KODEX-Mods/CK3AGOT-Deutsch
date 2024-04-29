@@ -114,7 +114,7 @@
  drunk_knight_marries_log_title: "Nächtliche Versprechungen"
  drunk_knight_marries_log: "[TARGET_CHARACTER.GetTitledFirstName] erwachte nach heftiger Zecherei mit einem neuen Herrn und als angeheiratetes Familienmitglied von [CHARACTER.GetTitledFirstName]."
  drunk_knight_beats_log_title: "Schrecken der Taverne"
- drunk_knight_beats_log: "Im Suff hatte [TARGET_CHARACTER.GetTitledFirstName] eine Reihe bekannter Kämpfer arg zugerichtet, um als $knight_culture_player_plural_no_tooltip_lowercase$) Aufnahme bei [CHARACTER.GetTitledFirstName] zu finden."
+ drunk_knight_beats_log: "Im Suff hatte [TARGET_CHARACTER.GetTitledFirstName] eine Reihe bekannter Kämpfer arg zugerichtet, um als $knight_culture_player_plural_no_tooltip_lowercase$ Aufnahme bei [CHARACTER.GetTitledFirstName] zu finden."
  drunk_oaths_log_title: "Anwerber mit roter Nase"
  drunk_oaths_log: "[CHARACTER.GetTitledFirstName] brachte eine Gruppe besoffener $knight_culture_player_plural_no_tooltip_lowercase$ dazu, zu [CHARACTER.Custom('DE_PRO_POS_S_3P')]en Gunsten ihre Lehnsherren zu verlassen – besonders erwähnenswert unter diesen war [TARGET_CHARACTER.GetTitledFirstName]."
  #TOURNAMENT GROUNDS

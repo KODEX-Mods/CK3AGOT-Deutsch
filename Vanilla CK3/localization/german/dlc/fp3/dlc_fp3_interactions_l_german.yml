@@ -89,7 +89,7 @@
  fp3_challenge_house_head_interaction: "Hausoberhaupt herausfordern"
  fp3_challenge_house_head_interaction_desc: "[recipient.GetShortUIName] als [house_head|E] ([recipient.GetHouse.GetBaseName]) herausfordern. Eine Ablehnung wirft ein schlechtes Licht auf [recipient.Custom('DE_PRO_PER_S_3P_A')]."
  fp3_challenge_house_head_interaction_notification: "Ihr seid nicht stark genug, um Haus [actor.GetHouse.GetBaseName] zu führen – lasst es mich mit meinem Schwert beweisen."
- fp3_challenge_house_head_interaction_notification_diplomacy: "Ich möchte mit Euch über Euren Platz als Oberhaupt des Hauses ([actor.GetHouse.GetBaseName]= sprechen – ich glaube, es ist Zeit für einen Wechsel."
+ fp3_challenge_house_head_interaction_notification_diplomacy: "Ich möchte mit Euch über Euren Platz als Oberhaupt des Hauses ([actor.GetHouse.GetBaseName]) sprechen – ich glaube, es ist Zeit für einen Wechsel."
  fp3_challenge_house_head_interaction_heir_bonus: "Herausforderung als rechtmäßiger [Concept('heir', 'Erbe')|E] erzwingen"
  fp3_challenge_house_head_interaction_heir_bonus_desc: "Bitte des [Concept('heir', 'Erben')|E]"
  fp3_challenge_house_head_interaction_duel_tooltip_warning: "@warning_icon! #X Es besteht ein Verletzungsrisiko!#!"

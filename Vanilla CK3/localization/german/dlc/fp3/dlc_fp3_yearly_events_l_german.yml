@@ -570,7 +570,7 @@
  fp3_scholarship_research_success_slight_loss_effect: "Das [research_project|E] von [inspiration_owner.GetShortUIName|U] wird eine #N geringfügig geringere Chance#! auf Erfolg haben"
  fp3_scholarship_research_success_gain_effect: "Das [research_project|E] von [inspiration_owner.GetShortUIName|U] wird eine #P höhere Chance#! auf Erfolg haben"
  fp3_scholarship_research_success_slight_gain_effect: "Das [research_project|E] von [inspiration_owner.GetShortUIName|U] wird eine #P geringfügig höhere Chance#! auf Erfolg haben"
- fp3_scholarship.8000.t: "Ein neues $Game_concept_research_project$"
+ fp3_scholarship.8000.t: "Ein neues $game_concept_research_project$"
  fp3_scholarship.8000.desc: "[Select_CString(court_scholar.IsFemale, 'Meine Hofgelehrte', 'Mein Hofgelehrter')] [court_scholar.GetName] eilt mit mehreren Bediensteten im Schlepptau zu mir, die Arme voll mit Büchern, Schriftrollen und uralten Pergamenten.\n\n„Ich glaube, ich kann einen Durchbruch erzielen! Ich brauche nur genügend Zeit, reichlich Geld und genug Tinte, um den Indus schwarz zu färben.“"
  fp3_scholarship.8000.a: "Nehmt die Zügel in die Hand, [court_scholar.GetFirstNameNoTooltip]."
  fp3_scholarship.8000.b: "Vielleicht ein anderes Mal?"

@@ -25,6 +25,7 @@
  world_steppe_tarim: "Tarimbecken"
  world_steppe_west: "Westliche Steppe"
  world_steppe_east: "Östliche Steppe"
+ world_central_asia: "Zentralasien"
  world_steppe: "Steppe"
  world_europe: "Europa"
  world_middle_east: "Naher Osten"
@@ -110,6 +111,10 @@
  custom_polabia: "Sorbien"
  ghw_region_britannia: "Britische Inseln"
  ghw_region_germany: "Germanien"
+ ghw_region_anatolia: "Anatolien"
+ ghw_region_egypt_et_al: "Ägypten"
+ israel_region: "Israel"
+ troy_region: "Troja"
  #FP1
  dlc_fp1_region_core_north_sea: "Nordsee-Herzland"
  dlc_fp1_region_core_mainland_scandinavia: "Skandinavisches Festland"

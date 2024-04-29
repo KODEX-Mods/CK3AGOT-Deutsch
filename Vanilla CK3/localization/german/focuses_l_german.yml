@@ -109,8 +109,8 @@
  education_rank_4_percentage: "40 %"
  education_rank_5_percentage: "50 %"
  ### EDUCATION
- FOCUS_NO_AGE: "#X @warning_icon!Ein Kind unter $AGE$ kann keinen [education_focus|E] haben#!"
- FOCUS_MAX_CHANGES: "#X @warning_icon!Der [education_focus|E] kann nur einmal geändert werden#!"
+ FOCUS_NO_AGE: "#X @warning_icon! Ein Kind unter $AGE$ kann keinen [education_focus|E] haben#!"
+ FOCUS_MAX_CHANGES: "#X @warning_icon! Der [education_focus|E] kann nur einmal geändert werden#!"
  #Education Focuses
  education_diplomacy_modifier: "Diplomatie-Ausbildung"
  education_martial_modifier: "Kriegsführungs-Ausbildung"

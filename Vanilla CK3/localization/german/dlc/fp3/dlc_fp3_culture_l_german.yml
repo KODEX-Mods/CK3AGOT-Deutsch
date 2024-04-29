@@ -15,6 +15,7 @@
  ###################################
  master_assassin_court_position: "Meistermeuchler"
  master_assassin_court_position_desc: "Durch einen Glauben oder Ehrenkodex gebunden unterstützt der Meistermeuchler seinen Lehnsherrn mit ungewöhnlichen Methoden von Kriegsführung, Spionage, Terror und Mord."
+ master_assassin_employer_custom_effect_description: "$BULLET$Schaltet das [scheme|E] „Meuchelmord“ frei\n@alert_icon! #alert_trial Kann kein [knight|E] sein!#!"
  has_no_particular_noble_roots_trigger: "Ist von [Concept('lowborn', 'niederer Geburt')|E] oder aus einer unbedeutenden [dynasty|E]"
  court_scholar_court_position: "Hofgelehrter"
  court_scholar_court_position_desc: "Der Hofgelehrte steht für das intellektuelle Rückgrat eures Reichs und hilft bei der Entdeckung zukünftiger [innovations|E]."
@@ -58,8 +59,7 @@
  steppe_or_desert_percentage_desc: "Die [culture|E] hat nicht #V 30 %#! ihrer [counties|E] im [terrain|E] Steppen oder Wüste."
  culture_parameter_unlock_maa_tarkhan: "Kann [GetMaA('tarkhan').GetName] als [men_at_arms|E] rekrutieren"
  culture_parameter_faith_warrior_traits_more_valued: "Die [traits|E] „[GetTrait('faith_warrior').GetName(GetNullCharacter)]“ und „[GetTrait('order_member').GetName(GetNullCharacter)]“ sind [prestige_i][prestigious|E]"
- culture_parameter_diligent_trait_more_common: "Die [trait|E] „[GetTrait('diligent').GetName(GetNullCharacter)]“ ist verbreiteter"
- culture_parameter_tribal_elective_enabled: "Kann folgendes [succession_law|E] erlassen: #high $tribal_elective_succession_law$#!"
+ culture_parameter_tribal_elective_enabled: "Erlaubt folgendes [succession_law|E]: [GetLaw('tribal_elective_succession_law').GetName|U]"
  culture_parameter_pardoning_gives_prestige: "Die [interaction|E] #V $pardon_interaction$#! gewährt [prestige|E]"
  culture_parameter_pragmatic_traits_county_opinion_modifiers: "Die [traits|E] „[GetTrait('diligent').GetName(GetNullCharacter)]“ und „[GetTrait('shrewd').GetName(GetNullCharacter)]“ geben [county_opinion|E]"
  culture_parameter_unlock_maa_zupin_warrior: "Kann [GetMaA('tarkhan').GetName] als [men_at_arms|E] rekrutieren"

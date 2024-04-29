@@ -139,3 +139,6 @@
  ACTIVITY_GUEST_OPTION_FEAST_COURSES_BAD: "$feast_courses_bad$: $VALUE|=+0$"
  ACTIVITY_GUEST_OPTION_FEAST_COURSES_NORMAL: "$feast_courses_normal$: $VALUE|=+0$"
  ACTIVITY_GUEST_OPTION_FEAST_COURSES_GOOD: "$feast_courses_good$: $VALUE|=+0$"
+ #Plagues
+ ACTIVITY_GUEST_EPIDEMIC_REASON: "[ROOT.Char.Custom('DE_PRO_PER_S_3P_N')|U] wird während einer $travel_danger_type_epidemic$ nicht reisen: $VALUE|=+0$"
+ ACTIVITY_GUEST_EPIDEMIC_APOCALYPTIC_REASON: "[ROOT.Char.Custom('DE_PRO_PER_S_3P_N')|U] wird während einer $game_concept_plague_apocalyptic$en $travel_danger_type_epidemic$ nicht reisen: $VALUE|=+0$"

@@ -23,6 +23,6 @@
  invite_a_linguist_liege_confirm: "$invite_a_linguist_self_confirm$"
  invite_a_linguist_tt_self: "Ihr werdet nach jemandem suchen, der [target_court_language.GetCourtLanguage.GetName], Eure [court_language|E], unterrichten kann."
  invite_a_linguist_tt_liege: "Ihr werdet nach jemandem suchen, der [target_court_language.GetCourtLanguage.GetName|U], die [court_language|E] Eures [Concept('liege', 'Lehnsherrn')|E] [target_court_language.GetTitledFirstNameRegnal] unterrichten kann"
- learn_language_will_cancel_ongoing_schemes_tt: "@warning_icon!#X Ein laufendes [personal_scheme|E] wird abgebrochen, wenn Euch ein freier Platz fehlt#!"
+ learn_language_will_cancel_ongoing_schemes_tt: "@warning_icon! #X Ein laufendes [personal_scheme|E] wird abgebrochen, wenn Euch ein freier Platz fehlt#!"
  linguist_already_present: "Ihr habt bereits einen Sprachkundler bei Hofe"
  scheming_already: "Ihr erlernt bereits eine Sprache"

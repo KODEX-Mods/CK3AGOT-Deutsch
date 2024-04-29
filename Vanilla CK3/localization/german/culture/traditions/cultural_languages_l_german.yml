@@ -87,8 +87,11 @@
  aesthetics_scottish_name: "Schottisch"
  aesthetics_sicilian_name: "Sizilianisch"
  #Dead Languages - Only used in custom loc
- language_hebrew_name: "Hebräisch"
  language_pali_name: "Pali"
  language_avestan_name: "Avestan"
  language_classical_tibetan_name: "Klassisches Tibetisch"
  language_sanskrit_name: "Sanskrit"
+ #Dead languages used by dead cultures
+ language_egyptian_name: "Ägyptisch"
+ language_hunnic_name: "Hunnisch"
+ language_ancient_greek_name: "Hellenisch"
