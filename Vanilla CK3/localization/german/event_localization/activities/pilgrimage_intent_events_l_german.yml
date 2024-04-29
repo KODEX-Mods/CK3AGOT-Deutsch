@@ -34,7 +34,7 @@
  pilgrimage_intent.1010.b: "„Das geht Euch nichts an!“"
  #Fellow pilgrims of a different faith are on your path
  pilgrimage_intent.1020.t: "$zealotry_intent_header$ Unbekannte Pilger"
- pilgrimage_intent.1020.desc: "Wir sind auf unserer Route bisher vielen Pilgern begegnet, die [ROOT.Char.GetFaith.GetAdherentNameNoTooltip]) waren, und alle waren fromm und dem Willen der höchsten Mächte ([ROOT.Char.GetFaith.HighGodName]) treu ergeben.\n\nDoch bald kommen wir in die Gesellschaft einer Gruppe seltsamer Reisender aus fernen Ländern. Sie stellen sich als „[pilgrim_character.GetFaith.GetAdherentNamePlural]“ vor und erzählen uns, dass dieser Weg auch für ihr Volk heilig sei."
+ pilgrimage_intent.1020.desc: "Wir sind auf unserer Route bisher vielen Pilgern begegnet, die [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] waren, und alle waren fromm und dem Willen der höchsten Mächte ([ROOT.Char.GetFaith.HighGodName]) treu ergeben.\n\nDoch bald kommen wir in die Gesellschaft einer Gruppe seltsamer Reisender aus fernen Ländern. Sie stellen sich als „[pilgrim_character.GetFaith.GetAdherentNamePlural]“ vor und erzählen uns, dass dieser Weg auch für ihr Volk heilig sei."
  pilgrimage_intent.1020.a: "„Nur [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] dürfen diese Reise antreten.“"
  pilgrimage_intent.1020.a.conversion_succesful.t: "$pilgrimage_intent.1000.a.conversion_succesful.t$"
  pilgrimage_intent.1020.a.conversion_succesful.desc: "Ihr bekehrt die Pilger"

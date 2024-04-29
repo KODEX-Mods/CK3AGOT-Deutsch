@@ -280,7 +280,7 @@
  hurt_while_climbing_log_title: "Verletzung beim Klettern"
  hurt_while_climbing_log: "[CHARACTER.GetTitledFirstName] unternahm einen ehrgeizigen Kletterversuch und stürzte recht unsanft"
  playdate_excellent_climbing_log_title: "Eindrucksvolles Klettern"
- playdate_excellent_climbing_log: "[CHARACTER.GetTitledFirstName] beeindruckte alle, indem [CHARACTER.Custom('DE_PRO_PER_S_3P_N] hoch hinaufkletterte"
+ playdate_excellent_climbing_log: "[CHARACTER.GetTitledFirstName] beeindruckte alle, indem [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] hoch hinaufkletterte"
  playdate_drowned_log_title: "Tragisches Ertrinken"
  playdate_drowned_log: "[CHARACTER.GetTitledFirstName] ging beim Versuch zu schwimmen unter und ertrank"
  playdate_imaginary_currency_log_title: "Neue Währung eingeführt"

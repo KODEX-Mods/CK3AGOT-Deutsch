@@ -9,4 +9,4 @@
  BANNER_RAISE_PROMPT: "#T Armee und alle Truppen ausheben, die diesem Sammelpunkt zugewiesen sind#!"
  BANNER_CANCEL_RAISING: "Ausheben abbrechen"
  BANNER_CANCEL_RAISING_PROMPT: "#T Ausheben dieses Sammelpunkts abbrechen und Armee entlassen#!"
- BANNER_LIST_DOMAIN_LIMIT_PENALTY_TOOLTIP: "@warning_icon!#X Über [domain_limit|E]. Aufgebote aus der [domain|E] werden um $PENALTY|%0$ reduziert#!"
+ BANNER_LIST_DOMAIN_LIMIT_PENALTY_TOOLTIP: "@warning_icon! #X Über [domain_limit|E]. Aufgebote aus der [domain|E] werden um $PENALTY|%0$ reduziert#!"

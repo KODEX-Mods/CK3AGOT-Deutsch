@@ -3,4 +3,4 @@
  DESIGNATE_HEIR_ENACT: "Designierter Nachfolger"
  DESIGNATE_HEIR_WINDOW_DESIGNATED_HEIR: "@warning_icon! Derzeitiger designierter Nachfolger"
  DESIGNATE_HEIR_COST_DESC: "Kosten: @prestige_icon! $COST$"
- DESIGNATE_HEIR_SELECT_TARGET: "@warning_icon!#X Kein Erbe ausgewählt#!"
+ DESIGNATE_HEIR_SELECT_TARGET: "@warning_icon! #X Kein Erbe ausgewählt#!"

@@ -263,6 +263,7 @@
  ep2_wedding.1030.c: "Was für ein garstiges Vorzeichen! Wir sind zum Untergang verdammt!"
  wedding_omen_dismissed_log_title: "Omen verworfen"
  wedding_omen_dismissed_log: "[CHARACTER.GetUIName|U] tat ein schlechtes Vorzeichen in Bezug auf [TARGET_CHARACTER.GetUIName] ab"
+ ep2_wedding.1030.d: "Wunderbar! Eine Hochzeit, die der [ROOT.Char.dynasty.GetName]-Dynastie würdig ist!"
  #New Family
  ep2_wedding.1120.t: "Neue Familie"
  ep2_wedding.1120.desc: "Hochzeitszeremonien sind immer lang, ziemlich langweilig und meistens ereignislos, außer wenn irgendwo hinter mir ein Tumult entsteht."

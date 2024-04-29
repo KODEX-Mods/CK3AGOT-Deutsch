@@ -74,7 +74,7 @@
  DISMISS_ALL: "Alle ausblenden"
  DISMISS_CS_TT: "#T $DISMISS$#!\nDiese Situation verwerfen. Es kommt noch zu Situationen derselben Art, doch diese konkrete wird verborgen.\n\nIhr könnt diese Situation zurückbringen, indem Ihr den Zurücksetzen-Knopf in dieser Ansicht verwendet."
  DISMISS_ALL_TT: "#T $DISMISS_ALL$#!"
- DISMISS_SUGGESTION_TT: "#T $DISMISS$#!\nDiesen Vorschlag verwerfen. Ein neuer Vorschlag taucht alle [GetDefine('NSuggestions', 'PLAYER_SUGGESTION_MONTHS_UPDATE')] Monate auf."
+ DISMISS_SUGGESTION_TT: "#T $DISMISS$#!\nDiesen Vorschlag verwerfen. Ein neuer Vorschlag taucht alle [GetDefine('NSuggestions', 'GLOBAL_SPAN_MONTHS')] Monate auf."
  UNLANDED_TITLE: "$SUBJECT_TYPE$ von [CHARACTER.GetShortUIName]"
  #click
  RIGHT_CLICK_DISMISS: "#I Zum Ausblenden rechtsklicken#!"
@@ -103,5 +103,6 @@
  CULTURE_COOLTIP_WINDOW: "[Culture.GetName]"
  CULTURE_COOLTIP_GETNAME: "[Culture.GetNameNoTooltip]"
  SORT_BY: "Sortieren nach: "
+ FILTER_BY: "Filtern nach:"
  DEBUG_TITLE_KEYS: "Titelschlüssel und De-jure-Lehnsherren:"
  DEBUG_REGION_KEYS: "Geografische Regionen:"

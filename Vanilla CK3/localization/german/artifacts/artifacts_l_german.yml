@@ -653,7 +653,7 @@
  witch_queen_love_poem_name: "Ein entzaubertes Herz"
  witch_queen_love_poem_description: "Ein Gedicht über zwei verliebte Frauen: eine Hexe und eine Königin, die sich zu einer Hütte mitten im Wald verlaufen haben. Beide genießen diesen Augenblick fernab der Gesellschaft. Man munkelt, die Hexe sei eine Selbstkarikatur der Verfasserin [inspiration_owner.GetTitledFirstNameNoTooltip]."
  #Books
- book_artifact_title_desc: "Das in Leder gebundene Buch beschreibt all die Opfer und die mühsame Arbeit, die von seinem Verfasser in ein ganz besonderes Feld investiert wurden ([SCOPE.Custom('ArtifactBookSubject')]."
+ book_artifact_title_desc: "Das in Leder gebundene Buch beschreibt all die Opfer und die mühsame Arbeit, die von seinem Verfasser in ein ganz besonderes Feld investiert wurden ([SCOPE.Custom('ArtifactBookSubject')])."
  book_artifact_no_topic_desc: "Das in Leder gebundene Buch geht sehr ausführlich auf [SCOPE.Custom('ArtifactBookSubject_DE_ART_DEF_S_N')][SCOPE.Custom('ArtifactBookSubject')] ein und enthält detaillierte Abbildungen und dekorative Vermerke."
  book_artifact_other_desc: "Das in Leder gebundene Buch vermittelt ein [SCOPE.Custom('ArtifactArticleBookContentQuality')|l]es Verständnis für [SCOPE.Custom('ArtifactBookSubject_DE_ART_DEF_S_N')][SCOPE.Custom('ArtifactBookSubject')], da es auch [SCOPE.Custom('ArtifactBookTopic')] behandelt."
  book_artifact_martial: "Kriegskunst"
@@ -990,8 +990,8 @@
  #Easter eggs
  easteregg_artifact_elisabeth_plush: "Elisabeths ausgestopfter Fuchs"
  easteregg_artifact_elisabeth_plush_description: "Elisabeths ausgestopfter Fuchs ist ein heiß geliebtes Spielzeug und hat sie den Großteil ihres Lebens begleitet. Oft sah man Elisabeth, wie sie mit ihm sprach, während sie die schmuckvollen Chiffren für ihre Arbeitgeber wob. Es ist beruhigend und ermutigt den Besitzer, es dem schlauen Fuchs gleich zu tun."
- easteregg_artifact_nicks_weapon: "Fröhlicher Kerkermeister"
- easteregg_artifact_nicks_weapon_description: "Eine wahrhaft prächtige Waffe, ob deren Gegenwart Fürsten und Fürstinnen gleichermaßen ins Schwärmen geraten. Eine kleine Inschrift im Heft lautet: „Falls Feinsinnigkeit versagt.“"
+ easteregg_artifact_nicks_redolence: "Wohlgeruch des Arztes"
+ easteregg_artifact_nicks_redolence_description: "Ein Fläschchen mit einem kleinen Maß an Duftstoff – die Farbe ein [ROOT.Char.Custom('GetComplexColor')] –, der Herren und Damen gleichermaßen ins Wanken bringt. Eine kleine Inschrift auf dem Stopfen lautet: „Für das, was dich plagt.“"
  easteregg_artifact_chad_book: "Die kommentierte Aeneis"
  easteregg_artifact_chad_book_description: "Eine oft gelesene und illuminierte Ausgabe der Aeneis von Virgil mit zahlreichen Randnotizen – manche albern, andere einsichtsreich."
  easteregg_artifact_chad_dagger: "Der Dolch"
@@ -1097,3 +1097,12 @@
  famed_replica_sassanian_sword_description: "Dieses Schwert wurde von der Vision einer glorreichen vergangenen Ära inspiriert und erinnert an die heroische Vergangenheit der Vorfahren des Anfertigenden. Es $sassanian_sword_description_base$, sodass es einen prächtigen Anblick abgibt. Schwingt man es, erinnert man an einen legendären König aus vergangenen Zeiten."
  masterwork_replica_sassanian_sword_description: "Dieses Schwert soll eindeutig die Waffen einer vergangenen Epoche nachbilden und erinnert an die heroische Vergangenheit der Vorfahren des Anfertigenden. Es $sassanian_sword_description_base$. Obwohl es nur ein fernes Echo der Vergangenheit ist, kann man sich einbilden der mächtige Herrscher einer verflossenen Ära zu sein, wenn man es schwingt."
  common_replica_sassanian_sword_description: "Diese billige Nachahmung verhöhnt geradezu die Vorfahren des Anfertigenden. Sie ist mit billigen Steinen besetzt und mit ungleichmäßigen, groben Mustern verziert. Trägt man es in seiner Scheide herum, sieht man aus wie ein verblendeter Narr, der in längst vergangene Zeiten zurückkehren will."
+ #CE1 Artifacts
+ artifact_magnificent_crown_name: "Prächtige Krone"
+ artifact_magnificent_crown_description: "Die filigran gearbeiteten, schönen Muster dieser Krone dienen dazu, den wahren Grund ihrer Existenz hervorzuheben: Die eingeätzten Reliefs der Ahnen von [ROOT.Char.GetFirstName] beschwören deren Autorität und verflechten sie mit [ROOT.Char.Custom('DE_PRO_POS_S_3P')]er eigenen."
+ artifact_splendid_necklace_name: "Herrliche Halskette"
+ artifact_splendid_necklace_description: "Diese edle Halskette ist mit dem Wappen eines Hauses geschmückt ([artifact.GetOwner.GetHouse.GetBaseName]) geschmückt und lässt keinen Zweifel an der Legitimität des Besitzers."
+ artifact_fine_brooch_name: "Feine Brosche"
+ artifact_fine_brooch_description: "Da am Rand dieser Brosche dezent auf ein ganz bestimmtes Haus hingewiesen wird ([artifact.GetOwner.GetHouse.GetBaseName]), spricht sich dessen Legitimität rasch herum."
+ medicine_jar: "Arzneikrug"
+ medicine_jar_desc: "Dieses dünn glasierte Tongefäß enthält seltene und sehr wirksame Kräuter, heilende Mineralien und verschiedene getrocknete Tierteile, die Ärzte zur Behandlung von Krankheiten und zum Ausgleich der Körpersäfte verwenden."

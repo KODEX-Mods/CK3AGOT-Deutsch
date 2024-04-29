@@ -178,7 +178,7 @@
  commission_epic.6005.c: "Werde ich von den höchsten Mächten ([ROOT.GetCharacter.GetFaith.HighGodName]) für meine Hoffart bestraft?"
  commission_epic.6005.d: "Wenigstens habe ich eine Chronik …"
  commission_epic.6006.t: "Wirksame Propaganda"
- commission_epic.6006.writerservant: "„Sie ist fertig, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]“, sagt [composer.GetName] mit einiger Erleichterung und überreicht mir einen dicken Folianten. „Dies ist die Chronik von Haus [ROOT.Char.GetDynastyHouseNameNoTooltip], die in allen Einzelheiten dessen Geschichte der Herrschaft über jene Lande schildert, die Ihr wünschtet. Nun kann gewiss keiner Eure rechtmäßigen Ansprüche anfechten!“"
+ commission_epic.6006.writerservant: "„Sie ist fertig, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]“, sagt [composer.GetName] mit einiger Erleichterung und überreicht mir einen dicken Folianten.\n\n„Dies ist die Chronik von Haus [ROOT.Char.GetDynastyHouseNameNoTooltip], die in allen Einzelheiten dessen Geschichte der Herrschaft über jene Lande schildert, die Ihr wünschtet. Nun kann gewiss keiner Eure rechtmäßigen Ansprüche anfechten!“"
  commission_epic.6006.scribes: "Endlich haben meine Schreiber die Propagandachronik fertiggestellt. Sie wirken erleichtert, als sie mir einen geradezu riesigen Wälzer überreichen.\n\n„Hier ist sie, [ROOT.Char.GetDynastyHouseNameNoTooltip]: die große Chronik von Haus [ROOT.Char.GetDynastyHouseNameNoTooltip], die all Eure Ansprüche in sämtlichen Einzelheiten darlegt. Möge sie Euch großes Glück bringen.“"
  commission_epic.6006.a: "Perfekt!"
  propaganda_chronicle_name: "[ROOT.Char.GetDynastyHouseNameNoTooltip]-Propagandachronik"

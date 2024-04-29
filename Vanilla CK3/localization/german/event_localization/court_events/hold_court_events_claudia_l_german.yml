@@ -4,7 +4,7 @@
  hold_court.6000.desc_intro: "Vor mir steht [6000_poor.Custom2('MyCharacterIntroduction', ROOT.Char)] mit gesenktem Kopf.\n\n„M[ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetLadyLord], [6000_province.GetNameNoTooltip] wurde von"
  hold_court.6000.desc_occupation: "der feindlichen Besetzung schwer getroffen."
  hold_court.6000.desc_raiding: "den Raubzügen und Plünderungen schwer getroffen."
- hold_court.6000.desc_epidemics: "der Seuche schwer getroffen."
+ hold_court.6000.desc_epidemics: "den jüngsten Seuchen schwer getroffen."
  hold_court.6000.desc_winter: "dem rauen Winter schwer getroffen."
  hold_court.6000.desc_middle: "Das Volk hungert, unsere Felder erholen sich nicht und unser Viehbestand reicht nicht mehr zum Überleben aus!"
  hold_court.6000.desc_count: "[6000_count.Custom2('MyCharacterIntroduction', 6000_poor)|U] hat entweder nicht das Geld oder den Willen, um uns zu helfen."

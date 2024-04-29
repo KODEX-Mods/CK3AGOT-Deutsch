@@ -40,3 +40,7 @@
  economy_buildings_desc: "#T Wirtschaft und Gebäude#!\nZeigt [income|E] und [special_buildings|E] der [county|E] auf der Karte."
  county_control: "$MAPMODE_COUNTY_CONTROL_NAME$"
  county_control_desc: "$MAPMODE_COUNTY_CONTROL$"
+ epidemics: "@epidemic_icon! Seuchen"
+ epidemics_desc: "#T Seuchen#!\nZeigt die Ausbreitung von [epidemics|E] auf der Karte an."
+ legends: "@legend_icon! Legenden"
+ legends_desc: "#T Legenden#!\nZeigt die Ausbreitung von [legends|E] auf der Karte an."

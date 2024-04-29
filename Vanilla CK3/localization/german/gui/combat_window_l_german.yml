@@ -2,7 +2,7 @@
  COW_TT_THEIR_COMMANDER: "#T Feindlicher [commander|E]: [CHARACTER.GetUIName]#!\n[martial_skill|E]: #V [CHARACTER.GetSkillWithLevel('martial')]#!"
  COW_TT_MY_COMMANDER: "#T Euer [commander|E]: [CHARACTER.GetUIName]#!\n[martial_skill|E]: #V [CHARACTER.GetSkillWithLevel('martial')]#!"
  COW_TT_COMMANDER: "#T [commander|E]: [CHARACTER.GetUIName]#!\n[martial_skill|E]: #V [CHARACTER.GetSkillWithLevel('martial')]#!"
- COW_TT_NO_COMMANDER_MINE: "@warning_icon!#X Wir haben keinen zugewiesenen [commander|E]#!"
+ COW_TT_NO_COMMANDER_MINE: "@warning_icon! #X Wir haben keinen zugewiesenen [commander|E]#!"
  COW_TT_NO_COMMANDER_THEIRS: "#X Der Feind hat keinen zugewiesenen [commander|E]#!"
  COW_TT_NO_COMMANDER: "#X Kein [commander|E] zugewiesen#!"
  COW_TT_THEIR_REALM: "#T Feindliches [realm|E]: [TITLE.GetName]#!"

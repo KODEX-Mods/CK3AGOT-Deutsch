@@ -1366,7 +1366,7 @@
  basque_divine_realm_2: "die Geröteten Meere"
  #Mari hangs out in quite a broad variety of caves, changing the weather depending on where she moves to.
  basque_divine_realm_3: "die Höhlen von $basque_high_god_name$"
- #There aren't any solid positive afterlife names, and the Christian heaven stuff isn't on-brand for a cthonic religion, so we use neutral/cthonian-sounding names.
+ #There aren't any solid positive afterlife names, and the Christian heaven stuff isn't on-brand for a chthonic religion, so we use neutral/cthonian-sounding names.
  basque_positive_afterlife: "die Unterwelt"
  basque_positive_afterlife_2: "das Leben nach dem Tod"
  basque_positive_afterlife_3: "das Jenseits"

@@ -26,6 +26,7 @@
  unlock_late_medieval_fortification_buildings: "Schaltet alle [fortification_buildings|E] des Spätmittelalters frei"
  unlocks_naval_raiding: "Erlaubt [raids|E] über das Meer, sofern Ihr schon [raids|E] durchführen könnt"
  unlocks_sailable_major_rivers: "Schaltet die Fähigkeit frei, auf größeren Flüssen zu segeln"
+ unlock_wind_furnaces: "Schaltet die [buildings|E]-Reihe $building_type_wind_furnace_01$ in Küsten-[holdings|E] in [GetGeographicalRegion('world_india').GetName] frei"
  unlock_march_contract: "Schaltet die [feudal_contract|E] #high $special_contract_march_short$#! frei"
  unlock_scutage_contract: "Schaltet die [feudal_contract|E] #high $special_contract_scutage_short$#! frei"
  unlock_palatinate_contract: "Schaltet die [feudal_contract|E] #high $special_contract_palatinate_short$#! frei"

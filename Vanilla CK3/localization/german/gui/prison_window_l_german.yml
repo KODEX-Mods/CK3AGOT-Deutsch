@@ -10,7 +10,7 @@
  MASS_PRISONER_ACTION_RANSOM: "Massenlösegeld"
  MASS_PRISONER_ACTION_RELEASE: "Massenentlassung"
  MASS_PRISONER_ACTION_EXECUTE: "Massenhinrichtung"
- MASS_PRISONER_ACTION_RANSOM_TT: "#T $MASS_PRISONER_ACTION_RANSOM$#!\nAlle [Concept('prisoners', 'Gefangenen')|E] für [gold|E]-Lösegeld freilassen.\n\n$MASS_ACTION_TT_EXCLUDE$"
+ MASS_PRISONER_ACTION_RANSOM_TT: "#T $MASS_PRISONER_ACTION_RANSOM$#!\nAlle [Concept('prisoners', 'Gefangenen')|E] für [gold|E] auslösen oder für [hooks|E], falls sie für Gold nicht freizukaufen sind.\n\n$MASS_ACTION_TT_EXCLUDE$"
  MASS_PRISONER_ACTION_RELEASE_TT: "#T $MASS_PRISONER_ACTION_RELEASE$#!\nAlle [Concept('prisoners', 'Gefangenen')|E] freilassen, ohne eine Gegenleistung zu fordern.\n\n$MASS_ACTION_TT_EXCLUDE$"
  MASS_PRISONER_ACTION_EXECUTE_TT: "#T $MASS_PRISONER_ACTION_EXECUTE$#!\nAlle [Concept('prisoners', 'Gefangenen')|E] hinrichten.\n\n$MASS_ACTION_TT_EXCLUDE$"
  MASS_ACTION_TT_EXCLUDE: "#weak Gefangene, die durch Filter verborgen oder von Massenaktionen ausgeschlossen wurden, sind nicht betroffen.#!"

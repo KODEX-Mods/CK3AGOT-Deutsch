@@ -18,7 +18,9 @@
  # Court Positions
  ###################################
  master_assassin_court_position: "Master Assassin"
- master_assassin_court_position_desc: "Bound by faith or creed, the Master Assassin aids their liege with unconventional approaches to warfare, espionage, terror, and murder."
+ master_assassin_court_position_desc: "Bound by faith or creed, the Master Assassin aids their liege with unconventional approaches to warfare, espionage, terror and murder."
+ master_assassin_employer_custom_effect_description: "$BULLET$Unlocks the Assassination [scheme|E]\n@alert_icon! #alert_trial Cannot be a [knight|E]!#!"
+ 
  has_no_particular_noble_roots_trigger: "Is [lowborn|E] or of an insignificant [dynasty|E]"
 
  court_scholar_court_position: "Court Scholar"
@@ -28,13 +30,13 @@
  # Buildings
  ###################################
  building_type_sar_i_sang_mines_01: "The Sar-i Sang Mines"
- building_type_sar_i_sang_mines_01_desc: "The main source of lapis lazuli in the world, the mines of Sar-i Sang have been active sine prehistoric times, and their blue stones could be seen in all the courts of antiquity. Local workers toil here night and day to extract the vaunted blue stones."
+ building_type_sar_i_sang_mines_01_desc: "The main source of lapis lazuli in the world, the mines of Sar-i Sang have been active since prehistoric times, and their blue stones could be seen in all the courts of antiquity. Local workers toil here night and day to extract the vaunted blue stones."
  building_sar_i_sang_mines_01: "Sar-i Sang Ancient Mine"
  building_sar_i_sang_mines_01_desc: "$building_type_sar_i_sang_mines_01_desc$"
  building_sar_i_sang_mines_02: "Sar-i Sang Restored Mine"
  building_sar_i_sang_mines_02_desc: "The ancient tunnels have been expanded and secured, and engineers have been brought in to open up a new shaft, and new possibilities."
  building_sar_i_sang_mines_03: "Expanded Sar-i Sang Mine"
- building_sar_i_sang_mines_03_desc: "As the mining operations grow, so does the mines themselves. More entrances are constructed, and the ancient shaft grows deeper and deeper."
+ building_sar_i_sang_mines_03_desc: "As the mining operations grow, so do the mines themselves. More entrances are constructed, and the ancient shaft grows deeper and deeper."
  building_sar_i_sang_mines_04: "Sar-i Sang Mining Complex"
  building_sar_i_sang_mines_04_desc: "The extraction of lapis lazuli stones has reached a near-industrial scale, with the amount of workers ranging in the thousands. This ancient, once-remote mountain is now the center of a vibrant economy." 
 
@@ -74,8 +76,7 @@
 
  culture_parameter_unlock_maa_tarkhan: "Can recruit [GetMaA('tarkhan').GetName] as [men_at_arms|E]"
  culture_parameter_faith_warrior_traits_more_valued: "The [GetTrait('faith_warrior').GetName( GetNullCharacter )] and [GetTrait('order_member').GetName( GetNullCharacter )] [traits|E] are seen as [prestige_i][prestigious|E]"
- culture_parameter_diligent_trait_more_common: "The [GetTrait('diligent').GetName( GetNullCharacter )] [trait|E] is more common"
- culture_parameter_tribal_elective_enabled: "Can enact the #high $tribal_elective_succession_law$#! [succession_law|E]"
+ culture_parameter_tribal_elective_enabled: "Can enact the [GetLaw('tribal_elective_succession_law').GetName] [succession_law|E]"
  culture_parameter_pardoning_gives_prestige: "The #V $pardon_interaction$#! [interaction|E] gives [prestige|E]"
  culture_parameter_pragmatic_traits_county_opinion_modifiers: "The [GetTrait('diligent').GetName( GetNullCharacter )] and [GetTrait('shrewd').GetName( GetNullCharacter )] [traits|E] give [county_opinion|E]"
  culture_parameter_unlock_maa_zupin_warrior: "Can recruit [GetMaA('zupin_warrior').GetName] as [men_at_arms|E]"

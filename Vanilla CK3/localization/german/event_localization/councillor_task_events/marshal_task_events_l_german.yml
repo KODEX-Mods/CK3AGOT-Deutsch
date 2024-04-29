@@ -13,7 +13,7 @@
  marshal_task.0304.desc: "[councillor.GetTitledFirstName], mein[councillor.GetCouncilTitle], tritt sehr zögerlich an mich heran. [beneficiary_of_nepotism.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ist ebenfalls dabei.\n\n„[advocate_of_nepotism.GetTitledFirstName|U] hat mich gebeten, [beneficiary_of_nepotism.GetTitledFirstNameNoTooltip] in den Rang [Select_CString(beneficiary_of_nepotism.IsFemale, 'einer Befehlshaberin', 'eines Befehlshabers')] zu erheben. Doch ich dachte, dass Ihr vielleicht vorher noch ein Wörtchen mitreden wollt …“\n\n[beneficiary_of_nepotism.GetTitledFirstNameNoTooltip|U] [beneficiary_of_nepotism.Custom('quirk_neg_present')]."
  marshal_task.0304.a_clan: "Alle Kinder meines Hauses ([ROOT.Char.GetHouse.GetBaseNameNoTooltip]) sind in der Armee willkommen."
  marshal_task.0304.a_neutral: "[Select_CString(beneficiary_of_nepotism.IsFemale, 'Eure', 'Euer')] [beneficiary_of_nepotism.Custom('GetDaughterSon')] ist in meiner Armee willkommen."
- marshal_task_0304_a_tt: "@warning_icon!#X [CHARACTER.GetShortUINameNoTooltip|U] wird verärgert sein, falls [TARGET_CHARACTER.GetShortUINameNoTooltip|U] innerhalb von 20 Jahren entlassen wird#!"
+ marshal_task_0304_a_tt: "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip|U] wird verärgert sein, falls [TARGET_CHARACTER.GetShortUINameNoTooltip|U] innerhalb von 20 Jahren entlassen wird#!"
  marshal_task.0304.b: "Würde [beneficiary_of_nepotism.GetTitledFirstNameNoTooltip] es nicht vorziehen, als Höfling zu dienen?"
  marshal_task.0304.b.success: "[advocate_of_nepotism.GetTitledFirstNameNoTooltip] ist mit Eurem Angebot zufrieden"
  marshal_task.0304.b.failure: "[advocate_of_nepotism.GetTitledFirstNameNoTooltip] fühlt sich durch Euer Angebot beleidigt"

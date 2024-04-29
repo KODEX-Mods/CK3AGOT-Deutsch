@@ -23,7 +23,7 @@
  SCHEME_POWER_DESCRIPTION_HEADER: "[scheme_power|E]"
  SCHEME_TIER_INFLUENCE: "Rang von [CHARACTER.GetShortUIName]"
  SCHEME_SPYMASTER: "Ratsspitzel von [CHARACTER.GetShortUIName]"
- SCHEME_WINDOW_TT_CHARACTER_EXPOSED: "@warning_icon!#X @exposed_icon!Aktuell aufgedeckt#!"
+ SCHEME_WINDOW_TT_CHARACTER_EXPOSED: "@warning_icon! #X @exposed_icon!Aktuell aufgedeckt#!"
  SCHEME_WINDOW_MEMBER_LIST: "Entdeckte Agenten"
  SCHEME_WINDOW_SCHEME_OWNER: "#T Komplottanstifter#!: [CHARACTER.GetUIName|U]"
  SCHEME_WINDOW_SCHEME_MEMBER: "#T Komplottmitglieder#!: [CHARACTER.GetUIName|U]"

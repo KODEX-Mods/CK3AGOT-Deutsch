@@ -894,3 +894,5 @@
  single_combat.1004.e: "Ihr seid der Angreifer – Nicht tödlich"
  single_combat.1004.f: "Ihr seid der Verteidiger – Nicht tödlich"
  single_combat.1004.g: "Wenn ich es mir recht überlege … Vergesst es."
+ debug_log.single_combat_setup.attacker_and_defender_same_person: "Es wurde versucht, ein Duell auszulösen, bei dem Angreifer und Verteidiger dieselbe Person sind. Das muss in den Content-Einstellungen für die Einrichtung des Duells herausgefiltert werden, da dies sonst zu Abstürzen führen kann. Scopes werden im debug.log unter „$debug_log.single_combat_setup.attacker_and_defender_same_person.notice$“ protokolliert."
+ debug_log.single_combat_setup.attacker_and_defender_same_person.notice: "Zu einsamer Zweikampf"

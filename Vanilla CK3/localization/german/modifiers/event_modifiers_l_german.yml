@@ -228,3 +228,5 @@
  recent_arson_modifier_desc: "Unlängst gab es in dieser Gemeinde eine Brandstiftung im Suff. Der Ort wird sich wahrscheinlich lange Zeit nicht davon erholen."
  arson_rebuilding_modifier: "Wiederaufbau"
  arson_rebuilding_modifier_desc: "Unlängst gab es in dieser Gemeinde eine Brandstiftung im Suff. Geld wurde zur Seite gelegt und die Besteuerung ausgesetzt, um beim Wiederaufbau zu helfen."
+ artifact_physician_aptitude_1_modifier: "Medizinsammlung"
+ artifact_physician_aptitude_1_modifier_desc: "Dieses Artefakt erhöht die [aptitude|E] des [GetCourtPositionType('court_physician_court_position').GetName()]s."

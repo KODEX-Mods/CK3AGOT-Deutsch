@@ -22,7 +22,7 @@
  false_conversion.1000.desc_intro: "[actor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] hat nun letztlich doch verlangt: Mein Glaube"
  false_conversion.1000.desc_has_family: "und der des Rests meiner Familie"
  false_conversion.1000.desc_convert: "muss ein anderer ([actor.GetFaith.GetName]) werden.\n\n"
- false_conversion.1000.desc_forced: "[actor.Custom('DE_PRO_PER_S_3P_N')|U] hat mir mit [actor.Custom('DE_PRO_POS_S_3P')]er Forderung den Dolch auf die Brust gesetzt, indem [actor.Custom('Custom('DE_PRO_PER_S_3P_N')] [actor.Custom('DE_PRO_POS_S_3P')] Druckmittel gegen mich einsetzte. Sollte ich die Konsequenzen riskieren, kann ich meinen Glauben ([ROOT.Char.GetFaith.GetName]) allerdings auch weiterhin ausüben –"
+ false_conversion.1000.desc_forced: "[actor.Custom('DE_PRO_PER_S_3P_N')|U] hat mir mit [actor.Custom('DE_PRO_POS_S_3P')]er Forderung den Dolch auf die Brust gesetzt, indem [actor.Custom('DE_PRO_PER_S_3P_N')] [actor.Custom('DE_PRO_POS_S_3P')] Druckmittel gegen mich einsetzte. Sollte ich die Konsequenzen riskieren, kann ich meinen Glauben ([ROOT.Char.GetFaith.GetName]) allerdings auch weiterhin ausüben –"
  false_conversion.1000.desc_voluntary: "Ich habe [actor.Custom('DE_PRO_POS_S_3P')]e Forderungen akzeptiert – mehr oder weniger. Doch vielleicht gibt es eine Möglichkeit, diesen neuen Glauben ([actor.GetFaith.GetNameNoTooltip]) offen zu predigen und dennoch meinen alten Glauben ([ROOT.Char.GetFaith.GetName]) weiter auszuüben –"
  false_conversion.1000.desc_bold: "in heimlichem Trotz."
  false_conversion.1000.desc_cowardly: "hinter dem Schleier."

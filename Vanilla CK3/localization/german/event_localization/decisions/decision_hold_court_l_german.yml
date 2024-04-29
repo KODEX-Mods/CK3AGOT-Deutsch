@@ -5,3 +5,4 @@
  hold_court_decision_effects: "Ihr ladet Eure Gäste und Untertanen ein, um Eure Hilfe zu ersuchen:\n$EFFECT_LIST_BULLET$ Ihr erfahrt vielleicht von besonderen Gelegenheiten.\n$EFFECT_LIST_BULLET$ Ihr könnt vielleicht die Lage in fremden Reichen beeinflussen.\n$EFFECT_LIST_BULLET$ Ihr könnt zusätzliche Hofpracht erlangen.\n$EFFECT_LIST_BULLET$ Ihr könnt Meinung, Prestige, Gold und mehr gewinnen oder verlieren."
  hold_court_decision_confirm: "Bittsteller anhören"
  hold_court_gain_grandeur_tooltip: "Ihr werdet Eure [court_grandeur|E] erhöhen"
+ hold_court_gain_legitimacy_tooltip: "Ihr werdet Eure [legitimacy|E] erhöhen"

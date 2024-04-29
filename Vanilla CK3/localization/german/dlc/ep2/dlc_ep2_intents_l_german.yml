@@ -10,6 +10,8 @@
  befriend_attendee_intent_desc: "Ihr wollt die Gunst Eures Ziels gewinnen. Dies führt oft zu freundlichen Ereignissen und Optionen."
  lechery_intent: "Lüsternheit"
  lechery_intent_desc: "Ihr beabsichtigt, Eure fleischlichen Gelüste auszuleben und Euch mit einer Vielzahl von Partnern zu verlustieren. Dies führt oft zu einem [Concept('stress', 'Anspannungsabbau')|E] für Charaktere mit der Eigenschaft „[GetTrait('lustful').GetName(GetNullCharacter)]“."
+ legitimacy_intent: "Legitimität stützen"
+ legitimacy_intent_desc: "Ihr beabsichtigt, diese Versammlung zu nutzen, um Eure [legitimacy|E] zu fördern."
  altruism_intent_header: "Altruismus:"
  altruism_intent: "Altruismus"
  altruism_intent_desc: "Ihr versucht, das Leben anderer zu verbessern, indem Ihr uneigennützig handelt. Dies führt oft zu einer Erhöhung der [county_opinion|E] und [piety|E]. [GetTrait('zealous').GetName(GetNullCharacter)|U]e, [GetTrait('generous').GetName(GetNullCharacter)]e und [GetTrait('improvident').GetName(GetNullCharacter)]e Charaktere könnten [stress|E] abbauen."

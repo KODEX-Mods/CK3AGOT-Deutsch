@@ -2,7 +2,7 @@
  bishop.1001.opening: "[bishop.Custom2('AppropriateGreeting', ROOT.Char)]"
  bishop.1001.desc: "Es ist meine Pflicht, Euch darüber in Kenntnis zu setzen, dass unanfechtbare Beweise dafür vorliegen, dass Eure Ehe mit [spouse.GetTitledFirstName] ein Bund zwischen Blutsverwandten ist. Dieses Wissen bleibt unter uns, sofern Ihr diese unheilige Ehe auf der Stelle beendet."
  bishop.1001.a: "Natürlich, [bishop.GetTitledFirstNameNoTooltip]."
- bishop.1001.a.tt: "@warning_icon!#X Ihr lasst Euch von [spouse.GetUIName] scheiden#!"
+ bishop.1001.a.tt: "@warning_icon! #X Ihr lasst Euch von [spouse.GetUIName] scheiden#!"
  bishop.1001.b: "Unsere Ehe wird nicht von einer derart offensichtlichen Lüge zerstört werden!"
  bishop.1001.b.success: "Ich beweise, dass die Behauptung eine Lüge ist"
  bishop.1001.b.failure: "Die Beweise sind in der Tat unanfechtbar"

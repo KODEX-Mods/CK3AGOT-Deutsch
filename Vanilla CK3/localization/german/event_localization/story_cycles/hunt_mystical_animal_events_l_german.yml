@@ -1,5 +1,5 @@
 ﻿l_german:
- start_hunt_mystical_animal_story_cycle_effect.tt: "#EMP Ich werde nicht ruhen, bis ich es gefunden habe!"
+ start_hunt_mystical_animal_story_cycle_effect.tt: "#EMP Ich werde nicht ruhen, bis ich es gefunden habe!#!"
  hunt_mystical_animal.1001.t: "[ROOT.Char.Custom('GetAnimalType')|U] in [ROOT.Char.Custom('GetLegendaryColor')|U]"
  hunt_mystical_animal.1001.desc: "Das schwer zu fassende Tier erscheint mir im Traum: Es blickt mich aus unergründlichen Augen an, während es umherspringt, und sein makelloses, [ROOT.Char.Custom('GetLegendaryColor')|l]es Fell präsentiert.\n\nIm Gelände ([legendary_county.GetCountyData.GetCapital.Custom('GetTerrainTypePlural')]) um uns herum, das unter einem überaus vollen Mond daliegt, ist alles still. Ganz gleich, was ich auch versuche: Ich komme meiner Beute einfach nicht näher.\n\nAls ich mit einem Ruck erwache, bin ich entschlossener denn je …"
  hunt_mystical_animal.1001.a: "Meine Beute wird mir nicht länger entkommen!"

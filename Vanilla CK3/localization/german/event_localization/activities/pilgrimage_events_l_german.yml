@@ -2,10 +2,10 @@
  ### SETUP
  activity_pilgrimage: "Pilgerreise"
  activity_pilgrimage_desc: "$game_concept_pilgrimage_desc$"
- activity_pilgrimage_host_desc: "$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$[stress_loss_i][Concept('stress', 'Anspannungsabbau')|E]\n[GetPlayer.Custom('GetPilgrimOrHajjiTrait')]"
+ activity_pilgrimage_host_desc: "$BULLET_WITH_TAB$[prestige_i|E][prestige|E]-Zuwachs\n$BULLET_WITH_TAB$[legitimacy_i] [Concept('legitimacy', 'Legitimitätszuwachs')|E]\n$BULLET_WITH_TAB$[stress_loss_i] [Concept('stress', 'Anspannungsabbau')|E]\n[GetPlayer.Custom('GetPilgrimOrHajjiTrait')]"
  activity_pilgrimage_pilgrim_custom_host_desc: "$BULLET_WITH_TAB$[GetTrait('pilgrim').GetName(GetNullCharacter)]-[trait|E] / [GetTrait('pilgrim').GetName(GetNullCharacter)]-[trait_level_track_xp|E]"
  activity_pilgrimage_hajjaj_custom_host_desc: "$BULLET_WITH_TAB$[GetTrait('hajjaj').GetName(GetNullCharacter)]-[trait|E]"
- activity_pilgrimage_selection_tooltip: "Eine [pilgrimage|E] unternehmen, um Eure Hingabe an Euren Glauben zu beweisen\n\nErwartete Belohnungen:\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[stress_loss_i] [Concept('stress', 'Anspannungsabbau')|E]"
+ activity_pilgrimage_selection_tooltip: "Eine [pilgrimage|E] unternehmen, um Eure Hingabe an Euren Glauben ([GetPlayer.GetFaith.PantheonTerm]) zu beweisen\n\nErwartete Belohnungen:\n$BULLET_WITH_TAB$[piety_i] [Concept('piety', 'Frömmigkeitszuwachs')|E]\n$BULLET_WITH_TAB$[legitimacy_i] [Concept('legitimacy', 'Legitimitätszuwachs')|E]\n$BULLET_WITH_TAB$[stress_loss_i] [Concept('stress', 'Anspannungsabbau')|E]"
  activity_pilgrimage_destination_selection: "Je weiter Euer Ziel von Eurem Hauptsitz entfernt ist, desto mehr beweist Ihr Eure Hingabe zu den höchsten Mächten ([GetPlayer.GetFaith.PantheonTerm]) und erhaltet zusätzliche [piety|E]."
  activity_pilgrimage_owner: "Pilger"
  activity_pilgrimage_name: "Die Pilgerreise"
@@ -98,7 +98,7 @@
  ### PHASES
  pilgrimage_phase_solo: "Pilgerreise"
  pilgrimage_phase_solo_desc: "Eine Pilgerreise ist eine spirituelle Erkundung des eigenen Glaubens. Ihr Erfolg hängt von den Entscheidungen während der Reise und jenen am Zielort ab."
- activity_pilgrimage_guest_desc: "$BULLET_WITH_TAB$Teilnehmer können an [piety|E] gewinnen\n$BULLET_WITH_TAB$Teilnehmer können [stress_loss_i][stress|E] abbauen\n$BULLET_WITH_TAB$Teilnehmer können die [trait|E] „[GetTrait('pilgrim').GetName( GetNullCharacter )]“ erhalten"
+ activity_pilgrimage_guest_desc: "$BULLET_WITH_TAB$Teilnehmende können [piety|E] gewinnen\n$BULLET_WITH_TAB$Teilnehmende können [legitimacy_i] [legitimacy|E] gewinnen\n$BULLET_WITH_TAB$Teilnehmende können [stress_loss_i][stress|E] abbauen\n$BULLET_WITH_TAB$Teilnehmende können die [trait|E] „[GetTrait('pilgrim').GetName(GetNullCharacter)]“ erhalten"
  ### OPTIONS
  #Type of Pilgrimage [Special Type] Option
  pilgrimage_type_pious: "Fromme Pilgerreise"

@@ -24,4 +24,4 @@
  RP_RAISE_RAID_TOOLTIP_HEADER: "#T $RP_RAISE_RAID$#!\nHebt alle [armies|E], die genau diesem [rally_point|E] am nächsten sind, als [raiders|E] aus.\n#weak Falls Ihr nur einen Sammelpunkt habt, werden hier alle Armeen ausgehoben.#!"
  RP_RAISE_ALL_TOOLTIP_HEADER: "#T $RP_RAISE_ALL$#!\nHebt #emphasis alle#! Eure [armies|E] hier aus, unabhängig davon, welcher [rally_point|E] sich am nächsten befindet."
  RP_MOVE_RALLY_POINT: "#T Sammelpunkt verlegen\n#! #I Alternativ ist ein Rechtsklicken direkt auf der Karte möglich#!"
- RP_RAISE_BLOCK_AT_WAR: "@warning_icon!#X Ihr könnt keine [raiders|E] ausheben, während Ihr im [war|E] seid#!"
+ RP_RAISE_BLOCK_AT_WAR: "@warning_icon! #X Ihr könnt keine [raiders|E] ausheben, während Ihr im [war|E] seid#!"

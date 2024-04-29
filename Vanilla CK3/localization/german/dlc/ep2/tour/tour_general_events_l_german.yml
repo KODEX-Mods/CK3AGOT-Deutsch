@@ -66,7 +66,7 @@
  tour_general.3003.a_potential_outcome_disagree: "[stop_host_scope.GetShortUIName] wird Euch #EMP nicht#! dabei helfen, die [ROOT.Char.Custom('HateCatsDogs')] zu töten"
  tour_general.3003.b: "Wenn ich es mir genauer überlege … Lasst uns lieber etwas anderes machen."
  tour_general.3003.b_cynical: "Nein, das würde nur zu Scherereien führen."
- tour_general.3003.fanatic_subjects_approve.tt: "Eure Untertanen, die diese Art von Tier ([visiting_liege.Custom('GetCatDog')] lieben, befürworten diese Tat"
+ tour_general.3003.fanatic_subjects_approve.tt: "Eure Untertanen, die diese Art von Tier ([visiting_liege.Custom('GetCatDog')]) lieben, befürworten diese Tat"
  tour_general.3003.compassionate_subjects_disapprove.tt: "Eure mitfühlenden Untertanen missbilligen diese Tat"
  #Liege: Did you vassal decide to help you kill cats/dogs?
  tour_general.3004.t: "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]: Ein notwendiges Übel"

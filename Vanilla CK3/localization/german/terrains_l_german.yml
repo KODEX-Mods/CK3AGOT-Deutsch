@@ -25,6 +25,7 @@
  coastal_sea: "Küstennahes Meer"
  TERRAIN_DESCRIPTION: "[Terrain.GetEffects]"
  TERRAIN_PROVINCE_MODIFIER_HEADER: "#S [county|E]-Effekte:#!"
+ TERRAIN_COUNTY_CAPITAL_MODIFIER_HEADER: "#S [county_capital|E]-Effekte:#!"
  TERRAIN_MOVEMENT_SPEED: "Bewegungstempo: $VALUE|%0V$"
  TERRAIN_COMBAT_WIDTH: "[combat_width|E]: $VALUE|%0V$"
  TERRAIN_ATTACKER_MODIFIER: "[advantage|E] Angreifer: $VALUE|=+0$"
