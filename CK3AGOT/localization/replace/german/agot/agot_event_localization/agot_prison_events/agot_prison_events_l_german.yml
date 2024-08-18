@@ -1,7 +1,7 @@
 ﻿l_german:
 #Übersetzt von DILLO
 
- agot_prison.1001.t:0 "Die allerletzten Worte" 
+ agot_prison.1001.t:0 "Die letzten Worte" 
 
  agot_prison.1001.start.desc:0 "Der Kerkermeister zerrt einen verängstigten [recipient.GetTitledFirstName] in den Raum. „Bitte! Ich werde Euch alles sagen, alles was Ihr wollt!“ [recipient.Custom('DE_PRO_POS_S_3P')|U]e Beteuerungen werden unterbrochen, als der Kerkermeister [recipient.Custom('DE_PRO_PER_S_3P_A')] knebelt und an den Tisch fesselt.\n\n"
  agot_prison.1001.cruel.desc:0 "„Oh, [recipient.GetFirstNameNoTooltip]“, seufze ich süffisant. „Seht Ihr, genau das ist ja das Problem. Ich möchte nicht, dass Ihr jemals wieder irgendjemandem irgendetwas erzählt.“"
