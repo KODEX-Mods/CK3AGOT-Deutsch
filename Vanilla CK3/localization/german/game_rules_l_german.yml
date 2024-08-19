@@ -401,6 +401,8 @@
  setting_epidemic_frequency_rare_desc: "Seuchen treten selten auf und verbreiten sich auch seltener."
  setting_epidemic_frequency_very_rare: "#high Sehr selten#!"
  setting_epidemic_frequency_very_rare_desc: "Seuchen treten sehr selten auf und verbreiten sich auch viel seltener."
+ setting_epidemic_frequency_disabled: "#high Deaktiviert#!"
+ setting_epidemic_frequency_disabled_desc: "Seuchen tauchen nicht auf."
  rule_legend_spread_chance: "Legendenverbreitungswahrscheinlichkeit"
  setting_legend_spread_chance_normal: "Gewöhnlich"
  setting_legend_spread_chance_normal_desc: "Legenden haben die übliche Chance, sich zu verbreiten."

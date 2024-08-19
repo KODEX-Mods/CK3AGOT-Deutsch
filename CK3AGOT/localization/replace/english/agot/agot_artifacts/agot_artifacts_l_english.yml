@@ -8,7 +8,7 @@
  vs_cloudbreak_name:0 "Cloudbreak"
  vs_cloudbreak_description:0 "An elegant weapon from a more civilized age. Capturing the soul of the elegant lost beauty of Valyria, this dragonbone-hilted longsword is crowned by a hunk of glistening polished bloodstone as its pommel. Since the Doom claimed the dragonrider who wielded the blade, Cloudbreak has been in the care of the wealthy Tyroshi merchants of House Adarys, a clear symbol of their ascendancy."
  vs_iron_will_name:0 "Iron Will"
- vs_iron_will_description:0 "Iron Will is the Valyrian steel greatsword passed down through the Lords of House Forester. It is incredibly valuable and coveted."
+ vs_iron_will_description:0 "Iron Will is the Valyrian steel greatsword passed down through the Lords of House Forrester. It is incredibly valuable and coveted."
  vs_pincer_name:0 "Pincer"
  vs_pincer_description:0 "Pincer is the Valyrian steel axe belonging to House Celtigar. A dark-bladed relic of their Valyrian legacy, Pincer has been borne by generations of Celtigars since before the Doom."
  vs_dark_sister_name:0 "Dark Sister"
@@ -53,7 +53,7 @@
  vs_dancer_name:0 "Dancer"
  vs_dancer_description:0 "agot_dancer_description"
  vs_darktalon_name:0 "Darktalon"
- vs_darktalon_description:0 "The Vyrwell's of Wyvern's Rest have wielded this greatsword for generations. The silver-plated hilt is carved with a fierce wyvern, its wings spread wide."
+ vs_darktalon_description:0 "The Vyrwels of Wyvern's Rest have wielded this greatsword for generations. The silver-plated hilt is carved with a fierce wyvern, its wings spread wide."
  vs_dawn_name:0 "Dawn"
  vs_dawn_description:0 "Dawn is the fabled sword of House Dayne. The huge greatsword has a blade as pale as milkglass, and a golden star decorating the hilt. Legends state that a fallen star was tracked by the founder of House Dayne to the mouth of the Torrentine, at the site which would be later named Starfall. Dawn was forged from the heart of this star, and has been wielded by the worthiest members of House Dayne ever since."
  vs_defiance_name:0 "Defiance"
@@ -147,7 +147,7 @@
  rhaegar_sword_duel_description:0 "[my_weapon.GetDesc] [owner.GetFullName] used this sword to slay [loser.GetFullName] at the Battle of [battle_location.GetNameNoTooltip]."
  kingsguard_sword_name:0 "[owner.GetFullNamePossessive] Sword"
  kingsguard_sword_description:0 "A sword presented to [owner.GetFullName] on joining the Kingsguard."
- 
+
  #Crown Tooltip
  agot_is_independent_crown_tooltip_desc:0 "Only an independent ruler, their spouse, or heirs may wear this crown."
  baelor_crown_tooltip_desc:0 "Only virtuous rulers may wear this crown."
@@ -336,7 +336,7 @@
  agot_artifact_saans_scrolls_name:0 "Ancient Valyrian scrolls"
  agot_artifact_saans_scrolls_desc:0 "Ancient scrolls from Valyria that speak of prophecies and dragons."
 
-#Filler 
+#Filler
  agot_artifact_winter_rose:0 "Winter Rose"
  agot_artifact_winter_rose_desc:0 "A beautiful pale blue bloom the color of early winter frost."
 
@@ -408,12 +408,26 @@
  daemon_blackfyre_skull:0 "Skull of Daemon Blackfyre"
  daemon_blackfyre_skull_desc:0 "Skull of Daemon Blackfyre, Captain-General of the Golden Company who was murdered by his cousin, Maelys I Blackfyre."
 
+ agot_artifact_moons_rod_name:0 "Cock o’ the Moon"
+ agot_artifact_moons_rod_desc:0 "Septon Moon was renowned for his godlike virility. Thus after his failed insurrection resulted in his death, his devoted followers cut off his cock, pickled it and preserved it so future generations of barren maidens may yet flower with the blessing of the Cock o' the Moon."
+ 
  iron_throne:0 "Iron Throne"
  iron_throne_desc:0 "The Iron Throne of the Seven Kingdoms of Westeros was forged by the order of King Aegon I from the swords of his enemies. It is the greatest symbol of the realm and its united ruler."
+ iron_throne_valid:0 "This can only be used in the court of [GetTitleByKey('c_kings_landing').GetNameNoTier]"
  gilded_throne:0 "Gilded Throne"
  gilded_throne_desc:0 "This imposing throne is a permanent fixture of the Golden Gallery. The great lion, carved from the Rock itself and gilded with gold from the mines below, stands guard over the many treasures and honors within the gallery."
+ gilded_throne_valid:0 "This can only be used in the court of [GetTitleByKey('c_casterly_rock').GetNameNoTier]"
  seastone_chair:0 "Seastone Chair"
  seastone_chair_desc:0 "The mysterious throne of the Iron Islands, the Seastone Chair is made of oily black stone, and its construction and history are long lost to the annals of time."
+ seastone_chair_valid:0 "This can only be used in the court of [GetTitleByKey('c_pyke').GetNameNoTier]"
+ ruined_oakenseat:0 "Oakenstump"
+ ruined_oakenseat_desc:0 "The once-living throne of House Gardener, said to have been planted by Garth the Green himself. This fabled throne was put to the torch long ago and now is a dead remnant of glories past."
+ restored_oakenseat:0 "Oakenseat"
+ restored_oakenseat_desc:0 "A tribute to the ancient oak that once served as the throne to Gardener kings of old, a new throne carved into a living tree now stands as a testament to the grandeur and patient care of the dynasts of Highgarden."
+ oakenseat_valid:0 "This can only be used in the court of [GetTitleByKey('c_highgarden').GetNameNoTier]"
+
+ seahorse_statue:0 "Seahorse Statue"
+ seahorse_statue_desc:0 "An impressive jade seahorse, dating to ages before the Doom of Valyria, when dragonlords oft traded with merchants from the lands of the far east."
 
  #Maester Artifacts
  artifact_maester_link:0 "Chain Link"

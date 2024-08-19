@@ -1,6 +1,6 @@
 ﻿l_german:
  SELECT_CHARACTER_ON_MAP: "Wählt auf der Karte einen Charakter aus."
- PICK_ANY_CHARACTER: "Spielt als Herrscher im Jahr #light_background;bold [GameSetup.GetSelectedBookmark.GetDate.GetYear]#! oder #bold erschafft Euren eigenen!#!"
+ PICK_ANY_CHARACTER: "Spielt als Herrscher im Jahr #bold [GameSetup.GetSelectedBookmark.GetDate.GetYear]#! oder #bold erschafft Euren eigenen!#!"
  BOOKMARK_DISABLED: "Dieses Lesezeichen ist deaktiviert"
  BOOKMARK_NOT_PICKED_CHARACTER: "Wählt vor dem Starten des Spiels einen Charakter aus dem Lesezeichen aus. Oder trefft eine freie Wahl, indem Ihr auf „Beliebigen Charakter auswählen“ klickt."
  SINGLEPLAYER: "Einzelspieler"
