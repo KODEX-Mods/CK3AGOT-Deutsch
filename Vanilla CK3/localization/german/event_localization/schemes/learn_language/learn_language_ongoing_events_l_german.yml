@@ -40,6 +40,7 @@
  learn_language_ongoing.1040.b: "Die Handschrift von [target.GetFirstNameNoTooltip] ist interessant …"
  learn_language_ongoing.1040.c: "Pah! Ich brauche von niemandem Bestätigung außer #EMP mir selbst#!!"
  extra_success_chance_modifier: "Erhöhte Erfolgschance"
+ massive_extra_success_chance_modifier: "Sehr stark erhöhte Erfolgschance"
  learn_language_ongoing.1050.t: "$learn_language$: Krähenfüße"
  learn_language_ongoing.1050.desc: "Meine kostbaren Notizen über die [scheme.GetTarget.GetCulture.GetLanguage.GetName|l]e Sprache sind überall in meinem Arbeitszimmer verstreut, und der tintengetränkte Rabe flattert #EMP noch immer#! mit den Flügeln! Wie ist er überhaupt hier hereingekommen? #EMP Wer hat ihn in Tinte getränkt?#!\n\n„Ein Brief für Euch, m[ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetTitleTierName].“ Ich drehe mich um und reiße dem Diener die Nachricht aus der Hand.\n\n„Eine echte Schande, was mit Euren Notizen passiert ist, aber seht das Gute daran: Eure Schrift ähnelte vorher schon Krähenfüßen! Hochachtungsvoll, [sabotage_rival.GetTitledFirstName].“"
  learn_language_ongoing.1050.a: "Meine Notizen … Nein! So viel Arbeit … Alles weg!"

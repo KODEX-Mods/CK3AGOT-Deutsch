@@ -258,7 +258,7 @@
  nick_the_silver_squid:0 "the Silver Kraken"
  nick_the_old_squid:0 "the Old Kraken"
  nick_the_laughing_squid:0 "the Laughing Kraken"
- nick_the_kraken_daughter:0 "the Kraken's Daughter"
+ nick_the_squid_daughter:0 "the Kraken's Daughter"
  nick_the_squidknight:0 "the Kraken[CHARACTER.Custom('GetWarriorNickname')]"
 
 #Falcon Nicknames - Arryn
@@ -655,7 +655,7 @@
  nick_the_dark_badger:0 "the Dark Badger"
  nick_the_weak_badger:0 "the Toothless Badger"
  nick_the_silver_badger:0 "the Silver Badger"
- nick_the_old_badger:0 "the Old Bader"
+ nick_the_old_badger:0 "the Old Badger"
  nick_the_laughing_badger:0 "the Laughing Badger"
  nick_the_badger_daughter:0 "the Badger's Daughter"
  nick_the_badgerknight:0 "the Badger[CHARACTER.Custom('GetWarriorNickname')]"

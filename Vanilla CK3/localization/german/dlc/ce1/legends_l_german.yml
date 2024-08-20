@@ -421,7 +421,7 @@
  legend_chapter_opening_new_faith_generic: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip|U] wurde zu einer Zeit geboren, da die Religion sich weit vom Willen der höchsten Macht ([ROOT.Legend.GetProperty('faith').Faith.HighGodName]) entfernt hatte. Prediger verbreiteten Ketzereien in ihrem Namen. Die Menschen wandten sich anderen Religionen zu und machten Platz für die Rivalen des wahren Glaubens, auf dass sie ihre Herzen erobern mochten."
  legend_chapter_winner_change_toast: "„[winner.GetPromotedLegend.GetName|U]“ ändert sich"
  legend_chapter_change_toast: "„[ROOT.Char.GetPromotedLegend.GetName|U]“ ändert sich"
- legend_chapter_change_culture_toast: "„[founder.GetPromotedLegend.GetName|U]“ ändert sich"
+ legend_chapter_change_culture_toast: "[founder.GetPromotedLegend.GetName] ändert sich"
  spread_legend_intent: "Legendenverbreitung"
  spread_legend_intent_desc: "Ihr werdet diese Aktivität als Gelegenheit nutzen, um Eure [legend|E] zu verbreiten."
  spread_legend_intent_not_valid_desc: "#X Ihr besitzt derzeit keine [legend|E]#!"

@@ -263,6 +263,7 @@
  health.3101.e.already_looking: "Bald! Hilfe ist unterwegs!"
  health.3101.e_sick_physician: "Ich brauche einen neuen Arzt!"
  health.3101.e.tt: "Meine Dienstboten werden nach möglichen [GetCourtPositionType('court_physician_court_position').GetName()] suchen"
+ health.3101.tutorial.tt: "Bei Auswahl dieser Möglichkeit erfahrt Ihr, wie Ihr einen [GetCourtPositionType('court_physician_court_position').GetName()] ernennt, der Euer Leiden heilen könnte."
  health.3101.f: "O [ROOT.Char.GetFaith.HighGodName], werde ich so sterben …?"
  health_3101_already_looking_tt: "Ein [GetCourtPositionType('court_physician_court_position').GetName()] wird bereits von Euch gesucht"
  safe_diseaste_treatment.tt: "Eine sichere Behandlung könnte die Symptome zeitweise lindern und weist kaum Risiken auf"

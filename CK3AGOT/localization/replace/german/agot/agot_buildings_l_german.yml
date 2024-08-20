@@ -259,6 +259,27 @@
 
  building_type_holy_site_sept_01:0 "Grand Sept"
 
+ # The Wall Special Buildings
+ building_type_agot_the_wall_01:0 "The Wall"
+ building_type_agot_the_wall_01_desc:0 "One of the greatest projects erected by man, the Wall stands 700 feet tall and spans 300 miles across Westeros. Raised by Bran the Builder and manned by the Sworn Brotherhood of the Night's Watch, it stands as a bastion against any threats from beyond the North."
+ building_agot_the_wall_01:0 "$building_type_agot_the_wall_01$"
+ building_agot_the_wall_01_desc:0 "$building_type_agot_the_wall_01_desc$"
+
+ building_type_agot_castle_black_01:0 "$building_type_agot_the_wall_01$"
+ building_type_agot_castle_black_01_desc:0 "$building_type_agot_the_wall_01_desc$"
+ building_agot_castle_black_01:0 "Castle Black"
+ building_agot_castle_black_01_desc:0 "Castle Black is the chief seat of the Night's Watch, serving as the home to Lord Commander. It is from here that the Order receives new recruits, trains them, and they swear their vows."
+
+ building_type_agot_eastwatch_01:0 "$building_type_agot_the_wall_01$"
+ building_type_agot_eastwatch_01_desc:0 "$building_type_agot_the_wall_01_desc$"
+ building_agot_eastwatch_01:0 "Eastwatch-by-the-Sea"
+ building_agot_eastwatch_01_desc:0 "The easternmost castle of the Night's Watch, Eastwatch serves as the only port of the brotherhood and is key for bringing in food and trade to sustain the Watch."
+
+ building_type_agot_shadowtower_01:0 "$building_type_agot_the_wall_01$"
+ building_type_agot_shadowtower_01_desc:0 "$building_type_agot_the_wall_01_desc$"
+ building_agot_shadow_tower_01:0 "Shadow Tower"
+ building_agot_shadow_tower_01_desc:0 "The second western-most castle of the Watch, the Shadow Tower serves to guard the Bridge of Skulls."
+
  # Crownlands Special Buildings
  building_type_the_red_keep_01:0 "The Red Keep"
  building_type_the_red_keep_01_desc:0 "The Red Keep is at the very heart of the Seven Kingdoms. High atop Aegon's Hill, its red walls and towers stand guard over King's Landing. From here, the Lord of the Seven Kingdoms rules from atop the Iron Throne, forged of the thousand blades of Aegon’s fallen foes."
@@ -273,6 +294,11 @@
  building_type_seven_gates_01_desc:0 "Built on the orders of King Aegon I by Ser Osmund Strong and Grand Maester Gawen, the walls of King's Landing are dominated by seven massive gates: the Gate of the Gods, the Lion Gate, the River Gate, the Old Gate, the Iron Gate, the King's Gate, and the Dragon Gate."
  building_seven_gates_01:0 "$building_type_seven_gates_01$"
  building_seven_gates_01_desc:0 "$building_type_seven_gates_01_desc$"
+
+ building_type_cobblers_square_01:0 "Cobbler's Square"
+ building_type_cobblers_square_01_desc:0 "The first major square when coming from the Gate of the Gods, Cobbler's Square is named for the many cobblers that surround it, but it has been known for to be home to those who preach the displeasure of the Gods against the Iron Throne."
+ building_cobblers_square_01:0 "$building_type_cobblers_square_01$"
+ building_cobblers_square_01_desc:0 "$building_type_cobblers_square_01_desc$"
 
  building_type_holy_site_great_sept_01:0 "Great Sept of Baelor"
  building_type_holy_site_great_sept_01_desc:0 "The marble-domed Great Sept of Baelor is the most prominent sept in Westeros, constructed by its namesake; the Septon-King. It serves as the seat of the High Septon and the center of the Faith of the Seven."
@@ -300,9 +326,25 @@
  building_dragonstone_01:0 "$building_type_dragonstone_01$"
  building_dragonstone_01_desc:0 "$building_type_dragonstone_01_desc$"
 
+ building_type_agot_claw_isle_01:0 "Claw Isle"
+ building_type_agot_claw_isle_01_desc:0 "The traditional seat of House Celtigar, Claw Isle is not as large as neighboring Driftmark or Dragonstone. It does however offer easy access to Crackclaw Point, much to the Crackclaws' horror."
+ building_agot_claw_isle_01:0 "The Crab's Treasure Cove"
+ building_agot_claw_isle_01_desc:0 "While Claw Isle is not as well situated as Driftmark and Dragonstone, House Celtigar has long sought to protect and grow its economic power, often at the expense of the neighboring Crackclaws. And, thus they have made a great treasury."
+
  building_type_agot_whispers_01:0 "The Whispers"
  building_type_agot_whispers_01_desc:0 "The ancient stronghold of the legendary Ser Clarence Crabb, now consumed by the surrounding Godswood. Ser Clarence collected the heads of pirates, lords, wizards, knights, and even one king and gave them to his wife. Some say the whispers of his victims can still be heard upon the dilapidated walls where the decapitated heads once stood proudly on pikes."
+ building_agot_whispers_01:0 "The Whispers"
  building_agot_whispers_01_desc:0 "An ancient castle, now consumed by the godswood, some say the whispers of Ser Clarence's victims can still be heard, especially upon the decapitated walls where the heads once stood upon pikes."
+
+ building_type_agot_stonedance_01:0 "Stonedance"
+ building_type_agot_stonedance_01_desc:0 "The traditional seat of House Massey after they were driven from around Blackwater Rush by the Darklyns and other petty kings."
+ building_agot_stonedance_01:0 "Milk-Eye's Port"
+ building_agot_stonedance_01_desc:0 "Justin Massey, known as Milk-Eye, was an infamous Pirate-King who fought off the Durrandon Storm Kings, and raided any trade along the Narrow Sea and the Blackwater Bay."
+
+ building_type_agot_duskendale_01:0 "Duskendale"
+ building_type_agot_duskendale_01_desc:0 "The ancestral home of House Darklyn, where they ruled as petty kings."
+ building_agot_duskendale_01:0 "Hall of the White Swords"
+ building_agot_duskendale_01_desc:0 "House Darklyn has provided members of the Kingsguard since the beginning of the order, which has been a huge source of pride for the house."
 
  building_type_agot_dragonmont_01:0 "Dragonmont"
  building_type_agot_dragonmont_01_desc:0 "Dragonmont is the great volcano that dominates the island of Dragonstone. In days of old many dragons would flock to nest in the heated caverns or freshly cooled rock formations."
@@ -348,6 +390,11 @@
  building_agot_oldtown_walls_01:0 "Walls of Otho II"
  building_agot_oldtown_walls_01_desc:0 "Raised by Otho II, the massive stone walls were built after the city was sacked three times in a century; first by Samwell Starfire Dayne, second by Qhored the Cruel of the Ironmen, and lastly by Gykes the Woe Gardener."
 
+ building_type_agot_seven_shrines_01:0 "The Seven Shrines"
+ building_type_agot_seven_shrines_01_desc:0 "Famed for the gardens that surround them, the Seven Shrines are dedicated to each aspect of the One, and welcome all."
+ building_agot_seven_shrines_01:0 "The Seven Shrines"
+ building_agot_seven_shrines_01_desc:0 "Famed for the gardens that surround them, the Seven Shrines are dedicated to each aspect of the One, and welcome all."
+
  building_type_agot_goldengrove_01:0 "Goldengrove"
  building_type_agot_goldengrove_01_desc:0 "Home of House Rowan, who trace their descent from Rowan Gold-Tree."
  building_agot_goldengrove_01:0 "Snag of Rowan"
@@ -370,6 +417,16 @@
  building_agot_tumbleton_01:0 "The Bones of Vermithor and Seasmoke"
  building_agot_tumbleton_01_desc:0 "After the second Battle of Tumbleton, the remains of Vermithor and Seasmoke remain outside of the town, and many people over the years have made their way to see the remains of these great beasts. This has brought more visitors to the town, aiding its regrowth."
 
+ building_type_agot_cider_hall_01:0 "Cider Hall"
+ building_type_agot_cider_hall_01_desc:0 "The traditional seat of House Fossoway, once home of Foss the Archer."
+ building_agot_cider_hall_01:0 "The Bow and Apple Cidery"
+ building_agot_cider_hall_01_desc:0 "Famed across Westeros for their progenitor's skills with a bow, it is rather from the making of apple cider that enriched Cider Hall."
+
+ building_type_agot_starpike_01:0 "Starpike"
+ building_type_agot_starpike_01_desc:0 "The first, and greatest, of House Peake’s three castles, Starpike sits in the Dornish Marches as a testament to the house's longevity and endurance.”
+ building_agot_starpike_01:0 "Lorimar’s Solar"
+ building_agot_starpike_01_desc:0 "House Peake has numerous famed ancestors, but it was Lorimar Peake who brought the house to its greatest power. It was he who banished their ancient rivals of House Manderly from the Reach, and from doing so gained not only their third castle Dunstonbury, but brought the house closer to House Gardener, their liege lords."
+
  # Riverlands Special Buildings
  building_type_riverrun_01:0 "Riverrun"
  building_type_riverrun_01_desc:0 "The castle of Riverrun is not particularly large but does have a strategic position at the confluence of the Tumblestone River and the Red Fork. The rivers surround two of the three sides of the castle, and the third is protected by a wide ditch that can be flooded to leave the castle an island."
@@ -382,21 +439,24 @@
  building_the_twins_01_desc:0 "$building_type_the_twins_01_desc$"
 
  building_type_harrenhal_01:0 "Harrenhal"
- building_type_harrenhal_01_desc:0 "When King Harren refused to bend the knee to Aegon the Conqueror, he doomed not only himself and his house but his great fortress as well. Today Harrenhal lies in ruin, its stone melted and burned. And yet, even as a ruin, Harrenhal is still an impressive and strong holding."
- building_harrenhal_01:0 "$building_type_harrenhal_01$"
- building_harrenhal_01_desc:0 "$building_type_harrenhal_01_desc$"
- building_harrenhal_02:0 "Rebuilt Tower of Dread"
- building_harrenhal_02_desc:0 "The Tower of Dread has served as the lord's seat, a prison for highborn captives and everything in between. It is a fitting place to start the restoration of the towers of Harrenhal."
- building_harrenhal_03:0 "Rebuilt Wailing Tower"
- building_harrenhal_03_desc:0 "To meet the demands of a refurbished castle, the Wailing Tower's existing storerooms and granaries have been greatly expanded."
- building_harrenhal_04:0 "Rebuilt Tower of Ghosts"
- building_harrenhal_04_desc:0 "The Tower of Ghosts has been rebuilt and now serves to guard the east walls, and the postern gate."
- building_harrenhal_05:0 "Rebuilt Widow's Tower"
- building_harrenhal_05_desc:0 "The second largest tower, the Widow's Tower, was once home to Queen Rhaena Targaryen. It has now been rebuilt to a fitting state for a queen."
- building_harrenhal_06:0 "Rebuilt Kingspyre Tower"
- building_harrenhal_06_desc:0 "The greatest of Harrenhal's towers, the enormous Kingspyre Tower contains the lord's chamber and the Hall of a Thousand Hearths. Now that it has been rebuilt, Harrenhal’s reconstruction has almost been completed."
- building_harrenhal_07:0 "Harrenhal Restored"
- building_harrenhal_07_desc:0 "Rebuilt to the greatness it briefly was, Harrenhal is once again the most splendid castle in Westeros. Its five great towers behind its massive walls reach defiantly into the sky with its lord in fear of nothing save the return of dragons."
+ building_type_harrenhal_01_desc:0 "The castle of House Hoare, Harrenhal stands as a testament to the line of Harren the Black and his Ironmen over the Riverlands. Said to be the greatest castle in Westeros, though this is disputed by those in the Westerlands, it is a clear statement of control and prominence of the Hoares over not only there realm, but the surrounding lands as well."
+
+ building_type_ruins_harrenhal_01:0 "Harrenhal"
+ building_type_ruins_harrenhal_01_desc:0 "When King Harren refused to bend the knee to Aegon the Conqueror, he doomed not only himself and his house but his great fortress as well. Today Harrenhal lies in ruin, its stone melted and burned. And yet, even as a ruin, Harrenhal is still an impressive and strong holding."
+ building_ruins_harrenhal_01:0 "$building_type_ruins_harrenhal_01$"
+ building_ruins_harrenhal_01_desc:0 "$building_type_ruins_harrenhal_01_desc$"
+ building_ruins_harrenhal_02:0 "Rebuilt Tower of Dread"
+ building_ruins_harrenhal_02_desc:0 "The Tower of Dread has served as the lord's seat, a prison for highborn captives and everything in between. It is a fitting place to start the restoration of the towers of Harrenhal."
+ building_ruins_harrenhal_03:0 "Rebuilt Wailing Tower"
+ building_ruins_harrenhal_03_desc:0 "To meet the demands of a refurbished castle, the Wailing Tower's existing storerooms and granaries have been greatly expanded."
+ building_ruins_harrenhal_04:0 "Rebuilt Tower of Ghosts"
+ building_ruins_harrenhal_04_desc:0 "The Tower of Ghosts has been rebuilt and now serves to guard the east walls, and the postern gate."
+ building_ruins_harrenhal_05:0 "Rebuilt Widow's Tower"
+ building_ruins_harrenhal_05_desc:0 "The second largest tower, the Widow's Tower, was once home to Queen Rhaena Targaryen. It has now been rebuilt to a fitting state for a queen."
+ building_ruins_harrenhal_06:0 "Rebuilt Kingspyre Tower"
+ building_ruins_harrenhal_06_desc:0 "The greatest of Harrenhal's towers, the enormous Kingspyre Tower contains the lord's chamber and the Hall of a Thousand Hearths. Now that it has been rebuilt, Harrenhal’s reconstruction has almost been completed."
+ building_ruins_harrenhal_07:0 "Harrenhal Restored"
+ building_ruins_harrenhal_07_desc:0 "Rebuilt to the greatness it briefly was, Harrenhal is once again the most splendid castle in Westeros. Its five great towers behind its massive walls reach defiantly into the sky with its lord in fear of nothing save the return of dragons."
 
  building_type_agot_raventree_hall_01:0 "Raventree Hall"
  building_type_agot_raventree_hall_01_desc:0 "At the heart of Raventree Hall is a great weirwood tree, long dead, said to have been poisoned by the Brackens in ages past. It is the home to a great murder of ravens, which gives the castle its name."
@@ -436,6 +496,11 @@
  building_type_agot_inn_of_the_kneeling_man_01_desc:0 "This inn was built on the location of where Torrhen Stark, last King in the North knelt to Aegon the Conqueror."
  building_agot_inn_of_the_kneeling_man_01:0 "Inn of the Kneeling Man"
  building_agot_inn_of_the_kneeling_man_01_desc:0 "This inn was built on the location of where Torrhen Stark, last King in the North, is said to have knelt to Aegon the Conqueror."
+
+ building_type_agot_stoney_sept_01:0 "Stoney Sept"
+ building_type_agot_stoney_sept_01_desc:0 "A town in the southern Riverlands, Stoney Sept sees travelers from all over the Seven Kingdoms, form the Stormlands to the North."
+ building_agot_stoney_sept_01:0 "Square of the Leaping Trout"
+ building_agot_stoney_sept_01_desc:0 "The central thoroughfare of Stoney Sept, the square is known for its fountain of with its leaping trout, it has everything a traveler could want, from goods and services (including peaches), to safe beds."
 
  # Westerlands Special Buildings
  building_type_casterly_rock_01:0 "Casterly Rock"
@@ -521,6 +586,35 @@
  building_agot_summerhall_ruins_01_desc:0 "Ruined in a night of folly, which not only destroyed the castle, but killed one king and nearly the whole Royal Family, Summerhall is now a place of quiet despair."
  building_agot_summerhall_ruins_02:0 "Prince's Abode"
  building_agot_summerhall_ruins_02_desc:0 "Revived and Rebuilt, Summerhall is once again a palace among the Dornish Marches."
+
+ building_type_agot_paintwood_01:0 "Paintwood"
+ building_type_agot_paintwood_01_desc:0 "Deep within the Rainwood near the center of the Cape of Wrath, one can find a grove called the Paintwood by locals where an ancient tower stands to this day."
+ building_agot_paintwood_01:0 "Green Queen’s Tower"
+ building_agot_paintwood_01_desc:0 "When the Kingdom of the Stormlands was at its weakest under Durwald I, the Green Queen rose to claim the Rainwood and Cape Wrath for her own. She held off the Durrandons for nearly an entire generation, but when someone capable sat in Storm’s End the young realm collapsed to the Durrandon fury."
+
+ building_type_agot_bronzegate_01:0 "Bronzegate"
+ building_type_agot_bronzegate_01_desc:0 "The ancient home of House Buckler, Bronzegate has long been the end of any would-be Stormlands conqueror."
+ building_agot_bronzegate_01:0 "Wall of Seven Skulls"
+ building_agot_bronzegate_01_desc:0 "During the Andal Invasions, an alliance between seven warlords, calling itself the Holy Brotherhood of the Andals, set their sights on the Stormlands. It was at the Battle of Bronzegate where Monfryd V defeated them, slaying all seven at the cost of his own life. Today seven skulls adorn Bronzegate’s walls in remembrance of the victory, even though House Buckler and the Stormlands have converted."
+
+ building_type_agot_weeping_tower_01:0 "Whitehead Tower"
+ building_type_agot_weeping_tower_01_desc:0 "The traditional home of House Whitehead, it is from here they rule the surrounding town."
+ building_agot_weeping_tower_01:0 "$building_type_agot_weeping_tower_01$"
+ building_agot_weeping_tower_01_desc:0 "$building_type_agot_weeping_tower_01_desc$"
+ building_agot_weeping_tower_02:0 "The Weeping Tower"
+ building_agot_weeping_tower_02_desc:0 "When the Young Dragon’s body was returned by the Dornish the town held his body for three days where many came and grieved for King Daeron. From this the town and the lord’s tower would also receive new names."
+
+ building_type_agot_kingswood_brotherhood_01:0 "Kingswood Brotherhood"
+ building_type_agot_kingswood_brotherhood_01_desc:0 "The Kingswood Brotherhood was an infamous group of bandits."
+ building_agot_kingswood_brotherhood_01:0 "Camp of the Brotherhood"
+ building_agot_kingswood_brotherhood_01_desc:0 "The Brotherhood was supported by the smallfolk of the Kingswood, allowing them to evade the local lords and even royal patrols."
+
+ building_type_agot_ruins_kingswood_brotherhood_01:0 "$building_type_agot_kingswood_brotherhood_01$"
+ building_type_agot_ruins_kingswood_brotherhood_01_desc:0 "$building_type_agot_kingswood_brotherhood_01_desc$"
+ building_agot_ruins_kingswood_brotherhood_01:0 "Graves of the Kingswood Brotherhood"
+ building_agot_ruins_kingswood_brotherhood_01_desc:0 ""
+ building_agot_ruins_kingswood_brotherhood_02:0 "Camp of the Brotherhood Reborn"
+ building_agot_ruins_kingswood_brotherhood_02_desc:0 "The Kingswood Brotherhood has been reborn and once again plagues the Kingswood and the lords there."
 
  # North Special Buildings
  building_type_winterfell_01:0 "Winterfell"
@@ -632,6 +726,23 @@
  building_agot_skyreach_01:0 "The Soaring Towers"
  building_agot_skyreach_01_desc:0 "Skyreach is famed for its overwatch of the Wide Way, and its carved walls and soaring towers. No enemy has been able to sneak past this formidable castle."
 
+ building_type_agot_hellgate_hall_01:0 "Hellgate Hall"
+ building_type_agot_hellgate_hall_01_desc:0 "The ancestral seat of House Dryland, it is from this fearsome castle that they ruled as Kings of the Brimstone."
+ building_agot_hellgate_hall_01:0 "$building_type_agot_hellgate_hall_01$"
+ building_agot_hellgate_hall_01_desc:0 "$building_type_agot_hellgate_hall_01_desc$"
+
+ building_type_agot_ruins_hellgate_hall_01:0 "$building_type_agot_hellgate_hall_01$"
+ building_type_agot_ruins_hellgate_hall_01_desc:0 "$building_type_agot_hellgate_hall_01_desc$"
+ building_agot_ruins_hellgate_hall_01:0 "Lucifer’s Ruins"
+ building_agot_ruins_hellgate_hall_01_desc:0 "Once the mightiest of the castles that called the deep dunes of Dorne home, Hellgate Hall and House Dryland were laid low in the Dornish Unification Wars under Nymeria and House Martell. Today the ruins stand as a testament to those who defy the Sun and Spear as the last King of the Brimstone did."
+ building_agot_ruins_hellgate_hall_02:0 "Rebuilt Hellgate Hall"
+ building_agot_ruins_hellgate_hall_02_desc:0 "Rebuilt to its former state, Hellgate Hall once again serves as the home of the King of the Brimstone, no more do the dunes bow before Sunspear."
+
+ building_type_agot_godsgrace_01:0 "Godsgrace"
+ building_type_agot_godsgrace_01_desc:0 "The traditional seat of House Allyrion, the castle was founded when the House settled the region during the Andal Invasions."
+ building_agot_godsgrace_01:0 "The Greenblood Tower"
+ building_agot_godsgrace_01_desc:0 "The Greenblood Tower was built by House Allyrion to give them a commanding position in the plains around the Greenblood and allowed them to maintain their independence in the face of many other petty kingdoms that surrounded it."
+
  # Vale Special Buildings
  building_type_the_eyrie_01:0 "The Eyrie"
  building_type_the_eyrie_01_desc:0 "The Eyrie is the summer castle of House Arryn, built as a palace for the Kings of Mountain and Vale. It is one of the smallest of the great castles of Westeros. However, its location atop the Giant's Lance makes it all but impregnable."
@@ -670,6 +781,26 @@
  building_agot_sisterton_01:0 "The Night Lamp"
  building_agot_sisterton_01_desc:0 "The ancient beacon of the Three Sisters, the Night Lamp is a black tower which guides sailors to harbor when lit, and ships to doom when not."
 
+ building_type_agot_redfort_01:0 "Redfort"
+ building_type_agot_redfort_01_desc:0 "The Ancient seat from which the House takes its name."
+ building_agot_redfort_01:0 "The Redstone Walls"
+ building_agot_redfort_01_desc:0 "The walls of the Redfort, like the rest of the castle, are made from the redstone giving the castle and the house its name. The strength of these walls has been tested many times by Andals, Moon Mountain Clans, and other enemies."
+
+ building_type_agot_ironoaks_01:0 "Ironoaks"
+ building_type_agot_ironoaks_01_desc:0 "The traditional castle of House Waynwood ever since the Andal Invasions."
+ building_agot_ironoaks_01:0 "The Ceremonial Keep"
+ building_agot_ironoaks_01_desc:0 "Known for their keen adherence to ceremony and chivalry, House Waynwood has long been one of the pinnacles of the Vale."
+
+ building_type_agot_strongsong_01:0 "Strongsong"
+ building_type_agot_strongsong_01_desc:0 "The ancient seat of House Belmore, it is from here they have kept control of their domain in the Mountains of the Moon."
+ building_agot_strongsong_01:0 "Bellsong Lake"
+ building_agot_strongsong_01_desc:0 "Strongsong is built next to Bellsong Lake, which has provided much-needed supplies to isolated communities in the mountains."
+
+ building_type_agot_ruthermont_01:0 "Ruthermont"
+ building_type_agot_ruthermont_01_desc:0 "The ancient seat of House Ruthermont, from here the house has prospered since the Andal Invasions."
+ building_agot_ruthermont_01:0 "The Ruthermont"
+ building_agot_ruthermont_01_desc:0 "The mountain from which House Ruthermont took its name, has been a great source of prosperity for the House. Not flushed with gold like the Westerlands, it has allowed the House to better use and develop the lands around it."
+
  # Iron Islands Special Buildings
  building_type_pyke_01:0 "Pyke"
  building_type_pyke_01_desc:0 "Pyke is an ancient castle. The cliffs Pyke was built on have long since been eroded by the sea, and now the castle's towers stand atop three islands and dozens of sea stacks. The Great Keep is home to the Seastone Chair, the throne of the rulers of the Iron Islands, a position currently held by House Greyjoy."
@@ -703,9 +834,37 @@
 
  # The Disputed Lands Special Buildings
  building_type_agot_tree_of_crowns_01:0 "Tree of Crowns"
- building_type_agot_tree_of_crowns_01_desc:0 "A giant dead oak tree that bears the crowns of untold would be kings and queens who all sought to establish a realm in the Disputed Lands. Many believe that oaths sworn beneath will always be fulfilled, so long as an offering is left."
+ building_type_agot_tree_of_crowns_01_desc:0 "A giant dead oak tree that bears the crowns of untold would-be kings and queens who all sought to establish a realm in the Disputed Lands. Many believe that oaths sworn beneath will always be fulfilled, so long as an offering is left."
  building_agot_tree_of_crowns_01:0 "$building_type_agot_tree_of_crowns_01$"
  building_agot_tree_of_crowns_01_desc:0 "$building_type_agot_tree_of_crowns_01_desc$"
+
+ building_type_agot_triarchy_council_01:0 "High Council of the Trairchy"
+ building_type_agot_triarchy_council_01_desc:0 "The Triarchy of Lys, Tyrosh, and Myr is not a kingdom as the Westerosi understand it. Instead of a king, sealord, or even triarchs, the Three Daughters are ruled by the High Council, which is composed of Three and Thirty members, with each city sending an equal amount. The council meets in none of the three cities, but rather they meet deep in the Disputed Lands, so no one city is above its sisters."
+ building_agot_triarchy_council_01:0 "$building_type_agot_triarchy_council_01$"
+ building_agot_triarchy_council_01_desc:0 "$building_type_agot_triarchy_council_01_desc$"
+
+ building_type_agot_ruins_triarchy_council_01:0 "$building_type_agot_triarchy_council_01$"
+ building_type_agot_ruins_triarchy_council_01_desc:0 "$building_type_agot_triarchy_council_01_desc$"
+ building_agot_ruins_triarchy_council_01:0 "The Sororicide"
+ building_agot_ruins_triarchy_council_01_desc:0 "The former home of the High Council of the Triarchy, this hall now stands as a testament of the broken bonds between the three sisters, and the victory of those who fought against the Eternal Alliance."
+ building_agot_ruins_triarchy_council_02:0 "The Rebuilt High Council of the Triarchy"
+ building_agot_ruins_triarchy_council_02_desc:0 "$building_type_agot_triarchy_council_01_desc$"
+
+ building_type_agot_monument_of_borderland_01:0 "Monument of the Battle of the Borderland"
+ building_type_agot_monument_of_borderland_01_desc:0 "The Battle of the Borderland was the first time since the Century of Blood that Lys, Myr, and Tyrosh acted together and fought off the Volantenes once again. In remembrance the Three Daughters raised a pillar to commemorate the victory."
+ building_agot_monument_of_borderland_01:0 "$building_type_agot_monument_of_borderland_01$"
+ building_agot_monument_of_borderland_01_desc:0 "$building_type_agot_monument_of_borderland_01_desc$"
+
+ # Stepstones Special Buildings
+ building_type_agot_racallios_fort_01:0 "Seat of Bloodstone"
+ building_type_agot_racallios_fort_01_desc:0 "Bloodstone the largest of the Stepstones has always been a haven for the pirates and corsairs that ply these waters."
+ building_agot_racallios_fort_01:0 "Racallio's Fort"
+ building_agot_racallios_fort_01_desc:0 "Racallio Ryndoon was sent numerous times to conquer the Stepstones from the mercenary kingdom established by Daemon Targaryen: first by the Eternal Alliance of Lys, Myr, and Tyrosh and then by Tyrosh alone. When he finally succeeded, instead of turning his conquests over to his home city he turned pirate and named himself king. From Bloodstone he would fight and ally with the Three Daughters, Braavos, Pentos, Dorne, Driftmark, and the Iron Throne, changing allegiances with the winds of fortune."
+
+ building_type_agot_crab_fields_01:0 "Maiden's Bed"
+ building_type_agot_crab_fields_01_desc:0 "Though not as infamous as Bloodstone, Denmaiden and the pirate haven of Maiden's Bed are just as dangerous as any island in the Stepstones or Basilisk Isles."
+ building_agot_crab_fields_01:0 "The Crab Fields"
+ building_agot_crab_fields_01_desc:0 "When Craghar Drahar did the impossible and rid the Stepstones of the pirate scourge, he was brutal toward any who raised the black flags. Any convicted pirates were staked and left on the beach to be fed upon by the crabs as they died."
 
  # Tyrosh Special Buildings
  building_type_agot_tyrosh_01:0 "Black Walls of Tyrosh"
@@ -723,6 +882,16 @@
  building_agot_grand_temple_of_trios_01:0 "$building_type_agot_grand_temple_of_trios_01$"
  building_agot_grand_temple_of_trios_01_desc:0 "$building_type_agot_grand_temple_of_trios_01_desc$"
 
+ building_type_agot_tyrosh_walls_01:0 "City Walls of Tyrosh"
+ building_type_agot_tyrosh_01_desc:0 "The Free City of Tyrosh is defended by its great stone walls and towers. Long a sense of pride for the city."
+ building_agot_tyrosh_walls_01:0 "The Archonate Walls"
+ building_agot_tyrosh_walls_01_desc:0 "Encircling the entirity of the city, the Archonate Walls, built when the city of Tyrosh had grown beyond the Black Walls and was granted self-rule by the Freehold, provide refuge for both the citizens within and for the snail collectors beyond with its semicircular towers."
+
+ building_type_agot_red_temple_tyrosh_01:0 "Temple of the Lord of Light of Tyrosh"
+ building_type_agot_red_temple_tyrosh_01_desc:0 "The Temple of the Lord of Light of Tyrosh is a newer feature of the city, arriving only after the Century of Blood. Despite that the R'hllorists have made strides to integrate themselves into the city at every level, so that not even the Archon can rebuke the city's High Priest openly."
+ building_agot_red_temple_tyrosh_01:0 "$building_type_agot_red_temple_tyrosh_01$"
+ building_agot_red_temple_tyrosh_01_desc:0 "$building_type_agot_red_temple_tyrosh_01_desc$"
+
  # Lys Special Buildings
  building_type_agot_lys_01:0 "Lys"
  building_type_agot_lys_01_desc:0 "One of the Nine Free Cities, and the fairest of them all."
@@ -730,6 +899,16 @@
  building_agot_lys_01_desc:0 "Ruling an empire is hard work, and the Freehold was an empire regardless of its elections. The dragonlords found Lys to be a great retreat from the cutthroat politics of the forty families, where they could relax and rejuvenate, before rejoining the courtly battles amongst the topless towers."
  building_agot_lys_02:0 "Lys the Lovely"
  building_agot_lys_02_desc:0 "From its beginnings as a retreat for the Dragonlords of Valyria, Lys has grown to be a great power in its own right, renowned across the world for its beauty, both that of the city itself and its people."
+
+ building_type_agot_lys_walls_01:0 "City Walls of Lys"
+ building_type_agot_lys_01_desc:0 "The Free City of Lys is defended by its great stone walls and towers. Long a sense of pride for the city."
+ building_agot_lys_walls_01:0 "The Sea Walls"
+ building_agot_lys_walls_01_desc:0 "Built to defend the city and the many pleasure houses and gardens that dot the city, the Sea Walls of Lys shine out to greet any visitor, be they friend or foe."
+
+ building_type_agot_red_temple_lys_01:0 "Temple of the Lord of Light of Lys"
+ building_type_agot_red_temple_lys_01_desc:0 "The Temple of the Lord of Light of Lys has been a beacon for the R'hllorists since the time under Volantene rule. Despite its foreign roots it has always championed Lys and its interests abroad, ensuring its place in the city's complex intrigues."
+ building_agot_red_temple_lys_01:0 "$building_type_agot_red_temple_lys_01$"
+ building_agot_red_temple_lys_01_desc:0 "$building_type_agot_red_temple_lys_01_desc$"
 
  # Myr Special Buildings
  building_type_agot_great_wheel_01:0 "Great Wheel of Myr"
@@ -742,7 +921,7 @@
  building_agot_grand_temple_of_gelenei_01:0 "$building_type_agot_grand_temple_of_gelenei_01$"
  building_agot_grand_temple_of_gelenei_01_desc:0 "$building_type_agot_grand_temple_of_gelenei_01_desc$"
 
- building_type_agot_red_temple_myr_01:0 "Temple of the Lord of Light (Myr)"
+ building_type_agot_red_temple_myr_01:0 "Temple of the Lord of Light of Myr"
  building_type_agot_red_temple_myr_01_desc:0 "The Temple of the Lord of Light is one of great places in Myr, its shining red and gold walls stand as a beacon to the glory of R'hllor to all, regardless if they have seen the light or not."
  building_agot_red_temple_myr_01:0 "$building_type_agot_red_temple_myr_01$"
  building_agot_red_temple_myr_01_desc:0 "$building_type_agot_red_temple_myr_01_desc$"
@@ -757,13 +936,28 @@
  building_agot_statue_of_trios_01:0 "$building_type_agot_statue_of_trios_01$"
  building_agot_statue_of_trios_01_desc:0 "$building_type_agot_statue_of_trios_01_desc$"
 
+ building_type_agot_myr_cliffs_01:0 "The Lace Cliffs"
+ building_type_agot_myr_cliffs_01_desc:0 "Enveloping the Myrish harbor, the Lace Cliffs provide a natural refuge and safety for the city from the sea. Its close vicinity to the shore means limited space for any extensive construction plans, but it also works to deter any invaders."
+ building_agot_myr_cliffs_01:0 "$building_type_agot_myr_cliffs_01$"
+ building_agot_myr_cliffs_01_desc:0 "$building_type_agot_myr_cliffs_01_desc$"
+
+ building_type_agot_myr_walls_01:0 "City Walls of Myr"
+ building_type_agot_myr_01_desc:0 "The Free City of Myr is defended by its great stone walls and towers. Long a sense of pride for the city."
+ building_agot_myr_walls_01:0 "The Flutted Walls"
+ building_agot_myr_walls_01_desc:0 "The Walls of Myr are well known for its six great towers, which reach high above the city, and the great flutes that appear across the walls making it harder for any attacker to sack the scholastic city."
+
  # Pentos Special Buildings
  building_type_agot_pentos_01:0 "Prince's Palace"
  building_type_agot_pentos_01_desc:0 "The Prince of Pentos is seen as the divine conduit to many of the city, it is he who is chosen by the gods, he who beds both the Maid of the Sea and Maid of the Fields, and he who is sacrificed to appease the gods. In this regard, the palace is not only a seat of government but a temple as well."
  building_agot_pentos_01:0 "$building_type_agot_pentos_01$"
  building_agot_pentos_01_desc:0 "$building_type_agot_pentos_01_desc$"
 
- building_type_agot_red_temple_pentos_01:0 "Temple of the Lord of Light (Pentos)"
+ building_type_agot_pentos_walls_01:0 "City Walls of Pentos"
+ building_type_agot_pentos_walls_01_desc:0 "The Free City of Pentos is defended by its great stone walls and towers. Long a sense of pride for the city."
+ building_agot_pentos_walls_01:0 "The Magisterial Walls"
+ building_agot_pentos_walls_01_desc:0 "The Walls of Pentos stand tall and can be seen for hundreds of miles across the Flatlands. The blue and gray walls are a beacon to traders from both east and west."
+
+ building_type_agot_red_temple_pentos_01:0 "Temple of the Lord of Light of Pentos"
  building_type_agot_red_temple_pentos_01_desc:0 "The Temple of the Lord of Light is a growing power in Pentos, where before the Prince's control over matters spiritual was uncontested, now the Red God also demands obedience."
  building_agot_red_temple_pentos_01:0 "$building_type_agot_red_temple_pentos_01$"
  building_agot_red_temple_pentos_01_desc:0 "$building_type_agot_red_temple_pentos_01_desc$"
@@ -778,11 +972,42 @@
  building_agot_pentos_harbor_01:0 "$building_type_agot_pentos_harbor_01$"
  building_agot_pentos_harbor_01_desc:0 "$building_type_agot_pentos_harbor_01_desc$"
 
+ building_type_agot_valdrizes_01:0 "Sphinx Hills" 
+ building_type_agot_valdrizes_01_desc:0 "Along the old dragonroad of the Valyrian Freehold, one can come across a great statue of a Valyrian Sphinx watching over the road."
+ building_agot_valdrizes_01:0 "The Dragon Queen"
+ building_agot_valdrizes_01_desc:0 "This ancient statue, dubbed the Dragon Queen, stands tall upon its hill over looking the Valyrian road. This Valyrian Sphinx once was partnered with a its mate, but the Dothraki dragged the King away long ago."
+
  # Andalos Special Buildings
  building_type_agot_hugor_hill_01:0 "Hill under the Stars"
  building_type_agot_hugor_hill_01_desc:0 "When the Seven-Who-Are-One revealed themself to their chosen people, it was upon this hill that it was done so. From here Hugor was chosen as king and anointed with the gifts of the Seven and crowned with stars."
  building_agot_hugor_hill_01:0 "$building_type_agot_hugor_hill_01$"
  building_agot_hugor_hill_01_desc:0 "$building_type_agot_hugor_hill_01_desc$"
+
+ # Braavos Special Buildings
+ building_type_agot_sealords_palace_01:0 "Sealord's Palace"
+ building_type_agot_sealords_palace_01_desc:0 "The Sealord's Palace is one of the great sites of the secret city. With the Moon Pool before it, its great columns and famous menagerie, the Sealord's Palace can match any palace of the old Freehold and the castles of Westeros for its grandeur."
+ building_agot_sealords_palace_01:0 "$building_type_agot_sealords_palace_01$"
+ building_agot_sealords_palace_01_desc:0 "$building_type_agot_sealords_palace_01_desc$"
+
+ building_type_agot_iron_bank_01:0 "Iron Bank of Braavos"
+ building_type_agot_iron_bank_01_desc:0 "Having its origins as an iron mine, the Iron Bank is one the most formidable entities in the known world. It needs not strong walls, replenishing navies, or even vast armies for it is protected by the great power of coin; all kings, lords, and would-be conquerors are bound to the fortunes of commerce."
+ building_agot_iron_bank_01:0 "$building_type_agot_iron_bank_01$"
+ building_agot_iron_bank_01_desc:0 "$building_type_agot_iron_bank_01_desc$"
+
+ building_type_agot_isle_of_the_gods_01:0 "Isle of the Gods"
+ building_type_agot_isle_of_the_gods_01_desc:0 "All gods and beliefs are welcome in Braavos, and the gods who don't have grand temples and constant worshippers find their home on the Isle of the Gods, where the occasional traveler and sailor can pray to their god."
+ building_agot_isle_of_the_gods_01:0 "$building_type_agot_isle_of_the_gods_01$"
+ building_agot_isle_of_the_gods_01_desc:0 "$building_type_agot_isle_of_the_gods_01_desc$"
+
+ building_type_agot_arsenal_01:0 "Arsenal of Braavos"
+ building_type_agot_arsenal_01_desc:0 "The great Arsenal of Braavos is the foundation on which the numerous wooden walls of Braavos are built. Able to produce a full ship from nothing in a single day, the great fleets of Braavos are quickly replenished even after crushing defeats."
+ building_agot_arsenal_01:0 "$building_type_agot_arsenal_01$"
+ building_agot_arsenal_01_desc:0 "$building_type_agot_arsenal_01_desc$"
+
+ building_type_agot_titan_01:0 "Titan of Braavos"
+ building_type_agot_titan_01_desc:0 "The Titan of Braavos is both the beacon and gate of the secret city. From its eyes come the lights that direct the incoming ships through the fog and isles that protect Braavos, and from its copper walls it can repel any would-be attacker."
+ building_agot_titan_01:0 "$building_type_agot_titan_01$"
+ building_agot_titan_01_desc:0 "$building_type_agot_titan_01_desc$"
 
 # Yi Ti Special Buildings
 building_type_agot_azure_palace_01:0 "Azure Dynasty Imperial Palace Complex"
@@ -995,7 +1220,12 @@ building_type_agot_azure_palace_01:0 "Azure Dynasty Imperial Palace Complex"
  red_keep_effect_desc:0 "$feast_cost_discount_max_desc$"
  winterfell_effect_desc:0 "$funeral_cost_discount_max_desc$in this [holding|E]: [EmptyScope.ScriptValue('tournament_activity_cost_max_discount_value')|P0%]"
  funeral_cost_discount_max_desc:0 "Reduced Cost for hosting [GetActivityType('activity_funeral').GetTextIcon][GetActivityType('activity_funeral').GetName]"
+ agot_weeping_tower_02_effect_desc:0 "$funeral_cost_discount_max_desc$in this [holding|E]: [EmptyScope.ScriptValue('tournament_activity_cost_max_discount_value')|P0%]"
+ ironoaks_effect_desc:0 "$feast_cost_discount_max_desc$"
 
 #AGOT Building Requirements
 REQUIRES_PIRATE_GOVT:0 "You must have the #V Pirate#! [government|e]"
 REQUIRES_COASTAL:0 "Must be built in coastal counties"
+BE_ONE_OF_THE_THREE_DAUGHTERS:0 "You must be either Lyseni, Myrish, or Tyroshi"
+GET_OUT_OF_MY_SWAMP:0 "The Neck is no home for cities and temples."
+HOLDER_NOT_TYWIN:0 "Holder is not Tywin Lannister"
