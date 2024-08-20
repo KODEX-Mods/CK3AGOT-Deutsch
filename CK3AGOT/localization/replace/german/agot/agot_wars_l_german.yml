@@ -17,6 +17,8 @@
  agot_rebellion_war_white_peace_desc:0 "White peace attacker - Invalid boss. Tell Gaytriarch if you see this."
  agot_rebellion_war_defeat_desc_defender:0 "[attacker.GetNamePossessive] rebellion for the [defender.GetPrimaryTitle.GetName] has failed. [defender.GetName] will decide the fate of the rebels."
  agot_rebellion_war_defeat_desc:0 "[attacker.GetNamePossessive] rebellion for the [defender.GetPrimaryTitle.GetName] has failed. [defender.GetName] will decide the fate of the rebels."
+ agot_reconquest_war:0 "Reconquest"
+ agot_reconquest_war_name:0 "Reconquest"
 
 # AGOT REVOLT
  agot_revolt_war:0 "Revolt"
@@ -26,6 +28,8 @@
  agot_revolt_war_defeat_desc_defender:0 "[attacker.GetNamePossessive] revolt has failed, and the punishment they have attempted to avert will now come to pass."
  agot_revolt_war_defeat_desc:0 "[attacker.GetNamePossessive] revolt fails, resulting in the rebels' original sentence coming to pass."
 
+ # AGOT FACTION
+ agot_claimant_faction_war:0 "Claimant War"
  agot_liberty_faction_war:0 "Liberty War"
 
 
@@ -49,6 +53,8 @@
 
  STEPSTONES_CONQUEST_CB_NAME:0 "Disputed Lands Conquest for [county|E]"
  disputed_lands_conquest_cb:0 "Disputed Lands Conquest"
+
+ iron_throne_decision_troops:0 "The Conqueror's Guard"
 
  stepstones_adventurer_conquest:0 "Stepstones Conquest"
  stepstones_adventurer_event_troops:0 "Pirate Adventurers"
@@ -133,3 +139,14 @@
  disrupt_piracy_invalidated_desc:0 "The war to disrupt piracy has been invalidated due to the death of [ATTACKER.GetFullNameRegnalPossessive|U]."
  DISRUPT_PIRACY_COASTAL_GOOD:0 "With the pirates of [defender.GetPrimaryTitle.GetNameNoTier|U] smashed, your coastal [counties|E] are safer from piracy, increasing [county_control|E] for #V 2 years."
  DISRUPT_PIRACY_COASTAL_BAD:0 "With their [attacker.GetLadyLord|U] unable to control the pirate meance, the once bustling docks in your coastal [counties|E] sit empty, lowering [county_control|E], [county_opinion|E], and [development|E] for #V 2 years."
+
+ #Shattered World Conquest
+ SHATTERED_CONQUEST_DUCHY_CB_NAME:1 "Conquer [duchy|E]"
+ SHATTERED_CONQUEST_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Conquest of the [TITLE.GetBaseName]"
+ SHATTERED_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+
+ #Crannogman Ambush
+ CRANNOGMAN_AMBUSH_CB_NAME: "Ambush in the Bog"
+ CRANNOGMAN_AMBUSH_CB_NAME_BASE: "Bog Ambush"
+ CRANNOGMAN_AMBUSH_CB: "Bog Ambush"
+ crannogman_ambush_cb: "Ambush in the Bog"

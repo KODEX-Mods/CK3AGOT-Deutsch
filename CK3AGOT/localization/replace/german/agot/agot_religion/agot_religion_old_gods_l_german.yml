@@ -1,6 +1,4 @@
-﻿# by ruffff1
-
-l_german:
+﻿l_german:
 
  #Common Old Gods Localization
  old_gods_religion:0 "Old Gods"
@@ -127,6 +125,10 @@ l_german:
  old_gods_btw_night_god_name_possessive:0 "Dark Gods of the Frostfangs'"
  old_gods_btw_water_god_name:0 "Crab Gods"
  old_gods_btw_water_god_name_possessive:0 "Crab Gods'"
+ old_gods_btw_old:0 "Traditional Old Gods of Beyond-the-Wall"
+ old_gods_btw_old_adj:0 "Traditional Old Gods of Beyond-the-Wall"
+ old_gods_btw_old_adherent:0 "Traditional Old Gods of Beyond-the-Wall Follower"
+ old_gods_btw_old_adherent_plural:0 "Traditional Old Gods of Beyond-the-Wall Followers"
 
  old_gods_frozen_shore:0 "Frozen Shore Old Gods"
  old_gods_frozen_shore_adj:0 "Frozen Shore Old Gods"
