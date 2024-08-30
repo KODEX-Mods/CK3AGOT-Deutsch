@@ -71,21 +71,14 @@
  dynn_Pyne:0 "Kyfer"
 
  #Landless Houses
- dynn_Blackhull:0 "Schwarzrumpf"
  dynn_Blackwater:0 "Schwarzwasser"
  dynn_Correy:0 "Korrey"
  dynn_Deem:0 "Deem"
- dynn_Dragonstone:0 "Drachenstein"
  dynn_Duskendale:0 "Dämmertal"
- dynn_Hollow_Hill:0 "Hohlberg"
  dynn_Kettleblack:0 "Schwarzkessel"
- dynn_Misty_Wood:0 "Nebelholz"
  dynn_Poore:0 "Schwach"
- dynn_Reeds:0 "Rieds"
- dynn_Sharp_Point:0 "Scharfspitz"
  dynn_Suggs:0 "Saggs"
  dynn_Tall:0 "Groß"
- dynn_Tally_Hill:0 "Kerbholz"
  dynn_Tanner:0 "Gerber"
  dynn_Winters:0 "Winters"
  dynn_Baxter:0 "Baxter"
@@ -98,6 +91,10 @@
 
  #MUSH
  dynn_Holk:0 "Holk"
+
+ #TTRPG
+ dynn_Archay:0 "Archay"
+ dynn_Bartheld:0 "Bartheld"
 
  #Special
  dynn_High_Septon:0 "Hoher Septon"

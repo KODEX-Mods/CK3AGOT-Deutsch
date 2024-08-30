@@ -102,21 +102,16 @@
  dynn_Eldridge:0 "Eldkamm"
  dynn_Kytley:0 "Kytley"
  dynn_Weller:0 "Brunner"
+ dynn_Barnell:0 "Barnell"
+ dynn_Tullison:0 "Tullison"
+ dynn_Wallain:0 "Wallain"
+ dynn_Landseer:0 "Landseer"
+ dynn_Ward:0 "Ward"
+ dynn_Finch:0 "Finch"
+ dynn_Pace:0 "Pace"
+ dynn_Warrens:0 "Warrens"
 
  #Landless Houses
- dynn_Blue_Fork:0 "Blauarm"
  dynn_Bromley:0 "Bromm"
  dynn_Crossing:0 "Kreuzweg"
  dynn_Longbough:0 "Langzweig"
- dynn_Longleaf:0 "Langblatt"
- dynn_Meager:0 "Mager"
- dynn_Moontown:0 "Mondstett"
- dynn_Oldstones:0 "Altsteinen" #Jenny of Oldstones
- dynn_Pennytree:0 "Hellerbaum"
- dynn_Seven_Stars:0 "Siebensternen"
- dynn_Sevenstreams:0 "Siebenbächen"
- dynn_Woodmere:0 "Purholz"
-
- #Telltale Fanon
- dynn_Croft:0 "Kroft"
- dynn_Pike:0 "Hecht"

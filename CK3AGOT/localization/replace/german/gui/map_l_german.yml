@@ -29,7 +29,6 @@
  #AGOT Modified
  #CHARACTER_TRAVELING_OWNER:0 "In [PROVINCE.GetName|V] while traveling"
  CHARACTER_TRAVELING_OWNER:0 "In [PROVINCE.GetName|V] [Character.Custom('agot_character_traveling_loc')]"
- CHARACTER_TRAVELING_OWNER:0 "In [PROVINCE.GetName|V] while traveling"
  CHARACTER_TRAVELING_ENTOURAGE:0 "In [TRAVEL_PLAN.GetData.GetOwner.GetShortUINamePossessive|V] [entourage|E] in [PROVINCE.GetName|V]"
  FORD_TOOLTIP:1 "Ford between $FROM$ and $TO$"
  STRAIT_TOOLTIP:1 "Strait between $FROM$ and $TO$"
@@ -44,7 +43,7 @@
  MAP_REALM_TT_RELATION_TOP_LIEGE:0 "[TARGET_CHARACTER.GetShortUINamePossessive|UV] Top Liege"
  MAP_REALM_TT_RELATION_OTHER:0 "Independent Realm"
 
- #AGOT MODIFIED
+ #AGOT Modified
  #IMPASSIBLE_PROVINCE_TOOLTIP:0 "#T Impassable terrain#!"
  IMPASSIBLE_PROVINCE_TOOLTIP:0 "#T Impassable Terrain#!"
  #IMPASSPABLE_SEA_PROVINCE_TOOLTIP:0 "#T Mare Incognitum#!"
