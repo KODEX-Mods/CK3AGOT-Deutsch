@@ -6,7 +6,7 @@
  dynn_Hoare:0 "Hoffartt"
  dynn_Greyjoy:0 "Graufreud"
  dynn_Greyiron:0 "Graueisen"
- dynn_grey_king:0 "der Graue König" #to fix localization errors, feel free to come up with a better name.
+ dynn_Grey_King:0 "der Graue König" #to fix localization errors, feel free to come up with a better name.
 
  #Landed Houses
  dynn_Botley:0 "Botlin"
@@ -39,8 +39,4 @@
  dynn_Weaver:0 "Weber"
  dynn_Freeborn:0 "Freigeboren"
  dynn_Tidewood:0 "Treibholz"
- dynn_Lordsport:0 "Herrenhort"
  dynn_Stern:0 "Stern"
-
- #Dragons (Naga)
- dynn_Dragon:0 "Drache"

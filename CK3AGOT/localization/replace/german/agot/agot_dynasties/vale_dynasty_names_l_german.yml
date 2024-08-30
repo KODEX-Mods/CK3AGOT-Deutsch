@@ -48,9 +48,7 @@
 
  #Landless Houses
  dynn_Long:0 "Lang"  ##non-kanon, aufzufinden ist nur das haus lang aus dem norden (https://eisundfeuer.fandom.com/de/wiki/Haus_Lang), nach e.E VORERST Lang genannt - Maester Dillo
- dynn_Shady_Glen:0 "Schattrich"
  dynn_Underleaf:0 "Unterblatt"
- dynn_Vale:0 "Tal" ##non-kanon, nach e.E. Tal genannt - Maester Dillo
 
  #Extinct
  dynn_Brightstone:0 "Hellstein"

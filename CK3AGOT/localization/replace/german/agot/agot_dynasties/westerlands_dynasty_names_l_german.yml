@@ -1,8 +1,7 @@
 ﻿l_german:
  ### WESTERLANDS DYNASTIES/CADET BRANCHES ###
  #Great Houses
- dynn_Lannister:0 "Lennister"
- dynn_Lannister_Baratheon:0 "Baratheon von Königsmund" # Laut AGOT Lennister-Baratheon
+ dynn_Lannister:0 "Lennister"Lennister-Baratheon
  house_Lanny:0 "Lenny"
  house_Lannett:0 "Lennett"
  house_Lantell:0 "Lenntell"
@@ -11,10 +10,10 @@
 
  #Landed Houses
  dynn_Algood:0 "Alguth"
+ dynn_Avery:0 "Avery"
  dynn_Banefort:0 "Bannstein"
  dynn_Bettley:0 "Bettlin"
  dynn_Brax:0 "Brax"
- dynn_Broom:0 "Ginster"
  dynn_Broome:0 "Ginstern"
  dynn_Clegane:0 "Clegane"
  dynn_Clifton:0 "Klifften"
@@ -70,7 +69,6 @@
  dynn_Westford:0 "Westford"
 
  #Telltale
- dynn_Arkwright:0 "Arch"
  dynn_Tarwick:0 "Tarwick"
 
  #RPG
@@ -82,10 +80,9 @@
  #Extinct
  dynn_Casterly:0 "Casterly"
 
- #Telltale Fanon
- dynn_Odell:0 "Odell"
-
  #Modcanon and Easter Eggs
  dynn_Wrexley:0 "Wrexley"
  dynn_Taves:0 "Teyfs"
  dynn_Merchant:0 "Händler"
+ dynn_Kirkby:0 "Kirkby"
+ dynn_Whetstone:0 "Whetstone"

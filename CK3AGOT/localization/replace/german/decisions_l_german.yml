@@ -137,7 +137,7 @@
  #AGOT MODIFED
  #I_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:1 "You are third or closer in the line of succession for one of your [house_head|E]'s [titles|E]"
  I_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:1 "You are fifth or closer in the line of succession for one of your [house_head|E]'s [titles|E]"
- #AGOT MODIFIED
+ #AGOT Modified
  #I_NOT_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:1 "You are #bold not#! third or closer in the line of succession for one of your [house_head|E]'s [titles|E]"
  I_NOT_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:1 "You are #bold not#! fifth or closer in the line of succession for one of your [house_head|E]'s [titles|E]"
  I_CREATE_CADET_BRANCH_DECISION_ANCESTOR_IN_HOUSE:1 "One of your ancestors belong to your current [house|E]"
@@ -1073,7 +1073,7 @@
  impatient_rushing_all_schemes_decision_missing_scheme_effect:0 "Your active [schemes|E] will progress instantly"
  msg_impatient_rushing_all_schemes:0 "Your [schemes|E] are ready!"
  found_kingdom_of_livonia_decision:0 "Proclaim Terra Mariana"
- found_kingdom_of_livonia_decision_desc:0 "The Balts have, for centuries, been without a Kingdom to call their own. This rugged, untamed land of tribes and disparate pagan beliefs has long been without an identity, but perhaps I will change all that..."
+ found_kingdom_of_livonia_decision_desc:0 "The Balts have, for centuries, been without a Kingdom to call their own. This rugged, untamed land of tribes and disparate pagan beliefs has long been without an identity, but perhaps I will change all that…"
  found_kingdom_of_livonia_decision_tooltip:0 "Livonia becomes a [de_jure|E] [kingdom|E]"
  found_kingdom_of_livonia_decision_confirm:0 "[ROOT.Char.GetLadyLord|U] of all the Balts!"
 

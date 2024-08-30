@@ -39,6 +39,7 @@
  #Stone Dornish
  dynn_Blackmont:0 "Schwarzberg"
  dynn_Ravencroft:0 "Rabenhof"
+ dynn_Claviger:0 "Claviger"
  dynn_Offal:0 "Innereien"
  dynn_Gore:0 "Gore"
  dynn_Trevanion:0 "Trewanion"
@@ -53,10 +54,6 @@
  dynn_Manwoody:0 "Mannkraft"
  dynn_Wyl:0 "Wyl"
  dynn_Yronwood:0 "Isenwald"
-
- #Landless Houses
- dynn_Greenblood:0 "Grünblut"
- dynn_Scourge:0 "Geißel"
 
  #Extinct
  dynn_Brownhill:0 "Braunhügel"
