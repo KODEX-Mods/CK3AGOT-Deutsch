@@ -150,7 +150,7 @@
  wood_sycomore: "Sykomorenholz"
  #AGOT Modified
  #wood_padauk:0 "padauk"
- wood_padauk:0 "goldherz"  #Selbst geschrieben/abgetippt
+ wood_padauk:0 "Goldherz"  #Selbst geschrieben/abgetippt
 
  # Widespread Regional - India
  wood_sal: "Salbaumholz"
@@ -689,7 +689,7 @@
  #AGOT Modified
  morin_khuur_ornament_name:0 "Khalasar-Pferde-Ornament" #AGOT Changed
  #AGOT Modified
- morin_khuur_ornament_description:1 "ein pferdekopf, der aus einem pferdeknochen geschnitzt wurde und meist einen sattel ziert. geschickt an [owner.gettitledfirstnamenotooltip] von [inspiration_owner.gettitledfirstnamenotooltip] während [inspiration_owner.custom('de_pro_pos_s_3p')]er abenteuer."  #Selbst geschrieben/abgetippt
+ morin_khuur_ornament_description:1 "Ein Pferdekopf, der aus einem Pferdeknochen geschnitzt wurde und meist einen Sattel ziert. Geschickt an [owner.gettitledfirstnamenotooltip] von [inspiration_owner.gettitledfirstnamenotooltip] während [inspiration_owner.custom('de_pro_pos_s_3p')]er Abenteuer."  #Selbst geschrieben/abgetippt
  animal_ring_name: "Tigerprunkring"
  animal_ring_description: "Ein mit viel zu bunten Juwelen besetzter Ring, der Eure Höflinge wohl eher blenden wird, anstatt sie mit Eurem Geschmack zu beeindrucken. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
  ostrich_shell_necklace_name: "Halskette aus Straußenschalenperlen"
@@ -697,11 +697,11 @@
  #AGOT Modified
  pilgrimage_figurine_name:0 "Schulpstatuette" #AGOT Changed
  #AGOT Modified
- pilgrimage_figurine_description:1 "eine figurine eines antiken ghiscari-kriegers. sein helm ist mit bronzenen details verzieht. geschickt an [owner.gettitledfirstnamenotooltip] von [inspiration_owner.gettitledfirstnamenotooltip] während [inspiration_owner.custom('de_pro_pos_s_3p')]er abenteuer. "  #Selbst geschrieben/abgetippt
+ pilgrimage_figurine_description:1 "Eine Figurine eines antiken Ghiscari-Kriegers. Sein helm ist mit bronzenen Details verzieht. Geschickt an [owner.gettitledfirstnamenotooltip] von [inspiration_owner.gettitledfirstnamenotooltip] während [inspiration_owner.custom('de_pro_pos_s_3p')]er Abenteuer. "  #Selbst geschrieben/abgetippt
  #AGOT Modified
  saint_margaret_fingernails_name:0 "Fingernagel des Mustermachers" #AGOT Changed
  #AGOT Modified
- saint_margaret_fingernails_description:1 "das labyrinth des mustermachers ist ein labyrinth in braavos, das durchschritten werden muss, um weisheit zu erlangen. angeblich sollen diese alten, ekelhaften fingernägel dem genialen kopf dahinter gehört haben. geschickt an [owner.gettitledfirstnamenotooltip] von [inspiration_owner.gettitledfirstnamenotooltip] während [inspiration_owner.custom('de_pro_pos_s_3p')]er abenteuer."  #Selbst geschrieben/abgetippt
+ saint_margaret_fingernails_description:1 "Das Labyrinth des Mustermachers ist ein Labyrinth in Braavos, das durchschritten werden muss, um Weisheit zu erlangen. Angeblich sollen diese alten, ekelhaften Fingernägel dem genialen Kopf dahinter gehört haben. Geschickt an [owner.gettitledfirstnamenotooltip] von [inspiration_owner.gettitledfirstnamenotooltip] während [inspiration_owner.custom('de_pro_pos_s_3p')]er Abenteuer."  #Selbst geschrieben/abgetippt
  seahorse_brooch_name: "Goldene Seepferdchenbrosche"
  seahorse_brooch_description: "Eine Brosche mit feinen Quasten an einem Pferd, das sowohl Flügel als auch einen Flossenschwanz hat. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
 
@@ -710,9 +710,9 @@
  leopard_hat_name: "Leopardenhelm"
  leopard_hat_description: "Ein Helm aus dem Kopf eines Leoparden, erschlagen von [inspiration_owner.GetTitledFirstName]."
  #AGOT Modified
- kurgan_ornament_name:0 "Pantherfigurine"  #AGOT Changed #Selbst geschrieben/abgetippt
+ kurgan_ornament_name:0 "Pantherfigurine"  #AGOT Changed Selbst geschrieben/abgetippt
  #AGOT Modified
- kurgan_ornament_description:0 "Eine Steinfigurine, die [inspiration_owner.GetTitledFirstName] aus einem alten Grabhügel geplündert hat."  #AGOT Changed #Selbst geschrieben/abgetippt
+ kurgan_ornament_description:0 "Eine Steinfigurine, die [inspiration_owner.GetTitledFirstName] aus einem alten Grabhügel geplündert hat."  #AGOT Changed Selbst geschrieben/abgetippt
  #AGOT Modified
  kurgan_saddle_name:0 "Sattel aus einem Grabhügel"
  #AGOT Modified
@@ -1276,23 +1276,23 @@
  # FP3 artifacts
  #AGOT Modified
  #artifact_oxus_bracelet_name: "Oxus Bracelet"
- artifact_oxus_bracelet_name: "hyrkoonisches-armband"  #Selbst geschrieben/abgetippt
+ artifact_oxus_bracelet_name: "Hyrkoonisches-armband"  #Selbst geschrieben/abgetippt
  #AGOT Modified
  #artifact_oxus_bracelet_description: "This bracelet of wonderful craftmanship is said to hail from the land of $k_transoxiana$. Though its inlay of enamel and semi-precious stones is long lost, the gold retain its luster. Bracelets like this were gifts of honor at the courts of the King of Kings in antiquity, so perhaps it was once worn by a great Iord in Babylon."
- artifact_oxus_bracelet_description: "dieser armreif von wundervoller machart soll aus dem reich hyrkoon stammen. obwohl seine einlage aus emaille und halbedelsteinen längst verloren ist, hat das gold seinen glanz bewahrt. armbänder wie dieses waren ehrengeschenke an den höfen der könige von sarnor, also wurde es vielleicht einst von einem großen lord getragen."  #Selbst geschrieben/abgetippt
+ artifact_oxus_bracelet_description: "Dieser Armreif von wundervoller Machart soll aus dem Reich Hyrkoon stammen. Obwohl seine Einlage aus Emaille und Halbedelsteinen längst verloren ist, hat das Gold seinen glanz bewahrt. Armbänder wie dieses waren Ehrengeschenke an den Höfen der Könige von Sarnor, also wurde es vielleicht einst von einem großen Lord getragen."  #Selbst geschrieben/abgetippt
  fp3_incense_burner_sculpture: "Weihrauchschalenskulptur"
  fp3_incense_burner_sculpture_desc: "Dieses Räuchergefäß in Form einer Katze verströmt wohlriechenden Rauch aus den vielen Löchern seines Körpers. Der Kopf mit edelsteinbesetzten Augen hat ein Scharnier, sodass man brennende Räucherstäbchen hineinstecken kann."
  fp3_ancient_drinking_vessel: "Achämenidisches Trinkgefäß"
  fp3_ancient_drinking_vessel_desc: "Der Fuß dieses verzierten Bechers hat die Form einer Ziege. Er wurde in vergessenen Zeiten hergestellt, doch seine Schönheit ist nicht verblasst."
  #AGOT Modified
  #artifact_sassanian_sword_name: "Sassanian Sword"
- artifact_sassanian_sword_name: "sarnorisches schwert"  #Selbst geschrieben/abgetippt
+ artifact_sassanian_sword_name: "Sarnorisches schwert"  #Selbst geschrieben/abgetippt
  #AGOT Modified
  #artifact_sassanian_sword_description: "Said to be a remnant of the old Sassanian era, this sword $sassanian_sword_description_base$, making it a magnificent sight to behold. Though nowadays it is too fragile to be taken into battle, perhaps this sword was once held by a hero now lost to time?"
- artifact_sassanian_sword_description: "dieses schwert $sassanian_sword_description_base$ und soll ein überbleibsel aus der alten sarnorischen ära sein, was es zu einem prächtigen anblick macht. obwohl es heutzutage zu zerbrechlich wäre, um in der schlacht geführt zu werden, wurde dieses schwert vielleicht einst von einem helden geführt, der heute in vergessenheit geraten ist."  #Selbst geschrieben/abgetippt
+ artifact_sassanian_sword_description: "Dieses Schwert $sassanian_sword_description_base$ und soll ein Überbleibsel aus der alten sarnorischen Ära sein, was es zu einem prächtigen Anblick macht. Obwohl es heutzutage zu zerbrechlich wäre, um in der Schlacht geführt zu werden, wurde dieses Schwert vielleicht einst von einem Helden geführt, der heute in vergessenheit geraten ist."  #Selbst geschrieben/abgetippt
  #AGOT Modified
  #artifact_sassanian_replica_sword_name: "Sassanian Style Sword"
- artifact_sassanian_replica_sword_name: "schwert sarnorischer machart"  #Selbst geschrieben/abgetippt
+ artifact_sassanian_replica_sword_name: "Schwert sarnorischer Machart"  #Selbst geschrieben/abgetippt
  sassanian_sword_description_base: "ist mit verschiedenen Edelsteinen verziert und weist verschlungene Muster auf"
  famed_replica_sassanian_sword_description: "Dieses Schwert wurde von der Vision einer glorreichen vergangenen Ära inspiriert und erinnert an die heroische Vergangenheit der Vorfahren des Anfertigenden. Es $sassanian_sword_description_base$, sodass es einen prächtigen Anblick abgibt. Schwingt man es, erinnert man an einen legendären König aus vergangenen Zeiten."
  masterwork_replica_sassanian_sword_description: "Dieses Schwert soll eindeutig die Waffen einer vergangenen Epoche nachbilden und erinnert an die heroische Vergangenheit der Vorfahren des Anfertigenden. Es $sassanian_sword_description_base$. Obwohl es nur ein fernes Echo der Vergangenheit ist, kann man sich einbilden der mächtige Herrscher einer verflossenen Ära zu sein, wenn man es schwingt."
