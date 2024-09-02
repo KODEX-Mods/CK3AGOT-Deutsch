@@ -44,10 +44,10 @@
  metal_steel: "Stahl"
  #AGOT Modified
  #metal_wootz_steel:0 "wootz steel"
- metal_wootz_steel:0 "YiTischer Stahl" 
+ metal_wootz_steel:0 "Yi'Tischer Stahl" 
  #AGOT Modified
  #metal_bulat_steel:0 "bulat steel"
- metal_bulat_steel:0 "Qohorikischer Stahl" 
+ metal_bulat_steel:0 "Qohorischer Stahl" 
  #AGOT Modified
  #metal_damascus_steel:0 "Damascus steel"
  metal_damascus_steel:0 "Valyrischer Stahl" 
@@ -405,7 +405,7 @@
  feature_decoration_pattern_dynasty_motifs: "Motiven von Motto und Wappen von Haus [Artifact.GetOwner.GetHouse.GetNameNoTooltip]"
  #AGOT Modified
  #feature_decoration_pattern_beasts:0 "mythological beasts"
- feature_decoration_pattern_beasts:0 "Urtiere"
+ feature_decoration_pattern_beasts:0 "Uralte Wesen"
  feature_decoration_pattern_religion: "religiösen Symbolen"
  feature_decoration_pattern_quotes: "inspirierenden Zitaten"
  feature_decoration_pattern_eschatology: "endzeitlichen Szenen"
@@ -590,22 +590,22 @@
  feature_armor_material_leather: "$material_leather$"
  feature_armor_material_hardened_leather: "$material_hardened_leather$"
 
- feature_armor_helmet_spangenhelm: "Zu diesem Satz gehören ein Spangenhelm und eine Helmbrünne"
- feature_armor_helmet_crested: "Zu diesem Satz gehört ein Buschhelm mit dekorativem Augenbrauenstück"
- feature_armor_helmet_nasal: "Zu diesem Satz gehört ein Nasalhelm samt Kettenhaube, der mit [Artifact.GetFeatureText('generic_material_cloth')] gefüttert wurde"
- feature_armor_helmet_enclosed: "Zu diesem Satz gehört ein geschlossener Helm samt Kettenhaube, der mit [Artifact.GetFeatureText('generic_material_cloth')] gefüttert wurde"
- feature_armor_helmet_great_helmet: "Zu diesem Satz gehört ein Topfhelm samt Kettenhaube, der mit [Artifact.GetFeatureText('generic_material_cloth')] gefüttert wurde"
- feature_armor_helmet_great_helmet_bascinet: "Zu diesem Satz gehören ein Topfhelm und eine Beckenhaube, die man darunter trägt"
- feature_armor_helmet_great_helmet_cervelliere: "Zu diesem Satz gehören ein Topfhelm und eine Hirnhaube, die man darunter trägt"
+ feature_armor_helmet_spangenhelm: "Zu dieser Rüstung gehören ein Spangenhelm und eine Helmbrünne"
+ feature_armor_helmet_crested: "Zu dieser Rüstung gehört ein Buschhelm mit dekorativem Augenbrauenstück"
+ feature_armor_helmet_nasal: "Zu dieser Rüstung gehört ein Nasalhelm samt Kettenhaube, der mit [Artifact.GetFeatureText('generic_material_cloth')] gefüttert wurde"
+ feature_armor_helmet_enclosed: "Zu dieser Rüstung gehört ein geschlossener Helm samt Kettenhaube, der mit [Artifact.GetFeatureText('generic_material_cloth')] gefüttert wurde"
+ feature_armor_helmet_great_helmet: "Zu dieser Rüstung gehört ein Topfhelm samt Kettenhaube, der mit [Artifact.GetFeatureText('generic_material_cloth')] gefüttert wurde"
+ feature_armor_helmet_great_helmet_bascinet: "Zu dieser Rüstung gehören ein Topfhelm und eine Beckenhaube, die man darunter trägt"
+ feature_armor_helmet_great_helmet_cervelliere: "Zu dieser Rüstung gehören ein Topfhelm und eine Hirnhaube, die man darunter trägt"
  #AGOT Modified
  #feature_armor_helmet_turban_helmet:0 "The set includes a turban helmet and an aventail"
- feature_armor_helmet_turban_helmet:0 "Zu diesem Satz gehören ein Qaathi-Helm und eine Helmbrünne" #AGOT Changed
- feature_armor_helmet_lamellar: "Zu diesem Satz gehören ein Lamellenhelm mit dekorativem Busch und eine Helmbrünne"
- feature_armor_helmet_kettle: "Zu diesem Satz gehört ein Eisenhut mit breiter Krempe"
- feature_armor_helmet_cervelliere: "Zu diesem Satz gehört eine eng anliegende, halbkugelförmige Hirnhaube samt Kettenhaube, die mit [Artifact.GetFeatureText('generic_material_cloth')] gefüttert wurde"
+ feature_armor_helmet_turban_helmet:0 "Zu dieser Rüstung gehören ein Helm der Qaathi und eine Helmbrünne" #AGOT Changed
+ feature_armor_helmet_lamellar: "Zu dieser Rüstung gehören ein Lamellenhelm mit dekorativem Busch und eine Helmbrünne"
+ feature_armor_helmet_kettle: "Zu dieser Rüstung gehört ein Eisenhut mit breiter Krempe"
+ feature_armor_helmet_cervelliere: "Zu dieser Rüstung gehört eine eng anliegende, halbkugelförmige Hirnhaube samt Kettenhaube, die mit [Artifact.GetFeatureText('generic_material_cloth')] gefüttert wurde"
  #AGOT Modified
  #feature_armor_helmet_kulah_khud:0 "The set includes a Khula Khud helmet and an aventail"
- feature_armor_helmet_kulah_khud:0 "Zu diesem Satz gehören ein Rhoynischer Helm und eine Helmbrünne" #AGOT Changed
+ feature_armor_helmet_kulah_khud:0 "Zu dieser Rüstung gehören ein rhoynischer Helm und eine Helmbrünne" #AGOT Changed
 
  feature_armor_decoration_etched_pattern: "In die ganze Rüstung wurde das sich wiederholende Bild von [Artifact.GetFeatureText('decoration_pattern')] geätzt"
  feature_armor_decoration_inlay_pattern: "In die ganze Rüstung wurde [Artifact.GetFeatureText('decoration_material_inlay')] eingelassen, das ein sich wiederholendes Bild von [Artifact.GetFeatureText('decoration_pattern')] zeigt"
@@ -695,11 +695,11 @@
  ostrich_shell_necklace_name: "Halskette aus Straußenschalenperlen"
  ostrich_shell_necklace_description: "Ein filigranes Schmuckstück in strahlendem Weiß. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
  #AGOT Modified
- pilgrimage_figurine_name:0 "Schulpstatuette" #AGOT Changed
+ pilgrimage_figurine_name:0 "Schulpfigur" #AGOT Changed
  #AGOT Modified
- pilgrimage_figurine_description:1 "Eine Figurine eines antiken Ghiscari-Kriegers. Sein helm ist mit bronzenen Details verzieht. Geschickt an [owner.gettitledfirstnamenotooltip] von [inspiration_owner.gettitledfirstnamenotooltip] während [inspiration_owner.custom('de_pro_pos_s_3p')]er Abenteuer. "  #Selbst geschrieben/abgetippt
+ pilgrimage_figurine_description:1 "Eine Figurine eines antiken Ghiscari-Kriegers. Sein Helm ist mit bronzenen Details verziert. Geschickt an [owner.gettitledfirstnamenotooltip] von [inspiration_owner.gettitledfirstnamenotooltip] während [inspiration_owner.custom('de_pro_pos_s_3p')]er Abenteuer. "  #Selbst geschrieben/abgetippt
  #AGOT Modified
- saint_margaret_fingernails_name:0 "Fingernagel des Mustermachers" #AGOT Changed
+ saint_margaret_fingernails_name:0 "Fingernägel des Mustermachers" #AGOT Changed
  #AGOT Modified
  saint_margaret_fingernails_description:1 "Das Labyrinth des Mustermachers ist ein Labyrinth in Braavos, das durchschritten werden muss, um Weisheit zu erlangen. Angeblich sollen diese alten, ekelhaften Fingernägel dem genialen Kopf dahinter gehört haben. Geschickt an [owner.gettitledfirstnamenotooltip] von [inspiration_owner.gettitledfirstnamenotooltip] während [inspiration_owner.custom('de_pro_pos_s_3p')]er Abenteuer."  #Selbst geschrieben/abgetippt
  seahorse_brooch_name: "Goldene Seepferdchenbrosche"
@@ -834,9 +834,9 @@
  feature_blade_folded_iron: "Falteisen"
  feature_blade_steel: "Stahl"
  #AGOT Modified
- feature_blade_wootz_steel:0 "YiTischer Stahl"
+ feature_blade_wootz_steel:0 "Yi'Tischer Stahl"
  #AGOT Modified
- feature_blade_bulat_steel:0 "Qohorikischer Stahl"
+ feature_blade_bulat_steel:0 "Qohorischer Stahl"
  #AGOT Modified
  feature_blade_damascus_steel:0 "Valyrischer Stahl"
 
@@ -902,11 +902,11 @@
  #AGOT Modified
  translated_arabic_book_thucydides_name:0 "#italic Feuer auf dem Gras#!"
  #AGOT Modified
- translated_arabic_book_thucydides_desc:0 "Eine Ausgabe von Terrio Erastes' altertümlichen Bericht über das Leben von Khal Dhako, dem Drache des Nordens, $translated_arabic_book_shared_desc$"
+ translated_arabic_book_thucydides_desc:0 "Eine Ausgabe von Terrio Erastes' altertümlichen Bericht über das Leben von Khal Dhako, dem Drachen des Nordens, $translated_arabic_book_shared_desc$"
  #AGOT Modified
  translated_arabic_book_plutarch_name:0 "#italic Das Leben des Triarchen Belicho#!"
  #AGOT Modified
- translated_arabic_book_plutarch_desc:0 "Eine Ausgabe welche von den Eroberungen und Triumphen aus dem Leben des Triarchen Belicho von Volantis erzählt, $translated_arabic_book_shared_desc$"
+ translated_arabic_book_plutarch_desc:0 "Eine Ausgabe, welche von den Eroberungen und Triumphen aus dem Leben des Triarchen Belicho von Volantis erzählt, $translated_arabic_book_shared_desc$"
  #AGOT Modified
  translated_arabic_book_shared_desc:0 "übersetzt aus dem Valyrischen für [ROOT.Char.GetLadyLord] [ROOT.Char.GetHouse.GetNameNoTooltip]."
 
@@ -1088,13 +1088,13 @@
  artifact_szczerbiec_name: "Szczerbiec"
  artifact_szczerbiec_description: "König Boleslaw der Tapfere soll dieses Schwert von einem Engel erhalten und damit das Goldene Tor von Kyiv zerschlagen haben. Es hat eine ungeheure symbolische Bedeutung."
  #AGOT Modified
- artifact_chinese_caligraphy_name:1 "YiTische Kalligrafie" #AGOT Changed
+ artifact_chinese_caligraphy_name:1 "Yi'Tische Kalligrafie" #AGOT Changed
  #AGOT Modified
  artifact_chinese_caligraphy_description:0 "Diese feine Stück Papier ist voller seltsamer und doch wunderschöner und sehr präziser Symbole. Man sagt, es stammt aus den Landen von Yi Ti im Fernen Osten." #AGOT Changed
  #AGOT Modified
  artifact_ruyi_name:0 "Jade-Zepter" #AGOT Changed
  #AGOT Modified
- artifact_ruyi_description:0 "Dieses kleine Jadezepter ist mit YiTischen Symbolen und Verzierungen bedeckt." #AGOT Changed
+ artifact_ruyi_description:0 "Dieses kleine Jadezepter ist mit Yi'Tischen Symbolen und Verzierungen bedeckt." #AGOT Changed
  turquoise_throne_name: "Türkisthron"
  turquoise_throne_description: "Dieser juwelenbedeckte Königsthron ist dem legendären Thron der persischen Könige aus dem Schahname nachempfunden. Sein Ebenholzrahmen ist mit zahllosen Türkisen geschmückt sowie mit Platten aus reinem Gold beschlagen worden, das einen Türkisschimmer hat. Seine atemberaubende Schönheit kann nur das Werk der besten Kunsthandwerker ihres Felds sein."
  peacock_throne_name: "Pfauenthron"
@@ -1139,7 +1139,7 @@
  small_bell_beaker: "Kleiner Glockenbecher"
  small_bell_beaker.desc: "Ein kleiner Glockenbecher mit kunstvollen Mustern."
  #AGOT Modified
- serpentine_budai:0 "Jade Löwe"
+ serpentine_budai:0 "Jadelöwe"
  #AGOT Modified
  serpentine_budai.desc:0 "Die winzige Gestalt eines wilden, knurrenden, östlichen Löwen." #AGOT Changed
  #Uncommon
@@ -1148,12 +1148,12 @@
  mythical_creature_figurine: "[ROOT.Char.Custom('TrinketLookAdjective')|U]e Figurine einer Sagengestalt ([ROOT.Char.Custom('RegionalMythicalCreature')])"
  mythical_creature_figurine.desc: "Diese Figurine stellt eine [new_trinket.Custom('ArtifactAnimalAdjective')|l]e Sagengestalt ([SCOPE.Custom('RegionalMythicalCreatureLower')]) dar und scheint [ROOT.Char.Custom('TrinketLookAdverbFollowup')|l] mit kleinen, glänzenden Edelsteinen [ROOT.Char.Custom('TrinketLookAdjective')|l] zu sein, wie man sie in [target_location.GetNameNoTooltip] findet."
  #AGOT Modified
- st_davids_taper:1 "Die Kerze des alten Weibes"
+ st_davids_taper:1 "Die Kerze des Alten Weibes"
  st_davids_taper.desc: "Offenbar hat jemand versucht, sie an beiden Enden anzuzünden."
  #AGOT Modified
  jira_stick:0 "Marmorzepter von Lyber" #AGOT Changed
  #AGOT Modified
- jira_stick.desc:0 "Ein antikes Zepter, das eine Spinne und eine Schlange im Krieg zeigt." #AGOT Changed
+ jira_stick.desc:0 "Ein antikes Zepter, das eine Spinne und eine Schlange im Zank zeigt." #AGOT Changed
  lucky_coin: "[ROOT.Char.GetCulture.GetNameNoTooltip|U]e Glücksmünze"
  lucky_coin.desc: "Eine [ROOT.Char.GetCulture.GetNameNoTooltip|l]e Münze, die aus [target_location.GetNameNoTooltip] stammt.\n\nDie einst geprägte Oberfläche ist durch das ständige Reiben und Polieren inzwischen ganz glatt und abgewetzt."
  lavender_jade_pendant: "Lavendelfarbener Jadeanhänger"
@@ -1170,9 +1170,9 @@
  easteregg_artifact_nicks_weapon:2 "Glücklicher Kerkermeister"
  easteregg_artifact_nicks_weapon_description:0 "Eine wahrhaft prächtige Waffe, ob deren Gegenwart Fürsten und Fürstinnen gleichermaßen ins Schwärmen geraten. Eine kleine Inschrift im Heft lautet: „Falls Feinsinnigkeit versagt.“"
  #AGOT Modified
- easteregg_artifact_chad_book:0 "Das kommentierte Der Rand der Welt" #AGOT Changed
+ easteregg_artifact_chad_book:0 "Der Rand der Welt, mit Anmerkungen" #AGOT Changed
  #AGOT Modified
- easteregg_artifact_chad_book_description:0 "Eine oft gelesene und illuminierte Ausgabe des Maester Balders Der Rand der Welt mit zahlreichen Randnotizen – manche albern, andere einsichtsreich." #AGOT Changed
+ easteregg_artifact_chad_book_description:0 "Eine oft gelesene und illustrierte Ausgabe des Maester Balders Der Rand der Welt mit zahlreichen Randnotizen – manche albern, andere einsichtsreich." #AGOT Changed
  easteregg_artifact_chad_dagger: "Der Dolch"
  easteregg_artifact_chad_dagger_description: "Sein Glanz ist ob der Flecken aus getrockenetem Blut abgestumpft, doch er dürstet dennoch für mehr."
  easteregg_artifact_veronica_book: "Die Ringe des Herrn"
@@ -1276,7 +1276,7 @@
  # FP3 artifacts
  #AGOT Modified
  #artifact_oxus_bracelet_name: "Oxus Bracelet"
- artifact_oxus_bracelet_name: "Hyrkoonisches-armband"  #Selbst geschrieben/abgetippt
+ artifact_oxus_bracelet_name: "Armband von Hyrkoon"  #Selbst geschrieben/abgetippt
  #AGOT Modified
  #artifact_oxus_bracelet_description: "This bracelet of wonderful craftmanship is said to hail from the land of $k_transoxiana$. Though its inlay of enamel and semi-precious stones is long lost, the gold retain its luster. Bracelets like this were gifts of honor at the courts of the King of Kings in antiquity, so perhaps it was once worn by a great Iord in Babylon."
  artifact_oxus_bracelet_description: "Dieser Armreif von wundervoller Machart soll aus dem Reich Hyrkoon stammen. Obwohl seine Einlage aus Emaille und Halbedelsteinen längst verloren ist, hat das Gold seinen glanz bewahrt. Armbänder wie dieses waren Ehrengeschenke an den Höfen der Könige von Sarnor, also wurde es vielleicht einst von einem großen Lord getragen."  #Selbst geschrieben/abgetippt
