@@ -44,9 +44,9 @@ l_german:
  the_seven_priest_female_plural:0 "Septas"
  the_seven_priest_alternate_plural:0 "Ergebene"
  the_seven_bishop_male:0 "Septon"
- the_seven_bishop_male_plural:0 "Septon"
+ the_seven_bishop_male_plural:0 "Septone"
  the_seven_bishop_female:0 "Septa"
- the_seven_bishop_female_plural:0 "Septa"
+ the_seven_bishop_female_plural:0 "Septas"
  the_seven_positive_afterlife:0 "die Sieben Himmel"
  the_seven_negative_afterlife:0 "der Sieben Höllen"
  the_seven_witchgodname_the_lordofsevenhells:0 "Herr der Sieben Höllen"
@@ -101,13 +101,13 @@ l_german:
  weirwood_of_the_seven_adj:0 "Herzbaum-Siebenfältig"
  weirwood_of_the_seven_adherent:0 "Anhänger der Alten und Neuen Götter"
  weirwood_of_the_seven_adherent_plural:0 "Anhänger der Alten und Neuen Götter"
- weirwood_of_the_seven_desc:0 ""
+ weirwood_of_the_seven_desc:0 "" # irgendwann hier noch eine Beschreibung
 
  servants_of_the_star:0 "Diener des Sterns"
  servants_of_the_star_adj:0 "Sterndienend"
  servants_of_the_star_adherent:0 "Diener des Sterns"
  servants_of_the_star_adherent_plural:0 "Diener des Sterns"
- servants_of_the_star_desc:0 ""
+ servants_of_the_star_desc:0 "" # irgendwann hier noch eine Beschreibung
  
  #Holy Sites - Westeros
  holy_site_kings_landing_fots_name:0 "Große Septe von Baelor"
