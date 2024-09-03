@@ -57,14 +57,14 @@
  doctrine_valyrian_pantheon_name:0 "Valyrisches Pantheon"
  doctrine_valyrian_pantheon_desc:0 "ieser Glaube verehrt die Götter des alten Valyrischen Pantheons, die Götter von Feuer und Blut, der Abbilder sowohl von Drachen als auch Menschen sind."
  doctrine_lyseni_pantheon_name:0 "Lysenisches Pantheon"
- doctrine_lyseni_pantheon_desc:0 "Dieser Glaube verehrt die Götter von Lys, ein komplexes Pantheon, das in der freien Stadt aus verschiedenen Valyrischen Sekten hervorgegangen ist. Unter diesen finden sich die Schöne Frau, die Klagende Frau, die Gerüstete Frau, Yndros aus dem Zwielicht, Pantera die Katzengöttin und Saagael der Gesichtslose."
+ doctrine_lyseni_pantheon_desc:0 "Dieser Glaube verehrt die Götter von Lys, ein komplexes Pantheon, das in der freien Stadt aus verschiedenen Valyrischen Sekten hervorgegangen ist. Unter diesen finden sich die Schöne Frau, die Weinende Frau, die Gerüstete Frau, Yndros aus dem Zwielicht, Pantera die Katzengöttin und Saagael der Gesichtslose."
  doctrine_parameter_lyseni_patrons:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren das Pantheon der Lyseni."
  doctrine_parameter_valyrian_patrons:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren das Pantheon der Valyrer."
 
 
- doctrine_parameter_prince_patrons:0 "Dieser Glaube verehrt den Prinzen und die Götter."
- doctrine_prince_pantheon_name:0 "Der Prinz und die Götter"
- doctrine_prince_pantheon_desc:0 "Dieser Glaube verehrt den Prinzen und die Götter."
+ doctrine_parameter_prince_patrons:0 "Dieser [faith|E] verehrt den Fürsten und die Götter."
+ doctrine_prince_pantheon_name:0 "Der Fürst und die Götter"
+ doctrine_prince_pantheon_desc:0 "Dieser [faith|E] verehrt den Fürsten und die Götter."
  doctrine_rhoynish_pantheon_name:0 "Mutter Rhoyne"
  doctrine_rhoynish_pantheon_desc:0 "Dieser [faith|E] verehrt die Mutter Rhoyne."
  doctrine_parameter_rhoynish_patrons:0 "Dieser [faith|E] verehrt die Mutter Rhoyne."
