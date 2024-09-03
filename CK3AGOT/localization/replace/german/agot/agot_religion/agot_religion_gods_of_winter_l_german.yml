@@ -1,7 +1,7 @@
 ﻿l_german:
 
  #Common Old Gods Localization
- gods_of_winter_religion:0 "Glaube an die Kalten Götter"
+ gods_of_winter_religion:0 "Glaube an die Kalten Götter" #Übersetzung von MamaSagtNein
  gods_of_winter_religion_adj:0 "Anderenfürchtig"
  gods_of_winter_religion_adjerent:0 "Anderenfürchtiger"
  gods_of_winter_religion_adherent_plural:0 "Anderenfürchtige"
