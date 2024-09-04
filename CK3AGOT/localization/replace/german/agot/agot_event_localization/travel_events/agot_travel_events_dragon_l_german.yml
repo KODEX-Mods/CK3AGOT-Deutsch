@@ -1,5 +1,5 @@
 ﻿l_german:
  agot_travel_events_dragon.9000.t:0 "Zurückgelassen"
- agot_travel_events_dragon.9000.desc:0 "[awkward_entourage_member.GetName] nähert sich mir nervös, als ich [dragon.GetFirstName] gerade für unsere Reise sattle. "Da Ihr Euch entschieden habt, mit [dragon.GetFirstNameNoTooltip] zu reisen, sind wir diejenigen die keine Drachenreiter sind leider nicht in der Lage Euch auf Eurer Reise zu begleiten. Wir erwarten sehnliches Euere Rückkehr an den Hof, My[ROOT.Char.GetLadyLord|l]""
+ agot_travel_events_dragon.9000.desc:0 "[awkward_entourage_member.GetName] kommt nervös auf mich zu, als ich [dragon.GetFirstName] für unsere Reise sattle. "Da Ihr Euch entschieden habt, mit [dragon.GetFirstNameNoTooltip] zu reisen, werden wir, die wir keine Drachenreiter sind, Euch leider nicht begleiten können. Wir werden Eure Rückkehr an den Hof sehnlichst erwarten, My[ROOT.Char.GetLadyLord|l]""
  agot_travel_events_dragon.9000.a:0 "Bedauerlich."
  agot_travel_events_dragon.9000.tt:0 "[entourage_member.GetFirstName] verlässt das Gefolge"
