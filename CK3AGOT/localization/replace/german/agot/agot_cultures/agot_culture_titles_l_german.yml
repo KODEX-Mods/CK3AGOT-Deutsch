@@ -71,7 +71,7 @@
  king_free_city_male_k_lys:0 "Erster Magister" #neu
  king_free_city_female_k_lys:0 "Erste Magistra" #neu
  king_free_city_male_k_tyrosh:0 "Archon" #neu
- king_free_city_female_k_tyrosh:0 "Archousa" #neu https://www.reddit.com/r/AncientGreek/comments/bf2uin/what_would_be_the_female_form_of_the_word_archon/?tl=de
+ king_free_city_female_k_tyrosh:0 "Archontissa" #neu #https://www.reddit.com/r/AncientGreek/comments/bf2uin/what_would_be_the_female_form_of_the_word_archon/?tl=de
  king_free_city_male_k_myr:0 "Erster Magister" #neu
  king_free_city_female_k_myr:0 "Erste Magistra" #neu
  king_free_city_male_k_pentos:0 "Fürst" #neu
@@ -85,8 +85,8 @@
  duke_free_city_male:0 "Magister" #neu
  duke_free_city_female:0 "Magister" #neu
  duchy_free_city:0 "Stadt" #neu
- duke_free_city_independent_male:0 "Hoher Magister" #neu
- duke_free_city_independent_female:0 "Hohe Magistra" #neu
+ duke_free_city_independent_male:0 "Magister" #neu
+ duke_free_city_independent_female:0 "Magistra" #neu
  duchy_free_city_independent:0 "Stadt" #neu
  king_free_city_male:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]"
  king_free_city_female:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]"
@@ -106,9 +106,9 @@
  emperor_free_city_female:0 "[CHARACTER.Custom('EMPIRE_FREE_CITIES_FEMALE')]"
  emperor_free_city_male_fallback:0 "Konsul" #neu
  emperor_free_city_female_fallback:0 "Konsulin" #neu
- empire_free_city:0 "Freie Stadt" #neu
+ empire_free_city:0 "Freistaat" #neu
  archon_tyrosh_male:0 "Archon" #neu
- archon_tyrosh_female:0 "Archousa" #neu
+ archon_tyrosh_female:0 "Archontissa" #neu
  triarch_three_daughters_male:0 "Triarch" #neu
  triarch_three_daughters_female:0 "Triarchin" #neu
  kingdom_three_daughters:0 "Königreich" #neu
