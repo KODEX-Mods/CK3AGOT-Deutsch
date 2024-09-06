@@ -42,8 +42,8 @@
 
  emperor_independent_feudal_male:0 "[CHARACTER.Custom('EMPEROR_FEUDAL_MALE')]"
  emperor_independent_feudal_female:0 "[CHARACTER.Custom('EMPEROR_FEUDAL_FEMALE')]"
- emperor_feudal_male_fallback:0 "König" #neu
- emperor_feudal_female_fallback:0 "Königin" #neu
+ emperor_feudal_male_fallback:0 "König" 
+ emperor_feudal_female_fallback:0 "Königin" 
 
  emperor_lp_feudal_male:0 "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_MALE')]"
  emperor_lp_feudal_female:0 "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_FEMALE')]"
@@ -68,72 +68,72 @@
  prince_lp_empire_female:0 "Prinzessin"
 
  #Free Cities
- king_free_city_male_k_lys:0 "Erster Magister" #neu
- king_free_city_female_k_lys:0 "Erste Magistra" #neu
- king_free_city_male_k_tyrosh:0 "Archon" #neu
- king_free_city_female_k_tyrosh:0 "Archontissa" #neu #https://www.reddit.com/r/AncientGreek/comments/bf2uin/what_would_be_the_female_form_of_the_word_archon/?tl=de
- king_free_city_male_k_myr:0 "Erster Magister" #neu
- king_free_city_female_k_myr:0 "Erste Magistra" #neu
- king_free_city_male_k_pentos:0 "Fürst" #neu
- king_free_city_female_k_pentos:0 "Fürstin" #neu
- baron_free_city_male:0 "Magister" #neu
- baron_free_city_female:0 "Magistra" #neu
- barony_free_city:0 "Bezirk" #neu
- count_free_city_male:0 "Magister" #neu
- count_free_city_female:0 "Magistra" #neu
- county_free_city:0 "Ortschaft" #neu 
- duke_free_city_male:0 "Magister" #neu
- duke_free_city_female:0 "Magister" #neu
- duchy_free_city:0 "Stadt" #neu
- duke_free_city_independent_male:0 "Magister" #neu
- duke_free_city_independent_female:0 "Magistra" #neu
- duchy_free_city_independent:0 "Stadt" #neu
+ king_free_city_male_k_lys:0 "Erster Magister" 
+ king_free_city_female_k_lys:0 "Erste Magistra" 
+ king_free_city_male_k_tyrosh:0 "Archon" 
+ king_free_city_female_k_tyrosh:0 "Archontissa"  #https://www.reddit.com/r/AncientGreek/comments/bf2uin/what_would_be_the_female_form_of_the_word_archon/?tl=de
+ king_free_city_male_k_myr:0 "Eliat"  #aus dem hochvalyrischen https://discord.com/channels/1088224469769797694/1273997450973286472/1281283196813840430
+ king_free_city_female_k_myr:0 "Eliatin" 
+ king_free_city_male_k_pentos:0 "Fürst" 
+ king_free_city_female_k_pentos:0 "Fürstin" 
+ baron_free_city_male:0 "Magister" 
+ baron_free_city_female:0 "Magistra" 
+ barony_free_city:0 "Bezirk" 
+ count_free_city_male:0 "Magister" 
+ count_free_city_female:0 "Magistra" 
+ county_free_city:0 "Ortschaft"  
+ duke_free_city_male:0 "Magister" 
+ duke_free_city_female:0 "Magister" 
+ duchy_free_city:0 "Stadt" 
+ duke_free_city_independent_male:0 "Magister" 
+ duke_free_city_independent_female:0 "Magistra" 
+ duchy_free_city_independent:0 "Stadt" 
  king_free_city_male:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]"
  king_free_city_female:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]"
- king_free_city_male_fallback:0 "Erster Magister" #neu
- king_free_city_female_fallback:0 "Erste Magistra" #neu
- kingdom_free_city:0 "Königreich" #neu
- king_free_city_male_spouse:0 "Lord" #neu
- king_free_city_female_spouse:0 "Lady" #neu
- king_free_city_independent_male:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]" #neu
- king_free_city_independent_female:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]" #neu
- king_free_city_independent_male_fallback:0 "Erster Magister" #neu
- king_free_city_independent_female_fallback:0 "Erste Magistra" #neu
- kingdom_free_city_independent:0 "Freie Stadt" #neu
- emperor_free_city_male_spouse:0 "Lord" #neu
- emperor_free_city_female_spouse:0 "Lady" #neu
+ king_free_city_male_fallback:0 "Erster Magister" 
+ king_free_city_female_fallback:0 "Erste Magistra" 
+ kingdom_free_city:0 "Königreich" 
+ king_free_city_male_spouse:0 "Lord" 
+ king_free_city_female_spouse:0 "Lady" 
+ king_free_city_independent_male:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]" 
+ king_free_city_independent_female:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]" 
+ king_free_city_independent_male_fallback:0 "Erster Magister" 
+ king_free_city_independent_female_fallback:0 "Erste Magistra" 
+ kingdom_free_city_independent:0 "Freie Stadt" 
+ emperor_free_city_male_spouse:0 "Lord" 
+ emperor_free_city_female_spouse:0 "Lady" 
  emperor_free_city_male:0 "[CHARACTER.Custom('EMPIRE_FREE_CITIES_MALE')]"
  emperor_free_city_female:0 "[CHARACTER.Custom('EMPIRE_FREE_CITIES_FEMALE')]"
- emperor_free_city_male_fallback:0 "Konsul" #neu
- emperor_free_city_female_fallback:0 "Konsulin" #neu
- empire_free_city:0 "Freistaat" #neu
- archon_tyrosh_male:0 "Archon" #neu
- archon_tyrosh_female:0 "Archontissa" #neu
- triarch_three_daughters_male:0 "Triarch" #neu
- triarch_three_daughters_female:0 "Triarchin" #neu
- kingdom_three_daughters:0 "Königreich" #neu
+ emperor_free_city_male_fallback:0 "Konsul" 
+ emperor_free_city_female_fallback:0 "Konsulin" 
+ empire_free_city:0 "Freistaat" 
+ archon_tyrosh_male:0 "Archon" 
+ archon_tyrosh_female:0 "Archontissa" 
+ triarch_three_daughters_male:0 "Triarch" 
+ triarch_three_daughters_female:0 "Triarchin" 
+ kingdom_three_daughters:0 "Königreich" 
 
  #Pirate Titles
- baron_pirate_male:0 "Skipper" #neu
- baron_pirate_female:1 "$baron_pirate_male$" #neu
- barony_pirate:0 "Piratenbucht" #neu
- count_pirate_male:0 "Kapitän" #neu
- count_pirate_female:1 "$count_pirate_male$" #neu
- county_pirate:0 "Piratenstadt" #neu
- duke_pirate_male:0 "Piratenfürst" #neu
- duke_pirate_female:1 "Piratenfürstin" #neu
- duchy_pirate:0 "Piratenrepublik" #neu
+ baron_pirate_male:0 "Skipper" 
+ baron_pirate_female:1 "$baron_pirate_male$" 
+ barony_pirate:0 "Piratenbucht" 
+ count_pirate_male:0 "Kapitän" 
+ count_pirate_female:1 "$count_pirate_male$" 
+ county_pirate:0 "Piratenstadt" 
+ duke_pirate_male:0 "Piratenfürst" 
+ duke_pirate_female:1 "Piratenfürstin" 
+ duchy_pirate:0 "Piratenrepublik" 
  king_pirate_male:0 "[CHARACTER.Custom('KINGDOM_PIRATE_MALE')]"
  king_pirate_female:0 "[CHARACTER.Custom('KINGDOM_PIRATE_FEMALE')]"
- king_pirate_male_fallback:0 "Piratenkönig" #neu
- king_pirate_female_fallback:0 "Piratenkönigin" #neu
- kingdom_pirate:1 "Piratenkönigreich" #neu
- emperor_pirate_male:0 "König der Meere" #neu
- emperor_pirate_female:0 "Königin der Meere" #neu Seen klingt zwar cooler, aber der Begriff "See" wird ja eher von Nordeuropäischen Kulturen benutzt, währenddessen das Wort "Meer" von Südeuropäischen Kulturen benutzt wird. Dieser kulturelle Unterschied spiegelt sich so auch in AGOT wieder. 
- empire_pirate:0 "Piratenkönigreich" #neu
+ king_pirate_male_fallback:0 "Piratenkönig" 
+ king_pirate_female_fallback:0 "Piratenkönigin" 
+ kingdom_pirate:1 "Piratenkönigreich" 
+ emperor_pirate_male:0 "König der Meere" 
+ emperor_pirate_female:0 "Königin der Meere"  #Seen klingt zwar cooler, aber der Begriff "See" wird ja eher von Nordeuropäischen Kulturen benutzt, währenddessen das Wort "Meer" von Südeuropäischen Kulturen benutzt wird. Dieser kulturelle Unterschied spiegelt sich so auch in AGOT wieder. 
+ empire_pirate:0 "Piratenreich" 
 
- prince_admiral:0 "Piratenprinz" #neu
- princess_admiral:0 "Piratenprinzessin" #neu
+ prince_admiral:0 "Fürstadmiral" 
+ princess_admiral:0 "Fürstadmiral" 
 
  #Wolfswood Clansman Master Title
  wolfswood_clansman_master_male:0 "Oberhaupt"
@@ -158,34 +158,34 @@
  queen_stormlands:0 "Sturmkönigin"
  king_north:0 "König"
  queen_north:0 "Königin"
- good_queen:0 "'Gutkönigin'" #neu keine Ahnung was das hier soll
- bad_queen:0 "'Böskönigin'" #neu
+ good_queen:0 "'Gute Königin'"  #keine Ahnung was das hier soll
+ bad_queen:0 "'Böse Königin'" 
  king_riverlands:0 "Flusskönig"
  queen_riverlands:0 "Flusskönigin"
  king_dorne:0 "Fürst"
  queen_dorne:0 "Fürstin"
- king_wall:0 "Lord Kommandant"
- queen_wall:0 "Lord Kommandantin"
+ king_wall:0 "Nachtkönig"
+ queen_wall:0 "Nachtkönigin"
 
  #Smaller Kingdoms
  king_the_dreadlands:0 "Roter König"
  queen_the_dreadlands:0 "Rote Königin"
- king_barrows_and_rills:0 "Hügelkönig" #neu
- queen_barrows_and_rills:0 "Hügelkönigin" #neu
+ king_barrows_and_rills:0 "Hügelkönig" 
+ queen_barrows_and_rills:0 "Hügelkönigin" 
  king_the_neck:0 "Marschkönig"
  queen_the_neck:0 "Marschkönigin"
- king_tridents_mouth:0 "Narrenkönig" #neu Ich denke es bezieht sich entweder auf das Fool's Gate und/oder Florian (The Fool)
- queen_tridents_mouth:0 "Jungfernkönigin" #neu Ich denke es bezieht sich auf Maidenpool/Jungfernteich 
- king_the_bay_of_crabs:0 "Der Wahre König" #neu
- queen_the_bay_of_crabs:0 "Die Wahre Königin" #neu
+ king_tridents_mouth:0 "Narrenkönig"  #Ich denke es bezieht sich entweder auf das Fool's Gate und/oder Florian (The Fool)
+ queen_tridents_mouth:0 "Jungfernkönigin"  #Ich denke es bezieht sich auf Maidenpool/Jungfernteich 
+ king_the_bay_of_crabs:0 "Wahrer König" 
+ queen_the_bay_of_crabs:0 "Wahre Königin" 
  king_runestone:0 "Bronzekönig"
  queen_runestone:0 "Bronzekönigin"
- king_the_red_mountains:0 "Geierkönig" #neu
- queen_the_red_mountains:0 "Geierkönigin" #neu
+ king_the_red_mountains:0 "Geierkönig" 
+ queen_the_red_mountains:0 "Geierkönigin" 
  king_withermoore:0 "Vermummter König"
  queen_withermoore:0 "Vermummte Königin"
- king_yronwood:0 "Das Königsblut" #neu Canon ist der ganze Titel "das Königsblut"; sollte wir den Artikel dazu nehmen oder weglassen?
- queen_yronwood:0 "Das Königsblut" #neu
+ king_yronwood:0 "Das Königsblut"  #Canon ist der ganze Titel "das Königsblut"; sollte wir den Artikel dazu nehmen oder weglassen?
+ queen_yronwood:0 "Das Königsblut" 
  king_the_stormlands:0 "Sturmkönig"
  queen_the_stormlands:0 "Sturmkönigin"
  king_dorne:0 "Fürst"
