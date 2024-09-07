@@ -32,9 +32,9 @@
  reachman_collective_noun:0 "Weitländer"
 
  riverlander:0 "Flussländisch"
- riverlander_prefix:0 "Trident" #neu
+ riverlander_prefix:0 "Trident" 
  riverlander_collective_noun:0 "Flussländisch"
- riverlander_desc:0 "Die Flussländer sind die, die beim Trident leben."
+ riverlander_desc:0 "Die Flussländer siedelten entlang des Trident."
 
  shieldman:0 "Schildmännisch"
  shieldman_prefix:0 "Schild"
@@ -117,7 +117,7 @@
  mountain_clansman_collective_noun:0 "Bergmänner"
 
  nightrunner:0 "Nachtläuferisch"
- nightrunner_prefix:0 "Nachtlauf"
+ nightrunner_prefix:0 "Nacht"
  nightrunner_collective_noun:0 "Nachtläufer"
 
  northman:0 "Nordmännisch"
@@ -156,9 +156,9 @@
  greenblood_prefix:0 "Grünblut"
  greenblood_collective_noun:0 "Waisen des Grünbluts"
 
- somberysh:0 "Somberisch" #neu
- somberysh_prefix:0 "Somberia" #neu
- somberysh_collective_noun:0 "Somberier" #neu
+ somberysh:0 "Somberisch" 
+ somberysh_prefix:0 "Somberia" 
+ somberysh_collective_noun:0 "Somberier" 
 
  salt_dornish:0 "Salzdornisch"
  salt_dornish_prefix:0 "Salzdorn"
@@ -169,12 +169,12 @@
  sand_dornish_collective_noun:0 "Sanddornische"
 
  high_valyrian:0 "Hochvalyrisch"
- high_valyrian_prefix:0 "Valyr" #neu
- high_valyrian_collective_noun:0 "Valyrer" #neu
+ high_valyrian_prefix:0 "Valyria" 
+ high_valyrian_collective_noun:0 "Valyrer" 
 
- westerosi_valyrian:0 "Westerosi-Valyrisch"
- westerosi_valyrian_prefix:0 "Westvalyr" #neu
- westerosi_valyrian_collective_noun:0 "Westvalyrer" #neu
+ westerosi_valyrian:0 "Westvalyrisch"
+ westerosi_valyrian_prefix:0 "Westvalyrisch" 
+ westerosi_valyrian_collective_noun:0 "Westvalyrer" 
 
  andalosi:0 "Andalosisch"
  andalosi_prefix:0 "Andalosi"
@@ -193,19 +193,19 @@
  summer_rhoynish_collective_noun:0 "Sommerrhoynar"
 
  astapori:0 "Astaporisch"
- astapori_prefix:0 "Asto" #neu
+ astapori_prefix:0 "Asto" 
  astapori_collective_noun:0 "Astapori"
 
  ghardaqese:0 "Ghardaqesisch"
- ghardaqese_prefix:0 "Ghardo" #neu
+ ghardaqese_prefix:0 "Ghardo" 
  ghardaqese_collective_noun:0 "Ghardaqesen"
 
  ghiscari:0 "Ghiscarisch"
- ghiscari_prefix:0 "Ghis" #neu
+ ghiscari_prefix:0 "Ghis" 
  ghiscari_collective_noun:0 "Ghiscari"
 
  hazdahni:0 "Hazdahnisch"
- hazdahni_prefix:0 "Hazdah" #neu
+ hazdahni_prefix:0 "Hazdah" 
  hazdahni_collective_noun:0 "Hazdahni"
 
  meereenese:0 "Meereenisch"
@@ -220,37 +220,37 @@
  yunkish_prefix:0 "Yunkai"
  yunkish_collective_noun:0 "Yunkai'i"
 
- essosi_valyrian:0 "Essosi-Valyrisch"
- essosi_valyrian_prefix:0 "Ostvalyr" #neu
- essosi_valyrian_collective_noun:0 "Ostvalyrer" #neu
+ essosi_valyrian:0 "Ostvalyrisch"
+ essosi_valyrian_prefix:0 "Ostvalyria" 
+ essosi_valyrian_collective_noun:0 "Ostvalyrer" 
 
  braavosi:0 "Braavosisch"
  braavosi_prefix:0 "Braavosi"
  braavosi_collective_noun:0 "Braavosi"
 
- gogossosi:0 "Gogossosisch" #neu
- gogossosi_prefix:0 "Gogosso" #neu
- gogossosi_collective_noun:0 "Gogossoser" #neu
+ gogossosi:0 "Gogossisch" 
+ gogossosi_prefix:0 "Gogosso" 
+ gogossosi_collective_noun:0 "Gogossen" 
 
  mantaryan:0 "Mantaryasisch"
  mantaryan_prefix:0 "Mantary"
  mantaryan_collective_noun:0 "Mantaryase"
 
- tolosi:0 "Tolosisch" #neu
- tolosi_prefix:0 "Tolosi" #neu
- tolosi_collective_noun:0 "Tolosen" #neu
+ tolosi:0 "Tolosisch" 
+ tolosi_prefix:0 "Tolosi" 
+ tolosi_collective_noun:0 "Tolosier" 
 
- elyrian:0 "Elyrianisch" #neu
- elyrian_prefix:0 "Elyria" #neu
- elyrian_collective_noun:0 "Elyrianer" #neu
+ elyrian:0 "Elyrianisch" 
+ elyrian_prefix:0 "Elyria" 
+ elyrian_collective_noun:0 "Elyrianer" 
 
  volantene:0 "Volantenisch"
  volantene_prefix:0 "Volanti"
  volantene_collective_noun:0 "Volantener"
 
- painted_clansman:0 "Senrillianisch" #neu
- painted_clansman_prefix:0 "Senrillo" #neu
- painted_clansman_collective_noun:0 "Senrillianer" #neu
+ painted_clansman:0 "Senrillianisch" 
+ painted_clansman_prefix:0 "Senrillo" 
+ painted_clansman_collective_noun:0 "Senrillianer" 
 
  essarian:0 "Essarianisch"
  essarian_prefix:0 "Essari" 
@@ -270,10 +270,10 @@
 
  hartalari:0 "Hartalarisch"
  hartalari_prefix:0 "Hartalari"
- hartalari_collective_noun:0 "Waffenmänner" 
+ hartalari_collective_noun:0 "Hartalari" #Dillo: armsmen-Waffenmänner eins-zu-eins richtig, aber scheiße
 
  norvoshi:0 "Norvosisch"
- norvoshi_prefix:0 "Norvo" #neu
+ norvoshi_prefix:0 "Norvo" 
  norvoshi_collective_noun:0 "Norvoshi"
 
  pentoshi:0 "Pentosisch"
@@ -285,12 +285,12 @@
  qohorik_collective_noun:0 "Qohoren"
 
  tyroshi:0 "Tyrosisch"
- tyroshi_prefix:0 "Tyro" #neu
+ tyroshi_prefix:0 "Tyro" 
  tyroshi_collective_noun:0 "Tyroshi"
 
  tall_man:0 "Sarnorisch"
- tall_man_prefix:0 "Tagaez" #neu
- tall_man_collective_noun:0 "Tageaz Fen" #neu
+ tall_man_prefix:0 "Tagaez" 
+ tall_man_collective_noun:0 "Tageaz Fen" 
 
  omberi:0 "Omberisch"
  omberi_prefix:0 "Omber"
@@ -302,7 +302,7 @@
 
  zoqora:0 "Zoqoraisch"
  zoqora_prefix:0 "Zoqora"
- zoqora_collective_noun:0 "Zoqoraen"
+ zoqora_collective_noun:0 "Zoqoräer"
 
  gipps:0 "Gippsisch"
  gipps_prefix:0 "Gipps"
@@ -348,9 +348,9 @@
  kayakayanayi_prefix:0 "Kayakaya"
  kayakayanayi_collective_noun:0 "Kayakayanayen"
 
- samyriani:0 "Samyrianisch"
- samyriani_prefix:0 "Samyri"
- samyriani_collective_noun:0 "Samyriananer"
+ samyriani:0 "Shamyrianisch"
+ samyriani_prefix:0 "Shamyri"
+ samyriani_collective_noun:0 "Shamyrianer"
 
  yinishari:0 "Yinisharisch"
  yinishari_prefix:0 "Yinishari"
@@ -380,26 +380,26 @@
  mazemaker_prefix:0 "Labyrinth"
  mazemaker_collective_noun:0 "Labyrinthbauer"
 
- children:0 "Waldsängerisch" #neu
- children_prefix:0 "Waldkind" #neu
- children_collective_noun:0 "Jene, die das Lied der Erde singen" #neu
+ children:0 "Waldsängerisch" 
+ children_prefix:0 "Waldkind" 
+ children_collective_noun:0 "Jene, die das Lied der Erde singen" 
 
  jhogwin:0 "Jhogwinisch"
  jhogwin_prefix:0 "Jhogwini"
  jhogwin_collective_noun:0 "Jhogwinen"
 
- giant:0 "Riesig"
+ giant:0 "Riesisch"
  giant_prefix:0 "Riesen"
  giant_collective_noun:0 "Riesen"
 
- others:0 "Andere"
- others_prefix:0 "Eis" #neu
- others_collective_noun:0 "Die Anderen" #neu
+ others:0 "Eisgeboren"
+ others_prefix:0 "Eis" 
+ others_collective_noun:0 "Die Anderen" 
 
- dragon:0 "Drakonisch" #neu
- dragon_prefix:0 "Drakonisch" #neu
+ dragon:0 "Drakonisch" #durch Abstimmung entschieden https://discord.com/channels/1097996818530447430/1102557321734930575/1280960116266500231
+ dragon_prefix:0 "Drako" 
  dragon_collective_noun:0 "Drachen"
 
  ifequevron:0 "Ifequevronisch"
- ifequevron_prefix:0 "Holz" #neu
- ifequevron_collective_noun:0 "Holzgeher" #neu
+ ifequevron_prefix:0 "Holz" 
+ ifequevron_collective_noun:0 "Ifequevron" 
