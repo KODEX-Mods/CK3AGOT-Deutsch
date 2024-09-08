@@ -1,4 +1,6 @@
 ﻿l_german:
+ #Vanilla Add-Ons
+ next_level_trade_ports_name:0 "$tradition_maritime_mercantilism_name$"
  # Ethoses
  ethos_festive_name:0 "Feierlich" #Übersetzung von MamaSagtNein
  ethos_festive_desc:0 "ISogar angesichts bitterster Lebensmühe schaffst es diese Kultur Seelenheil in Gemeindefesten und gemeinsamen Gelächter zu finden."
