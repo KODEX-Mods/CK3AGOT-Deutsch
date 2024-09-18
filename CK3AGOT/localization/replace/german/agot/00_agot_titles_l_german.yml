@@ -20,7 +20,7 @@
  b_greenguard:0 "Grünwacht" #k
  b_weatherback_ridge:0 "Wetterscheid" #k
  b_toothcliff:0 "Zantklef" #f Ort: Mauer, Brandons Schenkung, Brandons Schenkung
- b_blackburn_rush:0 "Swarzbrant" #f Ort: Mauer, Brandons Schenkung
+ b_blackburn_rush:0 "Schwarzprant" #f Ort: Mauer, Brandons Schenkung
  b_whitebarrow:0 "Weiszhügel" #f Ort: Mauer, Brandons Schenkung
  b_the_crowsticks:0 "Krähenstab" #f Ort: Mauer, Brandons Schenkung
  b_nightsrest:0 "Nachtrast" #f Ort: Mauer, Brandons Schenkung
@@ -30,7 +30,7 @@
  b_whoresbarrow:0 "Huorenhügel" #f Ort: Mauer, Brandons Schenkung
  b_spiderbridge:0 "Spinnenpruck" #f Ort: Mauer, Brandons Schenkung
  b_dogswool:0 "Huntwolla" #f Ort: Mauer, Brandons Schenkung
- b_old_croft:0 "Althof" #f Ort: Mauer, Brandons Schenkung
+ b_old_croft:0 "Althofen" #f Ort: Mauer, Brandons Schenkung
  b_ashburn:0 "Eschprant" #f Ort: Mauer, Brandons Schenkung
  b_hazeldown:0 "Häherthal" #f Ort: Mauer, Brandons Schenkung
  b_queenscrown:0 "Königinkron" #k
@@ -39,43 +39,43 @@
  b_brandons_castle:0 "Brandonswacht" #f Ort: Mauer, Brandons Schenkung
  b_old_bog:0 "Altmour" #f Ort: Mauer, Brandons Schenkung
  b_boarstone:0 "Keulerstein" #f Ort: Mauer, Brandons Schenkung
- b_edge:0 "Kante" #f Ort: Mauer, Brandons Schenkung
+ b_edge:0 "Kanten" #f Ort: Mauer, Brandons Schenkung
  b_bearbones:0 "Bernbein" #f Ort: Mauer, Brandons Schenkung
  b_hoarburn:0 "Raureif" #f Ort: Mauer, Brandons Schenkung
  b_briarsward:0 "Dornbuschwart" #f Ort: Mauer, Brandons Schenkung
  b_pinehollow:0 "Pinienhein" #f Ort: Mauer, Brandons Schenkung
  b_mossberry_bog:0 "Mosbermour" #f Ort: Mauer, Brandons Schenkung
- b_north_town:0 "North Town"
- b_stoneblood:0 "Stoneblood"
- b_gift_plc:0 "Gift_plc"
- b_waysrest:0 "Waysrest"
- b_stone_spears:0 "Stone Spears"
- b_witchlight:0 "Witchlight"
- b_otherstand:0 "Otherstand"
- b_the_heath:0 "The Heath"
- b_boreharrow:0 "Boreharrow"
- b_batscave:0 "Batscave"
- b_antlerfell:0 "Antlerfell"
- b_pikesrush:0 "Pikesrush"
- b_the_deadcopse:0 "The Deadcopse"
- b_mouse_rock:0 "Mouse Rock"
- b_whitecross:0 "Whitecross"
- b_ash_hollow:0 "Ash Hollow"
- b_wildlings_rest:0 "Wildling's Rest"
- b_chain_lake:0 "Chain Lake"
- b_grims_grave:0 "Grim's Grave"
- b_knightsrange:0 "Knightsrange"
- b_thistledown:0 "Thistledown"
- b_new_bridge:0 "New Bridge"
- b_old_hedge:0 "Old Hedge"
- b_norlinton:0 "Norlinton"
- b_wildelanding:0 "Wildelanding"
- b_thistleweald:0 "Thistleweald"
- b_stonestead:0 "Stonestead"
- b_old_reeds:0 "Old Reeds"
- b_starkstones:0 "Starkstones"
- b_giantsbeard:0 "Giantsbeard"
- b_wightspear:0 "Wightspear"
+ b_north_town:0 "Norstatt" #f Ort: Mauer, Neue Schenkung
+ b_stoneblood:0 "Steinbluot" #f Ort: Mauer, Neue Schenkung
+ b_gift_plc:0 "Gift_plc" #existiert nicht
+ b_waysrest:0 "Wegesruh" #f Ort: Mauer, Neue Schenkung
+ b_stone_spears:0 "Steinsper" #f Ort: Mauer, Neue Schenkung
+ b_witchlight:0 "Hesslieht" #f Ort: Mauer, Neue Schenkung
+ b_otherstand:0 "Andernwacht" #f Ort: Mauer, Neue Schenkung
+ b_the_heath:0 "Herd" #f Ort: Mauer, Neue Schenkung
+ b_boreharrow:0 "Bohregg" #f Ort: Mauer, Neue Schenkung
+ b_batscave:0 "Fledarmusenhül" #f Ort: Mauer, Neue Schenkung
+ b_antlerfell:0 "Gewigfell" #f Ort: Mauer, Neue Schenkung
+ b_pikesrush:0 "Hechtsturz" #f Ort: Mauer, Neue Schenkung
+ b_the_deadcopse:0 "Totenhain" #f Ort: Mauer, Neue Schenkung
+ b_mouse_rock:0 "Musenstein" #f Ort: Mauer, Neue Schenkung
+ b_whitecross:0 "Weiszkrüz" #f Ort: Mauer, Neue Schenkung
+ b_ash_hollow:0 "Eschhain" #f Ort: Mauer, Neue Schenkung
+ b_wildlings_rest:0 "Wildlingsruh" #f Ort: Mauer, Neue Schenkung
+ b_chain_lake:0 "Ketensee" #f Ort: Mauer, Neue Schenkung
+ b_grims_grave:0 "Grimmshül" #f Ort: Mauer, Neue Schenkung
+ b_knightsrange:0 "Heltenland" #f Ort: Mauer, Neue Schenkung
+ b_thistledown:0 "Distelwis" #f Ort: Mauer, Neue Schenkung
+ b_new_bridge:0 "Niwenbrück" #f Ort: Mauer, Neue Schenkung
+ b_old_hedge:0 "Altheggen" #f Ort: Mauer, Neue Schenkung
+ b_norlinton:0 "Norlingen" #f Ort: Mauer, Neue Schenkung
+ b_wildelanding:0 "Wildlande" #f Ort: Mauer, Neue Schenkung
+ b_thistleweald:0 "Distelwald" #f Ort: Mauer, Neue Schenkung
+ b_stonestead:0 "Steinwart" #f Ort: Mauer, Neue Schenkung
+ b_old_reeds:0 "Altreet" #f Ort: Mauer, Neue Schenkung
+ b_starkstones:0 "Starksteinen" #f Ort: Mauer, Neue Schenkung
+ b_giantsbeard:0 "Risenbart" #f Ort: Mauer, Neue Schenkung
+ b_wightspear:0 "Wichtsper" #f Ort: Mauer, Neue Schenkung
  b_winterfell:0 "Winterfell"
  b_winter_town:0 "Winter Town"
  b_whitegate:0 "Whitegate"
@@ -6099,15 +6099,15 @@
  b_first_forest_plc_218:0 "first_forest_plc_218"
  b_first_forest_plc_219:0 "first_forest_plc_219"
  b_first_forest_plc_221:0 "first_forest_plc_221"
- c_castle_black:0 "Castle Black"
- c_the_shadow_tower:0 "The Shadow Tower"
- c_eastwatch:0 "Eastwatch"
- c_weatherback_ridge:0 "Weatherback Ridge"
- c_moles_town:0 "Moles Town"
- c_hoarburn:0 "Hoarburn"
- c_boreharrow:0 "Boreharrow"
- c_whitecross:0 "Whitecross"
- c_giantsbeard:0 "Giantsbeard"
+ c_castle_black:0 "Schwarze Festung" #k
+ c_the_shadow_tower:0 "Schattenturm" #k
+ c_eastwatch:0 "Ostwacht" #k
+ c_weatherback_ridge:0 "Wetterscheid" #k
+ c_moles_town:0 "Mulwarft" #k
+ c_hoarburn:0 "Raureif" #f Ort: Mauer, Brandons Schenkung
+ c_boreharrow:0 "Bohregg" #f Ort: Mauer, Neue Schenkung
+ c_whitecross:0 "Weiszkrüz" #f Ort: Mauer, Neue Schenkung
+ c_giantsbeard:0 "Risenbart" #f Ort: Mauer, Neue Schenkung
  c_winterfell:0 "Winterfell"
  c_dawnforest:0 "Dawnforest"
  c_wolf_branch:0 "Wolf Branch"
@@ -7183,9 +7183,9 @@
  c_skittering_cove:0 "Skittering Cove"
  c_the_bay_of_seals:0 "The Bay of Seals"
  c_woodvetch:0 "Woodvetch"
- d_the_wall:0 "The Wall"
- d_brandons_gift:0 "Brandon's Gift"
- d_new_gift:0 "New Gift"
+ d_the_wall:0 "Die Mauer" #k Ort: Mauer
+ d_brandons_gift:0 "Brandons Schenkung" #k Ort: Mauer
+ d_new_gift:0 "Neue Schenkung" #k Ort: Mauer
  d_winterfell:0 "Winterfell"
  d_last_lands:0 "Last Lands"
  d_frostfields:0 "Frostfields"
@@ -7385,7 +7385,7 @@
  d_auld_groves:0 "Auld Groves"
  d_haunted_forest:0 "Haunted Forest"
  d_storrolds_point:0 "Storrold's Point"
- k_the_wall:0 "The Wall"
+ k_the_wall:0 "The Wall" #k Ort: Mauer
  k_the_north:0 "The North"
  k_the_riverlands:0 "the Riverlands"
  k_the_riverlands_adj:0 "Riverman"
@@ -7425,7 +7425,7 @@
  d_kingsguard_adj:0 "Kingsguard"
  d_dummy_kingsguard:0 "KG" #Empty so it can't be searched
  d_dummy_empire:0 " "
- e_the_wall:0 "The Wall"
+ e_the_wall:0 "Die Mauer" #k Ort: Mauer
  e_the_wall_adj:0 "Night's Watch"
  e_the_north:0 "The North"
  e_the_north_adj:0 "Northman"
@@ -7485,10 +7485,10 @@
  b_vaith_town:0 "Vaith Town"
  b_burning_place:0 "Burning Place"
  b_heritage_keep:0 "Heritage Keep"
- c_weatherback_ridge:0 "Weatherback Ridge"
- c_moles_town:0 "Mole's Town"
- c_hoarburn:0 "Hoarburn"
- c_norlinton:0 "Norlinton"
+ c_weatherback_ridge:0 "Wetterscheid" #f Ort: Mauer, Brandons Schenkung
+ c_moles_town:0 "Mulwarft" #f Ort: Mauer, Brandons Schenkung
+ c_hoarburn:0 "Raureif" #f Ort: Mauer, Brandons Schenkung
+ c_norlinton:0 "Norlingen" #f Ort: Mauer, Neue Schenkung
  b_slake:0 "Slake"
  b_farview:0 "Farview"
  b_stalecastle:0 "Stalecastle"
