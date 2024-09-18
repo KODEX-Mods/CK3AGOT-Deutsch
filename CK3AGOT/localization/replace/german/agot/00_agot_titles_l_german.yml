@@ -1,50 +1,50 @@
 ﻿l_german:
- b_castle_black:0 "Castle Black"
- b_icemark:0 "Icemark"
- b_deep_lake:0 "Deep Lake"
- b_queensgate:0 "Queensgate"
- b_the_nightfort:0 "The Nightfort"
- b_oakenshield:0 "Oakenshield"
- b_woodswatch_by_the_pool:0 "Woodswatch-by-the-Pool"
- b_the_shadow_tower:0 "The Shadow Tower"
- b_westwatch_by_the_bridge:0 "Westwatch-by-the-Bridge"
- b_sentinel_stand:0 "Sentinel Stand"
- b_greyguard:0 "Greyguard"
- b_stonedoor:0 "Stonedoor"
- b_hoarfrost_hill:0 "Hoarfrost Hill"
- b_eastwatch_by_the_sea:0 "Eastwatch-by-the-Sea"
- b_sable_hall:0 "Sable Hall"
- b_rimegate:0 "Rimegate"
- b_long_barrow:0 "Long Barrow"
- b_the_torches:0 "The Torches"
- b_greenguard:0 "Greenguard"
- b_weatherback_ridge:0 "Weatherback Ridge"
- b_toothcliff:0 "Toothcliff"
- b_blackburn_rush:0 "Blackburn Rush"
- b_whitebarrow:0 "Whitebarrow"
- b_the_crowsticks:0 "The Crowsticks"
- b_nightsrest:0 "Nightsrest"
- b_heathertop:0 "Heathertop"
- b_woodbone:0 "Woodbone"
- b_moles_town:0 "Mole's Town"
- b_whoresbarrow:0 "Whoresbarrow"
- b_spiderbridge:0 "Spiderbridge"
- b_dogswool:0 "Dogswool"
- b_old_croft:0 "Old Croft"
- b_ashburn:0 "Ashburn"
- b_hazeldown:0 "Hazeldown"
- b_queenscrown:0 "Queenscrown"
- b_standing_stones:0 "Standing Stones"
- b_wierrush:0 "Wierrush"
- b_brandons_castle:0 "Brandon's Castle"
- b_old_bog:0 "Old Bog"
- b_boarstone:0 "Boarstone"
- b_edge:0 "Edge"
- b_bearbones:0 "Bearbones"
- b_hoarburn:0 "Hoarburn"
- b_briarsward:0 "Briarsward"
- b_pinehollow:0 "Pinehollow"
- b_mossberry_bog:0 "Mossberry Bog"
+ b_castle_black:0 "Schwarze Festung" #k #Übersetzung von MamaSagtNein
+ b_icemark:0 "Eismark" #k
+ b_deep_lake:0 "Grundsee" #k
+ b_queensgate:0 "Königintor" #k
+ b_the_nightfort:0 "Nachtfeste" #k
+ b_oakenshield:0 "Eichenschild" #k
+ b_woodswatch_by_the_pool:0 "Waldwacht am Teich" #k
+ b_the_shadow_tower:0 "Schattenturm" #k
+ b_westwatch_by_the_bridge:0 "Westwacht an der Brücke" #k
+ b_sentinel_stand:0 "Schildwacht" #k
+ b_greyguard:0 "Grauwacht" #k
+ b_stonedoor:0 "Steintor" #k
+ b_hoarfrost_hill:0 "Berg Raureif" #k
+ b_eastwatch_by_the_sea:0 "Ostwacht an der See" #k
+ b_sable_hall:0 "Zobelhall" #k
+ b_rimegate:0 "Reiftor" #k
+ b_long_barrow:0 "Langhügel" #k
+ b_the_torches:0 "Fackeln" #k
+ b_greenguard:0 "Grünwacht" #k
+ b_weatherback_ridge:0 "Wetterscheid" #k
+ b_toothcliff:0 "Zantklef" #f Ort: Mauer, Brandons Schenkung, Brandons Schenkung
+ b_blackburn_rush:0 "Swarzbrant" #f Ort: Mauer, Brandons Schenkung
+ b_whitebarrow:0 "Weiszhügel" #f Ort: Mauer, Brandons Schenkung
+ b_the_crowsticks:0 "Krähenstab" #f Ort: Mauer, Brandons Schenkung
+ b_nightsrest:0 "Nachtrast" #f Ort: Mauer, Brandons Schenkung
+ b_heathertop:0 "Heidakamm" #f Ort: Mauer, Brandons Schenkung
+ b_woodbone:0 "Waltbein" #f Ort: Mauer, Brandons Schenkung
+ b_moles_town:0 "Mulwarft" #k
+ b_whoresbarrow:0 "Huorenhügel" #f Ort: Mauer, Brandons Schenkung
+ b_spiderbridge:0 "Spinnenpruck" #f Ort: Mauer, Brandons Schenkung
+ b_dogswool:0 "Huntwolla" #f Ort: Mauer, Brandons Schenkung
+ b_old_croft:0 "Althof" #f Ort: Mauer, Brandons Schenkung
+ b_ashburn:0 "Eschprant" #f Ort: Mauer, Brandons Schenkung
+ b_hazeldown:0 "Häherthal" #f Ort: Mauer, Brandons Schenkung
+ b_queenscrown:0 "Königinkron" #k
+ b_standing_stones:0 "Stehnstein" #f Ort: Mauer, Brandons Schenkung
+ b_wierrush:0 "Wiltsturm" #f Ort: Mauer, Brandons Schenkung
+ b_brandons_castle:0 "Brandonswacht" #f Ort: Mauer, Brandons Schenkung
+ b_old_bog:0 "Altmour" #f Ort: Mauer, Brandons Schenkung
+ b_boarstone:0 "Keulerstein" #f Ort: Mauer, Brandons Schenkung
+ b_edge:0 "Kante" #f Ort: Mauer, Brandons Schenkung
+ b_bearbones:0 "Bernbein" #f Ort: Mauer, Brandons Schenkung
+ b_hoarburn:0 "Raureif" #f Ort: Mauer, Brandons Schenkung
+ b_briarsward:0 "Dornbuschwart" #f Ort: Mauer, Brandons Schenkung
+ b_pinehollow:0 "Pinienhein" #f Ort: Mauer, Brandons Schenkung
+ b_mossberry_bog:0 "Mosbermour" #f Ort: Mauer, Brandons Schenkung
  b_north_town:0 "North Town"
  b_stoneblood:0 "Stoneblood"
  b_gift_plc:0 "Gift_plc"
