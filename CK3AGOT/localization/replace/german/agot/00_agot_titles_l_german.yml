@@ -21,7 +21,7 @@
  b_weatherback_ridge:0 "Wetterscheid" #k
  b_toothcliff:0 "Zantklef" #f Ort: Mauer, Brandons Schenkung, Brandons Schenkung
  b_blackburn_rush:0 "Schwarzprant" #f Ort: Mauer, Brandons Schenkung
- b_whitebarrow:0 "Weiszhügel" #f Ort: Mauer, Brandons Schenkung
+ b_whitebarrow:0 "Weißhügel" #f Ort: Mauer, Brandons Schenkung
  b_the_crowsticks:0 "Krähenstab" #f Ort: Mauer, Brandons Schenkung
  b_nightsrest:0 "Nachtrast" #f Ort: Mauer, Brandons Schenkung
  b_heathertop:0 "Heidakamm" #f Ort: Mauer, Brandons Schenkung
@@ -59,7 +59,7 @@
  b_pikesrush:0 "Hechtsturz" #f Ort: Mauer, Neue Schenkung
  b_the_deadcopse:0 "Totenhain" #f Ort: Mauer, Neue Schenkung
  b_mouse_rock:0 "Musenstein" #f Ort: Mauer, Neue Schenkung
- b_whitecross:0 "Weiszkrüz" #f Ort: Mauer, Neue Schenkung
+ b_whitecross:0 "Weißkrüz" #f Ort: Mauer, Neue Schenkung
  b_ash_hollow:0 "Eschhain" #f Ort: Mauer, Neue Schenkung
  b_wildlings_rest:0 "Wildlingsruh" #f Ort: Mauer, Neue Schenkung
  b_chain_lake:0 "Ketensee" #f Ort: Mauer, Neue Schenkung
@@ -78,12 +78,12 @@
  b_wightspear:0 "Wichtsper" #f Ort: Mauer, Neue Schenkung
  b_winterfell:0 "Winterfell" #k
  b_winter_town:0 "Winterdorf" #k
- b_whitegate:0 "Weisztor" #f Ort: Norden, Winterfell
- b_whiteward_tower:0 "Weiszwachtturm" #f Ort: Norden, Winterfell
+ b_whitegate:0 "Weißtor" #f Ort: Norden, Winterfell
+ b_whiteward_tower:0 "Weißwachtturm" #f Ort: Norden, Winterfell
  b_sullen_wall:0 "Brandonsbach" #f Ort: Norden, Winterfell
  b_waltons_wood:0 "Waltonswald" #f Ort: Norden, Winterfell
  b_colbrand:0 "Winterhügel" #f Ort: Norden, Winterfell
- b_dorrengrounds:0 "Weiszenweit" #f Ort: Norden, Winterfell
+ b_dorrengrounds:0 "Weißenweit" #f Ort: Norden, Winterfell
  b_brandford:0 "Winterfeld" #f Ort: Norden, Winterfell
  b_burns_gate:0 "Graumarkt" #f Ort: Norden, Winterfell
  b_greyward_tower:0 "Grauwachtturm" #f Ort: Norden, Winterfell
@@ -134,7 +134,7 @@
  b_branswood_hold:0 "Branswald" #f Ort: Norden, Winterfell
  b_cutter_grove:0 "Schnitterhain" #f Ort: Norden, Winterfell
  b_foxwood:0 "Fuchswald" #f Ort: Norden, Winterfell
- b_white_den:0 "Weiszraben" #f Ort: Norden, Winterfell
+ b_white_den:0 "Weißraben" #f Ort: Norden, Winterfell
  b_last_hearth:0 "Last Hearth"
  b_hearthwood:0 "Hearthwood"
  b_fellber:0 "Fellber"
@@ -6106,7 +6106,7 @@
  c_moles_town:0 "Mulwarft" #k
  c_hoarburn:0 "Raureif" #f Ort: Mauer, Brandons Schenkung
  c_boreharrow:0 "Bohregg" #f Ort: Mauer, Neue Schenkung
- c_whitecross:0 "Weiszkrüz" #f Ort: Mauer, Neue Schenkung
+ c_whitecross:0 "Weißkrüz" #f Ort: Mauer, Neue Schenkung
  c_giantsbeard:0 "Risenbart" #f Ort: Mauer, Neue Schenkung
  c_winterfell:0 "Winterfell" #k
  c_dawnforest:0 "Winterfeld" #f Ort: Norden, Winterfell
