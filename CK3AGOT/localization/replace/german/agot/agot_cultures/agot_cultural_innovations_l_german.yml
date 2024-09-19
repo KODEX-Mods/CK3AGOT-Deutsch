@@ -4,13 +4,13 @@
  innovation_agot_gavelkind_desc:0 "Stabilität und Wohlstand gehen Hand in Hand. Anstatt dass die Vasallen einen Wettlauf um die Macht veranstalten, sobald der alte Monarch dahinscheidet, können wir ein im Vorfeld festgelegtes, gerechtes Verfahren für Erbschaften ausarbeiten, das einem Großteil jener Instabilität entgegenwirkt, die traditionell mit Fragen der Nachfolge verbunden ist." #neu Vanilla localization
 
  innovation_agot_heraldry:0 "Heraldik" #neu
- innovation_agot_heraldry_desc:0 "Wenn wir Wappenentwürfe festlegen, die unsere Adelsfamilien ausweisen und unter ihnen weitervererbt werden können, wird dies dazu führen, dass sich ihre Verwandten als Teil eines größeren Ganzen zu begreifen. Dies wiederum wird sie dazu ermutigen, das Ansehen ihrer Dynastie zu mehren, anstatt nur von ihrem persönlichen Status besessen zu sein." #neu Vanilla localization
+ innovation_agot_heraldry_desc:0 "Wenn wir Wappenentwürfe festlegen, die unsere Adelsfamilien ausweisen und unter ihnen weitervererbt werden können, wird dies dazu führen, dass sich ihre Verwandten als Teil eines größeren Ganzen begreifen. Dies wiederum wird sie dazu ermutigen, das Ansehen ihrer Dynastie zu mehren, anstatt nur von ihrem persönlichen Status besessen zu sein." #neu Vanilla localization
 
  innovation_agot_siege_01:0 "Rammböcke" #neu
- innovation_agot_siege_01_desc:0 "Um sich vor Feinden und Räubern zu schützen wurden Mauern gebaut. Um die Mauern zu durchbrechen, wurden Rammböcke entworfen." #neu
+ innovation_agot_siege_01_desc:0 "Um sich vor Feinden und Räubern zu schützen, wurden Mauern gebaut. Um die Mauern zu durchbrechen, wurden Rammböcke erfunden." #neu
 
  innovation_agot_sword_bound:0 "Schwertbunden" #neu
- innovation_agot_sword_bound_desc:0 "Die Welt ist rau und nur das Schwert kann den Weg ebnen. Nur mit dem Schwert kann man Sippe und Heimat verteidigen und sich nehmen was man braucht." #neu
+ innovation_agot_sword_bound_desc:0 "Die Welt ist rau und nur das Schwert kann den Weg ebnen. Nur mit dem Schwert kann man Sippe und Heimat verteidigen und sich nehmen, was man braucht." #neu
 
  innovation_agot_mail:0 "Stoff und Stahl" #neu
  innovation_agot_mail_desc:0 "Mit der Verarbeitung von Metallen konnten Rüstungen aus zusammengenieteten Metallringen gefertigt werden – Kettenrüstungen. Sie sind robust und flexibel und kombiniert mit der Polsterung der bisher üblichen Rüstungen aus Stoffen und Leder geben sie dem Nutzer einen ausgezeichneten Schutz nicht nur vor Schwerter, sondern auch vor Pfeilen und Bolzen." #neu
@@ -54,11 +54,11 @@
  unlock_stormlands_heavy_infantry:0 "Kann [GetMaA('stormlands_heavy_infantry').GetName] als [men_at_arms|E] rekrutieren"
 
  innovation_agot_free_companies:0 "Freie Kompanien" #neu
- innovation_agot_free_companies_desc:0 "Dem Untergang Valyrias folgte das Jahrhunderts des Blutes. Der Name leitet sich von den unzähligen Kriegen auf dem Kontinent von Essos ab. Beim Kampf um die Vorherrschaft um die Umstrittenen Lande bildeten sich viele Söldnerkompanien, die auch of als Freie Kompanien bezeichnet wurden." #neu Nicht zu verwechseln mit DER FREIEN KOMPANIE. Ich denke aufgrund des Plurals "free companies" meinen die Devs tatsächlich Freie Kompanien als Synonym zu Söldnerkompanien; https://eisundfeuer.fandom.com/de/wiki/Freie_Kompanie_(Söldnerkompanie) -> siehe Zitat "Eine Freie Kompanie"
+ innovation_agot_free_companies_desc:0 "Dem Untergang Valyrias folgte das Jahrhunderts des Blutes. Der Name leitet sich von den unzähligen Kriegen auf dem Kontinent von Essos ab. Beim Kampf um die Vorherrschaft um die Umstrittenen Lande bildeten sich viele Söldnerkompanien, die auch of als Freie Kompanien bezeichnet wurden."
  unlock_westerosi_sellswords:0 "Kann [GetMaA('westerosi_sellswords').GetName] als [men_at_arms|E] rekrutieren" #neu
 
  innovation_agot_stepstone_fighting:0 "Piratenverstecke" #neu
- innovation_agot_stepstone_fighting_desc:0 "Die Meerenge ist Heimat des Handels zwischen den Städten von Westeros und Essos. Doch wo der Handel blüht, gedeiht auch das Geschäft der Piraterie, und auf den Trittsteinen tummeln sich unzählige Seeräuber. Vom kleinsten Möchtegern-Piraten bis hin zu großen Piratenprinzen kann jeder sein Glück auf den Inseln versuchen." #neu
+ innovation_agot_stepstone_fighting_desc:0 "Die Meerenge ist Heimat des Handels zwischen den Städten von Westeros und Essos. Doch wo der Handel blüht, gedeiht auch das Geschäft der Piraterie, und auf den Trittsteinen tummeln sich unzählige Seeräuber. Vom kleinsten Möchtegern-Piraten bis hin zu großen Piratenfürsten kann jeder sein Glück auf den Inseln versuchen." #neu
  unlock_stepstone_sailors:0 "Kann [GetMaA('stepstone_sailors').GetName] als [men_at_arms|E] rekrutieren" #neu
 
  unlock_crossbowmen:0 "Kann [GetMaA('crossbowmen').GetName] als [men_at_arms|E] rekrutieren" #neu
@@ -66,5 +66,5 @@
  unlock_armored_horsemen:0 "Kann [GetMaA('rmored_horsemen').GetName] als [men_at_arms|E] rekrutieren" #neu
 
  innovation_agot_anti_dragon_fighting:0 "Drachentöter" #neu
- innovation_agot_anti_dragon_fighting_desc:0 "Mit ihrer schieren Größe, ihrer Fähigkeit Feuer zu speien und ihren Krallen und Zähnen wie Schwertern, aber auch ihrem undurchdringbaren Schuppenpanzer sind [dragons|E] nicht nur die wohl gefürchtetsten Kreaturen in der Bekannten Welt, sondern dazu auch noch fast unbezwingbar. Nur eine Handvoll Menschen konnten eine solche Bestie bezwingen. Die Kunst im Drachentöten liegt darin, dort zuzuschlagen, wo sie keine Schuppen schützen, sei es in den Augen oder in einem Loch im Panzer. Um mit genügender Wucht und Schnelligkeit diese Schwachstellen zu treffen wurden Skorpionen entworfen." #neu Der Grund für die inhaltliche Änderung ist, dass es näher an der Lore steht. Unabhängig davon was in der Show gezeigt wurde und was in dem Text steht: Drachenpanzer sind selbst für Skorpione undurchdringbar: https://awoiaf.westeros.org/index.php/Dragonslayer; https://eisundfeuer.fandom.com/de/wiki/Drache#Eigenschaften -> Ctrl+F "Septon Barth"
- unlock_scorpion_buildings:0 "Erlaubt es [GetBuilding('scorpion_emplacement_01').GetName] zu bauen" #neu
+ innovation_agot_anti_dragon_fighting_desc:0 "Mit ihrer schieren Größe, ihrer Fähigkeit, Feuer zu speien und ihren Krallen und Zähnen wie Schwerter, aber auch mit ihrem undurchdringbaren Schuppenpanzer sind [dragons|E] nicht nur die wohl am meisten gefürchteten Kreaturen in der bekannten Welt, sondern dazu auch noch fast unbezwingbar. Nur eine Handvoll Menschen konnten eine solche Bestie bezwingen. Die Kunst im Drachentöten liegt darin, dort zuzuschlagen, wo sie keine Schuppen schützen, sei es in den Augen oder in einem Loch im Panzer. Um mit genügender Wucht und Schnelligkeit diese Schwachstellen zu treffen wurden Skorpionen entworfen."
+ unlock_scorpion_buildings:0 "Erlaubt es, [GetBuilding('scorpion_emplacement_01').GetName] zu bauen" #neu
