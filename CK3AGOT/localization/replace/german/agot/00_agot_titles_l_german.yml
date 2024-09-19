@@ -43,7 +43,7 @@
  b_bearbones:0 "Bernbein" #f Ort: Mauer, Brandons Schenkung
  b_hoarburn:0 "Raureif" #f Ort: Mauer, Brandons Schenkung
  b_briarsward:0 "Dornbuschwart" #f Ort: Mauer, Brandons Schenkung
- b_pinehollow:0 "Pinienhein" #f Ort: Mauer, Brandons Schenkung
+ b_pinehollow:0 "Kiverhein" #f Ort: Mauer, Brandons Schenkung
  b_mossberry_bog:0 "Mosbermour" #f Ort: Mauer, Brandons Schenkung
  b_north_town:0 "Norstatt" #f Ort: Mauer, Neue Schenkung
  b_stoneblood:0 "Steinbluot" #f Ort: Mauer, Neue Schenkung
@@ -76,65 +76,65 @@
  b_starkstones:0 "Starksteinen" #f Ort: Mauer, Neue Schenkung
  b_giantsbeard:0 "Risenbart" #f Ort: Mauer, Neue Schenkung
  b_wightspear:0 "Wichtsper" #f Ort: Mauer, Neue Schenkung
- b_winterfell:0 "Winterfell"
- b_winter_town:0 "Winter Town"
- b_whitegate:0 "Whitegate"
- b_whiteward_tower:0 "Whiteward Tower"
- b_sullen_wall:0 "Sullen Wall"
- b_waltons_wood:0 "Walton's Wood"
- b_colbrand:0 "Colbrand"
- b_dorrengrounds:0 "Dorrengrounds"
- b_brandford:0 "Brandford"
- b_burns_gate:0 "Burn's Gate"
- b_greyward_tower:0 "Greyward Tower"
- b_winterwood:0 "Winterwood"
- b_bramble_hall:0 "Bramble Hall"
- b_glencastle:0 "Glencastle"
- b_berken_meadow:0 "Berken Meadow"
- b_dembrook:0 "Dembrook"
- b_pines_melt:0 "Pine's Melt"
- b_wilhorn_ford:0 "Wilhorn Ford"
- b_broken_fir_hold:0 "Broken Fir Hold"
- b_winderset:0 "Winderset"
- b_old_copse:0 "Old Copse"
- b_palewood:0 "Palewood"
- b_fullden:0 "Fullden"
- b_sentwright:0 "Sentwright"
- b_knifes_drip:0 "Knife's Drip"
- b_travel_town:0 "Travel Town"
- b_southerway:0 "Southerway"
- b_emmsbirch:0 "Emmsbirch"
- b_the_denary:0 "The Denary"
- b_openhollow:0 "Openhollow"
- b_woodendell:0 "Woodendell"
- b_wolf_branch_woods:0 "Wolf Branch Woods"
- b_coldstream:0 "Coldstream"
- b_long_spear:0 "Long Spear"
- b_denby:0 "Denby"
- b_beat_field:0 "Beat Field"
- b_wrathbone:0 "Wrathbone"
- b_bird_hill:0 "Bird Hill"
- b_stoke_forest:0 "Stoke Forest"
- b_logboat_house:0 "Logboat House"
- b_heathpatch:0 "Heathpatch"
- b_pitch_hold:0 "Pitch Hold"
- b_brustfield:0 "Brustfield"
- b_brustfield_hall:0 "Brustfield Hall"
- b_pitchbrook:0 "Pitchbrook"
- b_hairy_rock:0 "Hairy Rock"
- b_the_scalps:0 "The Scalps"
- b_turnbull_wood:0 "Turnbull Wood"
- b_leid_stone:0 "Leid Stone"
- b_dungwell:0 "Dungwell"
- b_cedarhelm:0 "Cedarhelm"
- b_millton:0 "Millton"
- b_coldhedge_ridge:0 "Coldhedge Ridge"
- b_stone_clover:0 "Stone Clover"
- b_lone_pine:0 "Lone Pine"
- b_branswood_hold:0 "Branswood Hold"
- b_cutter_grove:0 "Cutter Grove"
- b_foxwood:0 "Foxwood"
- b_white_den:0 "White Den"
+ b_winterfell:0 "Winterfell" #k
+ b_winter_town:0 "Winterdorf" #k
+ b_whitegate:0 "Weisztor" #f Ort: Norden, Winterfell
+ b_whiteward_tower:0 "Weiszwachtturm" #f Ort: Norden, Winterfell
+ b_sullen_wall:0 "Brandonsbach" #f Ort: Norden, Winterfell
+ b_waltons_wood:0 "Waltonswald" #f Ort: Norden, Winterfell
+ b_colbrand:0 "Winterhügel" #f Ort: Norden, Winterfell
+ b_dorrengrounds:0 "Weiszenweit" #f Ort: Norden, Winterfell
+ b_brandford:0 "Winterfeld" #f Ort: Norden, Winterfell
+ b_burns_gate:0 "Graumarkt" #f Ort: Norden, Winterfell
+ b_greyward_tower:0 "Grauwachtturm" #f Ort: Norden, Winterfell
+ b_winterwood:0 "Winterwald" #f Ort: Norden, Winterfell
+ b_bramble_hall:0 "Dornhall" #f Ort: Norden, Winterfell
+ b_glencastle:0 "Thalburg" #f Ort: Norden, Winterfell
+ b_berken_meadow:0 "Barkenwis" #f Ort: Norden, Winterfell
+ b_dembrook:0 "Lichterthal" #f Ort: Norden, Winterfell
+ b_pines_melt:0 "Kiverschmelz" #f Ort: Norden, Winterfell
+ b_wilhorn_ford:0 "Mollenpass" #f Ort: Norden, Winterfell
+ b_broken_fir_hold:0 "Tannenbruch" #f Ort: Norden, Winterfell
+ b_winderset:0 "Wintfelde" #f Ort: Norden, Winterfell
+ b_old_copse:0 "Altholz" #f Ort: Norden, Winterfell
+ b_palewood:0 "Pleihwald" #f Ort: Norden, Winterfell
+ b_fullden:0 "Vullbau" #f Ort: Norden, Winterfell
+ b_sentwright:0 "Sendrecht" #f Ort: Norden, Winterfell
+ b_knifes_drip:0 "Messersmunt" #f Ort: Norden, Winterfell
+ b_travel_town:0 "Süderweg" #f Ort: Norden, Winterfell
+ b_southerway:0 "Süderwald" #f Ort: Norden, Winterfell
+ b_emmsbirch:0 "Emmsbirch" #f Ort: Norden, Winterfell
+ b_the_denary:0 "Casseln" #f Ort: Norden, Winterfell
+ b_openhollow:0 "Messerhain" #f Ort: Norden, Winterfell
+ b_woodendell:0 "Messerfeld" #f Ort: Norden, Winterfell
+ b_wolf_branch_woods:0 "Wolfszwig" #f Ort: Norden, Winterfell
+ b_coldstream:0 "Kaltstroum" #f Ort: Norden, Winterfell
+ b_long_spear:0 "Langenmunt" #f Ort: Norden, Winterfell
+ b_denby:0 "Langseen" #f Ort: Norden, Winterfell
+ b_beat_field:0 "Prügelhain" #f Ort: Norden, Winterfell
+ b_wrathbone:0 "Zornesbein" #f Ort: Norden, Winterfell
+ b_bird_hill:0 "Fogelhain" #f Ort: Norden, Winterfell
+ b_stoke_forest:0 "Hochwalt" #f Ort: Norden, Winterfell
+ b_logboat_house:0 "Fogelsang" #f Ort: Norden, Winterfell
+ b_heathpatch:0 "Herdeshain" #f Ort: Norden, Winterfell
+ b_pitch_hold:0 "Felden" #f Ort: Norden, Winterfell
+ b_brustfield:0 "Brustenfeld" #f Ort: Norden, Winterfell
+ b_brustfield_hall:0 "Brustenhall" #f Ort: Norden, Winterfell #f Ort: Norden, Winterfell
+ b_pitchbrook:0 "Brustenlauf" #f Ort: Norden, Winterfell #f Ort: Norden, Winterfell
+ b_hairy_rock:0 "Pelzenbrock" #f Ort: Norden, Winterfell #f Ort: Norden, Winterfell
+ b_the_scalps:0 "Scalpen" #f Ort: Norden, Winterfell #f Ort: Norden, Winterfell
+ b_turnbull_wood:0 "Drehbullwis" #f Ort: Norden, Winterfell #f Ort: Norden, Winterfell
+ b_leid_stone:0 "Schmerzstein" #f Ort: Norden, Winterfell #f Ort: Norden, Winterfell
+ b_dungwell:0 "Dungbrunnen" #f Ort: Norden, Winterfell #f Ort: Norden, Winterfell
+ b_cedarhelm:0 "Zedernhelm" #f Ort: Norden, Winterfell #f Ort: Norden, Winterfell
+ b_millton:0 "Mühlau" #f Ort: Norden, Winterfell
+ b_coldhedge_ridge:0 "Frischheckenkamm" #f Ort: Norden, Winterfell
+ b_stone_clover:0 "Steinklee" #f Ort: Norden, Winterfell
+ b_lone_pine:0 "Hohenkiefern" #f Ort: Norden, Winterfell
+ b_branswood_hold:0 "Branswald" #f Ort: Norden, Winterfell
+ b_cutter_grove:0 "Schnitterhain" #f Ort: Norden, Winterfell
+ b_foxwood:0 "Fuchswald" #f Ort: Norden, Winterfell
+ b_white_den:0 "Weiszraben" #f Ort: Norden, Winterfell
  b_last_hearth:0 "Last Hearth"
  b_hearthwood:0 "Hearthwood"
  b_fellber:0 "Fellber"
@@ -6108,13 +6108,13 @@
  c_boreharrow:0 "Bohregg" #f Ort: Mauer, Neue Schenkung
  c_whitecross:0 "Weiszkrüz" #f Ort: Mauer, Neue Schenkung
  c_giantsbeard:0 "Risenbart" #f Ort: Mauer, Neue Schenkung
- c_winterfell:0 "Winterfell"
- c_dawnforest:0 "Dawnforest"
- c_wolf_branch:0 "Wolf Branch"
- c_coldstream:0 "Coldstream"
- c_the_pitch:0 "The Pitch"
- c_cedar_peaks:0 "Cedar Peaks"
- c_brans_wood:0 "Bran's Wood"
+ c_winterfell:0 "Winterfell" #k
+ c_dawnforest:0 "Winterfeld" #f Ort: Norden, Winterfell
+ c_wolf_branch:0 "Wolfszwig" #f Ort: Norden, Winterfell
+ c_coldstream:0 "Kaltstroum" #f Ort: Norden, Winterfell
+ c_the_pitch:0 "Wolfsweiten" #f Ort: Norden, Winterfell
+ c_cedar_peaks:0 "Zederngipfel" #f Ort: Norden, Winterfell
+ c_brans_wood:0 "Branswald" #f Ort: Norden, Winterfell
  c_last_hearth:0 "Last Hearth"
  c_woodhaven:0 "Woodhaven"
  c_blackmantle:0 "Blackmantle"
@@ -7385,8 +7385,8 @@
  d_auld_groves:0 "Auld Groves"
  d_haunted_forest:0 "Haunted Forest"
  d_storrolds_point:0 "Storrold's Point"
- k_the_wall:0 "The Wall" #k Ort: Mauer
- k_the_north:0 "The North"
+ k_the_wall:0 "Nachtwache" #k
+ k_the_north:0 "Der Norden" #k
  k_the_riverlands:0 "the Riverlands"
  k_the_riverlands_adj:0 "Riverman"
  k_the_moonclans:0 "The Moonclans"
