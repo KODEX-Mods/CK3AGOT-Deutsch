@@ -88,11 +88,11 @@
  setting_agot_ema_enabled:0 "Full"
  setting_agot_ema_enabled_desc:0 "All enhanced marriage AI options are enabled."
 
- rule_agot_dynastic_stablity:0 "#R AGOT:#! Dynastic Stability"
- setting_agot_dynastic_stablity_enabled:0 "Enabled"
- setting_agot_dynastic_stablity_enabled_desc:0 "[agot_dynastic_stability|E] is enabled."
- setting_agot_dynastic_stablity_disabled:0 "Disabled"
- setting_agot_dynastic_stablity_disabled_desc:0 "[agot_dynastic_stability|E] is disabled."
+ rule_agot_dynastic_stability:0 "#R AGOT:#! Dynastic Stability"
+ setting_agot_dynastic_stability_enabled:0 "Enabled"
+ setting_agot_dynastic_stability_enabled_desc:0 "[agot_dynastic_stability|E] is enabled."
+ setting_agot_dynastic_stability_disabled:0 "Disabled"
+ setting_agot_dynastic_stability_disabled_desc:0 "[agot_dynastic_stability|E] is disabled."
 
  rule_agot_strong_seed:0 "#R AGOT:#! Strong Seed"
  setting_agot_strong_seed_house:0 "House"
@@ -113,8 +113,8 @@
  setting_agot_cadet_none_desc:0 "Characters will not be able to create cadet branches."
 
  rule_agot_bastard_cadets:0 "#R AGOT:#! Bastard Cadet Creation"
- setting_agot_bastard_cadets_landed_only:0 "Landed Only"
- setting_agot_bastard_cadets_landed_only_desc:0 "Only landed [bastards|E] will form [bastard_houses|E] upon having children."
+ setting_agot_bastard_cadets_landed_only:0 "Landed and Landless"
+ setting_agot_bastard_cadets_landed_only_desc:0 "Only landed or landless adventurer [bastards|E] will form [bastard_houses|E] upon having children."
  setting_agot_bastard_cadets_everyone:0 "Any"
  setting_agot_bastard_cadets_everyone_desc:0 "Any [bastard|E], landed or unlanded, will form a [bastard_house|E] upon having children. #N This can result in cadet bloat!#!"
 
@@ -159,13 +159,13 @@
 
  rule_agot_dragons: "#R AGOT:#! Dragon Hatching and Taming"
  setting_dragon_dragonblood_2_gen: "2nd Gen Dragonblood"
- setting_dragon_dragonblood_2_gen_desc: "Only those that have [dragonblood|E] within 2 generations will be able to hatch and tame [dragons|e]."
+ setting_dragon_dragonblood_2_gen_desc: "Only those that have [dragonblood|E] within 2 generations will be able to hatch and tame [dragons_plural|e]."
  setting_dragon_dragonblood_3_gen: "3rd Gen Dragonblood"
- setting_dragon_dragonblood_3_gen_desc: "Only those that have [dragonblood|E] within 3 generations will be able to hatch and tame [dragons|e]."
+ setting_dragon_dragonblood_3_gen_desc: "Only those that have [dragonblood|E] within 3 generations will be able to hatch and tame [dragons_plural|e]."
  setting_dragon_valyrian_2_gen: "2nd Gen Valyrian Dragonblood"
- setting_dragon_valyrian_2_gen_desc: "Valyrian cultural heritage counts as dragonblood. Only those that have [dragonblood|E] within 2 generations will be able to hatch and tame [dragons|e]."
+ setting_dragon_valyrian_2_gen_desc: "Valyrian cultural heritage counts as dragonblood. Only those that have [dragonblood|E] within 2 generations will be able to hatch and tame [dragons_plural|e]."
  setting_dragon_valyrian_3_gen: "3rd Gen Valyrian Dragonblood"
- setting_dragon_valyrian_3_gen_desc: "Valyrian cultural heritage counts as dragonblood. Only those that have [dragonblood|E] within 3 generations will be able to hatch and tame [dragons|e]."
+ setting_dragon_valyrian_3_gen_desc: "Valyrian cultural heritage counts as dragonblood. Only those that have [dragonblood|E] within 3 generations will be able to hatch and tame [dragons_plural|e]."
  setting_dragons_anyone: "Anyone"
  setting_dragons_anyone_desc: "Anyone can try to hatch and tame dragons."
 

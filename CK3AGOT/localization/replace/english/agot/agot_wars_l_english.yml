@@ -4,6 +4,10 @@
  AGOT_VASSALIZATION_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Iron Throne Vassalization War"
  AGOT_VASSALIZATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 
+# AGOT CLAIMANT FACTION
+ agot_claimant_faction_war:0 "Claimant Faction"
+ agot_duskendale_claimant_war:0 "Claimant War"
+ agot_duskendale_iron_throne_war:0 "Claimant War"
 # AGOT REBELLION
  agot_independence_war:0 "Independence War"
  agot_independence_war_name:0 "Independence War"
@@ -117,7 +121,12 @@
  agot_faegon_landing_war_victory_desc: "[defender.GetFullNameRegnal|U] gets imprisoned"
  agot_faegon_realm_rebuild_loc: "After years in exile, House Targaryen sits upon the Iron Throne once again."
 
+ agot_duskendale_independence_war:0 "War for Duskendale Independence"
+ AGOT_DUSKENDALE_INDEPENDENCE_WAR_NAME:0 "[ATTACKER.GetTitledFirstNamePossessive] War for [ATTACKER.GetPrimaryTitle.GetNameNoTier] Independence"
+
  #AGOT Bastard Events
+ agot_bastard_claimant_war:0 "Royal Bastard Claimant War"
+ agot_bastard_claimant_war_no_nickname:0 "$agot_bastard_claimant_war$"
  agot_bastard_claimant_war_name_nicked:0 "The War of [CLAIMANT.GetNicknameNoTooltip]"
  agot_bastard_claimant_war_name_no_nick:0 "The War of [CLAIMANT.GetFather.GetFirstNamePossessiveNoTooltip] Bastard"
  agot_bastard_claimant_war_invalid:0 "[claimant.GetName] has died. [claimant.GetHerHis] claim can no longer be pressed."
@@ -274,7 +283,7 @@
  #Dorne
  agot_war_of_succession_name_Martell:0 "War of Sun and Spear"
  agot_war_of_succession_name_Dayne:0 "War of the Mourning"
- agot_war_of_succession_name_Yronwood:0 "Bloodletting"
+ agot_war_of_succession_name_Yronwood:0 "War of the Bloodroyal"
  agot_war_of_succession_name_Qorgyle:0 "War of the Poisoned Well" ###
  agot_war_of_succession_name_Uller:0 "Hellfire" ###
  agot_war_of_succession_name_Jordayne:0 "War of Power" ###
@@ -284,3 +293,27 @@
  agot_war_of_succession_name_Manwoody:0 "Skullbreaking" ###
  #Fallback
  agot_war_of_succession_name_fallback:0 "War of Succession"
+ AGOT_CB_RECLAIMING_DYNASTY_TITLES:0 "Reclaiming Your Dynasty's Titles"
+
+#Usurper Cusloc
+ agot_usurper_standard:0 "Usurper"
+ agot_usurper_pretender:0 "Pretender"
+ agot_usurper_mummer_king:0 "Mummer King"
+ agot_usurper_mummer_queen:0 "Mummer Queen"
+ agot_usurper_boy_king:0 "Boy King"
+ agot_usurper_witch_king:0 "Witch King"
+ agot_usurper_witch_queen:0 "Witch Queen"
+ agot_usurper_coward_king:0 "Craven King"
+ agot_usurper_coward_queen:0 "Craven Queen"
+ agot_usurper_mummers_dragon:0 "Mummer's Dragon"
+ agot_usurper_mummers_wolf:0 "Mummer's Wolf"
+ agot_usurper_mummers_bear:0 "Mummer's Bear"
+ agot_usurper_mummers_fox:0 "Mummer's Fox"
+ agot_usurper_false_star:0 "False Star"
+ agot_usurper_false_king:0 "False King"
+ agot_usurper_false_queen:0 "False Queen"
+ agot_usurper_bastard_king:0 "Bastard King"
+ agot_usurper_bastard_queen:0 "Bastard Queen"
+ agot_usurper_b_word:0 "Bitch Queen"
+ agot_usurper_mummers_stag:0 "Mummer's Stag"
+

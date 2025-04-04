@@ -7,13 +7,13 @@
  innovation_agot_heraldry_desc:0 "Establishing hereditary designs to identify our noble families will cause their members to see themselves as part of a greater whole, encouraging them to improve their dynasty's reputation instead of merely being obsessed with personal status."
 
  innovation_agot_siege_01:0 "Battering Ram"
- innovation_agot_siege_01_desc:0 "As Men made Forts and Bastions, so did other men find ways to break said defences."
+ innovation_agot_siege_01_desc:0 "As Men made Forts and Bastions, so did other men find ways to break said defenses."
 
  innovation_agot_sword_bound:0 "Sword Bound"
  innovation_agot_sword_bound_desc:0 "The world is hard place, and it is by the sword that one must make their way, defend kin and hearth, and take what they need."
 
  innovation_agot_mail:0 "Mail"
- innovation_agot_mail_desc:0 "This culture has moved beyond quilted armor and now uses coats of mail as its chief armor. Strong, durable, and flezible this has made the warriors of these people formidable indeed. "
+ innovation_agot_mail_desc:0 "This culture has moved beyond quilted armor and now uses coats of mail as its chief armor. Strong, durable, and flexible this has made the warriors of these people formidable indeed. "
 
  innovation_agot_professional_lances:0 "Professional Lances"
  innovation_agot_professional_lances_desc:0 "The might of Westeros is in their heavy cavalry, and this culture has embraced mobile warfare. Its heavy cavalry are known for their ferocity and speed. "
@@ -61,10 +61,16 @@
  innovation_agot_stepstone_fighting_desc:0 "The Narrow Sea is the home of trade between the many cities on it and beyond, but where ever trade flourishes, so to does the ancient profession of piracy, and the Stepstones are home to countless pirates. From the lowliest of would be pirates to great pirate princes, any man can try to find their fortune among the islands."
  unlock_stepstone_sailors:0 "Can recruit [GetMaA('stepstone_sailors').GetName] as [men_at_arms|E]"
 
+ innovation_agot_giants:0 "Walking with Giants"
+ innovation_agot_giants_desc:0 "Beyond the Wall many things still exist that the south has forgotten, the Giants are still roam here and occasionally one will join a band or tribe for whatever reason."
+ unlock_giants:0 "Can recruit [GetMaA('giant_regiment').GetName] as [men_at_arms|E]"
+
  unlock_crossbowmen:0 "Can recruit [GetMaA('crossbowmen').GetName] as [men_at_arms|E]"
  unlock_armored_footmen:0 "Can recruit [GetMaA('armored_footmen').GetName] as [men_at_arms|E]"
- unlock_armored_horsemen:0 "Can recruit [GetMaA('rmored_horsemen').GetName] as [men_at_arms|E]"
+ unlock_armored_horsemen:0 "Can recruit [GetMaA('armored_horsemen').GetName] as [men_at_arms|E]"
 
  innovation_agot_anti_dragon_fighting:0 "Anti-Dragon Warfare"
- innovation_agot_anti_dragon_fighting_desc:0 "For as fearsome and devastating as they are, [dragons|E] are not invulnerable, and have been known to be killed. The key is piercing their tough scales, and thus scorpions have been reintroduced to do just that."
- unlock_scorpion_buildings:0 "Can build [GetBuilding('scorpion_emplacement_01').GetName]"
+ innovation_agot_anti_dragon_fighting_desc:0 "For as fearsome and devastating as they are, [dragons_plural|E] are not invulnerable, and have been known to be killed. The key is piercing their tough scales, and thus scorpions have been reintroduced to do just that."
+ unlock_scorpion_defenses:0 "Scorpion defenses will automatically be built and improved at fort levels 10 and 20"
+ unlock_anti_dragon_workshop_bonuses:0 "High levels of the #V $building_type_common_tradeport_01$#! line of [buildings|E] provide increased dragon defense"
+ scorpions_prepared:0 "Readied Scorpions"

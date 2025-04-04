@@ -102,7 +102,7 @@
  agot_kingsguard.2001.desc_bodyguard_courtowner: "Alternatively, I could assign a bodyguard to [target_character.GetTitledFirstName] [target_character.GetHerselfHimself]."
  agot_kingsguard.2001.a: "Protect the designated target."
  agot_kingsguard.2001.b: "Protect [target_character.GetTitledFirstName]."
- agot_kingsguard.2001.c: "Actually, nevermind."
+ agot_kingsguard.2001.c: "Actually, never mind."
  indicate_bodyguard_target: "[councillor.GetTitledFirstName] starts protecting [si_target.GetShortUIName]."
  set_relation_bodyguard_first: "[TARGET_CHARACTER.GetUIName] starts protecting [CHARACTER.GetUIName]."
 
@@ -116,7 +116,7 @@
  agot_kingsguard.2003.title:0 "Renegade [ROOT.Char.Custom('KingsguardName')]!"
  agot_kingsguard.2003.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fleeing_kingsguard'))] has come to my court seeking asylum. [crown.GetTitledFirstNamePossessive] attempted to have [fleeing_kingsguard.GetFirstName] arrested on some trumped up charge and now [fleeing_kingsguard.GetSheHe] finds [fleeing_kingsguard.GetHerselfHimself] a fugitive of the realm. I must now make the difficult decision between my duty and my family in deciding what to do next."
  agot_kingsguard.2003.a:0 "You are my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fleeing_kingsguard'))], and you belong here."
- agot_kingsguard.2003.b:0 "If you make for the wall, you shall be beyond [crown.GetTitledFirstNamePossessive] reach!"
+ agot_kingsguard.2003.b:0 "If you make for the Wall, you shall be beyond [crown.GetTitledFirstNamePossessive] reach!"
  agot_kingsguard.2003.c:0 "You must flee across the Narrow Sea!"
  agot_kingsguard.2003.d:0 "I'm sorry [fleeing_kingsguard.GetFirstName], but I cannot harbor a fugitive."
 
@@ -163,7 +163,7 @@ agot_kingsguard.3003.t:0 "Flagrant [ROOT.Char.Custom('KingsguardName')|U]: Caugh
  agot_kingsguard.3005.c:0 "I have no need for more courtiers."
 
  agot_kingsguard.3006.t:0 "[ROOT.Char.Custom('KingsguardName')]: Brothers in Arms"
- agot_kingsguard.3006.desc:0 "[friendly_kingsguard.GetFullName] is an outgoing sort of [friendly_kingsguard.GetWomanMan]; always keen to start a conversation, or insert [friendly_kingsguard.GetHerselfHimself] into one. While grating to the more stoic members of my [ROOT.Char.Custom('KingsguardName')], himself and [kingsguard_friend.GetFullName] have become as inseperable as siblings.\n\nThey train together, break fast together, and in the thick of any battle they are found side-by-side, spurring on one another. This blood bond between these two warriors has become a common talking point within the court, the strength of which within my [ROOT.Char.Custom('KingsguardName')] can only serve to further solidfy my reign."
+ agot_kingsguard.3006.desc:0 "[friendly_kingsguard.GetFullName] is an outgoing sort of [friendly_kingsguard.GetWomanMan]; always keen to start a conversation, or insert [friendly_kingsguard.GetHerselfHimself] into one. While grating to the more stoic members of my [ROOT.Char.Custom('KingsguardName')], himself and [kingsguard_friend.GetFullName] have become as inseperable as siblings.\n\nThey train together, break fast together, and in the thick of any battle they are found side-by-side, spurring on one another. This blood bond between these two warriors has become a common talking point within the court, the strength of which within my [ROOT.Char.Custom('KingsguardName')] can only serve to further solidify my reign."
  agot_kingsguard.3006.a:0 "Let their friendship lead them to greater valours!"
 
  agot_kingsguard.3007.notification:0 "[ROOT.Char.Custom('KingsguardName')] Improved"
@@ -205,12 +205,12 @@ agot_kingsguard.3003.t:0 "Flagrant [ROOT.Char.Custom('KingsguardName')|U]: Caugh
 
  agot_kingsguard.3014.t:0 "Swordsman [ROOT.Char.Custom('KingsguardName')]"
  agot_kingsguard.3014.desc:0 "My [ROOT.Char.Custom('KingsguardName')] [lifestyle_kingsguard.GetFullName] spends much of [lifestyle_kingsguard.GetHerHis] time that isn't at my side in my courtyard, sweat running from [lifestyle_kingsguard.GetHerHis] brow as [lifestyle_kingsguard.GetSheHe] crosses swords with the greatest warriors in the realm.\n\n[lifestyle_kingsguard.GetNameNoTooltip] has become a familiar face to my armorers and the [GetPlayer.GetCouncillorPosition( 'councillor_marshal' ).GetPositionName], and word of [lifestyle_kingsguard.GetHerHis] deftness with a blade has become the talk of the court. It nothing unusual for [lifestyle_kingsguard.GetHerHim] to be seen in the courtyard from first rise of the sun to its final wink. [lifestyle_kingsguard.GetNameNoTooltip] has garnered a reputation as a skilled blademaster."
- agot_kingsguard.3014.a:0 "Perhaps you can help me with my swordplay, [lifestyle_kingsguard.GetFullNameNoTooltip]?"
+ agot_kingsguard.3014.a:0 "Perhaps you can help me with my swordplay, [lifestyle_kingsguard.GetFirstNameNoTooltip]?"
 
 
  agot_kingsguard.3015.t:0 "Hunting [ROOT.Char.Custom('KingsguardName')]"
  agot_kingsguard.3015.desc:0 "My [ROOT.Char.Custom('KingsguardName')] [lifestyle_kingsguard.GetFullName] spends much of [lifestyle_kingsguard.GetHerHis] time that isn't at my side in my royal woods, taking full advantage of the privileges provided to [lifestyle_kingsguard.GetHerHim] through [lifestyle_kingsguard.GetHerHis] prestigious station.\n\n[lifestyle_kingsguard.GetNameNoTooltip] has become a known sight to my foresters and gamekeepers, and word of [lifestyle_kingsguard.GetHerHis] precision with a bow has become the talk of the court. It nothing unusual for [lifestyle_kingsguard.GetHerHim] to return to from [lifestyle_kingsguard.GetHerHis] excursions with [lifestyle_kingsguard.GetHerHis] boots mucked and [lifestyle_kingsguard.GetHerHis] entourage carrying [lifestyle_kingsguard.GetHerHis] latest trophy. [lifestyle_kingsguard.GetHerHis|U] apartments draped in skins, hide and skulls, [lifestyle_kingsguard.GetNameNoTooltip] has garnered a reputation as a true hunter."
- agot_kingsguard.3015.a:0 "Catch me a fat elk for tonight's supper, [lifestyle_kingsguard.GetFullNameNoTooltip]!"
+ agot_kingsguard.3015.a:0 "Catch me a fat elk for tonight's supper, [lifestyle_kingsguard.GetFirstNameNoTooltip]!"
 
  agot_kingsguard.3016.t:0 "Falconer [ROOT.Char.Custom('KingsguardName')]"
  agot_kingsguard.3016.desc:0 "My [ROOT.Char.Custom('KingsguardName')] [lifestyle_kingsguard.GetFullName] spends much of [lifestyle_kingsguard.GetHerHis] time that isn't at my side in my royal woods, taking full advantage of the privileges provided to [lifestyle_kingsguard.GetHerHim] through [lifestyle_kingsguard.GetHerHis] prestigious station.\n\n[lifestyle_kingsguard.GetNameNoTooltip] has become a known sight to my foresters and gamekeepers, and word of [lifestyle_kingsguard.GetHerHis] precision with a bow has become the talk of the court. It nothing unusual for [lifestyle_kingsguard.GetHerHim] to return to from [lifestyle_kingsguard.GetHerHis] excursions with [lifestyle_kingsguard.GetHerHis] boots mucked and [lifestyle_kingsguard.GetHerHis] entourage carrying [lifestyle_kingsguard.GetHerHis] latest trophy. [lifestyle_kingsguard.GetHerHis|U] apartments draped in skins, hide and skulls, [lifestyle_kingsguard.GetNameNoTooltip] has garnered a reputation as a true hunter."
@@ -219,3 +219,14 @@ agot_kingsguard.3003.t:0 "Flagrant [ROOT.Char.Custom('KingsguardName')|U]: Caugh
  agot_kingsguard.3017.t:0 "[ROOT.Char.Custom('KingsguardName')]: Ignominious Murder!"
  agot_kingsguard.3017.desc:0 "The naked corpse of my [ROOT.Char.Custom('KingsguardName')] [eunuch_kingsguard.GetFullName] has been found outside of a local brothel. [eunuch_kingsguard.GetSheHe|U] was discovered having been castrated, and to add to the insult, [eunuch_kingsguard.GetHerHis] own cock stuffed into [eunuch_kingsguard.GetHerHis] mouth. According to our sources, he was in the midst of an argument with a worker when he found himself overwhelmed by [eunuch_kingsguard.GetHerHis] lessers. Nude and without [eunuch_kingsguard.GetHerHis] weapon, he was overwhelmed by the whores.\n\nEmboldened by this the smallfolk have been stoked in a furor and are rioting in the streets. It seems [eunuch_kingsguard.GetFirstName] was well known, but not particularly well liked."
  agot_kingsguard.3017.a:0 "[eunuch_kingsguard.GetFirstNameNoTooltip] you fool!"
+
+ agot_kingsguard.9100.t:0 "A New [ROOT.Char.Custom('KingsguardName')]"
+ agot_kingsguard.9100.desc:0 "Now that I have defeated [loser.GetName], I must decide if I should keep [loser.GetHerHis] appointments to the [ROOT.Char.Custom('KingsguardName')], or if I should appoint my own.\n\nElevating my own appointees to the [ROOT.Char.Custom('KingsguardName')] will undoubtedly ensure my safety, but perhaps an argument could be made to keep some of the current members?"
+ agot_kingsguard.9100.a:0 "Let the judgement begin."
+
+ agot_kingsguard.9101.t:0 "A New [ROOT.Char.Custom('KingsguardName')]"
+ agot_kingsguard.9101.desc:0 "It is time to make my decision concerning who, if anyone, shall remain on my [ROOT.Char.Custom('KingsguardName')]."
+ agot_kingsguard.9101.a:0 "My will shall be done."
+ agot_kingsguard.9101.a_tt:0 "[THIS.Char.GetName] will be removed from [THIS.Char.GetHerHis] position and imprisoned."
+ agot_kingsguard.9101.b:0 "[kg.GetNameNoTooltip] can remain in my [ROOT.Char.Custom('KingsguardName')]."
+ agot_kingsguard.9101.c:0 "[kg.GetNameNoTooltip] can remain in my [ROOT.Char.Custom('KingsguardName')]."

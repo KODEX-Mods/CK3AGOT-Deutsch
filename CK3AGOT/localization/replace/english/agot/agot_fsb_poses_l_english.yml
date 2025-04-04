@@ -2,7 +2,7 @@
 
 
  dragon_eggs_poses_list_name:0 "@agot_icon! Dragon eggs"
- 
+
  agot_egg_black:0 "@agot_icon! Dragon Egg (Black)"
  agot_egg_vhagar:0 "@agot_icon! Dragon Egg (Green 2)"
  agot_egg_meraxes:0 "@agot_icon! Dragon Egg (Grey 2)"
@@ -14,7 +14,7 @@
  agot_egg_green:0 "@agot_icon! Dragon Egg (Green)"
  agot_egg_pink:0 "@agot_icon! Dragon Egg (Pink)"
  agot_egg_white:0 "@agot_icon! Dragon Egg (White)"
- 
+
  agot_egg_brown:0 "@agot_icon! Dragon Egg (Brown)"
  agot_egg_red:0 "@agot_icon! Dragon Egg (Red)"
  agot_egg_purple:0 "@agot_icon! Dragon Egg (Purple)"
@@ -58,7 +58,7 @@
  AGOT_hammer_poses_list_name:0 "@agot_icon! Robert's Hammer"
  AGOT_misc_poses_list_name:0 "@agot_icon! Misc Poses"
  dornish_spear_poses_list_name:0 "@agot_icon! Dornish Spear"
-
+ AGOT_hammer_poses_list_name:0 "@agot_icon! Robert's Hammer"
 
  AGOT_Sword_adders_fang_poses_list_name:0 "@agot_icon! Adder's Fang"
  AGOT_Sword_blackfyre_poses_list_name:0 "@agot_icon! Blackfyre"
@@ -119,6 +119,10 @@
  agot_dancer_2:0 "@agot_icon! Dancer Shoulder"
  agot_dancer_3:0 "@agot_icon! Dancer Duel"
  agot_dancer_4:0 "@agot_icon! Dancer Low"
+ agot_dark_moon_1:0 "@agot_icon! Dark Moon Armed"
+ agot_dark_moon_2:0 "@agot_icon! Dark Moon Shoulder"
+ agot_dark_moon_3:0 "@agot_icon! Dark Moon Duel"
+ agot_dark_moon_4:0 "@agot_icon! Dark MoonLow"
  agot_dark_sister_1:0 "@agot_icon! Darksister Armed"
  agot_dark_sister_2:0 "@agot_icon! Darksister Shoulder"
  agot_dark_sister_3:0 "@agot_icon! Darksister Duel"
@@ -211,6 +215,10 @@
  agot_seafoam_2:0 "@agot_icon! Seafoam Shoulder"
  agot_seafoam_3:0 "@agot_icon! Seafoam Duel"
  agot_seafoam_4:0 "@agot_icon! Seafoam Low"
+ agot_skinpeeler_1:0 "@agot_icon! Skinpeeler Armed"
+ agot_skinpeeler_2:0 "@agot_icon! Skinpeeler Shoulder"
+ agot_skinpeeler_3:0 "@agot_icon! Skinpeeler Duel"
+ agot_skinpeeler_4:0 "@agot_icon! Skinpeeler Low"
  agot_skullcleaver_1:0 "@agot_icon! Skullcleaver Armed"
  agot_skullcleaver_2:0 "@agot_icon! Skullcleaver Shoulder"
  agot_skullcleaver_3:0 "@agot_icon! Skullcleaver Duel"
@@ -263,7 +271,7 @@
  agot_wyrmfang_2:0 "@agot_icon! Wyrmfang Shoulder"
  agot_wyrmfang_3:0 "@agot_icon! Wyrmfang Duel"
  agot_wyrmfang_4:0 "@agot_icon! Wyrmfang Low"
- 
+
  agot_evergold_1:0 "@agot_icon! Evergold Armed"
  agot_evergold_2:0 "@agot_icon! Evergold Shoulder"
  agot_evergold_3:0 "@agot_icon! Evergold Duel"
@@ -300,7 +308,7 @@
  agot_dragonbane_2:0 "@agot_icon! Dragonbane Shoulder"
  agot_dragonbane_3:0 "@agot_icon! Dragonbane Duel"
  agot_dragonbane_4:0 "@agot_icon! Dragonbane Low"
- 
+
  agot_andal_armingsword_gold_1:0 "@agot_icon! Golden Andal Longsword Armed"
  agot_andal_armingsword_gold_2:0 "@agot_icon! Golden Andal Longsword Shoulder"
  agot_andal_armingsword_gold_3:0 "@agot_icon! Golden Andal Longsword Duel"
@@ -357,22 +365,22 @@
  agot_valyrian_longsword_silver_2:0 "@agot_icon! Silver Valyrian Bastard Sword Shoulder"
  agot_valyrian_longsword_silver_3:0 "@agot_icon! Silver Valyrian Bastard Sword Duel"
  agot_valyrian_longsword_silver_4:0 "@agot_icon! Silver Valyrian Bastard Sword Low"
- 
+
  agot_dragonglass_dagger_1_poses_list_name:0 "@agot_icon! Dragonglass Shard"
  agot_dragonglass_dagger_1_1:0 "@agot_icon! Dragonglass Shard Spymaster"
  agot_dragonglass_dagger_1_2:0 "@agot_icon! Dragonglass Shard Duel"
  agot_dragonglass_dagger_1_3:0 "@agot_icon! Dragonglass Shard Assassin"
- 
+
  agot_dragonglass_dagger_2_poses_list_name:0 "@agot_icon! Dragonglass Shard (Grip)"
  agot_dragonglass_dagger_2_1:0 "@agot_icon! Dragonglass Shard Spymaster"
  agot_dragonglass_dagger_2_2:0 "@agot_icon! Dragonglass Shard Duel"
  agot_dragonglass_dagger_2_3:0 "@agot_icon! Dragonglass Shard Assassin"
- 
+
  agot_dragonglass_dagger_3_poses_list_name:0 "@agot_icon! Dragonglass Dagger"
  agot_dragonglass_dagger_3_1:0 "@agot_icon! Dragonglass Dagger Spymaster"
  agot_dragonglass_dagger_3_2:0 "@agot_icon! Dragonglass Dagger Duel"
  agot_dragonglass_dagger_3_3:0 "@agot_icon! Dragonglass Dagger Assassin"
- 
+
  agot_dragonglass_dagger_4_poses_list_name:0 "@agot_icon! Dragonglass Dagger (Grip)"
  agot_dragonglass_dagger_4_1:0 "@agot_icon! Dragonglass Dagger Spymaster"
  agot_dragonglass_dagger_4_2:0 "@agot_icon! Dragonglass Dagger Duel"
@@ -388,20 +396,51 @@
  agot_pincer_2:0 "@agot_icon! Pincer Shoulder"
  agot_pincer_3:0 "@agot_icon! Pincer Duel"
  agot_pincer_4:0 "@agot_icon! Pincer Low"
- 
+
+ agot_emoBoy_sword_1:0 "@agot_icon! Lover's Harp Armed"
+ agot_emoBoy_sword_2:0 "@agot_icon! Lover's Harp Shoulder"
+ agot_emoBoy_sword_3:0 "@agot_icon! Lover's Harp Duel"
+ agot_emoBoy_sword_4:0 "@agot_icon! Lover's Harp Low"
+
  agot_dornish_spear_1:0 "@agot_icon! Dornish Spear Hold"
  agot_dornish_spear_2:0 "@agot_icon! Dornish Spear Celebrate"
  agot_dornish_spear_3:0 "@agot_icon! Dornish Spear Duel"
-  
+
+ jockey_spear_couched_gallop:0 "@agot_icon! Crouched with Spear on Horse"
+
+ agot_weirwood_longbowbow_idle:0 "@agot_icon! Weirwood Longbow Idle"
+ agot_weirwood_longbow_rest_arrow_default:0 "@agot_icon! Weirwood Longbow Low"
+ agot_weirwood_longbow_aim_arrow_default:0 "@agot_icon! Weirwood Longbow Aiming"
+ agot_dragonbone_longbowbow_idle:0 "@agot_icon! Dragonbone Longbow Idle"
+ agot_dragonbone_longbow_rest_arrow_default:0 "@agot_icon! Dragonbone Longbow Low"
+ agot_dragonbone_longbow_aim_arrow_default:0 "@agot_icon! Dragonbone Longbow Aiming"
+
+ agot_dornish_sabre_1:0 "@agot_icon! Dornish Sabre Armed"
+ agot_dornish_sabre_2:0 "@agot_icon! Dornish Sabre Shoulder"
+ agot_dornish_sabre_3:0 "@agot_icon! Dornish Sabre Duel"
+ agot_dornish_sabre_4:0 "@agot_icon! Dornish Sabre Low"
+
  agot_hammer_2:0 "@agot_icon! Robert's Hammer"
 
  agot_idle:0 "@agot_icon! Standing"
 
  admiral:0 "@agot_icon! Admiral"
  castellan:0 "@agot_icon! Castellan"
- 
+
  agot_high_septon_staff:0 "@agot_icon! High Septon Staff"
  high_septon_orb:0 "@agot_icon! High Septon Orb"
+
+ standing_guard1:0 "@agot_icon! Standing Guard (Handle)"
+ standing_guard2:0 "@agot_icon! Standing Guard (Blade)"
+
+ holding_dragon_doll_01:0 "@agot_icon! Clutching Dragon Doll (Plain Doll)"
+ holding_dragon_doll_02:0 "@agot_icon! Clutching Dragon Doll (Fancy Doll)"
+
+ holding_mirror_01:0 "@agot_icon! Gazing into Gold Mirror"
+ holding_mirror_02:0 "@agot_icon! Gazing into Silver Mirror"
+ holding_mirror_03:0 "@agot_icon! Gazing into Valyrian Mirror"
  
- standing_guard:0 "@agot_icon! Standing Guard"
+ interested_alternate:0 "@agot_icon! Contemplation"
+ 
+ throne_room_one_handed_passive_3:0 "Passive with Hammer"
 

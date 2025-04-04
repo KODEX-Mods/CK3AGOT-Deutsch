@@ -25,11 +25,10 @@
 
  court_position_authoritative_trait:0 "[GetTrait('authoritative').GetName( ROOT.Char )]"
  court_position_inquisitve_trait:0 "[GetTrait('inquisitive').GetName( ROOT.Char )]"
- court_position_honorable_trait:0 "[GetTrait('honorable').GetName( ROOT.Char )]"
  court_position_rude_trait:0 "[GetTrait('rude').GetName( ROOT.Char )]"
  court_position_callous_trait:0 "[GetTrait('callous').GetName( ROOT.Char )]"
- court_position_ruthless_trait:0 "[GetTrait('ruthless').GetName( ROOT.Char )]"
 
+ court_position_historic_title_holder:0 "Historic Title Holder"
 
 
  #Positions
@@ -167,10 +166,20 @@
  ################
 
  head_dragonkeeper_court_position:0 "Head Dragonkeeper"
- head_dragonkeeper_court_position_desc:1 "The $head_dragonkeeper_court_position$ is the head of the [dragonkeeper|E] order they serve. They will protect and raise [dragons|e] in the [dragonpit|e] to the best of their ability."
+ head_dragonkeeper_court_position_desc:1 "The $head_dragonkeeper_court_position$ is the head of the [dragonkeeper|E] order they serve. They will protect and raise [dragons_plural|e] in the [dragonpit|e] to the best of their ability."
  head_dragonkeeper_court_position_custom_effect_description:1 "Unlocks [dragonpit_interactions|E]"
  court_position_knows_valyrian_language:0 "Knows Valyrian Tongue"
  court_position_valyrian_heritage:0 "Has Valyrian Heritage"
  court_position_blood_of_old_valyria:0 "Blood of Old Valyria"
  deepen_bond_with_dragon_scheme_scheme_power_mult:0 "#V Deepen Bond with Your Dragon#! [scheme|E] power"
  bond_with_dragon_scheme_scheme_power_mult:0 "#V Bond with Dragon#! [scheme|E] power"
+ court_position_professional_dragonkeeper_training:0 "Professional Dragonkeeper Training"
+ court_position_standarized_dragonkeeper_training:0 "Standarized Dragonkeeper Training"
+
+ #cost descs
+ agot_laamp_cost_reduction:0 "You are landless"
+
+ #Maester VS Physician for event loc
+ agot_physician_essos:0 "physician"
+ agot_physician_maester:0 "maester"
+

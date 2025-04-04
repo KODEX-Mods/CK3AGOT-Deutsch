@@ -36,7 +36,7 @@
  agot_filler_north.0004.b.tt:0 "Perhaps he ought to return to his post..."
 
  agot_filler_north.0005.t:0 "A Black Brother Receives Justice"
- agot_filler_north.0005.desc:0 "It is said in the North: The man who passes the sentence should swing the sword. I look into [agot_filler_black_brother_deserter.GetFirstNameNoTooltip]'s eyes for the last time."
+ agot_filler_north.0005.desc:0 "It is said in the North: The man who passes the sentence should swing the sword. I look into [agot_filler_black_brother_deserter.GetFirstNamePossessiveNoTooltip] eyes for the last time."
  agot_filler_north.0005.a:0 "Damn what they say. Why do I have an executioner in my employ?"
  agot_filler_north.0005.b:0 "I shall swing the sword."
  agot_filler_north.0005.b.tt:0 "Execute him."
@@ -58,14 +58,14 @@
 
 #genuine coat
  agot_filler_north.0021.t:0 "Upon Closer Look"
- agot_filler_north.0021.desc:0 "I pull down a large white cloak. Feeling the coat in my hands, I can tell the craftmanship is remarkable; even the stitchwork is masterclass! I close my eyes and smell the cloak; it smells like snow and pine. I open my eyes, remove my coat and thrust it into the merchant's arms while I try on the direwolf cloak. The coat is refreshingly warm. I can tell there is a distinct difference from my wolf-fur coat.\n\nThe merchant clears his throat, mumbling something about time to pay up or return the cloak..."
+ agot_filler_north.0021.desc:0 "I pull down a large white cloak. Feeling the coat in my hands, I can tell the craftsmanship is remarkable; even the stitchwork is masterclass! I close my eyes and smell the cloak; it smells like snow and pine. I open my eyes, remove my coat and thrust it into the merchant's arms while I try on the direwolf cloak. The coat is refreshingly warm. I can tell there is a distinct difference from my wolf-fur coat.\n\nThe merchant clears his throat, mumbling something about time to pay up or return the cloak..."
  agot_filler_north.0021.a:0 "I have to buy this!"
  agot_filler_north.0021.b:0 "It seems genuine, but I don't need it..."
  agot_filler_north.0021.c:0 "I am a noble, I need not pay for this!"
 
 #dubious coat
  agot_filler_north.0022.t:0 "Upon Closer Look"
- agot_filler_north.0022.desc:0 "I pull down a large white cloak. Feeling the coat in my hands, I am not surprised to discover that the craftmanship is nothing extraordinary. I close my eyes and smell the cloak; it smells like old meat and wet dog. Eugh. The merchant implores me to try it on. I slip it on, and I can feel the cold breeze shredding through.\n\nThe merchant clears his throat, mumbling something about time to pay up or return the cloak..."
+ agot_filler_north.0022.desc:0 "I pull down a large white cloak. Feeling the coat in my hands, I am not surprised to discover that the craftsmanship is nothing extraordinary. I close my eyes and smell the cloak; it smells like old meat and wet dog. Eugh. The merchant implores me to try it on. I slip it on, and I can feel the cold breeze shredding through.\n\nThe merchant clears his throat, mumbling something about time to pay up or return the cloak..."
  agot_filler_north.0022.a:0 "I should have you arrested for this..."
 
  agot_filler_north.0023.t:0 "'Direwolf' Cloaks, Eh?"
@@ -81,7 +81,7 @@
  agot_filler_north.0030.desc:0 "BRRRR! I was playing outside when a sudden burst of snow started coming down, out of nowhere! The maesters tell me these summer snows can become dangerous if I linger too long, but I'm already having so much fun... "
  agot_filler_north.0030.a:0 "I should listen to the maesters. Last one back to the keep is a Wildling!"
  agot_filler_north.0030.b:0 "I am a NORTHERNER! This is summer snow. It means nothing."
- agot_filler_north.0030.c:0 "But the keep is #italic so#! far..."
+ agot_filler_north.0030.c:0 "But home is #italic so#! far..."
 
 #######################################
 #   SUMMER SNOW DESTROYS CROPS EVENT  #
@@ -119,7 +119,7 @@
 #######################################
 
  agot_filler_north.0034.t:0 "Wolf Attacks Threaten Woolers"
- agot_filler_north.0034.desc:0 "It's another long night in my study. The sun has set, and the moon has climbed high into the sky. I hardly need my candle with the moon shining so bright. As I'm spending hours reviewing reports, reading accounts, and stamping documents, I come across a recent report signed by both my steward and marshall.\n\nThe report notes that shearers across my demesne have found a growing number of dying or injured woolers — animals that produce wool, as noted by my steward in the report. Goats, sheep, and even wooldogs have been viciously attacked in the night by what many claim to be large, ravenous wolf packs. Should these attacks continue in their current number, the wool trade could face serious drawbacks.\n\nComing up with a solution to this problem seems suddenly prudent; it would be nice to present a resolution to my council tommorow morning."
+ agot_filler_north.0034.desc:0 "It's another long night in my study. The sun has set, and the moon has climbed high into the sky. I hardly need my candle with the moon shining so bright. As I'm spending hours reviewing reports, reading accounts, and stamping documents, I come across a recent report signed by both my steward and marshall.\n\nThe report notes that shearers across my demesne have found a growing number of dying or injured woolers — animals that produce wool, as noted by my steward in the report. Goats, sheep, and even wooldogs have been viciously attacked in the night by what many claim to be large, ravenous wolf packs. Should these attacks continue in their current number, the wool trade could face serious drawbacks.\n\nComing up with a solution to this problem seems suddenly prudent; it would be nice to present a resolution to my council tomorrow morning."
  agot_filler_north.0034.a:0 "Post a bounty for wolves, and pay every hunter in gold for each wolf slain."
  agot_filler_north.0034.b:0 "Issue a citation to the shearers for not taking care of their woolers."
  agot_filler_north.0034.c:0 "Issue compensation to the shearers most affected."
@@ -129,7 +129,7 @@
 ######################################
 
  agot_filler_north.0035.t:0 "Tending the Heart Tree"
- agot_filler_north.0035.desc:0 "My gardening staff has recently been working on the Godswood in my keep. They've mulched the flowerbeds, planted new flowers, trimmed the hedges, and have generally improved the Godswood, making it reminiciest of a small grove.\n\nBut the gardening staff have come to me with a request to spruce up the weirwood heart tree that stands proud over the entire Godswood. The gardeners tell me that they'll only beautify it, pruning the branches and roots, but I'm wary of any potential damages to it. After all, what kind of Northerner lets his heart tree fall into ruin?"
+ agot_filler_north.0035.desc:0 "My gardening staff has recently been working on the Godswood in my keep. They've mulched the flowerbeds, planted new flowers, trimmed the hedges, and have generally improved the Godswood, making it reminiscent of a small grove.\n\nBut the gardening staff have come to me with a request to spruce up the weirwood heart tree that stands proud over the entire Godswood. The gardeners tell me that they'll only beautify it, pruning the branches and roots, but I'm wary of any potential damages to it. After all, what kind of Northerner lets his heart tree fall into ruin?"
  agot_filler_north.0035.a:0 "Let only the most experienced gardeners handle it."
  agot_filler_north.0035.b:0 "What can go wrong?"
  agot_filler_north.0035.c:0 "I don't want to risk it... The heart tree is too sacred."
@@ -140,7 +140,7 @@
 ##################################
 
  agot_filler_north.0036.t:0 "Ice Skaters!"
- agot_filler_north.0036.desc:0 "Today is a chilly but otherwise nice day. I've taken a few hours to myself to walk around some of the smaller settlements near my keep, taking in nature and simply enjoying the nice day.\n\nAs I'm walking, I come upon a frozen pond and see some smallfolk wonderously skating around on the ice! Their movements are all over the place; many fall onto the ice, but some are gliding beautifully. Ah, what a pretty sight!"
+ agot_filler_north.0036.desc:0 "Today is a chilly but otherwise nice day. I've taken a few hours to myself to walk around some of the smaller settlements near my keep, taking in nature and simply enjoying the nice day.\n\nAs I'm walking, I come upon a frozen pond and see some smallfolk wondrously skating around on the ice! Their movements are all over the place; many fall onto the ice, but some are gliding beautifully. Ah, what a pretty sight!"
  agot_filler_north.0036.a:0 "I think I'll sit down here and watch them for a while."
  agot_filler_north.0036.b:0 "I think I'll join them!"
  agot_filler_north.0036.c:0 "No, no. It isn't safe, I have to stop them!"
@@ -207,7 +207,7 @@
 #############################################
 
  agot_filler_north.0043.t:0 "The Peasant and the Wight"
- agot_filler_north.0043.desc:0 "A man enters your court leading a unusally pale woman bound by her hands. He claims hunters found the woman, whom he refers to as the wight, in the woods covered in the blood of a dead hunter. The woman trys to defend herself, claiming she was picking herbs when she found the wounded hunter and tried to save him after he was attacked by a wolf.\n\nThe man warns you to ignore her pleas — she is a wight; recall the legend of the Night's King and the danger she could present."
+ agot_filler_north.0043.desc:0 "A man enters your court leading a unusually pale woman bound by her hands. He claims hunters found the woman, whom he refers to as the wight, in the woods covered in the blood of a dead hunter. The woman tries to defend herself, claiming she was picking herbs when she found the wounded hunter and tried to save him after he was attacked by a wolf.\n\nThe man warns you to ignore her pleas — she is a wight; recall the legend of the Night's King and the danger she could present."
  agot_filler_north.0043.a:0 "Who was the Night's King again?"
  agot_filler_north.0043.b:0 "The realm thanks you!"
  agot_filler_north.0043.c:0 "The wights of legend have blue eyes, you fool!"
@@ -226,7 +226,7 @@
  agot_filler_north.0046.a:0 "Bitterness or something else..."
 
  agot_filler_north.0047.t:0 "Nightmare of Her"
- agot_filler_north.0047.desc:0 "The nightmare has been the same the past few nights since [palebride.GetFirstNameNoTooltip] was executed. I am wandering the castle at night, shivering from the cold. As I approach an open window to close the shutters, I see her. She is standing the in courtyard as it snows, staring up at me. Her eyes are blue in the dream, not red, an unnatrual blue..."
+ agot_filler_north.0047.desc:0 "The nightmare has been the same the past few nights since [palebride.GetFirstNameNoTooltip] was executed. I am wandering the castle at night, shivering from the cold. As I approach an open window to close the shutters, I see her. She is standing the in courtyard as it snows, staring up at me. Her eyes are blue in the dream, not red, an unnatural blue..."
  agot_filler_north.0047.a:0 "Her... eyes are... blue!"
 
  agot_filler_north.0048.t:0 "A Show of Gratitude"
@@ -240,7 +240,7 @@
  agot_filler_north.0049.a:0 "I have learned much, thank you!"
 
  agot_filler_north.0050.t:0 "A Show of Gratitude: Gardening"
- agot_filler_north.0050.desc:0 "[palebride.GetFirstNameNoTooltip] and I have been diligent in the garden. Not only has [palebride.GetFirstNameNoTooltip] been showing me how to garden, but she has also been intructing me in the various uses of some of the plants."
+ agot_filler_north.0050.desc:0 "[palebride.GetFirstNameNoTooltip] and I have been diligent in the garden. Not only has [palebride.GetFirstNameNoTooltip] been showing me how to garden, but she has also been instructing me in the various uses of some of the plants."
  agot_filler_north.0050.a:0 "I have learned much, thank you!"
 
 #############################################
@@ -249,7 +249,7 @@
 #############################################
 
  agot_filler_north.0052.t:0 "The Confessor"
- agot_filler_north.0052.desc:0 "[confessor.GetFirstNameNoTooltip] confessed to my guards that he murdered and robbed a traveler who was staying at his home. The traveler had broken bread and salt with [confessor.GetFirstNameNoTooltip] and was protected by guest right.\n\n[confessor.GetFirstNameNoTooltip] admits he was unpious until after the murder, when he began seeing a large white rat in his home. He now wants to make amends with the gods and receive the justice due to him for his crimes."
+ agot_filler_north.0052.desc:0 "[confessor.GetFirstNameNoTooltip] confessed to my guards that he murdered and robbed a traveler who was staying at his home. The traveler had broken bread and salt with [confessor.GetFirstNameNoTooltip] and was protected by guest right.\n\n[confessor.GetFirstNameNoTooltip] admits he was un-pious until after the murder, when he began seeing a large white rat in his home. He now wants to make amends with the gods and receive the justice due to him for his crimes."
  agot_filler_north.0052.a:0 "A white rat?"
  agot_filler_north.0052.a.tt:0 "Perhaps you can recall the legend..."
  agot_filler_north.0052.b:0 "There is only one way to atone!"
@@ -265,7 +265,7 @@
  agot_filler_north.0053.a.tt:0 "Now, you return back to the judgment."
  
  agot_filler_north.0054.t:0 "The Confessor"
- agot_filler_north.0054.desc:0 "[confessor.GetFirstNameNoTooltip] confessed to my guards that he murdered and robbed a traveler who was staying at his home. The traveler had broken bread and salt with [confessor.GetFirstNameNoTooltip] and was protected by guest right.\n\n[confessor.GetFirstNameNoTooltip] admits he was unpious until after the murder, when he began seeing a large white rat in his home. He now wants to make amends with the gods and receive the justice due to him for his crimes."
+ agot_filler_north.0054.desc:0 "[confessor.GetFirstNameNoTooltip] confessed to my guards that he murdered and robbed a traveler who was staying at his home. The traveler had broken bread and salt with [confessor.GetFirstNameNoTooltip] and was protected by guest right.\n\n[confessor.GetFirstNameNoTooltip] admits he was un-pious until after the murder, when he began seeing a large white rat in his home. He now wants to make amends with the gods and receive the justice due to him for his crimes."
  agot_filler_north.0054.a:0 "There is only one way to atone!"
  agot_filler_north.0054.a.tt:0 "Blood must be pay with blood, you'll swing the sword... "
  agot_filler_north.0054.b:0 "Give me the gold, and all is forgiven."
@@ -279,7 +279,7 @@
 #####################################
 
  agot_filler_north.0055.t:0 "The Library: The North"
- agot_filler_north.0055.desc:0 "My nights have been restless, due in part to the stresses I have dealt with of late. My mind seems incabable of ignoring the stress of ruling for even the briefest moment of rest.\n\nTonight as I wandered the castle I found myself in the library. Perhaps a tome could provide a distraction for my mind?"
+ agot_filler_north.0055.desc:0 "My nights have been restless, due in part to the stresses I have dealt with of late. My mind seems incapable of ignoring the stress of ruling for even the briefest moment of rest.\n\nTonight as I wandered the castle I found myself in the library. Perhaps a tome could provide a distraction for my mind?"
  agot_filler_north.0055.a:0 "Let's see, how about this one?"
  agot_filler_north.0055.a.tt:0 "A decent book may help take your mind off your troubles, or may not."
  agot_filler_north.0055.b:0 "Hm, or maybe this one?"
@@ -326,7 +326,7 @@
  agot_filler_north.0062.d.tt:0 "The poor thing is just looking for a meal."
  agot_filler_north.0062.e:0 "*Stares back*"
  agot_filler_north.0062.e.tt:0 "You are not someone easy to frighten, though you have a reputation as one to be feared."
- agot_filler_north.0062.f:0 "*hicup* Aren't you a big kitty?"
+ agot_filler_north.0062.f:0 "*hiccup* Aren't you a big kitty?"
  agot_filler_north.0062.f.tt:0 "Does kitty like tummy rubs?"
 
  agot_filler_north.0063.t:0 "The Shadowcat"
@@ -342,7 +342,7 @@
  agot_filler_north.0065.t:0 "The Shadowcat"
  agot_filler_north.0065.desc:0 "The poor thing is a half-starved mother with a litter of kittens, judging from its looks. I retrieve some dried meat that I had brought along for the ride — throwing it to her. She'll not bother me if there is an easier meal..."
  agot_filler_north.0065.a:0 "Hope she finds a deer soon."
- agot_filler_north.0065.a.tt:0 "What a eautiful creature. You must remember to carry more meat with you next time you come this way."
+ agot_filler_north.0065.a.tt:0 "What a beautiful creature. You must remember to carry more meat with you next time you come this way."
 
  agot_filler_north.0066.t:0 "The Shadowcat"
  agot_filler_north.0066.desc:0 "I lock eyes with the shadowcat — how many had I hunted over the years? Most have been larger and stronger than this one. She is a half-starved mother, no more than two years old. Still, I admire her for a bit. Slowly, she becomes aware of the situation: She is not the dominant predator here. Fear fills her eyes, and she uneasily flees from me."
@@ -350,7 +350,7 @@
  agot_filler_north.0066.a.tt:0 "What life do you live where even the beasts fear you? Word of this will only grow it."
 
  agot_filler_north.0067.t:0 "The Shadowcat"
- agot_filler_north.0067.desc:0 "That has to be...*hicup* the biggest kitty I've ever seen. Come here, #italic kitty, kitty, kitty#!. Do you like to be scratched behind the ear? Wait... ouch... kitty that hurts... OUCH! Kitty, no biting!"
+ agot_filler_north.0067.desc:0 "That has to be...*hiccup* the biggest kitty I've ever seen. Come here, #italic kitty, kitty, kitty#!. Do you like to be scratched behind the ear? Wait... ouch... kitty that hurts... OUCH! Kitty, no biting!"
  agot_filler_north.0067.a:0 "Bad kitty!"
  agot_filler_north.0067.a.tt:0 "You thought she would like a tummy rub..."
 
@@ -365,7 +365,7 @@
  agot_filler_north.0068.a:0 "As long as it doesn't harm the heart tree!"
  agot_filler_north.0068.a.tt:0 "Clearly the old gods allow it to grow here, perhaps it's best to leave it be?"
  agot_filler_north.0068.b:0 "Perhaps my chef could prepare this?"
- agot_filler_north.0068.b.tt:0 "You onder what kinds of dishes the chef can prepare with this ingredient."
+ agot_filler_north.0068.b.tt:0 "You wonder what kinds of dishes the chef can prepare with this ingredient."
  agot_filler_north.0068.c:0 "Well, what an interesting find."
  agot_filler_north.0068.c.tt:0 "Your knowledge of spycraft and poison has made you very familiar with this mushroom."
  agot_filler_north.0068.d:0 "A sign from the old gods?"
@@ -374,7 +374,7 @@
  agot_filler_north.0068.e.tt:0 "Knowledge of the healing arts has made you very familiar with this mushroom."
 
  agot_filler_north.0069.t:0 "A Mushroom in the Godswood"
- agot_filler_north.0069.desc:0 "The meal my chef prepared was delicous! I left not even the smallest morsel on my plate before returning to the throne room. I am listening to a courtier's complaints when I start feeling strange... then I see it! All of my courtiers and guests have turned into White Walkers from the legends, and snow is falling inside my castle.\n\nWhen I wake hours later, I am informed that my guards had to restrain me in my madness. My maester believes the mushroom caused me to see visions, but I know it was a warning from the Old Gods..."
+ agot_filler_north.0069.desc:0 "The meal my chef prepared was delicious! I left not even the smallest morsel on my plate before returning to the throne room. I am listening to a courtier's complaints when I start feeling strange... then I see it! All of my courtiers and guests have turned into White Walkers from the legends, and snow is falling inside my castle.\n\nWhen I wake hours later, I am informed that my guards had to restrain me in my madness. My maester believes the mushroom caused me to see visions, but I know it was a warning from the Old Gods..."
  agot_filler_north.0069.a:0 "I will live to serve the gods!"
  agot_filler_north.0069.a.tt:0 "No matter what anyone says, you cannot unsee what you have seen..."
 
@@ -400,7 +400,7 @@
 #####################################
 
  agot_filler_north.0073.t:0 "The Tavern's New Owner"
- agot_filler_north.0073.desc:0 "While riding along the Kingsroad, my men and I stop at a small tavern we have occasionally visited on such trips. As we enter, we are greeted by the tavern's new owner, an apparent brother of the former owner. He informs us that he had a tavern in the riverlands, and his aging brother could no longer tolerate the cold of the North — so the two traded taverns.\n\nThe new owner has done much to clean up the tavern; dust could not be spotted anywhere. Though I did notice some dried blood on a table, which he said came from butchering a sheep earlier but had unforunately stained the table."
+ agot_filler_north.0073.desc:0 "While riding along the Kingsroad, my men and I stop at a small tavern we have occasionally visited on such trips. As we enter, we are greeted by the tavern's new owner, an apparent brother of the former owner. He informs us that he had a tavern in the riverlands, and his aging brother could no longer tolerate the cold of the North — so the two traded taverns.\n\nThe new owner has done much to clean up the tavern; dust could not be spotted anywhere. Though I did notice some dried blood on a table, which he said came from butchering a sheep earlier but had unfortunately stained the table."
  agot_filler_north.0073.a:0 "Does that mean you have fresh meat pies?"
  agot_filler_north.0073.a.tt:0 "The road has been long, a meal would do your men well."
  agot_filler_north.0073.b:0 "Something is off here..."
@@ -414,7 +414,7 @@
  agot_filler_north.0074.a.tt:0 "A monster like that should not be free..."
 
  agot_filler_north.0075.t:0 "The Tavern's New Owner"
- agot_filler_north.0075.desc:0 "The meat pies were delicous! I couldn't stop myself from having another. Though the mutton tasted very different from how it normally tastes, the meal was great. I compliment the new owner on his improvement to his brother's cooking!"
+ agot_filler_north.0075.desc:0 "The meat pies were delicious! I couldn't stop myself from having another. Though the mutton tasted very different from how it normally tastes, the meal was great. I compliment the new owner on his improvement to his brother's cooking!"
  agot_filler_north.0075.a:0 "Best be off then, thank you!"
  agot_filler_north.0075.a.tt:0 "With stomachs full, you and your men seek to continue your journey."
  agot_filler_north.0075.b:0 "Perhaps we should stay the night."
@@ -433,7 +433,7 @@
  agot_filler_north.0077.a.tt:0 "The sight disgusts you. You hope no one learns of what you ate at this forsaken tavern."
 
  agot_filler_north.0078.t:0 "The Tavern's New Owner"
- agot_filler_north.0078.desc:0 "Some time had passed since we left that tavern when word came to my court. Apparently, travelers had found the tavern abandoned days after we had left it. They discribed a house of horrors in the root cellar. Bodies had been strung up like animals, and there was evidence that they had been treated as such — butchered for food. My gut turned as I listened..."
+ agot_filler_north.0078.desc:0 "Some time had passed since we left that tavern when word came to my court. Apparently, travelers had found the tavern abandoned days after we had left it. They described a house of horrors in the root cellar. Bodies had been strung up like animals, and there was evidence that they had been treated as such — butchered for food. My gut turned as I listened..."
  agot_filler_north.0078.a:0 "The pies... were #bold people#!."
  agot_filler_north.0078.a.tt:0 "You hope no one learns that you ate some of those pies."
 
@@ -452,7 +452,7 @@
  agot_filler_north.0079.c:0 "It's best to be prepared, just in case."
  agot_filler_north.0079.c.tt:0 "The maesters says all the dragons are dead, but how can they be sure?"
  agot_filler_north.0079.d:0 "Let me tell you about dragons, lad."
- agot_filler_north.0079.d.tt:0 "A oppurtunity to educate the lad, and show off your knowledge of the histories!"
+ agot_filler_north.0079.d.tt:0 "A opportunity to educate the lad, and show off your knowledge of the histories!"
 
  agot_filler_north.0080.t:0 "A Dragon in the North: At the Hot Spring"
  agot_filler_north.0080.desc:0 "[dragon_finder.GetFirstNameNoTooltip] continued with his tale. Seems the young lad was gathering wood when he came across a stream that was bubbling up hot water. The lad assumed that only a dragon sleeping underground could cause the water to come out so hot.\n\nI reassured the young man: Everything is fine, there is no dragon, but to be safe I will visit the stream. The next day, I travel to the hot spring and enjoy a relaxing dip in the warm water."
@@ -471,7 +471,7 @@
 #####################################
 
  agot_filler_north.0082.t:0 "The Heroic Poacher"
- agot_filler_north.0082.desc:0 "[heroic_poacher.GetFirstNameNoTooltip] is poacher well known to my guards, as he has evaded them for years. While I normally would have no issue deliverying justice to one that has been a thorn in my guards' sides for so long, how [heroic_poacher.GetFirstNameNoTooltip] came into my guards' custody has even my harshest guards asking for mercy. A traveling merchant was held up by highwaymen, but he and his family only survived due to [heroic_poacher.GetFirstNameNoTooltip] fighting off the bandits and escorting the family to safety. There, he was apprehended by my guards. Even the merchant is offering a large sum for the man's safety."
+ agot_filler_north.0082.desc:0 "[heroic_poacher.GetFirstNameNoTooltip] is poacher well known to my guards, as he has evaded them for years. While I normally would have no issue delivering justice to one that has been a thorn in my guards' sides for so long, how [heroic_poacher.GetFirstNameNoTooltip] came into my guards' custody has even my harshest guards asking for mercy. A traveling merchant was held up by highwaymen, but he and his family only survived due to [heroic_poacher.GetFirstNameNoTooltip] fighting off the bandits and escorting the family to safety. There, he was apprehended by my guards. Even the merchant is offering a large sum for the man's safety."
  agot_filler_north.0082.a:0 "[heroic_poacher.GetFirstNameNoTooltip] has turned a blind eye to justice."
  agot_filler_north.0082.a.tt:0 "Despite doing good, they have evade the law, and you cannot allow that. Still, a price can be paid and a reward given to one such as this."
  agot_filler_north.0082.b:0 "I'll take the merchant's gold..."
@@ -502,7 +502,7 @@
  agot_filler_north.0085.t:0 "The Crevasse"
  agot_filler_north.0085.desc:0 "The climb is not easy, but I manage. A few times, I thought I might slip and fall to my death, but my grip was strong. I do not stand again until I am well away from the opening of the crevasse — crawling my way to safety."
  agot_filler_north.0085.a:0 "I'm lucky to be alive!"
- agot_filler_north.0085.a.tt:0 "You surived a brush with death today!"
+ agot_filler_north.0085.a.tt:0 "You survived a brush with death today!"
 
  agot_filler_north.0086.t:0 "The Crevasse"
  agot_filler_north.0086.desc:0 "My heart races as I see sunlight gleaming through the opening of the small cave. I start to run toward it when I see movement... A large #bold bear#! stands between me and my freedom."
@@ -521,7 +521,7 @@
  agot_filler_north.0087.b.tt:0 "Perhaps there is another opening..."
 
  agot_filler_north.0088.t:0 "The Crevasse"
- agot_filler_north.0088.desc:0 "Knowing it was either the bear or I that died tonight, I draw my sword. I swing the sword — at best I will get one or two good hits before the bear mauls me. Thankfully, the gods are on my side, and my inital blow is fatal to the beast. As I step out of the cave, back among the trees and sunlight, I take a deep breath and utter a prayer to the gods."
+ agot_filler_north.0088.desc:0 "Knowing it was either the bear or I that died tonight, I draw my sword. I swing the sword — at best I will get one or two good hits before the bear mauls me. Thankfully, the gods are on my side, and my initial blow is fatal to the beast. As I step out of the cave, back among the trees and sunlight, I take a deep breath and utter a prayer to the gods."
  agot_filler_north.0088.a:0 "Gods be good, I'm lucky to be alive."
  agot_filler_north.0088.a.tt:0 "This could have been your grave..."
 
@@ -536,7 +536,7 @@
  agot_filler_north.0090.a.tt:0 "As your mind beings to fade, you wonder if anyone will ever find you..."
 
  agot_filler_north.0091.t:0 "The Crevasse"
- agot_filler_north.0091.desc:0 "It seems I'm not the only one to fall victim to this crevasse. I have found the remains of another person, though time had left only bones and the clothing on their back. It almost looks like the indiviual is still clutching a leather sack."
+ agot_filler_north.0091.desc:0 "It seems I'm not the only one to fall victim to this crevasse. I have found the remains of another person, though time had left only bones and the clothing on their back. It almost looks like the individual is still clutching a leather sack."
  agot_filler_north.0091.a:0 "I'll offer a prayer for the poor soul."
  agot_filler_north.0091.a.tt:0 "The least you could do for one whose fate you may share."
  agot_filler_north.0091.b:0 "Something of value must be in that sack!"

@@ -4,8 +4,8 @@
  # Conduct terror campaign request
  agot_dragon.0008.t:0 "An Instrument of Terror"
  agot_dragon.0008.desc_intro:0 "I have received a notice from [actor.GetTitledFirstName]. Given my status as a the rider of [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.GetName], this is perhaps not surprising, but what is surprising is its content. [actor.GetSheHe|U] is asking that I do more than simply fight in [actor.GetHerHis] wars, but to actively conduct a terror campaign wherever I am to go — burning not just our enemy's armies, but their lands, fields, and people as well.\n\n"
- agot_dragon.0008.desc_keen:0 "Though such a strategy will doubtlessly see our enemies driven before us and scar their lands for a generation, the people #X will#! judge me for this, both the realm and even within my own house.\n\n"
- agot_dragon.0008.desc_not_keen:0 "Such a strategy would make me the murderer of hundreds, perhaps thousands. Could I live with that? Others #X will#! judge me for it too, both around realm and even within my own house.\n\n"
+ agot_dragon.0008.desc_keen:0 "Though such a strategy will doubtlessly see our enemies driven before us and scar their lands for a generation, the people #X will#! judge me for this, both the realm and even within my own House.\n\n"
+ agot_dragon.0008.desc_not_keen:0 "Such a strategy would make me the murderer of hundreds, perhaps thousands. Could I live with that? Others #X will#! judge me for it too, both around realm and even within my own House.\n\n"
  agot_dragon.0008.desc_finish:0 "An act such as this is one that cannot be compelled, even by my liege and commander. The question therefore falls to me; do I accept, or reject this request?"
  agot_dragon.0008.a:0 "By your will, it shall be done."
  agot_dragon.0008.a.f:0 "You will conduct a terror campaign on behalf of [actor.GetTitledFirstNameNoTooltip]."
@@ -15,7 +15,7 @@
  agot_dragon.0008.accept.desc:0 "[recipient.GetFirstName] has accepted your request, and is now burning what lands of your enemies [recipient.GetSheHe] can."
  agot_dragon.0008.refuse.t:0 "Terror Campaign Refused!"
  agot_dragon.0008.refuse.desc:0 "[recipient.GetFirstName] has refused to be your instrument of terror."
- 
+
  # End terror campaign request
  agot_dragon.0009.t:0 "To Cease the Burning"
  agot_dragon.0009.desc_intro:0 "A notice has come from [actor.GetTitledFirstName], asking that I cease the campaign of terror that I am currently raging across our enemies with my dragon [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.GetName] whenever I get the chance.\n\n"
@@ -29,7 +29,7 @@
  agot_dragon.0009.accept.desc:0 "[recipient.GetFirstName] has accepted my request, and will no longer burn the lands of my enemies."
  agot_dragon.0009.refuse.t:0 "Terror Campaign Continues!"
  agot_dragon.0009.refuse.desc:0 "[recipient.GetFirstName] has refused to cease the destruction. You may imprison [recipient.GetHerHim], but trying such on a dragonrider comes with inherent risks..."
- 
+
  #Ride Your Dragon Normal Ride
  agot_dragon.0010.t:0 "Freedom of the Open Skies"
  agot_dragon.0010.night:0 "The moon hangs low in the obsidian sky, casting its silver glow upon the world below. [ridden_dragon.GetName] eyes me sleepily, nostrils flaring eagerly as [ridden_dragon.Custom('GetDragonSheHe')] realizes my approach means an evening ride.\n\n[ridden_dragon.Custom('GetDragonHerHis')|U] wings beat rhythmically against the shimmering stars, a symphony of power and grace, propelling us higher and higher. As we ascend, the world transforms beneath us. The forests below become a patchwork of shadow and silver, the rivers winding through them like glistening veins of ore.\n\nThe wind whips around us, a flowing roar beneath the percussive pulsing of [ridden_dragon.GetNamePossessiveNoTooltip] wings. In the moonlight's embrace, I can feel the world's song within me — I am a composer, and [ridden_dragon.GetNamePossessiveNoTooltip] flight is my melody."
@@ -58,17 +58,17 @@
  agot_dragon.0010.b.f:0 "You will let [ridden_dragon.GetNameNoTooltip] lead the way."
  agot_dragon.0010.c:0 "Time to practice our aerial maneuvers."
  agot_dragon.0010.c.f:0 "You will practice your combat moves with [ridden_dragon.GetNameNoTooltip]."
- 
+
  agot_dragon.0011.t:0 "Skies Out of Reach"
  agot_dragon.0011.desc:0 "I step up to the saddle of [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.GetName], swinging my legs over and feeling [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.Custom('GetDragonHerHis')] powerful muscles flex beneath me as I tighten the straps of my saddle. Damn...straps, they won't...tie...#S Aghhh! #!\n\nWith slam I feel myself fall next to [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.GetFirstNameNoTooltip], hazy vision registering the quizzical look I'm getting from [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.Custom('GetDragonHerHim')]. The stifled laughter of my retainers rings in concert with the pounding on my head as I stand. Maybe dragon riding isn't the best idea today."
  agot_dragon.0011.a:0 "Ah, well, maybe next time!"
  agot_dragon.0011.a.f:0 "Your drunken nature has meant you can't ride today."
- 
+
  agot_dragon.0012.t:0 "Drunken Flying Accident"
  agot_dragon.0012.desc:0 "I uncomfortably step up to the saddle of [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.GetName], nearly missing the step before managing to swing my legs over [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.Custom('GetDragonHerHis')] back. With a slurred command and a surge, I feel [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.Custom('GetDragonHerHim')] lurch upwards, and in seconds I am soaring through open skies.\n\nI feel the wind pass over my face, closing my eyes as the feeling cascades over my dull skin. Suddenly I feel my balance shifting — I reach out for the saddle, but my flailing fingers can't latch on! It's okay, I'm sure the straps will catch me...\n\nThey don't, I forgot to tie them."
  agot_dragon.0012.a:0 "#S Oh fuuuuuuuuuuuu—#!"
  agot_dragon.0012.a.f:0 "Your drunken nature has proven your end today."
- 
+
  # Dragon terror regret event
  agot_dragon.0013.t:0 "Horrifying Dreams of Sloughing Skin"
  agot_dragon.0013.desc:0 "Faces. Faces scream up at me as I fly past, their skin sloughing off in the wake of my dragon's wings as they burn beneath us. We try to fly faster, burning as we go, but the bones keep stumbling forward. Men, women, children. They scream towards us. Catching up. They claw up at me. Begging me to stop. Grasping. Reaching. Pulling me down.\n\nI wake up in a cold sweat, my heart pounding in my chest. I can't get the faces out of my head. I can't get the screams out of my ears. I can't get the smell of burning flesh out of my nose. I can't get the heat of the flames out of my skin.\n\n#S I can't get the guilt out of my heart.#!"
@@ -164,8 +164,8 @@
 
  # Dragon went wild notification
  agot_dragon.0020.t:0 "A Dragon Gone Wild"
- agot_dragon.0020.desc:0 "Tragic news for our house, as [now_wild_dragon.GetName] seems to have flown off after the death of [dead_rider.GetName]. Whether it was grief or the desire for freedom that drove [now_wild_dragon.GetFirstNameNoTooltip] away, we may never know.\n\nIt is a sad day for us all, as we must now deal with the loss of dragon and rider both."
- agot_dragon.0020.wild_fire_desc:0 "Strange news for our house, as [now_wild_dragon.GetName] seems to have flown off after the wildfire-induced accident of [human_who_became_dragon.GetName]. I know not what the impact of these developments will be, but I can say it has been a very strange day."
+ agot_dragon.0020.desc:0 "Tragic news for our House, as [now_wild_dragon.GetName] seems to have flown off after the death of [dead_rider.GetName]. Whether it was grief or the desire for freedom that drove [now_wild_dragon.GetFirstNameNoTooltip] away, we may never know.\n\nIt is a sad day for us all, as we must now deal with the loss of dragon and rider both."
+ agot_dragon.0020.wild_fire_desc:0 "Strange news for our House, as [now_wild_dragon.GetName] seems to have flown off after the wildfire-induced accident of [human_who_became_dragon.GetName]. I know not what the impact of these developments will be, but I can say it has been a very strange day."
  agot_dragon.0020.a:0 "I can't believe it..."
  agot_dragon.0020.a.f:0 "You worry how to deal with the loss of [now_wild_dragon.GetNameNoTooltip]."
  agot_dragon.0020.a.tt:0 "[now_wild_dragon.GetName] is now a [wild_dragon|E]"
@@ -242,11 +242,12 @@
 
  agot_dragon.0203.t:0 "$agot_dragon.0200.t$ Claims Another"
  agot_dragon.0203.desc_run:0 "[dragon_fighter.GetTitledFirstNameNicknamed] has shown [dragon_fighter.GetHerselfHimself] to be a cowardly wretch! Instead of facing the wild dragon that is terrorizing the land, [dragon_fighter.GetFirstNameNoTooltip] fled at the first sight of [wild_dragon.GetNamePossessive] [wild_dragon.Custom('GetDragonColor')] wings.\n\nFor all [dragon_fighter.GetHerHis] boasting and bluster, [dragon_fighter.GetFirstNameNoTooltip] has embarrassed [dragon_fighter.GetHerselfHimself] for the rest of [dragon_fighter.GetHerHis] days.\n\n[wild_dragon.GetNameNicknamedNoTooltip] still soars across the open skies terrorizing the smallfolk, something else must be done..."
- agot_dragon.0203.desc_dead:0 "After much too long without news following [dragon_fighter.GetTitledFirstNamePossesive] departure, a stray soldier has finally returned from [dragon_fighter.GetHerHis] company. The news they bare could not be worse...\n\n[dragon_fighter.GetFirstNameNoTooltip] [dragon_fighter.GetDeathReason], and most of [dragon_fighter.GetHerHis] party were eaten alive by [wild_dragon.GetNameNicknamed]! The rest have scattered to the hills, slowly returning to their famalies or places unknown.\n\n[wild_dragon.GetNameNoTooltip] still soars across the open skies terrorizing the smallfolk, something else must be done... But who will dare to challenge the dragon now?"
+ agot_dragon.0203.desc_dead:0 "After much too long without news following [dragon_fighter.GetTitledFirstNamePossessive] departure, a stray soldier has finally returned from [dragon_fighter.GetHerHis] company. The news they bare could not be worse...\n\n[dragon_fighter.GetFirstNameNoTooltip] [dragon_fighter.GetDeathReason], and most of [dragon_fighter.GetHerHis] party were eaten alive by [wild_dragon.GetNameNicknamed]! The rest have scattered to the hills, slowly returning to their families or places unknown.\n\n[wild_dragon.GetNameNoTooltip] still soars across the open skies terrorizing the smallfolk, something else must be done... But who will dare to challenge the dragon now?"
  agot_dragon.0203.a:0 "#bold Curses!#!"
 
  agot_dragon.1001.t:0 "The Sowing"
- agot_dragon.1001.desc:0 "The #italic supposed#! dragonseeds have come. Some of these would-be dragonriders bear the features of my house, others look as though they are of a different heritage entirely. Some carry an easy confidence, while others sweat and shake with fear.\n\nEach one of them has answered my call, and each knows the risk involved. Now I must take one last moment to reflect.\n\n#italic Is this worth the risks?#!"
+ agot_dragon.1001.targ:0 "The #italic supposed#! dragonseeds have come. Some of these would-be dragonriders bear the features of my house, others look as though they are of a different heritage entirely. Some carry an easy confidence, while others sweat and shake with fear.\n\nThe house of the dragon takes many forms, and I can't help but hope that one among these huddled masses holds true blood of the dragon.\n\nEach one of them has answered my call, and each knows the risk involved. Now I must take one last moment to reflect.\n\n#italic Is this worth the risks?#!"
+ agot_dragon.1001.desc:0 "The #italic supposed#! dragonseeds have come. Some of these would-be dragonriders bear the features of the great Valyrian houses of old, while others look as though they are of a different heritage entirely. Some carry an easy confidence, while others sweat and shake with fear.\n\nEach one of them has answered my call, and each knows the risk involved. Now I must take one last moment to reflect.\n\n#italic Is this worth the risks?#!"
  agot_dragon.1001.a:0 "Motion them to begin."
  agot_dragon.1001.b:0 "The risks are #italic too#! great."
  agot_dragon.1001.b_tt:0 "The Sowing will be canceled"
@@ -326,9 +327,8 @@
  agot_dragon.1009.a:0 "Where is #bold my#! dragon?"
 
  agot_dragon.1010.t:0 "Rise of a Dragonseed"
- agot_dragon.1010.desc:0 "[recipient.GetName], a dragonseed who has recently joined my court, must be rewarded for [recipient.GetHerHis] valor in the dragonpit.\n\nHowever, [recipient.GetHerHis] position as a bastard has complicated things. As such I must now take a closer look at how exactly they should be rewarded."
+ agot_dragon.1010.desc:0 "[recipient.GetName], a dragonseed who has recently joined my court, must be rewarded for [recipient.GetHerHis] valor in the dragonpit.\n\nHowever, [recipient.GetHerHis] position as a bastard has complicated things. As such I must now take a closer look at how exactly [recipient.GetSheHe] should be rewarded."
  agot_dragon.1010.a:0 "I will legitimize them."
- agot_dragon.1010.b:0 "I will grant them leave to found a new house."
+ agot_dragon.1010.b:0 "I will grant them leave to found a new [house|E]."
  agot_dragon.1010.b_tt:0 "[recipient.GetName] will form a new [bastard_branch|E]"
  agot_dragon.1010.c:0 "[recipient.GetHerHis|U] bastardry is too controversial, offer something else."
- 

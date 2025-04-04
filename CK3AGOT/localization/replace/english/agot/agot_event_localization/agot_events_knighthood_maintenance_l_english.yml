@@ -38,14 +38,6 @@
  agot_knighthood_maintenance.0012.a:0 "I have been made a knight!"
  agot_knighthood_maintenance.0012.a.tt:0 "You have been made a knight!"
 
-agot_knighthood_maintenance.0020.t:0 "PTK Fetched"
-agot_knighthood_maintenance.0020.desc:0 "[squire_debug.GetName]'s ProgressToKnighthood is: [squire_debug.MakeScope.Var('ProgressToKnighthood').GetValue]"
-agot_knighthood_maintenance.0020.a:0 "OK!"
-
-agot_knighthood_maintenance.0021.t:0 "Take As Squire (Debug)"
-agot_knighthood_maintenance.0021.desc:0 "[potential_squire.GetName] has become your squire."
-agot_knighthood_maintenance.0021.a:0 "OK!"
- 
 agot_knighthood_maintenance.0300.t:0 "Reflection on my Squire Status"
 agot_knighthood_maintenance.0300.desc:0 "It has been some time since my knight has died. In that time, I've been unable to locate a new knight to continue my training. As disappointing as that is, it's time for me accept the hard truth that I cannot continue this journey on my own."
 agot_knighthood_maintenance.0300.a:0 "It's time to renounce my squire status."
@@ -60,7 +52,7 @@ agot_knighthood_maintenance.0400.desc:0 "My poor performance as a squire these p
 agot_knighthood_maintenance.0400.a:0 "This is unfortunate."
 
 agot_knighthood_maintenance.0500.t:0 "A Very Important Squire"
-agot_knighthood_maintenance.0500.desc:0 "After inheriting my title and lands, it is clear that I can no longer remain a squire. In order to meet the demands of social pressure, I should look into becoming a knight as soon as possible."
+agot_knighthood_maintenance.0500.desc:0 "After inheriting my title, it is clear that I can no longer remain a squire. In order to meet the demands of social pressure, I should look into becoming a knight as soon as possible."
 agot_knighthood_maintenance.0500.a:0 "I will command my knight to make me a knight!"
 agot_knighthood_maintenance.0500.b:0 "I will command a vassal to knight me."
 agot_knighthood_maintenance.0500.c:0 "I will command a [ROOT.Char.Custom('KingsguardName')] to knight me."
@@ -69,7 +61,7 @@ agot_knighthood_maintenance.0500.e:0 "I will buy my knighthood!"
 agot_knighthood_maintenance.0500.f:0 "Actually, I will not pursue knighthood anymore."
 
  agot_knighthood_maintenance.0501.opening:0 "To my loyal subject,"
- agot_knighthood_maintenance.0501.desc:0 "After inheriting my title and lands, it is clear that I can no longer remain a squire. In order to meet the demands of social pressure, I humbly request that you grant me knighthood immediately!"
+ agot_knighthood_maintenance.0501.desc:0 "After inheriting my title, it is clear that I can no longer remain a squire. In order to meet the demands of social pressure, I humbly request that you grant me knighthood immediately!"
  agot_knighthood_maintenance.0501.a:0 "Very well..."
 
  agot_knighthood_maintenance.0550.t:0 "The Squire Comes Home"
