@@ -5,7 +5,7 @@
   default_legitimacy_level_3: "[legitimacy|E] $LEVEL|V:roman$"
   default_legitimacy_level_4: "[legitimacy|E] $LEVEL|V:roman$"
   default_legitimacy_level_5: "[legitimacy|E] $LEVEL|V:roman$"
-  default_legitimacy_level_0_flavor: "Illegitimate"
+  default_legitimacy_level_0_flavor: "Illegitim"
   default_legitimacy_level_1_flavor: "Aspiring"
   default_legitimacy_level_2_flavor: "Recognized"
   #AGOT Modified
