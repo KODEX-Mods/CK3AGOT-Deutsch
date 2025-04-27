@@ -1,9 +1,9 @@
 ﻿l_german:
- monastery_holding:0 "Monastery"
- monastery_holding_concept_key:0 "[monastery_holding|E]"
-
- ruin_holding:0 "Ruin"
- ruin_holding_concept_key:0 "[ruin_holding|E]"
-
- pirate_den_holding:0 "Pirate Den"
- pirate_den_holding_concept_key:0 "[pirate_den_holding|E]"
+ monastery_holding: "Kloster"
+ monastery_holding_concept_key: "[monastery_holding|E]"
+  
+ ruin_holding: "Ruine"
+ ruin_holding_concept_key: "[ruin_holding|E]"
+  
+ pirate_den_holding: "Pirate Den" #NT!
+ pirate_den_holding_concept_key: "[pirate_den_holding|E]" #NT!

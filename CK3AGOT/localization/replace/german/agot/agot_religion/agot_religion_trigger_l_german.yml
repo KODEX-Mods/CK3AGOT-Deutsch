@@ -1,2 +1,2 @@
 ﻿l_german:
- CANNOT_HAVE_THEOCRACY_AND_TEMPORAL_HEAD:0 "Ein Glaube kann nicht beides haben: eine Klerikale Tradition „[GetFaithDoctrine('doctrine_spiritual_head').GetBaseName]“ und ein Glaubensoberhaupt „[GetFaithDoctrine('doctrine_temporal_head').GetBaseName]“"
+ CANNOT_HAVE_THEOCRACY_AND_TEMPORAL_HEAD: "A Faith cannot have both [GetFaithDoctrine('doctrine_spiritual_head').GetBaseName] Clerical Tradition and a [GetFaithDoctrine('doctrine_temporal_head').GetBaseName] Head of Faith doctrine" #NT!

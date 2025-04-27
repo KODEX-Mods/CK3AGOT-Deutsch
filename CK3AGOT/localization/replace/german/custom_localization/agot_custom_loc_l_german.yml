@@ -1,13 +1,16 @@
 ﻿l_german:
-#  capitalbaronycl:0 "[Character.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
-#  capitalbaronycl_spouse:0 "[Character.GetPrimarySpouse.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
- SECOND_TITLE_LINE_1:0 ""
-
- # Mega Wars
- mw_punishment:0 "Punish\n[GetPlayer.MakeScope.Var('selected_traitor').Char.GetTitledFirstNameNoTooltip]"
- mw_show_mercy:0 "Show Mercy to\n[GetPlayer.MakeScope.Var('selected_traitor').Char.GetTitledFirstNameNoTooltip]"
- mw_rebels:0 "Rebels"
- mw_loyalists:0 "Loyalists"
-
-# Dragons
- set_relation_agot_dragon:0 "Becomes your dragon"
+ #  capitalbaronycl: "[Character.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ #  capitalbaronycl_spouse: "[Character.GetPrimarySpouse.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ SECOND_TITLE_LINE_1: ""
+  
+  # Mega Wars 
+ mw_punishment: "Punish\n[GetPlayer.MakeScope.Var('selected_traitor').Char.GetTitledFirstNameNoTooltip]" #NT!
+ mw_show_mercy: "Show Mercy to\n[GetPlayer.MakeScope.Var('selected_traitor').Char.GetTitledFirstNameNoTooltip]" #NT!
+ mw_rebels: "Rebellen"
+ mw_loyalists: "Loyalisten"
+  
+ # Dragons 
+ set_relation_agot_dragon: "Becomes your dragon" #NT!
+  
+ # Cast Number To String 
+ number_to_string: "[SCOPE.GetValue('number')|0]" #NT!

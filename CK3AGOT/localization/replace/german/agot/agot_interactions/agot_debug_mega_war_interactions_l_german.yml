@@ -1,20 +1,21 @@
 ﻿l_german:
- agot_mw_debug_start_testing_mode_interaction:0 "Activate Mega Wars Testing Mode"
- agot_mw_debug_start_testing_mode_interaction_desc:0 "PLACEHOlDER"
- agot_mw_debug_end_testing_mode_interaction:0 "Deactivate Mega Wars Testing Mode"
- agot_mw_debug_end_testing_mode_interaction_desc:0 "PLACEHOlDER"
-
- agot_mw_debug_set_stance_interaction:0 "Set MW stance prior to war"
- agot_mw_debug_set_stance_interaction_desc:0 "Set MW stance prior to war"
- mw_debug_set_loyalist_loc:0 "Set #S #G LOYALIST#!#!"
- mw_debug_set_neutral_loc:0 "Set #S #D NEUTRAL#!#!"
- mw_debug_set_rebel_loc:0 "Set #S #R REBEL#!#!"
-
- agot_mw_debug_set_stance_all_interaction:0 "Set MW stance of all prior to war"
- agot_mw_debug_set_stance_all_interaction_desc:0 "Set MW stance of all prior to war"
- mw_debug_set_all_loyalist_loc:0 "Set all #S #G LOYALIST#!#!"
- mw_debug_set_all_neutral_loc:0 "Set all #S #D NEUTRAL#!#!"
- mw_debug_set_all_rebel_loc:0 "Set all #S #R REBEL#!#!"
-
- agot_mw_clear_mw_variable:0 "Remove pre_war_liege variable"
- agot_mw_clear_mw_variable_desc:0 "This will remove the pre_war_liege variable"
+ agot_mw_debug_start_testing_mode_interaction: "Activate Mega Wars Testing Mode"
+ agot_mw_debug_start_testing_mode_interaction_desc: "PLACEHOlDER"
+ agot_mw_debug_end_testing_mode_interaction: "Deactivate Mega Wars Testing Mode"
+ agot_mw_debug_end_testing_mode_interaction_desc: "PLACEHOlDER"
+  
+ agot_mw_debug_set_stance_interaction: "Set MW stance prior to war" #NT!
+ agot_mw_debug_set_stance_interaction_desc: "Set MW stance prior to war" #NT!
+ mw_debug_set_loyalist_loc: "Set #S #G LOYALIST#!#!" #NT!
+ mw_debug_set_neutral_loc: "Set #S #D NEUTRAL#!#!" #NT!
+ mw_debug_set_rebel_loc: "Set #S #R REBEL#!#!" #NT!
+ mw_debug_set_independence_loc: "Set #S #R INDEPENDENCE REBEL#!#!" #NT!
+  
+ agot_mw_debug_set_stance_all_interaction: "Set MW stance of all prior to war" #NT!
+ agot_mw_debug_set_stance_all_interaction_desc: "Set MW stance of all prior to war" #NT!
+ mw_debug_set_all_loyalist_loc: "Set all #S #G LOYALIST#!#!" #NT!
+ mw_debug_set_all_neutral_loc: "Set all #S #D NEUTRAL#!#!" #NT!
+ mw_debug_set_all_rebel_loc: "Set all #S #R REBEL#!#!" #NT!
+  
+ agot_mw_clear_mw_variable: "Remove pre_war_liege variable" #NT!
+ agot_mw_clear_mw_variable_desc: "This will remove the pre_war_liege variable" #NT!

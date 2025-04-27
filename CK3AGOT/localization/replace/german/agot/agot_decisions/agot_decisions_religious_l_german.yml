@@ -1,0 +1,68 @@
+﻿l_german:
+ decision_group_type_religion: "Religious Decisions" #NT!
+  
+ agot_look_into_the_flames_decision: "Look into the Flames" #NT!
+ agot_look_into_the_flames_decision_confirm: "The night is dark and full of terrors" #NT!
+ look_into_the_flames_decision_desc: "It is said [ROOT.Char.GetFaith.HighGodName] speaks to his chosen through the flames in a tongue of ash and cinders, twisting flames few can truly grasp.\n\nWhat may I see within his blessed blaze?" #NT!
+ look_into_the_flames_decision_tooltip: "What shall the flames reveal?" #NT!
+ look_into_flames_decision_effect: "You will perform the rites in hopes to witness a vision" #NT!
+ look_into_flames_decision_no_cooldown: "You have #bold NOT#! taken this decision in the last 5 years" #NT!
+  
+ blind_self_for_piety_decision: "Blind Myself" #NT!
+ blind_self_for_piety_decision_desc: "$tenet_opening_the_third_eye_desc$" #NT!
+ blind_self_for_piety_decision_tooltip: "Blind Myself" #NT!
+ blind_self_for_piety_decision_confirm: "$blind_self_for_piety_decision_tooltip$!" #NT!
+  
+ oily_black_stone_meditate_decision_desc: "Ancient beyond reckoning, the black stone bears no chisel marks, no maker's claim — only the weight of ages and the whispers of things unseen. To meditate upon it is to surrender to forces older than gods." #NT!
+ oily_black_stone_meditate_decision_tooltip: "Meditate with Oily Black Stone" #NT!
+ oily_black_stone_meditate_decision: "Meditate with Oily Black Stone" #NT!
+ oily_black_stone_meditate_decision_confirm: "Fix your eyes upon it... and see." #NT!
+ decision_oily_black_stone.has_artifact: "Has an Oily Black Stone [artifact|E]" #NT!
+ decision_oily_black_stone.control_one_holy_site: "You control at least 1 [CHARACTER.GetFaith.GetAdjective] [holy_site|E]" #NT!
+  
+ imbibe_in_shade_of_the_evening_decision_desc: "$tenet_black_barked_trees_desc$" #NT!
+ imbibe_in_shade_of_the_evening_decision_tooltip: "Drink the Shade of the Evening" #NT!
+ imbibe_in_shade_of_the_evening_decision: "Imbibe in Shade of the Evening" #NT!
+ imbibe_in_shade_of_the_evening_decision_confirm: "Drink the Shade of the Evening!" #NT!
+  
+ agot_drain_blood_religious_decision: "Drain Prisoners' Blood" #NT!
+ agot_drain_blood_religious_decision_desc: "$tenet_blood_is_the_life_desc$\n\nWith prisoners at my disposal, I may fulfill my spiritual obligations and collect their blood for later consumption." #NT!
+ agot_drain_blood_religious_decision_tooltip: "Collect Blood" #NT!
+ agot_drain_blood_religious_decision_confirm: "Collect Blood!" #NT!
+ agot_drain_blood_religious_decision_effect_tt: "You will drain blood from a prisoner of your choice." #NT!
+ agot_consume_blood_religious_decision: "Consume Collected Blood" #NT!
+ agot_consume_blood_religious_decision_desc: "$tenet_blood_is_the_life_desc$\n\nNow that I have collected [ROOT.Var('blood_is_life_blood_counter').GetValue|0] blood, I may freely consume some." #NT!
+ agot_consume_blood_religious_decision_tooltip: "Drink Blood" #NT!
+ agot_consume_blood_religious_decision_confirm: "Drink Blood!" #NT!
+ agot_consume_blood_religious_decision_next_step_button: "Choose Amount of Blood to Drink" #NT!
+ small_amount_of_blood_desc: "A Small Amount" #NT!
+ moderate_amount_of_blood_desc: "A Moderate Amount" #NT!
+ large_amount_of_blood_desc: "A Large Amount" #NT!
+ great_amount_of_blood_desc: "A Great Amount" #NT!
+ small_amount_of_blood_tooltip: "At least 20 blood is required" #NT!
+ moderate_amount_of_blood_tooltip: "At least 30 blood is required" #NT!
+ large_amount_of_blood_tooltip: "At least 40 blood is required" #NT!
+ great_amount_of_blood_tooltip: "At least 50 blood is required" #NT!
+  
+ agot_divine_plots_hire_assassin_decision: "Hire Assassin" #NT!
+ agot_divine_plots_hire_assassin_decision_confirm: "This should help..." #NT!
+ divine_plots_hire_assassin_decision_desc: "Hire an assassin to your court to who will be a skilled [agent|E] for your [GetScheme('murder').GetTypeName] [scheme|E]." #NT!
+ divine_plots_hire_assassin_decision_tooltip: "Hire an assassin to support your murder schemes" #NT!
+ divine_plots_hire_assassin_decision_effect: "A courtier with strong intrigue skills will appear in your court and be added as an [agent|E] in your murder scheme. They will leave when your murder schemes are complete." #NT!
+ divine_plot_assassin_left: "[assassin.GetFirstName] Left Court" #NT!
+ divine_plot_assassin_left.tooltip: "With the end of your scheme, [assassin.GetFirstName] has vanished back into the shadows from which [assassin.GetSheHe] came." #NT!
+ hire_assassin_decision_no_agent_slot: "You do not have an ongoing [GetScheme('murder').GetTypeName] [scheme|E] with an open assassin [agent|E] role" #NT!
+ hire_assassin_decision_existing_assassin: "You already have a hired assassin in your court" #NT!
+  
+ agot_fund_trade_expedition_decision: "Fund Trade Expedition" #NT!
+ agot_fund_trade_expedition_decision_confirm: "Plan the expedition" #NT!
+ fund_trade_expedition_decision_desc: "As the realm's wealth grows, the opportunity arises to explore new trade routes, establish lucrative alliances, and unlock access to rare goods. The costs may be steep, but the rewards can significantly increase the prosperity of the realm." #NT!
+ fund_trade_expedition_decision_tooltip: "Fund an expedition to open new trade routes" #NT!
+ fund_trade_expedition_decision_effect: "You will be given the opportunity to choose between various levels of funding your expedition. On its return, you may receive beneficial [county_modifiers|E], [gold|E], or [artifacts|E]." #NT!
+ fund_trade_expedition_expedition_in_progress: "You already have a trade expedition in progress" #NT!
+  
+ agot_launch_whaling_expedition_expedition_decision: "Launch Whaling Expedition" #NT!
+ agot_launch_whaling_expedition_expedition_decision_confirm: "Go Whaling" #NT!
+ agot_launch_whaling_expedition_expedition_decision_desc: "The seas are a bounty of life, but only the leviathans of the deep hold any real importance. Whaling is thus a vigorous activity that can yield both material and spiritual rewards." #NT!
+ agot_launch_whaling_expedition_expedition_decision_tooltip: "Launch a whaling expedition to reap gold and piety" #NT!
+ agot_launch_whaling_expedition_expedition_decision_effect: "You will launch an expedition where you can gain [piety|E] and [gold|E]." #NT!

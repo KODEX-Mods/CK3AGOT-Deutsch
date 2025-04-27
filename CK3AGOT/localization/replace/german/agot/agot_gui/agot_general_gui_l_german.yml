@@ -1,213 +1,321 @@
 ﻿l_german:
- 
- COUNCIL_TASK_CASTELLAN_REVERT:0 "Reassign your [castellan|E]'s role"
-
- HOUSE_LIST_BASTARD:0 "[bastard_house|E]"
- PERSONAL_ARMS_COOLTIP:0 "Personal Arms"
- # Height
- smol_tol_gui:0 "Smol Tol"
- smol_tol_gui_tt:0 "As seen with in House Baratheon"
- tol_gui:0 "Tol"
- tol_gui_tt:0 "As seen with in Houses Umber & Clegane"
- # Ears
- dumbo_ears_gui:0 "Dumbo Ears"
- dumbo_ears_gui_tt:0 "As seen with in House Florent"
- # Hair
- cool_silver_hair_gui:0 "Cool Silver Hair"
- cool_silver_hair_gui_tt:0 "As seen in Valyrian houses"
- cool_neutral_silver_hair_gui:0 "Cool Neutral Silver Hair"
- cool_neutral_silver_hair_gui_tt:0 "$cool_silver_hair_gui_tt$"
- neutral_silver_hair_gui:0 "Neutral Silver Hair"
- neutral_silver_hair_gui_tt:0 "$cool_silver_hair_gui_tt$"
- black_hair_gui:0 "Black Hair"
- black_hair_gui_tt:0 "As seen in House Baratheon"
- light_blonde_hair_gui:0 "Light Blonde Hair"
- light_blonde_hair_gui_tt:0 "As seen in House Arryn"
- gold_hair_gui:0 "Gold Hair"
- gold_hair_gui_tt:0 "As seen in Houses Lannister & Rowan"
- bronze_hair_gui:0 "Bronze Hair"
- bronze_hair_gui_tt:0 "As seen in House Royce"
- light_red_hair_gui:0 "Light Red Hair"
- light_red_hair_gui_tt:0 "As seen in House Toland"
- red_hair_gui:0 "Red Hair"
- red_hair_gui_tt:0 "As seen in Houses Reyne & Connington"
- kissed_by_fire_hair_gui:0 "Kissed by Fire Hair"
- kissed_by_fire_hair_gui_tt:0 "Kissed by Fire Hair"
- auburn_hair_gui:0 "Auburn Hair"
- auburn_hair_gui_tt:0 "As seen in House Tully"
- brown_hair_gui:0 "Brown Hair"
- brown_hair_gui_tt:0 "As seen in House Tyrell"
- dark_brown_hair_gui:0 "Dark Brown Hair"
- dark_brown_hair_gui_tt:0 "As seen in House Stark"
- # Eyes
- light_blue_eyes_gui:0 "Light Blue Eyes"
- blue_eyes_gui:0 "Blue Eyes"
- midnight_eyes_gui:0 "Midnight Eyes"
- seaglass_eyes_gui:0 "Seaglass Eyes"
- seafoam_eyes_gui:0 "Seafoam Eyes"
- emerald_eyes_gui:0 "Emerald Eyes"
- grey_eyes_gui:0 "Grey Eyes"
- gold_eyes_gui:0 "Gold Eyes"
- light_brown_eyes_gui:0 "Light Brown Eyes"
- brown_eyes_gui:0 "Brown Eyes"
- black_eyes_gui:0 "Black Eyes"
- purple_eyes_1_gui:0 "Purple Eyes 1"
- purple_eyes_2_gui:0 "Purple Eyes 2"
- purple_eyes_3_gui:0 "Purple Eyes 3"
- purple_eyes_4_gui:0 "Purple Eyes 4"
- purple_eyes_5_gui:0 "Purple Eyes 5"
- purple_eyes_6_gui:0 "Purple Eyes 6"
- purple_eyes_7_gui:0 "Purple Eyes 7"
- purple_eyes_8_gui:0 "Purple Eyes 8"
- purple_eyes_9_gui:0 "Purple Eyes 9"
- purple_eyes_10_gui:0 "Purple Eyes 10"
- purple_eyes_11_gui:0 "Purple Eyes 11"
- purple_eyes_12_gui:0 "Purple Eyes 12"
- purple_eyes_13_gui:0 "Purple Eyes 13"
- purple_eyes_14_gui:0 "Purple Eyes 14"
- purple_eyes_15_gui:0 "Purple Eyes 15"
- purple_eyes_16_gui:0 "Purple Eyes 16"
- light_blue_eyes_gui_tt:0 "As seen in House Arryn"
- blue_eyes_gui_tt:0 "As seen in Houses Baratheon & Tully"
- midnight_eyes_gui_tt:0 "As seen in House Dayne"
- seaglass_eyes_gui_tt:0 "As seen in House Velaryon"
- seafoam_eyes_gui_tt:0 "As seen in House Velaryon"
- emerald_eyes_gui_tt:0 "As seen in House Lannister"
- grey_eyes_gui_tt:0 "As seen in House Stark"
- gold_eyes_gui_tt:0 "As seen in House Rowan"
- light_brown_eyes_gui_tt:0 "As seen in House Hightower"
- brown_eyes_gui_tt:0 "As seen in House Tyrell"
- black_eyes_gui_tt:0 "As seen in House Greyjoy"
- purple_eyes_1_gui_tt:0 "As seen in the blood of old Valyria"
- purple_eyes_2_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_3_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_4_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_5_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_6_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_7_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_8_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_9_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_10_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_11_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_12_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_13_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_14_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_15_gui_tt:0 "$purple_eyes_1_gui_tt$"
- purple_eyes_16_gui_tt:0 "$purple_eyes_1_gui_tt$"
- no_strong_seed_gui:0 "No Strong Seed"
-
- green1_gui:0 "Green1"
- green1_gui_tt:0 "Green1"
- green2_gui:0 "Green2"
- green2_gui_tt:0 "Green2"
- blue1_gui:0 "Blue1"
- blue1_gui_tt:0 "Blue1"
- blue2_gui:0 "Blue2"
- blue2_gui_tt:0 "Blue2"
- black1_gui:0 "Black1"
- black1_gui_tt:0 "Black1"
- black2_gui:0 "Black2"
- black2_gui_tt:0 "Black2"
- brown1_gui:0 "Brown1"
- brown1_gui_tt:0 "Brown1"
- brown2_gui:0 "Brown2"
- brown2_gui_tt:0 "Brown2"
- brown3_gui:0 "Brown3"
- brown3_gui_tt:0 "Brown3"
- grey_gui:0 "Grey"
- grey_gui_tt:0 "Grey"
- purple1_gui:0 "Purple1"
- purple1_gui_tt:0 "Purple1"
- purple2_gui:0 "Purple2"
- purple2_gui_tt:0 "Purple2"
- purple3_gui:0 "Purple3"
- purple3_gui_tt:0 "Purple3"
- purple4_gui:0 "Purple4"
- purple4_gui_tt:0 "Purple4"
- red_gui:0 "Red"
- red_gui_tt:0 "Red"
- gold_gui:0 "Gold"
- gold_gui_tt:0 "Gold"
- random_gui:0 "Random"
- random_gui_tt:0 "Random"
- no_heterochromia_gui:0 "No Heterochromia"
-
- reset_de_gui_tt:0 "Reset to Original Value"
- incr_de_gui_tt:0 "Increase Value by [ROOT.Var('value_to_change').GetValue)|0%]"
- decr_de_gui_tt:0 "Decrease Value by [ROOT.Var('value_to_change').GetValue)|0%]"
- plusminus1_de_gui:0 "± 1%"
- plusminus1_de_gui_tt:0 "Values will be changed by 1%"
- plusminus5_de_gui:0 "± 5%"
- plusminus5_de_gui_tt:0 "Values will be changed by 5%"
- dragon_skin_value_de_gui:0 "Skin Value"
- dragon_skin_value_de_gui_tt:0 "Skin Value"
- dragon_skin_hue_de_gui:0 "Skin Hue Value"
- dragon_skin_hue_de_gui_tt:0 "Skin Hue Value"
- dragon_skin_highlight_value_de_gui:0 "Highlight Value"
- dragon_skin_highlight_value_de_gui_tt:0 "Highlight Value"
- dragon_skin_highlight_hue_de_gui:0 "Highlight Hue Value"
- dragon_skin_highlight_hue_de_gui_tt:0 "Highlight Hue Value"
- dragon_skin_highlight_hue_de_gui:0 "Highlight Hue Value"
- dragon_skin_highlight_hue_de_gui_tt:0 "Highlight Hue Value"
- dragon_skin_horn_value_de_gui:0 "Horn Value"
- dragon_skin_horn_value_de_gui_tt:0 "Horn Value"
- dragon_skin_horn_hue_de_gui:0 "Horn Hue"
- dragon_skin_horn_hue_de_gui_tt:0 "Horn Hue"
- dragon_eye_value_de_gui:0 "Eye Value"
- dragon_eye_value_de_gui_tt:0 "Eye Value"
- dragon_eye_hue_de_gui_tt:0 "Eye Hue"
- dragon_eye_hue_de_gui:0 "Eye Hue"
- dragon_brow_width_de_gui_tt:0 "Brow Width"
- dragon_brow_width_de_gui:0 "Brow Width"
- dragon_cheek_width_de_gui_tt:0 "Cheek Width"
- dragon_cheek_width_de_gui:0 "Cheek Width"
- dragon_chin_profile_de_gui_tt:0 "Chin Profile"
- dragon_chin_profile_de_gui:0 "Chin Profile"
- dragon_crest_depth_de_gui_tt:0 "Crest Depth"
- dragon_crest_depth_de_gui:0 "Crest Depth"
- dragon_head_roundness_de_gui_tt:0 "Head Roundness"
- dragon_head_roundness_de_gui:0 "Head Roundness"
- dragon_horns_eyebrow_length_de_gui_tt:0 "Horns Eyebrow Length"
- dragon_horns_eyebrow_length_de_gui:0 "Horns Eyebrow Length"
- dragon_jaw_width_de_gui_tt:0 "Jaw Width"
- dragon_jaw_width_de_gui:0 "Jaw Width"
- dragon_lower_jaw_height_de_gui_tt:0 "Lower Jaw Height"
- dragon_lower_jaw_height_de_gui:0 "Lower Jaw Height"
- dragon_lower_jaw_width_de_gui_tt:0 "Lower Jaw Width"
- dragon_lower_jaw_width_de_gui:0 "Lower Jaw Width"
- dragon_old_neck_de_gui_tt:0 "Old Neck"
- dragon_old_neck_de_gui:0 "Old Neck"
- dragon_outer_brow_height_de_gui_tt:0 "Outer Brow Height"
- dragon_outer_brow_height_de_gui:0 "Outer Brow Height"
- dragon_snout_height_de_gui_tt:0 "Snout Height"
- dragon_snout_height_de_gui:0 "Snout Height"
- dragon_snout_length_de_gui_tt:0 "Snout Length"
- dragon_snout_length_de_gui:0 "Snout Length"
- dragon_snout_width_de_gui_tt:0 "Snout Width"
- dragon_snout_width_de_gui:0 "Snout Width"
- dragon_upper_jaw_de_gui_tt:0 "Upper Jaw"
- dragon_upper_jaw_de_gui:0 "Upper Jaw"
- dragon_center_fin_size_de_gui_tt:0 "Center Fin Size"
- dragon_center_fin_size_de_gui:0 "Center Fin Size"
- dragon_back_spike_size_de_gui_tt:0 "Back Spike Size"
- dragon_back_spike_size_de_gui:0 "Back Spike Size"
- dragon_horns_eyebrow_de_gui_tt:0 "Horns Eyebrow"
- dragon_horns_eyebrow_de_gui:0 "Horns Eyebrow"
- neck_spike_size_de_gui_tt:0 "Neck Spike Size"
- neck_spike_size_de_gui:0 "Neck Spike Size"
- dragon_side_fin_size_de_gui_tt:0 "Side Fin Size"
- dragon_side_fin_size_de_gui:0 "Side Fin Size"
- dragon_snout_end_width_de_gui_tt:0 "Snout End Width"
- dragon_snout_end_width_de_gui:0 "Snout End Width"
- dragon_neck_length_de_gui_tt:0 "Neck Length"
- dragon_neck_length_de_gui:0 "Neck Length"
- dragon_tail_length_de_gui_tt:0 "Tail Length"
- dragon_tail_length_de_gui:0 "Tail Length"
- dragon_horn_template_shape_value_de_gui_tt:0 "Horn Shape Value"
- dragon_horn_template_shape_value_de_gui:0 "Horn Shape Value"
- dragon_horn_template_shape_template_de_gui_tt:0 "Horn Shape"
- dragon_horn_template_shape_template_de_gui:0 "Horn Shape"
- dragon_snout_profile_de_gui:0 "Snout Profile"
- dragon_snoute_profile_de_gui_tt:0 "Snout Profile"
-
- CV_CUSTOMIZE_AGOT_DRAGON:0 "#P #I Click to open the Dragon Customizer#!#!"
+  
+ COUNCIL_TASK_CASTELLAN_REVERT: "Eurem [castellan|E] eine neue Rolle zuweisen"
+  
+ HOUSE_LIST_BASTARD: "[bastard_house|E]"
+ PERSONAL_ARMS_COOLTIP: "Personal Arms" #NT!
+  # Realm Laws 
+ realm_tab_my_realm_laws: "My Laws" #NT!
+ realm_tab_liege_realm_laws: "Liege's Laws" #NT!
+  # Height 
+ smol_tol_gui: "Smol Tol" #NT!
+ smol_tol_gui_tt: "As seen with in House Baratheon" #NT!
+ tol_gui: "Tol" #NT!
+ tol_gui_tt: "As seen with in Houses Umber & Clegane" #NT!
+  # Ears 
+ dumbo_ears_gui: "Dumbo Ears" #NT!
+ dumbo_ears_gui_tt: "As seen with in House Florent" #NT!
+  # Hair 
+ cool_silver_hair_gui: "Cool Silver Hair" #NT!
+ cool_silver_hair_gui_tt: "As seen in Valyrian houses" #NT!
+ cool_neutral_silver_hair_gui: "Cool Neutral Silver Hair" #NT!
+ cool_neutral_silver_hair_gui_tt: "$cool_silver_hair_gui_tt$" #NT!
+ neutral_silver_hair_gui: "Neutral Silver Hair" #NT!
+ neutral_silver_hair_gui_tt: "$cool_silver_hair_gui_tt$" #NT!
+ silver_blonde_hair_gui: "Silver Blonde Hair" #NT!
+ silver_blonde_hair_gui_tt: "$silver_blonde_hair_gui_tt$" #NT!
+ silver_gold_hair_gui: "Silver Gold Hair" #NT!
+ silver_gold_hair_gui_tt: "$silver_gold_hair_gui_tt$" #NT!
+ black_hair_gui: "Black Hair" #NT!
+ black_hair_gui_tt: "As seen in House Baratheon" #NT!
+ light_blonde_hair_gui: "Light Blonde Hair" #NT!
+ light_blonde_hair_gui_tt: "As seen in House Arryn" #NT!
+ gold_hair_gui: "Gold Hair" #NT!
+ gold_hair_gui_tt: "As seen in Houses Lannister & Rowan" #NT!
+ bronze_hair_gui: "Bronze Hair" #NT!
+ bronze_hair_gui_tt: "As seen in House Royce" #NT!
+ light_red_hair_gui: "Light Red Hair" #NT!
+ light_red_hair_gui_tt: "As seen in House Toland" #NT!
+ red_hair_gui: "Red Hair" #NT!
+ red_hair_gui_tt: "As seen in Houses Reyne & Connington" #NT!
+ kissed_by_fire_hair_gui: "Kissed by Fire Hair" #NT!
+ kissed_by_fire_hair_gui_tt: "Kissed by Fire Hair" #NT!
+ auburn_hair_gui: "Auburn Hair" #NT!
+ auburn_hair_gui_tt: "As seen in House Tully" #NT!
+ brown_hair_gui: "Brown Hair" #NT!
+ brown_hair_gui_tt: "As seen in House Tyrell" #NT!
+ dark_brown_hair_gui: "Dark Brown Hair" #NT!
+ dark_brown_hair_gui_tt: "As seen in House Stark" #NT!
+  # Eyes 
+ light_blue_eyes_gui: "Light Blue Eyes" #NT!
+ blue_eyes_gui: "Blue Eyes" #NT!
+ midnight_eyes_gui: "Midnight Eyes" #NT!
+ seaglass_eyes_gui: "Seaglass Eyes" #NT!
+ seafoam_eyes_gui: "Seafoam Eyes" #NT!
+ emerald_eyes_gui: "Emerald Eyes" #NT!
+ grey_eyes_gui: "Grey Eyes" #NT!
+ gold_eyes_gui: "Gold Eyes" #NT!
+ light_brown_eyes_gui: "Light Brown Eyes" #NT!
+ brown_eyes_gui: "Brown Eyes" #NT!
+ black_eyes_gui: "Black Eyes" #NT!
+ purple_eyes_1_gui: "Purple Eyes 1" #NT!
+ purple_eyes_2_gui: "Purple Eyes 2" #NT!
+ purple_eyes_3_gui: "Purple Eyes 3" #NT!
+ purple_eyes_4_gui: "Purple Eyes 4" #NT!
+ purple_eyes_5_gui: "Purple Eyes 5" #NT!
+ purple_eyes_6_gui: "Purple Eyes 6" #NT!
+ purple_eyes_7_gui: "Purple Eyes 7" #NT!
+ purple_eyes_8_gui: "Purple Eyes 8" #NT!
+ purple_eyes_9_gui: "Purple Eyes 9" #NT!
+ purple_eyes_10_gui: "Purple Eyes 10" #NT!
+ purple_eyes_11_gui: "Purple Eyes 11" #NT!
+ purple_eyes_12_gui: "Purple Eyes 12" #NT!
+ purple_eyes_13_gui: "Purple Eyes 13" #NT!
+ purple_eyes_14_gui: "Purple Eyes 14" #NT!
+ purple_eyes_15_gui: "Purple Eyes 15" #NT!
+ purple_eyes_16_gui: "Purple Eyes 16" #NT!
+ light_blue_eyes_gui_tt: "As seen in House Arryn" #NT!
+ blue_eyes_gui_tt: "As seen in Houses Baratheon & Tully" #NT!
+ midnight_eyes_gui_tt: "As seen in House Dayne" #NT!
+ seaglass_eyes_gui_tt: "As seen in House Velaryon" #NT!
+ seafoam_eyes_gui_tt: "As seen in House Velaryon" #NT!
+ emerald_eyes_gui_tt: "As seen in House Lannister" #NT!
+ grey_eyes_gui_tt: "As seen in House Stark" #NT!
+ gold_eyes_gui_tt: "As seen in House Rowan" #NT!
+ light_brown_eyes_gui_tt: "As seen in House Hightower" #NT!
+ brown_eyes_gui_tt: "As seen in House Tyrell" #NT!
+ black_eyes_gui_tt: "As seen in House Greyjoy" #NT!
+ purple_eyes_1_gui_tt: "As seen in the blood of old Valyria" #NT!
+ purple_eyes_2_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_3_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_4_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_5_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_6_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_7_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_8_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_9_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_10_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_11_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_12_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_13_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_14_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_15_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ purple_eyes_16_gui_tt: "$purple_eyes_1_gui_tt$" #NT!
+ no_strong_seed_gui: "No Strong Seed" #NT!
+  
+ green1_gui: "Green1" #NT!
+ green1_gui_tt: "Green1" #NT!
+ green2_gui: "Green2" #NT!
+ green2_gui_tt: "Green2" #NT!
+ blue1_gui: "Blue1" #NT!
+ blue1_gui_tt: "Blue1" #NT!
+ blue2_gui: "Blue2" #NT!
+ blue2_gui_tt: "Blue2" #NT!
+ black1_gui: "Black1" #NT!
+ black1_gui_tt: "Black1" #NT!
+ black2_gui: "Black2" #NT!
+ black2_gui_tt: "Black2" #NT!
+ brown1_gui: "Brown1" #NT!
+ brown1_gui_tt: "Brown1" #NT!
+ brown2_gui: "Brown2" #NT!
+ brown2_gui_tt: "Brown2" #NT!
+ brown3_gui: "Brown3" #NT!
+ brown3_gui_tt: "Brown3" #NT!
+ grey_gui: "Grey" #NT!
+ grey_gui_tt: "Grey" #NT!
+ purple1_gui: "Purple1" #NT!
+ purple1_gui_tt: "Purple1" #NT!
+ purple2_gui: "Purple2" #NT!
+ purple2_gui_tt: "Purple2" #NT!
+ purple3_gui: "Purple3" #NT!
+ purple3_gui_tt: "Purple3" #NT!
+ purple4_gui: "Purple4" #NT!
+ purple4_gui_tt: "Purple4" #NT!
+ red_gui: "Red" #NT!
+ red_gui_tt: "Red" #NT!
+ gold_gui: "Gold" #NT!
+ gold_gui_tt: "Gold" #NT!
+ random_gui: "Random" #NT!
+ random_gui_tt: "Random" #NT!
+ no_heterochromia_gui: "No Heterochromia" #NT!
+  
+ reset_de_gui_tt: "Reset to Original Value" #NT!
+ incr_de_gui_tt: "Increase Value by [ROOT.Var('value_to_change').GetValue|0%]" #NT!
+ decr_de_gui_tt: "Decrease Value by [ROOT.Var('value_to_change').GetValue|0%]" #NT!
+ plusminus1_de_gui: "± 1%" #NT!
+ plusminus1_de_gui_tt: "Values will be changed by 1%" #NT!
+ plusminus5_de_gui: "± 5%" #NT!
+ plusminus5_de_gui_tt: "Values will be changed by 5%" #NT!
+ dragon_primary_color_value_de_gui: "Primary Color Value" #NT!
+ dragon_primary_color_value_de_gui_tt: "Primary Color Value" #NT!
+ dragon_primary_color_hue_de_gui: "Primary Color Hue" #NT!
+ dragon_primary_color_hue_de_gui_tt: "Primary Color Hue" #NT!
+ dragon_secondary_value_de_gui: "Secondary Color Value" #NT!
+ dragon_secondary_value_de_gui_tt: "Secondary Color Value" #NT!
+ dragon_secondary_hue_de_gui: "Secondary Color Hue" #NT!
+ dragon_secondary_hue_de_gui_tt: "Secondary Color Hue" #NT!
+ dragon_tertiary_value_de_gui: "Tertiary Color Value" #NT!
+ dragon_tertiary_value_de_gui_tt: "Tertiary Color Value" #NT!
+ dragon_tertiary_hue_de_gui: "Tertiary Color Hue" #NT!
+ dragon_tertiary_hue_de_gui_tt: "Tertiary Color Hue" #NT!
+ dragon_horn_color_value_de_gui: "Horn Color Value" #NT!
+ dragon_horn_color_value_de_gui_tt: "Horn Color Value" #NT!
+ dragon_horn_color_hue_de_gui: "Horn Color Hue" #NT!
+ dragon_horn_color_hue_de_gui_tt: "Horn Color Hue" #NT!
+ dragon_eye_color_value_de_gui: "Eye Color Value" #NT!
+ dragon_eye_color_value_de_gui_tt: "Eye Color Value" #NT!
+ dragon_eye_color_hue_de_gui_tt: "Eye Color Hue" #NT!
+ dragon_eye_color_hue_de_gui: "Eye Color Hue" #NT!
+ dragon_brow_width_de_gui_tt: "Brow Width" #NT!
+ dragon_brow_width_de_gui: "Brow Width" #NT!
+ dragon_cheek_width_de_gui_tt: "Cheek Width" #NT!
+ dragon_cheek_width_de_gui: "Cheek Width" #NT!
+ dragon_chin_profile_de_gui_tt: "Chin Profile" #NT!
+ dragon_chin_profile_de_gui: "Chin Profile" #NT!
+ dragon_crest_depth_de_gui_tt: "Crest Depth" #NT!
+ dragon_crest_depth_de_gui: "Crest Depth" #NT!
+ dragon_head_roundness_de_gui_tt: "Head Roundness" #NT!
+ dragon_head_roundness_de_gui: "Head Roundness" #NT!
+ dragon_horns_eyebrow_length_de_gui_tt: "Horns Eyebrow Length" #NT!
+ dragon_horns_eyebrow_length_de_gui: "Horns Eyebrow Length" #NT!
+ dragon_jaw_width_de_gui_tt: "Jaw Width" #NT!
+ dragon_jaw_width_de_gui: "Jaw Width" #NT!
+ dragon_lower_jaw_height_de_gui_tt: "Lower Jaw Height" #NT!
+ dragon_lower_jaw_height_de_gui: "Lower Jaw Height" #NT!
+ dragon_lower_jaw_width_de_gui_tt: "Lower Jaw Width" #NT!
+ dragon_lower_jaw_width_de_gui: "Lower Jaw Width" #NT!
+ dragon_old_neck_de_gui_tt: "Old Neck" #NT!
+ dragon_old_neck_de_gui: "Old Neck" #NT!
+ dragon_outer_brow_height_de_gui_tt: "Outer Brow Height" #NT!
+ dragon_outer_brow_height_de_gui: "Outer Brow Height" #NT!
+ dragon_snout_height_de_gui_tt: "Snout Height" #NT!
+ dragon_snout_height_de_gui: "Snout Height" #NT!
+ dragon_snout_length_de_gui_tt: "Snout Length" #NT!
+ dragon_snout_length_de_gui: "Snout Length" #NT!
+ dragon_snout_width_de_gui_tt: "Snout Width" #NT!
+ dragon_snout_width_de_gui: "Snout Width" #NT!
+ dragon_upper_jaw_de_gui_tt: "Upper Jaw" #NT!
+ dragon_upper_jaw_de_gui: "Upper Jaw" #NT!
+ dragon_center_fin_size_de_gui_tt: "Center Fin Size" #NT!
+ dragon_center_fin_size_de_gui: "Center Fin Size" #NT!
+ dragon_back_spike_size_de_gui_tt: "Back Spike Size" #NT!
+ dragon_back_spike_size_de_gui: "Back Spike Size" #NT!
+ dragon_horns_eyebrow_de_gui_tt: "Horns Eyebrow" #NT!
+ dragon_horns_eyebrow_de_gui: "Horns Eyebrow" #NT!
+ neck_spike_size_de_gui_tt: "Neck Spike Size" #NT!
+ neck_spike_size_de_gui: "Neck Spike Size" #NT!
+ dragon_side_fin_size_de_gui_tt: "Side Fin Size" #NT!
+ dragon_side_fin_size_de_gui: "Side Fin Size" #NT!
+ dragon_snout_end_width_de_gui_tt: "Snout End Width" #NT!
+ dragon_snout_end_width_de_gui: "Snout End Width" #NT!
+ dragon_neck_length_de_gui_tt: "Neck Length" #NT!
+ dragon_neck_length_de_gui: "Neck Length" #NT!
+ dragon_scales_effect_de_gui_tt: "Metallic Scales" #NT!
+ dragon_scales_effect_de_gui: "Metallic Scales" #NT!
+ dragon_wounded_de_gui_tt: "Battle Scars" #NT!
+ dragon_wounded_de_gui: "Battle Scars" #NT!
+ dragon_tail_length_de_gui_tt: "Tail Length" #NT!
+ dragon_tail_length_de_gui: "Tail Length" #NT!
+ dragon_horn_template_shape_value_de_gui_tt: "Horn Size" #NT!
+ dragon_horn_template_shape_value_de_gui: "Horn Size" #NT!
+  
+ dragon_horn_template_shape_template_de_gui_tt: "Horn Shape:" #NT!
+ dragon_horn_template_shape_template_de_gui: "Horn Shape:" #NT!
+  
+ gene_dragon_horn_shape_template_1: "Meleys' Horns" #NT!
+ gene_dragon_horn_shape_template_2: "Balerion's Horns" #NT!
+ gene_dragon_horn_shape_template_3: "Cannibal's Horns" #NT!
+ gene_dragon_horn_shape_template_4: "Curvy Horns" #NT!
+ gene_dragon_horn_shape_template_5: "Dreamfyre's Horns" #NT!
+ gene_dragon_horn_shape_template_6: "Grey Ghost's Horns" #NT!
+ gene_dragon_horn_shape_template_7: "Long Horns" #NT!
+ gene_dragon_horn_shape_template_8: "Meraxes' Horns" #NT!
+ gene_dragon_horn_shape_template_9: "Silverwing's Horns" #NT!
+ gene_dragon_horn_shape_template_10: "Drogon's Horns" #NT!
+  
+ dragon_body_shading_value_de_gui_tt: "Body Shading Strength" #NT!
+ dragon_body_shading_value_de_gui: "Body Shading Strength" #NT!
+  
+ dragon_body_shading_template_de_gui_tt: "Body Shading:" #NT!
+ dragon_body_shading_template_de_gui: "Body Shading:" #NT!
+  
+ gene_dragon_body_shading_template_1: "Bottom - Black" #NT!
+ gene_dragon_body_shading_template_2: "Bottom - White" #NT!
+ gene_dragon_body_shading_template_3: "Bottom - Secondary Color" #NT!
+ gene_dragon_body_shading_template_4: "Bottom - Tertiary Color" #NT!
+ gene_dragon_body_shading_template_5: "Top - Black" #NT!
+ gene_dragon_body_shading_template_6: "Top - White" #NT!
+ gene_dragon_body_shading_template_7: "Top - Secondary Color" #NT!
+ gene_dragon_body_shading_template_8: "Top - Tertiary Color" #NT!
+ gene_dragon_body_shading_template_9: "Front - Black" #NT!
+ gene_dragon_body_shading_template_10: "Front - White" #NT!
+ gene_dragon_body_shading_template_11: "Front - Secondary Color" #NT!
+ gene_dragon_body_shading_template_12: "Front - Tertiary Color" #NT!
+ gene_dragon_body_shading_template_13: "Back - Black" #NT!
+ gene_dragon_body_shading_template_14: "Back - White" #NT!
+ gene_dragon_body_shading_template_15: "Back - Secondary Color" #NT!
+ gene_dragon_body_shading_template_16: "Back - Tertiary Color" #NT!
+  
+ dragon_wings_shading_value_de_gui_tt: "Wing Shading Strength" #NT!
+ dragon_wings_shading_value_de_gui: "Wing Shading Strength" #NT!
+  
+ dragon_wings_shading_template_de_gui_tt: "Wing Shading:" #NT!
+ dragon_wings_shading_template_de_gui: "Wing Shading:" #NT!
+  
+ gene_dragon_wings_shading_template_1: "Back - Black" #NT!
+ gene_dragon_wings_shading_template_2: "Back - White" #NT!
+ gene_dragon_wings_shading_template_3: "Back - Secondary Color" #NT!
+ gene_dragon_wings_shading_template_4: "Back - Tertiary Color" #NT!
+ gene_dragon_wings_shading_template_5: "Front - Black" #NT!
+ gene_dragon_wings_shading_template_6: "Front - White" #NT!
+ gene_dragon_wings_shading_template_7: "Front - Secondary Color" #NT!
+ gene_dragon_wings_shading_template_8: "Front - Tertiary Color" #NT!
+ gene_dragon_wings_shading_template_9: "Outside - Black" #NT!
+ gene_dragon_wings_shading_template_10: "Outside - White" #NT!
+ gene_dragon_wings_shading_template_11: "Outside - Secondary Color" #NT!
+ gene_dragon_wings_shading_template_12: "Outside - Tertiary Color" #NT!
+ gene_dragon_wings_shading_template_13: "Inside - Black" #NT!
+ gene_dragon_wings_shading_template_14: "Inside - White" #NT!
+ gene_dragon_wings_shading_template_15: "Inside - Secondary Color" #NT!
+ gene_dragon_wings_shading_template_16: "Inside - Tertiary Color" #NT!
+ gene_dragon_wings_shading_template_17: "Full - Black" #NT!
+ gene_dragon_wings_shading_template_18: "Full - White" #NT!
+ gene_dragon_wings_shading_template_19: "Full - Secondary Color" #NT!
+ gene_dragon_wings_shading_template_20: "Full - Tertiary Color" #NT!
+  
+ dragon_snout_profile_de_gui: "Snout Profile" #NT!
+ dragon_snoute_profile_de_gui_tt: "Snout Profile" #NT!
+  
+ CV_CUSTOMIZE_AGOT_DRAGON: "#P #I Click to open the Dragon Customizer#!#!" #NT!
+  
+ agot_house_feud_viewer_title: "[Scope.GetCharacter.GetHouse.GetName]-[Scope.GetCharacter.MakeScope.Var('feud_viewer').Var('house_feud_house').House.GetName] [house_feud|e]" #NT!
+ agot_remove_from_kg: "Remove [Scope.GetCharacter.GetFirstNameNoTooltip]" #NT!
+  
+  # House Legitimacy 
+ DESIRED_LEGITIMACY: "100" #NT!
+ SHOW_LEGITIMATE_HOUSE: "#T Show Legitimate House#!" #NT!
+ LEGITIMATE_HOUSE: "[agot_legitimate_house|E]" #NT!
+ CURRENT_HOUSE: "Current House" #NT!
+ PROGRESS_TO_LEGITIMATE_HOUSE: "#weak Progress to Legitimate House#!" #NT!
+ PROGRESS_TO_LEGITIMATE_HOUSE_PERCENTAGE: "[TitleHistoryWindow.GetTitle.MakeScope.Var('new_house_progress').GetValue|2]%" #NT!
+  
+ CURRENT_HOUSE_IS_ILLEGITIMATE: "[agot_legitimate_house|E] in #N Dispute#!" #NT!
+ CURRENT_HOUSE_IS_LEGITIMATE: "[agot_legitimate_house|E] in #P Power#!" #NT!
+ NO_CURRENT_HOLDER_LEGITIMATE: "There is no current holder of [TitleHistoryWindow.GetTitle.GetNameNoTooltip]." #NT!
+ CURRENT_HOUSE_IS_LEGITIMATE_HOUSE_PROGRESS_TT: "House [TitleHistoryWindow.GetTitle.MakeScope.Var('legitimate_house').House.GetNameNoTooltip] is the Legitimate House of [TitleHistoryWindow.GetTitle.GetNameNoTooltip]." #NT!
+ LEGITIMATE_HOUSE_PROGRESS: "[TitleHistoryWindow.GetTitle.MakeScope.Var('current_house').House.GetName] progress towards supplanting [TitleHistoryWindow.GetTitle.MakeScope.Var('legitimate_house').House.GetName] as the Legitimate House of [TitleHistoryWindow.GetTitle.GetNameNoTooltip] is [TitleHistoryWindow.GetTitle.MakeScope.Var('new_house_progress').GetValue|2]%.\n" #NT!
+ NEW_HOUSE_LEGITIMACY_INCREASES_BY: "This changes each year by [TitleHistoryWindow.GetTitle.MakeScope.ScriptValue('agot_new_house_yearly_progress_change')|=+2] due to the following factors present in [TitleHistoryWindow.GetTitle.GetBaseNameNoTooltip]:" #NT!
+ NEW_HOUSE_LEGITIMACY_BASE_VALUE: "Base: #P +0.1#!" #NT!
+ NEW_HOUSE_LEGITIMACY_ANCESTOR_VALUE: "Past holders of [house|E]: [TitleHistoryWindow.GetTitle.MakeScope.ScriptValue('agot_legitimate_house_holders_of_current_dynasty')|=+1]" #NT!
+ NEW_HOUSE_LEGITIMACY_NORTH_REMEMBERS_VALUE: "[agot_legitimate_house_the_north_remembers|E]: [TitleHistoryWindow.GetTitle.MakeScope.ScriptValue('agot_legitimate_house_the_north_remembers_value')|=+1]" #NT!
+ NEW_HOUSE_LEGITIMACY_IRON_PRICE_VALUE: "[agot_legitimate_house_iron_price|E]: [TitleHistoryWindow.GetTitle.MakeScope.ScriptValue('agot_legitimate_house_the_iron_price_value')|=+1]" #NT!
+ NEW_HOUSE_SAME_DYNASTY_VALUE: "Same dynasty as legitimate house: #P +1#!" #NT!
+ NEW_HOUSE_EXTINCT_OLD_HOUSE_VALUE: "Legitimate house is extinct: #P +2#!" #NT!
+ NEW_HOUSE_EMPIRE_TIER_TITLE_VALUE: "Empire-tier title: #N -0.5#!" #NT!
+ NEW_HOUSE_HAS_BOTH_PARENTS_VALUE: "Parents of the legitimate house: #P +2#!" #NT!
+ NEW_HOUSE_HAS_ONE_PARENT_VALUE: "Parent of the legitimate house: #P +1#!" #NT!
+ NEW_HOUSE_HAS_GRANDPARENT_VALUE: "Grandparent is of the legitimate house: #P +0.5#!" #NT!
+ NEW_HOUSE_HAS_SPOUSE_VALUE: "Spouse is of the legitimate house: #P +0.5#!" #NT!
+ NEW_HOUSE_POPULAR_OPINION_VALUE: "Average [county_opinion|E]: [TitleHistoryWindow.GetTitle.MakeScope.ScriptValue('agot_legitimate_house_popular_opinion')|=+2]" #NT!
+ NEW_HOUSE_VASSAL_OPINION_VALUE: "Average [vassal|E] opinion: [TitleHistoryWindow.GetTitle.MakeScope.ScriptValue('agot_legitimate_house_vassal_opinion')|=+2]" #NT!
+ NEW_HOUSE_MISSING_HOLDINGS_VALUE: "Missing [de_jure|E] counties: [TitleHistoryWindow.GetTitle.MakeScope.ScriptValue('agot_legitimate_house_missing_de_jure_holdings')|=+2]" #NT!

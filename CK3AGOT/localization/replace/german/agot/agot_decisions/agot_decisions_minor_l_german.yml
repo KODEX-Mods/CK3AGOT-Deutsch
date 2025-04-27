@@ -1,111 +1,117 @@
 ﻿l_german:
- ## TODO This decision does not seem to exist anywhere, commenting out for now.
- # btw_go_on_trophy_hunt_decision:0 "Go on a Trophy Hunt"
- # btw_go_on_trophy_hunt_decision_desc:0 "Beyond the wall there are ample beasts for the hunt: snow bears, shadowcats, direwolves, oh my!"
- # btw_go_on_trophy_hunt_decision_tooltip:0 "You will call a great hunt."
- # btw_go_on_trophy_hunt_decision_confirm:0 "Sound the horns!"
-
- raise_pirate_kingdom_decision:0 "Declare a Pirate Kingdom"
- raise_pirate_kingdom_decision_desc:0 "The Sistermen were once independent pirate kings, before the Rape of the Sisters and the thousand-year War Across the Water. Now, our might has grown once more, and it is time to buck the yoke of [ROOT.Char.GetLiege.GetNameNicknamedRegnal]!"
- raise_pirate_kingdom_decision_tooltip:0 "You will declare your independence, raising the Three Sisters to its rightful place as a pirate kingdom."
- raise_pirate_kingdom_decision_confirm:0 "For the Waves and the Skies!"
-
- defy_winter_lords_decision:0 "Defy the Winter Lords"
- defy_winter_lords_decision_desc:0 "The Stoneborn know nothing but derision from the Northmen, who consider us no better than Wildlings. Skagos was once free and independent of the Winter Lords — and so it shall be once more. Our might will cause [ROOT.Char.GetLiege.GetNameNicknamedRegnal] to tremble!"
- defy_winter_lords_decision_tooltip:0 "You will declare your independence, returning the Skagosi to the seas once more."
- defy_winter_lords_decision_confirm_text_desc:0 "The North will remember to fear Skagos!"
-
- agot_minor_decisions_events.0001:0 "Defy the Winter Lords"
- agot_minor_decisions_events.0001.desc:0 "Many Stoneborn have dreamt of the day that Skagos took its freedom once more. When King Brandon Stark broke our power, he forbade us the sea. Now, the North shall tremble when our ships draw near!"
- agot_minor_decisions_events.0001.a:0 "We swear fealty #bold no more#!."
- agot_minor_decisions_events.0001.a_tt:0 "Surely the North will not take this act of disloyalty without a fight. Are you prepared for war?"
-
- agot_minor_decisions_events.0002:0 "An Independent Skagos"
- agot_minor_decisions_events.0002.desc:0 "The Stoneborn rule themselves once more! The Bay of Seals will know our banners.\n\nI have etched my legacy in stone, and all Stoneborn will remember my name."
- agot_minor_decisions_events.0002.a:0 "My legacy will stand the test of time."
- agot_minor_decisions_events.0002.a_tt:0 "Skagos gains its independence."
-
- abdicate_decision:0 "Abdicate to my Heir"
- abdicate_decision_tooltip:0 "My rule must come to its end."
- abdicate_decision_desc:0 "Due to the given circumstances, I see no other alternative but to hand over the reigns of power to my heir, and let the history books write the footnote of my rule."
- abdicate_decision_confirm:0 "Call my Maester."
- agot_abdicate.1.t:0 "Abdication"
- agot_abdicate.1.desc:0 "[ROOT.Char.GetTitledFirstName] has decided to abdicate in your favour."
- agot_abdicate.1.a:0 "I am grateful."
-
- build_dune_road_decision:0 "Build the Dune Road"
- build_dune_road_decision_tooltip:0 "Build a large road from Storm's End to Sunspear, increasing the wealth of all counties it passes through."
- build_dune_road_decision_desc:0 "Build a large road from Storm's End to Sunspear, increasing the wealth of all counties it passes through."
- build_dune_road_decision_confirm:0 "So be it"
- agot_minor_decisions_events.0003.t:0 "The Dune Road"
- agot_minor_decisions_events.0003.desc:0 "[top_liege.GetFullNameNicknamedRegnal] has decided to build a road from Storm's End to Sunspear, in order to better promote trade between the mighty Stormlands and the proud lands of Dorne."
- agot_minor_decisions_events.0003.a:0 "A royal project indeed!"
- agot_dune_road_modifier:0 "The Dune Road"
- agot_dune_road_modifier_desc:0 "A large road between Storm's End and Sunspear."
-
- stress_loss_summerhall_decision:0 "Escape to Summerhall"
- stress_loss_summerhall_decision_tooltip:0 "Find peace in amongst the ruins"
- stress_loss_summerhall_decision_desc:0 "I need some time alone with my thoughts and away from all these people. Summerhall may be in ruins now, but it will provide a welcome respite."
- stress_loss_summerhall_decision_confirm:0 "Off I go."
- agot_minor_decisions_events.0004.t:0 "The Ruins of Summerhall"
- agot_minor_decisions_events.0004.desc:0 "The tragedy at Summerhall was almost the end of the Targaryens, but there is a strange sort of peace amongst the ruins. My mind feels much clearer now."
- agot_minor_decisions_events.0004.desc_egg:0 "\n\nOut of the corner of my eye, suddenly I see something glittering beneath the rubble. I walk over and gently remove the surrounding debris, revealing a dirty but intact dragon egg!"
- agot_minor_decisions_events.0004.a:0 "Time to return home..."
-
- agot_minor_decisions_events.0005.t:0 "Letting Myself Go"
- agot_minor_decisions_events.0005.desc:0 "#italic [ROOT.Char.GetFullNameNicknamedNoTooltip] has descended fully into madness...#!\n\nI can hear the whispers throughout the court. My courtiers think me a nuisance, in behavior if not in looks. If they consider me as such, perhaps I ought to quit maintaining appearances."
- agot_minor_decisions_events.0005.a:0 "Begone, barber!"
-
- end_the_ironborn_decision:0 "End the Ironborn"
- end_the_ironborn_decision_desc:0 "For centuries, the mongrel dogs that are the Ironborn have raped, pillaged, and reaved their way across Westeros and beyond. It has now become inevitable that we must take action against these seafaring brigands and crush their power once and for all. We must wage a war of such devastation against them that never again will an Iron King sit the Seastone Chair."
- end_the_ironborn_decision_confirm_text_desc:0 "To arms!"
- end_the_ironborn_decision_tooltip:0 "Death to the Ironborn."
-
- ironborn_rebellion_decision:0 "Rebel against the Iron Throne"
- ironborn_rebellion_decision_desc:0 "For too long now, the men of the green lands have slept comfortably in their beds. Indeed, not since the death of Harren the Black has Westeros truly known to fear the Ironborn, only occasional parties of reavers going ashore to pay the iron price. Kings, one after another, have sat upon their Iron Throne. But, have we forgotten that we have our own throne, that for centuries we had our own kings?\n\nOther men may have, but I have not. I will cast off the chains that bind our people; I will be the King of Salt and Rock. The Andals, Rhoynar, and First Men will once again know what it is to fear the Ironborn."
- ironborn_rebellion_decision_tooltip:0 "Weep, o Westeros, that the Isles rise again!"
- ironborn_rebellion_decision_confirm_text_desc:0 "We will pay the iron price!"
-
- agot_weirwood_events.0002.t:0 "A Surprising Visitor"
- agot_weirwood_events.0002.desc:0 "The godswood is a solemn place of relief from the angst of my rule; the heart tree an ancient counsel to whom I may bring problems great and small.\n\nI prepare to commune with the great weirwood when a sudden rustling breaks my focus. There, nearly hidden by the foliage, is a tiny kitten, mewing gently as it rolls about."
- agot_weirwood_events.0002.a:0 "I could use a pet!"
- agot_weirwood_events.0002.b:0 "The groundskeeper ought to get rid of this thing..."
-
- recruit_forder_specialist_decision:0 "Recruit Forder Specalist"
- recruit_forder_specialist_decision_desc:0 "Recruit a Commander that not only knows how to effectivly cross rivers, but is also a skilled fighter when they do."
- recruit_forder_specialist_decision_tooltip:0 "A Commander with the Forder trait will join your court."
- recruit_forder_specialist_decision_confirm:0 "I hope I find one"
-
- stress_loss_uncouth_decision:0 "Let Yourself Go"
- stress_loss_uncouth_decision_desc:0 "The pressures of this world have become far too much. If the world would see me as a monster, a monster they shall see."
- stress_loss_uncouth_decision_tooltip:0 "You'll give up on maintaining appearances, letting your hair and nails grow wild"
- stress_loss_uncouth_decision_confirm:0 "Who needs to bathe?"
- uncouth_stopped_cutting:0 "Uncut Hair"
- uncouth_stopped_cutting_desc:0 "This character has stopped cutting their hair, creating an unkempt appearance"
-
- agot_commission_crown_decision:0 "Commission A New Crown"
- agot_commission_crown_decision_effects_tooltip:0 "You will commission a new crown artifact."
- agot_commission_crown_decision_tooltip:0 "You will commission a new crown"
- agot_commission_crown_decision_desc:0 "Few in Westeros are allowed to possess a crown. Fewer still have the authority to wear one. The time has come to craft a new symbol of power to represent and legitimize my reign."
- agot_commission_crown_decision_confirm:0 "Summon the smith!"
- agot_commission_crown_button:0 "Choose Crown"
- agot_commission_crown_dynasty_choice_loc:0 "Based On My Lineage"
- agot_commission_crown_dynasty_choice_tooltip:0 "Create a crown based on my lineage."
- agot_commission_crown_seat_choice_loc:0 "Based On My Landed Titles"
- agot_commission_crown_seat_choice_tooltip:0 "Create a crown based on my landed titles."
- agot_commission_crown_faith_choice_loc:0 "Based On My Faith"
- agot_commission_crown_faith_choice_tooltip:0 "Create a crown based on my faith."
- agot_commission_crown_character_choice_loc:0 "Unique Crown"
- agot_commission_crown_character_choice_tooltip:0 "Create a unique crown."
-
- agot_look_into_the_flames_decision:0 "Look into the Flames"
- agot_look_into_the_flames_decision_confirm:0 "The night is dark and full of terrors"
- look_into_the_flames_decision_desc:0 "It is said [ROOT.Char.GetFaith.HighGodName] speaks to his chosen through the flames in a tongue of ash and cinders, twisting flames few can truly grasp.\n\nWhat may I see within his blessed blaze?"
- look_into_the_flames_decision_tooltip:0 "What shall the flames reveal?"
- look_into_flames_decision_effect:0 "You will perform the rites in hopes to witness a vision"
- look_into_flames_decision_no_cooldown:0 "You have #bold NOT#! taken this decision in the last 5 years"
-
- mend_dynasty_relations_decision:0 "Reconcile the Dragons"
- mend_dynasty_relations_decision_desc:0 "Since the time of the good king, the black dragon has viciously sought a way to destroy the red. But we have #italic finally#! learned to live in peace, with the two dragons on good terms, should we confine our animosity to history?"
- mend_dynasty_relations_decision_tooltip:0 "You will mend relations between the Targaryens and Blackfyres."
- mend_dynasty_relations_decision_confirm:0 "The dragons will stand as one!"
+  ## TODO This decision does not seem to exist anywhere, commenting out for now. 
+ # btw_go_on_trophy_hunt_decision: "Go on a Trophy Hunt"
+ # btw_go_on_trophy_hunt_decision_desc: "Beyond the wall there are ample beasts for the hunt: snow bears, shadowcats, direwolves, oh my!"
+ # btw_go_on_trophy_hunt_decision_tooltip: "You will call a great hunt."
+ # btw_go_on_trophy_hunt_decision_confirm: "Sound the horns!"
+  
+ raise_pirate_kingdom_decision: "Ein Piratenkönigreich ausrufen"
+ raise_pirate_kingdom_decision_desc: "Einst, vor der Vergewaltigung der Drei Schwestern, waren sie unabhängige Piratenkönigreiche. Nun ist unsere Macht einmal mehr erwacht und die Zeit gekommen, das Joch von [ROOT.Char.GetLiege.GetNameNicknamedRegnal] abzuwerfen!"
+ raise_pirate_kingdom_decision_tooltip: "Du wirst deine Unabhängigkeit erklären und die drei Schwestern an ihren angestammten Platz der Piratenkönige zurückführen."
+ raise_pirate_kingdom_decision_confirm: "For the Waves and the Skies!" #NT!
+  
+ defy_winter_lords_decision: "Den Winterlords die Stirn bieten"
+ defy_winter_lords_decision_desc: "Die Steingeborenen kennen von den Nordmännern, für die wir kaum besser als Wildlinge sind, nichts als Spott. Skagos war einst frei und unabhänig  -  und wird es wieder sein. Unsere Macht wird [ROOT.Char.GetLiege.GetNameNicknamedRegnal] erzittern lassen!"
+ defy_winter_lords_decision_tooltip: "Ihr werdet Eure Unabhängigkeit erklären und die Skagosi wieder auf See führen."
+ defy_winter_lords_decision_confirm_text_desc: "Der Norden wird die Skagosi fürchten!"
+  
+ agot_minor_decisions_events.0001: "Den Winterlords die Stirn bieten"
+ agot_minor_decisions_events.0001.desc: "Viele Steingeborene haben von dem Tag geträumt, an dem Skagos seine Freiheit wiedererlangt. Als König Brandon Stark unsere Macht brach, verbot er uns die Seefahrt. Nun wird der Norden zittern, wenn sich unsere Schiffe nähern!"
+ agot_minor_decisions_events.0001.a: "Wir schwören #bold nie wieder#! Treue."
+ agot_minor_decisions_events.0001.a_tt: "Sicher wird der Norden über diese Untreue nicht kampflos hinwegsehen. Sind wir bereit für einen Krieg?"
+  
+ agot_minor_decisions_events.0002: "Ein Unabhängiges Skagos"
+ agot_minor_decisions_events.0002.desc: "Einmal mehr herrschen die Steingeborenen über sich selbst! Die Seehundsbucht wird unser Banner wiedererkennen.\n\nIch habe mein Vermächtnis und Stein gemeißelt und jeder Steingeborene wird sich meiner erinnern."
+ agot_minor_decisions_events.0002.a: "Mein Vermächtnis wird die Zeiten überdauern."
+ agot_minor_decisions_events.0002.a_tt: "Skagos hat sich seine Unabhängigkeit erkämpft."
+  
+ abdicate_decision: "Zugunsten meines Erben abdanken"
+ abdicate_decision_tooltip: "Meine Herrschaft muss zu Ende gehen."
+ abdicate_decision_desc: "Angesichts der Umstände sehe ich keine andere Möglichkeit, als die Zügel der Macht an meinen Erben abzugeben und die Geschichtsbücher das Vermächtnis meiner Herrschaft interpretieren zu lassen."
+ abdicate_decision_confirm: "Ruft meinen Maester."
+ agot_abdicate.1.t: "Abdankung"
+ agot_abdicate.1.desc: "[ROOT.GetTitledFirstName] entschied, zu Euren Gunsten abzudanken."
+ agot_abdicate.1.a: "Ich bin voller Ehrfurcht."
+  
+ build_dune_road_decision: "Die Dünenstraße errichten"
+ build_dune_road_decision_tooltip: "Baut eine große Straße von Sturmkap bis nach Sonnspeer, die den Wohlstand aller Lordschaften auf ihrem Weg steigern wird."
+ build_dune_road_decision_desc: "Baut eine große Straße von Sturmkap bis nach Sonnspeer, die den Wohlstand aller Lordschaften auf ihrem Weg steigern wird."
+ build_dune_road_decision_confirm: "So sei es"
+ agot_minor_decisions_events.0003.t: "Die Dünenstraße"
+ agot_minor_decisions_events.0003.desc: "Seine Gnaden entschied, eine große Straße vom Sturmkap bis nach Sonnspeer zu errichten, um den Handel zwischen Dorne und den Sturmlanden zu stärken."
+ agot_minor_decisions_events.0003.a: "Ein wahrlich königliches Projekt!"
+ agot_dune_road_modifier: "Die Dünenstraße"
+ agot_dune_road_modifier_desc: "Eine große Straße zwischen Sturmkap und Sonnspeer"
+  
+ stress_loss_summerhall_decision: "Nach Sommerhall entkommen"
+ stress_loss_summerhall_decision_tooltip: "Findet Frieden zwischen den Ruinen"
+ stress_loss_summerhall_decision_desc: "Ich brauche etwas Zeit für mich, weit weg von all diesen Leuten. Sommerhall mag nur noch eine Ruine sein, doch wird sie mir eine willkommene Verschnaufpause verschaffen."
+ stress_loss_summerhall_decision_confirm: "Ich mache mich auf den Weg"
+ agot_minor_decisions_events.0004.t: "Die Ruinen von Sommerhall"
+ agot_minor_decisions_events.0004.desc: "Die Tragödie von Sommerhall hätte fast das Ende der Targaryens besiegelt... und dennoch findet sich ein seltsamer Friede zwischen den Ruinen. Nun fühle ich mich um so vieles klarer."
+ agot_minor_decisions_events.0004.desc_egg: "\n\nOut of the corner of my eye, suddenly I see something glittering beneath the rubble. I walk over and gently remove the surrounding debris, revealing a dirty but intact dragon egg!" #NT!
+ agot_minor_decisions_events.0004.a: "Es wird Zeit heimzukehren..."
+  
+ agot_minor_decisions_events.0005.t: "Letting Myself Go" #NT!
+ agot_minor_decisions_events.0005.desc: "#italic [ROOT.Char.GetFullNameNicknamedNoTooltip] has descended fully into madness...#!\n\nI can hear the whispers throughout the court. My courtiers think me a nuisance, in behavior if not in looks. If they consider me as such, perhaps I ought to quit maintaining appearances." #NT!
+ agot_minor_decisions_events.0005.a: "Begone, barber!" #NT!
+  
+ end_the_ironborn_decision: "Die Eisenmänner vernichten"
+ end_the_ironborn_decision_desc: "Seit Jahrhunderten haben die Eisengeborenen, diese Mischlingshunde, vergewaltigt, geplündert und sich ihren Weg durch Westeros und darüber hinaus gepflügt. Es ist nun unausweichlich geworden, dass wir gegen diese seefahrenden Räuber vorgehen und ihre Macht ein für alle Mal zerschlagen müssen. Wir müssen einen so vernichtenden Krieg gegen sie führen, dass nie wieder ein Eisenkönig auf dem Meersteinthron sitzen wird."
+ end_the_ironborn_decision_confirm_text_desc: "Zu den Waffen!"
+ end_the_ironborn_decision_tooltip: "Tod den Eisenmännern."
+  
+ ironborn_rebellion_decision: "Rebelliert gegen den Eisernen Thron"
+ ironborn_rebellion_decision_desc: "Schon viel zu lange haben die Männer der grünen Länder bequem in ihren Bettchen geschlafen. In der Tat hat Westeros seit dem Tod von Harren dem Schwarzen die Eisenmänner nicht mehr wirklich gefürchtet, nur vereinzelte Scharen von Plünderern sind an Land gegangen, um den Eisernen Preis zu zahlen. Ein König nach dem anderen hat auf dem Eisernen Thron gesessen. Doch haben wir vergessen, dass wir unseren eigenen Thron haben, dass wir jahrhundertelang unsere eigenen Könige hatten?\n\nAndere mögen das getan haben, aber ich nicht. Ich werde die Ketten abwerfen, die unser Volk fesseln; ich werde der König über Salz und Stein sein. Die Andalen, die Rhoynar und die Ersten Menschen werden wieder erfahren, was es heißt, die Eisenmänner zu fürchten."
+ ironborn_rebellion_decision_tooltip: "Weine, oh Westeros, wenn sich die Inseln wieder erheben!"
+ ironborn_rebellion_decision_confirm_text_desc: "Wir werden den Eisernen Preis zahlen!"
+  
+ agot_weirwood_events.0002.t: "Ein überraschender Besucher"
+ agot_weirwood_events.0002.desc: "Der Götterhain ist ein friedlicher Ort der Befreiung von den Ängsten meiner Herrschaft; der Herzbaum ein uralter Ratgeber, dem ich große und kleine Sorgen vortragen kann.\n\nIch bereite mich darauf vor, mit dem großen #agot_weirwood_events in Kontakt zu treten, als ein plötzliches Rascheln meine Konzentration stört. Dort, fast gänzlich vom Laub verdeckt, wälzt sich ein winziges Kätzchen und miaut leise."
+ agot_weirwood_events.0002.a: "Ich könnte ein Haustier gebrauchen!"
+ agot_weirwood_events.0002.b: "Der Hüter soll dieses Ding loswerden..."
+  
+ recruit_forder_specialist_decision: "Rekrutiert einen Furtner"
+ recruit_forder_specialist_decision_desc: "Rekrutiert einen Befehlshaber, der nicht nur weiß, wie man effektiv Flüsse überquert, sondern auch ein geschickter Krieger ist, wenn er dies tut."
+ recruit_forder_specialist_decision_tooltip: "Ein Befehlshaber mit der Furtner-Eigenschaft wird sich Eurem Hof anschließen."
+ recruit_forder_specialist_decision_confirm: "Ich hoffe, es findet sich jemand"
+  
+ stress_loss_uncouth_decision: "Let Yourself Go" #NT!
+ stress_loss_uncouth_decision_desc: "The pressures of this world have become far too much. If the world would see me as a monster, a monster they shall see." #NT!
+ stress_loss_uncouth_decision_tooltip: "You'll give up on maintaining appearances, letting your hair and nails grow wild" #NT!
+ stress_loss_uncouth_decision_confirm: "Who needs to bathe?" #NT!
+ uncouth_stopped_cutting: "Uncut Hair" #NT!
+ uncouth_stopped_cutting_desc: "This character has stopped cutting their hair, creating an unkempt appearance" #NT!
+  
+ agot_commission_crown_decision: "Commission A New Crown" #NT!
+ agot_commission_crown_decision_effects_tooltip: "You will commission a new crown artifact." #NT!
+ agot_commission_crown_decision_tooltip: "You will commission a new crown" #NT!
+ agot_commission_crown_decision_desc: "Few in Westeros are allowed to possess a crown. Fewer still have the authority to wear one. The time has come to craft a new symbol of power to represent and legitimize my reign." #NT!
+ agot_commission_crown_decision_confirm: "Summon the smith!" #NT!
+ agot_commission_crown_button: "Choose Crown" #NT!
+ agot_commission_crown_dynasty_choice_loc: "Based On My Lineage" #NT!
+ agot_commission_crown_dynasty_choice_tooltip: "Create a crown based on my lineage." #NT!
+ agot_commission_crown_seat_choice_loc: "Based On My Landed Titles" #NT!
+ agot_commission_crown_seat_choice_tooltip: "Create a crown based on my landed titles." #NT!
+ agot_commission_crown_faith_choice_loc: "Based On My Faith" #NT!
+ agot_commission_crown_faith_choice_tooltip: "Create a crown based on my faith." #NT!
+ agot_commission_crown_character_choice_loc: "Unique Crown" #NT!
+ agot_commission_crown_character_choice_tooltip: "Create a unique crown." #NT!
+  
+ mend_dynasty_relations_decision: "Reconcile the Dragons" #NT!
+ mend_dynasty_relations_decision_desc: "Since the time of the good king, the black dragon has viciously sought a way to destroy the red. But we have #italic finally#! learned to live in peace, with the two dragons on good terms, should we confine our animosity to history?" #NT!
+ mend_dynasty_relations_decision_tooltip: "You will mend relations between the Targaryens and Blackfyres." #NT!
+ mend_dynasty_relations_decision_confirm: "The dragons will stand as one!" #NT!
+  
+ take_new_face_decision: "Take New Face" #NT!
+ take_new_face_decision_desc: "I will abandon my old ways and all those I know, taking a new face, life, and purpose in service of the Many-Faced God." #NT!
+ take_new_face_decision_tooltip: "You will abandon your current face and start anew" #NT!
+ take_new_face_decision_c_tt: "Upon taking a new face:\n$EFFECT_LIST_BULLET$You will abandon your current character and switch to a new one. Only your [gold|E], non-court [artifacts|E], [traits|E], and [faith|E] will be kept. The rest is determined by the face you select.\n$EFFECT_LIST_BULLET$ You will begin playing as a landless character of a new house." #NT!
+ take_new_face_multiple_player_warning_tt: "@warning_icon! This is a multiplayer session, transfer of player to the new character is not automatic." #NT!
+ take_new_face_decision_confirm: "A new life awaits" #NT!
+ has_taken_face_recently: "You have recently donned a new face" #NT!
+  
+ agot_visit_house_of_baw: "Visit the House of Black and White" #NT!
+ agot_visit_house_of_baw_decision_effect: "@warning_icon! The Many-Faced God will take away your suffering. [Glossary( 'Valar dohaeris.', 'VALAR_DOHAERIS_GLOSS' )]." #NT!
+ agot_valar_morghulis: "Valar Morghulis" #NT!
+ commit_suicide_decision_confirm_base: "My time has come" #NT!

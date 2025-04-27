@@ -1,0 +1,15 @@
+﻿l_german:
+  ### THE RELIGION ### 
+ the_counsels_religion: "The Counsels of Doshi" #NT!
+ the_counsels_religion_adj: "The Counsels" #NT!
+ the_counsels_religion_adherent: "Drogikh" #NT!
+ the_counsels_religion_adherent_plural: "Drogikhs" #NT!
+ the_counsels_religion_desc: "The Dothraki have long believed in multitudes of gods, including the Sun and his goddess wife, the Moon. Yet, it was the Witch Doshi who would unite the Dothraki in faith, just as her son united them in Khalasar." #NT!
+  
+ ### Faiths ### 
+ #Great Stallion 
+ dothraki_faith: "Khalasar of the Great Stallion" #NT!
+ dothraki_faith_adj: "Great Stallion" #NT!
+ dothraki_faith_adherent: "Drogikh" #NT!
+ dothraki_faith_adherent_plural: "Drogikhs" #NT!
+ dothraki_faith_desc: "The religion and beliefs of the Dothraki are largely derived from their ancient traditions and the teachings of the witch-queen Doshi, mother of the first great Khal. Most of the natural world is represented by many gods: the Sun and his wife, the Moon; the earth itself; and above all, the Great Stallion. While they acknowledge the gods of other lands and peoples, they are not to be worshipped. Instead, they are to be broken and dragged to Vaes Dothrak to become vanquished witnesses to the greatness of the Dothraki and their gods." #NT!

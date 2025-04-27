@@ -1,41 +1,138 @@
 ﻿l_german:
- #NOTE: follows the order of dynasties in the \common\dynasties\ files
- ### VALE DYNASTIES/CADET BRANCHES ###
- #Vale Great Houses
- dynn_Arryn_motto:0 "As High As Honor" #used for both Arryn and Arryn of Gulltown
- 
- #Main Vale
- dynn_Royce_motto:0 "We Remember"
- dynn_Tollett_motto:0 "When All is Darkest"
- dynn_Egen_motto:0 "By Day or Night"
- dynn_Wydman_motto:0 "Right Conquers Might"
- dynn_Redfort_motto:0 "As Strong as Stone"
- dynn_Waxley_motto:0 "Light in Darkness"
- dynn_Waynwood_motto:0 "Onwards" #non-canon
- dynn_Hardyng_motto:0 "Balanced and Ready" #non-canon
- dynn_Shett_motto:0 "Flight Takes Distance" #non-canon
-
- dynn_Baelish_motto:0 "Look Around You"
- 
- #Sisterman
- 
- #Landless Houses
- 
- #Extinct
- dynn_Griffin_motto:0 "By Wing" #non-canon
- 
- #AGoT Video Game (2012)
- 
- #TTRPG
- dynn_Marsten_motto:0 "Let the Heavens Reign"
- 
- #Telltale
- 
- #Telltale Fanon
- 
- #Royal Progress Contest Winners
- dynn_Loreley_motto:0 "All Drowned, All Devoured"
-
- #Modcanon
- dynn_Topp_motto:0 "Rock and Stone"
- dynn_Gorse_motto:0 "Till We Fall"
+  #NOTE: follows the order of dynasties in the \common\dynasties\ files 
+  #Canon mottos marked with comments - do not edit these 
+  ### VALE DYNASTIES/CADET BRANCHES ### 
+  #Vale Great Houses 
+ dynn_Arryn_motto: "Hoch wie die Ehre"
+  
+  #Lower Vale - all canon houses 
+ dynn_Breakstone_motto: "To Rubble" #NT!
+ dynn_Corbray_motto: "No Love Lost" #NT!
+ dynn_Crayne_motto: "Grace and Goodness" #NT!
+ dynn_Grafton_motto: "The Light That Never Burns Out" #NT!
+ dynn_Hardyng_motto: "Ausgewogen und bereit"
+ dynn_Hersy_motto: "Thirst Not, Want Not" #NT!
+ dynn_Hungerford_motto: "Hardship Knows No Bounds" #NT!
+ dynn_Hunter_motto: "All Are Prey" #NT!
+ dynn_Lynderly_motto: "Venomous" #NT!
+ dynn_LynderlySC_motto: "Tread Carefully" #NT!
+ dynn_Melcolm_motto: "Firmly Anchored" #NT!
+ dynn_Moore_motto: "At Spearpoint" #NT!
+ dynn_Redfort_motto: "So stark wie Stein"
+ dynn_Royce_motto: "Wir erinnern uns"
+ dynn_Ruthermont_motto: "To New Shores" #NT!
+ dynn_Shett_motto: "Flucht schafft Raum"
+ dynn_ShettGT_motto: "We Will Fly Again" #NT!
+ dynn_Templeton_motto: "Staunch, Stellar, Singular" #NT!
+ dynn_True_motto: "To the End" #NT!
+ dynn_Upcliff_motto: "Against the Tide" #NT!
+ dynn_Waynwood_motto: "Vorwärts"
+ dynn_Wydman_motto: "Das Recht besiegt die Macht"
+  
+  #Upper Vale - all canon houses 
+ dynn_Belmore_motto: "Hark!" #NT!
+ dynn_Belmore_Ringstone_motto: "The Song That Carries" #NT!
+ dynn_Dutton_motto: "Thrice Blessed, Thrice True" #NT!
+ dynn_Donniger_motto: "Inevitable" #NT!
+ dynn_Egen_motto: "Bei Tag oder Nacht"
+ dynn_Lipps_motto: "No Secret Is Safe" #NT!
+ dynn_Warrick_motto: "Sword of the Moon" #NT!
+ dynn_Waxley_motto: "Licht in der Dunkelheit"
+ dynn_Weatherwax_motto: "Right from Wrong" #NT!
+  
+  #Fingers - all canon houses 
+ dynn_Baelish_motto: "Schaue um dich"
+ dynn_Coldwater_motto: "Where Realms Do Meet" #NT!
+ dynn_Elesham_motto: "Standing Proud" #NT!
+ dynn_Pryor_motto: "Seldom, Yet Striking" #NT!
+ dynn_Tollett_motto: "Wenn alles dunkel ist"
+ dynn_Woodhull_motto: "Sturdy and Swift" #NT!
+  
+  #Sisters - all canon houses 
+ dynn_Borrell_motto: "We Bite" #NT!
+ dynn_Longthorpe_motto: "The Currents Call" #NT!
+ dynn_Sunderland_motto: "Woe upon the Waves" #NT!
+ dynn_Torrent_motto: "Beware the Deep" #NT!
+  
+  #Landless Houses - semi-canon 
+ dynn_Underleaf_motto: "Where We Belong Is Where We Go" #NT!
+  
+  #Extinct 
+ dynn_Brightstone_motto: "From Stone to Sapphire Sky" #NT!
+ dynn_Griffin_motto: "By Wing and Sword" #NT!
+ dynn_Shell_Vale_motto: "The Way Is Shut" #NT!
+  
+  #All non-book-canon houses beyond this point 
+  #AGoT Video Game (2012) 
+ dynn_Donnerly_motto: "Charge!" #NT!
+  
+  #TTRPG 
+  dynn_Marks_motto:0 "On the Prowl 
+ dynn_Marsten_motto: "Lass den Himmel herrschen"
+ dynn_Seldon_motto: "The Claw of Justice" #NT!
+  
+  #Telltale 
+ dynn_Morgryn_motto: "Know the Wisdom of the Earth" #NT!
+  
+  #Telltale Fanon 
+  
+  #Royal Progress Contest Winners 
+ dynn_Loreley_motto: "Alle ertränkt, alle verschlungen"
+  
+  #Modcanon 
+ dynn_Bretherick_motto: "Touch the Sky" #NT!
+ dynn_Chase_motto: "No Escape" #NT!
+ dynn_Cullimore_motto: "Primed for the Kill" #NT!
+ dynn_Kinnear_motto: "The Hills Provide" #NT!
+ dynn_Barnaby_motto: "Front and Center" #NT!
+ dynn_Ran_Cammon_motto: "Ever Aloft" #NT!
+ dynn_Topp_motto: "Fels und Stein"
+ dynn_Gorse_motto: "Bis wir fallen"
+ dynn_Weight_motto: "The Trees Have Eyes" #NT!
+ dynn_Auldryn_motto: "Hardened" #NT!
+ dynn_Mullyn_motto: "Ever Turning" #NT!
+ dynn_Garnett_motto: "Jewel of the Old Land" #NT!
+ dynn_Stewart_motto: "Wiles, Not Wickedness" #NT!
+ dynn_Upshall_motto: "Knowledge Carries" #NT!
+ dynn_Orimund_motto: "Strike Hard, or Not at All" #NT!
+ dynn_Verlayn_motto: "Strength in Plenty" #NT!
+ dynn_Beale_motto: "No Shame in Humility" #NT!
+ dynn_Darkholme_motto: "Beware the Beast That Lurks" #NT!
+ dynn_Crews_motto: "We Sail Together" #NT!
+ dynn_Witt_motto: "Mind over Might" #NT!
+ dynn_Driscoll_motto: "Stubborn as the Tide" #NT!
+ dynn_Kurrigan_motto: "The Spears of our Fathers" #NT!
+ dynn_Altger_motto: "Old as the Hills" #NT!
+ dynn_Halcott_motto: "Shield of Artys" #NT!
+ dynn_Shelldrake_motto: "From Humble Beginnings" #NT!
+ dynn_Jesper_motto: "Drink and Be Merry" #NT!
+ dynn_Vearnon_motto: "The Hills Have Us" #NT!
+ dynn_Morris_motto: "A Fright by Night" #NT!
+ dynn_Seasons_motto: "So Turn the Years" #NT!
+ dynn_Harrow_motto: "No Stone Unturned" #NT!
+ dynn_Devener_motto: "Rooted in Stone" #NT!
+ dynn_Whickett_motto: "Come and Take It" #NT!
+ dynn_Rutley_motto: "With Vigor" #NT!
+ dynn_Den_Brove_motto: "Time Tells Tall Tales" #NT!
+ dynn_Bommenstone_motto: "From the Inside Out" #NT!
+ dynn_Wiltwood_motto: "Our Time Will Come Again" #NT!
+ dynn_Bleaker_motto: "We Find a Way" #NT!
+ dynn_Grolt_motto: "Twixt Depths and Darkness" #NT!
+ dynn_Symes_motto: "Our Patient Silence" #NT!
+ dynn_Brask_motto: "Glory to Us All" #NT!
+ dynn_Revere_motto: "These Tusks Will Gore" #NT!
+ dynn_Flattery_motto: "Come No Closer" #NT!
+ dynn_Garrish_motto: "What Little Is Ours" #NT!
+ #dynn_Collarance_motto: "" #NT!
+ #dynn_Richter_motto: "" #NT!
+ #dynn_Oldfield_motto: "" #NT!
+ #dynn_Lesper_motto: "" #NT!
+ #dynn_Amersham_motto: "" #NT!
+ #dynn_Ildermont_motto: "" #NT!
+ #dynn_Swale_motto: "" #NT!
+ #dynn_Treymore_motto: "" #NT!
+ #dynn_Glimvane_motto: "" #NT!
+ #dynn_Werloren_motto: "" #NT!
+ #dynn_Lindhorn_motto: "" #NT!
+ #dynn_Convery_motto: "" #NT!
+ #dynn_Handley_motto: "" #NT!

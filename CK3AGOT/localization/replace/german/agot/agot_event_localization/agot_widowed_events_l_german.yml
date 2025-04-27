@@ -1,59 +1,59 @@
 ﻿l_german:
-
-
-################################
-# Widowed Events
-# 1000 - 1999
-# by Badger
-################################
-
-agot_widowed_events.0001.t:0 "Love's Sweet Remembrance"
-agot_widowed_events.0001.desc:0 "My dear [dead_lover.GetFirstNameNicknamedNoTooltip], shuffled off this mortal coil. #italic What I would give for just one more day with [dead_lover.GetHerHim]...#!\n\nMy halls feel empty — and yet I must tarry in this place. Perhaps this sadness will dull with time."
-agot_widowed_events.0001.a:0 "I must soldier on without [dead_lover.GetHerHim]."
-
-agot_widowed_events.0002.t:0 "Love's Bitter Sting"
-agot_widowed_events.0002.desc:0 "It feels like only yesterday that my dear [widowed_memory.GetFirstNameNicknamedNoTooltip] still walked this earth, always [widowed_memory.Custom('quirk_pos_adjective')], [widowed_memory.Custom('quirk_pos_pp')] and leaving me yearning for [widowed_memory.GetHerHis] touch. If only I could have one more day with [widowed_memory.GetHerHim]...\n\nMy thoughts trail off as I realize I am standing here, alone, swimming in the sorrowful depths of my grief."
-agot_widowed_events.0002.a:0 "Is this all I have left in life?"
-
-agot_widowed_events.0003.t:0 "Love, at a Cost"
-agot_widowed_events.0003.desc:0 "Nothing in this world will replace [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')]... #italic or so I thought.#!\n\nA late night spent wandering the seedier parts of [location.GetName] leads me to an establishment where one can find love, #bold for a price#!. [succubus.GetFirstName] greets me with a [succubus.Custom('quirk_pos_adjective')] grin, and I feel a beating in my chest that I've not felt since my dear [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] death."
-agot_widowed_events.0003.a:0 "The coin is well worth the touch of a [succubus.GetWomanMan]."
-agot_widowed_events.0003.b:0 "No, this is not right..."
-
-agot_widowed_events.0004.t:0 "Love is a Folly"
-agot_widowed_events.0004.desc:0 "Time has passed, and yet a I still feel a pang when thinking of my dear [widowed_memory.GetFirstNameNicknamedNoTooltip]. #italic When will this pain cease?#!\n\n#bold No.#! This is nonsense. Love is a waste of my efforts, and I will not give it another minute of my time."
-agot_widowed_events.0004.a:0 "I feel nothing anymore."
-agot_widowed_events.0004.b:0 "No, this is not right..."
-
-agot_widowed_events.0005.t:0 "A Love... of Reading"
-agot_widowed_events.0005.desc:0 "Time has passed, and yet a I still feel a pang when thinking of my dear [widowed_memory.GetFirstNameNicknamedNoTooltip]. #italic How can I move past this love?#!\n\nAs I grapple with my own thoughts, into my throne room walks [learned_courtier.GetFirstNameNicknamed], a learned member of my court. [learned_courtier.GetSheHe|U] eyes me, [learned_courtier.Custom('quirk_pos_adverb')], before announcing, "My [ROOT.Char.GetLadyLord|l], you know the only true cure for a broken heart is... #bold to learn!#!"\n\nI appraise [learned_courtier.GetFirstNameNoTooltip] with some doubt, but perhaps [learned_courtier.GetSheHe] is right? Should I devote myself to my studies?"
-agot_widowed_events.0005.a:0 "I must!" #Short because of the trait icons.
-agot_widowed_events.0005.b:0 "Books are for the feeble."
-
-agot_widowed_events.0005.maester.tt:0 "You give up all worldly possessions to become a maester."
-
-agot_widowed_events.0006.t:0 "A Love... of the Drink"
-agot_widowed_events.0006.desc:0 "Nothing in this world will replace [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')]... #italic or so I thought.#!\n\nA late night spent wandering the seedier parts of [location.GetName] leads me to a lively tavern with [party_friend.GetFirstName]. "My [ROOT.Char.GetLadyLord|l], I will show you how to have a good time — #bold and to forget all of your sadness,#!" [party_friend.GetSheHe] proclaims.\n\nThe sounds of the sins around me flood my senses. I take a sip, raising my goblet to toast the crowd."
-agot_widowed_events.0006.a:0 "This will be a night to... #bold forget!#!"
-agot_widowed_events.0006.a.tt:0 "Your debauchery may have consequences."
-agot_widowed_events.0006.b:0 "A toast to [widowed_memory.GetFirstName], my beloved!"
-
-agot_widowed_events.0007.t:0 "A Love... of Gardening"
-agot_widowed_events.0007.desc:0 "Time has passed, and yet a I still feel a pang when thinking of my dear [widowed_memory.GetFirstNameNicknamedNoTooltip]. #italic How can I move past this love?#!\n\nI have spent much of my newly-free time outdoors, letting nature become my companion. Perhaps I will plant a tree in honor of my love that will grow?"
-agot_widowed_events.0007.a:0 "It will stand as a monument to our love."
-agot_widowed_events.0007.b:0 "This is all rubbish..."
-
-agot_widowed_events.0008.t:0 "A New Love: A Puppy"
-agot_widowed_events.0008.desc:0 "Nothing in this world will replace [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')]... #italic or so I thought.#!\n\nMy [ROOT.Char.Custom2('RelationToMeShort', pet_giver)] [pet_giver.GetFirstName] comes to me, holding a whelp by its scruff in [pet_giver.GetHerHis] hand. "My [ROOT.Char.GetLadyLord|l], this young pup is the perfect cure for the sadness that you are feeling," [pet_giver.GetFirstNameNoTooltip] says. "Will you give it a home?""
-agot_widowed_events.0008.a:0 "A new pet may fill the void in my life..."
-agot_widowed_events.0008.b:0 "I'm more of a cat person."
-
-agot_widowed_events.0009.t:0 "A New Love: A Kitten"
-agot_widowed_events.0009.desc:0 "Nothing in this world will replace [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')]... #italic or so I thought.#!\n\nMy [ROOT.Char.Custom2('RelationToMeShort', pet_giver)] [pet_giver.GetFirstName] comes to me, holding a whelp by its scruff in [pet_giver.GetHerHis] hand. "My [ROOT.Char.GetLadyLord|l], this young kitten is the perfect cure for the sadness that you are feeling," [pet_giver.GetFirstNameNoTooltip] says. "Will you give it a home?""
-agot_widowed_events.0009.a:0 "A new pet may fill the void in my life..."
-agot_widowed_events.0009.b:0 "I'm more of a dog person."
-
-agot_widowed_events.0010.t:0 "Frozen Love"
-agot_widowed_events.0010.desc:0 "It feels like only yesterday that my dear [widowed_memory.GetFirstNameNicknamedNoTooltip] still walked this earth, always [widowed_memory.Custom('quirk_pos_adjective')], [widowed_memory.Custom('quirk_pos_pp')] and leaving me yearning for [widowed_memory.GetHerHis] touch. If only I could have one more day with [widowed_memory.GetHerHim]...\n\nThough time moves onward, I don't think I will ever marry again."
-agot_widowed_events.0010.a:0 "I will hold [widowed_memory.GetHerHim] with me."
-agot_widowed_events.0010.b:0 "Perhaps I just need more time."
+  
+  
+ ################################ 
+ # Widowed Events 
+ # 1000 - 1999 
+ # by Badger 
+ ################################ 
+  
+ agot_widowed_events.0001.t: "Süße Erinnerung an die Liebe"
+ agot_widowed_events.0001.desc: "Mein[dead_lover.Custom('DE_END_PRO_S_N')] geliebt[dead_lover.Custom('DE_END_ADJ_NUL_S_N')] [dead_lover.GetFirstNameNicknamedNoTooltip] hat [dead_lover.Custom('DE_PRO_POS_S_3P')]e sterbliche Hülle abgelegt. #italic Was würde ich für nur einen weiteren Tag mit [dead_lover.Custom('DE_PRO_PER_S_3P_D')] geben...#!\n\nMeine Hallen fühlen sich leer an - und doch muss ich an diesem Ort verweilen. Vielleicht wird sich dieser Kummer mit der Zeit legen."
+ agot_widowed_events.0001.a: "Ich muss ohne [dead_lover.GetHerHim] weitermachen."
+  
+ agot_widowed_events.0002.t: "Bitterer Stich der Liebe"
+ agot_widowed_events.0002.desc: "Es fühlt sich an, als wäre es erst gestern gewesen, dass mein Liebling [widowed_memory.GetFirstNameNicknamedNoTooltip] noch auf dieser Erde wandelte, immer [widowed_memory.Custom('quirk_pos_adjective')], [widowed_memory.Custom('quirk_pos_pp')] und mich mit Sehnsucht nach [widowed_memory.GetHerHis]e Berührung zurückließ. Wenn ich doch noch einen Tag mit [widowed_memory.GetHerHim] haben könnte...\n\nMeine Gedanken schweifen ab, als ich realisiere, dass ich hier alleine stehe und in den schmerzlichen Abgründen meines Kummers versinke."
+ agot_widowed_events.0002.a: "Ist das alles, was mir im Leben bleibt?"
+  
+ agot_widowed_events.0003.t: "Liebe hat ihren Preis"
+ agot_widowed_events.0003.desc: "Nichts auf dieser Welt wird [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')] ersetzen... #italic oder so dachte ich zumindest#!.\n\nEin spätabendlicher Spaziergang durch die zwielichtigeren Gegenden von [location.GetName] führte mich zu einem Etablissement, in dem man Liebe finden kann, #bold gegen Bezahlung#!. [succubus.GetFirstName] begrüßt mich mit einem [succubus.Custom('quirk_pos_adjective')]en Grinsen, was meinen Herz hüpfen lässt. Diese Gefühl spürte ich seit dem Tod meines Lieblings [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] nicht mehr."
+ agot_widowed_events.0003.a: "Die Münzen sind die Berührung durch [succubus.GetFirstNameNoTooltip] wert."
+ agot_widowed_events.0003.b: "Nein, das ist nicht richtig..."
+  
+ agot_widowed_events.0004.t: "Liebe ist Irrsinn"
+ agot_widowed_events.0004.desc: "Die Zeit ist vergangen, und doch spüre ich immer noch einen Schmerz, wenn ich an [widowed_memory.GetFirstNameNicknamedNoTooltip] denke.  #italic Wann wird dieser Schmerz aufhören?#!\n\n#bold Nein! Das ist Unsinn.#! Die Liebe ist eine Last, und ich werde ihr keine weitere Minute mehr widmen."
+ agot_widowed_events.0004.a: "Ich fühle mich leer."
+ agot_widowed_events.0004.b: "Nein, ich mache mir zu viele Gedanken"
+  
+ agot_widowed_events.0005.t: "Eine Liebe... zu Büchern"
+ agot_widowed_events.0005.desc: "Die Zeit schreitet voran und doch spüre ich immer noch einen Schmerz, wenn ich an mein Herzblatt [widowed_memory.GetFirstNameNicknamedNoTooltip] denke. #italic Wie kann ich diese Trauer überwinden?#!\n\nWährend ich mit meinen eigenen Gedanken hadere, betritt [learned_courtier.GetFirstNameNicknamed], ein gelehrtes Mitglied meines Hofes, meinen Thronsaal. [learned_courtier.GetSheHe|U] mustert mich, [learned_courtier.Custom('quirk_pos_adverb')], bevor er verkündet: 'My [ROOT.Char.GetLadyLord|l], Ihr wisst, das einzig wahre Heilmittel für ein gebrochenes Herz ist... #bold Die weltlichen Pflichten aufzugeben und nur noch der Lehre zu widmen!#!'\n\nIch begutachte [learned_courtier.GetFirstNameNoTooltip] mit einigen Zweifeln, aber vielleicht hat [learned_courtier.GetSheHe] ja recht? Sollte ich mich meinen Studien widmen?"
+ agot_widowed_events.0005.a: "Ich muss!"
+ agot_widowed_events.0005.b: "Bücher sind für Schwachen."
+  
+ agot_widowed_events.0005.maester.tt: "Ihr gebt alle weltlichen Besitztümer auf, um ein Maester zu werden."
+  
+ agot_widowed_events.0006.t: "Eine Liebe... zum Getränk"
+ agot_widowed_events.0006.desc: "Nichts auf dieser Welt wird [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')] ersetzen... #italic oder so dachte ich zumindest.#!\n\nEin spätabendlicher Spaziergang durch die zwielichtigen Gegenden von [location.GetName] führte mich zu einer lebhaften Schenke mit [party_friend.GetFirstName]. 'My [ROOT.Char.GetLadyLord|l], ich werde euch zeigen, wie man sich amüsiert — #bold und all den Kummer vergisst#!', verkündet [party_friend.GetSheHe].\n\nDie Geräusche der Sünden um mich herum überfluten meine Sinne. Ich nehme einen Schluck und erhebe meinen Kelch, um mit der Menge anzustoßen."
+ agot_widowed_events.0006.a: "Dies wird eine #bold unvergessliche Nacht#!!"
+ agot_widowed_events.0006.a.tt: "Eure Zügellosigkeit kann ein Nachspiel haben."
+ agot_widowed_events.0006.b: "Ein Toast auf [widowed_memory.GetFirstName]!"
+  
+ agot_widowed_events.0007.t: "Eine Liebe... zur Gartenarbeit"
+ agot_widowed_events.0007.desc: "Die Zeit schreitet voran und doch spüre ich immer noch einen Schmerz, wenn ich an meine bessere Hälfte [widowed_memory.GetFirstNameNicknamedNoTooltip] denke. #italic Wie kann ich diese Trauer überwinden?#!\n\nIch habe einen Großteil meiner neuen Freizeit im Freien verbracht und die Natur zu meinem Begleiter werden lassen. Sollte ich zu Ehren meiner großen Lieben einen Baum pflanzen, der prächtig gedeihen wird?"
+ agot_widowed_events.0007.a: "Es wird ein Denkmal für unsere Liebe sein."
+ agot_widowed_events.0007.b: "Das ist alles Unsinn..."
+  
+ agot_widowed_events.0008.t: "Eine neue Liebe:\ Ein Welpe"
+ agot_widowed_events.0008.desc: "Nichts auf dieser Welt wird [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')] ersetzen.... #italic oder so dachte ich zumindest.#!\n\nMein [ROOT.Char.Custom2('RelationToMeShort', pet_giver)] [pet_giver.GetFirstName] kommt zu mir und trägt einen Welpen in [pet_giver.GetHerHis]em Arm. Mein [ROOT.Char.GetLadyLord|l], dieser junge Welpe wird Euren Verlust erleichtern', sagt [pet_giver.GetFirstNameNoTooltip]. 'Werdet Ihr ihm ein Zuhause geben?'"
+ agot_widowed_events.0008.a: "Ein kleiner Welpe könnte die Leere in meinem Leben füllen..."
+ agot_widowed_events.0008.b: "Ich bin eher ein Katzenmensch."
+  
+ agot_widowed_events.0009.t: "Eine neue Liebe:\ Ein Katzenjunges"
+ agot_widowed_events.0009.desc: "Nichts auf dieser Welt wird [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')] ersetzen... #italic oder so dachte ich zumindest.#!\n\nMein [ROOT.Char.Custom2('RelationToMeShort', pet_giver)] [pet_giver.GetFirstName] kommt zu mir und trägt ein Katzenjunges in [pet_giver.GetHerHis]em Arm. 'My [ROOT.Char.GetLadyLord|l], dieses junge Kätzchen wird Euren Verlust erleichtern',sagt [pet_giver.GetFirstNameNoTooltip]. 'Werdet Ihr ihm ein Zuhause geben?'"
+ agot_widowed_events.0009.a: "Ein Kätzchen könnte die Leere in meinem Leben füllen..."
+ agot_widowed_events.0009.b: "Ich bin eher ein Hundemensch."
+  
+ agot_widowed_events.0010.t: "Eingefrorene Liebe"
+ agot_widowed_events.0010.desc: "Es fühlt sich an, als wäre es erst gestern gewesen, dass mein Zuckerstück [widowed_memory.GetFirstNameNicknamedNoTooltip] noch auf dieser Erde wandelte, immer [widowed_memory.Custom('quirk_pos_adjective')], [widowed_memory.Custom('quirk_pos_pp')] und mich sehnsüchtig nach [widowed_memory.GetHerHis]er Berührung zurückließ. Wenn ich doch noch einen Tag mit [widowed_memory.GetFirstNameNoTooltip] haben könnte...\n\nAuch wenn die Zeit weitergeht, glaube ich nicht, dass ich jemals wieder lieben werde."
+ agot_widowed_events.0010.a: "Ich werde [widowed_memory.GetHerHim] bei mir behalten."
+ agot_widowed_events.0010.b: "Vielleicht brauche ich einfach mehr Zeit."

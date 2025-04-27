@@ -1,0 +1,25 @@
+﻿l_german:
+  
+ king_tier_free_cities_tt: "You are a [king|E] in the [GetGeographicalRegion('world_essos_free_cities').GetName]" #NT!
+  
+  #Visit Settlement 
+ visit_local_settlement_pirate_den_holding_decision_tt: "$visit_local_settlement_effect_intro$$visit_local_settlement_effect_tavern$$visit_local_settlement_effect_supplies$$visit_local_settlement_effect_contracts$" #NT!
+ visit_local_settlement_monastery_holding_decision_tt: "$visit_local_settlement_church_holding_decision_tt$" #NT!
+  
+  #Visit Local Settlement 
+ AGOT_LOCAL_SETTLEMENT_IS_RUIN: "[CHARACTER.GetDomicile.GetLocation.GetName] is a [ruin_holding|E] [holding|E]!" #NT!
+  
+  # The Knight of the Swan 
+ GetKnightErrantAnimal_mammoth: "mammoth" #NT!
+ GetKnightErrantAnimal_wolf: "wolf" #NT!
+ GetKnightErrantAnimal_boar: "boar" #NT!
+ GetKnightErrantAnimal_kraken: "kraken" #NT!
+ GetKnightErrantAnimal_shadowcat: "shadowcat" #NT!
+ GetKnightErrantAnimal_fox: "fox" #NT!
+ GetKnightErrantAnimal_aurochs: "aurochs" #NT!
+ GetKnightErrantAnimal_stag: "stag" #NT!
+ GetKnightErrantAnimal_falcon: "falcon" #NT!
+ GetKnightErrantAnimal_lion: "Löwen"
+ GetKnightErrantAnimal_sphinx: "sphinx" #NT!
+ GetKnightErrantAnimal_viper: "viper" #NT!
+ GetKnightErrantAnimal_crab: "crab" #NT!

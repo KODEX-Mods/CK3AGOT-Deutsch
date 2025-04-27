@@ -1,34 +1,41 @@
 ﻿l_german:
- rich_presence_ned_winter:0 "Awaiting Winter as"
- rich_presence_jon_snow:0 "Knowing Nothing as"
- rich_presence_petyr_baelish:0 "Climbing the Ladder as"
- rich_presence_tywin_shitting:0 "Shitting Gold as"
- rich_presence_tyrion_know_drink:0 "Drinking and Knowing Things as"
- rich_presence_rhaegar_prophecy:0 "Fulfilling the Prophecy as"
- rich_presence_robert:0 "Making the Eight as"
- rich_presence_lancel:0 "Fetching the Breastplate Stretcher as"
- rich_presence_davos:0 "Having Fewer Fingers to Wash as"
- #rich_presence_darkstar:0 "Being of the Night as"
- rich_presence_egg:0 "Being a Half-Peasant as"
- rich_presence_dunk:0 "Thick as a Castle Wall as"
- rich_presence_dunk_the_small:0 "Breaking Betrothals as"
- rich_presence_maelys:0 "Talking With Their Second Head as"
- rich_presence_roger_reyne:0 "Angering the Lannisters as"
- rich_presence_viserys_i:0 "Causing House Instability as"
- rich_presence_daemon:0 "Conquering the Stepstones as"
- rich_presence_corlys:0 "On Voyages as"
- rich_presence_craghas:0 "Feeding the Crabs as"
- rich_presence_rhaenyra:0 "Appointed the Rightful Heir as"
- # Common
- rich_presence_hatching_dragon:0 "Waking the Dragons as"
- rich_presence_feeding_dragon_enemies:0 "Feeding Enemies to Their Dragon as"
- rich_presence_soaring_above_clouds:0 "Soaring Above the Clouds as"
- rich_presence_keeping_dragon_in_check:0 "Keeping Their Dragon in Check as"
- rich_presence_dragonrider:0 "Bonding With Their Dragon as"
- rich_presence_pondering_egg:0 "Pondering Over Their Dragon Egg as"
- rich_presence_burning_them_all:0 "Burning Them All as"
- rich_presence_reaving:0 "Reaving the Land as"
- rich_presence_the_things_for_love:0 "Doing Questionable Things For Love as"
- rich_presence_nights_watch:0 "Guarding the Realms of Men as"
- rich_presence_wildling:0 "Living Among the Freefolk as"
- rich_presence_house_cargyll:0 "Honking Around as"
+ rich_presence_ned_winter: "Erwartet den Winter als"
+ rich_presence_jon_snow: "Weiß gar nichts als"
+ rich_presence_petyr_baelish: "Erklimmt die Leiter als"
+ rich_presence_tywin_shitting: "Scheißt Gold als"
+ rich_presence_tyrion_know_drink: "Trinkt und weiß Dinge als"
+ rich_presence_rhaegar_prophecy: "Erfüllt die Prophezeihung als"
+ rich_presence_robert: "Making the Eight as" #NT!
+ rich_presence_stannis: "Gritting his teeth as" #NT!
+ rich_presence_lancel: "Fetching the breastplate stretcher as" #NT!
+ rich_presence_davos: "Hat weniger Fingernägel zu säubern als"
+ rich_presence_darkstar: "Of the night as" #NT!
+ rich_presence_egg: "Acting like a half-peasant as" #NT!
+ rich_presence_dunk: "Breit wie ein Burgwall als"
+ rich_presence_dunk_the_small: "Breaking betrothals as" #NT!
+ rich_presence_maelys: "Talking with their second head as" #NT!
+ rich_presence_roger_reyne: "Angering the Lannisters as" #NT!
+ rich_presence_viserys_i: "Causing house instability as" #NT!
+ rich_presence_daemon: "Conquering the Stepstones as" #NT!
+ rich_presence_corlys: "On voyages as" #NT!
+ rich_presence_craghas: "Feeding the crabs as" #NT!
+ rich_presence_rhaenyra: "Appointed the rightful heir as" #NT!
+ rich_presence_baelor_the_blessed: "Fasting all sins away as" #NT!
+ rich_presence_daemon_blackfyre: "Bearing the sword as" #NT!
+ rich_presence_lyonel_baratheon: "Laughing at their adversaries as" #NT!
+ rich_presence_aryse_ran_ennox: "Restoring Andalos as" #NT!
+ rich_presence_illyrio: "Cheesemongering as" #NT!
+  # General 
+ rich_presence_hatching_dragon: "Waking the dragons as" #NT!
+ rich_presence_feeding_dragon_enemies: "Feeding enemies to their dragon as" #NT!
+ rich_presence_soaring_above_clouds: "Soaring above the clouds as" #NT!
+ rich_presence_keeping_dragon_in_check: "Keeping their dragon in check as" #NT!
+ rich_presence_bonding_with_dragon: "Bonding with their dragon as" #NT!
+ rich_presence_pondering_egg: "Pondering over their dragon egg as" #NT!
+ rich_presence_faceless: "Wearing the mask of" #NT!
+ rich_presence_burning_them_all: "Verbrennt sie alle als"
+ rich_presence_reaving: "Plündert die Lande als"
+ rich_presence_the_things_for_love: "Tut fragwürdige Dinge aus Liebe als"
+ rich_presence_nights_watch: "Schützt die Reiche der Menschen als"
+ rich_presence_wildling: "Lebt mit den Freien Völkern als"
+ rich_presence_house_cargyll: "Trötet herum als"

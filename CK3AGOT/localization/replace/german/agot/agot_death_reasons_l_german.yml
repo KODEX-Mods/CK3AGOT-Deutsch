@@ -1,110 +1,139 @@
 ﻿l_german:
- #AGOT
- death_broken_heart:0 "died of a broken heart" # sadge
- death_dragon_hatching_sacrifice:0 "was sacrificed in a dragon hatching ceremony"
- death_dragon_hatching_sacrifice_killer:0 "was sacrificed in [TARGET_CHARACTER.GetUINamePossessive] dragon hatching ceremony"
- death_dragon_hatching_accident:0 "was killed in an accident during a dragon hatching ceremony"
- death_dragon_hatching_accident_killer:0 "was killed in an accident during [TARGET_CHARACTER.GetUINamePossessive] dragon hatching ceremony"
- death_dragon:0 "was killed by a dragon"
- death_dragon_killer:0 "was killed by the dragon [TARGET_CHARACTER.GetUIName]"
- death_dragon_siege:0 "was killed by a dragon in a siege"
- death_dragon_siege_killer:0 "was killed by [TARGET_CHARACTER.GetUIName] in a siege"
- death_dragon_siege_attacker:0 "was killed while using [CHARACTER.GetHerHis] dragon in a siege"
- death_dragon_siege_attacker_killer:0 "was killed by [TARGET_CHARACTER.GetUIName] while using [CHARACTER.GetHerHis] dragon in a siege"
- death_dragon_scorpion:0 "was killed by a scorpion bolt"
- death_dragon_scorpion_killer:0 "was killed by [TARGET_CHARACTER.GetUIName] with a scorpion bolt"
- death_dragon_scorpion_rider:0 "died when [CHARACTER.GetHerHis] dragon was killed by a scorpion bolt"
- death_dragon_scorpion_rider_killer:0 "died when [CHARACTER.GetHerHis] dragon was killed by [TARGET_CHARACTER.GetUIName] with a scorpion bolt"
- death_dragon_scorpion_siege:0 "was killed by a scorpion bolt in a siege"
- death_dragon_scorpion_siege_killer:0 "was killed by [TARGET_CHARACTER.GetUIName] with a scorpion bolt in a siege"
- death_fed_to_dragon:0 "was fed to a dragon"
- death_fed_to_dragon_killer:0 "was fed to [TARGET_CHARACTER.GetUIName]"
- death_battle_dragon:0 "was killed by a dragon in battle"
- death_battle_dragon_killer:0 "was killed by the dragon [TARGET_CHARACTER.GetUIName] in battle"
- death_dragon_wounded_1:0 "died from [CHARACTER.GetHerHis] wounds"
- death_dragon_wounded_2:0 "$death_dragon_wounded_1$"
- death_dragon_ate:0 "was eaten by a dragon"
- death_dragon_ate_killer:0 "was eaten by the dragon [TARGET_CHARACTER.GetUIName]"
- death_dragon_ate_failed_tamed:0 "was eated by a dragon after a failed taming attempt"
- death_dragon_ate_failed_tamed_killer:0 "was eaten by the dragon [TARGET_CHARACTER.GetUIName] after a failed taming attempt"
- death_battle_dragon_ate:0 "was eaten by a dragon in battle"
- death_battle_dragon_ate_killer:0 "was eaten by the dragon [TARGET_CHARACTER.GetUIName] in battle"
- death_dragon_fire_failed_tame:0 "was incinerated by dragonfire during a botched taming attempt"
- death_dragon_fire_failed_tame_killer:0 "was incinerated by [TARGET_CHARACTER.GetUIName] during a botched taming attempt"
- death_dragon_fire:0 "was incinerated by dragonfire"
- death_dragon_fire_killer:0 "was incinerated by [TARGET_CHARACTER.GetUIName]"
- death_battle_dragon_fire:0 "was incinerated by dragonfire in battle"
- death_battle_dragon_fire_killer:0 "was incinerated by [TARGET_CHARACTER.GetUIName] in battle"
- death_dragon_duel:0 "died in a dragon duel"
- death_dragon_duel_killer:0 "was killed by [TARGET_CHARACTER.GetUIName] and [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'your', TARGET_CHARACTER.GetHerHis )] dragon in a dragon duel"
- death_dragon_duel_ate:0 "was eaten in a dragon duel"
- death_dragon_duel_ate_killer:0 "was eaten by [TARGET_CHARACTER.GetUINamePossessive] dragon in a dragon duel"
- death_dragon_duel_fire:0 "was incinerated in a dragon duel"
- death_dragon_duel_fire_killer:0 "was incinerated by [TARGET_CHARACTER.GetUINamePossessive] dragon in a dragon duel"
- death_dragon_stomped:0 "was stomped to death by a dragon"
- death_dragon_stomped_killer:0 "was stomped to death by the dragon [TARGET_CHARACTER.GetUIName]"
- death_dragon_crushed_by_tail:0 "was crushed to death by a dragon's tail"
- death_dragon_crushed_by_tail_killer:0 "was crushed to death by the dragon [TARGET_CHARACTER.GetUINamePossessive] tail"
- death_dropped_from_dragon:0 "was dropped from the sky by a dragon"
- death_dropped_from_dragon_killer:0 "was dropped from the sky by the dragon [TARGET_CHARACTER.GetUIName]"
- death_fell_from_dragon:0 "fell from [CHARACTER.GetHerHis] dragon"
- death_fell_from_dragon_killer:0 "fell from [TARGET_CHARACTER.GetUIName]"
- death_fell_from_other_dragon:0 "fell from a dragon"
- death_hatching_fail:0 "died trying to hatch a dragon egg"
- death_dragon_slain:0 "was slain by a human in a duel"
- death_dragon_slain_killer:0 "was slain by [TARGET_CHARACTER.GetUIName] in a duel"
- death_hatching_sacrifice:0 "was sacrificed trying to hatch a dragon egg"
- death_hatching_sacrifice_killer:0 "was sacrificed by [TARGET_CHARACTER.GetUIName] trying to hatch a dragon egg"
- death_wildfire_killer:0 "was set ablaze with wildfire by [TARGET_CHARACTER.GetUIName]"
- death_wildfire_killer_killer:0 "was set ablaze with wildfire by [TARGET_CHARACTER.GetUIName]"
- death_wildfire_KL_killer:0 "was incinerated during the Wildfire Explosion of King's Landing when [TARGET_CHARACTER.GetUIName] "Burned Them All""
- death_wildfire_KL:0 "was incinerated during the Wildfire Explosion of King's Landing"
- death_drinking_wildfire:0 "died after drinking wildfire"
- death_wildfire_accident:0 "was burned to death in a wildfire accident"
- death_horn_blow:0 "died after blowing a dragon horn"
- death_horn_blow_killer:0 "died after blowing a dragon horn on [TARGET_CHARACTER.GetUINamePossessive] orders"
- death_duel_trial_by_combat:0 "died in a Trial by Combat"
- death_duel_trial_by_combat_killer:0 "slain by [TARGET_CHARACTER.GetUIName] in a Trial by Combat"
- death_duel_trial_by_seven:0 "died in a Trial by Combat"
- death_duel_trial_by_seven_killer:0 "died in a Trial by Combat by [TARGET_CHARACTER.GetUIName]"
- death_froze_to_death:0 "froze to death"
- death_eaten_alive_by_lions:0 "was eaten alive by lions"
- death_ripped_to_death_by_lizard_lion:0 "was ripped to pieces by a lizard-lion"
- death_died_in_the_neck:0 "disappeared in the Neck"
- death_ratiod:0 "Ratio'd"
- death_lost_at_sea:0 "last seen at sea, swallowed by the vast unknown"
- death_lost_at_sea_red:0 "last seen at sea, swallowed by the vast unknown"
- death_scurvy:0 "died from a bad case of [GetTrait('scurvy').GetName( CHARACTER.Self )]"
- death_tourney_joust:0 "died in a jousting accident"
- death_wolf_hunt:0 "died hunting a wolf"
- death_spring_sickness:0 "died from a bad case of [GetTrait('spring_sickness').GetName( CHARACTER.Self )]"
- death_winter_fever:0 "died from a bad case of Winter Fever"
- death_greyscale:0 "died from a bad case of greyscale"
- death_bloody_flux:0 "died from a bad case of Bloody Flux"
- death_stillborn:0 "died stillborn"
- death_rabble:0 "killed by the rabble"
- death_crushed_by_boulder:0 "crushed by a plummeting boulder"
- death_suffocate_on_cock:0 "suffocated on his own mangled cock"
- death_turned_into_soup:0 "cooked down into a bowl of brown"
- death_turned_into_soup_killer:0 "cooked down into a bowl of brown by [TARGET_CHARACTER.GetUIName]"
- death_devoured_in_womb:0 "was devoured in the womb"
- death_devoured_in_womb_killer:0 "was devoured in the womb by [TARGET_CHARACTER.GetUIName]"
- death_vanished_slave_trade:0 "vanished after being sold into slave trade"
- death_vanished_slave_trade_killer:0 "vanished after being sold into slave trade by [TARGET_CHARACTER.GetUIName]"
- death_fell_off_the_wall:0 "fell off the Wall"
- death_jumped_off_the_wall:0 "jumped off the Wall"
- death_disappeared_on_ranging:0 "disappeared on a ranging"
- death_grabbed_by_grumkins:0 "grabbed by grumkins"
- death_lost_in_snowstorm:0 "lost in snowstorm"
- death_wildlings:0 "was abducted by wildlings"
- death_moonclans:0 "was abducted by Vale clansmen"
- death_shot_arrow:0 "was shot by an arrow"
- death_shot_arrow_murder:0 "was shot by an arrow fired by [TARGET_CHARACTER.GetUIName]"
- death_iron_throne:0 "was discovered impaled upon the Iron Throne"
- death_kg_fleeing_killer:0 "was killed trying to escape [TARGET_CHARACTER.GetUIName]"
- death_spontaneous_combustion:0 "spontaneously combusted"
- death_flew_away_to_valyria:0 "flew away in the direction of Valyria"
- death_flew_away_to_sothoryos:0 "flew deep into the jungles of Sothoryos"
- death_sacrificed:0 "was sacrificed"
- death_sacrificed_killer:0 "was sacrificed by [TARGET_CHARACTER.GetUIName]"
- death_succumbed_fate:0 "succumbed to [CHARACTER.GetHerHis] fate"
+  #AGOT 
+ death_broken_heart: "starb an einem gebrochenen Herzen"
+ death_dragon_hatching_sacrifice: "was sacrificed in a dragon hatching ceremony" #NT!
+ death_dragon_hatching_sacrifice_killer: "was sacrificed in [TARGET_CHARACTER.GetUINamePossessive] dragon hatching ceremony" #NT!
+ death_dragon_hatching_accident: "was killed in an accident during a dragon hatching ceremony" #NT!
+ death_dragon_hatching_accident_killer: "was killed in an accident during [TARGET_CHARACTER.GetUINamePossessive] dragon hatching ceremony" #NT!
+ death_dragon: "getötet von einem Drachen"
+ death_dragon_killer: "was killed by the dragon [TARGET_CHARACTER.GetUIName]" #NT!
+ death_dragon_siege: "was killed by a dragon in a siege" #NT!
+ death_dragon_siege_killer: "was killed by [TARGET_CHARACTER.GetUIName] in a siege" #NT!
+ death_dragon_siege_attacker: "was killed while using [CHARACTER.GetHerHis] dragon in a siege" #NT!
+ death_dragon_siege_attacker_killer: "was killed by [TARGET_CHARACTER.GetUIName] while using [CHARACTER.GetHerHis] dragon in a siege" #NT!
+ death_dragon_scorpion: "was killed by a scorpion bolt" #NT!
+ death_dragon_scorpion_killer: "was killed by [TARGET_CHARACTER.GetUIName] with a scorpion bolt" #NT!
+ death_dragon_scorpion_rider: "died when [CHARACTER.GetHerHis] dragon was killed by a scorpion bolt" #NT!
+ death_dragon_scorpion_rider_killer: "died when [CHARACTER.GetHerHis] dragon was killed by [TARGET_CHARACTER.GetUIName] with a scorpion bolt" #NT!
+ death_dragon_scorpion_siege: "was killed by a scorpion bolt in a siege" #NT!
+ death_dragon_scorpion_siege_killer: "was killed by [TARGET_CHARACTER.GetUIName] with a scorpion bolt in a siege" #NT!
+ death_dragon_water_wizard: "was drowned in a pillar of water created by water wizards" #NT!
+ death_dragon_water_wizard_killer: "was drowned in a pillar of water created by [TARGET_CHARACTER.GetUINamePossessive] water wizards" #NT!
+ death_dragon_water_wizard_rider: "was drowned in a pillar of water created by water wizards" #NT!
+ death_dragon_water_wizard_rider_killer: "was drowned in a pillar of water created by [TARGET_CHARACTER.GetUINamePossessive] water wizards" #NT!
+ death_fed_to_dragon: "was fed to a dragon" #NT!
+ death_fed_to_dragon_killer: "was fed to [TARGET_CHARACTER.GetUIName]" #NT!
+ death_battle_dragon: "was killed by a dragon in battle" #NT!
+ death_battle_dragon_killer: "was killed by the dragon [TARGET_CHARACTER.GetUIName] in battle" #NT!
+ death_dragon_wounded_1: "died from [CHARACTER.GetHerHis] wounds" #NT!
+ death_dragon_wounded_2: "$death_dragon_wounded_1$" #NT!
+ death_dragon_ate: "was eaten by a dragon" #NT!
+ death_dragon_ate_killer: "was eaten by the dragon [TARGET_CHARACTER.GetUIName]" #NT!
+ death_dragon_ate_failed_tamed: "was eated by a dragon after a failed taming attempt" #NT!
+ death_dragon_ate_failed_tamed_killer: "was eaten by the dragon [TARGET_CHARACTER.GetUIName] after a failed taming attempt" #NT!
+ death_battle_dragon_ate: "was eaten by a dragon in battle" #NT!
+ death_battle_dragon_ate_killer: "was eaten by the dragon [TARGET_CHARACTER.GetUIName] in battle" #NT!
+ death_dragon_fire_failed_tame: "was incinerated by dragonfire during a botched taming attempt" #NT!
+ death_dragon_fire_failed_tame_killer: "was incinerated by [TARGET_CHARACTER.GetUIName] during a botched taming attempt" #NT!
+ death_dragon_fire: "was incinerated by dragonfire" #NT!
+ death_dragon_fire_killer: "was incinerated by [TARGET_CHARACTER.GetUIName]" #NT!
+ death_battle_dragon_fire: "in der Schlacht durch Drachenfeuer gestorben"
+ death_battle_dragon_fire_killer: "in der Schlacht gegen [TARGET_CHARACTER.GetUIName] durch Drachenfeuer gestorben"
+ death_dragon_duel: "died in a dragon duel" #NT!
+ death_dragon_duel_killer: "was killed by [TARGET_CHARACTER.GetUIName] and [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'your', TARGET_CHARACTER.GetHerHis )] dragon in a dragon duel" #NT!
+ death_dragon_duel_ate: "was eaten in a dragon duel" #NT!
+ death_dragon_duel_ate_killer: "was eaten by [TARGET_CHARACTER.GetUINamePossessive] dragon in a dragon duel" #NT!
+ death_dragon_duel_fire: "was incinerated in a dragon duel" #NT!
+ death_dragon_duel_fire_killer: "was incinerated by [TARGET_CHARACTER.GetUINamePossessive] dragon in a dragon duel" #NT!
+ death_dragon_stomped: "was stomped to death by a dragon" #NT!
+ death_dragon_stomped_killer: "was stomped to death by the dragon [TARGET_CHARACTER.GetUIName]" #NT!
+ death_dragon_crushed_by_tail: "was crushed to death by a dragon's tail" #NT!
+ death_dragon_crushed_by_tail_killer: "was crushed to death by the dragon [TARGET_CHARACTER.GetUINamePossessive] tail" #NT!
+ death_dropped_from_dragon: "was dropped from the sky by a dragon" #NT!
+ death_dropped_from_dragon_killer: "was dropped from the sky by the dragon [TARGET_CHARACTER.GetUIName]" #NT!
+ death_fell_from_dragon: "fell from [CHARACTER.GetHerHis] dragon" #NT!
+ death_fell_from_dragon_killer: "fell from [TARGET_CHARACTER.GetUIName]" #NT!
+ death_fell_from_other_dragon: "fell from a dragon" #NT!
+ death_hatching_fail: "died trying to hatch a dragon egg" #NT!
+ death_dragon_slain: "was slain by a human in a duel" #NT!
+ death_dragon_slain_killer: "was slain by [TARGET_CHARACTER.GetUIName] in a duel" #NT!
+ death_hatching_sacrifice: "was sacrificed trying to hatch a dragon egg" #NT!
+ death_hatching_sacrifice_killer: "was sacrificed by [TARGET_CHARACTER.GetUIName] trying to hatch a dragon egg" #NT!
+ death_wildfire_killer: "wurde von [TARGET_CHARACTER.GetUIName] mit Seefeuer entzündet"
+ death_wildfire_killer_killer: "wurde von [TARGET_CHARACTER.GetUIName] mit Seefeuer entzündet"
+ death_wildfire_KL_killer: "verbrannt bei der Seefeuerexplosion von Königsmund, als [TARGET_CHARACTER.GetUIName] 'sie alle verbrannte'"
+ death_wildfire_KL: "verbrannt bei der Seefeuerexplosion von Königsmund"
+ death_drinking_wildfire: "starb nach dem Trinken von Seefeuer"
+ death_wildfire_accident: "Verbrannte durch ein Seefeuerunfall"
+ death_horn_blow: "died after blowing a dragon horn" #NT!
+ death_horn_blow_killer: "died after blowing a dragon horn on [TARGET_CHARACTER.GetUINamePossessive] orders" #NT!
+ death_duel_trial_by_combat: "Unterlag bei einem Urteil durch Kampf"
+ death_duel_trial_by_combat_killer: "Unterlag bei einem Urteil durch Kampf gegen [TARGET_CHARACTER.GetUIName]"
+ death_duel_trial_by_seven: "Unterlag bei einem Urteil durch Sieben"
+ death_duel_trial_by_seven_killer: "Unterlag bei einem Urteil durch Sieben gegen [TARGET_CHARACTER.GetUIName]"
+ death_froze_to_death: "Erfror"
+ death_eaten_alive_by_lions: "wurde bei lebendigem Leibe von Löwen gefressen"
+ death_ripped_to_death_by_lizard_lion: "wurde von einem Echsenlöwen in Stücke gerissen"
+ death_died_in_the_neck: "Verschwand spurlos in der Eng"
+ death_ratiod: "Ratio'd"
+ death_lost_at_sea: "zuletzt gesehen auf dem Meere, verschlungen von dem großen Unbekannten"
+ death_lost_at_sea_red: "zuletzt gesehen auf dem Meere, verschlungen von dem großen Unbekannten"
+ death_scurvy: "starb an einem schweren Fall von [GetTrait('scurvy').GetName( CHARACTER.Self )]"
+ death_tourney_joust: "starb bei einem Turnierunfall"
+ death_wolf_hunt: "bei der Wolfsjagd gestorben"
+ death_spring_sickness: "starb an einem schweren Fall von [GetTrait('spring_sickness').GetName( CHARACTER.Self )]"
+ death_winter_fever: "starb an einem schweren Fall von [GetTrait('winter_fever').GetName( CHARACTER.Self )]"
+ death_greyscale: "starb an einem schweren Fall von Grauschuppen"
+ death_bloody_flux: "starb an einem schweren Fall von [GetTrait('bloody_flux').GetName( CHARACTER.Self )]"
+ death_stillborn: "Tot geboren"
+ death_rabble: "vom Pöbel gelyncht"
+ death_crushed_by_boulder: "von einem herabstürzenden Felsblock zermalmt"
+ death_suffocate_on_cock: "suffocated on his own mangled cock" #NT!
+ death_turned_into_soup: "cooked down into a bowl of brown" #NT!
+ death_turned_into_soup_killer: "cooked down into a bowl of brown by [TARGET_CHARACTER.GetUIName]" #NT!
+ death_devoured_in_womb: "was devoured in the womb" #NT!
+ death_devoured_in_womb_killer: "was devoured in the womb by [TARGET_CHARACTER.GetUIName]" #NT!
+ death_vanished_slave_trade: "vanished after being sold into slave trade" #NT!
+ death_vanished_slave_trade_killer: "vanished after being sold into slave trade by [TARGET_CHARACTER.GetUIName]" #NT!
+ death_fell_off_the_wall: "fell off the Wall" #NT!
+ death_jumped_off_the_wall: "jumped off the Wall" #NT!
+ death_disappeared_on_ranging: "disappeared on a ranging" #NT!
+ death_grabbed_by_grumkins: "grabbed by grumkins" #NT!
+ death_lost_in_snowstorm: "lost in snowstorm" #NT!
+ death_wildlings: "was abducted by wildlings" #NT!
+ death_moonclans: "was abducted by Vale clansmen" #NT!
+ death_fell_into_crevasse: "fell into an icy crevasse" #NT!
+ death_shot_arrow: "was shot by an arrow" #NT!
+ death_shot_arrow_murder: "was shot by an arrow fired by [TARGET_CHARACTER.GetUIName]" #NT!
+ death_iron_throne: "was discovered impaled upon the Iron Throne" #NT!
+ death_iron_throne_impaled_sabotage: "was impaled upon the Iron Throne after tripping on the top step" #NT!
+ death_iron_throne_impaled_sabotage_killer: "was impaled upon the Iron Throne after tripping on the top step due to [TARGET_CHARACTER.GetUINamePossessive] sabotage" #NT!
+ death_throne_slipped_sabotage: "broke [CHARACTER.GetHerHis|l] neck after slipping and falling down the steps of [CHARACTER.GetHerHis|l] throne" #NT!
+ death_throne_slipped_sabotage_killer: "broke [CHARACTER.GetHerHis|l] neck after slipping and falling down the steps of [CHARACTER.GetHerHis|l] throne due [TARGET_CHARACTER.GetUINamePossessive] sabotage" #NT!
+ death_kg_fleeing_killer: "was killed trying to escape [TARGET_CHARACTER.GetUIName]" #NT!
+ death_spontaneous_combustion: "spontaneously combusted" #NT!
+ death_flew_away_to_valyria: "flew away in the direction of Valyria" #NT!
+ death_flew_away_to_sothoryos: "flew deep into the jungles of Sothoryos" #NT!
+ death_fire_worms: "died a blackened husk, brought upon by an unspeakable malady" #NT!
+ death_sacrificed: "was sacrificed" #NT!
+ death_sacrificed_killer: "was sacrificed by [TARGET_CHARACTER.GetUIName]" #NT!
+ death_succumbed_fate: "succumbed to [CHARACTER.GetHerHis] fate" #NT!
+ death_hacked_to_pieces: "was hacked to pieces" #NT!
+ death_hacked_to_pieces_killer: "was hacked to pieces by [TARGET_CHARACTER.GetUIName]" #NT!
+ death_aegonvi_murder_known: "$death_murder_known$" #NT!
+ death_aegonvi_murder_known_killer: "$death_murder_known_killer$" #NT!
+ death_childrenoftheforest: "was pincushioned with under-sized weirwood arrows" #NT!
+ death_moon_door: "fell through the Moon Door" #NT!
+ death_moon_door_killer: "was sent through the moon door by [TARGET_CHARACTER.GetUIName]" #NT!
+ death_vanished_horse: "was last seen ahorse" #NT!
+ death_blood_drained: "was completely drained of blood" #NT!
+ death_blood_drained_killer: "was completely drained of blood by [TARGET_CHARACTER.GetUIName]" #NT!
+ death_joined_dosh_khaleen: "left to join the Dosh Khaleen" #NT!
+ death_sacrificed_dark_ritual: "was sacrificed in a dark ritual" #NT!
+ death_sacrificed_dark_ritual_killer: "was sacrificed in a dark ritual by [TARGET_CHARACTER.GetUIName]" #NT!
+ death_sacrificed_to_others: "was sacrificed to the Others" #NT!
+ death_sacrificed_to_others_killer: "was sacrificed to the Others by [TARGET_CHARACTER.GetUIName]" #NT!
+ death_bloodrider_suicide: "commited suicide to honor their blood oath" #NT!
+ death_bloodrider_suicide_killer: "commited suicide to honor their blood oath sworn to [TARGET_CHARACTER.GetUIName]" #NT!
+ death_oyster: "digested bad seafood" #NT!
+ death_house_of_baw: "paid a visit to the House of Black and White" #NT!

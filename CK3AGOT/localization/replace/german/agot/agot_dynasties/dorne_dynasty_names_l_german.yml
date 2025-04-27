@@ -1,66 +1,65 @@
 ﻿l_german:
- #übersetzt von Dillo
- ### DORNE DYNASTIES/CADET BRANCHES ###
- #Dornish Great Houses
- dynn_Martell:0 "Martell"
- house_Martell:0 "Nymeros Martell" #canonically no - between the two names
-
- #Salt Dornish
- dynn_Briar:0 "Dorn"
- dynn_Brook:0 "Bach"
- dynn_Dalt:0 "Dalt"
- dynn_Gargalen:0 "Gargalen"
- dynn_Hood:0 "Haube"
- dynn_Hull:0 "Rumpf"
- dynn_Jordayne:0 "Jordayn"
- dynn_Trackand:0 "Trackand"
- dynn_Murrandy:0 "Murrandy"
- dynn_Sanders:0 "Sanders"
- dynn_Santagar:0 "Santagar"
- dynn_Shell:0 "Auster"
- dynn_Shells:0 "Muscheln"
- dynn_Toland:0 "Toland"
- dynn_Wade:0 "Wade"
-
- #Sand Dornish
- dynn_Allyrion:0 "Allyrion"
- dynn_Ladybright:0 "Damenhell"
- dynn_Dryside:0 "Trockenlegung"
- dynn_Qorgyle:0 "Qorgyl"
- dynn_Shanin:0 "Shanin"
- dynn_Uller:0 "Uller"
- dynn_Vaith:0 "Vaith"
- dynn_Wells:0 "Brunnen"
- dynn_Cook:0 "Koch"
- dynn_Maltrevar:0 "Maltrevar"
- dynn_Ruthvan:0 "Ruttwan"
- dynn_Veckryn:0 "Veckryn"
-
- #Stone Dornish
- dynn_Blackmont:0 "Schwarzberg"
- dynn_Ravencroft:0 "Rabenhof"
- dynn_Claviger:0 "Claviger"
- dynn_Offal:0 "Innereien"
- dynn_Gore:0 "Gore"
- dynn_Trevanion:0 "Trewanion"
- dynn_Cage:0 "Käfig"
- dynn_Dayne:0 "Dayn"
- dynn_Ronce:0 "Ronce"
- dynn_Warriner:0 "Warriner"
- dynn_Stillbloom:0 "Standblüte"
- dynn_Sallow:0 "Fahles"
- dynn_Drinkwater:0 "Trinkwasser"
- dynn_Fowler:0 "Vogler"
- dynn_Manwoody:0 "Mannkraft"
- dynn_Wyl:0 "Wyl"
- dynn_Yronwood:0 "Isenwald"
-
- #Extinct
- dynn_Brownhill:0 "Braunhügel"
- dynn_Dryland:0 "Trockenland"
- dynn_Holt:0 "Holt"
- dynn_Lake:0 "Hain"
- dynn_Nymeros:0 "Nymeros"
-
- #Modcanon and Easter Eggs
- dynn_Mercer:0 "Merzer"
+  ### DORNE DYNASTIES/CADET BRANCHES ### 
+  #Dornish Great Houses 
+ dynn_Martell: "Martell"
+ house_Martell: "Nymeros Martell"
+  
+  #Salt Dornish 
+ dynn_Briar: "Dorn"
+ dynn_Brook: "Bach"
+ dynn_Dalt: "Dalt"
+ dynn_Gargalen: "Gargalen"
+ dynn_Hood: "Haube"
+ dynn_Hull: "Rumpf"
+ dynn_Jordayne: "Jordayn"
+ dynn_Trackand: "Trackand" #NT!
+ dynn_Murrandy: "Murrandy" #NT!
+ dynn_Sanders: "Sanders" #NT!
+ dynn_Santagar: "Santagar"
+ dynn_Shell: "Muschel"
+ dynn_Shells: "Muscheln"
+ dynn_Toland: "Toland"
+ dynn_Wade: "Wade"
+  
+  #Sand Dornish 
+ dynn_Allyrion: "Allyrion"
+ dynn_Ladybright: "Damenhell"
+ dynn_Dryside: "Dryside" #NT!
+ dynn_Qorgyle: "Qorgyl"
+ dynn_Shanin: "Shanin" #NT!
+ dynn_Uller: "Uller"
+ dynn_Vaith: "Vaith"
+ dynn_Wells: "Brunnen"
+ dynn_Cook: "Cook" #NT!
+ dynn_Maltrevar: "Maltrevar" #NT!
+ dynn_Ruthvan: "Ruthvan" #NT!
+ dynn_Veckryn: "Veckryn" #NT!
+  
+  #Stone Dornish 
+ dynn_Blackmont: "Schwarzberg"
+ dynn_Ravencroft: "Ravencroft" #NT!
+ dynn_Claviger: "Claviger" #NT!
+ dynn_Offal: "Offal" #NT!
+ dynn_Gore: "Gore" #NT!
+ dynn_Trevanion: "Trevanion" #NT!
+ dynn_Cage: "Cage" #NT!
+ dynn_Dayne: "Dayn"
+ dynn_Ronce: "Ronce" #NT!
+ dynn_Warriner: "Warriner" #NT!
+ dynn_Stillbloom: "Stillbloom" #NT!
+ dynn_Sallow: "Sallow" #NT!
+ dynn_Drinkwater: "Trinkwasser"
+ dynn_Fowler: "Vogler"
+ dynn_Manwoody: "Mannkraft"
+ dynn_Wyl: "Wyl"
+ dynn_Yronwood: "Isenwald"
+  
+  #Extinct 
+ dynn_Brownhill: "Braunhügel"
+ dynn_Dryland: "Trockenland"
+ dynn_Holt: "Holt"
+ dynn_Lake: "See"
+ dynn_Nymeros: "Nymeros"
+  
+  #Modcanon and Easter Eggs 
+ dynn_Mercer: "Merzer"

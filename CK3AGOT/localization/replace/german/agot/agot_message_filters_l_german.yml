@@ -1,0 +1,27 @@
+﻿l_german:
+ message_filter_dragon_death: "@dragon_icon! Dragon Death" #NT!
+ message_filter_dragon_death_desc: "A [dragon|E] death has occured" #NT!
+  
+ message_filter_dragonrider_death: "@dragon_icon! Dragonrider Death" #NT!
+ message_filter_dragonrider_death_desc: "A [GetTrait('dragonrider').GetName( GetNullCharacter )|LV] death has occured" #NT!
+  
+ message_filter_dragon_hatched: "@dragon_icon! Dragon Egg Hatches" #NT!
+ message_filter_dragon_hatched_desc: "A [dragon|E] egg has hatched" #NT!
+  
+ message_filter_dragon_tamed: "@dragon_icon! Dragon Tamed" #NT!
+ message_filter_dragon_tamed_desc: "A [dragon|E] has been tamed" #NT!
+  
+ message_filter_iron_throne_inheritance: "@titles_icon! Iron Throne Inheritance" #NT!
+ message_filter_iron_throne_inheritance_desc: "A new character has inherited the [GetTitleByKey('e_the_iron_throne').GetName]" #NT!
+  
+ message_filter_nightswatch_inheritance: "@titles_icon! Night's Watch Election" #NT!
+ message_filter_nightswatch_inheritance_desc: "A new character has become Lord Commander of the Nightswatch" #NT!
+  
+ message_filter_agot_squire_training: "@cs_knight_icon! Squire Training" #NT!
+ message_filter_agot_squire_training_desc: "Squire training messages" #NT!
+  
+ message_filter_legitimate_house_inheritance: "@titles_icon! Legitimate House Inheritance" #NT!
+ message_filter_legitimate_house_inheritance_desc: "Succession results for [agot_legitimate_house|E] titles" #NT!
+  
+ message_filter_agot_bank_interactions: "@gold_icon! Bank Interactions" #NT!
+ message_filter_agot_bank_interactions_desc: "Bank interactions messages" #NT!

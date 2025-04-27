@@ -1,20 +1,27 @@
 ﻿l_german:
- #Scripted Relations
- agot_squire:0 "[squire|E]"
- agot_knight:0 "[agot_knight|E]"
- agot_personal_coa_slave:0 "Personal Arms Holder"
- paramour:0 "Paramour"
- bodyguard:0 "Bodyguard"
- agot_dragon:0 "Dragon"
-
- agot_squire_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [squire|E]"
- agot_knight_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [agot_knight|E]"
- paramour_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] paramour"
- bodyguard_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bodyguard"
- agot_dragon_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bonded [dragon|E]"
-
-
- relation_court_physician_female:0 "maester"
- relation_court_physician_male:0 "maester"
- relation_court_physician_female_possessive:0 "maester's"
- relation_court_physician_male_possessive:0 "maester's"
+  #Scripted Relations 
+ agot_squire: "[squire|E]"
+ agot_knight: "[agot_knight|E]"
+ agot_personal_coa_slave: "Personal Arms Holder" #NT!
+ paramour: "Konkubine"
+ bodyguard: "Bodyguard" #NT!
+ bloodrider: "Bloodrider" #NT!
+ agot_dragon: "Dragon" #NT!
+  
+ agot_squire_desc: "Dies ist [CHARACTER.GetShortUINamePossessiveNoTooltip] [squire|E]"
+ agot_knight_desc: "Dies ist [CHARACTER.GetShortUINamePossessiveNoTooltip] [agot_knight|E]"
+ paramour_desc: "Dies ist [CHARACTER.GetShortUINamePossessiveNoTooltip] Konkubine"
+ bodyguard_desc: "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bodyguard" #NT!
+ bloodrider_desc: "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bloodrider" #NT!
+ agot_dragon_desc: "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bonded [dragon|E]" #NT!
+  
+  
+ relation_court_physician_female: "Maester"
+ relation_court_physician_male: "Maester"
+ relation_court_physician_female_possessive: "Maesters"
+ relation_court_physician_male_possessive: "Maesters"
+  
+ relation_bloodrider_female: "bloodrider" #NT!
+ relation_bloodrider_male: "bloodrider" #NT!
+ relation_bloodrider_female_possessive: "bloodrider's" #NT!
+ relation_bloodrider_male_possessive: "bloodrider's" #NT!

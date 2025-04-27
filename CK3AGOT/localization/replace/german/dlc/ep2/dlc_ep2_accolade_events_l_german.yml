@@ -1,35 +1,35 @@
 ﻿l_german:
- 
- ep2_accolade_events.0100.t:0 "The Hunter's Art"
- ep2_accolade_events.0100.desc:0 "To blindly chase a wild creature, launching arrow after arrow or spurring ever harder?\n\n"Futile!" laughs [huntsmaster.GetName], my renowned [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')].\n\nBeasts can be cunning. They scent the stalker on approach, scatter before the hunting-pack, and turn violent when cornered. Bringing down quarries means knowing them and their wilderness well and, once the horn is sounded — never relenting.\n\nThe most skilled of hunters is [huntsmaster.GetFirstNameNoTooltip]. In [huntsmaster.GetHerHis] company,"
- ep2_accolade_events.0100.desc.both:0 "my [ROOT.Char.Custom2('RelationToMeShort', new_hunter_2)] [new_hunter_2.GetFirstName] and I are coming to know the ways of [ROOT.Char.GetFaith.HighGodName]'s creatures... and the ways of outwitting them."
- ep2_accolade_events.0100.desc.heir:0 "my [ROOT.Char.Custom2('RelationToMeShort', new_hunter)] [new_hunter.GetFirstName] is coming to know the ways of [ROOT.Char.GetFaith.HighGodName]'s creatures... and the ways of outwitting them."
- ep2_accolade_events.0100.desc.liege:0 "I am coming to know the ways of [ROOT.Char.GetFaith.HighGodName]'s creatures... and the ways of outwitting them."
- ep2_accolade_events.0100.a:0 "To the chase!"
- 
- ep2_accolade_events.0200.t:0 "Keen as Blade's Edge"
- ep2_accolade_events.0200.desc:0 ""Good!" beams [acclaimed_blademaster.GetName]. #EMP "Again!"#!\n\nSword clangs against sword, will against will. The need for victory is all the novice sword-fighter feels — but the masterful knight [acclaimed_blademaster.GetFirstNameNoTooltip] smiles as he slaps aside blows.\n\n"
-
- ep2_accolade_events.0200.desc.both_not_martial:0 "I slake my assault, exhausted.\n\n"Your hand knows the sword well, my [ROOT.Char.GetLadyLord]," says the [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')], "your [ROOT.Char.Custom2('RelationToMeShort', new_blademaster_2)]'s too. I could... train you both, if that's what you wish?"\n\nI consider the hilt in my blistered fingers. Shall I defy my birth?"
- ep2_accolade_events.0200.desc.liege_not_martial:0 "I slake my assault, exhausted.\n\n"Your hand knows the sword well, my [ROOT.Char.GetLadyLord]," says the [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')], "and your [ROOT.Char.Custom2('RelationToMeShort', new_blademaster_2)]'s too. I could... train you, as I am training [new_blademaster_2.GetHerHim], if that's what you wish?"\n\nI consider the hilt in my blistered fingers. Shall I defy my birth?"
- ep2_accolade_events.0200.desc.heir_not_martial:0 "I slake my assault, exhausted.\n\n"Your hand knows the sword well, my [ROOT.Char.GetLadyLord]," says the [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')], "as does... your [ROOT.Char.Custom2('RelationToMeShort', new_blademaster_2)]'s. [new_blademaster_2.GetFirstName]'s asked if I may train you both."\n\nMy heir [new_blademaster_2.GetFirstName] wishes to defy [new_blademaster_2.GetHerHis] birth?"
- ep2_accolade_events.0200.desc.both:0 "I slake my assault, exhausted.\n\n"Your hand knows the sword well, my [ROOT.Char.GetLadyLord]," says the [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')], "as does your [ROOT.Char.Custom2('RelationToMeShort', new_blademaster_2)]'s! There's an art to your furies: something to nurture.""
- ep2_accolade_events.0200.desc.heir:0 "My [ROOT.Char.Custom2('RelationToMeShort', new_blademaster)] [new_blademaster.GetFirstName] slakes [new_blademaster.GetHerHis] assault, exhausted.\n\n"[new_blademaster.GetHerHis|U] hand knows the sword well, my [ROOT.Char.GetLadyLord]," says the [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')]. "There's an art to [new_blademaster.GetHerHis] fury: something to nurture.""
- ep2_accolade_events.0200.desc.liege:0 "I slake my assault, exhausted.\n\n"Your hand knows the sword well, my [ROOT.Char.GetLadyLord]," says the [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')]. "There's an art to your fury: something to nurture.""
-
- ep2_accolade_events.0200.a:0 "Let our foes tremble!"
- ep2_accolade_events.0200.b:0 "Only those who may fight need to know how."
- ep2_accolade_events.0200.b.tt:0 "After all, the [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] looks to my example."
- 
- defied_martial_custom_modifier:0 "Defied Martial Custom"
- defied_martial_custom_desc:0 "This character ignored social mores by having unsuitable sword-fighters take up the blade."
-
- ep2_accolade_events.0300.t:0 "The Crowd-Pleaser's Creed"
- ep2_accolade_events.0300.desc:0 "Seated at my side for the morning meal, my [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] [master_of_revels.GetFirstName] regales me with rare insights about courtiers, tells spectacular and absurd tales, and makes a startling amount of food and drink disappear.\n\n"The fruits of life await all round, my [ROOT.Char.GetTitleTierName]," says [master_of_revels.GetSheHe], "Ripe on the bough, tasted only by climbing after them heedlessly."\n\n[master_of_revels.GetFirstNameNoTooltip]'s enjoyment of life's fruits are the talk of all. Always, [master_of_revels.GetSheHe] gathers friendship and fascination, heedlessly.\n\n"
-
- ep2_accolade_events.0300.desc.both:0 "A raucous inspiration for my heir [new_reveler_2.GetFirstName] and myself."
- #AGOT Modified, vanilla scoping error
- #ep2_accolade_events.0300.desc.heir:0 "A raucous inspiration for my heir [new_reveler_2.GetFirstName]."
- ep2_accolade_events.0300.desc.heir:0 "A raucous inspiration for my heir [new_reveler.GetFirstName]."
- ep2_accolade_events.0300.desc.liege:0 "I find myself inspired."
- ep2_accolade_events.0300.a:0 "To lively evenings and sweet fruits!"
+  
+ ep2_accolade_events.0100.t: "Die Kunst der Jagd"
+ ep2_accolade_events.0100.desc: "Blindlings einer wilden Kreatur hinterherjagen, Pfeil um Pfeil abschießen oder dem Pferd immer mehr die Sporen geben?\n\n„Nutzlos!“, lacht [huntsmaster.GetName], mein berühmter [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')|U] auf.\n\nWildtiere können gerissen sein. Sie wittern Angreifer, wenn sie sich nähern, stieben vor der Jagdmeute auseinander und gehen zum Angriff über, sobald sie in die Enge getrieben werden. Um eine Beute zu erlegen, muss man sie und die Wildnis gut kennen – und sobald das Horn erklungen ist, darf man niemals nachgeben.\n\n[Select_CString(huntsmaster.IsFemale, 'Die geschickteste Jägerin', 'Der geschickteste Jäger')|U] ist [huntsmaster.GetFirstNameNoTooltip]. In [huntsmaster.Custom('DE_PRO_POS_S_3P')]er Gesellschaft"
+ ep2_accolade_events.0100.desc.both: "lernen m[new_hunter_2.Custom('DE_ART_IND_N')] [ROOT.Char.Custom2('RelationToMeShort', new_hunter_2)] [new_hunter_2.GetFirstName] und ich die Lebensweise sämtlicher Kreaturen der Schöpfung kennen … und wie man sie überlistet."
+ ep2_accolade_events.0100.desc.heir: "lernt m[new_hunter.Custom('DE_ART_IND_N')] [ROOT.Char.Custom2('RelationToMeShort', new_hunter)] [new_hunter.GetFirstName] die Lebensweise sämtlicher Kreaturen der Schöpfung kennen … und wie man sie überlistet."
+ ep2_accolade_events.0100.desc.liege: "lerne ich die Lebensweise sämtlicher Kreaturen der Schöpfung kennen … und wie man sie überlistet."
+ ep2_accolade_events.0100.a: "Auf zur Hatz!"
+  
+ ep2_accolade_events.0200.t: "Scharf wie des Messers Schneide"
+ ep2_accolade_events.0200.desc: "„Gut!“ [acclaimed_blademaster.GetName|U] strahlt. #EMP „Noch einmal!“#!\n\nSchwert prallt klirrend gegen Schwert, Wille trifft auf Wille. Das Streben nach Sieg ist alles, was für den unerfahrenen Schwertkämpfer zählt – doch der meisterhafte Ritter [acclaimed_blademaster.GetFirstNameNoTooltip] lächelt, während er die Angriffe beiseite wischt.\n\n"
+  
+ ep2_accolade_events.0200.desc.both_not_martial: "Erschöpft lasse ich meinen Ansturm abebben.\n\n„Eure Hand beherrscht das Schwert gut, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]“, sagt der [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')|U], „doch [Select_CString(new_blademaster_2.IsFemale, 'Eure', 'Euer')] [ROOT.Char.Custom2('RelationToMeShort', new_blademaster_2)] ist das auch. Ich könnte … Euch beide ausbilden, falls Ihr dies wünscht.“\n\nIch schaue auf meine wunden Finger um den Schwertgriff. Soll ich meiner Geburt trotzen?"
+ ep2_accolade_events.0200.desc.liege_not_martial: "Erschöpft lasse ich meinen Ansturm abebben.\n\n„Eure Hand beherrscht das Schwert gut, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]“, sagt der [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')|U], „und [Select_CString(new_blademaster_2.IsFemale, 'Eure', 'Euer')] [ROOT.Char.Custom2('RelationToMeShort', new_blademaster_2)] ist das auch. Ich könnte … [new_blademaster_2.Custom('DE_PRO_PER_S_3P_A')] ausbilden, falls Ihr dies wünscht.“\n\nIch schaue auf meine wunden Finger um den Schwertgriff. Soll ich meiner Geburt trotzen?"
+ ep2_accolade_events.0200.desc.heir_not_martial: "Erschöpft lasse ich meinen Ansturm abebben.\n\n„Eure Hand beherrscht das Schwert gut, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]“, sagt der [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')|U]. „So wie … [Select_CString(new_blademaster_2.IsFemale, 'Eure', 'Euer')] [ROOT.Char.Custom2('RelationToMeShort', new_blademaster_2)]. [new_blademaster_2.GetFirstName] hat gefragt, ob ich Euch beide ausbilden darf.“\n\n[Select_CString(new_blademaster_2.IsFemale, 'Meine Erbin', 'Mein Erbe')] [new_blademaster_2.GetFirstName] will sich der eigenen Geburt widersetzen?"
+ ep2_accolade_events.0200.desc.both: "Erschöpft lasse ich meinen Ansturm abebben.\n\n„Eure Hand beherrscht das Schwert gut, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]“, sagt der [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')|U]. „So wie … [Select_CString(new_blademaster_2.IsFemale, 'Eure', 'Euer')] [ROOT.Char.Custom2('RelationToMeShort', new_blademaster_2)]. In Eurer beider Raserei liegt eine Reinheit, die man noch weiter herauskitzeln könnte.“"
+ ep2_accolade_events.0200.desc.heir: "M[new_blademaster.Custom('DE_ART_IND_N')] [ROOT.Char.Custom2('RelationToMeShort', new_blademaster)] [new_blademaster.GetFirstName] lässt [new_blademaster.Custom('DE_PRO_POS_S_3P')]en Ansturm erschöpft abebben.\n\n„[new_blademaster.Custom('DE_PRO_POS_S_3P')|U]e Hand beherrscht das Schwert gut, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]“, sagt der [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')|U]. „In [new_blademaster.Custom('DE_PRO_POS_S_3P')]er Raserei liegt eine Reinheit, die man noch weiter herauskitzeln könnte.“"
+ ep2_accolade_events.0200.desc.liege: "Erschöpft lasse ich meinen Ansturm abebben.\n\n„Eure Hand beherrscht das Schwert gut, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]“, sagt der [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')|U]. „In Eurer Raserei liegt eine Reinheit, die man noch weiter herauskitzeln könnte.“"
+  
+ ep2_accolade_events.0200.a: "Lasst unsere Feinde erzittern!"
+ ep2_accolade_events.0200.b: "Nur diejenigen, die kämpfen müssen, müssen wissen, wie das geht."
+ ep2_accolade_events.0200.b.tt: "Schließlich bin ich ein Vorbild für das Reich ([ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip])."
+  
+ defied_martial_custom_modifier: "Kriegertradition widersetzt"
+ defied_martial_custom_desc: "Dieser Charakter setzte sich über die gesellschaftlichen Sitten hinweg, indem er ungeeignete Schwertkämpfer zur Klinge greifen ließ."
+  
+ ep2_accolade_events.0300.t: "Das Bekenntnis des Publikumslieblings"
+ ep2_accolade_events.0300.desc: "Bei der morgendlichen Mahlzeit sitzt mein [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] [master_of_revels.GetFirstName] an meiner Seite und versorgt mich mit seltenen Einblicken zu Höflingen, erzählt spektakuläre und absurde Geschichten und beseitigt auch noch eine erstaunliche Menge an Essen und Trinken.\n\n„Die Früchte des Lebens warten überall, mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleTierName]“, sagt [master_of_revels.Custom('DE_PRO_PER_S_3P_N')]. „Reif hängen sie am Ast, doch man kostet sie nur, wenn man es wagt, forsch zu ihnen hinaufzuklettern.“\n\n[master_of_revels.GetFirstNameNoTooltip] genießt die Früchte des Lebens so sehr, dass alle am Hof darüber reden. Stets findet [master_of_revels.Custom('DE_PRO_PER_S_3P_N')] er neue Freunde und Interessen – ohne Rücksicht auf Verlust.\n\n"
+  
+ ep2_accolade_events.0300.desc.both: "Eine feierfreudige Inspiration für [Select_CString(new_reveler_2.IsFemale, 'meine Erbin', 'meinen Erben')] [new_reveler_2.GetFirstName] und mich."
+  #AGOT Modified, vanilla scoping error 
+ #ep2_accolade_events.0300.desc.heir: "A raucous inspiration for my heir [new_reveler_2.GetFirstName]." #NT!
+ ep2_accolade_events.0300.desc.heir: "A raucous inspiration for my heir [new_reveler.GetFirstName]." #NT!
+ ep2_accolade_events.0300.desc.liege: "Ich fühle mich selbst inspiriert."
+ ep2_accolade_events.0300.a: "Auf lebhafte Abende und süße Früchte!"

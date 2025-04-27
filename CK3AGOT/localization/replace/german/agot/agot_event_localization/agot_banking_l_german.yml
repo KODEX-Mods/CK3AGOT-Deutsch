@@ -1,0 +1,455 @@
+﻿l_german:
+ agot_banking.0001.t: "Envoys from the Bank" #NT!
+ agot_banking.0001.desc: "My servants bring word that the envoys from the [agot_bank|E] have finally arrived for my requested audience with them. Not wishing to insult these esteemed guests, I swiftly depart to attend to them.\n\nThe envoys look out of place in my hall, their robes a stark contrast to my guards' boiled leather. Their proposals, however, are plain enough.\n\nBefore me they lay a variety of loans, ranging in length and value. The question is, which one suits my needs best?" #NT!
+ agot_banking.0001.a: "I choose a #bold small#! amount of gold on a #bold long#! term." #NT!
+ agot_banking.0001.a_tt: "This loan will have the #difficulty_easy lowest#! [agot_bank_interest_rate|E]." #NT!
+ agot_banking.0001.b: "I choose a #bold small#! amount of gold on a #bold short#! term." #NT!
+ agot_banking.0001.b_tt: "This will increase the loan's [agot_bank_interest_rate|E] #difficulty_medium moderately#!." #NT!
+ agot_banking.0001.c: "I choose a #bold large#! amount of gold on a #bold long#! term." #NT!
+ agot_banking.0001.c_tt: "This will increase the loan's [agot_bank_interest_rate|E] #difficulty_hard significantly#!." #NT!
+ agot_banking.0001.d: "I choose a #bold large#! amount of gold on a #bold short#! term." #NT!
+ agot_banking.0001.d_tt: "This loan is #XB very risky#!. The [agot_bank_interest_rate|E] will be high." #NT!
+ agot_banking.0001.e: "I have changed my mind, send them back." #NT!
+ agot_banking.0001.e_tt: "The envoys are sent away." #NT!
+  
+ agot_banking.0002.t: "Loan Denied" #NT!
+ agot_banking.0002.desc: "After evaluating the conditions and potential risks of my loan, the envoys of the [agot_bank|E] have denied my request for funds. My current financial situation seems too uncertain, and such a loan would be too [Concept('agot_bank_risk_level', 'high risk') |E], considering the bank's current financial reserves and faith in my ability to meet repayment deadlines." #NT!
+ agot_banking.0002.a: "I will find the funds I need elsewhere." #NT!
+  
+ agot_banking.0003.t: "An Offer from the Bank" #NT!
+ agot_banking.0003.desc: "After weighing the risks involved, the envoys of the [agot_bank|E] have decided to offer me a loan with the following conditions:\nI will be loaned @gold_icon! [ROOT.Var('loaned_amount').GetValue|2|P].\nThe money is to be repaid in [ROOT.Var('loan_term').GetValue|0|N] years with an [agot_bank_interest_rate|E] of [ROOT.Var('loan_interest_rate').GetValue|0|N] percent per year.\n\n#help @warning_icon! If you die during the loan's term, the entire amount including interest becomes due immediately, to be paid by your primary surviving heir.#!" #NT!
+ agot_banking.0003.a: "These conditions are an insult. Be on your way!" #NT!
+ agot_banking.0003.b: "This deal is reasonable, I accept!" #NT!
+ agot_banking.0003.c: "Let's talk about term and amount again." #NT!
+  
+ agot_banking.0004.t: "The Bank's Due" #NT!
+ agot_banking.0004.desc: "Tension seeps through my halls as the envoys of the [agot_bank|E] have come to collect their due.\n\nAfter a brief exchange of pleasantries, the bank's envoys hand me a couple of sheets of paper. The first is a copy of the original loan agreement proving that its term has now expired. The second is a sheet of calculations showing that I now owe them a total of [ROOT.Var('total_repayment').GetValue|2|N], to be paid immediately." #NT!
+ agot_banking.0004.a: "My loan will be repaid in full." #NT!
+ agot_banking.0004.a_tt: "Your loan will be concluded, and you will be debt-free." #NT!
+ agot_banking.0004.b: "I can only cover the interest for now." #NT!
+ agot_banking.0004.b_tt: "Your loan will be extended and continue to accrue [Concept('agot_bank_interest_rate', 'interest') |E]. This does not count as a default." #NT!
+ agot_banking.0004.c: "I cannot afford to pay anything yet..." #NT!
+ agot_banking.0004.c_tt: "The bank will consider this a default. However, you may agree to a new deal: The loan will be extended for 5 years, but your [agot_bank_interest_rate|E] for any future loans will increase significantly. #italic This is your final chance!#!" #NT!
+ agot_banking.0004.d: "You will not see a coin from me!" #NT!
+ agot_banking.0004.d_tt: "You refuse to repay your loan. The bank will not be happy about this, you will never be allowed a loan again... And the bank will always have its due." #NT!
+  
+ agot_banking.0005.t: "Repayment" #NT!
+ agot_banking.0005.desc: "I can repay my loan before its due date is reached. I can choose to repay everything or just half of what is owed." #NT!
+ agot_banking.0005.a: "I will repay my loan in full." #NT!
+ agot_banking.0005.a_tt: "Your loan will be concluded, and you will be debt-free." #NT!
+ agot_banking.0005.b: "I will cover half of what I owe." #NT!
+ agot_banking.0005.b_tt: "You pay off half of the loaned amount and half of the incurred [Concept('agot_bank_interest_rate','interest')|E]. The remaining sum can be paid when the loan's term ends." #NT!
+ agot_banking.0005.c: "I will pay 50." #NT!
+ agot_banking.0005.c_tt: "You pay off 50 gold. The remaining sum can be paid when the loan's term ends." #NT!
+ agot_banking.0005.d: "I have changed my mind, I will repay later." #NT!
+  
+ agot_banking.0006.t: "An Inherited Debt" #NT!
+ agot_banking.0006.desc: "[parent_debtor.GetTitledFirstName], may [parent_debtor.GetSheHe] rest in peace, was indebted to the [agot_bank|E].\n\nSince I also have a running loan, the bank has sent a missive to inform me that the two loans will be combined, as I am the legal heir and therefore required to fulfill [parent_debtor.GetFirstNamePossessiveNoTooltip] obligations.\n\nThe sum I now owe totals @gold_icon! [ROOT.Var('total_repayment').GetValue|2|N]." #NT!
+ agot_banking.0006.a: "Thanks for the inheritance..." #NT!
+  
+ agot_banking.0007.t: "An Inherited Debt" #NT!
+ agot_banking.0007.desc: "[parent_debtor.GetTitledFirstName], may [parent_debtor.GetSheHe] rest in peace, was indebted to the [agot_bank|E].\n\nAs I am [parent_debtor.GetHerHis] legal heir, I am required to fulfill [parent_debtor.GetFirstNamePossessiveNoTooltip] obligations. I should expect the bank to contact me soon.\n\nThe sum I owe totals @gold_icon! [ROOT.Var('total_repayment').GetValue|2|N]." #NT!
+ agot_banking.0007.a: "Thanks for the inheritance..." #NT!
+  
+ agot_banking.0101.t: "The Bank's Wrath" #NT!
+ agot_banking.0101.desc: "Raiders sent and funded by the [agot_bank|E] have flooded into my realm in an attempt to sack my seat!\n\nFortunately, my soldiers were strong enough to fend them off before any substantial damage was done. Those raiders who were captured admitted that they had been hired by the bank in restitution for my failure to pay what I owe them. It seems as though the bank is now resorting to more extreme methods to collect their due.\n\nLet us hope that if they try again, the outcome remains the same..." #NT!
+ agot_banking.0101.a: "Is this really how they mean to collect?" #NT!
+  
+ agot_banking.0102.t: "The Bank's Wrath" #NT!
+ agot_banking.0102.desc: "My fields lay bare, and my subjects mourn their loved ones as the sellswords who raided my realm skulk back into the sea, returning their plunder to their masters at the [agot_bank|E]!\n\nMy forces were not strong enough to fend off their might, and the local garrison succumbed to their will. The land will wear the scars of this raid for a long time, and my subjects may wear them for even longer.\n\nShortly after the raid, I receive a letter from the bank informing me simply that they now consider my debt settled." #NT!
+ agot_banking.0102.a: "Is this the price I must pay?" #NT!
+  
+ agot_banking.0103.t: "A Dagger in the Dark" #NT!
+ agot_banking.0103.desc: "The [agot_bank|E] sent an assassin after me!\n\nMy guards were diligent in their duty, somehow identifying the assailant despite them wearing the face of a trusted servant! I have been spared from a silent and craven execution, but the specter of another dagger in the dark looms. It seems the bank will stop at nothing to collect their due." #NT!
+ agot_banking.0103.a: "Curse those greedy bookkeepers!" #NT!
+  
+ agot_banking.0104.t: "Valar Ademmis" #NT!
+ agot_banking.0104.desc: "What a cruel irony, that a faceless man sent by the bank should reveal himself before my eyes, just as I was lost in my thoughts, pondering the thorny problem that my default had become. Having assumed the identity of a servant, the individual had no trouble sneaking up on me and placing a blade to my throat.\n\nBlood is flowing freely, and the gesture was executed with such precision that I can't even force a cry for help from my lips.\n\nIn my fleeting agony, I realize that my creditors have lost patience and are hoping that my heir, [ROOT.Char.GetHeir.GetFirstName], will be more cooperative. All I can do is hope [ROOT.Char.GetHeir.GetSheHe] will be wiser than I..." #NT!
+ agot_banking.0104.a: "[ROOT.Char.Custom('Scream')]" #NT!
+  
+ agot_banking.0105.t: "A Foiled Coup" #NT!
+ agot_banking.0105.desc: "The [agot_bank|E] has failed in their attempt to oust me as [ROOT.Char.GetLadyLord]!\nThey intended to support a vassal's conquest of my lands in exchange for them paying off my defaulted loan. They failed, and the steel remains silent — for now. Though there is no doubt the bank will eventually find an ambitious and treacherous partner to reclaim their gold one day.\n\nThe bank will continue to undermine my rule and attempt to raise pretenders when I least expect it." #NT!
+ agot_banking.0105.a: "My rule is not so unstable!" #NT!
+  
+ agot_banking.0106.t: "A Golden Rival" #NT!
+ agot_banking.0106.desc: "The [agot_bank|E] has thrown their support behind [buyer.GetTitledFirstName] to usurp me! [buyer.GetFirstNameNoTooltip] agreed to pay my outstanding defaulted debt to the bank in exchange for their backing in this betrayal. The mere declaration of the bank's opposition to me has already damaged my legitimacy among my peers.\nNow all that remains is to see if [buyer.GetFirstNameNoTooltip] will press their claim..." #NT!
+ agot_banking.0106.a: "I won't give it up without a fight!" #NT!
+  
+ agot_banking.0116.t: "A Chance to Rise" #NT!
+ agot_banking.0116.desc: "Today a man arrived at my court claiming to be a representative of the [agot_bank|E]. After verifying his identity, he informed me that the bank was willing to support my acquisition of [FinalDefaulter.GetFirstNamePossessive] lands! All I have to do for them is cover the remainder of the loan which [FinalDefaulter.GetTitledFirstNameNoTooltip] defaulted on. The price is steep, but it is a tempting offer regardless..." #NT!
+ agot_banking.0116.a: "This will be a fruitful partnership!" #NT!
+ agot_banking.0116.b: "I do not desire these lands." #NT!
+  
+ agot_banking.0107.t: "A Creditor's Demands" #NT!
+ agot_banking.0107.desc: "The [agot_bank|E] has sent a letter to my liege, informing [debtors_liege.GetHerHim] about my default on payment and requesting [debtors_liege.GetHerHis] support in receiving their funds. I could attempt to convince [debtors_liege.GetTitledFirstName] that the bank's claims are invalid and unfair in hopes they will not force me to compensate the bank, or take even more drastic actions..." #NT!
+ agot_banking.0107.a: "Surely [debtors_liege.GetSheHe] will not sell me out to the bankers." #NT!
+  
+ agot_banking.0108.t: "A Broken Contract" #NT!
+ agot_banking.0108.desc: "I was informed that [FinalDefaulter.GetTitledFirstName] defaulted on [FinalDefaulter.GetHerHis] loan and is refusing to make further payments to the [agot_bank|E] or agree to a new plan.\n\nThe bank insists that I, as [FinalDefaulter.GetFirstNamePossessiveNoTooltip] liege, am obligated to compel my subjects to honor their contracts.\n\nFor a moment, I consider refusing the bank's request — as to not antagonize my vassal — but this will surely be seen as an insult and would harm any bank's willingness to provide funds should I need a loan of my own in the future.\n\nI could pay [FinalDefaulter.GetFirstNamePossessiveNoTooltip] debt myself... But I don't want to reward this behavior." #NT!
+ agot_banking.0108.a: "[FinalDefaulter.GetFirstNameNoTooltip] must honor their contract!" #NT!
+ agot_banking.0108.a_tt: "If [FinalDefaulter.GetTitledFirstName] refuses, you will gain a reason for imprisonment." #NT!
+ agot_banking.0108.b: "I will pay what is owed from my own pockets..." #NT!
+ agot_banking.0108.c: "These petty disputes over coin aren't my concern." #NT!
+ agot_banking.0108.c_tt: "This will increase the [agot_bank_interest_rate|E] of all your future loans." #NT!
+  
+ agot_banking.0109.t: "A Dire Command" #NT!
+ agot_banking.0109.desc: "[debtors_liege.GetTitledFirstName] has summoned me to demand that I repay what remains of the loan that I recently defaulted on. It is clear the [agot_bank|E] will keep harassing me until they receive their due, relentless in their pursuit of repayment. Is the gold worth defying my liege?\n\n[debtors_liege.GetFirstNameNoTooltip] declared that I am obligated to honor my contract with the bank, resume repayment, and provide complete repayment within three years, plus an immediate penalty payment for my former default." #NT!
+ agot_banking.0109.a: "As my liege commands." #NT!
+ agot_banking.0109.a_tt: "Your loan will continue, and repayment is due in three years." #NT!
+ agot_banking.0109.b: "I will not!" #NT!
+ agot_banking.0109.b_tt: "If you refuse to comply, your liege may attempt to imprison you!" #NT!
+  
+ agot_banking.0110.t: "An Obligation Fulfilled" #NT!
+ agot_banking.0110.desc: "[FinalDefaulter.GetTitledFirstName] has obeyed my command and pledged to repay [FinalDefaulter.GetHerHis] loan to the [agot_bank|E] within three years." #NT!
+ agot_banking.0110.a: "I am glad that [FinalDefaulter.GetFirstName] has kept [FinalDefaulter.GetHerHis] word." #NT!
+  
+ agot_banking.0111.t: "An Order Defied" #NT!
+ agot_banking.0111.desc: "[FinalDefaulter.GetTitledFirstName] has refused to repay [FinalDefaulter.GetHerHis] defaulted loan to the [agot_bank|E].\n\nThis disrespect cannot go unpunished!" #NT!
+ agot_banking.0111.a: "[FinalDefaulter.GetSheHe|U] will regret this." #NT!
+  
+ agot_banking.0112.t: "A Favor Paid in Gold" #NT!
+ agot_banking.0112.desc: "[debtors_liege.GetTitledFirstName] informed me that a representative of the [agot_bank|E] arrived at [debtors_liege.GetHerHis] court, demanding that [debtors_liege.GetSheHe] take action in response to my recent default. To stay on good terms with the bank, [debtors_liege.GetSheHe] has personally repaid what I owe. However, [debtors_liege.GetSheHe] will expect a favor in return." #NT!
+ agot_banking.0112.a: "As long as I'm not paying..." #NT!
+  
+ agot_banking.0113.t: "Averted Disaster" #NT!
+ agot_banking.0113.desc: "The [agot_bank|E] has attempted to impoverish my economy!\n\nThey tried to take over key businesses in my capital, raising prices and cutting costs in order to squeeze the money I owe them directly from my coffers at the expense of the smallfolk. Thankfully, their attempt was so obvious that I was able to identify it in time and preempt any takeover, securing the health of my economy and preventing most of the damage." #NT!
+ agot_banking.0113.a: "My people will not be swindled on my behalf." #NT!
+  
+ agot_banking.0114.t: "Economic Collapse" #NT!
+ agot_banking.0114.desc: "The [agot_bank|E] has undermined my economy!\n\nThey have taken over essential businesses in my cities and raised prices to squeeze the money I owe directly from my coffers and the smallfolk! Before I even recognized it, the bank had diverted substantial funds from my capital and into their own pockets to cover their losses. The damage they have caused will linger and impoverish my people for years to come." #NT!
+ agot_banking.0114.a: "This is a catastrophe!" #NT!
+  
+ agot_banking.0115.t: "Death of a Debtor" #NT!
+ agot_banking.0115.desc: "[DeadDefaulter.GetFirstName] died before our efforts to recover [DeadDefaulter.GetHerHis] loan could be put into action, so [DeadDefaulter.GetHerHis] debts have passed to [DeadDefaulter.GetHerHis] heir and no further action is required for now." #NT!
+ agot_banking.0115.a: "Some problems solve themselves." #NT!
+  
+ agot_banking.0202.t: "The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]'s Bookkeeping" #NT!
+ agot_banking.0202.IB.desc: "Every 5 years the Iron [agot_bank|E] of Braavos updates its shareholders their performance over the last period and pays out dividends to their investors.\n\n#T The current numbers presented by [agot_bank_director|E] [director.GetTitledFirstName] are:#!\n\nAvailable capital:                            #bold [ROOT.Var('IB_FreeCapital').GetValue|2] #!\nCapital loaned to creditors:          #bold [ROOT.Var('IB_LoanedCapital').GetValue|2] #!\nInvestment fund volume:             #bold [ROOT.Var('IB_InvestmentFund').GetValue|2] #!\nTotal value of the bank:                #bold [ROOT.Var('IB_BankValue').GetValue|2] #!\nNumber of issued shares:             #bold [ROOT.Var('IB_NofShares').GetValue|0] #!\nRevenue:                                          #bold [ROOT.Var('IB_Earnings').GetValue|2|P] #!\nExpenses:                                         #bold [ROOT.Var('IB_Expenses').GetValue|2|N] #!\nLoans lost to default:                     #bold [ROOT.Var('IB_LostLoans').GetValue|2|N] #!\nNet profit:                                        #bold [ROOT.Var('IB_Profit').GetValue|2] #!\nProfit per share:                              #bold [ROOT.Var('IB_ProfitPerShare').GetValue|2] #!\nDividend per share:                         #bold [ROOT.Var('IB_DividendPerShare').GetValue|2] #!" #NT!
+ agot_banking.0202.bank1.desc: "Every 5 years the [agot_bank|E] of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] updates its shareholders on its performance over the period and pays out dividends to their investors.\n\n#T The current numbers presented by [agot_bank_director|E] [director.GetTitledFirstName] are:#!\n\nAvailable capital:                            #bold [ROOT.Var('bank1_FreeCapital').GetValue|2] #!\nCapital loaned to creditors:          #bold [ROOT.Var('bank1_LoanedCapital').GetValue|2] #!\nInvestment fund volume:             #bold [ROOT.Var('bank1_InvestmentFund').GetValue|2] #!\nTotal value of the bank:                #bold [ROOT.Var('bank1_BankValue').GetValue|2] #!\nNumber of issued shares:             #bold [ROOT.Var('bank1_NofShares').GetValue|0] #!\nRevenue:                                          #bold [ROOT.Var('bank1_Earnings').GetValue|2|P] #!\nExpenses:                                         #bold [ROOT.Var('bank1_Expenses').GetValue|2|N] #!\nLoans lost to default:                     #bold [ROOT.Var('bank1_LostLoans').GetValue|2|N] #!\nNet profit:                                        #bold [ROOT.Var('bank1_Profit').GetValue|2] #!\nProfit per share:                              #bold [ROOT.Var('bank1_ProfitPerShare').GetValue|2] #!\nDividend per share:                         #bold [ROOT.Var('bank1_DividendPerShare').GetValue|2] #!" #NT!
+ agot_banking.0202.bank2.desc: "Every 5 years the [agot_bank|E] of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] updates its shareholders on its performance over the period and pays out dividends to their investors.\n\n#T The current numbers presented by [agot_bank_director|E] [director.GetTitledFirstName] are:#!\n\nAvailable capital:                            #bold [ROOT.Var('bank2_FreeCapital').GetValue|2] #!\nCapital loaned to creditors:          #bold [ROOT.Var('bank2_LoanedCapital').GetValue|2] #!\nInvestment fund volume:             #bold [ROOT.Var('bank2_InvestmentFund').GetValue|2] #!\nTotal value of the bank:                #bold [ROOT.Var('bank2_BankValue').GetValue|2] #!\nNumber of issued shares:             #bold [ROOT.Var('bank2_NofShares').GetValue|0] #!\nRevenue:                                          #bold [ROOT.Var('bank2_Earnings').GetValue|2|P] #!\nExpenses:                                         #bold [ROOT.Var('bank2_Expenses').GetValue|2|N] #!\nLoans lost to default:                     #bold [ROOT.Var('bank2_LostLoans').GetValue|2|N] #!\nNet profit:                                        #bold [ROOT.Var('bank2_Profit').GetValue|2] #!\nProfit per share:                              #bold [ROOT.Var('bank2_ProfitPerShare').GetValue|2] #!\nDividend per share:                         #bold [ROOT.Var('bank2_DividendPerShare').GetValue|2] #!" #NT!
+ agot_banking.0202.bank3.desc: "Every 5 years the [agot_bank|E] of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] updates its shareholders on its performance over the period and pays out dividends to their investors.\n\n#T The current numbers presented by [agot_bank_director|E] [director.GetTitledFirstName] are:#!\n\nAvailable capital:                            #bold [ROOT.Var('bank3_FreeCapital').GetValue|2] #!\nCapital loaned to creditors:          #bold [ROOT.Var('bank3_LoanedCapital').GetValue|2] #!\nInvestment fund volume:             #bold [ROOT.Var('bank3_InvestmentFund').GetValue|2] #!\nTotal value of the bank:                #bold [ROOT.Var('bank3_BankValue').GetValue|2] #!\nNumber of issued shares:             #bold [ROOT.Var('bank3_NofShares').GetValue|0] #!\nRevenue:                                          #bold [ROOT.Var('bank3_Earnings').GetValue|2|P] #!\nExpenses:                                         #bold [ROOT.Var('bank3_Expenses').GetValue|2|N] #!\nLoans lost to default:                     #bold [ROOT.Var('bank3_LostLoans').GetValue|2|N] #!\nNet profit:                                        #bold [ROOT.Var('bank3_Profit').GetValue|2] #!\nProfit per share:                              #bold [ROOT.Var('bank3_ProfitPerShare').GetValue|2] #!\nDividend per share:                         #bold [ROOT.Var('bank3_DividendPerShare').GetValue|2] #!" #NT!
+ agot_banking.0202.a: "A thorough assessment!" #NT!
+  
+ agot_banking.0203.t: "The Bank's Offer" #NT!
+ agot_banking.0203.desc: "The [agot_bank|E] of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] has sent an emissary inquiring whether I would be willing to invest in the bank by purchasing a share of their operations. Every five years, I would receive [agot_bank_dividends|E] on the share, or I could sell it to receive gold earlier, if needed.\n\nThe current price of a share is @gold_icon! [ROOT.Var('ShareBuyingPrice').GetValue|2|N]." #NT!
+ agot_banking.0203.a: "I can't afford that!" #NT!
+ agot_banking.0203.b: "You have a deal!" #NT!
+ agot_banking.0203.c: "Not now, I've changed my mind." #NT!
+  
+ agot_banking.0204.t: "Selling a Share of the Bank" #NT!
+ agot_banking.0204.desc: "I am unhappy with how much money I have tied up in the [agot_bank|E] of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] for the few petty coins they send me every few years! It would be better if I sold one of my shares and retrieved my gold while I still can, lest the value of the share collapses.\n\nI may sell a share in the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] and receive its current value, equal to @gold_icon! [ROOT.Var('ShareSellingPrice').GetValue|2|N]." #NT!
+ agot_banking.0204.a: "This is acceptable." #NT!
+ agot_banking.0204.b: "Actually, I will keep my share." #NT!
+  
+ agot_banking.0205.t: "The Bank's New Director" #NT!
+ agot_banking.0205.desc: "The [agot_bank|E] of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] has selected a new [agot_bank_director|E] to oversee and adjust the terms of their continued operations.\n\nThe new [agot_bank_director|E] [director.GetTitledFirstName] received [ROOT.Var('director_winner_votes').GetValue] votes and will guide the bank to ever-growing prosperity!" #NT!
+ agot_banking.0205.a: "Hear, hear!" #NT!
+ agot_banking.0205.a_tt: "You received [THIS.Var('director_votes').GetValue] votes." #NT!
+  
+ agot_banking.0206.t: "Decide Level of Risk" #NT!
+ agot_banking.0206.desc: "Before granting a loan to a client, the [agot_bank|E] will first determine their credit score. Depending on their score, the bank will decide whether a loan can be granted to them.\n\nAs [agot_bank_director|E] of the bank, it is up to me to define how much risk the bank is willing to accept before rejecting loans from untrustworthy clients." #NT!
+ agot_banking.0206.a: "We shall be cautious. There is no need to take unnecessary risks!" #NT!
+ agot_banking.0206.b: "We will take a balanced approach, weighing risks and potential gains equally." #NT!
+ agot_banking.0206.c: "Come one, come all!" #NT!
+  
+ agot_banking.0207.t: "Decide Dividend Level" #NT!
+ agot_banking.0207.desc: "As [agot_bank_director|E] of the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip], it is up to me to decide how much of the bank's profits are to be paid out to their shareholders. The sum of money not paid out as [agot_bank_dividends|E] remains in the bank and can be used to generate more profit by issuing further loans in the future." #NT!
+ agot_banking.0207.a: "We must focus on long-term growth!" #NT!
+ agot_banking.0207.a_tt: "50% of the bank's [agot_bank_profits|E] will be paid to shareholders as dividends every 5 years." #NT!
+ agot_banking.0207.b: "A balanced policy is more sustainable." #NT!
+ agot_banking.0207.b_tt: "75% of the bank's [agot_bank_profits|E] will be paid to shareholders as dividends every 5 years." #NT!
+ agot_banking.0207.c: "We are here to enrich our shareholders!" #NT!
+ agot_banking.0207.c_tt: "100% of the bank's [agot_bank_profits|E] will be paid to shareholders as dividends every 5 years." #NT!
+  
+ agot_banking.0210.t: "A Debtor Defaults" #NT!
+ agot_banking.0210.desc: "A clerk informs me that [FinalDefaulter.GetTitledFirstName] is no longer able or willing to honor [FinalDefaulter.GetHerHis] loan of [ROOT.Var('show_loan').GetValue|2] @gold_icon. The loaned money is therefore lost. This requires immediate action by the [agot_bank|E]. Our shareholders will be furious if I simply abandon the funds!\n\nAs the bank's [agot_bank_director|E], I can decide how to handle this case." #NT!
+ agot_banking.0210.a: "I will handle this myself." #NT!
+ agot_banking.0210.a_tt: "You will be presented with several options on how to recover the lost loan." #NT!
+ agot_banking.0210.b: "A shareholder can handle it." #NT!
+ agot_banking.0210.b_tt: "One of the other shareholders of the bank will decide how to recover the lost loan." #NT!
+ agot_banking.0210.c: "Don't bother me with defaulters anymore!" #NT!
+ agot_banking.0210.c_tt: "The other shareholders will handle all defaults from now on." #NT!
+ agot_banking.0210.d: "This is the cost of doing business." #NT!
+ agot_banking.0210.d_tt: "You will not be able to collect this loan in the future!" #NT!
+  
+ agot_banking.0211.t: "A Debtor Defaults" #NT!
+ agot_banking.0211.raid_failed_desc: "Disaster! [FinalDefaulter.GetTitledFirstNamePossessive] guards were well-prepared and fought off the pirates we hired before they were able to loot any substantial amount of gold from [FinalDefaulter.GetHerHis] demesne.\n\nWe will have to try something else..." #NT!
+ agot_banking.0211.assassin_failed_desc: "Disaster! The assassin we sent to kill [FinalDefaulter.GetTitledFirstName] did not return. We must assume that he was caught by [FinalDefaulter.GetFirstNamePossessive] bodyguards and failed in his mission.\n\nWe will have to try something else..." #NT!
+ agot_banking.0211.claim1_failed_desc: "Disaster! The claim we attempted to forge on [FinalDefaulter.GetTitledFirstNamePossessive] title was just not credible enough to convince any of the potential buyers of its legitimacy.\n\nWe will have to try something else..." #NT!
+ agot_banking.0211.claim2_failed_desc: "Bad news: We tried to sell our forged claim on [FinalDefaulter.GetTitledFirstNamePossessive] title to [buyer.GetTitledFirstName], but [buyer.GetSheHe] refused to pay the price we demanded.\n\nWe will have to try something else..." #NT!
+ agot_banking.0211.letter1_failed_desc: "Bad news: The letter we sent to [FinalDefaulter.GetTitledFirstNamePossessive] liege did not convince them to help right their vassal's wrongs. It seems like [FinalDefaulter.GetTitledFirstName] successfully argued that our claims are illegitimate.\n\nWe will have to try something else..." #NT!
+ agot_banking.0211.letter2_failed_desc: "Bad news: Although [FinalDefaulter.GetTitledFirstNamePossessive] liege cannot deny that our claims are legitimate, they still refuse to command [FinalDefaulter.GetTitledFirstNameNoTooltip] to honor [FinalDefaulter.GetHerHis] agreement with the bank.\n\nWe will have to try something else..." #NT!
+ agot_banking.0211.letter3_failed_desc: "Bad news: Even though [FinalDefaulter.GetTitledFirstNamePossessive] liege was convinced to command their vassal to honor [FinalDefaulter.GetHerHis] agreement, [FinalDefaulter.GetTitledFirstNameNoTooltip] outright refused to obey.\n\nWe will have to try something more direct..." #NT!
+ agot_banking.0211.economy_failed_desc: "Unfortunate news: Our aggressive investments in [FinalDefaulter.GetTitledFirstNamePossessive] economy did not succeed. It seems [FinalDefaulter.GetSheHe] took countermeasures to prevent us from siphoning what we are owed out of [FinalDefaulter.GetHerHis] local economy into our pockets.\n\nWe will have to try something else..." #NT!
+ agot_banking.0211.director_desc: "To recover [FinalDefaulter.GetTitledFirstNamePossessive] lost loan, you have various approaches to choose from." #NT!
+ agot_banking.0211.delegated_desc: "[agot_bank_director|E] [director.GetTitledFirstName] informed you of [FinalDefaulter.GetTitledFirstNamePossessive] default on [FinalDefaulter.GetHerHis] loan and instructed you to recover the lost money.\n\nTo fulfill this assignment, you have a variety of approaches to choose from." #NT!
+ agot_banking.0211.a: "Hire pirates to pillage [FinalDefaulter.GetTitledFirstName]'s domain." #NT!
+ agot_banking.0211.a_tt: "This will cost the bank @gold_icon! [default_revisor.MakeScope.Var('RaiderCost').GetValue]. If successful, the raiders will return the owed money to the bank and keep any excess loot they might take." #NT!
+ agot_banking.0211.b: "Send an assassin, we will have more luck with [FinalDefaulter.GetHerHis] heir." #NT!
+ agot_banking.0211.b_tt: "This will cost the bank @gold_icon! [default_revisor.MakeScope.Var('AssassinCost').GetValue]. If the assassin manages to kill [FinalDefaulter.GetTitledFirstName], we will seek to recover what is owed from [FinalDefaulter.GetHerHis] heir." #NT!
+ agot_banking.0211.c: "Forge a claim on [FinalDefaulter.GetTitledFirstName]'s title." #NT!
+ agot_banking.0211.c_tt: "This will cost the bank @gold_icon! [default_revisor.MakeScope.Var('ClaimCost').GetValue]. If successful, we can attempt to sell the claim to an ambitious neighbor of [FinalDefaulter.GetTitledFirstName]." #NT!
+ agot_banking.0211.d: "Write a letter to [FinalDefaulter.GetTitledFirstName]'s liege." #NT!
+ agot_banking.0211.d_tt: "This will cost the bank @gold_icon! [default_revisor.MakeScope.Var('LetterCost').GetValue]. [FinalDefaulter.GetTitledFirstNamePossessive] liege might demand their vassal honor the agreement that [FinalDefaulter.GetSheHe] made with the bank or might even cover the debt themselves." #NT!
+ agot_banking.0211.e: "Undermine [FinalDefaulter.GetTitledFirstName]'s economy." #NT!
+ agot_banking.0211.e_tt: "This will cost the bank @gold_icon! [default_revisor.MakeScope.Var('EconomyCost').GetValue]. If successful, we will be able to squeeze every penny owed to us directly from [FinalDefaulter.GetTitledFirstNamePossessive] economy over the coming months, collecting from our investments and crippling the nearby towns. It will take them some time to recover." #NT!
+ agot_banking.0211.g: "There is nothing we can do." #NT!
+ agot_banking.0211.g_tt: "The loan cannot be collected, now or in the future!" #NT!
+ agot_banking.0211.a.failure: "The raid fails." #NT!
+ agot_banking.0211.a.success: "The raid succeeds." #NT!
+ agot_banking.0211.b.failure: "The assassin fails." #NT!
+ agot_banking.0211.b.success: "The assassin succeeds." #NT!
+ agot_banking.0211.c.failure: "The claim is seen as illegitimate." #NT!
+ agot_banking.0211.c.success: "The claim is accepted as legitimate." #NT!
+ agot_banking.0211.d.failure: "Their liege does not trust your accusations." #NT!
+ agot_banking.0211.d.success: "Their liege is convinced your claims are valid." #NT!
+ agot_banking.0211.e.failure: "The undermining of their economy fails." #NT!
+ agot_banking.0211.e.success: "The undermining of their economy is successful." #NT!
+  
+ agot_banking.0212.t: "Recovered Loan" #NT!
+ agot_banking.0212.raid_success_desc: "It worked!\nThe pirates we sent to [FinalDefaulter.GetTitledFirstNamePossessive] capital were able to raid the villages and towns in their lands and disappear with enough loot before [FinalDefaulter.GetFirstNamePossessive] guards were able to muster any kind of meaningful defense. The gold they looted is just enough to make up for the losses from [FinalDefaulter.GetTitledFirstNamePossessiveNoTooltip] defaulted loan." #NT!
+ agot_banking.0212.assassin_success_desc: "It worked!\nThe assassin we sent to kill [FinalDefaulter.GetTitledFirstName] succeeded. Hopefully [FinalDefaulter.GetHerHis] heir is a more rational person, or else they might also find themselves with a foot in the grave..." #NT!
+ agot_banking.0212.claim_success_desc: "It worked!\nThe claim we forged was considered legitimate and we were able to sell it to [buyer.GetTitledFirstName]. The money [buyer.GetSheHe] gave us in exchange is enough to make up for the losses from [FinalDefaulter.GetTitledFirstNamePossessive] loan. Hopefully, [buyer.GetFirstNameNoTooltip] will teach [FinalDefaulter.GetFirstNameNoTooltip] on the battlefield why you don't cross the bank." #NT!
+ agot_banking.0212.letter1_success_desc: "It worked!\n[FinalDefaulter.GetTitledFirstNamePossessive] liege has acknowledged our claim as legitimate and settled the outstanding debt by paying from their own pockets. Now [FinalDefaulter.GetTitledFirstNamePossessiveNoTooltip] debt is settled, let [FinalDefaulter.GetHerHim] endure the wrath of [FinalDefaulter.GetHerHis] liege." #NT!
+ agot_banking.0212.letter2_success_desc: "It worked!\nAfter [FinalDefaulter.GetHerHis] liege commanded [FinalDefaulter.GetTitledFirstName] to repay the money owed to the bank, [FinalDefaulter.GetSheHe] obeyed and has agreed to pay a penalty and repay the originally owed amount within the next three years." #NT!
+ agot_banking.0212.economy_success_desc: "It worked!\nOur aggressive investments in [FinalDefaulter.GetTitledFirstNamePossessive] capital enabled us to siphon enough money from the local economy of [FinalDefaulter.GetHerHis] domain into our own coffers, allowing us to make up for the losses from [FinalDefaulter.GetTitledFirstNamePossessiveNoTooltip] defaulted loan." #NT!
+ agot_banking.0212.a: "The bank has its due." #NT!
+  
+ agot_banking.0213.t: "Stock Split" #NT!
+ agot_banking.0213.desc: "The [agot_bank|E] of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] has prospered in recent years, resulting in an increased value per single share. As this makes the purchase of new shares more difficult, the bank decided to perform a stock split:\n\nEvery shareholder's currently held shares will be split into two. Thus, the price of new shares is reduced by half while all current shareholders still hold the same value." #NT!
+ agot_banking.0213.a: "A smart move." #NT!
+ agot_banking.0213.a_tt: "You now hold twice as many shares as before." #NT!
+  
+ agot_banking.0301.t: "The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]'s Bookkeeping" #NT!
+ agot_banking.0301.IB.desc: "As a shareholder you may review the current bookkeeping of the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\n#T These are the current numbers presented by the bank's clerks:#!\n\nAvailable capital:                            #bold @gold_icon! [ROOT.Var('IB_FreeCapital').GetValue|2] #!\nCapital loaned to creditors:          #bold @gold_icon! [ROOT.Var('IB_LoanedCapital').GetValue|2] #!\nInvestment fund volume:             #bold @gold_icon! [ROOT.Var('IB_InvestmentFund').GetValue|2] #!\nTotal value of the bank:                #bold @gold_icon! [ROOT.Var('IB_BankValue').GetValue|2] #!\nNumber of issued shares:                     #bold [ROOT.Var('IB_NofShares').GetValue|0] #!\nRevenue:                                          #bold @gold_icon! [ROOT.Var('IB_Earnings').GetValue|2|P] #!\nExpenses:                                         #bold @gold_icon! [ROOT.Var('IB_Expenses').GetValue|2|N] #!\nLoans lost to default:                     #bold @gold_icon! [ROOT.Var('IB_LostLoans').GetValue|2|N] #!" #NT!
+ agot_banking.0301.bank1.desc: "As a shareholder you may review the current bookkeeping of the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\n#T These are the current numbers presented by the bank's clerks:#!\n\nAvailable capital:                            #bold @gold_icon! [ROOT.Var('bank1_FreeCapital').GetValue|2] #!\nCapital loaned to creditors:          #bold @gold_icon! [ROOT.Var('bank1_LoanedCapital').GetValue|2] #!\nInvestment fund volume:             #bold @gold_icon! [ROOT.Var('bank1_InvestmentFund').GetValue|2] #!\nTotal value of the bank:                #bold @gold_icon! [ROOT.Var('bank1_BankValue').GetValue|2] #!\nNumber of issued shares:                     #bold [ROOT.Var('bank1_NofShares').GetValue|0] #!\nRevenue:                                          #bold @gold_icon! [ROOT.Var('bank1_Earnings').GetValue|2|P] #!\nExpenses:                                         #bold @gold_icon! [ROOT.Var('bank1_Expenses').GetValue|2|N] #!\nLoans lost to default:                     #bold @gold_icon! [ROOT.Var('bank1_LostLoans').GetValue|2|N] #!" #NT!
+ agot_banking.0301.bank2.desc: "As a shareholder you may review the current bookkeeping of the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\n#T These are the current numbers presented by the bank's clerks:#!\n\nAvailable capital:                            #bold @gold_icon! [ROOT.Var('bank2_FreeCapital').GetValue|2] #!\nCapital loaned to creditors:          #bold @gold_icon! [ROOT.Var('bank2_LoanedCapital').GetValue|2] #!\nInvestment fund volume:             #bold @gold_icon! [ROOT.Var('bank2_InvestmentFund').GetValue|2] #!\nTotal value of the bank:                #bold @gold_icon! [ROOT.Var('bank2_BankValue').GetValue|2] #!\nNumber of issued shares:                     #bold [ROOT.Var('bank2_NofShares').GetValue|0] #!\nRevenue:                                          #bold @gold_icon! [ROOT.Var('bank2_Earnings').GetValue|2|P] #!\nExpenses:                                         #bold @gold_icon! [ROOT.Var('bank2_Expenses').GetValue|2|N] #!\nLoans lost to default:                     #bold @gold_icon! [ROOT.Var('bank2_LostLoans').GetValue|2|N] #!" #NT!
+ agot_banking.0301.bank3.desc: "As a shareholder you may review the current bookkeeping of the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\n#T These are the current numbers presented by the bank's clerks:#!\n\nAvailable capital:                            #bold @gold_icon! [ROOT.Var('bank3_FreeCapital').GetValue|2] #!\nCapital loaned to creditors:          #bold @gold_icon! [ROOT.Var('bank3_LoanedCapital').GetValue|2] #!\nInvestment fund volume:             #bold @gold_icon! [ROOT.Var('bank3_InvestmentFund').GetValue|2] #!\nTotal value of the bank:                #bold @gold_icon! [ROOT.Var('bank3_BankValue').GetValue|2] #!\nNumber of issued shares:                     #bold [ROOT.Var('bank3_NofShares').GetValue|0] #!\nRevenue:                                          #bold @gold_icon! [ROOT.Var('bank3_Earnings').GetValue|2|P] #!\nExpenses:                                         #bold @gold_icon! [ROOT.Var('bank3_Expenses').GetValue|2|N] #!\nLoans lost to default:                     #bold @gold_icon! [ROOT.Var('bank3_LostLoans').GetValue|2|N] #!" #NT!
+ agot_banking.0301.a: "That's enough numbers for now." #NT!
+  
+ agot_banking.0401.t: "Fill the Investment Fund" #NT!
+ agot_banking.0401.desc: "By replenishing the [agot_bank|E]'s investment fund, the money will no longer be available to be handed out as loans to would-be debtors.\n\nIn return, the fund will provide profits every year if sensible investments are made. However, investments in unstable and risky opportunities risk losing the money in the fund, which is much more likely if it is not well managed by a competent [agot_bank_director|E]!" #NT!
+ agot_banking.0401.a: "Make the investment." #NT!
+ agot_banking.0401.a_tt: "@gold_icon! 1000 will be permanently transferred from the bank's cash reserve into the investment fund. @warning_icon! #X It is not possible to take money out of the fund once it is invested. #!" #NT!
+ agot_banking.0401.b: "I have changed my mind." #NT!
+  
+ agot_banking.0403.t: "The Investment Fund's Returns" #NT!
+ agot_banking.0403.positive_desc: "As every year, the bank's clerks provide me with the latest numbers on the investment fund's performance.\n\nThis year, the invested money earned us a profit of @gold_icon! [ROOT.Var('ShownInvestProfit').GetValue|0|P]." #NT!
+ agot_banking.0403.neutral_desc: "As every year, the bank's clerks provide me with the latest numbers on the investment fund's performance.\n\nIt seems that the earnings and losses have balanced each other out this year." #NT!
+ agot_banking.0403.negative_desc: "As every year, the bank's clerks provide me with the latest numbers on the investment fund's performance.\n\nIt was a tough year with some businesses we invested in struggling or even closing down entirely. Not only did the fund not make any profits, but its volume even decreased by @gold_icon! [ROOT.Var('ShownInvestProfit').GetValue|0|N]" #NT!
+ agot_banking.0403.a: "That's enough numbers for now." #NT!
+  
+  # Decision loc 
+ decision_group_type_banking: "Banking Decisions" #NT!
+ take_loan_decision: "Request Bank Loan" #NT!
+ take_loan_decision_desc: "The wealthiest and most reputable financial institutions in the world are more than happy to extend credit to anyone they deem trustworthy. Be forewarned, though: It is not said idly that the [agot_bank|E] will have its due." #NT!
+ take_loan_decision_effect: "A representative from the [agot_bank|E] will be sent to negotiate a loan and its terms." #NT!
+ take_loan_decision_tooltip: "Send a missive to the chosen bank requesting a loan." #NT!
+ take_loan_decision_tooltip_confirm_text_desc: "Choose a bank." #NT!
+ take_loan_bank_cash_reserve: "No bank currently holds enough cash to issue further loans." #NT!
+  
+ repay_loan_decision: "Darlehen zurückzahlen"
+ repay_loan_decision_desc: "You may repay your current loan fully or partially before the loan's term ends." #NT!
+ repay_loan_decision_tooltip: "You will be offered different plans to repay what you owe." #NT!
+ repay_loan_decision_tooltip_confirm_text_desc: "Show me my options." #NT!
+ repay_loan_decision_effect: "You may repay your current loan fully or partially before the loan's term ends." #NT!
+  
+ buy_shares_decision: "Invest in Bank" #NT!
+ buy_shares_decision_shareholder_IB_desc: "The Iron Bank of Braavos is currently accepting investments. You may invest in the bank to acquire an additional share. Owning more shares will increase the [Concept('agot_bank_dividend_level','dividend') |E] you receive based on the [agot_bank_profits|E] of the bank.\n\nYou currently hold [ROOT.Var('IB_Shares').GetValue] shares in the Iron Bank of Braavos." #NT!
+ buy_shares_decision_shareholder_bank1_desc: "The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] is currently accepting investments. You may invest in the bank to acquire an additional share. Owning more shares will increase the [Concept('agot_bank_dividend_level','dividend') |E] you receive based on the [agot_bank_profits|E] of the bank.\n\nYou currently hold [ROOT.Var('bank1_Shares').GetValue] shares in the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]." #NT!
+ buy_shares_decision_shareholder_bank2_desc: "The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] is currently accepting investments. You may invest in the bank to acquire an additional share. Owning more shares will increase the [Concept('agot_bank_dividend_level','dividend') |E] you receive based on the [agot_bank_profits|E] of the bank.\n\nYou currently hold [ROOT.Var('bank2_Shares').GetValue] shares in the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]." #NT!
+ buy_shares_decision_shareholder_bank3_desc: "The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] is currently accepting investments. You may invest in the bank to acquire an additional share. Owning more shares will increase the [Concept('agot_bank_dividend_level','dividend') |E] you receive based on the [agot_bank_profits|E] of the bank.\n\nYou currently hold [ROOT.Var('bank3_Shares').GetValue] shares in the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]." #NT!
+ buy_shares_decision_desc: "Your local [agot_bank|E] is currently accepting new investors. You may buy a share, which will grant you a say in the bank's decisions and a [Concept('agot_bank_dividend_level','dividend') |E] based on the bank's [agot_bank_profit|E]." #NT!
+ buy_shares_decision_tooltip: "You will be offered one share. The price depends on the bank's current overall value." #NT!
+ buy_shares_decision_tooltip_confirm_text_desc: "What is the current price of a share?" #NT!
+ buy_shares_decision_effect: "You will be offered one share. The price depends on the bank's current overall value." #NT!
+  
+ sell_shares_decision: "Sell Share" #NT!
+ sell_shares_decision_IB_desc: "The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] currently holds enough gold to pay you out for one of your shares.\n\nYou currently hold [ROOT.Var('IB_Shares').GetValue] shares in the Iron Bank." #NT!
+ sell_shares_decision_bank1_desc: "The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] currently holds enough gold to pay you out for one of your shares.\n\nYou currently hold [ROOT.Var('bank1_Shares').GetValue] shares in the bank." #NT!
+ sell_shares_decision_bank2_desc: "The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] currently holds enough gold to pay you out for one of your shares.\n\nYou currently hold [ROOT.Var('bank2_Shares').GetValue] shares in the bank." #NT!
+ sell_shares_decision_bank3_desc: "The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] currently holds enough gold to pay you out for one of your shares.\n\nYou currently hold [ROOT.Var('bank3_Shares').GetValue] shares in the bank." #NT!
+ sell_shares_decision_tooltip: "You will be offered gold equivalent to the current price of a share." #NT!
+ sell_shares_decision_tooltip_confirm_text_desc: "What is the current price of a share?" #NT!
+ sell_shares_decision_effect: "You will be offered gold equivalent to the current price of a share." #NT!
+  
+ set_risk_level_decision: "Change Risk Level" #NT!
+ set_risk_level_decision_desc: "As [agot_bank_director|E] of the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip], you may decide how much [Concept('agot_bank_risk_level','risk')|E] the bank is willing to take when granting loans or making investments." #NT!
+ set_risk_level_decision_tooltip: "You will be able to choose between low, medium, and high risk levels for loans and investments." #NT!
+ set_risk_level_decision_tooltip_confirm_text_desc: "I will re-evaluate the bank's policies." #NT!
+ set_risk_level_decision_effect: "You will be able to choose between low, medium, and high risk levels for loans and investments." #NT!
+  
+ set_dividend_level_decision: "Adjust Dividend Rates" #NT!
+ set_dividend_level_decision_desc: "As [agot_bank_director|E] of the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip], you may adjust how much of the bank's [agot_bank_profits|E] will be paid out to its shareholders." #NT!
+ set_dividend_level_decision_tooltip: "You will be able to choose between low, medium, and high rates of [agot_bank_dividends|E]." #NT!
+ set_dividend_level_decision_tooltip_confirm_text_desc: "I will re-evaluate the bank's policies." #NT!
+ set_dividend_level_decision_effect: "You will be able to choose between low, medium, and high rates of [agot_bank_dividends|E]." #NT!
+  
+ show_bank_numbers_decision: "View Ledger" #NT!
+ show_bank_numbers_decision_confirm: "Let's take a look at the books." #NT!
+ show_bank_numbers_decision_desc: "The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] has a variety of financial assets and liabilities, which can be viewed in its ledger. This will show how much the bank has on hand now and how much it will be able to collect in the future." #NT!
+ show_bank_numbers_decision_tooltip: "Let's take a look at the books" #NT!
+ show_bank_numbers_decision_effect: "You will be presented with an overview of all the bank's current key figures." #NT!
+  
+ # delegate_defaulter_handling_decision: "Delegate Management of Defaults" #NT!
+ # delegate_defaulter_handling_decision_desc: "I no longer wish to manage debtors who are defaulting on their debts. Instead, a shareholder will be tasked with overseeing, handling, and resolving these cases." #NT!
+ # delegate_defaulter_handling_decision_tooltip: "You will no longer receive messages about debtors defaulting." #NT!
+ # delegate_defaulter_handling_decision_confirm: "Do not bother me with this." #NT!
+ # delegate_defaulter_handling_decision_effect: "You will no longer receive messages about debtors defaulting. A shareholder will automatically be tasked with handling defaults." #NT!
+  
+ # handle_defaulters_again_decision: "Manage Defaults" #NT!
+ # handle_defaulters_again_decision_desc: "I am willing to resume managing defaulting debtors personally." #NT!
+ # handle_defaulters_again_decision_tooltip: "You will receive a message each time a default occurs." #NT!
+ # handle_defaulters_again_decision_confirm: "It is my duty to handle such cases." #NT!
+ # handle_defaulters_again_decision_effect: "You will receive reports of loan defaults again." #NT!
+  
+ fill_investment_fund_decision: "Replenish Investment Fund" #NT!
+ fill_investment_fund_decision_desc: "As [agot_bank_director|E] of the [agot_bank|E] of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip], you have the opportunity to increase the bank's investment fund. The money in this fund is invested in small businesses and projects, providing opportunities for continued profits. However, invested money always runs the risk of being lost entirely, which could threaten the bank's liquidity. A good understanding of the sustainability and reliability of the investment opportunities is key to ensuring good long-term performance." #NT!
+ fill_investment_fund_decision_tooltip: "You can invest 1000 gold every two years. The performance of the investment fund is dependent on the current director's stewardship." #NT!
+ fill_investment_fund_decision_tooltip_confirm_text_desc: "The bank shall prosper." #NT!
+ fill_investment_fund_decision_effect: "You will move 1000 gold from the bank's cash reserve into the investment fund. Money in the investment fund is bound and cannot be withdrawn." #NT!
+  
+ agot_banking.0215.t: "Election of a New Director" #NT!
+ agot_banking.0215.desc: "After the death of the [agot_bank|E] of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]'s last [agot_bank_director|E], a shareholder must be elected to the office to steer the bank into a prosperous future. The four shareholders who own the most shares in the bank are candidates for leadership.\n\nEach shareholder can vote for a candidate. The candidate receives one vote for each share the shareholder owns. The winner is the candidate with the most votes.\n\nWho will receive your votes?" #NT!
+ agot_banking.0215.a: "I vote for [director_candidate1.GetTitledFirstName]." #NT!
+ agot_banking.0215.b: "[director_candidate2.GetTitledFirstName] has my support." #NT!
+ agot_banking.0215.c: "[director_candidate3.GetTitledFirstName] is the future." #NT!
+ agot_banking.0215.d: "I choose [director_candidate4.GetTitledFirstName]." #NT!
+  
+ agot_banking.1001.t: "Select a Bank" #NT!
+ agot_banking.1001.desc: "There are multiple [agot_banks|E] providing loans. Which one shall be contacted?" #NT!
+ agot_banking.1001.a: "I choose the Iron Bank of Braavos." #NT!
+ agot_banking.1001.low_interest: "The [agot_bank_interest_rate|E] level at this bank is #difficult_easy currently reduced#!." #NT!
+ agot_banking.1001.medium_interest: "The [agot_bank_interest_rate|E] level at this bank is #difficult_medium currently balanced#!." #NT!
+ agot_banking.1001.high_interest: "The [agot_bank_interest_rate|E] level at this bank is #difficult_hard currently increased#!." #NT!
+ agot_banking.1001.b: "I choose the Bank of [director_bank1.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]." #NT!
+ agot_banking.1001.c: "I choose the Bank of [director_bank2.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]." #NT!
+ agot_banking.1001.d: "I choose the Bank of [director_bank3.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]." #NT!
+ agot_banking.1001.e: "I changed my mind." #NT!
+  
+ set_interest_level_decision: "Adjust Interest Rates" #NT!
+ set_interest_level_decision_desc: "As [agot_bank_director|E] of the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip], you may adjust the general [agot_bank_interest_rate|E] level of newly issued loans." #NT!
+ set_interest_level_decision_tooltip: "You will be able to choose between lower, normal, and higher interest rates. The lower the interest rate, the more customers you will attract, and the lower your [agot_bank_profits|E] per loan will be, and vice versa." #NT!
+ set_interest_level_decision_tooltip_confirm_text_desc: "I will re-evaluate the bank's policies." #NT!
+ set_interest_level_decision_effect: "You will be able to choose between lower, normal, and higher interest rates. The lower the interest rate, the more customers you will attract, and the lower your [agot_bank_profits|E] per loan will be, and vice versa." #NT!
+  
+ agot_banking.0208.t: "Decide Interest Rate Level" #NT!
+ agot_banking.0208.desc: "As [agot_bank_director|E] of the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip], it is up to me to decide on the general [agot_bank_interest_rate|E] level of newly issued loans. The lower the interest rate, the more customers I may attract, but the lower my [agot_bank_profits|E] per loan will be, and vice versa." #NT!
+ agot_banking.0208.a: "We need to be more competitive." #NT!
+ agot_banking.0208.a_tt: "The annual interest rate is reduced by one percent. This will attract more customers, while the profits per customer decrease." #NT!
+ agot_banking.0208.b: "A balanced policy is more sustainable." #NT!
+ agot_banking.0208.b_tt: "The annual interest rate will be set to the default level." #NT!
+ agot_banking.0208.c: "We need to be more profitable." #NT!
+ agot_banking.0208.c_tt: "The annual interest rate is increased by one percent. This will attract fewer customers, while the profits per customer increase." #NT!
+  
+ found_bank_decision: "Found the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+ found_bank_decision_desc: "Having accumulated enough wealth and fiscal knowledge, you might want to expand your prosperity by founding a new [agot_bank|E]." #NT!
+ found_bank_decision_tooltip: "A new bank will be established in your capital. You will become the bank's first [agot_bank_director|E], and every character in your realm can invest money in the new bank to become a shareholder." #NT!
+ found_bank_decision_tooltip_confirm_text_desc: "To prosperity!" #NT!
+  
+ agot_banking.0601.t: "The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+ agot_banking.0601.desc: "Today, the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] opened its doors, and I will be its first [agot_bank_director|E]. The bank will start to hand out loans immediately, and new investors will be found to strengthen the bank's prosperity." #NT!
+ agot_banking.0601.a: "The future is bright!" #NT!
+  
+ agot_banking.0602.t: "A New Important Debtor" #NT!
+ agot_banking.0602.desc: "Today, the Bank of [BankName.GetNameNoTier] loaned the huge amount of [NewDebtor.MakeScope.Var('loaned_amount').GetValue|2|P] gold to [NewDebtor.GetTitledFirstName]. This makes [NewDebtor.GetHerHim] one of our biggest customers." #NT!
+ agot_banking.0602.a: "A pleasure doing business with you." #NT!
+  
+ show_shareholders_decision: "Show Shareholders" #NT!
+ show_shareholders_decision_desc: "The clerks of the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] will provide you with a list of the bank's current shareholders." #NT!
+ show_shareholders_decision_tooltip: "You will be shown a list of the bank's current shareholders." #NT!
+ show_shareholders_decision_confirm: "Let's have a look." #NT!
+ show_shareholders_decision_effect: "You will be shown a list of the bank's current shareholders." #NT!
+  
+ agot_banking.0603.t: "Shareholders of The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+ agot_banking.0603.desc: "These are the current shareholders of The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip], ordered descending by number of shares:" #NT!
+ agot_banking.0603.a: "Thank you." #NT!
+  
+ show_debtors_decision: "Show Important Debtors" #NT!
+ show_debtors_decision_desc: "The clerks of the Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] will provide you with a list of the bank's biggest debtors." #NT!
+ show_debtors_decision_tooltip: "You will be shown a list of the bank's most important debtors." #NT!
+ show_debtors_decision_confirm: "Let's have a look." #NT!
+ show_debtors_decision_effect: "You will be shown a list of the bank's most important debtors." #NT!
+  
+ agot_banking.0604.t: "Biggest Debtors of The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+ agot_banking.0604.desc: "These are the biggest debtors of The Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip], ordered descending by owed amount (loaned amount plus interest):" #NT!
+ agot_banking.0604.a: "Thank you." #NT!
+  
+ agot_debtors_list: "[Character.GetTitledFirstNamePossessive] total debt: @gold_icon! [Character.MakeScope.Var('total_repayment').GetValue|0]" #NT!
+  
+ agot_shareholder_list: "[Character.GetTitledFirstName] has [Character.MakeScope.Var('ShownShares').GetValue] shares" #NT!
+  
+ agot_found_bank_decision_effect_tooltip: "A new [agot_bank|E] will be established in your capital. You will become the bank's first [agot_bank_director|E], and every character in your realm can invest money in the new bank to become a shareholder." #NT!
+  
+  #vassal loan stuff 
+ take_vassal_loan_interaction: "Ask a Vassal for a Loan" #NT!
+ take_vassal_loan_interaction_desc: "Ask your vassal for a personal loan. The loan will have 25% interest and is expected to be repaid after a term of 5 years." #NT!
+  
+ liege_requests_loan: "I have run into some monetary difficulties lately. Would you be willing to grant me a loan of [actor.MakeScope.Var('vassal_loan_amount').GetValue] gold?\nThe amount, plus 25% interest, will be repaid in 5 years." #NT!
+  
+ agot_banking.0501.t: "[loan_vassal.Custom2('AppropriateGreeting', ROOT.Char)]" #NT!
+ agot_banking.0501.desc: "I am pleased to accept your request for a loan and will send you the gold. I expect to have been repaid by the time five years have passed." #NT!
+ agot_banking.0501.a: "Good news!" #NT!
+  
+ agot_banking.0502.t: "[loan_vassal.Custom2('AppropriateGreeting', ROOT.Char)]" #NT!
+ agot_banking.0502.desc: "I unfortunately cannot provide you with the loan you are seeking. I have set this coin aside for many years to be used for specific purposes. I hope you can understand and forgive me." #NT!
+ agot_banking.0502.a: "Disappointing." #NT!
+  
+ agot_banking.0503.t: "My liege," #NT!
+ agot_banking.0503.desc: "It has been five years since I fulfilled your request for a loan. The time has come for repayment, as we agreed. Are you honorable enough to keep your word and return to me what is mine?" #NT!
+ agot_banking.0503.a: "I will repay everything I owe." #NT!
+ agot_banking.0503.a_tt: "The loan will be paid off in full." #NT!
+ agot_banking.0503.b: "I can only cover the interest for now." #NT!
+ agot_banking.0503.b_tt: "The loan will be extended for another five years." #NT!
+ agot_banking.0503.c: "I cannot pay anything right now. But I shall owe you a favor!" #NT!
+ agot_banking.0503.c_tt: "You default on your loan and pay nothing. The loan will be extended for another five years, and your vassal will receive a weak hook on you." #NT!
+ agot_banking.0503.d: "I cannot pay anything. I will compensate you in any way you see fit!" #NT!
+ agot_banking.0503.d_tt: "You default on your loan a second time. The loan will be concluded, and your vassal will receive a strong hook on you in exchange." #NT!
+ agot_banking.0503.e: "You will not see a coin from me!" #NT!
+ agot_banking.0503.e_tt: "You refuse to repay. This voids the loan, but your vassal will receive a claim on your primary title in return." #NT!
+  
+ agot_banking.0504.t: "Dear vassal," #NT!
+ agot_banking.0504.repay_full_desc: "The time has finally come to repay the loan you generously granted me five years ago. I greatly appreciate your willingness to help me in my time of need; your kindness shall be remembered." #NT!
+ agot_banking.0504.repay_interest_desc: "The time has come to repay the loan you granted me... However, at this time, I cannot pay the loan in full but shall provide the interest for the last five years! I promise that I shall have what I owe in five more years. I hope you understand, my loyal vassal." #NT!
+ agot_banking.0504.first_default_desc: "Though the time has come to repay the loan you granted me... I regret that I am unable to make any payment at this time. I pledge that you will receive what I owe in five years! As compensation for this transgression, I will grant you a favor, whether it be reduced taxes or a seat upon my council." #NT!
+ agot_banking.0504.second_default_desc: "I deeply apologize for my inability to repay the loan you provided me ten years ago. As compensation for this continued inconvenience, I will grant any request that is in my power to fulfill. Just say the word, and it shall be so!" #NT!
+ agot_banking.0504.refusal_desc: "The money you lent me will not be repaid. I have decided that it is my right as your liege to seize what I need in order to maintain stability and meet the needs of the realm. View it as an additional tax. You will not receive repayment from me, and do not dare seek collection in the future." #NT!
+ agot_banking.0504.a: "A pleasure doing business with you." #NT!
+ agot_banking.0504.b: "Well, I suppose it's better than nothing." #NT!
+ agot_banking.0504.c: "I had better see money next time." #NT!
+ agot_banking.0504.d: "That's not what we agreed on!" #NT!
+ agot_banking.0504.e: "The debt shall be settled by other means. You are unworthy to rule." #NT!
+  
+ repay_vassal_loan_decision: "Repay Vassal Loan" #NT!
+ repay_vassal_loan_decision_desc: "You have borrowed money from a vassal for a five-year contract. You may repay it in full before the loan's term ends." #NT!
+ repay_vassal_loan_decision_tooltip: "You will pay off the entire loan plus interest incurred." #NT!
+ repay_vassal_loan_decision_tooltip_confirm_text_desc: "One less thing to worry about." #NT!
+ repay_vassal_loan_decision_effect: "You may repay your current vassal loan before the loan's term ends." #NT!
+  
+  #new stuff 
+ agot_bank_list_name: "#high;SIZE:24 Bank of [Character.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]#!" #NT!
+ agot_bank_list_value: "$EFFECT_LIST_BULLET$Bank value: #clickable [Character.MakeScope.Var('BankValue').GetValue|0]#!" #NT!
+ agot_bank_list_interest: "[Character.Custom('agot_banking_interest_level')]" #NT!
+ agot_bank_list_interest_low: "$EFFECT_LIST_BULLET$Interest rate is #positive_value low#!" #NT!
+ agot_bank_list_interest_high: "$EFFECT_LIST_BULLET$Interest rate is #negative_value high#!" #NT!
+ agot_bank_list_interest_normal: "$EFFECT_LIST_BULLET$Interest rate is #zero_value normal#!" #NT!
+  
+ agot_banking.0605.t: "All Known Banks of the World" #NT!
+ agot_banking.0605.desc: "These are the bank directors and the bank values of banks currently operating in the world:" #NT!
+ agot_banking.0605.a: "Thank you." #NT!
+  
+ agot_banking.0211.letter4_failed_desc: "Bad news: [FinalDefaulter.GetTitledFirstNameNoTooltip] outright refused to consider our generous proposal for a new repayment plan.\n\nWe will have to try something more direct..." #NT!
+ agot_banking.0212.letter3_success_desc: "It worked!\n[FinalDefaulter.GetTitledFirstNameNoTooltip] agreed to our generous offer, paid the penalty fee, and pledged to repay his full debt in 3 years." #NT!
+  
+ agot_banking.0211.f: "Send a letter to [FinalDefaulter.GetTitledFirstName]." #NT!
+ agot_banking.0211.f_tt: "This will cost the bank @gold_icon! [default_revisor.MakeScope.Var('LetterCost').GetValue]. We will offer [FinalDefaulter.GetTitledFirstName] a new repayment plan: We may postpone the final repayment for another 3 years, but [FinalDefaulter.GetTitledFirstName] has to pay an additional penalty fee of half the payable interest amount immediately." #NT!
+  
+ agot_banking.1108.t: "A Generous Offer" #NT!
+ agot_banking.1108.desc: "A letter was received from the [agot_bank|E], complaining about my unwillingness to repay my debt. To find a solution that both parties can live with, the bank proposes a new repayment plan: I will have to pay a penalty fee of half the payable interest amount immediately. In return, the final repayment will be postponed for another 3 years." #NT!
+ agot_banking.1108.a: "That is a fair offer." #NT!
+ agot_banking.1108.a_tt: "Your loan will continue, and repayment is due in three years." #NT!
+ agot_banking.1108.b: "I will not!" #NT!
+ agot_banking.1108.b_tt: "You refuse the bank's offer. This may result in a harsher reaction..." #NT!
+  
+ agot_banking.0606.t: "A New Shareholder" #NT!
+ agot_banking.0606.desc: "Today, the Bank of [BankName.GetNameNoTier] issued a new share to [NewShareholder.GetTitledFirstName]." #NT!

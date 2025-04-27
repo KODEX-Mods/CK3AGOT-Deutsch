@@ -1,0 +1,115 @@
+﻿l_german:
+ agot_faceless_interaction.0001.t: "The Faceless Man" #NT!
+ agot_faceless_interaction.0001.desc: "So concentrated was I on [ROOT.Char.Custom('IdleActivity')] that I did not notice this stranger enter my chamber. With a voice as soft and cutting as wind, [faceless_man.GetSheHe] introduces [faceless_man.GetHerselfHimself] as one of the Faceless Men of Braavos. My inquiry has been received; " #NT!
+ agot_faceless_interaction.0001.desc_no: "yet there is no price that they will take." #NT!
+ agot_faceless_interaction.0001.desc_extreme: "the price is outrageous." #NT!
+ agot_faceless_interaction.0001.desc_high: "the cost of their service is quite high." #NT!
+ agot_faceless_interaction.0001.desc_low: "the cost matching the task at hand." #NT!
+ agot_faceless_interaction.0001.desc_minimal: "the cost is a mere [gold_i] 300." #NT!
+ agot_faceless_interaction.0001.desc_blood: "\n\n"There is another option, however," [faceless_man.GetSheHe] whispers, the words rustling in the air like leaves. "A life for a life; your life will make us square."" #NT!
+ agot_faceless_interaction.0001.desc_child: "\n\n"There is another option, however," [faceless_man.GetSheHe] sighs, like a calming breeze. "A life for a life; [child_price.GetFirstNamePossessive] blood may pay your debt."" #NT!
+ agot_faceless_interaction.0001.desc_artifact: "\n\n"There is another option, however," [faceless_man.GetSheHe] hisses like a gust through reeds. "An artifact, of roughly equal value, would suit our needs handsomely."" #NT!
+ agot_faceless_interaction.0001.gold_price: "Here is your money." #NT!
+ agot_faceless_interaction.0001.child_price: "You... can have the child." #NT!
+ agot_faceless_interaction.0001.blood_price: "A life for a life is a fair deal." #NT!
+ agot_faceless_interaction.0001.artifact_price: "I will pay with the [artifact_price.GetName]" #NT!
+ agot_faceless_interaction.0001.no: "How unfortunate." #NT!
+ agot_faceless_interaction.0001.cancel: "On second thought, I change my mind." #NT!
+ agot_faceless_blood_price.tt: "#warning The Faceless Men will expect full repayment.#!" #NT!
+  
+ agot_faceless_interaction.0002.t: "Valar Morghulis" #NT!
+ agot_faceless_interaction.0002.desc_intro:0 "My peaceful afternoon is interrupted by a [faceless_man.GetWomanMan] I had mistaken for one of the servants. [faceless_man.GetHerHis|U] presence subtly fills the air with heaviness; as though a humid tempest had settled itself in my chambers.\n\nThough no formal introductions are made, [faceless_man.GetSheHe] feels familiar in an eerie way; I ask [faceless_man.GetHerHis] name, and [faceless_man.GetSheHe] says tersely: "My peaceful afternoon is interrupted by a [faceless_man.GetWomanMan] I had mistaken for one of the servants. [faceless_man.GetHerHis|U] presence subtly fills the air with heaviness; as though a humid tempest had settled itself in my chambers.\n\nThough no formal introductions are made, [faceless_man.GetSheHe] feels familiar in an eerie way; I ask [faceless_man.GetHerHis] name, and [faceless_man.GetSheHe] says tersely: "A [faceless_man.GetWomanMan] has no name."\n\n" #NT!
+ agot_faceless_interaction.0002.desc_oyster: "[victim.GetTitledFirstName], [faceless_man.GetSheHe] explains, has digested a foul oyster, and [victim.GetSheHe] succumbed to a quick — if painful — bout of illness." #NT!
+ agot_faceless_interaction.0002.desc_furniture: "[victim.GetTitledFirstName], [faceless_man.GetSheHe] shares, has fallen victim to chance; a pulley hoisting a heavy musical instrument snapped over [victim.GetHerHis] head, crushing the poor victim." #NT!
+ agot_faceless_interaction.0002.desc_horse: "[victim.GetTitledFirstName], [faceless_man.GetSheHe] tells me, choosing each word with exacting care, had a horse riding accident. "[victim.GetHerHis|U] life is ... extinguished."" #NT!
+ agot_faceless_interaction.0002.desc_slip: "[victim.GetTitledFirstName], [faceless_man.GetSheHe] shares, had a bit of misfortune attempting to grab something from atop a high shelf. [victim.GetSheHe|U] broke [victim.GetHerHis] neck after slipping." #NT!
+ agot_faceless_interaction.0002.desc_fall: "[victim.GetTitledFirstName], [faceless_man.GetSheHe] explains, had a grave fall from the wallwalk of [victim.GetHerHis] castle." #NT!
+ agot_faceless_interaction.0002.desc_dog: "[victim.GetTitledFirstName], [faceless_man.GetSheHe] tells me, choosing each word with exacting care, had [victim.GetHerHis] throat ripped out by a vicious dog while meandering the market. "Such a pity..."" #NT!
+ agot_faceless_interaction.0002.desc_fallback: "Though [faceless_man.GetSheHe] confirms the death of [victim.GetTitledFirstName], [faceless_man.GetSheHe] stays silent on the method and manner of [victim.GetHerHis] demise." #NT!
+ agot_faceless_interaction.0002.desc_blood_price: "\n\nBut the [faceless_man.GetWomanMan] is not done. With the briefest flicker of what seems a grin, [faceless_man.GetSheHe] reminds me: A life is owed..." #NT!
+ agot_faceless_interaction.0002.a: "$VALAR_DOHAERIS$" #NT!
+ VALAR_DOHAERIS: "[Glossary( 'Valar dohaeris.', 'VALAR_DOHAERIS_GLOSS' )]" #NT!
+  
+ agot_faceless_interaction.0004.t: "Oysters, Clams, and Cockles!" #NT!
+ agot_faceless_interaction.0004.desc:0 "The salty breeze! The cawing of gulls! The bustle of dockworkers! It's a fine day to take it all in.\n\nFor a trip like this, I keep my entourage small. No need to cause a scene as an interested [ROOT.Char.GetTitleAsNameNoTooltip] wandering about the docks, inspecting the wares of various tradesfolk. I'm eyeing a particularly marvelous trinket when I hear a most wonderful melody: "The salty breeze! The cawing of gulls! The bustle of dockworkers! It's a fine day to take it all in.\n\nFor a trip like this, I keep my entourage small. No need to cause a scene as an interested [ROOT.Char.GetTitleAsNameNoTooltip] wandering about the docks, inspecting the wares of various tradesfolk. I'm eyeing a particularly marvelous trinket when I hear a most wonderful melody: "Oysters, clams, and cockles," rings out like a song, and I can't help but to rush to the fishmonger's stand.\n\nI buy a dozen, tapping earnestly to ensure the worker provides me the best ones. And yet, as I am dining on my fifth, my head begins to swim." #NT!
+ agot_faceless_interaction.0004.desc_faceless: "Suddenly, I am losing control of my bowels, and I fall upon a brass merchant's stall on my way the ground. I retch, expelling vile fluid from my mouth and nose. A burning pain fills my throat, and my eyes bulge as though to escape from my own skull.\n\nA woman cries out, yet all I see is a dingy old cat with a stub tail padding its way toward the alley as my vision blurs to black." #NT!
+ agot_faceless_interaction.0004.desc_fakeout: ""Breathe, my [ROOT.Char.GetTitleAsNameNoTooltip]," urges [colleague.GetFirstName], "you are eating these too fast, slow down."\n\nI take a deep breath, glancing around the dock to steady myself. A bedraggled grey cat slinks away into the alley, and the bloodrush seems to dissipate." #NT!
+ agot_faceless_interaction.0004.a: "I don't even like seafood!" #NT!
+ agot_faceless_interaction.0004.a_fakeout: "I just... really like seafood..." #NT!
+  
+ agot_faceless_interaction.0005.t: "Furniture Fatale" #NT!
+ agot_faceless_interaction.0005.desc: "It oft amuses me how like my townsfolk are to a colony of bees, bumbling about in their business, traveling to and fro with urgency that must seem so significant to their slight status. Even today, the streets are bustling with workers; brewers and bakers, beggars and butchers.\n\nEven the town itself seems alive; new buildings being built, furnishings in transit to their new homes. Just ahead of my entourage, I see a large harp being hoisted by pulley to the third story of a house — surely that of some wealthy merchant. The street itself is nearly blocked by the workers, but no one would dare stop a ruler from passing by.\n\n" #NT!
+ agot_faceless_interaction.0005.desc_faceless: "I step briskly below the taut ropes lifting the instrument when I hear a sudden snap, followed by shouts and a scream in quick succession. I look up just in time to see my fate: a falling household piece, come to deliver [ROOT.Char.GetFaith.DeathDeityNamePossessive] greeting." #NT!
+ agot_faceless_interaction.0005.desc_fakeout: "I step briskly past the taut ropes lifting the instrument when I hear a sudden snap, followed by shouts and a scream in quick succession. The falling household piece shatters against the ground, crushing a poor worker in its wake. I can only say to [ROOT.Char.GetFaith.DeathDeityName]: #italic not today#!." #NT!
+ agot_faceless_interaction.0005.a: "Ack!" #NT!
+ agot_faceless_interaction.0005.a_fakeout: "That was a close one." #NT!
+  
+ agot_faceless_interaction.0006.t: "Foal Play" #NT!
+ agot_faceless_interaction.0006.desc: "An escape from my duties, however brief, has done wonders for my stress. Out here on horseback one can feel a sense of purpose and pride that is often lost in the humdrum of ruling. My small entourage and I have opted to take a short break from the saddle to let our horses rest.\n\n"Quite the remarkable destrier," a servant remarks, taking a horse by the lead. I'm quite familiar with most in my entourage, yet something indiscernible seems amiss. I take a second glance at the servant, while the warhorse sips some water.\n\n" #NT!
+ agot_faceless_interaction.0006.desc_faceless: "My focus on the servant's face proves all-consuming... I take a step closer, ready to grab hold of this possible intruder, when the horse before me makes a sudden jerking motion, kicking its leg with full force toward my face. My suspicions evaporate as my head whips bloodily backward, pain replacing skepticism as my world goes black." #NT!
+ agot_faceless_interaction.0006.desc_fakeout: "Aha, it's [servant.GetFirstName], I realize on closer inspection! But as I take a step forward, the horse jolts to the side, and in an instant all suspicion is for naught. With a powerful kick, [servant.GetFirstNamePossessiveNoTooltip] face is reduced to a bright red pulp, and scream of shock and horror flood my senses." #NT!
+ agot_faceless_interaction.0006.a: "H...oof!" #NT!
+ agot_faceless_interaction.0006.a_fakeout: "Unbelievable!" #NT!
+  
+ agot_faceless_interaction.0007.t: "Just Out of Reach" #NT!
+ agot_faceless_interaction.0007.desc: "Time alone is hard to come by for a ruler, which is why I relish even the briefest moment after my councilors' departure to myself. Today, after much tedious discussion, I find myself basking in solitude in the council chamber — allowing my mind to wander where it will.\n\nAs I sit, enraptured in idle thought, I notice a glint from atop a nearby bookshelf. I take a second glance, and this time I can see clearly there is something gilded atop the bookshelf; some rare treasure, tucked away from sight and out of mind.\n\nI pick up my chair and move it to the edge of the bookshelf, hopping up and reaching for the top... but alas, whatever it is remains just out of reach. If only I could stretch #italic slightly#! further...\n\n" #NT!
+ agot_faceless_interaction.0007.desc_faceless: "As my fingertips graze the top of the bookshelf, I hear a shuffling behind me, but before I can react the chair is pulled from beneath me and the world is toppling... I hear a gruesome crack, a faint cry that sounds much like my own voice, then it all goes black." #NT!
+ agot_faceless_interaction.0007.desc_fakeout: "The chair wobbles slightly beneath me, but I steady myself against the shelves. I look around, struck by a sudden discomfort, as though someone is watching me... I hop down, resigning myself to a missed opportunity." #NT!
+ agot_faceless_interaction.0007.a: "Is this truly my end?" #NT!
+ agot_faceless_interaction.0007.a_fakeout: "No treasure is worth a broken neck!" #NT!
+  
+ agot_faceless_interaction.0008.t: "All Along the Wallwalk" #NT!
+ agot_faceless_interaction.0008.desc: "A walk at dusk is a rare pleasure, especially at the end of a tense day, and the castle's wallwalk provides an enviable seclusion from the apple polishers and lickspittles of my court. I take every caution to ensure that I am alone with my thoughts for these walks, leaving behind even my personal guards while I take in the view from up high.\n\nFrom atop the wallwalk, my duties shrink away — and I feel just a bit lighter. As I lean myself between two merlons, I can feel the wind rushing up the castle wall to meet me... It feels almost like flying.\n\n" #NT!
+ agot_faceless_interaction.0008.desc_faceless: "For a moment, I'm lost in the feeling; the rush of air against my face, flooding my senses. I can almost swear I hear movement behind me, when suddenly my body feels weightless. I no longer feel almost like flying... I #bold am#! flying — or rather falling toward the rough-hewn courtyard below. I gasp, but the air gives me no respite from my demise." #NT!
+ agot_faceless_interaction.0008.desc_fakeout: "Though I'm momentarily lost in the feeling, my eyes begin to tear up at the rush of air, and I pull myself back. As I take a step back, an eerie feeling floods my senses... As though someone was watching me." #NT!
+ agot_faceless_interaction.0008.a: "And I'm free, free falling." #NT!
+ agot_faceless_interaction.0008.a_fakeout: "Perhaps I should take my walks at ground level." #NT!
+  
+ agot_faceless_interaction.0009.t: "The Pauper's Pup" #NT!
+ agot_faceless_interaction.0009.desc: "A visit to the market is always a sure way to lift my spirits — the hustle of porters, the bustle of merchants; all of the commotion thrills me! To think, such livelihood is owed to my own good stewardship.\n\nBut among the tradesfolk are those less fortunate souls; those wretches who survive merely off scraps and the small kindnesses of others. This afternoon, I come across one such soul, who would otherwise be easy to ignore, if not for his large #bold mastiff#!.\n\nSuch a rare breed — and, judging by its looks, well-fed! In fact, though its owner is all skin and bones, the dog looks to be all muscle. I approach the pauper, figuring I may offer a bit of coin and take his pup to a better life in my kennels.\n\n" #NT!
+ agot_faceless_interaction.0009.desc_faceless: "I lean close to the dog, its eyes welcoming me, lulling me to lower my defenses. #italic Such a good boy,#! I think, when suddenly... The beggar looks at me with a wide grin, and the fierce beast of a dog lunges toward my neck. With a single bite, my throat is ripped clean from my neck." #NT!
+ agot_faceless_interaction.0009.desc_fakeout: "I lean close to the dog, cautiously allowing him to sniff my hand. The beggar looks at me in despair, knowing I could take his companion whether he acquiesces or not." #NT!
+ agot_faceless_interaction.0009.a: "#X *gurgle*#!" #NT!
+ agot_faceless_interaction.0009.a_fakeout: "How could I take his only joy in life?" #NT!
+ agot_faceless_interaction.0009.b: "This should be enough..." #NT!
+  
+ agot_faceless_decision.0001.t: "Choosing a New Face" #NT!
+ agot_faceless_decision.0001.desc: "It is time to choose a new face, to take on a new life. Whomever it is I choose to wear will undoubtedly serve the Many-Faced God well." #NT!
+ agot_faceless_decision.0001.victims: "I'll find a new face in my past." #NT!
+ agot_faceless_decision.0001.hall: "The Hall of Faces has what I need." #NT!
+ agot_faceless_decision.0001.cancel: "Perhaps another time..." #NT!
+ agot_faceless_decision.0001.cancel.tt: "The decision will be canceled." #NT!
+  
+ agot_faceless_decision.0002.t: "Familiar Faces" #NT!
+ agot_faceless_decision.0002.desc: "As I consider the many lives I have ended in service to the Many-Faced God, I wonder if any might be worthy of a new life of devotion." #NT!
+ agot_faceless_decision.0002.select: "This one." #NT!
+ agot_faceless_decision.0002.select.tt: "You will be prompted to confirm selection of [THIS.Var('si_selected_character').Char.GetName]." #NT!
+ agot_faceless_decision.0002.back: "Another face, perhaps..." #NT!
+ agot_faceless_decision.0002.cancel: "On second thought." #NT!
+ agot_faceless_decision.0002.cancel.tt: "The decision will be canceled." #NT!
+  
+ agot_faceless_decision.0003.t: "The Hall of Faces" #NT!
+ agot_faceless_decision.0003.desc: "Rows of faces stare back at me like morbid paintings. Each face was once a life; now in death, each serves the Many-Faced God." #NT!
+ agot_faceless_decision.0003.face_1: "[face_1.GetName]" #NT!
+ agot_faceless_decision.0003.face_2: "[face_2.GetName]" #NT!
+ agot_faceless_decision.0003.face_3: "[face_3.GetName]" #NT!
+ agot_faceless_decision.0003.face_4: "[face_4.GetName]" #NT!
+ agot_faceless_decision.0003.face_5: "[face_5.GetName]" #NT!
+ agot_faceless_decision.0003.random: "Any face will do." #NT!
+ agot_faceless_decision.0003.random.tt: "A random character will be generated." #NT!
+ agot_faceless_decision.0003.back: "Another face, perhaps..." #NT!
+ agot_faceless_decision.0003.cancel: "Enough of this." #NT!
+ agot_faceless_decision.0003.cancel.tt: "The decision will be canceled." #NT!
+  
+ agot_faceless_decision.0004.t: "The Hall of Faces: [selected_face.GetNameNoTooltip]" #NT!
+ agot_faceless_decision.0004.desc: "As I hold the face in my hand, I wonder over the life lived — and the life yet to be lived." #NT!
+ agot_faceless_decision.0004.confirm: "$VALAR_DOHAERIS$" #NT!
+ agot_faceless_decision.0004.back: "Another face, perhaps..." #NT!
+ agot_faceless_decision.0004.cancel: "All told, my own life is not done yet." #NT!
+ agot_faceless_decision.0004.cancel.tt: "The decision will be canceled." #NT!
+ agot_faceless_decision.0005.t: "$agot_faceless_interaction.0002.t$" #NT!
+ agot_faceless_decision.0005.desc: "As a servant to the Many-Faced God, it is sometimes hard to remember that death comes for us #S all#!. A fellow worshipper has come to remind me of this fact." #NT!
+ agot_faceless_decision.0005.a: "$VALAR_DOHAERIS$" #NT!
+ agot_faceless_decision.0005.b: "Not today!" #NT!
+ faceless_will_become_landless_run.tt: "You will give up all current titles and become a landless adventurer." #NT!
+ faceless_lose_hall_access.tt: "You will no longer have access to the Hall of Faces." #NT!

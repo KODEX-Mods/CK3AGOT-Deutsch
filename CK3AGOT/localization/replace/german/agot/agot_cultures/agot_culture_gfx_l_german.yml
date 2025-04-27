@@ -1,164 +1,158 @@
 ﻿l_german:
-#Clothing Styles
- andal_clothing_gfx:0 "Andal Cloth"
- andalosi_clothing_gfx:0 "Andal Finery"
- axeman_clothing_gfx:0 "Andal Kit"
- crownlander_clothing_gfx:0 "Crownland Garments"
-
- clawman_clothing_gfx:0 "Crackclaw Gear"
-
- valeman_clothing_gfx:0 "Valish Finery"
- moonman_clothing_gfx:0 "Valish Kit"
- sisterman_clothing_gfx:0 "Sisterman Garb"
-
- stormlander_clothing_gfx:0 "Stormland Apparel"
- marcher_clothing_gfx:0 "Marcher Kit"
-
- reachman_clothing_gfx:0 "Mander Finery"
- honeywiner_clothing_gfx:0 "Oldtown Raiment"
- vineman_clothing_gfx:0 "Arbor Garments"
- shieldman_clothing_gfx:0 "Shield Attire"
-
- riverlander_clothing_gfx:0 "River Wear"
-
- westerman_clothing_gfx:0 "Western Regalia"
-
- first_man_clothing_gfx:0 "First Man Clothes"
- northman_clothing_gfx:0 "Northern Attire"
- hill_clansman_clothing_gfx:0 "Northern Gear"
- crannogman_clothing_gfx:0 "Neck Garb"
- wolfswood_clansman_clothing_gfx:0 "Nothern Wear"
- harborman_clothing_gfx:0 "White Harbor Finery"
- krakenman_clothing_gfx:0 "Northern Kit"
-
- ironborn_clothing_gfx:0 "Iron Kit"
- greenborn_clothing_gfx:0 "Iron Finery"
-
- wildling_clothing_gfx:0 "Wildling Rags"
- mountain_clansman_clothing_gfx:0 "Stolen Rags"
-
- rhoynish_clothing_gfx:0 "Rhoynish Raiment"
- greenblood_clothing_gfx:0 "Greenblood Raiment"
- dornish_clothing_gfx:0 "Dornish Attire"
- salt_dornish_clothing_gfx:0 "Dornish Raiment"
- sand_dornish_clothing_gfx:0 "Dornish Cloth"
- stone_dornish_clothing_gfx:0 "Dornish Gear"
- summer_rhoynish_clothing_gfx:0 "Rhoynish Threads"
-
- valyrian_clothing_gfx:0 "Freehold Finery"
- high_valyrian_clothing_gfx:0 "Dragonlord Vestments"
- westerosi_valyrian_clothing_gfx:0 "Westerosi Vestments"
- essosi_valyrian_clothing_gfx:0 "Essosi Vestments"
- volantene_clothing_gfx:0 "Volantene Raiment"
- lyseni_clothing_gfx:0 "Lysene Regalia"
- tyroshi_clothing_gfx:0 "Tyroshi Finery"
- myrish_clothing_gfx:0 "Myrish Lace"
- hartalari_clothing_gfx:0 "Hartalari Threads"
- pentoshi_clothing_gfx:0 "Pentoshi Dress"
- qohorik_clothing_gfx:0 "Qohorik Cloth"
- norvoshi_clothing_gfx:0 "Norvoshi Attire"
- lorathi_clothing_gfx:0 "Lorathi Garments"
- braavosi_clothing_gfx:0 "Braavosi Finery"
-
- dothraki_clothing_gfx:0 "Dothraki Skins"
-
- summer_islander_clothing_gfx:0 "Feather Cloaks"
-
- narrow_sea_clothing_gfx:0 "Pirate Splendor"
-
- ghiscari_clothing_gfx:0 "Harpy Regalia"
-
- hyrkooni_clothing_gfx:0 "Ruby Gear"
-
- ibbenese_clothing_gfx:0 "Whaling Attire"
-
- sarnori_clothing_gfx:0 "Silver Vestments"
-
- #Architectural Styles
- #western_building_gfx:0 "Old Andalic"
- #mediterranean_building_gfx:0 "Free Urban"
- #mena_building_gfx:0 "Sandstone"
- #indian_building_gfx:0 "Old Essosi"
- #norse_building_gfx:0 "Timber Stone"
- #steppe_building_gfx:0 "Nomadic Horseman"
- #iberian_building_gfx:0 "Andalo-Rhoynar"
- #iranian_building_gfx:0 "Princely Rhoynar"
- yitish_building_gfx:0 "Golden Imperial"
- ghis_building_gfx:0 "Ghiscari Brick"
- barrow_building_gfx:0 "Barrow Stone"
- red_andal_building_gfx:0 "Mountain Andalic"
- andal_building_gfx:0 "High Andalic"
- igloos_building_gfx:0 "Frozen Tribal"
- woodland_building_gfx:0 "Woodland Tribal"
- westerman_building_gfx:0 "Casterly Stone"
- riverlander_building_gfx:0 "Benedictine Mud"
- reach_building_gfx:0 "Mander Palatial"
- first_man_building_gfx:0 "Winter Stone"
- wildling_building_gfx:0 "Wildling Tribal"
- summer_islander_building_gfx:0 "Urban Pleasure"
- crannogman_building_gfx:0 "Neck Crannog"
- rough_building_gfx:0 "Mountainous Tribal"
- lyseni_building_gfx:0 "Valyrian Pleasure"
- dothraki_building_gfx:0 "Khaleen Vaes"
- thenn_building_gfx:0 "Bronze Tribal"
- hyrkoon_building_gfx:0 "Patrimonial Remnant"
- norse_ind_building_gfx:0 "Red Stone"
- norse_med_building_gfx:0 "Urban Stone"
- norse_mena_building_gfx:0 "White Stone"
- indian_med_building_gfx:0 "Urban Freehold"
- indian_mena_building_gfx:0 "Red Freehold"
- indian_west_building_gfx:0 "Remnant Freehold"
- mediterranean_ind_building_gfx:0 "Rhoynish Urban"
- mediterranean_mena_building_gfx:0 "Sand Urban"
- mediterranean_west_building_gfx:0 "North Urban"
- mena_ind_building_gfx:0 "Red Fort"
- mena_med_building_gfx:0 "Urban Fort"
- mena_west_building_gfx:0 "North Fort"
- western_ind_building_gfx:0 "Red Andalic"
- western_med_building_gfx:0 "Urban Andalic"
- western_mena_building_gfx:0 "Sand Andalic"
- qartheen_building_gfx:0 "Qaathi Stone"
-
- #CoA Styles
- andal_coa_gfx:0 "Andalic Heraldry"
- first_man_coa_gfx:0 "Runic Heraldry"
- dornish_coa_gfx:0 "Rhoynar Heraldry"
- valyrian_coa_gfx:0 "Freehold Heraldry"
- ironborn_coa_gfx:0 "Drowned Heraldry"
- ancient_races_coa_gfx:0 "Ancient Heraldry"
- dothraki_coa_gfx:0 "Dothraki Heraldry"
- ghiscari_coa_gfx:0 "Harpy Heraldry"
- hyrkooni_coa_gfx:0 "Hyrkoon Heraldry"
- ibbenese_coa_gfx:0 "Ibbenese Heraldry"
- lhazareen_coa_gfx:0 "Lhazaar Heraldry"
- qaathi_coa_gfx:0 "Qaathi Heraldry"
- sarnori_coa_gfx:0 "Sarnori Heraldry"
- summer_islander_coa_gfx:0 "Summer Heraldry"
- wildling_coa_gfx:0 "Freefolk Heraldry"
-
-#Vanilla Overrides in culture_gfx_l_german
-
- #Architectual Styles
-
- # african_building_gfx:0 "Sothoryi Tribal"
- # western_building_gfx:0 "Old Andalic"
- # mediterranean_building_gfx:0 "Urban Andalic"
- # mena_building_gfx:0 "Sandstone"
- # indian_building_gfx:0 "Old Essosi"
- # norse_building_gfx:0 "Timber Stone"
- # steppe_building_gfx:0 "Nomadic Horseman"
- # iberian_building_gfx:0 "Andalo-Rhoynar"
- # iranian_building_gfx:0 "Princely Rhoynar"
-
- #Unit Styles
- # eastern_unit_gfx:0 "Freehold Steel"
- # indian_unit_gfx:0 "Essosi Steel"
- # mena_unit_gfx:0 "Coastal Spear"
- # mongol_unit_gfx:0 "Horselord"
- # norse_unit_gfx:0 "Iron Raider"
- # northern_unit_gfx:0 "Cold Iron"
- # sub_sahran_unit_gfx:0 "Desert Steel"
- # western_unit_gfx:0 "Westerosi Steel"
- # iberian_christian_unit_gfx:0 "Coastal Shields"
- # iberian_muslim_unit_gfx:0 "Andalo-Rhoynar"
- # iranian_unit_gfx:0 "Silver Steel"
+ #Clothing Styles 
+ andal_clothing_gfx: "Alt-Andalisch"
+ andalosi_clothing_gfx: "Alt-Andalisch"
+ axeman_clothing_gfx: "Alt-Andalisch"
+ crownlander_clothing_gfx: "Kronländisch"
+  
+ clawman_clothing_gfx: "Klauenhornmännisch"
+  
+ valeman_clothing_gfx: "Talmännisch"
+ moonman_clothing_gfx: "Alt-Andalisch"
+ sisterman_clothing_gfx: "Alt-Erstmännisch"
+  
+ stormlander_clothing_gfx: "Sturmländisch"
+ marcher_clothing_gfx: "Sturmländisch"
+  
+ reachman_clothing_gfx: "Weitländisch"
+ honeywiner_clothing_gfx: "Weitländisch"
+ vineman_clothing_gfx: "Weitländisch"
+ shieldman_clothing_gfx: "Weitländisch"
+  
+ riverlander_clothing_gfx: "Flussländisch"
+  
+ westerman_clothing_gfx: "Westländisch"
+  
+ first_man_clothing_gfx: "Alt-Erstmännisch"
+ northman_clothing_gfx: "Nordmännisch"
+ hill_clansman_clothing_gfx: "Alt-Erstmännisch"
+ crannogman_clothing_gfx: "Pfahlbaummännisch"
+ wolfswood_clansman_clothing_gfx: "Alt-Erstmännisch"
+ harborman_clothing_gfx: "Hafenmännisch"
+ krakenman_clothing_gfx: "Alt-Erstmännisch"
+  
+ ironborn_clothing_gfx: "Eisenmännisch"
+ greenborn_clothing_gfx: "Eisenmännisch"
+  
+ wildling_clothing_gfx: "Wildlinge"
+ mountain_clansman_clothing_gfx: "Alt-Erstmännisch"
+  
+ rhoynish_clothing_gfx: "Salzdornisch"
+ greenblood_clothing_gfx: "Salzdornisch"
+ dornish_clothing_gfx: "Dornisch"
+ salt_dornish_clothing_gfx: "Salzdornisch"
+ sand_dornish_clothing_gfx: "Sanddornisch"
+ stone_dornish_clothing_gfx: "Steindornisch"
+ summer_rhoynish_clothing_gfx: "Salzdornisch"
+  
+ valyrian_clothing_gfx: "Valyrisch"
+ high_valyrian_clothing_gfx: "Hochvalyrisch"
+ westerosi_valyrian_clothing_gfx: "High Valyrian"
+ essosi_valyrian_clothing_gfx: "Ostvalyrisch"
+ volantene_clothing_gfx: "Volantenisch"
+ lyseni_clothing_gfx: "Ostvalyrisch"
+ tyroshi_clothing_gfx: "Ostvalyrisch"
+ myrish_clothing_gfx: "Ostvalyrisch"
+ hartalari_clothing_gfx: "Hartalari Threads" #NT!
+ pentoshi_clothing_gfx: "Pentosisch"
+ qohorik_clothing_gfx: "Ostvalyrisch"
+ norvoshi_clothing_gfx: "Ostvalyrisch"
+ lorathi_clothing_gfx: "Lorathisch"
+ braavosi_clothing_gfx: "Braavosisch"
+  
+ dothraki_clothing_gfx: "Dothrakisch"
+  
+ summer_islander_clothing_gfx: "Sommermännisch"
+  
+ narrow_sea_clothing_gfx: "Meerenge"
+  
+ ghiscari_clothing_gfx: "Astaporisch"
+  
+ hyrkooni_clothing_gfx: "Hyrkonisch"
+  
+ ibbenese_clothing_gfx: "Asabhadisch"
+  
+ sarnori_clothing_gfx: "Sarnorisch"
+  
+  #Architectural Styles 
+ #western_building_gfx: "Old Andalic" #NT!
+ #mediterranean_building_gfx: "Free Urban" #NT!
+ #mena_building_gfx: "Sandstone" #NT!
+ #indian_building_gfx: "Old Essosi" #NT!
+ #norse_building_gfx: "Timber Stone" #NT!
+ #steppe_building_gfx: "Nomadic Horseman" #NT!
+ #iberian_building_gfx: "Andalo-Rhoynar" #NT!
+ #iranian_building_gfx: "Princely Rhoynar" #NT!
+ yitish_building_gfx: "YiTish Architecture" #NT!
+ ghis_building_gfx: "Ghiscari Architecture" #NT!
+ barrow_building_gfx: "Barrowman Architecture" #NT!
+ red_andal_building_gfx: "Moon Mountain Architecture" #NT!
+ andal_building_gfx: "Alt-Andalisch"
+ igloos_building_gfx: "Frozen Tribal Architecture" #NT!
+ woodland_building_gfx: "Woodland Tribal Architecture" #NT!
+ westerman_building_gfx: "Westländisch"
+ riverlander_building_gfx: "Flussländisch"
+ reach_building_gfx: "Reach Architecture" #NT!
+ first_man_building_gfx: "Alt-Erstmännisch"
+ wildling_building_gfx: "Wildlinge"
+ summer_islander_building_gfx: "Sommermännisch"
+ crannogman_building_gfx: "Pfahlbaummännisch"
+ rough_building_gfx: "Mountainous Tribal Architecture" #NT!
+ lyseni_building_gfx: "Ostvalyrisch"
+ dothraki_building_gfx: "Dothrakisch"
+ thenn_building_gfx: "Alt-Erstmännisch"
+ hyrkoon_building_gfx: "Hyrkoon Architecture" #NT!
+ qartheen_building_gfx: "Qarthenisch"
+ crownlands_building_gfx: "Crownland Architecture" #NT!
+ stormlands_building_gfx: "Stormland Architecture" #NT!
+ ironmen_building_gfx: "Ironborn Architecture" #NT!
+ high_valyrian_building_gfx: "Hochvalyrisch"
+ volantene_building_gfx: "Volantenisch"
+ norvoshi_building_gfx: "Ostvalyrisch"
+ pentoshi_building_gfx: "Pentosisch"
+ braavosi_building_gfx: "Braavosisch"
+ tyrosh_building_gfx: "Tyroshi Architecture" #NT!
+  
+  #CoA Styles 
+ andal_coa_gfx: "Alt-Andalisch"
+ first_man_coa_gfx: "Alt-Erstmännisch"
+ dornish_coa_gfx: "Dornisch"
+ valyrian_coa_gfx: "Valyrisch"
+ ironborn_coa_gfx: "Eisenmännisch"
+ ancient_races_coa_gfx: "Uraltes Volk"
+ dothraki_coa_gfx: "Dothrakisch"
+ ghiscari_coa_gfx: "Astaporisch"
+ hyrkooni_coa_gfx: "Hyrkonisch"
+ ibbenese_coa_gfx: "Asabhadisch"
+ lhazareen_coa_gfx: "Lhazarisch"
+ qaathi_coa_gfx: "Qaathisch"
+ sarnori_coa_gfx: "Sarnorisch"
+ summer_islander_coa_gfx: "Sommermännisch"
+ wildling_coa_gfx: "Wildlinge"
+  
+ #Vanilla Overrides in culture_gfx_l_english 
+  
+  #Architectual Styles 
+  
+ # african_building_gfx: "Sothoryi Tribal" #NT!
+ # western_building_gfx: "Old Andalic" #NT!
+ # mediterranean_building_gfx: "Urban Andalic" #NT!
+ # mena_building_gfx: "Sandstone" #NT!
+ # indian_building_gfx: "Old Essosi" #NT!
+ # norse_building_gfx: "Timber Stone" #NT!
+ # steppe_building_gfx: "Nomadic Horseman" #NT!
+ # iberian_building_gfx: "Andalo-Rhoynar" #NT!
+ # iranian_building_gfx: "Princely Rhoynar" #NT!
+  
+  #Unit Styles 
+ # eastern_unit_gfx: "Freehold Steel" #NT!
+ # indian_unit_gfx: "Essosi Steel" #NT!
+ # mena_unit_gfx: "Coastal Spear" #NT!
+ # mongol_unit_gfx: "Horselord" #NT!
+ # norse_unit_gfx: "Iron Raider" #NT!
+ # northern_unit_gfx: "Cold Iron" #NT!
+ # sub_sahran_unit_gfx: "Desert Steel" #NT!
+ # western_unit_gfx: "Westerosi Steel" #NT!
+ # iberian_christian_unit_gfx: "Coastal Shields" #NT!
+ # iberian_muslim_unit_gfx: "Andalo-Rhoynar" #NT!
+ # iranian_unit_gfx: "Silver Steel" #NT!

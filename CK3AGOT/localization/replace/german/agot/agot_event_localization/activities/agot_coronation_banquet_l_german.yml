@@ -1,0 +1,1353 @@
+﻿l_german:
+  ################################################## 
+  # MISC 
+ coronation_banquet_0041_attraction_modifier: "Talk of the Town" #NT!
+ coronation_banquet_0041_attraction_modifier_desc: "This character's best qualities hang from everyone's lips." #NT!
+ coronation_banquet_0051_snooty_modifier: "Snooty" #NT!
+ coronation_banquet_0051_snooty_modifier_desc: "This character is known to have no time for lowlifes, hangers-on, and fools acting above their station." #NT!
+ coronation_banquet_0051_approachable_modifier: "Approachable" #NT!
+ coronation_banquet_0051_approachable_modifier_desc: "Considered a bastion of good tact, this character always has time for a chat. No matter how dry the subject matter." #NT!
+ coronation_banquet.0000.desc.hate.fallback: ""Bah, you're just easy to please", [char_2.GetFirstNameNoTooltip] sniffs. "I expect more from these types of affair."" #NT!
+ coronation_banquet.0000.desc.boilerplate.char_intro: "Near my seat, both [char_1.GetTitledFirstName] and [char_2.GetTitledFirstName] share their opinions" #NT!
+ coronation_banquet.0000.flavour.hobnob.char_1: "You spend much of the evening hobnobbing with this [char_1.Custom('GetEducationTrait')]" #NT!
+ coronation_banquet.0000.flavour.hobnob.char_2: "You spend much of the evening hobnobbing with this [char_2.Custom('GetEducationTrait')]" #NT!
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ################################################## 
+  # BANQUET PHASE 
+  
+ coronation_banquet.0001.t: "Quite the Spectacle" #NT!
+ coronation_banquet.0001.desc.intro.bad: "Though not the absolute grandest affair, the evening's entertainments are still an exciting array of actors, acrobats, jugglers, and more. $coronation_banquet.0000.desc.boilerplate.char_intro$ on the display.\n\n" #NT!
+ coronation_banquet.0001.desc.t1.love.diligent: ""Bravo! Bravo! Just enough to be interesting without getting #EMP too#! frivolous!", cries [char_1.GetFirstNameNoTooltip]." #NT!
+ coronation_banquet.0001.desc.t1.love.shy: ""It's good to have background excitement without overwhelming all conversation", half-whispers [char_1.GetFirstNameNoTooltip]." #NT!
+ coronation_banquet.0001.desc.t1.love.humble: ""The perfect amount of performers to be seemly", nods [char_1.GetFirstNameNoTooltip] with satisfaction." #NT!
+ coronation_banquet.0001.desc.t1.love.content: "$coronation_banquet.0001.desc.t1.love.humble$" #NT!
+ coronation_banquet.0001.desc.t1.love.honest: ""I'm glad there's not too many performers", wrinkles [char_1.GetFirstNameNoTooltip]. "Troublesome types, generally."" #NT!
+ coronation_banquet.0001.desc.t1.love.just: "$coronation_banquet.0001.desc.t1.love.honest$" #NT!
+ coronation_banquet.0001.desc.t1.love.craven: "I always get a little jittery if the performances are #EMP too#! daring", [char_1.GetFirstNameNoTooltip] chortles." #NT!
+ coronation_banquet.0001.desc.t1.love.paranoid: ""Mercurial people, performers. This is plenty — it's risky to have too many in one place", [char_1.GetFirstNameNoTooltip] nods." #NT!
+ coronation_banquet.0001.desc.intro.normal: "A magnificent throng of musicians, tumblers, and actors are providing the evening's entertainment, thrilling guests across the hall. $coronation_banquet.0000.desc.boilerplate.char_intro$ on the display.\n\n" #NT!
+ coronation_banquet.0001.desc.t2.love.content: ""Ahh, the perfect amount of merriment to provide, I think", laughs [char_1.GetFirstNameNoTooltip]." #NT!
+ coronation_banquet.0001.desc.t2.love.compassionate: "$coronation_banquet.0001.desc.t2.love.content$" #NT!
+ coronation_banquet.0001.desc.t2.love.generous: ""Good to see a bit of variety on display", drawls [char_1.GetFirstNameNoTooltip], "so often people can be skinflints about these things."" #NT!
+ coronation_banquet.0001.desc.t2.love.calm: ""A lot of thought goes into the right balance of background noise", muses [char_1.GetFirstNameNoTooltip], "it's good to see some without #EMP too#! much bustle."" #NT!
+ coronation_banquet.0001.desc.t2.love.patient: "$coronation_banquet.0001.desc.t2.love.calm$" #NT!
+ coronation_banquet.0001.desc.t2.love.fickle: ""I never know quite what I want out of the performers", laughs [char_1.GetFirstNameNoTooltip], "so I've got to say that this feels like a good level to me."" #NT!
+ coronation_banquet.0001.desc.t2.love.cynical: ""The correct amount of performers and no more", notes [char_1.GetFirstNameNoTooltip] dryly, "good, I can't stand try-hards."" #NT!
+ coronation_banquet.0001.desc.intro.good: "The hall is awash with a riotous parade of acting troupes, dancing musicians, and exotic charlatans, delighting guests en mass. $coronation_banquet.0000.desc.boilerplate.char_intro$ on the display.\n\n" #NT!
+ coronation_banquet.0001.desc.t3.love.lazy: ""Do a flip!" shouts [char_1.GetFirstNameNoTooltip] at a cavorting tumbler, "by [char_1.GetFaith.HealthGodName], I #EMP love#! a good party!"" #NT!
+ coronation_banquet.0001.desc.t3.love.gregarious: "$coronation_banquet.0001.desc.t3.love.lazy$" #NT!
+ coronation_banquet.0001.desc.t3.love.arrogant: ""Now #EMP this#! is how I like it!" cackles [char_1.GetFirstNameNoTooltip], "a grand, nay, #EMP magnificent#! affair!"" #NT!
+ coronation_banquet.0001.desc.t3.love.ambitious: "$coronation_banquet.0001.desc.t3.love.arrogant$" #NT!
+ coronation_banquet.0001.desc.t3.love.deceitful: ""I've got a lot of respect for performers", muses [char_1.GetFirstNameNoTooltip], "it takes skill to make falsehood into a paying profession."" #NT!
+ coronation_banquet.0001.desc.t3.love.arbitrary: "$coronation_banquet.0001.desc.t3.love.deceitful$" #NT!
+ coronation_banquet.0001.desc.t3.love.brave: ""Yes, yes, you can play whilst airborn, don't be a coward!" laughs [char_1.GetFirstNameNoTooltip], haranguing a musician, "it's no fun without a little #EMP danger#!."" #NT!
+ coronation_banquet.0001.desc.t3.love.trusting: ""What novel tricks these strangers play", laughs [char_1.GetFirstNameNoTooltip], "I almost wish some of them would come live with me."" #NT!
+ coronation_banquet.0001.desc.midtro: "\n\n" #NT!
+ coronation_banquet.0001.desc.t1.hate.lazy: ""Hrmph, I was rather hoping for something a bit more... extravagant..." [char_2.GetFirstNameNoTooltip] whines." #NT!
+ coronation_banquet.0001.desc.t1.hate.gregarious: "$coronation_banquet.0001.desc.t1.hate.lazy$" #NT!
+ coronation_banquet.0001.desc.t1.hate.arrogant: ""Bah, whilst they're adequate, but they're hardly the spectacle I was expecting", [char_2.GetFirstNameNoTooltip] moans." #NT!
+ coronation_banquet.0001.desc.t1.hate.ambitious: "$coronation_banquet.0001.desc.t1.hate.arrogant$" #NT!
+ coronation_banquet.0001.desc.t1.hate.deceitful: ""Honestly, I had hoped for a little more", [char_2.GetFirstNameNoTooltip] complains, "I find this type of people fascinating."" #NT!
+ coronation_banquet.0001.desc.t1.hate.arbitrary: "$coronation_banquet.0001.desc.t1.hate.deceitful$" #NT!
+ coronation_banquet.0001.desc.t1.hate.brave: ""There should be many more", [char_2.GetFirstNameNoTooltip] complains, "these few aren't enough to get up to anything truly daring."" #NT!
+ coronation_banquet.0001.desc.t1.hate.trusting: ""I was hoping for more variety, honestly", [char_2.GetFirstNameNoTooltip] whinges, "you can always grab more jobbing types from any old town, after all."" #NT!
+ coronation_banquet.0001.desc.t2.hate.ambitious: ""It's fine, I suppose", [char_2.GetFirstNameNoTooltip] spits, "I just prefer truly impressive ostentation over these half-measures."" #NT!
+ coronation_banquet.0001.desc.t2.hate.arrogant: "$coronation_banquet.0001.desc.t2.hate.ambitious$" #NT!
+ coronation_banquet.0001.desc.t2.hate.greedy: ""Bah, there's too many of them to applaud the thriftiness, yet not enough to enjoy someone else's coin on display", [char_2.GetFirstNameNoTooltip] moans." #NT!
+ coronation_banquet.0001.desc.t2.hate.wrathful: ""Honestly, I had expected a little more hustle and bustle from the event", [char_2.GetFirstNameNoTooltip] sniffs." #NT!
+ coronation_banquet.0001.desc.t2.hate.impatient: "$coronation_banquet.0001.desc.t2.hate.wrathful$" #NT!
+ coronation_banquet.0001.desc.t2.hate.stubborn: ""To my mind, this is supposed to be a celebration for the ceremony", [char_2.GetFirstNameNoTooltip] opines, "so it should have matched its importance and gone all-out."" #NT!
+ coronation_banquet.0001.desc.t2.hate.zealous: "$coronation_banquet.0001.desc.t2.hate.stubborn$" #NT!
+ coronation_banquet.0001.desc.t3.hate.diligent: ""I just think this is all a little much", [char_2.GetFirstNameNoTooltip] complains, "so much... frivolousness..."" #NT!
+ coronation_banquet.0001.desc.t3.hate.shy: ""I can barely hear myself think", [char_2.GetFirstNameNoTooltip] half-whispers, "it's all so... overwhelming..."" #NT!
+ coronation_banquet.0001.desc.t3.hate.humble: ""It's good, but it's all rather showy", [char_2.GetFirstNameNoTooltip] sniffs, "I could do with a bit more room to talk."" #NT!
+ coronation_banquet.0001.desc.t3.hate.content: "$coronation_banquet.0001.desc.t3.hate.humble$" #NT!
+ coronation_banquet.0001.desc.t3.hate.honest: ""#EMP Actors#!", [char_2.GetFirstNameNoTooltip] moans, "professional liars, all of them. We could stand a few less at such an important occasion."" #NT!
+ coronation_banquet.0001.desc.t3.hate.just: "$coronation_banquet.0001.desc.t3.hate.honest$" #NT!
+ coronation_banquet.0001.desc.t3.hate.craven: ""Watch out!" [char_2.GetFirstNameNoTooltip] spits, dodging a hucked juggling ball, "bloody cavalier hirelings, can't even eat my meal safely..."" #NT!
+ coronation_banquet.0001.desc.t3.hate.paranoid: ""Too many strange faces, too many bizarre 'tools'", [char_2.GetFirstNameNoTooltip] curses, "Like that one! Is that a fake sword being swallowed, or are they a lurking assassin?"" #NT!
+ coronation_banquet.0001.a: ""[char_1.GetFirstNameNoTooltip] clearly has the right of it."" #NT!
+ coronation_banquet.0001.a.host: ""[char_1.GetFirstNameNoTooltip], so glad you're enjoying it!"" #NT!
+ coronation_banquet.0001.b: ""I've got to agree with [char_2.GetFirstNameNoTooltip]."" #NT!
+ coronation_banquet.0001.b.host: ""I had envisioned it differently when I hired them, [char_2.GetFirstNameNoTooltip]"" #NT!
+ coronation_banquet.0001.c: "My threatening gaze is locked on [intent_target.GetFirstNameNoTooltip]..." #NT!
+ coronation_banquet.0001.c.tt: "Your gaze unnerves [intent_target.GetFirstNameNoTooltip]" #NT!
+ coronation_banquet.0001.d: "I'm focused on the actual entertainment." #NT!
+ coronation_banquet.0001.e: ""This is what you can expect under House [ROOT.Char.GetHouse.GetNameNoTooltip]."" #NT!
+  
+ coronation_banquet.0011.t: "Food Fit for a..." #NT!
+ coronation_banquet.0011.desc.intro.bad: "By any reasonable standards, the evening's food is an exciting medley of textures, flavors, and spectacle, though this is a particularly special occasion. $coronation_banquet.0000.desc.boilerplate.char_intro$ about the spread.\n\n" #NT!
+ coronation_banquet.0011.desc.t1.love.temperate: ""By [char_1.GetFaith.HealthGodName], the cuisine is #EMP sublime#!", enthuses [char_1.GetFirstNameNoTooltip], "as varied as propriety demands, without over-indulging!"" #NT!
+ coronation_banquet.0011.desc.t1.love.humble: ""It's important to indulge every now and then", muses [char_1.GetFirstNameNoTooltip], "and this is exactly how I like to do it."" #NT!
+ coronation_banquet.0011.desc.t1.love.content: "$coronation_banquet.0011.desc.t1.love.humble$" #NT!
+ coronation_banquet.0011.desc.t1.love.impatient: ""Aha, substantial refreshment in good time", cries [char_1.GetFirstNameNoTooltip], "wonderful! I can't stand a thousand bitty courses."" #NT!
+ coronation_banquet.0011.desc.t1.love.paranoid: ""Mmm, a good level", notes [char_1.GetFirstNameNoTooltip], turning over a chunky morsel, "too much fanciful decoration is an invitation for poison."" #NT!
+ coronation_banquet.0011.desc.t1.love.stubborn: ""Another dish of the same", laughs [char_1.GetFirstNameNoTooltip], "I know what I like and I like what they're serving!"" #NT!
+ coronation_banquet.0011.desc.intro.normal: "Featuring exotic treats, elaborate culinary artworks, and rich colors with richer scents, the banquet's chefs have gone all out for the coronation. $coronation_banquet.0000.desc.boilerplate.char_intro$ about the spread.\n\n" #NT!
+ coronation_banquet.0011.desc.t2.love.content: ""Ahhh, it's all so beautiful", nods [char_1.GetFirstNameNoTooltip], "a perfect melange of form and taste."" #NT!
+ coronation_banquet.0011.desc.t2.love.compassionate: "$coronation_banquet.0011.desc.t2.love.content$" #NT!
+ coronation_banquet.0011.desc.t2.love.generous: ""#EMP Tasty#!" laughs [char_1.GetFirstNameNoTooltip], popping something purplish into [char_1.GetHerHis] mouth, "glad to see some coin on display."" #NT!
+ coronation_banquet.0011.desc.t2.love.calm: ""A good feast, I think", chortles [char_1.GetFirstNameNoTooltip], "plenty of thought into making an experience without losing sight of the important things."" #NT!
+ coronation_banquet.0011.desc.t2.love.patient: "$coronation_banquet.0011.desc.t2.love.calm$" #NT!
+ coronation_banquet.0011.desc.t2.love.cynical: ""The correct amount of effort on display here", notes [char_1.GetFirstNameNoTooltip] wryly, "enough to show thought, not enough that any is wasted."" #NT!
+ coronation_banquet.0011.desc.intro.good: "Sight, taste, touch, smell, even sound — no human sense is left untouch by the scale and grandeur of the evening's food, a fabulous melee of art and fare. $coronation_banquet.0000.desc.boilerplate.char_intro$ about the spread.\n\n" #NT!
+ coronation_banquet.0011.desc.t3.love.gluttonous: ""Another! #EMP ANOTHER!#!" bellows [char_1.GetFirstNameNoTooltip], happily stuffing [char_1.GetHerselfHimself] in lieu of detailed commentary." #NT!
+ coronation_banquet.0011.desc.t3.love.arrogant: ""#EMP Mmmmm#!", moans [char_1.GetFirstNameNoTooltip], "now #EMP this#! is how you throw a feast!"" #NT!
+ coronation_banquet.0011.desc.t3.love.ambitious: "$coronation_banquet.0011.desc.t3.love.arrogant$" #NT!
+ coronation_banquet.0011.desc.t3.love.patient: ""Another course?", thrills [char_1.GetFirstNameNoTooltip], "by [char_1.GetFaith.HealthGodName], they never end! It's wonderful!"" #NT!
+ coronation_banquet.0011.desc.t3.love.trusting: ""I don't know why some people get nervous at feasts", laughs [char_1.GetFirstNameNoTooltip], "what could you possibly fear around such magnificent foodstuffs?"" #NT!
+ coronation_banquet.0011.desc.t3.love.fickle: ""Oh, another of those! #EMP And#! those!" thrills [char_1.GetFirstNameNoTooltip], "I do love a feast where you don't have to choose just a few treats."" #NT!
+ coronation_banquet.0011.desc.midtro: "\n\n" #NT!
+ coronation_banquet.0011.desc.t1.hate.gluttonous: ""It's just...", [char_2.GetFirstNameNoTooltip] sniffs, "not #EMP quite#! what I was expecting, that's all."" #NT!
+ coronation_banquet.0011.desc.t1.hate.arrogant: ""Bah, a feast should near-bankrupt the realm", [char_2.GetFirstNameNoTooltip] snorts, "else what's even the point?"" #NT!
+ coronation_banquet.0011.desc.t1.hate.ambitious: "$coronation_banquet.0011.desc.t1.hate.arrogant$" #NT!
+ coronation_banquet.0011.desc.t1.hate.patient: ""I'm not sure why the course progression is so rushed", [char_2.GetFirstNameNoTooltip] complains, "it took everyone forever to get here, and now we're speeding through the meal?"" #NT!
+ coronation_banquet.0011.desc.t1.hate.trusting: ""The variety is a bit sparse", [char_2.GetFirstNameNoTooltip] whines, "what's the harm in having more variety of dishes?"" #NT!
+ coronation_banquet.0011.desc.t1.hate.fickle: "$coronation_banquet.0011.desc.t1.hate.trusting$" #NT!
+ coronation_banquet.0011.desc.t2.hate.ambitious: ""Mediocrity", [char_2.GetFirstNameNoTooltip] sniffs, "is the sign of a lack of ambition."" #NT!
+ coronation_banquet.0011.desc.t2.hate.arrogant: "$coronation_banquet.0011.desc.t2.hate.ambitious$" #NT!
+ coronation_banquet.0011.desc.t2.hate.greedy: ""The food is good", [char_2.GetFirstNameNoTooltip] opines, "but I don't understand laying out all this money for it without going for #EMP fantastic#!."" #NT!
+ coronation_banquet.0011.desc.t2.hate.wrathful: ""It's good", [char_2.GetFirstNameNoTooltip] spits, "but it's not quite enough for me. I like a more hectic feast than this."" #NT!
+ coronation_banquet.0011.desc.t2.hate.impatient: "$coronation_banquet.0011.desc.t2.hate.wrathful$" #NT!
+ coronation_banquet.0011.desc.t2.hate.zealous: ""I'm having a good time", [char_2.GetFirstNameNoTooltip] whines, "I just think things could've gone a little further to be the #EMP best#!."" #NT!
+ coronation_banquet.0011.desc.t3.hate.temperate: ""Isn't it all quite...", [char_2.GetFirstNameNoTooltip] sniffs, "#EMP rich?#! Style over substance isn't a good quality in a meal, I find."" #NT!
+ coronation_banquet.0011.desc.t3.hate.humble: ""My, it certainly is bustling", [char_2.GetFirstNameNoTooltip] complains, "I barely get a chance to taste each dish. A slower pace wouldn't go amiss."" #NT!
+ coronation_banquet.0011.desc.t3.hate.content: "$coronation_banquet.0011.desc.t3.hate.humble$" #NT!
+ coronation_banquet.0011.desc.t3.hate.impatient: ""Bah!", [char_2.GetFirstNameNoTooltip] curses weakly, "I can't stand these interminally long meals going on and on and on..."" #NT!
+ coronation_banquet.0011.desc.t3.hate.paranoid: ""Feasts at this scale are like a darkened forest", [char_2.GetFirstNameNoTooltip] broods, "could be safe, or could be rife with waiting dangers."" #NT!
+ coronation_banquet.0011.desc.t3.hate.stubborn: ""Hands off!", [char_2.GetFirstNameNoTooltip] snaps at a server, "I'll finish my meal when I'm good and ready! Too many damned courses..."" #NT!
+ coronation_banquet.0011.a: ""I think I'm on your side, [char_1.GetFirstNameNoTooltip]."" #NT!
+ coronation_banquet.0011.a.host: ""I picked the main dishes personally, [char_1.GetFirstNameNoTooltip]."" #NT!
+ coronation_banquet.0011.b: ""[char_2.GetFirstNameNoTooltip] has the right idea."" #NT!
+ coronation_banquet.0011.b.host: ""Yes [char_2.GetFirstNameNoTooltip], things aren't quite how I imagined them."" #NT!
+ coronation_banquet.0011.c: "[intent_target.GetFirstNameNoTooltip] is sat so close to the serving doors..." #NT!
+ coronation_banquet.0011.c.tt.success: "You trip a servant, spilling soup on [intent_target.GetFirstNameNoTooltip]" #NT!
+ coronation_banquet.0011.c.tt.failure: "The servant avoids your foot" #NT!
+ coronation_banquet.0011.d: "Nod along without paying attention." #NT!
+ coronation_banquet.0011.e: ""We of House [ROOT.Char.GetHouse.GetNameNoTooltip] prefer a bountiful spread."" #NT!
+  
+ coronation_banquet.0021.t: "Shimmering, Shining" #NT!
+ coronation_banquet.0021.desc.intro.bad: "The banquet hall's trimmings are beautiful, a medley of murals and rare flowers — even if they're not strictly the most expensive available. $coronation_banquet.0000.desc.boilerplate.char_intro$ on the decorations.\n\n" #NT!
+ coronation_banquet.0021.desc.t1.love.content: ""Ahhhh, #EMP wonderful#!", chortles [char_1.GetFirstNameNoTooltip], "enough frippery to make it special, not enough to outshine anyone else."" #NT!
+ coronation_banquet.0021.desc.t1.love.lazy: ""You know", muses [char_1.GetFirstNameNoTooltip], "this is #EMP exactly#! the level of effort that I would have put in. I approve!"" #NT!
+ coronation_banquet.0021.desc.t1.love.humble: "$coronation_banquet.0021.desc.t1.love.content$" #NT!
+ coronation_banquet.0021.desc.t1.love.forgiving: ""Perhaps it's not the most magnificient it could be", nods [char_1.GetFirstNameNoTooltip], "but it's still a fine effort with plenty of heart."" #NT!
+ coronation_banquet.0021.desc.t1.love.compassionate: "$coronation_banquet.0021.desc.t1.love.forgiving$" #NT!
+ coronation_banquet.0021.desc.t1.love.arbitrary: ""I don't care what you say", drawls [char_1.GetFirstNameNoTooltip], "I like it. An effort was made, you're just being snobbish."" #NT!
+ coronation_banquet.0021.desc.t1.love.greedy: "$coronation_banquet.0021.desc.t1.love.lazy$" #NT!
+ coronation_banquet.0021.desc.intro.normal: "The banquet hall is dressed in a riot of colors, scents, and sights — only the very rarest fabrics and flowers are absent from the garb. $coronation_banquet.0000.desc.boilerplate.char_intro$ on the decorations.\n\n" #NT!
+ coronation_banquet.0021.desc.t2.love.content: ""I don't know how you can't love all of this", chortles [char_1.GetFirstNameNoTooltip], "look at the lengths that were gone to!"" #NT!
+ coronation_banquet.0021.desc.t2.love.compassionate: "$coronation_banquet.0021.desc.t2.love.content$" #NT!
+ coronation_banquet.0021.desc.t2.love.generous: ""There's been a good amount of coin laid down here", notes [char_1.GetFirstNameNoTooltip], "see that tapestry? That's from half a continent away."" #NT!
+ coronation_banquet.0021.desc.t2.love.calm: ""By [char_1.GetFaith.WealthGodName], it's all #EMP just#! perfect", enthuses [char_1.GetFirstNameNoTooltip], "just the right amount to be tasteful without going over!"" #NT!
+ coronation_banquet.0021.desc.t2.love.patient: "$coronation_banquet.0021.desc.t2.love.calm$" #NT!
+ coronation_banquet.0021.desc.t2.love.fickle: ""Perhaps it isn't a very focused selection of fripperies", muses [char_1.GetFirstNameNoTooltip], "but I #EMP like#! that. Variety is important at these affairs."" #NT!
+ coronation_banquet.0021.desc.t2.love.cynical: ""There's enough finery here to appease the mob without being a waste", notes [char_1.GetFirstNameNoTooltip] approvingly, "it's very well-considered."" #NT!
+ coronation_banquet.0021.desc.intro.good: "Fine sculptures, exotic tapestries, strange foreign flower arrangements, and more festoon the banquet hall — a veritable feast for the eyes. $coronation_banquet.0000.desc.boilerplate.char_intro$ on the decorations.\n\n" #NT!
+ coronation_banquet.0021.desc.t3.love.ambitious: ""Now #EMP this#! is what I was expecting!" booms [char_1.GetFirstNameNoTooltip], "a venue fit for a truly #EMP grand#! coronation!"" #NT!
+ coronation_banquet.0021.desc.t3.love.diligent: "$coronation_banquet.0021.desc.t3.love.ambitious$" #NT!
+ coronation_banquet.0021.desc.t3.love.arrogant: "$coronation_banquet.0021.desc.t3.love.ambitious$" #NT!
+ coronation_banquet.0021.desc.t3.love.honest: ""I'm so glad to see the correct amount of effort on display", laughs [char_1.GetFirstNameNoTooltip], "I can't stand when a host half-arses something this important."" #NT!
+ coronation_banquet.0021.desc.t3.love.just: "$coronation_banquet.0021.desc.t3.love.honest$" #NT!
+ coronation_banquet.0021.desc.t3.love.greedy: ""Certainly not stingy with the coin here, are they?" laughs [char_1.GetFirstNameNoTooltip], "well, can't say I'm afraid to take advantage of the hospitality."" #NT!
+ coronation_banquet.0021.desc.t3.love.generous: "$coronation_banquet.0021.desc.t3.love.greedy$" #NT!
+ coronation_banquet.0021.desc.midtro: "\n\n" #NT!
+ coronation_banquet.0021.desc.t1.hate.ambitious: ""Honestly, I have to say I prefer a...", [char_2.GetFirstNameNoTooltip] searches for the polite phrase, "#EMP heavier#! touch on the fripperies."" #NT!
+ coronation_banquet.0021.desc.t1.hate.diligent: "$coronation_banquet.0021.desc.t1.hate.ambitious$" #NT!
+ coronation_banquet.0021.desc.t1.hate.arrogant: "$coronation_banquet.0021.desc.t1.hate.ambitious$" #NT!
+ coronation_banquet.0021.desc.t1.hate.honest: ""To me it feels like the event was over-sold", [char_2.GetFirstNameNoTooltip] complains, "why invite so many if this was all that could be afforded?"" #NT!
+ coronation_banquet.0021.desc.t1.hate.generous: "$coronation_banquet.0021.desc.t1.hate.honest$" #NT!
+ coronation_banquet.0021.desc.t1.hate.just: ""I suppose it's to a fairly high standard", [char_2.GetFirstNameNoTooltip] sniffs, "I had just expected a little more."" #NT!
+ coronation_banquet.0021.desc.t2.hate.ambitious: ""Hrmph", [char_2.GetFirstNameNoTooltip] huffs, "it's a waste of good potential. There's plenty to gaze at here, why #EMP not#! take it further?"" #NT!
+ coronation_banquet.0021.desc.t2.hate.arrogant: "$coronation_banquet.0021.desc.t2.hate.ambitious$" #NT!
+ coronation_banquet.0021.desc.t2.hate.greedy: ""Too much expenditure on display to respect", [char_2.GetFirstNameNoTooltip] snorts, "not enough to truly enjoy. I'm disappointed."" #NT!
+ coronation_banquet.0021.desc.t2.hate.wrathful: ""I like it well enough", [char_2.GetFirstNameNoTooltip] snorts, "but I'd like it much better if there was just a bit more of it all."" #NT!
+ coronation_banquet.0021.desc.t2.hate.impatient: "$coronation_banquet.0021.desc.t2.hate.wrathful$" #NT!
+ coronation_banquet.0021.desc.t2.hate.stubborn: ""Ceremonies are important, and this is still part of the ceremony", [char_2.GetFirstNameNoTooltip] snorts, "it should have been bigger, better, prettier, all of it."" #NT!
+ coronation_banquet.0021.desc.t2.hate.zealous: "$coronation_banquet.0021.desc.t2.hate.stubborn$" #NT!
+ coronation_banquet.0021.desc.t3.hate.content: ""Frankly I find it all a little exhausting", moans [char_2.GetFirstNameNoTooltip], "I don't even know what's a seat and what's a decorative sculpture."" #NT!
+ coronation_banquet.0021.desc.t3.hate.lazy: "$coronation_banquet.0021.desc.t3.hate.content$" #NT!
+ coronation_banquet.0021.desc.t3.hate.humble: "$coronation_banquet.0021.desc.t3.hate.content$" #NT!
+ coronation_banquet.0021.desc.t3.hate.compassionate: ""Hmm, I'm not sure", [char_2.GetFirstNameNoTooltip] sniffs, "doesn't it all feel like it's distracting a little from the ceremony?"" #NT!
+ coronation_banquet.0021.desc.t3.hate.arbitrary: ""Is it really that nice?" [char_2.GetFirstNameNoTooltip] whinges, "how expensive can all this even be?"" #NT!
+ coronation_banquet.0021.a: ""Bah, I prefer [char_1.GetFirstNamePossessiveNoTooltip] positive thinking."" #NT!
+ coronation_banquet.0021.a.host: ""I picked many of the decorations myself, [char_1.GetFirstNameNoTooltip]."" #NT!
+ coronation_banquet.0021.b: ""I'm afraid you make a good point [char_2.GetFirstNameNoTooltip]."" #NT!
+ coronation_banquet.0021.b.host: ""[char_2.GetFirstNameNoTooltip] is right — it's just not what I had in mind."" #NT!
+ coronation_banquet.0021.c: "[intent_target.GetFirstNameNoTooltip] looks quite lonely..." #NT!
+ coronation_banquet.0021.d: "Don't get involved." #NT!
+  
+ coronation_banquet.0031.t: "A Sociable Supper" #NT!
+ coronation_banquet.0031.desc.intro: "There's always so many people to see at these things, new faces to meet, old acquaintances to renew, all amidst the hustle and bustle of a thriving party.\n\nJust from where I'm sat I can see" #NT!
+ coronation_banquet.0031.desc.char_1.conversationalist_neighbour: "my neighboring ruler" #NT!
+ coronation_banquet.0031.desc.char_1.conversationalist_covassal: "my fellow vassal" #NT!
+ coronation_banquet.0031.desc.char_1.conversationalist_vassal: "my sworn vassal" #NT!
+ coronation_banquet.0031.desc.char_1.conversationalist_liege: "my immediate liege" #NT!
+ coronation_banquet.0031.desc.char_1.conversationalist_other_ruler: "a foreign ruler," #NT!
+ coronation_banquet.0031.desc.char_1.conversationalist_backup: "a notable [char_1.GetLadyLord]," #NT!
+ coronation_banquet.0031.desc.midro: "[char_1.GetTitledFirstName], looking a little in need of better company, and" #NT!
+ coronation_banquet.0031.desc.char_2.conversationalist_neighbour: "$coronation_banquet.0031.desc.char_1.conversationalist_neighbour$" #NT!
+ coronation_banquet.0031.desc.char_2.conversationalist_covassal: "$coronation_banquet.0031.desc.char_1.conversationalist_covassal$" #NT!
+ coronation_banquet.0031.desc.char_2.conversationalist_vassal: "$coronation_banquet.0031.desc.char_1.conversationalist_vassal$" #NT!
+ coronation_banquet.0031.desc.char_2.conversationalist_liege: "$coronation_banquet.0031.desc.char_1.conversationalist_liege$" #NT!
+ coronation_banquet.0031.desc.char_2.conversationalist_other_ruler: "$coronation_banquet.0031.desc.char_1.conversationalist_other_ruler$" #NT!
+ coronation_banquet.0031.desc.char_2.conversationalist_backup: "a notable [char_2.GetLadyLord]," #NT!
+ coronation_banquet.0031.desc.outro: "[char_2.GetTitledFirstName], in good spirits and good cheer.\n\nEither of them would be interesting to get to know a little better, and now #EMP is#! the time for social adventure..." #NT!
+ coronation_banquet.0031.a: ""[conversationalist_neighbour.GetTitledFirstNameNoTooltip], so good to see you!"" #NT!
+ coronation_banquet.0031.b: ""Ahh, [conversationalist_covassal.GetTitledFirstNameNoTooltip], I'm glad you came..."" #NT!
+ coronation_banquet.0031.c: ""Always a pleasure, [conversationalist_vassal.GetTitledFirstNameNoTooltip]."" #NT!
+ coronation_banquet.0031.d: ""[conversationalist_liege.GetLadyLord|U] [conversationalist_liege.GetTitledFirstNameNoTooltip], you grace us!"" #NT!
+ coronation_banquet.0031.e: ""[conversationalist_other_ruler.GetTitledFirstNameNoTooltip]. Unexpected to see you here."" #NT!
+ coronation_banquet.0031.f: ""[conversationalist_backup.GetTitledFirstNameNoTooltip], how do you do?"" #NT!
+ coronation_banquet.0031.g: "There's a party on! Why focus on one conversation?" #NT!
+ coronation_banquet.0031.h: "Eh, there's other people I'd prefer to talk to." #NT!
+  
+ coronation_banquet.0041.t: "Speech! Speech!" #NT!
+ coronation_banquet.0041.desc.intro: "Every coronation banquet is host to a frankly #EMP interminable#! number of speeches. Some long, some short, some honest, some deceptive, roiling up and down the hall, punctuating every course of the feast in waves.\n\nAs my turn nears, I am left wondering — should I consider the happy couple, or" #NT!
+ coronation_banquet.0041.desc.murder: "gloat a bit at my future victim, [intent_target.GetFirstNameNoTooltip]?" #NT!
+ coronation_banquet.0041.desc.seduce: "perhaps simply woo my future conquest, [intent_target.GetFirstNameNoTooltip]?" #NT!
+ coronation_banquet.0041.desc.diplomacy: "simply try to grab attention for my wordplay?" #NT!
+ coronation_banquet.0041.desc.matchmaking: "lend a few kind words to [intent_target.GetFirstNameNoTooltip]?" #NT!
+ coronation_banquet.0041.desc.mischief: "try to stir up a little excitement?" #NT!
+ coronation_banquet.0041.desc.recreation: "focus on the festivities?" #NT!
+ coronation_banquet.0041.desc.outro: "\n\nAfter all, it's easy for double-meanings to get lost for most in this sea of words..." #NT!
+ coronation_banquet.0041.a: "Praise the happy couple, as expected." #NT!
+ coronation_banquet.0041.b: "Praise the party." #NT!
+ coronation_banquet.0041.c: "Implicitly threaten [intent_target.GetFirstNameNoTooltip]." #NT!
+ coronation_banquet.0041.d: "Subtly direct the speech towards [intent_target.GetFirstNameNoTooltip]." #NT!
+ coronation_banquet.0041.d.tt.success: "[intent_target.GetFirstNameNoTooltip] appreciates the hints" #NT!
+ coronation_banquet.0041.d.tt.failure: "[intent_target.GetSheHe|U]'s incredibly embarrassed" #NT!
+ coronation_banquet.0041.e: "Show of your oratory skills." #NT!
+ coronation_banquet.0041.e.tt.success: "An excellent speech" #NT!
+ coronation_banquet.0041.e.tt.failure: "An adequate speech" #NT!
+ coronation_banquet.0041.f: "Talk up [intent_target.GetFirstNamePossessiveNoTooltip] good qualities" #NT!
+ coronation_banquet.0041.g: "Hint at a few illicit maybe-truths." #NT!
+ coronation_banquet.0041.g.tt.success: "Is... is that true?" #NT!
+ coronation_banquet.0041.g.tt.failure: "What obviously-salacious lies" #NT!
+ coronation_banquet.0041.h: "Awkwardly sit back down without saying anything." #NT!
+ coronation_banquet.0041.i: "Say something sweet but perfunctory." #NT!
+  
+ coronation_banquet.0051.t: "And Another Thing" #NT!
+ coronation_banquet.0051.desc.intro: "Every feast. There's always one — every, single, feast. One longwinded, ill-born pissant cornering people who just will not #EMP be silent#!.\n\nThis time it's [dolt.GetFirstName], and [dolt.GetSheHe]'s" #NT!
+ coronation_banquet.0051.desc.boilerplate.stress_pitch: "desperately trying to get me to invest some of my 'ample resources as a noble [ROOT.Char.GetLadyLord]-[ROOT.Char.GetTitleAsNameNoTooltip]' in [dolt.GetHerHis]" #NT!
+ coronation_banquet.0051.desc.drunkard: "$coronation_banquet.0051.desc.boilerplate.stress_pitch$ purchase of what is apparently a #EMP charmingly#! rustic drinking establishment." #NT!
+ coronation_banquet.0051.desc.hashishiyah: "$coronation_banquet.0051.desc.boilerplate.stress_pitch$ purchase of a supposedly unfairly-maligned den of milk of the poppy." #NT!
+ coronation_banquet.0051.desc.rakish: "$coronation_banquet.0051.desc.boilerplate.stress_pitch$ purchase of a brothel with the fairest staff from the furthest end of the world." #NT!
+ coronation_banquet.0051.desc.reclusive: "$coronation_banquet.0051.desc.boilerplate.stress_pitch$ plan to fund the creation of a near-unreachable manor, able to provide solitude to even the most famous of nobles." #NT!
+ coronation_banquet.0051.desc.flagellant: "$coronation_banquet.0051.desc.boilerplate.stress_pitch$ plan for some kind of... #EMP field#! of whipping posts, able to channel the communal cleansing pain of dozens of penitents." #NT!
+ coronation_banquet.0051.desc.profligate: "$coronation_banquet.0051.desc.boilerplate.stress_pitch$ poorly-explained scheme to... I... I can't even process what [dolt.GetSheHe] wants the money for." #NT!
+ coronation_banquet.0051.desc.journaller: "$coronation_banquet.0051.desc.boilerplate.stress_pitch$ founding of a library that will, apparently, consist largely of #EMP [dolt.GetHerHis]#! works, at least initially." #NT!
+ coronation_banquet.0051.desc.athletic: "$coronation_banquet.0051.desc.boilerplate.stress_pitch$ idea for a novel kind of public training yard, something focused on training all kinds of fitness across the spectrum of exercise." #NT!
+ coronation_banquet.0051.desc.diligent: "positively obsessed with the day-to-day of work. The [dolt.GetWomanMan] seems to have no inkling of how to talk about anything other than the most mundane tasks, or even be aware that not everyone is interested in [dolt.GetHerHis] dreary, joyless life." #NT!
+ coronation_banquet.0051.desc.patient: "relentless. I've tried every topic I can think of, I've tried disengaging, I've tried getting others involved, but [dolt.GetSheHe] seems determined to hound me with grim implacability." #NT!
+ coronation_banquet.0051.desc.impatient: "got no patience for any subject. As soon as I try to engage on one topic, we're on to the next, with nary a thread of connection between. Just an eternal barrage of detached thoughts, forever." #NT!
+ coronation_banquet.0051.desc.arrogant: "completely, woefully self-absorbed. Our conversation is rife with hypocrisy, poorly thought-out ideas, and just plain idiocy, yet the [dolt.GetWomanMan] is entirely convinced that [dolt.GetSheHe]'s some kind of fascinating social genius." #NT!
+ coronation_banquet.0051.desc.arbitrary: "deeply confusing. [dolt.GetHerHis|U] words clearly make sense to #EMP [dolt.GetHerHim]#!, but they sound almost entirely unconnected to me? It's been half an hour of trying to figure out what my part in this conversation is." #NT!
+ coronation_banquet.0051.desc.zealous: "droning on, and on, and on, and #EMP on#! about [dolt.GetHerHis] personal connection with [dolt.GetHerHis] faith and how I should try to let the true light of [dolt.GetFaith.random_GoodGodNames] into my heart. [dolt.GetSheHe|U] hasn't asked one question about #EMP my#! beliefs." #NT!
+ coronation_banquet.0051.desc.fickle: "both determined to pitch schemes at me and totally unwilling to commit to a single idea. Instead, it's a never-ending parade of half-baked verbal vomit slowly drowning my will to live." #NT!
+ coronation_banquet.0051.desc.vengeful: "utterly obsessed with visiting supreme wrath on some poor, nameless rival for some perceived slight. Quite why I am required for this maddened plotting I have no idea." #NT!
+  # My continued apologies for the poetry randomiser. 
+ coronation_banquet.0051.desc.poet: "that most heinous of all things: a bad poet with a captive audience. The verse [dolt.GetSheHe]'s 'trying out' on me aren't even poems, they're barely-rhyming couplets with no sense of rhythm or meter." #NT!
+ coronation_banquet.0051.desc.outro: "\n\nI am going to scream." #NT!
+ coronation_banquet.0051.a: "Gently exit the conversation." #NT!
+ coronation_banquet.0051.a.tt.success: "You extricate yourself" #NT!
+ coronation_banquet.0051.a.tt.failure: "It #EMP never#! ends" #NT!
+ coronation_banquet.0051.b: ""By all the denizens of [ROOT.Char.GetFaith.random_NegativeAfterLife], will you cease this prattle?"" #NT!
+ coronation_banquet.0051.b.custom.every_wrathful_guest: "Every [GetTrait('wrathful').GetName( reference )] guest" #NT!
+ coronation_banquet.0051.c: ""Shut. Up."" #NT!
+ coronation_banquet.0051.d: "Fall asleep. Promptly." #NT!
+ coronation_banquet.0051.d.custom.every_lazy_guest: "Every [GetTrait('lazy').GetName( reference )] guest" #NT!
+ coronation_banquet.0051.e: ""A #EMP pub#! you say..."" #NT!
+ coronation_banquet.0051.f: ""A #EMP cake shop#! you say..."" #NT!
+ coronation_banquet.0051.g: ""A #EMP brothel#! you say..."" #NT!
+ coronation_banquet.0051.h: ""A #EMP private retreat#! you say..."" #NT!
+ coronation_banquet.0051.i: ""A whipping post #EMP field#! you say..."" #NT!
+ coronation_banquet.0051.i.tt.deviant: "This option is available because of your [secret.GetName] [secret|E]" #NT!
+ coronation_banquet.0051.j: ""And we can't lose money? At all?"" #NT!
+ coronation_banquet.0051.k: ""A #EMP scriptorium#! you say..."" #NT!
+ coronation_banquet.0051.l: ""A #EMP gymnasium#! you say..."" #NT!
+ coronation_banquet.0051.business_venture.tt: "Your business venture will likely take many years to play out" #NT!
+ coronation_banquet.0051.m: ""That's... very interesting..."" #NT!
+ coronation_banquet.0051.m.tt.success: "You manage to seem genuinely fascinated" #NT!
+ coronation_banquet.0051.m.tt.failure: "You're tactful but nothing more" #NT!
+ coronation_banquet.0051.n: "Grin and bear it." #NT!
+ coronation_banquet.0051.n.tt: "You listen to every. Last. Word." #NT!
+  
+ coronation_banquet.0052.t: "Unfinished Business: In the Black" #NT!
+ coronation_banquet.0052.desc.intro: "Many years ago, I agreed to fund a business venture proposed by [dolt.GetFirstNameNoTooltip]. Truth be told, I had mostly forgotten about the affair —" #NT!
+ coronation_banquet.0052.desc.dolt_availability.dead: "especially with [dolt.GetFirstNameNoTooltip] dead and gone these days." #NT!
+ coronation_banquet.0052.desc.dolt_availability.imprisoned: "not least because [dolt.GetFirstNameNoTooltip] is in no position to be managing much of anything right now." #NT!
+ coronation_banquet.0052.desc.dolt_availability.free: "[dolt.GetFirstNameNoTooltip] hardly tried to keep me invested past the initial sum, after all." #NT!
+ coronation_banquet.0052.desc.midtro: "\n\nAgainst all odds, though, a letter arrived this morning proclaiming the unexpected success of our concern." #NT!
+ coronation_banquet.0052.desc.drunkard: "The small tavern has grown into a flourishing drinking establishment." #NT!
+ coronation_banquet.0052.desc.hashishiyah: "The hashish den has become a thriving house of sloth." #NT!
+ coronation_banquet.0052.desc.rakish: "The little brothel has grown to become a writhing pleasure pit." #NT!
+ coronation_banquet.0052.desc.reclusive: "The private manor is, ironically, quietly famous — even the most notable of nobles seems able to disappear there for a while." #NT!
+ coronation_banquet.0052.desc.flagellant: "The field of whipping posts is now an estate of cleansing, enriching pain, one with apparently a surprisingly-broad appeal." #NT!
+ coronation_banquet.0052.desc.profligate: "The letter #EMP still#! fails to explain what our business actually #EMP is#!, but the important thing is it seems to be profitable." #NT!
+ coronation_banquet.0052.desc.journaller: "The scriptorium has grown enough to take on commissions from wealthy patrons regularly." #NT!
+ coronation_banquet.0052.desc.athletic: "The gymnasium has become wildly popular with lesser nobles, hedge knights, and wealthy... #EMP wanderers#!, looking for an environment to spar and train without requiring their own estate." #NT!
+ coronation_banquet.0052.desc.outro: "\n\nHaving earnt a healthy return on our silver, [dolt.GetFirstNameNoTooltip] has faithfully returned my share of the proceeds." #NT!
+ coronation_banquet.0052.desc.outro.dolt_unavailable: "\n\nHaving earnt a healthy return on our silver, the administrator overseeing the operation has faithfully returned my share of the proceeds." #NT!
+ coronation_banquet.0052.a: "I think I'll be recouping #EMP all#! of my investment." #NT!
+ coronation_banquet.0052.b: "Naturally, after all, I'm a business genius." #NT!
+ coronation_banquet.0052.c: "An unexpectedly pleasant surprise!" #NT!
+  
+ coronation_banquet.0053.t: "Unfinished Business: In the Red" #NT!
+ coronation_banquet.0053.desc.intro: "$coronation_banquet.0052.desc.intro$" #NT!
+ coronation_banquet.0053.desc.dolt_availability.dead: "$coronation_banquet.0052.desc.dolt_availability.dead$" #NT!
+ coronation_banquet.0053.desc.dolt_availability.imprisoned: "$coronation_banquet.0052.desc.dolt_availability.imprisoned$" #NT!
+ coronation_banquet.0053.desc.dolt_availability.free: "$coronation_banquet.0052.desc.dolt_availability.free$" #NT!
+ coronation_banquet.0053.desc.midtro: "\n\nSurprisingly, an anonymous letter arrived this morning informing me of the final destruction of our enterprise in a tragic fire." #NT!
+ coronation_banquet.0053.desc.drunkard: "It seems the pub's ill-repute only got worse, leading to poor clientele, and, eventually, some nameless local taking matters in their own hands." #NT!
+ coronation_banquet.0053.desc.hashishiyah: "The hashish den failed to attract new customers, and eventually succumbed to the flames when someone knocked over a lantern and failed to notice for several minutes." #NT!
+ coronation_banquet.0053.desc.rakish: "The little brothel did well for a time, until falling victim to what can only be described as a horrifyingly-virulent new venereal disease. The flames were the only option to cleanse it." #NT!
+ coronation_banquet.0053.desc.reclusive: "After failing to attract significant interest, the exact location of the private manor was, ironically, been lost. Only a chance conflagration by a group of squatting bandits relocated its ruin." #NT!
+ coronation_banquet.0053.desc.flagellant: "The anticipated market for those in need of spiritual fulfillment through cleansing pain simply never materialised, and the field of whipping posts became a field of cheap firewood. Never enough sinners when you need them, these days." #NT!
+ coronation_banquet.0053.desc.profligate: "Quite what it was that burned down, or where, or how, is as mysterious as the initial proposition, only that naught is left but smoke, ashes, and confusion." #NT!
+ coronation_banquet.0053.desc.journaller: "Despite the ample pay on offer, it proved impossible to find skilled, literate copiers willing to slog through [dolt.GetFirstNamePossessive] collected diaries. The scriptorium never quite came to be." #NT!
+ coronation_banquet.0053.desc.athletic: "It seems that most of those looking to train their bodies are also spoiling for a fight with others doing the same. After a string of duels-turned-murders, the gymnasium succumbed to a riot that levelled the building." #NT!
+ coronation_banquet.0053.desc.outro: "\n\nI should have known not to fund such a damnable idiot as [dolt.GetFirstNameNoTooltip]." #NT!
+ coronation_banquet.0053.a.alive: "Grah, I want that idiot in shackles!" #NT!
+ coronation_banquet.0053.a.dead: "Shame [dolt.GetSheHe]'s too dead to throttle." #NT!
+ coronation_banquet.0053.b: "This was probably to be expected." #NT!
+  
+ coronation_banquet.0061.t: "To My Beloved [oldling.Custom2('RelationToMeShort', relative )|U]!" #NT!
+ coronation_banquet.0061.desc.intro: "Despite the festivities, a look of pure, abject horror rapidly overcomes [relative.GetTitledFirstName] as [relative.GetHerHis] [relative.Custom2('RelationToMeShort', oldling )], [oldling.GetTitledFirstName], begins shakily standing up — goblet in hand.\n\n" #NT!
+ coronation_banquet.0061.desc.arrogant: "A known blowhard and braggart, [oldling.GetFirstNameNoTooltip] begins launching into a lengthy diatribe on the role [oldling.GetSheHe] played in the [relative.Custom('GetBrideGroom')]'s upbringing, replete with embarassing childhood anecdotes and awkward jokes." #NT!
+ coronation_banquet.0061.desc.honest: "Most would consider [oldling.GetFirstNamePossessiveNoTooltip] reputation for honesty a blessing, but here it proves... misguided, with the good-willed old [oldling.GetWomanMan] whistfully telling the most embarrassing stories from the [relative.Custom('GetBrideGroom')]'s childhood." #NT!
+ coronation_banquet.0061.desc.deceitful: "Something of a fabulist at the best of times, [oldling.GetFirstNamePossessiveNoTooltip] speech about the [relative.Custom('GetBrideGroom')]'s childhood is, mildly, #EMP scandalously#! inaccurate. The episode with the donkey seems particularly unnecessary." #NT!
+ coronation_banquet.0061.desc.gregarious: "Partial to a party in [oldling.GetHerHis] youth, [oldling.GetFirstNamePossessiveNoTooltip] speech is a near-bottomless list of interconnected, meandering anecdotes, with only the most embarrassing relating back to the [relative.Custom('GetBrideGroom')]." #NT!
+ coronation_banquet.0061.desc.ambitious: "Always marked by [oldling.GetHerHis] drive and ambition, [oldling.GetFirstNamePossessiveNoTooltip] speech makes sure to give [oldling.GetHerselfHimself] ample credit for the successful upbringing that brought the [relative.Custom('GetBrideGroom')] to this point, in spite of an awkward (and apparently acne-ridden) childhood." #NT!
+ coronation_banquet.0061.desc.diplomat: "Known for [oldling.GetHerHis] silvered tongue, [oldling.GetFirstNameNoTooltip] apparently cannot resist the chance to recount the story of the [relative.Custom('GetBrideGroom')]'s early life, and the many lessons [oldling.GetSheHe] tried to teach [relative.GetHerHim]. Generally unsuccessfully, according to [oldling.GetHerHim]." #NT!
+ coronation_banquet.0061.desc.poet: "In a fate worse than death for the wider audience, it appears [oldling.GetFirstNameNoTooltip] has [oldling.GetHerselfHimself] penned a long, stilted poem concerning the [relative.Custom('GetBrideGroom')]'s most... endearingly awkward childhood moments." #NT!
+ coronation_banquet.0061.desc.sadistic: "With what can only be utter malice writ [oldling.Custom('MaskFace_BehindAcross')] [oldling.GetHerHis] [oldling.Custom('MaskFace')], [oldling.GetFirstNameNoTooltip] launches into an #EMP excruciatingly#! detailed account of the [relative.Custom('GetBrideGroom')]'s childhood. The personal anecdotes are many, and forthright." #NT!
+ coronation_banquet.0061.desc.drunkard: "Staggering where [oldling.GetSheHe] stands, [oldling.GetFirstNameNoTooltip] begins slurring out [oldling.GetHerHis] blurry recollection of the [relative.Custom('GetBrideGroom')]'s childhood. The impressions are a bit much, but certainly lend life to the performance." #NT!
+ coronation_banquet.0061.desc.hashishiyah: "For an awkward moment, [oldling.GetFirstNameNoTooltip] seems to forget why [oldling.GetSheHe] even stood up, blinking through reddened eyes. Then, something clicks into places, and an account of the [relative.Custom('GetBrideGroom')]'s childhood that's at least half giggles begins." #NT!
+ coronation_banquet.0061.desc.skill.diplomacy: "Always good with words, [oldling.GetFirstNameNoTooltip] has clearly been looking forward to this: [oldling.GetHerHis] speech rapidly descending into an elaborate metaphor for the [relative.Custom('GetBrideGroom')]'s life that is, perhaps, a little less than flatteringly patronizing." #NT!
+ coronation_banquet.0061.desc.skill.learning: "A learned [relative.GetWomanMan], [oldling.GetFirstNamePossessiveNoTooltip]'s speech is a mess of literary references and highbrow philosophical jokes, only occasionally pausing for embarrassing anecdotes from the [relative.Custom('GetBrideGroom')]'s childhood." #NT!
+ coronation_banquet.0061.desc.old: "Not exactly spry for [oldling.GetHerHis] age, [oldling.GetFirstNamePossessiveNoTooltip] speech is a rambling slurry of the [relative.Custom('GetBrideGroom')]'s most humiliatingly-endearing childhood moments and how much better things #EMP used#! to be back then." #NT!
+ coronation_banquet.0061.desc.very_old: "An old, old [oldling.GetWomanMan], [oldling.GetFirstNameNoTooltip] has an absolute #EMP legion#! of ancedotes about the [relative.Custom('GetBrideGroom')] to wheel out. And that's essentially what [oldling.GetSheHe] does. There's not much connecting thread, just a torrent childhood memories and familial in-jokes." #NT!
+ coronation_banquet.0061.desc.outro: "\n\n[relative.GetFirstNameNoTooltip] looks like [relative.GetSheHe] wants to die." #NT!
+ coronation_banquet.0061.a: ""Thank you, [oldling.GetFirstName], for that #EMP lovely#! speech..."" #NT!
+ coronation_banquet.0061.b: "Politely start clapping to stop [oldling.GetHerHim]." #NT!
+ coronation_banquet.0061.b.tt.success: "You force [oldling.GetFirstNameNoTooltip] down" #NT!
+ coronation_banquet.0061.b.tt.failure: "[oldling.GetSheHe|U] continues apace regardless" #NT!
+ coronation_banquet.0061.c: "Grin and suffer through it." #NT!
+ coronation_banquet.0061.d: "Cheer and whoop for more." #NT!
+ coronation_banquet.0061.d.tt.crit_success: "[oldling.GetFirstNameNoTooltip] starts on a #EMP long#! story" #NT!
+ coronation_banquet.0061.d.tt.success: "[oldling.GetFirstNameNoTooltip] takes heart" #NT!
+ coronation_banquet.0061.e: "Prod [oldling.GetFirstNameNoTooltip] to continue" #NT!
+ coronation_banquet.0061.e.tt.crit_success: "$coronation_banquet.0061.d.tt.crit_success$" #NT!
+ coronation_banquet.0061.e.tt.success: "$coronation_banquet.0061.d.tt.success$" #NT!
+ coronation_banquet.0061.e.tt.failure: "[oldling.GetFirstNameNoTooltip] staggers on for a few minutes" #NT!
+ coronation_banquet.0061.f: "Stop paying attention" #NT!
+  
+ coronation_banquet.0071.t: "Oath in Moment" #NT!
+ coronation_banquet.0071.desc: ""[ROOT.Char.GetFirstNameNoTooltip]", muses my liege [liege.GetTitledFirstName], "I've always rather liked you. You work hard to appeal to me, and your fame sprawls across [liege.GetPrimaryTitle.GetNameNoTier] like the bows of a shady tree".\n\nI nod, presuming the [liege.GetWomanMan] to be a bit taken by the festivities as [liege.GetSheHe] drones on.\n\n"I have a proposition to make — you like pleasing me, I like to be associated with you. What say you spread a good word about me to your admirers, and in exchange, I'll make it known you have my special interest?"" #NT!
+ coronation_banquet.0071.a: "Sounds like a more than fair trade to me!" #NT!
+ coronation_banquet.0071.b: "Thank you, but no thank you." #NT!
+  
+  
+ # BANQUET 
+  #A Kindred Spirit 
+ coronation_banquet.1040.t: "A Kindred Spirit" #NT!
+ coronation_banquet.1040.desc: "Throughout the meal, I find myself easily drawn into [new_friend.GetTitledFirstNamePossessive] conversation.\n\n[new_friend.GetSheHe|U] has some very interesting opinions, makes the very best jokes, and we seem to have so much in common! Whenever I'm recounting an anecdote, [new_friend.GetSheHe] listens attentively, and chips in with all the appropriate comments at the appropriate time.\n\nWho would have thought I'd find such pleasant company at this coronation?" #NT!
+ coronation_banquet.1040.a: "I really enjoy [new_friend.GetFirstNamePossessiveNoTooltip] company!" #NT!
+ coronation_banquet.1040.b: "No need to get any closer, though." #NT!
+ wedding_kindred_log_title: "Verwandter Geist"
+ wedding_kindred_log: "[CHARACTER.GetUIName] und [TARGET_CHARACTER.GetUIName] sind Freunde geworden"
+  #A Fiery Dance 
+ coronation_banquet.1050.t: "A Fiery Dance" #NT!
+ coronation_banquet.1050.desc: "Everyone is in good spirits; on my left, a group of children is hypnotized by the jugglers; on my right, poets declaim their latest compositions to an adoring crowd.\n\nHowever, the whole banquet falls silent when a crew of dancers bearing torches make their way to the center of the venue, inviting guests to join them along the way. The view is breathtaking in the low lights of the early evening: the torches light up their smiling faces against the darkening sky, and cast interwoven patterns into their shadows.\n\nIt all looks amazing until [1050_victim.GetTitledFirstName] trips, knocks a torch from a neighbor's hand, and sets [1050_victim.GetHerHis] own clothes aflame..." #NT!
+ coronation_banquet.1050.a: "I must do something!" #NT!
+ coronation_banquet.1050.a.success: "You save [1050_victim.GetFirstNameNoTooltip] from the flames" #NT!
+ coronation_banquet.1050.a.success.tt: "You saved [1050_victim.GetFirstNameNoTooltip]!" #NT!
+ wedding_dance_rescue_log_title: "Rettung vor dem Feuertod"
+ wedding_dance_rescue_log: "[CHARACTER.GetUIName|U] rettete [TARGET_CHARACTER.GetUIName] vor den Flammen"
+ coronation_banquet.1050.a.failure: "You too get burned" #NT!
+ coronation_banquet.1050.a.failure.tt: "You got burned too!" #NT!
+ wedding_dance_rescue_fail_log_title: "Tod im Feuer"
+ wedding_dance_rescue_fail_log: "[CHARACTER.GetUIName|U] vermochte nicht, [TARGET_CHARACTER.GetUIName] vor den Flammen zu retten"
+ coronation_banquet.1050.b: "WATER! Bring water!!" #NT!
+ coronation_banquet.1050.b.1: "The servants put out the flames" #NT!
+ coronation_banquet.1050.b.1.tt: "[1050_victim.GetFirstNameNoTooltip|U] is saved!" #NT!
+ wedding_dance_saved_log_title: "$wedding_dance_rescue_log_title$ "
+ wedding_dance_saved_log: "[CHARACTER.GetUIName|U] wurde aus den Flammen gerettet"
+ coronation_banquet.1050.b.2: "[1050_victim.GetFirstNameNoTooltip|U] keeps burning" #NT!
+ coronation_banquet.1050.b.2.tt: "[1050_victim.GetFirstNameNoTooltip|U] keeps burning!" #NT!
+ wedding_dance_saved_fail_log_title: "Brennendes Missgeschick"
+ wedding_dance_saved_fail_log: "[CHARACTER.GetUIName|U] wurde bei einem Unfall mit Fackeln verletzt"
+ coronation_banquet.1050.c: "Burn! BURN! #EMP BUUURNNN!!#!" #NT!
+ wedding_dance_disaster_log_title: "$wedding_dance_rescue_fail_log_title$"
+ wedding_dance_disaster_log: "[CHARACTER.GetUIName|U] und einige andere wurden bei einem Unfall mit Fackeln verletzt"
+ coronation_banquet.1050.d: "EVERYONE FOR THEMSELVES!!" #NT!
+ coronation_banquet.1050.d.tt: "You might knock someone into the fire in your hurry" #NT!
+ coronation_banquet.1050.d.tt.2: "You knocked [other_victim.GetShortUIName] into the fire!" #NT!
+ wedding_dance_knocked_log_title: "$wedding_dance_saved_fail_log_title$"
+ wedding_dance_knocked_log: "[CHARACTER.GetUIName|U] floh in Panik und stieß dabei [TARGET_CHARACTER.GetUIName] ins Feuer"
+  # An Exotic Show 
+ coronation_banquet.1070.t: "An Exotic Show" #NT!
+ coronation_banquet.1070.desc_host: "I look around myself with a pleased smirk. The atmosphere at the banquet is relaxed, and the guests are talking among themselves pleasantly, enjoying the music and the entertainment, blissfully unaware that the best part we have planned to amaze them is still to come. I gesture for my servants to proceed." #NT!
+ coronation_banquet.1070.desc_guest: "I'm having a great time at the coronation banquet. In particular, [host.GetTitledFirstName] spared no expense for entertainment! The very best musicians are playing for us, while actors and jugglers practice their art, and troubadours declaim refined verses. I am quite surprised, then, when [host.GetFirstNameNoTooltip] gestures for something more to be brought in." #NT!
+ coronation_banquet.1070.desc_mid: "\n\nFour servants return briefly, dragging behind them a cage containing a majestic [host.Custom('GetAnimalTypeCaptive')], the very finest I've ever seen." #NT!
+ coronation_banquet.1070.desc_good: "The beast is a bit restless, but the bars are strong, and everyone enjoys the show from a safe position." #NT!
+ coronation_banquet.1070.desc_bad: "The beast is restless, and I watch with an ominous feeling as the cage creaks and moans with its every move. Then, with a terrible #EMP crack#!, a crucial bar snaps, and all hell breaks loose." #NT!
+ coronation_banquet.1070.desc_bad_target: "\n\n[1070_target.GetTitledFirstName] is quickly surrounded." #NT!
+ coronation_banquet.1070.a: "A very fine show indeed." #NT!
+ wedding_beasts_entertain_log_title: "Unterhaltsame Untiere"
+ wedding_beasts_entertain_log: "[CHARACTER.GetUIName|U] entzückte alle Gäste, indem [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] eine wilde Bestie zähmte"
+ coronation_banquet.1070.b: "I'll take care of it!" #NT!
+ coronation_banquet.1070.b.success: "You calm down the beast" #NT!
+ coronation_banquet.1070.b.tt.success: "You calmed down the beast" #NT!
+ coronation_banquet.1070.b.failure: "The beast fights back" #NT!
+ wedding_beasts_master_failure_log_title: "$wedding_beasts_calmed_failure_log_title$"
+ wedding_beasts_master_failure_log: "$wedding_beasts_calmed_failure_log$"
+ wedding_beasts_calmed_success_log_title: "Bestie beruhigt"
+ wedding_beasts_calmed_success_log: "[CHARACTER.GetUIName|U] wandte eine Tragödie ab, indem [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] eine wilde Bestie besänftigte"
+ wedding_beasts_calmed_failure_log_title: "Gereizte Bestie"
+ wedding_beasts_calmed_failure_log: "[CHARACTER.GetUIName|U] verletzte sich bei dem Unterfangen, ein entwichenes Untier zu besänftigen"
+ coronation_banquet.1070.c: "[m_hunt.GetFirstName]! Do #EMP something#!!!" #NT!
+ coronation_banquet.1070.c.success: "[m_hunt.GetFirstNameNoTooltip] has the situation under control" #NT!
+ coronation_banquet.1070.c.tt.success: "[m_hunt.GetFirstNameNoTooltip] calmed down the beast" #NT!
+ coronation_banquet.1070.c.failure: "[m_hunt.GetFirstNameNoTooltip] gets hurt and has to put down the beast" #NT!
+ coronation_banquet.1070.c.tt.failure: "[m_hunt.GetFirstNameNoTooltip] killed the beast" #NT!
+ coronation_banquet.1070.d: "#EMP Out of my way!#!" #NT!
+ coronation_banquet.1070.d.tt: "You run and hide" #NT!
+ wedding_beasts_fled_log_title: "Entflohene Bestie"
+ wedding_beasts_fled_log: "Das exotische Untier von [CHARACTER.GetUIName] verfiel in Raserei und verängstigte alle anwesenden Gäste"
+ coronation_banquet.1070.e: "Do you want to see something #EMP really#! amazing?" #NT!
+ wedding_beasts_charm_success_log_title: "Betörtes Untier"
+ wedding_beasts_charm_success_log: "[CHARACTER.GetUIName|U] entzückte alle Gäste, indem [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] eine wilde Bestie zähmte"
+ wedding_beasts_charm_failure_log_title: "Unbetörtes Biest"
+ wedding_beasts_charm_failure_log: "[CHARACTER.GetUIName|U] machte sich [Select_CString(CHARACTER.IsFemale, 'zur Närrin', 'zum Narren')], als [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] versuchte, eine wilde Bestie zu zähmen"
+ coronation_banquet.1070.e.tt: "You try to tame the beast" #NT!
+ coronation_banquet.1070.e.success: "The beast jumps and dances at your calling" #NT!
+ coronation_banquet.1070.e.tt.success: "You tamed the beast" #NT!
+ coronation_banquet.1070.e.failure: "The beast doesn't appreciate your tone" #NT!
+ coronation_banquet.1070.e.tt.failure: "The beast attacked you" #NT!
+ coronation_banquet.1070.e.tt.failure_1: "You are humiliated" #NT!
+ coronation_banquet.1070.f: "GUARDS!! Where are the guards?!" #NT!
+ coronation_banquet.1070.log.f: "[CHARACTER.GetUINamePossessive|U] guards had to put down an out-of-control beast" #NT!
+ coronation_banquet.1070.log.f_title: "$wedding_beasts_guards_log_title$" #NT!
+ wedding_beasts_guards_log_title: "Entflohene Bestie"
+ wedding_beasts_guards_log: "Das exotische Untier von [CHARACTER.GetUIName] verfiel in Raserei und verängstigte alle anwesenden Gäste"
+ coronation_banquet.1070.g: "Stand behind me, [1070_target.GetFirstNameNoTooltip]!" #NT!
+ coronation_banquet.1070.g.success: "You save [1070_target.GetFirstNameNoTooltip]" #NT!
+ coronation_banquet.1070.g.tt.success: "You saved [1070_target.GetFirstNameNoTooltip]" #NT!
+ wedding_beasts_rescue_success_log_title: "Rettung vor dem Untier"
+ wedding_beasts_rescue_success_log: "[CHARACTER.GetUIName|U] bewahrte [TARGET_CHARACTER.GetUIName] vor einer außer Kontrolle geratenen Bestie"
+ wedding_beasts_rescue_failure_log_title: "Opfer des Untiers"
+ wedding_beasts_rescue_failure_log: "[CHARACTER.GetUIName|U] konnte [TARGET_CHARACTER.GetUIName] nicht vor einer wild gewordenen Bestie bewahren"
+ coronation_banquet.1070.g.failure: "You fail to save [1070_target.GetFirstNameNoTooltip]" #NT!
+ coronation_banquet.1070.g.tt.failure: "You failed to save [1070_target.GetFirstNameNoTooltip]" #NT!
+ coronation_banquet.1070.h: "It would be such a #EMP tragedy#! if [1070_target.GetFirstNameNoTooltip] were killed..." #NT!
+ coronation_banquet.1070.h.survive: "[1070_target.GetFirstNameNoTooltip|U] subjugates the beast" #NT!
+ coronation_banquet.1070.h.tt.survive: "[1070_target.GetFirstNameNoTooltip|U] survived" #NT!
+ wedding_beasts_murder_survive_log_title: "Überwältigte Bestie"
+ wedding_beasts_murder_survive_log: "[CHARACTER.GetUIName|U] bändigte eine wildgewordene Bestie"
+ coronation_banquet.1070.h.kill: "[1070_target.GetFirstNameNoTooltip|U] is killed by the beast" #NT!
+ coronation_banquet.1070.h.tt.kill: "[1070_target.GetFirstNameNoTooltip|U] died" #NT!
+ wedding_beasts_murder_kill_log_title: "Bestie getötet"
+ wedding_beasts_murder_kill_log: "[CHARACTER.GetUIName|U] wird von dem Untier getötet"
+  #A Match Made In...? 
+ coronation_banquet.1090.t: "A Match Made In...?" #NT!
+ coronation_banquet.1090.desc: "The crowd is cheering and toasting to the newlyweds but, among them, I seem to have lost sight of my [ROOT.Char.Custom2('RelationToMe', 1090_target)], [1090_target.GetFirstName]." #NT!
+ coronation_banquet.1090.desc_already_matched: "\n\nAfter a careful search, I finally find [1090_target.GetHerHim] in a secluded area, deep in conversation with none other than [1090_match.GetTitledFirstName], the very same person I tried to set [1090_target.GetHerHim] up with previously! I don't think I should interfere..." #NT!
+ coronation_banquet.1090.desc_new_match: "\n\nAfter a careful search, I finally find [1090_target.GetHerHim], sitting in a corner and staring with interest and dare I say longing at [1090_match.GetTitledFirstName], who is entertaining a group of rambunctious guests with [1090_match.GetHerHis] jokes and tales." #NT!
+ coronation_banquet.1090.a: "Go get [1090_match.GetHerHim]." #NT!
+ coronation_banquet.1090.b: "[1090_match.GetSheHe|U] is not good for you." #NT!
+ coronation_banquet.1090.a.success: "[1090_target.GetFirstNameNoTooltip] asks for [1090_match.GetFirstNamePossessiveNoTooltip] hand in marriage" #NT!
+ coronation_banquet.1090.a.failure: "[1090_match.GetFirstNameNoTooltip] is not impressed with [1090_target.GetFirstNameNoTooltip]" #NT!
+ wedding_matchmade_success_log_title: "Verbindung gestiftet"
+ wedding_matchmade_success_log: "[CHARACTER.GetUIName|U] vereinbarte ein Verlöbnis mit [TARGET_CHARACTER.GetUIName]"
+ wedding_matchmade_failure_log_title: "Ohne Partner"
+ wedding_matchmade_failure_log: "[CHARACTER.GetUIName|U] konnte [TARGET_CHARACTER.GetUIName] nicht für sich einnehmen"
+  
+ feast_header: "Festmahl:"
+ coronation_banquet.1001.t: "In Awe" #NT!
+ coronation_banquet.1001.very_high_learning: "After extensive conversation over our delectable dishes, [impressed_guest.GetTitledFirstName] expresses that [impressed_guest.GetSheHe] finds me most learned and wise, and that my utterances are always of inestimable worth to those less well read than I." #NT!
+ coronation_banquet.1001.high_learning: "After extensive conversation over our meal, [impressed_guest.GetTitledFirstName] expresses that [impressed_guest.GetSheHe] admires how I am able to expound at length on any topic." #NT!
+ coronation_banquet.1001.average_learning: "After having spoken over dinner for a while, [impressed_guest.GetTitledFirstName] leans over to tell me that [impressed_guest.GetSheHe] finds it impressive how knowledgeable I am about so many different things." #NT!
+ coronation_banquet.1001.low_learning: "While I am talking to people over dinner, [impressed_guest.GetTitledFirstName] leans over. "I wish I knew how to sound as clever as you do, [ROOT.Char.GetTitledFirstName]!"\n\nI wipe the soup off my chin and smile an intelligent-looking smile." #NT!
+ coronation_banquet.1001.a: "[impressed_guest.GetSheHe|U] recognizes true intellect, I see." #NT!
+  
+ coronation_banquet.1002.t: "The Insufferable Wait" #NT!
+ coronation_banquet.1002.desc: "I cannot believe how long we have been waiting for the food! Are we here to eat, or to admire the grain of the wooden table? What are you staring at, [other_guest.GetTitledFirstName], I am just very hungry!" #NT!
+ coronation_banquet.1002.a: "I can smell it from the kitchen, too!" #NT!
+ coronation_banquet.1002.gluttons_and_impatients: "Every impatient and gluttonous guest" #NT!
+  
+ coronation_banquet.1003.t: "In Awe" #NT!
+ coronation_banquet.1003.desc: "After eating next to each other for a while, I must have said something particularly intelligent, because [other_guest.GetTitledFirstName] complimented me on how clever I was!\n\nIn response I smile intelligently back at my fellow scholar, before I get occupied with the grease running down my chin." #NT!
+ coronation_banquet.1003.a: "I do say some clever things at times." #NT!
+ coronation_banquet.1003.b: "I didn't realize [other_guest.GetSheHe] felt that way!" #NT!
+  
+ coronation_banquet.1004.t: "Heavenly Delights" #NT!
+ coronation_banquet.1004.desc_exotic: "Ah, what kind of food is this, so rich in flavor? Never before have I seen or tasted such an incredible exotic treat! Oh, and these wonderfully strange lavish sweets!\n\nThis feast has some incredible dishes I've never seen before and doubt I will again! I must ask for the source!" #NT!
+ coronation_banquet.1004.desc_lavish: "What a vast and endless array of foods and desserts this is! Are these the kind of meals I can expect in [ROOT.Char.GetFaith.PositiveAfterLife]? Oh, and what an expansive selection of sweets!\n\nThis must be the most food I've ever seen in one place!" #NT!
+ coronation_banquet.1004.desc_meager: "What is this? Is there any meat on this bone? Do men usually eat vegetables this small? Are these the kind of meals I can expect in [ROOT.Char.GetFaith.NegativeAfterLife]? Oh, and where are the sweets?\n\nThis must be the way peasants eat!" #NT!
+ coronation_banquet.1004.desc: "Ah, what kind of meat is this, so rich in flavor? What are these vegetables, almost sweet? Oh, and these wonderful little desserts!\n\nThis feast has some of the best food I have ever tasted!" #NT!
+ coronation_banquet.1004.a: "Delightful!" #NT!
+ coronation_banquet.1004.a_meager: "Pitiful!" #NT!
+ coronation_banquet.1004.b: "This is amazing! Pass me another serving!" #NT!
+ coronation_banquet.1004.b_meager: "Is this all? Will there be seconds?" #NT!
+  
+ coronation_banquet.1005.t: "Isolation" #NT!
+ coronation_banquet.1005.desc: "It is too much. The incessant chatter of those around me, the multitude of faces looking to me for conversation... #EMP People#!...\n\nI knew that this feast would be a chore, but I never imagined the scale of it." #NT!
+ coronation_banquet.1005.desc_friendly_guest: "\n\nI am lucky that [friendly_guest.Custom2('MyCharacterIntroduction', ROOT.Char )] is here, at least." #NT!
+ coronation_banquet.1005.a: "There must be somewhere I can be alone." #NT!
+ coronation_banquet.1005.b: "[friendly_guest.GetFirstNameNoTooltip], don't leave me alone with these beasts!" #NT!
+ coronation_banquet.1005.c: ""Uh, I... I... Frightful weather we're having, isn't it?"" #NT!
+  
+ coronation_banquet.1006.table_companions: "Everyone seated close to me" #NT!
+ coronation_banquet.1006.t: "At Home" #NT!
+ coronation_banquet.1006.desc: "Ah, there is nothing like a feast! It reminds us all of what is good in life, and the company is not too bad, either! At least those seated close to me seem to think so.\n\n"You are something special, [ROOT.Char.GetFirstNameNoTooltip]," [guest_1.GetTitledFirstName] tells me. [guest_2.GetTitledFirstName] and [guest_3.GetTitledFirstName] nod their heads in agreement." #NT!
+ coronation_banquet.1006.a: "I just do what feels right!" #NT!
+ coronation_banquet.1006.b: "One more round, everyone!" #NT!
+ coronation_banquet.1006.c: "There is no other way to truly live, my friends!" #NT!
+  
+ coronation_banquet.1007.t: "Voracious" #NT!
+ coronation_banquet.1007.desc: "With the continual serving of delicious foods, most guests have given up eating for the night, simply enjoying the entertainment. I am happy to see that [other_glutton.GetTitledFirstName] knows better!\n\n[other_glutton.GetSheHe|U] and I are both eager to taste as long as there is food!" #NT!
+ coronation_banquet.1007.a: "Together we could eat an entire horse!" #NT!
+ coronation_banquet.1007.b: "I bet I can out-eat [other_glutton.GetHerHim]." #NT!
+  
+ coronation_banquet.1008.t: "Sullied Judgment" #NT!
+ coronation_banquet.1008.desc: "As [secret_recipient.GetTitledFirstNamePossessive] eyes widen at my words, I realize what I have just admitted to. I struggle to push my tankard away.\n\n"I have had too much." I try to get up, wobbling a little. "Don't trust a word I say!"" #NT!
+ coronation_banquet.1008.a: "What have I done..." #NT!
+ coronation_banquet.1008.a.flavor: "#F [secret_recipient.GetSheHe|U] is not buying my excuses...#!" #NT!
+  
+ coronation_banquet.1009.t: "Sullied Judgment" #NT!
+ coronation_banquet.1009.desc: "As [secret_recipient.GetTitledFirstNamePossessive] eyes widen at my words, I realize what I have just said about [secret_owner.GetTitledFirstName]. I struggle to push my tankard away.\n\n"I have had too much." I try to get up, wobbling a little. "Don't trust a word I say!"" #NT!
+ coronation_banquet.1009.a: "What have I done..." #NT!
+  
+ coronation_banquet.1010.t: "A Surprise Oath" #NT!
+ coronation_banquet.1010.desc: "What did I promise last night? I cannot remember what led up to it, but I do remember slapping the back of [favor_recipient.Custom2('MyCharacterIntroduction', ROOT.Char )], telling [favor_recipient.GetHerHim] that I would do anything [favor_recipient.GetSheHe] asked of me.\n\nNow rumors abound of the "oath" I swore!" #NT!
+ coronation_banquet.1010.a: "A promise is a promise, no matter what." #NT!
+ coronation_banquet.1010.b: "It was just drunken ramblings!" #NT!
+ coronation_banquet.1010.every_participant_with_high_opinion: "Every other attendee that respects [favor_recipient.GetFirstNameNoTooltip]" #NT!
+  
+ coronation_banquet.1011.t: "On the Warpath" #NT!
+ coronation_banquet.1011.desc: "It is intoxicating — the drink in my blood, and the anger in my veins.\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_murder'))] [guest_to_murder.GetTitledFirstName] stumbles into me outside the hall, and I mistake [guest_to_murder.GetHerHim] for the [disliked_guest.Custom('InsultAdjective')] [disliked_guest.GetTitledFirstName]. In an instant [guest_to_murder.GetHerHis] blood is dripping down my blade. As [guest_to_murder.GetHerHis] body slumps to the ground I suddenly feel very sober." #NT!
+ coronation_banquet.1011.a: "[guest_to_murder.GetSheHe|U] walked into my knife! I promise!" #NT!
+ coronation_banquet.1011.a.success: "People believe it was an accident" #NT!
+ coronation_banquet.1011.a.failure: "People do not buy my lie" #NT!
+ coronation_banquet.1011.b: "I- I need to clean off the blade...!" #NT!
+ coronation_banquet.1011.b.success: "The murder remains a mystery" #NT!
+ coronation_banquet.1011.b.failure: "I am exposed as the killer" #NT!
+ coronation_banquet.1011.c: "[disliked_guest.GetTitledFirstNameNoTooltip], how could you?!" #NT!
+  
+ coronation_banquet.1012.t: "Lethal Liquids" #NT!
+ coronation_banquet.1012.desc_opening: "My [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('guest_to_murder'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_murder'))] [guest_to_murder.GetTitledFirstNamePossessive] glad acceptance of yet another glass drowns out the splashing of my own drink as I pour it on the floor.\n\nAs [guest_to_murder.GetHerHis] breathing grows labored, and all color leaves [guest_to_murder.GetHerHis] face, I can feel the grin spreading across my own. A small laugh escapes me as [guest_to_murder.GetHerHis] body hits the table." #NT!
+ coronation_banquet.1012.a: "A toast to the [guest_to_murder.GetTitleTierName|U], and [guest_to_murder.GetHerHis] thirst for life!" #NT!
+  
+ coronation_banquet.1013.t: "Protector" #NT!
+ coronation_banquet.1013.desc: "As my [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('guest_to_kill'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_kill'))] [guest_to_kill.GetTitledFirstName] stalks towards my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_save'))] [guest_to_save.GetTitledFirstName] with seething anger in [guest_to_kill.GetHerHis] eyes and a knife in [guest_to_kill.GetHerHis] hand I do not even stop to think.\n\nI grab the closest thing that can be used as a weapon, and charge." #NT!
+ coronation_banquet.1013.a: "Who knew cutlery could be so sharp?" #NT!
+ coronation_banquet.1013.a_1: "I hope [ROOT.Char.GetFaith.NegativeAfterLife] greets that [guest_to_kill.Custom('InsultAdjective')] [guest_to_kill.Custom('InsultNoun')] warmly." #NT!
+ coronation_banquet.1013.b: "I will deflect the knife!" #NT!
+ coronation_banquet.1013.b.success: "No one is hurt" #NT!
+ coronation_banquet.1013.b.failure: "I #EMP almost#! manage" #NT!
+ coronation_banquet.1013.b.big_failure: "I fail" #NT!
+ coronation_banquet.1013.c: "...and charge straight to cover." #NT!
+ coronation_banquet.1013.d: ""I acted in defense of [guest_to_save.GetFirstNameNoTooltip], you all saw it."" #NT!
+  
+ coronation_banquet.1014.t: "The Witness" #NT!
+ coronation_banquet.1014.desc: "My [guest_to_murder.Custom('InsultAdjective')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_murder'))] [guest_to_murder.GetTitledFirstName] sneers as I stumble outside to relieve myself. The anger that is already boiling in my veins gains devastating momentum as [guest_to_murder.GetSheHe] walks towards me. "Look who it is! The [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNoun')] [ROOT.Char.GetFirstNameNoTooltip]! I bet you—"\n\nJust as I sink my blade into [guest_to_murder.GetFirstNamePossessive] infuriating face I hear a soft gasp from behind me." #NT!
+ coronation_banquet.1014.a: "Please, [witness.GetTitledFirstNameNoTooltip], tell no one!" #NT!
+ coronation_banquet.1014.a_2: "You will tell no one what you saw." #NT!
+ coronation_banquet.1014.b: "Talk about being in the wrong place at the wrong time!" #NT!
+  
+  #Shiny Trinkets 
+ coronation_banquet.1016.t: "Shiny Trinkets" #NT!
+ coronation_banquet.1016.desc_intro: "I look around the lively room. Fires are roaring, the drinks are pouring. Delectable treats are being turned into bellytimber and the mood is high.\n\nIn a dark corner, catching the flicker of the lights, I glint the [trinket_to_steal.GetName]. It appears abandoned on one of the side tables and is positively calling my name." #NT!
+ coronation_banquet.1016.desc_greedy: "\n\nIt would be a crime for me #EMP not#! to relieve it of its loneliness! I shoot a quick glance around the room to make sure I am not being watched." #NT!
+ coronation_banquet.1016.desc_hesitant: "\n\nI clench my fist sternly in an attempt to overcome my urge, hoping no one will notice." #NT!
+ coronation_banquet.1016.desc_default: "\n\n[activity.GetOwner.GetTitledFirstNameNoTooltip] sure seems to be well-off, [activity.GetOwner.GetSheHe] couldn't possibly miss this miniscule trinket..." #NT!
+ coronation_banquet.1016.a_greedy: "Don't mind if I do!" #NT!
+ coronation_banquet.1016.a_hesitant: "I just can't help myself..." #NT!
+ coronation_banquet.1016.a: "That certainly #EMP is#! a nice-looking trinket." #NT!
+ coronation_banquet.1016.b: "No. This isn't right." #NT!
+ coronation_feast_default_1016_stealth.desc: "Your thievery went unnoticed" #NT!
+ coronation_feast_default_1016_observed.desc: "You had a witness" #NT!
+ coronation_banquet.1016.tt: "Trinket Stolen" #NT!
+  
+  #Shiny Trinkets continued - Thievery resolution 
+ coronation_banquet.1017.t: "What Hides In The Shadow" #NT!
+ coronation_banquet.1017.desc_intro: "I inch my way towards the side table, keeping conversations going with guests that I pass along the way.\nAs I am upon the [new_trinket.GetName], in one single motion I swiftly but gently push the item towards the edge of the table and into my waiting napkin. Success!" #NT!
+ coronation_banquet.1017.desc_discovered: "\n\nThe rush of adrenaline surges, but... I have an uneasy feeling that I was not the only one witnessing my heist.\n\nTime will tell..." #NT!
+ coronation_banquet.1017.desc_stealth: "\n\nThe rush of adrenaline, the sound of my heart thumping in my chest and that sweet taste of victory upon a successful acquisition.\n\nIn this moment truly nothing else matters." #NT!
+ coronation_banquet.1017.a: "This is not good." #NT!
+ coronation_banquet.1017.b: "This is excellent!" #NT!
+ coronation_banquet.1017.b_honest: "I hope nobody finds out..." #NT!
+  
+  #Shiny Trinkets continued - The witness confronts you via proxy 
+ coronation_banquet.1018.t: "... Will Emerge" #NT!
+ coronation_banquet.1018.desc_intro:1 "Out of the blue, an emissary from [witness.GetTitledFirstName], named [witness_proxy.GetTitledFirstName], shows up at my doorstep. "Greetings, my [ROOT.Char.GetLadyLord]! I carry word from [witness.GetHerHis] most gracious [witness.GetTitledFirstNameNoTooltip]."\n\nThe emissary looks slightly uncomfortable: "Out of the blue, an emissary from [witness.GetTitledFirstName], named [witness_proxy.GetTitledFirstName], shows up at my doorstep. "Greetings, my [ROOT.Char.GetLadyLord]! I carry word from [witness.GetHerHis] most gracious [witness.GetTitledFirstNameNoTooltip]."\n\nThe emissary looks slightly uncomfortable: "[witness.GetTitledFirstNameNoTooltip] will let it be known that [feast_host.GetTitledFirstName] has been looking for [feast_host.GetHerHis] [trinket_to_steal.GetName] and... ", [witness_proxy.GetSheHe] pauses briefly, "it would seem as if my [witness.Custom('MistressMaster')] thinks you might have laid eyes on it during the feast?" [witness_proxy.GetTitledFirstNameNoTooltip] eyes me up and down." #NT!
+ coronation_banquet.1018.desc_greedy: "\n\nHow dare [witness.GetTitledFirstNameNoTooltip]! Nails digging into the palm of my hands, I struggle to remain calm and level-headed in face of these allegations." #NT!
+ coronation_banquet.1018.desc_default: "\n\nMy heart is thumping in my ears as I feel a trickle of sweat run down my back. This is the risk I run in return for that sweet, sweet moment of procurement." #NT!
+ coronation_banquet.1018.a: "I have a coin pouch here that might have." #NT!
+ coronation_banquet.1018.a_contempt: "Take this coin pouch and be gone with you!" #NT!
+ coronation_banquet.1018.a_tt: "[witness.GetTitledFirstNameNoTooltip] better keep this to [witness.GetHerselfHimself]!" #NT!
+ coronation_banquet.1018.b: "That old thing? Never saw it." #NT!
+ coronation_banquet.1018.b_contempt: "That old thing? Never. Saw. It." #NT!
+ coronation_feast_default_1018_success.desc: "[witness.GetTitledFirstNameNoTooltip] is convinced" #NT!
+ coronation_feast_default_1018_failure.desc: "[witness.GetTitledFirstNameNoTooltip] is not convinced" #NT!
+ coronation_feast_default_1018_success.t: "Successful Persuasion" #NT!
+ coronation_feast_default_1018_failure.t: "Failed Persuasion" #NT!
+ coronation_banquet.1018.c: "Laid eyes... #EMP and hands#! on it!" #NT!
+  
+  #OPRHANED - Shiny Trinkets continued - You return the piece to the feast_host 
+ coronation_banquet.1019.t: "The Apology" #NT!
+ coronation_banquet.1019_start: "As I enter [feast_host.GetTitledFirstNameNoTooltip]'s chambers, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('feast_host'))] looks at me with a" #NT!
+ coronation_banquet.1019.desc_intro_redeemed: "$coronation_banquet.1019_start$ disappointed gaze.\n\n"I did not see this coming, I admit. To have my own [feast_host.Custom2('RelationToMe', ROOT.Char)] fall prey to such shameful behavior... truly this must weigh on you. I applaud your confession, it is the first step towards betterment."" #NT!
+ coronation_banquet.1019.desc_intro_condemned: "$coronation_banquet.1019_start$ disapproving gaze.\n\n"We never saw eye to eye, you and I. To have my own [feast_host.Custom2('RelationToMe', ROOT.Char)] succumb to such a thing as petty theft... #EMP most#! embarrassing, as well as deplorable. You need to do better."" #NT!
+ coronation_banquet.1019.desc_redemption_greedy: "\n\nI play along in this theatrical act, all while I know the alternative would be so much worse. At least I am out of trouble... this time." #NT!
+ coronation_banquet.1019.desc_condemnation_greedy: "\n\nStruggling to restrain myself, I look down on the ground in front of [feast_host.GetHerHim] and offer up a nod. Yes. #EMP I will do better next time.#!" #NT!
+ coronation_banquet.1019.desc_redemption: "\n\nMortified by my own behavior, I feel truly grateful over [feast_host.GetHerHis] benevolent response to my plea. A figurative rock has indeed been lifted off my shoulders." #NT!
+ coronation_banquet.1019.desc_condemnation: "\n\nCheeks flushed with shame, I am disgusted by my own behavior. Regardless of what came over me, I am now suffering the consequences." #NT!
+ coronation_banquet.1019.a: "... maybe I should keep the item as a sign of my flaws?" #NT!
+ coronation_banquet.1019.a_tt: "Attempt to keep the [trinket_to_steal.GetName]" #NT!
+ coronation_banquet.1019.b: "I seek nothing but your forgiveness, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('feast_host'))]." #NT!
+ coronation_feast_default_1019_success.desc: "[feast_host.GetTitledFirstNameNoTooltip] is convinced" #NT!
+ coronation_feast_default_1019_failure.desc: "[feast_host.GetTitledFirstNameNoTooltip] is not convinced" #NT!
+ coronation_feast_default_1019_redeemed.t: "Redeemed" #NT!
+ coronation_feast_default_1019_condemned.t: "Condemned" #NT!
+  
+  #Dislike the host, deface a displayed Court Artifact 
+ coronation_banquet.1020.t: "The Accident" #NT!
+ coronation_banquet.1020.desc: "As I saunter around the halls of my despicable [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('feast_host'))], [feast_host.GetTitledFirstNameNoTooltip], I scrutinize [feast_host.GetHerHis] collection of artifacts on display. Such gaudiness — maybe [feast_host.GetSheHe] ought to be taken down a peg or two...\n\nMy gaze lingers on the [feast_target_artifact.GetName]." #NT!
+ coronation_banquet.1020.a_knock_over: "Maybe I'll #EMP accidentally#! knock it over..." #NT!
+ coronation_banquet.1020.a_scratch: "I'll scratch it up good... " #NT!
+ coronation_banquet.1020.a_drunkard: "I could spill my [ROOT.Char.Custom('RegionalDrink')] all over it..." #NT!
+ coronation_banquet.1020.a_lustful: "I #EMP strongly#! desire to deface it utterly..." #NT!
+ coronation_banquet.1020.a.tt_success: "You deface the artifact undetected" #NT!
+ coronation_banquet.1020.a.tt_fined: "[feast_host.GetTitledFirstNameNoTooltip] fines you for your deed" #NT!
+ coronation_banquet.1020.a.tt_imprisoned: "[feast_host.GetTitledFirstNameNoTooltip] retaliates" #NT!
+ coronation_banquet.1020.b: "No, I better not risk it." #NT!
+ coronation_banquet.1020.tt: "Artifact Defaced" #NT!
+ GUESTS_LIKED_DEFACING: "#z [CHARACTER.MakeScope.Var('num_unhappy_guests').GetValue|0]#! Gäste begrüßen diese Tat:"
+ coronation_banquet.1020.tt_guests: "#z [THIS.Var('num_unhappy_guests').GetValue|0]#! guest(s) appreciate this action and gain opinion of you" #NT!
+  
+ coronation_banquet.1030.t: "Heroes of Our Time" #NT!
+ coronation_banquet.1030.desc: "A flourish ends [minstrel.GetFirstNamePossessive] first impassioned recital. Eyes are dried, tables thumped.\n\n"Another tale!" offers [minstrel.GetSheHe]. "Shall I sing of how the great $knight_culture_player_no_tooltip_lowercase$ [knight_1.GetFirstName]" #NT!
+ coronation_banquet.1030.ethical: "nobly championed the meek?" #NT!
+ coronation_banquet.1030.amoral: "savaged foes of every description?" #NT!
+ coronation_banquet.1030.leader: "led comrades through great peril?" #NT!
+ coronation_banquet.1030.morally_neutral: "first demonstrated [knight_1.GetHerHis] virtue?" #NT!
+ coronation_banquet.1030.aggressive: "Of [knight_2.GetFirstName] striking forth, unstoppable?" #NT!
+ coronation_banquet.1030.defensive: "Of [knight_2.GetFirstName] standing fast like a mountain?" #NT!
+ coronation_banquet.1030.champion: "Of [knight_2.GetFirstName] winning victory, singlehandedly?" #NT!
+ coronation_banquet.1030.stance_neutral: "Of [knight_2.GetFirstName] restoring [knight_2.GetHerHis] benighted name?" #NT!
+  
+ coronation_banquet.1030.subtle: "The canniest of [knight_3.GetCulture.GetCollectiveNounNoTooltip], [knight_3.GetFirstName]?" #NT!
+ coronation_banquet.1030.forceful: "The mightiest of [knight_3.GetCulture.GetCollectiveNounNoTooltip], [knight_3.GetFirstName]?" #NT!
+ coronation_banquet.1030.equestrian: "The [knight_3.GetCulture.GetCollectiveNounNoTooltip] rider, [knight_3.GetFirstName]?" #NT!
+ coronation_banquet.1030.intensity_neutral: "The finest of [knight_3.GetCulture.GetCollectiveNounNoTooltip], [knight_3.GetFirstName]?" #NT!
+ coronation_banquet.1030.courtly: "[knight_4.GetFirstName] and [knight_4.GetHerHis] true friendships?" #NT!
+ coronation_banquet.1030.militant: "[knight_4.GetFirstName] and [knight_4.GetHerHis] battles won?" #NT!
+ coronation_banquet.1030.fighty_neutral: "[knight_4.GetFirstName] and [knight_4.GetHerHis] honored oaths?" #NT!
+ coronation_banquet.1030.wrap_up: "These warfarers rival those of old!"\n\nDoubtlessly, as this feast's performers ramble on to other courts, my favored tale will be retold many times over." #NT!
+  
+ coronation_banquet.1030.a: "[knight_1.GetFirstNameNoTooltip], [accolade_1.GetNameNoTooltip]!" #NT!
+ coronation_banquet.1030.a.tt: "Let retellings inspire all, from the lowest scullery brats to the greatest $knight_culture_player_plural_no_tooltip_lowercase$." #NT!
+ coronation_banquet.1030.b: "[knight_2.GetFirstNameNoTooltip], [accolade_2.GetNameNoTooltip]!" #NT!
+ coronation_banquet.1030.b.tt: "They'll say [knight_2.GetSheHe] cannot be beaten!" #NT!
+ coronation_banquet.1030.c: "[knight_3.GetFirstNameNoTooltip], [accolade_3.GetNameNoTooltip]!" #NT!
+ coronation_banquet.1030.c.tt: "All shall know [knight_3.GetHerHim] as the equal of any hero of yore." #NT!
+ coronation_banquet.1030.d: "[knight_4.GetFirstNameNoTooltip], [accolade_4.GetNameNoTooltip]!" #NT!
+ coronation_banquet.1030.d.tt: "An ever-more popular doer of quests and deeds... real and otherwise." #NT!
+  
+ knightly_tales_modifier: "Besungene Ritter"
+ knightly_tales_modifier_desc: "Die Ritter dieses Charakters inspirieren beliebte Geschichten, die den Status des Kriegeradels aufwerten."
+  
+ riders_of_song_modifier: "Besungene Reiter"
+ riders_of_song_modifier_desc: "Junge Knappen und erfahrene Reiter sehnen sich gleichermaßen danach, an der Seite der Ritter dieses Charakters in die Schlacht zu ziehen."
+  
+ tales_of_knightly_valor_modifier: "Geschichten von ritterlichem Edelmut"
+ tales_of_knightly_valor_modifier_desc: "Kühne Anwärter, manche nicht besser als Vagabunden, bitten darum, an der Seite der Ritter dieses Charakters zu dienen."
+  
+ tales_of_knightly_leadership_modifier: "Geschichten von ritterlicher Führung"
+ tales_of_knightly_leadership_modifier_desc: "Es gilt als Ehre, sich der weisen Autorität der Ritter dieses Charakters zu unterwerfen."
+  
+  
+ #feared by all enemies 
+  
+ coronation_banquet.2001.t: "Embarrassing Impatience" #NT!
+ coronation_banquet.2001.desc: "[host.GetTitledFirstName] announced a slight delay to the serving of the food, and [glutton.GetTitledFirstName] looks ready to burst with frustration!\n\nIn between grumbles from [glutton.GetHerHis] stomach I only hear grumbles of displeasure." #NT!
+ coronation_banquet.2001.a: "[glutton.GetSheHe|U] is making a fool of [glutton.GetHerselfHimself]." #NT!
+ coronation_banquet.2001.b: "[glutton.GetFirstNameNoTooltip] has a point! Where is our food?!" #NT!
+  
+ coronation_banquet.2002.t: "An Admirer" #NT!
+ coronation_banquet.2002.desc: "Someone unseen has slipped me a note during the feast:\n\n"[letterAuthor.Custom2('love_letter', SCOPE.sC('letterRecipient'))]"\n\nWho could this tender letter be from? There was something about the way [crush_1.GetTitledFirstName] looked shyly at me. Or how [crush_2.GetTitledFirstName] smiled when we met. Then again, [crush_3.GetTitledFirstName] seemed very eager to sit close to me..." #NT!
+ coronation_banquet.2002.a: "It must have been [crush_1.GetFirstNameNoTooltip]!" #NT!
+ coronation_banquet.2002.b: "Could it have been [crush_2.GetFirstNameNoTooltip]?" #NT!
+ coronation_banquet.2002.c: "This has [crush_3.GetFirstNameNoTooltip] written all over it." #NT!
+ coronation_banquet.2002.potential_lover_tt: "If you are correct, it will be far easier to make them your [lover|E]" #NT!
+  
+ coronation_banquet.2003.t: "Mutual Spirits" #NT!
+ coronation_banquet.2003.desc: "What started as an ordinary feast became an exceptional one thanks to the presence of [other_guest.GetTitledFirstName]!\n\nWe spoke all evening about all manner of subjects, and as things would have it we seem to have a lot in common! I had such a good time with [other_guest.GetHerHim]." #NT!
+ coronation_banquet.2003.a: "What a good evening!" #NT!
+  
+ coronation_banquet.2005.t: "All Over My New [ROOT.Char.Custom('GetClothingArticle')|U]" #NT!
+ coronation_banquet.2005.desc: "We could all tell [drunk.GetTitledFirstName] had too much to drink, even though [drunk.GetSheHe] insisted on showing us how sober [drunk.GetSheHe] was.\n\nSimply rising from [drunk.GetHerHis] seat proved too much for [drunk.GetHerHim], and now I am covered in stinking vomit!" #NT!
+ coronation_banquet.2005.a: ""You ought to be ashamed of yourself, [drunk.GetFirstNameNoTooltip]!"" #NT!
+ coronation_banquet.2005.b: ""Ha! What a show you put on!"" #NT!
+  
+ coronation_banquet.2006.t: "The Eager [befriending_guest.GetTitleTierName|U]" #NT!
+ coronation_banquet.2006.desc: "As [befriending_guest.Custom2('MyCharacterIntroduction', ROOT.Char )] once more interrupts a conversation with loud laughter, I can no longer deny that [befriending_guest.GetSheHe] is acting strange.\n\n[befriending_guest.GetSheHe|U] never strays far from me, joins me in every conversation, expresses appreciation at everything I say..." #NT!
+ coronation_banquet.2006.a: "It's a strange way to gain my favor, but I must say it is working." #NT!
+ coronation_banquet.2006.b: "I could get used to this!" #NT!
+ coronation_banquet.2006.c: "I can't stand having someone follow me around like this!" #NT!
+ coronation_banquet.2006.d: "Please, leave me alone!" #NT!
+  
+ coronation_banquet.2007.t: "Exposed Affair!" #NT!
+ coronation_banquet.2007.desc: "A loud crash resounds through the great hall as one of the doors to the service quarters break.\n\nIn a barely clothed tumble, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1') )] [lover_guest_1.GetTitledFirstName] and my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2') )] [lover_guest_2.GetTitledFirstName] spill out on the floor in front of everyone." #NT!
+ coronation_banquet.2007.a_chaste: "I can't bear to look!" #NT!
+ coronation_banquet.2007.a_lustful: "Just #EMP imagine#! what they could have been up to...!" #NT!
+ coronation_banquet.2007.a_sadistic: "Hah! This is delicious!" #NT!
+ coronation_banquet.2007.a_compassionate: "No one deserves this kind of shame..." #NT!
+ coronation_banquet.2007.b: "To imagine that #EMP they#! had such a secret!" #NT!
+  
+ coronation_banquet.2008.t: "Behind a Locked Door" #NT!
+ coronation_banquet.2008.desc: "As [homosexual_character.Custom2('MyCharacterIntroduction', ROOT.Char )] tried sneaking unnoticed away from the feast, I thought I caught a glimpse of [homosexual_character.GetHerHis] hand slipping into the hand of a [romance_target.Custom('FemaleMale')] servant!\n\nMy suspicions were confirmed when I caught them in a secluded room, half undressed!" #NT!
+ coronation_banquet.2008.a: "Consorting with another [homosexual_character.GetWomanMan]?! The realm must know!" #NT!
+ coronation_banquet.2008.b: "Your secret is safe with me, [homosexual_character.GetFirstNameNoTooltip]. For now." #NT!
+ coronation_banquet.2008.c: "Corrupting #EMP my#! servants without my approval?!" #NT!
+ coronation_banquet.2008.d: "Oh [homosexual_character.GetFirstNameNoTooltip], if only I had known." #NT!
+ coronation_banquet.2008.d.unlock_text: "This option is available due to your [sexuality|E]" #NT!
+  
+ coronation_banquet.2009.t: "Please, Do Go On" #NT!
+ coronation_banquet.2009.desc: "I listen intently to [secret_holder.GetTitledFirstName] as [secret_holder.GetSheHe] carelessly reveals all manner of things. Distracted by trying to get one last drop from [secret_holder.GetHerHis] tankard, [secret_holder.GetSheHe] is oblivious to how carefully I am paying attention.\n\nOnce [secret_holder.GetSheHe] realizes, [secret_holder.GetSheHe] starts getting up. "I'm only rambling! It's not true anyways, any of it!"" #NT!
+ coronation_banquet.2009.a: "Oh, they just happen to be #EMP very#! interesting rambles." #NT!
+  
+ coronation_banquet.2011.t: "A Promise Is a Promise" #NT!
+ coronation_banquet.2011.desc: "Unconcerned with any etiquette, [favor_character.Custom2('MyCharacterIntroduction', ROOT.Char )] slaps me on the back. "I mean it!" [favor_character.GetSheHe] exclaims. "I'll do anything you ask of me. Anything at all. Ask me, and it is done!"\n\nI can smell the alcohol on [favor_character.GetFirstNamePossessive] breath, but the promise has been noted by every guest present." #NT!
+ coronation_banquet.2011.a: "You're a [favor_character.GetWomanMan] of your word, aren't you?" #NT!
+ coronation_banquet.2011.b: ""Hah, [favor_character.GetTitledFirstNameNoTooltip] is too drunk to know what [favor_character.GetSheHe] is saying!"" #NT!
+  
+ coronation_banquet.2012.t: "The Witness" #NT!
+ coronation_banquet.2012.desc: "As I stumble outside to relieve myself I hear shouting around the corner. As I turn it I see my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murderer'))] [murderer.GetTitledFirstName] sneer as [murderer.GetSheHe] sinks [murderer.GetHerHis] blade into the face of the cowering [murdered_guest.GetTitledFirstName].\n\nWhatever sound I made must have been enough, for [murderer.GetFirstName] turns towards me, surprise on [murderer.GetHerHis] face." #NT!
+ coronation_banquet.2012.a: "What have you #EMP done#!?!" #NT!
+ coronation_banquet.2012.b: "Everyone will know of your crime!" #NT!
+ coronation_banquet.2012.c: "My silence has a price." #NT!
+  
+ coronation_banquet.2013.t: "The Bootlicker" #NT!
+ coronation_banquet.2013.desc: "The rumors that have been circulating about [bootlicker.GetTitledFirstName] wanting to curry favor with [shared_liege.GetTitledFirstName] are confirmed as [bootlicker.GetSheHe] hands [shared_liege.GetHerHim] a gift.\n\n"My dearest [bootlicker.Custom2('RelationToMeShort', SCOPE.sC('shared_liege'))], it's so lovely to see you! Knowing that we'd meet here, I brought you this marvelous pelt, as a token of my appreciation."\n\n[shared_liege.GetTitledFirstName] grins as [shared_liege.GetSheHe] studies the animal hide. Seeing how happy [shared_liege.GetSheHe] is from receiving a gift, I realize I'm at risk of missing this opportunity to improve my standing with [shared_liege.GetHerHim] as well!" #NT!
+ coronation_banquet.2013.a: ""My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('shared_liege'))]! I have a gift for you as well!"" #NT!
+ coronation_banquet.2013.a.success: "[shared_liege.GetTitledFirstName] is impressed by your spontaneous gift" #NT!
+ coronation_banquet.2013.a.failure: "[shared_liege.GetTitledFirstName] is unimpressed by your spontaneous gift" #NT!
+ coronation_banquet.2013.b: ""#EMP Ahem!#! I declare a toast to [shared_liege.GetTitledFirstNameNoTooltip]!"" #NT!
+ coronation_banquet.2013.b.success: "[shared_liege.GetTitledFirstName] is impressed by your spontaneous toast" #NT!
+ coronation_banquet.2013.b.failure: "[shared_liege.GetTitledFirstName] is unimpressed by your spontaneous toast" #NT!
+ coronation_banquet.2013.c: "Spill your drink on the gifted pelt and claim it was an accident." #NT!
+ coronation_banquet.2013.c.success: "Everyone believes that the spillage was an accident" #NT!
+ coronation_banquet.2013.c.failure: "No one believes that the spillage was an accident" #NT!
+ coronation_banquet.2013.d: "No need to rush. I'll think of something some other time." #NT!
+  
+ coronation_banquet.3001.t: "A Feast With a Friend" #NT!
+ coronation_banquet.3001.desc: "It is such a joy to see [friend.Custom2('MyCharacterIntroductionNoComma', ROOT.Char )]! Once again we eat, drink and sing together, as if no time has passed since we parted last.\n\nWe could have been dining in a barn, and this would still have been one of the greatest feasts I have ever been to." #NT!
+ coronation_banquet.3001.a: "Ah, what would life be without [friend.GetFirstNameNoTooltip]?" #NT!
+  
+ coronation_banquet.3002.t: "Stolen Kisses" #NT!
+ coronation_banquet.3002.desc: "[lover.GetTitledFirstName], my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover') )]. We smile and greet each other as if we do not already know each other intimately. As if we have never embraced each other in the throes of passion. As if we do not long to hold each other close.\n\nWhen we later pass each other in an otherwise abandoned hallway, I once again get to feel [lover.GetHerHis] lips against mine. Then [lover.GetSheHe] points out an unlit doorway..." #NT!
+ coronation_banquet.3002.a: "Come! We don't have a moment to waste!" #NT!
+ coronation_banquet.3002.discovery_tt: "#F Servants see much, and might talk...#!" #NT!
+ coronation_banquet.3002.b: "No, we could be discovered." #NT!
+  
+ coronation_banquet.3003.t: "Unpleasant Company" #NT!
+ coronation_banquet.3003.desc: "It was such a pleasant feast, but then #EMP [rival.GetSheHe]#! showed up. Can I not have a single evening unsullied by the invasive stench of [rival.GetTitledFirstNameNoTooltip]?\n\nWorst of all is the nasal grinding of [rival.GetHerHis] voice [rival.GetSheHe] sidles up to me. "Why the sour face, [ROOT.Char.GetFirstNameNoTooltip]?"" #NT!
+ coronation_banquet.3003.a: "[rival.GetSheHe|U] makes me want to punch [rival.GetHerHim] in the face!" #NT!
+  
+ coronation_banquet.3004.t: "Insulting Altercations" #NT!
+ coronation_banquet.3004.desc: "After copious amounts of food and drink have been consumed, I find [rival_guest.Custom2('MyCharacterIntroduction', ROOT.Char )] in the middle of a loud conversation. [rival_guest.GetSheHe|U] turns to me as soon as [rival_guest.GetSheHe] notices my presence.\n\n"And #EMP you#! – your mere presence fouls this evening!"" #NT!
+ coronation_banquet.3004.a: "I think you have had enough for tonight." #NT!
+ coronation_banquet.3004.b: "You are nothing but a [rival_guest.Custom('InsultAdjective')] [rival_guest.Custom('InsultNoun')]!" #NT!
+ coronation_banquet.3004.b.success: "You win the fight" #NT!
+ coronation_banquet.3004.b.failure: "[rival_guest.GetFirstNameNoTooltip] wins the fight" #NT!
+ coronation_banquet.3004.c: "Some bring joy wherever they go; others, whenever they do." #NT!
+ coronation_banquet.3004.c.tt: "#F It is time for [rival_guest.GetFirstNameNoTooltip] to spread some happiness#!" #NT!
+ coronation_banquet.3004.d: "A fist to face is as good a response as any!" #NT!
+  
+ coronation_banquet.3005.t: "A Challenge" #NT!
+ coronation_banquet.3005.desc: "The hall echoes with the laughter of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival_to_duel'))] [rival_to_duel.GetTitledFirstName], with [rival_to_duel.GetHerHis] taunts and insults — when [rival_to_duel.GetSheHe] calls me [ROOT.Char.Custom('InsultAdjectiveArticle')] [ROOT.Char.Custom('InsultNoun')] I draw my blade." #NT!
+ coronation_banquet.3005.desc_won: "\n\nI come back to my senses as I lean down over [rival_to_duel.GetHerHim], boot on [rival_to_duel.GetHerHis] chest, both of us breathing hard." #NT!
+ coronation_banquet.3005.desc_lost: "\n\nI come back to my senses as [rival_to_duel.GetSheHe] leans down over me, boot on my chest. [rival_to_duel.GetSheHe|U] hisses in my ear, "I want to hear you beg for mercy."" #NT!
+ coronation_banquet.3005.a: ""You will pay for all that you've done."" #NT!
+ coronation_banquet.3005.b: ""I would never yield to the likes of #EMP you#!!"" #NT!
+ coronation_banquet.3005.c: ""Please, don't hurt me!"" #NT!
+ coronation_banquet.3005.d: ""I want to hear you beg for mercy."" #NT!
+ coronation_banquet.3005.e: "I reach up and slit the tendon in [rival_to_duel.GetHerHis] heel in one smooth motion." #NT!
+  
+ coronation_banquet.3096.t: "A New Possibility" #NT!
+ coronation_banquet.3096.desc: "As the festivities progress I cannot help but find myself exchanging glances with [partner.GetName].\n\nI am an honorable [ROOT.Char.GetWomanMan] but rarely have I felt this tempted to explore a new relation..." #NT!
+ coronation_banquet.3096.a: "Let's see where the evening takes us" #NT!
+ fest_default.3906.a.tt: "Ihr beschlaft [partner.GetName]"
+ coronation_banquet.3096.b: "I am better than this." #NT!
+  
+ coronation_banquet.3006.t: "A Single Night" #NT!
+ coronation_banquet.3006.opening_1: "Overcome with drunkenness and lust, [partner.Custom2('MyCharacterIntroduction', ROOT.Char )] and I find ourselves alone. [partner.GetHerHis|U] arms around me, [partner.GetHerHis] lips against my neck, we quench the fires burning in our chests and our loins." #NT!
+ coronation_banquet.3006.opening_2: "I awake in a strange bed, with an unexpected bedfellow. Memories of the previous night slowly take shape from the aching mist in my head. [partner.Custom2('MyCharacterIntroduction', ROOT.Char )|U] and I, joined by desire." #NT!
+ coronation_banquet.3006.opening_3: "I had been so insistent that this was exactly what I would not do. Yet, after a few drinks I fell so easily into the arms of [partner.Custom2('MyCharacterIntroduction', ROOT.Char )] – trapped in [partner.GetHerHis] seductive web. Soon enough I found myself in [partner.GetHerHis] bed." #NT!
+ coronation_banquet.3006.both_married_love: "\n\nI cannot bear the thought of going without [partner.GetHerHim], but [partner.GetHerHis] [partner.Custom2('RelationToMe', SCOPE.sC('partner'))] must never know, and neither must my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('partner'))]!" #NT!
+ coronation_banquet.3006.married_love: "\n\nI cannot bear the thought of being without [partner.GetHerHim], but my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('partner'))] cannot be allowed to know what happened here." #NT!
+ coronation_banquet.3006.partner_married_love: "\n\nI cannot bear the thought of being without [partner.GetHerHim], but considering [partner.GetHerHis] [partner.Custom2('RelationToMe', SCOPE.sC('partner'))], [partner.GetTitledFirstName], what can I do?" #NT!
+ coronation_banquet.3006.unmarried_love: "\n\nOutside the bounds of marriage and decency, we cannot let the world know what happened here. Yet, I cannot stand the thought of being without [partner.GetHerHim] for a single day." #NT!
+ coronation_banquet.3006.both_married: "\n\n[partner.GetHerHis|U] [partner.Custom2('RelationToMe', SCOPE.sC('partner'))] must not be allowed to know, and that is without mentioning my own [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('partner'))]!" #NT!
+ coronation_banquet.3006.married: "\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('partner'))] must not learn of my betrayal." #NT!
+ coronation_banquet.3006.partner_married: "\n\n[partner.GetHerHis|u] [partner.Custom2('RelationToMe', SCOPE.sC('partner'))] cannot be allowed to know what happened here." #NT!
+ coronation_banquet.3006.unmarried: "\n\nOutside the bounds of marriage and decency, we cannot let the world know what happened here." #NT!
+ coronation_banquet.3006.a: "I must see you again!" #NT!
+ coronation_banquet.3006.b: "Let's make the most out of this moment..." #NT!
+ coronation_banquet.3006.b.mistake_tt: "#F [partner.GetFirstNameNoTooltip] is not interested#!" #NT!
+ coronation_banquet.3006.c: "Let us never speak of this." #NT!
+ coronation_banquet.3006.c.tt: "#F You stay away from [partner.GetFirstNameNoTooltip]#!" #NT!
+  
+ coronation_banquet.3007.t: "In the Act" #NT!
+ coronation_banquet.3007.love: "As the other guests are losing their wits to the cups, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] and I find a chamber to spend the night by ourselves. I am spreading kisses across [lover.GetFirstNamePossessive] naked back when a voice makes me rush to cover myself." #NT!
+ coronation_banquet.3007.not_love: "I brought my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))], [lover.GetTitledFirstName], to an abandoned chamber to get away from the crowd. I am in the middle of sating my hunger when a familiar voice makes my blood curdle." #NT!
+ coronation_banquet.3007.ambiguous: "Hoping to spend some time with my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))], I brought [lover.GetTitledFirstName] away from the feast. Just as I was getting ready to return, a familiar voice makes me freeze in shock." #NT!
+ coronation_banquet.3007.end: "\n\n"[ROOT.Char.GetFirstNameNoTooltip]?!" My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))], [spouse.GetTitledFirstName] is staring at us in shock. "How could you bed that [lover.Custom('InsultAdjective')] [lover.Custom('InsultNounSexual')]?"" #NT!
+ coronation_banquet.3007.a: "This meant nothing, my dear!" #NT!
+ coronation_banquet.3007.b: "I love [lover.GetHerHim]!" #NT!
+ coronation_banquet.3007.c: "I do as I please." #NT!
+  
+ coronation_banquet.5001.t: "A Crooked Smile" #NT!
+ coronation_banquet.5001.friend_reminder: "I believe [friend.GetTitledFirstName] meant it only as a word of caution, but after my [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('friend'))] reminded me of [host.GetTitledFirstNamePossessive] terrifying reputation, I can think of little else." #NT!
+ coronation_banquet.5001.rival_reminder: "I know that [rival.GetTitledFirstName] only said it to cause me worry, but now that my [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('rival'))] reminded me of [host.GetTitledFirstNamePossessive] terrifying reputation, I can think of little else." #NT!
+ coronation_banquet.5001.spouse_reminder: "Touching my arm to get my attention, [spouse.GetTitledFirstName] spoke in a lowered voice filled with concern. "[host.GetTitledFirstName] has been looking at you a lot this evening..."\nConsidering [spouse.GetTitledFirstNamePossessive] reputation, I almost wish [spouse.GetSheHe] had said nothing." #NT!
+ coronation_banquet.5001.sadist_reminder: "It was with a disturbing smile that [sadist.GetTitledFirstName] recounted some of the more terrifying stories about [host.GetTitledFirstNamePossessive] means of... diplomacy. I should not let it get to me, but now I'm finding it hard to think of anything else." #NT!
+ coronation_banquet.5001.reminder: "Even if a feast is an occasion of celebration and joy, it is very difficult to not think of [host.GetTitledFirstNamePossessive] terrifying reputation..." #NT!
+ coronation_banquet.5001.worry: "\n\nEvery grin from our host now starts looking a little too wide, and every clang of a flagon or plate makes me jump, anxious that someone has incurred [host.GetHerHis] wrath with some minor slight. Or worse, that that person is me." #NT!
+ coronation_banquet.5001.a: "I can get through this. It is only a feast." #NT!
+  
+ coronation_banquet.5002.t: "Delusions" #NT!
+ coronation_banquet.5002.desc_chair: "Our host, my [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('lunatic_host'))] [lunatic_host.GetTitledFirstName], leans down to better converse with the chair beside [lunatic_host.GetHerHim]. At this display all other conversations soon dwindle.\n\n"What did you say, my good [ROOT.Char.Custom('RandomLadyLord')]? Yes, of course, I trust you more than anyone here!"" #NT!
+ coronation_banquet.5002.desc_chicken: "Our host, my [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('lunatic_host'))] [lunatic_host.GetTitledFirstName], gently hugs a plucked — and cooked — chicken to [lunatic_host.GetHerHis] chest, whispering sweet nothings to it. As [lunatic_host.GetSheHe] begins to loudly proclaim [lunatic_host.GetHerHis] affection for the fowl, the mood in the great hall quickly takes a troubled turn." #NT!
+ coronation_banquet.5002.desc_drapes: "Our host, my [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('lunatic_host'))] [lunatic_host.GetTitledFirstName], sweeps onto the dance floor, holding one of the banners used to decorate the walls in [lunatic_host.GetHerHis] arms.\n\nThe guests can do nothing but stare as he leads the piece of fabric through an elaborate dance, enthralled by the display." #NT!
+ coronation_banquet.5002.a: "My [lunatic_host.GetLadyLord], why don't we go outside for some air?" #NT!
+ coronation_banquet.5002.b: "I have to stop this madness!" #NT!
+ coronation_banquet.5002.c: "[lunatic_host.GetFirstNameNoTooltip]! Let me join you both!" #NT!
+  
+ coronation_banquet.5003.t: "Painful Entertainment" #NT!
+ coronation_banquet.5003.desc: "Pieces of sharp metal in some of the dishes, splinters on the chairs, small #EMP accidents#! promising bruises...\n\nSitting at the head of the table, my [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sadistic_host'))] [sadistic_host.GetTitledFirstName] cannot hide the cold smile spreading across [sadistic_host.GetHerHis] face as another [guest.GetLadyLord], [guest.GetTitledFirstName], spits blood onto [guest.GetHerHis] plate." #NT!
+ coronation_banquet.5003.a: ""This is unacceptable!"" #NT!
+ coronation_banquet.5003.b: "I'll take care of [guest.GetFirstNameNoTooltip] for now." #NT!
+ coronation_banquet.5003.c: "What a glorious feast!" #NT!
+  
+ coronation_banquet.5004.t: "The Bottom of the Tankard" #NT!
+ coronation_banquet.5004.desc: ""Was that the sound of an empty cup you just sat down on the table?" To hear anything over the din of the great hall, [host.GetTitledFirstName] must have enchanted ears. My gracious host waves for a servant. "More wine here! None will go thirsty!"" #NT!
+ coronation_banquet.5004.a: "Thank you, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))]!" #NT!
+ coronation_banquet.5004.b: "I have had quite enough, I think." #NT!
+ coronation_banquet.5004.c: "I make my excuses and slip away in the crowd." #NT!
+  
+ coronation_banquet.5005.t: "Garum!" #NT!
+ coronation_banquet.5005.desc: "Oh, this heavenly taste! So savory, yet slightly salty, reminiscent of the sea...\n\nThis might be the best garum I have ever tasted, and [host.GetTitledFirstNamePossessive] cook has employed it expertly!" #NT!
+ coronation_banquet.5005.a: "I need to eat this regularly!" #NT!
+ coronation_banquet.5005.b: ""This is an incredible meal, [host.GetFirstNameNoTooltip]!"" #NT!
+ coronation_banquet.5005.c: ""Did you know that murri was inspired by garum?"" #NT!
+ coronation_banquet.5005.c.flavor: "Not a lot of other guests seem to know this!" #NT!
+ coronation_banquet.5005.d: "If I could I would #EMP breathe#! garum!" #NT!
+  
+ coronation_banquet.6001.t: "The Right [spouse.GetWomanMan|U] for the Job" #NT!
+ coronation_banquet.6001.dislike_spouse: "Although there are many ways in which we do not get along, I must confess that my [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('spouse'))] has done a very good job with my feast. [spouse.GetFirstName] has ensured that the food arrives on time, the guests are all seated in the right place, and everyone seems content.\n\nWith [spouse.GetHerHim] next to me at the great table and celebrations about to begin, I let [spouse.GetHerHim] know that I appreciate [spouse.GetHerHis] hard work in preparation of this feast." #NT!
+ coronation_banquet.6001.like_spouse: "My dear [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('spouse'))] [spouse.GetFirstName] has been working hard to ensure that everything about the feast goes smoothly. The food arrives on time, the guests are all seated in the right place, and everyone seems content.\n\nWith [spouse.GetFirstName] beside me at the great table, everything is ready. I squeeze [spouse.GetHerHis] hand and smile at [spouse.GetHerHim], before rising to announce the start of the celebrations." #NT!
+ coronation_banquet.6001.a: "What would I have done without [spouse.GetHerHim]." #NT!
+  
+ coronation_banquet.6002.t: "A Laudable Effort" #NT!
+ coronation_banquet.6002.desc: "As the feast is underway, and our guests are eating and drinking merrily, [guest.GetTitledFirstName] approaches [spouse.GetFirstName] and me at the great table.\n"This is a marvelous feast! All my compliments to the hosts."" #NT!
+ coronation_banquet.6002.a: ""Yes, I have done a great job, haven't I?"" #NT!
+ coronation_banquet.6002.b: ""[spouse.GetFirstNameNoTooltip] deserves all credit."" #NT!
+  
+ coronation_banquet.6003.t: "In My House" #NT!
+ coronation_banquet.6003.opening: "I did everything I could, ensuring that [fighter_1.GetTitledFirstName] and [fighter_2.GetTitledFirstName] would be as far from each other as possible. It was not enough, and now they have come to blows, in the middle of my feast!" #NT!
+ coronation_banquet.6003.bodyguard: "\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('bodyguard'))], [bodyguard.GetTitledFirstName], is standing close to the brawl, and looks to me for the order to intervene." #NT!
+ coronation_banquet.6003.guard: "\nOne of my guards is close to the brawl, and looks to me for the order to intervene." #NT!
+ coronation_banquet.6003.a: "Throw [fighter_2.GetFirstNameNoTooltip] out to cool off." #NT!
+ coronation_banquet.6003.b: "Restrain [fighter_1.GetFirstNameNoTooltip] until things calm down." #NT!
+ coronation_banquet.6003.c: ""Halt! We will talk about this later."" #NT!
+  
+  
+ coronation_banquet.6101.t: "Troubled [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('troubled_guest'))|U]" #NT!
+ coronation_banquet.6101.desc_opening: "The pleading gaze I receive from my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('troubled_guest'))] [troubled_guest.GetFirstName] is taking on a desperate tone. A group of guests are approaching the corner [troubled_guest.GetSheHe] has hid in all evening, and the walls are hindering [troubled_guest.GetHerHis] escape.\n\n" #NT!
+ coronation_banquet.6101.desc_liked: "The poor [troubled_guest.GetWomanMan] has never been good with people!" #NT!
+ coronation_banquet.6101.desc_disliked: "To think a [troubled_guest.GetTitleTierName] would act in such a way..." #NT!
+ coronation_banquet.6101.desc_disliked_unlanded: "To think my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('troubled_guest'))] would act in such a way..." #NT!
+ coronation_banquet.6101.a: "I will distract the converging guests." #NT!
+ coronation_banquet.6101.b: "Come now, [troubled_guest.GetFirstNameNoTooltip]. Tell us a story!" #NT!
+ coronation_banquet.6101.c: "[troubled_guest.GetFirstNameNoTooltip]! I need to talk to you. In private." #NT!
+ coronation_banquet.6101.c.tt: "We could both use a break..." #NT!
+  
+ coronation_banquet.6111.t: "The Conversation Partner" #NT!
+ coronation_banquet.6111.desc: "As one plate of food is replaced by the next, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_talk_to'))] [guest_to_talk_to.GetTitledFirstName] goes on and on about [guest_to_talk_to.Custom('subject_of_interest')].\n\n"...and that was how we salvaged that mess! Are you sure I am not boring you, my [ROOT.Char.GetLadyLord]?"" #NT!
+ coronation_banquet.6111.a: "No no, please, do go on!" #NT!
+ coronation_banquet.6111.b: "Why don't we talk more about you instead?" #NT!
+ coronation_banquet.6111.c: "You making a fool of yourself could never bore me!" #NT!
+ coronation_banquet.6111.d: "Have I told you about [ROOT.Char.GetPromotedLegend.GetName]?" #NT!
+ coronation_banquet.6111.d.success: "Your legend is captivating" #NT!
+ coronation_banquet.6111.d.failure: "You are boring" #NT!
+ coronation_banquet.6111.e: "Fascinating, yes, but let's discuss my rule, shall we?" #NT!
+ every_evil_guest_scope_tt: "Jeder verständnislose Gast"
+  
+ coronation_banquet.6121.t: "Tastefully Insulting" #NT!
+ coronation_banquet.6121.desc: "As plate after plate of food is brought into the great hall, an unmistakable smell reaches me, and I smile. That my [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('hated_guest'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hated_guest'))] [hated_guest.GetTitledFirstName] is sensitive to [ROOT.GetCharacter.Custom('GetFoodDetail')] is something I #EMP sadly#! forgot to tell the cook.\n\n"I bid you all welcome, and I pray you will find the food to your liking."" #NT!
+ coronation_banquet.6121.a: "Especially you, [hated_guest.GetFirstNameNoTooltip]. #EMP Enjoy#!!" #NT!
+ coronation_banquet.6121.b: "[hated_guest.GetHerHis|U] face as I 'save' [hated_guest.GetHerHim] from the food is definitely to my liking!" #NT!
+  
+ coronation_banquet.6231.t: "Disaster Strikes" #NT!
+ coronation_banquet.6231.desc: ""My [ROOT.Char.GetLadyLord]. The wine... We cracked open the next barrel – it has gone bad. It has #EMP all#! gone bad!"\n\nThe feast is still raging, but without drink the mood is sure to dwindle at a cruel pace." #NT!
+ coronation_banquet.6231.a: "The wine merchant should still be in town!" #NT!
+ every_drunkard_guest_scope_tt: "Jeder anwesende Trunkenbold"
+ coronation_banquet.6231.b: "We all have to pitch in. Come on now." #NT!
+ coronation_banquet.6231.c: "Time to crack open my secret stores." #NT!
+  
+ coronation_banquet.6251.t: "The Dilemma" #NT!
+ coronation_banquet.6251.desc: "The feast is dwindling down, and I find myself deep in conversation with my [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('guest'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))] [guest.GetTitledFirstName].\n\n[guest.GetSheHe|U] inquires about my opinion on [guest.Custom('subject_of_interest')] – a subject [guest.GetSheHe] is deeply interested in [guest.GetHerselfHimself]." #NT!
+ coronation_banquet.6251.a: "It's a subject that fascinates me as well!" #NT!
+ coronation_banquet.6251.b: "I could not care less." #NT!
+ coronation_banquet.6251.c: "I am more interested in #EMP you#!...!" #NT!
+  
+ coronation_banquet.6261.t: "To Serve Man" #NT!
+ coronation_banquet.6261.desc_lunatic: ""I have personally given a helping hand in preparation for the meal, and I hope the result will delight!"" #NT!
+ coronation_banquet.6261.desc_not_lunatic: ""The cook's assistant gave his body and soul to prepare this meal, and I hope the result will delight!"" #NT!
+ coronation_banquet.6261.desc_cannibal_guest: "\n\nAs we sit down to eat, I cannot help but notice that my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('cannibal_guest'))] [cannibal_guest.GetTitledFirstName] especially seems to enjoy the food." #NT!
+ coronation_banquet.6261.desc_concerned_guest: "\n\nAs we sit down to eat, however, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('concerned_guest'))] [concerned_guest.GetTitledFirstName] only pokes at the food placed in front of [concerned_guest.GetHerHim] and looks at me with suspicion." #NT!
+ coronation_banquet.6261.a_exposed: "It's almost as if [concerned_guest.GetSheHe] doesn't trust me!" #NT!
+ coronation_banquet.6261.a: "Let [concerned_guest.GetHerHim] suspect whatever [concerned_guest.GetSheHe] wants." #NT!
+ coronation_banquet.6261.b: "Bring the [concerned_guest.GetTitleTierName] something else to eat." #NT!
+ coronation_banquet.6261.c: "I think we might have a lot of dietary ideas to discuss!" #NT!
+  
+ coronation_banquet.6301.t: "Artifactual Liability" #NT!
+ coronation_banquet.6301.desc: "In the midst of the festivities, the captain of the guard hurries towards me.\n\n"My [ROOT.Char.GetLadyLord], it seems that someone has [feast_target_artifact.Custom('DamageArtifactAction')] the [feast_target_artifact.GetName]! The evidence points toward my [ROOT.Char.GetLadyLord]'s [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('feast_artifact_culprit'))], [feast_artifact_culprit.GetTitledFirstNameNoTooltip], who has been acting strange this evening." [captain_of_the_guard_dummy.GetSheHe|U] glances in [feast_artifact_culprit.GetFirstNamePossessiveNoTooltip] direction.\n\n"What would my [ROOT.Char.GetLadyLord] have me do?"" #NT!
+ coronation_banquet.6301.desc_learning_guard: "\n\n[feast_target_artifact.Custom('DamageArtifactActionFollowup')]" #NT!
+ coronation_banquet.6301.desc_learning: "\n\nLooking over, [feast_artifact_culprit.GetTitledFirstNameNoTooltip] does look quite unsettled." #NT!
+ coronation_banquet.6301.a: "Detain [feast_artifact_culprit.GetTitledFirstNameNoTooltip] at once!" #NT!
+ coronation_banquet.6301.b: "Bring [feast_artifact_culprit.GetHerHim] to me." #NT!
+ coronation_banquet.6301.b.tt: "[feast_artifact_culprit.GetTitledFirstNameNoTooltip] better pay for the damages." #NT!
+ coronation_banquet.6301.b.tt_innocent: "[feast_artifact_culprit.GetTitledFirstNameNoTooltip] is innocent" #NT!
+ coronation_banquet.6301.b.tt_guilty: "[feast_artifact_culprit.GetTitledFirstNameNoTooltip] is guilty" #NT!
+ coronation_banquet.6301.c_learning: "I believe you know more than you let on, captain..." #NT!
+ coronation_banquet.6301.c.tt: "You dispose of your conniving captain." #NT!
+ coronation_banquet.6301.d: "I never liked that piece anyway." #NT!
+  
+  #...turns out the suspect was innocent after all 
+ coronation_banquet.6302.t: "Innocence Talks" #NT!
+ coronation_banquet.6302.t_lover: "Innocence Lays Here" #NT!
+ coronation_banquet.6302.desc_intro: "[feast_trusted_friend.GetTitledFirstNameNoTooltip] approaches me in my study. "My dear [feast_trusted_friend.Custom2('RelationToMe', ROOT.Char)], I only recently learned of [feast_artifact_culprit.GetFirstNamePossessiveNoTooltip] imprisonment."" #NT!
+ coronation_banquet.6302.desc_secret_lover: "\n\n[feast_trusted_friend.GetSheHe|U] glances at me nervously. "That may have been a mistake — I was... watching... [feast_artifact_culprit.GetTitledFirstNameNoTooltip] at the time of the incident and it can't possibly have been [feast_artifact_culprit.GetHerHim]."\nA distinct blush spreads across [feast_trusted_friend.GetHerHis] cheeks." #NT!
+ coronation_banquet.6302.desc_spirited_debate: "\n\n[feast_trusted_friend.GetSheHe|U] gives me a calm but concerned look. "I distinctly remember [feast_artifact_culprit.GetHerHim] having a spirited debate with [feast_debatee_character.GetTitledFirstNameNoTooltip] at the time of the incident, so it is unfortunately impossible for [feast_artifact_culprit.GetHerHim] to have been the culprit."" #NT!
+ coronation_banquet.6302.a: "To err is human." #NT!
+ coronation_banquet.6302.a.tt: "[feast_artifact_culprit.GetTitledFirstNameNoTooltip] will remember this." #NT!
+ coronation_banquet.6302.a_lover: "#EMP [feast_trusted_friend.GetTitledFirstNameNoTooltip]!#!" #NT!
+ coronation_banquet.6302.b: "Let's keep this to ourselves." #NT!
+ coronation_banquet.6302.b.tt: "I'm sure [feast_artifact_culprit.GetTitledFirstNameNoTooltip] is guilty of #EMP something#!." #NT!
+ coronation_banquet.6302.b.tt_callous: "[feast_artifact_culprit.GetTitledFirstNameNoTooltip] makes a fine addition to my prisoners." #NT!
+  
+ coronation_banquet.6351.t: "Collateral Damage" #NT!
+ coronation_banquet.6351.desc_intro: "I have barely managed to sit down at my seat when I hear a howl emanating from [coronation_feast_default_6351_fighter_2.GetTitledFirstNameNoTooltip]. It would seem [coronation_feast_default_6351_fighter_2.GetSheHe] and [coronation_feast_default_6351_fighter_1.GetTitledFirstNameNoTooltip] have really gotten into it, as [coronation_feast_default_6351_fighter_2.GetFirstNameNoTooltip] is receiving a proper [coronation_feast_default_6351_fighter_1.GetWomanMan]handling from [coronation_feast_default_6351_fighter_1.GetFirstNameNoTooltip]. Too late I realize their martial dance has paved its way straight through the [feast_target_artifact.GetName]!" #NT!
+ coronation_banquet.6351.desc_calm: "\n\nI motion for my guards to separate the two, hissing and clawing at each other." #NT!
+ coronation_banquet.6351.desc_wrathful:0 "\n\nI yell at them from across the hall: "\n\nI yell at them from across the hall: "#EMP What is the meaning of this!#!"" #NT!
+ coronation_banquet.6351.desc_outro: "\n\nThe duo is presented in front of me, all the while throwing blame on one another for starting the fight." #NT!
+ coronation_banquet.6351.a: "[coronation_feast_default_6351_fighter_1.GetTitledFirstNameNoTooltip], how could you?" #NT!
+ coronation_banquet.6351.a_wrathful: "[coronation_feast_default_6351_fighter_1.GetTitledFirstNameNoTooltip], #EMP how dare you!#!" #NT!
+ coronation_banquet.6351.a.tt: "Make [coronation_feast_default_6351_fighter_1.GetTitledFirstNameNoTooltip] pay for the damages." #NT!
+ coronation_banquet.6351.b: "Why would you let [coronation_feast_default_6351_fighter_1.GetHerHim] provoke you, [coronation_feast_default_6351_fighter_2.GetTitledFirstNameNoTooltip]?" #NT!
+ coronation_banquet.6351.b_wrathful: "My patience wears thin, [coronation_feast_default_6351_fighter_2.GetTitledFirstNameNoTooltip]..." #NT!
+ coronation_banquet.6351.b.tt: "Make [coronation_feast_default_6351_fighter_2.GetTitledFirstNameNoTooltip] pay for the damages." #NT!
+ coronation_banquet.6351.c: "Never mind who started it. You're both responsible." #NT!
+ coronation_banquet.6351.c_wrathful: "#EMP Enough!#! You're both paying for the damages." #NT!
+ coronation_banquet.6351.c.tt: "Make both of them pay for the damages." #NT!
+ coronation_banquet.6351.d: "In [ROOT.Char.GetFaith.HighGodName]'s name, I shall turn the other cheek." #NT!
+ coronation_banquet.6351.d.tt: "Let [ROOT.Char.GetFaith.HighGodName] sort them out." #NT!
+ coronation_banquet.6351.e: "These things happen. It wasn't my favorite piece." #NT!
+ coronation_banquet.6351.e_wrathful: "#EMP Luckily for you dimwits#!, I never liked that piece..." #NT!
+ coronation_banquet.6351.e.tt: "Let them off the hook." #NT!
+  
+ coronation_banquet.6501.t: "The Innuendo" #NT!
+ coronation_banquet.6501.desc.opening: ""I know what I said, I just don't understand why you find it so funny?"\n\n[innocent_guest.GetTitledFirstName] cocks [innocent_guest.GetHerHis] head to the side while I withhold my chortle. I haven't told [innocent_guest.GetHerHim] that what [innocent_guest.GetSheHe] said could be interpreted as something lewd.\n\n" #NT!
+ coronation_banquet.6501.joke_a: ""If you squeeze the head, a thick substance will pour out!"" #NT!
+ coronation_banquet.6501.joke_b: ""I'm having a hard time understanding this dialect, and I heard you are a cunning linguist!"" #NT!
+ coronation_banquet.6501.joke_c: ""She had a lovely chest on display in the courtroom!"" #NT!
+ coronation_banquet.6501.desc.ending_solo: "\n\nAm I alone in thinking this is funny? I won't know unless I speak up. Is it worth risking embarrassing [innocent_guest.GetFirstNameNoTooltip] for a joke?" #NT!
+ coronation_banquet.6501.desc.ending_duo: "\n\nI may not be alone in thinking this is funny either; [fellow_pervert.GetTitledFirstName] spat out some of [fellow_pervert.GetHerHis] drink when [innocent_guest.GetTitledFirstNameNoTooltip] repeated [innocent_guest.GetHerselfHimself]. The two could share the same kind of crude humor as I, or they could be offended by it. I won't know what either thinks unless I speak up." #NT!
+ coronation_banquet.6501.a: "I, uh... Nevermind..." #NT!
+ coronation_banquet.6501.b: "Repeat what you said, but slowly. Really think about it." #NT!
+ coronation_banquet.6501.b.tt: "#F You take the risk of embarrassing [innocent_guest.GetTitledFirstNameNoTooltip] hoping that you share the same kind of humor" #NT!
+ coronation_banquet.6501.b.success: "[innocent_guest.GetTitledFirstNameNoTooltip] finds the double entendre funny" #NT!
+ coronation_banquet.6501.b.failure: "[innocent_guest.GetTitledFirstNameNoTooltip] is mortified by your perverse humor" #NT!
+  
+ coronation_banquet.8001.t.fire: "From Cinders to Flames" #NT!
+ coronation_banquet.8001.t.knights: "Best Served Cold" #NT!
+ coronation_banquet.8001.desc.sadistic: "The flames lick the roof, and screams echo through the night. I lean my back against the closed door, ignore the horrified faces of my victims, and smile. To allow smoldering resentment to burst into flames is truly the best way to handle dissent!\n\nAs the thumps from the other side grow weaker and weaker I finally allow myself to laugh." #NT!
+ coronation_banquet.8001.desc.compassionate: "I can't lift the eyes from my plate. The [ROOT.Char.Custom('RegionalEdibleMeat')] is almost untouched. My [ROOT.Char.Custom('GetExpensiveDrink_Singular')] intact. I avoid [honorary_guest.GetTitledFirstName] when [honorary_guest.GetSheHe] talks about [honorary_guest.Custom('herhis_subject_of_interest')]. Shame.\n\n"Please, my friend," I excuse myself, leaving the room in a rush. I breathe heavily. It's what #EMP needs#! to be done. I give a sign to one of the servants and close my eyes.\n\nFlames, then screams." #NT!
+ coronation_banquet.8001.desc.just: "Everyone else has left. Everyone — except for my honorary guest and [honorary_guest.GetHerHis] magnificent entourage. I take a sip from my cup, as [ROOT.GetCharacter.Custom('GetIncidentalDetailPresent')]. They must not suspect. "Excuse me," I lock eyes with [honorary_guest.GetTitledFirstName] before I leave. No one must know. No one will know.\n\nAs I give an order to close the doors I take a second to breathe. What's right is not always kind.\n\nSoon, the flames appear, and the screams follow." #NT!
+ coronation_banquet.8001.desc.random_1: "The conversation with [honorary_guest.GetTitledFirstName] couldn't be more amicable. My eyes wander towards the [host.Custom('GetExpensiveDrink_Singular')] as [honorary_guest.GetSheHe] goes on a long lecture on [honorary_guest.Custom('herhis_subject_of_interest')]. All the other guests have left. Of course, they wouldn't want to interrupt the important matters that my honorary guest wishes to discuss.\n\nThe poison is tasteless. Undetectable." #NT!
+ coronation_banquet.8001.desc.random_2: "The music and dancing has reached volumes that make talking almost impossible. The cupbearer replenishes [honorary_guest.GetTitledFirstNamePossessive] goblet and our eyes meet for just one moment.\n\n"[ROOT.Char.GetHouse.GetMotto]," I mutter, as [honorary_guest.GetFirstNameNoTooltip] chokes on the poison." #NT!
+ coronation_banquet.8001.a: "Finally... They are gone." #NT!
+ medieval_dance_carole: "Carole"
+ medieval_dance_round: "Reigen"
+ medieval_dance_ring: "Kreistanz"
+ medieval_dance_estampie: "Estampie"
+ medieval_dance_couple: "Paartanz"
+ murder_feast_entourage_murder_log_title: "Massaker"
+ murder_feast_entourage_murder_log: "[CHARACTER.GetShortUIName|U] und [CHARACTER.Custom('DE_PRO_POS_S_3P')] Gefolge sind auf mysteriöse Weise gestorben"
+ murder_feast_solo_murder_log: "[CHARACTER.GetShortUIName|U] starb unter geheimnisvollen Umständen"
+ murder_feast_solo_murder_log_title: "Ein bedauerlicher Vorfall"
+  
+ coronation_banquet.8002.t: "A Knife in the Dark" #NT!
+ coronation_banquet.8002.t.poison: "Another Drink" #NT!
+ coronation_banquet.8002.desc.random_2: "Finally. It's just me and [honorary_guest.GetTitledFirstName]. All alone. "A word, my friend." All the other guests have started dancing and the music can reach us, muffled, through the stone walls. An echo. Maybe [honorary_guest.GetHerHis] echo will also be heard.\n\n[honorary_guest.GetFirstNameNoTooltip] raises [honorary_guest.GetHerHis] eyebrow, one of my $knight_culture_player_plural_no_tooltip_lowercase$ is serving [honorary_guest.GetHerHim] more drink. "Are there any important matters?," [honorary_guest.GetSheHe] asks. The goblet almost touches [honorary_guest.GetHerHis] lips. Almost. A muffled sound through the stone walls. [honorary_guest.GetHerHis|U] throat has been cut. An echo." #NT!
+ coronation_banquet.8002.desc.sadistic: ""Come this way, [honorary_guest.GetFirstName], I shall show you the new brooch I commissioned for you. A fine gift for the finest of guests."\n\nI lead the way, and [honorary_guest.GetSheHe] follows, as [ROOT.GetCharacter.Custom('GetIncidentalDetailPresent')]. "Here it is," I announce, opening the door to a small, dimly lit room. I can see the confusion in [honorary_guest.GetHerHis] eyes — only for a moment. The realization is quick enough. "No... you can't."\n\n"Oh, I assure you I will."" #NT!
+ coronation_banquet.8002.desc.just: "The moment has come. I stare at [honorary_guest.GetTitledFirstName] as [honorary_guest.GetSheHe] [honorary_guest.Custom('quirk_pos_present')]. A shame, but it must be done. "May I ask you for a walk?," my question is eagerly answered with an inquisitive smile. "What governmental matters concern our [ROOT.Char.GetTitleAsNameNoTooltip]?"\n\nMany. Soon, one less.\n\nI lead the way to one of the smallest chambers. The door closes behind. The fire starts. A clean move." #NT!
+ coronation_banquet.8002.a: "It's done." #NT!
+  
+ coronation_banquet.8003.t: "An Unfortunate Accident" #NT!
+ coronation_banquet.8003.desc.poison: "All the guests seem to be focused on the songs and the dancing. Few remain still seated. Thankfully, my conversation with [honorary_guest.GetTitledFirstName] seems to be enough to keep [honorary_guest.GetHerHim] around. "An excellent feast," [honorary_guest.GetSheHe] says, leaving [honorary_guest.GetHerHis] goblet alone to take another bite.\n\n"Ah, you warm my heart," I reply, as I give a signal to my cup bearer. This will be [honorary_guest.GetHerHis] last feast. My eyes encounter [honorary_guest.GetFirstNamePossessiveNoTooltip]. A moment of doubt." #NT!
+ coronation_banquet.8003.desc.compassionate: "I hasten to clean the sweat drops falling down my forehead, clutching the handkerchief with more strength than needed. [honorary_guest.GetTitledFirstName] talks about [honorary_guest.Custom('subject_of_interest')], and I can't keep my eyes focused. "A moment..." I excuse myself as I see [honorary_guest.GetHerHim] bringing [honorary_guest.GetHerHis] goblet close to [honorary_guest.GetHerHis] lips.\n\nI know what it contains." #NT!
+ coronation_banquet.8003.desc.sadistic: ""Please, my friend, let me fill up your goblet for you are my most beloved guest," I offer with the warmest smile. [honorary_guest.GetTitledFirstName] nods, offering me [honorary_guest.GetHerHis] cup. The guests have started a [ROOT.Char.Custom('GetMedievalDance')], and their uproar is distracting enough.\n\nI pour the poison from my ring with the utmost care. "I hope you're thirsty."" #NT!
+ coronation_banquet.8003.a: "#EMP A toast.#!" #NT!
+ coronation_banquet.8003.a.success: "[honorary_guest.GetShortUIName] drinks from the goblet" #NT!
+ coronation_banquet.8003.a.failure: "[honorary_guest.GetShortUIName] doesn't drink" #NT!
+  
+ coronation_banquet.8004.t: "Keep Your Eyes Open" #NT!
+ coronation_banquet.8004.desc.intro: "I take a sip of my [host.Custom('RegionalDrink')] as the evening approaches its end. My eyes have grown tired, but" #NT!
+ coronation_banquet.8004.desc.goh_intro: "[host.GetTitledFirstName] insists that I stay behind to discuss the matters of the realm. "As I was saying," [host.GetSheHe] continues, oblivious to my concealed yawns.\n\n" #NT!
+ coronation_banquet.8004.desc.goh_solo: "$coronation_banquet.8004.desc.goh_intro$But when I open my eyes again, I see a silver gleam. "The feast ends here."" #NT!
+ coronation_banquet.8004.desc.goh_group: "$coronation_banquet.8004.desc.goh_intro$"Help!" A scream interrupts the conversation. "#EMP Help!#!" Another. When I look around I see the silvery gleam of the swords. And one of them is pointing directly at me.\n\n"It's over, [murder_victim.GetTitleAsNameNoTooltip]."" #NT!
+ coronation_banquet.8004.desc.fallback: "[host.GetTitledFirstName] has insisted that [honorary_guest.GetTitledFirstName] stays behind for a very, very important talk. And, of course, [honorary_guest.GetHerHis] entourage must accompany [honorary_guest.GetHerHim]." #NT!
+ coronation_banquet.8004.a: "Wait... what is going on?" #NT!
+ coronation_banquet.8004.a.tt.success: "You die" #NT!
+ coronation_banquet.8004.a.tt.success.host: "[murder_victim.GetShortUIName] has died" #NT!
+ coronation_banquet.8004.a.tt.failure: "You survive" #NT!
+ coronation_banquet.8004.a.tt.failure.host: "[murder_victim.GetShortUIName] survived" #NT!
+ coronation_banquet.8004.a.goh_murder.tt: "[honorary_guest.GetShortUIName] dies" #NT!
+ every_attending_travel_companion_goh: "Jedes Mitglied Eures Gefolges"
+  
+ coronation_banquet.8052.t: "An Abrupt Ending" #NT!
+ coronation_banquet.8052.desc: ""Fire!"\n\nAs panic spreads among the guests I look around for [host.Custom2('MyCharacterIntroduction', ROOT.Char)] but find [host.GetHerHis] chair empty.\n\nThe fire spreads fast – [ROOT.Char.Custom('RegionalDrink')]-stained cloth and overdressed attendees burn quickly. My skin is blistering, #EMP peeling#!, and I scream; but soon even that is impossible as the billowing smoke smothers my cries." #NT!
+ coronation_banquet.8052.a: "I always wanted to go out in blazing glory..." #NT!
+  
+ coronation_banquet.8061.t.fire: "Fire! Fire...?" #NT!
+ coronation_banquet.8061.t: "$feast.7151.t$" #NT!
+ coronation_banquet.8061.desc.fire: "[host.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ushers me and a handful of others out of the feast hall before trying to close the door.\n\nHowever — before [host.GetSheHe] can manage — cries rise up from within, and all attendees spill out into the night as flames starts to rise from the feast hall." #NT!
+ coronation_banquet.8061.desc.fail: "$feast.7151.desc$" #NT!
+ coronation_banquet.8061.desc.fail_me: "My hands still tremble after the incident last night, and the mercenaries that were supposed to take my life have been imprisoned by [host.GetTitledFirstName].\n\nHowever, this uneasy sentiment cannot easily go away." #NT!
+ coronation_banquet.8061.desc.death_alone: "The mood is more somber than I would have hoped for when we prepare to leave [host.GetTitledFirstNamePossessive] feast. The corpse of my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('murder_guest'))] [murder_guest.GetTitledFirstName] has been found, still warm on the floor.\n\nDeath has haunted these walls and the drink has gone sour on our lips." #NT!
+ coronation_banquet.8061.a: "I guess the feast is now over." #NT!
+ coronation_banquet.8061.a.good: "[murder_guest.GetFirstNameNoTooltip]... gone like this." #NT!
+  
+ coronation_banquet.9001.t: "As My Guests Depart" #NT!
+ coronation_banquet.9001.desc_exotic: "With everyone headed home with bellies full of exotic delicacies, I am proud to say that the feast was a success!" #NT!
+ coronation_banquet.9001.desc_lavish: "With all my guests leaving my castle with the entire contents of my vast pantry in their bellies, I am proud to say that the feast was a success!" #NT!
+ coronation_banquet.9001.desc_meager: "With all my guests having done fighting for the last of my meager table scraps, it gives me great relief to watch them finally leave with loose clothing and growling bellies." #NT!
+ coronation_banquet.9001.desc: "With everyone headed for their respective homes, I am proud to say that the feast was a success!" #NT!
+ coronation_banquet.9001.spouse: "\n\nI have my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] [spouse.GetFirstName] to thank for much of its success, and I feel nothing but gratitude as [spouse.GetSheHe] sees the last few guests off." #NT!
+ coronation_banquet.9001.no_spouse: "Nevertheless, I am still grateful that the endeavor is over for now." #NT!
+ coronation_banquet.9001.a: "Until next time!" #NT!
+  
+ coronation_banquet.9002.desc_exotic: "What a feast! Before coming, I could have never imagined the exotic delicacies I would sample in my time in [host.GetTitledFirstNamePossessive] halls. This was a feast I will never forget!" #NT!
+ coronation_banquet.9002.desc_lavish: "What a feast! Before coming, my clothes were slack and ill-fitting, now I stagger out of [host.GetTitledFirstNamePossessive] halls twice as full of food and merriment as when I arrived! This was a feast I will struggle to forget!" #NT!
+ coronation_banquet.9002.desc_meager: "What a feast? Though usually I would expect far more food from a feast, I leave [host.GetTitledFirstNamePossessive] halls hungry, but at least the company was good. This was a feast I wish I could forget." #NT!
+ coronation_banquet.9002.desc: "What a feast! I will remember the days spent in [host.GetTitledFirstNamePossessive] halls for a long time to come." #NT!
+ coronation_banquet.9002.desc_ending: "\n\nNow it is time to wash off the traces of merriment and wine, and once more resume my duties as a [ROOT.Char.GetLadyLord] of the realm." #NT!
+ coronation_banquet.9002.a: "Farewell, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))]!" #NT!
+ coronation_banquet.5010.t: "A Legendary Silence" #NT!
+ coronation_banquet.5010.desc: "In all the celebration and revelry, there is a lull in conversation across the entirety of the attendees. [rando_guest.GetName|U] are the only ones still exchanging words, but I feel myself compelled into silence as eyes begin to fall on me.\n\nPerhaps this quiet moment is my opportunity to talk about [ROOT.Char.GetPromotedLegend.GetName]." #NT!
+ coronation_banquet.5010.a: "[rando_guest.GetFirstName|U], let me tell you a story." #NT!
+ coronation_banquet.5010.a.success: "[rando_guest.GetFirstName|U] is impressed" #NT!
+ coronation_banquet.5010.a.failure: "[rando_guest.GetFirstName|U] is bored" #NT!
+ coronation_banquet.5010.b: "Everyone must hear the legend." #NT!
+ coronation_banquet.5010.c: "Finally, a moment of silence." #NT!
+  
+ coronation_banquet.5020.t: "Quiet" #NT!
+ coronation_banquet.5020.desc: "Mugs clash, chatter blares, hands slam on the table, all in a chaotic cacophony of meaningless noise. I feel the sound pulse through my body, then suddenly it all comes to a slow around me, little more than a few words and the odd chuckle.\n\nIn this silence, I feel my heart begin to swirl and in my mind a speech comes to me fully written, growing from a whisper to a shout, desperate to be shared! A speech of my legitimacy as [ROOT.Char.GetTitleAsNameNoTooltip|U]." #NT!
+ coronation_banquet.5020.a: "I have the wit of [ROOT.Char.GetFaith.TricksterGodName]!" #NT!
+ coronation_banquet.5020.a.success: "Your speech rouses the guests" #NT!
+ coronation_banquet.5020.a.failure: "Your speech does little to inspire" #NT!
+ coronation_banquet.5020.b: "[ROOT.Char.GetFaith.KnowledgeGodName|U] acts through me!" #NT!
+ coronation_banquet.5020.c: "I have the heart and stomach of [ROOT.Char.GetFaith.WarGodName]!" #NT!
+ coronation_banquet.5020.d: "Why sully such a silence?" #NT!
+  
+  
+  #A Friend Is Monopolizing Your Attention 
+ coronation_banquet.1310.t: "Can't Get Away" #NT!
+ coronation_banquet.1310.desc_host: "As the [ROOT.Char.GetTitleAsNameNoTooltip|U], I know I should be spending time with my guests, but I just can't tear myself away from my friend [friend.GetTitledFirstName]! I can see [other_guest.GetTitledFirstName] starting to glare at me, $coronation_banquet.1310.howlingwithlaughter$" #NT!
+ coronation_banquet.1310.desc_guest: "I know I should be mingling with the other guests, but I just can't tear myself away from my friend [friend.GetTitledFirstName]! I can see [other_guest.GetTitledFirstName] trying to get my attention, $coronation_banquet.1310.howlingwithlaughter$" #NT!
+ coronation_banquet.1310.howlingwithlaughter: "but every time I try to excuse myself [friend.GetFirstNameNoTooltip] has me howling with laughter all over again." #NT!
+ coronation_banquet.1310.a: "What a joy to have [friend.GetFirstNameNoTooltip] here with me!" #NT!
+ coronation_banquet.1310.b: "[other_guest.GetFirstNameNoTooltip], come join us!" #NT!
+ coronation_banquet.1310.c: "Let's sneak out so we can talk properly!" #NT!
+ coronation_banquet.1310.d: "You must excuse me, my friend." #NT!
+ wedding_banquet_bond_log_title: "Bankettbande"
+ wedding_banquet_bond_log: "[CHARACTER.GetUIName|U] und [TARGET_CHARACTER.GetUIName] verbrachten das gesamte Fest mit Reden und Lachen und festigten dabei ihre Freundschaft."
+ coronation_banquet.1310.b.newfriends: "[other_guest.GetFirstNameNoTooltip] gets along with you and [friend.GetFirstNameNoTooltip] splendidly" #NT!
+ coronation_banquet.1310.log.b.newfriends: "[CHARACTER.GetUIName|U] called [TARGET_CHARACTER.GetUIName] to [CHARACTER.GetHerHis] table, and [TARGET_CHARACTER.GetSheHe] got along splendidly with [CHARACTER.GetShortUINamePossessive] friends." #NT!
+ coronation_banquet.1310.log.b.newfriends_title: "$wedding_banquet_bond_log_title$" #NT!
+ coronation_banquet.1310.b.goodtime: "[other_guest.GetShortUIName] has a good time with you and [friend.GetShortUIName]" #NT!
+ wedding_cannot_escape_goodtime_log_title: "Kurzweil"
+ wedding_cannot_escape_goodtime_log: "[CHARACTER.GetUIName|U]  was called over to [TARGET_CHARACTER.GetUINamePossessive] table, and they had a good time together." #NT!
+ wedding_cannot_escape_badtime_log_title: "Blöde Zeit"
+ wedding_cannot_escape_badtime_log: "[CHARACTER.GetUIName|U] wurde an den Tisch von [TARGET_CHARACTER.GetUIName] gerufen, und es brach ein Streit aus"
+ wedding_cannot_escape_friends_log_title: "Neue Freunde"
+ wedding_cannot_escape_friends_log: "[CHARACTER.GetUIName|U] wurde an den Tisch von [TARGET_CHARACTER.GetUIName] gerufen, und sie wurden schnell Freunde"
+ coronation_banquet.1310.b.badtime: "[other_guest.GetShortUIName] and [friend.GetShortUIName] fall into an argument" #NT!
+ wedding_cannot_escape_sneak_log_title: "Kurzer Aufschub"
+ wedding_cannot_escape_sneak_log: "[CHARACTER.GetUIName|U] und [TARGET_CHARACTER.GetUIName] haben sich vom Bankett fortgeschlichen, um zu reden."
+ wedding_cannot_escape_excuse_log_title: "Entschuldigt"
+ wedding_cannot_escape_excuse_log: "[CHARACTER.GetUIName|U] verließ immer wieder seine Freunde, um Zeit mit [TARGET_CHARACTER.GetUIName] zu verbringen."
+ coronation_banquet.1310.d.tt: "Don't worry, [friend.GetFirstNameNoTooltip] will understand." #NT!
+  
+  #A Rival Seeks Forgiveness 
+ coronation_banquet.1320.t: "A Chance to Start Over?" #NT!
+ coronation_banquet.1320.desc_intro: "That detestable [rival.GetTitledFirstName] has been staring at me across the banquet table. Our eyes meet, and I tense for an argument as [rival.GetSheHe] crosses the room towards me. Wait... is [rival.GetSheHe] crying?\n\n" #NT!
+ coronation_banquet.1320.desc_host_vs_spouse: ""Why did you host such a splendid coronation for me?" #NT!
+ coronation_banquet.1320.desc_host_vs_guest: ""Why did you invite me to this splendid coronation?" #NT!
+ coronation_banquet.1320.desc_spouse_vs_guest: ""Why was I invited to your coronation?" #NT!
+ coronation_banquet.1320.desc_guest_vs_host: ""I never thought you'd come." #NT!
+ coronation_banquet.1320.desc_guest_vs_spouse: "$coronation_banquet.1320.desc_guest_vs_host$" #NT!
+ coronation_banquet.1320.desc_spouse_vs_host: ""It must have seemed strange, me hosting your coronation_banquet." #NT!
+ coronation_banquet.1320.desc_guest_vs_guest: ""Seeing you on such a happy occasion has me thinking." #NT!
+ coronation_banquet.1320.desc_outro: " After all that's passed between us..." [rival.GetHerHis|U] eyes fill with tears. "I wish I could take it all back!"" #NT!
+ coronation_banquet.1320.a: "I embrace [rival.GetFirstNameNoTooltip] and let all be forgiven!" #NT!
+ coronation_banquet.1320.a.friendliness: "[rival.GetShortUINameNoTooltip] appreciates your olive branch" #NT!
+ coronation_banquet.1320.a.friend: "[rival.GetShortUINameNoTooltip] embraces your olive branch" #NT!
+ wedding_embraced_rival_log_title: "Rivalen in einer Umarmung"
+ wedding_embraced_rival_log: "[CHARACTER.GetUIName|U] und [TARGET_CHARACTER.GetUIName] fielen einander in die Arme und ließen ihre Rivalität hinter sich!"
+ coronation_banquet.1320.b: "I hurl [host.Custom('GetExpensiveMeal')] in [rival.GetHerHis] smug face." #NT!
+ coronation_banquet.1310.b.nowound: "[rival.GetFirstNameNoTooltip|U] is humiliated" #NT!
+ coronation_banquet.1310.b.wound: "[rival.GetFirstNameNoTooltip|U] slips and hits [rival.GetHerHis] head" #NT!
+ wedding_dished_rival_log_title: "Abservierter Rivale"
+ wedding_dished_rival_log: "[CHARACTER.GetUIName|U] schleuderte [TARGET_CHARACTER.GetUIName|U] einen Teller [CHARACTER.Custom('GetExpensiveMeal')] ins Gesicht."
+ coronation_banquet.1320.c: ""What's forgiveness worth to you?"" #NT!
+ coronation_banquet.1310.c.hook: "[rival.GetFirstNameNoTooltip|U] offers to make it up to you" #NT!
+ coronation_banquet.1310.c.apology: "[rival.GetFirstNameNoTooltip|U] offers you an apology" #NT!
+ coronation_banquet.1310.c.refusal: "[rival.GetFirstNameNoTooltip|U] refuses to grovel" #NT!
+ wedding_hooked_rival_log_title: "Rivale unter Druck"
+ wedding_hooked_rival_log: "[CHARACTER.GetUIName|U] und [TARGET_CHARACTER.GetUIName] haben sich auf ein Ende ihrer Rivalität geeinigt."
+ wedding_apology_rival_log_title: "Rivale entschuldigt sich"
+ wedding_apology_rival_log: "[CHARACTER.GetUIName|U] und [TARGET_CHARACTER.GetUIName] haben sich auf ein Ende ihrer Rivalität geeinigt."
+ wedding_refusal_rival_log_title: "Zänkische Rivalen"
+ wedding_refusal_rival_log: "[TARGET_CHARACTER.GetUIName] hat versucht, sich mit [CHARACTER.GetUIName] zu versöhnen, doch es endete wie immer im Streit."
+ coronation_banquet.1320.d: "I ignore [rival.GetShortUIName] until [rival.GetSheHe] leaves." #NT!
+ coronation_banquet.2010.t: "A Legendary Guest" #NT!
+ coronation_banquet.2010.desc.intro: "As the banquet goes on I find myself thinking of it a bit... underwhelming. No impressive silk or tapestries, the finest gold has no place here — neither do the greatest gems. As I look through the window I find the night sky somehow inspiring.\n\nOut there exists the white game. Freely they roam our woods and among their trees they hide. Hunting one — a legendary deed.\n\nMaybe I could... simply paint one of our [ROOT.Char.Custom('GetAnimalType')] white?" #NT!
+ coronation_banquet.2010.a: "I must hurry, tell my servants to start at once." #NT!
+ coronation_banquet.2010.a.tt: "This will help you #EMP gain renown#!, but a sharp guest may feel suspicious..." #NT!
+ coronation_banquet.2010.b: "The risk is too big." #NT!
+ coronation_banquet.2010.impressed_list: "Every gregarious, reveler, drunkard, brave, hunter or gallant attending guest" #NT!
+ wbanquet_white_animal_opinion: "Legendärer Gast"
+ wbanquet_white_animal_opinion_desc: "This character was impressed by a white animal making an entrance during a coronation banquet" #NT!
+  
+ coronation_banquet.2011.t: "$coronation_banquet.2010.t$: Raising Suspicions" #NT!
+ coronation_banquet.2011.desc:0 "As the [ROOT.Char.Custom('GetAnimalType')] enters the hall, its pale fur shines brightly under the moonlight, an almost phosphorescent fever, an unnatural glow. The deception is almost perfect - a marvel. Guests stand in awe and quickly approach the animal, not daring to touch it, for its nature is sacred.\n\nHowever, I spot [doubting_guest.GetTitledFirstName] among the crowd, rolling [doubting_guest.GetHerHis] eyes: "As the [ROOT.Char.Custom('GetAnimalType')] enters the hall, its pale fur shines brightly under the moonlight, an almost phosphorescent fever, an unnatural glow. The deception is almost perfect - a marvel. Guests stand in awe and quickly approach the animal, not daring to touch it, for its nature is sacred.\n\nHowever, I spot [doubting_guest.GetTitledFirstName] among the crowd, rolling [doubting_guest.GetHerHis] eyes: "Can't you tell it's just paint? [ROOT.Char.GetTitledFirstNameNoTooltip] must take us all for fools."" #NT!
+ coronation_banquet.2011.a: "Ah, no point keeping up the illusion anymore." #NT!
+ coronation_banquet.2011.b: ""How dare you doubt me in the day of my feast?"" #NT!
+ coronation_banquet.2011.b.success: "[doubting_guest.GetFirstNameNoTooltip] reluctantly believes you" #NT!
+ coronation_banquet.2011.b.failure: "[doubting_guest.GetFirstNameNoTooltip] doesn't believe a single word" #NT!
+  
+ coronation_banquet.2020.t: "Not Too Well" #NT!
+ coronation_banquet.2020.desc: "Plates of the finest meals circle around the tables, with [host.Custom('GetExpensiveMeal')] and [host.Custom('GetExpensiveDessert')] filling the room with a delicious smell.\n\n[host.GetTitledFirstName] has really gone overboard with the preparations and the well in the courtyard overflows with [host.Custom('GetExpensiveDrink')] now, collected through a silver bucket with a silver chain.\n\nAs I curiously approach it, I see [drunk_guest.GetTitledFirstName], dangerously tripping over the ground close to it, goblet in hand." #NT!
+ coronation_banquet.2020.a: ""You're gonna get hurt... come over here, friend."" #NT!
+ coronation_banquet.2020.a.success: "You convince [drunk_guest.GetFirstNameNoTooltip] to walk away" #NT!
+ coronation_banquet.2020.a.failure: "[drunk_guest.GetFirstNameNoTooltip] falls into the well" #NT!
+ coronation_banquet.2020.b: "I'll stay here very quietly and watch." #NT!
+ coronation_banquet.2020.b.success: "[drunk_guest.GetFirstNameNoTooltip] doesn't fall down" #NT!
+ coronation_banquet.2020.c: ""There you go!"" #NT!
+ coronation_banquet.2020.c.success: "You successfully push [drunk_guest.GetFirstNameNoTooltip] down the well" #NT!
+ coronation_banquet.2020.c.failure: "[drunk_guest.GetFirstNameNoTooltip] resists your push" #NT!
+ coronation_banquet.2020.c.death: "[drunk_guest.GetFirstNameNoTooltip] dies in the fall" #NT!
+  
+ coronation_banquet.wedding_intent.success.tt: "Your [THIS.Char.GetInvolvedActivityIntent.GetName] intent is successful" #NT!
+  
+ coronation_banquet.2000.t: "A Friend's Friend" #NT!
+ coronation_banquet.2000.desc.intro: "After observing [diplo_target.GetTitledFirstName] from afar, I quickly come to the conclusion that I cannot just approach [diplo_target.GetHerHim] and start talking about the weather, or the latest medical treaties, or war, and pray that that becomes an alliance.\n\nI soon spot [target_friend.Custom2('MyCharacterIntroduction', ROOT.Char)] across the room, known to be [diplo_target.GetFirstNamePossessiveNoTooltip] [SCOPE.sC('diplo_target').Custom2('RelationToMeShort', SCOPE.sC('target_friend'))], happily chugging down goblets of [ROOT.Char.Custom('RegionalAlcoholicDrink')].\n\n"Tell me, where do [diplo_target.GetFirstNamePossessiveNoTooltip] interests lie?" I ask, attentive.\n\n" #NT!
+ coronation_banquet.2000.desc.lustful: ""Hah! Under someone's waist, I can tell you that!"" #NT!
+ coronation_banquet.2000.desc.nerd: ""Just... just talk about books and how much you hate going outside."" #NT!
+ coronation_banquet.2000.desc.valiant: ""Ah, the most valiant of [diplo_target.GetWomenMen], versed in war and its arts."" #NT!
+ coronation_banquet.2000.desc.social: ""Here, obviously! A moment of celebration, of good food, fine drinking and the most exquisite company."" #NT!
+ coronation_banquet.2000.desc.fishy: ""[diplo_target.GetSheHe|U] thrives at court! With great care has [diplo_target.GetSheHe] studied the arts of the shadows."" #NT!
+ coronation_banquet.2000.a: "Fantastic! Let's use this insight at once!" #NT!
+ coronation_banquet.2000.a.tt: "You approach [diplo_target.GetFirstNameNoTooltip]" #NT!
+ coronation_banquet.2000.b: "How do I know I can trust [target_friend.GetHerHim]?" #NT!
+ coronation_banquet.2000.b.success.tt: "This will grant a bonus to [GetScheme('befriend').GetTypeName] [schemes|E] targeting [diplo_target.GetFirstNameNoTooltip]" #NT!
+ coronation_banquet.2000.b.success: "[target_friend.GetFirstNameNoTooltip] appears to be telling the truth" #NT!
+ coronation_banquet.2000.b.failure: "[target_friend.GetFirstNameNoTooltip] is offended by your mistrust" #NT!
+  
+ coronation_banquet.2001.t: "$coronation_banquet.2000.t$" #NT!
+ coronation_banquet.2001.desc: "With my newly acquired knowledge I artfully approach [diplo_target.GetTitledFirstName], who's enjoying the feast and some others' company at a different table, where a rich cloth is laid. "May we have a small word, [diplo_target.GetTitleAsNameNoTooltip]?", I ask, "I wouldn't want to interrupt your parliament."\n\n[diplo_target.GetTitledFirstNameNoTooltip] raises [diplo_target.GetHerHis] eyebrows, a hint of curiosity in [diplo_target.GetHerHis] eyes, "Well, of course. What matters bring you to me, noble [ROOT.Char.GetFirstNameNoTooltip]?"" #NT!
+ coronation_banquet.2001.a: ""Do you want to sneak out and find some... fine guests?"" #NT!
+ coronation_banquet.2001.b: "Nothing is unfortunate if you don't consider it unfortunate, as the philosopher says." #NT!
+ coronation_banquet.2001.b.flavor: "#EMP Nothing is miserable but what you think so#!." #NT!
+ coronation_banquet.2001.b.dull: ""So... did you hear about... a treaty?"" #NT!
+ coronation_banquet.2001.c: ""Did you hear about the baron's campaign? What a siege that was!"" #NT!
+ coronation_banquet.2001.d: ""Please, drink and eat with me, and may this feast last for days!"" #NT!
+ coronation_banquet.2001.e: ""#EMP Psst#!, did you hear the rumors about a courtly plot?"" #NT!
+ coronation_banquet.2000.after.alliance: "[diplo_target.GetShortUINameNoTooltip] considers you a powerful ally" #NT!
+ coronation_banquet.2000.after.alliance.tt: "You enter an alliance with [diplo_target.GetFirstNameNoTooltip]" #NT!
+ coronation_banquet.2000.after.subjugate: "[diplo_target.GetShortUINameNoTooltip] wants you to be [diplo_target.GetHerHis] liege" #NT!
+ coronation_banquet.2000.after.subjugate.tt: "[diplo_target.GetFirstNameNoTooltip] swears fealty to you" #NT!
+ coronation_banquet.2000.after.friends: "[diplo_target.GetShortUINameNoTooltip] considers you a kindred soul" #NT!
+ coronation_banquet.2000.after.insult: "[diplo_target.GetShortUINameNoTooltip] is insulted that you'd think [diplo_target.GetSheHe] would have any interest in that" #NT!
+ coronation_banquet.2000.after.insult.short: "[diplo_target.GetFirstNameNoTooltip] is insulted" #NT!
+ coronation_banquet.2030.desc.intro: "The food and drink flows readily during the banquet as the celebrations continue. Between courses, I spot [coronation_target.GetTitledFirstName|U] surrounded by well-wishers. Grabbing [bastard_scope.GetFirstName|U], I approach the [coronation_target.GetTitleAsNameNoTooltip]. "Your Grace!" I call out, catching [coronation_target.GetHerHis|l] attention.\n\n[coronation_target.GetTitledFirstNameNoTooltip|U] turns, [coronation_target.GetHerHis|l] eyes narrowing with curiosity. "[asking_guest.GetTitledFirstNameNoTooltip|U], what is I can do for you?"" #NT!
+  
+ coronation_banquet.2031.desc: "The food and drink flows readily during the banquet as the celebrations continue. Between courses, I spot [asking_guest.GetTitledFirstName|U] approach with [bastard_scope.GetFirstName|U] following close behind. "Your Grace!" [asking_guest.GetSheHe|U] calls out. [asking_guest.GetTitledFirstNameNoTooltip|U] bows deeply, [bastard_scope.GetFirstNameNoTooltip|U] follows suit.\n\n"[asking_guest.GetTitledFirstNameNoTooltip|U], what is I can do for you?" I ask.\n\n"Your Grace, this is [bastard_scope.GetFirstNameNoTooltip|U]. [bastard_scope.GetSheHe|U] has served faithfully in my household, and I wish to see [bastard_scope.GetHerHim|l] legitimized."\n\nI study [bastard_scope.GetFirstNameNoTooltip|U], then [asking_guest.GetTitledFirstNameNoTooltip|U]. "Your bastard [asking_guest.Custom2('RelationToMe', SCOPE.sC('bastard_scope'))], you mean."\n\n[asking_guest.GetTitledFirstNameNoTooltip|U] nods. "Yes, Your Grace. [bastard_scope.GetFirstNameNoTooltip|U] is my blood and has proven [bastard_scope.GetHerselfHimself|l] worthy of my name."" #NT!
+ coronation_banquet.2031.desc_hooked: "The food and drink flows readily during the banquet as the celebrations continue. Between courses, I spot [asking_guest.GetTitledFirstName|U] approach with [bastard_scope.GetFirstName|U] following close behind. "Your Grace!" [asking_guest.GetSheHe|U] calls out.\n\n"[asking_guest.GetTitledFirstNameNoTooltip|U], what is I can do for you?" I ask. \n\n[asking_guest.GetTitledFirstNamePossessiveNoTooltip|U] tone changes abruptly from one of deference to one of confidence. "Your Grace, this is [bastard_scope.GetFirstNameNoTooltip|U]. [bastard_scope.GetSheHe|U] has served faithfully in my household, and seeing as I am owed a favor by the crown, I wish to see [bastard_scope.GetHerHim|l] legitimized."" #NT!
+  
+      ################################################## 
+  # #Misc 
+ feasts_mischievous_t1_modifier: "Verschmitztes Lächeln"
+ feasts_mischievous_t1_modifier_desc: "Dieser Charakter wirkt merkwürdig ruhig, wenn die Leute um ihn herum unerwartete, peinliche Unfälle haben."
+  
+ feasts_mischievous_t2_modifier: "Schlingel"
+ feasts_mischievous_t2_modifier_desc: "Die Menschen im Umfeld dieses Charakters sind geplagt von kleinen Unfällen und peinlichen Entdeckungen."
+  
+ feasts_mischievous_t3_modifier: "Unruhestifter"
+ feasts_mischievous_t3_modifier_desc: "Niemand kann es beweisen, doch es ist ein offenes Geheimnis, dass dieser Charakter ständig seinen nächsten „Streich“ plant."
+  
+ feast_learnt_habits_modifier: "Gewohnheiten beobachtet"
+ feast_learnt_habits_modifier_desc: "Die persönlichen Gewohnheiten des Ziels sind den Ränkeschmieden bekannt."
+ feast_learnt_habits_modifier.tt: "$feast_learnt_habits_modifier$: $VALUE|+0=-+$"
+  
+  ################################################## 
+  # #Murder 
+ coronation_banquet.0101.t: "Clear Your Head" #NT!
+ coronation_banquet.0101.desc.intro: "It's a rare person who can go an entire feast without needing at least a little time outside, away from the hubbub, even if only to relieve themselves.\n\nFortunately for me, [intent_target.GetTitledFirstName] is no exception. From a nearby alcove I watch as [intent_target.GetSheHe]" #NT!
+ coronation_banquet.0101.desc.high_place: "stares out of the window of this high, lonely tower. Clearly admiring a view to die for — one good, sharp shove and all my problems are over. It'll even look like an accident." #NT!
+ coronation_banquet.0101.desc.water: "wanders along the edge of [activity.GetHost.Custom('IndefiniteBodyOfWater')] close to the walls. My blackjack clutched in hand, I just need to hit [intent_target.GetHerHim] hard enough that [intent_target.GetSheHe]'s stunned — the water will take care of the rest, and it'll even look like an accident." #NT!
+ coronation_banquet.0101.desc.critter: "traipses the paths of the courtyard. Clutched in my hand (hopefully well-restrained) is a venomous [SCOPE.Custom('VenomousCreature')]. Fierce, deadly, I only need to throw it at a bare patch of skin to let it do its wicked work." #NT!
+ coronation_banquet.0101.desc.rock: "wanders the courtyard's decorations. The rock in my hand has a good heft to it, as well as a wickedly sharp point — one good, clean shot to the skull should be enough to do the dark deed." #NT!
+ coronation_banquet.0101.desc.outro: "\n\nI've got the element of surprise, so if the plan goes awry, bolting in time shouldn't be a problem. Sadly it likely won't take much questioning for [intent_target.GetFirstNameNoTooltip] to note my suspicious absence." #NT!
+ coronation_banquet.0101.a: "Alright, one firm push and..." #NT!
+ coronation_banquet.0101.a.tt.success: "Out [intent_target.GetSheHe] goes!" #NT!
+ coronation_banquet.0101.a.tt.failure: "[intent_target.GetFirstNameNoTooltip] throws [intent_target.GetHerselfHimself] to the side" #NT!
+ coronation_banquet.0101.b: "A sturdy blow, a firm push, and..." #NT!
+ coronation_banquet.0101.b.tt.success: "Stunned, [intent_target.GetFirstNameNoTooltip] crumples beneath the water" #NT!
+ coronation_banquet.0101.b.tt.failure: "[intent_target.GetSheHe|U] topples but is still conscious" #NT!
+ coronation_banquet.0101.c: "The toss has to have #EMP just#! enough power..." #NT!
+ coronation_banquet.0101.c.tt.success: "The [SCOPE.Custom('VenomousCreature')] attacks" #NT!
+ coronation_banquet.0101.c.tt.failure: "The creature bounces off and flees" #NT!
+ coronation_banquet.0101.d: "Alright, I need to hit [intent_target.GetHerHim] square in the head..." #NT!
+ coronation_banquet.0101.d.tt.success: "You catch [intent_target.GetHerHim] on the temple" #NT!
+ coronation_banquet.0101.d.tt.failure: "You miss" #NT!
+ coronation_banquet.0101.e: "Perhaps I'm better off observing?" #NT!
+ coronation_banquet.0101.e.tt.bonus_to_murder_scheme.overwrite: "This will overwrite your potential bonus to [GetScheme('murder').GetTypeName] [ROOT.Char.Var('coronation_feast_events_ewan_0001_bonus_value').GetTitledFirstName]" #NT!
+ coronation_banquet.0101.e.tt.bonus_to_murder_scheme: "You will receive #P [EmptyScope.ScriptValue('coronation_feast_events_ewan_0001_murder_scheme_bonus_added_base_success_value')|=+0]%#! success chance to any [GetScheme('murder').GetTypeName] [scheme|E] you start against [intent_target.GetTitledFirstName] in the next [EmptyScope.ScriptValue('coronation_feast_events_ewan_0001_murder_scheme_bonus_time_to_use_value')|0] years" #NT!
+ coronation_banquet.0101.f: "This was a foolish idea." #NT!
+  
+  
+  ################################################## 
+  # #Seduce 
+ coronation_banquet.0201.t: "Dinner and a Show" #NT!
+ coronation_banquet.0201.desc.intro: "Sitting opposite [intent_target.Custom2('MyCharacterIntroduction', ROOT.Char)] provides me with a veritable treasure trove of ways to tease [intent_target.GetHerHim] without breaking the rules of propriety.\n\n" #NT!
+ coronation_banquet.0201.desc.meat.dramatic_snap: ""... of course, it's all about being", I snap the small bone of [activity.GetHost.Custom('RegionalEdibleAnimal')] I'm holding deftly in two, "#EMP firm#!. Wouldn't you agree?"" #NT!
+ coronation_banquet.0201.desc.meat.sink_teeth: "Slowly, deliberately, I let my teeth sink into the flesh of a #EMP delectable#! morsel of [activity.GetHost.Custom('RegionalEdibleMeat')], gently, yet firmly, tearing the meat away." #NT!
+ coronation_banquet.0201.desc.meat.lick: "With a hearty, yet languid, lick, I collect a heavy mouthful of the sauce coating my portion of [activity.GetHost.Custom('RegionalEdibleAnimal')]. We maintain eye contact the entire time." #NT!
+  # Weird phrasing to write around a/an because I'm not making a damned Article_RegionalRootVegetablePlural custom loc. 
+ coronation_banquet.0201.desc.veggie.suggestive_gesture: "Slowly, teasingly, I run my finger around the curve of a pair of [activity.GetHost.Custom('RegionalRootVegetablePlural')], gently teasing the vegetables with my soft caress. At their end, I drag the slightest hint of nail across their surface, leaving an ever-so-slight scratch." #NT!
+ coronation_banquet.0201.desc.veggie.sink_teeth: "With gusto, I bite firmly into a huge, juicy, #EMP firm#! [activity.GetHost.Custom('RegionalRootVegetable')], letting a little fluid spill out and dribble down my chin. Satisfiedly, my tongue darts out, licking my lips clean." #NT!
+ coronation_banquet.0201.desc.veggie.deep_bite: "With dramatic flair, my upraised hand drops a small chunk of [activity.GetHost.Custom('RegionalRootVegetable')] into my mouth, and I swallow with #EMP audible#! satisfaction. My eyes even roll back a little into my head, for that added element of spice." #NT!
+ coronation_banquet.0201.desc.outro: "\n\nI can see from the look on [intent_target.GetHerHis] face that [intent_target.GetFirstNameNoTooltip] gets my message. What I can't quite discern is [intent_target.GetHerHis] expression — is that lascivious interest or a tumbling stomach? It's alarmingly difficult to say." #NT!
+ coronation_banquet.0201.a: "Perhaps just one more bite, to hammer the point home." #NT!
+ coronation_banquet.0201.a.tt.success: "Why, [ROOT.Char.GetFirstNameNoTooltip]..." #NT!
+ coronation_banquet.0201.a.tt.failure: "What #EMP are#! you doing?" #NT!
+ coronation_banquet.0201.b: "This isn't working. Perhaps [intent_target.GetSheHe] prefers honest talk?" #NT!
+ coronation_banquet.0201.b.tt.success: "Your conversation proves more interesting" #NT!
+ coronation_banquet.0201.b.tt.failure: "By [intent_target.GetFaith.KnowledgeGodName] you're dreary!" #NT!
+ coronation_banquet.0201.c: "This is less... firey than I'd hoped..." #NT!
+  
+  
+  ################################################## 
+  # #Befriend 
+ coronation_banquet.0401.t: "Stomach Rumbling" #NT!
+ coronation_banquet.0401.desc.intro: "It's taken much of the evening to get myself close to [intent_target.GetTitledFirstName] without making it feel forced. After all, the best friendships are natural, and I want [intent_target.GetHerHim] to think this is spontaneous.\n\n" #NT!
+ coronation_banquet.0401.desc.target_personality.flamboyant: ""By [intent_target.GetFaith.WealthGodName]", extols my maybe-friend, barely disguising a belch, "that was a #EMP heavy#! course. And so soon after the last weighty one! It simply sits too heavily in the stomach. I'm simply cannot believe that the servants expect to keep serving their [activity.GetHost.Custom('MistressMaster')], working this poorly."" #NT!
+ coronation_banquet.0401.desc.target_personality.sedate: "The [intent_target.GetWomanMan] picks at [intent_target.GetHerHis] food, pushing a few small morsels around a greasy wooden plate.\n\n"It's all a bit... heavy, isn't it? This course, the course before that, the course before #EMP that#!, and", [intent_target.GetSheHe] nervously eyes a servant bringing out the next round of dishes, "the next one too. So much rich food, all in a row, when what we really need is some innovative palate cleanser."" #NT!
+ coronation_banquet.0401.desc.target_personality.fallback: "The [intent_target.GetWomanMan] gently dabs at the corners of [intent_target.GetHerHis] mouth with a corner of soiled tablecloth, brushing away crumbs of flaky pastry.\n\n"I just hope the next course is a bit lighter", [intent_target.GetSheHe] opines, "the whole point of a feast is to provide a rich, varied culinary experience, and so far this has felt more like it's trying to stuff us than excite us."" #NT!
+ coronation_banquet.0401.a: "Yes — sadly it was just a poor choice, I think." #NT!
+ coronation_banquet.0401.a.tt.success: "You charm [intent_target.GetHerHim] utterly" #NT!
+ coronation_banquet.0401.a.tt.partial_success: "[intent_target.GetSheHe|U]'d like to talk more" #NT!
+ coronation_banquet.0401.a.tt.failure: "You're fun, but not that fun" #NT!
+ coronation_banquet.0401.b: ""You... #EMP do#! realise that this is my feast, yes?"" #NT!
+ coronation_banquet.0401.c: ""Loudly sing the meal's praises."" #NT!
+ coronation_banquet.0401.d: "Switch the subject to something less contentious." #NT!
+  
+  
+  ################################################## 
+  # #Mischief 
+ coronation_banquet.0601.t: "A Mere Jest" #NT!
+ coronation_banquet.0601.desc.intro: "The kitchen is, I think, always the best place to make a little #EMP mischief#!. At least, provided the staff don't catch you.\n\nSo many potential targets, so little time: do I interfere with the tray of [activity.GetHost.Custom('GetExpensiveDrink')], the elaborate central entrée, or the small table of little dishes for the between-courses?\n\nWhatever I choose, I have just the item prepared to ruin someone's night —" #NT!
+  # This next one's for you, dear James. 
+ coronation_banquet.0601.desc.dead_rat: "a particularly pungent dead rat, just about ready to burst." #NT!
+ coronation_banquet.0601.desc.humongous_beetle: "a humongous, currently-exhausted beetle. It should be up and wriggling after it's had a nice rest, though." #NT!
+ coronation_banquet.0601.desc.raw_eyeball: "a single, massive, raw eyeball." #NT!
+ coronation_banquet.0601.desc.used_sponge: "a sponge that has been very... distinctly #EMP used#!." #NT!
+ coronation_banquet.0601.desc.rotten_vegetable: "a stinking [activity.GetHost.Custom('RegionalRootVegetable')] so pungently-mouldy that I'm frankly shocked I've managed to hide it." #NT!
+ coronation_banquet.0601.desc.dodgy_mushroom: "a mushroom that I'm extremely confident will send anyone running for the privy. Probably for the rest of the evening." #NT!
+ coronation_banquet.0601.desc.hank_of_hair: "a small clump of hair from one of the courtyard animals. It's not head-hair." #NT!
+ coronation_banquet.0601.a: "Soil the drinks." #NT!
+ coronation_banquet.0601.a.tt.success: "You're in and out like a demon's whisper" #NT!
+ coronation_banquet.0601.a.tt.failure: "You lack the grace to be stealthy" #NT!
+ coronation_banquet.0601.b: "Spoil the fancy platter." #NT!
+ coronation_banquet.0601.b.tt.success: "$coronation_banquet.0601.a.tt.success$" #NT!
+ coronation_banquet.0601.b.tt.failure: "$coronation_banquet.0601.a.tt.failure$" #NT!
+ coronation_banquet.0601.c: "Foil the side dish." #NT!
+ coronation_banquet.0601.c.tt.success: "$coronation_banquet.0601.a.tt.success$" #NT!
+ coronation_banquet.0601.c.tt.failure: "$coronation_banquet.0601.a.tt.failure$" #NT!
+ coronation_banquet.0601.d: "This is beneath me." #NT!
+  
+  
+  ################################################## 
+  # #Relax 
+ coronation_banquet.0801.t: "A Pleasing Atmosphere" #NT!
+ coronation_banquet.0801.desc.intro: "Ahhh, is there anything more jovial than a good feast?\n\nGuests throng to and fro, eating and chatting while flickering torchlight plays off every wall, light bouncing like laughter around the hall." #NT!
+ coronation_banquet.0801.desc.lustful: "So many delectable... #EMP dishes#! to [ROOT.Char.Custom('SenseObserve_EyeTaste')], so much opportunity for stolen glances, even an illict tryst.\n\nPerhaps two." #NT!
+ coronation_banquet.0801.desc.chaste: "It's just nice to see so many people having fun without resorting to the pleasures of the flesh." #NT!
+ coronation_banquet.0801.desc.gluttonous: "And the food! Oh the food... by [ROOT.Char.GetFaith.HealthGodName], I #EMP love#! a good hearty meal. Or five." #NT!
+ coronation_banquet.0801.desc.temperate: "\n\nOf course, I'm not too keen on the elaborate dishes, but I can enjoy the fine company and good spirits while nibbling on my hunk of bread." #NT!
+ coronation_banquet.0801.desc.greedy: "\n\nAt a feast, everyone's a little greedy for something — truthfully it's relaxing to see the world be so #EMP honest#! for a change." #NT!
+ coronation_banquet.0801.desc.generous: "\n\nThere's something so simply pleasant about the act of feeding others, of all breaking bread and sharing cups in the same room." #NT!
+ coronation_banquet.0801.desc.lazy: "And me? I don't have to move a muscle. People, food, drink, cushions, servants, they all come to me without my having to lift a finger. #EMP Perfection#!." #NT!
+ coronation_banquet.0801.desc.diligent: "Coordinating so many people and servants is an underappreciated task, one with no small degree of subtle difficulty to it, and it's pleasing to see it done well." #NT!
+ coronation_banquet.0801.desc.wrathful: "I #EMP can#! be... something of a victim of apoplexy, at times. But here, now, I'm calm, perhaps even sedate.\n\nThe change of pace is pleasant." #NT!
+ coronation_banquet.0801.desc.calm: "\n\nSome people think a banquet is a hectic place, but to me, they're a bastion of calm and social accord. Everyone sits easier with a full belly and a sloshing cup, after all." #NT!
+ coronation_banquet.0801.desc.patient: "\n\nI even enjoy the waits between courses — they're not just chances to laugh and chat, they let you reflect on the dish you ate and the thought that went into it." #NT!
+ coronation_banquet.0801.desc.impatient: "\n\nA solid banquet is one of the few environments where you rarely have to wait for anything. Want food? It's there. Need a drink? They'll pour you one. Fancy a chat? Good company is everywhere. Bliss." #NT!
+ coronation_banquet.0801.desc.arrogant: "\n\nIt does me good to hobnob with some of my lessers like this, my [ROOT.Char.Custom('FootFeet')] up on a stool, spreading my goodwill amongst the masses of petty nobles." #NT!
+ coronation_banquet.0801.desc.humble: "So many people, come from all over the realm, just to be here. It really gives some perspective on how vast the world is." #NT!
+ coronation_banquet.0801.desc.deceitful: "\n\nI've started a few rumors amongst the throng already, just as a bit of fun. I find it rather sporting to see just how fast a lie can spread, even without any further motive than causing a little chaos." #NT!
+ coronation_banquet.0801.desc.honest: "There's few truer expressions of the mortal experience than this. So naked, so honest — just people enjoying the company of other people." #NT!
+ coronation_banquet.0801.desc.craven: "There's something so reassuring about being around so many people, like nothing can possibly go wrong.\n\nProbably." #NT!
+ coronation_banquet.0801.desc.brave: "We're a motley band, it's true, but here and now I feel like this party could take on the world and win." #NT!
+ coronation_banquet.0801.desc.shy: "I'm happily settled in a corner seat, chatting with a few interesting people.\n\nIt's good to get a chance to be social without being overwhelmed for once." #NT!
+ coronation_banquet.0801.desc.gregarious: "\n\nIt's a shame we couldn't get more guests, just another tableful or so, but not everyone has the party spirit. Not everyone, perhaps, but #EMP I#! do, and I'm as good as a table or two all by myself!" #NT!
+ coronation_banquet.0801.desc.ambitious: "So much opportunity to talk, to meet, to discuss, to plan. Each new conversation is the seed of a new goal, each dish an excuse to add another contact." #NT!
+ coronation_banquet.0801.desc.content: "I can't think of a single thing I'd change. It's all just... perfect." #NT!
+ coronation_banquet.0801.desc.arbitrary: "\n\nOf course, not everything's quite how I'd like it, but that's the nature of these gatherings. Next time things'll be different, and the spice of change gives something to look forward to." #NT!
+ coronation_banquet.0801.desc.just: "\n\nI've always found the natural order of a banquet delightful to behold. Tables neatly laid out, social ranks quietly enforced, everyone happy and laughing and in their proper place. Exactly where they should be." #NT!
+ coronation_banquet.0801.desc.cynical: "Of course, most of them are just here to eat and drink on someone else's coin, but who am I to judge? It's hardly a choice I can blame them for, and the food is #EMP delicious#!." #NT!
+ coronation_banquet.0801.desc.zealous: "\n\nI mumble a quick devotion to [ROOT.Char.GetFaith.HealthGodName], giving thanks for the next wonderful course on its way. Truly this Creation of [ROOT.Char.GetFaith.CreatorName] is filled with wonder, and good fare is certainly not the smallest miracle on offer." #NT!
+ coronation_banquet.0801.desc.paranoid: "\n\nI am constantly alert for any hint of danger, deliberate or accidental, planned or impromptu. There's just enough to match my expectations — not so much that a plot is obvious, not so little that a plot is clearly disguised. Just the way I like it." #NT!
+ coronation_banquet.0801.desc.trusting: "\n\nOf course, with everyone in such good cheer and so much gorgeous food to try, who could bring ill will to such a gathering? No, this is a joyous affair, and I'm joyous with it." #NT!
+ coronation_banquet.0801.desc.compassionate: "It's delightful to see the milk of human kindness being shared so freely." #NT!
+ coronation_banquet.0801.desc.callous: "\n\nNot that I would be #EMP overly#! bothered if the rest of them were having a poor time, but I can still appreciate a pleasant atmosphere. In moderation." #NT!
+ coronation_banquet.0801.desc.sadistic: "I enjoy screams and sobs as much as the next well-adjusted [ROOT.Char.GetTitleAsNameNoTooltip], but cries of merriment can certainly make a nice change of pace." #NT!
+ coronation_banquet.0801.desc.stubborn: "I've considered getting up to meander around like so many others, but that would mean giving up my seat, and I'll be damned if I yield it." #NT!
+ coronation_banquet.0801.desc.fickle: "I think my favorite thing about banquests #EMP has#! to be the food. No, the people. Actually, perhaps the drinks? Or the entertainment, or..." #NT!
+ coronation_banquet.0801.desc.vengeful: "\n\nNaturally, no small amount of it is directed at the server I've just tripped, now covered in slimy appetisers. Serves the bastard right for forgetting to top up my drink last course." #NT!
+ coronation_banquet.0801.desc.forgiving: "\n\nI'm a little worried that the serving staff missed my goblet when last they came round, but there's always next course. In fact, that's one of the lovely things about a banquet — there's #EMP always#! a next course." #NT!
+ coronation_banquet.0801.desc.outro: "\n\nSometimes it's nice to simply sit back and enjoy the little things in life." #NT!
+ coronation_banquet.0801.a: "This is where I want to be." #NT!
+ coronation_banquet.0801.b: "Good folk to mingle with, here." #NT!
+ coronation_banquet.0801.c: "A chance to be seen with the great and the good!" #NT!
+  

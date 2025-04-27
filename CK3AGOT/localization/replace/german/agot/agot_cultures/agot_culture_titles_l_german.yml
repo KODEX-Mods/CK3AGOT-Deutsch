@@ -1,199 +1,210 @@
 ﻿l_german:
- #Vanilla Feudal Add-Ons
- king_feudal_male_independent:0 "[CHARACTER.Custom('KING_FEUDAL_MALE')]" #Übersetzung von MamaSagtNein
- king_feudal_female_independent:0 "[CHARACTER.Custom('KING_FEUDAL_FEMALE')]"
- king_feudal_male_fallback:0 "König"
- king_feudal_female_fallback:0 "Königin"
- kingdom_feudal_independent:0 "Königreich"
-
- #Default LP Feudal tiers
- baron_lp_feudal_male:0 "Lord"
- baron_lp_feudal_female:0 "Lady"
- barony_lp_feudal:0 "Kleinlordschaft"
-
- count_lp_feudal_male:0 "Lord"
- count_lp_feudal_female:0 "Lady"
- county_lp_feudal:0 "Lordschaft"
-
- duke_lp_feudal_male:0 "Lord"
- duke_lp_feudal_female:0 "Lady"
- duchy_lp_feudal:0 "Hochlordschaft"
- duke_lp_feudal_independent:0 "Lord"
- duke_lp_feudal_independent_female:0 "Lady"
- duchy_lp_feudal_independent:0 "Hochlordschaft"
-
- kingdom_lp_feudal:0 "[CHARACTER.Custom('LP_FEUDAL_TITLE')]"
- kingdom_lp_feudal_default:0 "Oberste Lehnsherrschaft"
- kingdom_lp_feudal_independent_default:0 "Königreich"
- kingdom_lp_feudal_independent_rhoynish:0 "Fürstentum"
-
- king_lp_feudal_male:0 "[CHARACTER.Custom('LP_FEUDAL_MALE')]"
- king_lp_feudal_female:0 "[CHARACTER.Custom('LP_FEUDAL_FEMALE')]"
- king_lp_feudal_male_default:0 "Lord"
- king_lp_feudal_female_default:0 "Lady"
- king_lp_feudal_male_targ:0 "Prinz"
- king_lp_feudal_female_targ:0 "Prinzessin"
- king_lp_feudal_independent_rhoynish:0 "Prinz"
- queen_lp_feudal_independent_rhoynish:0 "Prinzessin"
-
- empire_lp_feudal:0 "Königreich"
- empire_iron_throne:0 "Königslande"
- empire_lp_feudal_default:0 "Königreich"
-
- emperor_independent_feudal_male:0 "[CHARACTER.Custom('EMPEROR_FEUDAL_MALE')]"
- emperor_independent_feudal_female:0 "[CHARACTER.Custom('EMPEROR_FEUDAL_FEMALE')]"
- emperor_feudal_male_fallback:0 "König" 
- emperor_feudal_female_fallback:0 "Königin" 
-
- emperor_lp_feudal_male:0 "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_MALE')]"
- emperor_lp_feudal_female:0 "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_FEMALE')]"
- emperor_lp_feudal_male_default:0 "König"
- emperor_lp_feudal_female_default:0 "Königin"
-
-
- principality_lp_feudal:0 "Fürstentum"
- principality_lp_feudal_male:0 "Fürst"
- principality_lp_feudal_female:0 "Fürstin"
-
- prince_lp_kingdom_male:0 "[CHARACTER.Custom('PRINCE_LP_FEUDAL_KINGDOM_MALE')]"
- prince_lp_kingdom_female:0 "[CHARACTER.Custom('PRINCE_LP_FEUDAL_KINGDOM_FEMALE')]"
- prince_lp_kingdom_male_default:0 "Lord"
- prince_lp_kingdom_female_default:0 "Lady"
- prince_lp_kingdom_male_targ:0 "Prinz"
- prince_lp_kingdom_female_targ:0 "Prinzessin"
- prince_lp_feudal_male_dorne:0 "Prinz"
- prince_lp_feudal_female_dorne:0 "Prinzessin"
-
- prince_lp_empire_male:0 "Prinz"
- prince_lp_empire_female:0 "Prinzessin"
-
- #Free Cities
- king_free_city_male_k_lys:0 "Erster Magister" 
- king_free_city_female_k_lys:0 "Erste Magistra" 
- king_free_city_male_k_tyrosh:0 "Archon" 
- king_free_city_female_k_tyrosh:0 "Archontissa"  #https://www.reddit.com/r/AncientGreek/comments/bf2uin/what_would_be_the_female_form_of_the_word_archon/?tl=de
- king_free_city_male_k_myr:0 "Eliat"  #aus dem hochvalyrischen https://discord.com/channels/1088224469769797694/1273997450973286472/1281283196813840430
- king_free_city_female_k_myr:0 "Eliatin" 
- king_free_city_male_k_pentos:0 "Fürst" 
- king_free_city_female_k_pentos:0 "Fürstin" 
- baron_free_city_male:0 "Magister" 
- baron_free_city_female:0 "Magistra" 
- barony_free_city:0 "Bezirk" 
- count_free_city_male:0 "Magister" 
- count_free_city_female:0 "Magistra" 
- county_free_city:0 "Ortschaft"  
- duke_free_city_male:0 "Magister" 
- duke_free_city_female:0 "Magister" 
- duchy_free_city:0 "Stadt" 
- duke_free_city_independent_male:0 "Magister" 
- duke_free_city_independent_female:0 "Magistra" 
- duchy_free_city_independent:0 "Stadt" 
- king_free_city_male:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]"
- king_free_city_female:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]"
- king_free_city_male_fallback:0 "Erster Magister" 
- king_free_city_female_fallback:0 "Erste Magistra" 
- kingdom_free_city:0 "Königreich" 
- king_free_city_male_spouse:0 "Lord" 
- king_free_city_female_spouse:0 "Lady" 
- king_free_city_independent_male:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]" 
- king_free_city_independent_female:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]" 
- king_free_city_independent_male_fallback:0 "Erster Magister" 
- king_free_city_independent_female_fallback:0 "Erste Magistra" 
- kingdom_free_city_independent:0 "Freie Stadt" 
- emperor_free_city_male_spouse:0 "Lord" 
- emperor_free_city_female_spouse:0 "Lady" 
- emperor_free_city_male:0 "[CHARACTER.Custom('EMPIRE_FREE_CITIES_MALE')]"
- emperor_free_city_female:0 "[CHARACTER.Custom('EMPIRE_FREE_CITIES_FEMALE')]"
- emperor_free_city_male_fallback:0 "Konsul" 
- emperor_free_city_female_fallback:0 "Konsulin" 
- empire_free_city:0 "Freistaat" 
- archon_tyrosh_male:0 "Archon" 
- archon_tyrosh_female:0 "Archontissa" 
- triarch_three_daughters_male:0 "Triarch" 
- triarch_three_daughters_female:0 "Triarchin" 
- kingdom_three_daughters:0 "Königreich" 
-
- #Pirate Titles
- baron_pirate_male:0 "Skipper" 
- baron_pirate_female:1 "$baron_pirate_male$" 
- barony_pirate:0 "Piratenbucht" 
- count_pirate_male:0 "Kapitän" 
- count_pirate_female:1 "$count_pirate_male$" 
- county_pirate:0 "Piratenstadt" 
- duke_pirate_male:0 "Piratenfürst" 
- duke_pirate_female:1 "Piratenfürstin" 
- duchy_pirate:0 "Piratenrepublik" 
- king_pirate_male:0 "[CHARACTER.Custom('KINGDOM_PIRATE_MALE')]"
- king_pirate_female:0 "[CHARACTER.Custom('KINGDOM_PIRATE_FEMALE')]"
- king_pirate_male_fallback:0 "Piratenkönig" 
- king_pirate_female_fallback:0 "Piratenkönigin" 
- kingdom_pirate:1 "Piratenkönigreich" 
- emperor_pirate_male:0 "König der Meere" 
- emperor_pirate_female:0 "Königin der Meere"  #Seen klingt zwar cooler, aber der Begriff "See" wird ja eher von Nordeuropäischen Kulturen benutzt, währenddessen das Wort "Meer" von Südeuropäischen Kulturen benutzt wird. Dieser kulturelle Unterschied spiegelt sich so auch in AGOT wieder. 
- empire_pirate:0 "Piratenreich" 
-
- prince_admiral:0 "Fürstadmiral" 
- princess_admiral:0 "Fürstadmiral" 
-
- #Wolfswood Clansman Master Title
- wolfswood_clansman_master_male:0 "Oberhaupt"
- wolfswood_clansman_master_female:0 "Oberhaupt"
-
- #Riverlands
- e_the_riverlands_old:0 "Die Flüsse und Hügel"
-
- #Dorne
- empire_dorne:0 "Fürstentum"
- empire_dorne_male:0 "Fürst"
- empire_dorne_female:0 "Fürstin"
-
- #Magnar
- magnar_count:0 "Magnar"
- magnar_duke:0 "Magnar"
- magnar_king:0 "Magnar"
- magnar_emperor:0 "Magnar des Freien Volks"
-
- #King Flavourisation
- king_stormlands:0 "Sturmkönig"
- queen_stormlands:0 "Sturmkönigin"
- king_north:0 "König"
- queen_north:0 "Königin"
- good_queen:0 "'Gute Königin'"  #keine Ahnung was das hier soll
- bad_queen:0 "'Böse Königin'" 
- king_riverlands:0 "Flusskönig"
- queen_riverlands:0 "Flusskönigin"
- king_dorne:0 "Fürst"
- queen_dorne:0 "Fürstin"
- king_wall:0 "Nachtkönig"
- queen_wall:0 "Nachtkönigin"
-
- #Smaller Kingdoms
- king_the_dreadlands:0 "Roter König"
- queen_the_dreadlands:0 "Rote Königin"
- king_barrows_and_rills:0 "Hügelkönig" 
- queen_barrows_and_rills:0 "Hügelkönigin" 
- king_the_neck:0 "Marschkönig"
- queen_the_neck:0 "Marschkönigin"
- king_tridents_mouth:0 "Narrenkönig"  #Ich denke es bezieht sich entweder auf das Fool's Gate und/oder Florian (The Fool)
- queen_tridents_mouth:0 "Jungfernkönigin"  #Ich denke es bezieht sich auf Maidenpool/Jungfernteich 
- king_the_bay_of_crabs:0 "Wahrer König" 
- queen_the_bay_of_crabs:0 "Wahre Königin" 
- king_runestone:0 "Bronzekönig"
- queen_runestone:0 "Bronzekönigin"
- king_the_red_mountains:0 "Geierkönig" 
- queen_the_red_mountains:0 "Geierkönigin" 
- king_withermoore:0 "Vermummter König"
- queen_withermoore:0 "Vermummte Königin"
- king_yronwood:0 "Das Königsblut"  #Canon ist der ganze Titel "das Königsblut"; sollte wir den Artikel dazu nehmen oder weglassen?
- queen_yronwood:0 "Das Königsblut" 
- king_the_stormlands:0 "Sturmkönig"
- queen_the_stormlands:0 "Sturmkönigin"
- king_dorne:0 "Fürst"
- queen_dorne:0 "Fürstin"
-
- #Faegon Host
- lp_empire_male_faegon:0 "König"
- lp_empire_female_faegon:0 "Königin"
-
- head_of_faith_male_normal:0 "[CHARACTER.GetFaith.ReligiousHeadName|U]"
- head_of_faith_male_fots:0 ""
+  #Vanilla Feudal Add-Ons 
+ king_feudal_male_independent: "[CHARACTER.Custom('KING_FEUDAL_MALE')]" #NT!
+ king_feudal_female_independent: "[CHARACTER.Custom('KING_FEUDAL_FEMALE')]" #NT!
+ king_feudal_male_fallback: "King" #NT!
+ king_feudal_female_fallback: "Queen" #NT!
+ kingdom_feudal_independent: "Kingdom" #NT!
+  
+  #Default LP Feudal tiers 
+ baron_lp_feudal_male: "Lord"
+ baron_lp_feudal_female: "Lady"
+ barony_lp_feudal: "Kleinlordschaft"
+  
+ count_lp_feudal_male: "Lord"
+ count_lp_feudal_female: "Lady"
+ county_lp_feudal: "Lordschaft"
+  
+ duke_lp_feudal_male: "Lord"
+ duke_lp_feudal_female: "Lady"
+ duchy_lp_feudal: "Hochlordschaft"
+ duke_lp_feudal_independent: "Lord"
+ duke_lp_feudal_independent_female: "Lady"
+ duchy_lp_feudal_independent: "Hochlordschaft"
+  
+ kingdom_lp_feudal: "[CHARACTER.Custom('LP_FEUDAL_TITLE')]"
+ kingdom_lp_feudal_default: "Oberste Lehnsherrschaft"
+ kingdom_lp_feudal_independent_default: "Königreich"
+ kingdom_lp_feudal_independent_rhoynish: "Fürstentum"
+  
+ king_lp_feudal_male: "[CHARACTER.Custom('LP_FEUDAL_MALE')]"
+ king_lp_feudal_female: "[CHARACTER.Custom('LP_FEUDAL_FEMALE')]"
+ king_lp_feudal_male_default: "Lord"
+ king_lp_feudal_female_default: "Lady"
+ king_lp_feudal_male_targ: "Prinz"
+ king_lp_feudal_female_targ: "Prinzessin"
+ king_lp_feudal_independent_rhoynish: "Prinz"
+ queen_lp_feudal_independent_rhoynish: "Prinzessin"
+  
+ empire_lp_feudal: "Königreich"
+ empire_iron_throne: "Königslande"
+ empire_lp_feudal_default: "Königreich"
+  
+ emperor_independent_feudal_male: "[CHARACTER.Custom('EMPEROR_FEUDAL_MALE')]" #NT!
+ emperor_independent_feudal_female: "[CHARACTER.Custom('EMPEROR_FEUDAL_FEMALE')]" #NT!
+ emperor_feudal_male_fallback: "King" #NT!
+ emperor_feudal_female_fallback: "Queen" #NT!
+  
+ emperor_lp_feudal_male: "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_MALE')]"
+ emperor_lp_feudal_female: "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_FEMALE')]"
+ emperor_lp_feudal_male_default: "König"
+ emperor_lp_feudal_female_default: "Königin"
+  
+ emperor_claimant_feudal_male: "[CHARACTER.Custom('CLAIMANT_FEUDAL_EMPIRE_MALE')]" #NT!
+ emperor_claimant_feudal_female: "[CHARACTER.Custom('CLAIMANT_FEUDAL_EMPIRE_FEMALE')]" #NT!
+ emperor_claimant_feudal_male_default: "King" #NT!
+ emperor_claimant_feudal_female_default: "Queen" #NT!
+  
+ emperor_claimant_feudal_laamp_male: "[CHARACTER.Custom('CLAIMANT_FEUDAL_EMPIRE_MALE')]" #NT!
+ emperor_claimant_feudal_laamp_female: "[CHARACTER.Custom('CLAIMANT_FEUDAL_EMPIRE_FEMALE')]" #NT!
+ emperor_claimant_feudal_laamp_male_default: "King" #NT!
+ emperor_claimant_feudal_laamp_female_default: "Queen" #NT!
+  
+ principality_lp_feudal: "Fürstentum"
+ principality_lp_feudal_male: "Fürst"
+ principality_lp_feudal_female: "Fürstin"
+  
+ prince_lp_kingdom_male: "[CHARACTER.Custom('PRINCE_LP_FEUDAL_KINGDOM_MALE')]"
+ prince_lp_kingdom_female: "[CHARACTER.Custom('PRINCE_LP_FEUDAL_KINGDOM_FEMALE')]"
+ prince_lp_kingdom_male_default: "Lord"
+ prince_lp_kingdom_female_default: "Lady"
+ prince_lp_kingdom_male_targ: "Prinz"
+ prince_lp_kingdom_female_targ: "Prinzessin"
+ prince_lp_feudal_male_dorne: "Prinz"
+ prince_lp_feudal_female_dorne: "Prinzessin"
+  
+ prince_lp_empire_male: "Prinz"
+ prince_lp_empire_female: "Prinzessin"
+  
+  #Free Cities 
+ king_free_city_male_k_lys: "First Magister" #NT!
+ king_free_city_female_k_lys: "First Magister" #NT!
+ king_free_city_male_k_tyrosh: "Archon" #NT!
+ king_free_city_female_k_tyrosh: "Archon" #NT!
+ king_free_city_male_k_myr: "Eliate" #NT!
+ king_free_city_female_k_myr: "Eliate" #NT!
+ king_free_city_male_k_pentos: "Prince" #NT!
+ king_free_city_female_k_pentos: "Princess" #NT!
+ baron_free_city_male: "Magister" #NT!
+ baron_free_city_female: "Magister" #NT!
+ barony_free_city: "Borough" #NT!
+ count_free_city_male: "Magister" #NT!
+ count_free_city_female: "Magister" #NT!
+ county_free_city: "Town" #NT!
+ duke_free_city_male: "Magister" #NT!
+ duke_free_city_female: "Magister" #NT!
+ duchy_free_city: "City" #NT!
+ duke_free_city_independent_male: "First Magister" #NT!
+ duke_free_city_independent_female: "First Magister" #NT!
+ duchy_free_city_independent: "City" #NT!
+ king_free_city_male: "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]" #NT!
+ king_free_city_female: "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]" #NT!
+ king_free_city_male_fallback: "Magister" #NT!
+ king_free_city_female_fallback: "Magister" #NT!
+ kingdom_free_city: "Kingdom" #NT!
+ king_free_city_male_spouse: "Lord" #NT!
+ king_free_city_female_spouse: "Lady" #NT!
+ king_free_city_independent_male: "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]" #NT!
+ king_free_city_independent_female: "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]" #NT!
+ king_free_city_independent_male_fallback: "First Magister" #NT!
+ king_free_city_independent_female_fallback: "First Magister" #NT!
+ king_free_city_male_k_braavos: "Sealord" #NT!
+ king_free_city_female_k_braavos: "Sealady" #NT!
+ kingdom_free_city_independent: "Free City" #NT!
+ emperor_free_city_male_spouse: "Lord" #NT!
+ emperor_free_city_female_spouse: "Lady" #NT!
+ emperor_free_city_male: "[CHARACTER.Custom('EMPIRE_FREE_CITIES_MALE')]" #NT!
+ emperor_free_city_female: "[CHARACTER.Custom('EMPIRE_FREE_CITIES_FEMALE')]" #NT!
+ emperor_free_city_male_fallback: "First Magister" #NT!
+ emperor_free_city_female_fallback: "First Magister" #NT!
+ spouse_estate_holder_free_city_male: "Magister" #NT!
+ spouse_estate_holder_free_city_female: "Magister" #NT!
+ empire_free_city: "Free City" #NT!
+ archon_tyrosh_male: "Archon" #NT!
+ archon_tyrosh_female: "Archon" #NT!
+ triarch_three_daughters_male: "Triarch" #NT!
+ triarch_three_daughters_female: "Triarch" #NT!
+ kingdom_three_daughters: "Kingdom" #NT!
+  
+  #Pirate Titles 
+ baron_pirate_male: "Skipper" #NT!
+ baron_pirate_female: "$baron_pirate_male$" #NT!
+ barony_pirate: "Boats" #NT!
+ count_pirate_male: "Captain" #NT!
+ count_pirate_female: "$count_pirate_male$" #NT!
+ county_pirate: "Ships" #NT!
+ duke_pirate_male: "Pirate Lord" #NT!
+ duke_pirate_female: "Pirate Lady" #NT!
+ duchy_pirate: "Squadron" #NT!
+ king_pirate_male: "[CHARACTER.Custom('KINGDOM_PIRATE_MALE')]" #NT!
+ king_pirate_female: "[CHARACTER.Custom('KINGDOM_PIRATE_FEMALE')]" #NT!
+ king_pirate_male_fallback: "Pirate King" #NT!
+ king_pirate_female_fallback: "Pirate Queen" #NT!
+ kingdom_pirate: "Fleet" #NT!
+ emperor_pirate_male: "King of the Seas" #NT!
+ emperor_pirate_female: "Queen of the Seas" #NT!
+ empire_pirate: "Armada" #NT!
+  
+ prince_admiral: "Prince-Admiral" #NT!
+ princess_admiral: "Princess-Admiral" #NT!
+  
+  #Wolfswood Clansman Master Title 
+ wolfswood_clansman_master_male: "Master"
+ wolfswood_clansman_master_female: "Mistress"
+  
+  #Riverlands 
+ e_the_riverlands_old: "Die Flüsse und Hügel"
+  
+  #Dorne 
+ empire_dorne: "Fürstentum"
+ empire_dorne_male: "Fürst"
+ empire_dorne_female: "Fürstin"
+  
+  #Magnar 
+ magnar_count: "Magnar"
+ magnar_duke: "Magnar"
+ magnar_king: "Magnar"
+ magnar_emperor: "Magnar des Freien Volks"
+  
+  #King Flavourisation 
+ king_stormlands: "Sturmkönig"
+ queen_stormlands: "Sturmkönigin"
+ king_north: "König"
+ queen_north: "Königin"
+ good_queen: "'Good Queen'" #NT!
+ bad_queen: "'Bad Queen'" #NT!
+ king_riverlands: "Flusskönig"
+ queen_riverlands: "Flusskönigin"
+ king_wall: "Lord Kommandant"
+ queen_wall: "Lord Kommandantin"
+  
+  #Smaller Kingdoms 
+ king_the_dreadlands: "Red King" #NT!
+ queen_the_dreadlands: "Red Queen" #NT!
+ king_barrows_and_rills: "Barrow King" #NT!
+ queen_barrows_and_rills: "Barrow Queen" #NT!
+ king_the_neck: "Marsh King" #NT!
+ queen_the_neck: "Marsh Queen" #NT!
+ king_tridents_mouth: "Fool King" #NT!
+ queen_tridents_mouth: "Maid Queen" #NT!
+ king_the_bay_of_crabs: "True King" #NT!
+ queen_the_bay_of_crabs: "True Queen" #NT!
+ king_runestone: "Bronzekönig"
+ queen_runestone: "Bronzekönigin"
+ king_the_red_mountains: "Vulture King" #NT!
+ queen_the_red_mountains: "Vulture Queen" #NT!
+ king_withermoore: "Hooded King" #NT!
+ queen_withermoore: "Hooded Queen" #NT!
+ king_yronwood: "Bloodroyal" #NT!
+ queen_yronwood: "Bloodroyal" #NT!
+ king_the_stormlands: "Storm King" #NT!
+ queen_the_stormlands: "Storm Queen" #NT!
+ king_dorne: "Fürst"
+ queen_dorne: "Fürstin"
+  
+  #Faegon Host 
+ lp_empire_male_faegon: "König"
+ lp_empire_female_faegon: "Königin"
+  
+ head_of_faith_male_normal: "[CHARACTER.GetFaith.ReligiousHeadName|U]"
+ head_of_faith_male_fots: ""

@@ -1,5 +1,5 @@
 ﻿l_german:
-
- BEST_FRIEND_LABEL:0 "Best Friend"
- NEMESIS_LABEL:0 "Nemesis"
- SOULMATE_LABEL:0 "Soulmate"
+  
+ BEST_FRIEND_LABEL: "Best Friend" #NT!
+ NEMESIS_LABEL: "Nemesis" #NT!
+ SOULMATE_LABEL: "Soulmate" #NT!

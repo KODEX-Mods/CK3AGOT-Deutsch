@@ -1,768 +1,912 @@
 ﻿l_german:
- vs_adders_fang_name:0 "Natternzahn" #Übersetzt von Dillo
- vs_adders_fang_description:0 "Natternzahn ist das Ahnenschwert, das das Oberhaupt des Hauses Wyl trägt. Das kunstvolle Bastardschwert mit der markanten gewellten Klinge wurde vom berüchtigten Wyl von Wyl während des ersten Dornischen Krieges geführt."
- vs_blackfyre_name:0 "Schwarzfeuer"
- vs_blackfyre_description:0 "Schwarzfeuer war eines der beiden Schwerter aus valyrischem Stahl, die die Targaryens vor dem Untergang aus Valyria nach Westeros brachten, was es zu einem der wertvollsten Besitztümer der Targaryens machte. Es ist ein gewaltiges und verziertes Großschwert, dessen Parierstange mit geschwärzten Drachenköpfen aus Stahl verziert ist."
- vs_brightroar_name:0 "Lichtbrüller"
- vs_brightroar_description:0 "Lichtbrüller ist das Ahnengroßschwert aus valyrischem Stahl des Hauses Lennister, das mit Tommen II. nach dem Untergang von Valyria verloren ging."
- vs_cloudbreak_name:0 "Wolkenbrecher"
- vs_cloudbreak_description:0 "Eine elegante Waffe aus einem zivilisierteren Zeitalter. Dieses Langschwert mit Drachenbeingriff, das die Seele der eleganten verlorenen Schönheit von Valyria einfängt, wird von einem Stück glitzernden, polierten Blutsteins als Knauf gekrönt. Seit das Verhängnis den Drachenreiter, der die Klinge führte, ereilte, befindet sich Wolkenbrecher in der Obhut der wohlhabenden Tyroshi-Händler des Hauses Adarys und ist ein klares Symbol ihrer Vormachtstellung."
- vs_iron_will_name:0 "Eiserner Wille"
- vs_iron_will_description:0 "Eiserner Wille ist das Großschwert aus valyrischem Stahl, das von den Lords des Hauses Forester weitergegeben wird. Es ist unglaublich wertvoll und begehrt."
- vs_pincer_name:0 "Krabbenschere"
- vs_pincer_description:0 "Krabbenschere ist die Axt aus valyrischem Stahl, die dem Haus Celtigar gehört. Krabbenschere ist ein Relikt mit dunkler Schneide aus dem valyrischen Erbe des Hauses Celtigar und wurde bereits vor dem Untergang von Generationen von Celtigar getragen."
- vs_dark_sister_name:0 "Dunkle Schwester"
- vs_dark_sister_description:0 "Dunkle Schwester war eines von zwei Schwertern aus valyrischem Stahl, die die Targaryens nach dem Untergang aus Drachenstein mitbrachten, was es zu einem der wertvollsten Besitztümer der Familie Targaryen machte. Es ist ein Langschwert, schmal und elegant, mit einer rauchdunklen Klinge."
- vs_heartsbane_name:0 "Herzbann"
- vs_heartsbane_description:0 "Herzbann ist das angestammte valyrische Stahlschwert des Hauses Tarly. Es ist ein zweihändiges Großschwert, das sich seit 300 Jahren v. A. E. im Besitz dieser stolzen Marschlords befindet."
- vs_ice_name:0 "Eis"
- vs_ice_description:0 "Eis ist das angestammte Großschwert aus valyrischem Stahl des Hauses Stark, das über ein Jahrhundert vor Aegons Eroberung in Valyria durch Zauber geschmiedet wurde. Die Starks besitzen seit dem Zeitalter der Helden ein Schwert mit dem Namen Eis. Dieses Schwert wurde so benannt, um diese Tradition fortzusetzen."
- vs_oathkeeper_name:0 "Eidwahrer"
- vs_oathkeeper_description:0 "Eidwahrer ist ein neues Langschwert aus Valyrischem Stahl, das im Auftrag von Tywin Lennister aus der alten Klinge Eis geschmiedet wurde. Die rasiermesserscharfe Klinge ist mit roten und schwarzen Maserungen durchzogen."
- vs_widows_wail_name:0 "Witwenklage"
- vs_widows_wail_description:0 "Dieses Schwert aus valyrischem Stahl ist einzigartig in seiner Farbgebung mit tiefroten und grauen Wellen auf der Klinge. Die Scheide ist mit Gold, Kirschholz, rotem Leder und goldenen Löwenköpfen mit Rubinaugen verziert."
- vs_widows_wail_historical_description:0 "Witwenklage ist ein neues Schwert aus Valyrischem Stahl, das im Auftrag von Tywin Lennister aus der alten Klinge Eis geschmiedet wurde. Der Stahl ist mit roten und schwarzen Maserungen durchzogen und die Scheide ist mit Gold, Kirschholz, rotem Leder und goldenen Löwenköpfen mit Rubinaugen verziert."
- vs_lady_forlorn_name:0 "Lady Einsam"
- vs_lady_forlorn_description:0 "Lady Einsam ist das Langschwert aus Valyrischem Stahl, das dem Haus Corbray gehört. In seinem Knauf befindet sich ein herzförmiger Rubin."
- vs_lamentation_name:0 "Wehklage"
- vs_lamentation_description:0 "Wehklage ist das Valyrische Schwert des Hauses Rois, einem alten und mächtigen Adelshaus des Grünen Tals. Es geht auf die Zeit vor der Arryn-Herrschaft im Tal zurück und kann sein Blut bis in die Tage der Ersten Menschen zurückverfolgen, die einst das Tal bevölkerten, und ihre Herrschaft als Bronzekönige von Runenstein, bis zur Invasion der Andalen, bei der sie von Artys Arryn, dem König von Berg und Grünem Tal, besiegt wurden."
- vs_longclaw_name:0 "Langklaue"
- vs_longclaw_description:0 "Langklaue ist das uralte Valyrische Bastardschwert des Hauses Mormont, das sich seit Hunderten von Jahren in den Händen der Mormont-Dynastie befindet. Dieses Schwert ist länger als die meisten anderen, spitz zulaufend, um sowohl zu schneiden als auch zu hacken. Drei Hohlkehlen verlaufen teilweise entlang der dunklen Klinge und verbessern die ohnehin schon hervorragende Balance."
- vs_nightfall_name:0 "Nachtfall"
- vs_nightfall_description:0 "Nachtfall ist ein Valyrisches Schwert, das dem Haus Harlau gegen Ende des dritten Jahrhunderts A.E. gehörte. Das dunkelschneidige Langschwert wurde mit dem eisernen Preis bezahlt, von Lord Dalten Graufreud von einem erschlagenen Korsaren erbeutet. Es hat einen Knauf aus Mondstein."
- vs_orphan_maker_name:0 "Waisenmacher"
- vs_orphan_maker_description:0 "Waisenmacher ist das Valyrische Schwert des Hauses Steinern, das ursprünglich von mehreren Rittern benutzt wurde, die für die Grünen im Tanz der Drachen kämpften. Das dunkle Metallwerk aus bläulichem Stahl ist mit bedrohlichen Stacheln verziert und verleiht dieser furchterregenden Waffe eine makabre Aura."
- vs_poison_name:0 "Giftstich"
- vs_poison_description:0 "Gift ist das Valyrische Schwert des Hauses Vunatis, ein Bastardschwert aus Valyrischem Stahl, das ursprünglich mit den Volantenern jenseits der Meerenge gegen Säcke voller Gold getauscht werden sollte, bevor das Schiff, auf dem es sich befand, von den Piratenfürsten von Blutstein gekapert wurde. Der Griff ist aus Drachenbein gefertigt und in einem Korkenziehermuster geschnitzt."
- vs_red_rain_name:0 "Rotregen"
- vs_red_rain_description:0 "Rotregen ist ein blutdunkles Langschwert, das mit tränenförmigen Rubinen besetzt ist. Es gehört dem Haus Drumm, seit Hilmar der Verschlagene einem gepanzerten Ritter mit nichts als seinem Verstand und einem Holzknüppel die Klinge abgenommen hat."
- vs_remige_name:0 "Schwungfeder"
- vs_remige_description:0 "Schwungfeder ist das Ahnenschwert aus valyrischem Stahl des Hauses Cargyll, das in den Händen der legendären goldenen Gans geführt wurde, die der Sage nach die ersten Eier nach Westeros brachte."
-
- vs_strangers_mercy_name:0 "Gnade des Fremden"
- vs_strangers_mercy_description:0 "Gnade des Fremden ist ein Bastardschwert aus Valyrischem Stahl, dessen Knauf mit einem Stück poliertem Drachenglas besetzt ist."
- vs_truth_name:0 "Wahrheit"
- vs_truth_description:0 "Wahrheit ist das Valyrische Schwert des Hauses Rogare, einer adligen Familie uralter Abstammung aus Lys. Der goldene Griff ist kunstvoll geschnitzt und deutet auf den obszönen Reichtum der Familie hin, den sie über Jahrhunderte im Bankgewerbe gesammelt hat."
- vs_vigilance_name:0 "Umsicht"
- vs_vigilance_description:0 "Umsicht ist das angestammte Valyrische Schwert des Hauses Hohenturm. Ein schlankes und spitz zulaufendes Langschwert, verziert mit goldenen Flammen und Zinnen in Anlehnung an deren Leuchtturm im Herzen von Altsass."
- vs_widestripe_name:0 "Breitstreif"
- vs_widestripe_description:0 "Breitstreif ist das angestammte Valyrische Großschwert des Hauses Lydden, das erstmals in den Händen des zukünftigen Königs Joffrey Lydden nach Westeros getragen wurde. Die breite, dunkle Klinge wurde von Rittern und Lords mit Dachshauben in viele Schlachten getragen."
- vs_longclaw_stark_name:0 "Langklaue" #neu Fehlerkorrektur
- vs_longclaw_stark_description:0 "Langklaue ist das angestammte Valyrische Bastardschwert des Hauses Mormont, das sich seit Hunderten von Jahren in den Händen der Mormont-Dynastie befand. Dieses Schwert ist länger als die meisten anderen, spitz zulaufend, um sowohl zu schneiden als auch zu hacken. Drei Hohlkehlen verlaufen teilweise entlang der dunklen Klinge und verbessern die ohnehin schon hervorragende Balance. Der ursprüngliche Knauf mit dem Bärenkopf wurde durch den Kopf eines weißen Schattenwolfs ersetzt, als das Schwert an Jon Schnee verschenkt wurde."
-
- vs_dancer_name:0 "Tänzer"
- vs_dancer_description:0 "Dieses Bastardschwert mit breiter Klinge wurde vom letzten der Könige des Hauses Massie getragen, der Ländereien beanspruchte und verteidigte, die sich von den östlichen Ufern von Massies Haken bis zur Mündung des Schwarzwassers erstreckten. Der goldene Griff ist mit uralten Mustern verziert, möglicherweise nach dem Vorbild einer früheren Waffe aus dem Zeitalter der Helden."
- vs_darktalon_name:0 "Dunkelklaue"
- vs_darktalon_description:0 "Die Vyrwells von Dunkeltal schwingen dieses Großschwert seit Generationen. Auf dem versilberten Griff ist ein grimmiger Wyvern mit ausgebreiteten Flügeln eingraviert."
- vs_dawn_name:0 "Dämmerung"
- vs_dawn_description:0 "Dämmerung ist das sagenumwobene Schwert des Hauses Dayn. Das riesige Großschwert hat eine Klinge, so blass wie Milchglas, und einen goldenen Stern, der den Griff ziert. Die Legende besagt, dass ein gefallener Stern vom Gründer des Hauses Dayn bis zur Mündung des Torentin verfolgt wurde, an dem Ort, der später Sternfall genannt werden sollte. Dämmerung wurde aus dem Herzen dieses Sterns geschmiedet und wird seither von den würdigsten Mitgliedern des Hauses Dayn geführt."
- vs_defiance_name:0 "Trotz"
- vs_defiance_description:0 "Trotz ist ein Langschwert mit Bronzegriff aus dem Besitz des Hauses Eisenschmied. Das Haus Eisenschmied erlangte über Jahrhunderte hinweg Bekanntheit als Lieferant von Hufeisen für die Kavallerie des Nordens. Diese Bekanntheit ermöglichte es ihnen schließlich, Trotz in Auftrag zu geben und ihre Stellung unter dem Adel des Nordens zu festigen."
- vs_disputant_name:0 "Streitlust"
- vs_disputant_description:0 "Streitlust ist ein kurzes Schwert mit dunkelgoldenem, fledermausförmigem Griff. Die Klinge ist schwarz wie die Nacht."
- vs_the_dagger_name:0 "Dolch mit Drachenbeingriff"
- vs_the_dagger_description:0 "Dieser Dolch ist entlang des gebogenen Griffs aus Drachenknochen mit Rubinen besetzt. Die ungewöhnliche, halbgekrümmte Form und die Verwendung von Drachenknochen im Griff dieses verruchten Dolches zeigen, dass er im alten Valyria für eine extrem reiche Adelsfamilie geschmiedet wurde."
- vs_dusk_name:0 "Sonnenuntergang"
- vs_dusk_description:0 "agot_dusk_description"
- vs_eleneis_bulwark_name:0 "Eleneis Bollwerk"
- vs_eleneis_bulwark_description:0 "agot_eleneis_bulwark_description"
- vs_justicar_name:0 "Justiziar"
- vs_justicar_description:0 "agot_justicar_description"
- vs_pride_name:0 "Stolz"
- vs_pride_description:0 "Die löwengeschmückten Ritter von Haus Jast tragen dieses Langschwert seit den Tagen des Königreichs vom Stein."
- vs_prosperity_name:0 "Wohlstand"
- vs_prosperity_description:0 "Dieses prachtvolle goldene Schwert ist Besitz des Hauses Narratys, einer adligen Familie mit großer Ahnenreihe im Adel der Pentoshi. Mehrere Fürsten der Pentoshi entstammen dieser Dynastie, so dass sie den nötigen Reichtum anhäufen konnten, um dieses Symbol ihres eigenen Wohlstands zu erwerben."
- vs_seafoam_name:0 "Meeresschaum"
- vs_seafoam_description:0 "Das Valyrische Säbel des Hauses Velaryon ist mit ihrem Siegel des Seepferdchens verziert. Dieses Krummschwert mit seinem schön geschnitzten Silbergriff wurde mit den Erträgen von Generationen des Handels erworben."
- vs_skullcleaver_name:0 "Schädelspalter"
- vs_skullcleaver_description:0 "Dieses gewaltige Großschwert wird seit Generationen von den Lords des Hauses Bannstein geführt. Das Schwert erhielt seinen Namen, nachdem ein Hauptmann der Eisenmänner im Einzelkampf vom Herrn des Hauses Bannstein mit einem Hieb getötet wurde, der die Axt des Angreifers, den Helm und den darunter liegenden Schädel durchschlug."
- vs_soaring_glory_name:0 "Himmelfahrt"
- vs_soaring_glory_description:0 "agot_soaring_glory_description"
- vs_stalwart_name:0 "Unbeugsamkeit"
- vs_stalwart_description:0 "Dieses tödliche, spitz zulaufende Langschwert mit seinem gravierten goldenen Metallarbeiten ist eine wahre Augenweide und hat sich im Laufe der Generationen, in denen die Finsterlyns es in die Schlacht getragen haben, als tödlich erwiesen. Könige, Lords und Ritter aus dem Hause Finsterlyn haben dieses Schwert gegen zahlreiche Widersacher und zum Schutz von mehr Königen als jedes andere Haus geschwungen."
- vs_sting_name:0 "Stich"
- vs_sting_description:0 "Stich ist das angestammte Valyrische Kurzschwert des Hauses Biengraben. Die Waffe mit der dunklen Blattklinge war schon für viele aus diesem altehrwürdigen Haus ein treuer Gefährte."
- vs_supremacy_name:0 "Überlegenheit"
- vs_supremacy_description:0 "Die Serretts von Silberhügel sind ein stolzes andalisches Haus, das dieses prunkvolle Schwert mit dem Silber der Ländereien rund um seinen Bergfried erworben hat."
- vs_swordfish_name:0 "Schwertfisch"
- vs_swordfish_description:0 "Die Bar Emmons von Scharfspitze wurden von Togarion dem Schrecklichen gegründet, einem andalischen Kriegsherrn, der ein kleines Königreich für sich und seine Nachkommen in Scharfspitze errichtete. Dieses Bastardschwert mit Griff aus Gold und Silber wurde von den späteren Bar Emmons benutzt, um die Kontrolle über dieses Königreich zu behalten, und ist ihr wertvollster Besitz - sie haben sogar das Flaggschiff ihrer Flotte nach dem Schwert benannt."
- vs_yron_key_name:0 "Der Isenschlüssel"
- vs_yron_key_description:0 "agot_yron_key_description"
- vs_tranquility_name:0 "Stille"
- vs_tranquility_description:0 "Dieses versilberte Langschwert ist mit Amethysten verziert. Das Haus Brax besitzt dieses beeindruckende Schwert aus valyrischem Stahl schon seit Hunderten von Jahren."
- vs_wyrmfang_name:0 "Wyrmzahn"
- vs_wyrmfang_description:0 "Die Staublins von Hüglingen sind ein altes Haus mit einer stolzen und geschichtsträchtigen Vergangenheit. Dieses Schwert wurde nach dem Vorbild der Bronzeschwerter geschmiedet, die die alten Staublin-Könige im Zeitalter der Helden trugen."
- vs_evergold_name:0 "Immergold"
- vs_evergold_description:0 "Diese Klinge wurde vor dem Untergang des berühmten Hauses Esch in Auftrag gegeben und ist von feinster valyrischer Handwerkskunst. Auf dem Knauf befindet sich die goldene Baum-Standarte des Hauses Esch."
-
- vs_black_death_name:0 "Schwarzer Tod"
- vs_black_death_description:0 "Dieses Großschwert wurde einzig und allein für die Wirksamkeit auf dem Schlachtfeld geschmiedet. Seine Parierstange ist zu scharfen Stacheln gefeilt, sein Griff ist aus sprödem schwarzem Eisen gefertigt und sein Knauf ist zu einem eisernen Streitkolben mit Stacheln geformt, um die Schädel derer zu zertrümmern, die es wagen, sich zu nähern."
- vs_mothers_grief_name:0 "Mutterschmerz"
- vs_mothers_grief_description:0 "Der Knauf dieses Langschwerts wurde zu einer kupfernen Statue der Mutter Oben geformt, vielleicht als Bitte an die Götter, den geliebten Menschen im Kampf Schutz zu gewähren. Die gravierte Parierstange und der Griff sind aus demselben roten Kupfer gefertigt."
- vs_talon_name:0 "Kralle"
- vs_talon_description:0 "Die Parierstange dieses Langschwerts hat die Form von Flügeln, in deren Mitte ein großer blauer Saphir sitzt. Der Knauf ist aus demselben bläulichen Stahl gefertigt und zeigt das Haupt eines Falken mit goldenen Streifen an der Unterseite und zwei kleineren Saphiren als Augen."
- vs_glory_name:0 "Glanz" #neu bis einschl. Z. 111
- vs_glory_description:0 "Ein tiefroter Rubin in der Form eines Herzens bildet den Knauf dieses Kurzschwerts. Flammen aus massivem Gold umrahmen den Rubin zu beiden Seiten in der glühenden Umarmung R'hllors."
- vs_stormy_nights_name:0 "Klinge der Nacht"
- vs_stormy_nights_description:0 "Dieses Schwert ist eine gewaltige und grobe Klinge ohne die prahlerischen Verzierungen, die die meisten valyrischen Artefakte aufweisen. Es behält den dunklen Farbton, mit dem es in der Schmiede geschaffen und von seinem Erschaffer in eine brauchbare Form gegossen und geformt wurde. Das Ausbleiben von Verzierungen verleiht dieser Waffe eine raue und ernste Ausstrahlung, die im Gegensatz zu den meisten Schöpfungen des alten Reiches steht - die Waffe eines Kriegers, nicht die Zierde eines Adligen."
- vs_strangers_touch_name:0 "Kuss des Fremden"
- vs_strangers_touch_description:0 "Jene, die sich im Schatten dieses Ungetüms wiederfinden, müssen sich damit trösten, dass sie von jemandem verurteilt wurden, der ihr Ende für den größtmöglichen Nutzen hielt."
- vs_dragonbane_name:0 "Drachentod"
- vs_dragonbane_description:0 "Der Griff dieses Schwertes besteht aus Silber, das dunkelblau getönt wurde. Der Knauf wurde aus demselben Metall gefertigt und ist mit aufwendigen Gravuren versehen. Die Parierstange des Langschwerts hat die Form eines Drachenpaares mit ausgebreiteten Flügeln zu beiden Seiten der Klinge."
- vs_andal_armingsword_gold_name:0 "Goldenes Andalenlangschwert"
- vs_andal_armingsword_gold_description:0 "Das Metall dieses Langschwerts schimmert golden. Das feine Filigran schimmert im Kerzenlicht ebenso detailliert wie die gewirbelten Muster auf der Klinge aus valyrischem Stahl. Dieses Schwert scheint dem Krieger selbst würdig zu sein, eine heldenhafte Waffe, die an ein vergangenes Zeitalter erinnert."
- vs_andal_armingsword_silver_name:0 "Silbernes Andalenlangschwert"
- vs_andal_armingsword_silver_description:0 "Die kunstvollen silbernen Metallarbeiten dieses Langschwerts sind prächtig graviert. Das feine Filigran schimmert im Kerzenlicht, ebenso detailliert wie die gewirbelten Muster in der fein geriffelten Klinge aus valyrischem Stahl. Dieses Schwert scheint dem Krieger selbst würdig zu sein, eine heldenhafte Waffe, die an ein vergangenes Zeitalter erinnert."
- vs_andal_longsword_gold_name:0 "Goldenes andalisches Bastardschwert"
- vs_andal_longsword_gold_description:0 "Das Metall dieses Bastardschwertes schimmert golden. Das feine Filigran schimmert im Kerzenlicht ebenso detailliert wie die gewirbelten Muster auf der Klinge aus valyrischem Stahl. Dieses Schwert scheint dem Krieger selbst würdig zu sein, eine heldenhafte Waffe, die an ein vergangenes Zeitalter erinnert."
- vs_andal_longsword_silver_name:0 "Silbernes andalisches Bastardschwert"
- vs_andal_longsword_silver_description:0 "Die kunstvollen silbernen Metallarbeiten dieses Bastardschwertes sind prächtig graviert. Das feine Filigran schimmert im Kerzenlicht, ebenso detailliert wie die gewirbelten Muster in der fein geriffelten Klinge aus valyrischem Stahl.  Dieses Schwert scheint dem Krieger selbst würdig zu sein, eine heldenhafte Waffe, die an ein vergangenes Zeitalter erinnert."
- vs_firstman_armingsword_gold_name:0 "Goldenes Langschwert der Ersten Menschen"
- vs_firstman_armingsword_gold_description:0 "Das Metall dieses Langschwerts schimmert golden. Runeninschriften in der alten Sprache schimmern im Kerzenlicht ebenso detailliert wie die wirbelnden Muster in der dunkel gewellten Klinge aus valyrischem Stahl. Die Formgebung und die Proportionen dieses Schwertes erinnern stark an jene Schwerter, die die alten Helden vieler nördlicher Häuser trugen, welche behaupten, von den ersten Menschen abzustammen."
- vs_firstman_armingsword_silver_name:0 "Silbernes Langschwert der Ersten Menschen"
- vs_firstman_armingsword_silver_description:0 "Die kunstvollen silbernen Metallarbeiten dieses Langschwertes sind prächtig graviert. Runeninschriften in der alten Sprache schimmern im Kerzenlicht ebenso detailliert wie die wirbelnden Muster in der dunkel gewellten Klinge aus valyrischem Stahl. Die Formgebung und die Proportionen dieses Schwertes erinnern stark an jene Schwerter, die die alten Helden vieler nördlicher Häuser trugen, welche behaupten, von den ersten Menschen abzustammen."
- vs_firstman_armingsword_bronze_name:0 "Bronzenes Langschwert der Ersten Menschen"
- vs_firstman_armingsword_bronze_description:0 "Das Bronzemetall dieses Langschwertes wurde auf Hochglanz poliert.Runeninschriften in der alten Sprache schimmern im Kerzenlicht ebenso detailliert wie die wirbelnden Muster in der dunkel gewellten Klinge aus valyrischem Stahl. Die Formgebung und die Proportionen dieses Schwertes erinnern stark an jene Schwerter, die die alten Helden vieler nördlicher Häuser trugen, welche behaupten, von den ersten Menschen abzustammen."
- vs_firstman_longsword_gold_name:0 "Goldenes Bastardschwert der Ersten Menschen"
- vs_firstman_longsword_gold_description:0 "Das Metall dieses Bastardschwerts schimmert golden. Runeninschriften in der alten Sprache schimmern im Kerzenlicht ebenso detailliert wie die wirbelnden Muster in der dunkel gewellten Klinge aus valyrischem Stahl. Die Formgebung und die Proportionen dieses Schwertes erinnern stark an jene Schwerter, die die alten Helden vieler nördlicher Häuser trugen, welche behaupten, von den ersten Menschen abzustammen."
- vs_firstman_longsword_silver_name:0 "Silbernes Bastardschwert der Ersten Menschen"
- vs_firstman_longsword_silver_description:0 "Die kunstvollen silbernen Metallarbeiten dieses Bastardschwertes sind prächtig graviert. Runeninschriften in der alten Sprache schimmern im Kerzenlicht ebenso detailliert wie die wirbelnden Muster in der dunkel gewellten Klinge aus valyrischem Stahl. Die Formgebung und die Proportionen dieses Schwertes erinnern stark an jene Schwerter, die die alten Helden vieler nördlicher Häuser trugen, welche behaupten, von den ersten Menschen abzustammen."
- vs_firstman_longsword_bronze_name:0 "Bronzenes Bastardschwert der Ersten Menschen"
- vs_firstman_longsword_bronze_description:0 "Das Bronzemetall dieses Bastardschwertes wurde auf Hochglanz poliert. Runeninschriften in der alten Sprache schimmern im Kerzenlicht ebenso detailliert wie die wirbelnden Muster in der dunkel gewellten Klinge aus valyrischem Stahl. Die Formgebung und die Proportionen dieses Schwertes erinnern stark an jene Schwerter, die die alten Helden vieler nördlicher Häuser trugen, welche behaupten, von den ersten Menschen abzustammen."
- vs_valyrian_armingsword_gold_name:0 "Goldenes valyrisches Langschwert"
- vs_valyrian_armingsword_gold_description:0 "Das kunstvoll verzierte Metall dieses Langschwertes schimmert golden. Die Schuppen des gemaserten Metalls glänzen und leuchten im Kerzenlicht, ebenso detailliert wie die wirbelnden Muster in der dunkel gewellten Klinge aus valyrischem Stahl. Dieses Schwert erinnert an die furchterregenden Waffen der Drachenlords des alten Valyria."
- vs_valyrian_armingsword_silver_name:0 "Silbernes valyrisches Langschwert"
- vs_valyrian_armingsword_silver_description:0 "Das kunstvoll verzierte Silbermetall dieses Langschwerts ist wunderschön graviert. Die Schuppen des gemaserten Metalls glänzen und leuchten im Kerzenlicht, ebenso detailliert wie die wirbelnden Muster in der dunkel gewellten Klinge aus valyrischem Stahl. Dieses Schwert erinnert an die furchterregenden Waffen der Drachenlords des alten Valyria."
- vs_valyrian_longsword_gold_name:0 "Goldenes valyrisches Bastardschwert"
- vs_valyrian_longsword_gold_description:0 "Das kunstvoll verzierte Metall dieses Langschwertes schimmert golden. Das feine Filigran schimmert im Kerzenlicht ebenso detailliert wie die wirbelnden Muster in der dunkel gewellten Klinge aus valyrischem Stahl. Dieses Schwert erinnert an die furchterregenden Waffen der Drachenlords des alten Valyria."
- vs_valyrian_longsword_silver_name:0 "Silbernes valyrisches Bastardschwert"
- vs_valyrian_longsword_silver_description:0 "Das kunstvoll verzierte Silbermetall dieses Bastardschwertes ist wunderschön graviert. Die Schuppen des gemaserten Metalls glänzen und leuchten im Kerzenlicht, ebenso detailliert wie die wirbelnden Muster in der dunkel gewellten Klinge aus valyrischem Stahl. Dieses Schwert erinnert an die furchterregenden Waffen der Drachenlords des alten Valyria."
-
- bobby_hammer_name:0 "Roberts Streithammer"
- bobby_hammer_description:0 "Geschmiedet vom Meisterschmied von Storm's End, Donal Noye, ist dieser Streithammer von solch immenser Größe und Gewicht, dass es einen Mann mit der Kraft eines Riesen bräuchte, um ihn zu führen."
- bobby_hammer_cooler_description:0 "Geschmiedet vom Meisterschmied von Sturmkap, Donal Noye, ist dieser Streithammer von solch immenser Größe und Gewicht, dass es einen Mann mit der Kraft eines Riesen bräuchte, um ihn zu führen. Robert Baratheon zerschmetterte mit diesem Hammer die Brust des Drachenprinzen Rhaegar Targaryen in der Schlacht am Trident."
- bobby_hammer_duel_description:0 "[my_weapon.GetDesc] [owner.GetFullName] zerschmetterte mit diesem Hammer die Brust von [loser.GetFullNamePossessive] in der Schlacht am [battle_location.GetNameNoTooltip]."
- rhaegar_sword_name:0 "Rhaegars Schwert"
- rhaegar_sword_description:0 "Die feinste Klinge, die je in der stählernen Gasse von Königsmund geschmiedet wurde, wurde Prinz Rhaegar Targaryen überreicht, als er Prinz von Drachenstein wurde. Schlank und elegant, eine würdige Klinge für einen Mann, der eines Tages König sein könnte."
- rhaegar_sword_duel_description:0 "[my_weapon.GetDesc] [owner.GetFullName] streckte mit diesem Schwert [loser.GetFullName] in der Schlacht von [battle_location.GetNameNoTooltip] nieder."
- kingsguard_sword_name:0 "[owner.GetFullNamePossessive] Schwert"
- kingsguard_sword_description:0 "Ein Schwert, das [owner.GetFullName] anlässlich seines Beitritts zur Königsgarde verliehen wurde."
-
- #Crown Tooltip
- agot_is_independent_crown_tooltip_desc:0 "Nur ein unabhängiger Herrscher, sein Ehepartner oder seine Erben dürfen diese Krone tragen."
- baelor_crown_tooltip_desc:0 "Nur tugendhafte Herrscher dürfen diese Krone tragen."
-
- #Targaryen Crowns
- aegon_i_crown_name:0 "Krone des Eroberers"
- aegon_i_crown_description:0 "Die Krone von Aegon I., "dem Eroberer", dem Mann, der mit Feuer und Blut das Reich geeint hat. Sie besteht aus valyrischem Stahl und ist mit mehreren großen Rubinen besetzt."
- aenys_crown_name:0 "Krone des Ersten Sohnes"
- aenys_crown_description:0 "Die Krone von Aenys I. ist aus gelbem Gold geschmiedet und mit Jade, Perlen und den Konterfeis der Sieben verziert, eine Ironie angesichts der Umstände seiner Herrschaft."
- jaehaerys_crown_name:0 "Krone des Schlichters"
- jaehaerys_crown_description:0 "Die Krone von Jaehaerys I., "dem Schlichter", ist ein einfacher Reif von sieben Edelsteinen, die jeweils eine andere Farbe haben, ein Stein für jedes seiner Königreiche und jeden seiner Götter."
- aegon_iii_crown_name:0 "Krone des Drachentodes"
- aegon_iii_crown_description:0 "Die Krone von Aegon III., "dem Drachentod", ist für eine Krone eher schlicht und besteht aus einem einfachen Goldreif. Aegon III. zog es vor, einen ruhigen und geordneten Hofstaat zu führen, wofür die Krone ein Beispiel ist."
- baelors_crown_name:0 "Krone des Seligen"
- baelors_crown_description:0 "Eine Krone aus echten Blumen, welche Baelor "der Selige" statt des Edelmetalls seiner Vorfahren trug. Ein Geflecht aus hellen Blüten und sattem Grün, das Baelors Ehrfurcht und Hingabe an die Sieben, die Einer sind, und ihre ganze Schöpfung zum Ausdruck bringt."
- baelor_crown_desc:0 "Nur tugendhafte Herrscher dürfen diese Krone tragen"
- aegon_iv_crown_name:0 "Krone des Unwerten"
- aegon_iv_crown_description:0 "Die Krone von Aegon IV. "dem Unwerten" ist eine große Pracht, aus rotem Gold gefertigt und so geformt, dass sie von zahlreichen Drachenköpfen umgeben ist."
- maekars_crown_name:0 "Krone des Ambosses"
- maekars_crown_description:0 "Die Krone von Maekar I ist eine martialische Krone, ganz im Sinne ihres Besitzers, mit schwarzem Eisen und rotem Gold mit scharfen Spitzen."
- rhaella_crown_name:0 "Krone der Tragischen Königin"
- rhaella_crown_description:0 "Diese Krone gehörte Rhaella Targaryen, der Schwester, Gemahlin und Königin von König Aerys II. Es handelt sich um einen silbernen und eisernen Reif, der mit roten Rubinen besetzt und mit Dutzenden von Diamanten verziert ist."
- visenya_circlet_name:0 "Stirnreif der Dunklen Schwester"
- visenya_circlet_description:0 "Ein dunkler Reif aus valyrischem Stahl, umringt von roten Rubinen, getragen von Königin Visenya, der letzten der Drei Drachen. Er ist eine eindrucksvolle Erinnerung an die Dunkle Schwester Aegons des Drachen."
- rhaenys_circlet_name:0 "Stirnreif der Liebsten Königin"
- rhaenys_circlet_description:0 "Geschmiedet aus dunklem valyrischem Stahl und mit diamantförmigen Rubinen besetzt, wurde dieser wunderbare Reif für die Königin Rhaenys Targaryen angefertigt."
- rhaenys_circlet_historical_description:0 "Geschmiedet aus dunklem valyrischem Stahl und mit diamantförmigen Rubinen besetzt, gehörte dieser wunderbare Reif der Königin anmutigen Rhaenys Targaryen, der Bevorzugten unter den Gattinnen Aegons des Eroberers."
- alysannecrown_name:0 "Krone der Gütigen Königin"
- alysannecrown_description:0 "Die Krone von Königin Alysanne Targaryen ist ein dünnes, einfaches Band aus sieben Edelsteinen, jeder in einer anderen Farbe."
- alysannecrown_historical_description:0 "Die Krone von Königin Alysanne Targaryen, bekannt als "Die Gütige Königin", die eine schmalere Variante der Krone ihres Mannes ist."
- daenerys_crown_name:0 "Krone der Sturmtochter"
- daenerys_crown_description:0 "Die Krone von Daenerys I "Sturmtochter" wurde ihr in Qarth überreicht und hat zweifellos eine östliche Ausstrahlung. Sie hat die Form eines dreiköpfigen Drachens mit je einem Kopf aus Jade, Elfenbein und Onyx, Windungen aus Gold und Flügeln aus Silber."
- daemon_stepstone_crown_name:0 "Krone des Prinzrebells"
- daemon_stepstone_crown_description:0 "Diese mit roten Rubinen besetzte Krone aus Eisen und Silber, die sich an die Kronen des Eroberers und des Schlichters anlehnt, trug der Prinzrebell Daemon Targaryen nach seiner Eroberung der Trittsteine."
- daemon_queen_stepstone_crown_name:0 "Krone der Prinzrebellgemahlin"
- daemon_queen_stepstone_crown_description:0 "Ein mit roten Rubinen besetzter Reif aus Eisen und Silber, der in Anlehnung an die Kronen des Eroberers und des Schlichters gefertigt wurde."
- westerosi_valyrian_crown1_name:0 "Krone des Roten Drachen"
- westerosi_valyrian_crown1_description:0 "Eine goldene Krone, die den ledernen Flügeln von Drachen nachempfunden und mit drei großen Rubinen verziert ist."
- westerosi_valyrian_crown2_name:0 "Krone von Feuer und Blut"
- westerosi_valyrian_crown2_description:0 "Eine schwarze Eisenkrone, die den ledernen Flügeln von Drachen nachempfunden und mit drei großen Rubinen verziert ist. Sie zeigt die Farben und das Symbol des Hauses Targaryen."
-
- #Baratheon Crowns
- robertI_crown_name:0 "Krone des Gekrönten Hirsches"
- robertI_crown_description:0 "Die Krone von Robert I. Baratheon. Dieses Werk hat die Form eines Hirschgeweihs und ist aus Gold gefertigt."
- stannis_crown_name:0 "Krone des Feurigen Hirsches"
- stannis_crown_description:0 "Die Krone von Stannis I. Baratheon ist aus rotem Gold gefertigt und in den Flammen des Herrn des Lichts, seiner neuen Religion, geformt."
- renly_crown_name:0 "Krone des Tänzelnden Hirsches"
- renly_crown_description:0 "Die Form der Krone von Renly I. Baratheon entspricht seiner Ehekrone. An der Vorderseite ist ein Hirschkopf aus Jade zu sehen, der von einem Ring aus goldenen Rosen umgeben ist."
- joffreyI_crown_name:0 "Krone von Löwe und des Hirsch"
- joffreyI_crown_description:0 "Die Krone von Joffrey I. Baratheon ist ein goldenes Geweih, aber sie ist schlichter als die seines Vaters, die mit Rubinen und schwarzen Diamanten verziert ist."
-
- #Blackfyre crowns
- daemonblackfyre_crown_name:0 "Krone des Schwarzen Drachen"
- daemonblackfyre_crown_description:0 "Die Krone von Daemon Schwarzfeuer, dem sogenannten "Schwarzen Drachen" und ersten Prätendenten aus dem Hause Schwarzfeuer. Sie ist der Krone des Eroberers nachempfunden, allerdings mit umgekehrten Farben wie das Schwarzfeuer-Wappen selbst. Anstelle valyrischen Stahls wurde Drachenglas verwendet, das in rotes Kupfer eingefasst ist."
-
- #Kingdom Crowns
- driftwood_crown_1_name:0 "Treibholzkrone"
- driftwood_crown_1_description:0 "Anders als bei den Königen der Grünländer waren die Kronen der alten Hohen Könige Geschenke des Meeres, gefertigt aus einem Stück Treibholz, das an Land gespült wurde, um sie daran zu erinnern, dass alles, was sie besaßen, vom Ertrunkenen Gott gegeben wurde."
- iron_isles_crown_name:0 "Krone der Eisenkönige"
- iron_isles_crown_description:0 "Als Haus Graueisen dem Königsthing den Rücken kehrte und sich selbst zu den Hohen Königen der Eiseninseln erklärte, schufen sie sich eine Eiserne Krone, um ihre Herrschaft zu demonstrieren."
- riverlands_crown_name:0 "Krone des Trident"
- riverlands_crown_description:0 "Eine edle Krone mit einem Dreizack als Symbol für den großen Fluss, der seinen Namen trägt. Sie ist für den Herrscher der Flusslande bestimmt."
- crown_of_mudd_name:0 "Krone der Flüsse und Hügel"
- crown_of_mudd_description:0 "Eine goldene, mit Smaragden besetzte Krone. Diese Krone wurde nach dem Vorbild des Wappens des alten Hauses Schlamm gefertigt."
- crown_of_winter_name:0 "Winterkrone"
- crown_of_winter_description:0 "Die altertümliche Krone des Hauses Stark, die zunächst als Winterkönige und später als Könige des Nordens regierten. Sie besteht aus neun eisernen Schwertern, die durch einen bronzenen Ring mit eingravierten Runen verbunden sind, und ist ein Symbol für das raue Land und das vielleicht noch rauere Volk."
- crown_of_jeyne_westerling_name:0 "Krone der Jungen Königin"
- crown_of_jeyne_westerling_description:0 "Ein offener Reif aus getriebener Bronze mit silbernen Rändern. Ähnlich wie die berühmte Winterkrone, die von den alten Winterkönigen des Hauses Stark getragen wurde, wird diese Krone von Stacheln bekrönt, welche in Form von Schwertern gearbeitet sind. Nur hat sie im Gegensatz zur Winterkrone nur sechs silberne Schwerter in Form von Eis, der angestammten Klinge aus valyrischem Stahl des Hauses Stark. Um die Familie seines Trägers zu repräsentieren, sind zudem sechs silberne Muscheln zwischen den Klingen eingefügt."
- dorne_crown_name:0 "Krone von Sonne und Speer"
- dorne_crown_description:0 "Ein goldenes Stirnband, umgeben von acht goldenen Siegeln des Hauses Nymeros Martell, der Sonne und den Speeren, in deren Mitte sich ein roter Rubin befindet."
- falcon_crown_name:0 "Krone von Berg und Grünem Tal"
- falcon_crown_description:0 "Eine silberne Krone, wie sie von den Königen von Berg und Grünem Tal aus dem Hause Arryn getragen wird. In der Mitte der Krone befinden sich die Flügel eines Falken, die aus einem blauen Edelstein herausragen, während darunter ein silberner Mond mit Wappen sitzt."
- iron_stag_crown_name:0 "Krone des Eisengeweihs"
- iron_stag_crown_description:0 "Diese Krone ist die eines der martialischeren Durrandons und spiegelt dieses Wesen eindrucksvoll wider. Obgleich die meisten Sturmkönige für ihre kriegerischen Bestrebungen bekannt waren, ist diese Krone für jene bestimmt, die sich dem Weg des Schwertes wahrhaftig verschrieben haben."
- stormlands_crown_name:0 "Krone der Stürme"
- stormlands_crown_description:0 "Die Sturmkrone war die angestammte Krone des Hauses Durrandon, die getragen wurde, seit Durran Elenei heiratete und die Siebte Burg errichtet wurde."
- westerlands_crown_name:0 "Stirnreif vom Stein"
- westerlands_crown_description:0 "Der Stirnreif vom Stein war die traditionelle Krone für die Königsgemahlinnen des Hauses Lennister und ist ein wunderschöner, mit Gold, Gemmen und Löwen verzierter Stirnreif."
- westerlands2_crown_name:0 "Krone von Stein und Hügel"
- westerlands2_crown_description:0 "Die Krone vom Stein wurde von den Königen vom Stein aus dem Hause Lennister getragen, die ihre Abstammung auf Lenn den Listigen und Loreon den Löwen zurückführen."
- crown_of_gardener_peace_name:0 "Blumen des Friedens"
- crown_of_gardener_peace_description:0 "Eine Krone aus Blumen und Reben. Die Gärtnerkönige von einst trugen Kronen wie diese in Zeiten des Friedens."
- crown_of_gardener_war_iron_name:0 "Dornen des Krieges"
- crown_of_gardener_war_iron_description:0 "Eine Krone aus ehernen Reben mit hervorstechenden Dornen. Die Gärtnerkönige von einst trugen Kronen wie diese in Zeiten des Krieges."
-
- #Regional Crowns
- beyondthewall_crown_name:0 "Krone des Freien Volkes"
- beyondthewall_crown_description:0 "Eine Krone aus grobem Leder und Obsidianzacken, gefertigt für jemanden, der kühn genug ist, die Gefilde jenseits der Mauer zu beanspruchen und zu beherrschen."
- blackwood_crown_name:0 "Krone der Raben"
- blackwood_crown_description:0 "Eine finstere Krone in der Gestalt eines Rabenschädels mit Zweigen, die den alten Wehrholzbaum des Sitzes des Hauses Schwarzhain, Rabenbaum, darstellen."
- bolton_crown_name:0 "Krone des Gehäuteten"
- bolton_crown_description:0 "Eine furchteinflößende Krone mit Abbildungen gehäuteter Männer entlang ihrer Seite. Sie zeigt voller Stolz die uralte Tradition des Hauses Bolton, die ihnen ihr Wappen gab. Die Tradition, ihre Feinde zu häuten, wie sie es einst mit mehreren Winterkönigen taten."
- cargyll_crown_name:0 "Krone des Goldenen Eies"
- cargyll_crown_description:0 "Eine goldene Krone mit zwei goldenen Gänsen, die sich zugewandt sind, in deren Mitte zwei rote Rubine und ein großer schwarzer Rubin eingelassen sind."
- dayne_crown_name:0 "Krone des Morgens"
- dayne_crown_description:0 "Diese Krone nach dem Vorbild der uralten Kopfschmucke der Könige des Torentin und Lords von Sternfall ist aus Silber gefertigt und wird von einem großen Silberstern mit einem mit Amethysten besetzten Stern in der Mitte geziert."
- dustin_crown_name:0 "Krone der Hügel"
- dustin_crown_description:0 "Die Krone der alten Hügelkönige, die angeblich Nachfahren des Ersten Königs waren."
- florent_crown_name:0 "Krone des Fuchses"
- florent_crown_description:0 "Eine goldene Krone, in deren Mitte ein listiger Fuchs mit roten Augen sitzt. An der Seite befinden sich bronzene Blumen, die mit einem blauen Edelstein besetzt sind."
- frey_crown_name:0 "Krone des Kreuzwegs"
- frey_crown_description:0 "Diese Silberkrone ist das Faksimile einer Krone, die vor Tausenden von Jahren während des Zeitalters der Hundert Königreiche von Haus Frey getragen worden sein soll. Sie zeigt eine Reihe von kleinen Miniaturtürmen des Kreuzwegs mit drei blauen Edelsteinen am Fuße jedes Turms."
- greyjoy_crown_name:0 "Krone des Kraken"
- greyjoy_crown_description:0 "Eine eiserne und goldene Krone mit dem Abbild eines Kraken, dessen lange Tentakel den Kopf des Trägers umfassen und festhalten."
- harlaw_crown_name:0 "Krone des harten Rechts"
- harlaw_crown_description:0 "Diese vom Geist des Todes erfüllte Krone zeigt die schreienden Schädel der Toten, die Sense des Fremden und einen hellvioletten Edelstein."
- hightower_crown_name:0 "Krone von Hohenturm"
- hightower_crown_description:0 "Eine herrliche, aus Silber und Gold gefertigte Krone, die neun Miniaturnachbildungen des Hohenturms von Altsass in Silber zeigt, jede mit einer funkelnden goldenen Flamme auf der Spitze geschmückt. Die Türme sind durch weitere geschnitzte goldene Flammen miteinander verbunden, während die Krone selbst anmutig mit strahlenden Smaragd- und Rubinsteinen besetzt ist."
-manderly_crown_name:0 "Krone des Wassermanns"
- manderly_crown_description:0 "Eine originalgetreue Nachbildung der Krone, die das Haus Manderly Jahrhunderte vor seiner Verbannung aus der Weite trug. Diese prächtige goldene Krone, die an wogende Wellen erinnert und mit schimmernden Perlen verziert ist, zeigt in ihrem Herzen eine sorgfältig gearbeitete Darstellung von zwei Wassermännern, die einen Dreizack umfassen. Rund um die Krone sind smaragdgrüne Juwelen inmitten von kunstvoll geschnitzten Wellenmustern angeordnet, die ihren herrschaftlichen Reiz noch verstärken."
- reach_crown_name:0 "Krone der Weite"
- reach_crown_description:0 "Ein wunderschöner goldener Reif mit kunstvoll verschlungenen goldenen Ranken, die mit glitzernden Smaragdjuwelen verziert sind. In der Mitte dieser herrlichen Krone befindet sich eine prächtige goldene Blume, deren Herz mit einem großen Smaragdstein verziert ist, der ihr einen bezaubernden Hauch von Anmut und Schönheit verleiht."
- redwyne_crown_name:0 "Weinkrone"
- redwyne_crown_description:0 "Ein zierlicher goldener Reif, versehen mit schimmernden blauen Edelsteinen, die in dem edlen Muster einer Weinrebe angeordnet sind. In der Mitte befindet sich ein umgekehrtes Weinblatt, flankiert von üppigen purpurnen Kleinoden, die wie Weintrauben aussehen."
- reed_crown_name:0 "Krone der Pfahlbaummenschen"
- reed_crown_description:0 "Ein Diadem, das aus der Haut eines Krokodils aus der Eng gefertigt wurde. Seine Spitze ist mit den furchterregenden Reißzähnen der Bestie besetzt, während die Vorderseite des Diadems mit einem Dreigestirn von Krokodilaugen geschmückt ist."
- royce_crown_name:0 "Krone der Runen"
- royce_crown_description:0 "Diese Bronzekrone mit schwarzen, kreisförmigen Edelsteinen und eingearbeiteten Runen der Ersten Menschen wurde nach dem Vorbild der alten Königskrone des Hauses Rois aus dem Grünen Tal gefertigt."
- tarly_crown_name:0 "Jagdkrone"
- tarly_crown_description:0 "Eine bezaubernde, aus Gold und Silber gefertigte Krone, die sich in der Mitte durch ein goldenes Band mit leuchtenden grünen Edelsteinen schmückt, wird von einer Reihe silberner Pfeilspitzen begleitet, deren Kern jeweils mit einem leuchtend roten Rubin verziert ist. Im Herzen der Krone befindet sich eine prächtige Darstellung eines silbernen Bogens, dessen Wurfarme mit leuchtenden roten und grünen Edelsteinen besetzt sind. Den Raum zwischen dem nach oben gerichteten Pfeil in der Mitte des Bogens schmückt ein zartes goldenes Gesicht, das mit aufwendigen Blatt- und Bogenschützengravuren verziert ist."
- tarth_crown_name:0 "Krone des Abendsterns"
- tarth_crown_description:0 "Eine elegante zylindrische goldene Krone, die sich durch sechs sorgfältig gearbeitete Öffnungen auszeichnet, die der Sonne ähneln, ergänzt durch weitere sechs sorgfältig gefertigte Blenden, die die Form des Mondes widerspiegeln."
- tully_crown_name:0 "Krone des Hauses Tully"
- tully_crown_description:0 "Eine Krone aus Eisen und Silber, die sich durch fischflossenartige Türme auszeichnet. Die Krone ist am Sockel mit einem eisernen Torus verziert, während über und unter den Fischtürmen eine Anordnung erlesener blauer und rosafarbener Edelsteine über einem silbernen Fischhautmuster für einen Hauch von Prunk sorgt."
- umber_crown_name:0 "Krone des letzten Herdes"
- umber_crown_description:0 "Eine eiserne Krone, die kunstvoll zu den Händen eines gefesselten Mannes geformt ist, als Symbol für seine Befreiung aus der Knechtschaft."
- crown_of_the_wall_name:0 "Krone der Mauer"
- crown_of_the_wall_description:0 "Eine Krone aus Glas und groben schwarzen Eisenzacken, die der Mauer und ihren neunzehn Burgen nachempfunden ist. Die Mauer ist seit eh und je der Sitz der Nachtwache und schützt die Reiche der Menschen vor Bedrohungen von außen. Jeder Herrscher, der direkten Anspruch auf diese alte Festung erhebt, wird eine heikle und viel geschmähte Herrschaft erfahren."
- crown_of_westerling_name:0 "Krone von Hochklipp"
- crown_of_westerling_description:0 "Ein offener Reif mit einer sandigen Textur entlang seiner Oberfläche und verziert mit sechs weißen Muscheln, die die Muscheln des Hauses Westerling darstellen."
- crown_of_the_tides_name:0 "Krone der Gezeiten"
- crown_of_the_tides_description:0 "Eine verschnörkelte Krone mit Seepferdchenfiguren und Mustern, die an die Tiefe des Meeres erinnern. Passend für einen König der Gezeiten."
- crown_of_true_winter_name:0 "Eiskrone"
- crown_of_true_winter_description:0 "Ein offener Reif aus geschliffenem Eisen, der mit funkelnden Diamanten besetzt ist und von neun eisigen Zacken gekrönt wird. Eine solche Krone ging vor langer Zeit verloren und ist nur noch in den Aufzeichnungen der Zitadelle und in verstreuten Dokumenten des Nordens zu finden. Die Form ähnelte eindeutig den historischen Winterkronen des Hauses Stark, obwohl sie sich in Farbe, Gestaltung und Material hinreichend unterschied, um bemerkenswert zu sein. Tatsächlich ist das Material der Zacken selbst umstritten, denn nur die wenigsten, die ihre Beschaffenheit dokumentierten, konnten mit Sicherheit bestimmen, ob sie aus Diamant, Glas oder einem anderen Kristall bestanden. Es gibt sogar jene, die glauben, dass sie aus echtem Eis bestanden, das durch die uralte Magie der Kinder des Waldes erhalten wurde. Es ist unbekannt, wer diese Krone trug oder weshalb sie geschaffen wurde. Viele glauben, dass sie als Huldigung an das Haus Stark angefertigt wurde und vielleicht von einer Königin oder Prinzessin von Winterfell getragen wurde. Andere wiederum behaupten, sie sei entstanden, um die Herrschaft über den Winter zu verspotten, die die Stark-Könige beanspruchten. Noch irrwitziger sind die Geschichten, die sich hartnäckig halten, dass es sich um die Krone der blauäugigen Leichenkönigin handelt, der Geliebten des Nachtkönigs, des legendären Kommandanten der Nachtwache. Allerdings wird dies von den Maestern als reines Hörensagen zurückgewiesen."
- valyrian_crown1_name:0 "Stirnreif des Freistaats"
- valyrian_crown1_description:0 "Ein Reif von valyrischer Machart zu Ehren der Götter des Alten Valyria."
- valyrian_crown2_name:0 "Krone des Freistaats"
- valyrian_crown2_description:0 "Eine Krone aus Silber, die den ledernen Flügeln von Drachen nachempfunden und mit drei großen Gemmen verziert ist."
-
- #Religious Crowns
- crown_of_the_grey_king_rusted_name:0 "Krone des Grauen Königs"
- crown_of_the_grey_king_rusted_description:0 "Diese uralte Krone wurde aus den Zähnen von Nagga, dem großen Seedrachen, gefertigt, den der Graue König erschlagen hat. Sie ist das ultimative Zeichen der Autorität für die Eisenmänner, denn nur der Große Plünderer hat sie je getragen."
- crown_of_the_nights_king_name:0 "Krone des Nachtkönigs"
- crown_of_the_nights_king_description:0 "Eine dunkle und uralte Krone, gefertigt für den Mann, der als Nachtkönig in die Geschichte einging. Diese bedrohliche Krone ist aus schwarzem Eisen und kalten Zacken aus scharfem Eis gefertigt, die nur durch dieselbe Magie, die auch die Mauer selbst erhält, nicht geschmolzen werden."
- crown_of_the_nights_king_replica_name:0 "Krone des Nachtkönigs"
- crown_of_the_nights_king_replica_description:0 "Eine dunkle Krone, die jener Krone ähnelt, die der Mann trug, der als Nachtkönig in die Geschichte einging. Diese bedrohliche Krone ist aus schwarzem Eisen gefertigt und mit Glaszacken versehen, die dem Eis der Mauer nachempfunden sind."
- crown_of_the_old_gods_name:0 "Krone des Paktes" #neu diese und nächste Zeile
- crown_of_the_old_gods_description:0 "Die Krone des Paktes ist ein Symbol der Alten Götter und der Andacht an sie. Gefertigt aus Bronze, dem Metall der Ersten Menschen, und geschmückt mit roten Rubinen, die den Wehrholzbäumen nachempfunden sind, ist die Krone ein Leuchtfeuer für all jene, die an die Alten Götter glauben."
- crown_of_rhllor_name:0 "Krone der Flamme"
- crown_of_rhllor_description:0 "Eine flammende Krone, die den Herrn des Lichts symbolisieren und ehren soll. Denn die Nacht ist dunkel und voller Schrecken."
- circlet_of_rhllor_name:0 "Stirnreif der Flamme"
- circlet_of_rhllor_description:0 "Eine flammender Reif, der den Herrn des Lichts symbolisieren und ehren soll. Denn die Nacht ist dunkel und voller Schrecken."
- crown_of_hugor_name:0 "Krone der Vatersalbung"
- crown_of_hugor_description:0 "Diese aus den sieben Sternen des Hugor gefertigte Krone ist eine Nachbildung der legendären Krone, die dem Ersten König der Andalen vom Vater selbst verliehen wurde."
-
- #Other Crowns
- crown_of_winter_roses_name:0 "Krone aus Winterrosen"
- crown_of_winter_roses_description:0 "Eine wunderschöne Krone aus blauen Winterrosen."
-
- shieraseastar_necklace_name:0 "Kette von Shiera Seestern"
- shieraseastar_necklace_description:0 "Eine Halskette aus dem Besitz von Shiera Seestern, der Bastardtochter König Aegons IV. 'des Unwürdigen' Targaryen, mit vielen weißen Meeresperlen sowie größeren grünen und blauen Perlen."
-
- #Armours
- maelys_armour_name:0 "Harnisch des Abscheulichen"
- maelys_armour_description:0 "Maelys Schwarzfeuer, der berüchtigte Prätendent, ist für seinen abartigen zweiten Kopf bekannt, für den er eine spezielle Rüstung tragen muss."
- monstrous_desc:0 "Diese Rüstung wurde für jemand wirklich grässlichen gefertigt."
- rhaegars_armour_name:0 "Rhaegars Rüstung"
- rhaegars_armour_description:0 "Rhaegar Targaryens Rüstung besteht aus nachtschwarzen Platten, wobei der dreiköpfige Drache des Hauses Targaryen den Brustpanzer mit Rubinen verziert. Unter dem Plattenpanzer ruht ein Kettenhemd aus goldenem Ringgeflecht und der Helm der Rüstung ist üppig mit einem drakonischen Motiv verziert."
- roberts_armour_name:0 "Roberts Rüstung"
- roberts_armour_description:0 "Die Rüstung von Robert Baratheon ist schlicht, aber eindrucksvoll. Große Stahlplatten schützen den Träger, unter denen ein Ringpanzer liegt. Ein Großteil der Rüstung ist von einem Wappenrock mit dem schwarzen Hirsch des Hauses Baratheon bedeckt. Der Helm der Rüstung trägt furchterregende Geweihhörner, die ebenfalls das Wappentier der Baratheons repräsentieren."
- kingsguard_armour_name:0 "[owner.GetFullNamePossessive] Rüstung der Königsgarde"
- kingsguard_armour_description:0 "Eine weiß emaillierte Rüstung, die [owner.GetFullName] beim Eintritt in die Königsgarde verliehen wurde."
- valyrian_steel_armor_name:0 "Rüstung aus valyrischem Stahl"
- valyrian_steel_armor_description:0 "Diese Rüstung aus valyrischem Schuppenstahl übersteigt den Wert eines Königreichs bei weitem und ist sicherlich die schützendste Rüstung, die es gibt."
-
- lucerys_gun_name:0 "Lucerys' Knarre"
- lucerys_gun_desc:0 "Mach dich bereit, zu sterben.   "
-
- claimed_dawn_desc:0 "Ob mit Recht oder mit Macht, Ihr müsst Dämmerung für Euch beanspruchen, um sie zu schwingen."
- sword_of_the_morning_desc:0 "Schwert des Morgens"
- artifact_martell_wall_shield_name:0 "Dornischer Schild"
- artifact_martell_wall_shield_description:0 "Ein dornischer Schild, stilisiert mit kunstvollen königlichen Verzierungen."
-
- the_white_book_name:0 "Das Weiße Buch"
- the_white_book_desc:0 "Dieser weiße Lederband, der offiziell als das Buch der Brüder bekannt ist, zeichnet die Leistungen und Heldentaten eines jeden Mitglieds auf, das in den illustren Reihen der Königsgarde gedient hat."
-
- agot_artifact_saans_scrolls_name:0 "Alte Valyrische Schriftrollen"
- agot_artifact_saans_scrolls_desc:0 "Alte Schriftrollen aus Valyria, die von Prophezeiungen und Drachen sprechen."
-
-#Filler
- agot_artifact_winter_rose:0 "Winterrose"
- agot_artifact_winter_rose_desc:0 "Eine wunderschöne blassblaue Blüte in der Farbe des frühen Winterfrosts." #neu
-
- artifact_dragon_egg:0 "Drachenei"
- artifact_dragon_egg_reforged_tt:0 "Euer Ei wurde zu [court_artifact|E] umgearbeitet"
- dud_egg_desc:0 "[egg.GetDesc]\n\nDieses Ei scheint versteinert zu sein und zeigt keine Anzeichen dafür, dass es jemals schlüpfen wird."
- dragon_egg_gen_desc:0 "Ein versteinertes Drachenei. Die Ewigkeiten haben es in Stein verwandelt, doch dennoch leuchtet seine Schönheit hell."
- dragon_egg_rainbow:0 "Regenbogen-Drachenei"
- dragon_egg_rainbow_desc:0 "$dragon_egg_gen_desc$ Die schillernden Schuppen dieses Eies glänzen wie poliertes Metall."
- dragon_egg_rainbow_desc_living:0 "Die schillernden Schuppen dieses Eies glänzen wie poliertes Metall. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_yellow:0 "Gelbes Drachenei"
- dragon_egg_yellow_desc:0 "$dragon_egg_gen_desc$ Dieses Ei ist mit schimmernden gelben Schuppen verziert, die im Licht wie geschlagenes Gold glänzen - eine Pracht."
- dragon_egg_yellow_desc_living:0 "Dieses Ei ist mit schimmernden gelben Schuppen verziert, die im Licht wie geschlagenes Gold glänzen - eine Pracht. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_blue:0 "Blaues Drachenei"
- dragon_egg_blue_desc:0 "$dragon_egg_gen_desc$ Dieses kupferblau schimmernde Ei ist ein wahrer Hingucker."
- dragon_egg_blue_desc_living:0 "Dieses kupferblau schimmernde Ei ist ein wahrer Hingucker. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_purple:0 "Violettes Drachenei"
- dragon_egg_purple_desc:0 "$dragon_egg_gen_desc$ Die tiefvioletten Schuppen auf dieser Schale sind Träume, gewebt aus Schatten der Dämmerung und Sternenstaub."
- dragon_egg_purple_desc_living:0 "Die tiefvioletten Schuppen auf dieser Schale sind Träume, gewebt aus Schatten der Dämmerung und Sternenstaub. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_red:0 "Rotes Drachenei"
- dragon_egg_red_desc:0 "$dragon_egg_gen_desc$ Die dunkelroten Schuppen dieses Eies schimmern karminrot wie ein Rubin im Tageslicht."
- dragon_egg_red_desc_living:0 "Die dunkelroten Schuppen dieses Eies schimmern karminrot wie ein Rubin im Tageslicht. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_tan:0 "Sandfarbenes Drachenei"
- dragon_egg_tan_desc:0 "$dragon_egg_gen_desc$ Wirbel von braunen und sandfarbenen Tönen erinnern an die Dünen von Dorne."
- dragon_egg_tan_desc_living:0 "Wirbel von braunen und sandfarbenen Tönen erinnern an die Dünen von Dorne. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_brown:0 "Braunes Drachenei"
- dragon_egg_brown_desc:0 "$dragon_egg_gen_desc$ Die tiefbraunen Schuppen dieses Eies schimmern im Licht golden und bronzefarben."
- dragon_egg_brown_desc_living:0 "Die tiefbraunen Schuppen dieses Eies schimmern im Licht golden und bronzefarben. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_blackDarkRed:0 "Obsidianfarbenes Drachenei" #neu verbessert
- dragon_egg_blackDarkRed_desc:0 "$dragon_egg_gen_desc$ Die schwarzen Schuppen dieses Eies sind wellig und mit einem tiefen Scharlachrot durchwirkt."
- dragon_egg_blackDarkRed_desc_living:0 "Die schwarzen Schuppen dieses Eies sind wellig und mit einem tiefen Scharlachrot durchwirkt. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_iceFire:0 "Mystisches Drachenei"
- dragon_egg_iceFire_desc:0 "$dragon_egg_gen_desc$ Die Schuppen dieses Eies sind eine eindrucksvolle Mischung aus feuerroten und eisblauen Tönen, als ob Feuer und Eis in einem ewigen Konflikt stünden."
- dragon_egg_iceFire_desc_living:0 "Die Schuppen dieses Eies sind eine eindrucksvolle Mischung aus feuerroten und eisblauen Tönen, als ob Feuer und Eis in einem ewigen Konflikt stünden. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_black:0 "Schwarzes Drachenei"
- dragon_egg_black_desc:0 "$dragon_egg_gen_desc$ Der Obsidianglanz dieses Eies erinnert an die finstersten mondlosen Nächte."
- dragon_egg_black_desc_living:0 "Der Obsidianglanz dieses Eies erinnert an die finstersten mondlosen Nächte. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_orange:0 "Orangenes Drachenei"
- dragon_egg_orange_desc:0 "$dragon_egg_gen_desc$ Die Schuppen auf diesem Ei schimmern in leuchtendem Orange des Sonnenuntergangs."
- dragon_egg_orange_desc_living:0 "Die Schuppen auf diesem Ei schimmern in leuchtendem Orange des Sonnenuntergangs. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_white:0 "Weißes Drachenei"
- dragon_egg_white_desc:0 "$dragon_egg_gen_desc$ Die Schuppen dieses Eies sind perlweiß."
- dragon_egg_white_desc_living:0 "Die Schuppen dieses Eies sind perlweiß. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_pink:0 "Blassrotes Drachenei"
- dragon_egg_pink_desc:0 "$dragon_egg_gen_desc$ Die blassroten Schuppen dieses Eies schimmern sanft im Licht."
- dragon_egg_pink_desc_living:0 "Die blassroten Schuppen dieses Eies schimmern sanft im Licht. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_green_1:0 "Grünes Drachenei"
- dragon_egg_green_1_desc:0 "$dragon_egg_gen_desc$ Die Schuppen dieses jadegrünen Eies sind mehr als schön."
- dragon_egg_green_1_desc_living:0 "Die Schuppen dieses jadegrünen Eies sind mehr als schön. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_green_2:0 "Grünes Drachenei"
- dragon_egg_green_2_desc:0 "$dragon_egg_gen_desc$ Die jadegrünen Schuppen dieses Eies, die mit Bronze durchsetzt sind, sind mehr als schön."
- dragon_egg_green_2_desc_living:0 "Die jadegrünen Schuppen dieses Eies, die mit Bronze durchsetzt sind, sind mehr als schön. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_grey_1:0 "Graues Drachenei"
- dragon_egg_grey_1_desc:0 "$dragon_egg_gen_desc$ Dieses Ei hat einen rauchigen Farbton wie die Asche eines Vulkans."
- dragon_egg_grey_1_desc_living:0 "Dieses Ei hat einen rauchigen Farbton wie die Asche eines Vulkans. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_grey_2:0 "Graues Drachenei"
- dragon_egg_grey_2_desc:0 "$dragon_egg_gen_desc$ Dieses Ei hat einen rauchigen Farbton wie die Asche eines Vulkans."
- dragon_egg_grey_2_desc_living:0 "Dieses Ei hat einen rauchigen Farbton wie die Asche eines Vulkans. Gelegt wurde es von [dragon_parent.GetName]."
- dragon_egg_gold:0 "Goldenes Drachenei" #neu bis einschl. Z. 537
- dragon_egg_gold_desc:0 "$dragon_egg_gen_desc$ Verziert mit bezaubernden goldenen Schuppen, die im Licht schimmern, ist dieses Ei eine Schönheit."
- dragon_egg_gold_desc_living:0 "Die goldenen Schuppen dieses Eies schimmern im Licht. Es wurde von [dragon_parent.GetName] gelegt."
- dragon_egg_whitegold:0 "Lehmfarbenes Drachenei"
- dragon_egg_whitegold_desc:0 "$dragon_egg_gen_desc$ Die weißen Schuppen dieses Eies werden durch tiefgoldene Adern ergänzt, die wie Sonnenstrahlen schimmern."
- dragon_egg_whitegold_desc_living:0 "Die weißen Schuppen dieses Eies werden durch tiefgoldene Adern ergänzt, die wie Sonnenstrahlen schimmern. Es wurde von [dragon_parent.GetName] gelegt."
-
- dragon_egg_purplegold:0 "Ametrinfarbenes Drachenei"
- dragon_egg_purplegold_desc:0 "$dragon_egg_gen_desc$ Die majestätischen violetten Farbtöne dieses Eies verweben sich mit schimmernden goldenen Adern und verleihen ihm ein eindrucksvolles Aussehen, das an königliche Wandteppiche erinnert."
- dragon_egg_purplegold_desc_living:0 "Die majestätischen violetten Farbtöne dieses Eies verweben sich mit schimmernden goldenen Adern und verleihen ihm ein eindrucksvolles Aussehen, das an königliche Wandteppiche erinnert. Es wurde von [dragon_parent.GetName] gelegt."
-
- dragon_egg_flame:0 "Flammenrotes Drachenei"
- dragon_egg_flame_desc:0 "$dragon_egg_gen_desc$ Die Oberfläche dieses Eies flimmert in feurigen Farbtönen, die an tanzende Flammen erinnern, die in leuchtenden Orange-, Rot- und Gelbtönen die Luft lecken."
- dragon_egg_flame_desc_living:0 "Die Oberfläche dieses Eies flimmert in feurigen Farbtönen, die an tanzende Flammen erinnern, die in leuchtenden Orange-, Rot- und Gelbtönen die Luft lecken. Es wurde von [dragon_parent.GetName] gelegt."
-
- dragon_egg_blackred:0 "Blutrotes Drachenei"
- dragon_egg_blackred_desc:0 "$dragon_egg_gen_desc$ Dieses Ei ist überwiegend schwarz und mit vereinzelten, leuchtend roten Tupfen verziert, die wie vergossenes Blut vor dem dunklen Hintergrund schimmern."
- dragon_egg_blackred_desc_living:0 "This egg is predominantly black, adorned with scattered, vivid red spots that gleam like spilled blood against the dark backdrop. Es wurde von [dragon_parent.GetName] gelegt."
-
- dragon_egg_brownspots:0 "Enstatite Dragon Egg"
- dragon_egg_brownspots_desc:0 "$dragon_egg_gen_desc$ The surface of this brown egg is adorned with charming brown spots, resembling the natural patterns found on aged tree bark."
- dragon_egg_brownspots_desc_living:0 "The surface of this brown egg is adorned with charming brown spots, resembling the natural patterns found on aged tree bark. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_redblackgold:0 "Crimsongold Dragon Egg"
- dragon_egg_redblackgold_desc:0 "$dragon_egg_gen_desc$ The deep crimson scales of this egg are edged with shimmering gold, while sleek black accents add a touch of mystery and elegance."
- dragon_egg_redblackgold_desc_living:0 "The deep crimson scales of this egg are edged with shimmering gold, while sleek black accents add a touch of mystery and elegance. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_palered:0 "Crimson Dragon Egg"
- dragon_egg_palered_desc:0 "$dragon_egg_gen_desc$ The pale red surface of this egg exudes a soft, warm glow, reminiscent of a delicate blush at dawn."
- dragon_egg_palered_desc_living:0 "The pale red surface of this egg exudes a soft, warm glow, reminiscent of a delicate blush at dawn. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_darkblue:0 "Indigo Dragon Egg"
- dragon_egg_darkblue_desc:0 "$dragon_egg_gen_desc$ The deep blue surface of this egg shimmers like the depths of the ocean, exuding a sense of mystery and tranquility.."
- dragon_egg_darkblue_desc_living:0 "The deep blue surface of this egg shimmers like the depths of the ocean, exuding a sense of mystery and tranquility. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_darkred:0 "Blood-Red Dragon Egg"
- dragon_egg_darkred_desc:0 "$dragon_egg_gen_desc$ The surface of this egg is a deep, intense red, resembling freshly spilled blood, with a dark and ominous allure."
- dragon_egg_darkred_desc_living:0 "The surface of this egg is a deep, intense red, resembling freshly spilled blood, with a dark and ominous allure. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_frost:0 "Frost Dragon Egg"
- dragon_egg_frost_desc:0 "$dragon_egg_gen_desc$ The egg is a striking blend of icy white and frosty blue, its surface radiating a cold, wintry chill."
- dragon_egg_frost_desc_living:0 "The egg is a striking blend of icy white and frosty blue, its surface radiating a cold, wintry chill. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_greengrey:0 "Emerald Dragon Egg"
- dragon_egg_greengrey_desc:0 "$dragon_egg_gen_desc$ The pale green surface of this egg is adorned with delicate grey swirls, creating a serene and mesmerizing pattern."
- dragon_egg_greengrey_desc_living:0 "The pale green surface of this egg is adorned with delicate grey swirls, creating a serene and mesmerizing pattern. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_magma:0 "Magma Dragon Egg"
- dragon_egg_magma_desc:0 "$dragon_egg_gen_desc$ The surface of this egg is a fiery blend of molten reds and oranges, resembling bubbling magma, reminiscent of the Doom of Valyria."
- dragon_egg_magma_desc_living:0 "The surface of this egg is a fiery blend of molten reds and oranges, resembling bubbling magma, reminiscent of the Doom of Valyria. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_darkpurple:0 "Violet Dragon Egg"
- dragon_egg_darkpurple_desc:0 "$dragon_egg_gen_desc$ The deep and dark shades of purple keep this egg's hue deep and capture the essence of nightfall."
- dragon_egg_darkpurple_desc_living:0 "The deep and dark shades of purple keep this egg's hue deep and capture the essence of nightfall. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_palepink:0 "Primrose Dragon Egg"
- dragon_egg_palepink_desc:0 "$dragon_egg_gen_desc$ A delicate pale pink egg, its color soft and soothing, reminiscent of the first blush of dawn."
- dragon_egg_palepink_desc_living:0 "A delicate pale pink egg, its color soft and soothing, reminiscent of the first blush of dawn. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_palebluepink:0 "Opal Dragon Egg"
- dragon_egg_palebluepink_desc:0 "$dragon_egg_gen_desc$ Softly hued in pale blue, this egg is adorned with delicate splotches of pink, reminiscent of a gentle spring morning."
- dragon_egg_palebluepink_desc_living:0 "Softly hued in pale blue, this egg is adorned with delicate splotches of pink, reminiscent of a gentle spring morning. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_pinkspot:0 "Magenta Dragon Egg"
- dragon_egg_pinkspot_desc:0 "$dragon_egg_gen_desc$ This egg radiates with vibrant hues of bright pink and purple, blending together in a striking display of colorful brilliance."
- dragon_egg_pinkspot_desc_living:0 "This egg radiates with vibrant hues of bright pink and purple, blending together in a striking display of colorful brilliance. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_rainbowgold:0 "Prism Dragon Egg"
- dragon_egg_rainbowgold_desc:0 "$dragon_egg_gen_desc$ This egg exhibits a darker spectrum of colors intermingled with hints of golden shimmer, creating a captivating and iridescent display."
- dragon_egg_rainbowgold_desc_living:0 "This egg exhibits a darker spectrum of rainbow colors intermingled with hints of golden shimmer, creating a captivating and iridescent display. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_sunburst:0 "Sunburst Dragon Egg"
- dragon_egg_sunburst_desc:0 "$dragon_egg_gen_desc$ The surface of this egg bursts with vibrant hues, reminiscent of a radiant sunburst, its colors blending in a dazzling display of warmth and energy."
- dragon_egg_sunburst_desc_living:0 "The surface of this egg bursts with vibrant hues, reminiscent of a radiant sunburst, its colors blending in a dazzling display of warmth and energy. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_goldpink:0 "Triphane Dragon Egg"
- dragon_egg_goldpink_desc:0 "$dragon_egg_gen_desc$ This egg gleams with a lustrous golden hue, delicately kissed by shades of soft pink, exuding an aura of elegance and warmth."
- dragon_egg_goldpink_desc_living:0 "This egg gleams with a lustrous golden hue, delicately kissed by shades of soft pink, exuding an aura of elegance and warmth. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_bluebronze:0 "Apatite Dragon Egg"
- dragon_egg_bluebronze_desc:0 "$dragon_egg_gen_desc$ This egg showcases a harmonious blend of deep blue and rich bronze, creating a regal and striking appearance."
- dragon_egg_bluebronze_desc_living:0 "This egg showcases a harmonious blend of deep blue and rich bronze, creating a regal and striking appearance. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_greenorange:0 "Unakite Dragon Egg"
- dragon_egg_greenorange_desc:0 "$dragon_egg_gen_desc$ This egg displays a lively contrast of vivid green and vibrant orange, evoking a sense of energy and brightness."
- dragon_egg_greenorange_desc_living:0 "This egg displays a lively contrast of vivid green and vibrant orange, evoking a sense of energy and brightness. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_bronze:0 "Bronze Dragon Egg"
- dragon_egg_bronze_desc:0 "$dragon_egg_gen_desc$ This egg is a gleaming bronze, its surface reflecting a warm, rich hue reminiscent of aged metal."
- dragon_egg_bronze_desc_living:0 "This egg is a gleaming bronze, its surface reflecting a warm, rich hue reminiscent of aged metal. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_blackgreen:0 "Wildfire Dragon Egg"
- dragon_egg_blackgreen_desc:0 "$dragon_egg_gen_desc$ This egg is steeped in the sinister swirls of ominous blacks and eerie greens, hinting at madness and danger within its depths."
- dragon_egg_blackgreen_desc_living:0 "This egg is steeped in the sinister swirls of ominous blacks and eerie greens, hinting at madness and danger within its depths. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_greygreenyellow:0 "Andalusite Dragon Egg"
- dragon_egg_greygreenyellow_desc:0 "$dragon_egg_gen_desc$ This egg's pattern mimics nature's palette, seamlessly blending earthy greens, browns, and tans into a harmonious appearance."
- dragon_egg_greygreenyellow_desc_living:0 "This egg's pattern mimics nature's palette, seamlessly blending earthy greens, browns, and tans into a harmonious appearance. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_blackyellow:0 "Serpentine Dragon Egg"
- dragon_egg_blackyellow_desc:0 "$dragon_egg_gen_desc$ "This egg is adorned with striking black and yellow tones, creating a bold and eye-catching contrast reminiscent of honeybees flying amidst a dream of spring."
- dragon_egg_blackyellow_desc_living:0 "This egg is adorned with striking black and yellow tones, creating a bold and eye-catching contrast reminiscent of honeybees flying amidst a dream of spring. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_yellowgreen:0 "Peridot Dragon Egg"
- dragon_egg_yellowgreen_desc:0 "$dragon_egg_gen_desc$ This egg radiates with vibrant yellow and green hues, capturing the essence of fresh spring foliage and sunny, cheerful days."
- dragon_egg_yellowgreen_desc_living:0 "This egg radiates with vibrant yellow and green hues, capturing the essence of fresh spring foliage and sunny, cheerful days. It was laid by [dragon_parent.GetName]."
-
- dragon_egg_silver:0 "Silver Dragon Egg"
- dragon_egg_silver_desc:0 "$dragon_egg_gen_desc$ This gleaming silver egg has a smooth, mirror-like surface and exudes a cool, mystical aura."
- dragon_egg_silver_desc_living:0 "This gleaming silver egg has a smooth, mirror-like surface and exudes a cool, mystical aura. It was laid by [dragon_parent.GetName]."
-
- artifact_dragon_skull:0 "Dragon Skull"
- agot_artifact_dragon_skull_name:0 "[dragon.GetNamePossessiveNoTooltip] Skull"
- agot_artifact_dragon_skull_desc:0 "This skull belonged to the [newly_created_artifact.GetFeatureText('dragon_skull_size')] dragon, [newly_created_artifact.MakeScope.Var('dragon').Char.GetNameNicknamed]. Fire made flesh, [newly_created_artifact.MakeScope.Var('dragon').Char.GetSheHe] is now turned to ash and bone. [newly_created_artifact.Custom('DragonSkullIsSmallSkull')]\n\n[newly_created_artifact.Custom('DragonSkullGetDragonRider')][newly_created_artifact.Custom('DragonSkullGetDragonKiller')]"
- agot_own_red_keep.tt:0 "Only the Red Keep can display this artifact."
-
- feature_dragon_skull_size_huge:0 "massive"
- feature_dragon_skull_size_large:0 "large"
- feature_dragon_skull_size_medium:0 "average"
- feature_dragon_skull_size_small:0 "small"
-
- agot_empty:0 ""
- agot_artifact_dragon_skull_natural:0 "$agot_empty$"
- agot_artifact_dragon_skull_slain:0 "[ROOT.Var('dragon').Char.GetNameNoTooltip] was slain by [ROOT.Var('killer').Char.GetName]."
- agot_artifact_dragon_skull_past_rider:0 "In life [ROOT.Var('rider').Char.GetName] claimed this dragon as [ROOT.Var('dragon').Char.GetHerHis] first rider. "
- agot_artifact_dragon_skull_famous_past_rider:0 "[ROOT.Var('dragon').Char.GetNameNoTooltip] was famously ridden by [ROOT.Var('famous_rider').Char.GetNameNicknamed]. "
- agot_artifact_dragon_skull_wall_ornament:0 "It stares down upon all who pass under its hollow eyes, as if somehow still watching."
-
- artifact_dragon_horn:0 "Dragon Horn"
- agot_artifact_dragon_horn_desc:0 "[newly_created_artifact.Custom('DragonHornForgedBy')] The valyrian glyphs which carve its wicked surface, leave no questions as to its sorcerous nature. It is believed dragonlords of old Valyria would use such artifacts to bind dragons to their will."
-
- agot_artifact_dragon_horn_old_valyria:0 "This hellhorn was forged from the remains of a dragon of old Valyria."
- agot_artifact_dragon_horn_after_doom:0 "This hellhorn was forged from the remains of the dragon [ROOT.Var('dragon').Char.GetName] by [ROOT.Var('creator').Char.GetName]."
-
- agot_dragonbinder:0 "Dragonbinder"
- agot_artifact_dragonbinder_desc:0 "Measuring over 6 feet long, this hellhorn was forged from the remains of an enormous dragon of old Valyria. It gleams a deep black, and is banded with red gold and Valyrian steel. Valyrian glyphs are carved into the reflective, yet distorted, surface of this horn. [ROOT.Char.Custom('DragonBinderReadValyrian')]"
- agot_dragonbinder_read_valyrian:0 "The glyphs read "I am Dragonbinder... No mortal man shall sound me and live... Blood for fire, fire for blood.""
-
- agot_must_bind_horn.tt:0 "Only one bound to the horn may use it."
- uller_skull:0 "Totenkopf mit Amethystaugen"
- uller_skull_desc:0 "Haus Uller bewahrt einen seltsamen Gegenstand in seiner Burg auf: einen Schädel, schmucklos und schlicht, abgesehen von den beiden Amethysten, die in seinen Augenhöhlen liegen. Wenn man sie darauf anspricht, lächeln die Ullers nur und sagen, es sei ein altes Erbstück."
- hands_hand:0 "Hand der Hand"
- hands_hand_desc:0 "Der Witwenliebhaber war berüchtigt für seine Grausamkeit und als das Lösegeld für Orys Baratheon schließlich eintraf, nahm er die Schwerthand eines jeden Gefangenen, einschließlich die der Hand des Königs selbst, Orys Baratheon."
- smugglers_fingers:0 "Finger eines Zwiebelschmugglers"
- smugglers_fingers_desc:0 "Finger eines Zwiebelschmugglers"
- aemond_eye:0 "Auge des Sippenmörders"
- aemond_eye_desc:0 "Dieser Saphir, angeblich das Auge von Aemonds des Sippenmörders, wurde an die Ufer des Götterauges gespült."
- fox_wedding_cloak:0 "Der Hochzeitsumhang der Füchsin"
- fox_wedding_cloak_desc:0 "Die Legende besagt, dass sich Florys die Füchsin drei Gatten nahm und bei jeder Hochzeit einen anderen Umhang trug - dies soll einer davon sein."
- stars_of_hugor:0 "Stern des Hugor"
- stars_of_hugor_desc:0 "Einer der sagenumwobenen sieben Sterne, die der Vater selbst für die Krone von Hugor vom Hügel vom Himmel holte."
- harp_of_the_bard:0 "Harfe des Barden"
- harp_of_the_bard_desc:0 "Diese alte, verfallene Harfe soll einst einem Barden gehört haben, der eine blaue Rose gestohlen hat."
- symeon_left_eye:0 "Symeons linkes Auge"
- symeon_right_eye:0 "Symeons rechtes Auge"
- symeon_eye_desc:0 "Einer der Saphire, die der legendäre Ritter Symeon Sternenauge einst als Augen hatte."
- oily_black_stone:0 "Öliger Schwarzer Stein"
- oily_black_stone_desc:0 "Öliger Schwarzer Stein"
- eggs_boot:0 "Stiefel von Ei"
- eggs_boot_desc:0 "Dieser Siegelring wurde Aegon V. von seinem Vater für seine Zeit als Knappe bei Ser Duncan dem Großen, einem Heckenritter, geschenkt."
- harmund_tongue:0 "Harmunds Zunge"
- harmund_tongue_desc:0 "In einer prunkvoll geschnitzten und verzierten Kiste, die das Siegel der Lennisters ziert, befindet sich eine getrocknete, konservierte Zunge. Die Kiste soll bei einem Überfall auf die Westlande erbeutet worden sein. Die Beschaffenheit der Kiste spricht dafür, aber die Zunge im Inneren soll Harmund III. gehören, dem der Würger die Zunge für seine Blasphemie genommen hat."
- rhaegar_ruby:0 "Flussrubin"
- rhaegar_ruby_desc:0 "Als Robert Baratheon Rhaegar Targaryen den Todesstoß versetzte, verstreuten sich die Rubine aus Rhaegars Brustpanzer ins Wasser. Einige von ihnen werden gelegentlich immer noch an den Ufern des Tridents angespült."
- bran_set_square:0 "Brandons Zeichendreiecke"
- bran_set_square_desc:0 "Der Legende nach wurden diese Zeichendreiecke vom ersten Brandon Stark, besser bekannt als Bran der Erbauer, benutzt, der den ersten Hohenturm, Sturmkap, die Mauer und Winterfell gebaut haben soll."
- dragon_blood_and_bones_potion:0 "Drachenelixier"
- dragon_blood_and_bones_potion_desc:0 "Ein trübes Elixier, das aus dem frisch entnommenen Blute und den Gebeinen von [dragon.GetName] hergestellt wurde. Seine Wirkung ist nicht vollständig erwiesen, aber diejenigen, die es getrunken haben, berichten von... absonderlichen Erfahrungen, die sie auf dieses Elixier zurückführen."
-
- bittersteel_skull:0 "Schädel von Bitterstahl"
- bittersteel_skull_desc:0 "Schädel von Aegor Strom, auch bekannt als Bitterstahl, dem Gründer der Goldenen Kompanie."
- maelys_skull:0 "Schädel von Maelys dem Abscheulichen"
- maelys_skull_desc:0 "Schädel von Maelys I. Schwarzfeuer, letzter Schwarzfeuer-Prätendent und Hauptmann der Goldenen Kompanie. Ein überdurchschnittlich großer, grotesker Schädel, mit einem faustgroßen, kleineren Schädel, der genauso unförmig ist." #Now with added Jimhaerys
- daemon_blackfyre_skull:0 "Schädel von Daemon Schwarzfeuer"
- daemon_blackfyre_skull_desc:0 "Schädel von Daemon Schwarzfeuer, Hauptmann der Goldenen Kompanie, der von seiner Cousine, Maelys I. Schwarzfeuer, ermordet wurde."
-
- agot_artifact_moons_rod_name:0 "Cock o’ the Moon"
- agot_artifact_moons_rod_desc:0 "Septon Moon was renowned for his godlike virility. Thus after his failed insurrection resulted in his death, his devoted followers cut off his cock, pickled it and preserved it so future generations of barren maidens may yet flower with the blessing of the Cock o' the Moon."
-
- iron_throne:0 "Iron Throne"
- iron_throne_desc:0 "The Iron Throne of the Seven Kingdoms of Westeros was forged by the order of King Aegon I from the swords of his enemies. It is the greatest symbol of the realm and its united ruler."
- iron_throne_valid:0 "This can only be used in the court of [GetTitleByKey('c_kings_landing').GetNameNoTier]"
- gilded_throne:0 "Gilded Throne"
- gilded_throne_desc:0 "This imposing throne is a permanent fixture of the Golden Gallery. The great lion, carved from the Rock itself and gilded with gold from the mines below, stands guard over the many treasures and honors within the gallery."
- gilded_throne_valid:0 "This can only be used in the court of [GetTitleByKey('c_casterly_rock').GetNameNoTier]"
- seastone_chair:0 "Seastone Chair"
- seastone_chair_desc:0 "The mysterious throne of the Iron Islands, the Seastone Chair is made of oily black stone, and its construction and history are long lost to the annals of time."
- seastone_chair_valid:0 "This can only be used in the court of [GetTitleByKey('c_pyke').GetNameNoTier]"
- ruined_oakenseat:0 "Oakenstump"
- ruined_oakenseat_desc:0 "The once-living throne of House Gardener, said to have been planted by Garth the Green himself. This fabled throne was put to the torch long ago and now is a dead remnant of glories past."
- restored_oakenseat:0 "Oakenseat"
- restored_oakenseat_desc:0 "A tribute to the ancient oak that once served as the throne to Gardener kings of old, a new throne carved into a living tree now stands as a testament to the grandeur and patient care of the dynasts of Highgarden."
- oakenseat_valid:0 "This can only be used in the court of [GetTitleByKey('c_highgarden').GetNameNoTier]"
-
- painted_table:0 "The Painted Table"
- painted_table_desc:0 "A large table of solid, varnished wood — blackened and charred to represent seas, rivers, and lakes — has been carved into the shape of Westeros and its Seven Kingdoms. Crafted on the orders of Aegon 'the Conqueror,' this fifty-foot behemoth shows mountains, castles, and settlements, labels inlaid with gold — but no borders. It is all one. One realm, for one king alone to rule."
- painted_table_valid:0 "This can only be used in the court of [GetTitleByKey('c_dragonstone').GetNameNoTier]"
-
- seahorse_statue:0 "Seahorse Statue"
- seahorse_statue_desc:0 "An impressive jade seahorse, dating to ages before the Doom of Valyria, when dragonlords oft traded with merchants from the lands of the far east."
-
- #Maester Artifacts
- artifact_maester_link:0 "Chain Link"
- artifact_maester_link_collection:0 "Maester Link Collection"
- artifact_maester_chain:0 "Maester's Chain"
-
- agot_artifact_link_name:0 "[owner.Custom('GetLinkType')] Link"
- agot_artifact_link_desc:0 "[owner.GetShortUIName|U] earned this link studying under [maester.Custom('MaesterCheck')] [maester.GetName] [owner.Custom('GetLinkArtifactDescription')]"
- agot_artifact_link_desc_no_maester:0 "[owner.GetShortUIName|U] earned this link [owner.Custom('GetLinkArtifactDescription')]"
- agot_artifact_link_desc_black_iron:0 "by mastering ravenry."
- agot_artifact_link_desc_brass:0 "for committing to memory an uncountable number of lineages."
- agot_artifact_link_desc_bronze:0 "studying the stars."
- agot_artifact_link_desc_copper:0 "by learning the world's histories."
- agot_artifact_link_desc_electrum:0 "enigmatically."
- agot_artifact_link_desc_yellow_gold:0 "by uncooking the books."
- agot_artifact_link_desc_red_gold:0 "in the finer points of mathematics."
- agot_artifact_link_desc_iron:0 "by demonstrating a mind for warfare."
- agot_artifact_link_desc_lead:0 "by demonstrating his finer knowledge of poisons."
- agot_artifact_link_desc_pewter:0 "by building up his foundations in architecture."
- agot_artifact_link_desc_platinum:0 "by sowing his own success in the wheat fields."
- agot_artifact_link_desc_silver:0 "by learning to treat and care for others with medicine."
- agot_artifact_link_desc_steel:0 "by forging his own chain in a roaring forge."
- agot_artifact_link_desc_tin:0 "by studying the linguistics of the world."
- agot_artifact_link_desc_bismuth:0 "by deepening their understaning of the faiths."
- agot_artifact_link_desc_cast_iron:0 "by learning to care for animals."
- agot_artifact_link_desc_antimony:0 "by studying the geography of the natural world."
- agot_artifact_link_desc_nickel:0 "in alchemical studies."
- agot_artifact_link_desc_white_copper:0 "in the political sciences."
- agot_artifact_link_desc_aluminum:0 "by studying logistics and learning the flow of supply."
- agot_artifact_link_desc_zinc:0 "in engineering."
- agot_artifact_link_desc_vs:0 "for boldy develving into the deeper mysteries."
-
- agot_artifact_link_collection_name:0 "$artifact_maester_link_collection$"
- agot_artifact_link_collection_desc:0 "Validation of one's hard work and studies, maester's links symbolize experience in their respective fields.\nThis collection contains the following links: [newly_created_artifact.Custom('GetAluminumLinkCount')][newly_created_artifact.Custom('GetAntimonyLinkCount')][newly_created_artifact.Custom('GetBismuthLinkCount')][newly_created_artifact.Custom('GetBlackIronLinkCount')][newly_created_artifact.Custom('GetBrassLinkCount')][newly_created_artifact.Custom('GetBronzeLinkCount')][newly_created_artifact.Custom('GetCastIronLinkCount')][newly_created_artifact.Custom('GetCopperLinkCount')][newly_created_artifact.Custom('GetElectrumLinkCount')][newly_created_artifact.Custom('GetIronLinkCount')][newly_created_artifact.Custom('GetLeadLinkCount')][newly_created_artifact.Custom('GetNickelLinkCount')][newly_created_artifact.Custom('GetPewterLinkCount')][newly_created_artifact.Custom('GetPlatinumLinkCount')][newly_created_artifact.Custom('GetRedGoldLinkCount')][newly_created_artifact.Custom('GetSilverLinkCount')][newly_created_artifact.Custom('GetSteelLinkCount')][newly_created_artifact.Custom('GetTinLinkCount')][newly_created_artifact.Custom('GetVSLinkCount')][newly_created_artifact.Custom('GetWhiteCopperLinkCount')][newly_created_artifact.Custom('GetYellowGoldLinkCount')][newly_created_artifact.Custom('GetZincLinkCount')]\nTotal: [newly_created_artifact.MakeScope.Var('links_collected').GetValue]"
-
- agot_artifact_maester_chain_name:0 "$artifact_maester_chain$"
- agot_artifact_maester_chain_desc:0 "Assembled by earning a dozen chain links at the Citadel, a maester's chain symbolizes the deep wealth of knowledge and experience the owner possesses. \nAssembled links: [newly_created_artifact.Custom('GetAluminumLinkCount')][newly_created_artifact.Custom('GetAntimonyLinkCount')][newly_created_artifact.Custom('GetBismuthLinkCount')][newly_created_artifact.Custom('GetBlackIronLinkCount')][newly_created_artifact.Custom('GetBrassLinkCount')][newly_created_artifact.Custom('GetBronzeLinkCount')][newly_created_artifact.Custom('GetCastIronLinkCount')][newly_created_artifact.Custom('GetCopperLinkCount')][newly_created_artifact.Custom('GetElectrumLinkCount')][newly_created_artifact.Custom('GetIronLinkCount')][newly_created_artifact.Custom('GetLeadLinkCount')][newly_created_artifact.Custom('GetNickelLinkCount')][newly_created_artifact.Custom('GetPewterLinkCount')][newly_created_artifact.Custom('GetPlatinumLinkCount')][newly_created_artifact.Custom('GetRedGoldLinkCount')][newly_created_artifact.Custom('GetSilverLinkCount')][newly_created_artifact.Custom('GetSteelLinkCount')][newly_created_artifact.Custom('GetTinLinkCount')][newly_created_artifact.Custom('GetVSLinkCount')][newly_created_artifact.Custom('GetWhiteCopperLinkCount')][newly_created_artifact.Custom('GetYellowGoldLinkCount')][newly_created_artifact.Custom('GetZincLinkCount')]\nTotal: [newly_created_artifact.MakeScope.Var('links_collected').GetValue]"
-
- agot_artifact_maester_chain_desc_black_iron:0 "\n$BULLET_WITH_TAB$ Black Iron: [ROOT.Var('black_iron_links').GetValue]"
- agot_artifact_maester_chain_desc_brass:0 "\n$BULLET_WITH_TAB$ Brass: [ROOT.Var('brass_links').GetValue]"
- agot_artifact_maester_chain_desc_bronze:0 "\n$BULLET_WITH_TAB$ Bronze: [ROOT.Var('bronze_links').GetValue]"
- agot_artifact_maester_chain_desc_copper:0 "\n$BULLET_WITH_TAB$ Copper: [ROOT.Var('copper_links').GetValue]"
- agot_artifact_maester_chain_desc_electrum:0 "\n$BULLET_WITH_TAB$ Electrum: [ROOT.Var('electrum_links').GetValue]"
- agot_artifact_maester_chain_desc_yellow_gold:0 "\n$BULLET_WITH_TAB$ Yellow Gold: [ROOT.Var('yellow_gold_links').GetValue]"
- agot_artifact_maester_chain_desc_red_gold:0 "\n$BULLET_WITH_TAB$ Red Gold: [ROOT.Var('red_gold_links').GetValue]"
- agot_artifact_maester_chain_desc_iron:0 "\n$BULLET_WITH_TAB$ Iron: [ROOT.Var('iron_links').GetValue]"
- agot_artifact_maester_chain_desc_lead:0 "\n$BULLET_WITH_TAB$ Lead: [ROOT.Var('lead_links').GetValue]"
- agot_artifact_maester_chain_desc_pewter:0 "\n$BULLET_WITH_TAB$ Pewter: [ROOT.Var('pewter_links').GetValue]"
- agot_artifact_maester_chain_desc_platinum:0 "\n$BULLET_WITH_TAB$ Platinum: [ROOT.Var('platinum_links').GetValue]"
- agot_artifact_maester_chain_desc_silver:0 "\n$BULLET_WITH_TAB$ Silver: [ROOT.Var('silver_links').GetValue]"
- agot_artifact_maester_chain_desc_steel:0 "\n$BULLET_WITH_TAB$ Steel: [ROOT.Var('steel_links').GetValue]"
- agot_artifact_maester_chain_desc_tin:0 "\n$BULLET_WITH_TAB$ Tin: [ROOT.Var('tin_links').GetValue]"
- agot_artifact_maester_chain_desc_bismuth:0 "\n$BULLET_WITH_TAB$ Bismuth: [ROOT.Var('bismuth_links').GetValue]"
- agot_artifact_maester_chain_desc_cast_iron:0 "\n$BULLET_WITH_TAB$ Cast Iron: [ROOT.Var('cast_iron_links').GetValue]"
- agot_artifact_maester_chain_desc_antimony:0 "\n$BULLET_WITH_TAB$ Antimony: [ROOT.Var('antimony_links').GetValue]"
- agot_artifact_maester_chain_desc_nickel:0 "\n$BULLET_WITH_TAB$ Nickel: [ROOT.Var('nickel_links').GetValue]"
- agot_artifact_maester_chain_desc_white_copper:0 "\n$BULLET_WITH_TAB$ White Copper: [ROOT.Var('white_copper_links').GetValue]"
- agot_artifact_maester_chain_desc_aluminum:0 "\n$BULLET_WITH_TAB$ Aluminum: [ROOT.Var('aluminum_links').GetValue]"
- agot_artifact_maester_chain_desc_zinc:0 "\n$BULLET_WITH_TAB$ Zinc: [ROOT.Var('zinc_links').GetValue]"
- agot_artifact_maester_chain_desc_vs:0 "\n$BULLET_WITH_TAB$ Valyrian Steel: [ROOT.Var('vs_links').GetValue]"
-
- agot_artifact_desc_blank:0 ""
- agot_forge_link_intent_base:0 "Forge Link"
- agot_forge_link_type_black_iron:0 "Black Iron"
- agot_forge_link_type_brass:0 "Brass"
- agot_forge_link_type_bronze:0 "Bronze"
- agot_forge_link_type_copper:0 "Copper"
- agot_forge_link_type_electrum:0 "Electrum"
- agot_forge_link_type_yellow_gold:0 "Yellow Gold"
- agot_forge_link_type_red_gold:0 "Red Gold"
- agot_forge_link_type_iron:0 "Iron"
- agot_forge_link_type_lead:0 "Lead"
- agot_forge_link_type_pewter:0 "Pewter"
- agot_forge_link_type_platinum:0 "Platinum"
- agot_forge_link_type_silver:0 "Silver"
- agot_forge_link_type_steel:0 "Steel"
- agot_forge_link_type_tin:0 "Tin"
- agot_forge_link_type_bismuth:0 "Bismuth"
- agot_forge_link_type_cast_iron:0 "Cast Iron"
- agot_forge_link_type_antimony:0 "Antimony"
- agot_forge_link_type_nickel:0 "Nickel"
- agot_forge_link_type_white_copper:0 "White Copper"
- agot_forge_link_type_aluminum:0 "Aluminum"
- agot_forge_link_type_zinc:0 "Zinc"
- agot_forge_link_type_vs:0 "Valyrian Steel"
- agot_forge_link_type_unfocused:0 "Unfocused"
-
- agot_forge_link_type_black_iron_lower:0 "black iron"
- agot_forge_link_type_yellow_gold_lower:0 "yellow gold"
- agot_forge_link_type_red_gold_lower:0 "red gold"
- agot_forge_link_type_cast_iron_lower:0 "cast iron"
- agot_forge_link_type_white_copper_lower:0 "white copper"
- agot_forge_link_type_vs_lower:0 "Valyrian steel"
-
- artifact_archmaester_mask:0 "$archmaester$'s Mask"
- artifact_archmaester_ring:0 "$archmaester$'s Ring"
- artifact_archmaester_rod:0 "$archmaester$'s Rod"
-
- agot_artifact_archmaester_mask_name:0 "$artifact_archmaester_mask$: [owner.Custom('GetSpecialtyMetal')|U]"
- agot_artifact_archmaester_mask_desc:0 "A ceremonial mask worn by an $archmaester$ of the Citadel. This $archmaester$ specializes at [owner.Custom('GetSpecialtyFieldLower')|l]."
- agot_artifact_archmaester_ring_name:0 "$artifact_archmaester_ring$: [owner.Custom('GetSpecialtyMetal')|U]"
- agot_artifact_archmaester_ring_desc:0 "A ceremonial ring worn by an $archmaester$ of the Citadel. This $archmaester$ specializes at [owner.Custom('GetSpecialtyFieldLower')|l]."
- agot_artifact_archmaester_rod_name:0 "$artifact_archmaester_rod$: [owner.Custom('GetSpecialtyMetal')|U]"
- agot_artifact_archmaester_rod_desc:0 "A ceremonial rod worn by an $archmaester$ of the Citadel. This $archmaester$ specializes at [owner.Custom('GetSpecialtyFieldLower')|l]."
-
- agot_maester_specialty_black_iron:0 "Ravenry"
- agot_maester_specialty_brass:0 "Geneology"
- agot_maester_specialty_bronze:0 "Astronomy"
- agot_maester_specialty_copper:0 "History"
- agot_maester_specialty_electrum:0 "Cryptography"
- agot_maester_specialty_yellow_gold:0 "Accounting"
- agot_maester_specialty_red_gold:0 "Mathematics"
- agot_maester_specialty_iron:0 "Warcraft"
- agot_maester_specialty_lead:0 "Poisons"
- agot_maester_specialty_pewter:0 "Architecture"
- agot_maester_specialty_platinum:0 "Agriculture"
- agot_maester_specialty_silver:0 "Medicine"
- agot_maester_specialty_steel:0 "Metallurgy"
- agot_maester_specialty_tin:0 "Linguistics"
- agot_maester_specialty_bismuth:0 "Faiths"
- agot_maester_specialty_cast_iron:0 "Husbandry"
- agot_maester_specialty_antimony:0 "Geography"
- agot_maester_specialty_nickel:0 "Alchemical Studies"
- agot_maester_specialty_white_copper:0 "Political Sciences"
- agot_maester_specialty_aluminum:0 "Logistics"
- agot_maester_specialty_zinc:0 "Engineering"
- agot_maester_specialty_vs:0 "the Higher Mysteries"
-
- agot_maester_specialty_nickel_lower:0 "alchemical studies"
- agot_maester_specialty_white_copper_lower:0 "political sciences"
- agot_maester_specialty_vs_lower:0 "the higher mysteries"
-
- artifact_grandmaester_chain:0 "Grand Maester's Chain"
- artifact_grandmaester_chain_desc:0 "This ceremonical necklace is worn by the Grand Maester of the Iron Throne. Unlike a traditional maester's chain, gems are woven into its chains in addition to the typical metals."
-
- agot_must_be_archmaester_desc:0 "You must be an archmaester to wear this. If you are seeing this, shame on you."
- agot_must_be_grandmaester_desc:0 "You must be the Grand Maester to wear this. If you are seeing this, shame on you."
- agot_must_be_artifact_creator_desc:0 "You must be the artifact's creator to wear this."
-
- artifact_glass_candle:0 "Glass Candle"
- agot_artifact_glass_candle_desc:0 "An obsidian candle, [newly_created_artifact.GetFeatureText('glass_candle_color')] in color, tall and twisted in stature, and sharp to the touch. These candles are fabled to burn eternally, allowing their owners to peer across oceans and through mountains. [newly_created_artifact.Custom('GetCandleMagic')]"
- agot_glass_candle_lit_desc:0 "This candle shines uncomfortably bright, distorting colors around it."
- agot_glass_candle_unlit_desc:0 "Acolytes of the Citadel stand vigil before three such candles on the night of their promotion in a vain attempt to light them."
- agot_glass_candle_lit.tt:0 "Magic in the the world is strong, and the glass candle is lit."
-
- feature_glass_candle_black:0 "black"
- feature_glass_candle_green:0 "green" #I feel pain writing these. I leave open for more vibrant color descriptions
- feature_glass_candle_blue:0 "blue"
- feature_glass_candle_white:0 "white"
- feature_glass_candle_purple:0 "purple"
- feature_glass_candle_red:0 "red"
-
- # MISC
- agot_artifact_myrish_lace_name:0 "Myrish Lace"
- agot_artifact_myrish_lace_desc:0 "Myrish Lace is famed across the world, desired for by both man and woman."
- agot_artifact_norvoshi_bear_carving_name:0 "Norvoshi Bear Carving"
- agot_artifact_norvoshi_bear_carving_desc:0 "Bears have always been found in the Hills of Norvos, even before there was a Norvos, and thus it is of little surprise that the animal has become a symbol for the people of the region."
- agot_artifact_pentoshi_cheese_name:0 "Pentoshi Cheese"
- agot_artifact_pentoshi_cheese_desc:0 "While not as famed as the Lace of Myr, the helms of Tyrosh, or the dyes of Braavos, the cheese of Pentos is a great commodity and the basis for more then one Pentoshi Magister's wealth."
- agot_artifact_dothraki_bow_name:0 "Dothraki Bow"
- agot_artifact_dothraki_bow_desc:0 "The Dothraki Bows are one of their most fearsome weapons. While not as iconic as the arakh, their bows can outshoot most common Westerosi bows, and are small enough to be shot from horseback."
- traditional_house_artifact_modifier_desc:0 "This artifact traditionally belongs to my house or dynasty: $VALUE|=+0$"
-
- #Decisions
- create_crown_of_hugor_decision:0 "Die Krone der Vatersalbung schmieden"
- create_crown_of_hugor_decision_desc:0 "In vergangenen Zeiten wurde Hugor vom Hügel vom Vater Oben mit sieben Sternen gekrönt, die er selbst vom Himmel nahm. Dann beauftragte er Hugor, das von den Göttern auserwählte Volk in den Sonnenuntergang zu führen, um das ihm zugedachte Land, Westeros, zu finden. Seitdem sind die Sieben Sterne des Hugor getrennt worden und im Laufe der Zeit verloren gegangen, aber jetzt, wo sie wieder vereint sind, kann ich die Krone, mit der Hugor gekrönt wurde, neu schmieden."
- I_POSSESS_ALL_STARS:0 "Ihr besitzt die Sieben Sterne des Hugor"
- I_POSSESS_ALL_STARS_NOT:0 "Ihr seid nicht im Besitz aller Sieben Sterne und müsst die restlichen Sterne finden."
- create_crown_of_hugor_decision_tooltip:0 "Dies wird die Sieben Sterne des Hugor verwenden, um die Krone der Vatersalbung zu erschaffen."
- create_crown_of_hugor_decision_confirm:0 "Ich bin der Erbe Hugors!"
+ vs_adders_fang_name: "Natternzahn"
+ vs_adders_fang_description: "Natternzahn ist das Ahnenschwert, das das Oberhaupt des Hauses Wyl trägt. Das kunstvolle Bastardschwert mit der markanten gewellten Klinge wurde vom berüchtigten Wyl von Wyl während des ersten Dornischen Krieges geführt."
+ vs_blackfyre_name: "Schwarzfeuer"
+ vs_blackfyre_description: "Schwarzfeuer war eines der beiden Schwerter aus valyrischem Stahl, die die Targaryens vor dem Untergang aus Valyria nach Westeros brachten, was es zu einem der wertvollsten Besitztümer der Targaryens machte. Es ist ein gewaltiges und verziertes Großschwert, dessen Parierstange mit geschwärzten Drachenköpfen aus Stahl verziert ist."
+ vs_brightroar_name: "Lichtbrüller"
+ vs_brightroar_description: "Lichtbrüller ist das Ahnengroßschwert aus valyrischem Stahl des Hauses Lennister, das mit Tommen II. nach dem Untergang von Valyria verloren ging."
+ vs_cloudbreak_name: "Cloudbreak" #NT!
+ vs_cloudbreak_description: "An elegant weapon from a more civilized age. Capturing the soul of the elegant lost beauty of Valyria, this dragonbone-hilted longsword is crowned by a hunk of glistening polished bloodstone as its pommel. Since the Doom claimed the dragonrider who wielded the blade, Cloudbreak has been in the care of the wealthy Tyroshi merchants of House Adarys, a clear symbol of their ascendancy." #NT!
+ vs_iron_will_name: "Eisernwille"
+ vs_iron_will_description: "Eiserner Wille ist das Großschwert aus valyrischem Stahl, das von den Lords des Hauses Forester weitergegeben wird. Es ist unglaublich wertvoll und begehrt."
+ vs_pincer_name: "Krabbenschere"
+ vs_pincer_description: "Krabbenschere ist die Axt aus valyrischem Stahl, die dem Haus Celtigar gehört. Krabbenschere ist ein Relikt mit dunkler Schneide aus dem valyrischen Erbe des Hauses Celtigar und wurde bereits vor dem Untergang von Generationen von Celtigar getragen."
+ vs_dark_moon_name: "Dark Moon" #NT!
+ vs_dark_moon_description: "The blade of this greatsword shines like the brilliant rays of the moon. Upon the pommel is stamped a full moon, cold and leaden, and this sword is but a beam of its light." #NT!
+ vs_dark_sister_name: "Dunkle Schwester"
+ vs_dark_sister_description: "Dunkle Schwester war eines von zwei Schwertern aus valyrischem Stahl, die die Targaryens nach dem Untergang aus Drachenstein mitbrachten, was es zu einem der wertvollsten Besitztümer der Familie Targaryen machte. Blutrabe war der letzte bekannte Träger des schmalen Langschwertes."
+ vs_heartsbane_name: "Herzbann"
+ vs_heartsbane_description: "Herzbann ist das angestammte valyrische Stahlschwert des Hauses Tarly. Es ist ein zweihändiges Großschwert, das sich seit 300 Jahren v. A. E. im Besitz dieser stolzen Marschlords befindet."
+ vs_ice_name: "Eis"
+ vs_ice_description: "Eis ist das angestammte Großschwert aus valyrischem Stahl des Hauses Stark, das über ein Jahrhundert vor Aegons Eroberung in Valyria durch Zauber geschmiedet wurde. Die Starks besitzen seit dem Zeitalter der Helden ein Schwert mit dem Namen Eis. Dieses Schwert wurde so benannt, um diese Tradition fortzusetzen."
+ vs_oathkeeper_name: "Eidwahrer"
+ vs_oathkeeper_description: "Eidwahrer ist ein neues Langschwert aus Valyrischem Stahl, das im Auftrag von Tywin Lennister aus der alten Klinge Eis geschmiedet wurde. Die rasiermesserscharfe Klinge ist mit roten und schwarzen Maserungen durchzogen."
+ vs_widows_wail_name: "Witwenklage"
+ vs_widows_wail_description: "Witwenklage ist ein neues Schwert aus Valyrischem Stahl, das im Auftrag von Tywin Lennister aus der alten Klinge Eis geschmiedet wurde. Der Stahl ist mit roten und schwarzen Maserungen durchzogen und die Scheide ist mit Gold, Kirschholz, rotem Leder und goldenen Löwenköpfen mit Rubinaugen verziert."
+ vs_widows_wail_historical_description: "Widow's Wail is a new Valyrian steel sword forged from the old blade Ice on the orders of Tywin Lannister. It has red and black ripples through the steel and its scabbard is garishly decorated with gold, cherrywood, red leather and golden lion heads with ruby eyes." #NT!
+ vs_lady_forlorn_name: "Lady Einsam"
+ vs_lady_forlorn_description: "Lady Einsam ist das Langschwert aus Valyrischem Stahl, das dem Haus Corbray gehört. In seinem Knauf befindet sich ein herzförmiger Rubin.\n\n-Wenn der Träger von Lady Einsam ein Corbray ist, erbt das Oberhaupt des Hauses Corbray dieses Schwert üblicherweise nach dem Tod des Trägers."
+ vs_lamentation_name: "Wehklage"
+ vs_lamentation_description: "Wehklage ist das Valyrische Schwert des Hauses Rois, einem alten und mächtigen Adelshaus des Grünen Tals. Es geht auf die Zeit vor der Arryn-Herrschaft im Tal zurück und kann sein Blut bis in die Tage der Ersten Menschen zurückverfolgen, die einst das Tal bevölkerten, und ihre Herrschaft als Bronzekönige von Runenstein, bis zur Invasion der Andalen, bei der sie von Artys Arryn, dem König von Berg und Grünem Tal, besiegt wurden."
+ vs_longclaw_name: "Langklaue"
+ vs_longclaw_description: "Langklaue ist das uralte Valyrische Bastardschwert des Hauses Mormont, das sich seit Hunderten von Jahren in den Händen der Mormont-Dynastie befindet. Dieses Schwert ist länger als die meisten anderen, spitz zulaufend, um sowohl zu schneiden als auch zu hacken. Drei Hohlkehlen verlaufen teilweise entlang der dunklen Klinge und verbessern die ohnehin schon hervorragende Balance."
+ vs_nightfall_name: "Nachtfall"
+ vs_nightfall_description: "Nachtfall ist ein Valyrisches Schwert, das dem Haus Harlau gegen Ende des dritten Jahrhunderts A.E. gehörte. Das dunkelschneidige Langschwert wurde mit dem eisernen Preis bezahlt, von Lord Dalten Graufreud von einem erschlagenen Korsaren erbeutet. Es hat einen Knauf aus Mondstein."
+ vs_orphan_maker_name: "Waisenmacher"
+ vs_orphan_maker_description: "Waisenmacher ist das Valyrische Schwert des Hauses Steinern, das ursprünglich von mehreren Rittern benutzt wurde, die für die Grünen im Tanz der Drachen kämpften. Das dunkle Metallwerk aus bläulichem Stahl ist mit bedrohlichen Stacheln verziert und verleiht dieser furchterregenden Waffe eine makabre Aura."
+ vs_poison_name: "Giftstich"
+ vs_poison_description: "Gift ist das Valyrische Schwert des Hauses Vunatis, ein Bastardschwert aus Valyrischem Stahl, das ursprünglich mit den Volantenern jenseits der Meerenge gegen Säcke voller Gold getauscht werden sollte, bevor das Schiff, auf dem es sich befand, von den Piratenfürsten von Blutstein gekapert wurde. Der Griff ist aus Drachenbein gefertigt und in einem Korkenziehermuster geschnitzt."
+ vs_red_rain_name: "Rotregen"
+ vs_red_rain_description: "Rotregen ist ein blutdunkles Langschwert, das mit tränenförmigen Rubinen besetzt ist. Das Schwert wurde von Hilmar Drumm für das Haus Drumm erworben, nur mit Hilfe seines Verstandes und eines Holzknüppels. Die vorherigen Besitzer sind unbekannt - obwohl einige Maester postulieren, dass es das lange verschollene Schwert des Hauses Regn sein könnte, das kurz vor dessen Niedergang verschwand."
+ vs_remige_name: "Schwungfeder"
+ vs_remige_description: "Schwungfeder ist das Ahnenschwert aus valyrischem Stahl des Hauses Cargyll, das in den Händen der legendären goldenen Gans geführt wurde, die der Sage nach die ersten Eier nach Westeros brachte."
+  
+ vs_strangers_mercy_name: "Gnade des Fremden"
+ vs_strangers_mercy_description: "Gnade des Fremden ist ein Bastardschwert aus Valyrischem Stahl, dessen Knauf mit einem Stück poliertem Drachenglas besetzt ist."
+ vs_truth_name: "Wahrheit"
+ vs_truth_description: "Wahrheit ist das Valyrische Schwert des Hauses Rogare, einer adligen Familie uralter Abstammung aus Lys. Der goldene Griff ist kunstvoll geschnitzt und deutet auf den obszönen Reichtum der Familie hin, den sie über Jahrhunderte im Bankgewerbe gesammelt hat."
+ vs_vigilance_name: "Umsicht"
+ vs_vigilance_description: "Umsicht ist das angestammte Valyrische Schwert des Hauses Hohenturm. Ein schlankes und spitz zulaufendes Langschwert, verziert mit goldenen Flammen und Zinnen in Anlehnung an deren Leuchtturm im Herzen von Altsass."
+ vs_widestripe_name: "Breitstreif"
+ vs_widestripe_description: "Breitstreif ist das angestammte Valyrische Großschwert des Hauses Lydden, das erstmals in den Händen des zukünftigen Königs Joffrey Lydden nach Westeros getragen wurde. Die breite, dunkle Klinge wurde von Rittern und Lords mit Dachshauben in viele Schlachten getragen."
+ vs_longclaw_stark_name: "Langklaue"
+ vs_longclaw_stark_description: "Langklaue ist das angestammte Valyrische Bastardschwert des Hauses Mormont, das sich seit Hunderten von Jahren in den Händen der Mormont-Dynastie befand. Dieses Schwert ist länger als die meisten anderen, spitz zulaufend, um sowohl zu schneiden als auch zu hacken. Drei Hohlkehlen verlaufen teilweise entlang der dunklen Klinge und verbessern die ohnehin schon hervorragende Balance. Der ursprüngliche Knauf mit dem Bärenkopf wurde durch den Kopf eines weißen Schattenwolfs ersetzt, als das Schwert an Jon Schnee verschenkt wurde."
+  
+ vs_dancer_name: "Tänzerin"
+ vs_dancer_description: "agot_dancer_description"
+ vs_darktalon_name: "Dunkelklaue"
+ vs_darktalon_description: "Die Vyrwells von Dunkeltal schwingen dieses Großschwert seit Generationen. Auf dem versilberten Griff ist ein grimmiger Wyvern mit ausgebreiteten Flügeln eingraviert."
+ vs_dawn_name: "Dämmerung"
+ vs_dawn_description: "Dämmerung ist das sagenumwobene Schwert des Hauses Dayn. Das riesige Großschwert hat eine Klinge, so blass wie Milchglas, und einen goldenen Stern, der den Griff ziert. Die Legende besagt, dass ein gefallener Stern vom Gründer des Hauses Dayn bis zur Mündung des Torentin verfolgt wurde, an dem Ort, der später Sternfall genannt werden sollte. Dämmerung wurde aus dem Herzen dieses Sterns geschmiedet und wird seither von den würdigsten Mitgliedern des Hauses Dayn geführt."
+ vs_defiance_name: "Trotz"
+ vs_defiance_description: "Trotz ist ein Langschwert mit Bronzegriff aus dem Besitz des Hauses Eisenschmied. Das Haus Eisenschmied erlangte über Jahrhunderte hinweg Bekanntheit als Lieferant von Hufeisen für die Kavallerie des Nordens. Diese Bekanntheit ermöglichte es ihnen schließlich, Trotz in Auftrag zu geben und ihre Stellung unter dem Adel des Nordens zu festigen."
+ vs_disputant_name: "Streitlust"
+ vs_disputant_description: "Streitlust ist ein kurzes Schwert mit dunkelgoldenem, fledermausförmigem Griff. Die Klinge ist schwarz wie die Nacht."
+ vs_the_dagger_name: "Dolch mit Drachenbeingriff"
+ vs_the_dagger_description: "Dieser Dolch ist entlang des gebogenen Griffs aus Drachenknochen mit Rubinen besetzt. Die ungewöhnliche, halbgekrümmte Form und die Verwendung von Drachenknochen im Griff dieses verruchten Dolches zeigen, dass er im alten Valyria für eine extrem reiche Adelsfamilie geschmiedet wurde."
+ vs_dusk_name: "Sonnenuntergang"
+ vs_dusk_description: "agot_dusk_description"
+ vs_eleneis_bulwark_name: "Eleneis Bulwark"
+ vs_eleneis_bulwark_description: "agot_eleneis_bulwark_description"
+ vs_justicar_name: "Justiziar"
+ vs_justicar_description: "agot_justicar_description"
+ vs_pride_name: "Stolz"
+ vs_pride_description: "Die löwengeschmückten Ritter von Haus Jast tragen dieses Langschwert seit den Tagen des Königreichs vom Stein."
+ vs_prosperity_name: "Wohlstand"
+ vs_prosperity_description: "Dieses prachtvolle goldene Schwert ist Besitz des Hauses Narratys, einer adligen Familie mit großer Ahnenreihe im Adel der Pentoshi. Mehrere Fürsten der Pentoshi entstammen dieser Dynastie, so dass sie den nötigen Reichtum anhäufen konnten, um dieses Symbol ihres eigenen Wohlstands zu erwerben."
+ vs_seafoam_name: "Meeresschaum"
+ vs_seafoam_description: "Das Valyrische Säbel des Hauses Velaryon ist mit ihrem Siegel des Seepferdchens verziert. Dieses Krummschwert mit seinem schön geschnitzten Silbergriff wurde mit den Erträgen von Generationen des Handels erworben."
+ vs_skullcleaver_name: "Schädelspalter"
+ vs_skullcleaver_description: "Dieses gewaltige Großschwert wird seit Generationen von den Lords des Hauses Bannstein geführt. Das Schwert erhielt seinen Namen, nachdem ein Hauptmann der Eisenmänner im Einzelkampf vom Herrn des Hauses Bannstein mit einem Hieb getötet wurde, der die Axt des Angreifers, den Helm und den darunter liegenden Schädel durchschlug."
+ vs_soaring_glory_name: "Himmelfahrt"
+ vs_soaring_glory_description: "agot_soaring_glory_description"
+ vs_stalwart_name: "Unbeugsamkeit"
+ vs_stalwart_description: "Dieses goldene, spitz zulaufende Schwert mit seinem gravierten silbernen Griff ist eine wahre Augenweide und hat sich im Laufe der Generationen, in denen die Finsterlyns es in die Schlacht getragen haben, als tödlich erwiesen. Könige, Lords und Ritter aus dem Hause Finsterlyn haben dieses Schwert gegen zahlreiche Widersacher und zum Schutz von mehr Königen als jedes andere Haus geschwungen."
+ vs_sting_name: "Stich"
+ vs_sting_description: "Stich ist das angestammte Valyrische Kurzschwert des Hauses Biengraben. Die Waffe mit der dunklen Blattklinge war schon für viele aus diesem altehrwürdigen Haus ein treuer Gefährte."
+ vs_supremacy_name: "Überlegenheit"
+ vs_supremacy_description: "Die Serretts von Silberhügel sind ein stolzes andalisches Haus, das dieses prunkvolle Schwert mit dem Silber der Ländereien rund um seinen Bergfried erworben hat."
+ vs_swordfish_name: "Schwertfisch"
+ vs_swordfish_description: "Die Bar Emmons von Scharfspitze wurden von Togarion dem Schrecklichen gegründet, einem andalischen Kriegsherrn, der ein kleines Königreich für sich und seine Nachkommen in Scharfspitze errichtete. Dieses Bastardschwert mit Griff aus Gold und Silber wurde von den späteren Bar Emmons benutzt, um die Kontrolle über dieses Königreich zu behalten, und ist ihr wertvollster Besitz - sie haben sogar das Flaggschiff ihrer Flotte nach dem Schwert benannt."
+ vs_yron_key_name: "Der Isenschlüssel"
+ vs_yron_key_description: "agot_yron_key_description"
+ vs_tranquility_name: "Stille"
+ vs_tranquility_description: "Dieses versilberte Schwert ist mit Amethysten verziert. Das Haus Brax besitzt dieses beeindruckende Schwert aus valyrischem Stahl schon seit Hunderten von Jahren."
+ vs_wyrmfang_name: "Wyrmzahn"
+ vs_wyrmfang_description: "Die Staublins von Hüglingen sind ein altes Haus mit einer stolzen und geschichtsträchtigen Vergangenheit. Dieses Schwert wurde nach dem Vorbild der Bronzeschwerter geschmiedet, die die alten Staublin-Könige im Zeitalter der Helden trugen."
+ vs_evergold_name: "Immergold"
+ vs_evergold_description: "Diese Klinge wurde vor dem Untergang vom berühmten Haus Esch in Auftrag gegeben und ist von feinster valyrischer Handwerkskunst. Auf dem Knauf befindet sich die goldene Baum-Standarte des Hauses Esch."
+  
+ vs_black_death_name: "Black Death" #NT!
+ vs_black_death_description: "This greatsword has been forged purely for efficiency on the battlefield. Its crossguard is filed into sharp spikes, its handle is crafted out of brittle black iron, and its pommel is fashioned into a spiked iron mace made to crush the skulls of those who dare approach." #NT!
+ vs_mothers_grief_name: "Mother's Grief" #NT!
+ vs_mothers_grief_description: "The pommel of this longsword has been fashioned into a copper statue of the Mother Above, perhaps as a plea to the gods to grant protection to loved ones in battle. The engraved crossguard and the handle are both crafted out of the same red copper." #NT!
+ vs_talon_name: "Talon" #NT!
+ vs_talon_description: "This crossguard of this longsword is fashioned into the shape of wings, with a large blue sapphire sitting in the center. Its pommel, crafted out of the same blue-tinted steel, depicts the head of a falcon with gold streaks flowing from underneath and two smaller sapphires for eyes." #NT!
+ vs_glory_name: "Glory" #NT!
+ vs_glory_description: "A deep-red ruby, fashioned in the shape of a heart, serves as the pommel for this shortsword. Solid gold, laid in the shape of licking flames, hugs the ruby on each side in the fiery embrace of R'hllor." #NT!
+ vs_skinpeeler_name: "Skinpeeler" #NT!
+ vs_skinpeeler_description: "This two-handed greatsword has a distinctive wavy Valyrian steel blade shaded in the hue of a light pink." #NT!
+ vs_stormy_nights_name: "Stormy Nights" #NT!
+ vs_stormy_nights_description: "A violent and harsh-looking blade, lacking the ostentatious decorations most Valyrian artifacts bear, this sword keeps the dark hue that it was born with in the forge, twisted and molded by its creator into practical shape. The lack of adornments gives this weapon a brutish and stern aura in opposition to most of the old empire's creations — a warrior's weapon, not a noble's ornament." #NT!
+ vs_strangers_touch_name: "Stranger's Touch" #NT!
+ vs_strangers_touch_description: "Those who find themselves under the shadow of this behemoth must find comfort in knowing that they have been condemned by one who thought their ending worth the highest expense." #NT!
+ vs_dragonbane_name: "Dragonbane" #NT!
+ vs_dragonbane_description: "This sword's hilt is made of silver that has been dyed dark blue. Its pommel was crafted out of the same metal, and has intricate engravings. The longsword's crossguard is fashioned in the shape of a pair of dragons with their wings stretched out on both sides of the blade." #NT!
+ vs_andal_armingsword_gold_name: "Golden Andal Longsword" #NT!
+ vs_andal_armingsword_gold_description: "The metalwork of this longsword gleams gold-bright. The fine filigree shimmers in the candlelight, as detailed as the swirling patternation in the dark rippled Valyrian steel blade. This sword seems fit for the Warrior himself, a heroic weapon reminiscent of a bygone age." #NT!
+ vs_andal_armingsword_silver_name: "Silver Andal Longsword" #NT!
+ vs_andal_armingsword_silver_description: "The ornate silver metalwork of this longsword is beautifully engraved. The fine filigree shimmers in the candlelight, as detailed as the swirling patternation in the fine rippled Valyrian steel blade. This sword seems fit for the Warrior himself, a heroic weapon reminiscent of a bygone age." #NT!
+ vs_andal_longsword_gold_name: "Golden Andal Bastard Sword" #NT!
+ vs_andal_longsword_gold_description: "The metalwork of this bastard sword gleams gold-bright. The fine filigree shimmers in the candlelight, as detailed as the swirling patternation in the fine rippled Valyrian steel blade. This sword seems fit for the Warrior himself, a heroic weapon reminiscent of a bygone age." #NT!
+ vs_andal_longsword_silver_name: "Silver Andal Bastard Sword" #NT!
+ vs_andal_longsword_silver_description: "The ornate silver metalwork of this bastard sword is beautifully engraved. The fine filigree shimmers in the candlelight, as detailed as the swirling patternation in the fine rippled Valyrian steel blade. This sword seems fit for the Warrior himself, a heroic weapon reminiscent of a bygone age." #NT!
+ vs_firstman_armingsword_gold_name: "Golden First Man Longsword" #NT!
+ vs_firstman_armingsword_gold_description: "The metalwork of this longsword gleams gold-bright. Runic inscriptions, written in the old tongue shimmer in the candlelight, as detailed as the swirling patternation in the dark rippled Valyrian steel blade. The styling and proportions of this sword are heavily reminiscent of the swords borne by ancient heroes of many northern houses claiming descent from the First Men." #NT!
+ vs_firstman_armingsword_silver_name: "Silver First Man Longsword" #NT!
+ vs_firstman_armingsword_silver_description: "The ornate silver metalwork of this bastard sword is beautifully engraved. Runic inscriptions, written in the old tongue shimmer in the candlelight, as detailed as the swirling patternation in the dark rippled Valyrian steel blade. The styling and proportions of this sword are heavily reminiscent of the swords borne by ancient heroes of many northern houses claiming descent from the First Men." #NT!
+ vs_firstman_armingsword_bronze_name: "Bronze First Man Longsword" #NT!
+ vs_firstman_armingsword_bronze_description: "The bronze metalwork of this longsword has been polished to a brilliant shine. Runic inscriptions, written in the old tongue shimmer in the candlelight, as detailed as the swirling patternation in the dark rippled Valyrian steel blade. The styling and proportions of this sword are heavily reminiscent of the swords borne by ancient heroes of many northern houses claiming descent from the First Men." #NT!
+ vs_firstman_longsword_gold_name: "Golden First Man Bastard Sword" #NT!
+ vs_firstman_longsword_gold_description: "The metalwork of this bastard sword gleams gold-bright. Runic inscriptions, written in the old tongue shimmer in the candlelight, as detailed as the swirling patternation in the dark rippled Valyrian steel blade. The styling and proportions of this sword are heavily reminiscent of the swords borne by ancient heroes of many northern houses claiming descent from the First Men." #NT!
+ vs_firstman_longsword_silver_name: "Silver First Man Bastard Sword" #NT!
+ vs_firstman_longsword_silver_description: "The ornate silver metalwork of this bastard sword is beautifully engraved. Runic inscriptions, written in the old tongue shimmer in the candlelight, as detailed as the swirling patternation in the dark rippled Valyrian steel blade. The styling and proportions of this sword are heavily reminiscent of the swords borne by ancient heroes of many northern houses claiming descent from the First Men." #NT!
+ vs_firstman_longsword_bronze_name: "Bronze First Man Bastard Sword" #NT!
+ vs_firstman_longsword_bronze_description: "The bronze metalwork of this longsword has been polished to a brilliant shine. Runic inscriptions, written in the old tongue shimmer in the candlelight, as detailed as the swirling patternation in the dark rippled Valyrian steel blade. The styling and proportions of this sword are heavily reminiscent of the swords borne by ancient heroes of many northern houses claiming descent from the First Men." #NT!
+ vs_valyrian_armingsword_gold_name: "Golden Valyrian Longsword" #NT!
+ vs_valyrian_armingsword_gold_description: "The ornate metalwork of this longsword gleams gold-bright. The textured metal's scales shimmer and glow in the candlelight, as detailed as the swirling patternation in the dark rippled Valyrian steel blade. This sword is reminiscent of the fearsome weaponry wielded by the dragonlords of ancient Valyria." #NT!
+ vs_valyrian_armingsword_silver_name: "Silver Valyrian Longsword" #NT!
+ vs_valyrian_armingsword_silver_description: "The ornate silver metalwork of this longsword is beautifully engraved. The textured metal's scales shimmer and glow in the candlelight, as detailed as the swirling patternation in the dark rippled Valyrian steel blade. This sword is reminiscent of the fearsome weaponry wielded by the dragonlords of ancient Valyria." #NT!
+ vs_valyrian_longsword_gold_name: "Golden Valyrian Bastard Sword" #NT!
+ vs_valyrian_longsword_gold_description: "The metalwork of this bastard sword gleams gold-bright. The fine filigree shimmers in the candlelight, as detailed as the swirling patternation in the dark rippled Valyrian steel blade. This sword is reminiscent of the fearsome weaponry wielded by the dragonlords of ancient Valyria." #NT!
+ vs_valyrian_longsword_silver_name: "Silver Valyrian Bastard Sword" #NT!
+ vs_valyrian_longsword_silver_description: "The ornate silver metalwork of this bastard sword is beautifully engraved. The textured metal's scales shimmer and glow in the candlelight, as detailed as the swirling patternation in the dark rippled Valyrian steel blade. This sword is reminiscent of the fearsome weaponry wielded by the dragonlords of ancient Valyria." #NT!
+  
+ maekar_mace_name: "Maekar's Mace" #NT!
+ maekar_mace_description: "Forged during the youth of Maekar Targaryen, this huge spiked mace can only be properly wielded by the mightiest of warriors." #NT!
+ bobby_hammer_name: "Roberts Streithammer"
+ bobby_hammer_description: "Geschmiedet vom Meisterschmied von Storm's End, Donal Noye, ist dieser Streithammer von solch immenser Größe und Gewicht, dass es einen Mann mit der Kraft eines Riesen bräuchte, um ihn zu führen."
+ bobby_hammer_cooler_description: "Forged by the master smith of Storm's End, Donal Noye, this warhammer is of such immense size and heft that it would take a man with the strength of a giant to wield it. Robert Baratheon used this hammer to crush Prince Rhaegar Targaryen's chest at the Battle of the Trident." #NT!
+ bobby_hammer_duel_description: "[my_weapon.GetDesc] [owner.GetFullName] used this hammer to crush [loser.GetFullNamePossessive] chest at the Battle of [battle_location.GetNameNoTooltip]." #NT!
+ emoBoy_sword_name: "Lover's Harp" #NT!
+ emoBoy_sword_description: "The finest blade ever forged on the street of steel in King's Landing, presented to Prince Rhaegar Targaryen upon becoming Prince of Dragonstone. Slender and elegant, a worthy blade for a man who may one day be king." #NT!
+ emoBoy_sword_duel_description: "[my_weapon.GetDesc] [owner.GetFullName] used this sword to slay [loser.GetFullName] at the Battle of [battle_location.GetNameNoTooltip]." #NT!
+ kingsguard_sword_name: "[owner.GetFullNamePossessive] Sword" #NT!
+ kingsguard_sword_description: "A sword presented to [owner.GetFullName] on joining the Kingsguard." #NT!
+ redbeard_axe_name: "Redbeard's Axe" #NT!
+ redbeard_axe_description: "A master-crafted bronze axe that once belonged to Raymun Redbeard, the King-Beyond-the-Wall." #NT!
+ agot_is_wildling_desc: "You are Free Folk" #NT!
+ bloodraven_longbow_name: "Raven's Tooth" #NT!
+ bloodraven_longbow_description: "The bone-white longbow made for Brynden Rivers, more commonly known as 'Bloodraven'. This impressive bow was crafted from a fallen branch of the great weirwood for which Raventree Hall gets its name." #NT!
+ weirwood_longbow_name: "Weirwood Longbow" #NT!
+ weirwood_longbow_description: "Made from the wood of a weirwood, this longbow possesses the unmistakable bone white color that is distinctive of the sacred trees of the Old Gods. It is well-crafted and will never rot." #NT!
+ dragonbone_longbow_name: "Dragonbone Longbow" #NT!
+ dragonbone_longbow_description: "Bows such as these are rare and highly sought after. As strong as steel, yet lighter and more flexible, dragonbone makes for an excellent material for bows that are said to outrange even the goldenheart bows of the Summer Isles." #NT!
+  
+  #Crown Tooltip 
+ agot_is_independent_crown_tooltip_desc: "Only an independent ruler, their spouse, or heirs may wear this crown." #NT!
+ baelor_crown_tooltip_desc: "Only virtuous rulers may wear this crown." #NT!
+  
+  #Targaryen Crowns 
+ aegon_i_crown_name: "Krone von Aegon I"
+ aegon_i_crown_description: "Eine kreisrunde Krone aus Valyrischem Stahl, besetzt mit großen Rubinen im Quadratschliff."
+ aenys_crown_name: "Aenys' Krone"
+ aenys_crown_description: "Eine goldene Krone, aufwändig und groß und kunstvoll verziert."
+ jaehaerys_crown_name: "Jaehaerys' Krone"
+ jaehaerys_crown_description: "Ein einfaches Goldband, besetzt mit sieben Edelsteinen in verschiedenen Farben."
+ aegon_iii_crown_name: "Krone von Aegon III"
+ aegon_iii_crown_description: "Ein schmales goldenes Band, ein einfacher, unverzierter Reif."
+ baelors_crown_name: "Baelors Krone"
+ baelors_crown_description: "Eine Krone aus Blumen und Ranken."
+ aegon_iv_crown_name: "Krone von Aegon IV"
+ aegon_iv_crown_description: "Eine Krone aus Rotgold, groß und schwer, jede ihrer Spitzen stellt einen Drachenkopf mit Edelsteinaugen dar."
+ maekars_crown_name: "Maekars Krone"
+ maekars_crown_description: "Eine kriegerische Krone mit scharfen schwarzen Eisenzacken in einem Band aus Rotgold."
+ rhaella_crown_name: "Crown of the Tragic Queen" #NT!
+ rhaella_crown_historical_description: "A crown owned by Queen Rhaella Targaryen, wife of King Aerys II. It is a silver and iron circlet marked with red rubies and interspersed with dozens of diamonds." #NT!
+ rhaella_crown_description: "A crown worn by Queen Rhaella Targaryen. It is a silver and iron circlet marked with red rubies and interspersed with dozens of diamonds." #NT!
+ visenya_circlet_name: "Circlet of the Dark Sister" #NT!
+ visenya_circlet_description: "A dark Valyrian steel circlet surrounded by red rubies worn by Queen Visenya, eldest of the Three Dragons. It stands as a powerful reminder of the Dark Sister of Aegon the Dragon." #NT!
+ rhaenys_circlet_name: "Circlet of the Beloved Queen" #NT!
+ rhaenys_circlet_description: "Forged from dark Valyrian steel and encrusted with diamond-shaped rubies, this marvelous circlet was made for Queen Rhaenys Targaryen." #NT!
+ rhaenys_circlet_historical_description: "Forged from dark Valyrian steel and encrusted with diamond-shaped rubies, this marvelous circlet belonged to Queen Rhaenys Targaryen, the most lovely of King Aegon the Conqueror's wives." #NT!
+ alysannecrown_name: "Crown of the Good Queen" #NT!
+ alysannecrown_description: "The crown of Queen Alysanne Targaryen is a thin, simple band of seven gemstones, each a different color." #NT!
+ alysannecrown_historical_description: "The Crown of Queen Alysanne Targaryen, known as "The Good Queen", which is a thinner variation of her husband's crown." #NT!
+ daenerys_crown_name: "Crown of the Stormborn" #NT!
+ daenerys_crown_historical_description: "The crown of Daenerys I "Stormborn" was a gift in Qarth and has an eastern flair. Shaped in the form of a three headed-dragon, with a head of jade, ivory, and onyx each, coils of gold, and wings of silver." #NT!
+ daenerys_crown_description: "The crown of Daenerys I "Stormborn". Shaped in the form of a three headed-dragon, with a head of jade, ivory, and onyx each, coils of gold, and wings of silver." #NT!
+ daemon_stepstone_crown_name: "Crown of the Rogue Prince" #NT!
+ daemon_stepstone_crown_description: "An iron and silver crown encrusted with red rubies and inspired loosely by the crowns of the Conqueror and the Conciliator, this crown was worn by the Rogue Prince Daemon Targaryen following his conquest of the Stepstones." #NT!
+ daemon_queen_stepstone_crown_name: "Crown of the Rogue Prince's Consort" #NT!
+ daemon_queen_stepstone_crown_description: "An iron and silver circlet encrusted with red rubies and inspired loosely by the crowns of the Conqueror and the Conciliator." #NT!
+ westerosi_valyrian_crown1_name: "Crown of the Red Dragon" #NT!
+ westerosi_valyrian_crown1_description: "A golden crown shaped to resemble the leathery wings of dragons and adorned with three large rubies." #NT!
+ westerosi_valyrian_crown2_name: "Crown of Fire and Blood" #NT!
+ westerosi_valyrian_crown2_description: "A black iron crown shaped to resemble the leathery wings of dragons and adorned with three large rubies to represent the colors and symbol of House Targaryen." #NT!
+  
+  #Baratheon Crowns 
+ robertI_crown_name: "Crown of the Crowned Stag" #NT!
+ robertI_crown_description: "The Crown of Robert I Baratheon, this work is shaped into the antlers of a stag and is done in gold." #NT!
+ stannis_crown_name: "Crown of the Fiery Stag" #NT!
+ stannis_crown_description: "The Crown of Stannis I Baratheon is made of red gold and shaped in the Flames of the Lord of Light, his new religion." #NT!
+ renly_crown_name: "Crown of the Prancing Stag" #NT!
+ renly_crown_description: "The Crown of Renly I Baratheon is shaped like that of his marriage, a jade stag's head emerging at the front, encircled with a ring of golden roses." #NT!
+ joffreyI_crown_name: "Crown of the Lion and Stag" #NT!
+ joffreyI_crown_description: "The Crown of Joffrey I Baratheon is a golden thing of antlers, though it is more indulgent than that of his father, enjewelled with rubies and black diamonds." #NT!
+  
+  #Blackfyre crowns 
+ daemonblackfyre_crown_name: "Crown of the Black Dragon" #NT!
+ daemonblackfyre_crown_historical_description: "The crown of Daemon Blackfyre, the so-called 'Black Dragon' and first of the so-called Blackfyre Pretenders. Modeled after the crown of the Conqueror, though reversing the colors like the Blackfyre sigil itself. Dragonglass was used in the place of rubies, bound in red copper." #NT!
+ daemonblackfyre_crown_description: "This crown was modeled after the crown of the Conqueror, though with its colors reversed like the Blackfyre sigil itself. Dragonglass was used instead of rubies, and it was bound in red copper in place of Valyrian Steel." #NT!
+  
+  #Kingdom Crowns 
+ driftwood_crown_1_name: "Driftwood Crown" #NT!
+ driftwood_crown_1_description: "Unlike the kings of the green lands, the ancient High King's crowns were gifts from the Sea, made of a piece of driftwood washed ashore, to remind them all they had was given by the Drowned God." #NT!
+ iron_isles_crown_name: "Crown of the Iron Kings" #NT!
+ iron_isles_crown_description: "When House Greyiron ended the Kingsmoot and declared themselves the Iron Kings of the Isles, they made for themselves an Iron Crown, to symbolize their control." #NT!
+ riverlands_crown_name: "Crown of the Trident" #NT!
+ riverlands_crown_description: "An elegant crown adorned with the symbol of a trident, to represent the great river that shares its name. Meant to be worn by the ruler of the Riverlands." #NT!
+ crown_of_mudd_name: "Crown of Rivers and Hills" #NT!
+ crown_of_mudd_description: "A golden crown studded with emeralds. This crown has been crafted in the image of the Coat of Arms of the ancient House Mudd." #NT!
+ crown_of_mudd_coa_name: "Crown of the Old Kings" #NT!
+ crown_of_mudd_coa_description: "A golden crown studded with gems. This crown has been crafted in an old style, similar to that worn by the ancient Kings of the Trident." #NT!
+ crown_of_winter_name: "Crown of Winter" #NT!
+ crown_of_winter_description: "The ancient crown of House Stark first as Kings of Winter and then as Kings of the North. Made of nine iron swords bound by a bronze circlet with runes inscribed it is a symbol of a hard land, and a harder people." #NT!
+ crown_of_jeyne_westerling_name: "Crown of the Young Queen" #NT!
+ crown_of_jeyne_westerling_description: "An open circlet of hammered bronze with silver edges. Similar to the famed Crown of Winter worn by ancient Stark Kings of Winter, this crown is surmounted by spikes wrought in the shape of swords. Though unlike it, it features only six silver swords made in the shape of Ice, House Stark's ancestral Valyrian steel blade. To represent the family of its wearer, it also presents six silver seashells interposed between the blades." #NT!
+ dorne_crown_name: "Crown of Sun and Spear" #NT!
+ dorne_crown_description: "A circle band made of gold, surrounded by eight golden sigils of House Nymeros Martell, the sun and spears, which at their center beholds a red ruby." #NT!
+ falcon_crown_name: "Crown of Mountain and Vale" #NT!
+ falcon_crown_description: "A silver crown like the ones worn by the Arryn Kings of the Mountain and Vale, this crown is centered by the wings of a falcon coming forth from a blue gemstone, while below sits a crested silver moon." #NT!
+ iron_stag_crown_name: "Crown of the Iron Antlers" #NT!
+ iron_stag_crown_description: "The crown of one of the more martial Durrandon's, this crown reflects that nature. Though most Storm Kings were known for their martial pursuits this crown is for those truly dedicated to the way of the Sword." #NT!
+ stormlands_crown_name: "Crown of Storms" #NT!
+ stormlands_crown_description: "The Storm Crown was the ancestral crown of House Durrandon, worn since Durran married Elenei and the Seventh Castle was raised." #NT!
+ westerlands_crown_name: "Circlet of the Rock" #NT!
+ westerlands_crown_description: "The Circlet of the Rock was the traditional crown for the Queens Consort of House Lannister, and is a beautiful circlet decorated with gold, gems, and lions." #NT!
+ westerlands2_crown_name: "Crown of Rock and Hill" #NT!
+ westerlands2_crown_description: "The Crown of the Rock was worn by the Kings of the Rock from House Lannister, who trace their descent back to Lann the Clever and Loreon the Lion." #NT!
+ crown_of_gardener_peace_name: "Flowers of Peace" #NT!
+ crown_of_gardener_peace_description: "A crown of vines and flowers. The Gardener Kings of old would wear crowns such as these in times of peace." #NT!
+ crown_of_gardener_war_iron_name: "Thorns of War" #NT!
+ crown_of_gardener_war_iron_description: "A crown of iron vines with prominent thorns. The Gardener Kings of old would wear crowns such as these in times of war." #NT!
+  
+  #Regional Crowns 
+  
+ crown_of_first_men_name: "Crown of the First Men" #NT!
+ crown_of_first_men_description: "A simple bronze circlet with inscribed runes of the First Men." #NT!
+ crown_of_the_andals_name: "Crown of Andals" #NT!
+ crown_of_the_andals_description: "A regal crown made of bronze and silver, encrusted with large jewels and decorated with fine pearls. This headpiece is made in a traditional Andal design dating back to the adventurers of old." #NT!
+ crown_of_the_andals_silver_name: "Silver Crown of Andals" #NT!
+ crown_of_the_andals_silver_description: "A regal crown made of silver, encrusted with large jewels and decorated with fine pearls. This headpiece is made in a traditional Andal design dating back to the adventurers of old." #NT!
+ crown_of_westerosi_diadem_name: "Westerosi Diadem" #NT!
+ crown_of_westerosi_diadem_description: "A robust bronze crown encrusted with multi-colored gems, and decorated with golden detailing." #NT!
+ crown_of_westerosi_diadem_silver_name: "Westerosi Silver Diadem" #NT!
+ crown_of_westerosi_diadem_silver_description: "A robust silver crown encrusted with multi-colored gems, and decorated with golden detailing." #NT!
+ valeman_crown_name: "Crown of the Valemen" #NT!
+ valeman_crown_description: "A silver crown with intricately carved designs and encrusted jewels, this crown is made in the style typical of the Vale." #NT!
+ stormlander_crown_name: "Crown of the Stormlanders" #NT!
+ stormlander_crown_description: "A proud, golden crown with large gems along its circumference. Made in the style typical of the Stormlands." #NT!
+ westerlander2_crown_name: "Crown of the Westerlanders" #NT!
+ westerlander2_crown_description: "An ornate golden crown with intricate designs and polished gemstones, this crown is made in the style typical of the Westerlands." #NT!
+ reachman_crown_name: "Crown of the Reachmen" #NT!
+ reachman_crown_description: "A beautiful golden band adorned with intricately entwined golden vines, adorned with glistening jewels. Gracing the center of this exquisite crown is a splendid golden flower, its heart adorned with a sizable jewel that adds a captivating touch of elegance." #NT!
+ dornish_crown_name: "Crown of the Dornish" #NT!
+ dornish_crown_description: "A circle band made of gold, surrounded by eight golden suns, which at their center behold a colored gems." #NT!
+ swann_crown_name: "Crown of the Battling Swans" #NT!
+ swann_crown_description: "A black and white crown that features two swans facing each other while in the center lies many small gems." #NT!
+ beyondthewall_crown_name: "Crown of the Free Folk" #NT!
+ beyondthewall_crown_description: "A crown of rough leather and obsidian spikes, made for one bold enough to make claim to and hold the lands beyond the Wall." #NT!
+ blackwood_crown_name: "Crown of Ravens" #NT!
+ blackwood_crown_description: "A dark crown made in the shape of a raven's skull with branches that represent the ancient weirwood of Raventree Hall." #NT!
+ bolton_crown_name: "Crown of the Flayed" #NT!
+ bolton_crown_description: "An intimidating crown with depictions of flayed men along it. Proudly displaying the ancient tradition of House Bolton that gave them their coat of arms. That of flaying their enemies, as they once did to several Kings of Winter of old." #NT!
+ cargyll_crown_name: "Crown of the Golden Egg" #NT!
+ cargyll_crown_description: "A golden crown that features two golden geese facing each other while in the center lies two red rubies and a large black ruby." #NT!
+ dayne_crown_name: "Crown of the Morning" #NT!
+ dayne_crown_description: "This crown, made in the style of the ancient headpieces of the Kings of Starfall is made of silver and is centered by a large silver star with an Amethyst jeweled star at its core." #NT!
+ crown_of_hellholt_name: "Crown of the Hellholt" #NT!
+ crown_of_hellholt_description: "A fiery crown of red gold made to represent those who would rule over the Brimstone." #NT!
+ dustin_crown_name: "Crown of the Barrows" #NT!
+ dustin_crown_description: "The crown of the ancient Barrow Kings, reportedly descendants of the First King." #NT!
+ florent_crown_name: "Crown of the Fox" #NT!
+ florent_crown_description: "A gold crown that is centered by the red-ruby-eyed gaze of a wily fox, with bronze flowers encrusted with a blue gemstone at its side." #NT!
+ frey_crown_name: "Crown of the Crossing" #NT!
+ frey_crown_description: "A facsimile of a crown said to have been worn thousands of years ago during the Age of the Hundred Kingdoms by House Frey, this silver crown features a series of small miniature towers of the Crossing, with three blue gems below each tower." #NT!
+ greyjoy_crown_name: "Crown of the Kraken" #NT!
+ greyjoy_crown_description: "An iron and gold-lined crown shaped in the image of a kraken, with its long tentacles surrounding and gripping the head of the one who wears it." #NT!
+ harlaw_crown_name: "Crown of Hard Law" #NT!
+ harlaw_crown_description: "A crown etched with death, this crown features the screaming skulls of the dead, the Stranger's reaping scythe, and a light purple gemstone." #NT!
+ hightower_crown_name: "Crown of the High Tower" #NT!
+ hightower_crown_description: "An exquisite crown crafted from silver and gold features nine miniature replicas of Oldtown's Hightower, rendered in silver, each adorned with a glistening gold flame at its pinnacle. These towers are gracefully connected by additional carved golden flames, while the crown itself is elegantly encrusted with radiant emerald and ruby jewels." #NT!
+ manderly_crown_name: "Crown of the Merman" #NT!
+ manderly_crown_description: "A faithful reproduction of the crown once donned by House Manderly, centuries prior to their exile from the Reach. This resplendent golden crown, evoking the likeness of undulating waves and adorned with lustrous pearls, showcases at its heart a meticulously crafted depiction of two mermen clasping a trident. Encircling the crown, emerald jewels are meticulously positioned amidst intricately carved wave motifs, adding to its regal allure." #NT!
+ reach_crown_name: "Crown of the Golden Rose" #NT!
+ reach_crown_description: "A beautiful golden band adorned with intricately entwined golden vines, adorned with glistening emerald jewels. Gracing the center of this exquisite crown is a splendid golden flower, its heart adorned with a sizable emerald jewel that adds a captivating touch of elegance." #NT!
+ redwyne_crown_name: "Crown of Wine" #NT!
+ redwyne_crown_description: "A delicate golden band adorned with shimmering blue gemstones arranged in the elegant design of a grapevine. Positioned at the center is an inverted grape leaf, flanked by luscious purple jewels crafted in the likeness of grapes." #NT!
+ reed_crown_name: "Crown of the Crannogs" #NT!
+ reed_crown_description: "A diadem crafted from the hide of a crocodile from the Neck, its apex is adorned with the formidable teeth of the creature, while the primary facade of the diadem is adorned with a trio of crocodile eyes." #NT!
+ crown_of_bear_island_name: "Crown of Bear Island" #NT!
+ crown_of_bear_island_description: "A tall and imposing crown inspired by the trees of Bear Island, and encrusted with large emeralds and black diamonds." #NT!
+ royce_crown_name: "Crown of Runes" #NT!
+ royce_crown_description: "This bronze crown, with black circular gemstones and featuring carvings of First Men runes, is made in the image of the ancient royal crown of House Royce of the Vale." #NT!
+ crown_of_hearts_home_name: "Crown of the Heart's Home" #NT!
+ crown_of_hearts_home_description: "An ornate silver crown with three large encrusted jewels in the shape of hearts, and three figures atop them meant to represent ravens. This crown is made to honor the heraldry of House Corbray." #NT!
+ tarly_crown_name: "Crown of the Hunt" #NT!
+ tarly_crown_description: "A captivating crown crafted from gold and silver boasts a central band of gold adorned with gleaming green gemstones, accompanied by a series of silver arrowheads, each embellished with a radiant red ruby at its core. Positioned at the crown's heart is a splendid depiction of a silver bow, its limbs bedecked with resplendent red and green jewels. Gracing the space between the upward-pointing arrow, situated at the center of the bow, is a delicate gold face adorned with intricate leaf and archer engravings." #NT!
+ tarth_crown_name: "Crown of the Evenstar" #NT!
+ tarth_crown_description: "An elegant cylindrical golden crown, distinguished by six meticulously carved apertures resembling the sun, complemented by an additional six meticulously carved apertures mirroring the shape of the moon." #NT!
+ crown_of_dondarrion_name: "Crown of Blackhaven" #NT!
+ crown_of_dondarrion_description: "A dark circlet with white star-shaped diamonds. Made to resemble the colors of House Dondarrion of the Stormlands." #NT!
+ tully_crown_name: "Crown of the Trout" #NT!
+ tully_crown_description: "An iron and silver crown distinguished by fish fin-shaped towers. The crown is adorned with an iron torus at its base, while above and below the fish towers, an arrangement of exquisite blue and pink gemstones over a silver fishskin pattern adds a touch of opulence." #NT!
+ umber_crown_name: "Crown of Last Hearth" #NT!
+ umber_crown_description: "An iron crown intricately molded into the form of a chained man's hands, symbolizing his liberation as he breaks free from bondage." #NT!
+ crown_of_the_wall_name: "Crown of the Wall" #NT!
+ crown_of_the_wall_description: "A crown of glass and crude black iron spikes made to resemble the Wall and its nineteen castles. Traditionally the seat of the Night's Watch, the Wall guards the realms of men from threats beyond. Any ruler who makes a direct claim on this ancient fortification will find their reign a difficult and much maligned one." #NT!
+ crown_of_westerling_name: "Crown of the Crag" #NT!
+ crown_of_westerling_description: "An open circlet with a sandy texture along its length and decorated with six white seashells representing those of House Westerling." #NT!
+ crown_of_castamere_name: "Crown of Castamere" #NT!
+ crown_of_castamere_description: "A silver crown set with rubies and adorned with prominent red lion figures." #NT!
+ crown_of_deep_den_name: "Crown of Deep Den" #NT!
+ crown_of_deep_den_description: "A regal crown made of bronze and silver, encrusted with large emeralds and decorated with fine pearls. This headpiece pays homage to the colors and symbol of House Lydden of Deep Den." #NT!
+ crown_of_the_banefort_name: "Crown of The Banefort" #NT!
+ crown_of_the_banefort_description: "A fiery golden crown made in the style worn by the ancient Hooded Kings of House Banefort." #NT!
+ crown_of_crakehall_name: "Crown of Crakehall" #NT!
+ crown_of_crakehall_description: "An ornate bronze crown with intricate designs and polished black diamonds, this crown is made to embody the colors of House Crakehall." #NT!
+ crown_of_the_tides_name: "Crown of the Tides" #NT!
+ crown_of_the_tides_description: "An ornate crown with seahorse figures along it and patterns reminiscent of the ocean depth. Fitting for a King of the Tides." #NT!
+ crown_of_darklyn_name: "Crown of Duskendale" #NT!
+ crown_of_darklyn_description: "A regal crown made of black iron and silver, encrusted with large jewels and decorated with seven fine pearls." #NT!
+ crown_of_true_winter_name: "Crown of Ice" #NT!
+ crown_of_true_winter_description: "An open circlet of polished iron encrusted with glimmering diamonds, surmounted by nine icy spikes. A crown like this was lost long ago and is remembered only in records of the Citadel and scattered documents across the North. The shape clearly resembled that of the historical Crowns of Winter from House Stark, though it differed enough in its color, design and material to be noteworthy. The material of the spikes themselves is a matter for debate, as few who recorded its properties could confidently identify whether they were diamond, glass, or some other crystal. There are even those who believe they were made of true ice, maintained by ancient magics of the Children of the Forest. It is unknown who bore that crown or why it was made. Many believe it was made in homage to House Stark, perhaps worn by a Queen or Princess of Winterfell. Others, however, claim it was made in mockery of the dominion that the Stark Kings claimed over Winter. Even more ludicrous are the stories that persist of it having been the very crown made for the blue-eyed Corpse Queen, lover of the legendary Night's King of the Night's Watch. Though this is strongly contested by the Maesters as mere hearsay." #NT!
+ valyrian_crown1_name: "Circlet of the Freehold" #NT!
+ valyrian_crown1_description: "A circlet of Valyrian design honoring the gods of old Valyria." #NT!
+ valyrian_crown2_name: "Crown of the Freehold" #NT!
+ valyrian_crown2_description: "A crown of silver shaped to resemble the leathery wings of dragons and adorned with three large gems." #NT!
+  
+  #Religious Crowns 
+ crown_of_the_grey_king_rusted_name: "Crown of the Grey King" #NT!
+ crown_of_the_grey_king_rusted_description: "This ancient crown was made from the teeth of Nagga, the great sea dragon, that the Grey King slew. It is the ultimate sign of authority to the Ironborn, for only that great reaver ever wore it." #NT!
+ crown_of_the_nights_king_name: "Crown of the Night's King" #NT!
+ crown_of_the_nights_king_description: "A dark and ancient crown, made for the man remembered by history as the Night's King. This foreboding headpiece is made of black iron and ever-frigid spikes of sharp ice that remain unmelted only by the same magic that sustains the Wall itself." #NT!
+ crown_of_the_nights_king_replica_name: "Crown of the Night's King" #NT!
+ crown_of_the_nights_king_replica_description: "A dark crown, made to resemble the one worn by the man remembered by history as the Night's King. This foreboding headpiece is made of black iron and features spikes of glass made to mimic the ice of the Wall." #NT!
+ crown_of_the_seven_name: "Crown of the Faith" #NT!
+ crown_of_the_seven_description: "The Crown of the Faith is a symbol of the Seven Who Are One and their worship. Made in gold and decorated with pearls, silver and multicolored gems, this crown proudly displays 7 instances of the seven-pointed star along its circumference." #NT!
+ crown_of_the_old_gods_name: "Crown of the Pact" #NT!
+ crown_of_the_old_gods_description: "The Crown of the Pact is a symbol of the Old Gods and their worship. Made in bronze, the metal of the First Men, and adorned with red rubies to mirror the Weirwoods, the crown is a beacon to all who hold to the Old Gods." #NT!
+ crown_of_rhllor_name: "Crown of Flame" #NT!
+ crown_of_rhllor_description: "A fiery crown made to represent and honor the Lord of Light. For the night is dark and full of terrors." #NT!
+ circlet_of_rhllor_name: "Circlet of Fire" #NT!
+ circlet_of_rhllor_description: "A fiery circlet made to represent and honor the Lord of Light. For the night is dark and full of terrors." #NT!
+ crown_of_hugor_name: "Crown of Father's Anointment" #NT!
+ crown_of_hugor_description: "Made from the seven Stars of Hugor, this crown is a recreation of the legendary crown bestowed upon the first King of the Andals by the Father himself." #NT!
+  
+  #Other Crowns 
+ crown_of_winter_roses_name: "Crown Of Winter Roses" #NT!
+ crown_of_winter_roses_description: "A beautiful crown of blue winter roses." #NT!
+  
+ shieraseastar_necklace_name: "Shiera Seastar's Necklace" #NT!
+ shieraseastar_necklace_description: "A necklace owned by Shiera Seastar, bastard daughter of King Aegon IV 'The Unworthy' Targaryen, which features an abundant amount of sea white pearls as well as larger green and blue pearls." #NT!
+  
+  #Armors 
+ maelys_armor_name: "Plate of the Monstrous" #NT!
+ maelys_armor_description: "Maelys Blackfyre, the infamous pretender, is known for his monstrous second head, requiring specialized armor for him to wear." #NT!
+ monstrous_desc: "This armor was made to fit someone monstrous." #NT!
+ rhaegars_armor_name: "Rhaegar's Armor" #NT!
+ rhaegars_armor_description: "Rhaegar Targaryen's armor is made of night-black plates, with the three-headed dragon of House Targaryen decorating the breastplate in rubies. Beneath the plate armor rests a hauberk of golden ringmail, and the armor's helm is elaborately decorated with a draconic motif." #NT!
+ roberts_armor_name: "Robert's Armor" #NT!
+ roberts_armor_description: "Robert Baratheon's armor is plain but formidable. Large steel plates protect the wearer, under which lies a ringmail hauberk. Much of the armor is covered by a tabard bearing the black stag of House Baratheon. The armor's helm bears fearsome antler's horns, also emblematic of the Baratheon sigil." #NT!
+ kingsguard_armor_name: "[owner.GetFullNamePossessive] Kingsguard Armor" #NT!
+ kingsguard_armor_description: "A set of white enameled armor presented to [owner.GetFullName] on joining the Kingsguard." #NT!
+ skinchangers_second_pelt_name: "Skinchanger's Second Pelt" #NT!
+ skinchangers_second_pelt_description: "This shoddily cured pelt was taken off a beast chosen by a skinchanger to take possession of once their own body faltered." #NT!
+ valyrian_steel_armor_name: "Valyrian Steel Armor" #NT!
+ valyrian_steel_armor_description: "A suit of Valyrian steel scales, this set of armor is far beyond the worth of a kingdom, and is surely the most protective armor available." #NT!
+ decorated_dragon_plate_armor_name: "Decorated Dragon Plate" #NT!
+ decorated_dragon_plate_armor_description: "This full plate armor features silver-plated trim and delicate fluting designed to resemble the wings of a dragon." #NT!
+  
+ lucerys_gun_name: "Lucerys' Gun" #NT!
+ lucerys_gun_desc: "Prepare to die." #NT!
+  
+ claimed_dawn_desc: "By right or by might, you must claim Dawn to wield it"
+ sword_of_the_morning_desc: "Sword of the Morning"
+ artifact_martell_wall_shield_name: "Dornischer Schild"
+ artifact_martell_wall_shield_description: "Ein dornischer Schild mit stilisierten, traditionellen Ornamenten."
+  
+ the_white_book_name: "The White Book" #NT!
+ the_white_book_desc: "This white leather tome, formally known as The Book of the Brothers, records the deeds and exploits of every member who has served in the illustrious ranks of the Kingsguard." #NT!
+  
+ agot_artifact_saans_scrolls_name: "Ancient Valyrian scrolls" #NT!
+ agot_artifact_saans_scrolls_desc: "Ancient scrolls from Valyria that speak of prophecies and dragons." #NT!
+  
+ #Filler 
+ agot_artifact_winter_rose: "Winter Rose" #NT!
+ agot_artifact_winter_rose_desc: "A beautiful pale blue bloom the color of early winter frost." #NT!
+  
+ artifact_dragon_egg: "Drachenei"
+ artifact_dragon_egg_reforged_tt: "Your egg has been reforged into a [court_artifact|E]" #NT!
+ dud_egg_desc: "[egg.GetDesc]\n\nThis egg appears to be petrified and shows no signs of ever hatching." #NT!
+  
+ dragon_egg_gen_desc: "Ein versteinertes Drachenei. Die Ewigkeiten haben es in Stein verwandelt, doch dennoch leuchtet seine Schönheit hell."
+ dragon_egg_gen_parent: "[egg.GetDesc] It was laid by [dragon_parent.GetName]." #NT!
+ dragon_egg_gen_parents: "[egg.GetDesc] It was laid by [dragon_parent.GetName] and [dragon_parent_other.GetName]." #NT!
+  
+ dragon_egg_rainbow: "Regenbogen-Drachenei"
+ dragon_egg_rainbow_desc: "$dragon_egg_gen_desc$ Die schillernden Schuppen dieses Eies glänzen wie poliertes Metall."
+ dragon_egg_rainbow_desc_living: "The iridescent scales of this egg shimmer like polished metal." #NT!
+  
+ dragon_egg_yellow: "Gelbes Drachenei"
+ dragon_egg_yellow_desc: "$dragon_egg_gen_desc$ Dieses Ei ist mit schimmernden gelben Schuppen verziert, die im Licht wie geschlagenes Gold glänzen - eine Pracht."
+ dragon_egg_yellow_desc_living: "Adorned with gleaming yellow scales that shine like beaten gold in the light, this egg is a beauty." #NT!
+  
+ dragon_egg_blue: "Blaues Drachenei"
+ dragon_egg_blue_desc: "$dragon_egg_gen_desc$ Dieses kupferblau schimmernde Ei ist ein wahrer Hingucker."
+ dragon_egg_blue_desc_living: "Shimmering a cobalt blue, this egg is certainly mesmerizing." #NT!
+  
+ dragon_egg_purple: "Violettes Drachenei"
+ dragon_egg_purple_desc: "$dragon_egg_gen_desc$ Die tiefvioletten Schuppen auf dieser Schale sind Träume, gewebt aus Schatten der Dämmerung und Sternenstaub."
+ dragon_egg_purple_desc_living: "The deep purple scales on this shell are dreams woven from twilight shadows and stardust." #NT!
+  
+ dragon_egg_red: "Rotes Drachenei"
+ dragon_egg_red_desc: "$dragon_egg_gen_desc$ Die blutroten Schuppen dieses Eies erinnern an die von Caraxes, dem Blutwurm."
+ dragon_egg_red_desc_living: "The dark red scales of this egg throw off crimson sparks like rubies shimmering in sunlight." #NT!
+  
+ dragon_egg_tan: "Sandfarbenes Drachenei"
+ dragon_egg_tan_desc: "$dragon_egg_gen_desc$ Wirbel von braunen und sandfarbenen Tönen erinnern an die Dünen von Dorne."
+ dragon_egg_tan_desc_living: "Swirls of tans and creams bring forth images of Dornish sands." #NT!
+  
+ dragon_egg_brown: "Braunes Drachenei"
+ dragon_egg_brown_desc: "$dragon_egg_gen_desc$ Die tiefbraunen Schuppen dieses Eies schimmern im Licht golden und bronzefarben."
+ dragon_egg_brown_desc_living: "The deep brown scales of this egg throw off shimmers of gold and bronze in the light." #NT!
+  
+ dragon_egg_blackDarkRed: "Obsidian Dragon Egg" #NT!
+ dragon_egg_blackDarkRed_desc: "$dragon_egg_gen_desc$ The black scales of this egg are rippled and swirled with a deep scarlet." #NT!
+ dragon_egg_blackDarkRed_desc_living: "The black scales of this egg are rippled and swirled with a deep scarlet." #NT!
+  
+ dragon_egg_iceFire: "Ice and Fire Dragon Egg" #NT!
+ dragon_egg_iceFire_desc: "$dragon_egg_gen_desc$ The scales of this egg are a striking blend of fiery reds and icy blues, as if fire and ice are locked in eternal conflict." #NT!
+ dragon_egg_iceFire_desc_living: "The scales of this egg are a striking blend of fiery reds and icy blues, as if fire and ice are locked in eternal conflict..." #NT!
+  
+ dragon_egg_black: "Schwarzes Drachenei"
+ dragon_egg_black_desc: "$dragon_egg_gen_desc$ Der Obsidianglanz dieses Eies erinnert an den Schwarzen Schrecken selbst."
+ dragon_egg_black_desc_living: "The obsidian sheen of this egg is reminiscent of the darkest moonless nights." #NT!
+  
+ dragon_egg_orange: "Orangenes Drachenei"
+ dragon_egg_orange_desc: "$dragon_egg_gen_desc$ Die Schuppen auf diesem Ei schimmern in leuchtendem Orange des Sonnenuntergangs."
+ dragon_egg_orange_desc_living: "The scales on this egg glimmer in shades of the vivid sunset orange." #NT!
+  
+ dragon_egg_white: "Weißes Drachenei"
+ dragon_egg_white_desc: "$dragon_egg_gen_desc$ Die Schuppen dieses Eies sind perlweiß."
+ dragon_egg_white_desc_living: "The scales of this egg are a pearlescent white." #NT!
+  
+ dragon_egg_pink: "Blassrotes Drachenei"
+ dragon_egg_pink_desc: "$dragon_egg_gen_desc$ Die blassroten Schuppen dieses Eies schimmern sanft im Licht."
+ dragon_egg_pink_desc_living: "The pale pink scales of this egg glow softly in the light." #NT!
+  
+ dragon_egg_green_1: "Grünes Drachenei"
+ dragon_egg_green_1_desc: "$dragon_egg_gen_desc$ Die Schuppen dieses jadegrünen Eies sind mehr als schön."
+ dragon_egg_green_1_desc_living: "A jaded green, the scales of this egg are more than beautiful." #NT!
+  
+ dragon_egg_green_2: "Grünes Drachenei"
+ dragon_egg_green_2_desc: "$dragon_egg_gen_desc$ Die jadegtünen Schuppen dieses Eies, die mit Bronze durchsetzt sind, sind mehr als schön."
+ dragon_egg_green_2_desc_living: "A jaded green intermingled with bronze, the scales of this egg are more than beautiful." #NT!
+  
+ dragon_egg_grey_1: "Graues Drachenei"
+ dragon_egg_grey_1_desc: "$dragon_egg_gen_desc$ Dieses Ei hat einen rauchigen Farbton wie die Asche eines Vulkans."
+ dragon_egg_grey_1_desc_living: "The smoky hue of this egg matches that of volcanic ash." #NT!
+  
+ dragon_egg_grey_2: "Graues Drachenei"
+ dragon_egg_grey_2_desc: "$dragon_egg_gen_desc$ Dieses Ei hat einen rauchigen Farbton wie die Asche eines Vulkans."
+ dragon_egg_grey_2_desc_living: "The smoky hue of this egg matches that of volcanic ash." #NT!
+  
+ dragon_egg_gold: "Gold Dragon Egg" #NT!
+ dragon_egg_gold_desc: "$dragon_egg_gen_desc$ Adorned with enchanting golden scales that glimmer in the light, this egg is a beauty." #NT!
+ dragon_egg_gold_desc_living: "The golden scales of this egg glimmer in the light." #NT!
+  
+ dragon_egg_whitegold: "Beige Dragon Egg" #NT!
+ dragon_egg_whitegold_desc: "$dragon_egg_gen_desc$ The white scales of this egg are complemented with deep golden veins that shimmer like rays from the sun." #NT!
+ dragon_egg_whitegold_desc_living: "The white scales of this egg are complemented with deep golden veins that shimmer like rays from the sun." #NT!
+  
+ dragon_egg_purplegold: "Ametrine Dragon Egg" #NT!
+ dragon_egg_purplegold_desc: "$dragon_egg_gen_desc$ The regal purple hues of this egg intertwine with shimmering golden streaks, creating a majestic appearance reminiscent of royal tapestries." #NT!
+ dragon_egg_purplegold_desc_living: "The regal purple hues of this egg intertwine with shimmering golden streaks, creating a majestic appearance reminiscent of royal tapestries." #NT!
+  
+ dragon_egg_flame: "Flame Dragon Egg" #NT!
+ dragon_egg_flame_desc: "$dragon_egg_gen_desc$ The surface of this egg flickers with fiery hues, resembling swirling flames that dance and lick the air with vibrant orange, red, and yellow tones." #NT!
+ dragon_egg_flame_desc_living: "The surface of this egg flickers with fiery hues, resembling swirling flames that dance and lick the air with vibrant orange, red, and yellow tones." #NT!
+  
+ dragon_egg_blackred: "Bloodstone Dragon Egg" #NT!
+ dragon_egg_blackred_desc: "$dragon_egg_gen_desc$ This egg is predominantly black, adorned with scattered, vivid red spots that gleam like spilled blood against the dark backdrop." #NT!
+ dragon_egg_blackred_desc_living: "This egg is predominantly black, adorned with scattered, vivid red spots that gleam like spilled blood against the dark backdrop." #NT!
+  
+ dragon_egg_brownspots: "Enstatite Dragon Egg" #NT!
+ dragon_egg_brownspots_desc: "$dragon_egg_gen_desc$ The surface of this brown egg is adorned with charming brown spots, resembling the natural patterns found on aged tree bark." #NT!
+ dragon_egg_brownspots_desc_living: "The surface of this brown egg is adorned with charming brown spots, resembling the natural patterns found on aged tree bark." #NT!
+  
+ dragon_egg_redblackgold: "Crimsongold Dragon Egg" #NT!
+ dragon_egg_redblackgold_desc: "$dragon_egg_gen_desc$ The deep crimson scales of this egg are edged with shimmering gold, while sleek black accents add a touch of mystery and elegance." #NT!
+ dragon_egg_redblackgold_desc_living: "The deep crimson scales of this egg are edged with shimmering gold, while sleek black accents add a touch of mystery and elegance." #NT!
+  
+ dragon_egg_palered: "Crimson Dragon Egg" #NT!
+ dragon_egg_palered_desc: "$dragon_egg_gen_desc$ The pale red surface of this egg exudes a soft, warm glow, reminiscent of a delicate blush at dawn." #NT!
+ dragon_egg_palered_desc_living: "The pale red surface of this egg exudes a soft, warm glow, reminiscent of a delicate blush at dawn." #NT!
+  
+ dragon_egg_darkblue: "Indigo Dragon Egg" #NT!
+ dragon_egg_darkblue_desc: "$dragon_egg_gen_desc$ The deep blue surface of this egg shimmers like the depths of the ocean, exuding a sense of mystery and tranquility." #NT!
+ dragon_egg_darkblue_desc_living: "The deep blue surface of this egg shimmers like the depths of the ocean, exuding a sense of mystery and tranquility." #NT!
+  
+ dragon_egg_darkred: "Blood-Red Dragon Egg" #NT!
+ dragon_egg_darkred_desc: "$dragon_egg_gen_desc$ The surface of this egg is a deep, intense red, resembling freshly spilled blood, with a dark and ominous allure." #NT!
+ dragon_egg_darkred_desc_living: "The surface of this egg is a deep, intense red, resembling freshly spilled blood, with a dark and ominous allure." #NT!
+  
+ dragon_egg_frost: "Frost Dragon Egg" #NT!
+ dragon_egg_frost_desc: "$dragon_egg_gen_desc$ The egg is a striking blend of icy white and frosty blue, its surface radiating a cold, wintry chill." #NT!
+ dragon_egg_frost_desc_living: "The egg is a striking blend of icy white and frosty blue, its surface radiating a cold, wintry chill." #NT!
+  
+ dragon_egg_greengrey: "Emerald Dragon Egg" #NT!
+ dragon_egg_greengrey_desc: "$dragon_egg_gen_desc$ The pale green surface of this egg is adorned with delicate grey swirls, creating a serene and mesmerizing pattern." #NT!
+ dragon_egg_greengrey_desc_living: "The pale green surface of this egg is adorned with delicate grey swirls, creating a serene and mesmerizing pattern." #NT!
+  
+ dragon_egg_magma: "Magma Dragon Egg" #NT!
+ dragon_egg_magma_desc: "$dragon_egg_gen_desc$ The surface of this egg is a fiery blend of molten reds and oranges, resembling bubbling magma, reminiscent of the Doom of Valyria." #NT!
+ dragon_egg_magma_desc_living: "The surface of this egg is a fiery blend of molten reds and oranges, resembling bubbling magma, reminiscent of the Doom of Valyria." #NT!
+  
+ dragon_egg_darkpurple: "Violet Dragon Egg" #NT!
+ dragon_egg_darkpurple_desc: "$dragon_egg_gen_desc$ The deep and dark shades of purple keep this egg's hue deep and capture the essence of nightfall." #NT!
+ dragon_egg_darkpurple_desc_living: "The deep and dark shades of purple keep this egg's hue deep and capture the essence of nightfall." #NT!
+  
+ dragon_egg_palepink: "Primrose Dragon Egg" #NT!
+ dragon_egg_palepink_desc: "$dragon_egg_gen_desc$ A delicate pale pink egg, its color soft and soothing, reminiscent of the first blush of dawn." #NT!
+ dragon_egg_palepink_desc_living: "A delicate pale pink egg, its color soft and soothing, reminiscent of the first blush of dawn." #NT!
+  
+ dragon_egg_palebluepink: "Opal Dragon Egg" #NT!
+ dragon_egg_palebluepink_desc: "$dragon_egg_gen_desc$ Softly hued in pale blue, this egg is adorned with delicate splotches of pink, reminiscent of a gentle spring morning." #NT!
+ dragon_egg_palebluepink_desc_living: "Softly hued in pale blue, this egg is adorned with delicate splotches of pink, reminiscent of a gentle spring morning." #NT!
+  
+ dragon_egg_pinkspot: "Magenta Dragon Egg" #NT!
+ dragon_egg_pinkspot_desc: "$dragon_egg_gen_desc$ This egg radiates with vibrant hues of bright pink and purple, blending together in a striking display of colorful brilliance." #NT!
+ dragon_egg_pinkspot_desc_living: "This egg radiates with vibrant hues of bright pink and purple, blending together in a striking display of colorful brilliance." #NT!
+  
+ dragon_egg_rainbowgold: "Prism Dragon Egg" #NT!
+ dragon_egg_rainbowgold_desc: "$dragon_egg_gen_desc$ This egg exhibits a darker spectrum of colors intermingled with hints of golden shimmer, creating a captivating and iridescent display." #NT!
+ dragon_egg_rainbowgold_desc_living: "This egg exhibits a darker spectrum of rainbow colors intermingled with hints of golden shimmer, creating a captivating and iridescent display." #NT!
+  
+ dragon_egg_sunburst: "Sunburst Dragon Egg" #NT!
+ dragon_egg_sunburst_desc: "$dragon_egg_gen_desc$ The surface of this egg bursts with vibrant hues, reminiscent of a radiant sunburst, its colors blending in a dazzling display of warmth and energy." #NT!
+ dragon_egg_sunburst_desc_living: "The surface of this egg bursts with vibrant hues, reminiscent of a radiant sunburst, its colors blending in a dazzling display of warmth and energy." #NT!
+  
+ dragon_egg_goldpink: "Triphane Dragon Egg" #NT!
+ dragon_egg_goldpink_desc: "$dragon_egg_gen_desc$ This egg gleams with a lustrous golden hue, delicately kissed by shades of soft pink, exuding an aura of elegance and warmth." #NT!
+ dragon_egg_goldpink_desc_living: "This egg gleams with a lustrous golden hue, delicately kissed by shades of soft pink, exuding an aura of elegance and warmth." #NT!
+  
+ dragon_egg_bluebronze: "Apatite Dragon Egg" #NT!
+ dragon_egg_bluebronze_desc: "$dragon_egg_gen_desc$ This egg showcases a harmonious blend of deep blue and rich bronze, creating a regal and striking appearance." #NT!
+ dragon_egg_bluebronze_desc_living: "This egg showcases a harmonious blend of deep blue and rich bronze, creating a regal and striking appearance." #NT!
+  
+ dragon_egg_greenorange: "Unakite Dragon Egg" #NT!
+ dragon_egg_greenorange_desc: "$dragon_egg_gen_desc$ This egg displays a lively contrast of vivid green and vibrant orange, evoking a sense of energy and brightness." #NT!
+ dragon_egg_greenorange_desc_living: "This egg displays a lively contrast of vivid green and vibrant orange, evoking a sense of energy and brightness." #NT!
+  
+ dragon_egg_bronze: "Bronze Dragon Egg" #NT!
+ dragon_egg_bronze_desc: "$dragon_egg_gen_desc$ This egg is a gleaming bronze, its surface reflecting a warm, rich hue reminiscent of aged metal." #NT!
+ dragon_egg_bronze_desc_living: "This egg is a gleaming bronze, its surface reflecting a warm, rich hue reminiscent of aged metal." #NT!
+  
+ dragon_egg_blackgreen: "Wildfire Dragon Egg" #NT!
+ dragon_egg_blackgreen_desc: "$dragon_egg_gen_desc$ This egg is steeped in the sinister swirls of ominous blacks and eerie greens, hinting at madness and danger within its depths." #NT!
+ dragon_egg_blackgreen_desc_living: "This egg is steeped in the sinister swirls of ominous blacks and eerie greens, hinting at madness and danger within its depths." #NT!
+  
+ dragon_egg_greygreenyellow: "Andalusite Dragon Egg" #NT!
+ dragon_egg_greygreenyellow_desc: "$dragon_egg_gen_desc$ This egg's pattern mimics nature's palette, seamlessly blending earthy greens, browns, and tans into a harmonious appearance." #NT!
+ dragon_egg_greygreenyellow_desc_living: "This egg's pattern mimics nature's palette, seamlessly blending earthy greens, browns, and tans into a harmonious appearance." #NT!
+  
+ dragon_egg_blackyellow: "Serpentine Dragon Egg" #NT!
+ dragon_egg_blackyellow_desc: "$dragon_egg_gen_desc$ "This egg is adorned with striking black and yellow tones, creating a bold and eye-catching contrast reminiscent of honeybees flying amidst a dream of spring." #NT!
+ dragon_egg_blackyellow_desc_living: "This egg is adorned with striking black and yellow tones, creating a bold and eye-catching contrast reminiscent of honeybees flying amidst a dream of spring." #NT!
+  
+ dragon_egg_yellowgreen: "Peridot Dragon Egg" #NT!
+ dragon_egg_yellowgreen_desc: "$dragon_egg_gen_desc$ This egg radiates with vibrant yellow and green hues, capturing the essence of fresh spring foliage and sunny, cheerful days." #NT!
+ dragon_egg_yellowgreen_desc_living: "This egg radiates with vibrant yellow and green hues, capturing the essence of fresh spring foliage and sunny, cheerful days." #NT!
+  
+ dragon_egg_silver: "Silver Dragon Egg" #NT!
+ dragon_egg_silver_desc: "$dragon_egg_gen_desc$ This gleaming silver egg has a smooth, mirror-like surface and exudes a cool, mystical aura." #NT!
+ dragon_egg_silver_desc_living: "This gleaming silver egg has a smooth, mirror-like surface and exudes a cool, mystical aura." #NT!
+  
+ artifact_dragon_skull: "Dragon Skull" #NT!
+ agot_artifact_dragon_skull_name: "[dragon.GetNamePossessiveNoTooltip] Skull" #NT!
+ agot_artifact_dragon_skull_desc: "This skull belonged to the [newly_created_artifact.GetFeatureText('dragon_skull_size')] dragon, [newly_created_artifact.MakeScope.Var('dragon').Char.GetNameNicknamed]. Fire made flesh, [newly_created_artifact.MakeScope.Var('dragon').Char.GetSheHe] is now turned to ash and bone. [newly_created_artifact.Custom('DragonSkullIsSmallSkull')]\n\n[newly_created_artifact.Custom('DragonSkullGetDragonRider')][newly_created_artifact.Custom('DragonSkullGetDragonKiller')]" #NT!
+ agot_own_red_keep.tt: "Only the Red Keep can display this artifact." #NT!
+  
+ feature_dragon_skull_size_huge: "massive" #NT!
+ feature_dragon_skull_size_large: "large" #NT!
+ feature_dragon_skull_size_medium: "average" #NT!
+ feature_dragon_skull_size_small: "small" #NT!
+  
+ agot_empty: "" #NT!
+ agot_artifact_dragon_skull_natural: "$agot_empty$" #NT!
+ agot_artifact_dragon_skull_slain: "[ROOT.Var('dragon').Char.GetNameNoTooltip] was slain by [ROOT.Var('killer').Char.GetName]." #NT!
+ agot_artifact_dragon_skull_past_rider: "In life [ROOT.Var('rider').Char.GetName] claimed this dragon as [ROOT.Var('dragon').Char.GetHerHis] first rider. " #NT!
+ agot_artifact_dragon_skull_famous_past_rider: "[ROOT.Var('dragon').Char.GetNameNoTooltip] was famously ridden by [ROOT.Var('famous_rider').Char.GetNameNicknamed]. " #NT!
+ agot_artifact_dragon_skull_wall_ornament: "It stares down upon all who pass under its hollow eyes, as if somehow still watching." #NT!
+  
+ artifact_dragon_horn: "Dragon Horn" #NT!
+ agot_artifact_dragon_horn_desc: "[newly_created_artifact.Custom('DragonHornForgedBy')] The valyrian glyphs which carve its wicked surface, leave no questions as to its sorcerous nature. It is believed dragonlords of old Valyria would use such artifacts to bind dragons to their will." #NT!
+  
+ agot_artifact_dragon_horn_old_valyria: "This hellhorn was forged from the remains of a dragon of old Valyria." #NT!
+ agot_artifact_dragon_horn_after_doom: "This hellhorn was forged from the remains of the dragon [ROOT.Var('dragon').Char.GetName] by [ROOT.Var('creator').Char.GetName]." #NT!
+  
+ agot_dragonbinder: "Dragonbinder" #NT!
+ agot_artifact_dragonbinder_desc: "Measuring over 6 feet long, this hellhorn was forged from the remains of an enormous dragon of old Valyria. It gleams a deep black, and is banded with red gold and Valyrian steel. Valyrian glyphs are carved into the reflective, yet distorted, surface of this horn. [ROOT.Char.Custom('DragonBinderReadValyrian')]" #NT!
+ agot_dragonbinder_read_valyrian: "The glyphs read "I am Dragonbinder... No mortal man shall sound me and live... Blood for fire, fire for blood."" #NT!
+  
+ agot_must_bind_horn.tt: "Only one bound to the horn may use it." #NT!
+  
+ uller_skull: "Skull with Amethyst Eyes" #NT!
+ uller_skull_desc: "House Uller keeps an odd item in their castle; a skull, unadorned and plain, except for the two amethysts that sit in its eye sockets. When pressed the Ullers simply smile and say it is an old heirloom." #NT!
+ hands_hand: "Hand of the Hand" #NT!
+ hands_hand_desc: "The Widow-lover was infamous for his cruelty and when the ransom of Orys Baratheon finally came, he took the sword hand of every captive, including that of the Hand of the King himself, Orys Baratheon." #NT!
+ smugglers_fingers: "Onion Smuggler's Fingers" #NT!
+ smugglers_fingers_desc: "Onion Smuggler's Fingers" #NT!
+ aemond_eye: "Eye of the Kinslayer" #NT!
+ aemond_eye_desc: "This sapphire, reportedly the eye of Aemond Kinslayer was found washed up on the shores of the God's Eye." #NT!
+ fox_wedding_cloak: "The Fox's Wedding Cloak" #NT!
+ fox_wedding_cloak_desc: "According to legend, Florys the Fox took three husbands, wearing a different cloak to each marriage, this is said to be one." #NT!
+ stars_of_hugor: "“Star” of Hugor" #NT!
+ stars_of_hugor_desc: "One of the fabled seven stars plucked from the sky for Hugor of the Hill's crown by the Father himself." #NT!
+ harp_of_the_bard: "Harp of the Bard" #NT!
+ harp_of_the_bard_desc: "This old decayed harp is said to have once belonged to a bard who stole a blue rose." #NT!
+ symeon_left_eye: "Symeon's Left Eye" #NT!
+ symeon_right_eye: "Symeon's Right Eye" #NT!
+ symeon_eye_desc: "One of the star sapphires used by the legendary knight Symeon Star-Eyes." #NT!
+ oily_black_stone: "Piece of Oily Black Stone" #NT!
+ oily_black_stone_desc: "Piece of Oily Black Stone" #NT!
+ giants_tooth: "Giant's Tooth" #NT!
+ giants_tooth_desc: "A tooth resembling a human molar in all but its gargantuan size." #NT!
+ forgotten_magnars_drinking_horn: "Forgotten Magnar's Drinking Horn" #NT!
+ forgotten_magnars_drinking_horn_desc: "This splendidly ornate drinking horn belonged to an ancient leader of the First Men. Few, if anyone, could begin to speculate which one." #NT!
+ eggs_boot: "Egg's Boot" #NT!
+ eggs_boot_desc: "This signet ring was given to Aegon V by his father for his time as a squire for Ser Duncan the Tall, a hedge knight." #NT!
+ harmund_tongue: "Harmund's Tongue" #NT!
+ harmund_tongue_desc: "Inside a richly carved and ornate box, bearing the Lannister's sigil, is a dried preserved Tongue. The Box is said to be taken from a raid on the Westerlands, and the nature of the box lends truth to it, but the tongue inside is said to belong to Harmund III, whose tongue was taken by the Shrike for his blasphemies and lies." #NT!
+ rhaegar_ruby: "River Ruby" #NT!
+ rhaegar_ruby_desc: "When Robert Baratheon landed the fatal blow on Rhaegar Targaryen, the rubies from his breastplate scattered into the water. Some of them occasionally still wash up on the shores of the Trident." #NT!
+ bran_set_square: "Brandon's Set Squares" #NT!
+ bran_set_square_desc: "According to legend, these set squares were used by the first Brandon Stark, better known as Bran the Builder, who is said to have buillt the first Hightower, Storm's End, the Wall, and Winterfell." #NT!
+ dragon_blood_and_bones_potion: "Elixir of Dragonkind" #NT!
+ dragon_blood_and_bones_potion_desc: "A murky elixir made from the freshly drawn blood and bones of [dragon.GetName]. While its effects are not completely clear, those who have consumed are known to have... strange experiences that they attribute to this elixir." #NT!
+  
+ bittersteel_skull: "Skull of Bittersteel" #NT!
+ bittersteel_skull_desc: "Skull of Bittersteel, first Captain-General of the Golden Company." #NT!
+ maelys_skull: "Skull of Maelys the Monstrous" #NT!
+ maelys_skull_desc: "Skull of Maelys I Blackfyre, last Blackfyre pretender and Captain-General of the Golden Company. A larger than average grotesque skull, with a fist-sized smaller skull just as misshapen." #NT!
+ daemon_blackfyre_skull: "Skull of Daemon Blackfyre" #NT!
+ daemon_blackfyre_skull_desc: "Skull of Daemon Blackfyre, Captain-General of the Golden Company who was murdered by his cousin, Maelys I Blackfyre." #NT!
+  
+ agot_artifact_moons_rod_name: "Cock o’ the Moon" #NT!
+ agot_artifact_moons_rod_desc: "Septon Moon was renowned for his godlike virility. Thus after his failed insurrection resulted in his death, his devoted followers cut off his cock, pickled it and preserved it so future generations of barren maidens may yet flower with the blessing of the Cock o' the Moon." #NT!
+  
+ iron_throne: "Iron Throne" #NT!
+ iron_throne_desc: "The Iron Throne of the Seven Kingdoms of Westeros was forged by the order of King Aegon I from the swords of his enemies. It is the greatest symbol of the realm and its united ruler." #NT!
+ iron_throne_valid: "This can only be used in the court of [GetTitleByKey('c_kings_landing').GetNameNoTier]" #NT!
+ gilded_throne: "Gilded Throne" #NT!
+ gilded_throne_desc: "This imposing throne is a permanent fixture of the Golden Gallery. The great lion, carved from the Rock itself and gilded with gold from the mines below, stands guard over the many treasures and honors within the gallery." #NT!
+ gilded_throne_valid: "This can only be used in the court of [GetTitleByKey('c_casterly_rock').GetNameNoTier]" #NT!
+ seastone_chair: "Seastone Chair" #NT!
+ seastone_chair_desc: "The mysterious throne of the Iron Islands, the Seastone Chair is made of oily black stone, and its construction and history are long lost to the annals of time." #NT!
+ seastone_chair_valid: "This can only be used in the court of [GetTitleByKey('c_pyke').GetNameNoTier]" #NT!
+ ruined_oakenseat: "Oakenstump" #NT!
+ ruined_oakenseat_desc: "The once-living throne of House Gardener, said to have been planted by Garth the Green himself. This fabled throne was put to the torch long ago and now is a dead remnant of glories past." #NT!
+ restored_oakenseat: "Oakenseat" #NT!
+ restored_oakenseat_desc: "A tribute to the ancient oak that once served as the throne to Gardener kings of old, a new throne carved into a living tree now stands as a testament to the grandeur and patient care of the dynasts of Highgarden." #NT!
+ oakenseat_valid: "This can only be used in the court of [GetTitleByKey('c_highgarden').GetNameNoTier]" #NT!
+  
+ painted_table: "The Painted Table" #NT!
+ painted_table_desc: "A large table of solid, varnished wood — blackened and charred to represent seas, rivers, and lakes — has been carved into the shape of Westeros and its Seven Kingdoms. Crafted on the orders of Aegon 'the Conqueror,' this fifty-foot behemoth shows mountains, castles, and settlements, labels inlaid with gold — but no borders. It is all one. One realm, for one king alone to rule." #NT!
+ painted_table_valid: "This can only be used in the court of [GetTitleByKey('c_dragonstone').GetNameNoTier]" #NT!
+  
+ high_seat_of_winter: "High Seat of Winter" #NT!
+ high_seat_of_winter_desc: "A tall and austere seat of polished stone, decorated with two snarling direwolves and intricate relief carvings paying homage to the weirwoods that are considered sacred by those who follow the Old Gods. This seat has served for countless generations as the throne of the Kings of Winter from House Stark." #NT!
+ high_seat_of_winter_valid: "This can only be used in the court of [GetTitleByKey('c_winterfell').GetNameNoTier]" #NT!
+  
+ weirwood_throne: "Weirwood Throne" #NT!
+ weirwood_throne_desc: "The High Seat of the Eyrie, hewn from ancient weirwood and adorned with a pale blue tufted cushion, sits at the end of the High Hall. From its perch the Kings of the Mountain and Vale have ruled since the days of Artys "the Falcon Knight."" #NT!
+ weirwood_throne_valid: "This can only be used in the court of [GetTitleByKey('c_the_eyrie').GetNameNoTier]" #NT!
+  
+ seahorse_statue: "Seahorse Statue" #NT!
+ seahorse_statue_desc: "An impressive jade seahorse, dating to ages before the Doom of Valyria, when dragonlords oft traded with merchants from the lands of the Further East." #NT!
+  
+ artifact_dragon_doll: "Dragon Doll" #NT!
+ #dragon_doll_01: "Simple Dragon Doll" #NT!
+ #dragon_doll_01_desc: "A plain wool doll made in the shape of a dragon, acceptable for any child of a dragonriding House." #NT!
+  
+ dragon_doll_02: "Exquisite Dragon Doll" #NT!
+ dragon_doll_02_desc: "A multi-colored and beautifully made wool doll made in the shape of a dragon, perfect for any child of a dragonriding House." #NT!
+  
+ dragon_doll_03: "Silverwing Dragon Doll" #NT!
+ dragon_doll_03_desc: "A perfectly made wool doll made in the appearance of Silverwing by Queen Alysanne Targaryen to be gifted to her daughters." #NT!
+  
+ dragon_doll_04: "Vermithor Dragon Doll" #NT!
+ dragon_doll_04_desc: "A perfectly made wool doll made in the appearance of Vermithor by Queen Alysanne Targaryen to be gifted to her sons." #NT!
+  
+ dragon_doll_05: "Icy Blue Dragon Doll" #NT!
+ dragon_doll_05_desc: "An imperfect but no less charming icy blue wool dragon doll knitted by Lyanna Stark for her then unborn child. Its uneven stitches and slightly clumsy shape still convey the depth of Lyanna's love and effort, despite her clear struggles with needlework." #NT!
+  
+ viserra_mirror: "Valyrian Mirror" #NT!
+ viserra_mirror_desc: "An ancient mirror from Old Valyria, masterfully crafted from steel and adorned with rubies. The frame is embellished with an intricate draconic design, reflecting the power and artistry of the Valyrian Freehold." #NT!
+ artifact_mirror: "Mirror" #NT!
+  
+ gold_mirror: "Gold Mirror" #NT!
+ gold_mirror_desc: "A mirror beautifully crafted from gold." #NT!
+  
+ silver_mirror: "Silver Mirror" #NT!
+ silver_mirror_desc: "A mirror beautifully crafted from silver." #NT!
+  
+ artifact_horn: "Horn" #NT!
+ horn_of_herrock_name: "Horn of Herrock" #NT!
+ horn_of_herrock_desc: "A great black horn, twisted and banded in gold. Legend says that [GetScriptedCharacterByHistoryID('KenningK_4').GetFirstNameNicknamed] blew it outside the walls of [GetTitleByKey('c_kayce').GetNameNoTier] as a signal for the town's whores to open a postern gate, allowing him and his men to take the city for House [GetDynastyByID('dynn_Lannister').GetName]." #NT!
+ horn_of_herrock_valid: "Must be a member of House [GetDynastyHouseByID('house_KenningK').GetName] and hold the county of [GetTitleByKey('c_kayce').GetNameNoTier] as your [realm_capital|E]" #NT!
+  
+  #Maester Artifacts 
+ artifact_maester_link: "Chain Link" #NT!
+ artifact_maester_link_collection: "Maester Link Collection" #NT!
+ artifact_maester_chain: "Maester's Chain" #NT!
+  
+ agot_artifact_link_name: "[owner.Custom('GetLinkType')] Link" #NT!
+ agot_artifact_link_desc: "[owner.GetShortUIName|U] earned this link studying under [maester.Custom('MaesterCheck')] [maester.GetName] [owner.Custom('GetLinkArtifactDescription')]" #NT!
+ agot_artifact_link_desc_no_maester: "[owner.GetShortUIName|U] earned this link [owner.Custom('GetLinkArtifactDescription')]" #NT!
+ agot_artifact_link_desc_black_iron: "by mastering ravenry." #NT!
+ agot_artifact_link_desc_brass: "for committing to memory an uncountable number of lineages." #NT!
+ agot_artifact_link_desc_bronze: "studying the stars." #NT!
+ agot_artifact_link_desc_copper: "by learning the world's histories." #NT!
+ agot_artifact_link_desc_electrum: "enigmatically." #NT!
+ agot_artifact_link_desc_yellow_gold: "by uncooking the books." #NT!
+ agot_artifact_link_desc_red_gold: "in the finer points of mathematics." #NT!
+ agot_artifact_link_desc_iron: "by demonstrating a mind for warfare." #NT!
+ agot_artifact_link_desc_lead: "by demonstrating his finer knowledge of poisons." #NT!
+ agot_artifact_link_desc_pewter: "by building up his foundations in architecture." #NT!
+ agot_artifact_link_desc_platinum: "by sowing his own success in the wheat fields." #NT!
+ agot_artifact_link_desc_silver: "by learning to treat and care for others with medicine." #NT!
+ agot_artifact_link_desc_steel: "by forging his own chain in a roaring forge." #NT!
+ agot_artifact_link_desc_tin: "by studying the linguistics of the world." #NT!
+ agot_artifact_link_desc_bismuth: "by deepening their understaning of the faiths." #NT!
+ agot_artifact_link_desc_cast_iron: "by learning to care for animals." #NT!
+ agot_artifact_link_desc_antimony: "by studying the geography of the natural world." #NT!
+ agot_artifact_link_desc_nickel: "in alchemical studies." #NT!
+ agot_artifact_link_desc_white_copper: "in the political sciences." #NT!
+ agot_artifact_link_desc_aluminum: "by studying logistics and learning the flow of supply." #NT!
+ agot_artifact_link_desc_zinc: "in engineering." #NT!
+ agot_artifact_link_desc_vs: "for boldy develving into the deeper mysteries." #NT!
+  
+ agot_artifact_link_collection_name: "$artifact_maester_link_collection$" #NT!
+ agot_artifact_link_collection_desc: "Validation of one's hard work and studies, maester's links symbolize experience in their respective fields.\nThis collection contains the following links: [newly_created_artifact.Custom('GetAluminumLinkCount')][newly_created_artifact.Custom('GetAntimonyLinkCount')][newly_created_artifact.Custom('GetBismuthLinkCount')][newly_created_artifact.Custom('GetBlackIronLinkCount')][newly_created_artifact.Custom('GetBrassLinkCount')][newly_created_artifact.Custom('GetBronzeLinkCount')][newly_created_artifact.Custom('GetCastIronLinkCount')][newly_created_artifact.Custom('GetCopperLinkCount')][newly_created_artifact.Custom('GetElectrumLinkCount')][newly_created_artifact.Custom('GetIronLinkCount')][newly_created_artifact.Custom('GetLeadLinkCount')][newly_created_artifact.Custom('GetNickelLinkCount')][newly_created_artifact.Custom('GetPewterLinkCount')][newly_created_artifact.Custom('GetPlatinumLinkCount')][newly_created_artifact.Custom('GetRedGoldLinkCount')][newly_created_artifact.Custom('GetSilverLinkCount')][newly_created_artifact.Custom('GetSteelLinkCount')][newly_created_artifact.Custom('GetTinLinkCount')][newly_created_artifact.Custom('GetVSLinkCount')][newly_created_artifact.Custom('GetWhiteCopperLinkCount')][newly_created_artifact.Custom('GetYellowGoldLinkCount')][newly_created_artifact.Custom('GetZincLinkCount')]\nTotal: [newly_created_artifact.MakeScope.Var('links_collected').GetValue]" #NT!
+  
+ agot_artifact_maester_chain_name: "$artifact_maester_chain$" #NT!
+ agot_artifact_maester_chain_desc: "Assembled by earning a dozen chain links at the Citadel, a maester's chain symbolizes the deep wealth of knowledge and experience the owner possesses. \nAssembled links: [newly_created_artifact.Custom('GetAluminumLinkCount')][newly_created_artifact.Custom('GetAntimonyLinkCount')][newly_created_artifact.Custom('GetBismuthLinkCount')][newly_created_artifact.Custom('GetBlackIronLinkCount')][newly_created_artifact.Custom('GetBrassLinkCount')][newly_created_artifact.Custom('GetBronzeLinkCount')][newly_created_artifact.Custom('GetCastIronLinkCount')][newly_created_artifact.Custom('GetCopperLinkCount')][newly_created_artifact.Custom('GetElectrumLinkCount')][newly_created_artifact.Custom('GetIronLinkCount')][newly_created_artifact.Custom('GetLeadLinkCount')][newly_created_artifact.Custom('GetNickelLinkCount')][newly_created_artifact.Custom('GetPewterLinkCount')][newly_created_artifact.Custom('GetPlatinumLinkCount')][newly_created_artifact.Custom('GetRedGoldLinkCount')][newly_created_artifact.Custom('GetSilverLinkCount')][newly_created_artifact.Custom('GetSteelLinkCount')][newly_created_artifact.Custom('GetTinLinkCount')][newly_created_artifact.Custom('GetVSLinkCount')][newly_created_artifact.Custom('GetWhiteCopperLinkCount')][newly_created_artifact.Custom('GetYellowGoldLinkCount')][newly_created_artifact.Custom('GetZincLinkCount')]\nTotal: [newly_created_artifact.MakeScope.Var('links_collected').GetValue]" #NT!
+  
+ agot_artifact_maester_chain_desc_black_iron: "\n$BULLET_WITH_TAB$ Black Iron: [ROOT.Var('black_iron_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_brass: "\n$BULLET_WITH_TAB$ Brass: [ROOT.Var('brass_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_bronze: "\n$BULLET_WITH_TAB$ Bronze: [ROOT.Var('bronze_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_copper: "\n$BULLET_WITH_TAB$ Copper: [ROOT.Var('copper_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_electrum: "\n$BULLET_WITH_TAB$ Electrum: [ROOT.Var('electrum_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_yellow_gold: "\n$BULLET_WITH_TAB$ Yellow Gold: [ROOT.Var('yellow_gold_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_red_gold: "\n$BULLET_WITH_TAB$ Red Gold: [ROOT.Var('red_gold_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_iron: "\n$BULLET_WITH_TAB$ Iron: [ROOT.Var('iron_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_lead: "\n$BULLET_WITH_TAB$ Lead: [ROOT.Var('lead_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_pewter: "\n$BULLET_WITH_TAB$ Pewter: [ROOT.Var('pewter_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_platinum: "\n$BULLET_WITH_TAB$ Platinum: [ROOT.Var('platinum_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_silver: "\n$BULLET_WITH_TAB$ Silver: [ROOT.Var('silver_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_steel: "\n$BULLET_WITH_TAB$ Steel: [ROOT.Var('steel_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_tin: "\n$BULLET_WITH_TAB$ Tin: [ROOT.Var('tin_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_bismuth: "\n$BULLET_WITH_TAB$ Bismuth: [ROOT.Var('bismuth_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_cast_iron: "\n$BULLET_WITH_TAB$ Cast Iron: [ROOT.Var('cast_iron_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_antimony: "\n$BULLET_WITH_TAB$ Antimony: [ROOT.Var('antimony_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_nickel: "\n$BULLET_WITH_TAB$ Nickel: [ROOT.Var('nickel_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_white_copper: "\n$BULLET_WITH_TAB$ White Copper: [ROOT.Var('white_copper_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_aluminum: "\n$BULLET_WITH_TAB$ Aluminum: [ROOT.Var('aluminum_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_zinc: "\n$BULLET_WITH_TAB$ Zinc: [ROOT.Var('zinc_links').GetValue]" #NT!
+ agot_artifact_maester_chain_desc_vs: "\n$BULLET_WITH_TAB$ Valyrian Steel: [ROOT.Var('vs_links').GetValue]" #NT!
+  
+ agot_artifact_desc_blank: "" #NT!
+ agot_forge_link_intent_base: "Forge Link" #NT!
+ agot_forge_link_type_black_iron: "Black Iron" #NT!
+ agot_forge_link_type_brass: "Brass" #NT!
+ agot_forge_link_type_bronze: "Bronze" #NT!
+ agot_forge_link_type_copper: "Copper" #NT!
+ agot_forge_link_type_electrum: "Electrum" #NT!
+ agot_forge_link_type_yellow_gold: "Yellow Gold" #NT!
+ agot_forge_link_type_red_gold: "Red Gold" #NT!
+ agot_forge_link_type_iron: "Iron" #NT!
+ agot_forge_link_type_lead: "Lead" #NT!
+ agot_forge_link_type_pewter: "Pewter" #NT!
+ agot_forge_link_type_platinum: "Platinum" #NT!
+ agot_forge_link_type_silver: "Silver" #NT!
+ agot_forge_link_type_steel: "Steel" #NT!
+ agot_forge_link_type_tin: "Tin" #NT!
+ agot_forge_link_type_bismuth: "Bismuth" #NT!
+ agot_forge_link_type_cast_iron: "Cast Iron" #NT!
+ agot_forge_link_type_antimony: "Antimony" #NT!
+ agot_forge_link_type_nickel: "Nickel" #NT!
+ agot_forge_link_type_white_copper: "White Copper" #NT!
+ agot_forge_link_type_aluminum: "Aluminum" #NT!
+ agot_forge_link_type_zinc: "Zinc" #NT!
+ agot_forge_link_type_vs: "Valyrian Steel" #NT!
+ agot_forge_link_type_unfocused: "Unfocused" #NT!
+  
+ agot_forge_link_type_black_iron_lower: "black iron" #NT!
+ agot_forge_link_type_yellow_gold_lower: "yellow gold" #NT!
+ agot_forge_link_type_red_gold_lower: "red gold" #NT!
+ agot_forge_link_type_cast_iron_lower: "cast iron" #NT!
+ agot_forge_link_type_white_copper_lower: "white copper" #NT!
+ agot_forge_link_type_vs_lower: "Valyrian steel" #NT!
+  
+ artifact_archmaester_mask: "$archmaester$'s Mask" #NT!
+ artifact_archmaester_ring: "$archmaester$'s Ring" #NT!
+ artifact_archmaester_rod: "$archmaester$'s Rod" #NT!
+  
+ agot_artifact_archmaester_mask_name: "$artifact_archmaester_mask$: [owner.Custom('GetSpecialtyMetal')|U]" #NT!
+ agot_artifact_archmaester_mask_desc: "A ceremonial mask worn by an $archmaester$ of the Citadel. This $archmaester$ specializes at [owner.Custom('GetSpecialtyFieldLower')|l]." #NT!
+ agot_artifact_archmaester_ring_name: "$artifact_archmaester_ring$: [owner.Custom('GetSpecialtyMetal')|U]" #NT!
+ agot_artifact_archmaester_ring_desc: "A ceremonial ring worn by an $archmaester$ of the Citadel. This $archmaester$ specializes at [owner.Custom('GetSpecialtyFieldLower')|l]." #NT!
+ agot_artifact_archmaester_rod_name: "$artifact_archmaester_rod$: [owner.Custom('GetSpecialtyMetal')|U]" #NT!
+ agot_artifact_archmaester_rod_desc: "A ceremonial rod worn by an $archmaester$ of the Citadel. This $archmaester$ specializes at [owner.Custom('GetSpecialtyFieldLower')|l]." #NT!
+  
+ agot_maester_specialty_black_iron: "Ravenry" #NT!
+ agot_maester_specialty_brass: "Geneology" #NT!
+ agot_maester_specialty_bronze: "Astronomy" #NT!
+ agot_maester_specialty_copper: "History" #NT!
+ agot_maester_specialty_electrum: "Cryptography" #NT!
+ agot_maester_specialty_yellow_gold: "Accounting" #NT!
+ agot_maester_specialty_red_gold: "Mathematics" #NT!
+ agot_maester_specialty_iron: "Warcraft" #NT!
+ agot_maester_specialty_lead: "Poisons" #NT!
+ agot_maester_specialty_pewter: "Architecture" #NT!
+ agot_maester_specialty_platinum: "Agriculture" #NT!
+ agot_maester_specialty_silver: "Medicine" #NT!
+ agot_maester_specialty_steel: "Metallurgy" #NT!
+ agot_maester_specialty_tin: "Linguistics" #NT!
+ agot_maester_specialty_bismuth: "Faiths" #NT!
+ agot_maester_specialty_cast_iron: "Husbandry" #NT!
+ agot_maester_specialty_antimony: "Geography" #NT!
+ agot_maester_specialty_nickel: "Alchemical Studies" #NT!
+ agot_maester_specialty_white_copper: "Political Sciences" #NT!
+ agot_maester_specialty_aluminum: "Logistics" #NT!
+ agot_maester_specialty_zinc: "Engineering" #NT!
+ agot_maester_specialty_vs: "the Higher Mysteries" #NT!
+  
+ agot_maester_specialty_nickel_lower: "alchemical studies" #NT!
+ agot_maester_specialty_white_copper_lower: "political sciences" #NT!
+ agot_maester_specialty_vs_lower: "the higher mysteries" #NT!
+  
+ artifact_grandmaester_chain: "Grand Maester's Chain" #NT!
+ artifact_grandmaester_chain_desc: "This ceremonical necklace is worn by the Grand Maester of the Iron Throne. Unlike a traditional maester's chain, gems are woven into its chains in addition to the typical metals." #NT!
+  
+ agot_must_be_archmaester_desc: "You must be an archmaester to wear this. If you are seeing this, shame on you." #NT!
+ agot_must_be_grandmaester_desc: "You must be the Grand Maester to wear this. If you are seeing this, shame on you." #NT!
+ agot_must_be_artifact_creator_desc: "You must be the artifact's creator to wear this." #NT!
+  
+ artifact_glass_candle: "Glass Candle" #NT!
+ agot_artifact_glass_candle_desc: "An obsidian candle, [newly_created_artifact.GetFeatureText('glass_candle_color')] in color, tall and twisted in stature, and sharp to the touch. These candles are fabled to burn eternally, allowing their owners to peer across oceans and through mountains. [newly_created_artifact.Custom('GetCandleMagic')]" #NT!
+ agot_glass_candle_lit_desc: "This candle shines uncomfortably bright, distorting colors around it." #NT!
+ agot_glass_candle_unlit_desc: "Acolytes of the Citadel stand vigil before three such candles on the night of their promotion in a vain attempt to light them." #NT!
+ agot_glass_candle_lit.tt: "Magic in the the world is strong, and the glass candle is lit." #NT!
+  
+ feature_glass_candle_black: "black" #NT!
+ feature_glass_candle_green: "green" #NT!
+ feature_glass_candle_blue: "blue" #NT!
+ feature_glass_candle_white: "white" #NT!
+ feature_glass_candle_purple: "purple" #NT!
+ feature_glass_candle_red: "red" #NT!
+  
+  # MISC 
+ agot_artifact_myrish_lace_name: "Myrish Lace" #NT!
+ agot_artifact_myrish_lace_desc: "Myrish Lace is famed across the world, desired for by both man and woman." #NT!
+ agot_artifact_norvoshi_bear_carving_name: "Norvoshi Bear Carving" #NT!
+ agot_artifact_norvoshi_bear_carving_desc: "Bears have always been found in the Hills of Norvos, even before there was a Norvos, and thus it is of little surprise that the animal has become a symbol for the people of the region." #NT!
+ agot_artifact_pentoshi_cheese_name: "Pentoshi Cheese" #NT!
+ agot_artifact_pentoshi_cheese_desc: "While not as famed as the Lace of Myr, the helms of Tyrosh, or the dyes of Braavos, the cheese of Pentos is a great commodity and the basis for more then one Pentoshi Magister's wealth." #NT!
+ agot_artifact_dothraki_bow_name: "Dothraki Bow" #NT!
+ agot_artifact_dothraki_bow_desc: "The Dothraki Bows are one of their most fearsome weapons. While not as iconic as the arakh, their bows can outshoot most common Westerosi bows, and are small enough to be shot from horseback." #NT!
+ traditional_house_artifact_modifier_desc: "This artifact traditionally belongs to my House or dynasty: $VALUE|=+0$" #NT!
+ weirwood_flute_name: "Weirwood Flute" #NT!
+ weirwood_flute_desc: "The sound produced by this simple weirwood flute is nothing short of enchanting. The instrument is surprisingly easy to play, even a novice player will not find themselves out of fingers to hit the next note." #NT!
+ is_a_poet_tt: "You are a poet" #NT!
+ brewing_herbs_name: "Brewing Herbs" #NT!
+ brewing_herbs_desc: "This pouch contains dried leaves and roots, some widely known for their medicinal and calming properties, others more difficult to recognize." #NT!
+  
+  #Decisions 
+ create_crown_of_hugor_decision: "Forge the Crown of the Father's Anointment" #NT!
+ create_crown_of_hugor_decision_desc: "In times begone, Hugor of the Hill was crowned by the Father Above with seven stars he plucked from the heavens himself. He then bade Hugor to take the gods' chosen people to the sunset to find their given lands, Westeros. Since then, the seven Stars of Hugor have been split and lost to time, but with them now reunited I can recreate the crown that anointed Hugor." #NT!
+ I_POSSESS_ALL_STARS: "You possess the seven Stars of Hugor" #NT!
+ I_POSSESS_ALL_STARS_NOT: "You are missing some of the seven Stars, and must find the remaining ones." #NT!
+ create_crown_of_hugor_decision_tooltip: "This will use the seven Stars of Hugor artifacts to create the Crown of the Father's Anointment" #NT!
+ create_crown_of_hugor_decision_confirm: "I am the heir of Hugor!" #NT!
+  
+  #Lizard-Lion 
+ animal_type_lizard_lion: "lizard-lion" #NT!
+ artifact_hide_type_lizard_lion: "a lizard-lion" #NT!
+ artifact_wall_animal_skull_lizard_lion: "a ferocious lizard-lion" #NT!
+ feature_animal_hide_type_lizard_lion: "a ferocious lizard-lion" #NT!
+ feature_animal_skull_type_lizard_lion: "a terrifying lizard-lion" #NT!

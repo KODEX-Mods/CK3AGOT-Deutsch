@@ -1,6 +1,9 @@
 ﻿l_german:
- FOUNDER_BASED_NAME_POSTFIX:0 "id"
- ### PREFIXES ###
- dynnp_of_the:0 "von "
- dynnpat_pre_sonof:0 "Sohn von "
- dynnpat_pre_daughterof:0 "Tochter von "
+ FOUNDER_BASED_NAME_POSTFIX: "id"
+  ### PREFIXES ### 
+ dynnp_of_the: "von "
+ dynnpat_pre_sonof: "Sohn von "
+ dynnpat_pre_daughterof: "Tochter von "
+  #Only use those if you need the Suffix in your language 
+ dynnpat_post_sonof_zh: "" #NT!
+ dynnpat_post_daughterof_zh: "" #NT!

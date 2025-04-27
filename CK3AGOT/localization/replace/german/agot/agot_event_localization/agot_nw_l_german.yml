@@ -1,0 +1,66 @@
+﻿l_german:
+ agot_nights_watch.0004.t: "Die Mauer muss standhalten"
+ agot_nights_watch.0004.desc: "Der heutige Tag begann nicht wie üblich. Die Stützpfeiler der Mauer knarrten, die Bäume in der Umgebung rüttelten und schüttelten sich - #N etwas stimmt nicht.#!\n\nWährend alle schwarzen Brüder besorgt sind, läuft ein Grenzer durch die Menge zu mir. #bold "Unsere Mauer wird durchbrochen!"#! schreit er.\n\nWenn Ihr über die Mauer hinausblickt, könnt Ihr die schwankenden und tückischen Bewegungen der Bäume sehen. Es gibt Gerüchte, die besagen, dass sich Wildlinge und Riesen auf den Weg gen Süden machen. Bisher galten sie als Scherze von Betrunkenen und als das Gerede schwacher Männer., bis jetzt...\n\nDie Wildlinge schwärmen durch die Bresche wie Schaben aus einem faulenden Getreidesack, wenn das Licht auf sie fällt, nur dreht sich mir der Magen bei diesem Anblick noch heftiger um. #bold Seit Tausenden von Jahren hat die Mauer nicht nachgegeben, wir dürfen nicht zulassen, dass unsere Wache diejenige ist, die es zulässt."
+ agot_nights_watch.0004.a: "Wir haben schon Schlimmeres überstanden!"
+  
+ agot_nights_watch.0024.t: "Wiederherstellung der Nachtwache"
+ agot_nights_watch.0024.desc: "Seit ihrer Auflösung sind unsere Festungen und Völker von Wilden und anderen grässlichen Kreaturen bedroht, die im hohen Norden lauern.\n\nNun, da die Wache wiederhergestellt ist, können wir beruhigt feststellen, dass unsere Grenzen sicher sind und unser Volk vor allen Gefahren aus dem Norden geschützt ist."
+ agot_nights_watch.0024.a: "Die Ordnung ist wiederhergestellt."
+ agot_nights_watch.0024.b: "Brandons Schenkung soll natürlich zurückgegeben werden."
+ agot_nights_watch.0024.c: "Die Wache sollte in ihrer vollen Stärke wiederhergestellt werden!"
+  
+ agot_nights_watch.0025.t: "Auflösung der Nachtwache"
+ agot_nights_watch.0025.desc: "Unser Volk ist schon viel zu lange von der Nachtwache und ihrer Mauer bedroht worden!\n\nNachdem wir die Kontrolle über die Mauer errungen haben, ist es an der Zeit, der schwarzen Bruderschaft endlich ein Ende zu bereiten und unserem Volk die Freiheit und den Frieden zu gewähren, die man ihm seit Tausenden von Jahren geraubt hat."
+ agot_nights_watch.0025.a: "Dies wird ewig in Erinnerung bleiben..."
+  
+ agot_nights_watch.0026.t: "Ein neuer Lord Kommandant"
+ agot_nights_watch.0026.desc: "Es ist erst wenige Tage her, dass die Amtszeit meines Vorgängers zu Ende ging, ein paar Tage, um über so manchen Gedanken nachzusinnen.\n\nHaben meine Kommandanten der Nachtwache wirklich nach bestem Wissen und Gewissen gedient? Haben sie klares Handeln und rationales Denken bewiesen? Oder hat ihre Zielstrebigkeit nachgelassen und ihr Vermögen nachgelassen. Während diese Brüder ihre wichtigen Positionen genossen haben, haben viele jüngere Männer großes Potenzial und Verstand bewiesen.\n\nAls Lord Kommandant ist es meine Pflicht, dafür zu sorgen, dass die Wache in fähigen Händen liegt, auch wenn das bedeuten kann, dass einige dieser Hände wechseln."
+ agot_nights_watch.0026.a: "Meine Kommandanten haben viel Kompetenz bewiesen."
+ agot_nights_watch.0026.b: "Meine Kommandanten lassen viel zu wünschen übrig."
+  
+ agot_nights_watch.2001.t: "Ein Wunsch, der Nachtwache beizutreten"
+ agot_nights_watch.2001.desc: "Mein Kind, [child.GetFirstName], ist stets ein komischer Kauz gewesen - ohne Aussicht darauf zu erben, es sei denn durch ein düsteres Unglück, und immer brabbelnd über Snarks und Grumkins jenseits der Mauer.\n\nEs ist keine Überraschung für mich, als [child.GetSheHe] [child.Custom('quirk_pos_pp')] zu mir kommt . "[ROOT.Char.Custom('DE_Anrede')], ich habe mich entschieden", sagt [child.GetSheHe] so kühn, wie [child.GetSheHe] noch nie zu mir gesprochen hat. "Ich werde mich der Nachtwache anschließen. #bold Ich will das Schwarz anlegen.#!""
+ agot_nights_watch.2001.a: "So geh, und diene ehrenvoll."
+ agot_nights_watch.2001.b: "Ich habe andere Pläne für dich."
+  
+ agot_nights_watch.2002.t: "Ein Wunsch, der Nachtwache beizutreten"
+ agot_nights_watch.2002.desc: "Mein[sibling.Custom('DE_END_PRO_S_N')] [sibling.Custom('SisterBrother')], [sibling.GetFirstName], betritt mein Arbeitszimmer mit einer [sibling.Custom('quirk_pos_adverb')]en Ausstrahlung. [sibling.Custom('quirk_pos_standalone')] und nähert sich mir mit einem Hauch von [sibling.Custom('quirk_pos_noun')]. \n\n"[ROOT.Char.Custom('DE_Anrede')], ich habe mich entschieden", sagt [sibling.GetSheHe] und die Worte sprudeln aus [sibling.Custom('DE_PRO_POS_S_3P')]em Mund wie eine Drachenflamme. "Ich werde mich der Nachtwache anschließen. #bold Ich will das Schwarz anlegen.#!""
+ agot_nights_watch.2002.a: "So geh, und diene ehrenvoll."
+ agot_nights_watch.2002.b: "Ich habe andere Pläne für dich."
+  
+ agot_nights_watch.2003.t: "Macht den Weg frei für die Jugend"
+ agot_nights_watch.2003.desc: "Während mein Haar ergraut und meine Gelenke schmerzen, frage ich mich, ob ich nicht bereits meine besten Jahre in den Dienst dieses Landes gestellt habe und ob es nicht besser wäre, wenn ein[heir.Custom('DE_END_PRO_S_N')] jünger[heir.Custom('DE_END_ADJ_IND_S_N')] [heir.GetWomanMan] seine Geschicke in die Hand nehmen würde.\n\nMein[heir.Custom('DE_END_PRO_S_N')] [heir.Custom('DaughterSon')] [heir.GetName] ist ein[heir.Custom('DE_END_PRO_S_N')] jung[heir.Custom('DE_END_ADJ_IND_S_N')] [heir.GetLadyLord] in [heir.Custom('DE_PRO_PER_S_3P_G')] Blütezeit und könnte viel Gutes für [ROOT.Char.GetPrimaryTitle.GetNameNoTier] tun. Und die Erfahrung, die [heir.GetSheHe] sammeln, wäre von unschätzbarem Wert in den zukünftigen Schlachten, die auf Haus [ROOT.Char.GetHouse.GetName] zukommen. Die [nightwatch.GetName] ist ein alter und ehrwürdiger Orden, der von [ROOT.Char.GetCulture.GetCollectiveNoun]n hoch geschätzt wird, und es ist nicht gänzlich ungewöhnlich, dass ein älterer Lord seine Ländereien und Titel zum Wohle des Reiches und seiner Besitztümer aufgibt..."
+ agot_nights_watch.2003.a: "Es ist Zeit, dass [heir.GetName] die Zügel in die Hand nimmt."
+ agot_nights_watch.2003.a.tt: "Ihr dankt zugunsten von [heir.GetName] ab"
+ agot_nights_watch.2003.b: "Es steckt noch Leben in diesen alten Knochen!"
+  
+ ####### 
+ # Heir is unsuitable - Randyll Tarly 
+ # Badger 
+ ####### 
+ agot_nights_watch.2004.t: "The Stability of My House" #NT!
+ agot_nights_watch.2004.desc: "My [ROOT.Char.Custom2('RelationToMe', craven_heir)] [craven_heir.GetFirstName] is an embarrassment to the [ROOT.Char.GetDynasty.GetNameNoTooltip] dynasty. Should [craven_heir.GetSheHe] inherit [primary_title.GetNameNoTier] it would spell disaster for our house. The reigns of this dynasty would be far better served in the hands of [good_heir.GetFirstName].\n\nIt falls to me to protect our future from sure downfall. Removing a weak link from the chain of succession is difficult, but there are options. Should I take [craven_heir.GetHerHim] out on a hunt I can give [craven_heir.GetHerHim] the choice. [craven_heir.GetSheHe|U] can ride north to The Wall and forsake all titles, or [craven_heir.GetSheHe] will suffer an unfortunate, unavoidable accident." #NT!
+ agot_nights_watch.2004.a: "I shall bring [craven_heir.GetHerHim] out for a ride, where I will deliver my ultimatum." #NT!
+ agot_nights_watch.2004.a.tt: "[craven_heir.GetNameNoTooltip] shall be forced to choose between the Watch, or [craven_heir.GetHerHis] life." #NT!
+ agot_nights_watch.2004.b: "[craven_heir.GetSheHe|U] is a [ROOT.Char.GetDynasty.GetName], for better or worse." #NT!
+  
+ agot_nights_watch.2005.t: "A Journey to the North" #NT!
+ agot_nights_watch.2005.desc: "My [ROOT.Char.Custom2('RelationToMe', craven_heir)] [craven_heir.GetFirstName] has acquiesced to my demands. Rather than find [craven_heir.GetHerselfHimself] trampled beneath a destrier or drowned in a ditch, [craven_heir.GetSheHe] will begin the arduous journey North. On the morrow [craven_heir.GetSheHe] will bid farewell to the household, and inform them that [craven_heir.GetSheHe] has made the difficult decision to sacrifice their birthright in order to serve the realm. He will take no wife, hold no lands, father no children, and not stain this great house with [craven_heir.GetHerHis] weakness.\n\n[good_heir.GetName] shall take the reigns of House [ROOT.Char.GetDynasty.GetName] and ensure that our bloodline remains hale and powerful while [craven_heir.GetFirstNameNoTooltip] will disappear into the snowy annals of The Wall's records. Perhaps [craven_heir.GetSheHe] can garb [craven_heir.GetHerselfHimself] with the honor and strength [craven_heir.GetSheHe] failed to accumulate in [ROOT.Char.GetCapitalLocation.GetName]." #NT!
+ agot_nights_watch.2005.a: "For the greater good." #NT!
+ agot_nights_watch.2005.a.tt: "[craven_heir.GetNameNoTooltip] will set out for the North." #NT!
+  
+ agot_nights_watch.2006.t: "Into the Night" #NT!
+ agot_nights_watch.2006.desc: "When [craven_heir.GetFirstName] was informed of what would come to pass if [craven_heir.GetSheHe] did not make [craven_heir.GetHerselfHimself] sparse at [ROOT.Char.GetCapitalLocation.GetName], [craven_heir.GetSheHe] blanched and stuttered an agreement.\n\nThe next morning when I sent for [craven_heir.GetHerHim], [craven_heir.GetSheHe] was nowhere to be found, and [craven_heir.GetHerHis] room had been ransacked. [ROOT.Char.GetCapitalLocation.GetName] was upturned in the search for [craven_heir.GetName], but the findings were regrettable. The smallfolk speak of a figure riding out in the dead of night atop a steed far too fine for any messenger.\n\nOnly [ROOT.Char.GetFaith.HighGodNameAlternate] knows where [craven_heir.GetName] has gotten to now. Though this solves my current problem, it may return to bite at my heels later..." #NT!
+ agot_nights_watch.2006.a: "How could [craven_heir.GetSheHe] have gotten away?!" #NT!
+  
+ agot_nights_watch.2007.t: "The Craven's Coals" #NT!
+ agot_nights_watch.2007.desc: "[craven_heir.GetName] grits [craven_heir.GetHerHis] teeth as the ripple of my threat washes over [craven_heir.GetHerHis] face. "The right to rule in [ROOT.Char.GetCapitalLocation.GetName] is mine, by birthright. You will not take it from me," [craven_heir.GetSheHe] says with a fire in [craven_heir.GetHerHis] tone that has been stoked to life by my demand. Perhaps there is a part of me in this child after all.\n\nIt is clear that [craven_heir.GetName] won't give up [craven_heir.GetHerHis] claim to my seat. Now I must decide if my [ROOT.Char.Custom2('RelationToMe', craven_heir)] has truly grown a spine, or if this bellowing flame is only a mummer's fire, stoked by the coals of fear. Will [craven_heir.GetSheHe] still be the ruin of House [ROOT.Char.GetDynasty.GetName]?" #NT!
+ agot_nights_watch.2007.a: "My ultimatum was no idle threat, [craven_heir.Custom('GirlBoy')]." #NT!
+ agot_nights_watch.2007.a.success: "[craven_heir.GetFirstNameNoTooltip] dies" #NT!
+ agot_nights_watch.2007.a.failure: "[craven_heir.GetFirstNameNoTooltip] survives your murder attempt" #NT!
+ agot_nights_watch.2007.b: "The [craven_heir.Custom('GirlBoy')] grows a spine?! Perhaps [craven_heir.GetSheHe] won't be the ruin of House [ROOT.Char.GetDynasty.GetNameNoTooltip]." #NT!
+  
+ agot_nights_watch.9901.t: "New Lord Commander on the Wall" #NT!
+ agot_nights_watch.9901.desc: ""A raven has brought news from [new_holder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], my liege." The messenger gives a quick bow and hands me the letter to peruse.\n\nWith the recent passing of [previous_holder.GetTitledFirstName], the Sworn Brothers of the Night's Watch have chosen [new_holder.GetFirstNameNoTooltip] [new_holder.GetHouse.GetBaseName] as their new commander." #NT!
+ agot_nights_watch.9901.stark: "Winter is Coming." #NT!
+ agot_nights_watch.9901.a: "And now his watch is ended." #NT!

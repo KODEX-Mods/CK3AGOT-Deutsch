@@ -1,57 +1,57 @@
 ﻿l_german:
- #NOTE: follows the order of dynasties in the \common\dynasties\ files
- ### PREFIXES ###
- dynnp_of_the:0 "von "
-
- ### SUMMER ISLES DYNASTIES/CADET BRANCHES ###
- #Summer Islander
- dynn_Xho:0 "Xho"
- dynn_Qo:0 "Qo"
- dynn_Qhoqua:0 "Qhoqua"
- dynn_Xaq:0 "Xaq"
- dynn_Bone:0 "Bone"
- dynn_Mo:0 "Mo"
- dynn_Qho:0 "Qho"
- dynn_Xhoan:0 "Xhoan"
+  #NOTE: follows the order of dynasties in the \common\dynasties\ files 
+  ### PREFIXES ### 
+ dynnp_of_the: "von "
+  
+  ### SUMMER ISLES DYNASTIES/CADET BRANCHES ### 
+  #Summer Islander 
+ dynn_Xho: "Xho"
+ dynn_Qo: "Qo"
+ dynn_Qhoqua: "Qhoqua"
+ dynn_Xaq: "Xaq"
+ dynn_Bone: "Bone"
+ dynn_Mo: "Mo"
+ dynn_Qho: "Qho"
+ dynn_Xhoan: "Xhoan"
  dynn_Xhanu: "Xhanu"
- dynn_Luxho:0 "Luxho"
- dynn_Xhaxos:0 "Xhaxos"
- dynn_Uxo:0 "Uxo"
- dynn_Agbelu:0 "Agbelu"
- dynn_Ajaxos:0 "Ajaxos"
- dynn_Alukho:0 "Alukho"
- dynn_Banho:0 "Banho"
- dynn_Biabaku:0 "Biabaku"
- dynn_Bado:0 "Bado"
- dynn_Dako:0 "Dako"
- dynn_Ekwensu:0 "Ekwensu"
- dynn_Ebaharo:0 "Ebaharo"
- dynn_Gowonu:0 "Gowonu"
- dynn_Iroxho:0 "Iroxho"
- dynn_Jaluru:0 "Jaluru"
- dynn_Kano:0 "Kano"
- dynn_Karomo:0 "Karomo"
- dynn_Monye:0 "Monye"
- dynn_Ojokolu:0 "Ojokolu"
- dynn_Onuxho:0 "Onuxho"
- dynn_Rotumu:0 "Rotumu"
- dynn_Solaju:0 "Solaju"
- dynn_Tomburu:0 "Tomburu"
- dynn_Ubo:0 "Ubo"
- dynn_Umaru:0 "Umaru"
- dynn_Xhurabo:0 "Xhurabo"
- dynn_Xhone:0 "Xhone"
- dynn_Nyrolu:0 "Nyrolu"
- dynn_Jallone:0 "Jallone"
- dynn_Turalu:0 "Turalu"
- dynn_Jho:0 "Jho"
- dynn_Lho:0 "Lho"
-
- #Bassilisk Isles
- dynn_Salukho:0 "Salukho"
- dynn_Bone:0 "Bone"
-
- #Naath
- dynn_Kizwe:0 "Kizwe"
-
- #Brindlemen
+ dynn_Luxho: "Luxho"
+ dynn_Xhaxos: "Xhaxos"
+ dynn_Uxo: "Uxo"
+ dynn_Agbelu: "Agbelu"
+ dynn_Ajaxos: "Ajaxos"
+ dynn_Alukho: "Alukho"
+ dynn_Banho: "Banho"
+ dynn_Biabaku: "Biabaku"
+ dynn_Bado: "Bado"
+ dynn_Dako: "Dako"
+ dynn_Ekwensu: "Ekwensu"
+ dynn_Ebaharo: "Ebaharo"
+ dynn_Gowonu: "Gowonu"
+ dynn_Iroxho: "Iroxho"
+ dynn_Jaluru: "Jaluru"
+ dynn_Kano: "Kano"
+ dynn_Karomo: "Karomo"
+ dynn_Monye: "Monye"
+ dynn_Ojokolu: "Ojokolu"
+ dynn_Onuxho: "Onuxho"
+ dynn_Rotumu: "Rotumu"
+ dynn_Solaju: "Solaju"
+ dynn_Tomburu: "Tomburu"
+ dynn_Ubo: "Ubo"
+ dynn_Umaru: "Umaru"
+ dynn_Xhurabo: "Xhurabo"
+ dynn_Xhone: "Xhone"
+ dynn_Nyrolu: "Nyrolu"
+ dynn_Jallone: "Jallone"
+ dynn_Turalu: "Turalu"
+ dynn_Jho: "Jho"
+ dynn_Lho: "Lho"
+  
+  #Bassilisk Isles 
+ dynn_Salukho: "Salukho"
+ dynn_Bone: "Bone"
+  
+  #Naath 
+ dynn_Kizwe: "Kizwe"
+  
+  #Brindlemen 

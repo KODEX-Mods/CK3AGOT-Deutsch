@@ -1,2 +1,6 @@
 ﻿l_german:
- court.5075.dragon:0 "I have a dragon, what need have I for horses?"
+ court.5075.dragon: "I have a dragon, what need have I for horses?" #NT!
+ court.5060.d.bloodrider: "[knight.GetSheHe|U] will be sworn in as my $bloodrider_court_position$!" #NT!
+  #Royal Service 
+ hold_court.8050.d.bloodrider: "I have found my Bloodrider!" #NT!
+ hold_court.8050.d.tt_bloodrider: "[knight.GetFirstName] will move to your court as your Bloodrider. \nRemoving [knight.GetHerHim] may upset [vassal.GetTitledFirstName]" #NT!

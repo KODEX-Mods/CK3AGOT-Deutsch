@@ -1,6 +1,6 @@
 ﻿l_german:
- rule_ub_best_friend_to_heir_friend:0 "Friendship Inheritance (Unfinished Business)"
- setting_ub_best_friend_to_heir_friend_allowed:0 "Default"
- setting_ub_best_friend_to_heir_friend_allowed_desc:0 "Predecessor's Best Friend can become their heir's Friend on succession."
- setting_ub_best_friend_to_heir_friend_blocked:1 "#high Direct Inheritance Disallowed#!"
- setting_ub_best_friend_to_heir_friend_blocked_desc:0 "Predecessor's Best Friend cannot become their heir's Friend on succession."
+ rule_ub_best_friend_to_heir_friend: "Friendship Inheritance (Unfinished Business)" #NT!
+ setting_ub_best_friend_to_heir_friend_allowed: "Default" #NT!
+ setting_ub_best_friend_to_heir_friend_allowed_desc: "Predecessor's Best Friend can become their heir's Friend on succession." #NT!
+ setting_ub_best_friend_to_heir_friend_blocked: "#high Direct Inheritance Disallowed#!" #NT!
+ setting_ub_best_friend_to_heir_friend_blocked_desc: "Predecessor's Best Friend cannot become their heir's Friend on succession." #NT!

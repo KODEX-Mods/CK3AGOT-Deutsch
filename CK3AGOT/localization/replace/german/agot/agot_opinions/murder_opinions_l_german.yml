@@ -1,5 +1,5 @@
 ﻿l_german:
-
- muted_family_member:0 "Muted Family Member"
- muted_me:0 "Muted Me"
-
+  
+ muted_family_member: "Familienmitglied zum Schweigen gebracht"
+ muted_me: "Hat mich zum Schweigen gebracht"
+  

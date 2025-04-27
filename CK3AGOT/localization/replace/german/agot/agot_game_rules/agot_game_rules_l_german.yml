@@ -1,188 +1,173 @@
 ﻿l_german:
- #Story Outcomes
- rule_agot_story_outcome:0 "#R AGOT:#! Story Outcomes"
- setting_agot_story_sandbox:0 "Sandbox"
- setting_agot_story_sandbox_desc:0 "Minimal scripted events will occur"
- setting_agot_story_random_events_random_outcomes:0 "   Uncertain Events;\nUncertain Outcomes"
- setting_agot_story_random_events_random_outcomes_desc:0 "Historical events may or may not occur, and the outcomes may or may not be historic."
- setting_agot_story_historical_events_random_outcomes:0 "   Historical Events;\nUncertain Outcomes"
- setting_agot_story_historical_events_random_outcomes_desc:0 "Historical events will occur when relevant, and the outcomes may or may not be historic."
- setting_agot_story_historical_events_weighted_outcomes:0 "   Historical Events;\nWeighted Outcomes"
- setting_agot_story_historical_events_weighted_outcomes_desc:0 "Historical events will occur when relevant, and the outcomes will tend to be historical."
- setting_agot_story_historical_events_historical_outcomes:0 "   Historical Events;\nHistorical Outcomes"
- setting_agot_story_historical_events_historical_outcomes_desc:0 "Historical events will occur when relevant, and the outcomes will be historical when possible."
-
- rule_agot_coin_flip:0 "#R AGOT:#! Targaryen Coin Flip"
- setting_agot_coin_flip_enabled:0 "Enabled"
- setting_agot_coin_flip_enabled_desc:0 "Targaryen coin flip will occur."
- setting_agot_coin_flip_disabled:0 "Disabled"
- setting_agot_coin_flip_disabled_desc:0 "Targaryen coin flip will not occur."
-
- rule_agot_hv_conversion:0 "#R AGOT:#! High Valyrian Conversion"
- setting_agot_hv_conversion_disallowed:0 "Disallowed"
- setting_agot_hv_conversion_disallowed_desc:0 "Characters and counties will not be allowed to be converted to High Valyrian culture."
- setting_agot_hv_conversion_offshoots:0 "Offshoots"
- setting_agot_hv_conversion_offshoots_desc:0 "Characters and counties can only be converted to Valyrian culture offshoots. High Valyrian characters will convert counties and characters to Westerosi or Essosi Valyrian dependent on location."
- setting_agot_hv_conversion_unrestricted:0 "Unrestricted"
- setting_agot_hv_conversion_unrestricted_desc:0 "Characters and counties will be allowed to convert High Valyrian culture."
-
- rule_agot_abdication:0 "#R AGOT:#! Abdication"
- setting_agot_abdication_enabled:0 "Disabled"
- setting_agot_abdication_enabled_desc:0 "The decision to abdicate to your heir is enabled."
- setting_agot_abdication_disabled:0 "Enabled"
- setting_agot_abdication_disabled_desc:0 "The decision to abdicate to your heir is disabled."
-
- rule_agot_shattered_world:0 "#R AGOT:#! Shattered World"
- setting_agot_not_shattered:0 "Not Shattered"
- setting_agot_not_shattered_desc:0 "The world will remain intact, titles as they normally are."
- setting_agot_shatter_duchies:1 "Counties"
- setting_agot_shatter_duchies_desc:0 "The world will only have up to county-level titles, but lords retain all of their counties."
- setting_agot_shatter_duchies_even:1 "Counties - Even"
- setting_agot_shatter_duchies_even_desc:0 "The world will only have up to county-level titles, and any extra counties are redistributed.\n@warning_icon! #X This setting may be #bold heavy#! on performance. Use at your own risk!#!"
- setting_agot_shatter_kingdoms:1 "Duchies"
- setting_agot_shatter_kingdoms_desc:0 "The world will only have up to duchy-level titles, kingdom and empire-tiered titles are destroyed."
- setting_agot_shatter_petty_kingdoms:1 "Petty Kingdoms"
- setting_agot_shatter_petty_kingdoms_desc:0 "The world will be shattered into all of the available Kingdom titles, including formable titles."
- setting_agot_shatter_empires:1 "Kingdoms"
- setting_agot_shatter_empires_desc:0 "Only existing empire-level titles will be destroyed."
-
- rule_agot_canon_dragons:0 "#R AGOT:#! Canon Dragons"
- setting_agot_canon_dragons_enabled:0 "Enabled"
- setting_agot_canon_dragons_enabled_desc:0 "If certain requirements are met, characters will hatch or tame their canonical dragons."
- setting_agot_canon_dragons_disabled:0 "Disabled"
- setting_agot_canon_dragons_disabled_desc:0 "Characters will hatch and tame random dragons."
-
- rule_agot_canon_children:0 "#R AGOT:#! Canon Children"
- setting_agot_canon_children_enabled:0 "Enabled"
- setting_agot_canon_children_enabled_desc:0 "If certain requirements are met, the parents of unborn canonical children will follow their canonical birth cycles."
- setting_agot_canon_children_disabled:0 "Disabled"
- setting_agot_canon_children_disabled_desc:0 "All characters will follow vanilla birth cycles."
-
- rule_agot_canon_children_traits:0 "#R AGOT:#! Canon Children (Traits)"
- setting_agot_canon_children_traits_enabled:0 "Enabled"
- setting_agot_canon_children_traits_enabled_desc:0 "Canon children will receive fitting traits."
- setting_agot_canon_children_traits_disabled:0 "Disabled"
- setting_agot_canon_children_traits_disabled_desc:0 "Canon children will receive random traits."
-
- rule_agot_canon_children_gender:0 "#R AGOT:#! Canon Children (Gender)"
- setting_agot_canon_children_gender_accurate:0 "Accurate"
- setting_agot_canon_children_gender_accurate_desc:0 "Canon children will be born with their canon gender."
- setting_agot_canon_children_gender_semi_accurate:0 "Semi-accurate"
- setting_agot_canon_children_gender_semi_accurate_desc:0 "Canon children will mostly be born with their canon gender (80% chance)."
- setting_agot_canon_children_gender_random:0 "Random"
- setting_agot_canon_children_gender_random_desc:0 "Canon children will be born with a random gender (50% chance)."
- setting_agot_canon_children_gender_opposite:0 "Opposite"
- setting_agot_canon_children_gender_opposite_desc:0 "Canon children will be born with the opposite gender."
-
- rule_agot_enhanced_marriage_ai:0 "#R AGOT:#! Enhanced Marriage AI"
- setting_agot_ema_disabled:0 "Disabled"
- setting_agot_ema_disabled_desc:0 "Enhanced marriage AI is disabled."
- setting_agot_ema_targ:0 "Targaryen Dynasty Only"
- setting_agot_ema_targ_desc:0 "AI Targaryens will preferentially marry siblings."
- setting_agot_ema_lps:0 "Lord Paramounts Only"
- setting_agot_ema_lps_desc:0 "AI Lord Paramounts will attempt to betroth their heirs to relatives of strong vassals."
- setting_agot_ema_lps_dukes:0 "LPs & High Lords"
- setting_agot_ema_lps_dukes_desc:0 "AI Lord Paramounts and duchy-level lords will attempt to betroth their heirs to relatives of vassals within their kingdom."
- setting_agot_ema_lps_targs:0 "Targaryens & LPs"
- setting_agot_ema_lps_targs_desc:0 "Targaryens and Lord Paramounts will use the enhanced marriage AI."
- setting_agot_ema_enabled:0 "Full"
- setting_agot_ema_enabled_desc:0 "All enhanced marriage AI options are enabled."
-
- rule_agot_dynastic_stablity:0 "#R AGOT:#! Dynastic Stability"
- setting_agot_dynastic_stablity_enabled:0 "Enabled"
- setting_agot_dynastic_stablity_enabled_desc:0 "[agot_dynastic_stability|E] is enabled."
- setting_agot_dynastic_stablity_disabled:0 "Disabled"
- setting_agot_dynastic_stablity_disabled_desc:0 "[agot_dynastic_stability|E] is disabled."
-
- rule_agot_strong_seed:0 "#R AGOT:#! Strong Seed"
- setting_agot_strong_seed_house:0 "House"
- setting_agot_strong_seed_house_desc:0 "Strong seed will always follow house inheritance when possible."
- setting_agot_strong_seed_house_stability:0 "House Stability"
- setting_agot_strong_seed_house_stability_desc:0 "Strong seed will always follow house inheritance when possible for first daughter and first son, additional children can inherit any possible strong seeds."
- setting_agot_strong_seed_default:0 "Mixed"
- setting_agot_strong_seed_default_desc:0 "If two parents have strong seed genes, child can inherit either."
- setting_agot_strong_seed_disabled:0 "Disabled"
- setting_agot_strong_seed_disabled_desc:0 "Strong seed inheritance is disabled."
-
- rule_agot_cadet:0 "#R AGOT:#! Cadet Creation"
- setting_agot_cadet_default:0 "Default"
- setting_agot_cadet_default_desc:0 "Default difficulty to create cadet branches."
- setting_agot_cadet_easier:0 "Easier"
- setting_agot_cadet_easier_desc:0 "Creating cadet branches will be easier."
- setting_agot_cadet_none:0 "Disabled"
- setting_agot_cadet_none_desc:0 "Characters will not be able to create cadet branches."
-
- rule_agot_bastard_cadets:0 "#R AGOT:#! Bastard Cadet Creation"
- setting_agot_bastard_cadets_landed_only:0 "Landed Only"
- setting_agot_bastard_cadets_landed_only_desc:0 "Only landed [bastards|E] will form [bastard_houses|E] upon having children."
- setting_agot_bastard_cadets_everyone:0 "Any"
- setting_agot_bastard_cadets_everyone_desc:0 "Any [bastard|E], landed or unlanded, will form a [bastard_house|E] upon having children. #N This can result in cadet bloat!#!"
-
- rule_agot_faegon_invasion:0 "#R AGOT:#! Targaryen Invasion & 6th Blackfyre Rebellion"
- rule_agot_faegon_claimant:0 "#R AGOT:#! Targaryen Invasion Claimant"
- setting_agot_faegon_enabled:"Enabled"
- setting_agot_faegon_disabled: "Disabled"
- setting_agot_faegon_blackfyre_only: "Blackfyre Rebellion Only"
- setting_agot_faegon_faegon_only: "Targaryen Invasion Only"
- setting_agot_faegon_enabled_desc: "Both Targaryen Invasion and Blackfyre Rebellion can occur when appropriate."
- setting_agot_faegon_disabled_desc: "Both Targaryen Invasion and Blackfyre Rebellion are disabled."
- setting_agot_faegon_blackfyre_only_desc: "Only Blackfyre Invasion can occur when appropriate."
- setting_agot_faegon_faegon_only_desc: "Only Targaryen Invasion can occur when appropriate."
-
- setting_agot_faegon_random_claimant: "Random"
- setting_agot_faegon_dany: "Daenerys"
- setting_agot_faegon_faegon: "Young Griff"
- setting_agot_faegon_viserys: "Viserys"
- setting_agot_faegon_jon: "Aemon"
- setting_agot_faegon_random_claimant_desc: "One of the possible claimants will be chosen to invade."
- setting_agot_faegon_dany_desc: "Daenerys 'Stormborn' will invade if she is a valid option."
- setting_agot_faegon_faegon_desc: "Aegon 'Young Griff' will invade if he is a valid option."
- setting_agot_faegon_viserys_desc: "Viserys 'the Beggar King' will invade if he is a valid option."
- setting_agot_faegon_jon_desc: "Aemon 'Dragonwolf' will invade if he is a valid option."
- rule_agot_faegon_heritage: "#R AGOT:#! Young Griff Heritage"
- setting_agot_faegon_random_heritage: "Random"
- setting_agot_faegon_blackfyre_heritage: "Blackfyre"
- setting_agot_faegon_rheagar_heritage: "Rhaegar"
- setting_agot_faegon_brightonion_heritage: "Brightflame"
- setting_agot_faegon_lyseni_heritage: "Lyseni"
- setting_agot_faegon_random_heritage_desc: "Young Griff will randomly select one of the possible heritages."
- setting_agot_faegon_blackfyre_heritage_desc: "Young Griff is a Blackfyre."
- setting_agot_faegon_rheagar_heritage_desc: "Young Griff is Rhaegar's son."
- setting_agot_faegon_brightonion_heritage_desc: "Young Griff is a descendant of Brightflame."
- setting_agot_faegon_lyseni_heritage_desc: "Young Griff is a Lyseni orphan."
-
- rule_agot_balding: "#R AGOT:#! Character Balding"
- setting_agot_vanilla_balding: "Default"
- setting_agot_vanilla_balding_desc: "Characters will bald at the same rate as the vanilla game."
- setting_agot_no_balding: "Never"
- setting_agot_no_balding_desc: "Male Characters will never become bald using the vanilla system."
-
- rule_agot_dragons: "#R AGOT:#! Dragon Hatching and Taming"
- setting_dragon_dragonblood_2_gen: "2nd Gen Dragonblood"
- setting_dragon_dragonblood_2_gen_desc: "Only those that have [dragonblood|E] within 2 generations will be able to hatch and tame [dragons|e]."
- setting_dragon_dragonblood_3_gen: "3rd Gen Dragonblood"
- setting_dragon_dragonblood_3_gen_desc: "Only those that have [dragonblood|E] within 3 generations will be able to hatch and tame [dragons|e]."
- setting_dragon_valyrian_2_gen: "2nd Gen Valyrian Dragonblood"
- setting_dragon_valyrian_2_gen_desc: "Valyrian cultural heritage counts as dragonblood. Only those that have [dragonblood|E] within 2 generations will be able to hatch and tame [dragons|e]."
- setting_dragon_valyrian_3_gen: "3rd Gen Valyrian Dragonblood"
- setting_dragon_valyrian_3_gen_desc: "Valyrian cultural heritage counts as dragonblood. Only those that have [dragonblood|E] within 3 generations will be able to hatch and tame [dragons|e]."
- setting_dragons_anyone: "Anyone"
- setting_dragons_anyone_desc: "Anyone can try to hatch and tame dragons."
-
- rule_agot_dragon_culling:0 "#R AGOT:#! Dragon Limit"
- setting_agot_dragon_culling_normal:0 "Default"
- setting_agot_dragon_culling_normal_desc:0 "Dragons will start being pruned above 27 living dragons."
- setting_agot_dragon_culling_high:0 "Raised Limit"
- setting_agot_dragon_culling_high_desc:0 "Dragons will start being pruned above 35 living dragons."
- setting_agot_no_dragon_culling:0 "Pseudo-Unlimited"
- setting_agot_no_dragon_culling_desc:0 "There will be no tangible limit on the amount of dragons.\n@warning_icon! #X This setting may be #bold heavy#! on performance. Use at your own risk!#!"
-
- rule_agot_silly:0 "#R AGOT:#! Silly Mode"
- setting_agot_silly_mode:0 "Silly"
- setting_agot_silly_mode_desc:0 "Expect shenanigans. For example, Cannibal will be up to his day one tomfoolery."
- setting_agot_no_silly:0 "Disabled"
- setting_agot_no_silly_desc:0 "Normal game balance."
-
-#Vanilla Add-Ons
- setting_epidemic_frequency_very_very_rare:0 "Extremely Rare"
- setting_epidemic_frequency_very_very_rare_desc:0 "Plagues will be extremely rare to appear and spread with much less frequency."
+  #Story Outcomes 
+ rule_agot_story_outcome: "#R AGOT:#! Lauf der Geschichte"
+ setting_agot_story_sandbox: "Sandkasten"
+ setting_agot_story_sandbox_desc: "Es werden nur wenige geskriptete Ereignisse auftreten."
+ setting_agot_story_random_events_random_outcomes: "Ungewisse Ereignisse, ungewisser Ausgang"
+ setting_agot_story_random_events_random_outcomes_desc: "Historische Ereignisse können, müssen aber nicht eintreten, und die Ergebnisse können, müssen aber nicht historisch sein."
+ setting_agot_story_historical_events_random_outcomes: "Historische Ereignisse, ungewisser Ausgang"
+ setting_agot_story_historical_events_random_outcomes_desc: "Historische Ereignisse werden auftreten, wenn sie relevant sind, und die Ergebnisse können, müssen aber nicht historisch sein."
+ setting_agot_story_historical_events_weighted_outcomes: "Historische Ereignisse, begünstigter Augang"
+ setting_agot_story_historical_events_weighted_outcomes_desc: "Historische Ereignisse werden auftreten, wenn sie relevant sind, und die Ergebnisse werden tendenziell historisch sein."
+ setting_agot_story_historical_events_historical_outcomes: "Historische Ereignisse, historischer Ausgang"
+ setting_agot_story_historical_events_historical_outcomes_desc: "Historische Ereignisse werden auftreten, wenn sie relevant sind, und die Ergebnisse werden, soweit möglich, historisch sein."
+  
+ rule_agot_coin_flip: "#R AGOT:#! Targaryen-Münzwurf"
+ setting_agot_coin_flip_enabled: "Aktiviert"
+ setting_agot_coin_flip_enabled_desc: "Targaryen-Münzwurf findet statt."
+ setting_agot_coin_flip_disabled: "Deaktiviert"
+ setting_agot_coin_flip_disabled_desc: "Targaryen-Münzwurf findet statt."
+  
+ rule_agot_hv_conversion: "#R AGOT:#! Hochvalyrische Konvertierung"
+ setting_agot_hv_conversion_disallowed: "Nicht zugelassen"
+ setting_agot_hv_conversion_disallowed_desc: "Charaktere und Regionen dürfen nicht zur hochvalyrischen Kultur konvertiert werden."
+ setting_agot_hv_conversion_offshoots: "Zweigkulturen"
+ setting_agot_hv_conversion_offshoots_desc: "Charaktere und Regionen können nur in Ableger der valyrischen Kultur umgewandelt werden. Hochvalyrische Charaktere werden Regionen und Charaktere zu Westerosi- oder Essosi-Valyrisch konvertieren, abhängig von der Lage."
+ setting_agot_hv_conversion_unrestricted: "Unbeschränkt"
+ setting_agot_hv_conversion_unrestricted_desc: "Charakteren und Regionen wird es erlaubt sein, in die hochvalyrische Kultur zu konvertieren."
+  
+ rule_agot_abdication: "#R AGOT:#! Abdankung"
+ setting_agot_abdication_enabled: "Deaktiviert"
+ setting_agot_abdication_enabled_desc: "Die Entscheidung, an Euren Erben abzudanken, ist aktiviert."
+ setting_agot_abdication_disabled: "Aktiviert"
+ setting_agot_abdication_disabled_desc: "Die Entscheidung, an Euren Erben abzudanken, ist deaktiviert."
+  
+ rule_agot_shattered_world: "#R AGOT:#! Zersplitterte Welt"
+ setting_agot_not_shattered: "Standard"
+ setting_agot_not_shattered_desc: "Die Welt bleibt intakt, die Titel bleiben so wie sie sind."
+ setting_agot_shatter_duchies: "Grafschaften"
+ setting_agot_shatter_duchies_desc: "In der Welt gibt es nur noch Titel bis zur Grafschaftsebene, aber die Lords behalten alle ihre Grafschaften."
+ setting_agot_shatter_duchies_even: "Grafschaften - Einzeln"
+ setting_agot_shatter_duchies_even_desc: "Die Welt wird nur bis zur Grafschaftsebene Titel haben, und alle zusätzlichen Grafschaften werden umverteilt.\n#R WARNING: DIESE EINSTELLUNG KANN DIE LEISTUNG BEEINTRÄCHTIGEN"
+ setting_agot_shatter_kingdoms: "Herzogtümer"
+ setting_agot_shatter_kingdoms_desc: "In der Welt wird es nur noch Titel bis zur Stufe Herzogtum geben, Titel auf der Stufe Königreich und Kaiserreich werden zerstört."
+ setting_agot_shatter_petty_kingdoms: "Petty Kingdoms" #NT!
+ setting_agot_shatter_petty_kingdoms_desc: "The world will be shattered into all of the available Kingdom titles, including formable titles." #NT!
+ setting_agot_shatter_empires: "Königreiche"
+ setting_agot_shatter_empires_desc: "Es werden nur bestehende Titel auf Reichsebene zerstört."
+  
+ rule_agot_canon_dragons: "#R AGOT:#! Canon Dragons" #NT!
+ setting_agot_canon_dragons_enabled: "Enabled" #NT!
+ setting_agot_canon_dragons_enabled_desc: "If certain requirements are met, characters will hatch or tame their canonical dragons." #NT!
+ setting_agot_canon_dragons_disabled: "Disabled" #NT!
+ setting_agot_canon_dragons_disabled_desc: "Characters will hatch and tame random dragons." #NT!
+  
+ rule_agot_canon_children: "#R AGOT:#! Canon Children" #NT!
+ setting_agot_canon_children_enabled: "Enabled" #NT!
+ setting_agot_canon_children_enabled_desc: "If certain requirements are met, the parents of unborn canonical children will follow their canonical birth cycles." #NT!
+ setting_agot_canon_children_disabled: "Disabled" #NT!
+ setting_agot_canon_children_disabled_desc: "All characters will follow vanilla birth cycles." #NT!
+  
+ rule_agot_canon_children_traits: "#R AGOT:#! Canon Children (Traits)" #NT!
+ setting_agot_canon_children_traits_enabled: "Enabled" #NT!
+ setting_agot_canon_children_traits_enabled_desc: "Canon children will receive fitting traits." #NT!
+ setting_agot_canon_children_traits_disabled: "Disabled" #NT!
+ setting_agot_canon_children_traits_disabled_desc: "Canon children will receive random traits." #NT!
+  
+ rule_agot_canon_children_gender: "#R AGOT:#! Canon Children (Gender)" #NT!
+ setting_agot_canon_children_gender_accurate: "Accurate" #NT!
+ setting_agot_canon_children_gender_accurate_desc: "Canon children will be born with their canon gender." #NT!
+ setting_agot_canon_children_gender_semi_accurate: "Semi-accurate" #NT!
+ setting_agot_canon_children_gender_semi_accurate_desc: "Canon children will mostly be born with their canon gender (80% chance)." #NT!
+ setting_agot_canon_children_gender_random: "Random" #NT!
+ setting_agot_canon_children_gender_random_desc: "Canon children will be born with a random gender (50% chance)." #NT!
+ setting_agot_canon_children_gender_opposite: "Opposite" #NT!
+ setting_agot_canon_children_gender_opposite_desc: "Canon children will be born with the opposite gender." #NT!
+  
+ rule_agot_enhanced_marriage_ai: "#R AGOT:#! Verbesserte Heirats-KI"
+ setting_agot_ema_disabled: "Deaktiviert"
+ setting_agot_ema_disabled_desc: "Verbesserte Heirats-KI ist deaktiviert."
+ setting_agot_ema_targ: "Nur Targaryen-Dynastie"
+ setting_agot_ema_targ_desc: "KI-Targaryen werden bevorzugt Geschwister heiraten."
+ setting_agot_ema_lps: "Nur Oberste Lehnsherren"
+ setting_agot_ema_lps_desc: "Oberste Lehnsherren (Lord Paramounts) der KI werden versuchen, ihre Erben mit Verwandten von starken Vasallen zu verloben."
+ setting_agot_ema_lps_dukes: "Oberste Lehnsherren & Hochlords"
+ setting_agot_ema_lps_dukes_desc: "Oberste Lehnsherren (Lord Paramounts) und Lords auf Herzogtumsebene der KI werden versuchen, ihre Erben mit Verwandten von Vasallen innerhalb ihres Reiches zu verloben."
+ setting_agot_ema_lps_targs: "Targaryen & Oberste Lehnsherren "
+ setting_agot_ema_lps_targs_desc: "Targaryen und Oberste Lehnsherren (Lord Paramounts) werden die verbesserte Heirats-KI verwenden."
+ setting_agot_ema_enabled: "Vollständig"
+ setting_agot_ema_enabled_desc: "Alle erweiterten Heirats-KI-Optionen sind aktiviert."
+  
+ rule_agot_dynastic_stability: "#R AGOT:#! Dynastic Stability" #NT!
+ setting_agot_dynastic_stability_enabled: "Enabled" #NT!
+ setting_agot_dynastic_stability_enabled_desc: "[agot_dynastic_stability|E] is enabled." #NT!
+ setting_agot_dynastic_stability_disabled: "Disabled" #NT!
+ setting_agot_dynastic_stability_disabled_desc: "[agot_dynastic_stability|E] is disabled." #NT!
+  
+ rule_agot_strong_seed: "#R AGOT:#! Starke Saat"
+ setting_agot_strong_seed_house: "Haus"
+ setting_agot_strong_seed_house_desc: "Starke Saat wird, wenn möglich, immer dem Hauserben folgen."
+ setting_agot_strong_seed_house_stability: "House Stability" #NT!
+ setting_agot_strong_seed_house_stability_desc: "Strong seed will always follow house inheritance when possible for first daughter and first son, additional children can inherit any possible strong seeds." #NT!
+ setting_agot_strong_seed_default: "Standard"
+ setting_agot_strong_seed_default_desc: "Wenn zwei Elternteile starke Saat haben, kann das Kind beides erben."
+ setting_agot_strong_seed_disabled: "Deaktiviert"
+ setting_agot_strong_seed_disabled_desc: "Die Vererbung starker Saat ist deaktiviert."
+  
+ rule_agot_cadet: "#R AGOT:#! Gründung von Nebenlinien"
+ setting_agot_cadet_default: "Standard"
+ setting_agot_cadet_default_desc: "Standardschwierigkeit bei der Erstellung von Nebenlinien."
+ setting_agot_cadet_easier: "Einfacher"
+ setting_agot_cadet_easier_desc: "Die Gründung von Nebenlinien wird einfacher sein."
+ setting_agot_cadet_none: "Deaktiviert"
+ setting_agot_cadet_none_desc: "Die Charaktere können keine Nebenlinien erstellen."
+  
+ rule_agot_bastard_cadets: "#R AGOT:#! Gründung von Bastardlinien"
+ setting_agot_bastard_cadets_landed_only: "Nur Landbesitzende"
+ setting_agot_bastard_cadets_landed_only_desc: "Nur landbesitzende [bastards|E] werden [bastard_houses|E] bilden, wenn sie Kinder haben."
+ setting_agot_bastard_cadets_everyone: "Alle"
+ setting_agot_bastard_cadets_everyone_desc: "Jeder [bastard|E], ob mit oder ohne Land, wird ein [bastard_house|E] bilden, wenn er Kinder bekommt. #N Dies kann zu einer Aufblähung der Nebenlinien führen!#!"
+  
+ rule_agot_targaryen_exile_invasion: "#R AGOT:#! Targaryen Exile Invasion" #NT!
+ setting_agot_targaryen_exile_invasion_special_content: "Scripted Story Content" #NT!
+ setting_agot_targaryen_exile_invasion_special_content_desc: "The Targaryen Exiles will receive scripted story content that will culminate in their invasion of Westeros. #N They will experience buffs related to legitimist interactions, dragons, and military content.#!" #NT!
+ setting_agot_targaryen_exile_invasion_nothing: "No Scripted Story Content" #NT!
+ setting_agot_targaryen_exile_invasion_nothing_desc: "The Targaryen Exiles will #N not#! receive any scripted content. They will exist as ordinary characters on the map — #N subject to the same rules as everyone else.#!" #NT!
+  
+ rule_agot_faegon_invasion: "#R AGOT:#! Targaryen-Invasion & 6. Schwarzfeuer-Rebellion"
+ setting_agot_faegon_invasion_enabled: "Enabled" #NT!
+ setting_agot_faegon_invasion_enabled_desc: "Aegon of Essos will invade Westeros in or around 298 AC in non-shattered games started in 282 or later." #NT!
+ setting_agot_faegon_invasion_disabled: "Disabled" #NT!
+ setting_agot_faegon_invasion_disabled_desc: "Aegon of Essos will #N NOT#! invade Westeros." #NT!
+  
+ rule_agot_faegon_identity: "#R AGOT:#! fAegon Identity" #NT!
+ setting_agot_faegon_identity_default: "Default" #NT!
+ setting_agot_faegon_identity_open_blackfyre: "Open Blackfyre" #NT!
+ setting_agot_faegon_identity_default_desc: "Aegon's identity will be determined based on the conditions in which he spawns." #NT!
+ setting_agot_faegon_identity_open_blackfyre_desc: "Aegon will be a member of House Blackfyre." #NT!
+  
+ rule_agot_balding: "#R AGOT:#! Character Balding" #NT!
+ setting_agot_vanilla_balding: "Default" #NT!
+ setting_agot_vanilla_balding_desc: "Characters will bald at the same rate as the vanilla game." #NT!
+ setting_agot_no_balding: "Never" #NT!
+ setting_agot_no_balding_desc: "Male Characters will never become bald using the vanilla system." #NT!
+  
+ rule_agot_dragons: "#R AGOT:#! Dragon Hatching and Taming" #NT!
+ setting_dragon_dragonblood_2_gen: "2nd Gen Dragonblood" #NT!
+ setting_dragon_dragonblood_2_gen_desc: "Only those that have [dragonblood|E] within 2 generations will be able to hatch and tame [dragons_plural|e]." #NT!
+ setting_dragon_dragonblood_3_gen: "3rd Gen Dragonblood" #NT!
+ setting_dragon_dragonblood_3_gen_desc: "Only those that have [dragonblood|E] within 3 generations will be able to hatch and tame [dragons_plural|e]." #NT!
+ setting_dragon_valyrian_2_gen: "2nd Gen Valyrian Dragonblood" #NT!
+ setting_dragon_valyrian_2_gen_desc: "Valyrian cultural heritage counts as dragonblood. Only those that have [dragonblood|E] within 2 generations will be able to hatch and tame [dragons_plural|e]." #NT!
+ setting_dragon_valyrian_3_gen: "3rd Gen Valyrian Dragonblood" #NT!
+ setting_dragon_valyrian_3_gen_desc: "Valyrian cultural heritage counts as dragonblood. Only those that have [dragonblood|E] within 3 generations will be able to hatch and tame [dragons_plural|e]." #NT!
+ setting_dragons_anyone: "Anyone" #NT!
+ setting_dragons_anyone_desc: "Anyone can try to hatch and tame dragons." #NT!
+  
+ rule_agot_dragon_culling: "#R AGOT:#! Dragon Limit" #NT!
+ setting_agot_dragon_culling_normal: "Default" #NT!
+ setting_agot_dragon_culling_normal_desc: "Dragons will start being pruned above 27 living dragons." #NT!
+ setting_agot_dragon_culling_high: "Raised Limit" #NT!
+ setting_agot_dragon_culling_high_desc: "Dragons will start being pruned above 35 living dragons." #NT!
+ setting_agot_no_dragon_culling: "Pseudo-Unlimited" #NT!
+ setting_agot_no_dragon_culling_desc: "There will be no tangible limit on the amount of dragons.\n@warning_icon! #X This setting may be #bold heavy#! on performance. Use at your own risk!#!" #NT!
+  
+ rule_agot_silly: "#R AGOT:#! Silly Mode" #NT!
+ setting_agot_silly_mode: "Silly" #NT!
+ setting_agot_silly_mode_desc: "Expect shenanigans. For example, Cannibal will be up to his day one tomfoolery." #NT!
+ setting_agot_no_silly: "Disabled" #NT!
+ setting_agot_no_silly_desc: "Normal game balance." #NT!
+  
+ #Vanilla Add-Ons 
+ setting_epidemic_frequency_very_very_rare: "Extremely Rare" #NT!
+ setting_epidemic_frequency_very_very_rare_desc: "Plagues will be extremely rare to appear and spread with much less frequency." #NT!

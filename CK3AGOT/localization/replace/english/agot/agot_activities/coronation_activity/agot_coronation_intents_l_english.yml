@@ -1,6 +1,6 @@
 ﻿l_english:
 
- promote_rule_intent:0 "Promote Rule" 
+ promote_rule_intent:0 "Promote Rule"
  promote_rule_intent_desc:0 "You intend to use your coronation as a means to promote your [legitimacy|E] and improve the [opinions|E] of your [vassals|E]."
 
  raise_dynasty_prestige_intent:0 "Raise Dynasty Prestige"
