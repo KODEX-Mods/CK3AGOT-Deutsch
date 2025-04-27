@@ -1,18 +1,18 @@
 ﻿l_german:
-  
- promote_rule_intent: "Promote Rule" #NT!
- promote_rule_intent_desc: "You intend to use your coronation as a means to promote your [legitimacy|E] and improve the [opinions|E] of your [vassals|E]." #NT!
-  
- raise_dynasty_prestige_intent: "Raise Dynasty Prestige" #NT!
- raise_dynasty_prestige_intent_desc: "You intend to use this gathering as a means to promote your [dynasty|E]'s reputation and increase [dynasty_prestige|E]." #NT!
- raise_dynasty_prestige_intent_not_valid_desc: "You are not a House Head." #NT!
-  
- legitimize_bastard_intent: "Seek Bastard Legitimization" #NT!
- legitimize_bastard_intent_desc: "You intend to use this gathering as a means to legitimize a [bastard|E] of your [house|E] via royal decree." #NT!
-  
- sabotage_coronation_intent: "Sabotage Coronation" #NT!
- sabotage_coronation_intent_desc: "You will seek to do everything and anything to ruin the occassion. By your hand, anything that could go wrong will go wrong." #NT!
-  
- vie_for_council_seat_intent: "Vie For Small Council Seat" #NT!
- vie_for_council_seat_intent_desc: "Your sole focus is to gain a seat on the Small [council|E]—no matter what the cost.\n@alert_icon! #alert_trial If successful, the [activity_host|E] will become your direct liege if you are not already their direct vassal#!" #NT!
- council_iron_throne_not_valid_desc: "You are already a member of the small council." #NT!
+
+ promote_rule_intent: "Herrschaft fördern"
+ promote_rule_intent_desc: "Ihr beabsichtigt, Eure Krönung als Mittel zu nutzen, um Eure [legitimacy|E] zu fördern und die [opinion|E] Eurer [vassals|E] zu verbessern."
+
+ raise_dynasty_prestige_intent: "Dynastie-Prestige erhöhen"
+ raise_dynasty_prestige_intent_desc: "Ihr beabsichtigt, diese Versammlung zu nutzen, um den Ruf Eurer [dynasty|E] zu fördern und das [dynasty_prestige|E] zu erhöhen."
+ raise_dynasty_prestige_intent_not_valid_desc: "Ihr seid kein Hausoberhaupt."
+
+ legitimize_bastard_intent: "Bastard-Legitimierung anstreben"
+ legitimize_bastard_intent_desc: "Ihr beabsichtigt, diese Versammlung zu nutzen, um einen [bastard|E] Eures [house|E]es durch königlichen Erlass zu legitimieren."
+
+ sabotage_coronation_intent: "Krönung sabotieren"
+ sabotage_coronation_intent_desc: "Ihr werdet alles in Eurer Macht stehende tun, um den Anlass zu ruinieren. Durch Eure Hand wird alles schiefgehen, was schiefgehen kann."
+
+ vie_for_council_seat_intent: "Nach einem Sitz im Kleinen Rat streben"
+ vie_for_council_seat_intent_desc: "Euer einziges Ziel ist es, einen Sitz im Kleinen [council|E] zu erlangen — koste es, was es wolle.\n@alert_icon! #alert_trial Bei Erfolg wird der [activity_host|E] Euer direkter Lehnsherr, falls Ihr nicht bereits dessen direkter Vasall seid#!"
+ council_iron_throne_not_valid_desc: "Ihr seid bereits ein Mitglied des Kleinen Rates."
