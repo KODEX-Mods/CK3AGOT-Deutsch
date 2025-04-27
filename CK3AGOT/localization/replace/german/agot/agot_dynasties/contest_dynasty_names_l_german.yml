@@ -1,24 +1,23 @@
 ﻿l_german:
- #übersetzt von Dillo
- #Royal Progress Contest Winners
- dynn_Loreley:0 "Loreley"
- dynn_Covenne:0 "Kovenn"
- dynn_Clyffhoof:0 "Klypphuf"
- dynn_Tetting:0 "Tetting"
- dynn_Ashtyde:0 "Aschflut"
- dynn_Whitebow:0 "Weißbogen"
- dynn_Redsteel:0 "Rotstahl"
- dynn_Moil:0 "Schint"
- dynn_Dunkel:0 "Dunkel"
- dynn_Whitewood:0 "Weißholz"
- dynn_Dule:0 "Dull"
- dynn_Rennock:0 "Rennock"
- dynn_Moonfell:0 "Mondfell"
- dynn_Rust:0 "Rost"
- dynn_Voyald:0 "Voyald"
-
-
- #Elden Ring
- dynn_Carian:0 "Carian"
- dynn_Erdtree:0 "Erdenbaum"
- dynn_Loux:0 "Loux"
+  #Royal Progress Contest Winners 
+ dynn_Loreley: "Loreley"
+ dynn_Covenne: "Kovenn"
+ dynn_Clyffhoof: "Klyppenhuf"
+ dynn_Tetting: "Tetting"
+ dynn_Ashtyde: "Aschflut"
+ dynn_Whitebow: "Weißbogen"
+ dynn_Redsteel: "Rotstahl"
+ dynn_Moil: "Schint"
+ dynn_Dunkel: "Dunkel"
+ dynn_Whitewood: "Weißholz"
+ dynn_Dule: "Dull"
+ dynn_Rennock: "Rennock"
+ dynn_Moonfell: "Mondfell"
+ dynn_Rust: "Rost"
+ dynn_Voyald: "Voyald"
+  
+  
+  #Elden Ring 
+ dynn_Carian: "Carian"
+ dynn_Erdtree: "Erdenbaum"
+ dynn_Loux: "Loux"

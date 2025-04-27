@@ -1,0 +1,136 @@
+﻿l_german:
+  ############################################################################## 
+  ###                              HEALING FLAMES                            ### 
+  ############################################################################## 
+  
+  # Seek healing from Red Priest character interaction event 
+ agot_rhllor.0001.t: "The Last Hope" #NT!
+ agot_rhllor.0001.multiple.desc: "Pain consumes me. My body is failing, torn and weakened by wounds that refuse to mend and sickness that festers deep within. I have tried every remedy, every desperate hope, yet my strength only wanes.\n\nThere is but one path left, one final chance before all is lost. The red priest speaks of fire, of the cleansing light that can burn away suffering. [red_priest.GetHerHis|U] words are bold, [red_priest.GetHerHis] faith unshaken. [red_priest.GetSheHe|U] claims the flames will heal what no mortal hands can mend.\n\nI do not know if I believe in [red_priest.GetHerHis] god, but I know I cannot endure this much longer." #NT!
+ agot_rhllor.0001.wound.desc: "The wound festers, red and swollen, refusing to close no matter how it is tended. Every movement sends fresh agony through my body, a reminder of my own frailty.\n\nThere are few choices left to me. The red priest claims [red_priest.GetHerHis] fire can do what no blade or salve has managed. [red_priest.GetSheHe|U] says the flame purges weakness, that it can seal flesh and burn away the rot.\n\nPerhaps [red_priest.GetSheHe] is right. Perhaps [red_priest.GetSheHe] is mad. But if nothing is done, I will not live long enough to question [red_priest.GetHerHim]." #NT!
+ agot_rhllor.0001.disease.desc: "I feel my strength slipping away, stolen by unseen hands. Each breath is a struggle, each day heavier than the last. The sickness lingers, unmoved by the remedies I have tried, uncaring of my will to fight.\n\nThe red priest speaks of fire, of the cleansing power that can burn away affliction. [red_priest.GetSheHe|U] swears that the flames do not lie, that they do not falter. If [red_priest.GetSheHe] is right, then this is my only chance.\n\nIf [red_priest.GetSheHe] is wrong, I will not have long to regret it." #NT!
+ agot_rhllor.0001.deadly_curse.desc: "I feel myself slipping further with each passing day. This is not a wound that can heal, nor a sickness that will run its course. It is something deeper, something cruel and unrelenting.\n\nThere are those who say such afflictions cannot be undone, that they are simply fate, a burden that cannot be lifted. But the red priest does not believe in fate. [red_priest.GetSheHe|U] believes in fire. [red_priest.GetSheHe|U] claims that even the worst of curses can be burned away.\n\nPerhaps it is madness. Perhaps it is my only hope." #NT!
+ agot_rhllor.0001.a: "If the fire can save me, then let it burn." #NT!
+ agot_rhllor.0001.b: "I have changed my mind." #NT!
+  
+  # Red Priest considers 
+ agot_rhllor.0002.t: "Flames of Judgment" #NT!
+ agot_rhllor.0002.desc: "[patient.GetTitledFirstName] approaches, [patient.GetHerHis] steps heavy with suffering. I see the toll upon [patient.GetHerHis] body — wounds that refuse to mend, sickness that gnaws at [patient.GetHerHis] strength, a shadow of death creeping ever closer. [patient.GetSheHe|U] does not come to me as a believer, but as a desperate [Select_CString(patient.IsFemale,'woman','man')] grasping for salvation where no other remains.\n\nFire can cleanse. Fire can heal. But fire is not gentle. The Lord of Light does not grant his gifts freely — there is always a price. The question is whether [patient.GetTitledFirstNameNoTooltip] is worthy of his mercy… or if [red_priest.GetSheHe] will burn in the attempt." #NT!
+ agot_rhllor.0002.a: "R'hllor's light shall cleanse you." #NT!
+ agot_rhllor.0002.b: "If you would walk in the fire, then you must first embrace its truth." #NT!
+ agot_rhllor.0002.b.tt: "You ask [patient.GetTitledFirstName] to convert to your faith" #NT!
+ agot_rhllor.0002.c: "The flames are not for you." #NT!
+  
+  # Red Priest helps me 
+ agot_rhllor.0003.title: "A Prayer in Fire" #NT!
+ agot_rhllor.0003.desc: "The red priest begins [red_priest.GetHerHis] ritual, murmuring sacred words as the flames rise higher, casting flickering shadows across the chamber. The heat swells, pressing against my skin — not just warmth, but something deeper, something alive.\n\n[red_priest.GetSheHe|U] speaks of R'hllor's light, of fire's power to cleanse and restore. But fire does not heal all things at once. I must choose which affliction I will entrust to [red_priest.GetHerHis] god's mercy." #NT!
+ agot_rhllor.0003.a: "Please, heal my wounds!" #NT!
+ agot_rhllor.0003.b: "I am weary — give me strength!" #NT!
+ agot_rhllor.0003.c: "Burn away this cursed sickness!" #NT!
+ agot_rhllor.0003.d: "Rid me of this affliction before it worsens!" #NT!
+ agot_rhllor.0003.e: "Rid me of this affliction before it worsens!" #NT!
+ agot_rhllor.0003.f: "I will not waste away — save me!" #NT!
+ agot_rhllor.0003.g: "Strengthen my body, drive away this weakness!" #NT!
+ agot_rhllor.0003.h: "The pain in my joints is unbearable!" #NT!
+ agot_rhllor.0003.i: "Let me draw breath without struggle!" #NT!
+ agot_rhllor.0003.j: "Purge this growing shadow within me!" #NT!
+ agot_rhllor.0003.k: "Spare me from this fever's grip!" #NT!
+ agot_rhllor.0003.l: "Let me outlive this plague!" #NT!
+ agot_rhllor.0003.m: "Clear my skin, let me be whole again!" #NT!
+ agot_rhllor.0003.n: "Banish these curse from my flesh!" #NT!
+ agot_rhllor.0003.o: "Still the pain in my belly, I beg you!" #NT!
+ agot_rhllor.0003.p: "Stop this curse, set me free!" #NT!
+ agot_rhllor.0003.q: "I need air! Let me breathe again!" #NT!
+ agot_rhllor.0003.r: "Burn away this creeping stone!" #NT!
+ agot_rhllor.0003.s: "Save me before the sickness takes hold!" #NT!
+ agot_rhllor.0003.t: "Still my shivering, grant me warmth!" #NT!
+ agot_rhllor.0003.u: "I want to walk again!" #NT!
+  
+  # Red Priest helps me if I convert 
+ agot_rhllor.0004.t: "The Price of Salvation" #NT!
+ agot_rhllor.0004.desc: "The red priest does not move to begin [red_priest.GetHerHis] ritual. Instead, [red_priest.GetSheHe] looks at me with unwavering conviction, [red_priest.GetHerHis] voice firm as [red_priest.GetSheHe] speaks.\n\n#EMP "The fire can cleanse. The fire can heal. But why should R'hllor grant his gifts to one who does not walk in his light?" #!\n\n[red_priest.GetSheHe|U] will not help me — not yet. Not unless I renounce my old gods, my old ways, and swear myself to the Lord of Light. My suffering can end, but only if I kneel before [red_priest.GetHerHis] flame." #NT!
+ agot_rhllor.0004.a: "I swear it! Just heal me!" #NT!
+ agot_rhllor.0004.b: "No, it's not worth it." #NT!
+  
+  # Red Priest won't help me 
+ agot_rhllor.0005.t: "Forsaken by the Flame" #NT!
+ agot_rhllor.0005.desc: "The red priest looks upon me, [red_priest.GetHerHis] expression unreadable. I wait for [red_priest.GetHerHim] to begin the ritual, for the whispered prayers, the rising heat of the flames — but none of it comes.\n\n#EMP "The Lord of Light gives his blessings where he wills. You are not chosen." #!\n\n[red_priest.GetHerHis|U] words are final, [red_priest.GetHerHis] tone unwavering. [red_priest.GetSheHe|U] will not heal me. Whether it is doubt, disdain, or something beyond my understanding, I do not know. But [red_priest.GetSheHe] has turned me away, leaving me to suffer as I was before." #NT!
+ agot_rhllor.0005.a: "Then so be it." #NT!
+ agot_rhllor.0005.b: "Throw this heretic in the dungeon!" #NT!
+  
+  # Liege refused to convert 
+ agot_rhllor.0006.t: "A Fool's Folly" #NT!
+ agot_rhllor.0006.desc: "The fool turns away from the light, clinging to [patient.GetHerHis] false gods, [patient.GetHerHis] empty faith. [patient.GetSheHe|U] would rather suffer than kneel before the truth of the fire.\n\nI have seen [Select_CString(patient.IsFemale,'women','men')] like [patient.GetHerHim] before — proud, stubborn, blind to the will of R'hllor. Some linger in their misery, withering like dying embers. Others are consumed entirely, their bodies breaking under the weight of their own defiance.\n\nR'hllor's mercy was offered, and it was refused. Now, only the flames know what fate awaits [patient.GetHerHim]." #NT!
+ agot_rhllor.0006.a: "So be it. [patient.GetSheHe|U] has made [patient.GetHerHis] choice." #NT!
+ agot_rhllor.0006.b: "[patient.GetSheHe|U] will regret this." #NT!
+  
+  # Full Success/Partial Success/Failure Outcomes 
+ agot_rhllor.0007.t.success: "The Fire's Mercy" #NT!
+ agot_rhllor.0007.t.failure: "The Fire's Judgment" #NT!
+  
+ agot_rhllor.0007.patient.fail.desc: "The flames roared, the priest chanted, but nothing changed. I felt the heat, the weight of expectation, yet my body remained as it was — afflicted, weak. Was this R'hllor's judgment, or the priest's failure?" #NT!
+ agot_rhllor.0007.patient.crit_fail.desc: "Pain like nothing I've ever known surged through me. The fire, meant to cleanse, instead ravaged my flesh, leaving me trembling, broken. The red priest's expression did not change, as though [red_priest.GetSheHe] had expected this. Had R'hllor truly abandoned me?" #NT!
+ agot_rhllor.0007.patient.succ.desc: "The fire licked at my skin, but instead of pain, I felt warmth — deep, consuming, but not cruel. Slowly, my suffering lessened, my strength returned. I was still me, but whole again. The red priest watched in silence, [red_priest.GetHerHis] gaze unreadable." #NT!
+ agot_rhllor.0007.patient.crit_succ.desc: "It was more than healing. The fire coursed through me, filling my limbs with renewed strength, sharpening my senses. I felt lighter, stronger, as if something greater than mere flesh had been restored. The priest studied me, [red_priest.GetHerHis] lips forming silent words of prayer." #NT!
+ agot_rhllor.0007.red_priest.fail.desc: "The flames burned high, but the light did not answer. I felt the heat, I whispered the prayers, but the body before me remained unchanged. Was this soul unworthy, or had I misread the fire's will?" #NT!
+ agot_rhllor.0007.red_priest.crit_fail.desc: "A warning. A punishment. The flames surged too fiercely, and before I could stop it, I saw the searing pain take hold. The ritual had failed, but more than that — the fire had devoured instead of cleansed. R'hllor had spoken, and his judgment was cruel." #NT!
+ agot_rhllor.0007.red_priest.succ.desc: "The fire answered. Slowly, the affliction faded, the wounds mended, the suffering lifted. This was no ordinary healing — this was the will of the Lord of Light, and today, [patient.GetSheHe] had seen fit to grant mercy." #NT!
+ agot_rhllor.0007.red_priest.crit_succ.desc: "I watched as the flames did more than heal — they transformed. The strength that filled this body was not just flesh restored, but something more, something divine. R'hllor had blessed them beyond mere recovery. Perhaps this one was truly chosen." #NT!
+  
+ agot_rhllor.0007.patient.fail.outro_desc: "\n\nThe fire fades, and I remain as I was. Weak. Broken. Whatever the red priest had hoped to summon did not come. Perhaps the flames do not answer all who call upon them." #NT!
+ agot_rhllor.0007.patient.crit_fail.outro_desc: "\n\nPain lanced through me, fire gnawing at my skin. This was no healing — this was ruin. I staggered, gasping, my body weaker than before. Had I angered [red_priest.GetHerHis] god, or had [red_priest.GetSheHe]?" #NT!
+ agot_rhllor.0007.patient.succ.outro_desc: "\n\nThe flames recede, and I breathe easier. The ache is gone, the sickness faded. I am whole again. The priest nods, as if this was always certain." #NT!
+ agot_rhllor.0007.patient.crit_succ.outro_desc: "\n\nStrength surges through me, beyond anything I have known. The fire did not just heal — it has made me more. The red priest watches, [red_priest.GetHerHis] eyes burning with something deeper than faith." #NT!
+ agot_rhllor.0007.red_priest.fail.outro_desc: "\n\nThe embers die, and the affliction lingers. The fire was silent. This soul was not chosen — or perhaps I was not worthy to invoke its light." #NT!
+ agot_rhllor.0007.red_priest.crit_fail.outro_desc: "\n\nThe flames did not cleanse. They devoured. I watch as the body convulses, the mark of fire seared into flesh. R'hllor has turned away from them — or worse, condemned them." #NT!
+ agot_rhllor.0007.red_priest.succ.outro_desc: "\n\nThe Lord of Light has answered. The affliction is gone, the fire's mercy granted. Today, the flame has healed." #NT!
+ agot_rhllor.0007.red_priest.crit_succ.outro_desc: "\n\nThis was no mere healing. R'hllor's hand touched them, reforging them in his fire. They are not just whole again — they are something greater." #NT!
+  
+ agot_rhllor.0007.patient.succ_wounds.outro_desc: "\n\nThe pain has faded. My flesh, once torn and raw, is now sealed, leaving only the memory of the wound. The fire has mended what steel could not." #NT!
+ agot_rhllor.0007.patient.succ_disease.outro_desc: "\n\nI take a deep breath, and for the first time in weeks, my body does not resist. The sickness is gone, its grip on me broken. I am whole again." #NT!
+ agot_rhllor.0007.patient.succ_curse.outro_desc: "\n\nThe burden I carried for so long has lightened. My limbs do not tremble, my breath no longer catches. Perhaps I will never be as I once was, but today, I walk in the light." #NT!
+ agot_rhllor.0007.patient.crit_succ_wounds.outro_desc: "\n\nNot only have my wounds closed, but my body feels stronger, faster — like I have been reforged, hardened in the fire's embrace. Whatever I was before, I am more now." #NT!
+ agot_rhllor.0007.patient.crit_succ_disease.outro_desc: "\n\nThe fire has done more than purge my sickness — it has awakened something within me. My limbs no longer ache, my mind no longer clouds. I feel alive, as if the disease had been leeching my strength for years, and only now do I stand as I was meant to be." #NT!
+ agot_rhllor.0007.patient.crit_succ_curse.outro_desc: "\n\nI rise, feeling not just healed, but whole in a way I had long forgotten. My breath is steady, my body firm. The fire did not merely cure me — it has blessed me with a new strength." #NT!
+ agot_rhllor.0007.patient.fail_wounds.outro_desc: "\n\nThe flames have dimmed, yet my wounds remain. I feel no different, save for the warmth lingering on my skin. The priest's prayers fell upon deaf ears." #NT!
+ agot_rhllor.0007.patient.fail_disease.outro_desc: "\n\nI wait, my chest tight with expectation. But the sickness does not leave me. My limbs are still heavy, my body still feeble. The fire did not answer." #NT!
+ agot_rhllor.0007.patient.fail_curse.outro_desc: "\n\nMy limbs tremble as I stand, no stronger than before. The weight I had hoped to shed still clings to me. Perhaps even fire cannot burn away this curse." #NT!
+ agot_rhllor.0007.patient.crit_fail_wounds.outro_desc: "\n\nA searing pain shoots through my limbs. I stagger, gasping, as the fire licks at my flesh — not to mend, but to mar. The ritual did not heal me — it has left me more broken than before." #NT!
+ agot_rhllor.0007.patient.crit_fail_disease.outro_desc: "\n\nHeat spreads through my veins, but not the relief I had prayed for. My vision darkens, my body shudders violently. The fire has failed me. No — it has betrayed me." #NT!
+ agot_rhllor.0007.patient.crit_fail_curse.outro_desc: "\n\nMy chest tightens, my limbs seize. This was no blessing. The flames have marked me, leaving me worse than I was before. Perhaps the priest was wrong. Or perhaps R'hllor has judged me unworthy." #NT!
+  
+ agot_rhllor.0007.red_priest.succ_wounds.outro_desc: "\n\nThe wounds close, the flesh mends. The fire has done its work, sealing the body as it does steel. This was the Lord of Light's will." #NT!
+ agot_rhllor.0007.red_priest.succ_disease.outro_desc: "\n\nI watch as the sickness leaves them, as their breath steadies, their color returns. The fire has answered. The affliction is no more." #NT!
+ agot_rhllor.0007.red_priest.succ_curse.outro_desc: "\n\nNot all burdens can be lifted, but today, the fire has eased one. They stand, steadier than before. It is not a miracle, but it is enough." #NT!
+ agot_rhllor.0007.red_priest.crit_succ_wounds.outro_desc: "\n\nThis was no mere healing. The fire has strengthened them, reforged them as steel in the forge. They are not just whole — they are more." #NT!
+ agot_rhllor.0007.red_priest.crit_succ_disease.outro_desc: "\n\nI have seen many recover, but this is different. The affliction has not just been burned away — the body has been renewed, given more than it had before." #NT!
+ agot_rhllor.0007.red_priest.crit_succ_curse.outro_desc: "\n\nR'hllor has done more than grant mercy — he has reforged this one in his flames. They rise, stronger than before. The fire has chosen them." #NT!
+ agot_rhllor.0007.red_priest.fail_wounds.outro_desc: "\n\nThe fire was silent. The wounds remain. Whether it is a test or a judgment, I cannot say." #NT!
+ agot_rhllor.0007.red_priest.fail_disease.outro_desc: "\n\nThe sickness lingers, unmoved by the flames. Not all who seek salvation will find it." #NT!
+ agot_rhllor.0007.red_priest.fail_curse.outro_desc: "\n\nThe burden remains. Perhaps even fire cannot burn away this fate." #NT!
+ agot_rhllor.0007.red_priest.crit_fail_wounds.outro_desc: "\n\nThe flames did not mend. They devoured. I see the seared flesh, the pain etched upon their face. The fire did not answer with mercy today." #NT!
+ agot_rhllor.0007.red_priest.crit_fail_disease.outro_desc: "\n\nThey convulse, their body wracked with agony. The fire has not purged the sickness — it has worsened it." #NT!
+ agot_rhllor.0007.red_priest.crit_fail_curse.outro_desc: "\n\nA cruel judgment. The affliction does not fade — it deepens, as though the fire itself has cursed them further." #NT!
+  
+ agot_rhllor.0007.a.patient.success: "The fire has healed me. I owe you my thanks." #NT!
+ agot_rhllor.0007.a.patient.crit_success: "I feel stronger than ever. This was no ordinary healing." #NT!
+ agot_rhllor.0007.a.patient.failure: "The flames did nothing. Perhaps this was a fool's hope." #NT!
+ agot_rhllor.0007.a.patient.crit_failure: "You promised healing, but the fire only brought me pain!" #NT!
+ agot_rhllor.0007.a.red_priest.success: "The Lord of Light has granted you his mercy today. Use it wisely." #NT!
+ agot_rhllor.0007.a.red_priest.crit_success: "The fire has not just healed you — it has reforged you. You are stronger now than before." #NT!
+ agot_rhllor.0007.a.red_priest.failure: "Not all who seek the light will find it. Perhaps this is a test, not a judgment." #NT!
+ agot_rhllor.0007.a.red_priest.crit_failure: "The flames did not grant their mercy… They have spoken, and their will is final." #NT!
+ agot_rhllor.0007.b: "The fire has saved me… I see its truth now. I will walk in R'hllor's light." #NT!
+ agot_rhllor.0007.c: "This was no healing — this was torment! Guards, seize this false priest!" #NT!
+  
+  # Red Priest offers their help 
+ agot_rhllor.0008.t: "A Whisper of Fire" #NT!
+ agot_rhllor.0008.desc: "[red_priest.GetTitledFirstName], a red priest steps forward, [red_priest.GetHerHis] robes shifting like flickering embers. [red_priest.GetHerHis|U] gaze lingers upon me—not with fear, nor with reverence, but with certainty.\n\n#EMP "You are afflicted," #! [red_priest.GetSheHe] says, [red_priest.GetHerHis] voice calm but unyielding.#EMP "Perhaps you do not feel it yet. Perhaps you have ignored the signs. But the fire sees what the eye does not. The Lord of Light has led me to you for a reason." #!\n\nI had not sought [red_priest.GetHerHim] out, yet here [red_priest.GetSheHe] stands, offering what others could not." #NT!
+ agot_rhllor.0008.a: "If you can help me, then do it." #NT!
+ agot_rhllor.0008.b: "I do not need your fire." #NT!
+  
+  # Red Priest offers their help if I convert 
+ agot_rhllor.0009.t: "A Bargain in Fire" #NT!
+ agot_rhllor.0009.desc: "[red_priest.GetTitledFirstName], a red priest steps forward, [red_priest.GetHerHis] robes shifting like embers in the wind. [red_priest.GetHerHis|U] eyes burn with conviction as [red_priest.GetSheHe] speaks.\n\n#EMP "You are unwell, whether you see it or not. The fire reveals what the flesh hides. But R'hllor does not grant [red_priest.GetHerHis] gifts freely. If you wish to be healed, you must first walk in his light." #!\n\n[red_priest.GetSheHe|U] offers salvation — but at a cost. To accept his healing, I must forsake my old gods and embrace the Lord of Light." #NT!
+ agot_rhllor.0009.a: "I will walk in the fire if it means salvation." #NT!
+ agot_rhllor.0009.b: "I will not kneel to your god." #NT!
+ agot_rhllor.0009.c: "This heretic preys on the weak — seize [red_priest.GetHerHim]!" #NT!

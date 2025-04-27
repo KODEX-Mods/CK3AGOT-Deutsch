@@ -1,18 +1,18 @@
 ﻿l_german:
- ####################
- # Culture-Specific	#
- ####################
- # Military
- innovation_varangian_adventurers:0 "Varangian Adventurers"
- innovation_varangian_adventurers_desc:0 "What do we owe these lands we live in? Nothing! The realm's heart is its people, and do we not deserve the best soil, the greatest treasures, the finest palaces? Having them is as simple as #EMP taking#! them!"
- unlock_varangian_adventurer_cb:0 "Unlocks the [varangian_adventure|E] [casus_belli|E] during the [tribal|E] [era|E]"
-
- ####################
- # Regional			#
- ####################
- # Civic
- innovation_all_things:0 "All-Things"
- #AGOT Modified
- #innovation_all_things_desc:0 "Among our people, there is a strong tradition of public gatherings of all free, empowered adults, where anyone may raise their grievances with the ruler. Of course, for those who stand tall in the eyes of the smallfolk, there can be power in swaying the mob..."
- innovation_all_things_desc:0 "Amongst the Freefolk all are equal, no one bends their knees to anyone, even kings. Thus all men, and women, have a say in a folk moot."
- unlocks_authority_cooldown_breaking:0 "[characters|E] may break the [crown_authority|E] and [tribal_authority|E] cooldowns at a heavy [prestige|E] cost"
+  #################### 
+  # Culture-Specific	# 
+  #################### 
+  # Military 
+ innovation_varangian_adventurers: "Waräger-Abenteurer"
+ innovation_varangian_adventurers_desc: "Was schulden wir denn diesen Landen, in denen wir leben? Nichts! Das Herz des Reiches sind seine Menschen, und haben wir denn nicht den fruchtbarsten Mutterboden, die größten Schätze und die schönsten Paläste verdient? Wenn wir sie haben wollen, müssen wir sie uns einfach nur #EMP nehmen#!!"
+ unlock_varangian_adventurer_cb: "Schaltet während der [tribal|E]en [era|E] den [casus_belli|E] [varangian_adventure|E] frei"
+  
+  #################### 
+  # Regional			# 
+  #################### 
+  # Civic 
+ innovation_all_things: "All-Thinge"
+  #AGOT Modified 
+ #innovation_all_things_desc: "Unter unseren Leuten gibt es die feste Tradition öffentlicher Zusammenkünfte aller freien, selbstermächtigten Erwachsenen, bei denen jeder seine Beschwernisse dem Herrschenden vortragen kann. Natürlich kann es auch für jene, die in den Augen der kleinen Leute für ihre Sache einstehen, eine gewisse Macht bergen, die Masse auf ihre Seite zu ziehen …"
+ innovation_all_things_desc: "Im Freien Volk sind alle gleich, niemand beugt vor irgendjemandem die Knie, nicht einmal vor Königen. So haben alle Männer und Frauen ein Mitspracherecht bei einer Volksversammlung."
+ unlocks_authority_cooldown_breaking: "[characters|E] können die Abklingzeiten für die [crown_authority|E] und die [tribal_authority|E] zu einem hohen Preis in Sachen [prestige|E] brechen"

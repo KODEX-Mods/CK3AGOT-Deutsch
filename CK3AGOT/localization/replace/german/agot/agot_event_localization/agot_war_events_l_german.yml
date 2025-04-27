@@ -1,0 +1,39 @@
+﻿l_german:
+  
+ agot_war.0001.t: "To the Victors Belong the Spoils" #NT!
+ agot_war.0001.desc: "With the war over, my contribution to the victory cannot be doubted by anyone.\n\nI helped win this war. Without my forces, my actions, and my leadership, who knows what would have happened. Therefore, [attacker.GetName] may be receptive to granting me rewards and perks." #NT!
+ agot_war.0001.a: "I must be rewarded!" #NT!
+ agot_war.0001.b: "No, I will not ask this." #NT!
+  
+ agot_war.0002.t: "$agot_war.0001.t$" #NT!
+ agot_war.0002.desc: "Which royal boon should I ask for?" #NT!
+ agot_war.0002.a: "Gold. Plain and simple." #NT!
+ agot_war.0002.b: "[spoiler_kg_candidate.GetFirstName] should go to the [attacker.Custom('KingsguardName')]." #NT!
+ agot_war.0002.c: "A royal marriage for my relative." #NT!
+ agot_war.0002.d: "[title.GetNameNoTier] should be mine." #NT!
+ agot_war.0002.e: "I want a seat on the Small Council." #NT!
+  
+ agot_war.0003.t: "$agot_war.0001.t$" #NT!
+ agot_war.0003.desc: "It is no secret that [whiner.GetName] played a large role in my recent victory. Unsurprisingly, it seems that [whiner.GetSheHe] intends to use that to [whiner.GetHerHis] advantage, as [whiner.GetSheHe] is now requesting that I grant [whiner.GetHerHim] a royal boon.\n\n" #NT!
+ agot_war.0003.requested_gold.desc: "[whiner.GetNameNoTooltip] has asked for a handsome amount of gold from my new treasuries." #NT!
+ agot_war.0003.requested_kg.desc: "[whiner.GetNameNoTooltip] has requested that [whiner.GetHerHis] family member, [spoiler_kg_candidate.GetShortUIName], be admitted to my [ROOT.Char.Custom('KingsguardName')]." #NT!
+ agot_war.0003.requested_marriage.desc: "[whiner.GetNameNoTooltip] has asked that [whiner.GetHerHis] family member, [spoiler_marriage_candidate.GetShortUIName], be granted the high prize of a royal marriage. Should I consent, [spoiler_marriage_candidate.GetNameNoTooltip] and I would be wed." #NT!
+ agot_war.0003.requested_titles.desc: "[whiner.GetNameNoTooltip] has requested that [whiner.GetSheHe] be granted the [title.GetNameNoTier]." #NT!
+ agot_war.0003.requested_council.desc: "[whiner.GetNameNoTooltip] has requested that [whiner.GetSheHe] be granted a seat on the Small Council." #NT!
+ agot_war.0003.a: "They shall have gold, then." #NT!
+ agot_war.0003.b: "[spoiler_kg_candidate.GetFirstName] will join the [attacker.Custom('KingsguardName')]." #NT!
+ agot_war.0003.c: "[spoiler_marriage_candidate.GetName] will be married to me." #NT!
+ agot_war.0003.c_betrothal: "[spoiler_marriage_candidate.GetName] will be betrothed to me." #NT!
+ agot_war.0003.d: "They are too hasty." #NT!
+ agot_war.0003.e: "They shall have [title.GetName]!" #NT!
+ agot_war.0003.f: "A seat on the Small Council, done." #NT!
+  
+ agot_war.0004.t: "$agot_war.0001.t$" #NT!
+ agot_war.0004.desc: "Which relative should I choose for a royal marriage?" #NT!
+ agot_war.0004.a: "This person, I think." #NT!
+ agot_war.0004.a_tt: "[spoiler_marriage_candidate.GetUIName] will be proposed as a marriage option to [attacker.GetShortUIName]" #NT!
+  
+ agot_war.0003.rejection_msg: "Royal Boon Denied!" #NT!
+ agot_war.0003.rejection_msg_desc: "[attacker.GetName] has rejected your royal boon." #NT!
+ agot_war.0003.acceptance_msg: "Royal Boon Granted" #NT!
+ agot_war.0003.acceptance_msg_desc: "[attacker.GetName] has granted your desired royal boon." #NT!

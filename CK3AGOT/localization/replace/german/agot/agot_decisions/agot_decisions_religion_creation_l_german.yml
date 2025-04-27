@@ -1,0 +1,82 @@
+﻿l_german:
+ agot_create_riverlands_old_gods_decision: "Diverge Riverlander Old Gods" #NT!
+ agot_create_riverlands_old_gods_decision_confirm: "By River and Hill..." #NT!
+ agot_create_riverlands_old_gods_decision_desc: "I swear my faith by earth and water, bronze and iron, by river and hill, I shall lead the followers of the Old Gods in [GetGeographicalRegion('world_westeros_the_riverlands').GetName] and see weirwoods flourish once more upon the Rivers and Hills." #NT!
+ agot_create_riverlands_old_gods_decision_tooltip: "Convert to a new Old Gods faith based on Riverlander culture" #NT!
+ agot_create_riverlands_old_gods_effect: "All counties and rulers in your realm that follow [GetReligionByKey('the_pact_religion').GetName] in [GetGeographicalRegion('world_westeros_the_riverlands').GetName] [region|E] will convert to [GetFaithByKey('old_gods_rnh').GetName]. Other counties and rulers that follow [GetReligionByKey('the_pact_religion').GetNameNoTooltip] in the region may convert as well." #NT!
+ pact_present_in_riverlands_realm: "At least six counties in your realm in [GetGeographicalRegion('world_westeros_the_riverlands').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+ pact_present_in_riverlands_region: "At least eight counties in [GetGeographicalRegion('world_westeros_the_riverlands').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+  
+ agot_create_dorne_old_gods_decision: "Diverge Dornish Old Gods" #NT!
+ agot_create_dorne_old_gods_decision_confirm: "By Dune and Sand..." #NT!
+ agot_create_dorne_old_gods_decision_desc: "I swear my faith by earth and water, bronze and iron, by dune and sand, I shall lead the followers of the Old Gods in [GetGeographicalRegion('world_westeros_dorne').GetName] and see weirwoods flourish from the Red Mountains to the Broken Arm." #NT!
+ agot_create_dorne_old_gods_decision_tooltip: "Convert to a new Old Gods faith based on Dornish culture" #NT!
+ agot_create_dorne_old_gods_effect: "All counties and rulers in your realm that follow [GetReligionByKey('the_pact_religion').GetName] in [GetGeographicalRegion('world_westeros_the_dorne').GetName] [region|E] will convert to [GetFaithByKey('old_gods_dns').GetName]. Other counties and rulers that follow [GetReligionByKey('the_pact_religion').GetNameNoTooltip] in the region may convert as well." #NT!
+ pact_present_in_dorne_realm: "At least six counties in your realm in [GetGeographicalRegion('world_westeros_the_dorne').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+ pact_present_in_dorne_region: "At least eight counties in [GetGeographicalRegion('world_westeros_the_dorne').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+  
+ agot_create_crownlands_old_gods_decision: "Diverge Crownlander Old Gods" #NT!
+ agot_create_crownlands_old_gods_decision_confirm: "By Smoke and Salt..." #NT!
+ agot_create_crownlands_old_gods_decision_desc: "I swear my faith by earth and water, bronze and iron, by smoke and salt, I shall lead the followers of the Old Gods in [GetGeographicalRegion('world_westeros_the_crownlands').GetName] and see weirwoods flourish in the lands of Blackwater Bay." #NT!
+ agot_create_crownlands_old_gods_decision_tooltip: "Convert to a new Old Gods faith based on Crownlander culture" #NT!
+ agot_create_crownlands_old_gods_effect: "All counties and rulers in your realm that follow [GetReligionByKey('the_pact_religion').GetName] in [GetGeographicalRegion('world_westeros_the_crownlands').GetName] [region|E] will convert to [GetFaithByKey('old_gods_sns').GetName]. Other counties and rulers that follow [GetReligionByKey('the_pact_religion').GetNameNoTooltip] in the region may convert as well." #NT!
+ pact_present_in_crownlands_realm: "At least six counties in your realm in [GetGeographicalRegion('world_westeros_the_crownlands').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+ pact_present_in_crownlands_region: "At least eight counties in [GetGeographicalRegion('world_westeros_the_crownlands').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+  
+ agot_create_reach_old_gods_decision: "Diverge Reachman Old Gods" #NT!
+ agot_create_reach_old_gods_decision_confirm: "By Field and Grove..." #NT!
+ agot_create_reach_old_gods_decision_desc: "I swear my faith by earth and water, bronze and iron, by field and grove, I shall lead the followers of the Old Gods in [GetGeographicalRegion('world_westeros_the_reach').GetName] and see weirwoods flourish in the green lands of the Garth and his children." #NT!
+ agot_create_reach_old_gods_decision_tooltip: "Convert to a new Old Gods faith based on Reachman culture" #NT!
+ agot_create_reach_old_gods_effect: "All counties and rulers in your realm that follow [GetReligionByKey('the_pact_religion').GetName] in [GetGeographicalRegion('world_westeros_the_reach').GetName] [region|E] will convert to [GetFaithByKey('old_gods_fng').GetName]. Other counties and rulers that follow [GetReligionByKey('the_pact_religion').GetNameNoTooltip] in the region may convert as well." #NT!
+ pact_present_in_reach_realm: "At least six counties in your realm in [GetGeographicalRegion('world_westeros_the_reach').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+ pact_present_in_reach_region: "At least eight counties in [GetGeographicalRegion('world_westeros_the_reach').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+  
+ agot_create_stormlands_old_gods_decision: "Diverge Stormlander Old Gods" #NT!
+ agot_create_stormlands_old_gods_decision_confirm: "By Storm and Wave..." #NT!
+ agot_create_stormlands_old_gods_decision_desc: "I swear my faith by earth and water, bronze and iron, by storm and wave, I shall lead the followers of the Old Gods in [GetGeographicalRegion('world_westeros_the_stormlands').GetName] and see weirwoods flourish in the Marches and lands of Durran." #NT!
+ agot_create_stormlands_old_gods_decision_tooltip: "Convert to a new Old Gods faith based on Stormlander culture" #NT!
+ agot_create_stormlands_old_gods_effect: "All counties and rulers in your realm that follow [GetReligionByKey('the_pact_religion').GetName] in [GetGeographicalRegion('world_westeros_the_stormlands').GetName] [region|E] will convert to [GetFaithByKey('old_gods_snw').GetName]. Other counties and rulers that follow [GetReligionByKey('the_pact_religion').GetNameNoTooltip] in the region may convert as well." #NT!
+ pact_present_in_stormlands_realm: "At least six counties in your realm in [GetGeographicalRegion('world_westeros_the_stormlands').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+ pact_present_in_stormlands_region: "At least eight counties in [GetGeographicalRegion('world_westeros_the_stormlands').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+  
+ agot_create_vale_old_gods_decision: "Diverge Valeman Old Gods" #NT!
+ agot_create_vale_old_gods_decision_confirm: "By Moon and Vale..." #NT!
+ agot_create_vale_old_gods_decision_desc: "I swear my faith by earth and water, bronze and iron, by moon and vale, I shall lead the followers of the Old Gods in [GetGeographicalRegion('world_westeros_the_vale').GetName] and see weirwoods flourish in the Mountains and Vales." #NT!
+ agot_create_vale_old_gods_decision_tooltip: "Convert to a new Old Gods faith based on Valeman culture" #NT!
+ agot_create_vale_old_gods_effect: "All counties and rulers in your realm that follow [GetReligionByKey('the_pact_religion').GetName] in [GetGeographicalRegion('world_westeros_the_vale').GetName] [region|E] will convert to [GetFaithByKey('old_gods_mnv').GetName]. Other counties and rulers that follow [GetReligionByKey('the_pact_religion').GetNameNoTooltip] in the region may convert as well." #NT!
+ pact_present_in_vale_realm: "At least six counties in your realm in [GetGeographicalRegion('world_westeros_the_vale').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+ pact_present_in_vale_region: "At least eight counties in [GetGeographicalRegion('world_westeros_the_vale').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+  
+ agot_create_westerlands_old_gods_decision: "Diverge Westerlander Old Gods" #NT!
+ agot_create_westerlands_old_gods_decision_confirm: "By Rock and Gold..." #NT!
+ agot_create_westerlands_old_gods_decision_desc: "I swear my faith by earth and water, bronze and iron, by rock and gold, I shall lead the followers of the Old Gods in [GetGeographicalRegion('world_westeros_the_westerlands').GetName] and see weirwoods flourish in the shadow of Casterly Rock." #NT!
+ agot_create_westerlands_old_gods_decision_tooltip: "Convert to a new Old Gods faith based on Westerlander culture" #NT!
+ agot_create_westerlands_old_gods_effect: "All counties and rulers in your realm that follow [GetReligionByKey('the_pact_religion').GetName] in [GetGeographicalRegion('world_westeros_the_westerlands').GetName] [region|E] will convert to [GetFaithByKey('old_gods_rng').GetName]. Other counties and rulers that follow [GetReligionByKey('the_pact_religion').GetNameNoTooltip] in the region may convert as well." #NT!
+ pact_present_in_westerlands_realm: "At least six counties in your realm in [GetGeographicalRegion('world_westeros_the_westerlands').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+ pact_present_in_westerlands_region: "At least eight counties in [GetGeographicalRegion('world_westeros_the_westerlands').GetName] region must follow [GetReligionByKey('the_pact_religion').GetName]" #NT!
+  
+ agot_create_rhllor_fots_decision: "Diverge Westerosi R'hllor" #NT!
+ agot_create_rhllor_fots_decision_confirm: "My sword for the Red God!" #NT!
+ agot_create_rhllor_fots_decision_desc: "I swear my faith to the Red God, R'hllor. My sword shall be like that of Azor Ahai, for the night is dark and full of terrors." #NT!
+ agot_create_rhllor_fots_decision_tooltip: "Convert to a new R'hllor faith based on Westerosi culture" #NT!
+ agot_create_rhllor_fots_effect: "All counties and rulers in your realm that follow [GetReligionByKey('the_rhllor_religion').GetName] will convert to [GetFaithByKey('rhllor_fots').GetName]." #NT!
+  
+ agot_create_fots_dragon_decision: "Merge the Seven and the Fourteen Flames" #NT!
+ agot_create_fots_dragon_decision_confirm: "For the Fourteen-Who-Are-One!" #NT!
+ agot_create_fots_dragon_decision_desc: "The Andals were wrong to believe that the One was divided into seven aspects, for clearly the Valyrians achieved their greatness only through the will of the One. Thus, I shall bring the will of the Fourteen-Who-Are-One to all!" #NT!
+ agot_create_fots_dragon_decision_tooltip: "Convert to a new faith with aspects of the Seven and the Fourteen Flames" #NT!
+ agot_create_fots_dragon_effect: "Some rulers in your realm who follow [GetReligionByKey('the_flames_religion').GetName] or [GetReligionByKey('the_seven_religion').GetName] may convert to [GetFaithByKey('fots_dragon').GetName]." #NT!
+  
+ agot_create_fots_sword_decision: "Embrace the Sword of the Faith" #NT!
+ agot_create_fots_sword_decision_confirm: "With Sword and Star!" #NT!
+ agot_create_fots_sword_decision_desc: "We have lost our way. The High Septon and the Most Devout have broken with the Seven! Only with fire and iron, with sword and star, can we become faithful once again!" #NT!
+ agot_create_fots_sword_decision_tooltip: "Convert to a new militant form of the Faith of the Seven" #NT!
+ agot_create_fots_sword_effect: "All counties and rulers in your realm who follow [GetReligionByKey('the_seven_religion').GetName] will convert to [GetFaithByKey('fots_sword').GetName]. Other zealous rulers and their counties who follow [GetReligionByKey('the_seven_religion').GetName] in [GetGeographicalRegion('world_westeros_seven_kingdoms_without_wall').GetName] region may also convert." #NT!
+ seven_kingdoms_not_faithful: "[GetGeographicalRegion('world_westeros_seven_kingdoms_without_wall').GetName|U] has been overrun by heretics" #NT!
+  
+ agot_create_fots_sands_decision: "Diverge Dornish Faith of the Seven" #NT!
+ agot_create_fots_sands_decision_confirm: "By the Stars above the Sands!" #NT!
+ agot_create_fots_sands_decision_desc: "The High Septon and the Most Devout are nothing but puppets to the Iron Throne and Highgarden! The Seven are just and true, but their so-called preachers are not. I shall lead the faithful to a better day under the desert sun!" #NT!
+ agot_create_fots_sands_decision_tooltip: "Convert to a new Faith of the Seven based on Dornish culture" #NT!
+ agot_create_fots_sands_effect: "All counties and rulers in your realm who follow [GetReligionByKey('the_seven_religion').GetName] will convert to [GetFaithByKey('fots_sands').GetName]." #NT!
+ attacked_by_iron_throne_or_reach: "You have been attacked by [GetTitleByKey('e_the_iron_throne').GetNameNoTier] or [GetTitleByKey('e_the_reach').GetNameNoTier] in war" #NT!

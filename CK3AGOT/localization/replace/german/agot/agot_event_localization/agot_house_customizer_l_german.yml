@@ -1,125 +1,126 @@
 ﻿l_german:
-
- agot_house_customizer.back_option:0 "Go back"
-
- agot_house_customizer.0001.t:0 "House Customizer"
- agot_house_customizer.0001.desc:0 "#P Welcome to the House Customizer#!! Please follow these instructions in order to use this feature correctly.\n\nIf you wish to play as an #N extinct house#!, you may select that option and find the house under its region of origin.\n\nIf you want to play as member of a house that is alive, you need to find someone of that house, right click their portrait, and select "Join House".\n\n@warning_icon! #N Starting as a bastard will result in the creation of a cadet house of your dynasty after you have children!"
- agot_house_customizer.0001.a:0 "I want to play as an #N extinct house#!."
- agot_house_customizer.0001.b:0 "I want to play as an #P extant house#!."
-
- agot_house_customizer.0002.t:0 "Select Region"
- agot_house_customizer.0002.desc:0 "Select the Extinct House's Region:"
- agot_house_customizer.0002.northern:0 "The North"
- agot_house_customizer.0002.riverlands:0 "The Riverlands"
- agot_house_customizer.0002.vale:0 "The Vale"
- agot_house_customizer.0002.crownlands:0 "The Crownlands"
- agot_house_customizer.0002.stormlands:0 "The Stormlands"
- agot_house_customizer.0002.dorne:0 "Dorne"
- agot_house_customizer.0002.reach:0 "The Reach"
- agot_house_customizer.0002.westerlands:0 "The Westerlands"
- agot_house_customizer.0002.ironborn:0 "The Iron Islands"
- agot_house_customizer.0002.essos:0 "Essos"
-
- agot_house_customizer.0003.t:0 "Select Extinct Northern House"
- agot_house_customizer.0003.desc:0 "Select Your House"
- agot_house_customizer.0003.amber:0 "Amber"
- agot_house_customizer.0003.greenwood:0 "Greenwood"
- agot_house_customizer.0003.frost:0 "Frost"
- agot_house_customizer.0003.greystark:0 "Greystark"
- agot_house_customizer.0003.ryder:0 "Ryder"
- agot_house_customizer.0003.woodfoot:0 "Woodfoot"
-
- agot_house_customizer.0004.t:0 "Select Extinct Riverlander House"
- agot_house_customizer.0004.desc:0 "Select Your House"
- agot_house_customizer.0004.fisher_riverlands:0 "Fisher"
- agot_house_customizer.0004.hoare:0 "Hoare"
- agot_house_customizer.0004.harroway:0 "Harroway"
- agot_house_customizer.0004.justman:0 "Justman"
- agot_house_customizer.0004.hook:0 "Hook"
- agot_house_customizer.0004.qoherys:0 "Qoherys"
- agot_house_customizer.0004.teague:0 "Teague"
- agot_house_customizer.0004.towers_of_harrenhal:0 "Towers of Harrenhal"
-
- agot_house_customizer.0005.t:0 "Select Extinct Vale House"
- agot_house_customizer.0005.desc:0 "Select Your House"
- agot_house_customizer.0005.shell:0 "Shell"
- agot_house_customizer.0005.brightstone:0 "Brightstone"
-
- agot_house_customizer.0006.t:0 "Select Extinct Crownlands House"
- agot_house_customizer.0006.desc:0 "Select Your House"
- #agot_house_customizer.0006.cargyll:0 "Cargyll"
- agot_house_customizer.0006.darklyn:0 "Darklyn"
- agot_house_customizer.0006.blackfyre:0 "Blackfyre"
-
- agot_house_customizer.0007.t:0 "Select Extinct Stormlander House"
- agot_house_customizer.0007.desc:0 "Select Your House"
- agot_house_customizer.0007.durrandon:0 "Durrandon"
- agot_house_customizer.0007.toyne:0 "Toyne"
-
- agot_house_customizer.0008.t:0 "Select Extinct Dornish House"
- agot_house_customizer.0008.desc:0 "Select Your House"
- agot_house_customizer.0008.briar:0 "Briar"
- agot_house_customizer.0008.brook:0 "Brook"
- agot_house_customizer.0008.brownhill:0 "Brownhill"
- agot_house_customizer.0008.dryland:0 "Dryland"
- agot_house_customizer.0008.holt:0 "Holt"
- agot_house_customizer.0008.hull:0 "Hull"
- agot_house_customizer.0008.lake:0 "Lake"
- agot_house_customizer.0008.shell:0 "Shell"
- agot_house_customizer.0008.wade:0 "Wade"
-
- agot_house_customizer.0009.t:0 "Select Extinct Reachman House"
- agot_house_customizer.0009.desc:0 "Select Your House"
- agot_house_customizer.0009.gardener:0 "Gardener"
- agot_house_customizer.0009.osgrey:0 "Osgrey"
-
- agot_house_customizer.0010.t:0 "Select Extinct Westerlands House"
- agot_house_customizer.0010.desc:0 "Select Your House"
- agot_house_customizer.0010.casterly:0 "Casterly"
- agot_house_customizer.0010.parren:0 "Parren"
- agot_house_customizer.0010.reyne:0 "Reyne"
- agot_house_customizer.0010.tarbeck:0 "Tarbeck"
-
- agot_house_customizer.0011.t:0 "Select Extinct Iron Islands House"
- agot_house_customizer.0011.desc:0 "Select Your House"
- agot_house_customizer.0011.greyiron:0 "Greyiron"
- agot_house_customizer.0011.hoare:0 "Hoare"
-
- agot_house_customizer.0012.t:0 "Select Extinct Essos House"
- agot_house_customizer.0012.desc:0 "Select Your House"
- agot_house_customizer.0012.varezys:0 "Varezys"
- agot_house_customizer.0012.varezys.tt:0 "This is the dynasty of the self-proclaimed Emperor of Valyria, Aurion"
- agot_house_customizer.0012.mataeryon:0 "Mataeryon"
- agot_house_customizer.0012.belaerys:0 "Belaerys"
-
- agot_house_customizer.0020.t:0 "House Customizer"
- agot_house_customizer.0020.desc:0 "Select Your Relation"
- agot_house_customizer.0020.a:0 "I want to play as their #bold sibling#!"
- agot_house_customizer.0020.b:0 "I want to play as their #bold child#!"
- agot_house_customizer.0020.bb:0 "I want to play as their #bold child#! and be assigned a [second_parent.GetMotherFather]"
- agot_house_customizer.0020.c:0 "I want to play as their #bold relative#!"
- agot_house_customizer.0020.d:0 "I want to play as the #bold child of King Aerys II#!"
- agot_house_customizer.0020.e:0 "I want to play as the #bold child of Prince Rhaegar#!"
- agot_house_customizer.0020.f:0 "I want to play as their #bold secret bastard#!"
- agot_house_customizer.0020.f.flavor:0 "You will know the truth of your birth and be able to reveal it to the realm as a decision."
- agot_house_customizer.0020.back:0 "I want to choose a different house..."
- agot_house_customizer.0020.back.tt:0 "You will return to the extinct house options."
- agot_house_customizer.0021.back.tt:0 "You will return to the starting event."
-
- agot_house_customizer.0021.t:0 "House Customizer - Play as Relative"
- agot_house_customizer.0021.desc:0 "Play as their relative!"
- agot_house_customizer.0021.a:0 "I will play as the child of [hc_random_relative_selection.GetName]!"
-
- agot_house_customizer.0026.t:0 "House Customizer - Strong Seed"
- agot_house_customizer.0026.desc:0 "Members of #V House [ROOT.Char.GetHouse.GetName]#! have a distinct, generational appearance. Over the generations they have passed down a unique look compared to other houses.\n\nPlease choose if you want to apply the strong seed appearance of #V House [ROOT.Char.GetHouse.GetName]#! to your character."
- agot_house_customizer.0026.a:0 "Yes, make my character look like House [ROOT.Char.GetHouse.GetName]!"
- agot_house_customizer.0026.a.tt:0 "@warning_icon! #warning This will change your custom character's appearance!#!"
- agot_house_customizer.0026.b:0 "No, I want to keep my character's appearance as it is now."
-
-
- agot_house_customizer.0200.t:0 "House Customizer - Select Relative"
- agot_house_customizer.0200.desc:0 "Select the relative you wish to be your parent from the list below."
- agot_house_customizer.0200.ex:0 "I want to be the child of this person!"
- agot_house_customizer.0200.li:0 "I want to be the child of this person!"
- agot_house_customizer.0200.back:0 "On second thought..."
- agot_house_customizer.0200.back.tt:0 "You will return to the relation specific options for your selection."
+  
+ agot_house_customizer.back_option: "Kehrt zurück"
+  
+ agot_house_customizer.0001.t: "Hausanpassung"
+ agot_house_customizer.0001.desc: "#P Willkommen bei der Hausanpassung#!! Bitte befolgt diese Anweisungen, um diese Funktion richtig zu nutzen.\n\nWenn Ihr als Mitglied eines ausgestorbenen Hauses, wie zum beispiel Haus Schwarzfeuer, spielen möchtet, könnt Ihr die Option 'Ich möchte ein #N ausgestorbenes Haus#! spielen' wählen und das Haus unter seiner Herkunftsregion finden.\n\nWenn Ihr als Mitglied eines Hauses spielen wollt, das noch lebt, müsst Ihr jemanden aus diesem Haus finden, mit der rechten Maustaste auf sein Porträt klicken und 'Haus beitreten' wählen.\n\n@warning_icon! #N Wenn Ihr als Bastard beginnt, wird eine Nebenlinie Eurer Dynastie gegründet, sobald Ihr Kinder habt!"
+ agot_house_customizer.0001.a: "Ich möchte ein #N ausgestorbenes Haus#! spielen."
+ agot_house_customizer.0001.b: "Ich möchte als #P aktives Haus#! spielen."
+  
+ agot_house_customizer.0002.t: "Region auswählen"
+ agot_house_customizer.0002.desc: "Wählen Sie die Region des Ausgestorbenen Hauses:"
+ agot_house_customizer.0002.northern: "Der Norden"
+ agot_house_customizer.0002.riverlands: "Die Flusslande"
+ agot_house_customizer.0002.vale: "Das Grüne Tal"
+ agot_house_customizer.0002.crownlands: "Die Kronlande"
+ agot_house_customizer.0002.stormlands: "Die Sturmlande"
+ agot_house_customizer.0002.dorne: "Dorne"
+ agot_house_customizer.0002.reach: "Die Weite"
+ agot_house_customizer.0002.westerlands: "Die Westlande"
+ agot_house_customizer.0002.ironborn: "Die Eiseninseln"
+ agot_house_customizer.0002.essos: "Essos" #NT!
+  
+ agot_house_customizer.0003.t: "Ausgestorbenes Haus des Nordens auswählen"
+ agot_house_customizer.0003.desc: "Wählt Euer Haus:"
+ agot_house_customizer.0003.amber: "Haus Bernstein"
+ agot_house_customizer.0003.greenwood: "Haus Grünwald"
+ agot_house_customizer.0003.frost: "Haus Frost"
+ agot_house_customizer.0003.greystark: "Haus Graustark"
+ agot_house_customizer.0003.ryder: "Haus Reyter"
+ agot_house_customizer.0003.woodfoot: "Haus Waldfuß"
+ agot_house_customizer.0003.towersn: "Towers" #NT!
+  
+ agot_house_customizer.0004.t: "Ausgestorbenes Haus der Flusslande auswählen"
+ agot_house_customizer.0004.desc: "Wählt Euer Haus:"
+ agot_house_customizer.0004.fisher_riverlands: "Haus Fischer"
+ agot_house_customizer.0004.hoare: "Haus Hoffartt"
+ agot_house_customizer.0004.harroway: "Haus Eggen"
+ agot_house_customizer.0004.justman: "Haus Gerechtermann"
+ agot_house_customizer.0004.hook: "Haus Haken"
+ agot_house_customizer.0004.qoherys: "Haus Qoherys"
+ agot_house_customizer.0004.teague: "Haus Dichter"
+ agot_house_customizer.0004.towers_of_harrenhal: "Haus Türmen von Harrenhal"
+  
+ agot_house_customizer.0005.t: "Ausgestorbenes Haus des Grünen Tals auswählen"
+ agot_house_customizer.0005.desc: "Wählt Euer Haus:"
+ agot_house_customizer.0005.shell: "Haus Muschel"
+ agot_house_customizer.0005.brightstone: "Haus Hellstein"
+  
+ agot_house_customizer.0006.t: "Ausgestorbenes Haus der Kronlande auswählen"
+ agot_house_customizer.0006.desc: "Wählt Euer Haus:"
+ #agot_house_customizer.0006.cargyll: "Haus Cargyll"
+ agot_house_customizer.0006.darklyn: "Haus Finsterlyn"
+ agot_house_customizer.0006.blackfyre: "Haus Schwarzfeuer"
+  
+ agot_house_customizer.0007.t: "Ausgestorbenes Haus der Sturmlande auswählen"
+ agot_house_customizer.0007.desc: "Wählt Euer Haus:"
+ agot_house_customizer.0007.durrandon: "Haus Durrandon"
+ agot_house_customizer.0007.toyne: "Haus Toyn"
+  
+ agot_house_customizer.0008.t: "Ausgestorbenes Haus aus Dorne auswählen"
+ agot_house_customizer.0008.desc: "Wählt Euer Haus:"
+ agot_house_customizer.0008.briar: "Haus Dorn"
+ agot_house_customizer.0008.brook: "Haus Bach"
+ agot_house_customizer.0008.brownhill: "Haus Braunhügel"
+ agot_house_customizer.0008.dryland: "Haus Trockenland"
+ agot_house_customizer.0008.holt: "Haus Hain"
+ agot_house_customizer.0008.hull: "Haus Rumpf"
+ agot_house_customizer.0008.lake: "Haus See"
+ agot_house_customizer.0008.shell: "Haus Auster"
+ agot_house_customizer.0008.wade: "Haus Water"
+  
+ agot_house_customizer.0009.t: "Ausgestorbenes Haus der Weite auswählen"
+ agot_house_customizer.0009.desc: "Wählt Euer Haus:"
+ agot_house_customizer.0009.gardener: "Haus Gärtner"
+ agot_house_customizer.0009.osgrey: "Haus Osgrau"
+  
+ agot_house_customizer.0010.t: "Ausgestorbenes Haus der Westlande auswählen"
+ agot_house_customizer.0010.desc: "Wählt Euer Haus:"
+ agot_house_customizer.0010.casterly: "Haus Casterly"
+ agot_house_customizer.0010.parren: "Haus Parren"
+ agot_house_customizer.0010.reyne: "Haus Regn"
+ agot_house_customizer.0010.tarbeck: "Haus Tarbeck"
+  
+ agot_house_customizer.0011.t: "Ausgestorbenes Haus der Eiseninseln auswählen"
+ agot_house_customizer.0011.desc: "Wählt Euer Haus:"
+ agot_house_customizer.0011.greyiron: "Haus Graueisen"
+ agot_house_customizer.0011.hoare: "Haus Hoffartt"
+  
+ agot_house_customizer.0012.t: "Select Extinct Essos House" #NT!
+ agot_house_customizer.0012.desc: "Select Your House" #NT!
+ agot_house_customizer.0012.varezys: "Varezys" #NT!
+ agot_house_customizer.0012.varezys.tt: "This is the dynasty of the self-proclaimed Emperor of Valyria, Aurion" #NT!
+ agot_house_customizer.0012.mataeryon: "Mataeryon" #NT!
+ agot_house_customizer.0012.belaerys: "Belaerys" #NT!
+  
+ agot_house_customizer.0020.t: "Hausanpassung"
+ agot_house_customizer.0020.desc: "Wählt Euer Verhältnis:"
+ agot_house_customizer.0020.a: "Ich möchte ein #bold Geschwisterkind#! sein"
+ agot_house_customizer.0020.b: "Ich möchte ein #bold Kind#! sein"
+ agot_house_customizer.0020.bb: "I want to play as their #bold child#! and be assigned a [second_parent.GetMotherFather]" #NT!
+ agot_house_customizer.0020.c: "Ich möchte ein #bold Verwandter#! sein"
+ agot_house_customizer.0020.d: "Ich möchte das #bold Kind von König Aerys II#! sein"
+ agot_house_customizer.0020.e: "Ich möchte das #bold Kind von Prinz Rhaegar#! sein"
+ agot_house_customizer.0020.f: "I want to play as their #bold secret bastard#!" #NT!
+ agot_house_customizer.0020.f.flavor: "You will know the truth of your birth and be able to reveal it to the realm as a decision." #NT!
+ agot_house_customizer.0020.back: "I want to choose a different house..." #NT!
+ agot_house_customizer.0020.back.tt: "You will return to the extinct house options." #NT!
+ agot_house_customizer.0021.back.tt: "You will return to the starting event." #NT!
+  
+ agot_house_customizer.0021.t: "Hausanpassung - Spielt als Verwandter"
+ agot_house_customizer.0021.desc: "Spielt als Verwandter der ausgewählten Person!"
+ agot_house_customizer.0021.a: "Ich werde als das Kind von [hc_random_relative_selection.GetName] spielen!"
+  
+ agot_house_customizer.0026.t: "Hausanpassung - Starke Saat"
+ agot_house_customizer.0026.desc: "Die Mitglieder des #V Hauses [ROOT.Char.GetHouse.GetName]#! haben ein ausgeprägtes, generationenübergreifendes Erscheinungsbild. Über die Generationen hinweg haben sie ein einzigartiges Aussehen im Vergleich zu anderen Häusern weitergegeben.\n\nBitte wähle aus, ob du die auffälligen Äußerlichkeiten von #V Haus [ROOT.Char.GetHouse.GetName]#! auf deinen Charakter anwenden möchtest."
+ agot_house_customizer.0026.a: "Ja, mein Charakter soll das typische Haus [ROOT.Char.GetHouse.GetName] aussehen haben!"
+ agot_house_customizer.0026.a.tt: "@warning_icon! #warning Dies wird das Aussehen deines benutzerdefinierten Charakters verändern!#!"
+ agot_house_customizer.0026.b: "Nein, ich möchte das Aussehen meiner Figur so beibehalten, wie es jetzt ist."
+  
+  
+ agot_house_customizer.0200.t: "House Customizer - Select Relative" #NT!
+ agot_house_customizer.0200.desc: "Select the relative you wish to be your parent from the list below." #NT!
+ agot_house_customizer.0200.ex: "I want to be the child of this person!" #NT!
+ agot_house_customizer.0200.li: "I want to be the child of this person!" #NT!
+ agot_house_customizer.0200.back: "On second thought..." #NT!
+ agot_house_customizer.0200.back.tt: "You will return to the relation specific options for your selection." #NT!

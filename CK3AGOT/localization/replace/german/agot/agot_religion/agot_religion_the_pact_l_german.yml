@@ -1,0 +1,150 @@
+﻿l_german:
+ ### THE RELIGION ### 
+ the_pact_religion: "The Pact of the Isle of Faces" #NT!
+ the_pact_religion_adj: "The Pact" #NT!
+ the_pact_religion_adherent: "Follower of the Pact" #NT!
+ the_pact_religion_adherent_plural: "Followers of the Pact" #NT!
+ the_pact_religion_desc: "The Pact of the Isle of Faces is the treaty that ended the conflict between the First Men and the Children of the Forest. It is what brought peace to Westeros and introduced the worship of the Old Gods to men. The Pact has held to this day and will endure as long as the blood of the First Men flows in the veins of humanity." #NT!
+  
+ ### Faiths ### 
+ #Northern Old Gods 
+ old_gods_wnw: "Old Gods of Winter and Wood" #NT!
+ old_gods_wnw_adj: "Old Gods" #NT!
+ old_gods_wnw_adherent: "Old Gods Follower" #NT!
+ old_gods_wnw_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_wnw_desc: "Adopted after the Pact, the worship of the Old Gods has persisted in the North more than in any other part of the Seven Kingdoms. The worship of the Old Gods is a simple one, much more personal than that of the Faith of the Seven — there are few commandments and no scriptures. How one honors the gods is a personal matter. The key tenets are the sacredness of the weirwoods, the sanctity of guest right, and the holiness of oaths sworn before the heart tree." #NT!
+  
+ #River Old Gods 
+ old_gods_rnh: "Old Gods of Rivers and Hills" #NT!
+ old_gods_rnh_adj: "River Old Gods" #NT!
+ old_gods_rnh_adherent: "Old Gods Follower" #NT!
+ old_gods_rnh_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_rnh_desc: "Outside of the North, the next greatest bastion of the worship of the Old Gods is the Riverlands. Even before the revival, as men from the North settled here, key houses kept the worship. Their practice differs from their northern neighbors, melding with the Faith of the Seven to the south. In addition to the sacredness of the weirwoods and guest right, these people have adopted knighthoods — whose oaths are sworn not in a sept, but before the heart tree." #NT!
+  
+ #Vale Old Gods 
+ old_gods_mnv: "Old Gods of Moon and Vale" #NT!
+ old_gods_mnv_adj: "Vale Old Gods" #NT!
+ old_gods_mnv_adherent: "Old Gods Follower" #NT!
+ old_gods_mnv_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_mnv_desc: "Though the Vale and Mountains of the Moon were the first to be conquered by the Andals and the first place where the Faith of the Seven took root in Westeros, there are still old and strong ties to the First Men and their beliefs. As such, the region has seen a return to the worship of the Old Gods, while still maintaining many of the traditions and rights that the people of the Vale knew as the Faithful." #NT!
+  
+ #Western Old Gods 
+ old_gods_rng: "Old Gods of Rock and Gold" #NT!
+ old_gods_rng_adj: "Western Old Gods" #NT!
+ old_gods_rng_adherent: "Old Gods Follower" #NT!
+ old_gods_rng_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_rng_desc: "The Westerlands has long been a sacred place for the worship of the Old Gods. It was here that Corlos showed mercy upon the lion cubs and was rewarded by the Old Gods. The worship of the Old Gods has begun anew in the region, adopting some traits from the Faith of the Seven, such as knighthood, while also embracing the core tenets of the Pact." #NT!
+  
+ #Reach Old Gods 
+ old_gods_fng: "Old Gods of Field and Grove" #NT!
+ old_gods_fng_adj: "Reach Old Gods" #NT!
+ old_gods_fng_adherent: "Old Gods Follower" #NT!
+ old_gods_fng_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_fng_desc: "The Reach was the home of the Faith of the Seven for most of its history, yet it still maintains ties to the Old Gods. Tales of Garth Greenhand, the Living Throne of the Oakenseat, the Skinchangers by the Red Lake, and others, persist. These ties have been wholly embraced with the return of the worship of the Old Gods, although the influence of the Faith can still be seen in some of the tenets and traditions practiced in the Reach." #NT!
+  
+ #Storm Old Gods 
+ old_gods_snw: "Old Gods of Storm and Wave" #NT!
+ old_gods_snw_adj: "Storm Old Gods" #NT!
+ old_gods_snw_adherent: "Old Gods Follower" #NT!
+ old_gods_snw_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_snw_desc: "The Stormlands have long maintained their ties to the Children of the Forest, famously allying to fight against the Holy Brotherhood. These ties have led to a resurgence in the worship of the Old Gods in the region, while still maintaining some of the traditions the smallfolk and greatfolk adopted under the Faith." #NT!
+  
+ #Dorne Old Gods 
+ old_gods_dns: "Old Gods of Dune and Sand" #NT!
+ old_gods_dns_adj: "Dorne Old Gods" #NT!
+ old_gods_dns_adherent: "Old Gods Follower" #NT!
+ old_gods_dns_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_dns_desc: "Dorne is where the Children worked their greatest of feats with the aid of the Old Gods. While the Andals came to dominate much of the lower lands, the ties to the Old Gods still lingered. Now, the worship of the Old Gods has returned, incorporating aspects not only of the Faith but also of the Mother." #NT!
+  
+ #Crownlands Old Gods 
+ old_gods_sns: "Old Gods of Smoke and Salt" #NT!
+ old_gods_sns_adj: "Crownlander Old Gods" #NT!
+ old_gods_sns_adherent: "Old Gods Follower" #NT!
+ old_gods_sns_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_sns_desc: "Blackwater Bay, and the islands within it, have long been a bastion of the Old Gods in the south of Westeros — especially Crackclaw Point and its inhabitants. This has fostered widespread worship of the Old Gods, incorporating aspects of the Faith and the Valyrians who have settled in the region." #NT!
+  
+ #Wildling Old Gods 
+ old_gods_btw_fnf: "Old Gods of Frost and Forest" #NT!
+ old_gods_btw_fnf_adj: "Wildling Old Gods" #NT!
+ old_gods_btw_fnf_adherent: "Old Gods Follower" #NT!
+ old_gods_btw_fnf_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_btw_fnf_desc: "It is only beyond the Wall, in the True North, that one truly converse and feel the Old Gods. South of the Wall, the land has become too cultivated, too deforested, too civilized to truly hear the whispers of the Old Gods." #NT!
+  
+ old_gods_btw_fnf_old: "Primeval Old Gods of Frost and Forest" #NT!
+ old_gods_btw_fnf_old_adj: "Primeval Wildling Old Gods" #NT!
+ old_gods_btw_fnf_old_adherent: "Old Gods Follower" #NT!
+ old_gods_btw_fnf_old_adherent_plural: "Old Gods Followers" #NT!
+  
+ #Frozen Old Gods 
+ old_gods_btw_sni: "Old Gods of Snow and Ice" #NT!
+ old_gods_btw_sni_adj: "Frozen Old Gods" #NT!
+ old_gods_btw_sni_adherent: "Old Gods Follower" #NT!
+ old_gods_btw_sni_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_btw_sni_desc: "Worship of the Old Gods is strong in the frozen places beyond the Wall. However, their followers do not listen for the Gods in the whispers of streams or the rustling of leaves, but rather in the cracking of the ice or the falling of snow. The frozen lands are cold and desolate, and the people are shaped by this harsh environment, as is their worship." #NT!
+  
+ old_gods_btw_sni_old: "Primeval Old Gods of Snow and Ice" #NT!
+ old_gods_btw_sni_old_adj: "Primeval Frozen Old Gods" #NT!
+ old_gods_btw_sni_old_adherent: "Old Gods Follower" #NT!
+ old_gods_btw_sni_old_adherent_plural: "Old Gods Followers" #NT!
+  
+ #Moon Old Gods 
+ old_gods_btw_mns: "Old Gods of Mountain and Stone" #NT!
+ old_gods_btw_mns_adj: "Moon Old Gods" #NT!
+ old_gods_btw_mns_adherent: "Old Gods Follower" #NT!
+ old_gods_btw_mns_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_btw_mns_desc: "Those who refused to abandon the Old Gods and bow to the Andal Kings of House Arryn fled to the heights and wilderness of the Mountains of the Moon. Despite losing nearly all else, they maintained their worship and oaths to the Gods. Their animosity towards the lowlanders has led their worship to become brutal." #NT!
+  
+ old_gods_btw_mns_old: "Primeval Old Gods of Mountain and Stone" #NT!
+ old_gods_btw_mns_old_adj: "Primeval Moon Old Gods" #NT!
+ old_gods_btw_mns_old_adherent: "Old Gods Follower" #NT!
+ old_gods_btw_mns_old_adherent_plural: "Old Gods Followers" #NT!
+  
+ #Magnar Old Gods 
+ old_gods_btw_pnv: "Old Gods of Peak and Valley" #NT!
+ old_gods_btw_pnv_adj: "Magnar Old Gods" #NT!
+ old_gods_btw_pnv_adherent: "Old Gods Follower" #NT!
+ old_gods_btw_pnv_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_btw_pnv_desc: "The Thenns claim to be the only true First Men left, and they assert that they are the only ones who preserve the Pact and worship the Old Gods correctly. The [Glossary('Magnar', 'MAGNAR_GLOSS')] is viewed as being alongside the Old Gods, simply one made of flesh, while the others are made of stone, twig, and river." #NT!
+  
+ old_gods_btw_pnv_old: "Primeval Old Gods of Peak and Valley" #NT!
+ old_gods_btw_pnv_old_adj: "Primeval Magnar Old Gods" #NT!
+ old_gods_btw_pnv_old_adherent: "Old Gods Follower" #NT!
+ old_gods_btw_pnv_old_adherent_plural: "Old Gods Followers" #NT!
+  
+ #Cave Old Gods 
+ old_gods_btw_dnc: "Old Gods of Dark and Cave" #NT!
+ old_gods_btw_dnc_adj: "Cave Old Gods" #NT!
+ old_gods_btw_dnc_adherent: "Old Gods Follower" #NT!
+ old_gods_btw_dnc_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_btw_dnc_desc: "Those who live below, in the caves and tunnels of the Frostfang Mountains, still worship the Old Gods, despite what others may think. Yet their worship is far darker than that of those above ground; the eating of human flesh, dead or alive, is permitted in this strand of the Old Gods." #NT!
+  
+ old_gods_btw_dnc_old: "Primeval Old Gods of Dark and Cave" #NT!
+ old_gods_btw_dnc_old_adj: "Primeval Cave Old Gods" #NT!
+ old_gods_btw_dnc_old_adherent: "Old Gods Follower" #NT!
+ old_gods_btw_dnc_old_adherent_plural: "Old Gods Followers" #NT!
+  
+ #Shore Old Gods 
+ old_gods_btw_sas: "Old Gods of Sea and Shell" #NT!
+ old_gods_btw_sas_adj: "Shore Old Gods" #NT!
+ old_gods_btw_sas_adherent: "Old Gods Follower" #NT!
+ old_gods_btw_sas_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_btw_sas_desc: "Along the coast beyond the Wall, worship of the Old Gods has naturally turned toward the sea, adopting many wild and primitive aspects that were once seen in the worship as a whole." #NT!
+  
+ old_gods_btw_sas_old: "Primeval Old Gods of Sea and Shell" #NT!
+ old_gods_btw_sas_old_adj: "Primeval Shore Old Gods" #NT!
+ old_gods_btw_sas_old_adherent: "Old Gods Follower" #NT!
+ old_gods_btw_sas_old_adherent_plural: "Old Gods Followers" #NT!
+  
+ #Burned Old Gods 
+ old_gods_btw_valyrian: "Old Gods of the Burned Ones" #NT!
+ old_gods_btw_valyrian_adj: "Burned Old Gods" #NT!
+ old_gods_btw_valyrian_adherent: "Old Gods Follower" #NT!
+ old_gods_btw_valyrian_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_btw_valyrian_desc: "Some tribes believe that the Old Gods sometimes don flesh and walk among men. The Burned Men worship a fire-witch said to command living flame, likely a dragon, within the Mountains of the Moon." #NT!
+  
+ #Children's Old Gods 
+ old_gods_children: "Old Gods of the Song" #NT!
+ old_gods_children_adj: "True Old Gods" #NT!
+ old_gods_children_adherent: "Old Gods Follower" #NT!
+ old_gods_children_adherent_plural: "Old Gods Followers" #NT!
+ old_gods_children_desc: "Men called them the Children of the Forest, the Giants speak of [Glossary('woh dak nag gram', 'CHILDREN_FOREST_GLOSS')], but they named themselves 'Those Who Sing the Song of the Earth.' It is from that song that the understanding and worship of the Old Gods — of Winter and Wood, of Rivers and Hills, of Moon and Vale, of Rock and Gold, of Field and Grove, of Storm and Wave, of Dune and Sand, of Smoke and Salt, of Frost and Forest, of Snow and Ice, of Mountain and Stone, of Peak and Valley, of Dark and Cave, of Sea and Shell — is truly done." #NT!

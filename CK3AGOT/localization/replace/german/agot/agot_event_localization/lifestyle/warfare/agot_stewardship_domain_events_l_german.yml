@@ -1,2 +1,2 @@
 ﻿l_german:
- stewardship_domain.6001.dragon:0 "I will use [dragon.GetFirstName] to clear the marshland myself!"
+ stewardship_domain.6001.dragon: "I will use [dragon.GetFirstName] to clear the marshland myself!" #NT!

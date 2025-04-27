@@ -1,203 +1,588 @@
 ﻿l_german:
- doctrine_not_both_marriage_and_concubinage:0 "[faith|E] kann nicht zugleich Polygamie und Konkubinen haben"
- incompatible_doctrine_dualistic_ditheistic_trigger:0 "Der [faith|E] muss entweder ditheistischee Lehre oder transtheistische Lehre haben"
- incompatible_doctrine_chaos_into_world_polytheistic_trigger:0 "[faith|E] muss mehrere Götter haben"
- allowed_clergy_appointed_to_monks:0 "Mitglieder des [clergy|E] müssen Mönche oder Nonnen sein."
- disallowed_clergy_appointed_to_monks:0 "Mitglieder des [clergy|E] sollten keine Mönche oder Nonnen sein."
- 
- doctrine_pantheon_name:0 "Pantheon & Riten"
- doctrine_fots_pantheon_name:0 "Die Sieben"
- doctrine_fots_pantheon_desc:0 "Dieser Glaube verehrt eine Gottheit mit sieben Aspekten, wie es im alten Andalos üblich war und durch die Invasion der Andalen nach Westeros gebracht wurde. Ihr Pantheon besteht aus dem Vater, der Mutter, dem Krieger, dem Schmied, der Jungfrau, dem Alten Weib und dem Fremden."
- doctrine_parameter_faith_of_the_seven_patrons:0 "Erlaubt es [characters|E] dieses [Concept('faith', 'Glaubens')|E], sich einen der Sieben als Schutzpatron zu wählen."
- doctrine_fots_baelor_pantheon_name:0 "Die Sieben & Baelor"
- doctrine_fots_baelor_pantheon_desc:0 "Dieser Glaube verehrt eine Gottheit mit sieben Aspekten, allerdings verehren sie darüber hinaus auch Baelor I, den Septonkönig, den sie als Inbild und fleischliche Hülle der Sieben ansehen."
- doctrine_parameter_baelorist_patrons:0 "Erlaubt es [characters|E] dieses [Concept('faith', 'Glaubens')|E] sich einen der Sieben oder Baelor I, Inbild der Sieben, als Schutzpatron zu wählen."
- doctrine_old_gods_pantheon_name:0 "Alte Götter"
- doctrine_old_gods_pantheon_desc:0 "Dieser Glaube verehrt die Alten Götter von Wald, Fluss und Stein. Namenlose Götter des Landes, welche mit den Wehrholzbäume, die man überall in Westeros finden kann, verbunden sind."
- doctrine_parameter_old_gods_patrons:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren viele nahe Götter, die Einfluss auf ihre allgemeine Umgebung haben."
- doctrine_old_gods_btw_pantheon_name:0 "Alte Götter des fernen Nordens"
- doctrine_old_gods_btw_pantheon_desc:0 "Dieser Glaube verehrt die alten Götter von Wald, Fluss und Stein. Namenlose Götter des Landes, welche mit den Wehrholzbäume, die man überall in Westeros finden kann, verbunden sind. Außerdem noch einige seltsame Götter von jenseits der Mauer."
- doctrine_parameter_free_folk_patrons:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] glauben an viele regionale Gottheiten, die Einfluss auf ihre Lebenswelt haben." 
- doctrine_parameter_rhllor_volantene_patrons:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren den Herrn des Lichts."
-
-
-
- doctrine_parameter_magnar_patron:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] glauben, dass ihr König einem Gott ähnlicher ist als einem Menschen, und verehren ihn."
- doctrine_magnar_pantheon_name:0 "Die Magnaren"
- doctrine_magnar_pantheon_desc:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] glauben, dass ihr König einem Gott ähnlicher ist als einem Menschen, und verehren ihn."
- doctrine_parameter_bronze_gods_pantheon:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren ihre Götter als Verkörperung von Bronze, Zinn und Kupfer, die ihnen Glück und Wohlstand bringen."
- doctrine_bronze_ones_name:0 "Bronzegötter"
- doctrine_bronze_ones_desc:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren ihre Götter als Verkörperungen von Bronze, Zinn und Kupfer, die ihnen Glück und Wohlstand bringen."
- doctrine_parameter_lady_of_the_waves_pantheon:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren eine Göttin, welche über die Wellen herrscht, und einen Gott, der über den Himmel herrscht."
- doctrine_waves_and_skies_name:0 "Wellen und Himmel"
- doctrine_waves_and_skies_desc:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren eine Göttin, welche über die Wellen herrscht, und einen Gott, der über den Himmel herrscht."
- doctrine_parameter_others_pantheon:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren die Anderen als besondere Wesen, welche eine erneute, gerechtfertigte Verwüstung und Zerstörung der Welt ankündigen, indem sie ihnen Neugeborene opfern."
- doctrine_the_others_pantheon_name:0 "Die Anderen"
- doctrine_the_others_pantheon_desc:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] glauben, dass die Anderen außergewöhnliche Wesen sind, die eine neue, rechtschaffene Zerstörung und Vernichtung der Welt einläuten werden. Ihnen werden Neugeborene geopfert."
- doctrine_old_gods_vale_pantheon_name:0 "Alte Götter des Tals"
- doctrine_old_gods_vale_pantheon_desc:0 "Dieser Glaube verehrt die Alten Götter von Wald, Fluss und Stein. Namenlose Götter des Landes, welche mit den Wehrholzbäumen, die man überall im Grünen Tal finden kann, verbunden sind."
- doctrine_parameter_vale_clans_patrons:0 "Erlaubt es [characters|E] dieses [Concept('faith', 'Glaubens')|E], sich einen der vielen Alten Götter des Tals als Schutzpatron zu wählen."
- doctrine_drowned_god_pantheon_name:0 "Der Ertrunkene Gott"
- doctrine_drowned_god_pantheon_desc:0 "Dieser Glaube verehrt den Ertrunkenen Gott, der unter den Wellen ins seinen Wasserhallen herrscht. Als Erschaffer der Meere und als Vater der Gläubigen ist der Ertrunkene Gott mit den Meeren der Welt verbunden."
- doctrine_parameter_drowned_god_patrons:0 "Gewährt diesem [Concept('faith', 'Glauben')|E] Zugang zu den Schutzpatronen des Ertrunkenen Gottes."
- doctrine_foe_pantheon_name:0 "Die Acht der Eisenmänner"
- doctrine_foe_pantheon_desc:0 "Dieser Glaube verehrt die Sieben und den Ertrunkenen Gott, der in seinen Wasserhallen unter den Wellen herrscht. Als Schöpfer der Meere und Vater der Gläubigen ist der Ertrunkene Gott mit den Meeren der bekannten Welt verbunden und herrscht zweifellos über die Sieben Götter der Andalen."
- doctrine_parameter_faith_of_eight_patrons:0 "Gewährt diesem [Concept('faith', 'Glauben')|E] Zugang zu den Schutzpatronen des Glaubens an die Sieben und den Ertrunkenen Gott in synkretischer Weise."
- doctrine_storm_god_pantheon_name:0 "Der Sturmgott"
- doctrine_storm_god_pantheon_desc:0 "Dieser Glaube verehrt den Sturmgott, der in seiner wolkigen Halle über den Himmeln herrscht. Als Erschaffer der Himmel und Vater der Gläubigen ist der Sturmgott mit den Himmeln der Welt verbunden."
- doctrine_parameter_storm_god_patrons:0 "Gewährt diesem [Concept('faith', 'Glauben')|E] Zugang zu den Schutzpatronen des Sturmgottes."
- doctrine_rhllor_westerosi_pantheon_name:0 "Roter Gott"
- doctrine_rhllor_westerosi_pantheon_desc:0 "Dieser Glaube folgt den Riten des Roten Gottes und verehrt den einzig wahren Gott R'hllor und seinen Helden Azor Ahai, der wiederkehren wird, um die Dunkelheit ein für alle Mal zu vertreiben."
- doctrine_rhllor_volantene_pantheon_name:0 "Volantenische Riten"
- doctrine_rhllor_volantene_pantheon_desc:0 "Dieser Glaube folgt den Volantenischen Riten des R'hllor. Sie verehren den enizig wahren Gott R'hllor und seinen Helden Azor Ahai, der wiederkehren wird, um die Dunkelheit ein für alle Mal zu vertreiben."
- doctrine_rhllor_asshai_pantheon_name:0 "Asshai'ische Riten"
- doctrine_rhllor_asshai_pantheon_desc:0 "Dieser Glaube folgt den Asshai'ische Riten des R'hllor. Sie verehren den einzig wahren Gott R'hllor und seinen Helden Azor Ahai, der wiederkehren wird, um die Dunkelheit ein für alle Mal zu vertreiben."
- doctrine_rhllor_hyrkooni_pantheon_name:0 "Hyrkoonische Riten"
- doctrine_rhllor_hyrkooni_pantheon_desc:0 "Dieser Glaube folgt den Hyrkoonischen Riten des R'hllor. Sie verehren den einzig wahren Gott R'hllor und seinen Helden Azor Ahai, der wiederkehren wird, um die Dunkelheit ein für alle Mal zu vertreiben."
- doctrine_valyrian_pantheon_name:0 "Valyrisches Pantheon"
- doctrine_valyrian_pantheon_desc:0 "ieser Glaube verehrt die Götter des alten Valyrischen Pantheons, die Götter von Feuer und Blut, der Abbilder sowohl von Drachen als auch Menschen sind."
- doctrine_lyseni_pantheon_name:0 "Lysenisches Pantheon"
- doctrine_lyseni_pantheon_desc:0 "Dieser Glaube verehrt die Götter von Lys, ein komplexes Pantheon, das in der freien Stadt aus verschiedenen Valyrischen Sekten hervorgegangen ist. Unter diesen finden sich die Schöne Frau, die Weinende Frau, die Gerüstete Frau, Yndros aus dem Zwielicht, Pantera die Katzengöttin und Saagael der Gesichtslose."
- doctrine_parameter_lyseni_patrons:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren das Pantheon der Lyseni."
- doctrine_parameter_valyrian_patrons:0 "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren das Pantheon der Valyrer."
-
-
- doctrine_parameter_prince_patrons:0 "Dieser [faith|E] verehrt den Fürsten und die Götter."
- doctrine_prince_pantheon_name:0 "Der Fürst und die Götter"
- doctrine_prince_pantheon_desc:0 "Dieser [faith|E] verehrt den Fürsten und die Götter."
- doctrine_rhoynish_pantheon_name:0 "Mutter Rhoyne"
- doctrine_rhoynish_pantheon_desc:0 "Dieser [faith|E] verehrt die Mutter Rhoyne."
- doctrine_parameter_rhoynish_patrons:0 "Dieser [faith|E] verehrt die Mutter Rhoyne."
- doctrine_norvoshi_pantheon_name:0 "Bärtiger Gott"
- doctrine_norvoshi_pantheon_desc:0 "Dieser [faith|E] verehrt den Bärtigen Gott"
- doctrine_parameter_norvoshi_patrons:0 "Dieser [faith|E] verehrt den Bärtigen Gott"
- 
- doctrine_syncreticism_name:0 "Synkretismus"
- doctrine_no_syncreticism_name:0 "Der einzig wahre Glaube"
- doctrine_no_syncreticism_desc:0 "Dieser Glaube erkennt keine anderen Religionen oder Götter an. Er ist rein und bleibt seinen eigenen Lehren treu."
- doctrine_fots_syncreticism_name:0 "Siebenfältiger Synkretismus"
- doctrine_fots_syncreticism_desc:0 "Die Sieben, die einer sind stellen weitere Aspekte unserer Gottheiten dar. Daher werden wir die Rechte und Traditionen ihres Glaubens anerkennen."
- doctrine_old_gods_syncreticism_name:0 "Synkretismus der Alten Götter"
- doctrine_old_gods_syncreticism_desc:0 "Die Alten Götter stellen ältere Aspekte unserer Gottheiten dar. Daher werden wir die Rechte, Traditionen und Heiligkeit ihrer Verehrung anerkennen."
- doctrine_drowned_god_syncreticism_name:0 "Synkretismus des Ertrunkenen"
- doctrine_drowned_god_syncreticism_desc:0 "Der Ertrunkene Gott stellt ein weiteres Gesicht unserer Gottheiten dar. Daher werden wir die Rechte und Traditionen ihres Weges anerkennen."
- doctrine_rhllor_syncreticism_name:0 "R'hollors Synkretismus"
- doctrine_rhllor_syncreticism_desc:0 "Der Rote Gott mag nicht unserem Pantheon angehören, doch mag er dennoch ein Gott sein. Daher werden wir die Rechte und Traditionen seiner Priester anerkennen."
- doctrine_valyrian_syncreticism_name:0 "Valyrischer Synkretismus"
- doctrine_valyrian_syncreticism_desc:0 "Die Götter von Valyria sind lediglich andere Formen unserer Gottheiten. Daher werden wir die Rechte und Traditionen der Anhänger der Flammen anerkennen."
-
- doctrine_parameter_hostility_override_doctrine_clerical_marriage_allowed:0 "Sieht alle anderen [faiths|E] stets als [faith_astray|L] an, unabhängig von Unterschieden in den Doktrinen"
- doctrine_parameter_hostility_override_doctrine_clerical_marriage_disallowed:0 "[county_opinion|E] wird nicht von [faith_hostility|E] beeinflusst"
- 
- tenet_blood_bound_name:0 "Blutsbande"
- tenet_blood_bound_desc:0 "Angehörige dieses Glaubens werden regelmäßig Blutsbande mit ihren Vertrauten eingehen. Diese Bande sind besonders wichtig. Jene, die durch das Blut verbunden sind halten unverbrüchlich Treue zueinander und das Brechen dieser Treue ist im höchsten Maße pietätlos."
- tenet_role_accordance_name:0 "Rollenübereinstimmung"
- tenet_role_accordance_desc:0 ""
- tenet_secretive_faith_name:0 "Secretive Faith"
- tenet_secretive_faith_desc:0 "Glaube ist vor allem eine zutiefst persönliche Angelegenheit. Daher ist es zuwider, die Erfahrungen des Göttlichen mit Außenstehenden, und in gewissem Maße sogar unter uns selbst,  zu teilen. Man muss den Glauben auf einer persönlichen Ebene betrachten und die Geduld haben, die Geheimnisse von innen heraus zu entdecken, statt von außen."
- tenet_religious_tolerance_name:0 "Religiöse Toleranz"
- tenet_religious_tolerance_desc:0 "Die Liebe des Göttlichen erstreckt sich auch auf jene, die nicht dem wahren Glauben folgen. Jeder Mensch trägt einen Teil des Göttlichen in seinem Herzen und ihm muss es erlaubt sein, den Glauben ohne unangemessene Einmischung auf eigene - wenn auch falsche - Weise zu praktizieren."
- tenet_imposed_induction_name:0 "Erzwungene Weihe"
- tenet_imposed_induction_desc:0 "Die Priesterkaste dieser Religion besteht oft aus Menschen, die in den Dienst am Göttlichen gezwungen wurden. Er ist mehr als eine Aufgabe, er ist eine Pflicht. Durch diese Ansicht hat sich auch eine positive Sicht der Gläubigen auf die Sklaverei entwickelt."
- tenet_holy_lovemaking_name:0 "Heiliges Liebesspiel"
- tenet_holy_lovemaking_desc:0 "Viele meiden jene, welche die Fleischeslust im Übermaß genießen. Kennen diese Gläubigen solche Bedenken nicht. Das Göttliche zu kennen heißt für sie, die Freuden zu kennen und nur durch die körperliche Verbindung kann man sich, seinen Partner und dass Göttliche wahrhaft kennenlernen."
- tenet_ritualized_warfare_name:0 "Ritualisierte Kriegsführung"
- tenet_ritualized_warfare_desc:0 "Statt Konflikte mit klassischer Kriegsführung zu entscheiden, halten Gläubige dieser Religion heilige Kampfrituale an festgelegten Zeiten und Orten ab. Konflikte, die man sonst durch Kriege löst, werden so auf eine Art und Weise beendet, die das geringste Maß an Blutvergießen verspricht."
- tenet_pious_scapegoat_name:0 "Frommer Sündenbock"
- tenet_pious_scapegoat_desc:0 "In schweren Zeiten - insbesondere nach einem verlorenen Krieg - trägt ein ausgewählter Sündenbock die Strafe für das Scheitern. Um das Göttliche zu besänftigen und sicherzustellen, dass jemand bestraft wird, wird der Sündenbock in einem Ritual geopfert, das die Gunst des Göttlichen wiederherstellen soll."
- tenet_hair_of_the_virtuous_name:0 "Geistliches Haar"
- tenet_hair_of_the_virtuous_desc:0 "In diesem Glauben ist Gesichtsbehaarung ausschließlich den Klerikern vorbehalten; außerdem ist es ihnen verboten, ihren Bart zu rasieren oder ihr Haar zu schneiden, nachdem in den Klerus aufgenommen wurden."
- tenet_godly_bloodthirst_name:0 "Göttlicher Blutdurst"
- tenet_godly_bloodthirst_desc:0 "Die Gläubigen wissen in ihrem Herzen, dass das Göttliche nach Blut lechzt. Blutopfer werden nicht nur als pietätvoll angesehen, sondern als notwendig. Diejenigen, die der Forderung, diesen Blutdurst zu stillen, nicht nachkommen, gelten als suspekt und verachtenswert."
- tenet_council_of_three_name:0 "Rat der Drei"
- tenet_council_of_three_desc:0 ""
- tenet_enemies_of_men_name:0 "Feinde der Menschen"
- tenet_enemies_of_men_desc:0 "Die Anhänger dieses Glaubens folgen dunklen Mächten, die der Welt, wie wir sie kennen, ein Ende setzen wollen. Trotz ihres treuen Dienstes für ihre Meister werden die Anhänger dieses Glaubens von Außenstehenden mit Spott und Verachtung betrachtet, da man sich ob der Unterstützung, die sie den Feinden der Menschheit erweisen, fürchtet."
- tenet_godly_leadership_name:0 "Göttliche Führerschaft"
- tenet_godly_leadership_desc:0 "Unsere Anführer sind mehr Gott als Mensch und als solche müssen wir ihnen vertrauen. Sie weisen uns den Weg, und wir müssen folgen."
- tenet_divine_concubinage_name:0 "Heiliges Konkubinat"
- tenet_divine_concubinage_desc:0 "Herrscher dieses Glaubens werden als tugendhaft angesehen, wenn sie sich Konkubinen nehmen und jene, die es nicht tun, werden am Allgemeinen als pietätlos betrachtet. Die Konkubinen selbst und auch ihre Kinder werden von den Gläubigen ebenfalls gerühmt."
- tenet_burning_offerings_name:0 "Feueropfer"
- tenet_burning_offerings_desc:0 "Es ist Brauch, dass die Gläubigen die Verbrennung von falschen Götzen und Ungläubigen für das Göttliche durchführen. Die Flamme soll außerdem Unreinheiten beseitigen und gilt als heilig."
- doctrine_parameter_flames_divination_active:0 "[rulers|E] mit diesem Grundsatz können sich dazu [decide|E], #V in die Flammen zu blicken#! in der Hoffnung Visionen und Vorahnungen zu erhalten." #neu
- tenet_dragon_bonding_name:0 "Drachenbund"
- tenet_dragon_bonding_desc:0 "Nur ein Narr wäre nicht in der Lage, die den Drachen innewohnende Göttlichkeit zu erkennen. Die wenigen Auserwählten, die die Möglichkeit haben, eine bedeutungsvolle Beziehung zu diesen prachtvollen Geschöpfen aufzubauen, können wahrlich als gesegnet bezeichnet werden. Diejenigen wiederum, die ihnen Schaden zufügen wollen, sind abscheulich und verachtenswert."
- tenet_the_others_name:0 "Kult der Anderen"
- tenet_the_others_desc:0 "Obgleich das Ende der Tage durch sie kommen wird, können wir uns vielleicht etwas Zeit verschaffen, indem wir sie mit unseren Neugeborenen vertrösten. Andere werden auf uns herabblicken und uns dafür verurteilen. Doch wenn der Winter für sie kommt, werden sie dazu nicht mehr in der Lage sein."
- tenet_the_mark_name:0 "Das Mal"
- tenet_the_mark_desc:0 "Es heißt, dass diejenigen, die glücklich geboren werden, vom Göttlichen mit Schwimmhäuten an Händen und Füßen gekennzeichnet werden. Eindeutig bevorzugt, gelten diese Menschen als die besten unter ihnen."
- tenet_blinded_followers_name:0 "Geblendete Anhänger"
- tenet_blinded_followers_desc:0 "Nur in der Dunkelheit kann sich unser drittes Auge öffnen und uns die höheren Wahrheiten der Schöpfung erkennen lassen, die hinter den Trugbildern der materiellen Welt verborgen liegen. Eitelkeit ist der Weg in die Verdammnis, und das Augenlicht dient dabei als Wegbereiter."
- tenet_sacred_mines_name:0 "Geheiligte Minen"
- tenet_sacred_mines_desc:0 "'Ich bin umzingelt von Zwergen. Was wollen die hier?' - Bilbo Beutlin" # AGOT TODO Localization
- tenet_the_mark_desc:0 "."
-
- tenet_weirwoods_name:0 "Wehrholzbäume"
- tenet_weirwoods_desc:0 "Durch die Wehrholzbäume können die Alten Götter die Gläubigen sehen. Wir sollten unser Schicksal in ihre Hände legen und in Zeiten der Not in ihren heiligen Hainen beten und sinnieren."
- doctrine_parameter_can_visit_weirwood_groves:0 "[rulers|E] mit diesem Grundsatz können sich [decide|E], einen Götterhain zu besuchen, wo sie eine Reihe von Ereignissen erleben können."
- tenet_greenseers_name:0 "Grünseher"
- tenet_greenseers_desc:0 "Diese Grünseher…"
- 
- tenet_godswoods_name:0 "Götterhaine"
- tenet_godswoods_desc:0 "Als die Ersten Menschen die Alten Götter der Kinder des Waldes annahmen, errichteten sie Götterhaine, kleine Wäldchen innerhalb ihrer Burgen und Dörfer, in denen ein einzelner Wehrholzbaum gepflanzt wurde, der als 'Herzbaum' bezeichnet wurde und in den ein Gesicht geschnitzt war, so dass die Götter verehrt werden konnten."
- doctrine_parameter_can_build_godswoods:0 "[rulers|E] können Götterhaine errichten. Ein [building|E], dass [piety|E] und [prestige|E] in [castle|E]- & [Concept('tribe', 'Stammes')|E]-Besitztümern erwirtschaftet."
- 
- tenet_monasticism_septries:0 "Septeien"
- tenet_monasticism_septries_desc:0 "Septeien"
- tenet_the_most_devout_name:0 "Die Ergebensten"
- tenet_the_most_devout_desc:0 "[collegeofcardinals|e] sind ein Rat der ranghöchsten Geistlichen des Glaubens an die Sieben. An ihrer Spitze steht der Hohe Septon, der von ihren Mitgliedern gewählt wird, wobei es vorkommt, dass Lords und Könige die Ergebensten beeinflussen, um ihren Kandidaten zu wählen."
- tenet_knighthood_name:0 "Geweihtes Rittertum"
- tenet_knighthood_desc:0 "Das Rittertum ist eine Tradition dieses Glaubens. Von [agot_knights|e] wird erwartet, dass sie die ritterlichen Tugenden wie Tapferkeit, Gerechtigkeit und Ehre verkörpern."
- doctrine_parameter_can_grant_knighthood:0 "Charaktere sind eher bereit, Rittertum-[interaction|E] zu akzeptieren."
- doctrine_parameter_knighthood_interactions_grant_piety:0 "Rittertum-[event|E] und -[interaction|E] können [piety|E] gewähren."
- 
- tenet_salt_and_sea_name:0 "Salz und See"
- tenet_salt_and_sea_desc:0 "Dieser Glaube betrachtet das Meerwasser als heilig und vollzieht Rituale, bei denen die Gläubigen der heiligen See und den darin weilenden Göttern Opfer darbringen."
-
- #Earl of Berkeley - adding missing localization
- tenet_westerosi_syncretism_name:0 "Synkretismus der Westerosi"
- tenet_westerosi_syncretism_desc:0 "Dieser Glaube erkennt einen Wert in den Religionen von Westeros. Den Alten Götter, den Sieben und sogar dem rauen Ertrunkenen Gott. Statt die unterschiedlichen Lehren von Westeros zu meiden, tolerieren die Gelehrten dieses Glaubens die fremden Ideen und streben sogar danach, einige der Lehren und Praktiken zu integrieren."
-
- tenet_the_iron_way_name:0 "Der Eiserne Weg"
- tenet_the_iron_way_desc:0 "Die Anhänger dieses Glaubens wissen, dass das einzige Gebot im Leben das Streben nach Macht ist und dass der einzige ehrenhafte Weg, Macht zu erlangen, darin besteht, den Eisernen Preis zu zahlen. Diplomatie ist für die Schwachen, Handel für die Feiglinge. Diejenigen, die dem Eisernen Weg folgen, nehmen sich, was sie wollen und vernichten alles, was sich ihnen in den Weg stellt."
-
- faith_of_the_seven_hostility_doctrine_name:0 "Feindseligkeit des Glaubens an die Sieben"
- faith_of_the_seven_hostility_doctrine_desc:0 "Betrachten andere [faiths|E] in der eigenen Religionsfamilie als [faith_astray|L], die Götter des Winter als [faith_evil|L] und alle anderen Religion als [faith_hostile|L]."
-
- westerosi_hostility_doctrine_name:0 "Feindseligkeit der Westerosi"
- westerosi_hostility_doctrine_desc:0 "Betrachten alle anderen [faiths|E] als [faith_hostile|L], außer die Götter des Winters, die als [faith_evil|L] betrachtet werden."
-
- western_essosi_hostility_doctrine_name:0 "Feindseligkeit der Westessosi"
- western_essosi_hostility_doctrine_desc:0 "Betrachten alle anderen [faiths|E] als [faith_astray|L], außer die Götter des Winters, die als [faith_evil|L] betrachtet werden."
-
- gods_of_winter_hostility_doctrine_name:0 "Feindseligkeit der Götter des Winters"
- gods_of_winter_hostility_doctrine_desc:0 "Betrachten alle anderen [faiths|E] als [faith_evil|L]"
-
- beyond_the_wall_and_vale_old_gods_hostility_doctrine_name:0 "Feindseligkeit der Alten Götter der Wildlinge"
- beyond_the_wall_and_vale_old_gods_hostility_doctrine_desc:0 "Betrachten andere [faiths|E] in der eigenen Religionsfamilie als [faith_astray|L], die Götter des Winter als [faith_evil|L] und alle anderen Religionen als [faith_hostile|L]."
-
- special_doctrine_ecumenical_essosi_name:0 "Ökumenische Feindseligkeit der Essosi"
- special_doctrine_ecumenical_essosi_desc:0 "Betrachten alle anderen [faiths|E] als [faith_astray|L]."
-
- special_doctrine_ecumenical_the_seven_name:0 "Ökumenische Feindseligkeit des Glaubens an die Sieben"
- special_doctrine_ecumenical_the_seven_desc:0 "Betrachten alle anderen [faiths|E] als [faith_righteous|L]."
-
- special_doctrine_ecumenical_old_gods_name:0 "Ökumenische Feindseligkeit der Alten Götter"
- special_doctrine_ecumenical_old_gods_desc:0 "Betrachten alle anderen [faiths|E] als [faith_astray|L]."
-
- special_doctrine_multi_ecumenical_old_gods_name:0 "Multi-ökumenische Feindseligkeit der Alten Götter"
- special_doctrine_multi_ecumenical_old_gods_desc:0 "Betrachten den Glauben an die Sieben und andere Religionen der Alten Götter, außer den Thenn, als [faith_astray|L] statt [faith_hostile|L]. Allerdings betrachtet der Glauben an die Sieben alle Religionen der Alten Götter jenseits der Mauer als [faith_hostile|L]."
-
- doctrine_voluntary_name:0 "Freier Wille"
- doctrine_voluntary_desc:0 "Gebete sind nicht notwendig, um göttliche Gunst zu erhalten."
-
- doctrine_consanguinity_agot_exceptionalism_name:0 "Von Götter Gnaden"
- doctrine_consanguinity_agot_exceptionalism_desc:0 "Der Glaube stammt aus Andalos, wo Inzest als abscheulich gilt. Allerdings haben Hochvalyrer wie die Targaryen ihre Wurzeln in Valyria, wo andere Sitten herrschen. Die Valyrer wurden von den Göttern dazu bestimmt, Bruder und Schwester zu heiraten, und daher wird der Glaube sie für diese Tradition nicht verurteilen."
-
- agot_exceptionalism_doctrine_name:0 "Von Götter Gnaden"
- agot_exceptionalism_doctrine_desc:0 "Der Glaube stammt aus Andalos, wo Inzest als abscheulich gilt. Allerdings haben Hochvalyrer wie die Targaryen ihre Wurzeln in Valyria, wo andere Sitten herrschen. Die Valyrer wurden von den Göttern dazu bestimmt, Bruder und Schwester zu heiraten, und daher wird der Glaube sie für diese Tradition nicht verurteilen."
- agot_exceptionalism_name:0 "$agot_exceptionalism_doctrine_name$"
- doctrine_parameter_targaryen_incest_active:0 "Mitgliedern der Tagaryen-Dynastie ist es erlaubt Geschwister miteinander zu verheiraten." #neu
-
- FAITH_DOCTRINES_BELIEF:0 "Glaubensdoktrinen"
- FAITH_DOCTRINES_PRACTICES:0 "Sittendoktrin"
+ doctrine_not_both_marriage_and_concubinage: "[faith|E] kann nicht zugleich Polygamie und Konkubinen haben"
+ incompatible_doctrine_dualistic_ditheistic_trigger: "Der [faith|E] muss entweder ditheistischee Lehre oder transtheistische Lehre haben"
+ incompatible_doctrine_chaos_into_world_polytheistic_trigger: "[faith|E] muss mehrere Götter haben"
+ allowed_clergy_appointed_to_monks: "Mitglieder des [clergy|E] müssen Mönche oder Nonnen sein."
+ disallowed_clergy_appointed_to_monks: "Mitglieder des [clergy|E] sollten keine Mönche oder Nonnen sein."
+  
+ doctrine_pantheon_name: "Pantheon & Riten"
+ doctrine_fots_pantheon_name: "Die Sieben"
+ doctrine_fots_pantheon_desc: "Dieser Glaube verehrt eine Gottheit mit sieben Aspekten, wie es im alten Andalos üblich war und durch die Invasion der Andalen nach Westeros gebracht wurde. Ihr Pantheon besteht aus dem Vater, der Mutter, dem Krieger, dem Schmied, der Jungfrau, dem Alten Weib und dem Fremden."
+ doctrine_parameter_faith_of_the_seven_patrons: "Erlaubt es [characters|E] dieses [Concept('faith', 'Glaubens')|E], sich einen der Sieben als Schutzpatron zu wählen."
+ doctrine_pantheon_the_seven_baelor_name: "The Seven & Baelor" #NT!
+ doctrine_pantheon_the_seven_baelor_desc: "In addition to the Seven-Who-Are-One, Baelor the Blessed, Septon-King, Holiest of Mortals, is prayed to, in the hopes he may intercede with the Seven on one's behalf." #NT!
+ doctrine_pantheon_the_seven_name: "The Seven-Who-Are-One" #NT!
+ doctrine_pantheon_the_seven_desc: "The Seven-Who-Are-One is one deity represented by seven aspects: The Father, stern and just; The Mother, loving and protective; The Warrior, brave and strong; The Maiden, beautiful and pure; The Smith, steadfast and diligent; The Crone, wise and thoughtful; and The Stranger, dark and shadowy." #NT!
+ doctrine_pantheon_the_seven_old_gods_name: "The Seven-Who-Are-One & Old Gods" #NT!
+ doctrine_pantheon_the_seven_old_gods_desc: "Where some see the Old and New Gods as two different things, these know they are indeed one, just opposite sides of the same coin." #NT!
+ doctrine_parameter_faith_of_the_seven_weirwood_patrons: "Grants [characters|E] of this [faith|E] the ability to choose one of the Seven or the Weirwood as their Patron." #NT!
+ doctrine_pantheon_the_seven_qarlon_name: "The Seven-Who-Are-One & Qarlon the Great" #NT!
+ doctrine_pantheon_the_seven_qarlon_desc: "In addition to the Seven-Who-Are-One, Qarlon the Great, King of All Andals, is remembered and prayed to, in the hopes of shelter from outsiders and the unfaithful." #NT!
+ doctrine_parameter_faith_of_the_seven_qarlon_patrons: "Grants [characters|E] of this [faith|E] the ability to choose one of the Seven or Qarlon the Great, avatar of the Seven, as their Patron." #NT!
+ doctrine_parameter_baelorist_patrons: "Erlaubt es [characters|E] dieses [Concept('faith', 'Glaubens')|E] sich einen der Sieben oder Baelor I, Inbild der Sieben, als Schutzpatron zu wählen."
+ doctrine_pantheon_old_gods_name: "Old Gods" #NT!
+ doctrine_pantheon_old_gods_desc: "This faith worships the Old Gods of stream, forest, and stone, nameless deities of the land connected to the Weirwood Trees found throughout Westeros." #NT!
+ doctrine_parameter_old_gods_patrons: "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren viele nahe Götter, die Einfluss auf ihre allgemeine Umgebung haben."
+ doctrine_old_gods_btw_pantheon_name: "Alte Götter des fernen Nordens"
+ doctrine_old_gods_btw_pantheon_desc: "Dieser Glaube verehrt die alten Götter von Wald, Fluss und Stein. Namenlose Götter des Landes, welche mit den Wehrholzbäume, die man überall in Westeros finden kann, verbunden sind. Außerdem noch einige seltsame Götter von jenseits der Mauer."
+ doctrine_parameter_free_folk_patrons: "Die [characters|E] dieses [faith|E] glauben an viele regionale Gottheiten, die Einfluss auf ihre Lebenswelt haben."
+ doctrine_parameter_rhllor_volantene_patrons: "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren den Herrn des Lichts."
+ doctrine_parameter_magnar_patron: "Die [characters|E] dieses [faith|E] glauben, dass ihr König einem Gott ähnlicher ist als einem Menschen, und verehren ihn."
+ doctrine_pantheon_old_gods_magnar_name: "The Magnar & Old Gods" #NT!
+ doctrine_pantheon_old_gods_magnar_desc: "It is known that the Old Gods are uncountable and unknowable, all except one, who walks the world in flesh: the Magnar." #NT!
+ doctrine_parameter_bronze_gods_pantheon: "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren ihre Götter als Verkörperung von Bronze, Zinn und Kupfer, die ihnen Glück und Wohlstand bringen."
+ doctrine_bronze_ones_name: "Bronze-Götter"
+ doctrine_bronze_ones_desc: "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren ihre Götter als Verkörperungen von Bronze, Zinn und Kupfer, die ihnen Glück und Wohlstand bringen."
+ doctrine_parameter_lady_of_the_waves_pantheon: "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren eine Göttin, welche über die Wellen herrscht, und einen Gott, der über den Himmel herrscht."
+ doctrine_waves_and_skies_name: "Wellen und Himmel"
+ doctrine_waves_and_skies_desc: "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren eine Göttin, welche über die Wellen herrscht, und einen Gott, der über den Himmel herrscht."
+ doctrine_parameter_others_pantheon: "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren die Anderen als besondere Wesen, welche eine erneute, gerechtfertigte Verwüstung und Zerstörung der Welt ankündigen, indem sie ihnen Neugeborene opfern."
+ doctrine_pantheon_the_others_name: "The Others" #NT!
+ doctrine_pantheon_the_others_desc: "The Others, the White Walkers, the Cold Shadows: by whatever name they are known, bring Cold and Death and are the heralds of the Long Night." #NT!
+ doctrine_old_gods_vale_pantheon_name: "Alte Götter des Tals"
+ doctrine_old_gods_vale_pantheon_desc: "Dieser Glaube verehrt die Alten Götter von Wald, Fluss und Stein. Namenlose Götter des Landes, welche mit den Wehrholzbäumen, die man überall im Grünen Tal finden kann, verbunden sind."
+ doctrine_parameter_vale_clans_patrons: "Erlaubt es [characters|E] dieses [Concept('faith', 'Glaubens')|E], sich einen der vielen Alten Götter des Tals als Schutzpatron zu wählen."
+ doctrine_pantheon_drowned_god_name: "The Drowned God" #NT!
+ doctrine_pantheon_drowned_god_desc: "This faith worships the Drowned God, He Who Dwells Beneath the Waves, in his watery halls. Creator of the Seas and father of the faithful, the Drowned God is connected to the seas of the world." #NT!
+ doctrine_parameter_drowned_god_patrons: "Gewährt diesem [faith|E] Zugang zu den Schutzpatronen des Ertrunkenen Gottes."
+ doctrine_pantheon_the_seven_drowned_god_name: "The Eight of the Ironmen" #NT!
+ doctrine_pantheon_the_seven_drowned_god_desc: "This faith worships the Seven and the Drowned God, He Who Dwells Beneath the Waves, in his watery halls. Creator of the Seas and father of the faithful, the Drowned God is connected to the seas of the world, and clearly rules over the Seven Gods of the Andals." #NT!
+ doctrine_parameter_faith_of_eight_patrons: "Gewährt diesem [faith|E] Zugang zu den Schutzpatronen des Glaubens an die Sieben und den Ertrunkenen Gott in synkretischer Weise."
+ doctrine_pantheon_drowned_god_storm_name: "The Storm God" #NT!
+ doctrine_pantheon_drowned_god_storm_desc: "This faith worships the Storm God, He Who Dwells Above the Skies, in his cloudy halls. Creator of the Skies and father of the faithful, the Storm God is connected to the skies of the world." #NT!
+ doctrine_parameter_storm_god_patrons: "Gewährt diesem [faith|E] Zugang zu den Schutzpatronen des Sturmgottes."
+ doctrine_rhllor_westerosi_pantheon_name: "Roter Gott"
+ doctrine_rhllor_westerosi_pantheon_desc: "Diese Glaube folgt den Riten des Roten Gottes und verehrt den einzig wahren Gott R'hllor und seinen Helden Azor Ahai, der wiederkehren wird, um die Dunkelheit ein für alle Mal zu vertreiben."
+ doctrine_pantheon_rhllor_name: "R'hllor" #NT!
+ doctrine_pantheon_rhllor_desc: "R'hllor is the Heart of Fire, the Lord of Light, the God of Flame and Shadow. It is he who fights the Great Other, and led Azor Ahai to save the world in the Long Night after the Blood Betrayal." #NT!
+ doctrine_rhllor_asshai_pantheon_name: "Riten der Asshai'i"
+ doctrine_rhllor_asshai_pantheon_desc: "Dieser Glaube folgt den R'hllor-Riten der Asshai'i. Sie verehren den einzig wahren Gott R'hllor und seinen Helden Azor Ahai, der wiederkehren wird, um die Dunkelheit ein für alle Mal zu vertreiben."
+ doctrine_rhllor_hyrkooni_pantheon_name: "Hyrkoonische Riten"
+ doctrine_rhllor_hyrkooni_pantheon_desc: "Dieser Glaube folgt den Hyrkoonischen Riten des R'hllor. Sie verehren den einzig wahren Gott R'hllor und seinen Helden Azor Ahai, der wiederkehren wird, um die Dunkelheit ein für alle Mal zu vertreiben."
+ doctrine_valyrian_pantheon_name: "Valyrisches Pantheon"
+ doctrine_valyrian_pantheon_desc: "Dieser Glaube verehrt die Götter des alten Valyrischen Pantheons, die Götter von Feuer und Blut, der Abbilder sowohl von Drachen als auch Menschen sind."
+ doctrine_pantheon_the_seven_valyrian_name: "The Fourteen-Who-Are-One" #NT!
+ doctrine_pantheon_the_seven_valyrian_desc: "When the Faith of the Dragons was preached, it was realized that the Fourteen Flames were merely smaller aspects of the One, much as the One appeared to the Andals as the Seven-Who-Are-One." #NT!
+ doctrine_valyrian_pantheon_painted_name: "Gods of Flame and Wing" #NT!
+ doctrine_valyrian_pantheon_painted_desc: "The gods once were amongst us, but they did not walk; they flew, high above us on wings of dread and breathed flame." #NT!
+ doctrine_pantheon_braavos_name: "The World's Pantheon" #NT!
+ doctrine_pantheon_braavos_desc: "While all gods are welcomed in the Free Cities, those most celebrated on the Isle of the Gods are the Moon-Pale Maiden, the Lion of Night, the Father of Waters, and the Merling King." #NT!
+ doctrine_parameter_braavosi_patrons: "Grants [characters|E] of this [faith|E] the ability to choose one of the deities from the Braavosi pantheon as their Patron." #NT!
+ doctrine_pantheon_black_goat_name: "The Black Goat" #NT!
+ doctrine_pantheon_black_goat_desc: "The Black Goat is worshipped chiefly in Qohor, and is known for the bloody sacrifices it demands." #NT!
+ doctrine_pantheon_boash_name: "Blind God" #NT!
+ doctrine_pantheon_boash_desc: "Boash, the Blind God, is a strict god who seeks to have its followers see into the higher planes of existence." #NT!
+ doctrine_pantheon_josimakazma_name: "Josimakazma" #NT!
+ doctrine_pantheon_josimakazma_desc: "The Divine Sun, Josimakazma, is the source of all life and the progenitor of all. It is from it that we owe all." #NT!
+ doctrine_pantheon_volantis_name: "The Worthy" #NT!
+ doctrine_pantheon_volantis_desc: "While all gods are welcomed in the Free Cities, those chiefly celebrated in Volantis are the Lion of Night, the twins Semosh and Selloso, Pantera, and Aquan the Red Bull." #NT!
+ doctrine_parameter_volantene_patrons: "Grants [characters|E] of this [faith|E] the ability to choose one of the deities from the Volantene pantheon as their Patron." #NT!
+ doctrine_pantheon_lorath_name: "Patrons of the Pattern" #NT!
+ doctrine_pantheon_lorath_desc: "While all gods are welcomed in the Free Cities, those chiefly celebrated in Lorath are the Pattern, the Father of Waters, the Hooded Wayfarer, and Bakkalon." #NT!
+ doctrine_parameter_lorath_patrons: "Grants [characters|E] of this [faith|E] the ability to choose one of the deities from the Lorathi pantheon as their Patron." #NT!
+ doctrine_pantheon_pentos_name: "Prince's Mercies" #NT!
+ doctrine_pantheon_pentos_desc: "While all gods are welcomed in the Free Cities, in Pentos, the Prince is seen as the intermediary, the one who is the voice of the gods, and the ultimate sacrifice to appease the gods as well." #NT!
+ doctrine_pantheon_myr_name: "The Conclave" #NT!
+ doctrine_pantheon_myr_desc: "While all gods are welcomed in the Free Cities, those chiefly worshipped in Myr are Aquan the Red Bull, the Hooded Wayfarer, the Silent God, and Gelenei." #NT!
+ doctrine_parameter_myrish_patrons: "Grants [characters|E] of this [faith|E] the ability to choose one of the deities from the Myrish pantheon as their Patron." #NT!
+ doctrine_pantheon_tyrosh_name: "Hues of Trios" #NT!
+ doctrine_pantheon_tyrosh_desc: "While all gods are welcomed in the Free Cities, those chiefly celebrated in Tyrosh are Trios, the twins Semosh and Selloso, the Drunken God, and the Pattern." #NT!
+ doctrine_parameter_tyroshi_patrons: "Grants [characters|E] of this [faith|E] the ability to choose one of the deities from the Tyroshi pantheon as their Patron." #NT!
+ doctrine_pantheon_lys_name: "Pearl Divinities" #NT!
+ doctrine_pantheon_lys_desc: "While all gods are welcomed in the Free Cities, those worshipped above others in Lys are the Weeping Lady, Pantera, Yndros of the Twilight, Bakkalon, and Saagael." #NT!
+ doctrine_parameter_lyseni_patrons: "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren das Pantheon der Lyseni."
+ doctrine_pantheon_faceless_men_name: "Many-Faced God" #NT!
+ doctrine_pantheon_faceless_men_desc: "All know the Many-Faced God, even if they are not aware of it; when one prays to the Father of the Andals, the Lion of Night, Yndros of the Twilight, the God-on-Earth, and so on, they pray to the Many-Faced God. Death is his reward, and death is his gift, and we all will be given it." #NT!
+ doctrine_lyseni_pantheon_name: "Lysenisches Pantheon"
+ doctrine_lyseni_pantheon_desc: "Dieser Glaube verehrt die Götter von Lys, ein komplexes Pantheon, das in der freien Stadt aus verschiedenen Valyrischen Sekten hervorgegangen ist. Unter diesen finden sich die Schöne Frau, die Klagende Frau, die Gerüstete Frau, Yndros aus dem Zwielicht, Pantera die Katzengöttin und Saagael der Gesichtslose."
+ doctrine_parameter_lyseni_patrons: "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren das Pantheon der Lyseni."
+ doctrine_parameter_valyrian_patrons: "Die [characters|E] dieses [Concept('faith', 'Glaubens')|E] verehren das Pantheon der Lyseni."
+ doctrine_parameter_prince_patrons: "Dieser Glaube verehrt den Prinzen und die Götter."
+ doctrine_prince_pantheon_name: "Der Prinz und die Götter"
+ doctrine_prince_pantheon_desc: "Dieser Glaube verehrt den Prinzen und die Götter."
+ doctrine_pantheon_mother_rhoyne_name: "Mother Rhoyne" #NT!
+ doctrine_pantheon_mother_rhoyne_desc: "Mother Rhoyne is the supreme Goddess. It is from her that all other gods and indeed people spring forth. It is she who nurtures and provides all that is needed." #NT!
+ doctrine_pantheon_mother_summer_name: "Mother Rhoyne & Summer Gods" #NT!
+ doctrine_pantheon_mother_summer_desc: "While Mother Rhoyne birthed all, it is her children, the Summer Gods, that now guide and nurture us." #NT!
+ doctrine_parameter_rhoynish_patrons: "Dieser Glaube verehrt die Mutter Rhoyne."
+ doctrine_pantheon_bearded_god_name: "Bearded God" #NT!
+ doctrine_pantheon_bearded_god_desc: "This faith worships the Bearded God." #NT!
+ doctrine_parameter_norvoshi_patrons: "Dieser Glaube verehrt den Bärtigen Gott."
+ doctrine_pantheon_summer_naath_name: "Lord of Harmony" #NT!
+ doctrine_pantheon_summer_naath_desc: "The Lord of Harmony, the Great Butterfly, protects his people, even without violence." #NT!
+ doctrine_pantheon_eldritch_fishgod_name: "The Fish Gods" #NT!
+ doctrine_pantheon_eldritch_fishgod_desc: "The Fish Gods are some of the great deities who lie below the waves. The men of the Thousand Isles believe they are the progenitors of their race." #NT!
+ doctrine_pantheon_eldritch_bloodless_name: "The Bloodless" #NT!
+ doctrine_pantheon_eldritch_bloodless_desc: "The Bloodless God is known for his voracious hunger and requires sacrifices." #NT!
+ doctrine_pantheon_eldritch_yellow_name: "The Yellow Sign" #NT!
+ doctrine_pantheon_eldritch_yellow_desc: "The God hidden behind the Yellow Sign sees all." #NT!
+ doctrine_pantheon_eldritch_dreams_name: "The Outsider" #NT!
+ doctrine_pantheon_eldritch_dreams_desc: "The power of dreams, from the Valyrians of old to the greenseers of myth, is well known. However, further east, they believe in gods beyond the Earth and the skies." #NT!
+ doctrine_pantheon_eldritch_wisdom_name: "The Darkstalker" #NT!
+ doctrine_pantheon_eldritch_wisdom_desc: "The Bloodstone Emperor was the first High Priest of the Church of Starry Wisdom, the first to recognize the gift of knowledge, which was the fallen, oily black stone from the Darkstalker." #NT!
+ doctrine_pantheon_eldritch_leng_name: "Old Ones and the God-Empress" #NT!
+ doctrine_pantheon_eldritch_leng_desc: "The Old Ones lie in the tunnels deep below Leng. Through the God-Empress, their designs and wants are known." #NT!
+ doctrine_pantheon_dothraki_name: "The Great Stallion" #NT!
+ doctrine_pantheon_dothraki_desc: "The gods are many and varied, and all peoples have them, and yet all will be trampled by the Great Stallion who will lead the Dothraki to the edges of the world." #NT!
+ doctrine_pantheon_yiti_celestial_name: "Gods of Yi Ti" #NT!
+ doctrine_pantheon_yiti_celestial_desc: "The Thousand Gods of Yi Ti arrange themselves like the middle kingdom below, a vast divine bureaucracy with at its head the God-on-Earth who ascended to be with his parents, the Maiden-Made-of-Light and the Lion of Night." #NT!
+ doctrine_pantheon_yiti_jewels_name: "Dawn Emperors and Empress" #NT!
+ doctrine_pantheon_yiti_jewels_desc: "The successors of the God-on-Earth in the Great Empire of the Dawn, these individuals ascended and were given divine duties in the greater spiritual bureaucracy." #NT!
+ doctrine_parameter_yiti_imperial_patrons: "Grants [characters|E] of this [faith|E] the ability to choose one of the Yi Tish imperial monarchs as their Patron." #NT!
+ doctrine_pantheon_yiti_ancestral_name: "God-Emperors & Ancestors" #NT!
+ doctrine_pantheon_yiti_ancestral_desc: "The ancestors of all, from the lowest of houses to the great God-Emperor dynasties, move on to serve in the great divine bureaucracy and look out for their descendants." #NT!
+ doctrine_pantheon_yiti_bloodstone_name: "Bloodstone Emperor" #NT!
+ doctrine_pantheon_yiti_bloodstone_desc: "Those who would follow in the steps of the Blood Betrayal see the Bloodstone Emperor as not just a hero, but an ascended god. He will lead them to a glorious new world once again." #NT!
+ doctrine_pantheon_yiti_leng_name: "God-Empress & Ancestors" #NT!
+ doctrine_pantheon_yiti_leng_desc: "The God-Empress of Leng has always been and always will be, so long as Holy Leng still stands." #NT!
+ doctrine_pantheon_first_men_bronze_name: "The Bronze Ones" #NT!
+ doctrine_pantheon_first_men_bronze_desc: "The Gods of the First Men were manifold, reflecting their people as much as their people reflected them. Thus, that the largest group among them were reflections of bronze, the First Men's greatest weapon, is not unusual." #NT!
+ doctrine_pantheon_first_men_sisters_name: "The Waves and Skies" #NT!
+ doctrine_pantheon_first_men_sisters_desc: "The Lady of the Waves and the Lord of the Skies have always been worshipped by those who settled in the Sisters, even after being conquered by the Andals. And, their gift, the Mark, is still honored to this day." #NT!
+ doctrine_pantheon_first_men_elenei_name: "The Sea and Winds" #NT!
+ doctrine_pantheon_first_men_elenei_desc: "The Sea God and his wife, the Goddess of the Winds, gave birth to the divine Elenei, whom Durran took to wife, bringing grief and heartache to her parents for her mortal choice." #NT!
+ doctrine_pantheon_first_men_merling_name: "The Merling Court" #NT!
+ doctrine_pantheon_first_men_merling_desc: "The Merling King's worship is found wherever saltwater can be found, but it was from the land where he found his queen, the witch Ursulla Upcliff, or so say her House." #NT!
+ doctrine_pantheon_first_men_garth_name: "Garth Greenhand" #NT!
+ doctrine_pantheon_first_men_garth_desc: "Garth the Green had many loyal followers in the Reach; some even held him up as a god." #NT!
+ doctrine_pantheon_lhazar_name: "The Great Shepherd" #NT!
+ doctrine_pantheon_lhazar_desc: "Just as a shepherd guards and guides his flock, so too does the Great Shepherd guide and guard the people of Lhazaar." #NT!
+ doctrine_pantheon_ghis_name: "Gods of Ghis" #NT!
+ doctrine_pantheon_ghis_desc: "The old Gods of Ghis were venerable before the Freehold was even a thought. Their Octarchs preached and led from the eight heights, guiding the old empire to greatness after Grazdan." #NT!
+ doctrine_pantheon_ghis_spears_name: "Lady of Spears" #NT!
+ doctrine_pantheon_ghis_spears_desc: "One of the ancient gods of Ghis, the Lady of Spears is a favorite among soldiers, both free and enslaved, especially the Unsullied." #NT!
+ doctrine_pantheon_warlocks_name: "The Undying Ones" #NT!
+ doctrine_pantheon_warlocks_desc: "The oldest and greatest of warlocks become the Undying Ones, those no longer shackled by mortality, but instead given life eternal by the Shade of the Evening and the Black-Barked Trees." #NT!
+ doctrine_pantheon_pureborn_name: "The Thrones & Undying Ones" #NT!
+ doctrine_pantheon_pureborn_desc: "Civilization is the greatest pursuit of man, and the greatest civilization is that of Qarth. That pursuit, and its protection, is a divine and sacred undertaking that the Pureborn continue to this day." #NT!
+ doctrine_pantheon_qaathi_name: "The Memories & Thrones" #NT!
+ doctrine_pantheon_qaathi_desc: "The Qartheen remember the days before the Red Waste, before the Dothraki, before their fall. And it is these memories that keep them going." #NT!
+ doctrine_pantheon_sarnori_name: "The Hundred Gods" #NT!
+ doctrine_pantheon_sarnori_desc: "In ancient days, before the Silver Sea shrank, the Hundred Gods spoke through the Fisher Queens, bringing harmony and prosperity to all." #NT!
+ doctrine_pantheon_order_eternal_name: "The Eternal Cycle" #NT!
+ doctrine_pantheon_order_eternal_desc: "To escape the world, one must break the mind with pleasures." #NT!
+ doctrine_pantheon_order_manticore_name: "The Lethal Bug" #NT!
+ doctrine_pantheon_order_manticore_desc: "To escape the world, one must kill all others." #NT!
+ doctrine_pantheon_order_spice_name: "The Flowing Spice" #NT!
+ doctrine_pantheon_order_spice_desc: "To escape the world, one must see beyond it." #NT!
+ doctrine_pantheon_order_cow_name: "The Stone Cow" #NT!
+ doctrine_pantheon_order_cow_desc: "To escape the world, one must make milk from stone." #NT!
+ doctrine_pantheon_order_chain_name: "The Chained One" #NT!
+ doctrine_pantheon_order_chain_desc: "To escape the world, one must be chained within it." #NT!
+ doctrine_pantheon_shanty_skull_name: "The Skull Pile" #NT!
+ doctrine_pantheon_shanty_skull_desc: "Upon Skull Isle, the great Skull Pile sits, growing with every added skull." #NT!
+ doctrine_pantheon_shanty_toad_name: "The Toad Stone" #NT!
+ doctrine_pantheon_shanty_toad_desc: "The great Toad Stone, made of Oily Black Stone, sits watching and guiding all who seek its embrace." #NT!
+ doctrine_pantheon_shanty_brindle_name: "The Brindled Shanty" #NT!
+ doctrine_pantheon_shanty_brindle_desc: "The Brindled Shanty dictates the actions of the coastal peoples of Sothoryos and seems both law and religion to them." #NT!
+ doctrine_pantheon_shanty_yeen_name: "Yeen" #NT!
+ doctrine_pantheon_shanty_yeen_desc: "Yeen, the great deserted city of Sothoryos. The city, made from oily black stone, is left untouched by the consuming jungle surrounding it, and all who venture there feel uneasy." #NT!
+ doctrine_pantheon_summer_gods_name: "Summer Gods" #NT!
+ doctrine_pantheon_summer_gods_desc: "The Gods of Summer, Passion, and Love, they are venerated by the Summer Islanders." #NT!
+ doctrine_parameter_summer_gods_patrons: "Grants [characters|E] of this [faith|E] the ability to choose one of the Summer Gods as their Patron." #NT!
+ doctrine_pantheon_ib_god_king_name: "The God-King" #NT!
+ doctrine_pantheon_ib_god_king_desc: "The God-King of Ib, Lord of Stone and Sound, is the true god of the Ibbenese." #NT!
+ doctrine_pantheon_ib_sound_name: "Sounds of the Sea" #NT!
+ doctrine_pantheon_ib_sound_desc: "From listening to the Sounds of the Sea, the rhythm of the waves, the beat of swells, one can find understanding, find knowledge, and find one's self." #NT!
+ doctrine_pantheon_song_moon_name: "Moon and Stars" #NT!
+ doctrine_pantheon_song_moon_desc: "The Songs of the Moon and Stars can guide those who listen and sing it wherever they may be." #NT!
+ doctrine_pantheon_song_nefer_name: "Earth and Stones" #NT!
+ doctrine_pantheon_song_nefer_desc: "The Songs of the Beneath Earth and Stones is a constant rhythm, guiding all with the ear to hear it." #NT!
+ doctrine_pantheon_song_mossovy_name: "Snow and Blizzard" #NT!
+ doctrine_pantheon_song_mossovy_desc: "The Songs of Snow and Blizzard can be as quiet as a snowflake, or as loud as a tempest." #NT!
+  
+ doctrine_syncreticism_name: "Synkretismus"
+ doctrine_no_syncreticism_name: "Der einzig wahre Glaube"
+ doctrine_no_syncreticism_desc: "Dieser Glaube erkennt keine anderen Religionen oder Götter an. Er ist rein und bleibt seinen eigenen Lehren treu."
+ doctrine_parameter_counties_harder_to_convert: "Counties of this faith have increased conversion resistance." #NT!
+ doctrine_general_syncreticism_name: "All Faiths Welcome" #NT!
+ doctrine_general_syncreticism_desc: "This Faith recognizes all other faiths and teachings as viable, though lesser than their own." #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_any_faith: "All other [faiths|E] outside the [GetReligionByKey('the_others_religion').GetName] religion are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_syncreticism_the_pact_name: "The Pact Syncretism" #NT!
+ doctrine_syncreticism_the_pact_desc: "The Old Gods may be an older, less formal worship of our own gods, and thus we will honor their rights, traditions, and the sanctity of their worship." #NT!
+ doctrine_syncreticism_the_others_name: "The White Shadows Syncretism" #NT!
+ doctrine_syncreticism_the_others_desc: "The Others are just another aspect of our own gods, and thus we will honor the rights and traditions of their worshippers." #NT!
+ doctrine_parameter_can_sacrifice_children_to_others: "Adherents can sacrifice their children and grandchildren to the Others for [piety|E]" #NT!
+ doctrine_syncreticism_the_faith_name: "The Faith Syncretism" #NT!
+ doctrine_syncreticism_the_faith_desc: "The Seven-Who-Are-One are just another face of our own divinity, and thus we will honor the rights and traditions of the Faithful." #NT!
+ doctrine_syncreticism_the_mother_name: "The Mother Syncretism" #NT!
+ doctrine_syncreticism_the_mother_desc: "Mother Rhoyne and her Children are yet other divinities of our pantheon, and thus we will honor the rights and traditions of her children." #NT!
+ doctrine_syncreticism_the_cults_name: "The Cults Syncretism" #NT!
+ doctrine_syncreticism_the_cults_desc: "The many gods of the Cults of the Free Cities are yet just other aspects of our gods, and thus we will honor the rights and traditions of the many temples." #NT!
+ doctrine_parameter_cannot_demand_conversion: "Adherents cannot demand the conversion of characters of different faiths." #NT!
+ doctrine_syncreticism_the_flames_name: "The Flames Syncretism" #NT!
+ doctrine_syncreticism_the_flames_desc: "The gods of Valyria are yet other aspects of the gods we worship, and thus we will honor the rights and traditions of the followers of the Flames." #NT!
+ doctrine_parameter_can_send_food_to_dragons: "Adherents can send food to [dragons_plural|E] in exchange for [piety|E]." #NT!
+ doctrine_syncreticism_the_rhllor_name: "The Heart (R'hllor) Syncretism" #NT!
+ doctrine_syncreticism_the_rhllor_desc: "The Red God is not one of our pantheon, yet he may still be a god, and thus we will honor the rights and traditions of his priests." #NT!
+ doctrine_syncreticism_the_graces_name: "The Graces Syncretism" #NT!
+ doctrine_syncreticism_the_graces_desc: "The gods of Ghis are old and weathered, and thus we will honor the rights and traditions as taught by their Graces." #NT!
+ doctrine_parameter_unlock_maa_unsullied: "$culture_parameter_unlock_maa_unsullied$" #NT!
+ doctrine_syncreticism_the_flocks_name: "The Flocks Syncretism" #NT!
+ doctrine_syncreticism_the_flocks_desc: "The Great Shepherd may not be a true god, but his teachings are just and virtuous, and thus we will honor the rights and traditions of his flock." #NT!
+ doctrine_syncreticism_the_counsels_name: "The Counsels Syncretism" #NT!
+ doctrine_syncreticism_the_counsels_desc: "The Great Stallion has led his Khalasar across the Great Grass Sea, and thus we will honor the rights and traditions of those who speak his counsels." #NT!
+ doctrine_parameter_unlocks_dothraki_screams_maa: "Adherents can recruit [GetMaA('dothraki_screamers').GetName] as [men_at_arms|E]" #NT!
+ doctrine_syncreticism_the_liturgies_name: "The Liturgies Syncretism" #NT!
+ doctrine_syncreticism_the_liturgies_desc: "The Liturgies tell of truths and wisdom, and thus we will honor the rights and traditions of those who worship them." #NT!
+ doctrine_syncreticism_the_houses_name: "The Houses Syncretism" #NT!
+ doctrine_syncreticism_the_houses_desc: "The Houses hold secrets and hidden truths, and thus we will honor the rights and traditions of those who follow their teachings." #NT!
+ doctrine_syncreticism_the_first_gods_name: "The First Gods Syncretism" #NT!
+ doctrine_syncreticism_the_first_gods_desc: "The First Gods are yet other gods of our pantheon, and thus we will honor the rights and traditions of their worshippers." #NT!
+ doctrine_syncreticism_the_venerations_name: "The Venerations Syncretism" #NT!
+ doctrine_syncreticism_the_venerations_desc: "The Venerations speak truths, and thus we will honor the rights and traditions of those who venerate them." #NT!
+ doctrine_parameter_can_join_defensive_wars: "Adherents can freely join defensive wars of same-faith rulers" #NT!
+ doctrine_syncreticism_the_courts_name: "The Courts Syncretism" #NT!
+ doctrine_syncreticism_the_courts_desc: "The Courts hold truth and justice, and thus we will honor the rights and traditions of their subjects." #NT!
+ doctrine_syncreticism_the_songs_name: "The Songs Syncretism" #NT!
+ doctrine_syncreticism_the_songs_desc: "The Songs convey truth and wisdom, and thus we will honor the rights and traditions of those who sing them." #NT!
+ doctrine_syncreticism_the_churches_name: "The Churches Syncretism" #NT!
+ doctrine_syncreticism_the_churches_desc: "The Churches preach dark truths and hidden secrets, and thus we will honor the rights and traditions of their congregations." #NT!
+ doctrine_syncreticism_the_shanties_name: "The Shanties Syncretism" #NT!
+ doctrine_syncreticism_the_shanties_desc: "The Shanties of the south and their Dark Gods profess much the same beliefs as our own faith, and thus we will honor their rights and traditions." #NT!
+ doctrine_syncreticism_the_ways_name: "The Ways Syncretism" #NT!
+ doctrine_syncreticism_the_ways_desc: "The Drowned God is yet another aspect of our own gods, and thus we will honor the rights and traditions of their ways." #NT!
+ doctrine_syncreticism_the_orders_name: "The Orders Syncretism" #NT!
+ doctrine_syncreticism_the_orders_desc: "The Orders of Jade and Cinnamon may not worship our gods, but their philosophies do contain some truth and logic, and thus we will honor their rights and traditions." #NT!
+ doctrine_syncreticism_the_chosen_name: "The Chosen Syncretism" #NT!
+ doctrine_syncreticism_the_chosen_desc: "The Lord of Harmony may be a god or not, but the teachings of the butterfly god are peaceful and timid, and thus we will honor their rights and traditions." #NT!
+ doctrine_syncreticism_the_temples_name: "The Temples Syncretism" #NT!
+ doctrine_syncreticism_the_temples_desc: "The Summer Gods and their followers are a peaceful and industrious group, and thus we will honor their rights and traditions." #NT!
+  
+ faith_of_the_seven_hostility_doctrine_name: "Feindseligkeit des Glaubens an die Sieben"
+ faith_of_the_seven_hostility_doctrine_desc: "Betrachten andere [faiths|E] in der eigenen Religionsfamilie als [faith_astray|L], die Götter des Winter als [faith_evil|L] und alle anderen Religion als [faith_hostile|L]."
+ western_essosi_hostility_doctrine_name: "Feindseligkeit der Essosi"
+ western_essosi_hostility_doctrine_desc: "Betrachten alle anderen [faiths|E] als [faith_astray|L], außer die Götter des Winters, die als [faith_evil|L] betrachtet werden."
+ sunset_hostility_doctrine_name: "" #NT!
+ sunset_hostility_doctrine_desc: "" #NT!
+ dawn_hostility_doctrine_name: "" #NT!
+ dawn_hostility_doctrine_desc: "" #NT!
+ southern_hostility_doctrine_name: "" #NT!
+ southern_hostility_doctrine_desc: "" #NT!
+ azorian_hostility_doctrine_name: "" #NT!
+ azorian_hostility_doctrine_desc: "" #NT!
+ grasslands_hostility_doctrine_name: "" #NT!
+ grasslands_hostility_doctrine_desc: "" #NT!
+  
+ doctrine_parameter_hostility_override_doctrine_clerical_marriage_allowed: "Sieht alle anderen [faiths|E] stets als [faith_astray|L] an, unabhängig von Unterschieden in den Doktrinen"
+ doctrine_parameter_hostility_override_doctrine_clerical_marriage_disallowed: "[county_opinion|E] wird nicht von [faith_hostility|E] beeinflusst"
+  
+ doctrine_slavery_name: "Slavery" #NT!
+ doctrine_slavery_crime_name: "Criminal" #NT!
+ doctrine_slavery_crime_desc: "Slavery in all its aspects is a crime against gods and men." #NT!
+ doctrine_slavery_indentured_name: "Indentured Servitude" #NT!
+ doctrine_slavery_indentured_desc: "There is no slavery here, only free bond servants, who are simply in debt to their masters." #NT!
+ doctrine_slavery_thralls_name: "Thralls" #NT!
+ doctrine_slavery_thralls_desc: "Thralls are not slaves; they cannot be bought or sold, yet their lives are no easier." #NT!
+ doctrine_slavery_accepted_name: "Accepted" #NT!
+ doctrine_slavery_accepted_desc: "Just as all are chained to the divine, so too are men and women chained to their earthly masters." #NT!
+  
+ doctrine_parameter_slavery_crime: "Slavery in all its aspects is considered a [crime|E]." #NT!
+ doctrine_parameter_slavery_indentured: "Slavery is frowned upon, but holding indentured servants is fully accepted." #NT!
+ doctrine_parameter_slavery_thralls: "Enslaving and holding thralls is fully accepted, although they cannot be bought or sold." #NT!
+ doctrine_parameter_slavery_accepted: "Slavery in all its aspects is fully accepted." #NT!
+  
+ agot_exceptionalism_doctrine_name: "Doktrin des Exzeptionalismus"
+ agot_exceptionalism_doctrine_desc: "Der Glaube stammt aus Andalos, wo Inzest als abscheulich gilt. Allerdings haben Hochvalyrer wie die Targaryen ihre Wurzeln in Valyria, wo andere Sitten herrschen. Die Valyrer wurden von den Göttern dazu bestimmt, Bruder und Schwester zu heiraten, und daher wird der Glaube sie für diese Tradition nicht verurteilen."
+ agot_exceptionalism_name: "$agot_exceptionalism_doctrine_name$"
+ doctrine_parameter_targaryen_incest_active: "Members of the Targaryen dynasty may legally wed brother to sister." #NT!
+  
+  #Tenets 
+ tenet_weirwoods_name: "Wehrholzbäume"
+ tenet_weirwoods_desc: "Durch die Wehrholzbäume können die Alten Götter die Gläubigen sehen. Wir sollten unser Schicksal in ihre Hände legen und in Zeiten der Not in ihren heiligen Hainen beten und sinnieren."
+ doctrine_parameter_can_visit_weirwood_groves: "[rulers|E] mit diesem Grundsatz können sich [decide|E], einen Götterhain zu besuchen, wo sie eine Reihe von Ereignissen erleben können."
+ doctrine_parameter_can_build_weirwood_groves: "The #V Godswood#! line of [buildings|E] can be built" #NT!
+  
+ tenet_god_kings_name: "God Kings" #NT!
+ tenet_god_kings_desc: "Who can doubt the gods, especially when one walks among us? Not all the divine forswear wearing mortal flesh, and those of this faith are fortunate enough to be led by such a being." #NT!
+ doctrine_parameter_can_change_crown_authority_frequently: "Rulers can change Crown Authority every 3 years" #NT!
+  
+ tenet_greensight_name: "Greensight" #NT!
+ tenet_greensight_desc: "The Old Gods give many gifts, but none are as great as the Greensight; for man to be able to see the world from the eyes of bird and beast, see things from ages past and ages to come, to see the world from the gods' own point of view, what could be greater?" #NT!
+ doctrine_parameter_increased_chance_of_greenseers: "Increased chance to develop the [GetTrait('greensight').GetName( GetNullCharacter )] [trait|E]" #NT!
+ doctrine_parameter_increased_chance_of_wargs: "Increased chance to become wargs" #NT!
+  
+ tenet_always_winter_name: "Lands of Always Winter" #NT!
+ tenet_always_winter_desc: "The cold winds blow across these lands; summer itself has fled from winter and those who bring it. And, the men, if they can be called men, who heed the frozen call welcome all it brings." #NT!
+ doctrine_parameter_always_winter: "All lands in the [realm|E] experience winter all year long." #NT!
+  
+ tenet_ever_growing_armies_name: "Ever Growing Armies" #NT!
+ tenet_ever_growing_armies_desc: "The armies of the Others are the dead themselves. For wights need no rest, no food, no shelter and are replenished by the enemy themselves. What force could stand against such?" #NT!
+ doctrine_parameter_raise_wights_from_dead: "Enemies slain in battles led by Others are raised as wights and join your armies" #NT!
+ wight_army_name: "Wight Army" #NT!
+  
+ tenet_knighthood_name: "Geweihtes Rittertum"
+ tenet_knighthood_desc: "Das Rittertum ist eine Tradition dieses Glaubens. Von [agot_knights|e] wird erwartet, dass sie die ritterlichen Tugenden wie Tapferkeit, Gerechtigkeit und Ehre verkörpern."
+ doctrine_parameter_can_grant_knighthood: "Charactere sind eher bereit, rittertumsbezogene [Interaktionen|E] zu akzeptieren."
+ doctrine_parameter_can_host_joust_contests: "Adherents can hold a #V Joust#! [contest|E] in a [GetActivityType( 'activity_tournament' ).GetName]" #NT!
+ faith_has_doctrine_can_grant_knighthood: "Your faith has the [doctrine|E] [GetFaithDoctrine('tenet_knighthood').GetBaseName]" #NT!
+ not_faith_has_doctrine_can_grant_knighthood: "Your faith does not have the [doctrine|E] [GetFaithDoctrine('tenet_knighthood').GetBaseName]" #NT!
+  
+ tenet_the_most_devout_name: "Die Ergebensten"
+ tenet_the_most_devout_desc: "[collegeofcardinals|e] sind ein Rat der ranghöchsten Geistlichen des Glaubens an die Sieben. An ihrer Spitze steht der Hohe Septon, der von ihren Mitgliedern gewählt wird, wobei es vorkommt, dass Lords und Könige die Ergebensten beeinflussen, um ihren Kandidaten zu wählen."
+  
+ tenet_the_mark_name: "Das Mal"
+ tenet_the_mark_desc: "Es heißt, dass diejenigen, die glücklich geboren werden, vom Göttlichen mit Schwimmhäuten an Händen und Füßen gekennzeichnet werden. Eindeutig bevorzugt, gelten diese Menschen als die besten unter ihnen."
+ doctrine_parameter_more_likely_born_with_mark: "Adherents are more likely to be born with The Mark" #NT!
+  
+ tenet_oily_black_stone_name: "Oily Black Stone" #NT!
+ tenet_oily_black_stone_desc: "Those who hold with strange and dark gods, regardless of the origin or creed, are drawn to the oily black stone, making monuments out of it or keeping it as a trinket; what secrets does it hold?" #NT!
+ doctrine_parameter_access_to_dark_communion_event: "Unlocks access to #V Dark Communion#! [decision|E] while possessing relevant [artifacts|E] or [holy_sites|E]" #NT!
+  
+ tenet_scourge_of_the_seas_name: "Scourge of the Seas" #NT!
+ tenet_scourge_of_the_seas_desc: "The seas are freedom to some, prosperity to others, and to some those pursuits come at the cost of all others." #NT!
+ doctrine_parameter_faith_can_raid_overseas: "Adherents can [raid|E] overseas" #NT!
+  
+ tenet_the_old_way_name: "The Old Way" #NT!
+ tenet_the_old_way_desc: "The Grey King, most blessed in the eyes of the Drowned God, laid out the proper ways for a man to make their way in the world. Some now follow the new ways of the new gods, but it is only from the Old Ways that the true faithful will prosper." #NT!
+ doctrine_parameter_cannot_purchase_artifacts: "Adherents cannot purchase or commission [artifacts|E]" #NT!
+ cannot_purchase_artifacts_name: "Faith prevents the purchase or commission of [artifacts|E]" #NT!
+ doctrine_parameter_more_likely_to_take_artifacts: "Adherents are more likely to steal [artifacts|E]" #NT!
+  
+ tenet_stars_and_axes_name: "Stars and Axes" #NT!
+ tenet_stars_and_axes_desc: "When the gods gave the lands to their chosen, it was not given freely. The chosen would need to carve out their own kingdoms, through star and axe if need be." #NT!
+ doctrine_parameter_can_use_adventure_cb: "Can use the Adventurer [casus_belli|E]" #NT!
+  
+ tenet_black_barked_trees_name: "Black Barked Trees" #NT!
+ tenet_black_barked_trees_desc: "From the heat of the Red Wastes comes the Shade of the Evening, harvested from the Black-Barked Trees, with their leaves of blue, the drink is used by the Warlocks of Qarth and other esoterics of the east." #NT!
+ doctrine_parameter_can_use_shade_of_the_evening: "Can use Shade of the Evening" #NT!
+  
+ tenet_heart_of_fire_name: "Heart of Fire" #NT!
+ tenet_heart_of_fire_desc: "Through blessed fire, in a language of ash and cinder and twisting flame R'hllor speaks to the faithful." #NT!
+ doctrine_parameter_can_execute_by_burning: "Can execute by burning" #NT!
+ doctrine_parameter_can_gaze_into_fire: "Can take #V Look into the Flames#! [decision|E]" #NT!
+  
+ tenet_shadowbinding_name: "Shadowbinding" #NT!
+ tenet_shadowbinding_desc: "There are no shadows in the dark. Shadows are the servants of the light, the children of fire. the brightest flame casts the darkest shadows." #NT!
+ doctrine_parameter_can_become_shadowbinders: "Adherents can become shadowbinders" #NT!
+ doctrine_parameter_can_gain_shadowbinder_murder_plot_bonus: "[GetScheme('murder').GetTypeName] [scheme_success_chance|E]: #P +[EmptyScope.ScriptValue('agot_shadowbinding_tenet_bonus_value')]#!" #NT!
+  
+ tenet_healing_flames_name: "Healing Flames" #NT!
+ tenet_healing_flames_desc: "Life is warmth, and warmth is fire. It is only through the flames of R'hllor that life can truly exist." #NT!
+ doctrine_parameter_can_heal_via_flames: "Allows adherents to approach a priest for healing fires" #NT!
+  
+ tenet_life_givers_life_takers_name: "Life Givers, Life Takers" #NT!
+ tenet_life_givers_life_takers_desc: "The taking of a life, be it in war or judgment, is a serious thing, for who knows what may come from that action? The only ones who can understand it are those that give life, and thus it is to women that the burden falls." #NT!
+ doctrine_parameter_men_cannot_fight: "Only women may be combatants" #NT!
+  
+ tenet_pequod_name: "Pequod" #NT!
+ tenet_pequod_desc: "The seas are a bounty of life, from the shoals of fish to the great krakens, but the greatest creatures are the massive leviathans, capable of fighting anything below or above the waves, all but the whalers who hunt them." #NT!
+ doctrine_parameter_can_go_on_whaling_expeditions: "Adherents can go on whaling expeditions" #NT!
+  
+ tenet_sanctity_of_life_name: "Sanctity of Life" #NT!
+ tenet_sanctity_of_life_desc: "All life is sacred, from the lowliest animal to our fellow man, and thus it is a sacrilege to harm any of the divine's creations." #NT!
+ doctrine_parameter_cannot_hunt: "Adherents cannot host or participate in [GetActivityType('activity_hunt').GetTextIcon] [GetActivityType('activity_hunt').GetName] [activities|E]" #NT!
+ doctrine_parameter_cannot_eat_meat: "Adherents cannot eat meat" #NT!
+ doctrine_parameter_cannot_execute_criminals: "Adherents cannot execute criminals" #NT!
+ cannot_execute_criminals_name: "Cannot execute criminals" #NT!
+  
+ tenet_wrath_of_the_storm_name: "Wrath of the Storm" #NT!
+ tenet_wrath_of_the_storm_desc: "The wrath of god and man alike is like a storm, fierce and full of wrath. And like a storm, the faithful fall upon their shore hardened to their duty." #NT!
+  
+ tenet_chains_and_whips_name: "Chains and Whips" #NT!
+ tenet_chains_and_whips_desc: "Greatness, be it man or empire, is built with brick and blood. Through the bondage, by chain and whip, can a truly prosperous kingdom be built." #NT!
+ doctrine_parameter_can_build_slave_duchy_buildings: "Adherents can build slave duchy buildings" #NT!
+ can_build_slave_duchy_buildings_name: "Can Build Slave Duchy Buildings" #NT!
+  
+ tenet_many_faces_name: "Many Faces" #NT!
+ tenet_many_faces_desc: "The great lie that divides men is that their gods are different, and not simply the many faces of the one god, and that he changes faces as easily as his faithful." #NT!
+ doctrine_parameter_can_take_new_face: "Adherents can take #V Take New Face#! [decision|E]" #NT!
+  
+ tenet_shield_of_the_seas_name: "Shield of the Seas" #NT!
+ tenet_shield_of_the_seas_desc: "Where the sea is a source of plunder and chance to prey on the weak for some, others use the sea to protect and strengthen their people." #NT!
+  
+ tenet_bounties_of_the_river_name: "Bounties of the River" #NT!
+ tenet_bounties_of_the_river_desc: "From the river, mother to us all, come all the bounties we need; the skill to make metal, the water to feed the crops, the goods to furnish our cities, and the weapons to defend our homes." #NT!
+  
+ tenet_ritual_wars_name: "Ritual Wars" #NT!
+ tenet_ritual_wars_desc: "The lives of our people are a sacred thing, and not to be thrown away in needless conflicts, thus we will not anger the god(s) by shedding of blood." #NT!
+ doctrine_parameter_wars_replaced_with_ritual_battles: "The outcome of wars is determined by war games, rather than battle" #NT!
+  
+ tenet_blood_magic_steel_name: "Blood, Magic, and Steel" #NT!
+ tenet_blood_magic_steel_desc: "The Freehold of old worked many wonders. How they did so was largely lost to the Doom, but through magic and blood some of their secrets are preserved." #NT!
+ tenet_blood_magic_steel_exclusive_trigger: "Such secrets are known only to the [GetFaithByKey('valyrian_pan_freehold').GetName] and [GetFaithByKey('fc_pan_blackgoat').GetName]" #NT!
+ doctrine_parameter_execute_prisoner_to_improve_artifact: "Adherents can execute [prisoners|E] to improve [artifacts|E]" #NT!
+ doctrine_parameter_reforge_valyrian_steel: "Adherents can reforge Valyrian Steel [artifacts|E]" #NT!
+  
+ tenet_holy_hair_name: "Holy Hair" #NT!
+ tenet_holy_hair_desc: "The God Who Reigns Above, is mighty and set the world to order; it is he who has placed man above beast, priest above man." #NT!
+ doctrine_parameter_holy_hair: "Only members of the [clergy|E] may have beards, and women must have shaved heads" #NT!
+  
+ tenet_holy_water_name: "Holy Water" #NT!
+ tenet_holy_water_desc: "The river, the water is the gift of the Mother, it is from the waters that life is born, it is from the waters that hope is given, and it from the waters that justice is delivered." #NT!
+ doctrine_parameter_unlock_water_anti_dragon_maa: "Can recruit [GetMaA('water_wizards').GetName] as [men_at_arms|E]" #NT!
+  
+ tenet_secret_tongue_name: "Secret Tongue" #NT!
+ tenet_secret_tongue_desc: "Our words are precious, and our tongue is sacred, it is not for the heathens and unbelievers." #NT!
+ doctrine_parameter_increased_languages: "Adherents can learn one extra [language|E]" #NT!
+  
+ tenet_holy_bonds_name: "Holy Bonds" #NT!
+ tenet_holy_bonds_desc: "The bonds between the faithful are sacred, the gods demand that we war only against the unfaithful." #NT!
+ doctrine_parameter_no_same_faith_wars: "Adherents cannot declare [war|E] on those of the same [faith|E]" #NT!
+ doctrine_parameter_prestige_for_different_faith_truce_break: "Adherents gain [prestige|E] and [dynasty_prestige|E] when breaking a [truce|E] against a ruler of a different [faith|E]" #NT!
+ doctrine_parameter_women_can_fight_if_they_have_martial: "Women may serve as knights if they have a high [martial|e] or [prowess|e] skill rating" #NT!
+  
+ tenet_peace_of_the_butterflies_name: "Peace of the Butterflies" #NT!
+ tenet_peace_of_the_butterflies_desc: "The Lord of Harmony honors peace above all else. The faithful know not to break his sacraments in the pursuit of personal glory, and in return, he protects them." #NT!
+ doctrine_parameter_cannot_declare_war: "Adherents cannot declare [war|E]" #NT!
+ cannot_declare_war_name: "Cannot Declare War" #NT!
+ doctrine_parameter_butterfly_disease_immunity: "Adherents are #P immune#! to the Butterfly Fever" #NT!
+ butterfly_disease_immunity_name: "Butterfly Fever Immunity" #NT!
+  
+ tenet_holiness_through_commerce_name: "Holiness Through Commerce" #NT!
+ tenet_holiness_through_commerce_desc: "Where other faiths look down on commerce and the pursuit of coin, here all recognize the truth that wealth and its pursuit are what fund temples, outfit missionaries, and provide the sacrifices to the gods." #NT!
+ doctrine_parameter_can_fund_trade_expeditions: "Adherents can [decide|E] to fund trade expeditions" #NT!
+  
+ tenet_divine_plots_name: "Divine Plots" #NT!
+ tenet_divine_plots_desc: "Only through guile and shadow can we protect the faithful and bring the ultimate gift to the people. Only in death are we truly free, and the Many-Faced God will welcome us all." #NT!
+ doctrine_parameter_can_hire_assassin: "Adherents gain a [decision|E] to recruit a skilled assassin character during [GetScheme('murder').GetTypeName] [schemes|E]" #NT!
+  
+ tenet_opening_the_third_eye_name: "Opening the Third Eye" #NT!
+ tenet_opening_the_third_eye_desc: "This world is full of lies and sin, and our eyes are deceived by it all. It is only by blinding oneself to such lies can one truly begin to see the truth and find understanding." #NT!
+ doctrine_parameter_can_blind_self_for_piety: "Adherents can blind themselves for [piety|E]" #NT!
+  
+ tenet_blasphemous_sacrifice_name: "Blasphemous Sacrifice" #NT!
+ tenet_blasphemous_sacrifice_desc: "It is only through what others see as dark and blasphemous can we truly understand a please the divine, by taking humanity to the extreme do we advance." #NT!
+ doctrine_parameter_can_sacrifice_dark_ritual: "Adherents can sacrifice prisoners in dark rituals" #NT!
+  
+ tenet_blood_is_the_life_name: "Blood is the Life" #NT!
+ tenet_blood_is_the_life_desc: "Only through blood, the sacred liquid of life, can power truly be grasped." #NT!
+ doctrine_parameter_can_drain_and_consume_prisoners_blood: "Adherents can drain and consume the blood of their prisoners" #NT!
+  
+ tenet_imperial_records_name: "Imperial Records" #NT!
+ tenet_imperial_records_desc: "If an item does not appear in our records, it does not exist!" #NT!
+ doctrine_parameter_more_prestige_renown_for_book_inspirations: "Adherents earn moderate [prestige|E] and [dynasty_prestige|E] when a creating a book [artifact|E]" #NT!
+ doctrine_parameter_faster_increase_development: "The #V Increase County Development#! council task is #P +50%#! faster for adherents" #NT!
+ doctrine_parameter_slower_forge_claims: "The #V Fabricate Claim on County#! council task is #N -150%#! slower for both adherents and characters claiming adherents' lands" #NT!
+ faith_has_parameter_faster_increase_development_tt: "[faith|E] allows for #P increased#! [development|E] speeds" #NT!
+ faith_has_slower_forge_claims_tt: "[faith|E] #N slows#! [claim|E] fabrication" #NT!
+  
+ tenet_deep_jungles_name: "Deep Jungles" #NT!
+ tenet_deep_jungles_desc: "Deep within the jungles one finds themselves, when pitted against nature at its most varied, at its most unexpected, that is where one is tested." #NT!
+  
+ tenet_terror_of_the_plains_name: "Terror of the Plains" #NT!
+ tenet_terror_of_the_plains_desc: "The steppe is the home of the horde, here the great horselords rule and devour all others." #NT!
+ doctrine_parameter_increased_dread_on_combat_win: "Adherents earn more [dread|E] when winning battles" #NT!
+  
+ tenet_blood_oaths_name: "Blood Oaths" #NT!
+ tenet_blood_oaths_desc: ""Blood of my blood," they were the Khal's brothers, his shadows, his fiercest friends. They shared a single life." #NT!
+ doctrine_parameter_can_make_bloodriders: "Adherents can recruit a [GetCourtPositionType('bloodrider_court_position').GetName]" #NT!
+ can_make_bloodriders_name: "Can make Bloodriders" #NT!
+ doctrine_parameter_dosh_khaleen: "Adherents' widows join the Dosh Khaleen" #NT!
+  
+ tenet_eternal_shields_name: "Eternal Shields" #NT!
+ tenet_eternal_shields_desc: "Only by a strong shield can the faith be saved, only through vigilance will its followers be sheltered." #NT!
+  
+ tenet_divine_presence_name: "Divine Presence" #NT!
+ tenet_divine_presence_desc: "Stories and tales will always spread faster when the gods wish them too." #NT!
+ doctrine_parameter_holy_legends_spread_faster: "Holy [legends|E] spread #P 50%#! faster to lands in your [domain|E]" #NT!
+  
+ tenet_crooks_and_ploughs_name: "Crooks and Ploughs" #NT!
+ tenet_crooks_and_ploughs_desc: "Rulers make bad lovers, better put your kingdom up for sale." #NT!
+ doctrine_parameter_increased_peacetime_development: "Grants [rulers|E] of this [faith|E] a bonus to the [steward|E] task #V Increase Development#! when not at [war|E]" #NT!
+  
+  #Vanilla Overrides 
+ agot_tenet_faithandreason_name: "Faith And Reason" #NT!
+ agot_tenet_faithandreason_desc: "Faith is no barrier for learning and understanding, rather it is the begining; Truth can not discount Truth." #NT!
+  
+  #Special 
+ agot_uncreated_name: "" #NT!
+ special_doctrine_agot_uncreated_name: "" #NT!
+ special_doctrine_agot_uncreated_desc: "" #NT!
+ agot_hidden_name: "" #NT!
+ special_doctrine_agot_hidden_name: "" #NT!
+ special_doctrine_agot_hidden_desc: "" #NT!
+  
+ special_doctrine_agot_is_pact_faith_name: "Teachings of the Pact" #NT!
+ special_doctrine_agot_is_pact_faith_desc: "This faith follows the Teachings of the Pact." #NT!
+ special_doctrine_agot_is_others_faith_name: "Teachings of the Others" #NT!
+ special_doctrine_agot_is_others_faith_desc: "This faith follows the Teachings of the Others." #NT!
+ special_doctrine_agot_is_seven_faith_name: "Teachings of the Seven" #NT!
+ special_doctrine_agot_is_seven_faith_desc: "This faith follows the Teachings of the Seven." #NT!
+ special_doctrine_agot_is_mother_faith_name: "Teachings of the Mother" #NT!
+ special_doctrine_agot_is_mother_faith_desc: "This faith follows the Teachings of the Mother." #NT!
+ special_doctrine_agot_is_cults_faith_name: "Teachings of the Cults" #NT!
+ special_doctrine_agot_is_cults_faith_desc: "This faith follows the Teachings of the Cults." #NT!
+ special_doctrine_agot_is_flames_faith_name: "Teachings of the Flames" #NT!
+ special_doctrine_agot_is_flames_faith_desc: "This faith follows the Teachings of the Flames." #NT!
+ special_doctrine_agot_is_rhllor_hearts_faith_name: "Teachings of R'hllor" #NT!
+ special_doctrine_agot_is_rhllor_hearts_faith_desc: "This faith follows the Teachings of R'hllor." #NT!
+ special_doctrine_agot_is_graces_faith_name: "Teachings of the Graces" #NT!
+ special_doctrine_agot_is_graces_faith_desc: "This faith follows the Teachings of the Graces." #NT!
+ special_doctrine_agot_is_flocks_faith_name: "Teachings of the Flocks" #NT!
+ special_doctrine_agot_is_flocks_faith_desc: "This faith follows the Teachings of the Flocks." #NT!
+ special_doctrine_agot_is_counsels_faith_name: "Teachings of the Counsels" #NT!
+ special_doctrine_agot_is_counsels_faith_desc: "This faith follows the Teachings of the Counsels." #NT!
+ special_doctrine_agot_is_liturgies_faith_name: "Teachings of the Liturgies" #NT!
+ special_doctrine_agot_is_liturgies_faith_desc: "This faith follows the Teachings of the Liturgies." #NT!
+ special_doctrine_agot_is_houses_faith_name: "Teachings of the Houses" #NT!
+ special_doctrine_agot_is_houses_faith_desc: "This faith follows the Teachings of the Houses." #NT!
+ special_doctrine_agot_is_first_gods_faith_name: "Teachings of the First Gods" #NT!
+ special_doctrine_agot_is_first_gods_faith_desc: "This faith follows the Teachings of the First Gods." #NT!
+ special_doctrine_agot_is_venerations_faith_name: "Teachings of the Venerations" #NT!
+ special_doctrine_agot_is_venerations_faith_desc: "This faith follows the Teachings of the Venerations." #NT!
+ special_doctrine_agot_is_courts_faith_name: "Teachings of the Courts" #NT!
+ special_doctrine_agot_is_courts_faith_desc: "This faith follows the Teachings of the Courts." #NT!
+ special_doctrine_agot_is_songs_faith_name: "Teachings of the Songs" #NT!
+ special_doctrine_agot_is_songs_faith_desc: "This faith follows the Teachings of the Songs." #NT!
+ special_doctrine_agot_is_churches_faith_name: "Teachings of the Churches" #NT!
+ special_doctrine_agot_is_churches_faith_desc: "This faith follows the Teachings of the Churches." #NT!
+ special_doctrine_agot_is_shanties_faith_name: "Teachings of the Shanties" #NT!
+ special_doctrine_agot_is_shanties_faith_desc: "This faith follows the Teachings of the Shanties." #NT!
+ special_doctrine_agot_is_ways_faith_name: "Teachings of the Ways" #NT!
+ special_doctrine_agot_is_ways_faith_desc: "This faith follows the Teachings of the Ways." #NT!
+ special_doctrine_agot_is_orders_faith_name: "Teachings of the Orders" #NT!
+ special_doctrine_agot_is_orders_faith_desc: "This faith follows the Teachings of the Orders." #NT!
+ special_doctrine_agot_is_chosen_faith_name: "Teachings of the Chosen" #NT!
+ special_doctrine_agot_is_chosen_faith_desc: "This faith follows the Teachings of the Chosen." #NT!
+ special_doctrine_agot_is_temples_faith_name: "Teachings of the Temples" #NT!
+ special_doctrine_agot_is_temples_faith_desc: "This faith follows the Teachings of the Temples." #NT!
+ special_doctrine_agot_is_any_faith_name: "Faith is Faith" #NT!
+ special_doctrine_agot_is_any_faith_desc: "This faith is a faith. Firefighter don't look at me like that, this is just here to prevent errors no one will see it." #NT!
+ agot_is_pact_faith_name: "$special_doctrine_agot_is_pact_faith_name$" #NT!
+ agot_is_courts_faith_name: "$special_doctrine_agot_is_courts_faith_desc$" #NT!
+ agot_is_flocks_faith_name: "$special_doctrine_agot_is_flocks_faith_name$" #NT!
+ agot_is_liturgies_faith_name: "$special_doctrine_agot_is_liturgies_faith_name$" #NT!
+ agot_is_churches_faith_name: "$special_doctrine_agot_is_churches_faith_name$" #NT!
+ agot_is_cults_faith_name: "$special_doctrine_agot_is_cults_faith_name$" #NT!
+ agot_is_chosen_faith_name: "$special_doctrine_agot_is_chosen_faith_name$" #NT!
+ agot_is_flames_faith_name: "$special_doctrine_agot_is_flames_faith_name$" #NT!
+ agot_is_songs_faith_name: "$special_doctrine_agot_is_songs_faith_name$" #NT!
+ agot_is_houses_faith_name: "$special_doctrine_agot_is_houses_faith_name$" #NT!
+ agot_is_shanties_faith_name: "$special_doctrine_agot_is_shanties_faith_name$" #NT!
+ agot_is_seven_faith_name: "$special_doctrine_agot_is_seven_faith_name$" #NT!
+ agot_is_mother_faith_name: "$special_doctrine_agot_is_mother_faith_name$" #NT!
+ agot_is_counsels_faith_name: "$special_doctrine_agot_is_counsels_faith_name$" #NT!
+ agot_is_temples_faith_name: "$special_doctrine_agot_is_temples_faith_name$" #NT!
+ agot_is_first_gods_faith_name: "$special_doctrine_agot_is_first_gods_faith_name$" #NT!
+ agot_is_venerations_faith_name: "$special_doctrine_agot_is_venerations_faith_name$" #NT!
+ agot_is_ways_faith_name: "$special_doctrine_agot_is_ways_faith_name$" #NT!
+ agot_is_orders_faith_name: "$special_doctrine_agot_is_orders_faith_name$" #NT!
+ agot_is_others_faith_name: "$special_doctrine_agot_is_others_faith_name$" #NT!
+ agot_is_rhllor_hearts_faith_name: "$special_doctrine_agot_is_rhllor_hearts_faith_name$" #NT!
+ agot_is_graces_faith_name: "$special_doctrine_agot_is_graces_faith_name$" #NT!
+ agot_is_any_faith_name: "$special_doctrine_agot_is_any_faith_desc$" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_pact_faith: "[faiths|E] with the $special_doctrine_agot_is_pact_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_others_faith: "[faiths|E] with the $special_doctrine_agot_is_others_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_seven_faith: "[faiths|E] with the $special_doctrine_agot_is_seven_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_mother_faith: "[faiths|E] with the $special_doctrine_agot_is_mother_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_cults_faith: "[faiths|E] with the $special_doctrine_agot_is_cults_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_flames_faith: "[faiths|E] with the $special_doctrine_agot_is_flames_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_rhllor_hearts_faith: "[faiths|E] with the $special_doctrine_agot_is_rhllor_hearts_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_graces_faith: "[faiths|E] with the $special_doctrine_agot_is_graces_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_flocks_faith: "[faiths|E] with the $special_doctrine_agot_is_flocks_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_counsels_faith: "[faiths|E] with the $special_doctrine_agot_is_counsels_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_liturgies_faith: "[faiths|E] with the $special_doctrine_agot_is_liturgies_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_houses_faith: "[faiths|E] with the $special_doctrine_agot_is_houses_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_first_gods_faith: "[faiths|E] with the $special_doctrine_agot_is_first_gods_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_venerations_faith: "[faiths|E] with the $special_doctrine_agot_is_venerations_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_courts_faith: "[faiths|E] with the $special_doctrine_agot_is_courts_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_songs_faith: "[faiths|E] with the $special_doctrine_agot_is_songs_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_churches_faith: "[faiths|E] with the $special_doctrine_agot_is_churches_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_shanties_faith: "[faiths|E] with the $special_doctrine_agot_is_shanties_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_ways_faith: "[faiths|E] with the $special_doctrine_agot_is_ways_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_orders_faith: "[faiths|E] with the $special_doctrine_agot_is_orders_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_chosen_faith: "[faiths|E] with the $special_doctrine_agot_is_chosen_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_agot_is_temples_faith: "[faiths|E] with the $special_doctrine_agot_is_temples_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ AGOT_FAITH_HARD_TO_CONVERT_REASON: "Faith has increased county conversion:" #NT!
+ AGOT_FAITH_CANNOT_DEMAND_CONVERSION: "Faith prevents you from demanding the conversion of others" #NT!

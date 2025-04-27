@@ -1,6 +1,6 @@
 ﻿l_german:
- #birth control interactions
- force_contraceptives_interaction:0 "Force Contraceptives"
- force_contraceptives_interaction_desc:0 "Have [recipient.GetFirstNameNoTooltip] take contraceptives"
- remove_contraceptives_interaction:0 "Stop Contraceptives"
- remove_contraceptives_interaction_desc:0 "Have [recipient.GetFirstNameNoTooltip] stop taking contraceptives"
+  #birth control interactions 
+ force_contraceptives_interaction: "Mondtee-Einnahme verordnen"
+ force_contraceptives_interaction_desc: "Lasst [recipient.GetFirstNameNoTooltip] Mondtee verabreichen"
+ remove_contraceptives_interaction: "Mondtee-Einnahme beenden"
+ remove_contraceptives_interaction_desc: "Beendet die Mondtee-Einnahme von [recipient.GetFirstNameNoTooltip]"

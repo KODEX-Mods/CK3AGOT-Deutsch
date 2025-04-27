@@ -1,38 +1,69 @@
 ﻿l_german:
-
-#LOOK INTO THE FLAMES MODIFIERS
- flames_visions_of_conquest:0 "Visions of Conquest"
- flames_visions_of_conquest_desc:0 "This character believes great victories await in battle."
-
- flames_visions_of_reconciliation:0 "Visions of Reconciliation"
- flames_visions_of_reconciliation_desc:0 "This character has chosen to steer away from strife."
- 
- flames_visions_friendship:0 "Visions of Friendship"
- flames_visions_friendship_desc:0 "This character is dedicated to forging new friendships and alliances."
-
- flames_visions_ominous_visions:0 "Ominous Visions"
- flames_visions_ominous_visions_desc:0 "Strange visions have led this character to believe danger lurks around the corner."
-
- flames_visions_studying_prophecies:0 "Studying Prophecies"
- flames_visions_studying_prophecies_desc:0 "Visions witnessed within the flames have steered this character onto a spiritual path in hopes to grasp their meaning."
-
- flames_visions_studying_scriptures:0 "Studying Ancient Texts"
- flames_visions_studying_scriptures_desc:0 "Visions witnessed within the flames have led this character to study their nature through ancient texts."
-
- flames_visions_fortune:0 "Visions of Fortune"
- flames_visions_fortune_desc:0 "This character is certain their hard work will pay off eventually."
-
- flames_visions_glimpse_of_past:0 "Visions of the Past"
- flames_visions_glimpse_of_past_desc:0 "This character has become enthralled by empires long gone and their histories."
-
- flames_visions_lurking_dangers:0 "Visions of Betrayal"
- flames_visions_lurking_dangers_desc:0 "This character has recently become more vigilant."
-
- flames_visions_hostile_schemes:0 "Visions of Deceit"
- flames_visions_hostile_schemes_desc:0 "This character believes to have foreseen their successful machinations."
-
- flames_visions_falsehoods_revealed:0 "Falsehoods Revealed"
- flames_visions_falsehoods_revealed_desc:0 "Strage visions guide this character through the perils lurking in the dark."
-
- burned_commoners:0 "Outraged by Sacrificial Burnings"
- burned_commoners_desc:0 "The smallfolk in this county is outraged by sacrificial burnings conducted by the ruler of these lands."
+  
+ #LOOK INTO THE FLAMES MODIFIERS 
+ flames_visions_of_conquest: "Visions of Conquest" #NT!
+ flames_visions_of_conquest_desc: "This character believes great victories await in battle." #NT!
+  
+ flames_visions_of_reconciliation: "Visions of Reconciliation" #NT!
+ flames_visions_of_reconciliation_desc: "This character has chosen to steer away from strife." #NT!
+  
+ flames_visions_friendship: "Visions of Friendship" #NT!
+ flames_visions_friendship_desc: "This character is dedicated to forging new friendships and alliances." #NT!
+  
+ flames_visions_ominous_visions: "Ominous Visions" #NT!
+ flames_visions_ominous_visions_desc: "Strange visions have led this character to believe danger lurks around the corner." #NT!
+  
+ flames_visions_studying_prophecies: "Studying Prophecies" #NT!
+ flames_visions_studying_prophecies_desc: "Visions witnessed within the flames have steered this character onto a spiritual path in hopes to grasp their meaning." #NT!
+  
+ flames_visions_studying_scriptures: "Studying Ancient Texts" #NT!
+ flames_visions_studying_scriptures_desc: "Visions witnessed within the flames have led this character to study their nature through ancient texts." #NT!
+  
+ flames_visions_fortune: "Visions of Fortune" #NT!
+ flames_visions_fortune_desc: "This character is certain their hard work will pay off eventually." #NT!
+  
+ flames_visions_glimpse_of_past: "Visions of the Past" #NT!
+ flames_visions_glimpse_of_past_desc: "This character has become enthralled by empires long gone and their histories." #NT!
+  
+ flames_visions_lurking_dangers: "Visions of Betrayal" #NT!
+ flames_visions_lurking_dangers_desc: "This character has recently become more vigilant." #NT!
+  
+ flames_visions_hostile_schemes: "Visions of Deceit" #NT!
+ flames_visions_hostile_schemes_desc: "This character believes to have foreseen their successful machinations." #NT!
+  
+ flames_visions_falsehoods_revealed: "Falsehoods Revealed" #NT!
+ flames_visions_falsehoods_revealed_desc: "Strage visions guide this character through the perils lurking in the dark." #NT!
+  
+ burned_commoners: "Outraged by Sacrificial Burnings" #NT!
+ burned_commoners_desc: "The smallfolk in this county is outraged by sacrificial burnings conducted by the ruler of these lands." #NT!
+  
+ blood_drained_malus_small_modifier: "Small Blood Lossage" #NT!
+ blood_drained_malus_moderate_modifier_desc: "This character's blood has been deliberately drained." #NT!
+ blood_drained_malus_large_modifier: "Large Blood Lossage" #NT!
+ blood_drained_malus_small_modifier_desc: "$blood_drained_malus_moderate_modifier_desc$" #NT!
+ blood_drained_malus_moderate_modifier: "Moderate Blood Lossage" #NT!
+ blood_drained_malus_large_modifier_desc: "$blood_drained_malus_moderate_modifier_desc$" #NT!
+  
+ mediocre_trade_deal_modifier: "Mediocre Trade Deal" #NT!
+ mediocre_trade_deal_modifier_desc: "This county has been provided with a modest return from a recent trade deal, with small benefits and common goods exchanged." #NT!
+ decent_trade_deal_modifier: "Decent Trade Deal" #NT!
+ decent_trade_deal_modifier_desc: "This county has seen steady growth from a recent trade deal, with reliable but ordinary goods exchanged." #NT!
+ satisfactory_trade_deal_modifier: "Satisfactory Trade Deal" #NT!
+ satisfactory_trade_deal_modifier_desc: "This county has experienced consistent improvements due to a recent trade deal, with a healthy flow of valuable goods." #NT!
+ impressive_trade_deal_modifier: "Impressive Trade Deal" #NT!
+ impressive_trade_deal_modifier_desc: "This county has reaped considerable rewards from a recent trade deal, with valuable goods exchanged." #NT!
+ flourishing_trade_deal_modifier: "Flourishing Trade Deal" #NT!
+ flourishing_trade_deal_modifier_desc: "This county has been brought significant prosperity from a recent tradae deal, with rare goods exchanged and thriving foreign trade." #NT!
+  
+ blasphemous_sacrifice_1_modifier: "Blasphemous Sacrifice I" #NT!
+ blasphemous_sacrifice_2_modifier: "Blasphemous Sacrifice II" #NT!
+ blasphemous_sacrifice_3_modifier: "Blasphemous Sacrifice III" #NT!
+ blasphemous_sacrifice_4_modifier: "Blasphemous Sacrifice IV" #NT!
+ blasphemous_sacrifice_5_modifier: "Blasphemous Sacrifice V" #NT!
+ blasphemous_sacrifice_6_modifier: "Blasphemous Sacrifice VI" #NT!
+ blasphemous_sacrifice_7_modifier: "Blasphemous Sacrifice VII" #NT!
+ blasphemous_sacrifice_8_modifier: "Blasphemous Sacrifice VIII" #NT!
+ blasphemous_sacrifice_9_modifier: "Blasphemous Sacrifice IX" #NT!
+ blasphemous_sacrifice_10_modifier: "Blasphemous Sacrifice X" #NT!
+  
+ holy_bonds_broke_truce_modifier: "Broke Unholy Truce" #NT!

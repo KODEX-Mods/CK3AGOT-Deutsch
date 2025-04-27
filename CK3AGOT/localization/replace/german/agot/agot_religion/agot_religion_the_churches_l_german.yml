@@ -1,0 +1,50 @@
+﻿l_german:
+  ### THE RELIGION ### 
+ the_churches_religion: "The Churches of the Dark Gods" #NT!
+ the_churches_religion_adj: "The Churches" #NT!
+ the_churches_religion_adherent: "Inquirer" #NT!
+ the_churches_religion_adherent_plural: "Inquirers" #NT!
+ the_churches_religion_desc: "The lands beyond the Golden Empire are dark and terrible, and their churches are no different. The gods and philosophies of these churches are esoteric, grim, and terrifying." #NT!
+  
+ ### Faiths ### 
+ #The Fish God 
+ eldritch_fishgod: "Church of the Fish Gods" #NT!
+ eldritch_fishgod_adj: "Fish Gods" #NT!
+ eldritch_fishgod_adherent: "Fishman" #NT!
+ eldritch_fishgod_adherent_plural: "Fishmen" #NT!
+ eldritch_fishgod_desc: "The Church of the Fish Gods is the predominant form of worship in the Thousand Isles. The men there are said to be fish-like, with green skin, webbed digits, and sharp teeth. They worship gods similar to the terrifying fish said to dwell deep below the waves, and speak to their servants through dreams." #NT!
+  
+ #The Bloodless 
+ eldritch_bloodgod: "Church of the Bloodless" #NT!
+ eldritch_bloodgod_adj: "Bloodless" #NT!
+ eldritch_bloodgod_adherent: "Bloodless man" #NT!
+ eldritch_bloodgod_adherent_plural: "Bloodless men" #NT!
+ eldritch_bloodgod_desc: "The worship of the Bloodless Men beyond the Five Forts is centered on the Bloodless, a monstrous deity imprisoned deep below their lands. Despite its captivity, it speaks to its followers in dreams. One day, they hope to free it." #NT!
+  
+ #The Yellow Sign 
+ eldritch_yellow: "Church of the Yellow Sign" #NT!
+ eldritch_yellow_adj: "The Yellow Sign" #NT!
+ eldritch_yellow_adherent: "Signer" #NT!
+ eldritch_yellow_adherent_plural: "Signers" #NT!
+ eldritch_yellow_desc: "Another of the Dark Gods chained deep below. It is said to be a great watcher of all history, knower of all, and is sometimes called a King in Carcosa. Dark and terrible deeds are perpetuated in its name, and the yellow sign would hide his true name from anyone except his followers, dooming anyone else who looks at it." #NT!
+  
+ #Unknown Dreams 
+ eldritch_deep_dreams: "Church of Unknown Dreams" #NT!
+ eldritch_deep_dreams_adj: "Unknown Dreams" #NT!
+ eldritch_deep_dreams_adherent: "Enochian" #NT!
+ eldritch_deep_dreams_adherent_plural: "Enochians" #NT!
+ eldritch_deep_dreams_desc: "Deep below, in an ancient and cyclopean city, a dead god dreams. These dreams touch his followers and lead them to break the chains and bindings of morality and sanity — or so the Church of Unknown Dreams claims." #NT!
+  
+ #Starry Wisdom 
+ eldritch_starry_wisdom: "Church of Starry Wisdom" #NT!
+ eldritch_starry_wisdom_adj: "Starry Wisdom" #NT!
+ eldritch_starry_wisdom_adherent: "Inquirer" #NT!
+ eldritch_starry_wisdom_adherent_plural: "Inquirers" #NT!
+ eldritch_starry_wisdom_desc: "The Bloodstone Emperor was the founder of the Church of Starry Wisdom, but the Church soon surpassed him. Today, it can be found nearly across the known world, though those who follow its teachings are secretive and selective. What is known is that they worship a great piece of oily black stone, not unlike that of Yeen, the Toad Stone, Asshai, or even the Seastone Chair. This stone is said to have revealed the true nature of reality and great cosmic principles that shatter many men's minds." #NT!
+  
+ #Great Old Ones 
+ eldritch_leng: "Church of the Great Old Ones" #NT!
+ eldritch_leng_adj: "Great Old Ones" #NT!
+ eldritch_leng_adherent: "Dreamer" #NT!
+ eldritch_leng_adherent_plural: "Dreamers" #NT!
+ eldritch_leng_desc: "The gods are not intangible aspects or foreign concepts; no, the Great Old Ones lie below the island itself. This was known to others, for when the Golden Empire, curse its name, came, they sealed the entrances to the gods. Now, joyfully, the God-Empress has unsealed them and once again opened the connection between the Great Old Ones and the Lengii people!" #NT!

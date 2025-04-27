@@ -1,23 +1,23 @@
 ﻿l_german:
- agot_weirwood_events.0001.t:0 "The Heart Tree"
- agot_weirwood_events.0001.desc:0 "Regardless of faith, few places in the world come close to matching the heart of a godswood in terms of tranquility and otherworldly solitude. But this is no mere relaxing garden to stroll through — the Old Gods hold sway here.\n\nAs I approach the heart tree, I desire nothing more than..."
- agot_weirwood_events.0001.a:0 "...the blessing of the divines."
- agot_weirwood_events.0001.b:0 "...good health."
- agot_weirwood_events.0001.c:0 "...calm."
- agot_weirwood_events.0001.d:0 "...guidance."
-
- ############
- # TOOLTIPS #
- ############
-
- gain_piety_tooltip:0 "My piety does not go unnoticed"
- wounds_turn_to_cripple_tooltip:0 "Your wounds completely heal, but you become [GetTrait('crippled').GetName( GetNullCharacter )]"
-
- #############
- # MODIFIERS #
- #############
-
- weirwood_fertility_bonus_modifier:0 "Weirwood Fertility Blessing"
- weirwood_minor_health_bonus_modifier:0 "Weirwood Health Blessing"
- weirwood_medium_health_bonus_modifier:0 "Weirwood Health Blessing"
- weirwood_stress_modifier:0 "Peace of the Weirwoods"
+ agot_weirwood_events.0001.t: "Der Herzbaum"
+ agot_weirwood_events.0001.desc: "Ungeachtet des Glaubens gibt es nur wenige Orte auf der Welt, die dem Herzen eines Götterhains hinsichtlich der Ruhe und der überweltlichen Abgeschiedenheit nahe kommen. Aber dies ist nicht nur ein Garten, in dem Ihr entspannt spazieren gehen könnt - hier herrschen die Alten Götter.\n\nAls ich mich dem Herzbaum nähere, wünsche ich mir nichts sehnlicher als..."
+ agot_weirwood_events.0001.a: "...den Segen der Götter."
+ agot_weirwood_events.0001.b: "...Gesundheit."
+ agot_weirwood_events.0001.c: "...Ruhe."
+ agot_weirwood_events.0001.d: "...Weisungen der Götter."
+  
+  ############ 
+  # TOOLTIPS # 
+  ############ 
+  
+ gain_piety_tooltip: "Meine Frömmigkeit bleibt nicht unbemerkt"
+ wounds_turn_to_cripple_tooltip: "Eure Wunden heilen vollständig, aber Ihr werdet [GetTrait('crippled').GetName( GetNullCharacter )]"
+  
+  ############# 
+  # MODIFIERS # 
+  ############# 
+  
+ weirwood_fertility_bonus_modifier: "Fruchtbarkeitssegen des Wehrholzbaumes"
+ weirwood_minor_health_bonus_modifier: "Gesundheitssegen des Wehrholzbaumes (Klein)"
+ weirwood_medium_health_bonus_modifier: "Gesundheitssegen des Wehrholzbaumes (Mittel)"
+ weirwood_stress_modifier: "Peace of the Weirwoods" #NT!

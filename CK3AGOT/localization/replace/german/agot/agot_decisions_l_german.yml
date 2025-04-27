@@ -1,215 +1,307 @@
 ﻿l_german:
- I_DYNASTIC_ANCESTORS_RULED_THIS_TITLE:1 "At least three of your ancestors belong to your current [house|E] and have ruled your [primary_title|E] for at least ten years."
- I_NOT_DYNASTIC_ANCESTORS_RULED_THIS_TITLE:2 "Less than three of your ancestors belong to your current [house|E] and have ruled your [primary_title|E], for at least ten years."
-
- start_contraceptives_decision:0 "Use Contraceptives"
- start_contraceptives_decision_desc:0 "By consulting a physician I can acquire contraceptives, such as moon tea, which can be used to ensure that my occasional dalliance does not result in children."
- start_contraceptives_decision_tooltip:0 "Sacrifice some [income|E] to reduce your [fertility|E]."
- start_contraceptives_decision_confirm:0 "I am ready."
-
- stop_contraceptives_decision:0 "Stop Using Contraceptives"
- stop_contraceptives_decision_desc:0 "It's time for me to put my herbs and poultices aside. I may not have wanted children before, but the time has come to bring sons and daughters into the world."
- stop_contraceptives_decision_tooltip:0 "Stop sacrificing some [income|E] to reduce your [fertility|E]."
- stop_contraceptives_decision_confirm:0 "Let nature run its course."
- 
- weirwood_meditate_decision:0 "Meditate at a Weirwood"
- weirwood_meditate_decision_desc:0 "Regardless of faith, few places in the world come close to matching the heart of a godswood in terms of tranquility and otherworldly solitude. Perhaps I should visit the heart tree for some guidance."
- weirwood_meditate_decision_tooltip:0 "You will visit the godswood for a chance of renewal."
- weirwood_meditate_decision_confirm:0 "The trees call to me."
- # House Revival
- house_revival_tooltip:0 "By violence or fate, this house has become extinct, but due to its renowned history can be revived."
- darklyn_revival_decision:0 "Revive House Darklyn"
- darklyn_revival_desc:0 "In the Age of the Hundred Kingdoms, House Darklyn of Duskendale reigned as kings, claiming the mouth of the Blackwater Rush. The last Lord Darklyn lost his seat, his lands and his life when he took his king to prisoner. The price for his defiance was his family's demise. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
- darklyn_revival_decision_confirm:0 "Beneath Dusk's Dim Light"
- reyne_revival_decision:0 "Revive House Reyne"
- reyne_revival_desc:0 "House Reyne traces its lineage back to the First Men in the Age of Heroes, building their seat of Castamere around a rich system of mines, thus securing themselves great power in the Westerlands. House Reyne met its downfall when Lord Roger Reyne refused to pay his debts and rebelled against House Lannister. Their rebellion ended swiftly with the extinction of their dynasty. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
- reyne_revival_decision_confirm:0 "Long and Sharp"
- gardener_revival_decision:0 "Revive House Gardener"
- gardener_revival_desc:0 "Many houses are said to descend from the legendary Garth Greenhand, none more prestigious than House Gardener. The last Gardener King Mern IX and his kin were burnt alive at the Field of Fire in 1BC, ending the Gardener dynasty. Their lands were given to House Tyrell who had served loyally as their stewards. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
- gardener_revival_decision_confirm:0 "The Tallest Tree"
- durrandon_revival_decision:0 "Revive House Durrandon"
- durrandon_revival_desc:0 "In the Age of Heroes, legendary King Durran Godsgrief raised the castle Storm's End and founded the Kingdom of the Stormlands, thus cementing the rule of House Durrandon. Centuries later, his descendant Argilac the Arrogant lost his kingdom and his life — his lands and daughter given to Lord Orys Baratheon, ending the Durrandon dynasty. Pehaps it is time to bring back this once great [dynasty|E], with myself as its head."
- durrandon_revival_decision_confirm:0 "Ours is the Fury"
- stark_revival_decision:0 "Revive House Stark"
- stark_revival_desc:0 "Through fate and misfortune, the ancient house of Bran the Builder has gone extinct, ending thousands of years of Starks reigning in Winterfell. I have retaken Winterfell — perhaps it is time to bring back this once great [dynasty|E], with myself as its head... For there must always be a Stark in Winterfell."
- stark_revival_decision_confirm:0 "Winter is Coming"
- arryn_revival_decision:0 "Revive House Arryn"
- arryn_revival_desc:0 "Through fate and misfortune, the ancient house of the Falconknight has gone extinct, ending thousands of years of Arryn's reigning in the Vale. I have retaken the Eyrie — perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
- arryn_revival_decision_confirm:0 "As High As Honor"
- lannister_revival_decision:0 "Revive House Lannister"
- lannister_revival_desc:0 "Through fate and misfortune, the ancient house of Lann the Clever has gone extinct, ending thousands of years of Lannister rule. I have retaken Casterly Rock — perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
- lannister_revival_decision_confirm:0 "Hear Me Roar!"
- hoare_revival_decision:0 "Revive House Hoare"
- hoare_revival_desc:0 "For thousands of years my family ruled the Iron Islands, reaping iron and fear all over the shores of Westeros. It was only through dragonfire that we were humbled — but still we endure. I have retaken Orkmont, our ancestral home. Perhaps it is time to refound the [dynasty|E] of Qhored the Cruel, with myself as its head."
- hoare_revival_decision_confirm:0 "Lashed in Blood"
-
- set_capital_kingslanding_decision:0 "Reclaim King's Landing"
- set_capital_kingslanding_decision_confirm:0 "Restore the true seat of the Seven Kingdoms!"
- set_capital_kingslanding_decision_desc:0 "King's Landing is the capital of the Seven Kingdoms of the Iron Throne and as such she rightfully belongs to me."
- set_capital_kingslanding_decision_tooltip:0 "Restore King's Landing as the capital of your Kingdom."
-
- ######## Emperor reclaims KL from you
- agot_events_generic.0002.t:0 "You wretched [ROOT.Char.Custom('GirlBoy')],"
- agot_events_generic.0002.desc_vassal:0 "I dragged you out of the filth, and I can cast you back in again! You didn't #EMP truly#! think #EMP King's Landing#!, the last pillar of erudition on this disdainful earth, could really be yours! Not so much as your littlest toe is worthy of treading upon its glimmering bricks! Return it, or else the Blackwater shall be your drowning-pit — I will fling you into it myself, if I must."
- agot_events_generic.0002.a:0 "I was merely looking after it for you!"
- agot_events_generic.0002.b:0 "I hope your mithering rear gets cut on the Iron Throne."
-
-
- ############################
- ## Knighting Decision Loc ##
- ############################
-
- agot_buy_knighthood_decision:0 "Buy Knighthood"
- agot_buy_knighthood_decision_desc:0 "While social pressure forbids the sale and purchase of knighthood, there will always be those close willing to sell knighthood for the right price. For circumstances unimportant, I have not been made a knight at this point in my life. Using my influence and wealth, I can definitely fix that."
- agot_buy_knighthood_decision_desc_outsider:0 "While knighthood is not particularly valued or even relevant in my background, becoming a knight does nonetheless interest me. Finding a person willing to knight an #italic outsider#! will be difficult, but I'm sure that I can find a willing person for the right price."
- agot_buy_knighthood_decision_confirm:0 "Buy it!"
- agot_buy_knighthood_decision_tooltip:0 "Buy knighthood"
- agot_decision_bought_knighthood_effect_tt:0 "Your #V close family#! will be notified of your knighting."
-
- ############################
- ## Show Valyrian Steel Loc ##
- ############################
- #show_valyrian_steel_decision:0 "Valyrian Steel Weapons"
- #show_valyrian_steel_decision_desc:0 "Bring to me the list of all known Valyrian steel weapons."
- #show_valyrian_steel_decision.tt:0 "You will be presented with a list of all those in possession of Valyrian steel weapons"
- #show_valyrian_steel_decision_confirm:0 "Show me!"
- #show_valyrian_steel_decision_tooltip:0 "You will be brought a list of all known owners of Valyrian steel weapons"
-
- reforge_valyrian_steel_decision:0 "Reforge Valyrian Steel Blade"
- reforge_valyrian_steel_decision_desc:0 "I wish to forge a new blade of my own devising"
- reforge_valyrian_steel_decision.tt:0 "You will begin the process of reforging a Valyrian steel blade in your possesssion"
- reforge_valyrian_steel_decision_confirm:0 "Summon the smith!"
- reforge_valyrian_steel_decision_tooltip:0 "You will begin the process of reforging a Valyrian steel blade in your possesssion"
- reforge_valyrian_steel_excellent_aptitude:0 "Your $court_smith_court_position$ needs an aptitude of #V Excellent#!"
-
-#Dawn
- claim_dawn_unworthy_decision:0 "Claim Dawn"
- claim_dawn_unworthy_decision_desc:0 "The sword is mine by rights, "worthy" or not I claim it as my own."
- claim_dawn_unworthy_decision_tooltip:0 "Claim the legendary sword Dawn as your own"
- claim_dawn_unworthy_decision_confirm:0 "Claim"
- claim_dawn_worthy_decision:0 "Claim Dawn"
- claim_dawn_worthy_decision_desc:0 "I believe I am worthy."
- claim_dawn_worthy_decision_tooltip:0 "Claim the legendary sword Dawn as your own"
- claim_dawn_worthy_decision_confirm:0 "I am worthy!"
-
-###############################################################
-## Manage Realm Affairs - World Notification Config Decision ##
-###############################################################
- #Decision localization
- manage_realm_affairs_decision:0 "Manage Realm Affairs"
- manage_realm_affairs_decision_desc:0 "Petitioners, inheritance outside my domain... the day-to-day rulings can grow bothersome. Do I truly need to be troubled by it all?\n\nI can notify my servants I do not wish to be disturbed by the news of trivial matters."
- manage_realm_affairs_decision_tooltip:0 "Choose what events throughout the realm you wish to stay informed on"
- manage_realm_affairs_decision_confirm:0 "Summon a servant."
- manage_realm_affairs_decision_effect:0 "Select which matters are to be brought before you directly, or learn more about the reports from thoughout the world"
- CHOOSE_REALM_AFFAIRS_DECISION_NEXT_STEP_BUTTON:0 "Select Subject"
-
- choose_petitionners_and_homage_name:0 "Petitioners and Homage"
- choose_petitionners_and_homage_tooltip:0 "Choose whether you wish to receive petitioners and receive homage"
- choose_foreign_succession_name:0 "Foreign Inheritance"
- choose_foreign_realms_succession_tooltip:0 "Choose whether you wish to be informed of foreign succession"
- #choose_foreign_succession_desc:0 "Choose whether you wish to be informed of foreign succession"
- choose_foreign_succession_invalid:0 "You already rule the Iron Throne!"
- choose_nights_watch_elections_name:0 "Night's Watch Elections"
- choose_nights_watch_elections_tooltip:0 "Choose whether you wish to be informed whenever a new Lord Commander of the Night's Watch is elected"
- choose_nights_watch_elections_invalid:0 "You already are the Lord Commader!"
- choose_show_valyrian_steel_name:0 "Valyrian Steel"
- choose_show_valyrian_steel_tooltip:0 "You will be brought a list of all known Valyrian steel wielders"
- #choose_show_valyrian_steel_desc:0 "You will be brought a list of all known Valyrian steel wielders"
- choose_mute_epidemics_name:0 "Plagues"
- #choose_mute_epidemics_desc:0 "Choose whether you wish to be informed of [epidemics|E] when they spread"
- choose_mute_epidemics_tooltip:0 "Choose whether you wish to be informed of [epidemics|E] when they spread"
- choose_dragons_name:0 "Dragons"
- choose_dragons_tooltip:0 "Choose whether you wish to be informed of news pertaining to [dragons|E] or be brought a list of all dragons and their eggs"
-
- #Fallback event
- global_events_settings.0001.t:0 "The Realm's Affairs"
- global_events_settings.0001.desc:0 "The day-to-day rulings of the realm are taking so much of my time of late...\n\nAs yet another matter is brought to my attention by one of my servants, I ponder whether I truly need to be troubled by it all."
-
- global_events_settings.0001.dragonrider_death_toggle_on:0 "Keep me informed of the death of dragonriders."
- global_events_settings.0001.dragonrider_death_toggle_on.tt:0 "Currently, #N #bold you will NOT#!#! be informed whenever a dragonrider dies."
- global_events_settings.0001.dragonrider_death_toggle_off:0 "The death of dragonriders is no concern of mine."
- global_events_settings.0001.dragonrider_death_toggle_off.tt:0 "Currently, #P #bold you WILL#!#! be informed whenever a dragonrider dies."
- global_events_settings.0001.dragon_death_toggle_on:0 "Keep me informed of the death of dragons."
- global_events_settings.0001.dragon_death_toggle_on.tt:0 "Currently, #N #bold you will NOT#!#! be informed whenever a dragon dies."
- global_events_settings.0001.dragon_death_toggle_off:0 "The death of dragons is no concern of mine."
- global_events_settings.0001.dragon_death_toggle_off.tt:0 "Currently, #P #bold you WILL#!#! be informed whenever a dragon dies."
- global_events_settings.0001.inform_dragon_egg_hatched_toggle_on:0 "Keep me informed of dragon eggs that are hatched."
- global_events_settings.0001.inform_dragon_egg_hatched_toggle_on.tt:0 "Currently, #N #bold you will NOT#!#! be informed whenever a dragon egg hatches."
- global_events_settings.0001.inform_dragon_egg_hatched_toggle_off:0 "Dragon eggs that are hatched are no concern of mine."
- global_events_settings.0001.inform_dragon_egg_hatched_toggle_off.tt:0 "Currently, #P #bold you WILL#!#! be informed whenever a dragon egg hatches."
- global_events_settings.0001.inform_dragon_tamed_toggle_on:0 "Keep me informed of dragons that are tamed."
- global_events_settings.0001.inform_dragon_tamed_toggle_on.tt:0 "Currently, #N #bold you will NOT#!#! be informed whenever a dragon is tamed."
- global_events_settings.0001.inform_dragon_tamed_toggle_off:0 "Dragons that are tamed are no concern of mine."
- global_events_settings.0001.inform_dragon_tamed_toggle_off.tt:0 "Currently, #P #bold you WILL#!#! be informed whenever a dragon is tamed."
-
- global_events_settings.0001.vs_blades:0 "About the wielders of Valyrian steel..."
- global_events_settings.0001.petitioners:0 "About petitioners and homage..."
- global_events_settings.0001.it_succession:0 "About the Iron Throne..."
- global_events_settings.0001.nw_elections:0 "About the elections of the Night's Watch..."
- global_events_settings.0001.mute_plagues:0 "About plagues..."
- global_events_settings.0001.dragon_categories:0 "About dragons and dragon eggs..."
- global_events_settings.main_screen:0 "There is something else..."
- global_events_settings.dismiss:0 "That is all."
- #Petitioners & Homage
- global_events_settings.0002.t:0 "$global_events_settings.0001.t$"
- global_events_settings.0002.desc:0 "$global_events_settings.0001.desc$"
- global_events_settings.0002.less_homage:0 "Let my vassals pay homage at a reasonable pace."
- global_events_settings.0002.less_homage.tt:0 "You will see the normal amount of vassals paying homage."
- global_events_settings.0002.more_homage:0 "All must pay me homage."
- global_events_settings.0002.more_homage.tt:0 "You will cater to #N #bold FAR MORE#!#! vassals paying homage."
- global_events_settings.0002.homage_on:0 "May the lords of the realm once again pay homage to me."
- global_events_settings.0002.homage_on.tt:0 "You will once again #P #bold ALLOW#!#! vassals to pay homage."
- global_events_settings.0002.homage_off:0 "I have no interest in homage."
- global_events_settings.0002.homage_off.tt:0 "You will #N #bold CEASE#!#! allowing vassals to pay homage."
- global_events_settings.0002.petitioners_on:0 "May the lords of the realm once again petition me."
- global_events_settings.0002.petitioners_on.tt:0 "You will once again #P #bold ALLOW#!#! petitioners."
- global_events_settings.0002.petitioners_off:0 "I will see no more petitioners."
- global_events_settings.0002.petitioners_off.tt:0 "You will #N #bold CEASE#!#! allowing petitioners."
- #Iron Throne Succession
- global_events_settings.0003.t:0 "$global_events_settings.0002.t$"
- global_events_settings.0003.desc:0 "$global_events_settings.0002.desc$"
- global_events_settings.0003.it_toggle_on:0 "Keep me informed of the Iron Throne succession."
- global_events_settings.0003.it_toggle_on.tt:0 "Currently, #N #bold you will NOT#!#! be informed of the succession of the Iron Throne."
- global_events_settings.0003.it_toggle_off:0 "The succession of the Iron Throne is no concern of mine."
- global_events_settings.0003.it_toggle_off.tt:0 "Currently, #P #bold you WILL#!#! be informed whenever a new ruler ascends the Iron Throne."
- #Night's Watch Elections
- global_events_settings.0004.t:0 "$global_events_settings.0002.t$"
- global_events_settings.0004.desc:0 "$global_events_settings.0002.desc$"
- global_events_settings.0004.nw_toggle_on:0 "The affairs Night's Watch do interest me."
- global_events_settings.0004.nw_toggle_on.tt:0 "Currently, #N #bold you will NOT#!#! be informed of the Night's Watch elections."
- global_events_settings.0004.nw_toggle_off:0 "The doings of the Night's Watch do not concern me."
- global_events_settings.0004.nw_toggle_off.tt:0 "Currently, #P #bold you WILL#!#! be informed whenever a new Lord Commander of the Night's Watch is elected."
-
- #Epidemic Notifications
- agot_epidemic_notifications.0001.t:0 "$global_events_settings.0002.t$"
- agot_epidemic_notifications.0001.desc:0 "$global_events_settings.0002.desc$"
- agot_epidemic_notifications.0001.opt.a:0 "Do not bother me with #difficulty_easy minor plagues#! spreading."
- agot_epidemic_notifications.0001.opt.b:0 "Keep me informed of #difficulty_easy minor plagues#! spreading."
- agot_epidemic_notifications.0001.opt.c:0 "Do not bother me with #difficulty_medium major plagues#! spreading."
- agot_epidemic_notifications.0001.opt.d:0 "Keep me informed of #difficulty_medium major plagues#! spreading."
- agot_epidemic_notifications.0001.opt.e:0 "Do not bother me with #difficulty_hard apocalyptic plagues#! spreading."
- agot_epidemic_notifications.0001.opt.f:0 "Keep me informed of #difficulty_hard apocalyptic plagues#! spreading."
- agot_epidemic_notifications.0001.opt.g:0 "Do not bother me with #credits_entries #bold any plagues#!#! spreading."
- agot_epidemic_notifications.0001.opt.h:0 "Keep me informed of #credits_entries #bold any plagues#!#! spreading."
- agot_epidemic_notifications.0001.a.tt:0 "Currently, #P #bold you are accepting#!#! all notifications related to #WF2 [plague_minor|E] [epidemics|E]#!."
- agot_epidemic_notifications.0001.b.tt:0 "Currently, #N #bold you are rejecting#!#! all notifications related to #WF2 [plague_minor|E] [epidemics|E]#!."
- agot_epidemic_notifications.0001.c.tt:0 "Currently, #P #bold you are accepting#!#! all notifications related to #WF2 [plague_major|E] [epidemics|E]#!."
- agot_epidemic_notifications.0001.d.tt:0 "Currently, #N #bold you are rejecting#!#! all notifications related to #WF2 [plague_major|E] [epidemics|E]#!."
- agot_epidemic_notifications.0001.e.tt:0 "Currently, #P #bold you are accepting#!#! all notifications related to #WF2 [plague_apocalyptic|E] [epidemics|E]#!."
- agot_epidemic_notifications.0001.f.tt:0 "Currently, #N #bold you are rejecting#!#! all notifications related to #WF2 [plague_apocalyptic|E] [epidemics|E]#!."
- agot_epidemic_notifications.0001.g.tt:0 "You will choose to #N #bold HIDE#!#! all notifications related to #WF2 [epidemics|E]#!."
- agot_epidemic_notifications.0001.h.tt:0 "You will choose to #P #bold SHOW#!#! all notifications related to #WF2 [epidemics|E]#!."
-
- #####################################
- ## adopt_personal_coa Decision Loc ##
- #####################################
-
- adopt_personal_coa:0 "Adopt a Set of Personal Arms"
- adopt_personal_coa_desc:0 "A set of [agot_personal_coa|e] can distinguish me further from my house and family."
- adopt_personal_coa_confirm:0 "Do it"
- adopt_personal_coa_tooltip:0 "Adopt a Set of Personal Arms"
- adopt_personal_coa_effect_tt:0 "You will gain a personal coat of arms which will be displayed next to your house sigil."
- personal_coa_name_gui:0 "Personal Arms"
- coa_new_name:0 "[GetGlobalVariable('coa_new_name').Char.GetFirstNamePossessive] Personal Arms"
- CUSTOMIZE_PERSONAL_ARMS:0 "#T Customize [agot_personal_coa|e]#!\nOpen the customization menu to edit your personal arms."
- agot_dylan_house_name_key:0 "[GetGlobalVariable('coa_new_name').Char.GetDynastyNameNoTooltip]"
+ I_DYNASTIC_ANCESTORS_RULED_THIS_TITLE: "At least three of your ancestors belong to your current [house|E] and have ruled your [primary_title|E] for at least ten years."
+ I_NOT_DYNASTIC_ANCESTORS_RULED_THIS_TITLE: "Less than three of your ancestors belong to your current [house|E] and have ruled your [primary_title|E], for at least ten years."
+  
+ start_contraceptives_decision: "Mondtee einnehmen"
+ start_contraceptives_decision_desc: "Ich könnte einen Maester konsultieren, um Mondtee zu erhalten, ein Verhütungsmittel, das gewährleistet, dass meine gelegentlichen Liebesabenteuer nicht zu Nachwuchs führen."
+ start_contraceptives_decision_tooltip: "Opfert etwas [income|E] und senkt Eure [fertility|E]."
+ start_contraceptives_decision_confirm: "Ich bin bereit."
+  
+ stop_contraceptives_decision: "Mondteeeinahme beenden"
+ stop_contraceptives_decision_desc: "Die Zeit ist gekommen, meinen Mondtee beiseitezustellen. Mag sein, dass ich zuvor keinen Nachwuchs haben wollte, doch nun ist die Zeit gekommen, Söhne und Töchter in die Welt zu bringen."
+ stop_contraceptives_decision_tooltip: "Verzichtet nicht länger auf [income|E], um Eure [fertility|E] zu senken."
+ stop_contraceptives_decision_confirm: "Lasst der Natur ihren Lauf."
+  
+ weirwood_meditate_decision: "Die Stille eines Götterhains suchen"
+ weirwood_meditate_decision_desc: "Ganz gleich des Glaubens, gibt es wenige Orte in der Welt, die der Ruhe und der überirdischen Einsamkeit des Herzens eines Götterhains nahekommen. Vielleicht sollte ich den Herzbaum besuchen, um Rat zu suchen."
+ weirwood_meditate_decision_tooltip: "Ihr besucht den Götterhain zur Erholung."
+ weirwood_meditate_decision_confirm: "Der Herzbaum ruft mich."
+  # House Revival 
+ house_revival_tooltip: "By violence or fate, this House has become extinct, but due to its renowned history can be revived." #NT!
+ darklyn_revival_decision: "Haus Finsterlyn wieder aufleben lassen"
+ darklyn_revival_desc: "In the Age of the Hundred Kingdoms, House Darklyn of Duskendale reigned as kings, claiming the mouth of the Blackwater Rush. The last Lord Darklyn lost his seat, his lands and his life when he took his king to prisoner. The price for his defiance was his family's demise. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head." #NT!
+ darklyn_revival_decision_confirm: "Im Schwachen Licht der Dämmerung"
+ reyne_revival_decision: "Haus Regn wieder aufleben lassen"
+ reyne_revival_desc: "Das Haus Regn geht auf die Ersten Menschen aus dem Zeitalter der Helden zurück, die ihren Sitz in Castamaer um ein reiches Minensystem herum errichteten und sich so große Macht in den Westlanden sicherten. Haus Regn erlebte seinen Untergang, als Lord Roger Regn sich weigerte, seine Schulden zu begleichen und sich gegen Haus Lennister auflehnte. Ihre Rebellion endete schlagartig mit dem Aussterben ihrer Dynastie. Vielleicht ist es an der Zeit, diese einst große Dynastie wieder aufleben zu lassen, mit mir selbst an der Spitze."
+ reyne_revival_decision_confirm: "Lang Und Scharf"
+ gardener_revival_decision: "Haus Gärtner wieder aufleben"
+ gardener_revival_desc: "Many houses are said to descend from the legendary Garth Greenhand, none more prestigious than House Gardener. The last Gardener King Mern IX and his kin were burnt alive at the Field of Fire in 1BC, ending the Gardener dynasty. Their lands were given to House Tyrell who had served loyally as their stewards. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head." #NT!
+ gardener_revival_decision_confirm: "Durch Unsere Hand"
+ durrandon_revival_decision: "Haus Durrandon wieder aufleben lassen"
+ durrandon_revival_desc: "Im Zeitalter der Helden errichtete der legendäre König Durran Götterfluch die Festung Sturmkap und gründete das Königreich der Sturmlande, wodurch die Herrschaft des Hauses Durrandon zementiert wurde. Jahrhunderte später verlor sein Nachkomme Argilac der Arrogante sein Königreich und sein Leben, seine Ländereien und seine Tochter wurden an Lord Orys Baratheon übergeben. Dies war das Ende der Durrandon-Dynastie. Vielleicht ist es an der Zeit, diese einst große Dynastie mit mir an der Spitze wieder aufleben zu lassen."
+ durrandon_revival_decision_confirm: "Unser Ist Der Zorn"
+ stark_revival_decision: "Haus Stark wieder aufleben lassen"
+ stark_revival_desc: "Durch Schicksalsschläge und Unglücke ist das uralte Haus Brans des Erbauers ausgestorben und hat die jahrtausendelange Herrschaft der Starks in Winterfell beendet. Ich habe Winterfell zurückerobert - vielleicht ist es an der Zeit, diese einst große Dynastie mit mir an der Spitze wieder aufleben zu lassen... Denn es muss immer ein Stark in Winterfell sein."
+ stark_revival_decision_confirm: "Der Winter Naht"
+ arryn_revival_decision: "Haus Arryn wieder aufleben lassen"
+ arryn_revival_desc: "Durch Schicksalsschläge und Unglücke ist das alte Haus der Falkenritter ausgestorben, womit die jahrtausendelange Herrschaft der Arryns im Grünen Tal beendet wurde. Ich habe Hohenehr zurückerobert - vielleicht ist es an der Zeit, diese einst große Dynastie mit mir an der Spitze wieder aufleben zu lassen."
+ arryn_revival_decision_confirm: "Hoch Wie Die Ehre"
+ lannister_revival_decision: "Haus Lennister wieder aufleben lassen"
+ lannister_revival_desc: "Durch Schicksalsschläge und Unglück ist das alte Haus Lenns des Listigen ausgelöscht, womit die jahrtausendelange Herrschaft der Lennisters beendet ist. Ich habe Casterlystein zurückerobert - vielleicht ist es an der Zeit, diese einst große Dynastie mit mir an der Spitze wieder aufleben zu lassen."
+ lannister_revival_decision_confirm: "Hört Mich Brüllen!"
+ hoare_revival_decision: "Haus Hoffartt wieder aufleben lassen"
+ hoare_revival_desc: "Tausende Jahre lang herrschte meine Familie über die Eiseninseln und erntete Eisen und Furcht an den Ufern von Westeros. Einzig Drachenfeuer hat uns bezwungen - aber wir sind immer noch standhaft. Ich habe Orgmont, die Heimat unserer Vorfahren, zurückerobert. Vielleicht ist es an der Zeit, die Dynastie Qhoreds neu zu gründen, mit mir an der Spitze."
+ hoare_revival_decision_confirm: "In Blut Getaucht"
+ dynamic_bastard_house_revival_decision: "Revive House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName]" #NT!
+ dynamic_bastard_house_revival_decision_desc: "House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName] has gone extinct. As a direct descendant of this House, I can reclaim its legacy and name." #NT!
+ dynamic_bastard_house_revival_decision_confirm: "House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName], shall be born again!" #NT!
+ dynamic_bastard_house_revival_decision_bastard: "Your [house|e] is a [bastard_branch|e]" #NT!
+ dynamic_bastard_house_revival_decision_westeros_needs_legitimization: "[top_liege.GetName] will hear your petition for assuming the name, words, and arms of House [bastard_house_of.GetName]." #NT!
+  
+ set_capital_kingslanding_decision: "Königsmund zurückerobern"
+ set_capital_kingslanding_decision_confirm: "Gebt den Sieben Königslanden ihren wahren Sitz zurück!"
+ set_capital_kingslanding_decision_desc: "Königsmund ist die Hauptstadt der Königslande des Eisernen Throns und als solche steht sie mir zu, dem Recht nach."
+ set_capital_kingslanding_decision_tooltip: "Stellt Königsmund als Hauptstadt Eures Königreichs wieder her."
+  
+  ######## Emperor reclaims KL from you 
+ agot_events_generic.0002.t: "Ihr minderwertig[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')] [ROOT.Char.Custom('GirlBoy')],"
+ agot_events_generic.0002.desc_vassal: "Ich habe Euch Abfall aus dem Dreck gezerrt, und ich kann Euch wieder hineinwerfen! Ihr habt doch nicht #EMP wirklich#! geglaubt, dass #EMP Königsmund#!, die letzte Säule der Gelehrsamkeit auf dieser verachtenswerten Erde, tatsächlich Euer sein könnte! Nicht einmal Euer kleinster Zeh ist es wert, auf den schimmernden Ziegeln der Stadt zu gehen! Gebt sie zurück, oder der Schwarzwasser wird Eure Ertränkungsgrube sein - ich werde Euch Haufen Elend selbst hineinwerfen und auf Euch pissen, wenn ich muss."
+ agot_events_generic.0002.a: "Ich habe hier nur für Euch nach dem Rechten gesehen!"
+ agot_events_generic.0002.b: "Ich hoffe, Ihr schneidet Euren mickrigen Sack am Eisernen Thron auf."
+  
+  
+  ############################ 
+  ## Knighting Decision Loc ## 
+  ############################ 
+  
+ agot_buy_knighthood_decision: "Ritterwürde erkaufen"
+ agot_buy_knighthood_decision_desc: "Auch wenn es schwer missachtet wird, die Ritterwürde gegen Geld zu erlangen, wird es immer Menschen geben, die bereit sind, für die richtige Anzahl an Golddrachen Ritterschläge zu erteilen. Aus unerheblichen Gründen bin ich zu diesem Zeitpunkt meines Lebens noch nicht zum Ritter geschlagen worden. Mit meinem Einfluss und Wohlstand kann ich das definitiv ändern."
+ agot_buy_knighthood_decision_desc_outsider: "Auch wenn das Rittertum in meiner Heimat keinen besonderen Stellenwert hat, bin ich dennoch daran interessiert, ein Ritter zu werden. Eine Person zu finden, die bereit ist, einen #italic Außenseiter#! zum Ritter zu schlagen, wird schwierig sein, doch ich bin sicher, dass ich für den richtigen Preis eine willige Person finden kann."
+ agot_buy_knighthood_decision_confirm: "In den Warenkorn legen!"
+ agot_buy_knighthood_decision_tooltip: "Erkauft Euch die Ritterwürde"
+ agot_decision_bought_knighthood_effect_tt: "Eure #V unmittelbare Familie#! wird von Eurem Ritterschlag unterrichtet werden."
+  
+  ############################ 
+  ## Show Valyrian Steel Loc ## 
+  ############################ 
+ #show_valyrian_steel_decision: "Valyrian Steel Weapons" #NT!
+ #show_valyrian_steel_decision_desc: "Bring to me the list of all known Valyrian steel weapons." #NT!
+ #show_valyrian_steel_decision.tt: "You will be presented with a list of all those in possession of Valyrian steel weapons" #NT!
+ #show_valyrian_steel_decision_confirm: "Show me!" #NT!
+ #show_valyrian_steel_decision_tooltip: "You will be brought a list of all known owners of Valyrian steel weapons" #NT!
+  
+ reforge_valyrian_steel_decision: "Reforge Valyrian Steel Blade" #NT!
+ reforge_valyrian_steel_decision_desc: "I wish to forge a new blade of my own devising" #NT!
+ reforge_valyrian_steel_decision.tt: "You will begin the process of reforging a Valyrian steel blade in your possesssion" #NT!
+ reforge_valyrian_steel_decision_confirm: "Summon the smith!" #NT!
+ reforge_valyrian_steel_decision_tooltip: "You will begin the process of reforging a Valyrian steel blade in your possesssion" #NT!
+ reforge_valyrian_steel_excellent_aptitude: "Your $court_smith_court_position$ needs an aptitude of #V Excellent#! with the knowledge of reforging Valyrian Steel or a faith with the [GetFaithDoctrine('tenet_blood_magic_steel').GetBaseName] tenet" #NT!
+  
+  #Dawn 
+ claim_dawn_unworthy_decision: "Dämmerung beanspruchen"
+ claim_dawn_unworthy_decision_desc: "Das Schwert ist mein, dem Recht nach. Ob ich nun "würdig" bin oder nicht, ich beanspruche es als mein Eigentum."
+ claim_dawn_unworthy_decision_tooltip: "Erhebt Anspruch auf das legendäre Schwert Dämmerung"
+ claim_dawn_unworthy_decision_confirm: "Beanspruchen"
+ claim_dawn_worthy_decision: "Dämmerung beanspruchen"
+ claim_dawn_worthy_decision_desc: "Ich glaube, ich bin würdig."
+ claim_dawn_worthy_decision_tooltip: "Erhebt Anspruch auf das legendäre Schwert Dämmerung"
+ claim_dawn_worthy_decision_confirm: "Ich bin würdig!"
+  
+  ############################################################### 
+  ## Manage Realm Affairs - World Notification Config Decision ## 
+  ############################################################### 
+  #Decision localization 
+ manage_realm_affairs_decision: "Manage Realm Affairs" #NT!
+ manage_realm_affairs_decision_desc: "Petitioners, inheritance outside my domain... the day-to-day rulings can grow bothersome. Do I truly need to be troubled by it all?\n\nI can notify my servants I do not wish to be disturbed by the news of trivial matters." #NT!
+ manage_realm_affairs_decision_tooltip: "Choose what events throughout the realm you wish to stay informed on" #NT!
+ manage_realm_affairs_decision_confirm: "Summon a servant." #NT!
+ manage_realm_affairs_decision_effect: "Select which matters are to be brought before you directly, or learn more about the reports from thoughout the world" #NT!
+ CHOOSE_REALM_AFFAIRS_DECISION_NEXT_STEP_BUTTON: "Select Subject" #NT!
+  
+ choose_petitioners_and_homage_name: "Petitioners and Homage" #NT!
+ choose_petitioners_and_homage_tooltip: "Choose whether you wish to receive petitioners and receive homage" #NT!
+ choose_foreign_succession_name: "Foreign Inheritance" #NT!
+ choose_foreign_realms_succession_tooltip: "Choose whether you wish to be informed of foreign succession" #NT!
+ choose_foreign_succession_invalid: "You already rule the Iron Throne!" #NT!
+ choose_nights_watch_elections_name: "Night's Watch Elections" #NT!
+ choose_nights_watch_elections_tooltip: "Choose whether you wish to be informed whenever a new Lord Commander of the Night's Watch is elected" #NT!
+ choose_nights_watch_elections_invalid: "You already are the Lord Commader!" #NT!
+ choose_show_valyrian_steel_name: "Valyrian Steel" #NT!
+ choose_show_valyrian_steel_tooltip: "You will be brought a list of all known Valyrian steel wielders" #NT!
+ choose_dragons_name: "Dragons" #NT!
+ choose_dragons_tooltip: "Choose whether you wish to be informed of news pertaining to [dragons_plural|E] or be brought a list of all dragons and their eggs" #NT!
+ choose_house_feuds: "House Feuds" #NT!
+ choose_house_feuds_desc: "You will be brought a list of all known House [house_feuds|E]" #NT!
+ choose_house_feuds_tooltip: "You will be brought a list of all known House [house_feuds|E]" #NT!
+ choose_dragon_trees: "Dragon Family Trees" #NT!
+ choose_dragon_trees_tooltip: "You will be brought a list of all known [dragon_matriarchs|E]" #NT!
+ choose_banks: "Banks" #NT!
+ choose_banks_desc: "You will be brought a list of all known banks" #NT!
+ choose_banks_tooltip: "You will be brought a list of all known banks" #NT!
+  
+  #DLC Tooltips 
+ agot_requires_rc: "Option requires Royal Court DLC" #NT!
+ agot_requires_fnf: "Option requires Friends and Foes DLC" #NT!
+ agot_requires_rtp: "Option requires Roads to Power DLC" #NT!
+  
+  #Fallback event 
+ global_events_settings.0001.t: "The Realm's Affairs" #NT!
+ global_events_settings.0001.desc: "The day-to-day rulings of the realm are taking so much of my time of late...\n\nAs yet another matter is brought to my attention by one of my servants, I ponder whether I truly need to be troubled by it all." #NT!
+  
+ global_events_settings.0001.dragonrider_death_toggle_on: "Keep me informed of the death of dragonriders." #NT!
+ global_events_settings.0001.dragonrider_death_toggle_on.tt: "Currently, #N #bold you will NOT#!#! be informed whenever a dragonrider dies." #NT!
+ global_events_settings.0001.dragonrider_death_toggle_off: "The death of dragonriders is no concern of mine." #NT!
+ global_events_settings.0001.dragonrider_death_toggle_off.tt: "Currently, #P #bold you WILL#!#! be informed whenever a dragonrider dies." #NT!
+ global_events_settings.0001.dragon_death_toggle_on: "Keep me informed of the death of dragons." #NT!
+ global_events_settings.0001.dragon_death_toggle_on.tt: "Currently, #N #bold you will NOT#!#! be informed whenever a dragon dies." #NT!
+ global_events_settings.0001.dragon_death_toggle_off: "The death of dragons is no concern of mine." #NT!
+ global_events_settings.0001.dragon_death_toggle_off.tt: "Currently, #P #bold you WILL#!#! be informed whenever a dragon dies." #NT!
+ global_events_settings.0001.inform_dragon_egg_hatched_toggle_on: "Keep me informed of dragon eggs that are hatched." #NT!
+ global_events_settings.0001.inform_dragon_egg_hatched_toggle_on.tt: "Currently, #N #bold you will NOT#!#! be informed whenever a dragon egg hatches." #NT!
+ global_events_settings.0001.inform_dragon_egg_hatched_toggle_off: "Dragon eggs that are hatched are no concern of mine." #NT!
+ global_events_settings.0001.inform_dragon_egg_hatched_toggle_off.tt: "Currently, #P #bold you WILL#!#! be informed whenever a dragon egg hatches." #NT!
+ global_events_settings.0001.inform_dragon_tamed_toggle_on: "Keep me informed of dragons that are tamed." #NT!
+ global_events_settings.0001.inform_dragon_tamed_toggle_on.tt: "Currently, #N #bold you will NOT#!#! be informed whenever a dragon is tamed." #NT!
+ global_events_settings.0001.inform_dragon_tamed_toggle_off: "Dragons that are tamed are no concern of mine." #NT!
+ global_events_settings.0001.inform_dragon_tamed_toggle_off.tt: "Currently, #P #bold you WILL#!#! be informed whenever a dragon is tamed." #NT!
+  
+ global_events_settings.0001.vs_blades: "About the wielders of Valyrian steel..." #NT!
+ global_events_settings.0001.petitioners: "About petitioners and homage..." #NT!
+ global_events_settings.0001.it_succession: "About the Iron Throne..." #NT!
+ global_events_settings.0001.nw_elections: "About the elections of the Night's Watch..." #NT!
+ global_events_settings.0001.mute_plagues: "About plagues..." #NT!
+ global_events_settings.0001.dragon_categories: "About dragons and dragon eggs..." #NT!
+ global_events_settings.0001.dragon_trees: "About dragon family trees..." #NT!
+ global_events_settings.0001.house_feuds: "About House feuds..." #NT!
+ global_events_settings.main_screen: "There is something else..." #NT!
+ global_events_settings.dismiss: "That is all." #NT!
+  #Petitioners & Homage 
+ global_events_settings.0002.t: "$global_events_settings.0001.t$" #NT!
+ global_events_settings.0002.desc: "$global_events_settings.0001.desc$" #NT!
+ global_events_settings.0002.less_homage: "Let my vassals pay homage at a reasonable pace." #NT!
+ global_events_settings.0002.less_homage.tt: "You will see the normal amount of vassals paying homage." #NT!
+ global_events_settings.0002.more_homage: "All must pay me homage." #NT!
+ global_events_settings.0002.more_homage.tt: "You will cater to #N #bold FAR MORE#!#! vassals paying homage." #NT!
+ global_events_settings.0002.homage_on: "May the lords of the realm once again pay homage to me." #NT!
+ global_events_settings.0002.homage_on.tt: "You will once again #P #bold ALLOW#!#! vassals to pay homage." #NT!
+ global_events_settings.0002.homage_off: "I have no interest in homage." #NT!
+ global_events_settings.0002.homage_off.tt: "You will #N #bold CEASE#!#! allowing vassals to pay homage." #NT!
+ global_events_settings.0002.petitioners_on: "May the lords of the realm once again petition me." #NT!
+ global_events_settings.0002.petitioners_on.tt: "You will once again #P #bold ALLOW#!#! petitioners." #NT!
+ global_events_settings.0002.petitioners_off: "I will see no more petitioners." #NT!
+ global_events_settings.0002.petitioners_off.tt: "You will #N #bold CEASE#!#! allowing petitioners." #NT!
+  #Iron Throne Succession 
+ global_events_settings.0003.t: "$global_events_settings.0002.t$" #NT!
+ global_events_settings.0003.desc: "$global_events_settings.0002.desc$" #NT!
+ global_events_settings.0003.it_toggle_on: "Keep me informed of the Iron Throne succession." #NT!
+ global_events_settings.0003.it_toggle_on.tt: "Currently, #N #bold you will NOT#!#! be informed of the succession of the Iron Throne." #NT!
+ global_events_settings.0003.it_toggle_off: "The succession of the Iron Throne is no concern of mine." #NT!
+ global_events_settings.0003.it_toggle_off.tt: "Currently, #P #bold you WILL#!#! be informed whenever a new ruler ascends the Iron Throne." #NT!
+  #Night's Watch Elections 
+ global_events_settings.0004.t: "$global_events_settings.0002.t$" #NT!
+ global_events_settings.0004.desc: "$global_events_settings.0002.desc$" #NT!
+ global_events_settings.0004.nw_toggle_on: "The affairs Night's Watch do interest me." #NT!
+ global_events_settings.0004.nw_toggle_on.tt: "Currently, #N #bold you will NOT#!#! be informed of the Night's Watch elections." #NT!
+ global_events_settings.0004.nw_toggle_off: "The doings of the Night's Watch do not concern me." #NT!
+ global_events_settings.0004.nw_toggle_off.tt: "Currently, #P #bold you WILL#!#! be informed whenever a new Lord Commander of the Night's Watch is elected." #NT!
+  
+ agot_house_maintenance.1000.t: "View House Feuds" #NT!
+ agot_house_maintenance.1000.desc: "My liege, here are all of the known house feuds:" #NT!
+ agot_house_maintenance.1000.desc_none: "My liege, there are no known house feuds." #NT!
+  
+  ############################################################### 
+  ## Manage Bank ## 
+  ############################################################### 
+  #Decision localization 
+ manage_bank_decision: "Manage Bank" #NT!
+ manage_bank_decision_desc: "As a [agot_bank_director|El], I have many means at my disposal to steer the [agot_bank|El] toward a profitable future." #NT!
+ manage_bank_decision_tooltip: "Choose which of the bank's policies you want to change" #NT!
+ manage_bank_decision_confirm: "Summon a clerk." #NT!
+ manage_bank_decision_effect: "Choose which of the bank's policies you want to change" #NT!
+ CHOOSE_BANK_DECISION_NEXT_STEP_BUTTON: "Select Subject" #NT!
+  
+ set_risk_level_name: "Change Risk Level" #NT!
+ set_risk_level_tooltip: "You will be able to choose between low, medium, and high [agot_bank_risk_levels_l|E] for loans and investments." #NT!
+  
+ set_dividend_level_name: "Adjust Dividend Rates" #NT!
+ set_dividend_level_tooltip: "You will be able to choose between low, medium, and high rates of [agot_bank_dividends|El]." #NT!
+  
+ set_interest_level_name: "Adjust Interest Rates" #NT!
+ set_interest_level_tooltip: "You will be able to choose between lower, normal, and higher [agot_bank_interest_rates_l|E]. The lower the interest rate, the more customers you will attract, but the lower your [agot_bank_profits|El] per loan will be, and vice versa." #NT!
+  
+ delegate_defaulter_handling_name: "Delegate Management of Defaults" #NT!
+ delegate_defaulter_handling_tooltip: "You will no longer receive messages about debtors defaulting." #NT!
+  
+ handle_defaulters_again_name: "Manage Defaults" #NT!
+ handle_defaulters_again_tooltip: "You will receive a message each time a default occurs." #NT!
+  
+ investments_forbidden_name: "Reject New Investments" #NT!
+ investments_forbidden_tooltip: "You will be the only one who is able to invest in the bank." #NT!
+  
+ investments_allowed_name: "Allow New Investments" #NT!
+ investments_allowed_tooltip: "Every character in your realm will be allowed to invest in the bank." #NT!
+  
+  ##################################### 
+  ## adopt_personal_coa Decision Loc ## 
+  ##################################### 
+  
+ adopt_personal_coa: "Adopt a Set of Personal Arms" #NT!
+ adopt_personal_coa_desc: "A set of [agot_personal_coa|e] can distinguish me further from my House and family." #NT!
+ adopt_personal_coa_confirm: "Do it." #NT!
+ adopt_personal_coa_tooltip: "Adopt a Set of Personal Arms" #NT!
+ adopt_personal_coa_effect_tt: "You will gain a personal coat of arms which will be displayed next to your House sigil." #NT!
+ pcoa_plain: "Plain Arms" #NT!
+ pcoa_plain_tooltip: "You will gain a personal coat of arms identical to your House. Perfect for customization." #NT!
+ pcoa_nickname: "Nickname-Based Arms" #NT!
+ pcoa_nickname_tooltip: "You will gain a personal coat of arms based on your nickname." #NT!
+ pcoa_ancestral_quartering: "Ancestrally Quartered Arms" #NT!
+ pcoa_ancestral_quartering_tooltip: "You will gain a personal coat of arms that is quartered with an ancestor's House arms." #NT!
+ pcoa_religious: "Faith-Based Arms" #NT!
+ pcoa_religious_tooltip: "You will gain a personal coat of arms that is based on your faith." #NT!
+ pcoa_fourth_child: "Fourth [CHARACTER.Custom('GetDaughterSon')|U]-Based Arms" #NT!
+ pcoa_fourth_child_tooltip: "You will gain a personal coat of arms that is your House arms repeated four times." #NT!
+ adopt_personal_coa_decision_next_stop_button: "Continue" #NT!
+ personal_coa_name_gui: "Personal Arms" #NT!
+ coa_new_name: "" #NT!
+ pcoa_random: "Random Arms" #NT!
+ pcoa_random_tooltip: "You will gain a randomly generated personal coat of arms." #NT!
+ CUSTOMIZE_PERSONAL_ARMS: "#T Customize [agot_personal_coa|e]#!\nOpen the customization menu to edit your personal arms." #NT!
+  
+  ##################################### 
+  ## Epidemic Isolate Realm Decision ## 
+  ##################################### 
+  ########### Close Option 
+ control_realm_borders_close_decision: "Isolate Realm" #NT!
+ control_realm_borders_decision: "Begin Isolation" #NT!
+ control_realm_borders_decision_desc: "$control_realm_borders_decision$" #NT!
+ control_realm_borders_decision_tooltip: "Restrict travel into your realm and prevent [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ control_realm_borders_decision_alert_tt: "Your realm must be free from [plague_apocalyptic|E] [epidemics|E]." #NT!
+ control_realm_borders_decision_confirm: "$control_realm_borders_decision$" #NT!
+  # Opening Description 
+ control_realm_borders_close_decision_opening_desc.dorne: "I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective." #NT!
+ control_realm_borders_close_decision_opening_desc.vale: "I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective." #NT!
+ control_realm_borders_close_decision_opening_desc.north: "I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective." #NT!
+ control_realm_borders_close_decision_opening_desc.iron_islands: "I can restrict travel into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective." #NT!
+  # Tooltip Description 
+ control_realm_borders_close_decision_tooltip.dorne: "Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ control_realm_borders_close_decision_tooltip.vale: "Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ control_realm_borders_close_decision_tooltip.north: "Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ control_realm_borders_close_decision_tooltip.iron_islands: "Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+  # Effect Description 
+ control_realm_borders_close_effect_tt.dorne: "You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ control_realm_borders_close_effect_tt.vale: "You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ control_realm_borders_close_effect_tt.north: "You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ control_realm_borders_close_effect_tt.iron_islands: "You will restrict travel into [title.GetName], and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+  
+  ########### Open Option 
+ control_realm_borders_open_decision: "End Realm Isolation" #NT!
+ uncontrol_realm_borders_decision: "End Isolation" #NT!
+ uncontrol_realm_borders_decision_desc: "$uncontrol_realm_borders_decision$" #NT!
+ uncontrol_realm_borders_decision_tooltip: "Allow travel into your realm and risk [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ uncontrol_realm_borders_decision_alert_tt: "Your realm must have previously been isolated from [plague_apocalyptic|E] [epidemics|E]." #NT!
+ uncontrol_realm_borders_decision_confirm: "$uncontrol_realm_borders_decision$" #NT!
+  # Opening Description 
+ control_realm_borders_open_decision_opening_desc.dorne: "I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread." #NT!
+ control_realm_borders_open_decision_opening_desc.vale: "I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread." #NT!
+ control_realm_borders_open_decision_opening_desc.north: "I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread." #NT!
+ control_realm_borders_open_decision_opening_desc.iron_islands: "I can allow travel into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread." #NT!
+  # Tooltip Description 
+ control_realm_borders_open_decision_tooltip.dorne: "Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ control_realm_borders_open_decision_tooltip.vale: "Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ control_realm_borders_open_decision_tooltip.north: "Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ control_realm_borders_open_decision_tooltip.iron_islands: "Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+  # Effect Description 
+ control_realm_borders_open_effect_tt.dorne: "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ control_realm_borders_open_effect_tt.vale: "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ control_realm_borders_open_effect_tt.north: "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread." #NT!
+ control_realm_borders_open_effect_tt.iron_islands: "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread." #NT!

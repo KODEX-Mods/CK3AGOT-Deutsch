@@ -1,66 +1,180 @@
 ﻿l_german:
- agot_danger.0001.title:0 "$travel_danger_prefix$ A Wildling Raiding Party!"
- agot_danger.0001.desc:0 "As our host passes through [location.GetName], a battle cry cuts through the air, stabbing us with immense fear. Even among the bravest travelers, this sound would have sent bold men rushing to their mothers' skirts.\n\n"Wildlings, my [ROOT.Char.GetLadyLord]!" A guard's voice pierces through the tension, drawing my attention as he unsheathes his sword, pointing it ahead. Panic spreads among us like wildfire, with another voice joining the chorus of fear. "There's #bold so many#!!"\n\nAlthough their numbers aren't vast, the enemies are huge, fearless, and seemingly prepared to lose their lives for our goods. Among them, one figure stood out: [btw_raider.GetFirstNameNicknamed], a leader by the looks of it. A Wildling known for [btw_raider.GetHerHis] cruelty, bold raids like this one, and a fiery temper.\n\nAs the raiders close in, my horse bucks and snorts, threatening to unseat me, but I hold the reins tightly, sitting up straight. Raising my [ROOT.Char.Custom('signature_weapon')] in air, I shout..."
- agot_danger.0001.a:0 "Turn back! Turn back at once!"
- agot_danger.0001.a.tt:0 "You and your entourage attempt to flee from the Wildling raiders."
- agot_danger.0001.a.toast:0 "Run Away!"
- agot_danger.0001.a.fleeing:0 "You escaped without a hassle. Take that, [btw_raider.GetFirstName]!"
- agot_danger.0001.a.minordelay:0 "You escaped, but it caused a minor delay in your travel."
- agot_danger.0001.a.majordelay:0 "You escaped, but it caused a major delay in your travel."
- agot_danger.0001.a.minortheft:0 "You made it away with your lives, but not with all of your belongings."
- agot_danger.0001.a.majortheft:0 "You made it away with your lives, but your coinpurse fell from your saddle while escaping."
- agot_danger.0001.a.minorcombo:0 "Despite the maneuver, [btw_raider.GetFirstNameNoTooltip] managed to steal some of your things."
- agot_danger.0001.a.majorcombo:0 "Despite the complicated maneuver, [btw_raider.GetFirstNameNoTooltip] managed to steal most of your things."
- agot_danger.0001.a.scattered:0 "Your entourage was scattered — everyone for themselves!"
- agot_danger.0001.b:0 "Get over yourself lads and after me! Charge!"
- agot_danger.0001.b.tt:0 "You and your guards charge at the Wildlings."
- agot_danger.0001.b.winning:0 "You win the battle."
- agot_danger.0001.b.win:0 "You Won"
- agot_danger.0001.b.killed:0 "You have killed all the Wildlings in the party."
- agot_danger.0001.b.imprisoned:0 "You have captured the leader of the Wildling raiding party, [btw_raider.GetFirstName]!"
- agot_danger.0001.b.fleeing:0 "The Wildling raiding party and their leader [btw_raider.GetFirstName] escaped after a hour-long fight!"
- agot_danger.0001.b.losing:0 "You lose the battle."
- agot_danger.0001.b.loss:0 "You Lost"
- agot_danger.0001.b.robbed:0 "You were defeated, rounded up and robbed; they took whatever you had."
- agot_danger.0001.b.kidnapping:0 "You were defeated, and the Wildlings took [kidnapped_entourage.GetName]..."
- agot_danger.0001.c:0 "How about a bribe..."
- agot_danger.0001.c.tt:0 "You attempt to recruit [btw_raider.GetFirstNameNoTooltip]."
- agot_danger.0001.c.joined:0 "[btw_raider.GetFirstNameNoTooltip] Joins Your Court"
- agot_danger.0001.c.else:0 "But should you trust a Wildling?"
- agot_danger.0001.c.ranwithmoney:0 "[btw_raider.GetFirstNameNoTooltip] Ran Away with the Money"
- agot_danger.0001.d:0 "If we leave [sacrificed_entourage.GetFirstNameNoTooltip], it may buy us time."
- agot_danger.0001.d.tt:0 "You will sacrifice [sacrificed_entourage.GetName] in an attempt to distract the Wildling raiders."
- agot_danger.0001.d.sacrifice:0 "[sacrificed_entourage.GetFirstNameNoTooltip] Was Left Behind"
-
- agot_danger.0002.title:0 "$travel_danger_prefix$ A Clash in the Mountains!"
- agot_danger.0002.desc:0 "As our host passes through [location.GetName], a battle cry cuts through the thin morning air, sending shivers down our spines. Even among the bravest travelers, this sound would have sent bold men rushing to their mothers' skirts.\n\n"Riders, my [ROOT.Char.GetLadyLord]!" A scout's voice rings out through the tension, drawing my attention as he unsheathes his sword, pointing it ahead. There is nothing to see yet, but the sound of many hoofbeats, a dozen horses or more, grows louder, coming nearer. Panic spreads among us like wildfire, with another voice joining the chorus of fear when they come to view. "There's #bold so many#!!"\n\nAlthough their numbers aren't vast, the enemies are big, fearless, and seemingly prepared to lose their lives for our goods. At their head rides a huge [moon_raider.GetWomanMan] in a striped shadowskin cloak, armed with a two-handed greatsword. Someone from my entourage shouts [moon_raider.GetHerHis] name, it was [moon_raider.GetFirstNameNicknamed], a leader of this raiding party by the looks of it. A Clansman known for [moon_raider.GetHerHis] cruelty, bold raids like this one, and a fiery temper.\n\nAs the raiders close in, my horse bucks and snorts, threatening to unseat me, but I hold the reins tightly, sitting up straight. Raising my [ROOT.Char.Custom('signature_weapon')] in air, I shout..."
- agot_danger.0002.a:0 "Turn back! Turn back at once!"
- agot_danger.0002.a.tt:0 "You and your entourage attempt to flee from the Clansmen raiders."
- agot_danger.0002.a.toast:0 "Run Away!"
- agot_danger.0002.a.fleeing:0 "You escaped without a hassle. Take that, [moon_raider.GetFirstName]!"
- agot_danger.0002.a.minordelay:0 "You escaped, but it caused a minor delay in your travel."
- agot_danger.0002.a.majordelay:0 "You escaped, but it caused a major delay in your travel."
- agot_danger.0002.a.minortheft:0 "You made it away with your lives, but not with all of your belongings."
- agot_danger.0002.a.majortheft:0 "You made it away with your lives, but your coinpurse fell from your saddle while escaping."
- agot_danger.0002.a.minorcombo:0 "Despite the maneuver, [moon_raider.GetFirstNameNoTooltip] managed to steal some of your things."
- agot_danger.0002.a.majorcombo:0 "Despite the complicated maneuver, [moon_raider.GetFirstNameNoTooltip] managed to steal most of your things."
- agot_danger.0002.a.scattered:0 "Your entourage was scattered — everyone for themselves!"
- agot_danger.0002.b:0 "Get over yourself lads and after me! Charge!"
- agot_danger.0002.b.tt:0 "You and your guards charge at the Clansmen raiders."
- agot_danger.0002.b.winning:0 "You win the battle."
- agot_danger.0002.b.win:0 "You Won"
- agot_danger.0002.b.killed:0 "You have killed all the raiders in the party."
- agot_danger.0002.b.imprisoned:0 "You have captured the leader of the Clansmen raiding party, [moon_raider.GetFirstName]!"
- agot_danger.0002.b.fleeing:0 "The Clansmen raiding party and their leader [moon_raider.GetFirstName] escaped after a hour-long fight!"
- agot_danger.0002.b.losing:0 "You lose the battle."
- agot_danger.0002.b.loss:0 "You Lost"
- agot_danger.0002.b.robbed:0 "You were defeated, rounded up and robbed; they took whatever you had."
- agot_danger.0002.b.kidnapping:0 "You were defeated, and the raiders took [kidnapped_entourage.GetName]..."
- agot_danger.0002.c:0 "How about a bribe..."
- agot_danger.0002.c.tt:0 "You attempt to recruit [moon_raider.GetFirstNameNoTooltip]."
- agot_danger.0002.c.joined:0 "[moon_raider.GetFirstNameNoTooltip] Joins Your Court"
- agot_danger.0002.c.else:0 "But should you trust a Mountain Clansman?"
- agot_danger.0002.c.ranwithmoney:0 "[moon_raider.GetFirstNameNoTooltip] Ran Away with the Money"
- agot_danger.0002.d:0 "If we leave [sacrificed_entourage.GetFirstNameNoTooltip], it may buy us time."
- agot_danger.0002.d.tt:0 "You will sacrifice [sacrificed_entourage.GetName] in an attempt to distract the raiders."
- agot_danger.0002.d.sacrifice:0 "[sacrificed_entourage.GetFirstNameNoTooltip] Was Left Behind"
+ agot_danger.0001.title: "$travel_danger_prefix$ A Wildling Raiding Party!" #NT!
+ agot_danger.0001.desc: "As our host passes through [location.GetName], a battle cry cuts through the air, stabbing us with immense fear. Even among the bravest travelers, this sound would have sent bold men rushing to their mothers' skirts.\n\n"Wildlings, my [ROOT.Char.GetLadyLord]!" A guard's voice pierces through the tension, drawing my attention as he unsheathes his sword, pointing it ahead. Panic spreads among us like wildfire, with another voice joining the chorus of fear. "There's #bold so many#!!"\n\nAlthough their numbers aren't vast, the enemies are huge, fearless, and seemingly prepared to lose their lives for our goods. Among them, one figure stood out: [btw_raider.GetFirstNameNicknamed], a leader by the looks of it. A Wildling known for [btw_raider.GetHerHis] cruelty, bold raids like this one, and a fiery temper.\n\nAs the raiders close in, my horse bucks and snorts, threatening to unseat me, but I hold the reins tightly, sitting up straight. Raising my [ROOT.Char.Custom('signature_weapon')] in air, I shout..." #NT!
+ agot_danger.0001.a: "Turn back! Turn back at once!" #NT!
+ agot_danger.0001.a.tt: "You and your entourage attempt to flee from the Wildling raiders." #NT!
+ agot_danger.0001.a.toast: "Run Away!" #NT!
+ agot_danger.0001.a.fleeing: "You escaped without a hassle. Take that, [btw_raider.GetFirstName]!" #NT!
+ agot_danger.0001.a.minordelay: "You escaped, but it caused a minor delay in your travel." #NT!
+ agot_danger.0001.a.majordelay: "You escaped, but it caused a major delay in your travel." #NT!
+ agot_danger.0001.a.minortheft: "You made it away with your lives, but not with all of your belongings." #NT!
+ agot_danger.0001.a.majortheft: "You made it away with your lives, but your coinpurse fell from your saddle while escaping." #NT!
+ agot_danger.0001.a.minorcombo: "Despite the maneuver, [btw_raider.GetFirstNameNoTooltip] managed to steal some of your things." #NT!
+ agot_danger.0001.a.majorcombo: "Despite the complicated maneuver, [btw_raider.GetFirstNameNoTooltip] managed to steal most of your things." #NT!
+ agot_danger.0001.a.scattered: "Your entourage was scattered — everyone for themselves!" #NT!
+ agot_danger.0001.b: "Get over yourself lads and after me! Charge!" #NT!
+ agot_danger.0001.b.tt: "You and your guards charge at the Wildlings." #NT!
+ agot_danger.0001.b.winning: "You win the battle." #NT!
+ agot_danger.0001.b.win: "You Won" #NT!
+ agot_danger.0001.b.killed: "You have killed all the Wildlings in the party." #NT!
+ agot_danger.0001.b.imprisoned: "You have captured the leader of the Wildling raiding party, [btw_raider.GetFirstName]!" #NT!
+ agot_danger.0001.b.fleeing: "The Wildling raiding party and their leader [btw_raider.GetFirstName] escaped after a hour-long fight!" #NT!
+ agot_danger.0001.b.losing: "You lose the battle." #NT!
+ agot_danger.0001.b.loss: "You Lost" #NT!
+ agot_danger.0001.b.robbed: "You were defeated, rounded up and robbed; they took whatever you had." #NT!
+ agot_danger.0001.b.kidnapping: "You were defeated, and the Wildlings took [kidnapped_entourage.GetName]..." #NT!
+ agot_danger.0001.c: "How about a bribe..." #NT!
+ agot_danger.0001.c.tt: "You attempt to recruit [btw_raider.GetFirstNameNoTooltip]." #NT!
+ agot_danger.0001.c.joined: "[btw_raider.GetFirstNameNoTooltip] Joins Your Court" #NT!
+ agot_danger.0001.c.else: "But should you trust a Wildling?" #NT!
+ agot_danger.0001.c.ranwithmoney: "[btw_raider.GetFirstNameNoTooltip] Ran Away with the Money" #NT!
+ agot_danger.0001.d: "If we leave [sacrificed_entourage.GetFirstNameNoTooltip], it may buy us time." #NT!
+ agot_danger.0001.d.tt: "You will sacrifice [sacrificed_entourage.GetName] in an attempt to distract the Wildling raiders." #NT!
+ agot_danger.0001.d.sacrifice: "[sacrificed_entourage.GetFirstNameNoTooltip] Was Left Behind" #NT!
+  
+ agot_danger.0002.title: "$travel_danger_prefix$ A Clash in the Mountains!" #NT!
+ agot_danger.0002.desc: "As our host passes through [location.GetName], a battle cry cuts through the thin morning air, sending shivers down our spines. Even among the bravest travelers, this sound would have sent bold men rushing to their mothers' skirts.\n\n"Riders, my [ROOT.Char.GetLadyLord]!" A scout's voice rings out through the tension, drawing my attention as he unsheathes his sword, pointing it ahead. There is nothing to see yet, but the sound of many hoofbeats, a dozen horses or more, grows louder, coming nearer. Panic spreads among us like wildfire, with another voice joining the chorus of fear when they come to view. "There's #bold so many#!!"\n\nAlthough their numbers aren't vast, the enemies are big, fearless, and seemingly prepared to lose their lives for our goods. At their head rides a huge [moon_raider.GetWomanMan] in a striped shadowskin cloak, armed with a two-handed greatsword. Someone from my entourage shouts [moon_raider.GetHerHis] name, it was [moon_raider.GetFirstNameNicknamed], a leader of this raiding party by the looks of it. A Clansman known for [moon_raider.GetHerHis] cruelty, bold raids like this one, and a fiery temper.\n\nAs the raiders close in, my horse bucks and snorts, threatening to unseat me, but I hold the reins tightly, sitting up straight. Raising my [ROOT.Char.Custom('signature_weapon')] in air, I shout..." #NT!
+ agot_danger.0002.a: "Turn back! Turn back at once!" #NT!
+ agot_danger.0002.a.tt: "You and your entourage attempt to flee from the Clansmen raiders." #NT!
+ agot_danger.0002.a.toast: "Run Away!" #NT!
+ agot_danger.0002.a.fleeing: "You escaped without a hassle. Take that, [moon_raider.GetFirstName]!" #NT!
+ agot_danger.0002.a.minordelay: "You escaped, but it caused a minor delay in your travel." #NT!
+ agot_danger.0002.a.majordelay: "You escaped, but it caused a major delay in your travel." #NT!
+ agot_danger.0002.a.minortheft: "You made it away with your lives, but not with all of your belongings." #NT!
+ agot_danger.0002.a.majortheft: "You made it away with your lives, but your coinpurse fell from your saddle while escaping." #NT!
+ agot_danger.0002.a.minorcombo: "Despite the maneuver, [moon_raider.GetFirstNameNoTooltip] managed to steal some of your things." #NT!
+ agot_danger.0002.a.majorcombo: "Despite the complicated maneuver, [moon_raider.GetFirstNameNoTooltip] managed to steal most of your things." #NT!
+ agot_danger.0002.a.scattered: "Your entourage was scattered — everyone for themselves!" #NT!
+ agot_danger.0002.b: "Get over yourself lads and after me! Charge!" #NT!
+ agot_danger.0002.b.tt: "You and your guards charge at the Clansmen raiders." #NT!
+ agot_danger.0002.b.winning: "You win the battle." #NT!
+ agot_danger.0002.b.win: "You Won" #NT!
+ agot_danger.0002.b.killed: "You have killed all the raiders in the party." #NT!
+ agot_danger.0002.b.imprisoned: "You have captured the leader of the Clansmen raiding party, [moon_raider.GetFirstName]!" #NT!
+ agot_danger.0002.b.fleeing: "The Clansmen raiding party and their leader [moon_raider.GetFirstName] escaped after a hour-long fight!" #NT!
+ agot_danger.0002.b.losing: "You lose the battle." #NT!
+ agot_danger.0002.b.loss: "You Lost" #NT!
+ agot_danger.0002.b.robbed: "You were defeated, rounded up and robbed; they took whatever you had." #NT!
+ agot_danger.0002.b.kidnapping: "You were defeated, and the raiders took [kidnapped_entourage.GetName]..." #NT!
+ agot_danger.0002.c: "How about a bribe..." #NT!
+ agot_danger.0002.c.tt: "You attempt to recruit [moon_raider.GetFirstNameNoTooltip]." #NT!
+ agot_danger.0002.c.joined: "[moon_raider.GetFirstNameNoTooltip] Joins Your Court" #NT!
+ agot_danger.0002.c.else: "But should you trust a Mountain Clansman?" #NT!
+ agot_danger.0002.c.ranwithmoney: "[moon_raider.GetFirstNameNoTooltip] Ran Away with the Money" #NT!
+ agot_danger.0002.d: "If we leave [sacrificed_entourage.GetFirstNameNoTooltip], it may buy us time." #NT!
+ agot_danger.0002.d.tt: "You will sacrifice [sacrificed_entourage.GetName] in an attempt to distract the raiders." #NT!
+ agot_danger.0002.d.sacrifice: "[sacrificed_entourage.GetFirstNameNoTooltip] Was Left Behind" #NT!
+  
+ agot_danger.0003.title: "$travel_danger_prefix$ The Icy Crevasse" #NT!
+ agot_danger.0003.desc: "As I traverse the ice sheet, carefully navigating around and through the crevasses and gullies that score its surface, I hear a faint yelp behind me. As I turn to follow the sound I see [crevasse_fallerinto.GetName], the laggard at the rear of my entourage, clinging to the edge of a crevasse. [crevasse_fallerinto.GetHerHis|U] sled hangs down beneath [crevasse_fallerinto.GetHerHim]. [crevasse_fallerinto.GetHerHis|U] face twisting to horror as [crevasse_fallerinto.GetSheHe] screams out for me, desperately fighting against the weight of the sled pulling [crevasse_fallerinto.GetHerHim] towards [crevasse_fallerinto.GetHerHis] doom." #NT!
+ agot_danger.0003.a: "This is why I have a rope on hand." #NT!
+ agot_danger.0003.a.tt: "You skillfully lasso [crevasse_fallerinto.GetFirstNameNoTooltip], tie the rope around yourself and dig in your heels until help arrives." #NT!
+ agot_danger.0003.b: "Hold tight, I'm pulling you up!" #NT!
+ agot_danger.0003.b.toast.success.t: "You managed to pull [crevasse_fallerinto.GetName] up along with [crevasse_fallerinto.GetHerHis] sled." #NT!
+ agot_danger.0003.b.toast.failure.t: "Your grip slipped and [crevasse_fallerinto.GetName] fell to [crevasse_fallerinto.GetHerHis] death" #NT!
+ agot_danger.0003.c: "The combined weight is too much, I have to cut [crevasse_fallerinto.GetTitledFirstNamePossessiveNoTooltip] sled harness." #NT!
+ agot_danger.0003.c.tt: "The loss of supplies means you will have to ration." #NT!
+ agot_danger.0003.d: "Well then, [crevasse_fallerinto.GetFirstNameNoTooltip], time to finally pull your own weight." #NT!
+ agot_danger.0003.d.tt: "You watch idly as the sled pulls [crevasse_fallerinto.GetName] into the cold abyss." #NT!
+  
+ agot_danger.0004.title: "$travel_danger_prefix$ The Flesh-Stripping Wind" #NT!
+ agot_danger.0004.desc: "Traveling through the unforgiving wilderness that stretches beyond the Wall is difficult enough on a good day. Today, it seems, will not be one of those. The air jabs its way into every gap in my furs and cloak, and the howling gales pummel my senses. I know the clouds above will carry with them snow to blind me as well. With the snows will also come wet, and with wet will come freezing. Shelter might save lives now." #NT!
+ agot_danger.0004.a: "I know for a fact that there is a cave nearby!" #NT!
+ agot_danger.0004.a.tt: "You will shelter in a cave until the gale calms." #NT!
+ agot_danger.0004.b: "We need to find shelter, fast!" #NT!
+ agot_danger.0004.b.tt: "You will search for a place to hunker down in. Some of the party might get injured by the cold." #NT!
+ agot_danger.0004.b.toast.lostlimb.t: "[frostbite_victim.GetName] fed the Cold Gods with [frostbite_victim.GetHerHis] flesh." #NT!
+ agot_danger.0004.c: "I stop for no weather. March or die." #NT!
+ agot_danger.0004.c.tt: "You will soldier on through the icy winds, many of your entourage members will get frostbite or perish." #NT!
+ agot_danger.0004.c.toast.death.t: "[frostbite_victim.GetName] succumbed to the freezing wind." #NT!
+ agot_danger.0005.title: "$travel_danger_prefix$ The Flesh-Stripping Wind: The Cave" #NT!
+ agot_danger.0005.desc: "I leap into the dark sanctuary of the cave just as the first snows start to fling themselves down from the clouds above. The howling of the wind still haunts us inside, but the walls of the cave are thick, and they will shelter us from the worst of the cold.\n\nAs I step further into the cave, my eyes adjusting to the darkness I have no torches to dispel, I am surprised to find paintings waiting for me deeper within the cave. Figures of some folk who used this place for shelter before us." #NT!
+ agot_danger.0005.a: "Look at these wall paintings, they must be ancient!" #NT!
+ agot_danger.0005.a.tt: "You will closely examine the cave paintings and attempt to glean something from them." #NT!
+ agot_danger.0005.a.success: "You manage to recognize something in the paintings." #NT!
+ agot_danger.0005.a.failure: "They're just figures of men, animals and objects. Pretty, but they tell you nothing." #NT!
+ agot_danger.0005.a.toast.failure.t: "Cave paintings yield no revelations." #NT!
+ agot_danger.0005.b: "The fire is warm, but [cave_companion.GetFirstNameNoTooltip] is warmer." #NT!
+ agot_danger.0005.c: "If we're already stuck here, it won't hurt to search the place." #NT!
+ agot_danger.0005.c.tt: "You'll search the cave for valuables." #NT!
+ agot_danger.0005.c.mushrooms: "You find delicious mushrooms" #NT!
+ agot_danger.0005.c.mushrooms.toast: "You found delicious mushrooms." #NT!
+ agot_danger.0005.c.tiny_gold: "You find a valuable trinket" #NT!
+ agot_danger.0005.c.tiny_gold.toast: "You found a valuable trinket." #NT!
+ agot_danger.0005.c.minor_gold: "You find a stash of pelts" #NT!
+ agot_danger.0005.c.minor_gold.toast: "You found a stash of pelts" #NT!
+ agot_danger.0005.c.bear.tt: "You find the cave's owner" #NT!
+ agot_danger.0005.d: "Let us settle in. Light a fire and tell tales." #NT!
+ agot_danger.0005.d.tt: "You will wait out the blizzard sharing stories by the fire." #NT!
+ agot_danger.0006.title: "$travel_danger_prefix$ The Flesh-Stripping Wind: Ancestral Paintings" #NT!
+ agot_danger.0006.desc: "Looking closely at the cave paintings, I see they do not all belong to one people. The histories of a dozen clans and tribes line the walls, telling of their struggles and their triumphs. This place sheltered them all, as it shelters us now. These walls tell their stories, like I can hear their ghosts whispering to me through the distant sounds of the wind. As I examine the paintings in more detail, several start to call to me.\n\nWhich shall I focus on?" #NT!
+ agot_danger.0006.a: "These rows of small pictures, there's a pattern to them. Is this poetry?" #NT!
+ agot_danger.0006.a.tt: "While trying to decipher the poem, you will inadvinadvertently compose a few pieces of your own." #NT!
+ agot_danger.0006.b: "I recognize that scene; our clan founder slaying the one-tusked, white mammoth!" #NT!
+ agot_danger.0006.b.tt: "Having a contemporary record of your ancestor's deeds will aid the legend of your clan." #NT!
+ agot_danger.0006.c: "I never heard of the fishing technique depicted here, it's very clever." #NT!
+ agot_danger.0006.c.tt: "Some of the scenes show figures going about their tasks with inspiring ingenuity." #NT!
+ agot_danger.0007.title: "$travel_danger_prefix$ The Flesh-Stripping Wind: Waking the Host" #NT!
+ agot_danger.0007.desc: "As I start to delve deeper into the cave, I find the bones of both beast and folk lining the floor. I pause as it dawns on me that some of the bones still have meat attached, and glisten with crimson blood in our limited light. I start to instinctually reach for a weapon just as the hulking form of a thickly muscled bear steps into view. Blood trickles in steady drips from its mouth as it rears back and roars a challenge." #NT!
+ agot_danger.0007.a: "This cave isn't big enough for the two of us." #NT!
+ agot_danger.0007.b: "Everybody, ready your spears!" #NT!
+ agot_danger.0007.b.cleankill.tt: "Your party kills the bear without incident." #NT!
+ agot_danger.0007.b.bearwound.tt: "Someone will get injured." #NT!
+ agot_danger.0007.b.toast.bearwound.t: "[injury_target.GetName] got mauled by a bear" #NT!
+ agot_danger.0007.b.toast.bearkill.t: "[injury_target.GetName] met [injury_target.GetHerHis] end in a bear's cave" #NT!
+ agot_danger.0007.b.toast.cleankill.t: "Nobody got hurt by the bear." #NT!
+ agot_danger.0008.title: "$travel_danger_prefix$ The Flesh-Stripping Wind: Spelunker's Trophy" #NT!
+ agot_danger.0008.desc: "I stand over the dying bear, its blood coating my weapon as the beast draws its last gasping breath. Its body goes limp on the floor of its former den, and I breathe a sigh of relief. I look back at my remaining band with a smirk, this bear will be quite a story. They all wait for me now, knowing that I get first choice of a trophy from the beast we've slain." #NT!
+ agot_danger.0008.a: "Given what we've been through, I can't say no to that lush pelt." #NT!
+ agot_danger.0008.a.tt: "You obtain a Bear Hide court artifact." #NT!
+ agot_danger.0008.b: "Take the monster's head and clean the skull for me." #NT!
+ agot_danger.0008.b.tt: "You obtain a Bear Skull court artifact." #NT!
+ agot_danger.0008.c: "I'll take those mighty paws or no one will believe their size." #NT!
+ agot_danger.0008.c.tt: "You obtain a Bear Paws inventory artifact." #NT!
+  
+ agot_danger.0009.title: "$travel_danger_prefix$ On Thin Ice" #NT!
+ agot_danger.0009.desc: "In the far north, there are hardly any roads to speak of, and even firmly beaten paths are few and far between. The frigid wastes are dotted with icy mountains and crevasses, and often the only section of clear and flat terrain is a frozen river. Our party has come across one, presenting an opportunity to use it as a road for the next part of our journey. This time of the year, however, the thickness of the ice is suspect, making a safe crossing over the treacherous terrain uncertain." #NT!
+ agot_danger.0009.a: "I shall walk first to test the ice." #NT!
+ agot_danger.0009.a.tt: "You will check if the ice cracks under your weight" #NT!
+ agot_danger.0009.a.icegood.tt: "The ice is thick enough" #NT!
+ agot_danger.0009.a.icegood.toast: "The ice was thick enough" #NT!
+ agot_danger.0009.a.icebadnope.tt: "You notice the ice cracking in time" #NT!
+ agot_danger.0009.a.icebadnope.toast: "You avoided falling through the ice" #NT!
+ agot_danger.0009.a.icebadfall.tt: "You fall through the ice" #NT!
+ agot_danger.0009.b: "[travel_leader.GetFirstNameNoTooltip], go and see if this ice will support us." #NT!
+ agot_danger.0009.b.tt: "[travel_leader.GetName] will test the thickness of the ice" #NT!
+ agot_danger.0009.b.icebadnope.tt: "[travel_leader.GetFirstNameNoTooltip] notices the ice cracking in time" #NT!
+ agot_danger.0009.b.icebadnope.toast: "[travel_leader.GetFirstNameNoTooltip] avoided falling through the ice" #NT!
+ agot_danger.0009.b.icebadfall.tt: "[travel_leader.GetFirstNameNoTooltip] falls through the ice" #NT!
+ agot_danger.0009.c: "This is too risky, we continue on firm land." #NT!
+ agot_danger.0009.c.tt: "You carry on through the rough terrain of the frigid riverbank" #NT!
+  
+ agot_danger.0010.title: "$travel_danger_prefix$ On Thin Ice: The Plunge" #NT!
+ agot_danger.0010.desc: "I make my way to the flat surface of the icy river, I walk carefully, trying to keep my weight on the back foot, but the treacherous ice breaks behind me. In the split second before the freezing water swallows me, I manage to..." #NT!
+ agot_danger.0010.a: "...brace myself for the plunge." #NT!
+ agot_danger.0010.a.tt: "You will try to resurface on your own" #NT!
+ agot_danger.0010.a.swim.tt: "You reemerge from the freezing water" #NT!
+ agot_danger.0010.a.toast: "You resurfaced from beneath the ice" #NT!
+ agot_danger.0010.a.sink.tt: "The icy river claims your life" #NT!
+ agot_danger.0010.b: "... yell out to [travel_leader.GetFirstNameNoTooltip] for help." #NT!
+ agot_danger.0010.b.tt: "[travel_leader.GetName] will attempt to rescue you" #NT!
+ agot_danger.0010.b.swim.tt: "[travel_leader.GetName] manages to fish you out" #NT!
+ agot_danger.0010.b.toast: "[travel_leader.GetFirstNameNoTooltip] pulled you out of the freezing water" #NT!
+ agot_danger.0010.b.sink.tt: "You perish despite [travel_leader.GetFirstNamePossessiveNoTooltip] effort" #NT!
+ agot_danger.0010.b.bothsink.tt: "You both drown beneath the ice" #NT!
+  
+ agot_danger.0011.title: "$travel_danger_prefix$ On Thin Ice: [travel_leader.GetWomanMan|U] Under Water" #NT!
+ agot_danger.0011.desc: "[travel_leader.GetFirstNameNicknamed] dutifully follows my order and descends to the frozen surface. [travel_leader.GetSheHe|U] barely makes three steps when, with seemingly no warning, the ice cracks violently under [travel_leader.GetHerHis] feet — and [travel_leader.GetSheHe] disappears under its surface." #NT!
+ agot_danger.0011.a: "[travel_leader.GetSheHe|U] is on her own now." #NT!
+ agot_danger.0011.a.tt: "You stand by waiting for [travel_leader.GetFirstNameNoTooltip] to resurface — or not" #NT!
+ agot_danger.0011.a.swim.tt: "[travel_leader.GetFirstNameNoTooltip] emerges from beneath the ice" #NT!
+ agot_danger.0011.a.swim.toast: "[travel_leader.GetFirstNameNoTooltip] resurfaces from the freezing water" #NT!
+ agot_danger.0011.a.sink.tt: "[travel_leader.GetFirstNameNoTooltip] drowns in the river" #NT!
+ agot_danger.0011.a.sink.toast: "[travel_leader.GetFirstNameNoTooltip] perished in the freezing depths" #NT!
+ agot_danger.0011.b: "I must help [travel_leader.GetHerHim]!" #NT!
+ agot_danger.0011.b.tt: "You rush in to rescue [travel_leader.GetName]" #NT!
+ agot_danger.0011.b.swim.tt: "You manage to fish out [travel_leader.GetFirstNameNoTooltip] from under the ice" #NT!
+ agot_danger.0011.b.swim.toast: "You saved [travel_leader.GetFirstNameNoTooltip] from drowning" #NT!
+ agot_danger.0011.b.sink.tt: "[travel_leader.GetFirstNameNoTooltip] sinks too deep to reach" #NT!
+ agot_danger.0011.b.sink.toast: "[travel_leader.GetFirstNameNoTooltip] drowns in the river" #NT!
+ agot_danger.0010.b.bothsink.tt: "You fall in and die together with [travel_leader.GetFirstNameNoTooltip]" #NT!

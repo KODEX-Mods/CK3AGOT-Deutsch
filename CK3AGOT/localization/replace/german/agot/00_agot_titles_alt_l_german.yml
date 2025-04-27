@@ -1,40 +1,115 @@
 ﻿l_german:
- b_stonebridge:0 "Stonebridge" # b_bitterbridge
- b_little_claybend:0 "Little Claybend" # b_lord_harroways_town
- b_claybend_keep:0 "Claybend Keep" # b_harroway_tower
- b_lightford:0 "Lightford" # b_ruby_ford
- b_snowgate:0 "Snowgate" # b_queensgate
- b_laketower:0 "Laketower" # b_queenscrown
- b_scythe_hills:0 "Scythe Hills" # b_ten_towers
- b_drygarden:0 "Drygarden" # b_water_gardens
- b_milky_way:0 "Milky Way" # b_whitewalls
- b_mermont:0 "Mermont" # b_high_tide
- b_flotsam_coast:0 "Floatsam Coast" # b_spicetown
- b_driftage_shore:0 "Driftage Shore" # b_hull
- b_weirgaze:0 "Weirgaze" # b_harrenhal
- b_greenspring:0 "Greenspring" # b_hoarespring
- b_godsroad:0 "Godsroad" # b_harrentown
- b_high_hill:0 "High Hill" # b_the_red_keep
- b_aegonfort:0 "Aegonfort" # b_the_red_keep
- b_north_hill:0 "North Hill" # b_rhaenyss_hill
- b_river_hill:0 "River Hill" # b_visenyas_hill
- b_black_valley:0 "Black Valley" # b_goldguard_heights
- b_cobblers_square:0 "Cobbler's Square" # b_goldguard_heights
- b_gate_of_the_gods:0 "Gate of the Gods" # b_goldguard_heights
- b_mudside:0 "Mudside" # b_hookmarket
- b_kings_landing:0 "King's Landing" # b_hookmarket
- b_north_verge:0 "North Verge" # b_landingfield
- b_pride_grounds:0 "Pride Grounds" # b_cleganes_keep
- b_red_ridge:0 "Red Ridge" # b_summerhall
- b_longgrass_field:0 "Longgrass Field" # b_redgrass_field
- b_lonely_watchtower:0 "Lonely Watchtower" # b_tower_of_joy
- c_stonebridge:0 "Stonebridge"  # c_bitterbridge
- c_claybend:0 "Claybend" # c_harroway
- c_the_nightfort:0 "The Nightfort" # c_castle_black
- c_harlaw_hall:0 "Harlaw Hall" # c_ten_towers
- c_godsfort:0 "Godsfort" # c_harrenhal
- c_mermont:0 "Mermont" # c_high_tide
- c_rush_hills:0 "Rush Hills" # c_kings_landing
- c_stonestruck:0 "Stonestruck" # c_summerhall
- d_stonebridge:0 "Stonebridge" # d_bitterbridge
- d_blackwater_bay:0 "Blackwater Bay" # d_kings_landing
+ b_stonebridge: "Stonebridge" #NT!
+ b_little_claybend: "Little Claybend" #NT!
+ b_claybend_keep: "Claybend Keep" #NT!
+ b_lightford: "Lightford" #NT!
+ b_snowgate: "Snowgate" #NT!
+ b_laketower: "Laketower" #NT!
+ b_scythe_hills: "Scythe Hills" #NT!
+ b_drygarden: "Drygarden" #NT!
+ b_milky_way: "Milky Way" #NT!
+ b_mermont: "Mermont" #NT!
+ b_flotsam_coast: "Floatsam Coast" #NT!
+ b_driftage_shore: "Driftage Shore" #NT!
+ b_weirgaze: "Weirgaze" #NT!
+ b_greenspring: "Grünenbrunn"
+ b_godsroad: "Godsroad" #NT!
+ b_high_hill: "High Hill" #NT!
+ b_aegonfort: "Aegonfort" #NT!
+ b_north_hill: "North Hill" #NT!
+ b_river_hill: "River Hill" #NT!
+ b_black_valley: "Black Valley" #NT!
+ b_cobblers_square: "Cobbler's Square" #NT!
+ b_gate_of_the_gods: "Gate of the Gods" #NT!
+ b_mudside: "Mudside" #NT!
+ b_kings_landing: "King's Landing" #NT!
+ b_north_verge: "North Verge" #NT!
+ b_pride_grounds: "Pride Grounds" #NT!
+ b_red_ridge: "Rotrücken"
+ b_longgrass_field: "Longgrass Field" #NT!
+ b_lonely_watchtower: "Lonely Watchtower" #NT!
+ c_stonebridge: "Stonebridge" #NT!
+ c_claybend: "Claybend" #NT!
+ c_the_nightfort: "The Nightfort" #NT!
+ c_harlaw_hall: "Harlaw Hall" #NT!
+ c_godsfort: "Godsfort" #NT!
+ c_mermont: "Mermont" #NT!
+ c_rush_hills: "Rush Hills" #NT!
+ c_stonestruck: "Stonestruck" #NT!
+ d_stonebridge: "Stonebridge" #NT!
+ d_blackwater_bay: "Blackwater Bay" #NT!
+ d_blackwater_bay: "Blackwater Bay" #NT!
+ d_laamp_Knight_Kings_Landing_5: "the Hedges" #NT!
+ d_laamp_Knight_Kings_Landing_5_adj: "the Hedges" #NT!
+ d_laamp_Tall_1: "Duncan's Camp" #NT!
+ d_laamp_Tall_1_adj: "Duncan's Camp" #NT!
+ d_laamp_Knight_Kings_Landing_6: "the Fortunate Bastards" #NT!
+ d_laamp_Knight_Kings_Landing_6_adj: "the Fortunate Bastards" #NT!
+ d_laamp_Truefyre_hh_1: "the Flea's Bag" #NT!
+ d_laamp_Truefyre_hh_1_adj: "the Flea's Bag" #NT!
+ d_laamp_Suggs_1: "the Gutters" #NT!
+ d_laamp_Suggs_1_adj: "the Gutters" #NT!
+ d_laamp_Knight_Kings_Landing_2: "the Tall Ones" #NT!
+ d_laamp_Knight_Kings_Landing_2_adj: "the Tall Ones" #NT!
+ d_laamp_Seaworth_1: "the Nightsails" #NT!
+ d_laamp_Seaworth_1_adj: "the Nightsails" #NT!
+ d_laamp_Blackwater_1: "the Steeled" #NT!
+ d_laamp_Blackwater_1_adj: "the Steeled" #NT!
+ d_laamp_Kingsguard_1: "the Mummers" #NT!
+ d_laamp_Kingsguard_1_adj: "the Mummers" #NT!
+ d_laamp_Baratheon_hh_8: "the Knights from the Pines" #NT!
+ d_laamp_Baratheon_hh_8_adj: "the Knights from the Pines" #NT!
+ d_laamp_Estermont_77: "the Greenstone Knights" #NT!
+ d_laamp_Estermont_77_adj: "the Greenstone Knights" #NT!
+ d_laamp_Connington_4: "the Griffin's Flight" #NT!
+ d_laamp_Connington_4_adj: "the Griffin's Flight" #NT!
+ d_laamp_Knight_Stormlands_2: "the Storkflown" #NT!
+ d_laamp_Knight_Stormlands_2_adj: "the Storkflown" #NT!
+ d_laamp_Knight_Pennytree_2: "the Silver Cups" #NT!
+ d_laamp_Knight_Pennytree_2_adj: "the Silver Cups" #NT!
+ d_laamp_Knight_Riverlands_1: "the Rivers and Streams" #NT!
+ d_laamp_Knight_Riverlands_1_adj: "the Rivers and Streams" #NT!
+ d_laamp_Frey_24: "the Bloody Bridges" #NT!
+ d_laamp_Frey_24_adj: "the Bloody Bridges" #NT!
+ d_laamp_Knight_Frey_51: "the Blue Fork" #NT!
+ d_laamp_Knight_Frey_51_adj: "the Blue Fork" #NT!
+ d_laamp_Knight_Penny_29: "the Pretty Pennies" #NT!
+ d_laamp_Knight_Penny_29_adj: "the Pretty Pennies" #NT!
+ d_laamp_Arryn_85: "the True Falcons" #NT!
+ d_laamp_Arryn_85_adj: "the True Falcons" #NT!
+ d_laamp_Baelish_3: "the Titan's Swords" #NT!
+ d_laamp_Baelish_3_adj: "the Titan's Swords" #NT!
+ d_laamp_Knight_Vale_3: "the Mad Mice" #NT!
+ d_laamp_Knight_Vale_3_adj: "the Mad Mice" #NT!
+ d_laamp_Knight_Vale_4: "the Lovely Vale" #NT!
+ d_laamp_Knight_Vale_4_adj: "the Lovely Vale" #NT!
+ d_laamp_Knight_Vale_5: "the Merrymen" #NT!
+ d_laamp_Knight_Vale_5_adj: "the Merrymen" #NT!
+ d_laamp_Knight_Vale_6: "the Litter" #NT!
+ d_laamp_Knight_Vale_6_adj: "the Litter" #NT!
+ d_laamp_Marbrand_66: "Knights of Marbrand" #NT!
+ d_laamp_Marbrand_66_adj: "Knights of Marbrand" #NT!
+ d_laamp_Knight_Westerlands_2: "the Knights in Green" #NT!
+ d_laamp_Knight_Westerlands_2_adj: "the Knights in Green" #NT!
+ d_laamp_Knight_Westerlands_1: "the Stoutdrunken" #NT!
+ d_laamp_Knight_Westerlands_1_adj: "the Stoutdrunken" #NT!
+ d_laamp_Osgrey_hh_1: "the Poor Sods" #NT!
+ d_laamp_Osgrey_hh_1_adj: "the Poor Sods" #NT!
+ d_laamp_Ball_24: "the True Knights" #NT!
+ d_laamp_Ball_24_adj: "the True Knights" #NT!
+ d_laamp_Kingsguard_5: "those Sour Men" #NT!
+ d_laamp_Kingsguard_5_adj: "those Sour Men" #NT!
+ d_laamp_Martell_8: "the Viper's Own" #NT!
+ d_laamp_Martell_8_adj: "the Viper's Own" #NT!
+ d_laamp_Mormont_3: "the Exiled Bears" #NT!
+ d_laamp_Mormont_3_adj: "the Exiled Bears" #NT!
+ d_laamp_Forrester_4: "the Ironwoods" #NT!
+ d_laamp_Forrester_4_adj: "the Ironwoods" #NT!
+ d_laamp_targaryen_exiles: "the Targaryen Exiles" #NT!
+ d_laamp_targaryen_exiles_adj: "the Targaryen Exiles" #NT!
+ d_laamp_blackfyre: "the Blackfyre Host" #NT!
+ d_laamp_blackfyre_adj: "the Blackfyre Host" #NT!
+ d_laamp_maekar_brightflame: "the Brightflames" #NT!
+ d_laamp_maekar_brightflame_adj: "the Brightflames" #NT!
+ d_laamp_donalo_prestayn: "the Exiled Sealord" #NT!
+ d_laamp_donalo_prestayn_adj: "the Exiled Sealord" #NT!
