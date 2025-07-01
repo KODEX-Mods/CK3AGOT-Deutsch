@@ -1,8 +1,8 @@
 ﻿l_german:
  agot_bm_group_8233: "233 n.A.E." #NT!
- agot_bm_8233: "Der Aufstand des Hauses Gipfel" #NT!
+ agot_bm_8233: "Der Gipfel Aufstand" #NT!
  agot_bm_8233_desc: "Nach hundert Jahren des Niedergangs und drei gescheiterten Versuchen, einen Schwarzfeuer-Prätendenten auf den Eisernen Thron zu setzen, hat sich das Haus Gipfel erneut gegen die Linie von Daeron ‘dem Guten’ erhoben.\n\nTrotz seines Alters ist König Maekar I. Targaryen nach wie vor ein mächtiger Krieger und führt persönlich eine Armee aus Kronländern und Westländern an, um den unbedeutenden, zum Scheitern verurteilten Aufstand niederzuschlagen. Nach all den anderen Herausforderungen, denen sich Maekar in seinen fast sechzig Jahren gestellt hat, wird #italic dies #! sicherlich die einfachste sein.\n\n#bold Werden die Gipfels trotz aller Widrigkeiten Erfolg haben, oder wird die einst so stolze Dynastie weiter in die Bedeutungslosigkeit abgleiten?#!" #NT!
- peake_uprising_name: "Der Aufstand des Hauses Gipfel" #NT!
+ peake_uprising_name: "Der Gipfel Aufstand" #NT!
   
  bookmark_233_maekar_targaryen: "König Maekar I" #NT!
  bookmark_233_maekar_targaryen_desc: "[Concept( 'story_content_maekar_targaryen_233', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_maekar_targaryen_233', '$bm_story_content_available_copy|q$' )|E]\nMaekar I. Targaryen, der letzte Sohn von König Daeron II., hat den größten Teil seines Lebens damit verbracht, Verrat gegen die zunehmend brüchige Herrschaft des Hauses der Drachen niederzuschlagen. Seit der Zweiten Schwarzfeuer-Rebellion gab es keine so harmlose Revolte mehr wie den erfolglosen Aufstand von Lord Estyn Gipfel. Obwohl die Verwandten, die ihm einst geholfen hatten, nun längst verstorben sind, dürfte es für ‘den Amboss’ kein Problem sein, diesen Feind zu vernichten.\n\n#bold Ist Maekar, alt und müde, noch in der Lage, seine Pflicht zu erfüllen und die Zukunft des Hauses Targaryen ein letztes Mal zu sichern?#!" #NT!
