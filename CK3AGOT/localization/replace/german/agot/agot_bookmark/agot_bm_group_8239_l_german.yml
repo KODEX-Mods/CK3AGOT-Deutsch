@@ -1,6 +1,6 @@
 ﻿l_german:
  agot_bm_group_8239: "239 n.A.E." #NT!
- agot_bm_8239: "Die Lachende Sturm-Rebbellion"
+ agot_bm_8239: "Die Rebbellion des Lachenden Sturms"
  agot_bm_8239_desc: "Lord Lyonel Baratheon aus den Sturmlanden, bekannt als der Lachende Sturm, hatte seine Tochter mit Prinz Duncan Targaryen verlobt. Der Prinz brach jedoch diese Verlobung und verliebte sich in ein niedriggeborenes Mädchen namens Jenne von Altsteinen. Wie wird der Lachende Sturm darauf reagieren, da dies eine große Beleidigung für die Ehre seines Hauses darstellt?"
   
  bookmark_239_lyonel_baratheon: "Lord Lyonel" #NT!
@@ -21,7 +21,7 @@
  bookmark_239_luthor_tyrell: "Luthor" #NT!
  bookmark_239_gormon_tyrell: "Gormon" #NT!
   
- bookmark_239_runceford_redwyne: "Lord Runceford" #NT!
+ bookmark_239_runceford_redwyne: "Lord Runzfort" #NT!
  bookmark_239_runceford_redwyne_desc: "[Concept( 'story_content_runceford_redwyne_239', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_runceford_redwyne_239', '$bm_story_content_available_copy|q$' )|E]\nDas Haus Rothweyn – obwohl nicht so prominent wie die Baratheons, Tyrells oder Tullys – könnte dennoch eine bedeutende Rolle in dem sich abzeichnenden Konflikt spielen. Da Olenna Rothweyn mit Prinz Daeron Targaryen verlobt ist, könnte jede Unruhe innerhalb der Targaryen-Familie das Haus Rothweyn in den Konflikt hineinziehen. Gerüchte über mögliche gebrochene Verlobungen und wechselnde Allianzen könnten weitreichende Folgen haben, und die Rothweyns müssen auf eine mögliche Krise vorbereitet sein. Wird das Haus Rothweyn diese Gelegenheit nutzen, um seinen Status zu verbessern, oder wird es sich weiterhin zurückhalten?#!" #NT!
   
  bookmark_239_denys_redwyne: "Denys" #NT!
@@ -31,7 +31,7 @@
  bookmark_239_bloodraven_desc: "[Concept( 'story_content_bloodraven_239', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_bloodraven_239', '$bm_story_content_available_copy|q$' )|E]\nVon den Hallen der Macht bis zu den eisigen Ödländern hat Brynden Strom – der berüchtigte ‘Blutrabe’ – viele Wege beschritten. Ein Meister der Geheimnisse, Hand der Könige und nun das Schwert in der Dunkelheit. Als gewählter Lord Kommandant der Nachtwache befindet er sich weit entfernt von den Intrigen des Hofes, doch die Schatten, die ihn einst plagten, sind nie wirklich weit weg. Hier, am Ende der Welt, wo der kalte Wind beißt und die Menschen auf die Probe gestellt werden, muss Blutrabe die Nachtwache versammeln, um sich den Bedrohungen innerhalb und außerhalb der Mauer zu stellen.\n\n#bold Wird Brynden Erlösung finden oder wird der Schatten seiner Vergangenheit ihn erneut einholen?#!" #NT!
   
  bookmark_239_aemon: "Maester Aemon" #NT!
- bookmark_239_jon_karstark: "First Ranger Jon" #NT!
+ bookmark_239_jon_karstark: "Erster Grenzer Jon" #NT!
   
  bookmark_239_bittersteel: "Generalhauptmann Aegor" #NT!
  bookmark_239_bittersteel_desc: "[Concept( 'story_content_bittersteel_239', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_bittersteel_239', '$bm_story_content_available_copy|q$' )|E]\nAngetrieben von Feuer und Wut hat sich Aegor Strom – bekannt als „Bitterstahl“ – über die Sieben Königslande hinaus einen Namen gemacht. Einst ein Bastard am Hof, ist er nun der wilde Generalhauptmann der Goldenen Kompanie und führt eine Armee von Verbannten und Söldnern mit einem einzigen Ziel: einen Schwarzfeuer auf den Eisernen Thron zu bringen. In seiner Hand hält er das Schwert der Könige, das berühmte Schwarzfeuer selbst, und in seinem Herzen brennt ein glühender Hass auf diejenigen, die seiner Familie Unrecht getan haben.\n\n#bold Wird Bitterstahl dem Haus Schwarzfeuer zu neuem Ruhm verhelfen oder wird das Erbe der Drachen für immer unerreicht bleiben?#!" #NT!
