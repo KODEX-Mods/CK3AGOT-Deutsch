@@ -1,6 +1,6 @@
 ﻿l_german:
-  
- agot_coronation_dynasty_blessing_title: "$activity_pulse_action_agot_coronation__dynasty_blessing$" #NT!
+
+ agot_coronation_dynasty_blessing_title: "$activity_pulse_action_agot_coronation__dynasty_blessing$"
  activity_pulse_action_agot_coronation__dynasty_blessing: "[first.GetShortUINameNoTooltip|U] Offered the Respects of the [first.GetDynasty.GetBaseNameNoTooltip]" #NT!
  pay_homage_submission_title: "$activity_pulse_action_pay_homage_submission$"
  activity_pulse_action_pay_homage_submission: "[vassal.GetShortUINameNoTooltip|U] beugt das Knie in Unterwerfung"
@@ -10,17 +10,17 @@
  activity_pulse_action_pay_homage_contract: "[vassal.GetShortUINameNoTooltip|U] beugt das Knie in Unterwerfung"
  pay_homage_gold_title: "$activity_pulse_action_pay_homage_gold$"
  activity_pulse_action_pay_homage_gold: "[vassal.GetShortUINameNoTooltip|U] beugt das Knie in Unterwerfung"
- agot_coronation_gossip_with_guests_title: "$activity_pulse_action_agot_coronation__gossip_with_guests$" #NT!
- activity_pulse_action_agot_coronation__gossip_with_guests: "[first.GetShortUINameNoTooltip|U] Gossiped with Other Guests" #NT!
- agot_coronation_contact_network_title: "$activity_pulse_action_agot_coronation__contact_network$" #NT!
- activity_pulse_action_agot_coronation__contact_network: "[first.GetShortUINamePossessiveNoTooltip|U] Contact Network Expanded" #NT!
- agot_coronation_admired_venue_title: "$activity_pulse_action_agot_coronation__admired_venue$" #NT!
- activity_pulse_action_agot_coronation__admired_venue: "[first.GetShortUINameNoTooltip|U] Stopped to Admire the Venue" #NT!
- agot_coronation_knight_praised_title: "$activity_pulse_action_agot_coronation__knight_praised$" #NT!
- activity_pulse_action_agot_coronation__knight_praised: "[first.GetShortUINamePossessiveNoTooltip|U] [first.Custom('ComplimentAdjective')|U] Behavior is Praised" #NT!
- agot_coronation_seductive_exchange_title: "$activity_pulse_action_agot_coronation__seductive_exchange$" #NT!
- activity_pulse_action_agot_coronation__seductive_exchange: "[first.GetShortUINameNoTooltip|U] and [second.GetShortUINameNoTooltip|U] Had a Seductive Exchange" #NT!
- agot_coronation_poetry_performance_title: "$activity_pulse_action_agot_coronation__poetry_performance$" #NT!
- activity_pulse_action_agot_coronation__poetry_performance: "[first.GetShortUINamePossessiveNoTooltip|U] Poetic Performance Stilled the Crowd in Wonder" #NT!
- agot_coronation_music_performance_title: "$activity_pulse_action_agot_coronation__music_performance$" #NT!
- activity_pulse_action_agot_coronation__music_performance: "[first.GetShortUINamePossessiveNoTooltip|U] Music Drew the Guests to Dance" #NT!
+ agot_coronation_gossip_with_guests_title: "$activity_pulse_action_agot_coronation__gossip_with_guests$"
+ activity_pulse_action_agot_coronation__gossip_with_guests: "[first.GetShortUINameNoTooltip|U] tratschte mit anderen Gästen"
+ agot_coronation_contact_network_title: "$activity_pulse_action_agot_coronation__contact_network$"
+ activity_pulse_action_agot_coronation__contact_network: "[first.GetShortUINamePossessiveNoTooltip|U] Kontaktnetzwerk erweitert"
+ agot_coronation_admired_venue_title: "$activity_pulse_action_agot_coronation__admired_venue$"
+ activity_pulse_action_agot_coronation__admired_venue: "[first.GetShortUINameNoTooltip|U] hielt inne, um den Veranstaltungsort zu bewundern"
+ agot_coronation_knight_praised_title: "$activity_pulse_action_agot_coronation__knight_praised$"
+ activity_pulse_action_agot_coronation__knight_praised: "[first.GetShortUINamePossessiveNoTooltip|U] [first.Custom('ComplimentAdjective')|U] Verhalten wurde gelobt"
+ agot_coronation_seductive_exchange_title: "$activity_pulse_action_agot_coronation__seductive_exchange$"
+ activity_pulse_action_agot_coronation__seductive_exchange: "[first.GetShortUINameNoTooltip|U] und [second.GetShortUINameNoTooltip|U] hatten eine kokette Unterhaltung."
+ agot_coronation_poetry_performance_title: "$activity_pulse_action_agot_coronation__poetry_performance$"
+ activity_pulse_action_agot_coronation__poetry_performance: "[first.GetShortUINamePossessiveNoTooltip|U] poetische Darbietung versetzte das Publikum in Entzücken"
+ agot_coronation_music_performance_title: "$activity_pulse_action_agot_coronation__music_performance$"
+ activity_pulse_action_agot_coronation__music_performance: "[first.GetShortUINamePossessiveNoTooltip|U] Musik animierte die Gäste zum Tanzen"
