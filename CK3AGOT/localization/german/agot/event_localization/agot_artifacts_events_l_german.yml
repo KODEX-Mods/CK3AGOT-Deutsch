@@ -1,21 +1,21 @@
 ﻿l_german:
- agot_artifact_events.0010.t: "The Possessions of [prisoner.GetTitledFirstNameNoTooltip]" #NT!
- agot_artifact_events.0010.desc: "[prisoner.GetNameNicknamed] remains in my custody, and with [prisoner.GetHerHis] freedom yet denied, the matter of [prisoner.GetHerHis] possessions weighs upon my thoughts.\n\nAs [prisoner.GetHerHis] captor, I may claim certain artifacts as terms of release. Such items may prove valuable if my demands are chosen with care." #NT!
- agot_artifact_events.0010.a: "I should decide what to do with each..." #NT!
- agot_artifact_events.0010.a_tt: "I will consider each of [prisoner.GetTitledFirstNamePossessiveNoTooltip] items in turn." #NT!
- agot_artifact_events.0010.a_tt_artifact: "I will consider what to do with [artifact_to_inform.GetName]." #NT!
- agot_artifact_events.0010.b: "I will reassess my demands." #NT!
- agot_artifact_events.0010.c: "These will suffice." #NT!
- agot_artifact_events.0010.c_tt: "I will demand [artifact_to_show.GetNameNoTooltip]." #NT!
-  
- agot_artifact_events.0011.t: "$agot_artifact_events.0010.t$" #NT!
- agot_artifact_events.0011.desc: "I have decided to offer [prisoner.GetTitledFirstName] the chance to leave my custody in exchange for some of [prisoner.GetHerHis] possessions. I must now decide which items to demand.\n\n[artifact_to_steal.GetName] comes to mind. Should I add this to my list of demands, or leave it be? Will [prisoner.GetSheHe] be willing to part with this artifact if I make the offer?" #NT!
- agot_artifact_events.0011.a: "I will add this to my list of demands." #NT!
- agot_artifact_events.0011.a_valyrian_tt_no_house: "If [prisoner.GetTitledFirstNameNoTooltip] accepts, members of House [prisoner.GetHouse.GetNameNoTooltip] will resent you for taking a family heirloom." #NT!
- agot_artifact_events.0011.a_illustrious: "Due to its rarity, this artifact will cost [prestige_i|E] #N 1000#! to take as ransom." #NT!
- agot_artifact_events.0011.a_famed: "Due to its rarity, this artifact will cost [prestige_i|E] #N 500#! to take as ransom." #NT!
- agot_artifact_events.0011.a_masterwork: "Due to its rarity, this artifact will cost [prestige_i|E] #N 250#! to take as ransom." #NT!
- agot_artifact_events.0011.a_common: "Due to its rarity, this artifact will cost [prestige_i|E] #N 100#! to take as ransom." #NT!
- agot_artifact_events.0011.b: "I have no interest in taking this artifact." #NT!
- agot_artifact_events.0011.b_tt: "This artifact belongs with its rightful owner." #NT!
- agot_artifact_events.0011.c: "I am done reviewing artifacts." #NT!
+ agot_artifact_events.0010.t: "Die Besitztümer von [prisoner.GetTitledFirstNameNoTooltip]"
+ agot_artifact_events.0010.desc: "[prisoner.GetNameNicknamed] weilt noch immer in meinem Gewahrsam, und da [prisoner.Custom('DE_PRO_PER_S_3P_D')] [prisoner.Custom('DE_PRO_POS_S_3P')]e Freiheit weiterhin verweigert bleibt, drängt sich mir die Frage nach dem Verbleib [prisoner.Custom('DE_PRO_POS_S_3P')]er Besitztümer auf.\n\nAls [prisoner.Custom('DE_PRO_POS_S_3P')][ROOT.Char.Custom('DE_END_PRO_S_N')] Gefangennehmer[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] steht es mir zu, gewisse Artefakte als Bedingung für eine etwaige Freilassung zu fordern. Solche Gegenstände können sich als wertvoll erweisen, wenn meine Forderungen sorgfältig ausgewählt werden."
+ agot_artifact_events.0010.a: "Ich sollte über jedes einzelne nachdenken …"
+ agot_artifact_events.0010.a_tt: "Ich werde die Besitztümer von [prisoner.GetTitledFirstNameNoTooltip] der Reihe nach erwägen."
+ agot_artifact_events.0010.a_tt_artifact: "Ich werde erwägen, was mit [artifact_to_inform.GetName] geschehen soll."
+ agot_artifact_events.0010.b: "Ich werde meine Forderungen noch einmal überdenken."
+ agot_artifact_events.0010.c: "Dies soll genügen."
+ agot_artifact_events.0010.c_tt: "Ich werde [artifact_to_show.GetNameNoTooltip] als Forderung erheben."
+
+ agot_artifact_events.0011.t: "$agot_artifact_events.0010.t$"
+ agot_artifact_events.0011.desc: "Ich habe mich entschlossen, [prisoner.GetTitledFirstName] die Aussicht auf Freiheit zu gewähren – gegen die Herausgabe einiger [prisoner.Custom('DE_PRO_POS_S_3P')]er Besitztümer. Nun gilt es zu bestimmen, welche Stücke ich fordern soll.\n\n[artifact_to_steal.GetName] drängt sich mir auf. Soll ich es in die Liste der Forderungen aufnehmen oder davon absehen? Wird [prisoner.Custom('DE_PRO_PER_S_3P_N')] bereit sein, dieses Artefakt herauszugeben, sofern ich das Angebot unterbreite?"
+ agot_artifact_events.0011.a: "Ich werde es einfordern."
+ agot_artifact_events.0011.a_valyrian_tt_no_house: "Sollte [prisoner.GetTitledFirstNameNoTooltip] einwilligen, so werden die Mitglieder des Hauses [prisoner.GetHouse.GetNameNoTooltip] Euch ob der Wegnahme eines Familien-Erbstücks gram sein."
+ agot_artifact_events.0011.a_illustrious: "Wegen seiner außerordentlichen Seltenheit wird dieses Artefakt [prestige_i|E] #N 1000#! als Lösegeld fordern."
+ agot_artifact_events.0011.a_famed: "Wegen seiner Seltenheit wird dieses Artefakt [prestige_i|E] #N 500#! als Lösegeld fordern."
+ agot_artifact_events.0011.a_masterwork: "Wegen seiner Seltenheit wird dieses Artefakt [prestige_i|E] #N 250#! als Lösegeld fordern."
+ agot_artifact_events.0011.a_common: "Wegen seiner Seltenheit wird dieses Artefakt [prestige_i|E] #N 100#! als Lösegeld fordern."
+ agot_artifact_events.0011.b: "Dieses Artefakt zu nehmen, liegt mir fern."
+ agot_artifact_events.0011.b_tt: "Dieses Artefakt gehört zu seinem rechtmäßigen Besitzer."
+ agot_artifact_events.0011.c: "Ich bin mit der Betrachtung der Artefakte zu Ende."
