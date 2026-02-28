@@ -6,12 +6,12 @@
  game_concept_agot_knight:0 "Knight"
  game_concept_agot_knights:0 "Knights"
  game_concept_agot_knightspossessive:0 "Knight's"
- game_concept_agot_knight_desc:0 "A knight is a warrior who practices a chivalric code.\n\nWhile traditionally found in the Seven Kingdoms of Westeros, any knight can make a knight, even if they may be culturally or religiously different.\n\nA knight may take up to one [squire|E] and train them to one day be a knight. A knight may also grant knighthood to those who qualify.\n\nA person can become a knight once they are 16 or older, and if they do not have any #N disqualifying traits#!. A character may also become a knight starting at the age of 12 if they have exceptionally high [prowess|E]."
+ game_concept_agot_knight_desc:0 "A $game_concept_agot_knight$ is a [character|E] who has been granted a title of chivalric honor.\n\nWhile knighthood is revered by faiths with the [GetFaithDoctrine('tenet_knighthood').GetBaseName] tenet, any character can be knighted by another knight or a monarch regardless of faith.\n\nA knight may take up to two [squires|E] and train them in the ways of knighthood via #V character interactions#! and #V events#!.\n\nA character may become a knight once they are 16 years or older — or as early as 12 if they have exceptionally high [prowess|E] — and do not possess any disqualifying traits. Knighthood can be achieved through squiring, tournament [prizes|e], in [battles|e], offers from knights, or purchasing the title outright."
 
  game_concept_squire:0 "Squire"
  game_concept_squires:0 "Squires"
  game_concept_squirepossessive:0 "Squire's"
- game_concept_squire_desc:0 "A squire is a [agot_knight|E] in training. They serve as a knight's attendant, helping him with all of his duties.\n\nA character is eligible to become a squire once they turn 9 years old, and until they are 21 years old. While serving as a squire, they will experience special events that #P raise#!, or #N lower#!, their squirehood experience. Once they are old enough, and their experience is high enough, they may be knighted.\n\nA squire's journey to knighthood is affected by their traits and personality — some characters will handle it better than others!"
+ game_concept_squire_desc:0 "A [squire|e] is a [character|e] that is training to become a [agot_knight|e]. They serve as an attendant to a knight, aiding in all duties menial and glorious alike. Squires will provide their knights with a modifier, [GetModifier('agot_has_squire_modifier').GetNameWithTooltip]. \n\nA character may become a squire once they are between the ages of 9 and 21.\n\nAs a squire, they will automatically receive #V events#! that raises or lowers their progress to knighthood — represented in the form of trait experience. These events may also boost a squire's [martial_skill|e], [diplomacy_skill|e], and or their [prowess_skill|e].\n\nA squire's journey to knighthood is affected by their [traits|e] and [personality|e]; some characters will handle it better than others!"
 
  ## Dynastic Stability
  game_concept_agot_dynastic_stability:0 "Dynastic Stability"
@@ -43,8 +43,26 @@
  game_concept_monastery_holdings:0 "Monastic Holdings"
  game_concept_monastery_holding_desc:0 ""
 
+ game_concept_unknown_holding:0 "Unknown"
+ game_concept_unknown:0 "Unknown"
+ game_concept_unknown_holdings:0 "Unknown Holdings"
+ game_concept_unknown_holding_desc:0 "The holding of this realm is unknown, as it lies beyond the reach of your diplomatic sight."
+
+ game_concept_wilderness_holding:0 "Wilderness"
+ game_concept_wilderness:0 "Wilderness"
+ game_concept_wildernesses:0 "Wildernesses"
+ game_concept_wilderness_desc:0 "A wide and empty land, unclaimed and very sparsely populated."
+ game_concept_wilderness_holdings:0 "Wilderness Holdings"
+ game_concept_wilderness_holding_desc:0 "Wilderness Holdings are entirely unproductive and must be replaced by a [settlement_holding|E] during [colonization|E] to unlock their potential."
+
+ game_concept_settlement_holding:0 "Settlement"
+ game_concept_settlement:0 "Settlement"
+ game_concept_settlements:0 "Settlements"
+ game_concept_settlement_holdings:0 "Settlement Holdings"
+ game_concept_settlement_holding_desc:0 "Settlement Holdings represent the small outposts, towns, and colonies established as part of the [colonization|E] process.\n\nThey are less productive than other [holding_types|E], but clearing all [colonization_blockers|E] and increasing [county_development|E] will allow their productivity to grow, eventually enabling them to be converted into a standard [holding|E]."
+
  game_concept_ruin_holding:0 "Ruin"
- game_concept_ruin_holding_desc:0 "A holding which has been long forgotten and abandoned, a mere shadow of its former self. One may being the [reconstruction_effort|E] by interacting with the ruin itself."
+ game_concept_ruin_holding_desc:0 "A holding which has been long forgotten and abandoned, a mere shadow of its former self. One may begin the [reconstruction_effort|E] by interacting with the ruin itself."
  game_concept_ruin:0 "Ruin"
  game_concept_ruins:0 "Ruins"
  game_concept_ruin_holdings:0 "Ruined Holdings"
@@ -56,6 +74,24 @@
  game_concept_reconstruction_desc:0 "Through upgrading a ruin's [buildings|E], a ruin may be rebuilt back into a proper holding, though the process of doing so is long and ardous.\n\nTo begin the reconstruction, click on the ruin character which holds the ruin, which will take you to another window. There, click on the 'Restore Ruins' button."
  game_concept_reconstruction_effort:0 "Ruin Reconstruction"
  game_concept_reconstruction_effort_desc:0 "Through upgrading a ruin's [buildings|E], a ruin may be rebuilt back into a proper holding, though the process of doing so is long and ardous.\n\nTo begin the reconstruction, click on the ruin character which holds the ruin, which will take you to another window. There, click on the 'Restore Ruins' button."
+
+ game_concept_colonization:0 "Colonization"
+ game_concept_colonize:0 "Colonize"
+ game_concept_colony:0 "Colony"
+ game_concept_colonization_desc:0 "Colonization is how an [independent_ruler|E] expands their [realm|E] into neighboring [wilderness|E] [counties|E].\n\nAfter an initial investment of [gold|E], a [settlement_holding|E] can be established, bringing the [county|E] into their [domain|E]. Initially, this settlement will be unproductive and unable to build standard [buildings|E] in the [holding|E]. Instead, time and [gold|E] must be invested to increase [development|E] in the new settlement and clear any [colonization_blockers|E] that exist.\n\nOnce all blockers have been cleared, the [settlement_holding|E] is fully upgraded, and the colony has reached a [county_development|E] of three or greater, the settlement can be converted into a standard [holding|E]."
+
+ game_concept_colonization_blocker:0 "Colonization Blocker"
+ game_concept_colonization_blockers:0 "Colonization Blockers"
+ game_concept_blockers:0 "Blockers"
+ game_concept_colonization_blocker_desc:0 "Colonization Blockers are [buildings|E] in [wilderness|E] [counties|E] that represent obstacles to the [colonization|E] of the area.\n\nThese blockers apply negative [modifiers|E] to the county, reducing its productivity and preventing it from being converted into a standard [holding|E]."
+
+ game_concept_ongoing_colonies:0 "Ongoing Colonies"
+ game_concept_settlement_holding_limit:0 "Settlement Limit"
+ game_concept_settlement_holding_limit_i:0 "@hud_wilderness! [Character.MakeScope.Var('num_settled_wilderness').GetValue]/[Character.MakeScope.ScriptValue('settlement_title_tier_limit')|0]"
+ game_concept_settlement_holding_limit_desc:0 "The number of settlements a [ruler|E] can hold at any given point in time is determined by their title tier.\n\n$EFFECT_LIST_BULLET$A #bold [count|E] #!can hold a maximum of 1 [settlement_holding|E] without incurring [additional_settlement_upkeep|E].\n\n$EFFECT_LIST_BULLET$A #bold [duke|E] #!can hold a maximum of 2 [settlement_holdings|E] without incurring [additional_settlement_upkeep|E].\n\n$EFFECT_LIST_BULLET$A #bold [king|E] #!can hold a maximum of 3 [settlement_holdings|E] without incurring [additional_settlement_upkeep|E].\n\n$EFFECT_LIST_BULLET$An #bold [emperor|E] #!can hold a maximum of 4 [settlement_holdings|E] without incurring [additional_settlement_upkeep|E]."
+
+ game_concept_additional_settlement_upkeep:0 "Additional Upkeep"
+ game_concept_additional_settlement_upkeep_desc:0 "Additional upkeep refers to the monthly income reduction due to holding too many [settlement_holdings|E].\n\nRulers can #V abandon#! their settlement holdings if the upkeep starts to ruin the economy of the [realm|E]."
 
  game_concept_bastard_house:0 "Bastard Branch"
  game_concept_bastard_branch:0 "Bastard Branch"
@@ -107,21 +143,30 @@
  game_concept_tamed_dragons:0 "Tamed Dragons"
  game_concept_tamed_dragon_desc:0 "$game_concept_tamed_dragons$ are dragons that have been tamed by a [GetTrait('dragonrider').GetName(GetNullCharacter)]. If their rider is a [ruler|E] they will remain in their capital, else they will remain in their rider's employer's capital. That is, unless they are in an [army|E] or being used to [travel|E].\n\nThey are one of the three types of [dragon|E]. The other two are [wild_dragons|E] and [owned_dragons|E]. Tamed dragons will become wild if their rider dies while they are not kept in a [dragonpit|E]."
 
- game_concept_draconic_dread:0 "Draconic Dread"
- game_concept_draconic_dread_desc:0 "$game_concept_draconic_dread$ is the [dread|E] that a [dragon|E], rather than a ruler, possesses. It represents the intrinsic fear that the creature strikes into the hearts of men. While largely reflecting the [dragons_size|E], it can also be affected by its [personality|E] and deeds."
-
- game_concept_temperament:0 "Temperament"
- game_concept_temperament_desc:0 "$game_concept_temperament$ is the general disposition and attitude that a [dragon|E] displays. Positive values indicate a more sociable dragon, while a dragon with a negative temperament is a more wild and willful beast. A dragon's temperament will be affected by their [education|E], [personality|E], and experiences."
-
- game_concept_taming_chance:0 "Taming Chance"
- game_concept_taming_chance_desc:0 "$game_concept_taming_chance$ is the innate likelihood of a [dragon|E] to be tamed and bonded with. A higher taming chance indicates a dragon more susceptible to human interaction, while a lower taming chance represents a dragon that all but the strongest wills will struggle to tame. A dragon's taming chance will be affected by their [education|E], [personality|E], and experiences."
-
  game_concept_dragon_size:0 "Dragon Size"
  game_concept_dragons_size:0 "Dragon's Size"
  game_concept_dragon_size_desc:0 "$game_concept_dragon_size$ is the physical size of a [dragon|E]. It is a collective measure of the dragon's length, wingspan, and weight. A dragon's size will greatly affect its [dragon_combat_effectiveness|E] as well as its [draconic_dread|E] and [taming_chance|E].\n\nA dragon will never stop growing, but the rate at which they do so will slow as they age. Dragons kept in a man-made [dragonpit|E] will grow slower than those that grow in the wild or in a [natural_dragonpit|E]."
+ game_concept_dragon_size_i:0 "@dragon_size_stat_icon!"
+ game_concept_dragon_size_lists_i:0 "@dragon_size_lists_icon! [Character.MakeScope.ScriptValue('dragon_size')|0]"
 
  game_concept_dragon_combat_effectiveness:0 "Combat Effectiveness"
  game_concept_dragon_combat_effectiveness_desc:0 "$game_concept_dragon_combat_effectiveness$ is a measure of how effective a [dragon|E] is in combat. It is largely affected by the [dragons_size|E], but may be influenced by [traits|E] and the experience of its [GetTrait('dragonrider').GetName(GetNullCharacter)]. A dragon with high combat effectiveness will be more effective in battle."
+ game_concept_dragon_combat_effectiveness_num:0 "[Character.MakeScope.Var('current_dragon').Char.MakeScope.ScriptValue('dragon_combat_effectiveness')|0]"
+ game_concept_dragon_combat_effectiveness_i:0 "@dragon_combat_effectiveness_stat_icon!"
+ game_concept_dragon_combat_effectiveness_lists_i:0 "@dragon_combat_effectiveness_lists_icon!  [Character.MakeScope.ScriptValue('dragon_combat_effectiveness')|0]"
+
+ game_concept_draconic_dread:0 "Draconic Dread"
+ game_concept_draconic_dread_desc:0 "$game_concept_draconic_dread$ is the [dread|E] that a [dragon|E], rather than a ruler, possesses. It represents the intrinsic fear that the creature strikes into the hearts of men. While largely reflecting the [dragons_size|E], it can also be affected by its [personality|E] and deeds."
+ game_concept_draconic_dread_i:0 "@draconic_dread_stat_icon!"
+ game_concept_draconic_dread_lists_i:0 "@draconic_dread_lists_icon! [Character.MakeScope.ScriptValue('draconic_dread')|0]"
+
+ game_concept_temperament:0 "Temperament"
+ game_concept_temperament_desc:0 "$game_concept_temperament$ is the general disposition and attitude that a [dragon|E] displays. Positive values indicate a more sociable dragon, while a dragon with a negative temperament is a more wild and willful beast. A dragon's temperament will be affected by their [education|E], [personality|E], and experiences."
+ game_concept_temperament_i:0 "@temperament_stat_icon!"
+ game_concept_temperament_lists_i:0 "@temperament_lists_icon! [Character.MakeScope.ScriptValue('temperament')|0]"
+
+ game_concept_taming_chance:0 "Taming Chance"
+ game_concept_taming_chance_desc:0 "$game_concept_taming_chance$ is the innate likelihood of a [dragon|E] to be tamed and bonded with. A higher taming chance indicates a dragon more susceptible to human interaction, while a lower taming chance represents a dragon that all but the strongest wills will struggle to tame. A dragon's taming chance will be affected by their [education|E], [personality|E], and experiences."
 
  game_concept_dragonpit:0 "Dragonpit"
  game_concept_dragonpits:0 "Dragonpits"
@@ -206,6 +251,20 @@
  game_concept_story_content_tywin_lannister_277:0 "$game_concept_story_generic_prefix$ $bookmark_277_tywin_lannister$"
  game_concept_story_content_tywin_lannister_277_desc:0 "#tooltip_heading Story Style: Extensive#!\n\nAs Tywin Lannister, you serve as Hand of the King to an imprisoned King Aerys II Targaryen, and it falls to you to face off with Denys Darklyn for the king's safe release. You will face scripted story events concerning the king's rescue — and the fallout of your attempts."
 
+ # The Fourth Blackfyre Rebellion 8236
+
+ game_concept_story_content_lyonel_baratheon_236:0 "$game_concept_story_generic_prefix$ $bookmark_236_lyonel_baratheon$"
+ game_concept_story_content_lyonel_baratheon_236_desc:0 "#tooltip_heading Story Style: Light#!\n\nAs Lyonel Baratheon, you are a lord determined to restore the honor of your house. You will experience scripted story events that revolve around the brewing rebellion."
+
+ game_concept_story_content_aegon_v_236:0 "$game_concept_story_generic_prefix$ $bookmark_236_aegon_targaryen$"
+ game_concept_story_content_aegon_v_236_desc:0 "#tooltip_heading Story Style: Light#!\n\nAs Aegon V Targaryen, you must face the consequences of your children's misdeeds. You will experience scripted story events related to the growing rebellion."
+
+ game_concept_story_content_bittersteel_236:0 "$game_concept_story_generic_prefix$ $bookmark_236_bittersteel$"
+ game_concept_story_content_bittersteel_236_desc:0 "#tooltip_heading Story Style: Light#!\n\nAs Aegor Rivers, you are the Captain-General of the Golden Company. You will experience scripted story events tied to the ambition of King Daemon III."
+
+ game_concept_story_content_daemon_blackfyre_236:0 "$game_concept_story_generic_prefix$ $bookmark_236_daemon_blackfyre$"
+ game_concept_story_content_daemon_blackfyre_236_desc:0 "#tooltip_heading Story Style: Moderate#!\n\nAs King Daemon III Blackfyre, you lead the Blackfyre Host. You will experience scripted story events tied to your ambition to reclaim the Iron Throne."
+
  # The Laughing Storm Rebellion 8239
  game_concept_story_content_lyonel_baratheon_239:0 "$game_concept_story_generic_prefix$ $bookmark_239_lyonel_baratheon$"
  game_concept_story_content_lyonel_baratheon_239_desc:0 "#tooltip_heading Story Style: Extensive#!\n\nAs Lyonel Baratheon, you are a lord determined to restore the honor of your house. You will experience scripted story events that revolve around the brewing rebellion."
@@ -241,16 +300,50 @@
  game_concept_kg_govt_desc:0 "The $game_concept_kg_govt$ is a nonplayable government representing the elite order of bodyguards of the Iron Throne's monarch."
  game_concept_kg_govt_i:0 "@kingsguard_government!"
 
+ game_concept_command_govt:0 "Command"
+ game_concept_command_govt_desc:0 "$game_concept_command_govt$ is a nonplayable government representing an appointed commander overseeing a title."
+ game_concept_command_govt_i:0 "@command_government!"
+
  game_concept_silent_sisters_govt:0 "Silent Sisterhood"
  game_concept_silent_sisters_govt_desc:0 "The $game_concept_silent_sisters_govt$ is a nonplayable government representing the order of women who attend to the dead in the Faith of the Seven religion."
  game_concept_silent_sisters_govt_i:0 "@silent_sisters_government!"
+
+ game_concept_host_govt:0 "Host"
+ game_concept_host_govt_desc:0 "The $game_concept_host_govt$ is less of a government and more of a temporary gathering of people, often for a specific purpose. The host is not a permanent [government|E], and will change or disband once the purpose is fulfilled."
+ game_concept_host_govt_i:0 "@host_government!"
 
  game_concept_ruins_govt:0 "Ruin"
  game_concept_ruins_govt_desc:0 "The $game_concept_ruins_govt$ is a nonplayable government representing realms that have fallen into ruin and are now tended by Wardens until they can be restored."
  game_concept_ruins_govt_i:0 "@ruins_government!"
 
+ game_concept_unknown_govt:0 "Unknown"
+ game_concept_unknown_govt_desc:0 "The $game_concept_unknown_govt$ is a nonplayable government representing realms that are beyond the bounds of your diplomatic range."
+ game_concept_unknown_govt_i:0 "@unknown_government!"
+
+ game_concept_wilderness_govt:0 "Wilderness"
+ game_concept_wilderness_govt_desc:0 "The $game_concept_wilderness_govt$ is a nonplayable government representing realms that are uninhabited or too sparsely populated to maintain a government."
+ game_concept_wilderness_govt_i:0 "@wilderness_government!"
+
  game_concept_agot_spoils_of_war:0 "Spoils of War"
- game_concept_agot_spoils_of_war_desc:0 "$game_concept_agot_spoils_of_war$ is an event that can fire following a claimant's victory over an [empire|E] tier [title|e]. The top 3 war attackers who achieved a minimum 10% war score may request certain boons from the newly crowned claimant.\n\nThese boons include:\n$EFFECT_LIST_BULLET$#V Gold#!\n$EFFECT_LIST_BULLET$#V A small council position#!\n$EFFECT_LIST_BULLET$#V A royal marriage#!\n$EFFECT_LIST_BULLET$#V Place a family member into the [kingsguard|E]#!\n$EFFECT_LIST_BULLET$#V A lord paramountcy#!"
+ game_concept_agot_spoils_of_war_desc:0 "$game_concept_agot_spoils_of_war$ is an event that can fire following a claimant's victory over [empire|E] and [hegemony|E] tier [titles|e]. The top 3 war attackers who achieved a minimum 10% war score may request certain boons from the newly crowned claimant.\n\nThese boons include:\n$EFFECT_LIST_BULLET$#V Gold#!\n$EFFECT_LIST_BULLET$#V A small council position#!\n$EFFECT_LIST_BULLET$#V A royal marriage#!\n$EFFECT_LIST_BULLET$#V Place a family member into the [kingsguard|E]#!\n$EFFECT_LIST_BULLET$#V A lord paramountcy#!"
+
+ # MEGA WARS #
+ game_concept_agot_mega_wars:0 "Mega War"
+ game_concept_agot_mega_wars_desc:0 "A mega war is a large-scale conflict within a major realm that can be of minor or major severity: Mighty empires will fall into a [Concept('agot_major_mw', 'major')|E] war, whilst others will fall into a [Concept('agot_minor_mw', 'minor')|E] one. The war's impact is considered so severe that every participant must choose a side or, if in a [Concept('agot_major_mw', 'major')|E] war, stay neutral.\nAt the end of the war the winning side has extended options regarding the punishment of the losing side."
+ game_concept_agot_major_mw:0 "Major Mega War"
+ game_concept_agot_major_mw_desc:0 "In a major [Concept('agot_mega_wars', 'Mega War')|E] the realm is split up into three kinds of participants: [Concept('agot_loyalists', 'Loyalists')|E], [Concept('agot_neutrals', 'Neutrals')|E], [Concept('agot_rebels', 'Rebels')|E].\nDuring the war, neutrals might still choose a side and are not bound to their inital decision."
+ game_concept_agot_minor_mw:0 "Minor Mega War"
+ game_concept_agot_minor_mw_desc:0 "In a minor [Concept('agot_mega_wars', 'Mega War')|E] the realm is split up into only two kinds of participants: [Concept('agot_loyalists', 'Loyalists')|E] and [Concept('agot_rebels', 'Rebels')|E]."
+ game_concept_agot_loyalists:0 "Loyalists"
+ game_concept_agot_loyalists_desc:0 "Those who stay loyal to the Crown during a [Concept('agot_mega_wars', 'Mega War')|E], are called loyalists. The Crown can be targeted by multiple [Concept('agot_rebels', 'rebel leaders')|E]."
+ game_concept_agot_neutrals:0 "Neutrals"
+ game_concept_agot_neutrals_desc:0 "Neutrals in a [Concept('agot_mega_wars', 'Mega War')|E] are vassals who have not yet declared for one of the fighting sides. Some do not want to have anything to do with the war at all, some wait for the tides of war to bring new opportunities...\n\nThis stance can only be taken when in a [Concept('agot_major_mw', 'major')|E] war"
+ game_concept_agot_rebels:0 "Rebels"
+ game_concept_agot_rebels_desc:0 "Rebels are those during a [Concept('agot_mega_wars', 'Mega War')|E], who are opposing the [Concept('agot_loyalists', 'Crown')|E]. The rebels have a rebel leader who leads the war effort. There can be multiple rebel leaders targeting the same [Concept('agot_loyalists', 'Crown')|E] in different wars."
+ game_concept_agot_expel_character:0 "Expel"
+ game_concept_agot_expel_character_desc:0 "The character in question will be forced to leave your realm and may never return. Their fate is exile."
+ game_concept_agot_take_main_titles:0 "Taking main titles"
+ game_concept_agot_take_main_titles_desc:0 "This seizes all top-level titles from a traitor."
 
  # BANKING CONCEPTS #
  game_concept_agot_bank:0 "Bank"
@@ -291,3 +384,10 @@
  game_concept_agot_bastard_surnames:0 "Bastard Surnames"
  game_concept_agot_bastard_surnames_desc:0 "By Westerosi custom, [bastards|E] of highborn lords and ladies typically receive regional surnames denoting the place of their birth or where they were raised. The practice is designed to hold illegitimate children apart from their parent's houses and legitimate siblings.\n\nAlthough not required, many legitimate children of bastards keep their parent's bastard surname or alter it in some way to denote their own legitimate status."
  game_concept_agot_surname:0 "Surname"
+
+ # Spy Network
+ game_concept_agot_spy: "Spy"
+ game_concept_agot_spies: "Spies"
+ game_concept_agot_spy_desc: "Spies are agents that that can be based in any court and report back to their employer when the find secrets. Their employer may learn any of these secrets by paying a small fee.\n\nThe collective group of agents working for one employer is called a [agot_spy_network|E]."
+ game_concept_agot_spy_network: "Spy Network"
+ game_concept_agot_spy_network_desc: "A collection of [agot_spies|E] all working for the same employer. This network can be grown by using the Recruit Spy interaction on eligible characters directly, or by using the Check for Spies interaction on a particular ruler to investigate their court for opportunities.\n\nSpies in other courts are naturally recruited by a [spymaster|E] using the Find Secrets council task, and can be discovered in your court using the Disrupt Schemes council task.\n\nThe efficacy of a [agot_spy_network|E] can be enhanced by making certain decisions, with effects such as increasing the maximum number of spies, making courtiers more likely to be willing to offer their services, or allowing spies to discover [innovations|E]."

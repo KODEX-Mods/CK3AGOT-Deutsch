@@ -18,6 +18,12 @@
  castilian_coa_gfx:0 "Castilian"
  central_african_group_coa_gfx:0 "Central African"
  chinese_group_coa_gfx:0 "Chinese"
+ #AGOT Modified
+ #chinese_clothing_gfx: "Chinese"
+ chinese_clothing_gfx: "YiTish"
+ #AGOT Modified
+ #chinese_unit_gfx: "Chinese"
+ chinese_unit_gfx: "YiTish"
  danish_coa_gfx:0 "Danish"
  dde_abbasid_clothing_gfx:0 "Abbasid"
  dde_hre_clothing_gfx:0 "Holy Roman Imperial"
@@ -28,6 +34,9 @@
  #AGOT Modified
  #eastern_unit_gfx:0 "Eastern European"
  eastern_unit_gfx:0 "Freehold Steel"
+ #AGOT Modified
+ #ainu_clothing_gfx: "$ainu$"
+ ainu_clothing_gfx: "$lengii$"
  english_coa_gfx:0 "English"
  fp1_norse_clothing_gfx:0 "Norse"
  frankish_group_coa_gfx:0 "Frankish"
@@ -47,9 +56,19 @@
  iranian_group_coa_gfx:0 "Iranian"
  irish_coa_gfx:0 "Irish"
  israelite_group_coa_gfx:0 "Israelite"
+ #AGOT Modified
+ #japanese_clothing_gfx: "Japanese"
+ japanese_clothing_gfx: "Lengii"
+ #AGOT Modified
+ #japanese_unit_gfx: "Japanese"
+ japanese_unit_gfx: "Lengii"
+ #AGOT Modified
+ #korean_clothing_gfx: "Korean"
+ korean_clothing_gfx: "YiTish"
  latin_group_coa_gfx:0 "Latin"
  leonese_coa_gfx:0 "Leonese"
  magyar_group_coa_gfx:0 "Magyar"
+ malay_clothing_gfx: "Malay"
  #AGOT Modified
  #mediterranean_building_gfx:0 "Mediterranean"
  mediterranean_building_gfx:0 "Essosi Architecture"
@@ -79,10 +98,13 @@
  norwegian_coa_gfx:0 "Norwegian"
  occitan_coa_gfx:0 "Occitanian"
  oghuz_coa_gfx:0 "Oghuz"
+ papuan_clothing_gfx: "$papuan$"
  polish_coa_gfx:0 "Polish"
  sami_coa_gfx:0 "Sami"
  scottish_coa_gfx:0 "Scottish"
  south_slavic_group_coa_gfx:0 "South Slavic"
+ southeast_asian_clothing_gfx: "Southeast Asian"
+ southeast_asian_unit_gfx: "Southeast Asian"
  #AGOT Modified
  #steppe_building_gfx:0 "Eurasian Steppe"
  steppe_building_gfx:0 "Nomadic Architecture"
@@ -91,9 +113,11 @@
  #sub_sahran_unit_gfx:0 "Sub-Saharan African"
  sub_sahran_unit_gfx:0 "Desert Steel"
  swedish_coa_gfx:0 "Swedish"
+ tai_clothing_gfx: "$tai$"
  tibetan_group_coa_gfx:0 "Tibetan"
  turkic_group_coa_gfx:0 "Turkic"
  ugro_permian_group_coa_gfx:0 "Ugro-Permian"
+ viet_clothing_gfx: "$viet$"
  volga_finnic_group_coa_gfx:0 "Volga-Finnic"
  welsh_coa_gfx:0 "Welsh"
  west_african_group_coa_gfx:0 "West African"
@@ -124,10 +148,33 @@
  #AGOT Modified
  #iranian_unit_gfx: "Iranian"
  iranian_unit_gfx:0 "Silver Steel"
- turkic_clothing_gfx: "Turkic"
+ #AGOT Modified
+ #turkic_clothing_gfx: "Turkic"
+ turkic_clothing_gfx: "Steppe"
  west_slavic_clothing_gfx: "West Slavic"
  afr_berber_clothing_gfx:0 "Berber"
  french_clothing_gfx: "French"
  east_slavic_clothing_gfx: "East Slavic"
  sami_clothing_gfx: "Sami"
  ugro_permian_clothing_gfx: "Ugro-Permian"
+ #AGOT Modified
+ #tungus_building_gfx:0 "Tungus"
+ tungus_building_gfx:0 "Ibbish Architecture"
+ tungus_clothing_gfx:0 "Tungus"
+ tungus_coa_gfx:0 "Tungus"
+ tungus_unit_gfx:0 "Tungus"
+ japanese_coa_gfx: "Japanese"
+ #AGOT Modified
+ #chinese_building_gfx: "Chinese"
+ chinese_building_gfx: "YiTish Architecture"
+ #AGOT Modified
+ #southeast_asian_building_gfx: "Southeast Asian"
+ southeast_asian_building_gfx: "Summer Architecture"
+ #AGOT Modified
+ #japanese_building_gfx: "Japanese"
+ japanese_building_gfx: "Jade Sea Architecture"
+
+ culture_aesthetics_naming_default: "Dynasty name last, when required"
+ culture_aesthetics_naming_dynasty_always_first: "Dynasty name first, always shown"
+ culture_aesthetics_naming_dynasty_first: "Dynasty name first, when required"
+ culture_aesthetics_naming_japanese: "$culture_aesthetics_naming_dynasty_first$"

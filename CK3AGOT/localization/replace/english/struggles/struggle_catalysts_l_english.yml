@@ -9,7 +9,7 @@
  ##################################################
  # Catalyst Names
  catalyst_passing_of_time:1 "Yearly Drift [struggle_catalyst_catalyst|E]"
- catalyst_passing_of_time_desc:2 "Yearly Drift: natural flow towards this [struggle_phase|E]"
+ catalyst_passing_of_time_desc:2 "Yearly Drift: Natural flow towards this [struggle_phase|E]"
  catalyst_demanding_important_conversion:0 "Demanded Conversion [struggle_catalyst_catalyst|E]"
  catalyst_demanding_important_conversion_desc:4 "[demand_conversion|E] from an [struggle_involved|E] [ruler|E]"
  catalyst_enforcing_de_jure_claims:0 "Enforced [de_jure|E] [claims|E] [struggle_catalyst_catalyst|E]"
@@ -25,7 +25,7 @@
  catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion:0 "Agreed to Faction Demand [struggle_catalyst_catalyst|E]"
  catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion_desc:2 "Accept the demands of a [peasant_faction|E] or [popular_faction|E]"
  catalyst_granted_powerful_diff_faith_vassal_religious_protection:0 "Granted inclusive [vassal_contract|E] Change [struggle_catalyst_catalyst|E]"
- catalyst_granted_powerful_diff_faith_vassal_religious_protection_desc:2 "Offer a [powerful_vassal|E] [GetVassalContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )|E] via [vassal_contract|E]"
+ catalyst_granted_powerful_diff_faith_vassal_religious_protection_desc:2 "Offer a [powerful_vassal|E] [GetSubjectContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )|E] via [vassal_contract|E]"
  catalyst_became_best_friend_soulmate_with_very_important_character:0 "Twin Souls [struggle_catalyst_catalyst|E]"
  catalyst_became_best_friend_soulmate_with_very_important_character_desc:6 "Become either [best_friends|E] or [soulmates|E] with an [struggle_involved|E] [ruler|E]"
  catalyst_became_friend_lover_with_character:0 "Twin Souls [struggle_catalyst_catalyst|E]"
@@ -35,7 +35,7 @@
  catalyst_hybridise_or_diverge_regional_cultures:0 "[hybridized|E] or [diverge|E] [struggle|E] [cultures|E] [struggle_catalyst_catalyst|E]"
  catalyst_hybridise_or_diverge_regional_cultures_desc:1 "[hybridize|E] two [struggle_involved|E] [cultures|E] or [diverge|E] one"
  catalyst_revoked_powerful_diff_faith_vassal_religious_protection:0 "Revoked inclusive [vassal_contract|E] [struggle_catalyst_catalyst|E]"
- catalyst_revoked_powerful_diff_faith_vassal_religious_protection_desc:2 "Remove [powerful_vassal_possessive|E] [GetVassalContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )|E] [vassal_contract|E]"
+ catalyst_revoked_powerful_diff_faith_vassal_religious_protection_desc:2 "Remove [powerful_vassal_possessive|E] [GetSubjectContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )|E] [vassal_contract|E]"
  catalyst_broke_truce_against_important_character:0 "Broke [truce|E] [struggle_catalyst_catalyst|E]"
  catalyst_broke_truce_against_important_character_desc:4 "Break a [truce|E] with an [struggle_involved|E] [ruler|E]"
  catalyst_discovery_of_very_important_murder:1 "Exposed sectarian [GetScheme('murder').GetTypeName] [struggle_catalyst_catalyst|E]"
@@ -64,7 +64,7 @@
  catalyst_toledo_council_tension:0 "$fp2_small_council_modifier$ Tension [struggle_catalyst_catalyst|E]"
  catalyst_toledo_council_tension_desc:0 "$catalyst_toledo_council_hostility_desc$"
 
- catalyst_imprison_important:0 "Imprisoned a Duke or higher tier [struggle_catalyst_catalyst|E]"
+ catalyst_imprison_important:0 "Imprisoned a [duke|E] or higher [title_tier|E] [struggle_catalyst_catalyst|E]"
  catalyst_imprison_important_desc:1 "Imprison a [duke|E] or higher rank [character|E], including [head_of_faith|E] and [cultural_head|E]"
 
  #AGOT Modified
@@ -75,7 +75,7 @@
  catalyst_successfully_expelled_interloper_desc:0 "Win an [btw_reclamation|E] against an [struggle_uninvolved|E] $game_concept_character$"
  catalyst_truce_was_enforced:0 "[enforced_truce|E] [struggle_catalyst_catalyst|E]"
  catalyst_truce_was_enforced_desc:0 "[enforced_truce|E] between [struggle_involved|E] [ruler|E]"
- catalyst_execute_important:0 "Executed a Duke or higher tier [struggle_catalyst_catalyst|E]"
+ catalyst_execute_important:0 "Executed a [duke|E] or higher [title_tier|E] [struggle_catalyst_catalyst|E]"
  catalyst_execute_important_desc:1 "Execute a [duke|E] or higher rank [character|E], including [head_of_faith|E] and [cultural_head|E]"
  catalyst_new_building_in_castle:1 "built in a [castle|E] [struggle_catalyst_catalyst|E]"
  catalyst_new_building_in_castle_desc:1 "Construct a [building|E] in a [castle|E] [holding|E]"
@@ -92,10 +92,10 @@
  catalyst_vassalize_independent_ruler:0 "Vassalized an [independent_ruler] [struggle_catalyst_catalyst|E]"
  catalyst_vassalize_independent_ruler_desc:0 "Vassalize an [independent_ruler|E]"
  catalyst_join_war_as_assisant:0 "Joined a war [struggle_catalyst_catalyst|E]"
- catalyst_join_war_as_assisant_desc:1 "Join a war by selling your services to a non-ally [struggle_involved|E] [ruler|E]"
+ catalyst_join_war_as_assisant_desc:1 "Join a war by selling your services to a non-[allied|E] [struggle_involved|E] [ruler|E]"
 
- catalyst_win_any_war_within_the_region:0 "Won a war [struggle_catalyst_catalyst|E]"
- catalyst_win_any_war_within_the_region_desc:1 "Win a war you started against another [struggle_involved|E] [ruler|E]"
+ catalyst_win_any_war_within_the_region:0 "Won a [war|E] [struggle_catalyst_catalyst|E]"
+ catalyst_win_any_war_within_the_region_desc:1 "Win a [war|E] you started against another [struggle_involved|E] [ruler|E]"
  catalyst_becomes_rival_with_involved:0 "Escalated rivalry [struggle_catalyst_catalyst|E]"
  catalyst_becomes_rival_with_involved_desc:1 "Become [rival|E] or [nemesis|E] with another [struggle_involved|E] [ruler|E]"
  catalyst_using_a_hook_on_very_important_character:0 "Used [hook|E] [struggle_catalyst_catalyst|E]"
@@ -312,3 +312,11 @@
  catalyst_revealed_secret_faith_non_islam_desc: "Reveal non-[GetReligionByKey('islam_religion').GetAdjective] Secret [faith|E]"
  catalyst_revealed_secret_faith_islam: "Revealed [GetReligionByKey('islam_religion').GetAdjective] Secret [faith|E] [struggle_catalyst_catalyst|E]"
  catalyst_revealed_secret_faith_islam_desc: "Reveal [GetReligionByKey('islam_religion').GetAdjective] Secret [faith|E]"
+
+
+ catalyst_coronation_event_unrest: "A loud proclamation of dissatisfaction during a coronation"
+ catalyst_coronation_event_unrest_desc: "A heated discussion between $supporter_and_detractor$ during a [coronation|E] ended in loud support of shaking up the status quo"
+ catalyst_coronation_event_concession: "A loud proclamation of dissatisfaction during a coronation"
+ catalyst_coronation_event_concession_desc: "A heated discussion between $supporter_and_detractor$ during a [coronation|E] ended in loud support of finding a middle ground"
+ catalyst_coronation_event_stabilization: "$catalyst_coronation_event_unrest$"
+ catalyst_coronation_event_stabilization_desc: "A heated discussion between $supporter_and_detractor$ during a [coronation|E] ended in loud support of stability"

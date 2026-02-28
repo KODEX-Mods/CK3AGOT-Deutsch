@@ -16,6 +16,18 @@
  weirwood_meditate_decision_desc:0 "Regardless of faith, few places in the world come close to matching the heart of a godswood in terms of tranquility and otherworldly solitude. Perhaps I should visit the heart tree for some guidance."
  weirwood_meditate_decision_tooltip:0 "You will visit the godswood for a chance of renewal."
  weirwood_meditate_decision_confirm:0 "The trees call to me."
+
+ high_heart_the_pact_decision:0 "Regrow the Weirwoods of High Heart"
+ high_heart_the_pact_decision_desc:0 "For too long, High Heart has stood as a testament to the Andals and their new gods. It is time for the hill to be crowned once more with weirwoods — their carved faces watching all who seek to visit."
+ high_heart_the_pact_decision_effect:0 "You will replant the grove, which will eventually develop into [GetBuilding('agot_high_heart_01').GetName]"
+ high_heart_the_pact_decision_tooltip:0 "You will regrow the weirwoods of High Heart"
+ high_heart_the_pact_decision_confirm:0 "The Old Gods whisper it!"
+
+ high_heart_the_seven_decision:0 "Cut Down the Weirwoods of High Heart"
+ high_heart_the_seven_decision_desc:0 "Erreg's good work has been undone. Now, we must cleanse High Heart of the demon trees once more."
+ high_heart_the_seven_decision_tooltip:0 "You will cut down the weirwoods of High Heart"
+ high_heart_the_seven_decision_confirm:0 "As the Seven demand!"
+
  # House Revival
  house_revival_tooltip:0 "By violence or fate, this House has become extinct, but due to its renowned history can be revived."
  darklyn_revival_decision:0 "Revive House Darklyn"
@@ -42,22 +54,20 @@
  hoare_revival_decision:0 "Revive House Hoare"
  hoare_revival_desc:0 "For thousands of years my family ruled the Iron Islands, reaping iron and fear all over the shores of Westeros. It was only through dragonfire that we were humbled — but still we endure. I have retaken Orkmont, our ancestral home. Perhaps it is time to refound the [dynasty|E] of Qhored the Cruel, with myself as its head."
  hoare_revival_decision_confirm:0 "Lashed in Blood"
+ justman_revival_decision:0 "Revive House Justman"
+ justman_revival_desc:0 "Long ago, Benedict Rivers, a child of Blackwood and Bracken blood, united the Trident under his rule and founded House Justman. They ruled the Riverlands for almost three hundred years before their line was cruelly ended by the Ironborn. I, too, am a child of both these lines — perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
+ justman_revival_decision_confirm:0 "A Name Earned"
  dynamic_bastard_house_revival_decision:0 "Revive House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName]"
  dynamic_bastard_house_revival_decision_desc:0 "House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName] has gone extinct. As a direct descendant of this House, I can reclaim its legacy and name."
  dynamic_bastard_house_revival_decision_confirm:0 "House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName], shall be born again!"
  dynamic_bastard_house_revival_decision_bastard:0 "Your [house|e] is a [bastard_branch|e]"
  dynamic_bastard_house_revival_decision_westeros_needs_legitimization:0 "[top_liege.GetName] will hear your petition for assuming the name, words, and arms of House [bastard_house_of.GetName]."
 
- set_capital_kingslanding_decision:0 "Reclaim King's Landing"
- set_capital_kingslanding_decision_confirm:0 "Restore the true seat of the Seven Kingdoms!"
- set_capital_kingslanding_decision_desc:0 "King's Landing is the capital of the Seven Kingdoms of the Iron Throne and as such she rightfully belongs to me."
- set_capital_kingslanding_decision_tooltip:0 "Restore King's Landing as the capital of your Kingdom."
-
  ######## Emperor reclaims KL from you
- agot_events_generic.0002.t:0 "You wretched [ROOT.Char.Custom('GirlBoy')],"
- agot_events_generic.0002.desc_vassal:0 "I dragged you out of the filth, and I can cast you back in again! You didn't #EMP truly#! think #EMP King's Landing#!, the last pillar of erudition on this disdainful earth, could really be yours! Not so much as your littlest toe is worthy of treading upon its glimmering bricks! Return it, or else the Blackwater shall be your drowning-pit — I will fling you into it myself, if I must."
- agot_events_generic.0002.a:0 "I was merely looking after it for you!"
- agot_events_generic.0002.b:0 "I hope your mithering rear gets cut on the Iron Throne."
+ agot_events_generic.0030.t:0 "You wretched [ROOT.Char.Custom('GirlBoy')],"
+ agot_events_generic.0030.desc_vassal:0 "I dragged you out of the filth, and I can cast you back in again! You didn't #EMP truly#! think #EMP King's Landing#!, the last pillar of erudition on this disdainful earth, could really be yours! Not so much as your littlest toe is worthy of treading upon its glimmering bricks! Return it, or else the Blackwater shall be your drowning-pit — I will fling you into it myself, if I must."
+ agot_events_generic.0030.a:0 "I was merely looking after it for you!"
+ agot_events_generic.0030.b:0 "I hope your mithering rear gets cut on the Iron Throne."
 
 
  ############################
@@ -85,7 +95,8 @@
  reforge_valyrian_steel_decision.tt:0 "You will begin the process of reforging a Valyrian steel blade in your possesssion"
  reforge_valyrian_steel_decision_confirm:0 "Summon the smith!"
  reforge_valyrian_steel_decision_tooltip:0 "You will begin the process of reforging a Valyrian steel blade in your possesssion"
- reforge_valyrian_steel_excellent_aptitude:0 "Your $court_smith_court_position$ needs an aptitude of #V Excellent#! with the knowledge of reforging Valyrian Steel or a faith with the [GetFaithDoctrine('tenet_blood_magic_steel').GetBaseName] tenet"
+ reforge_valyrian_steel_excellent_aptitude:0 "Your $court_smith_court_position$ needs an aptitude of #V Excellent#!"
+ reforge_valyrian_steel_additional_requirements:0 "Your $court_smith_court_position$ needs either the knowledge of reforging Valyrian steel or a faith with the [GetFaithDoctrine('tenet_blood_magic_steel').GetBaseName] tenet"
 
  #Dawn
  claim_dawn_unworthy_decision:0 "Claim Dawn"
@@ -96,6 +107,24 @@
  claim_dawn_worthy_decision_desc:0 "I believe I am worthy."
  claim_dawn_worthy_decision_tooltip:0 "Claim the legendary sword Dawn as your own"
  claim_dawn_worthy_decision_confirm:0 "I am worthy!"
+
+ #Brightroar
+ recover_brightroar_decision:0 "Recover Brightroar"
+ recover_brightroar_decision_desc:0 "I will fund a brave explorer to venture into the perilous ruins of Old Valyria in search of Brightroar, the ancestral sword of House Lannister."
+ recover_brightroar_decision_tooltip:0 "Plan an expedition to recover Brightroar"
+ recover_brightroar_decision_confirm:0 "Prepare a ship"
+
+ #Retrieve Hidden Artifact
+ retrieve_hidden_artifact_decision:0 "Retrieve Hidden Artifact"
+ retrieve_hidden_artifact_decision_desc:0 "Unbeknownst to the world, I am in possession of [ROOT.Char.Custom('HiddenArtifact')]. I no longer see any reason to keep it hidden. The time has come to reveal it."
+ retrieve_hidden_artifact_decision_tooltip:0 "Retrieve an artifact currently hidden away"
+ retrieve_hidden_artifact_decision_confirm:0 "Let it be known!"
+
+ #Retrieve Stored Artifacts
+ retrieve_stored_artifacts_decision:0 "Retrieve Stored Artifacts"
+ retrieve_stored_artifacts_decision_desc:0 "Many relics of House Targaryen lie forgotten in the cellars beneath the Red Keep. Crowns and ancient dragon skulls gather dust in silence. It is time they were brought forth and restored to their rightful place in history."
+ retrieve_stored_artifacts_decision_tooltip:0 "Retrieve Targaryen artifacts stored beneath the Red Keep"
+ retrieve_stored_artifacts_decision_confirm:0 "Send servants below."
 
  ###############################################################
  ## Manage Realm Affairs - World Notification Config Decision ##
@@ -131,6 +160,7 @@
 
  #DLC Tooltips
  agot_requires_rc:0 "Option requires Royal Court DLC"
+ agot_requires_court:0 "Option requires a [royal_court|E]"
  agot_requires_fnf:0 "Option requires Friends and Foes DLC"
  agot_requires_rtp:0 "Option requires Roads to Power DLC"
 
@@ -196,8 +226,8 @@
  global_events_settings.0004.nw_toggle_off.tt:0 "Currently, #P #bold you WILL#!#! be informed whenever a new Lord Commander of the Night's Watch is elected."
 
  agot_house_maintenance.1000.t:0 "View House Feuds"
- agot_house_maintenance.1000.desc:0 "My liege, here are all of the known house feuds:"
- agot_house_maintenance.1000.desc_none:0 "My liege, there are no known house feuds."
+ agot_house_maintenance.1000.desc:0 "My liege, here are all of the known House [house_feuds|E]:"
+ agot_house_maintenance.1000.desc_none:0 "My liege, there are no known House [house_feuds|E]."
 
  ###############################################################
  ## Manage Bank ##
@@ -305,3 +335,9 @@
  control_realm_borders_open_effect_tt.vale:0 "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread."
  control_realm_borders_open_effect_tt.north:0 "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread."
  control_realm_borders_open_effect_tt.iron_islands:0 "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread."
+
+ # AI only, blank loc keys
+ agot_request_paramountcy_ai_desc:0 ""
+ agot_request_paramountcy_ai:0 ""
+ agot_request_paramountcy_ai_tooltip:0 ""
+ agot_request_paramountcy_ai_confirm:0 ""

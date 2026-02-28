@@ -1,9 +1,9 @@
 ﻿l_english:
  ### Events ###
  free_city_events.9999.t:0 "The [term_limit_country.GetAdjective] Election"
- free_city_events.9999.desc_old_holder:0 "So, it’s done. I’ve been replaced. \n\n[magister_winner.GetFullName] is the new First Magister, and I—well, I step aside for now. The Magisters and the Gonfaloniere have sworn their fealty to the new leader, their voices echoing in the hall with promises I once commanded. \n\nIt’s hard to swallow, but I’ve been here before. Power slips through fingers like sand, but I know the game isn’t over. I won’t be forgotten. I mustn't be."
+ free_city_events.9999.desc_old_holder:0 "So, it's done. I've been replaced. \n\n[magister_winner.GetFullName] is the new First Magister, and I—well, I step aside for now. The Magisters and the Gonfaloniere have sworn their fealty to the new leader, their voices echoing in the hall with promises I once commanded. \n\nIt's hard to swallow, but I've been here before. Power slips through fingers like sand, but I know the game isn't over. I won't be forgotten. I mustn't be."
 
- free_city_events.9999.desc_magister_winner:0 "They’ve chosen me. The Conclave has selected me as the new First Magister. [old_holder.GetTitledFirstName] has been dismissed from the post, and now I stand where they once did..\n\nThe Magisters and the Gonfaloniere have sworn their allegiance to me, pledging loyalty as my authority is cemented. But what now? How will I rule? Already, some Magisters plot openly, while others whisper sweet words to my face, all the while trying to pick my pocket. I must remain vigilant and ready to face whatever comes next."
+ free_city_events.9999.desc_magister_winner:0 "They've chosen me. The Conclave has selected me as the new First Magister. [old_holder.GetTitledFirstName] has been dismissed from the post, and now I stand where they once did..\n\nThe Magisters and the Gonfaloniere have sworn their allegiance to me, pledging loyalty as my authority is cemented. But what now? How will I rule? Already, some Magisters plot openly, while others whisper sweet words to my face, all the while trying to pick my pocket. I must remain vigilant and ready to face whatever comes next."
 
  free_city_events.9999.desc_vassal:0 "A new First Magister has been chosen, and [old_holder.GetFirstName] has been discharged from [old_holder.GetHerHis] post. \n\nAs [old_holder.GetHerHis] reign ends, another begins, as [magister_winner.GetFullName] has been chosen by the Conclave. With much ceremony, the Magisters and the Gonfaloniere swear their allegiance to the new First Magister, and [magister_winner.GetHerHis] authority is officially acknowledged by the people. \n\nHow [magister_winner.GetFullNameNoTooltip] will rule remains uncertain, and already the Magisters plot on how to sway their new leader to their side."
  free_city_events.9999.a:0 "Long live the First Magister! Long live the [term_limit_country.GetName]!"
@@ -72,12 +72,14 @@
  agot_attempt_triarchy_tooltip:0 "Reach out to your fellow rulers to form the triarchy"
  agot_attempt_triarchy_confirm:0 "Bring me my seal"
  request_war_interaction:0 "Request Permission for War"
- request_war_desc:0 "Request that the High Council grant you permission to declare war"
+ request_war_desc:0 "Request that the High Council vote to grant you permission to declare war"
+ request_war_effect_tt:0 "The High Council will convene and vote on your request to declare war on [recipient.GetName]."
 
  agot_create_three_daughters:0 "Form the Kingdom of the Three Daughters"
  agot_create_three_daughters_desc:0 "Now that I control the all three daughters of old Valyria, it is time to consolidate my power."
  agot_create_three_daughters_tooltip:0 "Form the kingdom of the Three Daughters"
  agot_create_three_daughters_confirm:0 "Bring me my seal"
+ agot_join_three_daughters_confederation_modifier_desc:0 "Has a title traditionally part of the Three Daughters: $VALUE|=+0$"
 
  agot_stepstones_rhoynish_culture:0 "A New Identity"
  agot_stepstones_rhoynish_culture_desc:0 "Long have we been stranded on these islands, and for long we have kept to our roots from the Rhoyne and the Old Principalities. But do we really wish to stay this way?"
@@ -95,6 +97,7 @@
  agot_form_undisputed_lands_decision_desc:0 "These lands have been fought and picked over since the Doom of Valyria, but I have finally united them."
  agot_form_undisputed_lands_decision_tooltip:0 "Form a kingdom from these once disputed lands"
  agot_form_undisputed_lands_confirm:0 "To infamy and immortality!"
+ three_daughters_confederation:0 "The confederation of the Three Daughters exists"
 
  agot_break_braavos_pentos_treaty:0 "Break the Braavos-Pentos Treaty"
  agot_break_braavos_pentos_treaty_desc:0 "Since 209, the Braavosi have forced the proud city of Pentos to abide by a heavy-handed treaty. The time has come for Pentos to tear this treaty to shreds and govern ourselves freely!"
@@ -103,6 +106,12 @@
  agot_break_braavos_pentos_treaty_tooltip:0 "Break the Braavos-Pentos Treaty"
  agot_break_braavos_pentos_treaty_confirm:0 "For Pentos!"
  agot_create_braavos_pentos_treaty_effect_tt:0 "[GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] will be permanently added to all characters under the realm of Pentos. It may only be removed should Pentos break free through war."
+ agot_break_braavos_pentos_treaty_as_braavos:0 "$agot_break_braavos_pentos_treaty$"
+ agot_break_braavos_pentos_treaty_as_braavos_desc:0 "We have dutifully respected the borders of Pentos, as agreed in the Braavos-Pentos Treaty of 209. But the time is ripe for expansion; what is a piece of paper compared to conquest?"
+ agot_break_braavos_pentos_treaty_as_braavos_effect_tt:0 "You, and any Braavosi vassals, will be free to declare war on Pentos and its vassals."
+ agot_break_braavos_pentos_treaty_as_braavos_confirm:0 "For Braavos!"
+ agot_braavos_pentos_treaty_is_active:0 "You cannot declare war while the [GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] is active."
+ agot_break_braavos_pentos_treaty_as_braavos_tooltip:0 "$agot_break_braavos_pentos_treaty_tooltip$"
 
  ### Misc ###
  THREE_DAUGHTERS:0 "High Council of the Triarchy"

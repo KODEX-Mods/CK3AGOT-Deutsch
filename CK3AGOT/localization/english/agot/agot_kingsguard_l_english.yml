@@ -1,6 +1,7 @@
 ﻿l_english:
+
+ kingsguard_lord_commander_male: "Lord Commander"
  kingsguard_lord_commander_flavor: "Lord Commander"
- kingsguard_lord_commander_flavors: "Lord Commander"
  kingsguard_lord_commander: "Lord Commander of the Kingsguard"
  kingsguard_lord_commander_name: "$kingsguard_lord_commander$"
  kingsguard_lord_commander_tooltip: "$kingsguard_lord_commander$"
@@ -10,30 +11,27 @@
 
  KINGSGUARD:1 "[CHARACTER.Custom('KingsguardName')]"
 
-
- Kingsguard_possesive:0 "[CHARACTER.Custom('KingsguardName')]'s"
-
-#GUI
+ # GUI
  kingsguard: "Kingsguard"
- Kingsguard_possesive: "Kingsguard's"
+ kingsguard_possessive: "Kingsguard's"
  kingsguard_1: "Kingsguard" # $KINGSGUARD$
  kingsguard_2: "Kingsguard"
  kingsguard_3: "Kingsguard"
  kingsguard_4: "Kingsguard"
  kingsguard_5: "Kingsguard"
  kingsguard_6: "Kingsguard"
- kingsguard_1_possessive: "$Kingsguard_possesive$"
- kingsguard_2_possessive: "$Kingsguard_possesive$"
- kingsguard_3_possessive: "$Kingsguard_possesive$"
- kingsguard_4_possessive: "$Kingsguard_possesive$"
- kingsguard_5_possessive: "$Kingsguard_possesive$"
- kingsguard_6_possessive: "$Kingsguard_possesive$"
+ kingsguard_1_possessive: "$kingsguard_possessive$"
+ kingsguard_2_possessive: "$kingsguard_possessive$"
+ kingsguard_3_possessive: "$kingsguard_possessive$"
+ kingsguard_4_possessive: "$kingsguard_possessive$"
+ kingsguard_5_possessive: "$kingsguard_possessive$"
+ kingsguard_6_possessive: "$kingsguard_possessive$"
 
  KINGSGUARD_CLICK_TO_HIRE:0 "Interact with Characters \nto appoint a [ActiveCouncilTask.GetPositionName|E]"
 
  KINGSGUARD_TAB_BUTTON_TEXT:0 "Your [GetPlayer.Custom('KingsguardName')]"
 
- #Naming
+ # Naming
  kingsguard_name:0 "Kingsguard"
  queensguard_name:0 "Queensguard"
 

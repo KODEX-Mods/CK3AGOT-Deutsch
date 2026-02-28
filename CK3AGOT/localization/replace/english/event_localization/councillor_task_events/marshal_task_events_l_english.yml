@@ -57,19 +57,19 @@
  marshal_task.2001.a:0 "They were using real weapons?!"
  marshal_task.2001.notification:0 "Warrior Wounded in Training"
  
- marshal_task.2101.notification:0 "[commander.GetShortUINameNoTooltip] Gained Trait: [commander.Custom('CommanderTraitBeingTaught')]"
+ marshal_task.2101.notification:0 "[commander.Custom('CommanderTraitBeingTaughtNoTooltip')] Trait Gained"
  #AGOT Modified
- #marshal_task.2102.notification:0 "Knight Improved: [commander.GetShortUIName]"
- marshal_task.2102.notification:0 "Captain Improved: [commander.GetShortUIName]"
- marshal_task.2103.notification:0 "Hastiludes Drilled: [trained_knight.GetShortUIName]"
- marshal_task.0302.notification.a:0 "Commander Significantly Improved: [commander.GetShortUIName]"
- marshal_task.0302.notification.b:0 "Commander Improved: [commander.GetShortUIName]"
+ #marshal_task.2102.notification:0 "Knight Improved"
+ marshal_task.2102.notification:0 "Captain Improved"
+ marshal_task.2103.notification:0 "Hastiludes Drilled"
+ marshal_task.0302.notification.a:0 "Commander Significantly Improved"
+ marshal_task.0302.notification.b:0 "Commander Improved"
  #AGOT Modified
- #marshal_task.0303.notification.a:0 "Knight Significantly Improved: [commander.GetShortUIName]"
- marshal_task.0303.notification.a:0 "Captain Significantly Improved: [commander.GetShortUIName]"
+ #marshal_task.0303.notification.a:0 "Knight Significantly Improved"
+ marshal_task.0303.notification.a:0 "Captain Significantly Improved"
  #AGOT Modified
- #marshal_task.0303.notification.c:0 "Knight Became Blademaster: [commander.GetShortUIName]"
- marshal_task.0303.notification.c:0 "Captain Became Blademaster: [commander.GetShortUIName]"
+ #marshal_task.0303.notification.c:0 "Knight Became Blademaster"
+ marshal_task.0303.notification.c:0 "Captain Became Blademaster"
 
  marshal_task.2002.t:0 "Commander Grievously Harmed"
  marshal_task.2002.eye:0 "\n\nMy [councillor.GetCouncilTitle] quickly called for a physician, but there was no way of saving [commander.GetHerHis] eyesight."
@@ -89,7 +89,7 @@
 
  marshal_task.2101.desc:0 "My [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], comes to me with a proposition.\n\n"I have noticed that [commander.GetTitledFirstName] shares a lot of the same potential for [commander.Custom('CommanderTraitSkillDescription')] as [teacher.GetTitledFirstName] once did. I believe [commander.GetFirstName] might learn a lot with dedicated teaching from [teacher.GetFirstName].""
  marshal_task.2101.a:0 "Make it so."
- marshal_task.2101.b:0 "[commander.GetFirstName] should focus more on personal combat!"
+ marshal_task.2101.b:0 "[commander.GetFirstNameNoTooltip] should focus more on personal combat!"
 
  marshal_task.3001.t:0 "Local Resistance"
  marshal_task.3001.desc:0 "My honored [councillor.Custom2('RelationToMe', ROOT.Char)],\n While my efforts to reorganize the [county.GetName] are progressing apace, not everyone is as convinced of their benefits.\nI seem to have stepped on the toes of several mayors and village elders. Every mayor and village elder, that is."
@@ -117,5 +117,5 @@
 
  marshal_task.3103.notification:0 "[acclaimed_knight] Subdues Peasantry"
 
- marshal_task.4002.notification:0 "Disorganized Royal Guards"
+ marshal_task.4002.notification:0 "Disorganized Guards"
  task_manage_guards_disorganized_modifier:0 "$marshal_task.4002.notification$"

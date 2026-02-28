@@ -417,7 +417,7 @@
  nick_the_divine:0 "the Divine"
  nick_the_divine_desc:1 "Few hearing of [CHARACTER.GetShortUINameNoTooltipNoFormat] could think of anything else — surely [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] at least touched by the divine?"
  nick_the_anointed:0 "the Anointed"
- nick_the_anointed_desc:1 "Peasants whisper that [CHARACTER.GetFaith.GetHighGodName] chose [CHARACTER.GetShortUINameNoTooltipNoFormat] to do [CHARACTER.GetFaith.HighGodHerHis] work in the mortal world."
+ nick_the_anointed_desc:1 "Peasants whisper that [CHARACTER.GetFaith.HighGodName] chose [CHARACTER.GetShortUINameNoTooltipNoFormat] to do [CHARACTER.GetFaith.HighGodHerHis] work in the mortal world."
  nick_the_stupor_mundi:0 "Stupor Mundi"
  nick_the_stupor_mundi_desc:1 "Perhaps it's a bit arrogant, but... what else [CharAreIs(CHARACTER)] [CharYouSheHe(CHARACTER)], if not the Marvel of the World?"
  nick_the_glass:0 "the [CHARACTER.GetWomanMan|U] of Glass"
@@ -666,6 +666,25 @@
  nick_health_god_mercy_desc:1 "Despite sordid beginnings, [CharYouSheHe(CHARACTER)] found [CharYourHerHis(CHARACTER)] way into the world of medicine and made a name for [CharYourHerHimself(CHARACTER)] tending the poor."
  nick_genghis_khan:0 "Genghis Khan"
  nick_genghis_khan_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] the punishment of [CHARACTER.GetFaith.HighGodName] for all the world's sins — for if the world were not full of sinners, would [CHARACTER.GetFaith.HighGodName] have sent one such as #EMP [CharYouHerHim(CHARACTER)]#! in punishment?"
+ nick_cengiz_khan: "Cengiz Khan"
+ nick_cengiz_khan_desc: "$nick_genghis_khan_desc$"
+ nick_yekhe_khagan: "Yekhe Khagan"
+ nick_yekhe_khagan_desc: "The Great, the Grand, the sovereign of the grass sea and all the settled lands! [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] the stallion who mounts the world."
+ nick_dort_yonlug_khagan: "Dört Yönlüg Khagan"
+ nick_dort_yonlug_khagan_desc: "Out stretches the earth in four vast directions, and — even to the very last, to the dark, unknown end-places — all belongs by right to [CHARACTER.GetShortUINameNoTooltipNoFormat]! The cosmos is arrayed for [CharYourHerHis(CHARACTER)] convenience, at [CharYourHerHis(CHARACTER)] command."
+ nick_tengri_khagan: "Tengri Khagan"
+ nick_tengri_khagan_desc: "In the ancient days of the mighty Göktürks Khagans, this title was written in stone! Tengri Khagan — the Heaven-born, the Wise: [CHARACTER.GetShortUINameNoTooltipNoFormat] was created by Great Blue Sky to rule the world."
+ nick_xormuzta: "Xormuzta"
+ nick_xormuzta_desc: "An ancient honorific long-ago associated with the Old Iranian 'heavenly deity,' and now used among Eastern Christians and their ilk to revere legendary founders like [CHARACTER.GetShortUINameNoTooltipNoFormat]."
+ nick_mar_sargis: "Mar Sargis"
+ nick_mar_sargis_desc: "Said to have been guided to pious rule by holy visions, [CharYourHerHis(CHARACTER)] patron is the martyr St. Sargis."
+ nick_cihangir: "Cihangir"
+ nick_cihangir_desc: "By Allah's divine will, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] the conqueror of all the world. Never have the Dar al-Islam and the lands of infidels heard so loudly the thundering of hooves!"
+ nick_culture_khagan: "[CHARACTER.GetCulture.GetNameNoTooltip] Khagan"
+ nick_culture_khagan_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] revered as the greatest of all the [CHARACTER.GetCulture.GetCollectiveNounNoTooltip], and [CharYourHerHis(CHARACTER)] [CHARACTER.GetCulture.GetCollectiveNounNoTooltip] — the children of destiny, the horsemen who trample cities, who wield the swords and whips of empire!"
+ nick_akhshunwar: "Akhshunwar"
+ nick_akhshunwar_desc: "Long have the masters of the Silk Road bore high titles like #EMP Ikhshid#!, #EMP Shahanshah#!, and #EMP Akhshunwar#!, but none before have been worthy as [CHARACTER.GetShortUINameNoTooltipNoFormat] to hold the honorific 'power-bearer'!"
+
  nick_fabulous_she_he:0 "Fabulous [CHARACTER.GetSheHe|U], [CHARACTER.GetFirstNameNoTooltip|U]"
  nick_fabulous_she_he_desc:2 "It's not unknown for casual observers to drop to one knee out of respect when this person passes by."
  nick_the_wary:0 "the Wary"
@@ -696,7 +715,7 @@
  nick_the_justicar_desc:1 "Folk mostly agree that [CharYourHerHis(CHARACTER)] rulings are fair and balanced."
  nick_the_green:0 "the Green"
  nick_the_green_desc:2 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] thought to be a dab-hand with a trowel."
- 
+
  # EP1
  nick_king_of_fashion:0 "the [CHARACTER.GetTitleAsNameNoTooltip] of Fashion"
  nick_king_of_fashion_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] found power and influence in a world of silk and sable."
@@ -776,7 +795,9 @@
  nick_the_dunged_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] prefer[_s(CHARACTER)] not to dwell on the memory — everyone else tries not to mention the smell."
  nick_the_smelly:0 "the Smelly"
  nick_the_smelly_desc:0 "Somehow, some way, it #EMP still#! lingers."
- nick_the_venator:0 "the Venator"
+#AGOT MODIFIED
+ #nick_the_venator:0 "the Venator"
+ nick_the_venator:0 "the Arghurys"
  nick_the_venator_desc:1 "No mere animal can evade [CharYourHerHis(CHARACTER)] keen hunting instincts."
 
  # EP2
@@ -976,8 +997,8 @@
  nick_elbow_high_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] no taller than a child, much to the petty amusement of [CharYourHerHis(CHARACTER)] peers."
  nick_the_rotund:0 "the Rotund"
  nick_the_rotund_desc:2 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] almost as wide as [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] tall, practically spherical!"
- nick_the_faith:0 "the [CHARACTER.GetFaith.GetAdjectiveNoTooltip]"
- nick_the_faith_desc:2 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] an ardent [CHARACTER.GetFaith.GetAdjectiveNoTooltip] out of place, making [CharYouHerHim(CHARACTER)] a novelty in the eyes of others."
+ nick_the_faith:0 "the [CHARACTER.GetFaith.GetAdherentNameNoTooltip]"
+ nick_the_faith_desc:2 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] an ardent [CHARACTER.GetFaith.GetAdherentNameNoTooltip] out of place, making [CharYouHerHim(CHARACTER)] a novelty in the eyes of others."
  nick_the_eunuch:0 "the Eunuch"
  nick_the_eunuch_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] bereft of manhood, which people enjoy pointing out."
  nick_longsword:0 "Longsword"
@@ -1076,7 +1097,7 @@
  nick_the_younger_missionary_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for championing the [CHARACTER.GetFaith.GetAdherentNameNoTooltip] cause, though less than [Select_CString( CHARACTER.IsLocalPlayer, 'your', 'his' )] brother."
  nick_the_caliph_protector: "the Protector of the Caliphate"
  nick_the_caliph_protector_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] has subjugated the Sunni Caliphate."
- 
+
  nick_bloody_hand_desc:1 "After a desperate act of self-mutilation, [CHARACTER.GetShortUINameNoTooltipNoFormat] was forever known as '[CHARACTER.GetNicknameNoTooltip]'"
  nick_the_nameless:0 "the Nameless"
  nick_the_nameless_desc:0 "Who?"
@@ -1095,15 +1116,15 @@
  nick_the_dragonslayer: "the Dragonslayer"
  nick_the_dragonslayer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] and [CharYourHerHis(CHARACTER)] legendary hunt of a wild dragon knows no equal."
  nick_natures_bane: "Nature's Bane"
- nick_natures_bane_desc: "The strength of [CHARACTER.GetShortUINameNoTooltipNoFormat] is such that even nature itself caves to [CharYourHerHis(CHARACTER)] will." 
+ nick_natures_bane_desc: "The strength of [CHARACTER.GetShortUINameNoTooltipNoFormat] is such that even nature itself caves to [CharYourHerHis(CHARACTER)] will."
  nick_the_stout: "the Stout"
- nick_the_stout_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] broad of beam and stocky of frame." 
- 
+ nick_the_stout_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] broad of beam and stocky of frame."
+
  nick_chief_of_the_zanj: "Sahib az-Zanj"
  nick_chief_of_the_zanj_desc: "Having been adopted by the mistreated Zanj labourers as their leader in their struggle for freedom, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known as The Chief of the Zanj."
  nick_albaghid: "Albaghid"
  nick_albaghid_desc: "While some would describe him as a idealist revolutionary, [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U]'s stumbling from place to place, while escaping authorities from their many failed uprisings have earned them the epithet "Albaghid", the Abominable."
- 
+
  nick_phrangopoulos: "Phrangopoulos"
  nick_phrangopoulos_desc: "Like many foreign mercenaries from the distant west, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known as "Phrangopoulos" to the Greeks: Son of the Franks."
 
@@ -1236,7 +1257,7 @@
  nick_sayf_al_dawla_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific Sayf al-Dawla — the Sword of the State."
  nick_nizam_al_mulk: "Nizām al-Mulk"
  nick_nizam_al_mulk_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific Nizām al-Mulk — the Order of the Realm."
- 
+
  nick_the_stylite: "the Stylite"
  nick_the_stylite_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] renowned for living ascetically on top of a column."
  nick_the_grazer: "the Grazer"
@@ -1341,3 +1362,25 @@
 
  nick_the_ploughman: "the Ploughman"
  nick_the_ploughman_desc: "Merely a humble farmer at the time, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] was found at his plough when envoys arrived to summon [CharYouHerHim(CHARACTER)] to take the throne."
+
+ # MPO
+ nick_the_dreadful: "the Dreadful"
+ nick_the_dreadful_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] believes that the only way to be respected is to be feared."
+
+ # TGP
+ nick_shinno: "Shin'nō"
+ nick_shinno_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for declaring [CHARACTER.GetHerselfHimself] the "new emperor" of Japan, and leading a rebellion against the central government."
+ nick_murasaki_shikibu: "Murasaki Shikibu"
+ nick_murasaki_shikibu_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat] is known by the epithet #EMP Murasaki Shikibu#!, derived from the purple — #EMP murasaki#! — wisteria flower, known as #EMP fujiwara#!, from which her family took its name, and her father's position in the #EMP Shikibu-shō#!, the Ministry of Ceremonial Affairs."
+ nick_izumi_shikibu: "Izumi Shikibu"
+ nick_izumi_shikibu_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat] is known by the epithet #EMP Izumi Shikibu#!, derived from her husband's position as governor of the province of #EMP Izumi#!, and her father's position in the #EMP Shikibu-shō#!, the Ministry of Ceremonial Affairs."
+ nick_sei_shonagon: "Sei Shōnagon"
+ nick_sei_shonagon_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat] is known by the epithet #EMP Sei Shōnagon#!, derived from, #EMP Sei#!, a Chinese reading of #EMP Kiyohara#!, her family name, and a male relative's position as #EMP Shōnagon#!, Lesser Councillor of State."
+ nick_the_fierce: "the Fierce"
+ nick_the_fierce_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] reputation for tenacity far precedes [CHARACTER.GetHerHim]."
+ nick_tenjin: "Tenjin"
+ nick_tenjin_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] is believed to have become a vengeful spirit after [CHARACTER.GetHerHis] unjust treatment, and is now worshiped as a heavenly being."
+ nick_ushiwakamaru: "Ushiwakamaru"
+ nick_ushiwakamaru_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] is known for having the strength and tenacity of a young bull, feared by those around [CharYourHerHim(CHARACTER)]."
+ nick_ho_seung: "Ho-seung"
+ nick_ho_seung_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] surrounded by a floating legend depicting a tiger that died after falling into a pit trap, was reborn as a human, and became a monk. According to it, this monk is none other than [CHARACTER.GetHerselfHimself]."
