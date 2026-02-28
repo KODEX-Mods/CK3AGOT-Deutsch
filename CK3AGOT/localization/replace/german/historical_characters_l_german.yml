@@ -1,18 +1,18 @@
 ﻿l_german:
-  #AGOT MODIFIED 
- #HISTORICAL_CHARACTER_TOOLTIP: "#T Historical Character#!\n\n#high [Character.Custom('HistoricalCharacterDesc')]#!\n\n#weak This character is historical, but might deviate compared to [Character.GetHerHis] real-life counterpart based on the [culture|E] and [faith|E] of [Character.GetHerHis] place of origin. [Character.GetSheHe|U] might also appear slightly outside of [Character.GetHerHis] historical date of prominence by around 1-5 years.#!" #NT!
- HISTORICAL_CHARACTER_TOOLTIP: "#T Historical Character#!\n\n#high [Character.Custom('HistoricalCharacterDesc')]#!\n\n#weak This character is canon, but might deviate from [Character.GetHerHis] canonical storyline based on the [culture|E] and [faith|E] of [Character.GetHerHis] place of origin. [Character.GetSheHe|U] might also appear slightly outside of [Character.GetHerHis] date of prominence by around 1-5 years.#!" #NT!
+  #AGOT Modified 
+ #HISTORICAL_CHARACTER_TOOLTIP: "#T Historical Character#!\n\n#high [Character.Custom('HistoricalCharacterDesc')]#!\n\n#weak This character is historical, but might deviate compared to [Character.GetHerHis] real-life counterpart based on the [culture|E] and [faith|E] of [Character.GetHerHis] place of origin. [Character.GetSheHe|U] might also appear slightly outside of [Character.GetHerHis] historical date of prominence by around 1-5 years.#!"
+ HISTORICAL_CHARACTER_TOOLTIP: "#T Historical Character#!\n\n#high [Character.Custom('HistoricalCharacterDesc')]#!\n\n#weak This character is canon, but might deviate from [Character.GetHerHis] canonical storyline based on the [culture|E] and [faith|E] of [Character.GetHerHis] place of origin. [Character.GetSheHe|U] might also appear slightly outside of [Character.GetHerHis] date of prominence by around 1-5 years.#!"
  danger_dynasty_abandon_tt: "#X @warning_icon! Ihr werdet Eure [dynasty|E] aufgeben und Ihr werdet nicht als sie weiterspielen können!#!"
  will_wander_tt: "[historical_character.GetFullName|U] wird ein [wanderer|E]"
-  #AGOT MODIFIED 
- #historical_char_creation_events.t: "Echoes of History: [historical_character.GetFullNameNicknamedNoTooltip]" #NT!
- historical_char_creation_events.t: "Echoes of Ice and Fire: [historical_character.GetFullNameNicknamedNoTooltip]" #NT!
-  #AGOT MODIFIED 
- #historical_char_creation_events.desc: "[historical_character.Custom('HistoricalCharacterJobDesc')] known as [historical_character.GetFullNameNicknamed] is reportedly wandering my realm in search of employ. [historical_character.GetSheHe|U] hails from the [birth_location.GetName], and has a certain air about [historical_character.GetHerHim]... [historical_character.Custom('DescriptorPositiveStandalone')] yet somewhat [historical_character.Custom('DescriptorNegativeStandalone')].\n\n\n@historical_character_icon! #weak This character is historical:#!\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!" #NT!
- historical_char_creation_events.desc: "[historical_character.Custom('HistoricalCharacterJobDesc')] known as [historical_character.GetFullNameNicknamed] is reportedly wandering my realm in search of employ. [historical_character.GetSheHe|U] hails from [birth_location.GetNameNoTier], and has a certain air about [historical_character.GetHerHim]... [historical_character.Custom('DescriptorPositiveStandalone')] yet somewhat [historical_character.Custom('DescriptorNegativeStandalone')].\n\n\n@historical_character_icon! #weak This character is canon:#!\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!" #NT!
-  #AGOT MODIFIED 
- #historical_char_creation_events_alternative.desc: "[historical_character.Custom('HistoricalCharacterJobDesc')], known as [historical_character.GetFullNameNicknamed], has made a name for [historical_character.GetHerselfHimself] at court. [historical_character.GetSheHe|U] is [historical_character.Custom('DescriptorPositiveStandalone')], and while I cannot put my finger on it, there is something extraordinary about [historical_character.GetHerHim]...\n\n\n@historical_character_icon! #weak This character is historical:#!\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!" #NT!
- historical_char_creation_events_alternative.desc: "[historical_character.Custom('HistoricalCharacterJobDesc')], known as [historical_character.GetFullNameNicknamed], has made a name for [historical_character.GetHerselfHimself] at court in [historical_character.GetCurrentLocation.GetName]. [historical_character.GetSheHe|U] is [historical_character.Custom('DescriptorPositiveStandalone')], and while I cannot put my finger on it, there is something extraordinary about [historical_character.GetHerHim]...\n\n\n@historical_character_icon! #weak This character is canon:#!\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!" #NT!
+  #AGOT Modified 
+ #historical_char_creation_events.t: "Echoes of History: [historical_character.GetFullNameNicknamedNoTooltip]"
+ historical_char_creation_events.t: "Echoes of Ice and Fire: [historical_character.GetFullNameNicknamedNoTooltip]"
+  #AGOT Modified 
+ #historical_char_creation_events.desc: "[historical_character.Custom('HistoricalCharacterJobDesc')] known as [historical_character.GetFullNameNicknamed] is reportedly wandering my realm in search of employ. [historical_character.GetSheHe|U] hails from the [birth_location.GetName], and has a certain air about [historical_character.GetHerHim]... [historical_character.Custom('DescriptorPositiveStandalone')] yet somewhat [historical_character.Custom('DescriptorNegativeStandalone')].\n\n\n@historical_character_icon! #weak This character is historical:#!\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!"
+ historical_char_creation_events.desc: "[historical_character.Custom('HistoricalCharacterJobDesc')] known as [historical_character.GetFullNameNicknamed] is reportedly wandering my realm in search of employ. [historical_character.GetSheHe|U] hails from [birth_location.GetNameNoTier], and has a certain air about [historical_character.GetHerHim]... [historical_character.Custom('DescriptorPositiveStandalone')] yet somewhat [historical_character.Custom('DescriptorNegativeStandalone')].\n\n\n@historical_character_icon! #weak This character is canon:#!\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!"
+  #AGOT Modified 
+ #historical_char_creation_events_alternative.desc: "[historical_character.Custom('HistoricalCharacterJobDesc')], known as [historical_character.GetFullNameNicknamed], has made a name for [historical_character.GetHerselfHimself] at court. [historical_character.GetSheHe|U] is [historical_character.Custom('DescriptorPositiveStandalone')], and while I cannot put my finger on it, there is something extraordinary about [historical_character.GetHerHim]...\n\n\n@historical_character_icon! #weak This character is historical:#!\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!"
+ historical_char_creation_events_alternative.desc: "[historical_character.Custom('HistoricalCharacterJobDesc')], known as [historical_character.GetFullNameNicknamed], has made a name for [historical_character.GetHerselfHimself] at court in [historical_character.GetCurrentLocation.GetName]. [historical_character.GetSheHe|U] is [historical_character.Custom('DescriptorPositiveStandalone')], and while I cannot put my finger on it, there is something extraordinary about [historical_character.GetHerHim]...\n\n\n@historical_character_icon! #weak This character is canon:#!\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!"
  historical_char_creation_events.1.a: "Ich frage mich, welches Schicksal wohl vor [historical_character.Custom('DE_PRO_PER_S_3P_D')] liegt …"
  historical_char_creation_events.1.b: "So jemand könnte mir gute Dienste erweisen!"
  historical_char_creation_events.1.c: "[historical_character.GetFullNameNoTooltip|U]? Schert mich nicht!"
@@ -128,11 +128,46 @@
  historical_character.regino_of_prum: "Regino von Prüm war ein bedeutender Benediktinermönch, Geschichtsschreiber und Musiktheoretiker aus dem 9. Jahrhundert. Er war Abt der Abtei Prüm bis zu seiner Vertreibung im Jahr 899 und wurde danach Abt der Abtei St. Martin in Trier. Er ist vor allem für seine Chronik „Chronicon“ bekannt."
  historical_character.geoffrey_of_monmouth: "Geoffrey von Monmouth war ein walisischer Geistlicher des 12. Jahrhunderts und eine der bedeutendsten Figuren in der Entwicklung der britischen Geschichtsschreibung und Artusliteratur. Sein bahnbrechendes Werk „Historia Regum Britanniae“ (Geschichte der Könige von Britannien) ist ein pseudohistorischer Bericht, der das Leben der Könige von Britannien schildert."
  historical_character.raiktor: "Im Jahr 1081 behauptete der Mönch Raiktor in den Unruhen nach der Machtübernahme durch Alexios I. Komnenos fälschlicherweise, der abgesetzte Kaiser Michael VII. zu sein. Der normannische Herzog Robert Guiscard nutzte die Gelegenheit und rechtfertigte mit Raiktors Behauptung seine Invasion des Balkans. Obwohl der Betrug aufgedeckt wurde, setzte Guiscard seinen Feldzug fort und stellte Raiktor vor Dyrrachium zur Schau, um Unterstützung zu erlangen. Letztlich ließ Guiscard Raiktor im Stich, als die List fehlschlug – was wahrscheinlich dazu führte, dass Raiktor still und leise entsorgt wurde, als er nicht mehr nützlich war."
+ historical_character.nichiren: "Als radikaler und kompromissloser Reformer des japanischen Buddhismus erklärte $Nichiren$ die Hingabe an das Lotus-Sutra zum einzigen Weg zur Erlösung. Er kritisierte rivalisierende Sekten und politische Selbstgefälligkeit scharf und musste für seine Lehren Verbannung und Attentatsversuche durchleiden. Sein Vermächtnis führte zur Gründung einer einzigartigen, nationalistischen Schule des Buddhismus, die bis heute Bestand hat."
+ historical_character.dogen: "Der Gründer der Sōtō-Schule des Zen-Buddhismus in Japan wird für seine Lehren zur Meditation und sein Hauptwerk „Shōbōgenzō“ verehrt, das die jaapanische Zen-Philosophie mit bestimmte."
+ historical_character.kokan_shiren: "Dieser Rinzai-Zen-Mönch, Dichter und Histroriker der Kamakura-Periode stellte Zenrin Kokuhōki (einen beachtenswerten Text zur buddhistischen Geschichte) sowie Gedichtsammlungen zusammen, die Erkenntnisse mit literarischer Anmut verbanden."
+ historical_character.jeong_mong_ju: "Chŏng Mong-ju, Staatsmann, Gelehrter und Dichter des späten Goryeo-Reiches, wurde für seine unerschütterliche Treue gegenüber der Dynastie in ihren letzten Tagen verehrt. Als Meister des neokonfuzianischen Gedankenguts und der Diplomatie lehnte er den Aufstieg des Joseon-Regimes ab und wurde für seine Prinzipien ermordet. Sein letztes Gedicht, in dem er seine unerschütterliche Treue zum Ausdruck bringt, ist bis heute eines der berühmtesten Werke Koreas."
+ historical_character.yi_saek: "Yi Saek, ein bedeutender konfuzianischer Gelehrter des späten Goryeo-Reiches, führte Zhu Xis Neokonfuzianismus in Korea ein und bildete eine Generation zukünftiger Reformer des Joseon-Reiches aus. Obwohl er Bildungsreformen unterstützte, blieb er der Goryeo-Dynastie treu und lehnte ein Amt unter deren Nachfolgern ab. Sein Einfluss überspannte zwei Dynastien und prägte das koreanische Denken für Jahrhunderte."
+ historical_character.jinul: "Als visionärer Seon-Mönch der Goryeo-Zeit strebte $Ji_nul$ danach, den koreanischen Buddhismus durch die Vereinigung von Meditationspraxis und Studium der Doktrinen zu reformieren. Er gründete den Jogye-Orden in Songgwangsa und betonte dabei besonders die persönliche Erleuchtung innerhalb der klösterlichen Disziplin. Seine Lehren legten den Grundstein für den heutigen koreanischen Seon, der Zen-Erkenntnisse mit gelehrter Tiefe verbindet."
+ historical_character.prapanca: "Dieser Hofdichter und Geschichtsschreiber in Majapahit auf Java war der Autor des Epos „Nagarakretagama“, das den Ruhm und die Geografie Majapahits detailliert beschreibt. Sein Werk ist eine wichtige Quelle für die Geschichte und Staatskunst Javas."
+ historical_character.tantular: "Der renommierte javanesische Dichter Mpu Tantular verfasste das „Kakawin Sutasoma“ und führte darin den Ausdruck „Bhinneka Tunggal Ika” („Einheit in Vielfalt”) ein, der später zum nationalen Motto Indonesiens wurde."
+ historical_character.kanwa: "Mpu Kanwa, Hofdichter während der Herrschaft von König Airlangga, verfasste das „Kakawin Arjunawiwaha“, ein episches Gedicht, das hinduistische Mythologie mit javanesischen Idealen verbindet."
+ historical_character.sedah: "Im Auftrag von König Jayabhaya begann Mpu Sedah mit dem Verfassen des „Kakawin Bhāratayuddha“, einer Adaption des Mahabharata, die später von Mpu Panuluh vollendet wurde."
+ historical_character.panuluh: "Mpu Panuluh vollendete das „Kakawin Bhāratayuddha“ und verfasste das „Kakawin Hariwangsa“, wodurch er einen bedeutenden Beitrag zur javanesischen Literatur leistete."
+ historical_character.dharmaja: "Mpu Dharmaja, ein Dichter während der Herrschaft von König Airlangga, ist bekannt für das Verfassen des „Kakawin Smaradahana“: ein Gedicht, das die spätere javanesische Literatur beeinflusste."
+ historical_character.monaguna: "Mpu Monaguna wird das Verfassen des „Kakawin Sumanasantaka“ zugeschrieben. Dieses dichterische Werk verschmilzt hinduistische Erzählungen mit der javanesischen Kultur."
+ historical_character.kuturan: "Mpu Kuturan wird als religiöse Figur in der Geschichte Balis verehrt, denn ihm wird die Vereinigung verschiedener Sekten des Hinduismus auf Bali sowie die Einführung des Desa-Adat-Systems zugeschrieben, das religiöse und traditionelle Gesetze miteinander verbindet."
+ historical_character.dwijendra: "Mpu Dwijendra war ein spiritueller Führer, der eine bedeutende Rolle bei der Verbreitung des Hinduismus auf Lombok und Bali spielte. Er ist bekannt für seine Lehren und die Errichtung von Tempeln auf den Inseln."
+ historical_character.kavindrarimathana: "Kavindrarimathana war ein bedeutender Architekt und Baumeister während der Regierungszeit von König Rajendravarman II. Ihm wird die Planung bedeutender Tempel wie Pre Rup und Ost-Mebon zugeschrieben, die die architektonische Meisterschaft des Khmer-Reiches zur Schau stellen."
+ historical_character.daun_penh: "Daun Penh, eine geehrte Witwe des 14. Jahrhunderts, soll während einer Überschwemmung am Tonlé Sap heilige Buddha-Statuen in einem schwimmenden Koki-Baum entdeckt haben. Sie deutete dies als Zeichen der Götter und errichtete Wat Phnom, einen Hügelschrein, wo diese Reliquien verwahrt werden. Ihre Hingabe führte zur Gründung der Stadt Phnom Penh, die ihren Namen trägt."
+ historical_character.yue_fei: "Yue Fei, einer der berühmtesten Generäle Chinas, stammte aus bescheidenen Verhältnissen und wurde zum unerschütterlichen Verteidiger der südlichen Song gegen die einfallenden Jurchen-Jin. Unerschütterlich in seiner Treue gegenüber dem Kaiser und dem Ideal der nationalen Einheit, wurde er von korrupten Beamten verraten und zu Unrecht hingerichtet. Sein Vermächtnis bleibt ein Symbol für Patriotismus und Integrität."
+ historical_character.wen_tianxiang: "Als angesehener Gelehrter und General der späten südlichen Song war Wen Tianxiang ein Symbol des Widerstands gegen die mongolische Eroberung. Nach der erfolglosen Verteidigung der Dynastie wurde er gefangen genommen, weigerte sich jedoch, den Yuan zu dienen, und starb als Märtyrer. Seine im Gefängnis verfassten Gedichte, insbesondere das „Lied der Gerechtigkeit“, machten ihn auf immderdar zu einem Vorbild für Tugend und Treue."
+ historical_character.fan_zhongyan: "Dieser Staatsmann, Kanzler und neokonfuzianische Gelehrte der nördlichen Song war berühmt für seinen Leitspruch: „Sei der Erste, der sich Sorgen macht, und der Letzte, der sich freut.“ Er führte wegweisende Reformen zur Verbesserung der Regierungsführung und der öffentlichen Wohlfahrt durch."
+ historical_character.li_qingzhao: "Dies war eine der größten Dichterinnen Chinas, die bekannt für ihre „Ci“ (Gedichte) aus der Song-Dynastie war, in denen sie auf ergreifende Weise persönlichen Verlust sowie die Anmut einer gerade vergangenen Ära ausdrückte."
+ historical_character.qiu_chuji: "Dieser verehrte taoistische Meister (einer der sieben wahren Taoisten des Nordens) war ein Berater von Dschingis Khan und bereiste Nordchina und Zentralasien, um den Khan in Fragen der Regierungsführung und der Langlebigkeit zu beraten. Er half auch dabei, die frühe Religionspolitik der Yuan-Dynastie aufzubauen."
+ historical_character.chu_van_an: "Dieser angesehene konfuzianische Lehrer der Tran-Dynastie war Leiter der Kaiserlichen Akademie in Thăng Long und bekannt für seine Integrität, seine Bildungsreformen und die berühmte Petition der „Sieben Enthauptungen“, in der er den König dazu aufforderte, korrupte Beamte zu entfernen."
+ historical_character.nguyen_thuyen: "Dieser Beamtendichter aus dem 13. Jahrhundert leistete Pionierarbeit für die Nôm-Schrift (die vietnamesische Volksschrift), deren erste Verwendung in der Literatur ihm zugeschrieben. Er ist bekannt für seine Gedichte, die der Legende nach Krokodile vertreiben konnten: ein Symbol für die Kraft der vietnamesischen Sprache und Bildung."
+ historical_character.pham_ngu_lao: "Dieser berühmte General der Tran-Dynastie trug im 13. Jahrhundert zur Abwehr mehrerer mongolischer Invasionen bei. Als Sohn eines Bauern stieg er durch seine Tapferkeit auf und wurde zu einem Symbol des Patriotismus – und auch zum Gegenstand eines berühmten Gedichts, das seine Hingabe hervorhob."
+ historical_character.sakata_kintoki: "$dynn_Satake$ $Kin_toki$ war ein mächtiger Krieger aus den Bergen von Sagami und soll $dynn_Minamoto$ $Yorimitsu$ mit großer Kraft und Treue gedient haben. Zu seinen legendären Heldentaten als „Kintarō“ zählen das Ringen mit Bären, das Entwurzeln von Bäumen und das Stürmen in die Schlacht."
+ historical_character.takezaki_suenaga: "Als äußerst treuer Samurai des Kamakura-Shogunats erlangte $dynn_Takezaki$ $Suenaga$ während der mongolischen Invasionen Japans Berühmtheit für seine Tapferkeit. Entschlossen, für seine Verdienste angemessene Anerkennung zu erhalten, gab er illustrierte Schriftrollen in Auftrag, in denen seine Taten festgehalten wurden."
+ historical_character.eisai: "$Eisai$ wurde in eine Schreinfamilie hineingeboren und wurde selbst Mönch, war jedoch unzufrieden mit den vorherrschenden buddhistischen Pundarika- und Tendai-Schulen. Deshalb reiste er nach China, um die Lehren der Dhyana-Denker (die auch als Chan bekannt waren) zu studieren. Nach seiner Rückkehr führte er diese Ideen in Japan ein, gründete die Zen-Rinzai-Schule, errichtete deren ersten Tempel und machte den grünen Tee wieder beliebt."
+ historical_character.ippen: "$Ippen$ studierte von Kindesbeinen an die heiligen Schriften, bevor er ins weltliche Leben zurückkehrte. Während einer Pilgerreise nach Kumano offenbarten ihm Kami den Weg zur Erleuchtung: durch das ekstatische Vortragen des [Glossary('Nembutsu', 'GLOSS_NEMBUTSU')]. Vom Göttlichen inspiriert kehrte $Ippen$ als hingebungsvoller Mönch und Lehrer des Reinen Landes in die Ordensgemeinschaft zurück. Er reiste mit einer Gruppe begeisterter Anhänger durch Japan und gründete die Ji-shū-Schule."
+ historical_character.myoe: "Schon in jungen Jahren verwaist besuchte $MyO_e$ verschiedene Schulen und hatte unter anderem $Mongaku$ und $Eisai$ als Lehrmeister. Doch all dies konnte ihn nicht anrühren. Auf der Suche nach Einsamkeit fernab von den Debatten der Klöster kehrte er zu den einst beliebten Kegon-Lehren zurück, belebte sie mit Einflüssen aus dem Shingon- und Tendai-Gedankengut neu und lehnte die Begeisterung für das [Glossary('Nembutsu', 'GLOSS_NEMBUTSU')] ab."
+ historical_character.honen: "$HO_nen$ wurde nach der Ermordung seines Vaters schon als Kind geweiht und stieg erfolgreich in der Tendai-Priesterschaft auf. Unzufrieden mit der großen Bequemlichkeit, die Mönche im Gegensatz zum Elend des einfachen Volkes genossen, erkannte $HO_nen$ das [Glossary('nembutsu', 'GLOSS_NEMBUTSU')] als inklusive Lehre an und wurde zu einem führenden Lehrer der Schule des Reinen Landes. Seine radikalen Ideen weckten aber den Zorn anderer Sekten, was zu seiner Verbannung während der Jogen-Verfolgung führte."
+ historical_character.shinran: "Als Waisenkind wurde $Shinran$ in jungen Jahren geweiht, tat sich aber schwer mit der Priesterschaft. Eine Vision brachte ihn dazu, seinen Mitmönch $HO_nen$ aufzusuchen und sein führender Schüler zu werden. So musste auch er während der Jogen-Verfolgung in die Verbannung gehen. Er predigte weiterhin eifrig das [Glossary('Nembutsu', 'GLOSS_NEMBUTSU')], das Reine Land der Menschen. Er gründete schließlich seine eigene Schule, die Jōdo Shinshū oder „Wahre Schule des Reinen Landes“, die heute in Japan am weitesten verbreitet ist."
+ historical_character.mibu_tadamine: "Trotz seiner bescheidenen Herkunft erlangte $Tadamine$ große Bekanntheit für seine Waka-Gedichte, nachdem er an einem Wettbewerb teilnahm, der ihm ein kaiserliches Patronat sowie die Schirmherrschaft der Familie Fujiwara einbrachte. Zusammen mit seinem Sohn $Tadami$ zählt er zu den 36 unsterblichen Dichtern Japans, denn über 81 seiner Gedichte sollen in kaiserlichen Sammlungen enthalten sein."
+ historical_character.murasaki: "Als Urenkelin des berühmten Dichters Fujiwara Kanesuke wurde Dame Murasaki in die gelehrte Familie Yoshikado hineingeboren und diente als Hofdame der Kaiserin Fujiwara Shōshi von Kaiser Ichijo. Ihr Talent für die Dichtkunst wurde bald erkannt, und sie wird zu den 36 unsterblichen Dichterinnen gezählt. Heute ist sie vor allem für ihr Tagebuch, ihre Rivalität mit der Dichterin #EMP Sei Shōnagon#! sowie die #EMP Geschichte vom Prinzen Genji#! bekannt, dem vielleicht frühesten Roman überhaupt."
   #AGOT Modified 
- #generic_importance: "This character is of historical importance." #NT!
- generic_importance: "This character is of canonical importance." #NT!
+ # generic_importance: "This character is of real-life historical importance." #NT!
+ generic_importance: "This character is of canonical importance."
  historical_character.poet: "Ein bekannter und geschätzter Dichter"
  historical_character.theologian: "Ein frommer und versierter Theologe"
+ historical_character.monk: "Ein frommer, angesehener und [GetTrait('devoted').GetNameNoTooltip(ROOT.Char)|l]er Mönch"
  historical_character.scholar: "Ein berühmter Gelehrter"
  historical_character.warrior_poet: "Ein mächtiger und berühmter Kriegerdichter"
  historical_character.soothsayer: "Ein Wahrsager mit prophetischen Visionen"
@@ -145,25 +180,25 @@
  historical_character.gallant_knight: "Ein galanter Ritter"
  historical_character.strategist: "Ein meisterlicher Stratege und Befehlshaber"
   #AGOT Modified 
- #historical_character.eunuch: "A skilled and subservient eunuch" #NT!
- historical_character.eunuch: "A skilled and mysterious eunuch" #NT!
+ #historical_character.eunuch: "A skilled and subservient eunuch"
+ historical_character.eunuch: "A skilled and mysterious eunuch"
  historical_character.diplomat: "Ein taktvoller und beliebter Diplomat"
  historical_character.author: "Ein fleißiger Autor und Dichter"
   #AGOT Modified 
- #rule_historical_characters: "Historical Characters" #NT!
- rule_historical_characters: "Canon Characters" #NT!
+ #rule_historical_characters: "Historical Characters"
+ rule_historical_characters: "Canon Characters"
  setting_default_historical_characters: "Standard"
   #AGOT Modified 
- #setting_default_historical_characters_desc: "Various historical characters such as Thomas Aquinas, Ibn Battuta, or Hildegard von Bingen can spawn. You will only be notified if they are born in your [domain|E] or if they are very well-known." #NT!
- setting_default_historical_characters_desc: "Various canon characters can spawn. You will only be notified if they are born in your [domain|E] or if they are very well-known." #NT!
+ #setting_default_historical_characters_desc: "Various historical characters such as Thomas Aquinas, Ibn Battuta, or Hildegard von Bingen can spawn. You will only be notified if they are born in your [domain|E] or if they are very well-known."
+ setting_default_historical_characters_desc: "Various canon characters can spawn. You will only be notified if they are born in your [domain|E] or if they are very well-known."
  setting_all_historical_characters: "#high Über alle benachrichtigen#!"
   #AGOT Modified 
- #setting_all_historical_characters_desc: "Various historical characters such as Thomas Aquinas, Ibn Battuta, or Hildegard von Bingen can spawn. You will be notified of everyone born within your entire sub-[realm|E]." #NT!
- setting_all_historical_characters_desc: "Various canon characters can spawn. You will be notified of everyone born within your entire sub-[realm|E]." #NT!
+ #setting_all_historical_characters_desc: "Various historical characters such as Thomas Aquinas, Ibn Battuta, or Hildegard von Bingen can spawn. You will be notified of everyone born within your entire sub-[realm|E]."
+ setting_all_historical_characters_desc: "Various canon characters can spawn. You will be notified of everyone born within your entire sub-[realm|E]."
  setting_no_historical_characters: "#high Erscheinen ausschalten#!"
   #AGOT Modified 
- #setting_no_historical_characters_desc: "No historical characters will spawn." #NT!
- setting_no_historical_characters_desc: "No canon characters will spawn." #NT!
+ #setting_no_historical_characters_desc: "No historical characters will spawn."
+ setting_no_historical_characters_desc: "No canon characters will spawn."
   
  Basava: "Basava"
  Dante: "Dante"
@@ -265,3 +300,21 @@
  nick_la_hire_desc: "Es gibt viele Erklärungen dafür, woher der Spitzname „La Hire“ stammt. Manche sagen, es seien die Engländer gewesen, die ihm den Spitznamen „the Hire-God“ (der Zorn Gottes) gaben, oder dass der Beiname ein altfranzösisches Wort „hīra“ ist, das „der Zorn“ oder „der Zornige“ bedeutet. Es könnte jedoch auch sein, dass sein Name vom französischen „hérisson“ (Igel) stammt, weil er ein stacheliges Gemüt hatte."
  Regino: "Regino"
  dynn_Prum: "Prüm"
+ nick_mpu: "Mpu"
+ nick_mpu_desc: "Ein Titel, der ‚Meister‘ ähnelt."
+ Prapanca: "Prapanca"
+ Tantular: "Tantular"
+ Kanwa: "Kanwa"
+ Sedah: "Sedah"
+ Panuluh: "Panuluh"
+ Dharmaja: "Dharmaja"
+ Monaguna: "Monaguna"
+ Kuturan: "Kuturan"
+ Daun: "Daun"
+ dynn_Penh: "Penh"
+ dynn_Qiu: "Qiu"
+ van_an: "Văn An"
+ thuyen: "Thuyên"
+ ngu_lao: "Ngũ Lão"
+ nick_kintaro: "Kintarō"
+ nick_kintaro_desc: "Dieser Name wird oft als „Goldener Junge“ übersetzt. Dieser Charakter verkörpert die Virilität männlicher Jugend."

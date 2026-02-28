@@ -1,0 +1,24 @@
+﻿l_german:
+  
+  # Proclaim the Iron Throne 
+ agot_proclaim_iron_throne: "Proclaim the Iron Throne"
+ agot_proclaim_iron_throne_tooltip: "This decision will allow you to form the Seven Kingdoms of the Iron Throne"
+ agot_proclaim_iron_throne_desc: "The Iron Throne long stood as a symbol of unity and power in Westeros. With the realm's'countless petty fiefdoms coming under our banners, the time has come to gather the defeated's blade and forge a new Iron Throne for the Seven Kingdoms.\n\nDo you have the strength, the cunning, and the will to claim the Iron Throne? Does House [ROOT.Char.GetHouse.GetName] have what's needed to be the one true ruler of Westeros?"
+ agot_proclaim_iron_throne_confirm: "Send the ravens."
+  
+ set_capital_kingslanding_decision: "Königsmund zurückerobern"
+ set_capital_kingslanding_decision_tooltip: "Stellt Königsmund als Hauptstadt Eures Königreichs wieder her."
+ set_capital_kingslanding_decision_desc: "Königsmund ist die Hauptstadt der Königslande des Eisernen Throns und als solche steht sie mir zu, dem Recht nach."
+ set_capital_kingslanding_decision_confirm: "Gebt den Sieben Königslanden ihren wahren Sitz zurück!"
+  
+ build_dune_road_decision: "Die Dünenstraße errichten"
+ build_dune_road_decision_tooltip: "Baut eine große Straße von Sturmkap bis nach Sonnspeer, die den Wohlstand aller Lordschaften auf ihrem Weg steigern wird."
+ build_dune_road_decision_desc: "Baut eine große Straße von Sturmkap bis nach Sonnspeer, die den Wohlstand aller Lordschaften auf ihrem Weg steigern wird."
+ build_dune_road_decision_confirm: "So sei es"
+  
+ agot_minor_decisions_events.0003.t: "Die Dünenstraße"
+ agot_minor_decisions_events.0003.desc: "Seine Gnaden entschied, eine große Straße vom Sturmkap bis nach Sonnspeer zu errichten, um den Handel zwischen Dorne und den Sturmlanden zu stärken."
+ agot_minor_decisions_events.0003.a: "Ein wahrlich königliches Projekt!"
+  
+ agot_dune_road_modifier: "Die Dünenstraße"
+ agot_dune_road_modifier_desc: "Eine große Straße zwischen Sturmkap und Sonnspeer"

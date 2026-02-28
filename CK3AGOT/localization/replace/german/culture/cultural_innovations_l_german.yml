@@ -12,9 +12,9 @@
  reduce_develop_county_penalty_02: "Gemeinden erreichen den maximalen Malus für [existing_development|E] nun bei 35 [development|E]"
  reduce_develop_county_penalty_03: "Gemeinden erreichen den maximalen Malus [existing_development|E] nun bei 55 [development|E]"
  reduce_develop_county_penalty_04: "Gemeinden erreichen den maximalen Malus für [existing_development|E] nun bei 90 [development|E]"
-  
-  
-  
+ culture_parameter_cheaper_book_inspiration: "[Concept('inspiration', 'Inspirations')|E]-Kosten von Buch-[artifacts|E]: #P -50 %#!"
+ culture_parameter_reduces_court_fashion_costs_parameter: "[SelectLocalization(HasDlcFeature( 'royal_court'), 'reduces_court_fashion_costs_roco', 'blank_line')]"
+ reduces_court_fashion_costs_roco: "$court_fashion$-[court_amenities|E]-Kosten: #P -50 %#!"
   
  unlock_tribal_economic_buildings: "Schaltet alle [economic_buildings|E] der Stammes-Epoche frei"
  unlock_tribal_military_buildings: "Schaltet alle [military_buildings|E] der Stammes-Epoche frei"
@@ -28,9 +28,21 @@
  unlock_late_medieval_economic_buildings: "Schaltet alle [economic_buildings|E] des Spätmittelalters frei"
  unlock_late_medieval_military_buildings: "Schaltet alle [military_buildings|E] des Spätmittelalters frei"
  unlock_late_medieval_fortification_buildings: "Schaltet alle [fortification_buildings|E] des Spätmittelalters frei"
+ culture_parameter_unlock_late_medieval_gunpowder_units: "Kann „[GetMaA('handgunners').GetName]“ als [men_at_arms|E] anwerben"
+ culture_parameter_unlock_fire_lancers_units: "Kann [GetMaA('fire_lancers').GetName] als [men_at_arms|E] anwerben"
+ culture_parameter_unlock_powder_magazines: "Erlaubt die [Concept('buildings', 'Gebäudereihe')|E] „[GetBuilding('powder_magazine_01').GetTypeName|V]“"
  unlocks_naval_raiding: "Erlaubt [raids|E] über das Meer, sofern Ihr schon [raids|E] durchführen könnt"
  unlocks_sailable_major_rivers: "Schaltet die Fähigkeit frei, auf größeren Flüssen zu segeln"
+ unlocks_adventure_intent: "Erlaubt den [raid_intent|E] „#V Abenteuer#!“"
  unlock_wind_furnaces: "Schaltet die [buildings|E]-Reihe $building_type_wind_furnace_01$ in Küsten-[holdings|E] in [GetGeographicalRegion('world_india').GetName] frei"
+ culture_parameter_unlock_dragon_kiln_buildings: "Erlaubt die „[GetBuilding('dragon_kiln_01').GetTypeName|V]“-Reihe von [Concept('duchy_buildings', 'Fürstengebäuden')|E], die man nur im [terrain|E] #V $terrain_mountains$#!, #V $terrain_desert_mountains$ #!oder #V $terrain_hills$#! bauen kann"
+  
+ culture_parameter_nomad_motte_innovation_bonus: "Erhöhte Wahrscheinlichkeit #V anderer Auswirkungen#! durch [raid_intents|E], wenn man [nomadic|El] ist"
+ nomad_motte_innovation_bonus_desc: "Erhöhte Wahrscheinlichkeit #V anderer Auswirkungen#! durch [raid_intents|E]"
+ nomad_innovation_development_01_bonus: "[SelectLocalization(GetPlayer.GetGovernment.HasGovernmentFlag('government_is_nomadic'), 'nomad_innovation_development_01_bonus_desc', 'blank_line')]"
+ nomad_innovation_development_01_bonus_desc: "[gold|E]-Baukosten von [nomad|E]-[domicile_building|E]: #P -20 %#!"
+ nomad_innovation_gavelkind_bonus: "[SelectLocalization(GetPlayer.GetGovernment.HasGovernmentFlag('government_is_nomadic'), 'nomad_innovation_development_01_bonus_desc', 'blank_line')]"
+ nomad_innovation_gavelkind_bonus_desc: "[Concept('obedience', 'Gehorsams')|E]-Wert Eurer [courtiers|E], [vassals|E] und [tributaries|E]: #P +10#!"
   
  unlock_march_contract: "Schaltet die [feudal_contract|E] #high $special_contract_march_short$#! frei"
  unlock_castellan_contract: "Schaltet die [vassal_contract|E] „#high „[GetVassalContractType('special_contract').GetObligationName('special_contract_castellan')]#!“ frei"
@@ -47,8 +59,17 @@
  innovation_motte: "Motten"
  innovation_motte_desc: "Einfach, aber effektiv: Unsere Burgen auf Erdhügeln zu errichten, ist der beste Weg, um dafür zu sorgen, dass wir unseren Feinden nahezu buchstäblich überlegen sind."
   
+ innovation_motte_chinese: "Hāng Tu"
+ innovation_motte_chinese_desc: "Einfach, aber wirkungsvoll: Unsere Befestigungen aus gestampfter Erde zu errichten, ist der beste Weg, um dafür zu sorgen, dass wir unseren Feinden nahezu buchstäblich überlegen sind."
+  
+ innovation_motte_actual_motte: "Motten"
+ innovation_motte_actual_motte_desc: "$innovation_motte_desc$"
+  
  innovation_catapult: "Onager"
  innovation_catapult_desc: "Das Laden und Schießen mit ihnen mag langsam sein, aber torsionsbetriebene Katapulte wie diese erlauben es uns, gegen feindliche Befestigungen vorzugehen, ohne dabei in die Reichweite der gegnerischen Bogenschützen zu geraten."
+  
+ innovation_catapult_chinese: "Belagerungsarmbrust"
+ innovation_catapult_chinese_desc: "Große tragbare Armbrüste mit mehreren gegenüberliegenden Bogen zur Erweiterung der Auszugslänge und -kraft. Oft werden sie auf einen Rahmen mit Rädern montiert, um sie beweglicher zu machen."
   
  innovation_barracks: "Kasernen"
  innovation_barracks_desc: "Indem wir Gebäude errichten, die eigens darauf angelegt sind, unsere Soldaten unterzubringen, können wir dafür sorgen, dass wir über ausreichend Platz verfügen, um unseren wachsenden Streitkräften ein Dach über dem Kopf zu bieten."
@@ -65,6 +86,7 @@
  eligible_accolade_vanguard_attribute_ACCOLADES_DLC: "[knights|E] dieser [culture|E] können [GetAccoladeType('vanguard_attribute').GetName]-[accolades|E] erhalten"
  eligible_accolade_vanguard_attribute: "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_vanguard_attribute_ACCOLADES_DLC')]"
  unlock_maa_armored_footmen: "Schaltet das [men_at_arms|E] „[GetMaA('armored_footmen').GetName]“ frei"
+ unlock_maa_onager: "Kann „[GetMaA('onager').GetName]“ als [men_at_arms|E] rekrutieren"
   
  innovation_quilted_armor: "Gambeson"
  innovation_quilted_armor_desc: "Diese Jacken aus einem Dutzend oder mehr Schichten aus Leinen, die miteinander vernäht wurden, halten sogar schwere Pfeile auf und sind ein bezahlbarer Weg für uns, ein ganzes Regiment für die Schlacht zu rüsten."
@@ -138,15 +160,26 @@
   
  innovation_mangonel: "Mangonellen"
  innovation_mangonel_desc: "Als bedeutende Verbesserung unserer bereits existierenden Katapultentwürfe ist das Laden und Schießen mit den traktionsbetriebenen Mangonellen wesentlich schneller als bei torsionsbetriebenen Maschinen."
+  
+ innovation_mangonel_chinese: "Wolkenleitern"
+ innovation_mangonel_chinese_desc: "Zusammenklappbare Belagerungsleitern, die oft mit Schilden, Winden, Kletterhaken und Flaschenzügen ausgerüstet sind. Sie dienen zudem dazu, hohe Aussichtspunkte zu erreichen, um Belagerungen zu überblicken."
  eligible_accolade_besieger_attribute_ACCOLADES_DLC: "[knights|E] dieser [culture|E] können [GetAccoladeType('besieger_attribute').GetName]-[accolades|E] erhalten"
  eligible_accolade_besieger_attribute: "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_besieger_attribute_ACCOLADES_DLC')]"
   
-  #AGOT Modified 
- #innovation_burhs: "Burhs"
  innovation_burhs: "Burhs"
-  #AGOT Modified 
- #innovation_burhs_desc: "Scattered across the countryside, burhs are important fortified settlements we can use both to muster troops and to serve as administrative centers."
  innovation_burhs_desc: "Die über die Lande verstreuten Burhs sind wichtige befestigte Siedlungen, die wir sowohl für das Aufmarschieren von Truppen als auch als Verwaltungsknotenpunkte nutzen können."
+  
+ innovation_burhs_japan: "Suki"
+ innovation_burhs_japan_desc: "Seit dem Bau der #italic Mizuki#! während der Herrschaft von Kaiser Tenji findet die Bedeutung von Befestigungen immer größere Anerkennung. Wir können solch befestigte Orte sowohl als Sammelpunkte für Truppen als auch als Verwaltungszentren nutzen."
+  
+ innovation_burhs_chinese: "Wū Bì"
+ innovation_burhs_chinese_desc: "Die über das Land verstreuten Wū Bì sind wichtige befestigte Siedlungen, die wir sowohl für das Aufmarschieren von Truppen als auch als Verwaltungsknotenpunkte nutzen können."
+  
+ innovation_burhs_anglo_saxon: "Burhs"
+ innovation_burhs_anglo_saxon_desc: "Die über das Land verstreuten Burhs sind wichtige befestigte Siedlungen, die wir sowohl für das Aufmarschieren von Truppen als auch als Verwaltungsknotenpunkte nutzen können."
+  
+ innovation_burhs_latin: "Castra"
+ innovation_burhs_latin_desc: "Alte Prinzipien der Befestigung sind auch heute noch nützlich, und wir können diese Art von befestigten Zentren nutzen, um dort Truppen zu sammeln und sie als Verwaltungszentren dienen zu lassen."
   
  innovation_house_soldiers: "Haustruppen"
  innovation_house_soldiers_desc: "Wenn unsere Adelsfamilien an Macht gewinnen, brauchen sie Soldaten, um ihren Willen durchzusetzen. Die Gründung eines Ordens mit leidenschaftlichen Haustruppen wird dafür Sorge tragen, dass wir besser ausgebildete und ausgerüstete Soldaten haben werden als bei einem üblichen Aufgebot."
@@ -158,6 +191,7 @@
  innovation_arched_saddle_desc: "Leichte Reiterei ist nicht zu unterschätzen, aber sie schöpft das Potenzial des Schlachtrosses nicht wirklich voll aus. Kriegssättel erlauben es uns, schwer gepanzerte Krieger mit angelegten Lanzen ins Feld zu führen, die bei ihrem Ansturm gegen die feindlichen Linien ihre volle Wucht zum Einsatz bringen können."
  eligible_accolade_lancer_attribute_ACCOLADES_DLC: "[knights|E] dieser [culture|E] können [GetAccoladeType('lancer_attribute').GetName]-[accolades|E] erhalten"
  eligible_accolade_lancer_attribute: "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_lancer_attribute_ACCOLADES_DLC')]"
+ unlock_maa_armored_horsemen: "Kann „[GetMaA('armored_horsemen').GetName]“ als [men_at_arms|E] rekrutieren"
   
   #Civic 
  innovation_hereditary_rule: "Erbherrschaft"
@@ -177,6 +211,12 @@
   
  innovation_baliffs: "Landvögte"
  innovation_baliffs_desc: "Ein König kann nicht überall gleichzeitig sein. Indem wir Landvögte ernennen, um dem Gesetz des Königs überall im Reich zur Durchsetzung zu verhelfen, können wir ein größeres Gebiet wirkungsvoller regieren, als es uns ansonsten möglich wäre."
+  
+ innovation_baliffs_bailiffs: "Landvögte"
+ innovation_baliffs_bailiffs_desc: "$innovation_baliffs_desc$"
+  
+ innovation_baliffs_latin: "Potestas"
+ innovation_baliffs_latin_desc: "Das alte Rom definierte die Macht von Beamten, Gesetze zu schaffen, durchzusetzen und zu beurteilen, als #italic Potestas#! – ein Konzept, nach dem die Magistrate auch heute noch das Gesetz unseres Reichs durchsetzen. Wenn wir örtlichen Beamten #italic Potestas#! verleihen, können wir ein größeres Gebiet wirkungsvoller regieren, als es uns ansonsten möglich wäre."
   
  innovation_development_02: "Gemeinderat"
  innovation_development_02_desc: "Größere Siedlungen müssen immer komplexere Probleme bewältigen. Einen Teil der Autorität auf örtliche Räte zu übertragen, erlaubt es, solche Dinge zu klären, ohne den König damit zu belästigen."
@@ -206,6 +246,9 @@
  innovation_trebuchet: "Blide"
  innovation_trebuchet_desc: "Als Wunderwerk der Ingenieurskunst kann die mit einem Gegengewicht versehene Blide schwere Geschosse über eine größere Entfernung schleudern als jede andere Belagerungsmaschine vor ihr."
   
+ innovation_trebuchet_chinese: "Belagerungstürme"
+ innovation_trebuchet_chinese_desc: "Um gegnerische Steintürme zu erobern, schiebt man diese hohen Holztürme mit Rädern an sie heran, was es den Soldaten erlaubt, die Mauern mit einem Mindestmaß an Sicherheit zu erreichen."
+  
  innovation_castle_baileys: "Vorburgen"
  innovation_castle_baileys_desc: "Der Wehrturm mag das Herz einer Burg sein, doch er ist beileibe nicht ihr einziges wichtiges Gebäude. Wenn wir Dinge wie die Stallungen und das Zeughaus in einer geschützten Vorburg errichten, sorgen wir dafür, dass wir unsere Aufgebote unter allen Umständen ordentlich unterbringen und ausrüsten können."
   
@@ -217,6 +260,7 @@
   
  innovation_advanced_bowmaking: "Fortgeschrittenes Bogenbauen"
  innovation_advanced_bowmaking_desc: "Wo Bogenschützen ihre Waffen traditionell selbst bauten und instand hielten, haben nun Handwerker damit begonnen, neue Arten von Bögen herzustellen, die stärker und in ihrem Aufbau komplexer sind als jemals zuvor. Indem wir diese neuen Entwürfe fördern, können wir diese meisterhaften Bogenbauer zu einem militärischen Vorteil von unschätzbarem Wert machen."
+ unlock_maa_crossbowmen: "Kann „[GetMaA('crossbowmen').GetName]“ als [men_at_arms|E] rekrutieren"
  eligible_accolade_crossbower_attribute_ACCOLADES_DLC: "[knights|E] dieser [culture|E] können [GetAccoladeType('crossbowmen_attribute').GetName]-[accolades|E] erhalten"
  eligible_accolade_crossbower_attribute: "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"
   
@@ -229,8 +273,8 @@
  innovation_windmills_desc: "Die Erfindung der senkrechten Windmühle erlaubt es uns, die Kraft des Windes wesentlich wirkungsreicher abzuschöpfen als zuvor. Die erforderliche Mühe zum Mahlen von Getreide und der Weiterverarbeitung von Rohmaterialien wird so drastisch reduziert."
   
   #CK3AGOT Modified 
- #innovation_divine_right: "Divine Right" #NT!
- #innovation_divine_right_desc: "It is time that we recognize that it is divine will that has placed our rulers on their thrones, and to oppose them is to oppose divinity itself." #NT!
+ #innovation_divine_right: "Divine Right"
+ #innovation_divine_right_desc: "It is time that we recognize that it is divine will that has placed our rulers on their thrones, and to oppose them is to oppose divinity itself."
  innovation_divine_right: "Gottesgnadentum"
  innovation_divine_right_desc: "Es ist an der Zeit für uns, anzuerkennen, dass es der göttliche Wille war, der unsere Herrscher auf ihre Throne gehoben hat. Wer an ihnen zweifelt, stellt sich der Göttlichkeit selbst in den Weg."
   
@@ -273,8 +317,8 @@
  innovation_machicolations: "Maschikulis"
  innovation_machicolations_desc: "Als merkliche Verbesserung unserer früheren Hurden dienen steinerne Maschikulis dem gleichen Zweck, sind aber wesentlich robuster und bieten unseren Verteidigern mehr Schutz."
   
- innovation_bombard: "Bombarden"
- innovation_bombard_desc: "Die Entwicklung von Waffen, die auf Schwarzpulver basieren, hat es uns erlaubt, die Einschränkungen von Hebeln und Flaschenzügen zu überwinden. Unsere neuen Belagerungswaffen können gegnerische Mauern mit einer Gewalt und einer Wirksamkeit einreißen, wie sie sich unsere Vorfahren nur in ihren kühnsten Träumen ausmalen konnten."
+ innovation_gunpowder: "Schießpulver"
+ innovation_gunpowder_desc: "Die Entwicklung von Sprengpulver hat zur Entstehung einer neuen Waffengattung und damit auch zu einer neuen Art von Krieger geführt, die diese mächtigen Waffen einsetzen. Letzteres erfordert Herstellungs- und Versorgungsketten, die bisher unbekannt waren, doch die Schlagkraft dieser neuen Technologie macht die Kosten mehr als wett."
   
  innovation_royal_armory: "Königliches Zeughaus"
  innovation_royal_armory_desc: "Da unsere Armeen wachsen, müssen wir gewährleisten, dass jeder einzelne Soldat ordentlich gewappnet und gerüstet wird. Die Einrichtung eines Königlichen Zeughauses, um sämtliche Ausrüstung unserer Armeen herzustellen und zu lagern, wird uns dabei schon sehr weit bringen."
@@ -307,12 +351,15 @@
  innovation_ermine_cloaks: "Hermelinmäntel"
  innovation_ermine_cloaks_desc: "Jeder kann Anspruch auf einen Titel erheben, doch um ein wahrer Monarch zu sein, muss man in seinen Untertanen Ehrfurcht und Bewunderung auslösen. Unsere neuen Hermelinmäntel sind eine Form der königlichen Gewandung, der genau dies mit Sicherheit gelingen wird."
   
+ innovation_ermine_cloaks_ermine: "Hermelinmäntel"
+ innovation_ermine_cloaks_ermine_desc: "Jeder kann Anspruch auf einen Titel erheben, doch um ein wahrer Monarch zu sein, muss man in seinen Untertanen Ehrfurcht und Bewunderung auslösen. Unsere neuen Hermelinmäntel sind eine Form der königlichen Gewandung, der genau dies mit Sicherheit gelingen wird."
+  
  innovation_court_officials: "Hofbeamte"
  innovation_court_officials_desc: "Unser Reich hat sich bis an einen Punkt ausgedehnt, an dem selbst niedere Adlige nicht mehr alles effektiv verwalten können. Die Ernennung von Hofbeamten und Bürokraten, die sich um die gewöhnlicheren Aufgaben bei Hofe kümmern, werden dafür sorgen, dass sich die Räder der Regierung auch weiterhin reibungslos drehen. "
   
   #CK3AGOT Modified 
- #innovation_development_04: "Renaissance Thought" #NT!
- #innovation_development_04_desc: "Developments in science, philosophy, and logic have turned our cities into wondrous centers of education and innovation. The massive technological and cultural leaps we are now making has put hitherto undreamed potential within our grasp." #NT!
+ #innovation_development_04: "Renaissance Thought"
+ #innovation_development_04_desc: "Developments in science, philosophy, and logic have turned our cities into wondrous centers of education and innovation. The massive technological and cultural leaps we are now making has put hitherto undreamed potential within our grasp."
  innovation_development_04: "Renaissance-Gedanken"
  innovation_development_04_desc: "Entwicklungen in Wissenschaft, Philosophie und Logik haben unsere Städte in wundersame Zentren von Bildung und Innovation verwandelt. Die gewaltigen technologischen und kulturellen Sprünge, die wir jetzt machen, bringen bisher ungeahnte Potenziale in unsere Griffweite."
   
@@ -339,3 +386,107 @@
  fp3_innovation_fritware: "Frittenporzellan"
  fp3_innovation_fritware_desc: "Diese wunderschöne Steinkeramik nach dem Vorbild des östlichen Porzellans entsteht durch die Beimischung von Quarz oder Glas. Es handelt sich um eine wertvolle Handelsware oder ein eindrucksvolles Geschenk."
  fp3_innovation_fritware_tooltip: "[Concept('opinion', 'Meinungszuwachs')|E] durch „[send_gift|E]“: #P +20 %#!"
+  
+  ################# 
+  # The Silk Road # 
+  ################# 
+  
+  #AGOT Disabled 
+ # culture_parameter_silk_road_innovation_parameter: "May only be acquired as a potential [cultural_fascination|E] via [GetCulturePillar('heritage_chinese').GetName] [heritage|E], the [GetCultureTradition('tradition_sinophilic').GetName] [tradition|E], or the [silk_road|E]" #NT!
+  
+ innovation_fire_medicine: "Feuerarznei"
+ innovation_fire_medicine_desc: "Wenn wir die Geheimnisse des Lebens ergründen, entdecken wir manchmal Dinge, die nur Tod schaffen. Feuerarznei, eine mächtige Mischung aus Schwefel, Salpeter und anderen brennbaren Materialien, sorgt für tödliche Flammen, die wild und fast schon explosiv lodern."
+  
+  #AGOT Modified 
+ # innovation_champa_rice: "Champa Rice" #NT!
+ innovation_champa_rice: "Golden Rice" #NT!
+  #AGOT Modified AUH TODO 
+ # innovation_champa_rice_desc: "Rice requires an abundance of time and water — except for the rice from Champa. This variety grows faster, survives droughts better, and gives a more bountiful yield than practically any other sort of rice known. In some cases, it can even be harvested twice in one year. Properly managed, this rice can boost farms and fuel a population boom." #NT!
+ innovation_champa_rice_desc: "Rice requires an abundance of time and water — except for golden rice. This variety grows faster, survives droughts better, and gives a more bountiful yield than practically any other sort of rice known. In some cases, it can even be harvested twice in one year. Properly managed, this rice can boost farms and fuel a population boom." #NT!
+  
+ culture_parameter_champa_rice_wet_land_paddies: "Die [Concept('buildings', 'Gebäudereihen')|E] [GetBuilding('paddy_fields_01').GetTypeName|V] und [GetBuilding('farm_estates_01').GetTypeName|V] können nur in [GetTerrain('wetlands').GetName]n gebaut werden"
+ culture_parameter_champa_rice_building_bonuses: "Die [Concept('buildings', 'Gebäudereihe')|E] „[GetBuilding('paddy_fields_01').GetTypeName|V]“ gewährt zusätzliche Boni"
+ building_paddy_fields_requirement_terrain_tt: "Eines der folgenden Dinge trifft zu:\n$EFFECT_LIST_BULLET$[province|E] besteht aus [GetTerrain('terraced_hills').GetName]\n$EFFECT_LIST_BULLET$ [province|E] besteht aus [GetTerrain('floodplains').GetName] und ist in der [GetGeographicalRegion('paddy_fields_region').GetName]-[region|E]\n$EFFECT_LIST_BULLET$[province|E] besteht aus [GetTerrain('wetlands').GetName]n und die [culture|E] hat die #V $innovation_champa_rice$#!-[innovation|E]\n$EFFECT_LIST_BULLET$[province|E] besteht aus [GetTerrain('hills').GetName]n oder [GetTerrain('jungle').GetName] und die [culture|E] hat die [tradition|E] „[GetCultureTradition('tradition_tgp_rice_cultivators').GetName|V]“"
+  
+ innovation_sericulture: "Seidenbau"
+ innovation_sericulture_desc: "Die Kunst der Seidenherstellung ist ein komplexer, aber lohnenswerter Vorgang. Das Wissen darum wird eifersüchtig von jenen gehütet, die mit der Meisterschaft dieser Industrie viel zu verdienen haben."
+ culture_parameter_unlocks_silk_buildings_parameter: "Erlaubt die [GetDomicileBuilding('silk_01').GetNameNoTooltip|V]-Reihe von [Concept('domicile_buildings', 'Wohnsitzgebäuden')|E]"
+  
+  #AGOT Modified 
+ # innovation_dragon_kiln: "Dragon Kilns" #NT!
+ innovation_dragon_kiln: "Porcelain Kilns" #NT!
+ innovation_dragon_kiln_desc: "Das beste Porzellan stammt aus hoch spezialisierten Brennöfen, die in der Nähe wertvoller Bergbaustätten stehen. Diese Brennöfen baut man an steilen Hängen, was für einen Hitzewirbel sorgt, der die Keramik so hart wie möglich macht. Sie sind zwar schwer zu bauen, doch die dort gefertigten Güter sind die wohl modischsten (und lukrativsten) Töpferwaren, die es am Hof gibt."
+  
+ innovation_rocket_cart: "Raketenkarren"
+ innovation_rocket_cart_chinese: "Huochē"
+ innovation_rocket_cart_koreanic: "Hwacha"
+ innovation_rocket_cart_desc: "Durch den Einsatz einer Sprengformel, die kruder ist als jene für die teuren Bombarden, können wir gewaltige Salven von Feuerpfeilen aus einem Gerät verschießen. Da diese Feuerpfeile nur die Schlagkraft von … Pfeilen haben, eignen sie sich wesentlich besser für das Verschießen #italic von#! einer Mauer aus, als damit #italic auf#! eine Mauer zu schießen."
+ innovation_rocket_cart_chinese_desc: "$innovation_rocket_cart_desc$"
+ innovation_rocket_cart_koreanic_desc: "$innovation_rocket_cart_desc$"
+  
+ innovation_compass: "Kompass"
+ innovation_compass_desc: "Mit einem einfachen Stück Magnetstein wird es möglich, stets zu wissen, in welche Richtung man gerade reist. Mit weiterer Zeit und Entwicklung wird es möglich, durchgängig zu navigieren, ohne anzuhalten und nach dem Weg fragen zu müssen."
+ culture_parameter_cheaper_adventure_inspiration: "Abenteuer-[Concept('inspiration', 'Inspirations')|E]-Kosten: #P -50 %#!"
+  
+ innovation_block_printing: "Blockdruck"
+ innovation_block_printing_desc: "Mit einer Reihe geschnitzter Holzblöcke wird es möglich, eine Anordnung von Stempeln zusammenzustellen, die sich mehrfach verwenden lässt, um dieselben Worte und Bilder immer wieder auf passendem Untergrund aufzudrucken. Dies vereinfacht die Herstellung von Büchern beträchtlich, verringert die Kosten und macht das geschriebene Wort für alle zugänglicher."
+ culture_parameter_block_printing_scriptorium_bonuses: "[SelectLocalization(HasDlcFeature('legends'), 'culture_parameter_block_printing_scriptorium', 'blank_line')]"
+ culture_parameter_block_printing_scriptorium: "Die [Concept('buildings', 'Gebäudereihe')|E] „[GetBuilding('scriptorium_01').GetTypeName|V]“ gewährt zusätzliche Boni"
+ culture_parameter_block_printing_university_bonuses: "[SelectLocalization(HasDlcFeature('wards_and_wardens'), 'culture_parameter_block_printing_university_bonuses_text', 'blank_line')]"
+ culture_parameter_block_printing_university_bonuses_text: "[GetActivityType('activity_adult_education').GetName]s-Studienmaterialkosten: #P -50 %#!"
+  
+ innovation_grenades: "Granaten"
+ innovation_grenades_desc: "Trotz aller Fortschritte in der Kriegsführung bleibt ein uraltes Werkzeug von unschätzbarem Wert: der menschliche Arm. Mit der richtigen Wurftechnik kann man kleine Gefäße, die mit einer brennbaren oder explosiven Substanz gefüllt sind, erstaunlich weit werfen. Granaten, die man vor einer Schlacht an die Soldaten verteilt, bieten diesen eine zweite Möglichkeit, den Feind anzugreifen und aus der Fassung zu bringen."
+  
+ innovation_cupellation: "Kupellation"
+ innovation_cupellation_desc: "Spezialisierte Hochtemperaturöfen schmelzen Edelmetalle aus Bergbauproben, extrahieren diese aus verhütteten Erzen und liefern eine veredelte Probe, die Prüfer danach weiter untersuchen können. Das Kupellieren von Erz aus einer Bleimine ist der beste Weg, um den Silbergehalt dieser Mine zu bestimmen, und das Kupellieren von Gold kann dessen Reinheit für eine mögliche Münzprägung ermitteln."
+ culture_parameter_cupellation_mine_building_bonuses: "[Concept('holding', 'Besitztums')|E]-[taxes|E] von [baronies|E] mit #V Minen#!-[Concept('special_building', 'Sondergebäuden')|E]: #P @gold_icon![EmptyScope.ScriptValue('innovation_cupellation_mine_tax_bonus_value')|%0+=]#!"
+  
+ innovation_lacquered_armor: "Lackierte Rüstung"
+ innovation_lacquered_armor_desc: "Das sorgfältige Auftragen bestimmter Harze auf Rüstungen stärkt diese erheblich und hilft, schwerere Eisenplatten wetterfest zu machen. Dieses Verfahren ist zwar schon seit Langem bekannt, wurde aber bisher nur bei Kisten, Flaschen und anderen Waren eingesetzt. Lackierte Rüstungen stellen eine neue Möglichkeit dar, sowohl Soldaten als auch deren Ausrüstung zu schützen."
+ culture_parameter_higher_quality_armor_artifacts_parameter: "Rüstungs-[artifacts|E] durch [Concept('sponsored', 'finanzierte')|E] [inspirations|E] und „[GetDecision('commission_artifact_decision').GetName]“ sind von höherer Güte"
+  
+ innovation_double_entry_bookkeeping: "Doppelte Buchführung"
+ innovation_double_entry_bookkeeping_desc: "Aufzeichnungen müssen mit der wachsenden Komplexität der Finanzen und der Wirtschaft Schritt halten. Die getrennte Aufzeichnung aller Ein- und Auszahlungen trägt dazu bei, zuverlässige Bilanzen zu erstellen und zu gewährleisten, dass bei der Überprüfung der Konten nicht versehentlich – „versehentlich“ – Einträge übersehen werden."
+ culture_parameter_bookkeeping_collect_taxes_bonus: "[councillor_task|E] „$task_collect_taxes$“: [gold_i|E]#P +10 %#!"
+  
+ innovation_waterworks: "Wasserwerke"
+ innovation_waterworks_desc: "Wasser ist ein Lebensspender, aber nicht nur als Durstlöscher und für die Bewässerung von Feldern. Geschickt genutzt kann diese vom Himmel fallende Ressource Maschinen antreiben, die um ein Vielfaches stärker sind als jedes Vieh, Reisen und Handel entlang künstlicher Kanäle erleichtern oder einfach dafür sorgen, dass belebte Straßen sauber und bewohnbar bleiben."
+ culture_parameter_unlocks_waterworks_buildings: "Erlaubt die [Concept('buildings', 'Gebäudereihe')|E] „[GetBuilding('waterworks_01').GetTypeName|V]“"
+  
+ innovation_tiefutu: "$tiefutu$"
+ innovation_tiefutu_desc: "$tiefutu_flavor$"
+  
+ innovation_bulkheads: "Schotten"
+ innovation_bulkheads_desc: "Der sicherste Weg, den Untergang eines Schiffes zu verhindern, besteht darin, den Rumpf gar nicht erst zu beschädigen. Doch wenn sich dies nicht vermeiden lässt, ist das Schiff vielleicht noch zu retten, sofern der Rumpf durch wasserdichte Wände unterteilt wurde. Selbst wenn das Schiff beschädigt würde, läuft so nur ein Teil von ihm voll und man kann Menschen, Vorräte und das Schiff selbst oft vor dem Untergang bewahren."
+  
+ innovation_coking: "Verkokung"
+ innovation_coking_desc: "Holzkohle ist ein wichtiger Bestandteil des Schmiedehandwerks, doch es braucht ausgedehnte Wälder in der Nähe, um ausreichend Holz zu diesem wichtigen Brennstoff zu verarbeiten. In einem Holzkohlemeiler kann man aus der Kohle Koks herstellen. Koks ist für die Schmiedekunst und andere Industriefeuer genauso nützlich wie Holzkohle, ohne dass dafür ein ganzer Wald abgeholzt werden muss."
+ culture_parameter_coking_smith_bonuses: "Die [Concept('buildings', 'Gebäudereihen')|E] „[GetBuilding('smiths_01').GetTypeName|V]“ und „[GetBuilding('blacksmiths_01').GetTypeName|V]“ gewähren zusätzliche Boni"
+  
+ innovation_composite_crossbow: "Kompositarmbrüste"
+ innovation_composite_crossbow_desc: "Wie bei Primitivbogen bestimmt die Stärke des Bogenschenkels die potenzielle Zugkraft. Durch die Verstärkung der Spannweite mit Horn oder sogar Stahl können das Zuggewicht und damit die Reichweite und Kraft einer Armbrust um ein Vielfaches höher sein als bei jedem hölzernen Gegenstück. Zudem wird sie robuster und langlebiger."
+  
+  #AGOT Modified 
+ # innovation_pharmacopoeia: "Pharmacopoeia" #NT!
+ innovation_pharmacopoeia: "Trained Healers" #NT!
+ innovation_pharmacopoeia_desc: "Jeder gute Arzt muss wissen, wie man die richtigen Arzneimittel zur richtigen Zeit herstellt, welche Zutaten es braucht, wie man sie zubereitet und in welcher Menge. Solches Wissen wird zwar oft vom Meister an den Lehrling weitergegeben, doch es ist ungemein hilfreich, wenn es Aufzeichnungen zur Herstellung bestimmter Arzneimittel gibt. So wird eine Standardisierung und Verbreitung der Zubereitung verschiedener Behandlungen ungemein erleichtert."
+ culture_parameter_physician_pharmacopoeia_bonus: "[GetCourtPositionType('court_physician_court_position').GetName()]-[court_position|E]-Behandlungseffektivität: #P +20 %#!"
+  
+   ################## 
+   # TGP Siege Units Unlock 
+   ################## 
+  
+ unlock_siege_maa_first_level: "[SelectLocalization(Or(Or(ObjectsEqual(GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('han').GetHeritage.GetName), ObjectsEqual(GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('goryeo').GetHeritage.GetName)), ObjectsEqual(GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('japanese').GetHeritage.GetName)), 'unlock_maa_ballista','unlock_maa_onager')]"
+ unlock_siege_maa_second_level: "[SelectLocalization(Or(Or(ObjectsEqual(GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('han').GetHeritage.GetName), ObjectsEqual(GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('goryeo').GetHeritage.GetName)), ObjectsEqual(GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('japanese').GetHeritage.GetName)), 'unlock_maa_cloud_ladder','unlock_maa_mangonel')]"
+ unlock_siege_maa_third_level: "[SelectLocalization(Or(Or(ObjectsEqual(GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('han').GetHeritage.GetName), ObjectsEqual(GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('goryeo').GetHeritage.GetName)), ObjectsEqual(GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('japanese').GetHeritage.GetName)), 'unlock_maa_siege_tower','unlock_maa_trebuchet')]"
+ unlock_siege_maa_fourth_level: "[SelectLocalization(Or(Or(ObjectsEqual(GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('han').GetHeritage.GetName), ObjectsEqual(GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('goryeo').GetHeritage.GetName)), ObjectsEqual(GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('japanese').GetHeritage.GetName)), 'unlock_maa_cannon','unlock_maa_bombard')]"
+  
+ unlock_maa_ballista: "Kann „[GetMaA('ballista').GetName]“ als [men_at_arms|E] anwerben"
+ unlock_maa_cloud_ladder: "Kann „[GetMaA('cloud_ladder').GetName]“ als [men_at_arms|E] anwerben"
+ unlock_maa_siege_tower: "Kann „[GetMaA('siege_tower').GetName]“ als [men_at_arms|E] anwerben"
+ unlock_maa_cannon: "Kann „[GetMaA('cannon').GetName]“ als [men_at_arms|E] anwerben"
+ unlock_maa_bombard: "Kann „[GetMaA('bombard').GetName]“ als [men_at_arms|E] rekrutieren"
+ unlock_maa_trebuchet: "Kann „[GetMaA('trebuchet').GetName]“ als [men_at_arms|E] rekrutieren"
+ unlock_maa_mangonel: "Kann „[GetMaA('mangonel').GetName]“ als [men_at_arms|E] rekrutieren"
+  

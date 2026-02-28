@@ -1,0 +1,201 @@
+﻿l_german:
+  
+  #Bastard-derived Nicknames 
+ nick_agot_watercrowned: "Watercrowned" #NT!
+ nick_agot_watercrowned_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] crowned while being a known bastard of the Crownlands." #NT!
+ nick_agot_sandcrowned: "Sandcrowned" #NT!
+ nick_agot_sandcrowned_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] crowned while being a known bastard of Dorne." #NT!
+ nick_agot_pykecrowned: "Pykecrowned" #NT!
+ nick_agot_pykecrowned_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] crowned while being a known bastard of the Iron Isles." #NT!
+ nick_agot_snowcrowned: "Snowcrowned" #NT!
+ nick_agot_snowcrowned_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] crowned while being a known bastard of the North." #NT!
+ nick_agot_flowercrowned: "Flowercrowned" #NT!
+ nick_agot_flowercrowned_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] crowned while being a known bastard of the Reach." #NT!
+ nick_agot_rivercrowned: "Rivercrowned" #NT!
+ nick_agot_rivercrowned_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] crowned while being a known bastard of the Riverlands." #NT!
+ nick_agot_stormcrowned: "Stormcrowned" #NT!
+ nick_agot_stormcrowned_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] crowned while being a known bastard of the Stormlands." #NT!
+ nick_agot_stonecrowned: "Stonecrowned" #NT!
+ nick_agot_stonecrowned_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] crowned while being a known bastard of the Vale." #NT!
+ nick_agot_hillcrowned: "Hillcrowned" #NT!
+ nick_agot_hillcrowned_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] crowned while being a known bastard of the Westerlands." #NT!
+  
+  #Faegon Event Nicknames 
+ nick_agot_young_griff: "Young Griff" #NT!
+ nick_agot_young_griff_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] named for [CharYourHerHis(CHARACTER)] father, who is also named 'Griff'" #NT!
+ nick_agot_the_dragon_wolf: "the Dragon Wolf" #NT!
+  
+  #Dragontheft Event 
+ nick_agot_drakethief: "Drakethief" #NT!
+ nick_agot_drakethief_desc: "For sneaking past [CharYourHerHis(CHARACTER)] handlers and riding [CharYourHerHis(CHARACTER)] parent's dragon without permission, [CHARACTER.GetShortUINameNoTooltipNoFormat] is known as 'Drakethief.'" #NT!
+ nick_agot_scalesnatcher: "Scalesnatcher" #NT!
+ nick_agot_scalesnatcher_desc: "For sneaking past [CharYourHerHis(CHARACTER)] handlers and riding [CharYourHerHis(CHARACTER)] parent's dragon without permission, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known as the 'Scalesnatcher.'" #NT!
+ nick_agot_the_rogue_rider: "the Rogue Rider" #NT!
+ nick_agot_the_rogue_rider_desc: "For sneaking past [CharYourHerHis(CHARACTER)] handlers and riding [CharYourHerHis(CHARACTER)] parent's dragon without permission, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known as 'the Rogue Rider.'" #NT!
+ nick_agot_the_dragonfaller: "the Dragonfaller" #NT!
+ nick_agot_the_dragonfaller_desc: "After sneaking past [CharYourHerHis(CHARACTER)] handlers and riding [CharYourHerHis(CHARACTER)] parent's dragon, [CHARACTER.GetShortUINameNoTooltipNoFormat] fell to [CharYourHerHis(CHARACTER)] untimely death." #NT!
+  
+  #Dragonslayer 
+ nick_agot_the_dragonslayer: "the Dragonslayer" #NT!
+ nick_agot_the_dragonslayer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] won glory for all time, achieving the impossible by slaying a mighty dragon!" #NT!
+  
+  #Dragon Restoration 
+ nick_agot_the_father_of_dragons: "the Father of Dragons" #NT!
+ nick_agot_the_mother_of_dragons: "the Mother of Dragons" #NT!
+  
+  #Targ Restoration 
+ nick_agot_the_usurper: "the Usurper" #NT!
+  
+  #Coronations 
+ nick_agot_the_kingmaker: "the Kingmaker" #NT!
+ nick_agot_the_kingmaker_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for crowning a king." #NT!
+ nick_agot_the_queenmaker: "the Queenmaker" #NT!
+ nick_agot_the_queenmaker_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for crowning a queen." #NT!
+  
+  #TRP Story Cycle 
+ nick_agot_the_rogue_king: "the Rogue King" #NT!
+ nick_agot_the_rogue_king_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] widely known for [CharYourHerHis(CHARACTER)] rogueish and adventurous nature, having both spurned and inspired many in [CharYourHerHis(CHARACTER)] time." #NT!
+  
+  #Lyanna Reveal 
+ nick_agot_knight_of_the_laughing_tree: "Knight of the Laughing Tree" #NT!
+ nick_agot_knight_of_the_laughing_tree_desc: "This mystery knight is so named for the smiling weirwood emblazoned upon their shield." #NT!
+  
+  #Historical Inspiration Event 
+ nick_agot_the_last: "the Last" #NT!
+ nick_agot_the_last_desc: "[CHARACTER.GetFullName] [CharAreIs(CHARACTER)] regarded by the realm to likely be the last of [CHARACTER.GetHerHis] house to grace this world." #NT!
+ nick_agot_the_rogue_prince_reborn: "the Rogue Prince Reborn" #NT!
+  
+  #Title-Based 
+ nick_agot_the_king_btw: "the King-Beyond-the-Wall" #NT!
+ nick_agot_the_queen_btw: "the Queen-Beyond-the-Wall" #NT!
+ nick_agot_the_undisputed: "the Undisputed" #NT!
+ nick_agot_the_nights_king: "the Night's King" #NT!
+ nick_agot_the_nights_king_desc: "Using sorcery, [CHARACTER.GetShortUINameNoTooltipNoFormat] bound the Night's Watch to [CharYourHerHis(CHARACTER)] will, ruling with a corpse queen by [CharYourHerHis(CHARACTER)] side." #NT!
+  
+  #SotM 
+ nick_agot_the_sword_of_the_morning: "the Sword of the Morning" #NT!
+ nick_agot_the_sword_of_the_morning_desc: "Deemed worthy of wielding Dawn, the legendary blade of House Dayne, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] this generation's 'Sword of the Morning.'" #NT!
+  
+  #Misc Events 
+ nick_agot_the_brawler: "the Brawler" #NT!
+ nick_agot_goldeneye: "Golden-Eye" #NT!
+ nick_agot_northern_shield: "the Shield of the North" #NT!
+ nick_agot_black_builder: "the Black Builder" #NT!
+ nick_agot_stormblessed: "Stormblessed" #NT!
+ nick_agot_the_innkeeper: "the Innkeeper" #NT!
+ nick_agot_the_lionslayer: "the Lionslayer" #NT!
+ nick_agot_the_mapper: "the Mapper" #NT!
+ nick_agot_the_summer_breeze: "the Summer Breeze" #NT!
+  
+  #High Septon Nicknames 
+ nick_agot_the_high_aurochs: "The High Aurochs" #NT!
+ nick_agot_the_high_aurochs_desc: "This High Septon is known for possessing the disposition of an aurochs." #NT!
+ nick_agot_the_high_bespawler: "The High Bespawler" #NT!
+ nick_agot_the_high_bespawler_desc: "This High Septon is known for spitting while speaking, to their audience's chagrin." #NT!
+ nick_agot_the_high_capon: "The High Capon" #NT!
+ nick_agot_the_high_capon_desc: "Snickers follow this High Septon, who is quite like a castrated chicken." #NT!
+ nick_agot_the_high_coxcomb: "The High Coxcomb" #NT!
+ nick_agot_the_high_coxcomb_desc: "This High Septon is known for being self-impressed, and undeservedly so." #NT!
+ nick_agot_the_high_cumberworld: "The High Cumberworld" #NT!
+ nick_agot_the_high_cumberworld_desc: "This High Septon is so useless, they only exist in this world to take up space." #NT!
+ nick_agot_the_high_hawk: "The High Hawk" #NT!
+ nick_agot_the_high_hawk_desc: "This High Septon is known for their hawkish nature." #NT!
+ nick_agot_the_high_milksop: "The High Milksop" #NT!
+ nick_agot_the_high_milksop_desc: "This High Septon is known for being indecisive and lacking courage — like bread soaked in warm milk." #NT!
+ nick_agot_the_high_mouse: "The High Mouse" #NT!
+ nick_agot_the_high_mouse_desc: "This High Septon is known for their mousy nature." #NT!
+ nick_agot_the_high_muckspout: "The High Muckspout" #NT!
+ nick_agot_the_high_muckspout_desc: "This High Septon is known for cursing often and tastelessly, unbecoming of their position." #NT!
+ nick_agot_the_high_mumpsimus: "The High Mumpsimus" #NT!
+ nick_agot_the_high_mumpsimus_desc: "This High Septon obstinately clings to tradition, even when shown to be wrong." #NT!
+ nick_agot_the_high_ninnyhammer: "The High Ninnyhammer" #NT!
+ nick_agot_the_high_ninnyhammer_desc: "This High Septon is quite simply an oaf." #NT!
+ nick_agot_the_high_prickmedainty: "The High Prickmedainty" #NT!
+ nick_agot_the_high_prickmedainty_desc: "This High Septon is exceedingly kind, to a fault." #NT!
+ nick_agot_the_high_saddlegoose: "The High Saddlegoose" #NT!
+ nick_agot_the_high_saddlegoose_desc: "This High Septon is quite simply a fool." #NT!
+ nick_agot_the_high_serpent: "The High Serpent" #NT!
+ nick_agot_the_high_serpent_desc: "Murmurs follow this High Septon, who is quite like a snake." #NT!
+ nick_agot_the_high_sheep: "The High Sheep" #NT!
+ nick_agot_the_high_sheep_desc: "This High Septon is known for their sheepish nature." #NT!
+ nick_agot_the_high_smellfeast: "The High Smellfeast" #NT!
+ nick_agot_the_high_smellfeast_desc: "This High Septon is no stranger to a full plate in another's halls." #NT!
+ nick_agot_the_high_snollygoster: "The High Snollygoster" #NT!
+ nick_agot_the_high_snollygoster_desc: "This High Septon is shrewd and unprincipled — a frightening combination." #NT!
+ nick_agot_the_high_spider: "The High Spider" #NT!
+ nick_agot_the_high_spider_desc: "Weaving webs is of no difficulty for this High Septon." #NT!
+ nick_agot_the_high_squirrel: "The High Squirrel" #NT!
+ nick_agot_the_high_squirrel_desc: "This High Septon is known for their squirrely nature." #NT!
+ nick_agot_the_high_swine: "The High Swine" #NT!
+ nick_agot_the_high_swine_desc: "Scoffs follow this High Septon, who is quite like a filthy pig." #NT!
+  
+ nick_agot_the_bold_one: "The Bold One" #NT!
+ nick_agot_the_bold_one_desc: "This High Septon is known for their daring ways." #NT!
+ nick_agot_the_bright_one: "The Bright One" #NT!
+ nick_agot_the_bright_one_desc: "This High Septon is known for their quick mind." #NT!
+ nick_agot_the_dithering_one: "The Dithering One" #NT!
+ nick_agot_the_dithering_one_desc: "This High Septon is known for their constant hesitation." #NT!
+ nick_agot_the_dull_one: "The Dull One" #NT!
+ nick_agot_the_dull_one_desc: "This High Septon is known for their slow mind." #NT!
+ nick_agot_the_dumb_one: "The Dumb One" #NT!
+ nick_agot_the_dumb_one_desc: "This High Septon is known for their slow mind." #NT!
+ nick_agot_the_fair_one: "The Fair One" #NT!
+ nick_agot_the_fair_one_desc: "This High Septon is known for their just rulings." #NT!
+ nick_agot_the_fat_one: "The Fat One" #NT!
+ nick_agot_the_fat_one_desc: "This High Septon is known for their bulging belly and constant desire for food." #NT!
+ nick_agot_the_fierce_one: "The Fierce One" #NT!
+ nick_agot_the_fierce_one_desc: "This High Septon is known for their intense ways." #NT!
+ nick_agot_the_funny_one: "The Funny One" #NT!
+ nick_agot_the_funny_one_desc: "This High Septon is known for their side-splitting humour." #NT!
+ nick_agot_the_gay_one: "The Gay One" #NT!
+ nick_agot_the_gay_one_desc: "This High Septon is known for their joyful attitude." #NT!
+ nick_agot_the_gross_one: "The Gross One" #NT!
+ nick_agot_the_gross_one_desc: "This High Septon is known for their uncouth appearance." #NT!
+ nick_agot_the_kind_one: "The Kind One" #NT!
+ nick_agot_the_kind_one_desc: "This High Septon is known for their embracing kindness." #NT!
+ nick_agot_the_loathsome_one: "The Loathsome One" #NT!
+ nick_agot_the_loathsome_one_desc: "This High Septon is known for earning the hate of others." #NT!
+ nick_agot_the_magnanimous_one: "The Magnanimous One" #NT!
+ nick_agot_the_magnanimous_one_desc: "This High Septon is known for their generous nature." #NT!
+ nick_agot_the_meek_one: "The Meek One" #NT!
+ nick_agot_the_meek_one_desc: "This High Septon is known for their gentleness." #NT!
+ nick_agot_the_modest_one: "The Modest One" #NT!
+ nick_agot_the_modest_one_desc: "This High Septon is known for their humility." #NT!
+ nick_agot_the_moody_one: "The Moody One" #NT!
+ nick_agot_the_moody_one_desc: "This High Septon is known for their childlike temperaments." #NT!
+ nick_agot_the_nice_one: "The Nice One" #NT!
+ nick_agot_the_nice_one_desc: "This High Septon is known for their embracing kindness." #NT!
+ nick_agot_the_other_fat_one: "The Other Fat One" #NT!
+ nick_agot_the_other_fat_one_desc: "This High Septon is known for their bulging belly and constant desire for food." #NT!
+ nick_agot_the_pretty_one: "The Pretty One" #NT!
+ nick_agot_the_pretty_one_desc: "This High Septon is known for their unusual beauty." #NT!
+ nick_agot_the_pure_one: "The Pure One" #NT!
+ nick_agot_the_pure_one_desc: "This High Septon is known for their pious virtuousness." #NT!
+ nick_agot_the_quiet_one: "The Quiet One" #NT!
+ nick_agot_the_quiet_one_desc: "This High Septon is known for lack of words." #NT!
+ nick_agot_the_raunchy_one: "The Raunchy One" #NT!
+ nick_agot_the_raunchy_one_desc: "This High Septon is known for their filthy mind." #NT!
+ nick_agot_the_sharp_one: "The Sharp One" #NT!
+ nick_agot_the_sharp_one_desc: "This High Septon is known for their quick mind." #NT!
+ nick_agot_the_slow_one: "The Slow One" #NT!
+ nick_agot_the_slow_one_desc: "This High Septon is known for their slow mind." #NT!
+ nick_agot_the_small_one: "The Small One" #NT!
+ nick_agot_the_small_one_desc: "This High Septon is known for their short stature." #NT!
+ nick_agot_the_smelly_one: "The Smelly One" #NT!
+ nick_agot_the_smelly_one_desc: "This High Septon is known for their incessant desire to not wash." #NT!
+ nick_agot_the_stalwart_one: "The Stalwart One" #NT!
+ nick_agot_the_stalwart_one_desc: "This High Septon is known for their reliable nature." #NT!
+ nick_agot_the_staunch_one: "The Staunch One" #NT!
+ nick_agot_the_staunch_one_desc: "This High Septon is known for their loyal attitude." #NT!
+ nick_agot_the_strong_one: "The Strong One" #NT!
+ nick_agot_the_strong_one_desc: "This High Septon is known for their physical strength." #NT!
+ nick_agot_the_tranquil_one: "The Tranquil One" #NT!
+ nick_agot_the_tranquil_one_desc: "This High Septon is known for their calm demeanor." #NT!
+ nick_agot_the_vile_one: "The Vile One" #NT!
+ nick_agot_the_vile_one_desc: "This High Septon is known for their disgusting actions." #NT!
+ nick_agot_the_weird_one: "The Weird One" #NT!
+ nick_agot_the_weird_one_desc: "This High Septon is known for their strange behavior." #NT!
+  
+  #Fallback 
+ nick_agot_the_high_septon: "The High Septon" #NT!
+ nick_agot_the_high_septon_desc: "This person has been chosen to lead those faithful to the Seven as their High Septon." #NT!

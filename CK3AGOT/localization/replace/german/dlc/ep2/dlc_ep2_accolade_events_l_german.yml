@@ -29,7 +29,7 @@
   
  ep2_accolade_events.0300.desc.both: "Eine feierfreudige Inspiration für [Select_CString(new_reveler_2.IsFemale, 'meine Erbin', 'meinen Erben')] [new_reveler_2.GetFirstName] und mich."
   #AGOT Modified, vanilla scoping error 
- #ep2_accolade_events.0300.desc.heir: "A raucous inspiration for my heir [new_reveler_2.GetFirstName]." #NT!
- ep2_accolade_events.0300.desc.heir: "A raucous inspiration for my heir [new_reveler.GetFirstName]." #NT!
+ #ep2_accolade_events.0300.desc.heir: "A raucous inspiration for my heir [new_reveler_2.GetFirstName]."
+ ep2_accolade_events.0300.desc.heir: "A raucous inspiration for my heir [new_reveler.GetFirstName]."
  ep2_accolade_events.0300.desc.liege: "Ich fühle mich selbst inspiriert."
  ep2_accolade_events.0300.a: "Auf lebhafte Abende und süße Früchte!"

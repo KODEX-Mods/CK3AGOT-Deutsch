@@ -1,30 +1,36 @@
 ﻿l_german:
  btw_struggle_reason_reason: "[recipient.GetSheHe|U] ist Teil des [btw_struggle|E] und Ihr nicht: $VALUE|=+0$"
   
+  # Set relationship debug interaction 
+ agot_set_relation_debug_paramour: "#difficulty_medium Paramour#!" #NT!
+ agot_remove_relation_debug_paramour: "#difficulty_medium Remove Paramour#!" #NT!
   
- #Prisoner Interactions 
+  # Prisoner Interactions 
   
  mute_interaction: "Zunge herrausschneiden"
  mute_interaction_desc: "Macht [recipient.GetShortUINameNoTooltip] zu einem [GetTrait('mute').GetName( GetPlayer )]n"
   
- sell_prisoner_into_slavery_interaction: "Sell Into Slavery" #NT!
- sell_prisoner_into_slavery_interaction_desc: "Sell [recipient.GetShortUINameNoTooltip] into slavery" #NT!
+ sell_prisoner_into_slavery_interaction: "Sell Into Slavery"
+ sell_prisoner_into_slavery_interaction_desc: "Sell [recipient.GetShortUINameNoTooltip] into slavery"
   
- #septa 
+ ransom_for_artifacts_interaction: "Set Artifacts for Ransom" #NT!
+ ransom_for_artifacts_interaction_desc: "Select which of [recipient.GetShortUINamePossessiveNoTooltip] artifacts will be demanded in exchange for their release" #NT!
+  
+  # septa 
  septa_child_language_rank_1: "Die [aptitude|E] Eurer [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 5#! zusätzlich [success_chance|E] und [scheme_power|E]"
  septa_child_language_rank_2: "Die [aptitude|E] Eurer [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 10#! zusätzlich [success_chance|E] und [scheme_power|E]"
  septa_child_language_rank_3: "The [aptitude|E] Eurer [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 15#! zusätzlich [success_chance|E] und [scheme_power|E]"
  septa_child_language_rank_4: "Die [aptitude|E] Eurer [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 20#! zusätzlich [success_chance|E] und [scheme_power|E]"
  septa_child_language_rank_5: "Die [aptitude|E] Eurer [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 25#! zusätzlich [success_chance|E] und [scheme_power|E]"
   
-  
+  #Maester 
  maester_child_language_rank_1: "Die [aptitude|E] Eurer [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 5#! zusätzlich [success_chance|E] und [scheme_power|E]"
  maester_child_language_rank_2: "Die [aptitude|E] Eurer [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 10#! zusätzlich [success_chance|E] und [scheme_power|E]"
  maester_child_language_rank_3: "Die [aptitude|E] Eurer [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 15#! zusätzlich [success_chance|E] und [scheme_power|E]"
  maester_child_language_rank_4: "Die [aptitude|E] Eurer [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 20#! zusätzlich [success_chance|E] und [scheme_power|E]"
  maester_child_language_rank_5: "Die [aptitude|E] Eurer [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 25#! zusätzlich [success_chance|E] und [scheme_power|E]"
   
- # Nightswatch / Kingsguard Vows interaction Desc 
+  # Nightswatch / Kingsguard Vows interaction Desc 
  ORDER_VOWS_MARRIED_OR_BETROTHED: "Ich bin [betrothed|E]: $VALUE|=+0$"
  ORDER_VOWS_DIFFERENT_FAITH: "Eure Götter sind falsch: $VALUE|=+0$"
   
@@ -43,13 +49,13 @@
  ORDER_VOWS_CRAVEN: "[personality|E] — #italic [recipient.GetSheHe|U] hegt nicht den Wunsch zu sterben:#! $VALUE|=+0$"
  ORDER_VOWS_HORNY: "[personality|E] — #italic Ein Leben im Zölibat klingt wie ein Leben im Kerker:#! $VALUE|=+0$"
   
- ARTIFACT_VS_REASON: "Valryian steel is valuable: $VALUE|=+0$" #NT!
- ARTIFACT_DRAGON_EGG_REASON: "Dragon eggs are valuable: $VALUE|=+0$" #NT!
+ ARTIFACT_VS_REASON: "Valryian steel is valuable: $VALUE|=+0$"
+ ARTIFACT_DRAGON_EGG_REASON: "Dragon eggs are valuable: $VALUE|=+0$"
   
- WHEREABOUTS_UNKNOWN: "[CHARACTER.GetShortUIName|U]'s whereabouts are unknown" #NT!
+ WHEREABOUTS_UNKNOWN: "[CHARACTER.GetShortUIName|U]'s whereabouts are unknown"
   
  offer_vassalization_shattered_world_tt: "Gleichgewicht der Zersplitterten Welt: $VALUE|=+0$"
- offer_vassalization_stepstones_tt: "Pirate: $VALUE|=+0$" #NT!
+ offer_vassalization_stepstones_tt: "Pirate: $VALUE|=+0$"
   
  offer_dawn_interaction: "Dämmerung anbieten"
  offer_dawn_interaction_desc: "Bietet [recipient.GetShortUINameNoTooltip] Dämmerung an. Wenn [recipient.GetSheHe] nicht würdig ist, darf [recipient.GetSheHe] nicht annehmen..."
@@ -59,27 +65,48 @@
  unworthy_of_dawn: "[personality|E] — #italic Nicht würdig, Dämmerung zu tragen:#! $VALUE|=+0$"
  dawn_greedy: "[personality|E] — #italic Begehrt Dämmerung:#! $VALUE|=+0$"
   
+ take_claimed_vs_sword_interaction: "Take Valyrian Steel Sword" #NT!
+ take_claimed_vs_sword_interaction_desc: "You have a claim on [recipient.GetShortUINamePossessiveNoTooltip] Valyrian steel Sword " #NT!
+ take_claimed_vs_sword_interaction_i_am_imprisoned: "#P Is imprisoned #!" #NT!
+ take_claimed_vs_sword_interaction_inappropriate: "#N The target is not a Valyrian steel Sword #!" #NT!
+  
  raise_to_nobility_interaction: "In den Adel erheben"
  raise_to_nobility_interaction_desc: "Erhebt [recipient.GetShortUINameNoTooltip] in den Adelsstand"
  raise_to_nobility_tt: "Wird in den Adelsstand erhoben werden und eine neue Dynastie gründen"
  raised_me_to_nobility_opinion: "In den Adel erhoben"
   
- already_offered_concubine_warning: "@warning_icon! #X You have already offered a concubine to [recipient.GetShortUIName], offering another one will #underline override#! the existing [opinion|E] modifier!#!" #NT!
+ already_offered_concubine_warning: "@warning_icon! #X You have already offered a concubine to [recipient.GetShortUIName], offering another one will #underline override#! the existing [opinion|E] modifier!#!"
   
- hof_ask_for_claim_must_higher_one_tier_desc: "The tier between you and target character is too large" #NT!
+ hof_ask_for_claim_must_higher_one_tier_desc: "The tier between you and target character is too large"
   
- CANNOT_GRANT_OWN_SC_VASSAL_THIRD: "You cannot grant away a borrowed Small Council member" #NT!
- is_available_desc_third: "You are available" #NT!
- NOT_is_available_desc_third: "You are not available" #NT!
+ CANNOT_GRANT_OWN_SC_VASSAL_THIRD: "You cannot grant away a borrowed Small Council member"
   
- agot_dragon.0004.t: "A Difficult Time" #NT!
- agot_dragon.0004.desc: "I was woken in the early hours of the morning by two unfamiliar guards. I had certainly considered what is about to happen in my darker moments. But no amount of mental picturing could have prepared me to face this. As I am marched in front of [actor.GetShortUINamePossessive] dragon, I experience a moment of serene and perfect clarity. So long do we spend considering our actions, our decisions, and how our actions impact the world. But it's all a lie. I am naught but a sack of meat, sinew and bone. This, this being meeting my gaze with the hungry look of a predator, this is their world; we just live in it.\n\nOr, well, lived." #NT!
+ agot_dragon.0004.t: "A Difficult Time"
+ agot_dragon.0004.desc: "I was woken in the early hours of the morning by two unfamiliar guards. I had certainly considered what is about to happen in my darker moments. But no amount of mental picturing could have prepared me to face this. As I am marched in front of [actor.GetShortUINamePossessive] dragon, I experience a moment of serene and perfect clarity. So long do we spend considering our actions, our decisions, and how our actions impact the world. But it's all a lie. I am naught but a sack of meat, sinew and bone. This, this being meeting my gaze with the hungry look of a predator, this is their world; we just live in it.\n\nOr, well, lived."
   
- hunt_cannot_hunt_parameter_faith_tt: "[faith|E] is unable to Hunt" #NT!
- ACTIVITY_GUEST_CANNOT_HUNT_REASON_FAITH: "[ROOT.Char.GetFaith.GetName] Faith [doctrines|E]: $VALUE|=+0$" #NT!
+ hunt_cannot_hunt_parameter_faith_tt: "[faith|E] is unable to Hunt"
+ AGOT_ACTIVITY_GUEST_CANNOT_HUNT_REASON_FAITH: "[ROOT.Char.GetFaith.GetName] Faith [doctrines|E]: $VALUE|=+0$" #NT!
+ AGOT_ACTIVITY_GUEST_DIVIDED_DYNASTY: "[ROOT.Char.GetSheHe|U] is suspicious of your invite: $VALUE|=+0$" #NT!
+ AGOT_ACTIVITY_GUEST_HOUSE_FEUD: "[ROOT.Char.GetSheHe|U] is suspicious of your invite: $VALUE|=+0$" #NT!
   
- #R'hllor Interactions 
- seek_healing_from_red_priest_interaction: "Seek Healing" #NT!
- seek_healing_from_red_priest_interaction_desc: "Seek healing from [recipient.GetShortUINameNoTooltip]" #NT!
- offer_red_priest_healing_to_liege_interaction: "Offer Healing" #NT!
- offer_red_priest_healing_to_liege_interaction_desc: "Offer healing to [recipient.GetShortUINameNoTooltip]" #NT!
+  # R'hllor Interactions 
+ seek_healing_from_red_priest_interaction: "Seek Healing"
+ seek_healing_from_red_priest_interaction_desc: "Seek healing from [recipient.GetShortUINameNoTooltip]"
+ offer_red_priest_healing_to_liege_interaction: "Offer Healing"
+ offer_red_priest_healing_to_liege_interaction_desc: "Offer healing to [recipient.GetShortUINameNoTooltip]"
+  
+  # General 
+ agot_can_disinherit_flag_tt: "[recipient.GetShortUIName] refused to fulfill an attempted betrothal" #NT!
+  
+  # Pirates 
+ agot_landless_pirate_designate_heir: "Designate Pirate Ship Heir" #NT!
+ agot_landless_pirate_designate_heir_desc: "Designate [recipient.GetShortUIName] as your [pirate_ship_designated_heir|E]" #NT!
+ agot_landless_pirate_designate_heir_effect_tt: "[recipient.GetShortUIName] will become your [pirate_ship_designated_heir|E]." #NT!
+  
+ agot_remove_landless_pirate_designate_heir: "Remove Pirate Ship Heir" #NT!
+ agot_remove_landless_pirate_designate_heir_desc: "Remove [actor.MakeScope.Var('appointed_pirate_jank_heir').Char.GetName] as your [pirate_ship_designated_heir|E]" #NT!
+ agot_remove_landless_pirate_designate_heir_effect_tt: "[actor.MakeScope.Var('appointed_pirate_jank_heir').Char.GetName] will no longer be your [pirate_ship_designated_heir|E]." #NT!
+  
+ pirate_ship_designated_heir_is_no_longer_your_heir: "[target.GetShortUIName] is no longer your [pirate_ship_designated_heir|E]." #NT!
+ pirate_ship_designated_heir_is_now_your_heir: "[target.GetShortUIName] is now your [pirate_ship_designated_heir|E]." #NT!
+ pirate_ship_designated_heir_change: "Pirate Ship Succession Change" #NT!

@@ -1,0 +1,82 @@
+﻿l_german:
+  
+ agot_pirate_ship_domicile_type: "$game_concept_agot_landless_pirate_domicile$" #NT!
+ agot_pirate_ship_domicile_title: "[CHARACTER.GetFirstNamePossessiveNoTooltip] $agot_pirate_ship_domicile_type$" #NT!
+ agot_pirate_ship_domicile_type_tooltip: "$agot_pirate_ship_domicile_type$" #NT!
+ agot_pirate_ship_move_desc: "Move your $agot_pirate_ship_domicile_type$ to a different location." #NT!
+  
+ game_concept_agot_landless_pirate_domicile: "Pirate Ship" #NT!
+ game_concept_agot_landless_pirate_domiciles: "Pirate Ships" #NT!
+ game_concept_agot_landless_pirate_domicile_desc: "$game_concept_agot_landless_pirate_domiciles$ are a [domicile|E] exclusive to the [pirate_govt|E] [government_form|E].\n\n$game_concept_agot_landless_pirate_domiciles$ are utilized by both landed and landless [characters|e]. Landed pirates cannot move their $game_concept_agot_landless_pirate_domicile$ outside of their capital, and landless pirates may move their $game_concept_agot_landless_pirate_domicile$ between [pirate_den_holdings|E], [settlement_holdings|E], and [wilderness_holdings|E] only.\n\nWhen landless pirates move their $game_concept_agot_landless_pirate_domiciles$ to a new $game_concept_pirate_den$, they must pay a one-time docking fee, a yearly fee, and will be bound to join the [county|e] holder in any defensive wars. Landed pirates can set the intensity of these port fees through [laws|E]." #NT!
+  
+ agot_cannot_become_adventurer_as_pirate_with_valid_relocation_target: "Must not have any valid travel destinations as a landless [agot_landless_pirate_domicile|e] holder" #NT!
+  
+ game_concept_pirate_dominate_title: "Dominate Title" #NT!
+ game_concept_pirate_domination_war: "Pirate Domination War" #NT!
+ game_concept_pirate_dominate_title_desc: "Pirates who want to gain a [title|E] of a higher [title_tier|E] must fight the local inhabitants of an area over a title.\n\nIf there is someone holding the title in question, they will begin a war against that target to usurp the title from them. If there isn't anyone holding the title in question, they will instead fight every single non-[tributary|E], non-[ally|E] in the [de_jure|E] area of the title.\n\nOn a victory, the aggressor will gain the title in question, and all defenders will become their Tributaries. On a loss, the aggressor will pay [gold_i][gold|E] to the defender, and lose a significant amount of [dread_i][dread|E].\n\nIf the [decision|E] taker holds the whole De Jure area, they will simply gain the title immediately, as there are no defenders to be fought." #NT!
+  
+ pirate_domination_war_holder_custom_tooltip: "Start a [pirate_domination_war|E] against [main_defender.GetShortUIName] over [title_scope.GetName]#weak (@soldier_icon![main_defender.MakeScope.ScriptValue('dominate_title_current_ally_strength')|N0])#!" #NT!
+ pirate_domination_war_no_holder_custom_tooltip: "Start a [pirate_domination_war|E] against [main_defender.GetShortUIName] over [title_scope.GetName]\n\t$BULLET$Every non-[tributary|E] and non-[ally|E] [de_jure|E] [county|E] [holder|E] of [title_scope.GetName] will join [main_defender.GetShortUIName] as a defender #weak (@soldier_icon![root_scope.MakeScope.ScriptValue('dominate_title_current_enemy_strength')|N0])#!" #NT!
+  
+ agot_raid_pirate_domicile: "Raid $agot_pirate_ship_domicile_type$" #NT!
+ agot_raid_pirate_domicile_desc: "[SCHEME.GetTargetCharacter.GetShortUIName] grows too bold — a raid will put [SCHEME.GetTargetCharacter.GetHerHim] in [SCHEME.GetTargetCharacter.GetHerHis] place." #NT!
+ agot_raid_pirate_domicile_desc_general: "$agot_raid_pirate_domicile$ is a [hostile_scheme|E] that aims to raid the [agot_landless_pirate_domicile|E] of another pirate. It is based on [intrigue|E], and can recruit [agents|E].\n\nA successful $agot_raid_pirate_domicile$ can result in theft of the target's [gold|E] and [artifacts|E], as well as damage to their [agot_landless_pirate_domicile|E], and even the death of their courtiers." #NT!
+  
+ agot_raid_pirate_domicile_action: "$raid_estate_action$" #NT!
+ start_pirate_raid_domicile_interaction: "Start Pirate Ship Raid" #NT!
+ start_pirate_raid_domicile_interaction_desc: "Attempt to raid the [agot_landless_pirate_domicile|E] of [recipient.GetName]" #NT!
+ start_pirate_raid_domicile_notification: "$agot_raid_pirate_domicile$" #NT!
+  
+ agot_raid_pirate_kill_courtiers_tt: "Members of [recipient.GetFirstNamePossessive] [recipient.Custom('GetCourt')] may be killed" #NT!
+ agot_raid_pirate_destroy_buildings_tt: "A building on [recipient.GetFirstNamePossessiveNoTooltip] [agot_landless_pirate_domicile|E] may be destroyed or damaged" #NT!
+ agot_raid_pirate_ship_gain_coin_tt: "You will gain @gold_icon![gold|E]" #NT!
+ agot_raid_pirate_ship_gain_dread_tt: "You will gain @dread_icon![dread|E]" #NT!
+ agot_raid_pirate_ship_gain_artifacts_tt: "You may plunder @artifact_icon![artifacts|E]" #NT!
+  
+ scheme_target_not_agot_pirate: "[target.GetShortUIName] does not own a [agot_landless_pirate_domicile|E]" #NT!
+ scheme_owner_not_agot_pirate: "You do not own a [agot_landless_pirate_domicile|E]" #NT!
+ scheme_target_not_alive: "[target.GetShortUIName] is not alive!" #NT!
+  
+ agot_raid_pirate_domicile_invalidated_title: "@scheme_icon! Raid Pirate Ship Scheme Ends" #NT!
+  
+ AGOT_RAID_PIRATE_DOMICILE_SAME_COUNTY: "[target.GetShortUINamePossessive] and [owner.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] are located in the same county: $VALUE|+=0$" #NT!
+ OWNER_DOMICILE_FORCASTLE_DESC: "[target.GetDomicile.GetName] [GetDomicileBuilding('agot_forecastle_01').GetName] Level: $VALUE|+=0$" #NT!
+ RAID_PIRATE_SHIP_IN_SUBREALM_DESC: "[target.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] is in your [realm|E]: $VALUE|+=0$" #NT!
+ RAID_PIRATE_SHIP_IN_HIGH_PORT_RATE_DESC: "[target.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] is docked in a [realm|E] with an $pirate_tax_rate_04$ [pirate_port_rate|E]: $VALUE|+=0$" #NT!
+ RAID_PIRATE_SHIP_ENDURING_HARDSHIPS_PERK_DESC: "[target.GetShortUINamePossessive] has the [GetPerk('enduring_hardships_perk').GetName(GetNullCharacter)]: $VALUE|+=0$" #NT!
+  
+ game_concept_pirate_port_rates: "Pirate Port Rates" #NT!
+ game_concept_pirate_port_rate: "Pirate Port Rate" #NT!
+ game_concept_pirate_port_rates_desc: "$game_concept_pirate_port_rates$ consist of two types of @gold_icon! fees that [agot_landless_pirate_domiciles|E] must pay upon arriving at a location held by [pirate_govt|E] rulers.\n\nThe first fee is the #bold one-time docking fee#!, which a Landless Pirate must pay immediately upon entering a new [pirate_den_holding|E]. The second fee is the #bold yearly docking fee#! which must be paid annually so long as the pirate remains in that location.\n\nThe Landed Pirates ruling the county may change these fees through [laws|E]." #NT!
+  
+ game_concept_pirate_ship_designated_heir: "Designated $game_concept_agot_landless_pirate_domicile$ Heir" #NT!
+ game_concept_pirate_ship_designated_heirs: "Designated [agot_landless_pirate_domicile|E] Heirs" #NT!
+ game_concept_pirate_ship_designated_heir_desc: "A $game_concept_pirate_ship_designated_heir$ is a [character|E] that has been designated to inherit a [agot_landless_pirate_domicile|E].\n\nThey do not have to be related to the current $game_concept_agot_landless_pirate_domicile$ Captain, but they do have to be a courtier of that character. Only a landless [pirate_govt|E] [ruler|E] may designate a $game_concept_pirate_ship_designated_heir$." #NT!
+  
+ agot_pirate_events.8032.desc: "Dawn at last brings word from [target.GetFirstNamePossessive] pirate ship anchored in [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip], and confirmation of our success!\n\nThe [target.Custom('InsultNounPlural')] were taken completely unawares" #NT!
+ agot_pirate_events.8032.kill: "and several of [target.GetFirstNamePossessiveNoTooltip] lay dead — the survivors must live with this failure..." #NT!
+ agot_pirate_events.8032.fallback: "and have been laid low, for all others to witness!" #NT!
+ agot_pirate_events.8034.t: "Pirate Ship Raided" #NT!
+  
+ agot_pirate_events.8034.desc: "At dawn, panicked rumors of a raid on the pirate ship in [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip] reach me quickly," #NT!
+ agot_pirate_events.8034.kill: "\n\nThey tell me that several of my courtiers were slain in the attack, slaughtered like animals by my enemies..." #NT!
+ agot_pirate_events.8034.discovered: "\n\nIn the aftermath, all are agreed that this was clearly the work of [owner.GetName]..." #NT!
+  
+ agot_pirate_events.8033.desc: "Dawn at last brings word from [target.GetFirstNamePossessive] pirate ship in [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip], though it is not what we would have liked to hear...\n\nThe [target.Custom('InsultNounPlural')] were somehow ready for the attack, and foiled our attackers before they had a chance to do any damage." #NT!
+ agot_pirate_events.8033.captured: "\n\nTo make matters worse, it seems my [owner.Custom2('RelationToMeShort', SCOPE.sC('captured'))], [captured.GetTitledFirstName], was captured in the raid..." #NT!
+ agot_pirate_events.8033.fallback: "\n\nAt least we can rest easy, for the only thing lost was my precious time..." #NT!
+  
+ create_pirate_ruler_designer: "Create your own Landless Pirate" #NT!
+ create_pirate_ruler_designer_tt: "Create a landless pirate in the selected character's capital province." #NT!
+ create_pirate_ruler_designer_must_be_pirate_start_tt: "@warning_icon! #warning You can only create a landless pirate in an existing pirate character's territory#!" #NT!
+ move_pirate_domicile_rules_tt: "You can only move your [domicile|E] to coastal pirate dens, or wilderness and settlement counties in a traditional piracy region." #NT!
+  
+ trait_viking_is_corsair: "Corsair" #NT!
+  
+ domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_1: "Hostile [raids|E] and [sieges|E] are slightly less likely to take characters located in the [agot_landless_pirate_domicile|E] as [prisoners|E]" #NT!
+ domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_2: "Hostile [raids|E] and [sieges|E] are less likely to take characters located in the [agot_landless_pirate_domicile|E] as [prisoners|E]" #NT!
+ domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_3: "Hostile [raids|E] and [sieges|E] are much less likely to take characters located in the [agot_landless_pirate_domicile|E] as [prisoners|E]" #NT!
+  
+ domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_1: "Hostile [raids|E] and [sieges|E] are slightly less likely to take characters located in the [estate|E] as [prisoners|E]" #NT!
+ domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_2: "Hostile [raids|E] and [sieges|E] are less likely to take characters located in the [estate|E] as [prisoners|E]" #NT!
+ domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_3: "Hostile [raids|E] and [sieges|E] are much less likely to take characters located in the [estate|E] as [prisoners|E]" #NT!

@@ -72,3 +72,19 @@
  historical_commander_trait.0005.b: "Die Rhoynar kämpften tapfer und töteten sogar Drachen."
  historical_commander_trait.0005.c: "Die Vorbereitung auf eine solche Reise muss entmutigend gewesen sein."
  historical_commander_trait.0005.d: "Unabhängig von der Reise ist es eine Geschichte der Flucht."
+  
+  #Bilge Khagan 
+ historical_commander_trait.0006.t: "Der weise König"
+ historical_commander_trait.0006.desc: "Beim Studium der Taktiken alter Generäle fand ich Inspiration, als ich die Geschichten über die Eroberungen von Bilge Khan entdeckte, der alle vier Ecken der Welt erreichte.\n\nBei Überfällen auf Baximi und Gazhou demütigte er die Armee des Tang-Kaisers Xuanzong, obwohl deren Zahl in die Hunderttausende ging. Er erkannte wahrhaftig, dass unsere Stärken Schnelligkeit und Beweglichkeit sind!\n\nBilge und seine Armee sollten später noch die Kitan und die Xi im Namen Tengris zermalmen!"
+ historical_commander_trait.0006.a: "Mit dem Segen des Himmels überstehen wir alles!"
+ historical_commander_trait.0006.b: "$historical_commander_trait.0005.c$"
+ historical_commander_trait.0006.c: "Eine bewegliche Armee braucht anpassungsfähige Taktiken!"
+ historical_commander_trait.0006.d: "Einfache Listen sind unter unserer Würde!"
+  
+  #Alexander 
+ historical_commander_trait.0007.t: "Sunzi"
+ historical_commander_trait.0007.desc: "Als ich die sieben militärischen Klassiker studierte, war ich [ROOT.Char.Custom('surprised_reaction')|l] von der Schlacht von Boju zu lesen, in der Sunzi den Wert seiner Kriegskunsttheorien bewies.\n\n#F Es heißt, Sun Tzu führte die Armeen Wus im Frühling und Herbst zum Sieg. Er schlug die zahlenmäßig überlegenen Chu-Truppen, indem er seine inzwischen allseits bekannten militärischen Theorien anwandte.#!"
+ historical_commander_trait.0007.a: "Die Trennline zwischen Ordnung und Unordnung liegt in der Koordination."
+ historical_commander_trait.0007.b: "Ich muss darauf abzielen, den Feind ohne Kampf zu unterwerfen."
+ historical_commander_trait.0007.c: "Wenn Ihr Euch bewegt, schlagt wie ein Blitz ein!"
+ historical_commander_trait.0007.d: "Der größte Sieg ist derjenige, der keine Schlacht erfordert"

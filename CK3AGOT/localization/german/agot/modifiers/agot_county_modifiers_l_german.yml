@@ -1,0 +1,68 @@
+﻿l_german:
+ agot_minority_upset: "Aufsässige Minderheit"
+ agot_minority_respected: "Minderheitenbräuche respektiert"
+ agot_crannogman_settlements_redone: "Pfahlbaummännische Siedlungen kontrolliert"
+ agot_crannogman_driven_out: "Pfahlbaummenschen vertrieben"
+ agot_crannogman_domain_reduced: "Pfahlbaummännisches Territorium reduziert"
+ agot_ignored_demands: "Forderungen des Volkes ignoriert"
+ agot_mills_network: "Mühlennetzwerk"
+ agot_improved_canals_network: "Verbessertes Kanalsystem"
+ agot_stagnating_rural_production: "Ländliche Produktion stagniert"
+ agot_windmills_improved: "Verbesserte Windmühlen"
+ agot_windmills_malfunction: "Defekte Windmühlen"
+ agot_farms_expansion: "Erweitertes Ackerland"
+ agot_religious_community_upset: "Aufsässige Gläubige"
+ agot_forced_labor: "Zwangsarbeit"
+ agot_improved_river_trade: "Verbesserter Flusshandel"
+ agot_improved_fishing_tools: "Effizientes Fischereiwerkzug"
+ agot_abundant_harvest: "Üppige Ernte"
+ agot_major_flood_damages: "Verheerende Fluten"
+ agot_flood_contained: "Erfolgreich Fluten eingedämmt"
+ agot_local_militia_raised: "Örtliche Milizen"
+ agot_burnt_forests: "Verbrannte Wälder"
+ agot_bog_friendly: "Milde Sümpfe"
+ agot_holding_build_speed_north: "Bauen im Norden"
+ agot_holding_build_speed_btw: "Bauen jenseits der Mauer"
+ agot_holding_logistics_dorne_desert: "The Dornish Wastes" #NT!
+ agot_holding_logistics_dorne_desert_desc: "#weak Incredibly arid and dry, the deserts of southern Dorne prove dangerously hostile to marauding hosts, travelers, and large-scale construction projects alike.#!" #NT!
+  
+ agot_hostages_taken: "Geiseln gefangen"
+ agot_hostages_taken_desc: "Nach einer langen, hartnäckigen Belagerung haben die Angreifer alle nennenswerten Einwohner gefangen genommen."
+ agot_inhabitants_slain: "Einwohner abgeschlachtet"
+ agot_inhabitants_slain_desc: "Nach einer langen, hartnäckigen Belagerung haben die Angreifer alle nennensweren Einwohner getötet."
+ agot_scorched_earth: "Sitz niedergebrannt"
+ agot_scorched_earth_desc: "Nach einer langen, hartnäckigen Belagerung haben die Angreifer die Burg niedergebrannt."
+ agot_castle_ransacked: "Sitz geplündert"
+ agot_castle_ransacked_desc: "Nach einer langen, hartnäckigen Belagerung haben die Angreifer alle Reichtümer mit sich genommen."
+  
+ agot_sea_trade_restricted: "Sea Trade Restricted"
+ agot_sea_trade_restricted_desc: "Seafaring trade in this county is restricted by the impositions of the Triarchy."
+ agot_sea_trade_penalized: "Penalized Trade Routes"
+ agot_sea_trade_penalized_desc: "Following a failed war, trade routes from this county are being heavily penalized through the Stepstones."
+ agot_sea_trade_preference: "Sea Trade Preference"
+ agot_sea_trade_preference_desc: "Following a successful war, trade routes from this county are being heavily favored through the Stepstones."
+  
+ agot_hostages_taken_btw: "Geiseln gefangen"
+ agot_hostages_taken_btw_desc: "Nach der Belagerung dieser Siedlung haben die Angreifer alle nennenswerten Einwohner gefangen genommen."
+ agot_inhabitants_slain_btw: "Einwohner abgeschlachtet"
+ agot_inhabitants_slain_btw_desc: "Nach der Belagerung dieser Siedlung haben die Angreifer alle nennenswerten Einwohner getötet."
+ agot_scorched_earth_btw: "Siedlung gebrandschatzt"
+ agot_scorched_earth_btw_desc: "Nach der Belagerung dieser Siedlung haben die Angreifer diese niedergebrannt."
+ agot_camp_ransacked: "Siedlung geplündert"
+ agot_camp_ransacked_desc: "Nach der Belagerung dieser Siedlung haben die Angreifer nur noch die armseligen Habseligkeiten zurück gelassen."
+  
+ agot_diseased_snail_industry_modifier: "Diseased Snail Industry"
+ agot_diseased_snail_industry_modifier_desc: "The snail industry in this county is suffering from a snailborne disease, greatly impacting the trade."
+  
+ agot_containing_the_spread: "Economic Stranglehold"
+ agot_containing_the_spread_desc: "Due to entry being restricted, this county has a suffering economy and a restless population."
+  
+ agot_wild_dragon_modifier: "Wild Dragon Present"
+ agot_wild_dragon_modifier_desc: "A wild adult dragon resides in this county, posing a danger for travelers."
+  
+ agot_stranger_shrine: "A Shrine to the Stranger"
+ agot_stranger_shrine_desc: "A pious victor erected a small shrine in this county, making it a local pilgrimage stop"
+  
+  # Ruins Restoration 
+ agot_building_delayed: "Building Delayed"
+ agot_building_delayed_desc: "The construction has been delayed due to it's lord's choices"

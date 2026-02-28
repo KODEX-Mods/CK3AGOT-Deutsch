@@ -1,0 +1,8 @@
+﻿l_german:
+ PATRON_SELECTION_TOOLTIP: "Wählt einen neuen Aspekt im Austausch für 50 [piety|E]"
+ PATRON_SELECTION_TOOLTIP_TRUE: "Wählt einen neuen Aspekt im Austausch für 50 [piety|E]"
+ PATRON_SELECTION_TOOLTIP_ZP_TRUE: "Select a new patron in exchange for 25 [piety|E]" #NT!
+ PATRON_SELECTION_TOOLTIP_ZP_FALSE: "@warning_icon! #X You require 25 [piety|E] to select a new patron.#!" #NT!
+ PATRON_SELECTION_TOOLTIP_FALSE: "Ihr benötigt 50 [piety|E], um einen neuen Aspekt zu wählen."
+ PATRON_SELECTION_MODIFIERS: "Modifikatoren"
+ PATRON_CHARACTER_ICON: "@[Character.MakeScope.Var('patron_god').GetFlagName]_patron_icon!"

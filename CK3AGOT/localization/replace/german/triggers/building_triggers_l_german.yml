@@ -46,6 +46,32 @@
  HAS_SPECIAL_BUILDING_TRIGGER_THIRD: "[PROVINCE.GetName] hat ein [special_building|E]"
  NOT_HAS_SPECIAL_BUILDING_TRIGGER_THIRD: "[PROVINCE.GetName] hat #bold kein#! [special_building|E]"
   
+ has_great_building_slot_global: "Hat einen Platz für ein [great_building|E]"
+ not_has_great_building_slot_global: "Hat #bold keinen#! Platz für ein [great_building|E]"
+ has_great_building_slot_third: "„[PROVINCE.GetName|U]“ hat einen Platz für ein [great_building|E]"
+ not_has_great_building_slot_third: "„[PROVINCE.GetName|U]“ hat #bold keinen#! Platz für ein [great_building|E]"
+  
+ has_great_building_global: "Hat ein [great_building|E]"
+ not_has_great_building_global: "Hat #bold kein#! [great_building|E]"
+ has_great_building_third: "„[PROVINCE.GetName|U]“ hat ein [great_building|E]"
+ not_has_great_building_third: "„[PROVINCE.GetName|U]“ hat #bold kein#! [great_building|E]"
+  
  HAS_HOLDING_DESC: "[PROVINCE.GetName] enthält bereits ein [holding|E]"
  NOT_HAS_HOLDING_DESC: "[PROVINCE.GetName] enthält noch #!kein#bold  [holding|E]"
+  
+ has_ruined_great_building_global: "Das [great_building|E] ist [ruined|El]"
+ not_has_ruined_great_building_global: "Das [great_building|E] ist nicht [ruined|El]"
+ has_ruined_great_building_third: "Das [great_building|E] in [PROVINCE.GetName] ist [ruined|El]"
+ not_has_ruined_great_building_third: "Das [great_building|E] in [PROVINCE.GetName] ist nicht [ruined|El]"
+  
+ is_ruined_building_being_reconstructed_global: "Das [Concept('ruined', 'ruinierte')|El] [great_building|E] in [Province.GetName] wird derzeit [Concept('rebuilt', 'wiederaufgebaut')|El]"
+ is_ruined_building_being_reconstructed_third: "$is_ruined_building_being_reconstructed_global$"
+ not_is_ruined_building_being_reconstructed_global: "Es gibt kein [Concept('ruined', 'ruiniertes')|El] [great_building|E] in [Province.GetName], das derzeit [Concept('rebuilt', 'wiederaufgebaut')|E] wird"
+ not_is_ruined_building_being_reconstructed_third: "$not_is_ruined_building_being_reconstructed_global$"
+  
+ rebuild_great_building_global: "„$GREAT_BUILDING$“ wurde [rebuilt|El]"
+ rebuild_great_building_third: "„$GREAT_BUILDING$“ in [PROVINCE.GetName] wurde [rebuilt|El]"
+  
+ ruin_great_building_global: "„$GREAT_BUILDING$“ ist [ruined|El]"
+ ruin_great_building_third: "„$GREAT_BUILDING$“ in [PROVINCE.GetName] ist [ruined|El]"
   

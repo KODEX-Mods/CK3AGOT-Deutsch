@@ -1,0 +1,27 @@
+﻿l_german:
+ agot_septon_events.0001.t: "Potental Septon"
+ agot_septon_events.0001.desc: "My son has shown signs he would do well to serve the faith PLACEHOLDER"
+ agot_septon_events.0001.a: "He would serve the Seven well"
+ agot_septon_events.0001.b: "My son will not be a septon"
+  
+ agot_septon_events.0002.t: "Refusal Septon"
+ agot_septon_events.0002.desc: "Your son has rejected being a septon PLACEHOLDER"
+ agot_septon_events.0002.a: "fine"
+  
+ agot_septon_events.0003.t: "Path of Septon"
+ agot_septon_events.0003.desc: "Your son has been accepted as a septon PLACEHOLDER"
+ agot_septon_events.0003.a: "Goodbye my son!"
+  
+ agot_septon_events.0004.t: "Vows of Septon"
+ agot_septon_events.0004.desc: "PLATZHALTER"
+ agot_septon_events.0004.a: "The Father"
+ agot_septon_events.0004.b: "The Mother"
+ agot_septon_events.0004.c: "The Warrior"
+ agot_septon_events.0004.d: "The Smith"
+ agot_septon_events.0004.e: "The Maiden"
+ agot_septon_events.0004.f: "The Crone"
+ agot_septon_events.0004.g: "The Stranger"
+  
+ agot_septon_events.0005.t: "Septon"
+ agot_septon_events.0005.desc: "PLATZHALTER"
+ agot_septon_events.0005.a: "Praise the Seven!"

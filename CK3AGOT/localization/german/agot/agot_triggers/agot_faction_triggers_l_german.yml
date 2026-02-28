@@ -1,4 +1,0 @@
-﻿l_german:
- WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER: "Was forbidden to join loyalist factions until [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )]" #NT!
- I_WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER: "You were forbidden to join loyalist factions until [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )]" #NT!
- THEY_WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER: "[CHARACTER.GetShortUIName|U] was forbidden to join loyalist factions until [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )]" #NT!

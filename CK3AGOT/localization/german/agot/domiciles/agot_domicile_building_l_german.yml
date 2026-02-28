@@ -1,0 +1,15 @@
+﻿l_german:
+ domicile_building_parameter_camp_unlocks_wilderness_settlers_maa: "Creates a [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] regiment with a size of #P 2#!." #NT!
+ domicile_building_parameter_camp_unlocks_wilderness_settlers_maa_upgrade: "Upgrades the [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] regiment to a size of #P 2#!." #NT!
+ domicile_building_parameter_camp_unlocks_wilderness_settlers_maa_how_to_recruit: "To recruit more settlers, visit a barony with an existing holding." #NT!
+ domicile_building_parameter_camp_unlocks_settle_counties: "#I Enables the option to settle counties#!" #NT!
+ domicile_building_parameter_camp_unlocks_settle_duchies: "#I Enables the option to settle entire duchies#!" #NT!
+  
+ settlement_supplies_01_domicile_building: "Settler Train" #NT!
+ settlement_supplies_02_domicile_building: "Settler Train" #NT!
+ settlement_supplies_03_domicile_building: "Settler Train" #NT!
+ settlement_supplies_04_domicile_building: "Settler Train" #NT!
+ settlement_supplies_05_domicile_building: "Settler Train" #NT!
+ settlement_supplies_06_domicile_building: "Settler Train" #NT!
+  
+ domicile_building_parameter_reduce_success_of_raid_pirate_ship: "Each level of this building increasingly reduces the Success Chance of hostile [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]" #NT!

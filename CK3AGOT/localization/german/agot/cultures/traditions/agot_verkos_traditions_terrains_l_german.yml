@@ -1,0 +1,29 @@
+﻿l_german:
+  
+ tradition_agot_frozen_flats_name: "Upon Shelves of Ice" #NT!
+ tradition_agot_frozen_flats_desc: "These people have made their home upon the great frozen flats found in the cold regions of the world. Making the most of these wintery lands, they have survived where others would have perished." #NT!
+ culture_in_frozen_flats_desc: "The [culture|E] is not present in any [county|E] with Frozen Flats [terrain|E]"
+  
+ tradition_agot_glacier_name: "Atop Ice and Stone" #NT!
+ tradition_agot_glacier_desc: "Atop the mountains and glaciers of the world, these people have carved out a rough-hewn life. Cold and hard, much like the land they inhabit." #NT!
+ culture_in_glacier_desc: "The [culture|E] is not present in any [county|E] with Glacier [terrain|E]"
+  
+ tradition_agot_cloudforest_name: "Within the Cloud's Forest" #NT!
+ tradition_agot_cloudforest_desc: "Within the deep cloud forests life is far different. Shaded from the sun itself amongst the great trees, these people make their living." #NT!
+ culture_in_cloudforest_desc: "The [culture|E] is not present in any [county|E] with Cloudforest [terrain|E]"
+  
+ tradition_agot_highlands_name: "Amongst the Highlands" #NT!
+ tradition_agot_highlands_desc: "Life in the highlands is more traditional, removed as they are from the hustle of the cities, allowing the people here to maintain their own ways." #NT!
+ culture_in_highlands_desc: "The [culture|E] is not present in any [county|E] with Highlands [terrain|E]"
+  
+ tradition_agot_taiga_bog_name: "Amongst the Bogs" #NT!
+ tradition_agot_taiga_bog_desc: "In the bogs of northern climes, dangers are abundant. But these twisted environs breed a strong people." #NT!
+ culture_in_taiga_bog_desc: "The [culture|E] is not present in any [county|E] with Taiga Bog [terrain|E]"
+  
+ tradition_agot_urban_name: "City Dwellers" #NT!
+ tradition_agot_urban_desc: "Although many despise them, the townspeople know that their lives are not as bright as they seem at first glance. The danger of a big city has no reason to be ashamed of the wild expanses of nature, because in the urban jungle, the dark alleys are as treacherous as the muddy swamps and can sign your death as surely as a bad step near a ravine." #NT!
+ culture_in_urban_desc: "The [culture|E] is not present in any [county|E] with Urban [terrain|E]"
+  
+ tradition_agot_the_bog_name: "Denizens of the Neck" #NT!
+ tradition_agot_the_bog_desc: "When the Children tried to break the land again, the Hammer of the Waters created the Neck — a place unique in the world for its dangers, both fauna and flora." #NT!
+ culture_in_the_bog_desc: "The [culture|E] is not present in any [county|E] with the Bog [terrain|E]"

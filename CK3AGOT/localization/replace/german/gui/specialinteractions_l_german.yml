@@ -8,13 +8,14 @@
  MARRIAGE_INFO: "[MarriageInfo.GetMarriageOrBetrothal]"
  MARRIAGE_CHILDREN_CHANCE_INFO: "[MatchOffer.GetChanceOfChildrenDesc]"
  MARRIAGE_CHILDREN_HOUSE_INFO: "[MatchOffer.GetChildrensHouse]"
+ MARRIAGE_IMPACT_ON_HOUSE_RELATION: "[MarriageInfo.GetSecondaryActorHouse.GetName]-[MarriageInfo.GetSecondaryRecipientHouse.GetName]-[house_relation|E] #P verbessern#! sich um [MarriageInfo.GetHouseRelationChange|=+^%] ([MarriageInfo.GetNewHouseRelationLevel.GetName])."
  CONVERT_BETROTHAL_TO_MARRIAGE: "[betrothal|E] in eine Heirat umwandeln"
  CHARACTER_UI_NAME: "[CHARACTER.GetUIName]"
  CREATE_MARRIAGE: "Vorschlagen, dass [CHARACTER.GetUIName] und [TARGET_CHARACTER.GetUIName] [married|El] sein sollten"
  BETROTHAL_ONE_CHARACTER: "Vorschlagen, dass [CHARACTER.GetUIName] und [TARGET_CHARACTER.GetUIName] ein [betrothal|E] eingehen, da einer der beiden ein [child|E] ist"
   #AGOT Modified, Vanilla typo 
- #BETROTHAL_BOTH_CHARACTERS: "Propose that [CHARACTER.GetUIName] and[TARGET_CHARACTER.GetUIName] get [betrothed|E], since both are [children|E]" #NT!
- BETROTHAL_BOTH_CHARACTERS: "Propose that [CHARACTER.GetUIName] and [TARGET_CHARACTER.GetUIName] get [betrothed|E], since both are [children|E]" #NT!
+ #BETROTHAL_BOTH_CHARACTERS: "Propose that [CHARACTER.GetUIName] and[TARGET_CHARACTER.GetUIName] get [betrothed|E], since both are [children|E]"
+ BETROTHAL_BOTH_CHARACTERS: "Propose that [CHARACTER.GetUIName] and [TARGET_CHARACTER.GetUIName] get [betrothed|E], since both are [children|E]"
  CREATE_GRAND_WEDDING_PROMISE: "Vorschlagen, dass [CHARACTER.GetUIName] und [TARGET_CHARACTER.GetUIName] [betrothed|El] werden, bis die versprochene [GetActivityType('activity_wedding').GetName] abgehalten wird"
  CREATE_GRAND_WEDDING_PROMISE_ONE_CHILD: "$BETROTHAL_ONE_CHARACTER$ und das Versprechen geben, dass eine [GetActivityType('activity_wedding').GetName] abgehalten wird"
  CREATE_GRAND_WEDDING_PROMISE_BOTH_CHILD: "$BETROTHAL_BOTH_CHARACTERS$ und das Versprechen geben, dass eine [GetActivityType('activity_wedding').GetName] abgehalten wird"
@@ -42,6 +43,8 @@
  ACTOR_RIVAL_TO_ME_REASON: "[recipient.GetShortUIName|U] ist Rivale von [actor.GetShortUIName]: $VALUE|+0$"
  NEMESIS_TO_ME_REASON: "[secondary_recipient.GetShortUIName|U] ist Erzfeind von [recipient.GetShortUIName]: $VALUE|+0$"
  ACTOR_NEMESIS_TO_ME_REASON: "[recipient.GetShortUIName|U] ist Erzfeind von [actor.GetShortUIName]: $VALUE|+0$"
+  #AGOT Modified 
+ #MARRIAGE_DESPERATION: "[secondary_recipient.GetShortUINamePossessive] Age: $VALUE|+=0$" #NT!
  MARRIAGE_DESPERATION: "Alter von [secondary_recipient.GetShortUIName]: $VALUE|+=0$"
  MARRY_CONSANGUINITY_REASON: "Die Ehe wäre [incestuous|E]: $VALUE|+=0$"
  MATRILINEAL_WARNING: "@warning_icon! #X Kinder aus dieser Ehe werden zur [dynasty|E] von [CHARACTER.GetShortUIName] gehören ([CHARACTER.GetDynastyName])!#!"
@@ -58,6 +61,8 @@
  CONTRACT_RELIGIOUS_TAXATION_REASON: "Religionssteuer: $VALUE|=+0$"
  CONTRACT_LOW_TAXES_REASON: "Niedrige Feudalpflichten: $VALUE|=+0$"
  CONTRACT_HIGH_TAXES_REASON: "Hohe Feudalpflichten: $VALUE|=+0$"
+ CONTRACT_LOW_TRIBUTARY_TAXES_REASON: "Geringe Tributzahlerpflichten: $VALUE|=+0$"
+ CONTRACT_HIGH_TRIBUTARY_TAXES_REASON: "Umfangreiche Tributzahlerpflichten: $VALUE|=+0$"
  MONASTIC_EXPECTATIONS_REASON: "$tradition_monastic_communities_name$: $VALUE|=+0$"
  high_obligations: "Hohe Feudal-[obligations|E]"
  high_obligations_taxes: "[vassal_contract|E] beginnen bei: [GetVassalContractType('feudal_government_taxes').GetObligationName('feudal_tax_high')]"
@@ -74,6 +79,84 @@
  religious_protection_tt: "[vassal_contract|E] beginnen bei: [GetVassalContractType('religious_rights').GetObligationName('religious_rights_protected')]"
  jizya_religious_protection_tt: "[vassal_contract|E] beginnen bei: [GetVassalContractType('jizya_special_rights').GetObligationName('jizya_special_rights_granted')]"
  SURVEYOR_PERK_REALM_ACCEPTANCE: "Ihr habt „[GetPerk('know_your_land_know_your_people_perk').GetName(GetPlayer)]“: $VALUE|=+0$"
+  
+ high_tributary_obligations: "Reicher Tribut"
+ normal_tributary_obligations: "Erwarteter Tribut"
+ low_tributary_obligations: "Magerer Tribut"
+  
+ tributary_contract_starts_with_common: "[tributary_contract|E] beginnen bei"
+  
+ high_feudal_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('feudal_government_taxes').GetObligationName('feudal_tax_high')]"
+ high_feudal_tribute_levies: "$tributary_contract_starts_with_common$: [GetSubjectContractType('feudal_government_levies').GetObligationName('feudal_levies_high')]"
+  
+ low_feudal_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('feudal_government_taxes').GetObligationName('feudal_tax_low')]"
+ normal_feudal_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('feudal_government_taxes').GetObligationName('feudal_tax_normal')]"
+  
+ low_feudal_tribute_levies: "$tributary_contract_starts_with_common$: [GetSubjectContractType('feudal_government_levies').GetObligationName('feudal_levies_low')]"
+ normal_feudal_tribute_levies: "$tributary_contract_starts_with_common$: [GetSubjectContractType('feudal_government_levies').GetObligationName('feudal_levies_normal')]"
+  
+ no_celestial_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('celestial_tribute_gold').GetObligationName('celestial_tributary_tax_none')]"
+ low_celestial_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('celestial_tribute_gold').GetObligationName('celestial_tributary_tax_low')]"
+ normal_celestial_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('celestial_tribute_gold').GetObligationName('celestial_tributary_tax_normal')]"
+ high_celestial_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('celestial_tribute_gold').GetObligationName('celestial_tributary_tax_high')]"
+  
+ no_celestial_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('celestial_tribute_prestige').GetObligationName('celestial_prestige_transfer_none')]"
+ low_celestial_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('celestial_tribute_prestige').GetObligationName('celestial_prestige_transfer_low')]"
+ normal_celestial_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('celestial_tribute_prestige').GetObligationName('celestial_prestige_transfer_normal')]"
+ high_celestial_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('celestial_tribute_prestige').GetObligationName('celestial_prestige_transfer_high')]"
+  
+ no_hegemonic_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('hegemonic_tribute_gold').GetObligationName('hegemonic_tributary_tax_none')]"
+ low_hegemonic_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('hegemonic_tribute_gold').GetObligationName('hegemonic_tributary_tax_low')]"
+ normal_hegemonic_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('hegemonic_tribute_gold').GetObligationName('hegemonic_tributary_tax_normal')]"
+ high_hegemonic_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('hegemonic_tribute_gold' ).GetObligationName('hegemonic_tributary_tax_high')]"
+  
+ no_hegemonic_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('hegemonic_tribute_prestige').GetObligationName('hegemonic_prestige_transfer_none')]"
+ low_hegemonic_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('hegemonic_tribute_prestige').GetObligationName('hegemonic_prestige_transfer_low')]"
+ normal_hegemonic_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('hegemonic_tribute_prestige' ).GetObligationName( 'hegemonic_prestige_transfer_normal')]"
+ high_hegemonic_tribute_prestige: "$tributary_contract_starts_with_common$ [GetSubjectContractType('hegemonic_tribute_prestige').GetObligationName('hegemonic_prestige_transfer_high')]"
+  
+ expected_to_pay_tribute: "Es wird erwartet, dass [SCOPE.sC('tributary_loc').GetShortUIName] regelmäßig zum Tributzahlen ($tribute_mission_decision_china$) nach [SCOPE.sC('suzerain_loc').GetCapitalLocation.GetName] [Concept('travel', 'reist')|E]"
+  
+ low_nomad_tribute_herd: "$tributary_contract_starts_with_common$: [GetSubjectContractType('nomad_government_herd').GetObligationName('herd_tax_low')]"
+ normal_nomad_tribute_herd: "$tributary_contract_starts_with_common$: [GetSubjectContractType('nomad_government_herd').GetObligationName('herd_tax_normal')]"
+ high_nomad_tribute_herd: "$tributary_contract_starts_with_common$: [GetSubjectContractType('nomad_government_herd').GetObligationName('herd_tax_high')]"
+ extortionate_nomad_tribute_herd: "$tributary_contract_starts_with_common$: [GetSubjectContractType('nomad_government_herd').GetObligationName('herd_tax_extortionate')]"
+  
+ none_nomad_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('nomad_government_prestige').GetObligationName('prestige_transfer_none')]"
+ normal_nomad_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('nomad_government_prestige').GetObligationName('prestige_transfer_normal')]"
+ high_nomad_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('nomad_government_prestige').GetObligationName('prestige_transfer_high')]"
+  
+ suzerain_guarantee: "$tributary_contract_starts_with_common$: [GetSubjectContractType('suzerain_war_participation_guarantee').GetObligationName('suzerain_war_participation_guarantee_available')]"
+ no_suzerain_guarantee: "$tributary_contract_starts_with_common$: [GetSubjectContractType('suzerain_war_participation_guarantee').GetObligationName('suzerain_war_participation_guarantee_none')]"
+ no_tributary_war_obligations: "$tributary_contract_starts_with_common$: [GetSubjectContractType('tributary_war_participation_obligation').GetObligationName('tributary_war_participation_obligation_none')]"
+ tributary_war_obligations: "$tributary_contract_starts_with_common$ [GetSubjectContractType('tributary_war_participation_obligation').GetObligationName('tributary_war_participation_obligation_forced')]"
+  
+  #War / High 
+ high_mandala_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('mandala_government_taxes').GetObligationName('mandala_tax_high')]"
+ high_mandala_tribute_piety: "$tributary_contract_starts_with_common$: [GetSubjectContractType('mandala_government_piety').GetObligationName('mandala_piety_high')]"
+ high_mandala_tribute_levies: "$tributary_contract_starts_with_common$: [GetSubjectContractType('mandala_government_levies').GetObligationName('mandala_levies_high')]"
+  #Low 
+ exempt_mandala_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('mandala_government_taxes').GetObligationName('mandala_tax_exempt')]"
+ low_mandala_tribute_piety: "$tributary_contract_starts_with_common$: [GetSubjectContractType('mandala_government_piety').GetObligationName('mandala_piety_low')]"
+ exempt_mandala_tribute_levies: "$tributary_contract_starts_with_common$: [GetSubjectContractType('mandala_government_levies').GetObligationName('mandala_levies_exempt')]"
+  #Regular 
+ normal_mandala_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('mandala_government_taxes').GetObligationName('mandala_tax_normal')]"
+ normal_mandala_tribute_piety: "$tributary_contract_starts_with_common$: [GetSubjectContractType('mandala_government_piety').GetObligationName('mandala_piety_normal')]"
+ low_mandala_tribute_levies: "$tributary_contract_starts_with_common$: [GetSubjectContractType('mandala_government_levies').GetObligationName('mandala_levies_low')]"
+  #Prestige for non-Mandala 
+ low_mandala_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('mandala_government_prestige').GetObligationName('mandala_prestige_low')]"
+ normal_mandala_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('mandala_government_prestige').GetObligationName('mandala_prestige_normal')]"
+ high_mandala_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('mandala_government_prestige').GetObligationName('mandala_prestige_high')]"
+  #For default tributaries 
+ low_subjugated_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('default_tributary_taxes').GetObligationName('tributary_tax_low')]"
+ high_subjugated_tribute_taxes: "$tributary_contract_starts_with_common$: [GetSubjectContractType('default_tributary_taxes').GetObligationName('tributary_tax_high')]"
+ none_subjugated_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('default_tributary_prestige').GetObligationName('prestige_transfer_none')]"
+ normal_subjugated_tribute_prestige: "$tributary_contract_starts_with_common$: [GetSubjectContractType('default_tributary_prestige').GetObligationName('prestige_transfer_normal')]"
+  
+  # WANUA BARTER GOODS TRIBUTE OBLIGATIONS 
+ high_wanua_tribute_barter_goods: "$tributary_contract_starts_with_common$: [GetSubjectContractType('barter_goods_obligations').GetObligationName('barter_goods_high')]"
+ medium_wanua_tribute_barter_goods: "$tributary_contract_starts_with_common$: [GetSubjectContractType('barter_goods_obligations').GetObligationName('barter_goods_medium')]"
+ low_wanua_tribute_barter_goods: "$tributary_contract_starts_with_common$: [GetSubjectContractType('barter_goods_obligations').GetObligationName('barter_goods_low')]"
   
  AI_ELOPE_CONSEQUENCES: "[recipient.GetShortUIName|U] fürchtet die Folgen: $VALUE|=+0$"
  AI_SPOUSE_OPINION: "Meinung von [CHARACTER.GetShortUIName] über den eigenen Ehepartner: $VALUE|=+0$"
@@ -109,7 +192,9 @@
  WONT_FIGHT_BEST_FRIEND_REASON: "Kämpft nicht gegen [Concept('best_friend', 'besten Freund')]: $VALUE|=+0$"
  WONT_FIGHT_LOVER_REASON: "Kämpft nicht gegen [lover|E]: $VALUE|=+0$"
  WONT_FIGHT_SOULMATE_REASON: "Kämpft nicht gegen [Concept('soulmate', 'Seelengefährten')|E]: $VALUE|=+0$"
+ WONT_FIGHT_OBEDIENT_REASON: "Kämpft nicht gegen [suzerain|E]: $VALUE|=+0$"
  WONT_FIGHT_MEANINGLESS_REASON: "Wird nicht an bedeutungslosen Konflikten teilnehmen: $VALUE|=+0$"
+ MANDALA_GUARANTEE_REASON: "Mandala-Garantie: $VALUE|=+0$"
  HAS_YOUR_SUPPORT_REASON: "Hat Eure Unterstützung: $VALUE|=+0$"
  ENTRENCHED_REGENT_WILL_SUPPORT_LIEGE: "[entrenched_regent|EU] beschützt das [realm|E]: $VALUE|=+0$"
  NO_CHARACTERS_TO_SELECT: "#weak Keine gültigen Charaktere gefunden#!"
@@ -132,6 +217,7 @@
  AI_OPINION_REASON: "[opinion|E] von [CHARACTER.GetShortUIName] über [TARGET_CHARACTER.GetShortUIName]: $VALUE|=+0$"
  AI_OPINION_REASON_SPOUSE: "[opinion|E] von [CHARACTER.GetShortUIName] über Ehepartner ([TARGET_CHARACTER.GetShortUIName]): $VALUE|=+0$"
  AI_OPINION_REASON_ACTOR: "[opinion|E] von [CHARACTER.GetShortUIName] über Verkuppler ([TARGET_CHARACTER.GetShortUIName]): $VALUE|=+0$"
+ AI_CONTRACT_BALANCE: "Bandevorzüge: $VALUE|=+0$"
  AI_REFUSAL_IS_TREASON: "Weigerung wäre Verrat: $VALUE|=+0$"
  AI_CLAIMANT_PENALTY: "[recipient.GetShortUIName|U] wird von einer Fraktion unterstützt: $VALUE|=+0$"
  AI_PRISON_FEUDAL_COMPLEX_PERK: "[GetPerk('prison_feudal_complex_perk').GetName(GetPlayer)]: $VALUE|=+0$"
@@ -167,6 +253,16 @@
  AI_DYNASTY_PRESTIGE_REASON_LOWBORN_NO_POSITIVE_TRAIT: "Euer Kandidat ist von [Concept('lowborn', 'niedriger Geburt')|E] und hat keine positiven [Concept('congenital', 'vererblichen')|E] [traits|E]: $VALUE|=+0$"
  AI_NO_FERTILITY_REASON: "[recipient.GetShortUIName|U] hat keinen [Concept('heir', 'Erben')|E] und die Verbindung wird nicht [Concept('fertility', 'fruchtbar sein')|E]: $VALUE|=+0$"
  AI_ATTRACTION_REASON: "[recipient.GetShortUIName|U] fühlt sich von [secondary_actor.GetShortUIName|U] angezogen: $VALUE|=+0$"
+ AI_TRIBUTARY_REASON: "[recipient.GetShortUIName|U] ist [tributary|E] von [actor.GetShortUIName]: $VALUE|=+0$"
+ AI_OBEDIENT_REASON: "[recipient.GetShortUIName|U] ist [obedient|El] gegenüber [actor.GetShortUIName]: $VALUE|=+0$"
+ AI_FILTHY_HORSE_LORD_REASON: "[actor.GetShortUIName|U] is ein dreckiger [GetGovernment('nomad_government').GetName|l]er Pferdefürst: $VALUE|=+0$"
+ AI_OBEDIENT_REVERSE_REASON: "[actor.GetShortUIName|U] ist gegenüber [recipient.GetShortUIName] [obedient|El]: $VALUE|=+0$"
+ AI_NOT_OBEDIENT_REVERSE_REASON: "[actor.GetShortUIName|U] ist gegenüber [recipient.GetShortUIName] nicht [obedient|E]: $VALUE|=+0$"
+ AI_REASON_LOW_PROWESS: "[actor.GetShortUIName|U] hat niedriges [prowess|E]: $VALUE|=+0$"
+ AI_REASON_NOMADIC_AUTHORITY_1: "[dominance|E] von [actor.GetShortUIName] ist „[GetLaw('nomadic_authority_1').GetName]“: $VALUE|=+0$"
+ AI_REASON_NOMADIC_AUTHORITY_2: "[dominance|E] von [actor.GetShortUIName] ist „[GetLaw('nomadic_authority_2').GetName]“: $VALUE|=+0$"
+ AI_REASON_NOMADIC_AUTHORITY_4: "[dominance|E] von [actor.GetShortUIName] ist „[GetLaw('nomadic_authority_4').GetName]“: $VALUE|=+0$"
+ AI_REASON_NOMADIC_AUTHORITY_5: "[dominance|E] von [actor.GetShortUIName] ist „[GetLaw('nomadic_authority_5').GetName]“: $VALUE|=+0$"
  LIEGE_REASON: "Ihr seid [recipient.Custom('DE_PRO_POS_S_3P')] Lehnsherr: $VALUE|=+0$"
  FOREIGN_COURT_REASON: "[secondary_recipient.GetShortUIName|U] würde an einen fremden Hof gehen: $VALUE|=+0$"
  MARRY_LOW_FERTILITY_REASON: "Die Ehe wird eine niedrige [fertility|E] haben: $VALUE|+0$"
@@ -176,10 +272,10 @@
  MARRIAGE_PRESTIGE_TOOLTIP_OUR: "[Character.GetShortUINameNotMe] erhält: [prestige_i] [MatchOffer.GetActorPrestige|+0]:\n[MatchOffer.GetActorPrestigeDesc]"
  MARRIAGE_PRESTIGE_TOOLTIP_THEIR: "[Character.GetShortUINameNotMe] erhält: [prestige_i] [MatchOffer.GetRecipientPrestige|+0]:\n[MatchOffer.GetRecipientPrestigeDesc]"
   #AGOT Modified 
- #MARRIAGE_INBREEDING_RISK_WE: "We are related and there is a [MatchOffer.GetInbreedingChance|V%^1] risk of our children being [inbred|E]" #NT!
- #MARRIAGE_INBREEDING_THEY: "They are related and there is a [MatchOffer.GetInbreedingChance|V%^1] risk of their children being [inbred|E]" #NT!
- MARRIAGE_INBREEDING_RISK_WE: "We are related and there is a\n[MatchOffer.GetInbreedingChance|V%^1] risk of our children being [inbred|E]" #NT!
- MARRIAGE_INBREEDING_THEY: "They are related and there is a\n[MatchOffer.GetInbreedingChance|V%^1] risk of their children being [inbred|E]" #NT!
+ #MARRIAGE_INBREEDING_RISK_WE: "We are related and there is a [MatchOffer.GetInbreedingChance|V%^1] risk of our children being [inbred|E]"
+ #MARRIAGE_INBREEDING_THEY: "They are related and there is a [MatchOffer.GetInbreedingChance|V%^1] risk of their children being [inbred|E]"
+ MARRIAGE_INBREEDING_RISK_WE: "We are related and there is a\n[MatchOffer.GetInbreedingChance|V%^1] risk of our children being [inbred|E]"
+ MARRIAGE_INBREEDING_THEY: "They are related and there is a\n[MatchOffer.GetInbreedingChance|V%^1] risk of their children being [inbred|E]"
  NO_INBREEDING_RISK_WE: "Wir sind nicht verwandt und unsere Kinder können nicht [inbred|E] sein"
  NO_INBREEDING_THEY: "Sie sind nicht verwandt und ihre Kinder können nicht [inbred|E] sein"
  MARRYING_INTO_HOUSE: "Heiratet in Haus $HOUSE$ ein: $PRESTIGE|0+$"
@@ -188,6 +284,7 @@
  MARRYING_RELATIVE_PRESTIGE: "Ist ein enger Verwandter von [CHARACTER.GetShortUIName] ([CHARACTER.GetTitleTierName]): $PRESTIGE|0+$"
  MARRIAGE_DOCTRINE_PRESTIGE_EFFECT: "[CHARACTER.GetFaith.GetName]-Doktrinen: $PRESTIGE_MULT|0+=%$"
  TRADE_PIETY_FOR_BETTER_AI_ACCEPTANCE: "[piety|E] einsetzen, um Akzeptanz zu erhöhen"
+ MARRY_INCAPABLE_REASON: "[secondary_actor.GetShortUIName|U] ist [GetTrait('incapable').GetName(GetNullCharacter)|l]: $VALUE|+0$"
  EDUCATION_HOOK: "[hook_i][hook|E] einsetzen"
  MARRIAGE_HOOK: "[hook_i][hook|E] einsetzen"
  MARRIAGE_MATRILINEAL_TOGGLE: "Matrilinear"
@@ -212,6 +309,7 @@
  grant_titles_interaction_notification_effect_4: "[recipient.GetUINameNotMe] ist jetzt ein [Concept('independent', 'unabhängiger')|E] [Concept('ruler', 'Herrscher')|E]"
  grant_titles_interaction_notification_effect_5: "[recipient.GetUINameNotMe] ist jetzt ein Mitvasall"
  grant_titles_interaction_notification_effect_6: "[recipient.GetUINameNotMe] hält jetzt [loc_title.GetBaseName]"
+ grant_titles_interaction_notification_effect_7: "[recipient.GetUINameNotMe|U] wurde Euer [tributary|E]"
  NOT_grant_titles_interaction_can_only_give_diarch_de_jure_liege_to_diarch: "Da [CHARACTER.GetShortUIName] Euer [CHARACTER.GetDiarchTitle] ist, könnt Ihr [CHARACTER.Custom('DE_PRO_PER_S_3P_D')] nur [CHARACTER.Custom('DE_PRO_POS_S_3P')]en [de_jure|EU]-[liege|E]-[title|E] geben"
  grant_titles_interaction_children_not_allowed_temple: "[recipient.GetUINameNotMe] ist zu jung, um die religiösen Pflichten zu übernehmen, die mit der [temple|E]-Verwaltung einhergehen!"
  NOT_grant_titles_interaction_children_not_allowed_temple: "Kinder können die religiösen Pflichten nicht übernehmen, die mit der [temple|E]-Verwaltung einhergehen!"
@@ -220,6 +318,7 @@
  cultural_acceptance_gain_granted_title: "[landed_title.GetName] an einen [ruler|E] der [recipient.GetCulture.GetName|l]en [culture|E] vergeben"
  cultural_acceptance_gain_auto_granted_county: "[landed_title.GetName] an einen [ruler|E] der [ROOT.Culture.GetName|l]en [culture|E] vergeben"
  runestone_grant_title_warning: "@warning_icon! #X Der Runenstein in [target.GetNameNoTier] wird zerstört, da [recipient.GetShortUIName] nicht zu Eurer [dynasty|E] gehört!#!"
+ grant_title_nomad_and_at_vassal_limit: "@warning_icon! #X Bei [vassal_limit|E]! Diesem [character|E] einen Titel zu gewähren, wird ihn zu einem [tributary|E] machen!#!"
   
   
  revoke_title: "[Character.Custom('GetRevokeTitleName')]"
@@ -268,6 +367,9 @@
  GRANT_TITLES_ITEM_CANT_HEAD_OF_FAITH: "Ihr könnt keine Glaubensoberhaupt-Titel verleihen"
  GRANT_TITLES_ITEM_CANT_HEAD_OF_FAITH_TO_INFIDEL: "Ihr könnt keine Glaubensoberhaupt-Titel an Charaktere verleihen, die nicht dasselbe Glaubensoberhaupt haben"
  GRANT_TITLES_ITEM_CANT_GIVE_NOBLE_FAMILY: "Ihr könnt Euren [Concept('noble_family', 'Adelsfamilien')|E]-Titel nicht weggeben"
+ GRANT_TITLES_ITEM_CANT_GIVE_NOMAD_TITLE: "Ihr könnt Euren [Concept('nomadic','nomadischen')|E] Titel nicht weggeben"
+ GRANT_TITLES_ITEM_CANT_GIVE_CEREMONIAL_TITLE: "Ihr könnt Euren [Concept('ceremonial_liege', 'Zeremonienlehnsherrn')|E]-Titel nicht weggeben"
+ GRANT_TITLES_ITEM_CANT_GIVE_NOMADIC_TITLES_TO_NON_NOMADS_TITLE: "Nicht-[GetGovernment('nomad_government').GetName|l]e [rulers|E] können nur bestehenden [vassals|E] [GetGovernment('nomad_government').GetName|l]e [titles|E] gewähren\n@alert_icon! #alert_trial Verbessert das [holding|E] mit [gold_i][gold|E], um diese Beschränkung aufzuheben#!"
  GRANT_TITLES_ITEM_CANT_GIVE_ADMIN_PRIMARY: "Ihr könnt Euer Haupt-[governorship|E] nicht weggeben"
  GRANT_TITLES_ITEM_ADMIN_CANT_GIVE_MORE_THAN_ONE: "Ihr könnt immer nur ein [governorship|E] zur Zeit gewähren"
  GRANT_TITLE_BARONY_HAS_COUNTY_SELECTED: "Wird verliehen, da [TITLE.GetName] verliehen wird"
@@ -308,6 +410,11 @@
  BANISH_NEGATIVE_REASON: "[recipient.Custom('DE_PRO_PER_S_3P_N')] fürchtet die Verbannung: $VALUE|=+0$"
  TAKE_VOWS_NEGATIVE_REASON: "[recipient.Custom('DE_PRO_PER_S_3P_N')|U] will ungern „[GetTrait('devoted').GetName(recipient.Self)]“ werden: $VALUE|=+0$"
  RECRUITMET_NEGATIVE_REASON: "[recipient.Custom('DE_PRO_PER_S_3P_N')] zögert rekrutiert zu werden: $VALUE|=+0$"
+ CASTRATE_NEGATIVE_REASON: "[recipient.Custom('DE_PRO_PER_S_3P_N')|U] will nicht kastriert werden: $VALUE|=+0$"
+ CASTRATE_NO_CHILDREN_NEGATIVE_REASON: "[recipient.Custom('DE_PRO_PER_S_3P_N')|U] hat keine [children|E] und will nicht kastriert werden: $VALUE|=+0$"
+ DEMAND_ADMIN_NEGATIVE_REASON: "[recipient.Custom('DE_PRO_PER_S_3P_N')|U] zögert, [government_bureaucratic_type|El] zu werden: $VALUE|=+0$"
+ DISFIGURE_NEGATIVE_REASON: "[recipient.Custom('DE_PRO_PER_S_3P_N')|U] will nicht entstellt werden: $VALUE|=+0$"
+ BLIND_NEGATIVE_REASON: "[recipient.Custom('DE_PRO_PER_S_3P_N')|U] will nicht geblendet werden: $VALUE|=+0$"
  DECLARE_WAR_HEADER: "Krieg erklären"
  DECLARE_WAR_TOGGLE_TITLE: "[CasusBelliTitleItem.GetBlockers]#I Klicken, um den Anspruch für [CasusBelliTitleItem.GetTitle.GetName] zu wechseln#! "
  DECLARE_WAR_CLICK_TITLE: "[CasusBelliTitleItem.GetBlockers]#I Klicken, um den Anspruch für [CasusBelliTitleItem.GetTitle.GetName] auszuwählen#! "
@@ -402,6 +509,17 @@
  GENERIC_HOOK_VALID: "Ihr werdet ein [hook|E] einsetzen, damit [recipient.GetShortUINameNoTooltip] annimmt"
  GENERIC_HOOK_INVALID: "Ihr habt kein [hook|E] gegen [recipient.GetShortUINameNoTooltip]"
   
+ GENERIC_USE_STRONG_HOOK: "Ein [strong_hook_i] [strong_hook|E] nutzen"
+ GENERIC_USE_HOOK: "Ein [hook_i] [hook|E] nutzen"
+ GENERIC_USE_DREAD: "Euren [dread_i][dread|E] einsetzen"
+ DECREASE_PIETY_OBLIGATIONS: "[Concept('piety', 'Frömmigkeits')|E]-[obligation|E] senken"
+ ALREADY_LOWEST_PIETY_OBLIGATION: "Bereits auf niedrigster [Concept('piety', 'Frömmigkeits')|E]-[obligation|E]"
+ DECREASE_LEVY_OBLIGATIONS: "[Concept('levy', 'Aufgebots')|E]-[obligation|E] senken"
+ ALREADY_LOWEST_LEVY_OBLIGATION: "Bereits auf niedrigster [Concept('levy', 'Aufgebots')|E]-[obligation|E]"
+ DECREASE_TAX_OBLIGATIONS: "[tax|E]-[obligation|E] senken"
+ ALREADY_LOWEST_TAX_OBLIGATION: "Bereits auf niedrigster [tax|E]-[obligation|E]"
+ DECREASE_PRESTIGE_OBLIGATIONS: "[prestige|E]-[obligation|E] senken"
+ ALREADY_LOWEST_PRESTIGE_OBLIGATION: "Bereits auf niedrigster [prestige|E]-[obligation|E]"
   
  GENERIC_HOOK_POSITIVE_REASON: "Eingesetztes [hook|E]: $VALUE|=+0$"
  DIVORCE_INCESTUOUS: "Heirat ist Inzestuös: $VALUE|=+0$"
@@ -419,6 +537,7 @@
  THEY_ARE_VIRTUOUS: "[secondary_recipient.GetShortUINameNoTooltip] hat [Concept('virtuous', 'tugendhafte')|E] [traits|E]: $VALUE|=+0$"
  I_AM_SINFUL: "Ihr habt [Concept('sinful', 'sündhafte')|E] [traits|E]: $VALUE|=+0$"
  THEY_ARE_SINFUL: "[secondary_recipient.GetShortUINameNoTooltip] hat [Concept('sinful', 'sündhafte')|E] [traits|E]: $VALUE|=+0$"
+ I_HAVE_LOW_PIETY: "Eure [piety_level|E] ist [GetModifier('piety_level_0').GetNameWithTooltip]: $VALUE|=+0$"
  WE_ARE_RIVALS: "Ihr seid Rivalen: $VALUE|=+0$"
  WE_ARE_NEMESES: "Ihr seid Erzfeinde: $VALUE|=+0$"
  WE_ARE_LOVERS: "Ihr habt eine Affäre: $VALUE|=+0$"
@@ -585,8 +704,11 @@
  DECREASE_UNITY_DESC: "Will [house_unity|E] verringern"
   
  LOW_LEGITIMACY_REASON: "Niedrige [legitimacy|E] von [actor.GetShortUIName]: $VALUE|=+0$"
+ RECIPIENT_LOW_LEGITIMACY_REASON: "Niedrige [legitimacy|E] von [recipient.GetShortUIName]: $VALUE|=+0$"
  HIGH_LEGITIMACY_REASON: "Hohe [legitimacy|E] von [actor.GetShortUIName]: $VALUE|=+0$"
+ RECIPIENT_HIGH_LEGITIMACY_REASON: "Hohe [legitimacy|E] von [recipient.GetShortUIName]: $VALUE|=+0$"
   
+ PIETY_REASON: "[piety|E] als Hebel: $VALUE|=+0$ #weak (beruht auf Eurer [piety_level])#!"
  INFLUENCE_REASON: "Übt [influence|E] aus: $VALUE|=+0$ #weak (beruht auf Eurer [influence_level])#!"
  RECIPIENT_SECRET: "Setzt [secret|E] von [recipient.GetShortUIName] ein: $VALUE|=+0$"
  SECONDARY_RECIPIENT_SECRET: "Setzt [secret|E] von [secondary_recipient.GetShortUIName] ein: $VALUE|=+0$"
@@ -604,19 +726,38 @@
  AI_OPINION_PRESTIGE_LEVEL_EXALTED: "[prestige_level|E] „[GetPrestigeLevelName('(int32)4')|U]“: $VALUE|=+0$"
  AI_OPINION_PRESTIGE_LEVEL_LEGENDARY: "[prestige_level|E] „[GetPrestigeLevelName('(int32)5')|U]“: $VALUE|=+0$"
   
+ AI_OPINION_MERIT_LEVEL: "[merit_level|E]: $VALUE|=+0$"
+  
  TRADE_INFLUENCE_FOR_BETTER_AI_ACCEPTANCE: "@influence_icon![influence|E] einsetzen, um Akzeptanz zu erhöhen"
  INFLUENCE_INTERACTION_ACCEPTANCE_SEND_OPTION: "[influence|E] einsetzen: $VALUE|=+0$"
  not_same_realm_tt: "Ihr und [recipient.GetShortUIName] seid #BOLD nicht#! im selben [realm|E]"
+ same_realm_tt: "Ihr und [recipient.GetShortUIName] seid im selben Reich"
  INFLUENCE_SEND_OPTION: "@influence_icon![influence|E] einsetzen"
  HISTORICAL_ADMIN_REASON: "[recipient.GetCulture.GetName|U]e Kultur ist historisch mit einer [Concept('administrative', 'Verwaltungs')|E]-[government|E] verknüpft: $VALUE|=+0$"
  WILL_BE_VASSALIZED_REASON: "Wird Euer [vassal|E] werden: $VALUE|=+0$"
  RIVAL_VASSAL_REASON: "Rivalisierender [vassal|E] innerhalb des [Concept('realm', 'Reichs')|E]: $VALUE|=+0$"
-  
  negotiate_settlement_title_cant_receive_reason_higher_tier_without_county: "[recipient.GetShortUINameNotMe|U] muss mindestens eine Gemeinde zusammen mit [target.GetName] (er-)halten"
+  
+ AI_ACCEPT_assume_house_bloc_leadership_interaction_requirement_tt: "Mehr als #V 51 %#! der [bloc|E]-[member_houses|E] ist das [house_head|E] [allied|E] mit, [cowed|E] von, [Concept('friends', 'befreundet')|E] mit, eine [lover|E] von, [vassal|E] oder darunter von oder steht unter [Concept('hooked', 'Druck')|E] durch [actor.GetShortUIName] oder schuldet Euch bzw. dieser Person Treue als eigenem [dynast|E]: $VALUE|=+0$"
   
  STATE_FAITH_CREATE_FAITH_REASON: "Ihr habt im [realm|E] großen Einfluss: $VALUE|=+0$"
  HAS_PERK_PROPHET_REASON: "Ihr habt den [perk|E] „[GetPerk('prophet_perk').GetName(GetPlayer)]“: $VALUE|=+0$"
   
  INSPECTION_REASON: "[Concept('inspection', 'Inspektions')|E]-Bonus: $VALUE|=+0$"
  HAS_WET_NURSE_REASON: "[GetCourtPositionType('wet_nurse_court_position').GetName]: $VALUE|=+0$"
+ HAS_CHAMPION_REASON: "[GetCourtPositionType('champion_court_position').GetName]: $VALUE|=+0$"
+ NOMADIC_BASE_MALUS: "[GetGovernment('nomad_government').GetName|U]e [government|E]: $VALUE|=+0$"
   
+ I_HAVE_CRUSADER_KING_TRAIT: "[GetTrait('crusader_king').GetName(GetPlayer)]: $VALUE|=+0$"
+ I_HAVE_SAINT_TRAIT: "[GetTrait('saint').GetName(GetPlayer)]: $VALUE|=+0$"
+ I_HAVE_SAOSHYANT_TRAIT: "[GetTrait('saoshyant').GetName(GetPlayer)]: $VALUE|=+0$"
+ I_HAVE_SAOSHYANT_DESCENDANT_TRAIT: "[GetTrait('saoshyant_descendant').GetName(GetPlayer)]: $VALUE|=+0$"
+ I_HAVE_SAYYID_TRAIT: "[GetTrait('sayyid').GetName(GetPlayer)]: $VALUE|=+0$"
+ I_HAVE_ORDER_MEMBER_TRAIT: "[GetTrait('order_member').GetName(GetPlayer)]: $VALUE|=+0$"
+ I_HAVE_FAITH_WARRIOR_TRAIT: "[GetTrait('faith_warrior').GetName(GetPlayer)]: $VALUE|=+0$"
+ I_HAVE_THEOLOGIAN_TRAIT: "[GetTrait('theologian').GetName(GetPlayer)]: $VALUE|=+0$"
+ I_HAVE_DESPOILER_OF_BYZANTIUM_TRAIT: "[GetTrait('despoiler_of_byzantium').GetName(GetPlayer)]: $VALUE|=+0$"
+ I_HAVE_GALLOWSBAIT_TRAIT: "[GetTrait('gallowsbait').GetName(GetPlayer)]: $VALUE|=+0$"
+ I_HAVE_DECADENT_TRAIT: "[GetTrait('decadent').GetName(GetPlayer)|U]: $VALUE|=+0$"
+  
+ cannot_grant_ceremonial_title: "[Concept('ceremonial_liege', 'Zeremonienlehnsherrn')|E]-[title|E] können nicht verliehen werden"

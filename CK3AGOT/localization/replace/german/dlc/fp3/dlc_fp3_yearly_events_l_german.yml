@@ -51,13 +51,13 @@
  fp3_yearly.2021.desc_greedy: "„[sinful_tax_collector.GetTitledFirstNameNoTooltip] handelt völlig eigennützig und wird eher von der Liebe zum Geld als von der zur Gerechtigkeit angetrieben. [sinful_tax_collector.Custom('DE_PRO_PER_S_3P_N')|U] sammelt gewöhnlich mehr ein, als fällig wäre, und gibt nichts als Almosensteuer ab.“"
  fp3_yearly.2021.desc_arbitrary: "„[sinful_tax_collector.GetTitledFirstNameNoTooltip] beachtet kaum Gesetze oder Vorschriften, sondern treibt die Steuern ganz nach [sinful_tax_collector.Custom('DE_PRO_POS_S_3P')]en eigenen Launen ein. Die Bauern sind oft beunruhigt über [sinful_tax_collector.Custom('DE_PRO_POS_S_3P')]e so beliebig scheinenden Eintreibungen.“"
   #AGOT Modified 
- #fp3_yearly.2021.desc_cynical: ""[sinful_tax_collector.GetTitledFirstNameNoTooltip] is not fearful of [ROOT.Char.GetFaith.HighGodName], frequently sleeping through morning prayers and stealing morsels during Ramadan. All of us fear [ROOT.Char.GetFaith.HighGodNamePossessive] justice on [sinful_tax_collector.GetHerHis] account."" #NT!
- fp3_yearly.2021.desc_cynical: ""[sinful_tax_collector.GetTitledFirstNameNoTooltip] is not fearful of [ROOT.Char.GetFaith.HighGodName], frequently sleeping through morning prayers and stealing morsels during fasting. All of us fear [ROOT.Char.GetFaith.HighGodNamePossessive] justice on [sinful_tax_collector.GetHerHis] account."" #NT!
+ #fp3_yearly.2021.desc_cynical: ""[sinful_tax_collector.GetTitledFirstNameNoTooltip] is not fearful of [ROOT.Char.GetFaith.HighGodName], frequently sleeping through morning prayers and stealing morsels during Ramadan. All of us fear [ROOT.Char.GetFaith.HighGodNamePossessive] justice on [sinful_tax_collector.GetHerHis] account.""
+ fp3_yearly.2021.desc_cynical: ""[sinful_tax_collector.GetTitledFirstNameNoTooltip] is not fearful of [ROOT.Char.GetFaith.HighGodName], frequently sleeping through morning prayers and stealing morsels during fasting. All of us fear [ROOT.Char.GetFaith.HighGodNamePossessive] justice on [sinful_tax_collector.GetHerHis] account.""
  fp3_yearly.2021.desc_contrite: "„[sinful_tax_collector.GetTitledFirstNameNoTooltip] kennt keinerlei Verschwiegenheit : [sinful_tax_collector.Custom('DE_PRO_PER_S_3P_N')|U] gibt die Lage der Finanzen des Reichs jedem preis, der zuhört. Es ist nur eine Frage der Zeit, bis dieses Wissen in den Händen des Feindes landet.“"
  fp3_yearly.2021.desc_outro: "\n\n[denouncing_taxpayer.GetTitledFirstNameNoTooltip] [denouncing_taxpayer.Custom('quirk_pos_present')], in der klaren Erwartung, dass ich [sinful_tax_collector.GetTitledFirstNameNoTooltip] für diese Verfehlungen feuere."
   #AGOT Modified 
- #fp3_yearly.2021.a: "[sinful_tax_collector.GetTitledFirstNameNoTooltip|U] will be dismissed, inshallah." #NT!
- fp3_yearly.2021.a: "[sinful_tax_collector.GetTitledFirstNameNoTooltip|U] will be dismissed, gods willing." #NT!
+ #fp3_yearly.2021.a: "[sinful_tax_collector.GetTitledFirstNameNoTooltip|U] will be dismissed, inshallah."
+ fp3_yearly.2021.a: "[sinful_tax_collector.GetTitledFirstNameNoTooltip|U] will be dismissed, gods willing."
  fp3_yearly.2021.b: "Ich werde Eure Worte im Hinterkopf behalten."
   
  fp3_yearly.2030.t: "Eine schöne Herrschaft"
@@ -93,11 +93,11 @@
  fp3_yearly.2041.a: "Verflucht sei dieser grässliche Mensch!"
   
   #AGOT Modified 
- #fp3_yearly.2050.t: "Futuwaa Lodges" #NT!
- fp3_yearly.2050.t: "Religious Schools" #NT!
+ #fp3_yearly.2050.t: "Futuwaa Lodges"
+ fp3_yearly.2050.t: "Religious Schools"
   #AGOT Modified 
- #fp3_yearly.2060.t_madrasas: "Madrasas" #NT!
- fp3_yearly.2060.t_madrasas: "Temple Schools" #NT!
+ #fp3_yearly.2060.t_madrasas: "Madrasas"
+ fp3_yearly.2060.t_madrasas: "Temple Schools"
  fp3_yearly.2060.t_houses_of_worship: "Bildung in [ROOT.Char.GetFaith.HouseOfWorshipPlural|U]"
   
   #Ghazi Gone Bad, by Ola Jentzsch 
@@ -160,8 +160,8 @@
  ####The Frontiers' Call, by Ola Jentzsch#### 
  fp3_yearly.8004.t: "Die Grenze ruft"
   #AGOT Modified 
- #fp3_yearly.8004.desc: "To some who dwell in the splendid cities of this land, the wailing winds of the northern steppes still echo in their hearts. For good or ill, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fp3_child_to_leave'))] [fp3_child_to_leave.GetFirstName] has begun to feel this call.\n\n"[parent.GetMotherFather|U], you must let me leave. I want to hone my mind and my sword on the wild frontier, travel with caravans and mountain-folk, and perhaps even find the #italic Hara Berezaiti#! mountain of legend."\n\nBut [worried_relation.GetFirstName] loves [fp3_child_to_leave.GetFirstNameNoTooltip] dearly, and is begging me to refuse [fp3_child_to_leave.GetHerHis] request." #NT!
- fp3_yearly.8004.desc: "To some who dwell in the splendid cities of this land, the wailing winds of the Dothraki Sea still echo in their hearts. For good or ill, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fp3_child_to_leave'))] [fp3_child_to_leave.GetFirstName] has begun to feel this call.\n\n"[parent.GetMotherFather|U], you must let me leave. I want to hone my mind and my sword on the wild frontier, travel with caravans and traders, and perhaps even see the #italic Mother of Mountains#! of legend."\n\nBut [worried_relation.GetFirstName] loves [fp3_child_to_leave.GetFirstNameNoTooltip] dearly, and is begging me to refuse [fp3_child_to_leave.GetHerHis] request." #NT!
+ #fp3_yearly.8004.desc: "To some who dwell in the splendid cities of this land, the wailing winds of the northern steppes still echo in their hearts. For good or ill, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fp3_child_to_leave'))] [fp3_child_to_leave.GetFirstName] has begun to feel this call.\n\n"[parent.GetMotherFather|U], you must let me leave. I want to hone my mind and my sword on the wild frontier, travel with caravans and mountain-folk, and perhaps even find the #italic Hara Berezaiti#! mountain of legend."\n\nBut [worried_relation.GetFirstName] loves [fp3_child_to_leave.GetFirstNameNoTooltip] dearly, and is begging me to refuse [fp3_child_to_leave.GetHerHis] request."
+ fp3_yearly.8004.desc: "To some who dwell in the splendid cities of this land, the wailing winds of the Dothraki Sea still echo in their hearts. For good or ill, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fp3_child_to_leave'))] [fp3_child_to_leave.GetFirstName] has begun to feel this call.\n\n"[parent.GetMotherFather|U], you must let me leave. I want to hone my mind and my sword on the wild frontier, travel with caravans and traders, and perhaps even see the #italic Mother of Mountains#! of legend."\n\nBut [worried_relation.GetFirstName] loves [fp3_child_to_leave.GetFirstNameNoTooltip] dearly, and is begging me to refuse [fp3_child_to_leave.GetHerHis] request."
  fp3_yearly.8004.a: "Zieht blank, Ihr missratenes junges Ding!"
  fp3_yearly.8004.b: "Wohlt Ihr nicht bleiben? Zum Wohl von [worried_relation.GetFirstNameNoTooltip]?"
  fp3_yearly.8004.c: "Falls Ihr geht, seid Ihr nicht mehr mein Kind."
@@ -177,8 +177,8 @@
  fp3_yearly.8007.c: "Und nun müsst Ihr heiraten!"
  fp3_yearly.8008.t: "Eine schmachvolle Niederlage"
   #AGOT Modified 
- #fp3_yearly.8008.desc: "I stumble backwards, bloodied and exhausted, as [fp3_child_to_leave.GetFirstNameNoTooltip] approaches me with weapon in hand.\n\n"I told you already, [parent.GetMotherFather], I #italic will#! leave. I will travel to the frontier, as my heart desired, far away along the Silk Road, and #italic you#! will pay for it."\n\nI can do nothing but watch as my [fp3_child_to_leave.Custom('GetDaughterSon')] leaves, head held high, with a bag of Kushan and Sasanian gold coins from my treasury." #NT!
- fp3_yearly.8008.desc: "I stumble backwards, bloodied and exhausted, as [fp3_child_to_leave.GetFirstNameNoTooltip] approaches me with weapon in hand.\n\nI told you already, [parent.GetMotherFather], I #italic will#! leave. I will travel to the frontier, as my heart desired, far away in the Dothraki Sea, and #italic you#! will pay for it."\n\nI can do nothing but watch as my [fp3_child_to_leave.Custom('GetDaughterSon')] leaves, head held high, with a bag of gold and silver from my treasury." #NT!
+ #fp3_yearly.8008.desc: "I stumble backwards, bloodied and exhausted, as [fp3_child_to_leave.GetFirstNameNoTooltip] approaches me with weapon in hand.\n\n"I told you already, [parent.GetMotherFather], I #italic will#! leave. I will travel to the frontier, as my heart desired, far away along the Silk Road, and #italic you#! will pay for it."\n\nI can do nothing but watch as my [fp3_child_to_leave.Custom('GetDaughterSon')] leaves, head held high, with a bag of Kushan and Sasanian gold coins from my treasury."
+ fp3_yearly.8008.desc: "I stumble backwards, bloodied and exhausted, as [fp3_child_to_leave.GetFirstNameNoTooltip] approaches me with weapon in hand.\n\nI told you already, [parent.GetMotherFather], I #italic will#! leave. I will travel to the frontier, as my heart desired, far away in the Dothraki Sea, and #italic you#! will pay for it."\n\nI can do nothing but watch as my [fp3_child_to_leave.Custom('GetDaughterSon')] leaves, head held high, with a bag of gold and silver from my treasury."
  fp3_yearly.8008.a: "Mein Kind kann ich verlieren, aber mein Gold auch?"
  fp3_yearly.8008.b: "Es wäre besser gewesen, ein Eunuch zu sein …"
  fp3_yearly.8008.c: "Das Schicksal wird Euch zu mir zurückbringen. Ihr werdet sehen …"
@@ -235,8 +235,8 @@
   #Forgotten Runestones, by Ola Jentzsch 
  fp3_yearly.8016.t: "Vergessene Steine"
   #AGOT Modified 
- #fp3_yearly.8016.desc: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hyrcanian_vassal'))] [hyrcanian_vassal.GetFirstName] has invited me to take a look at a triad of strange carved stones, deep in the Hyrcanian forest on his domain.\n\n"They must have been erected by a lost expedition of the savage #italic Rusiyyah#!", [hyrcanian_vassal.GetSheHe] tells me. "Now, the local forest-dwellers have taken a liking to these stones, and believe that their unknown makers will descend upon them from the Caspian Sea with swift and bloody vengeance should the stones be destroyed. But I do not believe such tales. Though I cannot read the letters on these stones, they for sure are pagan idols, and must be smashed to pieces. Is it not so, my liege?"" #NT!
- fp3_yearly.8016.desc: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hyrcanian_vassal'))] [hyrcanian_vassal.GetFirstName] has invited me to take a look at a triad of strange carved stones, deep in the woods on his domain.\n\nThey must have been erected by a lost expedition of the #italic Hairy Men#!", [hyrcanian_vassal.GetSheHe] tells me. "Now, the local forest-dwellers have taken a liking to these stones, and believe that their unknown makers will descend upon them from the Shivering Sea with swift and bloody vengeance should the stones be destroyed. But I do not believe such tales. Though I cannot read the letters on these stones, they for sure are foriegn idols, and must be smashed to pieces. Is it not so, my liege?"" #NT!
+ #fp3_yearly.8016.desc: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hyrcanian_vassal'))] [hyrcanian_vassal.GetFirstName] has invited me to take a look at a triad of strange carved stones, deep in the Hyrcanian forest on his domain.\n\n"They must have been erected by a lost expedition of the savage #italic Rusiyyah#!", [hyrcanian_vassal.GetSheHe] tells me. "Now, the local forest-dwellers have taken a liking to these stones, and believe that their unknown makers will descend upon them from the Caspian Sea with swift and bloody vengeance should the stones be destroyed. But I do not believe such tales. Though I cannot read the letters on these stones, they for sure are pagan idols, and must be smashed to pieces. Is it not so, my liege?""
+ fp3_yearly.8016.desc: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hyrcanian_vassal'))] [hyrcanian_vassal.GetFirstName] has invited me to take a look at a triad of strange carved stones, deep in the woods on his domain.\n\nThey must have been erected by a lost expedition of the #italic Hairy Men#!", [hyrcanian_vassal.GetSheHe] tells me. "Now, the local forest-dwellers have taken a liking to these stones, and believe that their unknown makers will descend upon them from the Shivering Sea with swift and bloody vengeance should the stones be destroyed. But I do not believe such tales. Though I cannot read the letters on these stones, they for sure are foriegn idols, and must be smashed to pieces. Is it not so, my liege?""
  fp3_yearly.8016.a: "Reicht mir einen Vorschlaghammer!"
  fp3_yearly.8016.b: "Nein, wir werden auf die Waldbewohner hören."
  fp3_yearly.8016.c: "Ich werde sie entfernen und vor meiner Residenz ([ROOT.Char.Custom('ResidenceBuilding')]) wieder aufstellen lassen …"
@@ -304,21 +304,21 @@
   
  fp3_frontier_story_cycle.0002_opening: "Groß[ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.GetTitleTierName]!"
   #AGOT Modified 
- #fp3_frontier_story_cycle.0002_letter: "I regret my behavior during the affair with the nomads. They have indeed left [nomads_county.GetNameNoTier], and I hear the conflicts between them and the farmers have abated. While I still insist that you should take the nomad threat seriously, I would like to offer you these beautiful gold coins, minted in the Kushan Empire long ago, as a token of my respect." #NT!
- fp3_frontier_story_cycle.0002_letter: "I regret my behavior during the affair with the nomads. They have indeed left [nomads_county.GetNameNoTier], and I hear the conflicts between them and the farmers have abated. While I still insist that you should take the nomad threat seriously, I would like to offer you these beautiful gold coins, minted in the Lengii Empire long ago, as a token of my respect." #NT!
+ #fp3_frontier_story_cycle.0002_letter: "I regret my behavior during the affair with the nomads. They have indeed left [nomads_county.GetNameNoTier], and I hear the conflicts between them and the farmers have abated. While I still insist that you should take the nomad threat seriously, I would like to offer you these beautiful gold coins, minted in the Kushan Empire long ago, as a token of my respect."
+ fp3_frontier_story_cycle.0002_letter: "I regret my behavior during the affair with the nomads. They have indeed left [nomads_county.GetNameNoTier], and I hear the conflicts between them and the farmers have abated. While I still insist that you should take the nomad threat seriously, I would like to offer you these beautiful gold coins, minted in the Lengii Empire long ago, as a token of my respect."
  fp3_frontier_story_cycle.0002.a: "Ein schönes Geschenk. Alles ist verziehen."
  fp3_frontier_story_cycle.0002.b: "Ich brauche Euren Tand nicht, und ich nehme auch Eure Entschuldigung nicht an."
   
  fp3_frontier_story_cycle.0003.t: "Zwingend nötige Zahlung"
   #AGOT Modified 
- #fp3_frontier_story_cycle.0003_beginning: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('greedy_chaplain'))] [greedy_chaplain.GetFirstName] has, apparently, spent much time thinking about [turkic_leader.GetName] and [turkic_leader.GetHerHis] nomad tribe.\n\n"Indeed, my [ROOT.Char.GetLadyLord]", [greedy_chaplain.GetFirstNameNoTooltip] says, "they have been in my prayers. For I have learnt that some of them still follow their pagan faith." #NT!
- fp3_frontier_story_cycle.0003_beginning: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('greedy_chaplain'))] [greedy_chaplain.GetFirstName] has, apparently, spent much time thinking about [turkic_leader.GetName] and [turkic_leader.GetHerHis] nomad tribe.\n\nIndeed, my [ROOT.Char.GetLadyLord]", [greedy_chaplain.GetFirstNameNoTooltip] says, "they have been in my prayers. For I have learnt that some of them still follow their heathen faith."" #NT!
+ #fp3_frontier_story_cycle.0003_beginning: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('greedy_chaplain'))] [greedy_chaplain.GetFirstName] has, apparently, spent much time thinking about [turkic_leader.GetName] and [turkic_leader.GetHerHis] nomad tribe.\n\n"Indeed, my [ROOT.Char.GetLadyLord]", [greedy_chaplain.GetFirstNameNoTooltip] says, "they have been in my prayers. For I have learnt that some of them still follow their pagan faith."
+ fp3_frontier_story_cycle.0003_beginning: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('greedy_chaplain'))] [greedy_chaplain.GetFirstName] has, apparently, spent much time thinking about [turkic_leader.GetName] and [turkic_leader.GetHerHis] nomad tribe.\n\nIndeed, my [ROOT.Char.GetLadyLord]", [greedy_chaplain.GetFirstNameNoTooltip] says, "they have been in my prayers. For I have learnt that some of them still follow their heathen faith.""
   #AGOT Modified 
- #fp3_frontier_story_cycle.0003_jizya: "We should have them pay a #italic jizya#! tax for the privilege of keeping their idolatrous ways."\n\n" #NT!
- fp3_frontier_story_cycle.0003_jizya: "We should have them pay a tax for the privilege of keeping their idolatrous ways.\n\n" #NT!
+ #fp3_frontier_story_cycle.0003_jizya: "We should have them pay a #italic jizya#! tax for the privilege of keeping their idolatrous ways."\n\n"
+ fp3_frontier_story_cycle.0003_jizya: "We should have them pay a tax for the privilege of keeping their idolatrous ways.\n\n"
   #AGOT Modified 
- #fp3_frontier_story_cycle.0003_not_jizya: "We should do as the Muslims are wont to do, and have them pay an extra tax, for surely, you have been generous enough towards them?"\n\n" #NT!
- fp3_frontier_story_cycle.0003_not_jizya: "We should do as the Freehold was wont to do, and have them pay an extra tax, for surely, you have been generous enough towards them?\n\n"" #NT!
+ #fp3_frontier_story_cycle.0003_not_jizya: "We should do as the Muslims are wont to do, and have them pay an extra tax, for surely, you have been generous enough towards them?"\n\n"
+ fp3_frontier_story_cycle.0003_not_jizya: "We should do as the Freehold was wont to do, and have them pay an extra tax, for surely, you have been generous enough towards them?\n\n""
  fp3_frontier_story_cycle.0003_ending: "„Das ist nicht gerecht“, beschwert sich [turkic_leader.GetFirstNameNoTooltip]. „Ich habe hundert Reiterschützen in Euren Dienst gestellt und auch mich selbst. Wenn Ihr davon abseht, uns auf diese Weise zu besteuern, verspreche ich, diesen Gefallen nicht zu vergessen.“"
  fp3_frontier_story_cycle.0003.a: "Wir werden jede einzelne Münze finden, die Euer Stamm versteckt hat."
  fp3_frontier_story_cycle.0003.b: "Nein. [greedy_chaplain.GetFirstNameNoTooltip] hat recht. Ihr müsst besteuert werden."
@@ -330,8 +330,8 @@
  fp3_frontier_story_cycle.0004.a: "Verzagt nicht. Ich nehme Euch bei mir auf."
  fp3_frontier_story_cycle.0004.b: "Es scheint nur gerecht, dass Ihr in den Stamm von [turkic_leader.GetFirstNameNoTooltip] aufgenommen werdet."
   #AGOT Modified 
- #fp3_frontier_story_cycle.0004.c: "I will send you to a monastery." #NT!
- fp3_frontier_story_cycle.0004.c: "I will send you to a temple." #NT!
+ #fp3_frontier_story_cycle.0004.c: "I will send you to a monastery."
+ fp3_frontier_story_cycle.0004.c: "I will send you to a temple."
  fp3_frontier_story_cycle.0004.d: "Ich habe keine Ahnung, was sich [upset_vassal.GetFirstNameNoTooltip] erwartet hatte. Geht Euch ein Waisenhaus suchen."
  fp3_pay_for_upkeep_flavor: "Ihr werdet für ihren Unterhalt bezahlen müssen."
   
@@ -353,8 +353,8 @@
   
  fp3_frontier_story_cycle.0007.t: "Karawanenkatastrophe"
   #AGOT Modified 
- #fp3_frontier_story_cycle.0007.desc: ""Oh [ROOT.Char.GetTitleTierName]", my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmonger_councillor'))] [warmonger_councillor.GetFirstName] says, "merchants in the [bandits_county.GetName] speak of raids by bandits on horseback. Now the caravans make detours from that land, hurting our trade on the Silk Road. I pray you send me to investigate this matter."\n\n"No", [turkic_leader.GetName] interjects fiercely, "I can send my warriors to safeguard the caravan ways permanently - if we may graze our horses in [bandits_county.GetNameNoTierNoTooltip] henceforth. Surely that would be a better course of action?"\n\nBut [warmonger_councillor.GetFirstNameNoTooltip] protests. "Beware, my [ROOT.Char.GetLadyLord] - the farmers loathe when you let nomads roam freely."" #NT!
- fp3_frontier_story_cycle.0007.desc: ""Oh [ROOT.Char.GetTitleTierName]", my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmonger_councillor'))] [warmonger_councillor.GetFirstName] says, "merchants in the [bandits_county.GetName] speak of raids by bandits on horseback. Now the caravans make detours from that land, hurting our trade on the roads. I pray you send me to investigate this matter."\n\n"No", [turkic_leader.GetName] interjects fiercely, "I can send my warriors to safeguard the caravan ways permanently - if we may graze our horses in [bandits_county.GetNameNoTierNoTooltip] henceforth. Surely that would be a better course of action?"\n\nBut [warmonger_councillor.GetFirstNameNoTooltip] protests. "Beware, my [ROOT.Char.GetLadyLord] - the farmers loathe when you let nomads roam freely."" #NT!
+ #fp3_frontier_story_cycle.0007.desc: ""Oh [ROOT.Char.GetTitleTierName]", my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmonger_councillor'))] [warmonger_councillor.GetFirstName] says, "merchants in the [bandits_county.GetName] speak of raids by bandits on horseback. Now the caravans make detours from that land, hurting our trade on the Silk Road. I pray you send me to investigate this matter."\n\n"No", [turkic_leader.GetName] interjects fiercely, "I can send my warriors to safeguard the caravan ways permanently - if we may graze our horses in [bandits_county.GetNameNoTierNoTooltip] henceforth. Surely that would be a better course of action?"\n\nBut [warmonger_councillor.GetFirstNameNoTooltip] protests. "Beware, my [ROOT.Char.GetLadyLord] - the farmers loathe when you let nomads roam freely.""
+ fp3_frontier_story_cycle.0007.desc: ""Oh [ROOT.Char.GetTitleTierName]", my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmonger_councillor'))] [warmonger_councillor.GetFirstName] says, "merchants in the [bandits_county.GetName] speak of raids by bandits on horseback. Now the caravans make detours from that land, hurting our trade on the roads. I pray you send me to investigate this matter."\n\n"No", [turkic_leader.GetName] interjects fiercely, "I can send my warriors to safeguard the caravan ways permanently - if we may graze our horses in [bandits_county.GetNameNoTierNoTooltip] henceforth. Surely that would be a better course of action?"\n\nBut [warmonger_councillor.GetFirstNameNoTooltip] protests. "Beware, my [ROOT.Char.GetLadyLord] - the farmers loathe when you let nomads roam freely.""
  fp3_frontier_story_cycle.0007.a: "Der Plan von [turkic_leader.GetFirstNameNoTooltip] bleibt dennoch der bessere."
  fp3_frontier_story_cycle.0007.b: "Meinethalben. Ich gewähre Euch diese Gelegenheit."
  fp3_frontier_story_cycle.0007.c: "Wenn wir einfach abwarten, werden die Händler irgendwann zurückkehren."
@@ -391,8 +391,8 @@
   #Acidic Advancements, by Ola Jentzsch 
  fp3_yearly.8021.t: "Eine saure Sauerei"
   #AGOT Modified 
- #fp3_yearly.8021.desc: "A few days ago, [alchemy_enthusiast.GetName], the learned [alchemy_enthusiast.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))] of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))] [upset_vassal.GetFirstName], took part in an experiment with oil of vitriol concocted by the celebrated alchemist [enthusiastic_alchemist.GetName]. Apparently, something went horribly wrong.\n\n"You must punish [enthusiastic_alchemist.GetFirstNameNoTooltip] severely", [upset_vassal.GetTitledFirstNameNoTooltip] tells me, "behold the wretched state of my [alchemy_enthusiast.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))]!"\n\n"No, my [ROOT.Char.GetTitleTierName]", [enthusiastic_alchemist.GetFirstNameNoTooltip] begs, "I have merely perfected a formula long sought by the wise. It is not my fault that [alchemy_enthusiast.GetTitledFirstNameNoTooltip] were careless with a whole #italic uqiyyah#! of the most corrosive substance yet seen on earth."" #NT!
- fp3_yearly.8021.desc: "A few days ago, [alchemy_enthusiast.GetName], the learned [alchemy_enthusiast.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))] of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))] [upset_vassal.GetFirstName], took part in an experiment with oil of vitriol concocted by the celebrated alchemist [enthusiastic_alchemist.GetName]. Apparently, something went horribly wrong.\n\n"You must punish [enthusiastic_alchemist.GetFirstNameNoTooltip] severely", [upset_vassal.GetTitledFirstNameNoTooltip] tells me, "behold the wretched state of my [alchemy_enthusiast.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))]!"\n\n"No, my [ROOT.Char.GetTitleTierName]", [enthusiastic_alchemist.GetFirstNameNoTooltip] begs, "I have merely perfected a formula long sought by the wise. It is not my fault that [alchemy_enthusiast.GetTitledFirstNameNoTooltip] were careless with a vial of the most corrosive substance yet seen on earth."" #NT!
+ #fp3_yearly.8021.desc: "A few days ago, [alchemy_enthusiast.GetName], the learned [alchemy_enthusiast.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))] of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))] [upset_vassal.GetFirstName], took part in an experiment with oil of vitriol concocted by the celebrated alchemist [enthusiastic_alchemist.GetName]. Apparently, something went horribly wrong.\n\n"You must punish [enthusiastic_alchemist.GetFirstNameNoTooltip] severely", [upset_vassal.GetTitledFirstNameNoTooltip] tells me, "behold the wretched state of my [alchemy_enthusiast.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))]!"\n\n"No, my [ROOT.Char.GetTitleTierName]", [enthusiastic_alchemist.GetFirstNameNoTooltip] begs, "I have merely perfected a formula long sought by the wise. It is not my fault that [alchemy_enthusiast.GetTitledFirstNameNoTooltip] were careless with a whole #italic uqiyyah#! of the most corrosive substance yet seen on earth.""
+ fp3_yearly.8021.desc: "A few days ago, [alchemy_enthusiast.GetName], the learned [alchemy_enthusiast.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))] of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))] [upset_vassal.GetFirstName], took part in an experiment with oil of vitriol concocted by the celebrated alchemist [enthusiastic_alchemist.GetName]. Apparently, something went horribly wrong.\n\n"You must punish [enthusiastic_alchemist.GetFirstNameNoTooltip] severely", [upset_vassal.GetTitledFirstNameNoTooltip] tells me, "behold the wretched state of my [alchemy_enthusiast.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))]!"\n\n"No, my [ROOT.Char.GetTitleTierName]", [enthusiastic_alchemist.GetFirstNameNoTooltip] begs, "I have merely perfected a formula long sought by the wise. It is not my fault that [alchemy_enthusiast.GetTitledFirstNameNoTooltip] were careless with a vial of the most corrosive substance yet seen on earth.""
  fp3_acid_delving_deeper_tooltip: "Ihr achtet nicht weiter auf die Beschwerden von [upset_vassal.GetFirstNameNoTooltip], um Euch mit den Entdeckungen von [enthusiastic_alchemist.GetNameNoTooltip] zu befassen."
  fp3_yearly.8021.a: "[enthusiastic_alchemist.GetNameNoTooltip], erzählt mir mehr über diese Entdeckungen …"
  fp3_yearly.8021.b: "Wohlan denn, [upset_vassal.GetTitledFirstNameNoTooltip]: Ich werde [enthusiastic_alchemist.Custom('DE_PRO_PER_S_3P_A')] zum Tod verurteilen."
@@ -401,8 +401,8 @@
   
  fp3_yearly.8022.t: "Vitriol-Visionen"
   #AGOT Modified 
- #fp3_yearly.8022.desc: ""What I have invented is derived from a glassy mineral the Babylonians and Greeks of old called #italic vitriol#!", [enthusiastic_alchemist.GetName] explains. "By meticulously roasting green vitriol in an iron retort, I created this corrosive substance. I could see both scholarly and medicinal uses for it, but beware my [ROOT.Char.GetLadyLord], it is not to be trifled with, as [alchemy_enthusiast.GetTitledFirstName] has learnt. Perhaps you might sponsor my further research?"" #NT!
- fp3_yearly.8022.desc: ""What I have invented is derived from a glassy mineral the Qaathi and Ghiscari of old called #italic vitriol#!", [enthusiastic_alchemist.GetName] explains. "By meticulously roasting green vitriol in an iron retort, I created this corrosive substance. I could see both scholarly and medicinal uses for it, but beware my [ROOT.Char.GetLadyLord], it is not to be trifled with, as [alchemy_enthusiast.GetTitledFirstName] has learnt. Perhaps you might sponsor my further research?"" #NT!
+ #fp3_yearly.8022.desc: ""What I have invented is derived from a glassy mineral the Babylonians and Greeks of old called #italic vitriol#!", [enthusiastic_alchemist.GetName] explains. "By meticulously roasting green vitriol in an iron retort, I created this corrosive substance. I could see both scholarly and medicinal uses for it, but beware my [ROOT.Char.GetLadyLord], it is not to be trifled with, as [alchemy_enthusiast.GetTitledFirstName] has learnt. Perhaps you might sponsor my further research?""
+ fp3_yearly.8022.desc: ""What I have invented is derived from a glassy mineral the Qaathi and Ghiscari of old called #italic vitriol#!", [enthusiastic_alchemist.GetName] explains. "By meticulously roasting green vitriol in an iron retort, I created this corrosive substance. I could see both scholarly and medicinal uses for it, but beware my [ROOT.Char.GetLadyLord], it is not to be trifled with, as [alchemy_enthusiast.GetTitledFirstName] has learnt. Perhaps you might sponsor my further research?""
  fp3_yearly.8022.a: "Ich werde diese Substanz höchstpersönlich studieren!"
  fp3_yearly.8022.b: "Könnte es auch eine …#italic militärische#! Verwendung geben?"
  fp3_yearly.8022.c: "Gute Arbeit, doch ich habe keine Verwendung dafür."
@@ -443,8 +443,8 @@
   
  fp3_yearly.8027.t: "Neunhundertneunzig Kapitel aus Gold"
   #AGOT Modified 
- #fp3_yearly.8027.desc: "The celebrated writer [snubbed_poet.GetName] has had a falling out with his long-time patron, [former_employer.GetName].\n\n"[former_employer.GetSheHe|U] promised me nine hundred and ninety talents of gold", [snubbed_poet.GetFirstNameNoTooltip] tells me, "one for every chapter in the epic poem I have long prepared on [former_employer.GetHerHis] behalf. I had planned to use it to restore the collapsed #italic qanats#! in my home village. But when I was in the bathhouse, a courier came with my promised reward - but the coins were of #italic silver#!! Upset by this betrayal, I gave it all to the courier, the bathhouse host, and a juice peddler. Now I need a new employer, while I finish the last chapters, and I hear you have enough gold to match the previous offer..."" #NT!
- fp3_yearly.8027.desc: "The celebrated writer [snubbed_poet.GetName] has had a falling out with his long-time patron, [former_employer.GetName].\n\n[former_employer.GetSheHe|U] promised me nine hundred and ninety pounds of gold", [snubbed_poet.GetFirstNameNoTooltip] tells me, "one for every chapter in the epic poem I have long prepared on [former_employer.GetHerHis] behalf. I had planned to use it to restore the collapsed aqueducts in my home village. But when I was in the bathhouse, a courier came with my promised reward - but the coins were of #italic silver#!! Upset by this betrayal, I gave it all to the courier, the bathhouse host, and a juice peddler. Now I need a new employer, while I finish the last chapters, and I hear you have enough gold to match the previous offer..."" #NT!
+ #fp3_yearly.8027.desc: "The celebrated writer [snubbed_poet.GetName] has had a falling out with his long-time patron, [former_employer.GetName].\n\n"[former_employer.GetSheHe|U] promised me nine hundred and ninety talents of gold", [snubbed_poet.GetFirstNameNoTooltip] tells me, "one for every chapter in the epic poem I have long prepared on [former_employer.GetHerHis] behalf. I had planned to use it to restore the collapsed #italic qanats#! in my home village. But when I was in the bathhouse, a courier came with my promised reward - but the coins were of #italic silver#!! Upset by this betrayal, I gave it all to the courier, the bathhouse host, and a juice peddler. Now I need a new employer, while I finish the last chapters, and I hear you have enough gold to match the previous offer...""
+ fp3_yearly.8027.desc: "The celebrated writer [snubbed_poet.GetName] has had a falling out with his long-time patron, [former_employer.GetName].\n\n[former_employer.GetSheHe|U] promised me nine hundred and ninety pounds of gold", [snubbed_poet.GetFirstNameNoTooltip] tells me, "one for every chapter in the epic poem I have long prepared on [former_employer.GetHerHis] behalf. I had planned to use it to restore the collapsed aqueducts in my home village. But when I was in the bathhouse, a courier came with my promised reward - but the coins were of #italic silver#!! Upset by this betrayal, I gave it all to the courier, the bathhouse host, and a juice peddler. Now I need a new employer, while I finish the last chapters, and I hear you have enough gold to match the previous offer...""
  fp3_yearly.8027.a: "Ich werde Euch die #italic Hälfte#! dieses Betrags geben – sobald ich das fertiggestellte Buch in Händen halte."
  fp3_yearly.8027.b: "Das muss ein Missverständnis mit [former_employer.GetTitledFirstNameNoTooltip] sein …"
  fp3_yearly.8027.c: "Haltet Ihr mich für verschwendungssüchtig? Versucht es woanders."
@@ -455,33 +455,33 @@
  fp3_mediate_between_them.flavor: "Ihr versucht, die Lage zwischen [snubbed_poet.GetNameNoTooltip] und [former_employer.GetFirstNameNoTooltip] zu klären."
   
   #AGOT Modified 
- #fp3_yearly.8028.t: "The Book of Kings" #NT!
- fp3_yearly.8028.t: "The Book of Octarchs" #NT!
+ #fp3_yearly.8028.t: "The Book of Kings"
+ fp3_yearly.8028.t: "The Book of Octarchs"
   #AGOT Modified 
- #fp3_yearly.8028.desc: "It is completed", [snubbed_poet.GetName] declares, "as I promised, all 990 chapters, epic tales of Persian heroism and wonders in ages long ago. I poured my soul into this work, and never again shall I make its like. I am but a humble mortal poet. Yet, thanks to your patronage, perhaps my book can last through the ages, and become beacon of resurgent pride for Persia."\n\n"Now...you had promised me 495 talents of gold?"" #NT!
- fp3_yearly.8028.desc: "It is completed, [snubbed_poet.GetName] declares, "as I promised, all 990 chapters, epic tales of Ghiscari heroism and wonders in ages long ago. I poured my soul into this work, and never again shall I make its like. I am but a humble mortal poet. Yet, thanks to your patronage, perhaps my book can last through the ages, and become beacon of resurgent pride for Ghis."\n\n"Now...you had promised me 495 pounds of gold?"" #NT!
+ #fp3_yearly.8028.desc: "It is completed", [snubbed_poet.GetName] declares, "as I promised, all 990 chapters, epic tales of Persian heroism and wonders in ages long ago. I poured my soul into this work, and never again shall I make its like. I am but a humble mortal poet. Yet, thanks to your patronage, perhaps my book can last through the ages, and become beacon of resurgent pride for Persia."\n\n"Now...you had promised me 495 talents of gold?""
+ fp3_yearly.8028.desc: "It is completed, [snubbed_poet.GetName] declares, "as I promised, all 990 chapters, epic tales of Ghiscari heroism and wonders in ages long ago. I poured my soul into this work, and never again shall I make its like. I am but a humble mortal poet. Yet, thanks to your patronage, perhaps my book can last through the ages, and become beacon of resurgent pride for Ghis."\n\n"Now...you had promised me 495 pounds of gold?""
  fp3_yearly.8028.a: "Sie gehören Euch, und Ihr solltet bleiben und mir dienen."
  fp3_yearly.8028.b: "Ja. Hier nehmt sie und helft Eurem Dorf."
- fp3_yearly.8028.c: "Is #italic #! what I paid for? What a disappointment." #NT!
+ fp3_yearly.8028.c: "Is #italic #! what I paid for? What a disappointment."
   
   #AGOT Modified 
- #shahnameh_name: "The Book of Kings" #NT!
- shahnameh_name: "The Book of Octarchs" #NT!
+ #shahnameh_name: "The Book of Kings"
+ shahnameh_name: "The Book of Octarchs"
   #AGOT Modified 
- #shahnameh_desc: "This massive tome tells, in exquisite verse and detail, the mythical history of the Persian Empire from the creation of the world until the Muslim conquest. It seems to stir the heart of every Persian who reads it." #NT!
- shahnameh_desc: "This massive tome tells, in exquisite verse and detail, the mythical history of the Old Ghiscari Empire from the creation of the empire until the Valryiran conquest. It seems to stir the heart of every Ghiscari who reads it." #NT!
+ #shahnameh_desc: "This massive tome tells, in exquisite verse and detail, the mythical history of the Persian Empire from the creation of the world until the Muslim conquest. It seems to stir the heart of every Persian who reads it."
+ shahnameh_desc: "This massive tome tells, in exquisite verse and detail, the mythical history of the Old Ghiscari Empire from the creation of the empire until the Valryiran conquest. It seems to stir the heart of every Ghiscari who reads it."
   
   #AGOT Modified 
- #persian_epic_name: "Persian Epic" #NT!
- persian_epic_name: "Ghiscari Epic" #NT!
+ #persian_epic_name: "Persian Epic"
+ persian_epic_name: "Ghiscari Epic"
   #AGOT Modified 
- #persian_epic_desc: "This book is crammed full of epic poetry celebrating the deeds and destinies of Persian heroes in days of old." #NT!
- persian_epic_desc: "This book is crammed full of epic poetry celebrating the deeds and destinies of Ghiscari heroes in days of old." #NT!
+ #persian_epic_desc: "This book is crammed full of epic poetry celebrating the deeds and destinies of Persian heroes in days of old."
+ persian_epic_desc: "This book is crammed full of epic poetry celebrating the deeds and destinies of Ghiscari heroes in days of old."
   
  fp3_yearly.8029.t: "Eine Geschichte vom alten Ruhm"
   #AGOT Modified 
- #fp3_yearly.8029.desc: "[snubbed_poet.GetName] hands me his script, and many pages already decorated with fine miniatures drawn with a skilled hand. "Here is the book that I promised you", [snubbed_poet.GetSheHe] declares triumphantly. "And with what humble skill I may possess, I promise you will not find it lacking. It tells of heroes like Arash the Archer, Fereydun the Dragon-Slayer, beautiful princesses and Persia's ancient glory. I even made a couplet tying your great dynasty to it all..."\n\n"Now, we said something about 495 talents of gold?"" #NT!
- fp3_yearly.8029.desc: "[snubbed_poet.GetName] hands me his script, and many pages already decorated with fine miniatures drawn with a skilled hand. Here is the book that I promised you", [snubbed_poet.GetSheHe] declares triumphantly. "And with what humble skill I may possess, I promise you will not find it lacking. It tells of heroes like Hizdahr the Archer, Krazdak the Dragon-Slayer, beautiful princesses and Ghis' ancient glory. I even made a couplet tying your great dynasty to it all..."\n\n"Now, we said something about 495 pounds of gold?"" #NT!
+ #fp3_yearly.8029.desc: "[snubbed_poet.GetName] hands me his script, and many pages already decorated with fine miniatures drawn with a skilled hand. "Here is the book that I promised you", [snubbed_poet.GetSheHe] declares triumphantly. "And with what humble skill I may possess, I promise you will not find it lacking. It tells of heroes like Arash the Archer, Fereydun the Dragon-Slayer, beautiful princesses and Persia's ancient glory. I even made a couplet tying your great dynasty to it all..."\n\n"Now, we said something about 495 talents of gold?""
+ fp3_yearly.8029.desc: "[snubbed_poet.GetName] hands me his script, and many pages already decorated with fine miniatures drawn with a skilled hand. Here is the book that I promised you", [snubbed_poet.GetSheHe] declares triumphantly. "And with what humble skill I may possess, I promise you will not find it lacking. It tells of heroes like Hizdahr the Archer, Krazdak the Dragon-Slayer, beautiful princesses and Ghis' ancient glory. I even made a couplet tying your great dynasty to it all..."\n\n"Now, we said something about 495 pounds of gold?""
  fp3_yearly.8029.a: "Sie gehören Euch, und Ihr solltet bleiben und mir dienen."
  fp3_yearly.8029.b: "Ja. Hier nehmt sie und helft Eurem Dorf."
  fp3_yearly.8029.c: "So viel Gold für #italic so etwas#!?"
@@ -489,8 +489,8 @@
   
  fp3_yearly.8030.opening: "[former_employer.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
   #AGOT Modified 
- #fp3_yearly.8030.desc: "Do you take me for a fool?  [snubbed_poet.GetName] spent my riches on wretched street peddlers and degenerate #italic hammam#! hosts, and though he now claims that he received silver, I have been told by people more trustworthy than you that indeed, it was gold. Yet he stole away with the book I was promised, to #italic you#!. May [former_employer.GetFaith.HighGodNameAlternate] remove you form the garden of paradise!" #NT!
- fp3_yearly.8030.desc: "Do you take me for a fool?  [snubbed_poet.GetName] spent my riches on wretched street peddlers and degenerate bath house hosts, and though he now claims that he received silver, I have been told by people more trustworthy than you that indeed, it was gold. Yet he stole away with the book I was promised, to #italic you#!. May [former_employer.GetFaith.HighGodNameAlternate] remove you form the garden of paradise!" #NT!
+ #fp3_yearly.8030.desc: "Do you take me for a fool?  [snubbed_poet.GetName] spent my riches on wretched street peddlers and degenerate #italic hammam#! hosts, and though he now claims that he received silver, I have been told by people more trustworthy than you that indeed, it was gold. Yet he stole away with the book I was promised, to #italic you#!. May [former_employer.GetFaith.HighGodNameAlternate] remove you form the garden of paradise!"
+ fp3_yearly.8030.desc: "Do you take me for a fool?  [snubbed_poet.GetName] spent my riches on wretched street peddlers and degenerate bath house hosts, and though he now claims that he received silver, I have been told by people more trustworthy than you that indeed, it was gold. Yet he stole away with the book I was promised, to #italic you#!. May [former_employer.GetFaith.HighGodNameAlternate] remove you form the garden of paradise!"
  fp3_yearly.8030.a: "Schade, dass Ihr nicht zur Vernunft kommt …"
   
  fp3_yearly.8031.opening: "[former_employer.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
@@ -583,8 +583,8 @@
   # Sick Monkey Chain 
  fp3_yearly.8045.t: "Das geheimnisvolle Bündel"
   #AGOT Modified 
- #fp3_yearly.8045.desc: "During a moonlit stroll, I encounter my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('buzina_enthusiast'))], [buzina_enthusiast.GetName], cradling a bundle the size of an infant. But looks can be deceiving — odd sounds emanate from the wrappings and [buzina_enthusiast.GetNamePossessiveNoTooltip] face bears myriad scratches.\n\n"This is not a child, my [ROOT.Char.GetLadyLord], but a monkey," [buzina_enthusiast.GetSheHe] whispers. "While collecting taxes for the [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip], I accepted her as payment in lieu of gold. It is said that she previously belonged to a great Eastern king who taught her to play chess. But alas, she has fallen ill and become somewhat... aggressive."\n\n[buzina_enthusiast.GetSheHe|U] hands me the bundle and continues. "Yet assuredly, under your care, she shall soon regain her health."" #NT!
- fp3_yearly.8045.desc: "During a moonlit stroll, I encounter my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('buzina_enthusiast'))], [buzina_enthusiast.GetName], cradling a bundle the size of an infant. But looks can be deceiving — odd sounds emanate from the wrappings and [buzina_enthusiast.GetNamePossessiveNoTooltip] face bears myriad scratches.\n\nThis is not a child, my [ROOT.Char.GetLadyLord], but a monkey," [buzina_enthusiast.GetSheHe] whispers. "While collecting taxes for the [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip], I accepted her as payment in lieu of gold. It is said that she previously belonged to a great Essosi king who taught her to play cyvasse. But alas, she has fallen ill and become somewhat... aggressive."\n\n[buzina_enthusiast.GetSheHe|U] hands me the bundle and continues. "Yet assuredly, under your care, she shall soon regain her health."" #NT!
+ #fp3_yearly.8045.desc: "During a moonlit stroll, I encounter my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('buzina_enthusiast'))], [buzina_enthusiast.GetName], cradling a bundle the size of an infant. But looks can be deceiving — odd sounds emanate from the wrappings and [buzina_enthusiast.GetNamePossessiveNoTooltip] face bears myriad scratches.\n\n"This is not a child, my [ROOT.Char.GetLadyLord], but a monkey," [buzina_enthusiast.GetSheHe] whispers. "While collecting taxes for the [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip], I accepted her as payment in lieu of gold. It is said that she previously belonged to a great Eastern king who taught her to play chess. But alas, she has fallen ill and become somewhat... aggressive."\n\n[buzina_enthusiast.GetSheHe|U] hands me the bundle and continues. "Yet assuredly, under your care, she shall soon regain her health.""
+ fp3_yearly.8045.desc: "During a moonlit stroll, I encounter my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('buzina_enthusiast'))], [buzina_enthusiast.GetName], cradling a bundle the size of an infant. But looks can be deceiving — odd sounds emanate from the wrappings and [buzina_enthusiast.GetNamePossessiveNoTooltip] face bears myriad scratches.\n\nThis is not a child, my [ROOT.Char.GetLadyLord], but a monkey," [buzina_enthusiast.GetSheHe] whispers. "While collecting taxes for the [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip], I accepted her as payment in lieu of gold. It is said that she previously belonged to a great Essosi king who taught her to play cyvasse. But alas, she has fallen ill and become somewhat... aggressive."\n\n[buzina_enthusiast.GetSheHe|U] hands me the bundle and continues. "Yet assuredly, under your care, she shall soon regain her health.""
  fp3_yearly.8045.a: "Mein Arzt hat wahrscheinlich ein Heilmittel …"
  fp3_yearly.8045.b: "Ich bezahle Euch, um Gold einzutreiben, #EMP nicht Affen!#!"
  fp3_yearly.8045.c: "Ich weiß nicht so recht …"
@@ -594,8 +594,8 @@
   
  fp3_yearly.8046.t: "Affenarznei"
   #AGOT Modified 
- #fp3_yearly.8046.desc: ""As far as I know", [court_physician.GetName] says, "monkeys are the spawn of Gayōmart, the first man. Their bodily condition is similar to our own, and perhaps their spiritual condition too. Some, I've heard, can even talk!"\n\n"I should be able to cure this little one of her ailment, but the best method would be a concoction of herbs that is expensive to procure. The alternative would be a diet of salted fish and frankincense..."\n\n[court_physician.GetSheHe|U] eyes the monkey's razor-like claws with great concern." #NT!
- fp3_yearly.8046.desc: ""As far as I know", [court_physician.GetName] says, "monkeys are the spawn of Rizdak, the first man. Their bodily condition is similar to our own, and perhaps their spiritual condition too. Some, I've heard, can even talk!"\n\n"I should be able to cure this little one of her ailment, but the best method would be a concoction of herbs that is expensive to procure. The alternative would be a diet of salted fish and frankincense..."\n\n[court_physician.GetSheHe|U] eyes the monkey's razor-like claws with great concern." #NT!
+ #fp3_yearly.8046.desc: ""As far as I know", [court_physician.GetName] says, "monkeys are the spawn of Gayōmart, the first man. Their bodily condition is similar to our own, and perhaps their spiritual condition too. Some, I've heard, can even talk!"\n\n"I should be able to cure this little one of her ailment, but the best method would be a concoction of herbs that is expensive to procure. The alternative would be a diet of salted fish and frankincense..."\n\n[court_physician.GetSheHe|U] eyes the monkey's razor-like claws with great concern."
+ fp3_yearly.8046.desc: ""As far as I know", [court_physician.GetName] says, "monkeys are the spawn of Rizdak, the first man. Their bodily condition is similar to our own, and perhaps their spiritual condition too. Some, I've heard, can even talk!"\n\n"I should be able to cure this little one of her ailment, but the best method would be a concoction of herbs that is expensive to procure. The alternative would be a diet of salted fish and frankincense..."\n\n[court_physician.GetSheHe|U] eyes the monkey's razor-like claws with great concern."
  fp3_yearly.8046.a: "Scheut keine Kosten."
  fp3_yearly.8046.b: "Sie ist stark. Eine gesunde Ernährung wird ausreichen."
  fp3_wait_and_see.tt: "Nur die Zeit wird zeigen, ob sich das Mittel als wirksam erweist"
@@ -636,43 +636,43 @@
  fp3_yearly.8051_sandstorm: "wurde vor Kurzem von einem Sandsturm erstickt, der so heftig war, dass er die Tempeltüren zerschmetterte."
  fp3_yearly.8051_gust_of_wind: "wurde vor Kurzem von einem eiskalten Windstoß gelöscht, der aus einem verborgenen Riss in den Tempelwänden gekommen sein muss."
   #AGOT Modified 
- #fp3_yearly.8051_islamic_zealots: "extinguished by Muslim zealots, who broke into the temple and desecrated it in very creative ways." #NT!
- fp3_yearly.8051_islamic_zealots: "extinguished by foriegn zealots, who broke into the temple and desecrated it in very creative ways." #NT!
+ #fp3_yearly.8051_islamic_zealots: "extinguished by Muslim zealots, who broke into the temple and desecrated it in very creative ways."
+ fp3_yearly.8051_islamic_zealots: "extinguished by foriegn zealots, who broke into the temple and desecrated it in very creative ways."
  fp3_yearly.8051_invisible_hand: "wurde vor Kurzem auf mysteriöse Weise wie von unsichtbarer Hand gelöscht."
   #AGOT Modified 
- #fp3_yearly.8051_ending.desc: "Despite this bad omen, [magi.GetName] does not seem to despair.\n\n"We must re-ignite the fire", [magi.GetSheHe] declares. "The purest and greatest of all flames would be #italic Atash Behram#!, the Fire of Victory, born from lightning among the clouds. But since this is a smaller temple, perhaps we should settle for #italic Atash Adaran#!, the Fire of Fires, that a goldsmith's hearth could give us. Or even the lowest grade, the #italic Atash Dadgah#!, that can be consecrated from any household flame..."" #NT!
- fp3_yearly.8051_ending.desc: "Despite this bad omen, [magi.GetName] does not seem to despair.\n\n"We must re-ignite the fire," [magi.GetSheHe] declares. "The purest and greatest of all flames would be the Fire of Sacrifice, born from the burning of a loved one. But since this is a smaller temple, perhaps we should settle for the Fire of Swords, that a weaponsmith's hearth could give us. Or even the lowest grade, the Fire of Hearth, that can be consecrated from any household flame..."" #NT!
+ #fp3_yearly.8051_ending.desc: "Despite this bad omen, [magi.GetName] does not seem to despair.\n\n"We must re-ignite the fire", [magi.GetSheHe] declares. "The purest and greatest of all flames would be #italic Atash Behram#!, the Fire of Victory, born from lightning among the clouds. But since this is a smaller temple, perhaps we should settle for #italic Atash Adaran#!, the Fire of Fires, that a goldsmith's hearth could give us. Or even the lowest grade, the #italic Atash Dadgah#!, that can be consecrated from any household flame...""
+ fp3_yearly.8051_ending.desc: "Despite this bad omen, [magi.GetName] does not seem to despair.\n\n"We must re-ignite the fire," [magi.GetSheHe] declares. "The purest and greatest of all flames would be the Fire of Sacrifice, born from the burning of a loved one. But since this is a smaller temple, perhaps we should settle for the Fire of Swords, that a weaponsmith's hearth could give us. Or even the lowest grade, the Fire of Hearth, that can be consecrated from any household flame...""
   #AGOT Modified 
- #fp3_yearly.8051.a: "Only lightning will do. I will find it for you. " #NT!
- fp3_yearly.8051.a: "Only a sacrifice will do. I will find someone for you." #NT!
+ #fp3_yearly.8051.a: "Only lightning will do. I will find it for you. "
+ fp3_yearly.8051.a: "Only a sacrifice will do. I will find someone for you."
   #AGOT Modified 
- #fp3_yearly.8051.b: "Let us get you a goldsmith's flame." #NT!
- fp3_yearly.8051.b: "Let us get you a weaponsmith's flame." #NT!
+ #fp3_yearly.8051.b: "Let us get you a goldsmith's flame."
+ fp3_yearly.8051.b: "Let us get you a weaponsmith's flame."
  fp3_yearly.8051.c: "Ich mache mir keine großen Gedanken über Omen. Eine Haushaltsflamme reicht aus."
   #AGOT Modified 
- #fp3_yearly.8051_chasing_lightning.tt: "You will await the next thunderstorm..." #NT!
- fp3_yearly.8051_chasing_lightning.tt: "You consider who to sacrifice..." #NT!
+ #fp3_yearly.8051_chasing_lightning.tt: "You will await the next thunderstorm..."
+ fp3_yearly.8051_chasing_lightning.tt: "You consider who to sacrifice..."
   
   #AGOT Modified 
- #fp3_yearly.8052.t: "Chasing the Clouds " #NT!
- fp3_yearly.8052.t: "Choosing the Heart" #NT!
+ #fp3_yearly.8052.t: "Chasing the Clouds "
+ fp3_yearly.8052.t: "Choosing the Heart"
   #AGOT Modified 
- #fp3_yearly.8052.desc: "The [ROOT.Char.GetFaith.AltPriestTermPlural] have been constantly reminding me of my pledge to find a Fire of Victory for the temple in [sacred_fire_province.GetName]. Not that I have forgotten... I sent out scouts in all directions to look for a thunderstorm, to look for a sign from [ROOT.GetCharacter.GetFaith.HighGodName]. But lightning proved elusive.\n\nYet now I stand just outside my [ROOT.Char.Custom('ResidenceBuilding')], as thunder booms in the distance and bolts of lightning jumps across the dark clouds. My servants scurry around, trying to catch the lightning on tall poles, while I gaze out across the land, looking for any hint of a flame. Our efforts are in vain - the clouds soon break up, and the lightning disappears into the high heavens.\n\n[ROOT.GetCharacter.GetFaith.HighGodName], is this truly your will? Shall I never find the fire I seek?" #NT!
- fp3_yearly.8052.desc: "The [ROOT.Char.GetFaith.AltPriestTermPlural] have been constantly reminding me of my pledge to find a Fire of Sacrfice for the temple in [sacred_fire_province.GetName]. Not that I have forgotten... I ponder who to sacrifice, but can not bring myself to plunge any I care for into the flame." #NT!
+ #fp3_yearly.8052.desc: "The [ROOT.Char.GetFaith.AltPriestTermPlural] have been constantly reminding me of my pledge to find a Fire of Victory for the temple in [sacred_fire_province.GetName]. Not that I have forgotten... I sent out scouts in all directions to look for a thunderstorm, to look for a sign from [ROOT.GetCharacter.GetFaith.HighGodName]. But lightning proved elusive.\n\nYet now I stand just outside my [ROOT.Char.Custom('ResidenceBuilding')], as thunder booms in the distance and bolts of lightning jumps across the dark clouds. My servants scurry around, trying to catch the lightning on tall poles, while I gaze out across the land, looking for any hint of a flame. Our efforts are in vain - the clouds soon break up, and the lightning disappears into the high heavens.\n\n[ROOT.GetCharacter.GetFaith.HighGodName], is this truly your will? Shall I never find the fire I seek?"
+ fp3_yearly.8052.desc: "The [ROOT.Char.GetFaith.AltPriestTermPlural] have been constantly reminding me of my pledge to find a Fire of Sacrfice for the temple in [sacred_fire_province.GetName]. Not that I have forgotten... I ponder who to sacrifice, but can not bring myself to plunge any I care for into the flame."
   #AGOT Modified 
- #fp3_yearly.8052.a: "I should just bring the temple a goldsmith's fire instead..." #NT!
- fp3_yearly.8052.a: "I should just bring the temple a weaponsmith's fire instead..." #NT!
+ #fp3_yearly.8052.a: "I should just bring the temple a goldsmith's fire instead..."
+ fp3_yearly.8052.a: "I should just bring the temple a weaponsmith's fire instead..."
  fp3_yearly.8052.b: "Ich könnte mich auch mit einer kleineren Flamme zufriedengeben."
   #AGOT Modified 
- #fp3_give_up_the_quest.flavor: "You give up the quest to find a Fire of Victory...for now." #NT!
- fp3_give_up_the_quest.flavor: "You give up the quest to find a Fire of Sacrifice...for now." #NT!
+ #fp3_give_up_the_quest.flavor: "You give up the quest to find a Fire of Victory...for now."
+ fp3_give_up_the_quest.flavor: "You give up the quest to find a Fire of Sacrifice...for now."
   
   #AGOT Modified 
- #fp3_yearly.8053.t: "The Fire of Victory" #NT!
- fp3_yearly.8053.t: "The Fire of Sacrifice" #NT!
+ #fp3_yearly.8053.t: "The Fire of Victory"
+ fp3_yearly.8053.t: "The Fire of Sacrifice"
   #AGOT Modified 
- #fp3_yearly.8053.desc: "Days and weeks have passed, my scouts scouring the realm for fire sprung from lightning, to no avail. Yet as I begin to grow despondent, suddenly dark clouds well up in the distance, a booming sound of thunder echoing from far away. I hurry out of my [ROOT.Char.Custom('ResidenceBuilding')] towards the storm, servants in tow, and indeed, it draws nearer, as if beckoned by an invisible hand.\n\nThen, right in front of me, bright light pierces the clouds and juts down like a spear from [ROOT.Char.GetFaith.DivineRealm], hitting a lonely tree. The dry wood ignites at once, burning with a white blaze, as pure as the #italic fravashi#! spirits. I have found it, the Fire of Victory. It came to me!" #NT!
- fp3_yearly.8053.desc: "Days and weeks have passed, and my heart aches to think of what I must do, my cherished [SPOUSE.GetName], will be given to the flame! I must do R'hllor's biding!" #NT!
+ #fp3_yearly.8053.desc: "Days and weeks have passed, my scouts scouring the realm for fire sprung from lightning, to no avail. Yet as I begin to grow despondent, suddenly dark clouds well up in the distance, a booming sound of thunder echoing from far away. I hurry out of my [ROOT.Char.Custom('ResidenceBuilding')] towards the storm, servants in tow, and indeed, it draws nearer, as if beckoned by an invisible hand.\n\nThen, right in front of me, bright light pierces the clouds and juts down like a spear from [ROOT.Char.GetFaith.DivineRealm], hitting a lonely tree. The dry wood ignites at once, burning with a white blaze, as pure as the #italic fravashi#! spirits. I have found it, the Fire of Victory. It came to me!"
+ fp3_yearly.8053.desc: "Days and weeks have passed, and my heart aches to think of what I must do, my cherished [SPOUSE.GetName], will be given to the flame! I must do R'hllor's biding!"
  fp3_yearly.8053.a: "Ich kann es nicht glauben …"
   
   
@@ -684,8 +684,8 @@
   
  fp3_scholarship.1000.t: "Ein zweiter Aryabhata"
   #AGOT Modified 
- #fp3_scholarship.1000.desc: "The prestige of Indian mathematics have reached my ears, uttered by even the lowliest students of arithmetic. Were I to fill my court halls with [nearby_indian_ruler.GetCulture.GetName] scholars, then perhaps [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] could become a center of mathematics in its own right.\n\nI might ask [nearby_indian_ruler.GetTitledFirstName] to send me several such scholars, but would [nearby_indian_ruler.GetSheHe] accept such a proposal?" #NT!
- fp3_scholarship.1000.desc: "The prestige of Qartheen mathematics have reached my ears, uttered by even the lowliest students of arithmetic. Were I to fill my court halls with [nearby_indian_ruler.GetCulture.GetName] scholars, then perhaps [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] could become a center of mathematics in its own right.\n\nI might ask [nearby_indian_ruler.GetTitledFirstName] to send me several such scholars, but would [nearby_indian_ruler.GetSheHe] accept such a proposal?" #NT!
+ #fp3_scholarship.1000.desc: "The prestige of Indian mathematics have reached my ears, uttered by even the lowliest students of arithmetic. Were I to fill my court halls with [nearby_indian_ruler.GetCulture.GetName] scholars, then perhaps [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] could become a center of mathematics in its own right.\n\nI might ask [nearby_indian_ruler.GetTitledFirstName] to send me several such scholars, but would [nearby_indian_ruler.GetSheHe] accept such a proposal?"
+ fp3_scholarship.1000.desc: "The prestige of Qartheen mathematics have reached my ears, uttered by even the lowliest students of arithmetic. Were I to fill my court halls with [nearby_indian_ruler.GetCulture.GetName] scholars, then perhaps [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] could become a center of mathematics in its own right.\n\nI might ask [nearby_indian_ruler.GetTitledFirstName] to send me several such scholars, but would [nearby_indian_ruler.GetSheHe] accept such a proposal?"
  fp3_scholarship.1000.a: "[nearby_indian_ruler.Custom('DE_PRO_PER_S_3P_N')|U] wird meine Bitte sicher nicht abschlagen."
  fp3_scholarship.1000.b: "Ein großzügiges Geschenk wird den Vorschlag versüßen."
  fp3_scholarship.1000.c: "[ROOT.Char.GetCulture.GetNameNoTooltip|U]e Gelehrte brauchen keine [nearby_indian_ruler.GetCulture.GetNameNoTooltip|U]e Hilfe!"
@@ -737,8 +737,8 @@
   
  fp3_scholarship.8000.t: "Ein neues $game_concept_research_project$"
   #AGOT Modified 
- #fp3_scholarship.8000.desc: "My Court Scholar [court_scholar.GetName] rushes to me with several servants in tow, all of them carrying books, scrolls, or ancient parchments.\n\n"I believe I can reach a breakthrough, if only given enough time, ample funds, and enough ink to color the Indus black." #NT!
- fp3_scholarship.8000.desc: "My Court Scholar [court_scholar.GetName] rushes to me with several servants in tow, all of them carrying books, scrolls, or ancient parchments.\n\nI believe I can reach a breakthrough, if only given enough time, ample funds, and enough ink to color the Rhoyne black." #NT!
+ #fp3_scholarship.8000.desc: "My Court Scholar [court_scholar.GetName] rushes to me with several servants in tow, all of them carrying books, scrolls, or ancient parchments.\n\n"I believe I can reach a breakthrough, if only given enough time, ample funds, and enough ink to color the Indus black."
+ fp3_scholarship.8000.desc: "My Court Scholar [court_scholar.GetName] rushes to me with several servants in tow, all of them carrying books, scrolls, or ancient parchments.\n\nI believe I can reach a breakthrough, if only given enough time, ample funds, and enough ink to color the Rhoyne black."
  fp3_scholarship.8000.a: "Nehmt die Zügel in die Hand, [court_scholar.GetFirstNameNoTooltip]."
  fp3_scholarship.8000.b: "Vielleicht ein anderes Mal?"
  fp3_scholarship.8000.a.tt: "[court_scholar.GetFirstNameNoTooltip] beginnt mit der Durchführung eines [Concept('research_project', 'Forschungsvorhabens')|E]"

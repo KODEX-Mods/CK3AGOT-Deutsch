@@ -1,0 +1,15 @@
+﻿l_german:
+  ### THE RELIGION ### 
+ the_liturgies_religion: "The Liturgies of the Silver Sea"
+ the_liturgies_religion_adj: "The Liturgies"
+ the_liturgies_religion_adherent: "Petitioner"
+ the_liturgies_religion_adherent_plural: "Petitioners"
+ the_liturgies_religion_desc: "The Gods of the Liturgies have existed since before the Long Night and have survived to this day. They are ancient and powerful, even if their followers have been diminished."
+  
+  ### Faiths ### 
+  # Hundred Gods 
+ sarnori_faith: "Hundred Gods of the Silver Sea"
+ sarnori_faith_adj: "Hundred Gods"
+ sarnori_faith_adherent: "Petitioner"
+ sarnori_faith_adherent_plural: "Petitioners"
+ sarnori_faith_desc: "The Hundred Gods once lived within the world, and it was their voices, the Fisher Queens, who led the peoples of the world to prosperity. But since the Long Night and the death of the last Fisher Queen, the Hundred Gods have left the world, and it is now the Followers of the Liturgies who keep the faith in preparation for their return."

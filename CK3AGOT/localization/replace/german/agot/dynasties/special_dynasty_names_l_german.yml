@@ -1,0 +1,48 @@
+﻿l_german:
+ dynn_dynn_Most_Devout: ""
+  #NOTE: follows the order of dynasties in the \common\dynasties\ files 
+  ### PREFIXES ### 
+ dynnp_of_the: "von "
+  
+  ### SPECIAL DYNASTIES/CADET BRANCHES ### 
+  
+  #CK3AGOT Team 
+ dynn_vanity_Robin: "Ashewil"
+  
+  #CK2AGOT Team 
+ dynn_vanity_Knuckey: "Knuckey"
+ dynn_vanity_Pandred: "Pandred"
+ dynn_vanity_Clohessy: "Clohessy"
+ dynn_vanity_Foxheart: "Foxheart"
+ dynn_vanity_Loch: "Loch"
+ dynn_vanity_MillerR: "Miller"
+ dynn_vanity_Graymarch: "Graymarch"
+ dynn_vanity_Trevelyan: "Travelyan"
+ dynn_vanity_Minshull: "Minshull"
+ dynn_vanity_Gosling: "Gosling"
+ dynn_vanity_Albanese: "Albanese"
+ dynn_vanity_Noyan: "Noyan"
+ dynn_vanity_Hamilton: "Hamilton"
+ dynn_vanity_Trent: "Trent"
+  
+  #AAR Winners 
+ dynn_Badics: "Badics"
+ dynn_Saul: "Saul"
+ dynn_vanity_Dea: "Dea"
+ # dynn_vanity_Darkholme: "Darkholme"
+ dynn_vanity_Grammaton: "Grammaton"
+ dynn_vanity_Valkyn: "Valkyn"
+ dynn_Back: "Back"
+ dynn_Vunatis: "Vunatis"
+  
+  #Night's Watch 
+ dynn_vanity_Black: "Black"
+ dynn_vanity_Coenigct: "Coenigct"
+ dynn_vanity_Dimaechrus: "Dimaechrus"
+ dynn_vanity_Droughtwell: "Droughtwell"
+ dynn_vanity_Durante: "Durante"
+  
+  #Timed Events 
+  
+  #Ruins 
+ dynn_ruins: "Ruins"

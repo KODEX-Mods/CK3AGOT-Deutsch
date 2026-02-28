@@ -4,28 +4,28 @@
  AGOT_VASSALIZATION_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Vasallierungskrieg des Eisernen Throns"
  AGOT_VASSALIZATION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
   
- # AGOT CLAIMANT FACTION 
- agot_claimant_faction_war: "Claimant Faction" #NT!
- agot_duskendale_claimant_war: "Claimant War" #NT!
- agot_duskendale_iron_throne_war: "Claimant War" #NT!
- # AGOT REBELLION 
+  #AGOT CLAIMANT WAR 
+ agot_duskendale_claimant_war: "Claimant War"
+ agot_duskendale_iron_throne_war: "Claimant War"
+  
+  #AGOT REBELLION 
  agot_independence_war: "Unabhängigkeitskrieg"
  agot_independence_war_name: "Unabhängigkeitskrieg"
   
  agot_rebellion_war: "Rebellion"
  agot_rebellion_war_name: "Rebellion gegen [DEFENDER.GetShortUINameNotMe]"
  agot_rebellion_war_victory_desc: "[attacker.GetTitledFirstName] wird darüber entscheiden, wer den Thron von [defender.GetPrimaryTitle.GetName] besteigt."
- agot_rebuild_realm_effect_loc: "\nWith the end of the war, the old order will be restored, but will it continue to hold?" #NT!
- agot_rebuild_realm_effect_loc_past: "\nWith the end of the war, the old order is restored, but will it continue to hold?" #NT!
+ agot_rebuild_realm_effect_loc: "\nWith the end of the war, the old order will be restored, but will it continue to hold?"
+ agot_rebuild_realm_effect_loc_past: "\nWith the end of the war, the old order is restored, but will it continue to hold?"
  agot_rebellion_war_white_peace_desc_defender: "Weißer Friede sollte hier nicht möglich sein. Sagt Gaytriarch auf dem AGOT-Discord Bescheid, wenn Ihr das seht."
  agot_rebellion_war_white_peace_desc: "Weißer Friede sollte hier nicht möglich sein. Sagt Gaytriarch auf dem AGOT-Discord Bescheid, wenn Ihr das seht."
  agot_rebellion_war_defeat_desc_defender: "Ihr werdet über die Rebellen richten."
  agot_rebellion_war_defeat_desc: "[defender.GetName] wird über die Rebellen richten."
   
- agot_reconquest_war: "Reconquest" #NT!
- agot_reconquest_war_name: "Reconquest" #NT!
+ agot_reconquest_war: "Reconquest"
+ agot_reconquest_war_name: "Reconquest"
   
- # AGOT REVOLT 
+  #AGOT REVOLT 
  agot_revolt_war: "Revolte"
  agot_revolt_war_name: "Revolte gegen [DEFENDER.GetShortUINameNotMe]"
  agot_revolt_war_victory_desc: "[attacker.GetName] und seine Rebellen entgehen erfolgreich ihrer Bestrafung und untergraben dabei [defender.GetNamePossessive] Autorität."
@@ -33,22 +33,30 @@
  agot_revolt_war_defeat_desc_defender: "[attacker.GetName] und seine Rebellen erhalten die Strafe, der sie zu entgehen versuchten."
  agot_revolt_war_defeat_desc: "[attacker.GetName] und seine Rebellen erhalten die Strafe, der sie zu entgehen versuchten."
   
- # AGOT FACTION 
- agot_claimant_faction_war: "Claimant War" #NT!
+  #AGOT FACTION 
+ agot_claimant_faction_war: "Claimant War"
  agot_liberty_faction_war: "Befreiungskrieg"
   
-  
- wildling_raid_wars_victory_desc: "Die Wildlinge erstürmen die Mauer und nehmen alles mit sich, das nicht niet- und nagelfest ist."
- wildling_raid_wars_defeat_desc: "Die Wildlinge werden abgewehrt, wie schon in den Jahrtausenden zuvor."
-  
-  #AGOT TODO 
- wildling_raid_wars_white_peace_desc: "Platzhalter Weißer Friede"
- wildling_raid_wars_invalidated_desc: "Platzhalter Annuliert"
-  
+  #Wildling Raid 
  WILDLING_RAID_WAR_NAME: "Wildlingsüberfall"
  WILDLING_RAID_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  wildling_raid_cb: "Wildlingsüberfall"
  WILDLINGS: "Wildlings"
+ wildling_raid_wars_victory_desc: "Die Wildlinge erstürmen die Mauer und nehmen alles mit sich, das nicht niet- und nagelfest ist."
+ wildling_raid_wars_defeat_desc: "Die Wildlinge werden abgewehrt, wie schon in den Jahrtausenden zuvor."
+  #AGOT TODO 
+ wildling_raid_wars_white_peace_desc: "Platzhalter Weißer Friede"
+ wildling_raid_wars_invalidated_desc: "Platzhalter Annuliert"
+  
+  #Wildling Diminish 
+ wildling_diminish_cb: "Diminishment War" #NT!
+ WILDLING_DIMINISH_CB_NAME: "Diminishment War" #NT!
+ WILDLING_DIMINISH_WAR_NAME: "$WILDLING_DIMINISH_CB_NAME$" #NT!
+ WILDLING_DIMINISH_WAR_NAME_BASE: "$WILDLING_DIMINISH_CB_NAME$" #NT!
+ wildling_diminish_defeat_desc: "The targeted realm is fractured." #NT!
+ wildling_diminish_victory_desc: "The targeted realm remains intact." #NT!
+ wildling_diminish_white_peace_desc: "$wildling_diminish_victory_desc$" #NT!
+ wildling_diminish_invalidated_desc: "$wildling_diminish_victory_desc$" #NT!
   
  RECLAIM_CB_NAME: "Rückeroberung der [de_jure|E]-Ländereien der Nachtwache"
  RECLAIM_CB_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Rückeroberungskreig der Nachtwache"
@@ -56,14 +64,14 @@
  de_reclaim_wall_victory_desc: "Die Nachtwache erhält den umkämpften [title|E]."
  de_reclaim_wall_defeat_desc: "Die Wildlinge behalten den umkämpften [title|E]."
   
- STEPSTONES_CONQUEST_CB_NAME: "Disputed Lands Conquest for [county|E]" #NT!
- disputed_lands_conquest_cb: "Disputed Lands Conquest" #NT!
+ DISPUTED_LANDS_CONQUEST_CB_NAME: "Disputed Lands Conquest for [county|E]" #NT!
+ disputed_lands_conquest_cb: "Disputed Lands Conquest"
   
- iron_throne_decision_troops: "The Conqueror's Guard" #NT!
+ iron_throne_decision_troops: "The Conqueror's Guard"
   
- stepstones_adventurer_conquest: "Stepstones Conquest" #NT!
- stepstones_adventurer_event_troops: "Pirate Adventurers" #NT!
- STEPSTONES_ARMY_NEUTRAL_NAME: "Pirate Crew" #NT!
+ pirate_adventurer_conquest: "Pirate Conquest" #NT!
+ pirate_adventurer_event_troops: "Pirate Adventurers" #NT!
+ PIRATE_ARMY_NEUTRAL_NAME: "Pirate Crew" #NT!
   
  reclaim_captives_war_victory_desc: "[attacker.GetShortUIName|U] befreit alle Gefangenen von [defender.GetShortUIName|U] und [defender.Custom('DE_PRO_PER_S_3P_D')] [vassals|e]."
  reclaim_captives_war_victory_desc_defender: "[attacker.GetShortUIName|U] befreit alle Gefangenen von Euch und Euren [vassals|e]."
@@ -74,32 +82,32 @@
  RECLAIM_CAPTIVES_NAME: "Gefangene befreien."
  RECLAIM_CAPTIVES_WAR_NAME: "Gefangene von [DEFENDER.GetPrimaryTitle.GetNameNoTier] befreien."
   
- agot_blackfyre_claim: "Blackfyre Rebellion" #NT!
- BLACKFYRE_WAR_NAME: "[ATTACKER.Custom('BlackfyreRebellions')]" #NT!
- agot_blackfyre_claim_first: "The Blackfyre Rebellion" #NT!
- agot_blackfyre_claim_second: "The Second Blackfyre Rebellion" #NT!
- agot_blackfyre_claim_third: "The Third Blackfyre Rebellion" #NT!
- agot_blackfyre_claim_fourth: "The Fourth Blackfyre Rebellion" #NT!
- agot_blackfyre_claim_fifth: "The Fifth Blackfyre Rebellion" #NT!
- agot_blackfyre_claim_sixth: "The Sixth Blackfyre Rebellion" #NT!
- agot_blackfyre_claim_seventh: "The Seventh Blackfyre Rebellion" #NT!
- agot_blackfyre_claim_eight: "The Eigth Blackfyre Rebellion" #NT!
- agot_blackfyre_claim_ninth: "The Ninth Blackfyre Rebellion" #NT!
- agot_blackfyre_claim_tenth: "The Tenth Blackfyre Rebellion" #NT!
- agot_blackfyre_claim_more: "Another Fucking Blackfyre Rebellion" #NT!
+ agot_blackfyre_claim: "Blackfyre Rebellion"
+ BLACKFYRE_WAR_NAME: "[ATTACKER.Custom('BlackfyreRebellions')]"
+ agot_blackfyre_claim_first: "The Blackfyre Rebellion"
+ agot_blackfyre_claim_second: "The Second Blackfyre Rebellion"
+ agot_blackfyre_claim_third: "The Third Blackfyre Rebellion"
+ agot_blackfyre_claim_fourth: "The Fourth Blackfyre Rebellion"
+ agot_blackfyre_claim_fifth: "The Fifth Blackfyre Rebellion"
+ agot_blackfyre_claim_sixth: "The Sixth Blackfyre Rebellion"
+ agot_blackfyre_claim_seventh: "The Seventh Blackfyre Rebellion"
+ agot_blackfyre_claim_eight: "The Eigth Blackfyre Rebellion"
+ agot_blackfyre_claim_ninth: "The Ninth Blackfyre Rebellion"
+ agot_blackfyre_claim_tenth: "The Tenth Blackfyre Rebellion"
+ agot_blackfyre_claim_more: "Another Fucking Blackfyre Rebellion"
   
- ninepenny_conquest_cb: "Ninepenny Conquest" #NT!
- NINEPENNY_WAR_NAME: "$ORDER$ The Band of Nine's War for [CLAIMANT.GetShortUINamePossessive] Claim on the [TITLE.GetBaseName]" #NT!
- ninepenny_conquest_cb_victory_desc_defender: "[claimant.GetShortUIName|U] seizes the target [title|E]." #NT!
- ninepenny_conquest_cb_victory_desc_attacker: "[claimant.GetShortUIName|U] seizes the target [title|E]." #NT!
- ninepenny_conquest_cb_victory_desc: "[claimant.GetShortUIName|U] seizes the target [title|E]." #NT!
- ninepenny_conquest_cb_defeat_desc: "[defender.GetShortUIName|U] keeps the target [title|E]. [claimant.GetShortUIName|U] loses [claimant.GetHerHis] [claim|E] to it." #NT!
- ninepenny_conquest_cb_defeat_desc_defender: "You keep the target [title|E]. [claimant.GetShortUIName|U] loses [claimant.GetHerHis] [claim|E] to it." #NT!
- ninepenny_conquest_cb_defeat_desc_attacker: "[claimant.GetShortUIName|U] keeps the target [title|E]. You lose your [claim|E] to it." #NT!
- NINEPENNY_TRUCE: "\nTruce bound in blood between [attacker.GetTitledFirstName] and [claimant.GetTitledFirstName] as members of the Band of the Nine" #NT!
+ ninepenny_conquest_cb: "Ninepenny Conquest"
+ NINEPENNY_WAR_NAME: "$ORDER$ The Band of Nine's War for [CLAIMANT.GetShortUINamePossessive] Claim on the [TITLE.GetBaseName]"
+ ninepenny_conquest_cb_victory_desc_defender: "[claimant.GetShortUIName|U] seizes the target [title|E]."
+ ninepenny_conquest_cb_victory_desc_attacker: "[claimant.GetShortUIName|U] seizes the target [title|E]."
+ ninepenny_conquest_cb_victory_desc: "[claimant.GetShortUIName|U] seizes the target [title|E]."
+ ninepenny_conquest_cb_defeat_desc: "[defender.GetShortUIName|U] keeps the target [title|E]. [claimant.GetShortUIName|U] loses [claimant.GetHerHis] [claim|E] to it."
+ ninepenny_conquest_cb_defeat_desc_defender: "You keep the target [title|E]. [claimant.GetShortUIName|U] loses [claimant.GetHerHis] [claim|E] to it."
+ ninepenny_conquest_cb_defeat_desc_attacker: "[claimant.GetShortUIName|U] keeps the target [title|E]. You lose your [claim|E] to it."
+ NINEPENNY_TRUCE: "\nTruce bound in blood between [attacker.GetTitledFirstName] and [claimant.GetTitledFirstName] as members of the Band of the Nine"
   
- reyne_rebellion: "Reyne Rebellion" #NT!
- REYNE_REBELLION_NAME: "The Reyne Rebellion" #NT!
+ reyne_rebellion: "Reyne Rebellion"
+ REYNE_REBELLION_NAME: "The Reyne Rebellion"
   
  agot_faegon_landing_war_invalidated: "[attacker.GetFullNamePossessiveRegnal|U] Invasion wurde aufgrund des Todes von [attacker.GetFullNameRegnal|U] annuliert!"
  agot_faegon_landing_defeat_desc_defender: "Ihr behaltet den umkämpften [title|E]."
@@ -107,217 +115,224 @@
  agot_faegon_landing_war_victory_desc_attacker: "[defender.GetFullNameRegnal|U] wird [deposed|E] und Ihr erhaltet den umkämpften [title|E]."
  agot_faegon_landing_war_victory_desc: "[defender.GetFullNameRegnal|U] wird eingekerkert."
   
- agot_duskendale_independence_war: "War for Duskendale Independence" #NT!
- AGOT_DUSKENDALE_INDEPENDENCE_WAR_NAME: "[ATTACKER.GetTitledFirstNamePossessive] War for [ATTACKER.GetPrimaryTitle.GetNameNoTier] Independence" #NT!
+ agot_duskendale_independence_war: "War for Duskendale Independence"
+ AGOT_DUSKENDALE_INDEPENDENCE_WAR_NAME: "[ATTACKER.GetTitledFirstNamePossessive] War for [ATTACKER.GetPrimaryTitle.GetNameNoTier] Independence"
   
   #AGOT Bastard Events 
- agot_bastard_claimant_war: "Royal Bastard Claimant War" #NT!
- agot_bastard_claimant_war_no_nickname: "$agot_bastard_claimant_war$" #NT!
- agot_bastard_claimant_war_name_nicked: "The War of [CLAIMANT.GetNicknameNoTooltip]" #NT!
- agot_bastard_claimant_war_name_no_nick: "The War of [CLAIMANT.GetFather.GetFirstNamePossessiveNoTooltip] Bastard" #NT!
- agot_bastard_claimant_war_invalid: "[claimant.GetName] has died. [claimant.GetHerHis] claim can no longer be pressed." #NT!
- agot_bastard_claimant_war_victory: "[claimant.GetName] will be installed as ruler of [defender.GetPrimaryTitle.GetName]!" #NT!
- agot_bastard_claimant_war_white_peace: "[attacker.GetName] and [defender.GetName] agree to cease the bloodshed. [claimant.GetName] will return home and this matter put to rest." #NT!
- agot_bastard_claimant_war_defeat: "[defender.GetName] will win and the rebels will be subject to [defender.GetHerHis] judgment." #NT!
+ agot_bastard_claimant_war: "Royal Bastard Claimant War"
+ agot_bastard_claimant_war_name: ""[CLAIMANT.Custom('BastardClaimantWarName')]"" #NT!
+ agot_bastard_claimant_war_name_nicked: "The War of [CLAIMANT.GetNicknameNoTooltip]"
+ agot_bastard_claimant_war_name_no_nick: "The War of [CLAIMANT.GetFather.GetFirstNamePossessiveNoTooltip] Bastard"
+ agot_bastard_claimant_war_invalid: "[claimant.GetName] has died. [claimant.GetHerHis] claim can no longer be pressed."
+ agot_bastard_claimant_war_victory: "[claimant.GetName] will be installed as ruler of [defender.GetPrimaryTitle.GetName]!"
+ agot_bastard_claimant_war_white_peace: "[attacker.GetName] and [defender.GetName] agree to cease the bloodshed. [claimant.GetName] will return home and this matter put to rest."
+ agot_bastard_claimant_war_defeat: "[defender.GetName] will win and the rebels will be subject to [defender.GetHerHis] judgment."
   
-  #BTW Struggle 
- CB_COST_STRUGGLE_PHASE_OPPORTUNITY: "[struggle_phase_btw_opportunity|E]"
- CB_COST_STRUGGLE_PHASE_HOSTILITY: "[struggle_phase_btw_hostility|E]"
- CB_COST_STRUGGLE_PHASE_COMPROMISE: "[struggle_phase_btw_compromise|E]"
- CB_COST_STRUGGLE_PHASE_CONCILIATION: "[struggle_phase_btw_conciliation|E]"
+  #Pirates 
+ DISRUPT_PIRACY_WAR_NAME: "Disrupt Piracy"
+ DISRUPT_PIRACY_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ DISRUPT_PIRACY_CB: "Disrupt Piracy"
+ destroy_pirates_cb: "$DISRUPT_PIRACY_CB$" #NT!
+ DISRUPT_PIRACY_CB_SHATTER: "The [titles|e] of every war defender and their vassals will shatter, returning to a sparsley inhabited state." #NT!
+ disrupt_piracy_defeat_desc: "Pirates in this region will be emboldened, increasing the threat to trade and security."
+ disrupt_piracy_victory_desc: "The Pirate realm is destroyed and piracy in the region will be disrupted."
+ disrupt_piracy_white_peace_desc: "White peace shouldn't happen, if it does, report it to gaytriarch."
+ disrupt_piracy_invalidated_desc: "The war to disrupt piracy has been invalidated due to the death of [ATTACKER.GetFullNameRegnalPossessive|U]."
+ DISRUPT_PIRACY_COASTAL_GOOD: "With the pirates of [defender.GetPrimaryTitle.GetNameNoTier|U] smashed, your coastal [counties|E] are safer from piracy, increasing [county_control|E] for #V 2 years."
+ DISRUPT_PIRACY_COASTAL_BAD: "With their [attacker.GetLadyLord|U] unable to control the pirate meance, the once bustling docks in your coastal [counties|E] sit empty, lowering [county_control|E], [county_opinion|E], and [development|E] for #V 2 years."
+ INVADE_PIRATE_HAVEN_WAR_NAME: "Invade Pirate Haven" #NT!
+ INVADE_PIRATE_HAVEN_CB: "$INVADE_PIRATE_HAVEN_WAR_NAME$" #NT!
+ ESTABLISH_PIRATE_HAVEN_WAR_NAME: "Establish Pirate Haven" #NT!
+ ESTABLISH_PIRATE_HAVEN_CB: "$ESTABLISH_PIRATE_HAVEN_WAR_NAME$" #NT!
   
-  #Disrupt Piracy 
- DISRUPT_PIRACY_WAR_NAME: "Disrupt Piracy" #NT!
- DISRUPT_PIRACY_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!
- DISRUPT_PIRACY_CB: "Disrupt Piracy" #NT!
- disrupt_piracy_defeat_desc: "Pirates in this region will be emboldened, increasing the threat to trade and security." #NT!
- disrupt_piracy_victory_desc: "The Pirate realm is destroyed and piracy in the region will be disrupted." #NT!
- disrupt_piracy_white_peace_desc: "White peace shouldn't happen, if it does, report it to gaytriarch." #NT!
- disrupt_piracy_invalidated_desc: "The war to disrupt piracy has been invalidated due to the death of [ATTACKER.GetFullNameRegnalPossessive|U]." #NT!
- DISRUPT_PIRACY_COASTAL_GOOD: "With the pirates of [defender.GetPrimaryTitle.GetNameNoTier|U] smashed, your coastal [counties|E] are safer from piracy, increasing [county_control|E] for #V 2 years." #NT!
- DISRUPT_PIRACY_COASTAL_BAD: "With their [attacker.GetLadyLord|U] unable to control the pirate meance, the once bustling docks in your coastal [counties|E] sit empty, lowering [county_control|E], [county_opinion|E], and [development|E] for #V 2 years." #NT!
+ PIRATE_CB_TARGET_IS_KINGDOM: "Defender's primary title is kingdom-tier or higher" #NT!
+ PIRATE_CB_TARGET_IS_DUCHY: "Defender's primary title is duchy-tier" #NT!
   
   #Shattered World Conquest 
- SHATTERED_CONQUEST_DUCHY_CB_NAME: "Conquer [duchy|E]" #NT!
- SHATTERED_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Conquest of the [TITLE.GetBaseName]" #NT!
- SHATTERED_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!
+ SHATTERED_CONQUEST_DUCHY_CB_NAME: "Conquer [duchy|E]"
+ SHATTERED_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Conquest of the [TITLE.GetBaseName]"
+ SHATTERED_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
   
   #Crannogman Ambush 
- CRANNOGMAN_AMBUSH_CB_NAME: "Ambush in the Bog" #NT!
- CRANNOGMAN_AMBUSH_CB_NAME_BASE: "Bog Ambush" #NT!
- CRANNOGMAN_AMBUSH_CB: "Bog Ambush" #NT!
- crannogman_ambush_cb: "Ambush in the Bog" #NT!
+ CRANNOGMAN_AMBUSH_CB_NAME: "Ambush in the Bog"
+ CRANNOGMAN_AMBUSH_CB_NAME_BASE: "Bog Ambush"
+ CRANNOGMAN_AMBUSH_CB: "Bog Ambush"
+ crannogman_ambush_cb: "Ambush in the Bog"
   
   #Dragon Conquests 
- dragon_county_conquest_cb: "Draconically Conquer [county|E]" #NT!
- dragon_duchy_conquest_cb: "Draconically Conquer [duchy|E]" #NT!
- dragon_ducal_conquest_cb: "Draconically Unite [duchy|E]" #NT!
- dragon_kingdom_conquest_cb: "Draconically Conquer [kingdom|E]" #NT!
- dragon_subjugation_cb: "Draconic Subjugation" #NT!
- DRAGON_CONQUEST_COUNTY_CB_NAME: "Draconically Conquer [county|E]" #NT!
- DRAGON_CONQUEST_DUCHY_CB_NAME: "Draconically Conquer [duchy|E]" #NT!
- DRAGON_CONQUEST_KINGDOM_CB_NAME: "Draconically Conquer [kingdom|E]" #NT!
- DRAGON_CONQUEST_CB_NAME: "Draconically Conquer the [TITLE.GetBaseName]" #NT!
- DRAGON_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Draconic Conquest of the [TITLE.GetBaseName]" #NT!
- DRAGON_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!
- DRAGON_DUCAL_CONQUEST_CB_NAME: "Draconic [ducal_conquest|E] of [county|E]" #NT!
- DRAGON_DUCAL_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Draconic Ducal Conquest of the [TITLE.GetBaseNameNoTooltip]" #NT!
- DRAGON_DUCAL_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!
- DRAGON_SUBJUGATION_CB_NAME: "Draconically Subjugate [DEFENDER.GetShortUIName]" #NT!
- DRAGON_SUBJUGATION_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Dragon Subjugation War" #NT!
- DRAGON_SUBJUGATION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!
- declared_draconic_subjugation_war_flag_tt: "\n\n#X You may only attempt one Draconic Subjugation [war|e] per lifetime#!" #NT!
- empire_destroyed_effect_tt: "@warning_icon! #X [de_jure_target_empire.GetName] will be destroyed and [de_jure_target.GetName] will be created to be taken in war.#!" #NT!
+ dragon_county_conquest_cb: "Draconically Conquer [county|E]"
+ dragon_duchy_conquest_cb: "Draconically Conquer [duchy|E]"
+ dragon_ducal_conquest_cb: "Draconically Unite [duchy|E]"
+ dragon_kingdom_conquest_cb: "Draconically Conquer [kingdom|E]"
+ dragon_subjugation_cb: "Draconic Subjugation"
+ DRAGON_CONQUEST_COUNTY_CB_NAME: "Draconically Conquer [county|E]"
+ DRAGON_CONQUEST_DUCHY_CB_NAME: "Draconically Conquer [duchy|E]"
+ DRAGON_CONQUEST_KINGDOM_CB_NAME: "Draconically Conquer [kingdom|E]"
+ DRAGON_CONQUEST_CB_NAME: "Draconically Conquer the [TITLE.GetBaseName]"
+ DRAGON_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Draconic Conquest of the [TITLE.GetBaseName]"
+ DRAGON_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ DRAGON_DUCAL_CONQUEST_CB_NAME: "Draconic [ducal_conquest|E] of [county|E]"
+ DRAGON_DUCAL_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Draconic Ducal Conquest of the [TITLE.GetBaseNameNoTooltip]"
+ DRAGON_DUCAL_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ DRAGON_SUBJUGATION_CB_NAME: "Draconically Subjugate [DEFENDER.GetShortUIName]"
+ DRAGON_SUBJUGATION_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Dragon Subjugation War"
+ DRAGON_SUBJUGATION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ declared_draconic_subjugation_war_flag_tt: "\n\n#X You may only attempt one Draconic Subjugation [war|e] per lifetime#!"
+ empire_destroyed_effect_tt: "@warning_icon! #X [de_jure_target_empire.GetName] will be destroyed and [de_jure_target.GetName] will be created to be taken in war.#!"
   
   #Scenario Dragon Wars 
- truce_stepstones_holders_trp: " Events in the Stepstones have yet to be resolved." #NT!
- daemon_stepstones_first_war: "Landing on the Stepstones" #NT!
- DAEMON_FIRST_STEPSTONE_WAR_NAME: "[ATTACKER.GetFirstNamePossessive] Landing on the Stepstones" #NT!
- DAEMON_FIRST_STEPSTONE_WAR_NAME_BASE: "[ATTACKER.GetFirstNamePossessive] Landing on the Stepstones" #NT!
- DAEMON_FIRST_STEPSTONE_WAR_CB_NAME: "Landing on the Stepstones" #NT!
- daemon_stepstones_second_war: "War for the Stepstones" #NT!
- DAEMON_SECOND_STEPSTONE_WAR_NAME: "[ATTACKER.GetFirstNamePossessive] War for the Stepstones" #NT!
- DAEMON_SECOND_STEPSTONE_WAR_NAME_BASE: "[ATTACKER.GetFirstNamePossessive] War for the Stepstones" #NT!
- DAEMON_SECOND_STEPSTONE_WAR_CB_NAME: "War for the Stepstones" #NT!
- admiral_subjugation_cb: "Admiral Subjugation" #NT!
+ truce_stepstones_holders_trp: " Events in the Stepstones have yet to be resolved."
+ daemon_stepstones_first_war: "Landing on the Stepstones"
+ DAEMON_FIRST_STEPSTONE_WAR_NAME: "[ATTACKER.GetFirstNamePossessive] Landing on the Stepstones"
+ DAEMON_FIRST_STEPSTONE_WAR_NAME_BASE: "[ATTACKER.GetFirstNamePossessive] Landing on the Stepstones"
+ DAEMON_FIRST_STEPSTONE_WAR_CB_NAME: "Landing on the Stepstones"
+ daemon_stepstones_second_war: "War for the Stepstones"
+ DAEMON_SECOND_STEPSTONE_WAR_NAME: "[ATTACKER.GetFirstNamePossessive] War for the Stepstones"
+ DAEMON_SECOND_STEPSTONE_WAR_NAME_BASE: "[ATTACKER.GetFirstNamePossessive] War for the Stepstones"
+ DAEMON_TRIARCHY_CONQUEST_WAR_NAME: "[ATTACKER.GetFirstNamePossessive] War for the Three Daughters" #NT!
+ DAEMON_TRIARCHY_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetFirstNamePossessive] War for Three Daughters" #NT!
+ DAEMON_SECOND_STEPSTONE_WAR_CB_NAME: "War for the Stepstones"
+ daemon_invades_triarchy_war: "War for the Three Daughters" #NT!
+ admiral_subjugation_cb: "Admiral Subjugation"
+ triarchy_anti_daemon_war: "Claim War" #NT!
   
   # Braavos-Pentos Event Treaty 
- reinstate_braavos_pentos_treaty: "Reassert Braavos-Pentos Treaty" #NT!
- reinstate_braavos_pentos_treaty_war_name: "War to Reinstate Braavos-Pentos Treaty" #NT!
- reinstate_braavos_pentos_treaty_victory_desc: "[attacker.GetName] successfully reasserts the Braavos-Pentos Treaty." #NT!
- reinstate_braavos_pentos_treaty_white_peace_desc: "The Braavos-Pentos Treaty is not reasserted." #NT!
- reinstate_braavos_pentos_treaty_defeat_desc: "[attacker.GetNamePossessive] war fails, and the Braavos-Pentos Treaty is not reasserted." #NT!
- reinstate_braavos_pentos_treaty_on_defeat_tt: "Braavosi leaders will no longer be able to reassert the Braavos-Pentos Treaty." #NT!
+ reinstate_braavos_pentos_treaty: "Reassert Braavos-Pentos Treaty"
+ reinstate_braavos_pentos_treaty_war_name: "War to Reinstate Braavos-Pentos Treaty"
+ reinstate_braavos_pentos_treaty_victory_desc: "[attacker.GetName] successfully reasserts the Braavos-Pentos Treaty."
+ reinstate_braavos_pentos_treaty_white_peace_desc: "The Braavos-Pentos Treaty is not reasserted."
+ reinstate_braavos_pentos_treaty_defeat_desc: "[attacker.GetNamePossessive] war fails, and the Braavos-Pentos Treaty is not reasserted."
+ reinstate_braavos_pentos_treaty_on_defeat_tt: "Braavosi leaders will no longer be able to reassert the Braavos-Pentos Treaty."
   
   # Fourth Braavosi-Pentoshi War 
- fourth_braavosi_pentoshi_war: "Braavosi-Pentoshi War" #NT!
- fourth_braavosi_pentoshi_war_desc: "Braavos's gamble to strike while Pentos seemed weak pays off, establishing greater dominance in Andalos." #NT!
- fourth_braavosi_pentoshi_war_victory_desc: "Braavos shall sieze most of Pentos' remaining territory in Andalos." #NT!
- fourth_braavosi_pentoshi_war_white_peace_desc: "[attacker.GetName] and [defender.GetName] agree to cease the bloodshed." #NT!
- fourth_braavosi_pentoshi_war_on_defeat_desc: "[attacker.GetNamePossessive] invasion fails, and Pentos pushes Braavos out of Andalos." #NT!
- fourth_braavosi_pentoshi_war_on_defeat_tt: "All land that Braavos has ownership over in Andalos will be transferred to Pentos." #NT!
+ fourth_braavosi_pentoshi_war: "Braavosi-Pentoshi War"
+ fourth_braavosi_pentoshi_war_desc: "Braavos's gamble to strike while Pentos seemed weak pays off, establishing greater dominance in Andalos."
+ fourth_braavosi_pentoshi_war_victory_desc: "Braavos shall sieze most of Pentos' remaining territory in Andalos."
+ fourth_braavosi_pentoshi_war_white_peace_desc: "[attacker.GetName] and [defender.GetName] agree to cease the bloodshed."
+ fourth_braavosi_pentoshi_war_on_defeat_desc: "[attacker.GetNamePossessive] invasion fails, and Pentos pushes Braavos out of Andalos."
+ fourth_braavosi_pentoshi_war_on_defeat_tt: "All land that Braavos has ownership over in Andalos will be transferred to Pentos."
   
   #Succession War 
- agot_succession_war: "War of Succession" #NT!
- #agot_succession_war_name: "War of Succession" #NT!
- agot_succession_war_name: "[ATTACKER.Custom('WarOfSuccessionNumbers')] [ATTACKER.Custom('WarOfSuccessionNames')]" #NT!
- agot_war_of_succession_number_one: "The" #NT!
- agot_war_of_succession_number_two: "The Second" #NT!
- agot_war_of_succession_number_three: "The Third" #NT!
- agot_war_of_succession_number_four: "The Fourth" #NT!
- agot_war_of_succession_number_five: "The Fifth" #NT!
- agot_war_of_succession_number_six: "The Sixth" #NT!
- agot_war_of_succession_number_seven: "The Seventh" #NT!
- agot_war_of_succession_number_eight: "The Eighth" #NT!
- agot_war_of_succession_number_nince: "The Ninth" #NT!
- agot_war_of_succession_number_ten: "The Tenth" #NT!
- agot_war_of_succession_number_eleven: "The Eleventh" #NT!
- agot_war_of_succession_number_twelve: "The Twelfth" #NT!
- agot_war_of_succession_number_thirteen: "The Thirteenth" #NT!
- agot_war_of_succession_number_fourteen: "The Fourteenth" #NT!
- agot_war_of_succession_number_fifteen: "The Fifteenth" #NT!
- agot_war_of_succession_number_sixteen: "The Sixteenth" #NT!
- agot_war_of_succession_number_seventeen: "The Seventeenth" #NT!
- agot_war_of_succession_number_eighteen: "The Eighteenth" #NT!
- agot_war_of_succession_number_nineteen: "The Nineteenth" #NT!
- agot_war_of_succession_number_twenty: "The Twentieth" #NT!
- agot_war_of_succession_number_billion: "The Endless" #NT!
+ agot_succession_war: "War of Succession"
+ #agot_succession_war_name: "War of Succession"
+ agot_succession_war_name: "[ATTACKER.Custom('WarOfSuccessionNumbers')] [ATTACKER.Custom('WarOfSuccessionNames')]"
+ agot_war_of_succession_number_one: "The"
+ agot_war_of_succession_number_two: "The Second"
+ agot_war_of_succession_number_three: "The Third"
+ agot_war_of_succession_number_four: "The Fourth"
+ agot_war_of_succession_number_five: "The Fifth"
+ agot_war_of_succession_number_six: "The Sixth"
+ agot_war_of_succession_number_seven: "The Seventh"
+ agot_war_of_succession_number_eight: "The Eighth"
+ agot_war_of_succession_number_nince: "The Ninth"
+ agot_war_of_succession_number_ten: "The Tenth"
+ agot_war_of_succession_number_eleven: "The Eleventh"
+ agot_war_of_succession_number_twelve: "The Twelfth"
+ agot_war_of_succession_number_thirteen: "The Thirteenth"
+ agot_war_of_succession_number_fourteen: "The Fourteenth"
+ agot_war_of_succession_number_fifteen: "The Fifteenth"
+ agot_war_of_succession_number_sixteen: "The Sixteenth"
+ agot_war_of_succession_number_seventeen: "The Seventeenth"
+ agot_war_of_succession_number_eighteen: "The Eighteenth"
+ agot_war_of_succession_number_nineteen: "The Nineteenth"
+ agot_war_of_succession_number_twenty: "The Twentieth"
+ agot_war_of_succession_number_billion: "The Endless"
   
   #Crownlands 
- agot_war_of_succession_name_Targaryen: "Dance of the Dragons" #NT!
- agot_war_of_succession_name_Valeryon: "Turning of the Tides" #NT!
- agot_war_of_succession_name_Celtigar: "Clack of Crabs" #NT!
- agot_war_of_succession_name_Darklyn: "Dance for the Dusk" #NT!
- agot_war_of_succession_name_Massey: "Dance of Stone" #NT!
+ agot_war_of_succession_name_Targaryen: "Dance of the Dragons"
+ agot_war_of_succession_name_Valeryon: "Turning of the Tides"
+ agot_war_of_succession_name_Celtigar: "Clack of Crabs"
+ agot_war_of_succession_name_Darklyn: "Dance for the Dusk"
+ agot_war_of_succession_name_Massey: "Dance of Stone"
   #North 
- agot_war_of_succession_name_Stark: "War of the Wolves" #NT!
- agot_war_of_succession_name_Mormont: "Wrath of the Bears" #NT!
- agot_war_of_succession_name_Bolton: "Bloodletting" #NT!
- agot_war_of_succession_name_Manderly: "Merman War" #NT!
- agot_war_of_succession_name_Forrester: "Clear Cut" #NT!
- agot_war_of_succession_name_Umber: "Wrath of the Giants" #NT!
- agot_war_of_succession_name_Glover: "Gauntlet" #NT!
- agot_war_of_succession_name_Dustin: "Desecration" #NT!
- agot_war_of_succession_name_Ryswell: "Beat of Hooves" #NT!
+ agot_war_of_succession_name_Stark: "War of the Wolves"
+ agot_war_of_succession_name_Mormont: "Wrath of the Bears"
+ agot_war_of_succession_name_Bolton: "Bloodletting"
+ agot_war_of_succession_name_Manderly: "Merman War"
+ agot_war_of_succession_name_Forrester: "Clear Cut"
+ agot_war_of_succession_name_Umber: "Wrath of the Giants"
+ agot_war_of_succession_name_Glover: "Gauntlet"
+ agot_war_of_succession_name_Dustin: "Desecration"
+ agot_war_of_succession_name_Ryswell: "Beat of Hooves"
   #Riverlands 
- agot_war_of_succession_name_Tully: "War of Family and Honor" #NT!
- agot_war_of_succession_name_Blackwood: "Wrath of the Ravens" #NT!
- agot_war_of_succession_name_Bracken: "Bloody Bridling" #NT!
- agot_war_of_succession_name_Frey: "Clash of the Crossing" #NT!
- agot_war_of_succession_name_Darry: "Bloody Tilling" #NT!
- agot_war_of_succession_name_Strong: "Brawl" #NT!
+ agot_war_of_succession_name_Tully: "War of Family and Honor"
+ agot_war_of_succession_name_Blackwood: "Wrath of the Ravens"
+ agot_war_of_succession_name_Bracken: "Bloody Bridling"
+ agot_war_of_succession_name_Frey: "Clash of the Crossing"
+ agot_war_of_succession_name_Darry: "Bloody Tilling"
+ agot_war_of_succession_name_Strong: "Brawl"
   #Vale 
- agot_war_of_succession_name_Arryn: "War of High Honor" #NT!
- agot_war_of_succession_name_Royce: "Tarnishing" #NT!
- agot_war_of_succession_name_Baelish: "Ballad of Songbirds" #NT!
- agot_war_of_succession_name_Corbray: "Forlorn War" #NT!
- agot_war_of_succession_name_Sunderland: "Sundering" #NT!
+ agot_war_of_succession_name_Arryn: "War of High Honor"
+ agot_war_of_succession_name_Royce: "Tarnishing"
+ agot_war_of_succession_name_Baelish: "Ballad of Songbirds"
+ agot_war_of_succession_name_Corbray: "Forlorn War"
+ agot_war_of_succession_name_Sunderland: "Sundering"
   #Iron Islands 
- agot_war_of_succession_name_Greyjoy: "Clash of Krakens" #NT!
- agot_war_of_succession_name_Harlaw: "Great Reaping" #NT!
- agot_war_of_succession_name_Goodbrother: "Badbrother War" #NT!
- agot_war_of_succession_name_Hoare: "Black Sowing" #NT!
- agot_war_of_succession_name_Codd: "Clash of the Codd" #NT!
+ agot_war_of_succession_name_Greyjoy: "Clash of Krakens"
+ agot_war_of_succession_name_Harlaw: "Great Reaping"
+ agot_war_of_succession_name_Goodbrother: "Badbrother War"
+ agot_war_of_succession_name_Hoare: "Black Sowing"
+ agot_war_of_succession_name_Codd: "Clash of the Codd"
   #Stormlands 
- agot_war_of_succession_name_Baratheon: "Clash of Antlers" #NT!
- agot_war_of_succession_name_Estermont: "Maelstrom" #NT!
- agot_war_of_succession_name_Dondarrion: "Thundering" #NT!
- agot_war_of_succession_name_Tarth: "Sapphire War" #NT!
- agot_war_of_succession_name_Seaworth: "Onslaught of Onions" #NT!
- agot_war_of_succession_name_Connington: "Griffin's Grudge" #NT!
- agot_war_of_succession_name_Swann: "Ballad of Swans" #NT!
- agot_war_of_succession_name_Selmy: "Cruel Harvest" #NT!
+ agot_war_of_succession_name_Baratheon: "Clash of Antlers"
+ agot_war_of_succession_name_Estermont: "Maelstrom"
+ agot_war_of_succession_name_Dondarrion: "Thundering"
+ agot_war_of_succession_name_Tarth: "Sapphire War"
+ agot_war_of_succession_name_Seaworth: "Onslaught of Onions"
+ agot_war_of_succession_name_Connington: "Griffin's Grudge"
+ agot_war_of_succession_name_Swann: "Ballad of Swans"
+ agot_war_of_succession_name_Selmy: "Cruel Harvest"
   #Westerlands 
- agot_war_of_succession_name_Lannister: "War of Pride" #NT!
- agot_war_of_succession_name_Reyne: "Roar of Red Lions" #NT!
- agot_war_of_succession_name_Clegane: "Melee of Mongrels" #NT!
- agot_war_of_succession_name_Lydden: "Brawl of the Badgers" #NT!
- agot_war_of_succession_name_Brax: "Broken Horns" #NT!
- agot_war_of_succession_name_Crakehall: "Goring" #NT!
- agot_war_of_succession_name_Banefort: "Hooded War" #NT!
+ agot_war_of_succession_name_Lannister: "War of Pride"
+ agot_war_of_succession_name_Reyne: "Roar of Red Lions"
+ agot_war_of_succession_name_Clegane: "Melee of Mongrels"
+ agot_war_of_succession_name_Lydden: "Brawl of the Badgers"
+ agot_war_of_succession_name_Brax: "Broken Horns"
+ agot_war_of_succession_name_Crakehall: "Goring"
+ agot_war_of_succession_name_Banefort: "Hooded War"
   #Reach 
- agot_war_of_succession_name_Tyrell: "War of the Roses" #NT!
- agot_war_of_succession_name_Hightower: "Battle of the Beacon" #NT!
- agot_war_of_succession_name_Florent: "Fracas of Foxes" #NT!
- agot_war_of_succession_name_Redwyne: "Bloody Vintage" #NT!
- agot_war_of_succession_name_Tarly: "Black Hunt" #NT!
- agot_war_of_succession_name_Gardener: "Wilting" #NT!
+ agot_war_of_succession_name_Tyrell: "War of the Roses"
+ agot_war_of_succession_name_Hightower: "Battle of the Beacon"
+ agot_war_of_succession_name_Florent: "Fracas of Foxes"
+ agot_war_of_succession_name_Redwyne: "Bloody Vintage"
+ agot_war_of_succession_name_Tarly: "Black Hunt"
+ agot_war_of_succession_name_Gardener: "Wilting"
   #Dorne 
- agot_war_of_succession_name_Martell: "War of Sun and Spear" #NT!
- agot_war_of_succession_name_Dayne: "War of the Mourning" #NT!
- agot_war_of_succession_name_Yronwood: "War of the Bloodroyal" #NT!
- agot_war_of_succession_name_Qorgyle: "War of the Poisoned Well" #NT!
- agot_war_of_succession_name_Uller: "Hellfire" #NT!
- agot_war_of_succession_name_Jordayne: "War of Power" #NT!
- agot_war_of_succession_name_Toland: "Grave Digging" #NT!
- agot_war_of_succession_name_Dalt: "Sour Harvest" #NT!
- agot_war_of_succession_name_Fowler: "Falcon's Fight" #NT!
- agot_war_of_succession_name_Manwoody: "Skullbreaking" #NT!
+ agot_war_of_succession_name_Martell: "War of Sun and Spear"
+ agot_war_of_succession_name_Dayne: "War of the Mourning"
+ agot_war_of_succession_name_Yronwood: "War of the Bloodroyal"
+ agot_war_of_succession_name_Qorgyle: "War of the Poisoned Well"
+ agot_war_of_succession_name_Uller: "Hellfire"
+ agot_war_of_succession_name_Jordayne: "War of Power"
+ agot_war_of_succession_name_Toland: "Grave Digging"
+ agot_war_of_succession_name_Dalt: "Sour Harvest"
+ agot_war_of_succession_name_Fowler: "Falcon's Fight"
+ agot_war_of_succession_name_Manwoody: "Skullbreaking"
   #Fallback 
- agot_war_of_succession_name_fallback: "War of Succession" #NT!
- AGOT_CB_RECLAIMING_DYNASTY_TITLES: "Reclaiming Your Dynasty's Titles" #NT!
+ agot_war_of_succession_name_fallback: "War of Succession"
+ AGOT_CB_RECLAIMING_DYNASTY_TITLES: "Reclaiming Your Dynasty's Titles"
   
- #Usurper Cusloc 
- agot_usurper_standard: "Usurper" #NT!
- agot_usurper_pretender: "Pretender" #NT!
- agot_usurper_mummer_king: "Mummer King" #NT!
- agot_usurper_mummer_queen: "Mummer Queen" #NT!
- agot_usurper_boy_king: "Boy King" #NT!
- agot_usurper_witch_king: "Witch King" #NT!
- agot_usurper_witch_queen: "Witch Queen" #NT!
- agot_usurper_coward_king: "Craven King" #NT!
- agot_usurper_coward_queen: "Craven Queen" #NT!
- agot_usurper_mummers_dragon: "Mummer's Dragon" #NT!
- agot_usurper_mummers_wolf: "Mummer's Wolf" #NT!
- agot_usurper_mummers_bear: "Mummer's Bear" #NT!
- agot_usurper_mummers_fox: "Mummer's Fox" #NT!
- agot_usurper_false_star: "False Star" #NT!
- agot_usurper_false_king: "False King" #NT!
- agot_usurper_false_queen: "False Queen" #NT!
- agot_usurper_bastard_king: "Bastard King" #NT!
- agot_usurper_bastard_queen: "Bastard Queen" #NT!
- agot_usurper_b_word: "Bitch Queen" #NT!
- agot_usurper_mummers_stag: "Mummer's Stag" #NT!
+  #Usurper Cusloc 
+ agot_usurper_standard: "Usurper"
+ agot_usurper_pretender: "Pretender"
+ agot_usurper_mummer_king: "Mummer King"
+ agot_usurper_mummer_queen: "Mummer Queen"
+ agot_usurper_boy_king: "Boy King"
+ agot_usurper_witch_king: "Witch King"
+ agot_usurper_witch_queen: "Witch Queen"
+ agot_usurper_coward_king: "Craven King"
+ agot_usurper_coward_queen: "Craven Queen"
+ agot_usurper_mummers_dragon: "Mummer's Dragon"
+ agot_usurper_mummers_wolf: "Mummer's Wolf"
+ agot_usurper_mummers_bear: "Mummer's Bear"
+ agot_usurper_mummers_fox: "Mummer's Fox"
+ agot_usurper_false_star: "False Star"
+ agot_usurper_false_king: "False King"
+ agot_usurper_false_queen: "False Queen"
+ agot_usurper_bastard_king: "Bastard King"
+ agot_usurper_bastard_queen: "Bastard Queen"
+ agot_usurper_b_word: "Bitch Queen"
+ agot_usurper_mummers_stag: "Mummer's Stag"
   
- AGOT_ADVENTURER_CONQUEST_CB_WAR_NAME: "Adventurer Conquest" #NT!
- AGOT_ADV_CONQUEST_TITLE_NAME: "[target_duchy.GetNameNoTierNoTooltip]" #NT!
+ AGOT_ADVENTURER_CONQUEST_CB_WAR_NAME: "Adventurer Conquest"
+ AGOT_ADV_CONQUEST_TITLE_NAME: "[target_duchy.GetNameNoTierNoTooltip]"

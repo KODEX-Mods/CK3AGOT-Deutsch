@@ -1,1295 +1,1324 @@
 ﻿l_german:
   
   #Warrior Nicknames 
- GetWarriorNickname_Blank: "" #NT!
- GetWarriorNickname_Dynasty: " of [Character.GetDynasty.GetNameNoTooltip]" #NT!
- GetWarriorNickname_Location: " of [Character.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]" #NT!
- GetWarriorNickname_Knight: " Knight" #NT!
- GetWarriorNickname_Ranger: " Ranger" #NT!
- GetWarriorNickname_Warrior: " Warrior" #NT!
- GetWarriorNickname_Reaver: " Reaver" #NT!
- GetWarriorNickname_Maid: " Maid" #NT!
- GetWarriorNickname_LordLady: " [Character.GetLadyLord|U]" #NT!
- GetWarriorNickname_PrincePrincess: " [Character.Custom('GetPrincessPrince')|U]" #NT!
- GetWarriorNickname_KingQueen: " [Character.Custom('GetQueenKing')|U]" #NT!
+ GetWarriorNickname_Blank: ""
+ GetWarriorNickname_Dynasty: " of [Character.GetDynasty.GetNameNoTooltip]"
+ GetWarriorNickname_Location: " of [Character.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ GetWarriorNickname_Knight: " Knight"
+ GetWarriorNickname_Ranger: " Ranger"
+ GetWarriorNickname_Warrior: " Warrior"
+ GetWarriorNickname_Reaver: " Reaver"
+ GetWarriorNickname_Maid: " Maid"
+ GetWarriorNickname_LordLady: " [Character.GetLadyLord|U]"
+ GetWarriorNickname_PrincePrincess: " [Character.Custom('GetPrincessPrince')|U]"
+ GetWarriorNickname_KingQueen: " [Character.Custom('GetQueenKing')|U]"
+  
+  #Unique Nicknames 
+ nick_the_black_unique: "the Black [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_white_unique: "the White [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_crazed_unique: "the Mad [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_wild_unique: "the Wrathful [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_quiet_unique: "the Quiet [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_red_unique: "the Red [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_big_unique: "the Big [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_strong_unique: "the Strong [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_fair_unique: "the Fair [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_ugly_unique: "the Ugly [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_small_unique: "the Small [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_wise_unique: "the Wise [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_dumb_unique: "the Dumb [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_dark_unique: "the Dark [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_weak_unique: "the Weak [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_silver_unique: "the Silver [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_old_unique: "the Old [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_laughing_unique: "the Laughing [GetGlobalVariable('maester').Char.GetNameNoTooltip]" #NT!
+ nick_the_unique_daughter: "the [GetGlobalVariable('maester').Char.GetNameNoTooltip]'s Daughter" #NT!
+ nick_the_uniqueknight: "the [GetGlobalVariable('maester').Char.GetNameNoTooltip] [CHARACTER.Custom('GetWarriorNickname')]" #NT!
+  
+ agot_nicknames.9000.t: "Dynastic Nickname" #NT!
+ agot_nicknames.9000_desc: "The great houses boast of their wolves, their lions, their krakens and bridges, each convinced their sigil marks them as unmatched. Yet their symbols are no more than boast and bluster.\n\nOur house shall be different. Our banner will inspire fear in our foes and awe in our allies. From this day forth, House [ROOT.Char.GetHouse.GetName] shall be remembered for its association with…\n\n #help The world selected will be used in several templates to provide Dynastic Nicknames for your House.\n\ne.g. 'The Black X' 'The Red X'\n\nFor the best results select a noun!#" #NT!
+ Dynasty_Nickname_Text: "[GetGlobalVariable('maester').Char.GetLocalizedText('dynastic_nickname')]" #NT!
+ agot_nicknames.9000.a: "Let them know our name!" #NT!
   
   #Lion Nicknames 
- nick_the_black_lion: "der Schwarze Löwe"
- nick_the_white_lion: "the White Lion" #NT!
- nick_the_crazed_lion: "the Mad Lion" #NT!
- nick_the_wild_lion: "the Wroth Lion" #NT!
- nick_the_quiet_lion: "the Sleeping Lion" #NT!
- nick_the_red_lion: "der Rote Löwe"
- nick_the_big_lion: "the Big Lion" #NT!
- nick_the_strong_lion: "the Strong Lion" #NT!
- nick_the_fair_lion: "the Golden Lion" #NT!
- nick_the_ugly_lion: "the Ugly Lion" #NT!
- nick_the_small_lion: "the Little Lion" #NT!
- nick_the_wise_lion: "the Bright Lion" #NT!
- nick_the_dumb_lion: "the Dumb Lion" #NT!
- nick_the_dark_lion: "the Dark Lion" #NT!
- nick_the_weak_lion: "the Lame Lion" #NT!
- nick_the_toothless_lion: "[CHARACTER.Custom('DE_END_NOU_S_GS_N')] Zahnlose Löw[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
- nick_the_silver_lion: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Silberne Löw[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
- nick_the_old_lion: "the Old Lion" #NT!
- nick_the_laughing_lion: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lachende Löw[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
- nick_the_lion_daughter: "the Lion's Daughter" #NT!
- nick_the_lionknight: "the Lion[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_crimsonknight: "the Crimson[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_chequyknight: "the Chequy[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_lioness: "the Lioness" #NT!
+ nick_agot_the_black_lion: "the Black Lion" #NT!
+ nick_agot_the_white_lion: "the White Lion" #NT!
+ nick_agot_the_crazed_lion: "the Mad Lion" #NT!
+ nick_agot_the_wild_lion: "the Wroth Lion" #NT!
+ nick_agot_the_quiet_lion: "the Sleeping Lion" #NT!
+ nick_agot_the_red_lion: "the Red Lion" #NT!
+ nick_agot_the_big_lion: "the Big Lion" #NT!
+ nick_agot_the_strong_lion: "the Strong Lion" #NT!
+ nick_agot_the_fair_lion: "the Golden Lion" #NT!
+ nick_agot_the_ugly_lion: "the Ugly Lion" #NT!
+ nick_agot_the_small_lion: "the Little Lion" #NT!
+ nick_agot_the_wise_lion: "the Bright Lion" #NT!
+ nick_agot_the_dumb_lion: "the Dumb Lion" #NT!
+ nick_agot_the_dark_lion: "the Dark Lion" #NT!
+ nick_agot_the_weak_lion: "the Lame Lion" #NT!
+ nick_agot_the_toothless_lion: "the Toothless Lion" #NT!
+ nick_agot_the_silver_lion: "the Silver Lion" #NT!
+ nick_agot_the_old_lion: "the Old Lion" #NT!
+ nick_agot_the_laughing_lion: "the Laughing Lion" #NT!
+ nick_agot_the_lion_daughter: "the Lion's Daughter" #NT!
+ nick_agot_the_lionknight: "the Lion[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_crimsonknight: "the Crimson[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_chequyknight: "the Chequy[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_lionheart: "the Lionheart" #NT!
+ nick_agot_the_lioness: "the Lioness" #NT!
   
  #Wolf Nicknames 
- nick_the_black_wolf: "the Black Wolf" #NT!
- nick_the_white_wolf: "the White Wolf" #NT!
- nick_the_crazed_wolf: "the Rabid Wolf" #NT!
- nick_the_wild_wolf: "the Hungry Wolf" #NT!
- nick_the_quiet_wolf: "the Quiet Wolf" #NT!
- nick_the_red_wolf: "the Red Wolf" #NT!
- nick_the_big_wolf: "the Big Wolf" #NT!
- nick_the_strong_wolf: "Direwolf" #NT!
- nick_the_fair_wolf: "the Fair Wolf" #NT!
- nick_the_ugly_wolf: "the Mangy Wolf" #NT!
- nick_the_small_wolf: "the Runt" #NT!
- nick_the_wise_wolf: "the Wise Wolf" #NT!
- nick_the_dumb_wolf: "the Slow Wolf" #NT!
- nick_the_dark_wolf: "Darkwolf" #NT!
- nick_the_weak_wolf: "the Lame Wolf" #NT!
- nick_the_silver_wolf: "the Silver Wolf" #NT!
- nick_the_old_wolf: "the Old Wolf" #NT!
- nick_the_laughing_wolf: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lachende W[Select_CString( CHARACTER.IsFemale, 'ö', 'o' )]lf[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_wolf_daughter: "the She-Wolf" #NT!
- nick_the_wolfknight: "the Wolf[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_wolf: "the Black Wolf" #NT!
+ nick_agot_the_white_wolf: "the White Wolf" #NT!
+ nick_agot_the_crazed_wolf: "the Rabid Wolf" #NT!
+ nick_agot_the_wild_wolf: "the Hungry Wolf" #NT!
+ nick_agot_the_quiet_wolf: "the Quiet Wolf" #NT!
+ nick_agot_the_red_wolf: "the Red Wolf" #NT!
+ nick_agot_the_big_wolf: "the Big Wolf" #NT!
+ nick_agot_the_strong_wolf: "Direwolf" #NT!
+ nick_agot_the_fair_wolf: "the Fair Wolf" #NT!
+ nick_agot_the_ugly_wolf: "the Mangy Wolf" #NT!
+ nick_agot_the_small_wolf: "the Runt" #NT!
+ nick_agot_the_wise_wolf: "the Wise Wolf" #NT!
+ nick_agot_the_dumb_wolf: "the Slow Wolf" #NT!
+ nick_agot_the_dark_wolf: "Darkwolf" #NT!
+ nick_agot_the_weak_wolf: "the Lame Wolf" #NT!
+ nick_agot_the_silver_wolf: "the Silver Wolf" #NT!
+ nick_agot_the_old_wolf: "the Old Wolf" #NT!
+ nick_agot_the_laughing_wolf: "the Howling Wolf" #NT!
+ nick_agot_the_wolf_daughter: "the She-Wolf" #NT!
+ nick_agot_the_wolfknight: "the Wolf[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Dragon Nicknames 
- nick_the_black_dragon: "der Schwarze Drache"
- nick_the_white_dragon: "the White Dragon" #NT!
- nick_the_crazed_dragon: "the Mad Dragon" #NT!
- nick_the_wild_dragon: "the Fiery Dragon" #NT!
- nick_the_quiet_dragon: "the Sleeping Dragon" #NT!
- nick_the_red_dragon: "the Red Dragon" #NT!
- nick_the_big_dragon: "the Great Dragon" #NT!
- nick_the_strong_dragon: "Strongdragon" #NT!
- nick_the_fair_dragon: "Snapdragon" #NT!
- nick_the_ugly_dragon: "the Ugly Dragon" #NT!
- nick_the_small_dragon: "the Wyrm" #NT!
- nick_the_wise_dragon: "the Golden Dragon" #NT!
- nick_the_dumb_dragon: "the Lumbering Dragon" #NT!
- nick_the_dark_dragon: "the Wyvern" #NT!
- nick_the_weak_dragon: "the Hatchling" #NT!
- nick_the_silver_dragon: "the Silver Dragon" #NT!
- nick_the_old_dragon: "the Old Dragon" #NT!
- nick_the_laughing_dragon: "the Laughing Dragon" #NT!
- nick_the_dragon_daughter: "the Dragon's Daughter" #NT!
- nick_the_dragonknight: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Drachenritter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_shedragon: "the She-Dragon" #NT!
+ nick_agot_the_black_dragon: "the Black Dragon" #NT!
+ nick_agot_the_white_dragon: "the White Dragon" #NT!
+ nick_agot_the_crazed_dragon: "the Mad Dragon" #NT!
+ nick_agot_the_wild_dragon: "the Fiery Dragon" #NT!
+ nick_agot_the_quiet_dragon: "the Sleeping Dragon" #NT!
+ nick_agot_the_red_dragon: "the Red Dragon" #NT!
+ nick_agot_the_big_dragon: "the Great Dragon" #NT!
+ nick_agot_the_strong_dragon: "Strongdragon" #NT!
+ nick_agot_the_fair_dragon: "Snapdragon" #NT!
+ nick_agot_the_ugly_dragon: "the Ugly Dragon" #NT!
+ nick_agot_the_small_dragon: "the Wyrm" #NT!
+ nick_agot_the_wise_dragon: "the Golden Dragon" #NT!
+ nick_agot_the_dumb_dragon: "the Lumbering Dragon" #NT!
+ nick_agot_the_dark_dragon: "the Wyvern" #NT!
+ nick_agot_the_weak_dragon: "the Hatchling" #NT!
+ nick_agot_the_silver_dragon: "the Silver Dragon" #NT!
+ nick_agot_the_old_dragon: "the Old Dragon" #NT!
+ nick_agot_the_laughing_dragon: "the Laughing Dragon" #NT!
+ nick_agot_the_dragon_daughter: "the Dragon's Daughter" #NT!
+ nick_agot_the_dragonknight: "the Dragon[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_shedragon: "the She-Dragon" #NT!
   
  #Fire Nicknames 
- nick_the_black_fire: "the Black Fire" #NT!
- nick_the_white_fire: "the White Flame" #NT!
- nick_the_crazed_fire: "the Mad Flame" #NT!
- nick_the_wild_fire: "Wildfire" #NT!
- nick_the_quiet_fire: "the Smouldering Flame" #NT!
- nick_the_red_fire: "Hellfire" #NT!
- nick_the_big_fire: "the Great Flame" #NT!
- nick_the_strong_fire: "Strongfire" #NT!
- nick_the_fair_fire: "Brightflame" #NT!
- nick_the_ugly_fire: "the Ugly Fire" #NT!
- nick_the_small_fire: "the Flicker" #NT!
- nick_the_wise_fire: "the Spark" #NT!
- nick_the_dumb_fire: "the Doused Flame" #NT!
- nick_the_dark_fire: "Darkflame" #NT!
- nick_the_weak_fire: "the Cinder" #NT!
- nick_the_silver_fire: "the Silver Flame" #NT!
- nick_the_old_fire: "the Old Fire" #NT!
- nick_the_laughing_fire: "the Crackling Flame" #NT!
- nick_the_fire_daughter: "the Fire's Daughter" #NT!
- nick_the_fireknight: "the Fire[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_fire: "the Black Fire" #NT!
+ nick_agot_the_white_fire: "the White Flame" #NT!
+ nick_agot_the_crazed_fire: "the Mad Flame" #NT!
+ nick_agot_the_wild_fire: "Wildfire" #NT!
+ nick_agot_the_quiet_fire: "the Smouldering Flame" #NT!
+ nick_agot_the_red_fire: "Hellfire" #NT!
+ nick_agot_the_big_fire: "the Great Flame" #NT!
+ nick_agot_the_strong_fire: "Strongfire" #NT!
+ nick_agot_the_fair_fire: "Brightflame" #NT!
+ nick_agot_the_ugly_fire: "the Ugly Fire" #NT!
+ nick_agot_the_small_fire: "the Flicker" #NT!
+ nick_agot_the_wise_fire: "the Spark" #NT!
+ nick_agot_the_dumb_fire: "the Doused Flame" #NT!
+ nick_agot_the_dark_fire: "Darkflame" #NT!
+ nick_agot_the_weak_fire: "the Cinder" #NT!
+ nick_agot_the_silver_fire: "the Silver Flame" #NT!
+ nick_agot_the_old_fire: "the Old Fire" #NT!
+ nick_agot_the_laughing_fire: "the Crackling Flame" #NT!
+ nick_agot_the_fire_daughter: "the Fire's Daughter" #NT!
+ nick_agot_the_fireknight: "the Fire[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Stag Nicknames 
- nick_the_black_stag: "the Black Stag" #NT!
- nick_the_white_stag: "the White Stag" #NT!
- nick_the_crazed_stag: "the Mad Stag" #NT!
- nick_the_wild_stag: "the Bucking Stag" #NT!
- nick_the_quiet_stag: "the Silent Stag" #NT!
- nick_the_red_stag: "the Red Stag" #NT!
- nick_the_big_stag: "the Great Stag" #NT!
- nick_the_strong_stag: "Strongstag" #NT!
- nick_the_fair_stag: "the Noble Stag" #NT!
- nick_the_ugly_stag: "the Ugly Stag" #NT!
- nick_the_small_stag: "the Deerling" #NT!
- nick_the_wise_stag: "the Sage Stag" #NT!
- nick_the_dumb_stag: "the Slow Stag" #NT!
- nick_the_dark_stag: "Darkstag" #NT!
- nick_the_weak_stag: "the Weak Stag" #NT!
- nick_the_silver_stag: "der Silberne Hirsch"
- nick_the_old_stag: "the Old Stag" #NT!
- nick_the_laughing_stag: "the Laughing Stag" #NT!
- nick_the_stag_daughter: "the Doe" #NT!
- nick_the_stagknight: "the Stag[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_stag: "the Black Stag" #NT!
+ nick_agot_the_white_stag: "the White Stag" #NT!
+ nick_agot_the_crazed_stag: "the Mad Stag" #NT!
+ nick_agot_the_wild_stag: "the Bucking Stag" #NT!
+ nick_agot_the_quiet_stag: "the Silent Stag" #NT!
+ nick_agot_the_red_stag: "the Red Stag" #NT!
+ nick_agot_the_big_stag: "the Great Stag" #NT!
+ nick_agot_the_strong_stag: "Strongstag" #NT!
+ nick_agot_the_fair_stag: "the Noble Stag" #NT!
+ nick_agot_the_ugly_stag: "the Ugly Stag" #NT!
+ nick_agot_the_small_stag: "the Deerling" #NT!
+ nick_agot_the_wise_stag: "the Sage Stag" #NT!
+ nick_agot_the_dumb_stag: "the Slow Stag" #NT!
+ nick_agot_the_dark_stag: "Darkstag" #NT!
+ nick_agot_the_weak_stag: "the Weak Stag" #NT!
+ nick_agot_the_silver_stag: "the Silver Stag" #NT!
+ nick_agot_the_old_stag: "the Old Stag" #NT!
+ nick_agot_the_laughing_stag: "the Laughing Stag" #NT!
+ nick_agot_the_stag_daughter: "the Doe" #NT!
+ nick_agot_the_stagknight: "the Stag[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Storm Nicknames 
- nick_the_black_storm: "the Black Storm" #NT!
- nick_the_white_storm: "the White Storm" #NT!
- nick_the_crazed_storm: "the Howling Storm" #NT!
- nick_the_wild_storm: "the Raging Storm" #NT!
- nick_the_quiet_storm: "the Quiet Storm" #NT!
- nick_the_red_storm: "the Maelstrom" #NT!
- nick_the_big_storm: "the Hurricane" #NT!
- nick_the_strong_storm: "Strongstorm" #NT!
- nick_the_fair_storm: "the Beautiful Storm" #NT!
- nick_the_ugly_storm: "the Fart" #NT!
- nick_the_small_storm: "the Gust" #NT!
- nick_the_wise_storm: "the Wise Storm" #NT!
- nick_the_dumb_storm: "the Slow Storm" #NT!
- nick_the_dark_storm: "Darkstorm" #NT!
- nick_the_weak_storm: "the Gentle Breeze" #NT!
- nick_the_silver_storm: "the Silver Storm" #NT!
- nick_the_old_storm: "the Old Winds" #NT!
- nick_the_laughing_storm: "der Lachende Sturm"
- nick_the_storm_daughter: "the Storm's Daughter" #NT!
- nick_the_stormknight: "the Storm[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_storm: "the Black Storm" #NT!
+ nick_agot_the_white_storm: "the White Storm" #NT!
+ nick_agot_the_crazed_storm: "the Howling Storm" #NT!
+ nick_agot_the_wild_storm: "the Raging Storm" #NT!
+ nick_agot_the_quiet_storm: "the Quiet Storm" #NT!
+ nick_agot_the_red_storm: "the Maelstrom" #NT!
+ nick_agot_the_big_storm: "the Hurricane" #NT!
+ nick_agot_the_strong_storm: "Strongstorm" #NT!
+ nick_agot_the_fair_storm: "the Beautiful Storm" #NT!
+ nick_agot_the_ugly_storm: "the Fart" #NT!
+ nick_agot_the_small_storm: "the Gust" #NT!
+ nick_agot_the_wise_storm: "the Wise Storm" #NT!
+ nick_agot_the_dumb_storm: "the Slow Storm" #NT!
+ nick_agot_the_dark_storm: "Darkstorm" #NT!
+ nick_agot_the_weak_storm: "the Gentle Breeze" #NT!
+ nick_agot_the_silver_storm: "the Silver Storm" #NT!
+ nick_agot_the_old_storm: "the Old Winds" #NT!
+ nick_agot_the_laughing_storm: "the Laughing Storm" #NT!
+ nick_agot_the_storm_daughter: "the Storm's Daughter" #NT!
+ nick_agot_the_stormknight: "the Storm[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Spear Nicknames - Martell/Stackspear 
- nick_the_black_spear: "the Black Spear" #NT!
- nick_the_white_spear: "the White Spear" #NT!
- nick_the_crazed_spear: "the Mad Spear" #NT!
- nick_the_wild_spear: "the Lashing Spear" #NT!
- nick_the_quiet_spear: "the Silent Spear" #NT!
- nick_the_red_spear: "the Red Spear" #NT!
- nick_the_big_spear: "the Pollax" #NT!
- nick_the_strong_spear: "Greatspear" #NT!
- nick_the_fair_spear: "the Noble Spear" #NT!
- nick_the_ugly_spear: "the Bent Spear" #NT!
- nick_the_small_spear: "the Knife" #NT!
- nick_the_wise_spear: "the Sage Spear" #NT!
- nick_the_dumb_spear: "the Blunt Spear" #NT!
- nick_the_dark_spear: "Darkspear" #NT!
- nick_the_weak_spear: "the Brittle Spear" #NT!
- nick_the_silver_spear: "the Silver Spear" #NT!
- nick_the_old_spear: "the Old Spear" #NT!
- nick_the_laughing_spear: "the Laughing Spear" #NT!
- nick_the_spear_daughter: "the Spear's Daughter" #NT!
- nick_the_spearknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Spears" #NT!
+ nick_agot_the_black_spear: "the Black Spear" #NT!
+ nick_agot_the_white_spear: "the White Spear" #NT!
+ nick_agot_the_crazed_spear: "the Mad Spear" #NT!
+ nick_agot_the_wild_spear: "the Lashing Spear" #NT!
+ nick_agot_the_quiet_spear: "the Silent Spear" #NT!
+ nick_agot_the_red_spear: "the Red Spear" #NT!
+ nick_agot_the_big_spear: "the Pollax" #NT!
+ nick_agot_the_strong_spear: "Greatspear" #NT!
+ nick_agot_the_fair_spear: "the Noble Spear" #NT!
+ nick_agot_the_ugly_spear: "the Bent Spear" #NT!
+ nick_agot_the_small_spear: "the Knife" #NT!
+ nick_agot_the_wise_spear: "the Sage Spear" #NT!
+ nick_agot_the_dumb_spear: "the Blunt Spear" #NT!
+ nick_agot_the_dark_spear: "Darkspear" #NT!
+ nick_agot_the_weak_spear: "the Brittle Spear" #NT!
+ nick_agot_the_silver_spear: "the Silver Spear" #NT!
+ nick_agot_the_old_spear: "the Old Spear" #NT!
+ nick_agot_the_laughing_spear: "the Laughing Spear" #NT!
+ nick_agot_the_spear_daughter: "the Spear's Daughter" #NT!
+ nick_agot_the_spearknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Spears" #NT!
   
  #Sun Nicknames - Martell 
- nick_the_black_sun: "the Black Sun" #NT!
- nick_the_white_sun: "the White Sun" #NT!
- nick_the_crazed_sun: "the Scorching Sun" #NT!
- nick_the_wild_sun: "the Blistering Spear" #NT!
- nick_the_quiet_sun: "the Silent Sun" #NT!
- nick_the_red_sun: "the Red Sun" #NT!
- nick_the_big_sun: "the Sun" #NT!
- nick_the_strong_sun: "Strongsun" #NT!
- nick_the_fair_sun: "the Bright Sun" #NT!
- nick_the_ugly_sun: "the Ugly Sun" #NT!
- nick_the_small_sun: "the Candle" #NT!
- nick_the_wise_sun: "the Sage Sun" #NT!
- nick_the_dumb_sun: "the Dull Sun" #NT!
- nick_the_dark_sun: "Darksun" #NT!
- nick_the_weak_sun: "the Weak Sun" #NT!
- nick_the_silver_sun: "the Silver Sun" #NT!
- nick_the_old_sun: "the Old Sun" #NT!
- nick_the_laughing_sun: "the Smiling Sun" #NT!
- nick_the_sun_daughter: "the Sun's Daughter" #NT!
- nick_the_sunknight: "the Sun[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_sunknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Sun" #NT!
+ nick_agot_the_black_sun: "the Black Sun" #NT!
+ nick_agot_the_white_sun: "the White Sun" #NT!
+ nick_agot_the_crazed_sun: "the Scorching Sun" #NT!
+ nick_agot_the_wild_sun: "the Blistering Spear" #NT!
+ nick_agot_the_quiet_sun: "the Silent Sun" #NT!
+ nick_agot_the_red_sun: "the Red Sun" #NT!
+ nick_agot_the_big_sun: "the Sun" #NT!
+ nick_agot_the_strong_sun: "Strongsun" #NT!
+ nick_agot_the_fair_sun: "the Bright Sun" #NT!
+ nick_agot_the_ugly_sun: "the Ugly Sun" #NT!
+ nick_agot_the_small_sun: "the Candle" #NT!
+ nick_agot_the_wise_sun: "the Sage Sun" #NT!
+ nick_agot_the_dumb_sun: "the Dull Sun" #NT!
+ nick_agot_the_dark_sun: "Darksun" #NT!
+ nick_agot_the_weak_sun: "the Weak Sun" #NT!
+ nick_agot_the_silver_sun: "the Silver Sun" #NT!
+ nick_agot_the_old_sun: "the Old Sun" #NT!
+ nick_agot_the_laughing_sun: "the Smiling Sun" #NT!
+ nick_agot_the_sun_daughter: "the Sun's Daughter" #NT!
+ nick_agot_the_sunknight: "the Sun[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_sunknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Sun" #NT!
   
  #Rose Nicknames - Tyrell 
- nick_the_black_rose: "die Schwarze Rose"
- nick_the_white_rose: "the White Rose" #NT!
- nick_the_crazed_rose: "Tanglethorn" #NT!
- nick_the_wild_rose: "the Thorn" #NT!
- nick_the_quiet_rose: "the Quiet Rose" #NT!
- nick_the_red_rose: "the Red Rose" #NT!
- nick_the_big_rose: "the Rosebush" #NT!
- nick_the_strong_rose: "Strongrose" #NT!
- nick_the_fair_rose: "the Summer Rose" #NT!
- nick_the_ugly_rose: "the Weed" #NT!
- nick_the_small_rose: "the Rosebud" #NT!
- nick_the_wise_rose: "the Wise Rose" #NT!
- nick_the_dumb_rose: "the Dull Rose" #NT!
- nick_the_dark_rose: "the Violet" #NT!
- nick_the_weak_rose: "the Wilting Rose" #NT!
- nick_the_silver_rose: "die Silberne Rose"
- nick_the_old_rose: "the Old Rose" #NT!
- nick_the_laughing_rose: "the Blooming Rose" #NT!
- nick_the_rose_daughter: "the Petal" #NT!
- nick_the_roseknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Flowers" #NT!
+ nick_agot_the_black_rose: "the Black Rose" #NT!
+ nick_agot_the_white_rose: "the White Rose" #NT!
+ nick_agot_the_crazed_rose: "Tanglethorn" #NT!
+ nick_agot_the_wild_rose: "the Thorn" #NT!
+ nick_agot_the_quiet_rose: "the Quiet Rose" #NT!
+ nick_agot_the_red_rose: "the Red Rose" #NT!
+ nick_agot_the_big_rose: "the Rosebush" #NT!
+ nick_agot_the_strong_rose: "Strongrose" #NT!
+ nick_agot_the_fair_rose: "the Summer Rose" #NT!
+ nick_agot_the_ugly_rose: "the Weed" #NT!
+ nick_agot_the_small_rose: "the Rosebud" #NT!
+ nick_agot_the_wise_rose: "the Wise Rose" #NT!
+ nick_agot_the_dumb_rose: "the Dull Rose" #NT!
+ nick_agot_the_dark_rose: "the Violet" #NT!
+ nick_agot_the_weak_rose: "the Wilting Rose" #NT!
+ nick_agot_the_silver_rose: "the Silver Rose" #NT!
+ nick_agot_the_old_rose: "the Old Rose" #NT!
+ nick_agot_the_laughing_rose: "the Blooming Rose" #NT!
+ nick_agot_the_rose_daughter: "the Petal" #NT!
+ nick_agot_the_roseknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Flowers" #NT!
   
  #Fish Nicknames - Tully 
- nick_the_black_fish: "the Blackfish" #NT!
- nick_the_white_fish: "the Whitefish" #NT!
- nick_the_crazed_fish: "Madfish" #NT!
- nick_the_wild_fish: "the Barracuda" #NT!
- nick_the_quiet_fish: "the Silent Swimmer" #NT!
- nick_the_red_fish: "the Redfin" #NT!
- nick_the_big_fish: "the Pike" #NT!
- nick_the_strong_fish: "the Fishhook" #NT!
- nick_the_fair_fish: "the Goldfish" #NT!
- nick_the_ugly_fish: "Troutface" #NT!
- nick_the_small_fish: "the Minnow" #NT!
- nick_the_wise_fish: "the Fish of Knowledge" #NT!
- nick_the_dumb_fish: "the Guppy" #NT!
- nick_the_dark_fish: "Darkfish" #NT!
- nick_the_weak_fish: "the Floundering Fish" #NT!
- nick_the_silver_fish: "Silverfish" #NT!
- nick_the_old_fish: "the Old Fisher" #NT!
- nick_the_laughing_fish: "the Laughing Fish" #NT!
- nick_the_fish_daughter: "the Lady of the Lakes" #NT!
- nick_the_fishknight: "the River[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_fish: "the Blackfish" #NT!
+ nick_agot_the_white_fish: "the Whitefish" #NT!
+ nick_agot_the_crazed_fish: "Madfish" #NT!
+ nick_agot_the_wild_fish: "the Barracuda" #NT!
+ nick_agot_the_quiet_fish: "the Silent Swimmer" #NT!
+ nick_agot_the_red_fish: "the Redfin" #NT!
+ nick_agot_the_big_fish: "the Pike" #NT!
+ nick_agot_the_strong_fish: "the Fishhook" #NT!
+ nick_agot_the_fair_fish: "the Goldfish" #NT!
+ nick_agot_the_ugly_fish: "Troutface" #NT!
+ nick_agot_the_small_fish: "the Minnow" #NT!
+ nick_agot_the_wise_fish: "the Fish of Knowledge" #NT!
+ nick_agot_the_dumb_fish: "the Guppy" #NT!
+ nick_agot_the_dark_fish: "Darkfish" #NT!
+ nick_agot_the_weak_fish: "the Floundering Fish" #NT!
+ nick_agot_the_silver_fish: "Silverfish" #NT!
+ nick_agot_the_old_fish: "the Old Fisher" #NT!
+ nick_agot_the_laughing_fish: "the Laughing Fish" #NT!
+ nick_agot_the_fish_daughter: "the Lady of the Lakes" #NT!
+ nick_agot_the_fishknight: "the River[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Squid Nicknames - Greyjoy 
- nick_the_black_squid: "the Black Kraken" #NT!
- nick_the_white_squid: "the White Kraken" #NT!
- nick_the_crazed_squid: "Seawind" #NT!
- nick_the_wild_squid: "the Thrashing Kraken" #NT!
- nick_the_quiet_squid: "the Quiet Kraken" #NT!
- nick_the_red_squid: "the Red Kraken" #NT!
- nick_the_big_squid: "the Kraken" #NT!
- nick_the_strong_squid: "Strongsquid" #NT!
- nick_the_fair_squid: "the Fair Kraken" #NT!
- nick_the_ugly_squid: "the Monstrous Kraken" #NT!
- nick_the_small_squid: "the Squidling" #NT!
- nick_the_wise_squid: "the Wise Kraken" #NT!
- nick_the_dumb_squid: "the Dull Squid" #NT!
- nick_the_dark_squid: "Darksquid" #NT!
- nick_the_weak_squid: "the Soft Squid" #NT!
- nick_the_silver_squid: "the Silver Kraken" #NT!
- nick_the_old_squid: "the Old Kraken" #NT!
- nick_the_laughing_squid: "the Laughing Kraken" #NT!
- nick_the_squid_daughter: "the Kraken's Daughter" #NT!
- nick_the_squidknight: "the Kraken[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_squid: "the Black Kraken" #NT!
+ nick_agot_the_white_squid: "the White Kraken" #NT!
+ nick_agot_the_crazed_squid: "Seawind" #NT!
+ nick_agot_the_wild_squid: "the Thrashing Kraken" #NT!
+ nick_agot_the_quiet_squid: "the Quiet Kraken" #NT!
+ nick_agot_the_red_squid: "the Red Kraken" #NT!
+ nick_agot_the_big_squid: "the Kraken" #NT!
+ nick_agot_the_strong_squid: "Strongsquid" #NT!
+ nick_agot_the_fair_squid: "the Fair Kraken" #NT!
+ nick_agot_the_ugly_squid: "the Monstrous Kraken" #NT!
+ nick_agot_the_small_squid: "the Squidling" #NT!
+ nick_agot_the_wise_squid: "the Wise Kraken" #NT!
+ nick_agot_the_dumb_squid: "the Dull Squid" #NT!
+ nick_agot_the_dark_squid: "Darksquid" #NT!
+ nick_agot_the_weak_squid: "the Soft Squid" #NT!
+ nick_agot_the_silver_squid: "the Silver Kraken" #NT!
+ nick_agot_the_old_squid: "the Old Kraken" #NT!
+ nick_agot_the_laughing_squid: "the Laughing Kraken" #NT!
+ nick_agot_the_squid_daughter: "the Kraken's Daughter" #NT!
+ nick_agot_the_squidknight: "the Kraken[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Falcon Nicknames - Arryn 
- nick_the_black_falcon: "the Black Falcon" #NT!
- nick_the_white_falcon: "the White Falcon" #NT!
- nick_the_crazed_falcon: "the Mad Falcon" #NT!
- nick_the_wild_falcon: "the Vulture" #NT!
- nick_the_quiet_falcon: "the Silent Falcon" #NT!
- nick_the_red_falcon: "the Red Falcon" #NT!
- nick_the_big_falcon: "Greathawk" #NT!
- nick_the_strong_falcon: "the Strong Falcon" #NT!
- nick_the_fair_falcon: "the Peregrine" #NT!
- nick_the_ugly_falcon: "the Molting Falcon" #NT!
- nick_the_small_falcon: "Smallhawk" #NT!
- nick_the_wise_falcon: "the Sharp Falcon" #NT!
- nick_the_dumb_falcon: "Bluntbeak" #NT!
- nick_the_dark_falcon: "Darkhawk" #NT!
- nick_the_weak_falcon: "the Talonless" #NT!
- nick_the_silver_falcon: "the Silver Falcon" #NT!
- nick_the_old_falcon: "der Alte Falke"
- nick_the_laughing_falcon: "the Laughing Falcon" #NT!
- nick_the_falcon_daughter: "the Falcon's Daughter" #NT!
- nick_the_falconknight: "the Falcon[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_falcon: "the Black Falcon" #NT!
+ nick_agot_the_white_falcon: "the White Falcon" #NT!
+ nick_agot_the_crazed_falcon: "the Mad Falcon" #NT!
+ nick_agot_the_wild_falcon: "the Vulture" #NT!
+ nick_agot_the_quiet_falcon: "the Silent Falcon" #NT!
+ nick_agot_the_red_falcon: "the Red Falcon" #NT!
+ nick_agot_the_big_falcon: "Greathawk" #NT!
+ nick_agot_the_strong_falcon: "the Strong Falcon" #NT!
+ nick_agot_the_fair_falcon: "the Peregrine" #NT!
+ nick_agot_the_ugly_falcon: "the Molting Falcon" #NT!
+ nick_agot_the_small_falcon: "Smallhawk" #NT!
+ nick_agot_the_wise_falcon: "the Sharp Falcon" #NT!
+ nick_agot_the_dumb_falcon: "Bluntbeak" #NT!
+ nick_agot_the_dark_falcon: "Darkhawk" #NT!
+ nick_agot_the_weak_falcon: "the Talonless" #NT!
+ nick_agot_the_silver_falcon: "the Silver Falcon" #NT!
+ nick_agot_the_old_falcon: "the Old Falcon" #NT!
+ nick_agot_the_laughing_falcon: "the Laughing Falcon" #NT!
+ nick_agot_the_falcon_daughter: "the Falcon's Daughter" #NT!
+ nick_agot_the_falconknight: "the Falcon[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Hand Nicknames - Gardener 
- nick_the_black_hand: "Blackhand" #NT!
- nick_the_white_hand: "Whitehand" #NT!
- nick_the_crazed_hand: "Crazyhand" #NT!
- nick_the_wild_hand: "Madhand" #NT!
- nick_the_quiet_hand: "the Gentle Touch" #NT!
- nick_the_red_hand: "the Fist" #NT!
- nick_the_big_hand: "Masterhand" #NT!
- nick_the_big_green: "the Green Giant" #NT!
- nick_the_strong_hand: "Stronghand" #NT!
- nick_the_fair_hand: "Goldenhand" #NT!
- nick_the_ugly_hand: "Brokenhand" #NT!
- nick_the_small_hand: "Smallhand" #NT!
- nick_the_wise_hand: "Evenhand" #NT!
- nick_the_dumb_hand: "Slowhand" #NT!
- nick_the_dark_hand: "Darkhand" #NT!
- nick_the_weak_hand: "Softouch" #NT!
- nick_the_silver_hand: "Silverhand" #NT!
- nick_the_old_hand: "Oldhand" #NT!
- nick_the_laughing_hand: "Jollyhand" #NT!
- nick_the_hand_daughter: "the Hand's Daughter" #NT!
- nick_the_handknight: "the Hand[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_gardenknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Gardens" #NT!
- nick_the_greenknight: "the Green[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_hand: "Blackhand" #NT!
+ nick_agot_the_white_hand: "Whitehand" #NT!
+ nick_agot_the_crazed_hand: "Crazyhand" #NT!
+ nick_agot_the_wild_hand: "Madhand" #NT!
+ nick_agot_the_quiet_hand: "the Gentle Touch" #NT!
+ nick_agot_the_red_hand: "the Fist" #NT!
+ nick_agot_the_big_hand: "Masterhand" #NT!
+ nick_agot_the_big_green: "the Green Giant" #NT!
+ nick_agot_the_strong_hand: "Stronghand" #NT!
+ nick_agot_the_fair_hand: "Goldenhand" #NT!
+ nick_agot_the_ugly_hand: "Brokenhand" #NT!
+ nick_agot_the_small_hand: "Smallhand" #NT!
+ nick_agot_the_wise_hand: "Evenhand" #NT!
+ nick_agot_the_dumb_hand: "Slowhand" #NT!
+ nick_agot_the_dark_hand: "Darkhand" #NT!
+ nick_agot_the_weak_hand: "Softouch" #NT!
+ nick_agot_the_silver_hand: "Silverhand" #NT!
+ nick_agot_the_old_hand: "Oldhand" #NT!
+ nick_agot_the_laughing_hand: "Jollyhand" #NT!
+ nick_agot_the_hand_daughter: "the Hand's Daughter" #NT!
+ nick_agot_the_handknight: "the Hand[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_gardenknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Gardens" #NT!
+ nick_agot_the_greenknight: "the Green[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Iron Nicknames - Hoare/Greyjoy 
- nick_the_black_iron: "Blackiron" #NT!
- nick_the_wrought_iron: "Wroughtiron" #NT!
- nick_the_white_iron: "Whiteiron" #NT!
- nick_the_crazed_iron: "Madiron" #NT!
- nick_the_wild_iron: "the Iron Storm" #NT!
- nick_the_quiet_iron: "the Muffled Oar" #NT!
- nick_the_red_iron: "Rediron" #NT!
- nick_the_big_iron: "Bigiron" #NT!
- nick_the_strong_iron: "Ironmonger" #NT!
- nick_the_fair_iron: "Goldiron" #NT!
- nick_the_ugly_iron: "Pigiron" #NT!
- nick_the_small_iron: "the Ingot" #NT!
- nick_the_wise_iron: "Eveniron" #NT!
- nick_the_dumb_iron: "Dulliron" #NT!
- nick_the_dark_iron: "Darkiron" #NT!
- nick_the_weak_iron: "Softiron" #NT!
- nick_the_silver_iron: "Silveriron" #NT!
- nick_the_old_iron: "Oldiron" #NT!
- nick_the_laughing_iron: "the Laughing Iron" #NT!
- nick_the_iron_daughter: "the Iron Maiden" #NT!
- nick_the_ironknight: "the Iron[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_iron: "Blackiron" #NT!
+ nick_agot_the_wrought_iron: "Wroughtiron" #NT!
+ nick_agot_the_white_iron: "Whiteiron" #NT!
+ nick_agot_the_crazed_iron: "Madiron" #NT!
+ nick_agot_the_wild_iron: "the Iron Storm" #NT!
+ nick_agot_the_quiet_iron: "the Muffled Oar" #NT!
+ nick_agot_the_red_iron: "Rediron" #NT!
+ nick_agot_the_big_iron: "Bigiron" #NT!
+ nick_agot_the_strong_iron: "Ironmonger" #NT!
+ nick_agot_the_fair_iron: "Goldiron" #NT!
+ nick_agot_the_ugly_iron: "Pigiron" #NT!
+ nick_agot_the_small_iron: "the Ingot" #NT!
+ nick_agot_the_wise_iron: "Eveniron" #NT!
+ nick_agot_the_dumb_iron: "Dulliron" #NT!
+ nick_agot_the_dark_iron: "Darkiron" #NT!
+ nick_agot_the_weak_iron: "Softiron" #NT!
+ nick_agot_the_silver_iron: "Silveriron" #NT!
+ nick_agot_the_old_iron: "Oldiron" #NT!
+ nick_agot_the_laughing_iron: "the Laughing Iron" #NT!
+ nick_agot_the_iron_daughter: "the Iron Maiden" #NT!
+ nick_agot_the_ironknight: "the Iron[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Seahorse Nicknames - Velaryon 
- nick_the_black_seahorse: "the Black Seahorse" #NT!
- nick_the_white_seahorse: "the White Seahorse" #NT!
- nick_the_crazed_seahorse: "the Mad Seahorse" #NT!
- nick_the_wild_seahorse: "Seawind" #NT!
- nick_the_quiet_seahorse: "the Quiet Tide" #NT!
- nick_the_red_seahorse: "the Sea Snake" #NT!
- nick_the_big_seahorse: "the Big Seahorse" #NT!
- nick_the_strong_seahorse: "Redtide" #NT!
- nick_the_fair_seahorse: "the Sea Pearl" #NT!
- nick_the_ugly_seahorse: "the Ugly Seahorse" #NT!
- nick_the_small_seahorse: "the Small Seahorse" #NT!
- nick_the_wise_seahorse: "the Wise Seahorse" #NT!
- nick_the_dumb_seahorse: "the Slow Seahorse" #NT!
- nick_the_dark_seahorse: "Darktide" #NT!
- nick_the_weak_seahorse: "the Weak Seahorse" #NT!
- nick_the_silver_seahorse: "the Silver Seahorse" #NT!
- nick_the_old_seahorse: "the Old Seahorse" #NT!
- nick_the_laughing_seahorse: "the Laughing Seahorse" #NT!
- nick_the_seahorse_daughter: "the Seahorse's Daughter" #NT!
- nick_the_seahorseknight: "the Seahorse[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_seahorse: "the Black Seahorse" #NT!
+ nick_agot_the_white_seahorse: "the White Seahorse" #NT!
+ nick_agot_the_crazed_seahorse: "the Mad Seahorse" #NT!
+ nick_agot_the_wild_seahorse: "Seawind" #NT!
+ nick_agot_the_quiet_seahorse: "the Quiet Tide" #NT!
+ nick_agot_the_red_seahorse: "the Sea Snake" #NT!
+ nick_agot_the_big_seahorse: "the Big Seahorse" #NT!
+ nick_agot_the_strong_seahorse: "Redtide" #NT!
+ nick_agot_the_fair_seahorse: "the Sea Pearl" #NT!
+ nick_agot_the_ugly_seahorse: "the Ugly Seahorse" #NT!
+ nick_agot_the_small_seahorse: "the Small Seahorse" #NT!
+ nick_agot_the_wise_seahorse: "the Wise Seahorse" #NT!
+ nick_agot_the_dumb_seahorse: "the Slow Seahorse" #NT!
+ nick_agot_the_dark_seahorse: "Darktide" #NT!
+ nick_agot_the_weak_seahorse: "the Weak Seahorse" #NT!
+ nick_agot_the_silver_seahorse: "the Silver Seahorse" #NT!
+ nick_agot_the_old_seahorse: "the Old Seahorse" #NT!
+ nick_agot_the_laughing_seahorse: "the Laughing Seahorse" #NT!
+ nick_agot_the_seahorse_daughter: "the Seahorse's Daughter" #NT!
+ nick_agot_the_seahorseknight: "the Seahorse[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Fox Nicknames - Florent 
- nick_the_black_fox: "the Black Fox" #NT!
- nick_the_white_fox: "the White Fox" #NT!
- nick_the_crazed_fox: "the Mad Fox" #NT!
- nick_the_wild_fox: "the Barking Fox" #NT!
- nick_the_quiet_fox: "the Silent Fox" #NT!
- nick_the_red_fox: "the Red Fox" #NT!
- nick_the_big_fox: "the Big Fox" #NT!
- nick_the_strong_fox: "Foxglove" #NT!
- nick_the_fair_fox: "the Fair Fox" #NT!
- nick_the_ugly_fox: "the Mangy Fox" #NT!
- nick_the_small_fox: "the Small Fox" #NT!
- nick_the_wise_fox: "the Cunning Fox" #NT!
- nick_the_dumb_fox: "the Slow Fox" #NT!
- nick_the_dark_fox: "the Sly Fox" #NT!
- nick_the_weak_fox: "the Toothless Fox" #NT!
- nick_the_silver_fox: "the Silver Fox" #NT!
- nick_the_old_fox: "the Grey Fox" #NT!
- nick_the_laughing_fox: "the Laughing Fox" #NT!
- nick_the_fox_daughter: "the Vixen" #NT!
- nick_the_foxknight: "the Fox[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_fox: "the Black Fox" #NT!
+ nick_agot_the_white_fox: "the White Fox" #NT!
+ nick_agot_the_crazed_fox: "the Mad Fox" #NT!
+ nick_agot_the_wild_fox: "the Barking Fox" #NT!
+ nick_agot_the_quiet_fox: "the Silent Fox" #NT!
+ nick_agot_the_red_fox: "the Red Fox" #NT!
+ nick_agot_the_big_fox: "the Big Fox" #NT!
+ nick_agot_the_strong_fox: "Foxglove" #NT!
+ nick_agot_the_fair_fox: "the Fair Fox" #NT!
+ nick_agot_the_ugly_fox: "the Mangy Fox" #NT!
+ nick_agot_the_small_fox: "the Small Fox" #NT!
+ nick_agot_the_wise_fox: "the Cunning Fox" #NT!
+ nick_agot_the_dumb_fox: "the Slow Fox" #NT!
+ nick_agot_the_dark_fox: "the Sly Fox" #NT!
+ nick_agot_the_weak_fox: "the Toothless Fox" #NT!
+ nick_agot_the_silver_fox: "the Silver Fox" #NT!
+ nick_agot_the_old_fox: "the Grey Fox" #NT!
+ nick_agot_the_laughing_fox: "the Laughing Fox" #NT!
+ nick_agot_the_fox_daughter: "the Vixen" #NT!
+ nick_agot_the_foxknight: "the Fox[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Bear Nicknames - Mormont 
- nick_the_black_bear: "the Black Bear" #NT!
- nick_the_white_bear: "the White Bear" #NT!
- nick_the_crazed_bear: "the Mad Bear" #NT!
- nick_the_wild_bear: "the Wild Bear" #NT!
- nick_the_quiet_bear: "the Sleeping Bear" #NT!
- nick_the_red_bear: "the Red Bear" #NT!
- nick_the_big_bear: "the Great Bear" #NT!
- nick_the_strong_bear: "Strongbear" #NT!
- nick_the_fair_bear: "the Gold Bear" #NT!
- nick_the_ugly_bear: "the Ugly Bear" #NT!
- nick_the_small_bear: "the Small Bear" #NT!
- nick_the_wise_bear: "the Wise Bear" #NT!
- nick_the_dumb_bear: "the Slow Bear" #NT!
- nick_the_dark_bear: "the Dark Bear" #NT!
- nick_the_weak_bear: "the Weak Bear" #NT!
- nick_the_silver_bear: "the Silver Bear" #NT!
- nick_the_old_bear: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Alte Bär[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_laughing_bear: "the Laughing Bear" #NT!
- nick_the_bear_daughter: "the Bear's Daughter" #NT!
- nick_the_bearknight: "the Bear[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_bear: "the Black Bear" #NT!
+ nick_agot_the_white_bear: "the White Bear" #NT!
+ nick_agot_the_crazed_bear: "the Mad Bear" #NT!
+ nick_agot_the_wild_bear: "the Wild Bear" #NT!
+ nick_agot_the_quiet_bear: "the Sleeping Bear" #NT!
+ nick_agot_the_red_bear: "the Red Bear" #NT!
+ nick_agot_the_big_bear: "the Great Bear" #NT!
+ nick_agot_the_strong_bear: "Strongbear" #NT!
+ nick_agot_the_fair_bear: "the Gold Bear" #NT!
+ nick_agot_the_ugly_bear: "the Ugly Bear" #NT!
+ nick_agot_the_small_bear: "the Small Bear" #NT!
+ nick_agot_the_wise_bear: "the Wise Bear" #NT!
+ nick_agot_the_dumb_bear: "the Slow Bear" #NT!
+ nick_agot_the_dark_bear: "the Dark Bear" #NT!
+ nick_agot_the_weak_bear: "the Weak Bear" #NT!
+ nick_agot_the_silver_bear: "the Silver Bear" #NT!
+ nick_agot_the_old_bear: "the Old Bear" #NT!
+ nick_agot_the_laughing_bear: "the Laughing Bear" #NT!
+ nick_agot_the_bear_daughter: "the Bear's Daughter" #NT!
+ nick_agot_the_bearknight: "the Bear[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Tower Nicknames - Hightower 
- nick_the_black_tower: "the Blacktower" #NT!
- nick_the_white_tower: "the Whitetower" #NT!
- nick_the_crazed_tower: "the Madtower" #NT!
- nick_the_wild_tower: "the Angry Tower" #NT!
- nick_the_quiet_tower: "the Mute Tower" #NT!
- nick_the_red_tower: "Redtower" #NT!
- nick_the_big_tower: "the Hightower" #NT!
- nick_the_strong_tower: "the Tower" #NT!
- nick_the_fair_tower: "the Fair Tower" #NT!
- nick_the_ugly_tower: "the Broken Tower" #NT!
- nick_the_small_tower: "Lowtower" #NT!
- nick_the_wise_tower: "Brightower" #NT!
- nick_the_dumb_tower: "the Slowtower" #NT!
- nick_the_dark_tower: "the Darktower" #NT!
- nick_the_weak_tower: "the Crumbling Tower" #NT!
- nick_the_silver_tower: "the Silvertower" #NT!
- nick_the_old_tower: "Oldtower" #NT!
- nick_the_laughing_tower: "the Laughing Tower" #NT!
- nick_the_tower_daughter: "the Tower's Daughter" #NT!
- nick_the_towerknight: "the Tower[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_tower: "the Blacktower" #NT!
+ nick_agot_the_white_tower: "the Whitetower" #NT!
+ nick_agot_the_crazed_tower: "the Madtower" #NT!
+ nick_agot_the_wild_tower: "the Angry Tower" #NT!
+ nick_agot_the_quiet_tower: "the Mute Tower" #NT!
+ nick_agot_the_red_tower: "Redtower" #NT!
+ nick_agot_the_big_tower: "the Hightower" #NT!
+ nick_agot_the_strong_tower: "the Tower" #NT!
+ nick_agot_the_fair_tower: "the Fair Tower" #NT!
+ nick_agot_the_ugly_tower: "the Broken Tower" #NT!
+ nick_agot_the_small_tower: "Lowtower" #NT!
+ nick_agot_the_wise_tower: "Brightower" #NT!
+ nick_agot_the_dumb_tower: "the Slowtower" #NT!
+ nick_agot_the_dark_tower: "the Darktower" #NT!
+ nick_agot_the_weak_tower: "the Crumbling Tower" #NT!
+ nick_agot_the_silver_tower: "the Silvertower" #NT!
+ nick_agot_the_old_tower: "Oldtower" #NT!
+ nick_agot_the_laughing_tower: "the Laughing Tower" #NT!
+ nick_agot_the_tower_daughter: "the Tower's Daughter" #NT!
+ nick_agot_the_towerknight: "the Tower[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Griffin Nicknames - Connington 
- nick_the_black_griffin: "the Black Griffin" #NT!
- nick_the_white_griffin: "the White Griffin" #NT!
- nick_the_crazed_griffin: "the Mad Griffin" #NT!
- nick_the_wild_griffin: "the Wild Griffin" #NT!
- nick_the_quiet_griffin: "the Quiet Griffin" #NT!
- nick_the_red_griffin: "the Red Griffin" #NT!
- nick_the_big_griffin: "the Big Griffin" #NT!
- nick_the_strong_griffin: "the Strong Griffin" #NT!
- nick_the_fair_griffin: "the Golden Griffin" #NT!
- nick_the_ugly_griffin: "the Ugly Griffin" #NT!
- nick_the_small_griffin: "the Little Griffin" #NT!
- nick_the_wise_griffin: "the Wise Griffin" #NT!
- nick_the_dumb_griffin: "the Dull Griffin" #NT!
- nick_the_dark_griffin: "the Dark Griffin" #NT!
- nick_the_weak_griffin: "the Weak Griffin" #NT!
- nick_the_silver_griffin: "the Silver Griffin" #NT!
- nick_the_old_griffin: "the Old Griffin" #NT!
- nick_the_laughing_griffin: "the Laughing Griffin" #NT!
- nick_the_griffin_daughter: "the Griffin's Daughter" #NT!
- nick_the_griffinknight: "the Griffin[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_griffin: "the Black Griffin" #NT!
+ nick_agot_the_white_griffin: "the White Griffin" #NT!
+ nick_agot_the_crazed_griffin: "the Mad Griffin" #NT!
+ nick_agot_the_wild_griffin: "the Wild Griffin" #NT!
+ nick_agot_the_quiet_griffin: "the Quiet Griffin" #NT!
+ nick_agot_the_red_griffin: "the Red Griffin" #NT!
+ nick_agot_the_big_griffin: "the Big Griffin" #NT!
+ nick_agot_the_strong_griffin: "the Strong Griffin" #NT!
+ nick_agot_the_fair_griffin: "the Golden Griffin" #NT!
+ nick_agot_the_ugly_griffin: "the Ugly Griffin" #NT!
+ nick_agot_the_small_griffin: "the Little Griffin" #NT!
+ nick_agot_the_wise_griffin: "the Wise Griffin" #NT!
+ nick_agot_the_dumb_griffin: "the Dull Griffin" #NT!
+ nick_agot_the_dark_griffin: "the Dark Griffin" #NT!
+ nick_agot_the_weak_griffin: "the Weak Griffin" #NT!
+ nick_agot_the_silver_griffin: "the Silver Griffin" #NT!
+ nick_agot_the_old_griffin: "the Old Griffin" #NT!
+ nick_agot_the_laughing_griffin: "the Laughing Griffin" #NT!
+ nick_agot_the_griffin_daughter: "the Griffin's Daughter" #NT!
+ nick_agot_the_griffinknight: "the Griffin[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Bridge nicknames - Frey 
- nick_the_black_bridge: "Blackbridge" #NT!
- nick_the_white_bridge: "Whitebridge" #NT!
- nick_the_crazed_bridge: "Madbridge" #NT!
- nick_the_wild_bridge: "the Red Bridge" #NT!
- nick_the_quiet_bridge: "the Abandoned Bridge" #NT!
- nick_the_red_bridge: "Bloodbridge" #NT!
- nick_the_big_bridge: "the Big Bridge" #NT!
- nick_the_strong_bridge: "the Arch" #NT!
- nick_the_fair_bridge: "the Golden Bridge" #NT!
- nick_the_ugly_bridge: "the Troll Beneath the Bridge" #NT!
- nick_the_small_bridge: "the Little Bridge" #NT!
- nick_the_wise_bridge: "the Wise Bridge" #NT!
- nick_the_dumb_bridge: "the Crooked Bridge" #NT!
- nick_the_dark_bridge: "Doublecross" #NT!
- nick_the_weak_bridge: "the Crumbling Bridge" #NT!
- nick_the_silver_bridge: "the Silver Bridge" #NT!
- nick_the_old_bridge: "the Old Bridge" #NT!
- nick_the_laughing_bridge: "the Laughing Bridge" #NT!
- nick_the_bridge_daughter: "the Bridge's Daughter" #NT!
- nick_the_bridgeknight: "the Bridge[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_crossingknight: "the[CHARACTER.Custom('GetWarriorNickname')] of the Crossing" #NT!
+ nick_agot_the_black_bridge: "Blackbridge" #NT!
+ nick_agot_the_white_bridge: "Whitebridge" #NT!
+ nick_agot_the_crazed_bridge: "Madbridge" #NT!
+ nick_agot_the_wild_bridge: "the Red Bridge" #NT!
+ nick_agot_the_quiet_bridge: "the Abandoned Bridge" #NT!
+ nick_agot_the_red_bridge: "Bloodbridge" #NT!
+ nick_agot_the_big_bridge: "the Big Bridge" #NT!
+ nick_agot_the_strong_bridge: "the Arch" #NT!
+ nick_agot_the_fair_bridge: "the Golden Bridge" #NT!
+ nick_agot_the_ugly_bridge: "the Troll Beneath the Bridge" #NT!
+ nick_agot_the_small_bridge: "the Little Bridge" #NT!
+ nick_agot_the_wise_bridge: "the Wise Bridge" #NT!
+ nick_agot_the_dumb_bridge: "the Crooked Bridge" #NT!
+ nick_agot_the_dark_bridge: "Doublecross" #NT!
+ nick_agot_the_weak_bridge: "the Crumbling Bridge" #NT!
+ nick_agot_the_silver_bridge: "the Silver Bridge" #NT!
+ nick_agot_the_old_bridge: "the Old Bridge" #NT!
+ nick_agot_the_laughing_bridge: "the Laughing Bridge" #NT!
+ nick_agot_the_bridge_daughter: "the Bridge's Daughter" #NT!
+ nick_agot_the_bridgeknight: "the Bridge[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_crossingknight: "the[CHARACTER.Custom('GetWarriorNickname')] of the Crossing" #NT!
   
  #Gate Nicknames - Yronwood 
- nick_the_black_gate: "the Black Gate" #NT!
- nick_the_white_gate: "the White Gate" #NT!
- nick_the_crazed_gate: "the Mad Gate" #NT!
- nick_the_wild_gate: "the Screaming Gate" #NT!
- nick_the_quiet_gate: "the Quiet Gate" #NT!
- nick_the_red_gate: "the Red Gate" #NT!
- nick_the_big_gate: "the Portcullis" #NT!
- nick_the_strong_gate: "the Barricade" #NT!
- nick_the_fair_gate: "the Golden Gate" #NT!
- nick_the_ugly_gate: "the Rusty Gate" #NT!
- nick_the_small_gate: "the Little Gate" #NT!
- nick_the_wise_gate: "the Wise Gate" #NT!
- nick_the_dumb_gate: "the Open Gate" #NT!
- nick_the_dark_gate: "the Turnkey" #NT!
- nick_the_weak_gate: "the Brittle Gate" #NT!
- nick_the_silver_gate: "the Silver Gate" #NT!
- nick_the_old_gate: "the Old Gate" #NT!
- nick_the_laughing_gate: "the Laughing Gate" #NT!
- nick_the_gate_daughter: "the Gate's Daughter" #NT!
- nick_the_gateknight: "the Gate[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_gate: "the Black Gate" #NT!
+ nick_agot_the_white_gate: "the White Gate" #NT!
+ nick_agot_the_crazed_gate: "the Mad Gate" #NT!
+ nick_agot_the_wild_gate: "the Screaming Gate" #NT!
+ nick_agot_the_quiet_gate: "the Quiet Gate" #NT!
+ nick_agot_the_red_gate: "the Red Gate" #NT!
+ nick_agot_the_big_gate: "the Portcullis" #NT!
+ nick_agot_the_strong_gate: "the Barricade" #NT!
+ nick_agot_the_fair_gate: "the Golden Gate" #NT!
+ nick_agot_the_ugly_gate: "the Rusty Gate" #NT!
+ nick_agot_the_small_gate: "the Little Gate" #NT!
+ nick_agot_the_wise_gate: "the Wise Gate" #NT!
+ nick_agot_the_dumb_gate: "the Open Gate" #NT!
+ nick_agot_the_dark_gate: "the Turnkey" #NT!
+ nick_agot_the_weak_gate: "the Brittle Gate" #NT!
+ nick_agot_the_silver_gate: "the Silver Gate" #NT!
+ nick_agot_the_old_gate: "the Old Gate" #NT!
+ nick_agot_the_laughing_gate: "the Laughing Gate" #NT!
+ nick_agot_the_gate_daughter: "the Gate's Daughter" #NT!
+ nick_agot_the_gateknight: "the Gate[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Star Nicknames - Dayne/Tarbeck 
- nick_the_black_star: "Blackstar" #NT!
- nick_the_white_star: "Whitestar" #NT!
- nick_the_crazed_star: "the Mad Star" #NT!
- nick_the_wild_star: "the Wroth Star" #NT!
- nick_the_quiet_star: "the Quiet Star" #NT!
- nick_the_red_star: "the Redstar" #NT!
- nick_the_big_star: "the Big Star" #NT!
- nick_the_strong_star: "Strongstar" #NT!
- nick_the_fair_star: "Starlight" #NT!
- nick_the_ugly_star: "the Ugly Star" #NT!
- nick_the_small_star: "the Little Star" #NT!
- nick_the_wise_star: "Brightstar" #NT!
- nick_the_dumb_star: "Dullstar" #NT!
- nick_the_dark_star: "Darkstar" #NT!
- nick_the_weak_star: "the Weak Star" #NT!
- nick_the_silver_star: "the Silver Star" #NT!
- nick_the_old_star: "the Old Star" #NT!
- nick_the_laughing_star: "the Shining Star" #NT!
- nick_the_star_daughter: "the Star's Daughter" #NT!
- nick_the_starknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Stars" #NT!
+ nick_agot_the_black_star: "Blackstar" #NT!
+ nick_agot_the_white_star: "Whitestar" #NT!
+ nick_agot_the_crazed_star: "the Mad Star" #NT!
+ nick_agot_the_wild_star: "the Wroth Star" #NT!
+ nick_agot_the_quiet_star: "the Quiet Star" #NT!
+ nick_agot_the_red_star: "the Redstar" #NT!
+ nick_agot_the_big_star: "the Big Star" #NT!
+ nick_agot_the_strong_star: "Strongstar" #NT!
+ nick_agot_the_fair_star: "Starlight" #NT!
+ nick_agot_the_ugly_star: "the Ugly Star" #NT!
+ nick_agot_the_small_star: "the Little Star" #NT!
+ nick_agot_the_wise_star: "Brightstar" #NT!
+ nick_agot_the_dumb_star: "Dullstar" #NT!
+ nick_agot_the_dark_star: "Darkstar" #NT!
+ nick_agot_the_weak_star: "the Weak Star" #NT!
+ nick_agot_the_silver_star: "the Silver Star" #NT!
+ nick_agot_the_old_star: "the Old Star" #NT!
+ nick_agot_the_laughing_star: "the Shining Star" #NT!
+ nick_agot_the_star_daughter: "the Star's Daughter" #NT!
+ nick_agot_the_starknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Stars" #NT!
   
  #Sword Nicknames - Dayne 
- nick_the_black_sword: "the Black Sword" #NT!
- nick_the_white_sword: "the White Sword" #NT!
- nick_the_crazed_sword: "the Mad Sword" #NT!
- nick_the_wild_sword: "the Cleaver" #NT!
- nick_the_quiet_sword: "the Silent Sword" #NT!
- nick_the_red_sword: "Redsword" #NT!
- nick_the_big_sword: "the Greatsword" #NT!
- nick_the_strong_sword: "the Strong Sword" #NT!
- nick_the_fair_sword: "the Golden Sword" #NT!
- nick_the_ugly_sword: "the Dented Sword" #NT!
- nick_the_small_sword: "the Shortsword" #NT!
- nick_the_wise_sword: "the Sharp Sword" #NT!
- nick_the_dumb_sword: "the Blunt Sword" #NT!
- nick_the_dark_sword: "Darksword" #NT!
- nick_the_weak_sword: "the Blunt Sword" #NT!
- nick_the_silver_sword: "the Silver Sword" #NT!
- nick_the_old_sword: "Old Scabbard" #NT!
- nick_the_laughing_sword: "the Singing Sword" #NT!
- nick_the_sword_daughter: "the Sword's Daughter" #NT!
- nick_the_swordknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Swords" #NT!
+ nick_agot_the_black_sword: "the Black Sword" #NT!
+ nick_agot_the_white_sword: "the White Sword" #NT!
+ nick_agot_the_crazed_sword: "the Mad Sword" #NT!
+ nick_agot_the_wild_sword: "the Cleaver" #NT!
+ nick_agot_the_quiet_sword: "the Silent Sword" #NT!
+ nick_agot_the_red_sword: "Redsword" #NT!
+ nick_agot_the_big_sword: "the Greatsword" #NT!
+ nick_agot_the_strong_sword: "the Strong Sword" #NT!
+ nick_agot_the_fair_sword: "the Golden Sword" #NT!
+ nick_agot_the_ugly_sword: "the Dented Sword" #NT!
+ nick_agot_the_small_sword: "the Shortsword" #NT!
+ nick_agot_the_wise_sword: "the Sharp Sword" #NT!
+ nick_agot_the_dumb_sword: "the Blunt Sword" #NT!
+ nick_agot_the_dark_sword: "Darksword" #NT!
+ nick_agot_the_weak_sword: "the Blunt Sword" #NT!
+ nick_agot_the_silver_sword: "the Silver Sword" #NT!
+ nick_agot_the_old_sword: "Old Scabbard" #NT!
+ nick_agot_the_laughing_sword: "the Singing Sword" #NT!
+ nick_agot_the_sword_daughter: "the Sword's Daughter" #NT!
+ nick_agot_the_swordknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Swords" #NT!
   
  #Oak Nicknames - Oakheart 
- nick_the_black_oak: "the Black Oak" #NT!
- nick_the_white_oak: "the White Oak" #NT!
- nick_the_crazed_oak: "the Mad Oak" #NT!
- nick_the_wild_oak: "the Wild Oak" #NT!
- nick_the_quiet_oak: "the Hushed Oak" #NT!
- nick_the_red_oak: "Redoak" #NT!
- nick_the_big_oak: "the Oak" #NT!
- nick_the_strong_oak: "Strongoak" #NT!
- nick_the_fair_oak: "the Golden Oak" #NT!
- nick_the_ugly_oak: "the Ugly Oak" #NT!
- nick_the_small_oak: "the Sapling" #NT!
- nick_the_wise_oak: "the Wise Oak" #NT!
- nick_the_dumb_oak: "the Dull Oak" #NT!
- nick_the_dark_oak: "Darkoak" #NT!
- nick_the_weak_oak: "the Acorn" #NT!
- nick_the_silver_oak: "the Silver Oak" #NT!
- nick_the_old_oak: "the Old Oak" #NT!
- nick_the_laughing_oak: "the Laughing Oak" #NT!
- nick_the_oak_daughter: "the Oak's Daughter" #NT!
- nick_the_oakknight: "the Oak[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_oak: "the Black Oak" #NT!
+ nick_agot_the_white_oak: "the White Oak" #NT!
+ nick_agot_the_crazed_oak: "the Mad Oak" #NT!
+ nick_agot_the_wild_oak: "the Wild Oak" #NT!
+ nick_agot_the_quiet_oak: "the Hushed Oak" #NT!
+ nick_agot_the_red_oak: "Redoak" #NT!
+ nick_agot_the_big_oak: "the Oak" #NT!
+ nick_agot_the_strong_oak: "Strongoak" #NT!
+ nick_agot_the_fair_oak: "the Golden Oak" #NT!
+ nick_agot_the_ugly_oak: "the Ugly Oak" #NT!
+ nick_agot_the_small_oak: "the Sapling" #NT!
+ nick_agot_the_wise_oak: "the Wise Oak" #NT!
+ nick_agot_the_dumb_oak: "the Dull Oak" #NT!
+ nick_agot_the_dark_oak: "Darkoak" #NT!
+ nick_agot_the_weak_oak: "the Acorn" #NT!
+ nick_agot_the_silver_oak: "the Silver Oak" #NT!
+ nick_agot_the_old_oak: "the Old Oak" #NT!
+ nick_agot_the_laughing_oak: "the Laughing Oak" #NT!
+ nick_agot_the_oak_daughter: "the Oak's Daughter" #NT!
+ nick_agot_the_oakknight: "the Oak[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Merman Nicknames - Manderly 
- nick_the_black_merman: "the Black Merman" #NT!
- nick_the_white_merman: "the White Merman" #NT!
- nick_the_crazed_merman: "the Mad Merman" #NT!
- nick_the_wild_merman: "the Raging Merman" #NT!
- nick_the_quiet_merman: "the Quiet Merman" #NT!
- nick_the_red_merman: "the Red Merman" #NT!
- nick_the_big_merman: "the Big Merman" #NT!
- nick_the_strong_merman: "the Merman's Trident" #NT!
- nick_the_fair_merman: "the Fair Merman" #NT!
- nick_the_ugly_merman: "the Ugly Merman" #NT!
- nick_the_small_merman: "the Little Merman" #NT!
- nick_the_wise_merman: "the Wise Merman" #NT!
- nick_the_dumb_merman: "the Dull Merman" #NT!
- nick_the_dark_merman: "the Dark Merman" #NT!
- nick_the_weak_merman: "the Weak Merman" #NT!
- nick_the_silver_merman: "the Silver Merman" #NT!
- nick_the_old_merman: "the Old Man of the Sea" #NT!
- nick_the_laughing_merman: "the Laughing Merman" #NT!
- nick_the_merman_daughter: "the Merman's Daughter" #NT!
- nick_the_mermanknight: "the Merman[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_merman: "the Black Merman" #NT!
+ nick_agot_the_white_merman: "the White Merman" #NT!
+ nick_agot_the_crazed_merman: "the Mad Merman" #NT!
+ nick_agot_the_wild_merman: "the Raging Merman" #NT!
+ nick_agot_the_quiet_merman: "the Quiet Merman" #NT!
+ nick_agot_the_red_merman: "the Red Merman" #NT!
+ nick_agot_the_big_merman: "the Big Merman" #NT!
+ nick_agot_the_strong_merman: "the Merman's Trident" #NT!
+ nick_agot_the_fair_merman: "the Fair Merman" #NT!
+ nick_agot_the_ugly_merman: "the Ugly Merman" #NT!
+ nick_agot_the_small_merman: "the Little Merman" #NT!
+ nick_agot_the_wise_merman: "the Wise Merman" #NT!
+ nick_agot_the_dumb_merman: "the Dull Merman" #NT!
+ nick_agot_the_dark_merman: "the Dark Merman" #NT!
+ nick_agot_the_weak_merman: "the Weak Merman" #NT!
+ nick_agot_the_silver_merman: "the Silver Merman" #NT!
+ nick_agot_the_old_merman: "the Old Man of the Sea" #NT!
+ nick_agot_the_laughing_merman: "the Laughing Merman" #NT!
+ nick_agot_the_merman_daughter: "the Merman's Daughter" #NT!
+ nick_agot_the_mermanknight: "the Merman[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
- nick_the_black_mermaid: "the Black Mermaid" #NT!
- nick_the_white_mermaid: "the White Mermaid" #NT!
- nick_the_crazed_mermaid: "the Crazy Mermaid" #NT!
- nick_the_wild_mermaid: "the Wild Mermaid" #NT!
- nick_the_quiet_mermaid: "the Quiet Mermaid" #NT!
- nick_the_red_mermaid: "the Red Mermaid" #NT!
- nick_the_big_mermaid: "the Big Mermaid" #NT!
- nick_the_strong_mermaid: "the Strong Mermaid" #NT!
- nick_the_fair_mermaid: "the Siren" #NT!
- nick_the_ugly_mermaid: "the Ugly Mermaid" #NT!
- nick_the_small_mermaid: "the Little Mermaid" #NT!
- nick_the_wise_mermaid: "the Wise Mermaid" #NT!
- nick_the_dumb_mermaid: "the Dumb Mermaid" #NT!
- nick_the_dark_mermaid: "the Dark Mermaid" #NT!
- nick_the_weak_mermaid: "the Weak Mermaid" #NT!
- nick_the_silver_mermaid: "the Silver Mermaid" #NT!
- nick_the_old_mermaid: "the Old Mermaid" #NT!
- nick_the_laughing_mermaid: "the Laughing Mermaid" #NT!
- nick_the_mermaidknight: "the Mermaid[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_mermaid: "the Black Mermaid" #NT!
+ nick_agot_the_white_mermaid: "the White Mermaid" #NT!
+ nick_agot_the_crazed_mermaid: "the Crazy Mermaid" #NT!
+ nick_agot_the_wild_mermaid: "the Wild Mermaid" #NT!
+ nick_agot_the_quiet_mermaid: "the Quiet Mermaid" #NT!
+ nick_agot_the_red_mermaid: "the Red Mermaid" #NT!
+ nick_agot_the_big_mermaid: "the Big Mermaid" #NT!
+ nick_agot_the_strong_mermaid: "the Strong Mermaid" #NT!
+ nick_agot_the_fair_mermaid: "the Siren" #NT!
+ nick_agot_the_ugly_mermaid: "the Ugly Mermaid" #NT!
+ nick_agot_the_small_mermaid: "the Little Mermaid" #NT!
+ nick_agot_the_wise_mermaid: "the Wise Mermaid" #NT!
+ nick_agot_the_dumb_mermaid: "the Dumb Mermaid" #NT!
+ nick_agot_the_dark_mermaid: "the Dark Mermaid" #NT!
+ nick_agot_the_weak_mermaid: "the Weak Mermaid" #NT!
+ nick_agot_the_silver_mermaid: "the Silver Mermaid" #NT!
+ nick_agot_the_old_mermaid: "the Old Mermaid" #NT!
+ nick_agot_the_laughing_mermaid: "the Laughing Mermaid" #NT!
+ nick_agot_the_mermaidknight: "the Mermaid[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Bat Nicknames - Whent/Lothston 
- nick_the_black_bat: "the Black Bat" #NT!
- nick_the_white_bat: "the White Bat" #NT!
- nick_the_crazed_bat: "the Mad Bat" #NT!
- nick_the_wild_bat: "the Screeching Bat" #NT!
- nick_the_quiet_bat: "the Silent Bat" #NT!
- nick_the_red_bat: "the Bloody Bat" #NT!
- nick_the_big_bat: "the Giant Bat" #NT!
- nick_the_strong_bat: "Strongbat" #NT!
- nick_the_fair_bat: "the Noble Bat" #NT!
- nick_the_ugly_bat: "Batface" #NT!
- nick_the_small_bat: "the Batling" #NT!
- nick_the_wise_bat: "the Bright Bat" #NT!
- nick_the_dumb_bat: "the Dumb Bat" #NT!
- nick_the_dark_bat: "the Dark Bat" #NT!
- nick_the_weak_bat: "the Toothless Bat" #NT!
- nick_the_silver_bat: "the Silver Bat" #NT!
- nick_the_old_bat: "the Old Bat" #NT!
- nick_the_laughing_bat: "the Laughing Bat" #NT!
- nick_the_bat_daughter: "the Bat's Daughter" #NT!
- nick_the_batknight: "the Bat[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_bat: "the Black Bat" #NT!
+ nick_agot_the_white_bat: "the White Bat" #NT!
+ nick_agot_the_crazed_bat: "the Mad Bat" #NT!
+ nick_agot_the_wild_bat: "the Screeching Bat" #NT!
+ nick_agot_the_quiet_bat: "the Silent Bat" #NT!
+ nick_agot_the_red_bat: "the Bloody Bat" #NT!
+ nick_agot_the_big_bat: "the Giant Bat" #NT!
+ nick_agot_the_strong_bat: "Strongbat" #NT!
+ nick_agot_the_fair_bat: "the Noble Bat" #NT!
+ nick_agot_the_ugly_bat: "Batface" #NT!
+ nick_agot_the_small_bat: "the Batling" #NT!
+ nick_agot_the_wise_bat: "the Bright Bat" #NT!
+ nick_agot_the_dumb_bat: "the Dumb Bat" #NT!
+ nick_agot_the_dark_bat: "the Dark Bat" #NT!
+ nick_agot_the_weak_bat: "the Toothless Bat" #NT!
+ nick_agot_the_silver_bat: "the Silver Bat" #NT!
+ nick_agot_the_old_bat: "the Old Bat" #NT!
+ nick_agot_the_laughing_bat: "the Laughing Bat" #NT!
+ nick_agot_the_bat_daughter: "the Bat's Daughter" #NT!
+ nick_agot_the_batknight: "the Bat[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Boar Nicknames - Crakehall 
- nick_the_black_boar: "the Black Boar" #NT!
- nick_the_white_boar: "the White Boar" #NT!
- nick_the_crazed_boar: "the Mad Boar" #NT!
- nick_the_wild_boar: "the Bristling Boar" #NT!
- nick_the_quiet_boar: "the Silent Boar" #NT!
- nick_the_red_boar: "the Bloody Boar" #NT!
- nick_the_big_boar: "the Boar" #NT!
- nick_the_strong_boar: "Strongboar" #NT!
- nick_the_fair_boar: "the Noble Boar" #NT!
- nick_the_ugly_boar: "Pigface" #NT!
- nick_the_small_boar: "the Piglet" #NT!
- nick_the_wise_boar: "the Bright Boar" #NT!
- nick_the_dumb_boar: "the Dumb Boar" #NT!
- nick_the_dark_boar: "the Dark Boar" #NT!
- nick_the_weak_boar: "the Tuskless" #NT!
- nick_the_silver_boar: "the Silver Boar" #NT!
- nick_the_old_boar: "the Old Boar" #NT!
- nick_the_laughing_boar: "the Laughing Boar" #NT!
- nick_the_boar_daughter: "the Boar's Daughter" #NT!
- nick_the_boarknight: "the Boar[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_boar: "the Black Boar" #NT!
+ nick_agot_the_white_boar: "the White Boar" #NT!
+ nick_agot_the_crazed_boar: "the Mad Boar" #NT!
+ nick_agot_the_wild_boar: "the Bristling Boar" #NT!
+ nick_agot_the_quiet_boar: "the Silent Boar" #NT!
+ nick_agot_the_red_boar: "the Bloody Boar" #NT!
+ nick_agot_the_big_boar: "the Boar" #NT!
+ nick_agot_the_strong_boar: "Strongboar" #NT!
+ nick_agot_the_fair_boar: "the Noble Boar" #NT!
+ nick_agot_the_ugly_boar: "Pigface" #NT!
+ nick_agot_the_small_boar: "the Piglet" #NT!
+ nick_agot_the_wise_boar: "the Bright Boar" #NT!
+ nick_agot_the_dumb_boar: "the Dumb Boar" #NT!
+ nick_agot_the_dark_boar: "the Dark Boar" #NT!
+ nick_agot_the_weak_boar: "the Tuskless" #NT!
+ nick_agot_the_silver_boar: "the Silver Boar" #NT!
+ nick_agot_the_old_boar: "the Old Boar" #NT!
+ nick_agot_the_laughing_boar: "the Laughing Boar" #NT!
+ nick_agot_the_boar_daughter: "the Boar's Daughter" #NT!
+ nick_agot_the_boarknight: "the Boar[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Badger Nicknames - Lydden 
- nick_the_black_badger: "the Black Badger" #NT!
- nick_the_white_badger: "the White Badger" #NT!
- nick_the_crazed_badger: "the Mad Badger" #NT!
- nick_the_wild_badger: "the Honey Badger" #NT!
- nick_the_quiet_badger: "the Quiet Badger" #NT!
- nick_the_red_badger: "the Bloody Badger" #NT!
- nick_the_big_badger: "the Giant Badger" #NT!
- nick_the_strong_badger: "Strongbadger" #NT!
- nick_the_fair_badger: "the Noble Badger" #NT!
- nick_the_ugly_badger: "Badgerface" #NT!
- nick_the_small_badger: "the Little Badger" #NT!
- nick_the_wise_badger: "the Bright Badger" #NT!
- nick_the_dumb_badger: "the Dumb Badger" #NT!
- nick_the_dark_badger: "the Dark Badger" #NT!
- nick_the_weak_badger: "the Toothless Badger" #NT!
- nick_the_silver_badger: "the Silver Badger" #NT!
- nick_the_old_badger: "the Old Badger" #NT!
- nick_the_laughing_badger: "the Laughing Badger" #NT!
- nick_the_badger_daughter: "the Badger's Daughter" #NT!
- nick_the_badgerknight: "the Badger[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_badger: "the Black Badger" #NT!
+ nick_agot_the_white_badger: "the White Badger" #NT!
+ nick_agot_the_crazed_badger: "the Mad Badger" #NT!
+ nick_agot_the_wild_badger: "the Honey Badger" #NT!
+ nick_agot_the_quiet_badger: "the Quiet Badger" #NT!
+ nick_agot_the_red_badger: "the Bloody Badger" #NT!
+ nick_agot_the_big_badger: "the Giant Badger" #NT!
+ nick_agot_the_strong_badger: "Strongbadger" #NT!
+ nick_agot_the_fair_badger: "the Noble Badger" #NT!
+ nick_agot_the_ugly_badger: "Badgerface" #NT!
+ nick_agot_the_small_badger: "the Little Badger" #NT!
+ nick_agot_the_wise_badger: "the Bright Badger" #NT!
+ nick_agot_the_dumb_badger: "the Dumb Badger" #NT!
+ nick_agot_the_dark_badger: "the Dark Badger" #NT!
+ nick_agot_the_weak_badger: "the Toothless Badger" #NT!
+ nick_agot_the_silver_badger: "the Silver Badger" #NT!
+ nick_agot_the_old_badger: "the Old Badger" #NT!
+ nick_agot_the_laughing_badger: "the Laughing Badger" #NT!
+ nick_agot_the_badger_daughter: "the Badger's Daughter" #NT!
+ nick_agot_the_badgerknight: "the Badger[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Bronze Nicknames - Royce 
- nick_the_black_bronze: "Blackrune" #NT!
- nick_the_white_bronze: "Whiterune" #NT!
- nick_the_crazed_bronze: "the Mad Bronze" #NT!
- nick_the_wild_bronze: "Wrothrune" #NT!
- nick_the_quiet_bronze: "the Quiet Bronze" #NT!
- nick_the_red_bronze: "Redrune" #NT!
- nick_the_big_bronze: "Bigbronze" #NT!
- nick_the_strong_bronze: "Strongbronze" #NT!
- nick_the_fair_bronze: "Goldrune" #NT!
- nick_the_ugly_bronze: "Bronzeface" #NT!
- nick_the_small_bronze: "the Little Rune" #NT!
- nick_the_wise_bronze: "Brightrune" #NT!
- nick_the_dumb_bronze: "Dullbronze" #NT!
- nick_the_dark_bronze: "Darkrune" #NT!
- nick_the_weak_bronze: "the Corroded" #NT!
- nick_the_silver_bronze: "Silverrune" #NT!
- nick_the_old_bronze: "the Old Bronze" #NT!
- nick_the_laughing_bronze: "the Laughing Bronze" #NT!
- nick_the_bronze_daughter: "the Bronze Bitch" #NT!
- nick_the_bronzeknight: "the Bronze[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_runeknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Runes" #NT!
+ nick_agot_the_black_bronze: "Blackrune" #NT!
+ nick_agot_the_white_bronze: "Whiterune" #NT!
+ nick_agot_the_crazed_bronze: "the Mad Bronze" #NT!
+ nick_agot_the_wild_bronze: "Wrothrune" #NT!
+ nick_agot_the_quiet_bronze: "the Quiet Bronze" #NT!
+ nick_agot_the_red_bronze: "Redrune" #NT!
+ nick_agot_the_big_bronze: "Bigbronze" #NT!
+ nick_agot_the_strong_bronze: "Strongbronze" #NT!
+ nick_agot_the_fair_bronze: "Goldrune" #NT!
+ nick_agot_the_ugly_bronze: "Bronzeface" #NT!
+ nick_agot_the_small_bronze: "the Little Rune" #NT!
+ nick_agot_the_wise_bronze: "Brightrune" #NT!
+ nick_agot_the_dumb_bronze: "Dullbronze" #NT!
+ nick_agot_the_dark_bronze: "Darkrune" #NT!
+ nick_agot_the_weak_bronze: "the Corroded" #NT!
+ nick_agot_the_silver_bronze: "Silverrune" #NT!
+ nick_agot_the_old_bronze: "the Old Bronze" #NT!
+ nick_agot_the_laughing_bronze: "the Laughing Bronze" #NT!
+ nick_agot_the_bronze_daughter: "the Bronze Bitch" #NT!
+ nick_agot_the_bronzeknight: "the Bronze[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_runeknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Runes" #NT!
+ nick_agot_bronze: "Bronze" #NT!
   
  #Swan Nicknames - Swann 
- nick_the_black_swan: "der Schwarze Schwan"
- nick_the_white_swan: "the White Swan" #NT!
- nick_the_crazed_swan: "Madswan" #NT!
- nick_the_wild_swan: "the Stormy Swan" #NT!
- nick_the_quiet_swan: "the Silent Swan" #NT!
- nick_the_red_swan: "the Red Swan" #NT!
- nick_the_big_swan: "the Big Swan" #NT!
- nick_the_strong_swan: "Strongswan" #NT!
- nick_the_fair_swan: "the Splendid Swan" #NT!
- nick_the_ugly_swan: "the Ugly Duckling" #NT!
- nick_the_small_swan: "the Cygnet" #NT!
- nick_the_wise_swan: "Brightswan" #NT!
- nick_the_dumb_swan: "the Simple Swan" #NT!
- nick_the_dark_swan: "Darkswan" #NT!
- nick_the_weak_swan: "the Lame Swan" #NT!
- nick_the_silver_swan: "the Silver Swan" #NT!
- nick_the_old_swan: "the Old Swan" #NT!
- nick_the_laughing_swan: "the Laughing Swan" #NT!
- nick_the_swan_daughter: "the Lady Swan" #NT!
- nick_the_swanknight: "the Swan[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_swan: "the Black Swan" #NT!
+ nick_agot_the_white_swan: "the White Swan" #NT!
+ nick_agot_the_crazed_swan: "Madswan" #NT!
+ nick_agot_the_wild_swan: "the Stormy Swan" #NT!
+ nick_agot_the_quiet_swan: "the Silent Swan" #NT!
+ nick_agot_the_red_swan: "the Red Swan" #NT!
+ nick_agot_the_big_swan: "the Big Swan" #NT!
+ nick_agot_the_strong_swan: "Strongswan" #NT!
+ nick_agot_the_fair_swan: "the Splendid Swan" #NT!
+ nick_agot_the_ugly_swan: "the Ugly Duckling" #NT!
+ nick_agot_the_small_swan: "the Cygnet" #NT!
+ nick_agot_the_wise_swan: "Brightswan" #NT!
+ nick_agot_the_dumb_swan: "the Simple Swan" #NT!
+ nick_agot_the_dark_swan: "Darkswan" #NT!
+ nick_agot_the_weak_swan: "the Lame Swan" #NT!
+ nick_agot_the_silver_swan: "the Silver Swan" #NT!
+ nick_agot_the_old_swan: "the Old Swan" #NT!
+ nick_agot_the_laughing_swan: "the Laughing Swan" #NT!
+ nick_agot_the_swan_daughter: "the Lady Swan" #NT!
+ nick_agot_the_swanknight: "the Swan[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Bee Nicknames - Beesbury 
- nick_the_black_bee: "Blackbee" #NT!
- nick_the_white_bee: "the White Bee" #NT!
- nick_the_crazed_bee: "the Buzzing" #NT!
- nick_the_wild_bee: "the Wasp" #NT!
- nick_the_quiet_bee: "the Humming Bee" #NT!
- nick_the_red_bee: "the Red Bee" #NT!
- nick_the_big_bee: "the Hornet" #NT!
- nick_the_strong_bee: "Strongbee" #NT!
- nick_the_fair_bee: "the Honey Bee" #NT!
- nick_the_ugly_bee: "the Ugly Bee" #NT!
- nick_the_small_bee: "Smallbee" #NT!
- nick_the_wise_bee: "Brightbee" #NT!
- nick_the_dumb_bee: "the Simple Bee" #NT!
- nick_the_dark_bee: "Darkbee" #NT!
- nick_the_weak_bee: "the Stingless" #NT!
- nick_the_silver_bee: "the Silver Bee" #NT!
- nick_the_old_bee: "the Old Bee" #NT!
- nick_the_laughing_bee: "the Bumblebee" #NT!
- nick_the_bee_daughter: "the Queen Bee" #NT!
- nick_the_beeknight: "the Bee[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_stinger: "Stinger" #NT!
+ nick_agot_the_black_bee: "Blackbee" #NT!
+ nick_agot_the_white_bee: "the White Bee" #NT!
+ nick_agot_the_crazed_bee: "the Buzzing" #NT!
+ nick_agot_the_wild_bee: "the Wasp" #NT!
+ nick_agot_the_quiet_bee: "the Humming Bee" #NT!
+ nick_agot_the_red_bee: "the Red Bee" #NT!
+ nick_agot_the_big_bee: "the Hornet" #NT!
+ nick_agot_the_strong_bee: "Strongbee" #NT!
+ nick_agot_the_fair_bee: "the Honey Bee" #NT!
+ nick_agot_the_ugly_bee: "the Ugly Bee" #NT!
+ nick_agot_the_small_bee: "Smallbee" #NT!
+ nick_agot_the_wise_bee: "Brightbee" #NT!
+ nick_agot_the_dumb_bee: "the Simple Bee" #NT!
+ nick_agot_the_dark_bee: "Darkbee" #NT!
+ nick_agot_the_weak_bee: "the Stingless" #NT!
+ nick_agot_the_silver_bee: "the Silver Bee" #NT!
+ nick_agot_the_old_bee: "the Old Bee" #NT!
+ nick_agot_the_laughing_bee: "the Bumblebee" #NT!
+ nick_agot_the_bee_daughter: "the Queen Bee" #NT!
+ nick_agot_the_beeknight: "the Bee[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_stinger: "Stinger" #NT!
   
  #Turtle Nicknames - Estermont 
- nick_the_black_turtle: "the Black Turtle" #NT!
- nick_the_white_turtle: "the White Turtle" #NT!
- nick_the_crazed_turtle: "the Mad Turtle" #NT!
- nick_the_wild_turtle: "the Snapping Turtle" #NT!
- nick_the_quiet_turtle: "the Silent Turtle" #NT!
- nick_the_red_turtle: "Redshell" #NT!
- nick_the_big_turtle: "the Big Turtle" #NT!
- nick_the_strong_turtle: "Strongshell" #NT!
- nick_the_fair_turtle: "Goldshell" #NT!
- nick_the_ugly_turtle: "the Ugly Turtle" #NT!
- nick_the_small_turtle: "the Little Turtle" #NT!
- nick_the_wise_turtle: "the Sage Turtle" #NT!
- nick_the_dumb_turtle: "the Slow Turtle" #NT!
- nick_the_dark_turtle: "Darkshell" #NT!
- nick_the_weak_turtle: "the Trembling Turtle" #NT!
- nick_the_silver_turtle: "Silvershell" #NT!
- nick_the_old_turtle: "the Tortoise" #NT!
- nick_the_laughing_turtle: "the Laughing Turtle" #NT!
- nick_the_turtle_daughter: "the Turtle's Daughter" #NT!
- nick_the_turtleknight: "the Turtle[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_turtle: "the Black Turtle" #NT!
+ nick_agot_the_white_turtle: "the White Turtle" #NT!
+ nick_agot_the_crazed_turtle: "the Mad Turtle" #NT!
+ nick_agot_the_wild_turtle: "the Snapping Turtle" #NT!
+ nick_agot_the_quiet_turtle: "the Silent Turtle" #NT!
+ nick_agot_the_red_turtle: "Redshell" #NT!
+ nick_agot_the_big_turtle: "the Big Turtle" #NT!
+ nick_agot_the_strong_turtle: "Strongshell" #NT!
+ nick_agot_the_fair_turtle: "Goldshell" #NT!
+ nick_agot_the_ugly_turtle: "the Ugly Turtle" #NT!
+ nick_agot_the_small_turtle: "the Little Turtle" #NT!
+ nick_agot_the_wise_turtle: "the Sage Turtle" #NT!
+ nick_agot_the_dumb_turtle: "the Slow Turtle" #NT!
+ nick_agot_the_dark_turtle: "Darkshell" #NT!
+ nick_agot_the_weak_turtle: "the Trembling Turtle" #NT!
+ nick_agot_the_silver_turtle: "Silvershell" #NT!
+ nick_agot_the_old_turtle: "the Tortoise" #NT!
+ nick_agot_the_laughing_turtle: "the Laughing Turtle" #NT!
+ nick_agot_the_turtle_daughter: "the Turtle's Daughter" #NT!
+ nick_agot_the_turtleknight: "the Turtle[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Arrow Nicknames - Hunter/Sarsfield 
- nick_the_black_arrow: "the Black Arrow" #NT!
- nick_the_white_arrow: "the White Arrow" #NT!
- nick_the_crazed_arrow: "the Mad Arrow" #NT!
- nick_the_wild_arrow: "the Bodkin" #NT!
- nick_the_quiet_arrow: "the Still Arrow" #NT!
- nick_the_red_arrow: "Redarrow" #NT!
- nick_the_big_arrow: "Longbow" #NT!
- nick_the_strong_arrow: "Strongbow" #NT!
- nick_the_fair_arrow: "the Fetching Fletcher" #NT!
- nick_the_ugly_arrow: "the Bent Arrow" #NT!
- nick_the_small_arrow: "Shortbow" #NT!
- nick_the_wise_arrow: "the Quiver" #NT!
- nick_the_dumb_arrow: "the Blunt Arrow" #NT!
- nick_the_dark_arrow: "Darkbow" #NT!
- nick_the_weak_arrow: "the Snapped Arrow" #NT!
- nick_the_silver_arrow: "Silverhead" #NT!
- nick_the_old_arrow: "the Old Arrow" #NT!
- nick_the_laughing_arrow: "the Whistling Arrow" #NT!
- nick_the_arrow_daughter: "the Arrow's Daughter" #NT!
- nick_the_arrowknight: "the Arrow[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_arrow: "the Black Arrow" #NT!
+ nick_agot_the_white_arrow: "the White Arrow" #NT!
+ nick_agot_the_crazed_arrow: "the Mad Arrow" #NT!
+ nick_agot_the_wild_arrow: "the Bodkin" #NT!
+ nick_agot_the_quiet_arrow: "the Still Arrow" #NT!
+ nick_agot_the_red_arrow: "Redarrow" #NT!
+ nick_agot_the_big_arrow: "Longbow" #NT!
+ nick_agot_the_strong_arrow: "Strongbow" #NT!
+ nick_agot_the_fair_arrow: "the Fetching Fletcher" #NT!
+ nick_agot_the_ugly_arrow: "the Bent Arrow" #NT!
+ nick_agot_the_small_arrow: "Shortbow" #NT!
+ nick_agot_the_wise_arrow: "the Quiver" #NT!
+ nick_agot_the_dumb_arrow: "the Blunt Arrow" #NT!
+ nick_agot_the_dark_arrow: "Darkbow" #NT!
+ nick_agot_the_weak_arrow: "the Snapped Arrow" #NT!
+ nick_agot_the_silver_arrow: "Silverhead" #NT!
+ nick_agot_the_old_arrow: "the Old Arrow" #NT!
+ nick_agot_the_laughing_arrow: "the Whistling Arrow" #NT!
+ nick_agot_the_arrow_daughter: "the Arrow's Daughter" #NT!
+ nick_agot_the_arrowknight: "the Arrow[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Apple Nicknames - Fossoway 
- nick_the_black_apple: "the Black Apple" #NT!
- nick_the_white_apple: "the White Apple" #NT!
- nick_the_crazed_apple: "Crabapple" #NT!
- nick_the_wild_apple: "the Bad Apple" #NT!
- nick_the_quiet_apple: "the Still Apple" #NT!
- nick_the_red_apple: "the Red Apple" #NT!
- nick_the_big_apple: "the Bushel" #NT!
- nick_the_strong_apple: "the Apple Tree" #NT!
- nick_the_fair_apple: "the Golden Apple" #NT!
- nick_the_ugly_apple: "the Worm in the Apple" #NT!
- nick_the_small_apple: "the Little Apple" #NT!
- nick_the_wise_apple: "the Good Apple" #NT!
- nick_the_dumb_apple: "the Unripe" #NT!
- nick_the_dark_apple: "the Poison Apple" #NT!
- nick_the_weak_apple: "the Rotten Apple" #NT!
- nick_the_silver_apple: "the Silver Apple" #NT!
- nick_the_old_apple: "the Old Apple" #NT!
- nick_the_laughing_apple: "Sweet Cider" #NT!
- nick_the_apple_daughter: "the Apple's Blossom" #NT!
- nick_the_appleknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Apples" #NT!
+ nick_agot_the_black_apple: "the Black Apple" #NT!
+ nick_agot_the_white_apple: "the White Apple" #NT!
+ nick_agot_the_crazed_apple: "Crabapple" #NT!
+ nick_agot_the_wild_apple: "the Bad Apple" #NT!
+ nick_agot_the_quiet_apple: "the Still Apple" #NT!
+ nick_agot_the_red_apple: "the Red Apple" #NT!
+ nick_agot_the_big_apple: "the Bushel" #NT!
+ nick_agot_the_strong_apple: "the Apple Tree" #NT!
+ nick_agot_the_fair_apple: "the Golden Apple" #NT!
+ nick_agot_the_ugly_apple: "the Worm in the Apple" #NT!
+ nick_agot_the_small_apple: "the Little Apple" #NT!
+ nick_agot_the_wise_apple: "the Good Apple" #NT!
+ nick_agot_the_dumb_apple: "the Unripe" #NT!
+ nick_agot_the_dark_apple: "the Poison Apple" #NT!
+ nick_agot_the_weak_apple: "the Rotten Apple" #NT!
+ nick_agot_the_silver_apple: "the Silver Apple" #NT!
+ nick_agot_the_old_apple: "the Old Apple" #NT!
+ nick_agot_the_laughing_apple: "Sweet Cider" #NT!
+ nick_agot_the_apple_daughter: "the Apple's Blossom" #NT!
+ nick_agot_the_appleknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Apples" #NT!
   
  #Peacock Nicknames - Serrett 
- nick_the_black_peacock: "the Black Peacock" #NT!
- nick_the_white_peacock: "the White Peacock" #NT!
- nick_the_crazed_peacock: "the Mad Peacock" #NT!
- nick_the_wild_peacock: "the Wroth Peacock" #NT!
- nick_the_quiet_peacock: "the Muted Peacock" #NT!
- nick_the_red_peacock: "the Red Peacock" #NT!
- nick_the_big_peacock: "the Big Peacock" #NT!
- nick_the_strong_peacock: "the Strong Peacock" #NT!
- nick_the_fair_peacock: "the Peacock's Plume" #NT!
- nick_the_ugly_peacock: "the Featherless" #NT!
- nick_the_small_peacock: "the Tiny Peacock" #NT!
- nick_the_wise_peacock: "the Wise Peacock" #NT!
- nick_the_dumb_peacock: "the Stupid Peacock" #NT!
- nick_the_dark_peacock: "the Dark Peacock" #NT!
- nick_the_weak_peacock: "the Weak Peacock" #NT!
- nick_the_silver_peacock: "the Silver Peacock" #NT!
- nick_the_old_peacock: "the Old Peacock" #NT!
- nick_the_laughing_peacock: "the Preening Peacock" #NT!
- nick_the_peacock_daughter: "the Peahen" #NT!
- nick_the_peacockknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Peacocks" #NT!
+ nick_agot_the_black_peacock: "the Black Peacock" #NT!
+ nick_agot_the_white_peacock: "the White Peacock" #NT!
+ nick_agot_the_crazed_peacock: "the Mad Peacock" #NT!
+ nick_agot_the_wild_peacock: "the Wroth Peacock" #NT!
+ nick_agot_the_quiet_peacock: "the Muted Peacock" #NT!
+ nick_agot_the_red_peacock: "the Red Peacock" #NT!
+ nick_agot_the_big_peacock: "the Big Peacock" #NT!
+ nick_agot_the_strong_peacock: "the Strong Peacock" #NT!
+ nick_agot_the_fair_peacock: "the Peacock's Plume" #NT!
+ nick_agot_the_ugly_peacock: "the Featherless" #NT!
+ nick_agot_the_small_peacock: "the Tiny Peacock" #NT!
+ nick_agot_the_wise_peacock: "the Wise Peacock" #NT!
+ nick_agot_the_dumb_peacock: "the Stupid Peacock" #NT!
+ nick_agot_the_dark_peacock: "the Dark Peacock" #NT!
+ nick_agot_the_weak_peacock: "the Weak Peacock" #NT!
+ nick_agot_the_silver_peacock: "the Silver Peacock" #NT!
+ nick_agot_the_old_peacock: "the Old Peacock" #NT!
+ nick_agot_the_laughing_peacock: "the Preening Peacock" #NT!
+ nick_agot_the_peacock_daughter: "the Peahen" #NT!
+ nick_agot_the_peacockknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Peacocks" #NT!
   
  #Scythe Nicknames - Harlaw 
- nick_the_black_scythe: "Blackscythe" #NT!
- nick_the_white_scythe: "the White Scythe" #NT!
- nick_the_crazed_scythe: "the Mad scythe" #NT!
- nick_the_wild_scythe: "the War Scythe" #NT!
- nick_the_quiet_scythe: "the Silent Scythe" #NT!
- nick_the_red_scythe: "Redscythe" #NT!
- nick_the_big_scythe: "the Big Scythe" #NT!
- nick_the_strong_scythe: "Strongscythe" #NT!
- nick_the_fair_scythe: "the Glimmering Scythe" #NT!
- nick_the_ugly_scythe: "the Bent Scythe" #NT!
- nick_the_small_scythe: "the Sickle" #NT!
- nick_the_wise_scythe: "the Shrewd Scythe" #NT!
- nick_the_dumb_scythe: "the Shovel" #NT!
- nick_the_dark_scythe: "Darkscythe" #NT!
- nick_the_weak_scythe: "the Hoe" #NT!
- nick_the_silver_scythe: "Silverscythe" #NT!
- nick_the_old_scythe: "the Old Scythe" #NT!
- nick_the_laughing_scythe: "the Laughing Scythe" #NT!
- nick_the_scythe_daughter: "the Scythe Maiden" #NT!
- nick_the_scytheknight: "the Scythe[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_reaper: "the Reaper" #NT!
+ nick_agot_the_black_scythe: "Blackscythe" #NT!
+ nick_agot_the_white_scythe: "the White Scythe" #NT!
+ nick_agot_the_crazed_scythe: "the Mad scythe" #NT!
+ nick_agot_the_wild_scythe: "the War Scythe" #NT!
+ nick_agot_the_quiet_scythe: "the Silent Scythe" #NT!
+ nick_agot_the_red_scythe: "Redscythe" #NT!
+ nick_agot_the_big_scythe: "the Big Scythe" #NT!
+ nick_agot_the_strong_scythe: "Strongscythe" #NT!
+ nick_agot_the_fair_scythe: "the Glimmering Scythe" #NT!
+ nick_agot_the_ugly_scythe: "the Bent Scythe" #NT!
+ nick_agot_the_small_scythe: "the Sickle" #NT!
+ nick_agot_the_wise_scythe: "the Shrewd Scythe" #NT!
+ nick_agot_the_dumb_scythe: "the Shovel" #NT!
+ nick_agot_the_dark_scythe: "Darkscythe" #NT!
+ nick_agot_the_weak_scythe: "the Hoe" #NT!
+ nick_agot_the_silver_scythe: "Silverscythe" #NT!
+ nick_agot_the_old_scythe: "the Old Scythe" #NT!
+ nick_agot_the_laughing_scythe: "the Laughing Scythe" #NT!
+ nick_agot_the_scythe_daughter: "the Scythe Maiden" #NT!
+ nick_agot_the_scytheknight: "the Scythe[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_reaper: "the Reaper" #NT!
   
  #Horn Nicknames - Goodbrother 
- nick_the_black_horn: "Blackhorn" #NT!
- nick_the_white_horn: "Whitehorn" #NT!
- nick_the_crazed_horn: "the Mad Horn" #NT!
- nick_the_wild_horn: "Redhorn" #NT!
- nick_the_quiet_horn: "the Noiseless" #NT!
- nick_the_red_horn: "the War Horn" #NT!
- nick_the_big_horn: "the Horn o' Plenty" #NT!
- nick_the_strong_horn: "Stronghorn" #NT!
- nick_the_fair_horn: "the Cornucopia" #NT!
- nick_the_ugly_horn: "the Empty Horn" #NT!
- nick_the_small_horn: "the Small Horn" #NT!
- nick_the_wise_horn: "Goldenhorn" #NT!
- nick_the_dumb_horn: "the Slow Horn" #NT!
- nick_the_dark_horn: "Darkhorn" #NT!
- nick_the_weak_horn: "the Trumpet" #NT!
- nick_the_silver_horn: "Silverhorn" #NT!
- nick_the_old_horn: "the Old Horn" #NT!
- nick_the_laughing_horn: "the Mead Horn" #NT!
- nick_the_horn_daughter: "the Blower's Daughter" #NT!
- nick_the_hornknight: "the Horn[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_hornknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Horns" #NT!
+ nick_agot_the_black_horn: "Blackhorn" #NT!
+ nick_agot_the_white_horn: "Whitehorn" #NT!
+ nick_agot_the_crazed_horn: "the Mad Horn" #NT!
+ nick_agot_the_wild_horn: "Redhorn" #NT!
+ nick_agot_the_quiet_horn: "the Noiseless" #NT!
+ nick_agot_the_red_horn: "the War Horn" #NT!
+ nick_agot_the_big_horn: "the Horn o' Plenty" #NT!
+ nick_agot_the_strong_horn: "Stronghorn" #NT!
+ nick_agot_the_fair_horn: "the Cornucopia" #NT!
+ nick_agot_the_ugly_horn: "the Empty Horn" #NT!
+ nick_agot_the_small_horn: "the Small Horn" #NT!
+ nick_agot_the_wise_horn: "Goldenhorn" #NT!
+ nick_agot_the_dumb_horn: "the Slow Horn" #NT!
+ nick_agot_the_dark_horn: "Darkhorn" #NT!
+ nick_agot_the_weak_horn: "the Trumpet" #NT!
+ nick_agot_the_silver_horn: "Silverhorn" #NT!
+ nick_agot_the_old_horn: "the Old Horn" #NT!
+ nick_agot_the_laughing_horn: "the Mead Horn" #NT!
+ nick_agot_the_horn_daughter: "the Blower's Daughter" #NT!
+ nick_agot_the_hornknight: "the Horn[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_hornknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Horns" #NT!
   
   #Lightning Nicknames - Dondarrion 
- nick_the_black_lightning: "der Schwarze Blitz"
- nick_the_white_lightning: "White Lightning" #NT!
- nick_the_crazed_lightning: "Mad Lightning" #NT!
- nick_the_wild_lightning: "the Storm Cloud" #NT!
- nick_the_quiet_lightning: "Thunderless" #NT!
- nick_the_red_lightning: "Redbolt" #NT!
- nick_the_big_lightning: "Strongbolt" #NT!
- nick_the_strong_lightning: "the Lightning Storm" #NT!
- nick_the_fair_lightning: "Fairbolt" #NT!
- nick_the_ugly_lightning: "the Ugly Bolt" #NT!
- nick_the_small_lightning: "Little Lightning" #NT!
- nick_the_wise_lightning: "Brightspark" #NT!
- nick_the_dumb_lightning: "Dimbolt" #NT!
- nick_the_dark_lightning: "Darkbolt" #NT!
- nick_the_weak_lightning: "the Gust" #NT!
- nick_the_silver_lightning: "Silverbolt" #NT!
- nick_the_old_lightning: "the Grey Storm" #NT!
- nick_the_laughing_lightning: "the Crackling Bolt" #NT!
- nick_the_lightning_daughter: "the Lightning's Daughter" #NT!
- nick_the_lightningknight: "the Lightning[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_lightning: "Blackbolt" #NT!
+ nick_agot_the_white_lightning: "White Lightning" #NT!
+ nick_agot_the_crazed_lightning: "Mad Lightning" #NT!
+ nick_agot_the_wild_lightning: "the Storm Cloud" #NT!
+ nick_agot_the_quiet_lightning: "Thunderless" #NT!
+ nick_agot_the_red_lightning: "Redbolt" #NT!
+ nick_agot_the_big_lightning: "Strongbolt" #NT!
+ nick_agot_the_strong_lightning: "the Lightning Storm" #NT!
+ nick_agot_the_fair_lightning: "Fairbolt" #NT!
+ nick_agot_the_ugly_lightning: "the Ugly Bolt" #NT!
+ nick_agot_the_small_lightning: "Little Lightning" #NT!
+ nick_agot_the_wise_lightning: "Brightspark" #NT!
+ nick_agot_the_dumb_lightning: "Dimbolt" #NT!
+ nick_agot_the_dark_lightning: "Darkbolt" #NT!
+ nick_agot_the_weak_lightning: "the Gust" #NT!
+ nick_agot_the_silver_lightning: "Silverbolt" #NT!
+ nick_agot_the_old_lightning: "the Grey Storm" #NT!
+ nick_agot_the_laughing_lightning: "the Crackling Bolt" #NT!
+ nick_agot_the_lightning_daughter: "the Lightning's Daughter" #NT!
+ nick_agot_the_lightningknight: "the Lightning[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
   # Pipe Nicknames - Piper 
- nick_the_black_pipe: "the Black Pipe" #NT!
- nick_the_white_pipe: "the White Pipe" #NT!
- nick_the_crazed_pipe: "the Mad Pipe" #NT!
- nick_the_wild_pipe: "the Smoking Pipe" #NT!
- nick_the_quiet_pipe: "the Quiet Pipe" #NT!
- nick_the_red_pipe: "Redpipe" #NT!
- nick_the_big_pipe: "the Full Pipe" #NT!
- nick_the_strong_pipe: "Smokestack" #NT!
- nick_the_fair_pipe: "the Golden Pipe" #NT!
- nick_the_ugly_pipe: "the Ugly Pipe" #NT!
- nick_the_small_pipe: "the Little Pipe" #NT!
- nick_the_wise_pipe: "the Sage Pipe" #NT!
- nick_the_dumb_pipe: "the Vapid Pipe" #NT!
- nick_the_dark_pipe: "Darkpipe" #NT!
- nick_the_weak_pipe: "the Cracked Pipe" #NT!
- nick_the_silver_pipe: "Silverpipe" #NT!
- nick_the_old_pipe: "the Old Pipe" #NT!
- nick_the_laughing_pipe: "the Billowing Pipe" #NT!
- nick_the_pipe_daughter: "the Maid of Piper" #NT!
- nick_the_pipeknight: "the Smoke[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_pipeknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Pipes" #NT!
+ nick_agot_the_black_pipe: "the Black Pipe" #NT!
+ nick_agot_the_white_pipe: "the White Pipe" #NT!
+ nick_agot_the_crazed_pipe: "the Mad Pipe" #NT!
+ nick_agot_the_wild_pipe: "the Smoking Pipe" #NT!
+ nick_agot_the_quiet_pipe: "the Quiet Pipe" #NT!
+ nick_agot_the_red_pipe: "Redpipe" #NT!
+ nick_agot_the_big_pipe: "the Full Pipe" #NT!
+ nick_agot_the_strong_pipe: "Smokestack" #NT!
+ nick_agot_the_fair_pipe: "the Golden Pipe" #NT!
+ nick_agot_the_ugly_pipe: "the Ugly Pipe" #NT!
+ nick_agot_the_small_pipe: "the Little Pipe" #NT!
+ nick_agot_the_wise_pipe: "the Sage Pipe" #NT!
+ nick_agot_the_dumb_pipe: "the Vapid Pipe" #NT!
+ nick_agot_the_dark_pipe: "Darkpipe" #NT!
+ nick_agot_the_weak_pipe: "the Cracked Pipe" #NT!
+ nick_agot_the_silver_pipe: "Silverpipe" #NT!
+ nick_agot_the_old_pipe: "the Old Pipe" #NT!
+ nick_agot_the_laughing_pipe: "the Billowing Pipe" #NT!
+ nick_agot_the_pipe_daughter: "the Maid of Piper" #NT!
+ nick_agot_the_pipeknight: "the Smoke[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_pipeknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Pipes" #NT!
   
   #Crab Nicknames - Celtigar/Crabb/Borrell 
- nick_the_black_crab: "the Black Crab" #NT!
- nick_the_white_crab: "the White Crab" #NT!
- nick_the_crazed_crab: "the Mad Crab" #NT!
- nick_the_wild_crab: "the Snapping Crab" #NT!
- nick_the_quiet_crab: "the Quiet Crab" #NT!
- nick_the_red_crab: "die Rote Krabbe"
- nick_the_big_crab: "the Spider Crab" #NT!
- nick_the_strong_crab: "Hardshell" #NT!
- nick_the_fair_crab: "the Golden Crab" #NT!
- nick_the_ugly_crab: "the Cracked Crab" #NT!
- nick_the_small_crab: "the Crabling" #NT!
- nick_the_wise_crab: "Sharpclaw" #NT!
- nick_the_dumb_crab: "the Mudcrab" #NT!
- nick_the_dark_crab: "Darkcrab" #NT!
- nick_the_weak_crab: "Softshell" #NT!
- nick_the_silver_crab: "the Silver Crab" #NT!
- nick_the_old_crab: "the Old Crab" #NT!
- nick_the_laughing_crab: "the Cackling Crab" #NT!
- nick_the_crab_daughter: "the Crab's Daughter" #NT!
- nick_the_crabknight: "the Crab[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_crabknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Crabs" #NT!
+ nick_agot_the_black_crab: "the Black Crab" #NT!
+ nick_agot_the_white_crab: "the White Crab" #NT!
+ nick_agot_the_crazed_crab: "the Mad Crab" #NT!
+ nick_agot_the_wild_crab: "the Snapping Crab" #NT!
+ nick_agot_the_quiet_crab: "the Quiet Crab" #NT!
+ nick_agot_the_red_crab: "the Red Crab" #NT!
+ nick_agot_the_big_crab: "the Spider Crab" #NT!
+ nick_agot_the_strong_crab: "Hardshell" #NT!
+ nick_agot_the_fair_crab: "the Golden Crab" #NT!
+ nick_agot_the_ugly_crab: "the Cracked Crab" #NT!
+ nick_agot_the_small_crab: "the Crabling" #NT!
+ nick_agot_the_wise_crab: "Sharpclaw" #NT!
+ nick_agot_the_dumb_crab: "the Mudcrab" #NT!
+ nick_agot_the_dark_crab: "Darkcrab" #NT!
+ nick_agot_the_weak_crab: "Softshell" #NT!
+ nick_agot_the_silver_crab: "the Silver Crab" #NT!
+ nick_agot_the_old_crab: "the Old Crab" #NT!
+ nick_agot_the_laughing_crab: "the Cackling Crab" #NT!
+ nick_agot_the_crab_daughter: "the Crab's Daughter" #NT!
+ nick_agot_the_crabknight: "the Crab[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_crabknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Crabs" #NT!
   
   #Scorpion Nicknames - Qorgyle 
- nick_the_black_scorpion: "the Black Scorpion" #NT!
- nick_the_white_scorpion: "the White Scorpion" #NT!
- nick_the_crazed_scorpion: "the Mad Scorpion" #NT!
- nick_the_wild_scorpion: "the Scorpion's Sting" #NT!
- nick_the_quiet_scorpion: "the Silent Scorpion" #NT!
- nick_the_red_scorpion: "the Red Scorpion" #NT!
- nick_the_big_scorpion: "the Big Scorpion" #NT!
- nick_the_strong_scorpion: "the Strong Scorpion" #NT!
- nick_the_fair_scorpion: "the Golden Scorpion" #NT!
- nick_the_ugly_scorpion: "the Cracked scorpion" #NT!
- nick_the_small_scorpion: "the Small Scorpion" #NT!
- nick_the_wise_scorpion: "Sharpsting" #NT!
- nick_the_dumb_scorpion: "the Stupid Scorpion" #NT!
- nick_the_dark_scorpion: "the Venomous" #NT!
- nick_the_weak_scorpion: "Softshell" #NT!
- nick_the_silver_scorpion: "the Silver Scorpion" #NT!
- nick_the_old_scorpion: "the Old Scorpion" #NT!
- nick_the_laughing_scorpion: "the Cackling Scorpion" #NT!
- nick_the_scorpion_daughter: "the Scorpion's Daughter" #NT!
- nick_the_scorpionknight: "the Scorpion[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_scorpionknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Scorpions" #NT!
+ nick_agot_the_black_scorpion: "the Black Scorpion" #NT!
+ nick_agot_the_white_scorpion: "the White Scorpion" #NT!
+ nick_agot_the_crazed_scorpion: "the Mad Scorpion" #NT!
+ nick_agot_the_wild_scorpion: "the Scorpion's Sting" #NT!
+ nick_agot_the_quiet_scorpion: "the Silent Scorpion" #NT!
+ nick_agot_the_red_scorpion: "the Red Scorpion" #NT!
+ nick_agot_the_big_scorpion: "the Big Scorpion" #NT!
+ nick_agot_the_strong_scorpion: "the Strong Scorpion" #NT!
+ nick_agot_the_fair_scorpion: "the Golden Scorpion" #NT!
+ nick_agot_the_ugly_scorpion: "the Cracked scorpion" #NT!
+ nick_agot_the_small_scorpion: "the Small Scorpion" #NT!
+ nick_agot_the_wise_scorpion: "Sharpsting" #NT!
+ nick_agot_the_dumb_scorpion: "the Stupid Scorpion" #NT!
+ nick_agot_the_dark_scorpion: "the Venomous" #NT!
+ nick_agot_the_weak_scorpion: "Softshell" #NT!
+ nick_agot_the_silver_scorpion: "the Silver Scorpion" #NT!
+ nick_agot_the_old_scorpion: "the Old Scorpion" #NT!
+ nick_agot_the_laughing_scorpion: "the Cackling Scorpion" #NT!
+ nick_agot_the_scorpion_daughter: "the Scorpion's Daughter" #NT!
+ nick_agot_the_scorpionknight: "the Scorpion[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_scorpionknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Scorpions" #NT!
   
   #Huntsman Nicknames - Tarly/Hunt 
- nick_the_black_huntsman: "the Black Huntsman" #NT!
- nick_the_white_huntsman: "the White Huntsman" #NT!
- nick_the_crazed_huntsman: "the Headless Huntsman" #NT!
- nick_the_wild_huntsman: "Springtrap" #NT!
- nick_the_quiet_huntsman: "the Stalking Hunter" #NT!
- nick_the_red_huntsman: "the Red Hunter" #NT!
- nick_the_big_huntsman: "the Big Hunter" #NT!
- nick_the_strong_huntsman: "the Beastslayer" #NT!
- nick_the_fair_huntsman: "the Handsome Hunter" #NT!
- nick_the_ugly_huntsman: "the Hideous Hunter" #NT!
- nick_the_small_huntsman: "the Little Hunter" #NT!
- nick_the_wise_huntsman: "the Wise Woodsman" #NT!
- nick_the_dumb_huntsman: "the Lost Tracker" #NT!
- nick_the_dark_huntsman: "the Trapper" #NT!
- nick_the_weak_huntsman: "the Lame Hunter" #NT!
- nick_the_silver_huntsman: "the Silver Hunter" #NT!
- nick_the_old_huntsman: "the Gamekeeper" #NT!
- nick_the_laughing_huntsman: "the Laughing Huntsman" #NT!
- nick_the_huntsman_daughter: "the Huntsman's Daughter" #NT!
- nick_the_huntsmanknight: "the Hunter[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_huntsman: "the Black Huntsman" #NT!
+ nick_agot_the_white_huntsman: "the White Huntsman" #NT!
+ nick_agot_the_crazed_huntsman: "the Headless Huntsman" #NT!
+ nick_agot_the_wild_huntsman: "Springtrap" #NT!
+ nick_agot_the_quiet_huntsman: "the Stalking Hunter" #NT!
+ nick_agot_the_red_huntsman: "the Red Hunter" #NT!
+ nick_agot_the_big_huntsman: "the Big Hunter" #NT!
+ nick_agot_the_strong_huntsman: "the Beastslayer" #NT!
+ nick_agot_the_fair_huntsman: "the Handsome Hunter" #NT!
+ nick_agot_the_ugly_huntsman: "the Hideous Hunter" #NT!
+ nick_agot_the_small_huntsman: "the Little Hunter" #NT!
+ nick_agot_the_wise_huntsman: "the Wise Woodsman" #NT!
+ nick_agot_the_dumb_huntsman: "the Lost Tracker" #NT!
+ nick_agot_the_dark_huntsman: "the Trapper" #NT!
+ nick_agot_the_weak_huntsman: "the Lame Hunter" #NT!
+ nick_agot_the_silver_huntsman: "the Silver Hunter" #NT!
+ nick_agot_the_old_huntsman: "the Gamekeeper" #NT!
+ nick_agot_the_laughing_huntsman: "the Laughing Huntsman" #NT!
+ nick_agot_the_huntsman_daughter: "the Huntsman's Daughter" #NT!
+ nick_agot_the_huntsmanknight: "the Hunter[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
   #Rooster Nicknames - Swyft 
- nick_the_black_rooster: "the Black Bantam" #NT!
- nick_the_white_rooster: "the White Rooster" #NT!
- nick_the_crazed_rooster: "the Mad Rooster" #NT!
- nick_the_wild_rooster: "the Swaggering Cock" #NT!
- nick_the_quiet_rooster: "the Crowless" #NT!
- nick_the_red_rooster: "Redrooster" #NT!
- nick_the_big_rooster: "the Big Bantam" #NT!
- nick_the_strong_rooster: "the Strong Rooster" #NT!
- nick_the_fair_rooster: "the Ravishing Rooster" #NT!
- nick_the_ugly_rooster: "the Ugly Rooster" #NT!
- nick_the_small_rooster: "the Chick" #NT!
- nick_the_wise_rooster: "the Sage Rooster" #NT!
- nick_the_dumb_rooster: "Coxcomb" #NT!
- nick_the_dark_rooster: "the Dark Cockrel" #NT!
- nick_the_weak_rooster: "the Capon" #NT!
- nick_the_silver_rooster: "the Silver Rooster" #NT!
- nick_the_old_rooster: "the Old Rooster" #NT!
- nick_the_laughing_rooster: "the Crowing Rooster" #NT!
- nick_the_rooster_daughter: "the Hen" #NT!
- nick_the_roosterknight: "the Rooster[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_rooster: "the Black Bantam" #NT!
+ nick_agot_the_white_rooster: "the White Rooster" #NT!
+ nick_agot_the_crazed_rooster: "the Mad Rooster" #NT!
+ nick_agot_the_wild_rooster: "the Swaggering Cock" #NT!
+ nick_agot_the_quiet_rooster: "the Crowless" #NT!
+ nick_agot_the_red_rooster: "Redrooster" #NT!
+ nick_agot_the_big_rooster: "the Big Bantam" #NT!
+ nick_agot_the_strong_rooster: "the Strong Rooster" #NT!
+ nick_agot_the_fair_rooster: "the Ravishing Rooster" #NT!
+ nick_agot_the_ugly_rooster: "the Ugly Rooster" #NT!
+ nick_agot_the_small_rooster: "the Chick" #NT!
+ nick_agot_the_wise_rooster: "the Sage Rooster" #NT!
+ nick_agot_the_dumb_rooster: "Coxcomb" #NT!
+ nick_agot_the_dark_rooster: "the Dark Cockrel" #NT!
+ nick_agot_the_weak_rooster: "the Capon" #NT!
+ nick_agot_the_silver_rooster: "the Silver Rooster" #NT!
+ nick_agot_the_old_rooster: "the Old Rooster" #NT!
+ nick_agot_the_laughing_rooster: "the Crowing Rooster" #NT!
+ nick_agot_the_rooster_daughter: "the Hen" #NT!
+ nick_agot_the_roosterknight: "the Rooster[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Grape Nicknames - Redwyne 
- nick_the_black_grape: "Blackthorn" #NT!
- nick_the_white_grape: "Whitethorn" #NT!
- nick_the_crazed_grape: "the Crazy Thorn" #NT!
- nick_the_wild_grape: "Wildthorn" #NT!
- nick_the_quiet_grape: "the Silent Thorn" #NT!
- nick_the_red_grape: "Redthorn" #NT!
- nick_the_big_grape: "the Big Thorn" #NT!
- nick_the_strong_grape: "Strongthorn" #NT!
- nick_the_fair_grape: "the Full-Bodied" #NT!
- nick_the_ugly_grape: "the Raisin" #NT!
- nick_the_small_grape: "the Little Grape" #NT!
- nick_the_wise_grape: "Sharpthorn" #NT!
- nick_the_dumb_grape: "Bluntthorn" #NT!
- nick_the_dark_grape: "Darkthorn" #NT!
- nick_the_weak_grape: "the Weak Thorn" #NT!
- nick_the_silver_grape: "Silverthorn" #NT!
- nick_the_old_grape: "the Winestain" #NT!
- nick_the_laughing_grape: "the Red Wine" #NT!
- nick_the_grape_daughter: "the Lady of Thorns" #NT!
- nick_the_grapeknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Thorns" #NT!
+ nick_agot_the_black_grape: "Blackthorn" #NT!
+ nick_agot_the_white_grape: "Whitethorn" #NT!
+ nick_agot_the_crazed_grape: "the Crazy Thorn" #NT!
+ nick_agot_the_wild_grape: "Wildthorn" #NT!
+ nick_agot_the_quiet_grape: "the Silent Thorn" #NT!
+ nick_agot_the_red_grape: "Redthorn" #NT!
+ nick_agot_the_big_grape: "the Big Thorn" #NT!
+ nick_agot_the_strong_grape: "Strongthorn" #NT!
+ nick_agot_the_fair_grape: "the Full-Bodied" #NT!
+ nick_agot_the_ugly_grape: "the Raisin" #NT!
+ nick_agot_the_small_grape: "the Little Grape" #NT!
+ nick_agot_the_wise_grape: "Sharpthorn" #NT!
+ nick_agot_the_dumb_grape: "Bluntthorn" #NT!
+ nick_agot_the_dark_grape: "Darkthorn" #NT!
+ nick_agot_the_weak_grape: "the Weak Thorn" #NT!
+ nick_agot_the_silver_grape: "Silverthorn" #NT!
+ nick_agot_the_old_grape: "the Winestain" #NT!
+ nick_agot_the_laughing_grape: "the Red Wine" #NT!
+ nick_agot_the_grape_daughter: "the Lady of Thorns" #NT!
+ nick_agot_the_grapeknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Thorns" #NT!
   
  #Skinner Nicknames - Bolton 
- nick_the_black_skinner: "the Black Butcher" #NT!
- nick_the_white_skinner: "the Marrow" #NT!
- nick_the_crazed_skinner: "the Tormentor" #NT!
- nick_the_wild_skinner: "Bloodletter" #NT!
- nick_the_quiet_skinner: "the Mute Gutter" #NT!
- nick_the_red_skinner: "the Flayer" #NT!
- nick_the_big_skinner: "the Carver" #NT!
- nick_the_strong_skinner: "the Rack" #NT!
- nick_the_fair_skinner: "the Pink" #NT!
- nick_the_ugly_skinner: "the Flayed" #NT!
- nick_the_small_skinner: "the Little Skinner" #NT!
- nick_the_wise_skinner: "the Scalper" #NT!
- nick_the_dumb_skinner: "the Fleshy" #NT!
- nick_the_dark_skinner: "the Peeler" #NT!
- nick_the_weak_skinner: "the Spoon" #NT!
- nick_the_silver_skinner: "the Silver Skinner" #NT!
- nick_the_old_skinner: "the Rusty Skinner" #NT!
- nick_the_laughing_skinner: "the Tickler" #NT!
- nick_the_skinner_daughter: "the Flayed Lady" #NT!
- nick_the_skinnerknight: "the Flayed[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_skinner: "the Black Butcher" #NT!
+ nick_agot_the_white_skinner: "the Marrow" #NT!
+ nick_agot_the_crazed_skinner: "the Tormentor" #NT!
+ nick_agot_the_wild_skinner: "Bloodletter" #NT!
+ nick_agot_the_quiet_skinner: "the Mute Gutter" #NT!
+ nick_agot_the_red_skinner: "the Flayer" #NT!
+ nick_agot_the_big_skinner: "the Carver" #NT!
+ nick_agot_the_strong_skinner: "the Rack" #NT!
+ nick_agot_the_fair_skinner: "the Pink" #NT!
+ nick_agot_the_ugly_skinner: "the Flayed" #NT!
+ nick_agot_the_small_skinner: "the Little Skinner" #NT!
+ nick_agot_the_wise_skinner: "the Scalper" #NT!
+ nick_agot_the_dumb_skinner: "the Fleshy" #NT!
+ nick_agot_the_dark_skinner: "the Peeler" #NT!
+ nick_agot_the_weak_skinner: "the Spoon" #NT!
+ nick_agot_the_silver_skinner: "the Silver Skinner" #NT!
+ nick_agot_the_old_skinner: "the Rusty Skinner" #NT!
+ nick_agot_the_laughing_skinner: "the Tickler" #NT!
+ nick_agot_the_skinner_daughter: "the Flayed Lady" #NT!
+ nick_agot_the_skinnerknight: "the Flayed[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
   #Skull Nicknames - Manwoody/Qoherys 
- nick_the_black_skull: "the Black Skull" #NT!
- nick_the_white_skull: "the White Skull" #NT!
- nick_the_crazed_skull: "the Cackling Skull" #NT!
- nick_the_wild_skull: "the Red Skull" #NT!
- nick_the_quiet_skull: "the Silent Skull" #NT!
- nick_the_red_skull: "the Bloody Skull" #NT!
- nick_the_big_skull: "the Colossal Skull" #NT!
- nick_the_strong_skull: "Skullcrusher" #NT!
- nick_the_fair_skull: "the Golden Skull" #NT!
- nick_the_ugly_skull: "Skullface" #NT!
- nick_the_small_skull: "the Dwarf Skull" #NT!
- nick_the_wise_skull: "the Bright Skull" #NT!
- nick_the_dumb_skull: "Numbskull" #NT!
- nick_the_dark_skull: "Darkskull" #NT!
- nick_the_weak_skull: "the Fragile Skull" #NT!
- nick_the_silver_skull: "the Silver Skull" #NT!
- nick_the_old_skull: "the Old skull" #NT!
- nick_the_laughing_skull: "the Grinning Skull" #NT!
- nick_the_skull_daughter: "the Skull's Daughter" #NT!
- nick_the_skullknight: "the Skull[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_death_head: "Death's Head" #NT!
+ nick_agot_the_black_skull: "the Black Skull" #NT!
+ nick_agot_the_white_skull: "the White Skull" #NT!
+ nick_agot_the_crazed_skull: "the Cackling Skull" #NT!
+ nick_agot_the_wild_skull: "the Red Skull" #NT!
+ nick_agot_the_quiet_skull: "the Silent Skull" #NT!
+ nick_agot_the_red_skull: "the Bloody Skull" #NT!
+ nick_agot_the_big_skull: "the Colossal Skull" #NT!
+ nick_agot_the_strong_skull: "Skullcrusher" #NT!
+ nick_agot_the_fair_skull: "the Golden Skull" #NT!
+ nick_agot_the_ugly_skull: "Skullface" #NT!
+ nick_agot_the_small_skull: "the Dwarf Skull" #NT!
+ nick_agot_the_wise_skull: "the Bright Skull" #NT!
+ nick_agot_the_dumb_skull: "Numbskull" #NT!
+ nick_agot_the_dark_skull: "Darkskull" #NT!
+ nick_agot_the_weak_skull: "the Fragile Skull" #NT!
+ nick_agot_the_silver_skull: "the Silver Skull" #NT!
+ nick_agot_the_old_skull: "the Old skull" #NT!
+ nick_agot_the_laughing_skull: "the Grinning Skull" #NT!
+ nick_agot_the_skull_daughter: "the Skull's Daughter" #NT!
+ nick_agot_the_skullknight: "the Skull[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_death_head: "Death's Head" #NT!
   
   #Horse Nicknames - Bracken/Ryswell 
- nick_the_black_horse: "the Black Horse" #NT!
- nick_the_white_horse: "the White Horse" #NT!
- nick_the_crazed_horse: "the Bucking[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_wild_horse: "Redhoof" #NT!
- nick_the_quiet_horse: "the Canter" #NT!
- nick_the_red_horse: "the Blood Bay" #NT!
- nick_the_sorrel: "the Sorrel" #NT!
- nick_the_big_horse: "the Destrier" #NT!
- nick_the_strong_horse: "the Stallion" #NT!
- nick_the_courser: "the Courser" #NT!
- nick_the_fair_horse: "Goldmane" #NT!
- nick_the_ugly_horse: "Horseface" #NT!
- nick_the_small_horse: "the Dwarf Horse" #NT!
- nick_the_pony: "the Pony" #NT!
- nick_the_wise_horse: "Swifthoof" #NT!
- nick_the_palfrey: "the Palfrey" #NT!
- nick_the_dumb_horse: "the Dumb Horse" #NT!
- nick_the_sumpter_horse: "the Sumpter Horse" #NT!
- nick_the_dark_horse: "Darkhorse" #NT!
- nick_the_weak_horse: "the Lame Horse" #NT!
- nick_the_rouncey: "the Rouncey" #NT!
- nick_the_silver_horse: "the Silver Horse" #NT!
- nick_the_old_horse: "the Old Horse" #NT!
- nick_the_laughing_horse: "the Braying Horse" #NT!
- nick_the_horse_daughter: "the Filly" #NT!
- nick_the_horseknight: "the Horse[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_horse: "the Black Horse" #NT!
+ nick_agot_the_white_horse: "the White Horse" #NT!
+ nick_agot_the_crazed_horse: "the Bucking[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_wild_horse: "Redhoof" #NT!
+ nick_agot_the_quiet_horse: "the Canter" #NT!
+ nick_agot_the_red_horse: "the Blood Bay" #NT!
+ nick_agot_the_sorrel: "the Sorrel" #NT!
+ nick_agot_the_big_horse: "the Destrier" #NT!
+ nick_agot_the_strong_horse: "the Stallion" #NT!
+ nick_agot_the_courser: "the Courser" #NT!
+ nick_agot_the_fair_horse: "Goldmane" #NT!
+ nick_agot_the_ugly_horse: "Horseface" #NT!
+ nick_agot_the_small_horse: "the Dwarf Horse" #NT!
+ nick_agot_the_pony: "the Pony" #NT!
+ nick_agot_the_wise_horse: "Swifthoof" #NT!
+ nick_agot_the_palfrey: "the Palfrey" #NT!
+ nick_agot_the_dumb_horse: "the Dumb Horse" #NT!
+ nick_agot_the_sumpter_horse: "the Sumpter Horse" #NT!
+ nick_agot_the_dark_horse: "Darkhorse" #NT!
+ nick_agot_the_weak_horse: "the Lame Horse" #NT!
+ nick_agot_the_rouncey: "the Rouncey" #NT!
+ nick_agot_the_silver_horse: "the Silver Horse" #NT!
+ nick_agot_the_old_horse: "the Old Horse" #NT!
+ nick_agot_the_laughing_horse: "the Braying Horse" #NT!
+ nick_agot_the_horse_daughter: "the Filly" #NT!
+ nick_agot_the_horseknight: "the Horse[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
   #Raven Nicknames - Blackwood/Corbray 
- nick_the_black_raven: "Nightraven" #NT!
- nick_the_white_raven: "the White Raven" #NT!
- nick_the_crazed_raven: "the Mad Raven" #NT!
- nick_the_wild_raven: "Redraven" #NT!
- nick_the_quiet_raven: "the Silent Raven" #NT!
- nick_the_red_raven: "the Ravening Raven" #NT!
- nick_the_big_raven: "Wingspan" #NT!
- nick_the_strong_raven: "the Strong Raven" #NT!
- nick_the_fair_raven: "Goldwing" #NT!
- nick_the_ugly_raven: "the Broken Wing" #NT!
- nick_the_small_raven: "the Little Raven" #NT!
- nick_the_wise_raven: "the Clever Corvid" #NT!
- nick_the_dumb_raven: "the Dumb Raven" #NT!
- nick_the_dark_raven: "Darkwing" #NT!
- nick_the_weak_raven: "the Flightless" #NT!
- nick_the_silver_raven: "Silverraven" #NT!
- nick_the_old_raven: "the Old Raven" #NT!
- nick_the_laughing_raven: "the Grinning Raven" #NT!
- nick_the_raven_daughter: "the Raven's Daughter" #NT!
- nick_the_ravenknight: "the Raven[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_raven: "Nightraven" #NT!
+ nick_agot_the_white_raven: "the White Raven" #NT!
+ nick_agot_the_crazed_raven: "the Mad Raven" #NT!
+ nick_agot_the_wild_raven: "Redraven" #NT!
+ nick_agot_the_quiet_raven: "the Silent Raven" #NT!
+ nick_agot_the_red_raven: "the Ravening Raven" #NT!
+ nick_agot_the_big_raven: "Wingspan" #NT!
+ nick_agot_the_strong_raven: "the Strong Raven" #NT!
+ nick_agot_the_fair_raven: "Goldwing" #NT!
+ nick_agot_the_ugly_raven: "the Broken Wing" #NT!
+ nick_agot_the_small_raven: "the Little Raven" #NT!
+ nick_agot_the_wise_raven: "the Clever Corvid" #NT!
+ nick_agot_the_dumb_raven: "the Dumb Raven" #NT!
+ nick_agot_the_dark_raven: "Darkwing" #NT!
+ nick_agot_the_weak_raven: "the Flightless" #NT!
+ nick_agot_the_silver_raven: "Silverraven" #NT!
+ nick_agot_the_old_raven: "the Old Raven" #NT!
+ nick_agot_the_laughing_raven: "the Grinning Raven" #NT!
+ nick_agot_the_raven_daughter: "the Raven's Daughter" #NT!
+ nick_agot_the_ravenknight: "the Raven[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Sapphire Nicknames - Tarth 
- nick_the_black_sapphire: "the Black Sapphire" #NT!
- nick_the_white_sapphire: "the White Sapphire" #NT!
- nick_the_crazed_sapphire: "the Mad Sapphire" #NT!
- nick_the_wild_sapphire: "the Wroth Sapphire" #NT!
- nick_the_quiet_sapphire: "the Gloam" #NT!
- nick_the_red_sapphire: "the Red Sapphire" #NT!
- nick_the_big_sapphire: "the Big Sapphire" #NT!
- nick_the_strong_sapphire: "the Long Evening" #NT!
- nick_the_fair_sapphire: "the Sapphire of the Sea" #NT!
- nick_the_ugly_sapphire: "the Ugly Sapphire" #NT!
- nick_the_small_sapphire: "the Little Sapphire" #NT!
- nick_the_wise_sapphire: "Evenstar" #NT!
- nick_the_dumb_sapphire: "the Dull Saphire" #NT!
- nick_the_dark_sapphire: "Midnight" #NT!
- nick_the_weak_sapphire: "the Weak Sapphire" #NT!
- nick_the_silver_sapphire: "the Silver Sapphire" #NT!
- nick_the_old_sapphire: "the Old Sapphire" #NT!
- nick_the_laughing_sapphire: "the Shining Sapphire" #NT!
- nick_the_sapphire_daughter: "the Sapphire's Daughter" #NT!
- nick_the_sapphireknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Sapphires" #NT!
- nick_the_eveningknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Evening" #NT!
- nick_the_twilightknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Twilight" #NT!
+ nick_agot_the_black_sapphire: "the Black Sapphire" #NT!
+ nick_agot_the_white_sapphire: "the White Sapphire" #NT!
+ nick_agot_the_crazed_sapphire: "the Mad Sapphire" #NT!
+ nick_agot_the_wild_sapphire: "the Wroth Sapphire" #NT!
+ nick_agot_the_quiet_sapphire: "the Gloam" #NT!
+ nick_agot_the_red_sapphire: "the Red Sapphire" #NT!
+ nick_agot_the_big_sapphire: "the Big Sapphire" #NT!
+ nick_agot_the_strong_sapphire: "the Long Evening" #NT!
+ nick_agot_the_fair_sapphire: "the Sapphire of the Sea" #NT!
+ nick_agot_the_ugly_sapphire: "the Ugly Sapphire" #NT!
+ nick_agot_the_small_sapphire: "the Little Sapphire" #NT!
+ nick_agot_the_wise_sapphire: "Evenstar" #NT!
+ nick_agot_the_dumb_sapphire: "the Dull Saphire" #NT!
+ nick_agot_the_dark_sapphire: "Midnight" #NT!
+ nick_agot_the_weak_sapphire: "the Weak Sapphire" #NT!
+ nick_agot_the_silver_sapphire: "the Silver Sapphire" #NT!
+ nick_agot_the_old_sapphire: "the Old Sapphire" #NT!
+ nick_agot_the_laughing_sapphire: "the Shining Sapphire" #NT!
+ nick_agot_the_sapphire_daughter: "the Sapphire's Daughter" #NT!
+ nick_agot_the_sapphireknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Sapphires" #NT!
+ nick_agot_the_eveningknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Evening" #NT!
+ nick_agot_the_twilightknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Twilight" #NT!
   
  #Moon Nicknames - Arryn/Fell/Egen/Wynch/Moonfell 
- nick_the_black_moon: "the Black Moon" #NT!
- nick_the_white_moon: "the White moon" #NT!
- nick_the_crazed_moon: "the Mad Moon" #NT!
- nick_the_wild_moon: "the Blood Moon" #NT!
- nick_the_quiet_moon: "the Silent Moon" #NT!
- nick_the_red_moon: "the Red Moon" #NT!
- nick_the_big_moon: "the Big Moon" #NT!
- nick_the_strong_moon: "the Full Moon" #NT!
- nick_the_fair_moon: "the Benign Moon" #NT!
- nick_the_ugly_moon: "the Ugly Moon" #NT!
- nick_the_small_moon: "the Little Moon" #NT!
- nick_the_wise_moon: "the Eclipse" #NT!
- nick_the_dumb_moon: "the Slow Moon" #NT!
- nick_the_dark_moon: "the Dark Moon" #NT!
- nick_the_weak_moon: "the Waning Moon" #NT!
- nick_the_silver_moon: "Silvermoon" #NT!
- nick_the_old_moon: "the Old [CHARACTER.GetWomanMan] of the Moon" #NT!
- nick_the_laughing_moon: "the Laughing Moon" #NT!
- nick_the_moon_daughter: "the Moon's Maiden" #NT!
- nick_the_moonknight: "the Moon[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_moonknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Moon" #NT!
+ nick_agot_the_black_moon: "the Black Moon" #NT!
+ nick_agot_the_white_moon: "the White moon" #NT!
+ nick_agot_the_crazed_moon: "the Mad Moon" #NT!
+ nick_agot_the_wild_moon: "the Blood Moon" #NT!
+ nick_agot_the_quiet_moon: "the Silent Moon" #NT!
+ nick_agot_the_red_moon: "the Red Moon" #NT!
+ nick_agot_the_big_moon: "the Big Moon" #NT!
+ nick_agot_the_strong_moon: "the Full Moon" #NT!
+ nick_agot_the_fair_moon: "the Benign Moon" #NT!
+ nick_agot_the_ugly_moon: "the Ugly Moon" #NT!
+ nick_agot_the_small_moon: "the Little Moon" #NT!
+ nick_agot_the_wise_moon: "the Eclipse" #NT!
+ nick_agot_the_dumb_moon: "the Slow Moon" #NT!
+ nick_agot_the_dark_moon: "the Dark Moon" #NT!
+ nick_agot_the_weak_moon: "the Waning Moon" #NT!
+ nick_agot_the_silver_moon: "Silvermoon" #NT!
+ nick_agot_the_old_moon: "the Old [CHARACTER.GetWomanMan] of the Moon" #NT!
+ nick_agot_the_laughing_moon: "the Laughing Moon" #NT!
+ nick_agot_the_moon_daughter: "the Moon's Maiden" #NT!
+ nick_agot_the_moonknight: "the Moon[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_moonknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Moon" #NT!
   
  #Eagle Nicknames - Mallister 
- nick_the_black_eagle: "the Black Eagle" #NT!
- nick_the_white_eagle: "the White Eagle" #NT!
- nick_the_crazed_eagle: "the Mad Eagle" #NT!
- nick_the_wild_eagle: "the Blood Eagle" #NT!
- nick_the_quiet_eagle: "the Silent Eagle" #NT!
- nick_the_red_eagle: "the Red Eagle" #NT!
- nick_the_big_eagle: "the Great Eagle" #NT!
- nick_the_strong_eagle: "the Strong Eagle" #NT!
- nick_the_fair_eagle: "the Golden Eagle" #NT!
- nick_the_ugly_eagle: "the Ugly Eagle" #NT!
- nick_the_small_eagle: "the Little Eagle" #NT!
- nick_the_wise_eagle: "the Even Eagle" #NT!
- nick_the_dumb_eagle: "the Flightless" #NT!
- nick_the_dark_eagle: "Dark Eagle" #NT!
- nick_the_weak_eagle: "the Lame Eagle" #NT!
- nick_the_silver_eagle: "Silvereagle" #NT!
- nick_the_old_eagle: "the Old [CHARACTER.GetWomanMan] Eagle" #NT!
- nick_the_laughing_eagle: "the Laughing Eagle" #NT!
- nick_the_eagle_daughter: "the Eagle's Daughter" #NT!
- nick_the_eagleknight: "the Eagle[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_black_eagle: "the Black Eagle" #NT!
+ nick_agot_the_white_eagle: "the White Eagle" #NT!
+ nick_agot_the_crazed_eagle: "the Mad Eagle" #NT!
+ nick_agot_the_wild_eagle: "the Blood Eagle" #NT!
+ nick_agot_the_quiet_eagle: "the Silent Eagle" #NT!
+ nick_agot_the_red_eagle: "the Red Eagle" #NT!
+ nick_agot_the_big_eagle: "the Great Eagle" #NT!
+ nick_agot_the_strong_eagle: "the Strong Eagle" #NT!
+ nick_agot_the_fair_eagle: "the Golden Eagle" #NT!
+ nick_agot_the_ugly_eagle: "the Ugly Eagle" #NT!
+ nick_agot_the_small_eagle: "the Little Eagle" #NT!
+ nick_agot_the_wise_eagle: "the Even Eagle" #NT!
+ nick_agot_the_dumb_eagle: "the Flightless" #NT!
+ nick_agot_the_dark_eagle: "Dark Eagle" #NT!
+ nick_agot_the_weak_eagle: "the Lame Eagle" #NT!
+ nick_agot_the_silver_eagle: "Silvereagle" #NT!
+ nick_agot_the_old_eagle: "the Old [CHARACTER.GetWomanMan] Eagle" #NT!
+ nick_agot_the_laughing_eagle: "the Laughing Eagle" #NT!
+ nick_agot_the_eagle_daughter: "the Eagle's Daughter" #NT!
+ nick_agot_the_eagleknight: "the Eagle[CHARACTER.Custom('GetWarriorNickname')]" #NT!
   
  #Heart Nicknames - Staedmon/Toyne 
- nick_the_black_heart: "Blackheart" #NT!
- nick_the_white_heart: "Whiteheart" #NT!
- nick_the_crazed_heart: "Madheart" #NT!
- nick_the_wild_heart: "Wildheart" #NT!
- nick_the_quiet_heart: "the Still Heart" #NT!
- nick_the_red_heart: "Redheart" #NT!
- nick_the_big_heart: "Bigheart" #NT!
- nick_the_strong_heart: "Greatheart" #NT!
- nick_the_fair_heart: "Goldheart" #NT!
- nick_the_ugly_heart: "the Organ" #NT!
- nick_the_small_heart: "the Little Heart" #NT!
- nick_the_wise_heart: "Justheart" #NT!
- nick_the_dumb_heart: "the Slow Heart" #NT!
- nick_the_dark_heart: "Darkheart" #NT!
- nick_the_weak_heart: "the Trembling Heart" #NT!
- nick_the_silver_heart: "Silverheart" #NT!
- nick_the_old_heart: "the Old Heart" #NT!
- nick_the_laughing_heart: "the Laughing Heart" #NT!
- nick_the_heart_daughter: "the Heart's Daughter" #NT!
- nick_the_heartknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Hearts" #NT!
+ nick_agot_the_black_heart: "Blackheart" #NT!
+ nick_agot_the_white_heart: "Whiteheart" #NT!
+ nick_agot_the_crazed_heart: "Madheart" #NT!
+ nick_agot_the_wild_heart: "Wildheart" #NT!
+ nick_agot_the_quiet_heart: "the Still Heart" #NT!
+ nick_agot_the_red_heart: "Redheart" #NT!
+ nick_agot_the_big_heart: "Bigheart" #NT!
+ nick_agot_the_strong_heart: "Greatheart" #NT!
+ nick_agot_the_fair_heart: "Goldheart" #NT!
+ nick_agot_the_ugly_heart: "the Organ" #NT!
+ nick_agot_the_small_heart: "the Little Heart" #NT!
+ nick_agot_the_wise_heart: "Justheart" #NT!
+ nick_agot_the_dumb_heart: "the Slow Heart" #NT!
+ nick_agot_the_dark_heart: "Darkheart" #NT!
+ nick_agot_the_weak_heart: "the Trembling Heart" #NT!
+ nick_agot_the_silver_heart: "Silverheart" #NT!
+ nick_agot_the_old_heart: "the Old Heart" #NT!
+ nick_agot_the_laughing_heart: "the Laughing Heart" #NT!
+ nick_agot_the_heart_daughter: "the Heart's Daughter" #NT!
+ nick_agot_the_heartknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Hearts" #NT!
   
  #Bell Nicknames - Belmore 
- nick_the_black_bell: "Blackbell" #NT!
- nick_the_white_bell: "Whitebell" #NT!
- nick_the_crazed_bell: "Madbell" #NT!
- nick_the_wild_bell: "Wildbell" #NT!
- nick_the_quiet_bell: "the Silent Bell" #NT!
- nick_the_red_bell: "Redbell" #NT!
- nick_the_big_bell: "the Big Bell" #NT!
- nick_the_strong_bell: "Greatbell" #NT!
- nick_the_fair_bell: "Goldbell" #NT!
- nick_the_ugly_bell: "the Cracked Bell" #NT!
- nick_the_small_bell: "the Little Bell" #NT!
- nick_the_wise_bell: "Justbell" #NT!
- nick_the_dumb_bell: "the Slow Bell" #NT!
- nick_the_dark_bell: "Darkbell" #NT!
- nick_the_weak_bell: "the Trembling Bell" #NT!
- nick_the_silver_bell: "Silverbell" #NT!
- nick_the_old_bell: "the Old Bell" #NT!
- nick_the_laughing_bell: "the Clanging Bell" #NT!
- nick_the_bell_daughter: "the Bell's Daughter" #NT!
- nick_the_bellknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Bells" #NT!
+ nick_agot_the_black_bell: "Blackbell" #NT!
+ nick_agot_the_white_bell: "Whitebell" #NT!
+ nick_agot_the_crazed_bell: "Madbell" #NT!
+ nick_agot_the_wild_bell: "Wildbell" #NT!
+ nick_agot_the_quiet_bell: "the Silent Bell" #NT!
+ nick_agot_the_red_bell: "Redbell" #NT!
+ nick_agot_the_big_bell: "the Big Bell" #NT!
+ nick_agot_the_strong_bell: "Greatbell" #NT!
+ nick_agot_the_fair_bell: "Goldbell" #NT!
+ nick_agot_the_ugly_bell: "the Cracked Bell" #NT!
+ nick_agot_the_small_bell: "the Little Bell" #NT!
+ nick_agot_the_wise_bell: "Justbell" #NT!
+ nick_agot_the_dumb_bell: "the Slow Bell" #NT!
+ nick_agot_the_dark_bell: "Darkbell" #NT!
+ nick_agot_the_weak_bell: "the Trembling Bell" #NT!
+ nick_agot_the_silver_bell: "Silverbell" #NT!
+ nick_agot_the_old_bell: "the Old Bell" #NT!
+ nick_agot_the_laughing_bell: "the Clanging Bell" #NT!
+ nick_agot_the_bell_daughter: "the Bell's Daughter" #NT!
+ nick_agot_the_bellknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Bells" #NT!
   
  #Anchor Nicknames - Belmore 
- nick_the_black_anchor: "Blackanchor" #NT!
- nick_the_white_anchor: "Whiteanchor" #NT!
- nick_the_crazed_anchor: "Madanchor" #NT!
- nick_the_wild_anchor: "Wildanchor" #NT!
- nick_the_quiet_anchor: "the Quiet Anchor" #NT!
- nick_the_red_anchor: "the Red Anchor" #NT!
- nick_the_big_anchor: "the Weighed Anchor" #NT!
- nick_the_strong_anchor: "Greatanchor" #NT!
- nick_the_fair_anchor: "the Golden Anchor" #NT!
- nick_the_ugly_anchor: "the Cracked Anchor" #NT!
- nick_the_small_anchor: "the Little Anchor" #NT!
- nick_the_wise_anchor: "the Sage Anchor" #NT!
- nick_the_dumb_anchor: "the Floating Anchor" #NT!
- nick_the_dark_anchor: "Darkanchor" #NT!
- nick_the_weak_anchor: "the Light Anchor" #NT!
- nick_the_silver_anchor: "Silveranchor" #NT!
- nick_the_old_anchor: "the Old Anchor" #NT!
- nick_the_laughing_anchor: "the Clanging Anchor" #NT!
- nick_the_anchor_daughter: "the Anchor's Daughter" #NT!
- nick_the_anchorknight: "the Anchor[CHARACTER.Custom('GetWarriorNickname')]" #NT!
- nick_the_anchorknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Anchors" #NT!
+ nick_agot_the_black_anchor: "Blackanchor" #NT!
+ nick_agot_the_white_anchor: "Whiteanchor" #NT!
+ nick_agot_the_crazed_anchor: "Madanchor" #NT!
+ nick_agot_the_wild_anchor: "Wildanchor" #NT!
+ nick_agot_the_quiet_anchor: "the Quiet Anchor" #NT!
+ nick_agot_the_red_anchor: "the Red Anchor" #NT!
+ nick_agot_the_big_anchor: "the Weighed Anchor" #NT!
+ nick_agot_the_strong_anchor: "Greatanchor" #NT!
+ nick_agot_the_fair_anchor: "the Golden Anchor" #NT!
+ nick_agot_the_ugly_anchor: "the Cracked Anchor" #NT!
+ nick_agot_the_small_anchor: "the Little Anchor" #NT!
+ nick_agot_the_wise_anchor: "the Sage Anchor" #NT!
+ nick_agot_the_dumb_anchor: "the Floating Anchor" #NT!
+ nick_agot_the_dark_anchor: "Darkanchor" #NT!
+ nick_agot_the_weak_anchor: "the Light Anchor" #NT!
+ nick_agot_the_silver_anchor: "Silveranchor" #NT!
+ nick_agot_the_old_anchor: "the Old Anchor" #NT!
+ nick_agot_the_laughing_anchor: "the Clanging Anchor" #NT!
+ nick_agot_the_anchor_daughter: "the Anchor's Daughter" #NT!
+ nick_agot_the_anchorknight: "the Anchor[CHARACTER.Custom('GetWarriorNickname')]" #NT!
+ nick_agot_the_anchorknightprefix: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Anchors" #NT!
   
  #Seashell Nicknames - Westerling 
- nick_the_black_seashell: "the Black Shell" #NT!
- nick_the_white_seashell: "the White Shell" #NT!
- nick_the_crazed_seashell: "the Mad Shell" #NT!
- nick_the_wild_seashell: "the Wroth Shell" #NT!
- nick_the_quiet_seashell: "the Silent Seashell" #NT!
- nick_the_red_seashell: "Redshell" #NT!
- nick_the_big_seashell: "the Conch" #NT!
- nick_the_strong_seashell: "Strongshell" #NT!
- nick_the_fair_seashell: "the Pearl" #NT!
- nick_the_ugly_seashell: "the Clam" #NT!
- nick_the_small_seashell: "the Little Shell" #NT!
- nick_the_wise_seashell: "the Sage Shell" #NT!
- nick_the_dumb_seashell: "the Slow Shell" #NT!
- nick_the_dark_seashell: "Darkshell" #NT!
- nick_the_weak_seashell: "Softshell" #NT!
- nick_the_silver_seashell: "Silvershell" #NT!
- nick_the_old_seashell: "the Cockle" #NT!
- nick_the_laughing_seashell: "the Laughing Seashell" #NT!
- nick_the_seashell_daughter: "the Shell's Pearl" #NT!
- nick_the_seashellknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Seashells" #NT!
+ nick_agot_the_black_seashell: "the Black Shell" #NT!
+ nick_agot_the_white_seashell: "the White Shell" #NT!
+ nick_agot_the_crazed_seashell: "the Mad Shell" #NT!
+ nick_agot_the_wild_seashell: "the Wroth Shell" #NT!
+ nick_agot_the_quiet_seashell: "the Silent Seashell" #NT!
+ nick_agot_the_red_seashell: "Redshell" #NT!
+ nick_agot_the_big_seashell: "the Conch" #NT!
+ nick_agot_the_strong_seashell: "Strongshell" #NT!
+ nick_agot_the_fair_seashell: "the Pearl" #NT!
+ nick_agot_the_ugly_seashell: "the Clam" #NT!
+ nick_agot_the_small_seashell: "the Little Shell" #NT!
+ nick_agot_the_wise_seashell: "the Sage Shell" #NT!
+ nick_agot_the_dumb_seashell: "the Slow Shell" #NT!
+ nick_agot_the_dark_seashell: "Darkshell" #NT!
+ nick_agot_the_weak_seashell: "Softshell" #NT!
+ nick_agot_the_silver_seashell: "Silvershell" #NT!
+ nick_agot_the_old_seashell: "the Cockle" #NT!
+ nick_agot_the_laughing_seashell: "the Laughing Seashell" #NT!
+ nick_agot_the_seashell_daughter: "the Shell's Pearl" #NT!
+ nick_agot_the_seashellknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Seashells" #NT!
   
  #Chain Nicknames - Roxton/Hoare 
- nick_the_black_chain: "the Black Chain" #NT!
- nick_the_white_chain: "the White Chain" #NT!
- nick_the_crazed_chain: "the Mad Chain" #NT!
- nick_the_wild_chain: "the Wroth Chain" #NT!
- nick_the_quiet_chain: "the Silent Chain" #NT!
- nick_the_red_chain: "Redchain" #NT!
- nick_the_big_chain: "the Big Chain" #NT!
- nick_the_strong_chain: "the Strong Chain" #NT!
- nick_the_fair_chain: "the Golden Chain" #NT!
- nick_the_ugly_chain: "the Rusty Chain" #NT!
- nick_the_small_chain: "the Little Chain" #NT!
- nick_the_wise_chain: "the Sage Chain" #NT!
- nick_the_dumb_chain: "the Slow Chain" #NT!
- nick_the_dark_chain: "Darkchain" #NT!
- nick_the_weak_chain: "the Broken Chain" #NT!
- nick_the_silver_chain: "the Silver Chain" #NT!
- nick_the_old_chain: "the Aged Chain" #NT!
- nick_the_laughing_chain: "the Rattling Chain" #NT!
- nick_the_chain_daughter: "the Chain's Daughter" #NT!
- nick_the_chainknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Chains" #NT!
+ nick_agot_the_black_chain: "the Black Chain" #NT!
+ nick_agot_the_white_chain: "the White Chain" #NT!
+ nick_agot_the_crazed_chain: "the Mad Chain" #NT!
+ nick_agot_the_wild_chain: "the Wroth Chain" #NT!
+ nick_agot_the_quiet_chain: "the Silent Chain" #NT!
+ nick_agot_the_red_chain: "Redchain" #NT!
+ nick_agot_the_big_chain: "the Big Chain" #NT!
+ nick_agot_the_strong_chain: "the Strong Chain" #NT!
+ nick_agot_the_fair_chain: "the Golden Chain" #NT!
+ nick_agot_the_ugly_chain: "the Rusty Chain" #NT!
+ nick_agot_the_small_chain: "the Little Chain" #NT!
+ nick_agot_the_wise_chain: "the Sage Chain" #NT!
+ nick_agot_the_dumb_chain: "the Slow Chain" #NT!
+ nick_agot_the_dark_chain: "Darkchain" #NT!
+ nick_agot_the_weak_chain: "the Broken Chain" #NT!
+ nick_agot_the_silver_chain: "the Silver Chain" #NT!
+ nick_agot_the_old_chain: "the Aged Chain" #NT!
+ nick_agot_the_laughing_chain: "the Rattling Chain" #NT!
+ nick_agot_the_chain_daughter: "the Chain's Daughter" #NT!
+ nick_agot_the_chainknight: "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Chains" #NT!

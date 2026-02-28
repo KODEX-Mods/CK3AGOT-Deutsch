@@ -1,5 +1,5 @@
 ﻿l_german:
- #Personal Steward 
+  # Personal Steward 
  personal_steward_task_diplomacy_good_skilled_notification_tooltip: "Der [councillor.Custom('diplomacy_skill_level')]e Diplomatiewert Eures persönlichen Kämmerers hat diesen Glücksfall verursacht."
  personal_steward_task_diplomacy_good_unskilled_notification_tooltip: "Dies geschah trotz des [councillor.Custom('diplomacy_skill_level')]en Diplomatiewerts Eures persönlichen Kämmerers."
  personal_steward_task_martial_good_unskilled_notification_tooltip: "Dies geschah trotz des [councillor.Custom('martial_skill_level')]en Kriegsführungswerts Eures persönlichen Kämmerers."
@@ -10,13 +10,13 @@
  personal_steward_task_intrigue_good_skilled_notification_tooltip: "Der [councillor.Custom('intrigue_skill_level')]e Ränkespielwert Eures persönlichen Kämmerers hat diesen Glücksfall verursacht."
  personal_steward_task_learning_good_unskilled_notification_tooltip: "Dies geschah trotz des [councillor.Custom('learning_skill_level')]en Bildungswerts Eures persönlichen Kämmerers."
  personal_steward_task_learning_good_skilled_notification_tooltip: "Der [councillor.Custom('learning_skill_level')]e Bildungswert Eures persönlichen Kämmerers hat diesen Glücksfall verursacht."
- task_personal_steward_default_diplomacy_modifier: "Assistance from Personal Steward" #NT!
- task_personal_steward_default_martial_modifier: "Assistance from Personal Steward" #NT!
- task_personal_steward_default_stewardship_modifier: "Assistance from Personal Steward" #NT!
- task_personal_steward_default_intrigue_modifier: "Assistance from Personal Steward" #NT!
- task_personal_steward_default_learning_modifier: "Assistance from Personal Steward" #NT!
+ task_personal_steward_default_diplomacy_modifier: "Assistance from Personal Steward"
+ task_personal_steward_default_martial_modifier: "Assistance from Personal Steward"
+ task_personal_steward_default_stewardship_modifier: "Assistance from Personal Steward"
+ task_personal_steward_default_intrigue_modifier: "Assistance from Personal Steward"
+ task_personal_steward_default_learning_modifier: "Assistance from Personal Steward"
   
-  #Personal Steward Tasks 
+  # Personal Steward Tasks 
  task_personal_steward_default: "Kommandanten helfen"
  task_personal_steward_default_effect_desc: "[councillor.GetShortUINameNoTooltip] hilft Euch, die Wache im Allgemeinen zu führen\n\n[councillor.GetHerHis|U] unterstützt Euch:\n[councillor.GetModifierDescForTask('task_personal_steward_default')]"
  task_personal_steward_court_politics: "Moral steigern"
@@ -49,7 +49,7 @@
  task_promote_culture_effect_desc_greenborn_override_smt_broke: "#R #L(AGOT ERROR)#!#!: Etwas ist bei der Konvertierung zur Gtünmännischen Kultur schief gegangen. Bitte meldet Euch im AGOT-Discord bei Typical!"
   
   
-  #Castellan Tasks 
+  # Castellan Tasks 
  task_castellan_default_1: "Festungen beaufsichtigen"
  task_castellan_default_effect_desc_1: "Die Kriegserfahrung von [councillor.GetShortUINameNoTooltip] wird eure Herrschaft über das Reich festigen. \n\n[councillor.Custom('DE_PRO_POS_S_3P')|U]e Unterstützung gewährt Euch:\n[councillor.GetModifierDescForTask('task_castellan_default_1')]"
   
@@ -86,18 +86,17 @@
   
  task_castellan_organise: "Mit Vasallen verhandeln"
  task_castellan_organise_desc: "\n[councillor.GetModifierDescForTask('task_castellan_organise')]"
- task_castellan_organise_modifier: "Council $councillor_castellan$" #NT!
+ task_castellan_organise_modifier: "Council $councillor_castellan$"
   
  task_castellan_scheme: "Pläne schmieden"
  task_castellan_scheme_desc: "\n[councillor.GetModifierDescForTask('task_castellan_scheme')]"
- task_castellan_scheme_modifier: "Council $councillor_castellan$" #NT!
+ task_castellan_scheme_modifier: "Council $councillor_castellan$"
   
  task_castellan_clergy: "Klerus begünstigen"
  task_castellan_clergy_desc: "\n[councillor.GetModifierDescForTask('task_castellan_clergy')]"
- task_castellan_clergy_modifier: "Council $councillor_castellan$" #NT!
+ task_castellan_clergy_modifier: "Council $councillor_castellan$"
   
-  #Admiral 
-  
+  # Admiral 
  task_admiral_fleet: "Flotte aufteilen"
   
  task_admiral_fleet_modifier: "$councillor_admiral$ konsultieren"
@@ -137,7 +136,15 @@
   
   # Court Chaplain 
  COURT_CHAPLAIN_SHATTERED_WORLD: "Startbonus für die Zersplitterte Welt"
+ COURT_CHAPLAIN_CONVERSION_LEGENDARY_CONVERSION_BONUS_MODIFIER: "Evangelize to the Realm" #NT!
   
   # Spymaster 
  agot_task_disrupt_schemes_discover_spies: "Könnte fremde Spione an Eurem Hof entdecken \n"
  agot_task_disrupt_schemes_recruit_spies: "Könnte Spione am Zielhof anwerben \n"
+  
+  # Pirates 
+ task_collect_pirate_domicile_taxes: "Collect Dues" #NT!
+ task_collect_pirate_domicile_taxes_modifier: "Assistance from $councillor_steward$" #NT!
+ task_collect_pirate_domicile_taxes_effect_desc: "[councillor.GetShortUINameNoTooltip] focuses on the domicile's ledgers, trying to extract every possible scrap of gold.\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_collect_pirate_domicile_taxes')]" #NT!
+ task_domicile_generic_build_speed_inc_modifier: "Domicile Management" #NT!
+ you_have_one_of_the_following_domiciles: "You must have one of the following [domiciles|E]:\n$EFFECT_LIST_BULLET$[agot_landless_pirate_domicile]" #NT!

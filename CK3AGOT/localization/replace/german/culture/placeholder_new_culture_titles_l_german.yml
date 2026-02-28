@@ -1,10 +1,12 @@
 ﻿l_german:
  prince: "Prinz"
  princess: "Prinzessin"
+  #AGOT Modified 
+ #queen_mother: "Queen Mother" #NT!
  queen_mother: "Königinmutter"
   #AGOT Modified 
- #empress_mother: "Empress Mother" #NT!
- empress_mother: "Queen Mother" #NT!
+ #empress_mother: "Empress Mother"
+ empress_mother: "Queen Mother"
  khan: "Khan"
  sultan: "Sultan"
  mayor: "Bürgermeister"
@@ -14,3 +16,9 @@
  countess: "Gräfin"
  baroness: "Baronin"
  dravidian_group_queen_mother: "Rajmata"
+ prince_king_male_administrative: "$prince$"
+ prince_king_female_administrative: "$princess$"
+ prince_emperor_male_administrative: "$prince$"
+ prince_emperor_female_administrative: "$princess$"
+ prince_hegemon_male_administrative: "$prince$"
+ prince_hegemon_female_administrative: "$princess$"

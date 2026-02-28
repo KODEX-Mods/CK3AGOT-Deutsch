@@ -1,0 +1,130 @@
+﻿l_german:
+ agot_engagement_objection_negative_opinion: "I honestly can't stand to be near [betrothed_2.GetHerHim]!" #NT!
+ agot_engagement_objection_incest: "[betrothed_2.GetSheHe|U]'s my [betrothed_1.Custom2('LMF_RelationToMeShort', SCOPE.sC('betrothed_2'))]! It... it's not right. I don't want that, I don't want #italic [betrothed_2.GetHerHim]#!." #NT!
+ agot_engagement_objection_lowborn: "[betrothed_2.GetSheHe|U]'s a commoner, of all things!" #NT!
+ agot_engagement_objection_bastard: "I don't know how I could be expected to marry a bastard." #NT!
+ agot_engagement_objection_not_attracted_to_me: "I'm told [betrothed_2.GetSheHe] doesn't even #italic like#! [betrothed_1.Custom('WomenMenGirlsBoys')] like me." #NT!
+ agot_engagement_objection_not_attracted_to_them: "I'll never find #italic fulfillment#! from a [betrothed_2.Custom('WomanManGirlBoy')]! Like [betrothed_2.GetHerHim]." #NT!
+ agot_engagement_objection_dwarf: "[betrothed_2.GetSheHe|U]'s... a dwarf! An actual dwarf!" #NT!
+ agot_engagement_objection_hunchback: "[betrothed_2.GetSheHe|U]'s a hunchback! Have you not seen [betrothed_2.GetHerHim]?!" #NT!
+ agot_engagement_objection_greyscale: "The greyscale...ugh! Just looking at [betrothed_2.GetHerHim] makes me want to wretch!" #NT!
+ agot_engagement_objection_hideous: "[betrothed_2.GetSheHe|U]'s utterly hideous, to say it plainly." #NT!
+ agot_engagement_objection_ugly: "I'll just say it: [betrothed_2.GetSheHe]'s ugly." #NT!
+ agot_engagement_objection_unattractive: "I don't like the look of [betrothed_2.GetHerHim]. How could anyone?" #NT!
+ agot_engagement_objection_idiot: "[betrothed_2.GetSheHe|U]'s a simpleton. I may as well talk to a stump." #NT!
+ agot_engagement_objection_dull: "I hate to say it, but the [betrothed_2.Custom('WomanManGirlBoy')]'s as dull as dirt!" #NT!
+ agot_engagement_objection_weak: "[betrothed_2.GetSheHe|U]'s so very weak and frail. I almost fear [betrothed_2.GetSheHe]'ll fall to pieces if I touch [betrothed_2.GetHerHim]!" #NT!
+ agot_engagement_objection_lesser: "[betrothed_2.GetSheHe|U] comes from a lesser family. It's true and you know it." #NT!
+ agot_engagement_objection_lazy: "All [betrothed_2.GetSheHe] does is laze around all day long!" #NT!
+ agot_engagement_objection_deceitful: "All [betrothed_2.GetSheHe] ever does is lie, about anything and everything!" #NT!
+ agot_engagement_objection_craven: "[betrothed_2.GetSheHe|U] doesn't have the slightest backbone!" #NT!
+ agot_engagement_objection_shy: "[betrothed_2.GetSheHe|U]'s so incredibly shy. I can barely get [betrothed_2.GetHerHim] to say a single word!" #NT!
+ agot_engagement_objection_bold: "[betrothed_2.GetSheHe|U]'s utterly and completely full of [betrothed_2.GetHerselfHimself]!" #NT!
+ agot_engagement_objection_meek: "[betrothed_2.GetSheHe|U]'s so meek, a tiny mouse of a [betrothed_2.Custom('WomanManGirlBoy')]!" #NT!
+ agot_engagement_objection_drunkard: "[betrothed_2.GetSheHe|U] drinks too much! Every time I see [betrothed_2.GetHerHim], [betrothed_2.GetSheHe]'s red-faced and slurring!" #NT!
+ agot_engagement_objection_sad: "[betrothed_2.GetSheHe|U] does nothing but sigh and cry — does it ever stop?!" #NT!
+ agot_engagement_objection_crazy: "[betrothed_2.GetSheHe|U]'s out of [betrothed_2.GetHerHis] mind! You know it and I know it." #NT!
+ agot_engagement_objection_unfaithful: "[betrothed_2.GetSheHe|U]'ll never be faithful to me, or anyone. You know it's true!" #NT!
+ agot_engagement_objection_prude: "[betrothed_2.GetSheHe|U]'s far too #italic tightly strung#! for my liking!" #NT!
+ agot_engagement_objection_unkind: "The [betrothed_2.Custom('WomanManGirlBoy')] is [Select_CString( betrothed_2.IsFemale, 'wicked', 'brutish' )] and cruel!" #NT!
+ agot_engagement_objection_much_too_young: "[betrothed_2.GetSheHe|U]'s practically an infant, compared to me! It's so unseemly!" #NT!
+ agot_engagement_objection_too_young: "[betrothed_2.GetSheHe|U]'s so much younger than I am!" #NT!
+ agot_engagement_objection_too_old: "[betrothed_2.GetSheHe|U]'s far too old for me!" #NT!
+ agot_engagement_objection_much_too_old: "[betrothed_2.GetSheHe|U]'s practically an old [betrothed_2.GetWomanMan]!" #NT!
+ agot_engagement_objection_unlike: "We're so unlike each other, in every impossible way!" #NT!
+ agot_engagement_objection_std: "All those sores around [betrothed_2.GetHerHis] mouth... haven't you seen them?!" #NT!
+ agot_engagement_objection_reputation: "What about [betrothed_2.GetHerHis] reputation? Is it true? How can you want me to marry someone like that?" #NT!
+ agot_engagement_objection_child: "You know [betrothed_2.GetSheHe] has a child, yes? A bastard!" #NT!
+ agot_engagement_objection_unremarkable: "[betrothed_2.GetSheHe|U]'s completely unremarkable. There isn't a single special thing about [betrothed_2.GetHerHim]!" #NT!
+  
+ agot_engagement_events.0002.t: "What the Heart Wants"
+ agot_engagement_events.0002.desc.intro: "My [ROOT.Char.Custom2('RelationToMe', betrothed_1)] [betrothed_1.GetFirstName] enters my chamber, [betrothed_1.Custom('quirk_neg_pp')]. "[betrothed_1.Custom2('RelationToMeShort',ROOT.Char)|U], my [ROOT.Char.GetLadyLord], I want to discuss my betrothal," [betrothed_1.GetSheHe] says, [betrothed_1.Custom('quirk_neg_adverb')]. "I can't do it, I don't want to marry [betrothed_2.GetTitledFirstName]."\n\n[betrothed_1.GetSheHe|U] continues, "Where to start?"
+ agot_engagement_events.0002.desc.submissive: "wringing [betrothed_1.GetHerHis] hands anxiously and reluctant to speak. Finally, after some coaxing, [betrothed_1.GetFirstName] opens up.\n\n"[betrothed_1.Custom2('spoken_address_by_familiarity', ROOT.Char )|U], I've been thinking about my betrothal to [betrothed_1.Custom2('direct_address_by_familiarity', SCOPE.sC('betrothed_2'))]. Is it... still possible you might change your mind?"\n\n" #NT!
+ agot_engagement_events.0002.desc.angry: "fists clenched and eyes blazing with anger. I know immediately that this is going to be unpleasant.\n\n"[betrothed_1.Custom2('spoken_address_by_familiarity', ROOT.Char )|U], I can't do it," [betrothed_1.GetFirstName] shouts. "I don't want to marry [betrothed_1.Custom2('direct_address_by_familiarity', SCOPE.sC('betrothed_2'))]!"\n\n" #NT!
+ agot_engagement_events.0002.desc.beg: "clearly nervous but steeling [betrothed_1.GetHerselfHimself] to speak. I wave for [betrothed_1.GetFirstName] to sit, and [betrothed_1.GetSheHe] begins.\n\n"[betrothed_1.Custom2('spoken_address_by_familiarity', ROOT.Char )|U], I... I've been thinking about [betrothed_1.Custom2('direct_address_by_familiarity', SCOPE.sC('betrothed_2'))], and I... don't want to marry [betrothed_2.GetHerHim]."\n\n" #NT!
+ agot_engagement_events.0002.desc.mid: "I am taken aback. "Why do you say that?"\n\n" #NT!
+ agot_engagement_events.0002.desc.nothing: "[betrothed_1.GetSheHe|U] squirms but says nothing for a long minute." #NT!
+ agot_engagement_events.0002.desc.one: ""If I had to pick one thing? " #NT!
+ agot_engagement_events.0002.desc.first: ""Where do I begin? " #NT!
+ agot_engagement_events.0002.desc.second: " And there's more! " #NT!
+ agot_engagement_events.0002.desc.third: ""\n\n"Is that all?" I ask.\n\n"No! " #NT!
+ agot_engagement_events.0002.desc.lover: "There's... I already love someone else. [betrothed_1.Custom2('direct_address_by_familiarity', SCOPE.sC('betrothed_lover'))] and I are meant to be."" #NT!
+ agot_engagement_events.0002.desc.end: " [betrothed_1.GetSheHe|U] takes a deep breath. "Please, [betrothed_1.Custom2('spoken_address_by_familiarity', ROOT.Char )]! Don't make me do this! I want to marry a [betrothed_2.Custom('WomanManGirlBoy')] I love. I want to have a say in it!" #NT!
+ agot_engagement_events.0002.a: "[betrothed_1.GetFirstNameNoTooltip] will make the marriage I arranged."
+ agot_engagement_events.0002.b: "Alright, you don't have to marry [betrothed_2.GetHerHim]."
+ agot_engagement_events.0002.c: "You can marry your lover."
+ agot_engagement_events.0002.d: "Then [ROOT.Char.Custom2('direct_address_by_familiarity', SCOPE.sC('betrothed_lover'))] will end [betrothed_lover.GetHerHis] engagement and marry you instead." #NT!
+ agot_engagement_events.0002.e: "Then I suppose [ROOT.Char.Custom2('direct_address_by_familiarity', SCOPE.sC('betrothed_lover'))] must abandon [betrothed_lover.GetHerHis] vows and marry you instead." #NT!
+ agot_engagement_events.0002.f: "Are you mad?! You'll do as I say!" #NT!
+ agot_engagement_events.0002.f.tt: "[betrothed_1.GetShortUIName] may react poorly to your decree" #NT!
+ agot_engagement_events.0002.mild.tt: "[betrothed_1.GetFirstNameNoTooltip] is inconsolable" #NT!
+  
+ agot_engagement_events.0003.opening.harsh: "[actor.Custom2('AppropriateGreetingNegative', ROOT.Char)]" #NT!
+ agot_engagement_events.0003.opening.apologetic: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]" #NT!
+ agot_engagement_events.0003.betrothed.start: "After no small consideration, I've decided to end " #NT!
+ agot_engagement_events.0003.betrothed.torejected: "our betrothal." #NT!
+ agot_engagement_events.0003.betrothed.toliege: "my betrothal with your [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('rejected_betrothed'))], [rejected_betrothed.GetTitledFirstName]." #NT!
+ agot_engagement_events.0003.betrothed.end: "I assure you, I do this without the approval of my [actor.Custom2('LMF_RelationToMeShort', SCOPE.sC('actor_liege'))], [actor_liege.GetTitledFirstName], but my life is no longer [actor_liege.GetHersHis] to control. This is my decision and mine alone." #NT!
+ agot_engagement_events.0003.start: "After careful consideration, I have decided to break " #NT!
+ agot_engagement_events.0003.torejected: "your betrothal with my [actor.Custom2('LMF_RelationToMeShort', SCOPE.sC('rejecting_betrothed'))], [rejecting_betrothed.GetTitledFirstName]." #NT!
+ agot_engagement_events.0003.toliege: "the betrothal between my [actor.Custom2('LMF_RelationToMeShort', SCOPE.sC('rejecting_betrothed'))], [rejecting_betrothed.GetTitledFirstName], and your [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('rejected_betrothed'))], [rejected_betrothed.GetTitledFirstName]." #NT!
+ agot_engagement_events.0003.end: "This was done at my [actor.Custom2('LMF_RelationToMePossessive', SCOPE.sC('rejecting_betrothed'))] ardent insistence, so I apologize for any inconveniences my indulgence of [rejecting_betrothed.GetHerHis] wishes will cause." #NT!
+ agot_engagement_events.0003.a: "How #bold dare#! [betrothed_1.GetSheHe]!"
+  
+ agot_engagement_events.0006.opening: "[betrothed_1.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ agot_engagement_events.0006.desc: "You would trade me like cattle, against the wishes of my own and of the Seven Who Are One. Well, your choices made mine for me: I have left to join the Faith."
+ agot_engagement_events.0006.a: "My [ROOT.Char.Custom2('RelationToMe', betrothed_1)] will join the clergy..."
+ agot_engagement_events.0006.b: "Then [betrothed_1.GetSheHe] shall have no inheritance of mine!" #NT!
+  
+ agot_engagement_events.0007.t: "A Broken Heart's Final Beat"
+ agot_engagement_events.0007.desc.incest: ""[betrothed_1.Custom2('spoken_address_by_familiarity', ROOT.Char )|U], I don't want to marry my [betrothed_1.Custom2('LMF_RelationToMeShort', SCOPE.sC('betrothed_2'))]. Marriage among family is..." [betrothed_1.GetHerHis|U] face darkens, knowing the customs of our family while clearly being uncomfortable with them.\n\n"It keeps the bloodline pure, my sweet," I say reassuringly, but I can tell in an instant my plea has fallen on deaf ears. [betrothed_1.GetFirstNameNoTooltip] turns away from me.\n\n"I don't want to be like you," [betrothed_1.GetSheHe] exhales sharply. "I don't want... #bold this#!."\n\nI eventually talk [betrothed_1.GetHerHim] down, or so I think... " #NT!
+ agot_engagement_events.0007.desc.normal: ""[betrothed_1.Custom2('spoken_address_by_familiarity', ROOT.Char )|U], why can't I have a marriage like yours?" [betrothed_1.GetHerHis|U] plea jolts through me like a clap of lightning. #italic How could I think to force [betrothed_1.GetFirstNameNoTooltip] to marry [betrothed_1.GetHerHis] [betrothed_1.Custom2('LMF_RelationToMeShort', SCOPE.sC('betrothed_2'))]?#!\n\n"It's unnatural, and... I don't want #bold [betrothed_2.GetHerHim]#!.\n\nI tell [betrothed_1.GetFirstNameNoTooltip] I will think of what [betrothed_1.GetSheHe] said... " #NT!
+ agot_engagement_events.0007.desc.end: "but, in the morning, I learn [betrothed_1.GetSheHe] has already called off the wedding [betrothed_1.GetHerselfHimself]. It is done." #NT!
+ agot_engagement_events.0007.a: "No. No no no #bold no#!!"
+ agot_engagement_events.0007.b: "Then [betrothed_1.GetSheHe] shall have no inheritance of mine!" #NT!
+  
+ agot_engagement_events.0008.t: "A Shattered Dream"
+ agot_engagement_events.0008.desc: "[betrothed_1.GetFirstName] returns to my chambers, and I can immediately tell our argument over betrothal is set to continue. I move to soothe [betrothed_1.GetHerHim], but I am cut short—\n\n"If you refuse to take my opinion into account on my future spouse, then I will refuse to take into account yours as well," my [ROOT.Char.Custom2('RelationToMe', betrothed_1)] says, [betrothed_1.Custom('quirk_neg_adverb')]. "I will not be marrying [betrothed_2.GetHerHim]... #bold or anyone else#!.""
+ agot_engagement_events.0008.a: "This doesn't bode well..."
+ agot_engagement_events.0008.b: "I will not be disobeyed!"
+ agot_engagement_events.0008.c: "Get out of my sight!"
+  
+ agot_engagement_events.0009.t: "A Broken Heart's Final Beat" #NT!
+ agot_engagement_events.0009.desc: "The argument with [betrothed_1.GetFirstNameNoTooltip] has weighed heavily on my mind since we parted ways.\n\nI've sat in my study in the hours since, going through it over and over in my head. The look on [betrothed_1.GetHerHis] face when [betrothed_1.GetSheHe] left... could I have handled it all better?\n\nI could not have dozed off for more than a minute when there is a rap at my door. I jolt forward, hoping to see [betrothed_1.GetFirstNameNoTooltip] enter, already preparing my apologies. Instead, I'm greeted by a guard, whose face is twisted indistinguishably... #italic Is it horror? Disbelief??#!\n\nThe guard's story bursts forth like an overrun levee. "Your [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('betrothed_1'))], my [ROOT.Char.GetLadyLord], [betrothed_1.GetSheHe]... one of the servants found [betrothed_1.GetHerHim] in [betrothed_1.GetHerHis] chambers, and..." The guard's voice cracks, but I already know what's happened." #NT!
+ agot_engagement_events.0009.a: "No. No no no #bold no#!!" #NT!
+  
+ agot_engagement_events.0010.opening: "[betrothed_1.Custom2('AppropriateGreetingNegative', ROOT.Char)]" #NT!
+ agot_engagement_events.0010.start: "By the time you read this, [betrothed_1.Custom2('spoken_address_by_familiarity', ROOT.Char )], I will already have left [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].\n\n" #NT!
+ agot_engagement_events.0010.leave: "The dreams of your betrothal — your hopes of controlling my life — have only pushed me further away. I cannot imagine continuing to live with a thoughtless [ROOT.Char.Custom('InsultNoun')] like you." #NT!
+ agot_engagement_events.0010.wall: "Your hopes of betrothing me against my wishes made my decision for me: I will join the Night's Watch, a brotherhood where I won't be treated like a piece of currency." #NT!
+ agot_engagement_events.0010.maester: "If you hoped to control my destiny and force me into marriage, you've misjudged the extent of my determination and resourcefulness. Perhaps the Citadel will find a better use for it." #NT!
+ agot_engagement_events.0010.septon: "You would trade me like cattle, against my wishes and those of the Seven Who Are One. Well, your choices have determined my own: I will join the Faith." #NT!
+ agot_engagement_events.0010.a.wall: "[betrothed_1.GetSheHe|U] would take the black rather than wed..." #NT!
+ agot_engagement_events.0010.a.maester: "My [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('betrothed_1'))] is to become a maester..." #NT!
+ agot_engagement_events.0010.a.septon: "My [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('betrothed_1'))] has joined the clergy..." #NT!
+ agot_engagement_events.0010.a.leave: "If that's what [betrothed_1.GetSheHe] wants, [betrothed_1.GetSheHe] needn't return here. Ever!" #NT!
+ agot_engagement_events.0010.b.leave: "[betrothed_1.GetSheHe|U] will return, in time. I'm certain of it." #NT!
+  
+ agot_engagement_events.0021.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]" #NT!
+ agot_engagement_events.0021.start: "I have given this a great deal of thought, but considering " #NT!
+ agot_engagement_events.0021.self.ruler: "my status as [actor.GetTitleAsNameNoTooltip], " #NT!
+ agot_engagement_events.0021.self.heir: "my status as a future heir, " #NT!
+ agot_engagement_events.0021.self.default: "my future status, " #NT!
+ agot_engagement_events.0021.other.ruler: "my [actor.Custom2('LMF_RelationToMePossessive', SCOPE.sC('rejecting_betrothed'))] status as [rejecting_betrothed.GetTitleAsNameNoTooltip], " #NT!
+ agot_engagement_events.0021.other.heir: "my [actor.Custom2('LMF_RelationToMePossessive', SCOPE.sC('rejecting_betrothed'))] status as a future heir, " #NT!
+ agot_engagement_events.0021.other.default: "my [actor.Custom2('LMF_RelationToMePossessive', SCOPE.sC('rejecting_betrothed'))] future status, " #NT!
+ agot_engagement_events.0021.mid: "I must act to secure the future of my dynasty.\n\n" #NT!
+ agot_engagement_events.0021.self.withtarget: "Either our betrothal " #NT!
+ agot_engagement_events.0021.self.withother: "Either my betrothal to [rejected_betrothed.GetTitledFirstName] " #NT!
+ agot_engagement_events.0021.other.withtarget: "Either your betrothal to [rejecting_betrothed.GetTitledFirstName] " #NT!
+ agot_engagement_events.0021.other.withother: "Either [rejecting_betrothed.GetTitledFirstNamePossessive] betrothal to [rejected_betrothed.GetTitledFirstName] " #NT!
+ agot_engagement_events.0021.matrilineal: "must be made matrilineal " #NT!
+ agot_engagement_events.0021.patrilineal: "must be made patrilineal " #NT!
+ agot_engagement_events.0021.end: "or I'm afraid I'll be left with no choice but to renege on its terms." #NT!
+ agot_engagement_events.0021.a: "Very well, I agree to your terms." #NT!
+ agot_engagement_events.0021.a.matrilineal.tt: "[rejecting_betrothed.GetShortUINamePossessive|U] betrothal to [rejected_betrothed.GetShortUIName] will become #EMP matrilineal#!" #NT!
+ agot_engagement_events.0021.a.patrilineal.tt: "[rejecting_betrothed.GetShortUINamePossessive|U] betrothal to [rejected_betrothed.GetShortUIName] will become #EMP patrilineal#!" #NT!
+ agot_engagement_events.0021.a.title: "New betrothal negotiated" #NT!
+ agot_engagement_events.0021.b: "The betrothal can end, but we should maintain our alliance." #NT!
+ agot_engagement_events.0021.b.tt: "Your alliance to [actor.GetShortUIName] will be maintained as #EMP negotiated#! even after the betrothal is ended" #NT!
+ agot_engagement_events.0021.c: "I will not renegotiate! How dare you!!" #NT!

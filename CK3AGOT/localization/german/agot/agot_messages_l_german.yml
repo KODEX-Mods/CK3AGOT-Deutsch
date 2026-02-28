@@ -1,10 +1,10 @@
 ﻿l_german:
- msg_nw_inheritance_title: "$agot_nights_watch.9901.t$" #NT!
- msg_nw_inheritance_desc: "$agot_nights_watch.9901.desc$" #NT!
- msg_it_inheritance_title: "$agot_proclamation_events.9901.t$" #NT!
- msg_it_inheritance_desc: "$agot_proclamation_events.9901.desc$" #NT!
+ msg_nw_inheritance_title: "$agot_nights_watch.9901.t$"
+ msg_nw_inheritance_desc: "$agot_nights_watch.9901.desc$"
+ msg_it_inheritance_title: "$agot_proclamation_events.9901.t$"
+ msg_it_inheritance_desc: "$agot_proclamation_events.9901.desc$"
   
- msg_inherited_legitimate_title: "[agot_legitimate_house|E] of [title.GetNameNoTooltip]" #NT!
- msg_inherited_legitimate_title_desc: "You have gained the title of [title.GetName]. The great lands of your ancestors is now under your rule." #NT!
- msg_inherited_illegitimate_title: "Pretender to [title.GetNameNoTooltip]" #NT!
- msg_inherited_illegitimate_title_desc: "You have gained the title of [title.GetName]. As you are not a member of the [agot_legitimate_house|E] of [title.GetNameNoTooltip], your rule is considered illegitimate by many." #NT!
+ msg_inherited_legitimate_title: "[agot_legitimate_house|E] of [title.GetNameNoTooltip]"
+ msg_inherited_legitimate_title_desc: "You have gained the title of [title.GetName]. The great lands of your ancestors is now under your rule."
+ msg_inherited_illegitimate_title: "Pretender to [title.GetNameNoTooltip]"
+ msg_inherited_illegitimate_title_desc: "You have gained the title of [title.GetName]. As you are not a member of the [agot_legitimate_house|E] of [title.GetNameNoTooltip], your rule is considered illegitimate by many."

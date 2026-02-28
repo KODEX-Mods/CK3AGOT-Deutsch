@@ -1,0 +1,33 @@
+﻿l_german:
+ agot_bm_group_8211: "211 A.C." #NT!
+ agot_bm_8211: "Nach dem Frühling"
+ agot_bm_8211_desc: "Die Große Frühjahrskrankheit, die die Sieben Königslande heimsuchte und Jung und Alt, Lords und Bauern gleichermaßen tötete, ist endlich vorbei. Nachdem König Daeron der Gute der Seuche zum Opfer gefallen ist und sein ältester Sohn Prinz Baelor Speerbrecher während des Turniers in Ashford erschlagen wurde, sitzt nun sein jüngerer Sohn Aerys I. Targaryen auf dem Eisernen Thron. Während die Targaryens, Schwarzfeuers und der Rest von Westeros ihre alten Pläne für Macht, Ruhm oder Gold bereits wieder in Angriff genommen haben, macht sich ein junger Knappe namens Ei unter der Führung von Ser Duncan der Große auf den langen Weg, der vor ihm liegt..."
+  
+  
+  # Daemon II 
+ bookmark_211_daemon_blackfyre: "Daemon II" #NT!
+ bookmark_211_daemon_blackfyre_subheading: "The Dreaming Dragon" #NT!
+ bookmark_211_daemon_blackfyre_desc: "Fifteen years ago, Daemon I Blackfyre raised his banners in rebellion against his half-brother, King Daeron II Targaryen. He and his eldest sons died upon the Redgrass Field, leaving his younger son Daemon as heir to his contested claim. With the death of the king and the coronation of the bookish Aerys I, there may be no greater opportunity for Daemon ‘the Younger’ to make a play for the Iron Throne. In his way stands ‘Bittersteel,’ his uncle thus far having denied him both his father’s sword and crown.\n\n#bold Will he do what his father could not and seize the Iron Throne?#!" #NT!
+  
+  # Daemon II Relation 
+ bookmark_211_bittersteel: "Prince Aegor ‘Bittersteel’" #NT!
+  
+  # Dunk 
+ bookmark_211_duncan_tall: "Ser Duncan ‘the Tall’" #NT!
+ bookmark_211_duncan_tall_subheading: "The Sworn Sword" #NT!
+ bookmark_211_duncan_tall_desc: "It’s been two years since the death of Prince Baelor ‘Breakspear’ at Ashford Meadow. In that time Duncan has continued his journeys with his squire — the secret Prince Aegon Targaryen, son of Prince Maekar. As the Spring Sickness raged across Westeros, Dunk and Egg found refuge in the sands of Dorne. Now he serves the aging Ser Eustace Osgrey as a sworn sword, taking up residence at the tower of Standfast.\n\n#bold Will Dunk stay true to his oath, or shall he find a greater master?#!" #NT!
+  # Dunk Relation 
+ bookmark_211_egg: "Egg" #NT!
+  
+  # Rohanne Webber 
+ bookmark_211_rohanne_webber: "Lady Rohanne" #NT!
+ bookmark_211_rohanne_webber_subheading: "Lady of Coldmoat" #NT!
+ bookmark_211_rohanne_webber_desc: "Rohanne Webber inherited Coldmoat in the wake of the Spring Sickness, her father leaving no male heirs to claim it. Though her position may seem secure, the late Lord Webber left a condition behind: Rohanne must find a fifth husband, or leave her title to a cousin. Even should she secure another match, she is surrounded on all sides by those who would test her might.\n\n#bold Can ‘the Red Widow’ secure her seat, or will she fall into her enemies’ web?#!" #NT!
+  # Rohanne Relation 
+ bookmark_211_longinch: "Ser Lucas ‘Longinch’" #NT!
+  
+ bookmark_211_eustace_osgrey: "Ser Eustace" #NT!
+ bookmark_211_eustace_osgrey_subheading: "Knight of Standfast" #NT!
+ bookmark_211_eustace_osgrey_desc: "Eustace Osgrey lost everything to the Blackfyre Rebellion. His support of the Black Dragon cost him his sons, his wife, his daughter... and his hopes. His once-proud House has been reduced to only the tower of Standfast, and he to a grieving man beyond the prime of his life, waiting for death. There are those around him who see weakness, who see a chance to take what little the old knight has left. To his service he has taken Ser Bennis of the Brown Shield, and Ser Duncan ‘the Tall.’\n\n#bold Can this old Chequy Lion keep his pride and his tower, or will he crumble with the last of his House’s glory?#!" #NT!
+  # Eustace Relation 
+ bookmark_211_bennis: "Ser Bennis ‘of the Brown Shield’" #NT!

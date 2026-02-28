@@ -1,0 +1,29 @@
+﻿l_german:
+  ### THE RELIGION ### 
+ the_ways_religion: "The Ways of Sea and Storm"
+ the_ways_religion_adj: "The Ways"
+ the_ways_religion_adherent: "Sea-born"
+ the_ways_religion_adherent_plural: "Sea-born"
+ the_ways_religion_desc: "The Ways of Sea and Storm have long been in Westeros, and while many believe they are remnants of some First Gods cult, the practices and beliefs of the Ways are far closer to the Shanties and Churches of the darker Gods of the South and East. There is evidence that the Ways predate the coming of man to Westeros entirely, and the dark implications of that inspire dread and terror."
+  
+  ### Faiths ### 
+  #Drowned God 
+ drowned_god: "Way of the Drowned God"
+ drowned_god_adj: "Drowned God"
+ drowned_god_adherent: "Ironborn"
+ drowned_god_adherent_plural: "Ironborn"
+ drowned_god_desc: "The Drowned God is the god of the Ironmen, having persisted through the Pact of the Old Gods and the Faith of the Andals. The religion reveres the dead god, with practitioners hoping to join him in his underwater halls, for what is dead may never die again, but rises again, harder and stronger."
+  
+  #Faith of the Eight 
+ fots_drowned: "Faith of the Eight"
+ fots_drowned_adj: "Faith of the Eight"
+ fots_drowned_adherent: "Salt Faithful"
+ fots_drowned_adherent_plural: "Salt Faithful"
+ fots_drowned_desc: "The Faith of the Eight was founded by Harmund II Hoare, who attempted to merge the Way of the Drowned God with the Faith of Seven. The Drowned God was said to be simply another aspect of the Divine One."
+  
+  #Storm God 
+ storm_god: "Der Sturmgott"
+ storm_god_adj: "Stürmisch"
+ storm_god_adherent: "Anhänger des Sturmgottes"
+ storm_god_adherent_plural: "Anhänger des Sturmgottes"
+ storm_god_desc: "Diese Religion verehrt nicht den Ertrunkenen Gott, sondern dessen Todfeind, den in den wolkigen Hallen des Himmels herrschenden Sturmgott."

@@ -1,0 +1,60 @@
+﻿l_german:
+  
+  # agot_pirate_convert_whole_realm_to_feudalism_decision and effects and event following 
+ agot_pirate_convert_whole_realm_to_feudalism_decision: "Adopt Feudalism"
+ agot_pirate_convert_whole_realm_to_feudalism_decision_desc: "As my realm grows, so does the challenge to control it. If [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] is to keep expanding, we must leave the old ways behind and convert to feudalism."
+ agot_pirate_convert_whole_realm_to_feudalism_decision_confirm: "Adopt Feudal Ways"
+ agot_pirate_convert_whole_realm_to_feudalism_decision_tooltip: "Change government type by becoming  [GetGovernment( 'lp_feudal_government' ).GetName] or [GetGovernment( 'feudal_government' ).GetName]"
+ pirate_vassals_will_convert: "My [GetGovernment( 'pirate_government' ).GetName] vassals will change to [GetGovernment( 'feudal_government' ).GetName]"
+ pirate_vassals_will_convert_lp: "My [GetGovernment( 'pirate_government' ).GetName] vassals will change to [GetGovernment( 'lp_feudal_government' ).GetName]"
+ msg_vassal_common_feudalised: "Vassal has become Feudal"
+ msg_vassal_common_feudalised_desc: "Your vassal, [ROOT.Char.GetShortUIName], has given up [ROOT.Char.GetHerHis]  [GetGovernment( 'pirate_government' ).GetNameNoTooltip] and become [GetGovernment( 'feudal_government' ).GetNameNoTooltip]"
+ msg_vassal_lp_feudalised: "Vassal has become Feudal"
+ msg_vassal_lp_feudalised_desc: "Your vassal, [ROOT.Char.GetShortUIName], has given up [ROOT.Char.GetHerHis]  [GetGovernment( 'pirate_government' ).GetNameNoTooltip] and become [GetGovernment( 'lp_feudal_government' ).GetNameNoTooltip]"
+ all_pirate_holding_will_change: "All [pirate_den_holding|E] in the realm will become [castle_holdings|E]"
+ agot_pirate_events.0001.t: "A New Era"
+ agot_pirate_events.0001.desc: "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt feudalism and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ agot_pirate_events.0001.a: "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ agot_pirate_events.0002.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
+ agot_converting_to_admin_kings_become_lp_feudal: "Any [kingdom|E] [title_tier|E] [vassal|E] will change [government|E] type into [GetGovernment( 'lp_feudal_government' ).GetName]"
+  
+  # agot_adopt_kneeler_ways_decision and effects and event following 
+ agot_adopt_kneeler_ways_decision: "Conform to Southern Customs"
+ agot_adopt_kneeler_ways_decision_desc: "Life in the cruel wasteland of the Far North has made us into ruthless and unyielding folk, very different from those living on the other side of the Wall. Now that we made our home among them, perhaps it would be wise to adapt to their way of life, laws and customs."
+ agot_adopt_kneeler_ways_decision_confirm: "Time to loosen up our knees."
+ agot_adopt_kneeler_ways_decision_tooltip: "Your people will adopt the ways of the subjects of the Iron Throne. This will allow for more interactions with rulers south of the Wall, but cost you the benefits of being free folk."
+ is_culture_head: "You are the head of your culture"
+ hybridized_with_kneelers: "Your culture was hybridized with one existing south of the Wall"
+ capital_south_of_the_wall: "Your capital is south of the Wall"
+ agot_major_decisions_events.1003.t: "On the Other Side..."
+ agot_major_decisions_events.1003.desc: "Our generations-long dream to escape the harsh realities of life on the wrong side of the Wall is fulfilled. Would it not be a display of hubris to defiantly carry on as we were back there and disregard the laws and customs of our new neighbors? The folk on the southern side of the wall may be timid and soft, but their lives are long and comfortable. They clearly know how to make the most of this pleasant land and if their laws help them in this, then we shall adopt them as well."
+ agot_major_decisions_events.1003.a: "To a new, milder future!"
+ every_freefolk_ruler_tt: "Every Free Folk Chief"
+  
+ become_landless_pirate_decision: "Become a Pirate" #NT!
+ become_landless_pirate_decision_desc: "I have tasted glory and gold as a freebooter. Now it is time to shed my mask and embrace my true nature as a pirate." #NT!
+ become_landless_pirate_decision_tooltip: "Change government type by becoming [GetGovernment( 'pirate_government' ).GetName]" #NT!
+ become_landless_pirate_decision_confirm: "Become a Pirate" #NT!
+  
+ agot_located_in_pirating_region: "You must be located in a region known for piracy, such as the [GetGeographicalRegion('world_stepstones').GetName]." #NT!
+ become_landless_pirate_decision_tt: "You become a landless [pirate_govt|E]" #NT!
+  
+ abandon_pirate_holdings_decision: "Become a Landless Pirate" #NT!
+ abandon_pirate_holdings_decision_desc: "Ruling over dull rocks and pirate dens is a tedious life. It is time to devote myself wholly to the seas, as a plunderer and corsair!" #NT!
+ abandon_pirate_holdings_decision_tooltip: "Reject your landed titles and become a landless pirate" #NT!
+ abandon_pirate_holdings_decision_confirm: "Abandon my Landed Holdings" #NT!
+  
+ agot_pirate_higher_tier_title_decision: "[ROOT.Char.Custom('GetDominateTitleLoc')]" #NT!
+ agot_pirate_higher_tier_title_decision_title: "Dominate [ROOT.Char.GetPrimaryTitle.GetDeJureLiege.GetBaseNameNoTierNoTooltip]" #NT!
+ agot_pirate_higher_tier_title_decision_desc: "It is time to prove my dominance over the area, and subjugate those who live here." #NT!
+ agot_pirate_higher_tier_title_decision_tooltip: "Attempt to gain a higher [title_tier|E] [title|E]" #NT!
+ agot_pirate_higher_tier_title_decision_confirm: "They will fall before me" #NT!
+  
+ agot_become_landed_pirate_decision: "Embrace Piracy" #NT!
+ agot_become_landed_pirate_decision_desc: "If I am to thrive among pirates, I must fully embrace piracy as my form of government." #NT!
+ agot_become_landed_pirate_decision_tooltip: "Become a Pirate" #NT!
+ agot_become_landed_pirate_decision_confirm: "$agot_become_landed_pirate_decision_tooltip$" #NT!
+  
+ agot_become_landed_pirate_decision_shatter_realm_tt: "Any held titles outside your [primary_title|E] will be granted to local rulers." #NT!
+ agot_become_landed_pirate_decision_gain_tributaries_tt: "Any new rulers of your former titles will become your [tributaries|E]." #NT!
+ agot_become_landed_pirate_decision_holding_reset_tt: "Your primary [holding|E] will become a [pirate_den_holding|E]." #NT!

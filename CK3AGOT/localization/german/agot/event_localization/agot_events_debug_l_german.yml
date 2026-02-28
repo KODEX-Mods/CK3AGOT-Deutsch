@@ -1,0 +1,54 @@
+﻿l_german:
+ agot_debug.0001.t: "DEBUG SCENARIO RR"
+ agot_debug.0001.desc: "Activate speed mode for RR pregnancies?"
+ agot_debug.0001.a: "Dew it!"
+ agot_debug.0001.b: "NOOOOOOOOO!"
+  
+  # THE FALL OF THE WALL 
+ agot_debug.1000.t: ""
+ agot_debug.1000.desc: ""
+ agot_debug.1000.a: ""
+  
+ agot_debug.1001.t: ""
+ agot_debug.1001.desc: ""
+ agot_debug.1001.a: ""
+  
+ agot_debug.1002.t: ""
+ agot_debug.1002.desc: ""
+ agot_debug.1002.a: ""
+  
+ agot_debug.1003.t: ""
+ agot_debug.1003.desc: ""
+ agot_debug.1003.a: ""
+  
+ agot_debug.1004.t: ""
+ agot_debug.1004.desc: ""
+ agot_debug.1004.a: ""
+  
+ agot_debug.1005.t: ""
+ agot_debug.1005.desc: ""
+ agot_debug.1005.a: ""
+  
+ agot_debug.1006.t: ""
+ agot_debug.1006.desc: ""
+ agot_debug.1006.a: ""
+  
+ agot_debug.1007.a: ""
+ agot_debug.1007.desc: ""
+  
+ agot_debug.1008.desc: ""
+ agot_debug.1008.a: ""
+  
+ agot_debug.1009.desc: ""
+ agot_debug.1009.a: ""
+  
+ agot_debug.1010.desc: ""
+  
+ agot_debug.1051.t: ""
+ agot_debug.1051.a: ""
+  
+ agot_debug.4000.t: "Dragonblood Characters" #NT!
+ agot_debug.4000.desc: "This is a list of every person in the world who bears dragonblood, whether or not they or others are aware of it." #NT!
+ agot_debug.4000.dragonblood: "\n\n[dragonblood_char.GetFullName] has [dragonblood_char.MakeScope.ScriptValue('dragonblood_percent')]% dragonblood." #NT!
+ agot_debug.4000.a: "How much dragonblood do they have?" #NT!
+ agot_debug.4000.b: "I'm done." #NT!

@@ -1,0 +1,206 @@
+﻿l_german:
+  #NOTE: follows the order of dynasties in the \common\dynasties\ files 
+  ## NORTH DYNASTIES/CADET BRANCHES ## 
+  #Northern Great Houses 
+ dynn_Stark_motto: "Der Winter naht"
+ dynn_Karstark_motto: "Sie Sonne des Winters"
+ dynn_Greystark_motto: "Loyal to the Last"
+ dynn_Cassel_motto: "Immer Treu, immer Ergeben"
+  
+  #Main North 
+ dynn_Cerwyn_motto: "Geschliffen und bereit"
+ dynn_Condon_motto: "Mit Adleraugen und Löwenherz"
+ dynn_Goodman_motto: "Breche dein Schwert an unserer Täuschung"
+ dynn_Holt_motto: "Halte vor mir"
+ dynn_Lake_motto: "Was uns das Wasser bescherte"
+ dynn_Lightfoot_motto: "Achte auf deine Schritte"
+ dynn_Locke_motto: "Hinter Schloss und Riege"
+ dynn_Long_motto: "Unsere Linie ist lang"
+ dynn_Mollen_motto: "Immer größer wachsen"
+ dynn_Overton_motto: "Folgt mir"
+ dynn_Poole_motto: "Immer Treu"
+ dynn_Short_motto: "Durchhaltevermögen ohne Missgunst"
+ dynn_Umber_motto: "Brich die Ketten!"
+ dynn_Waterman_motto: "Auftrieb"
+ dynn_WellsN_motto: "A Drink from the Trough" #NT!
+ dynn_Woolfield_motto: "Die Herde bewachen"
+ dynn_Fisher_motto: "Die Waage kippen"
+ dynn_Whitehill_motto: "Noch höher"
+ dynn_Hornwood_motto: "Gerecht im Zorn"
+ dynn_Flint_motto: "Älter und Weiser als zuvor"
+ dynn_FlintFF_motto: "Schilde des Westens"
+ dynn_FlintWW_motto: "Immer wachsam"
+ dynn_Bolton_motto: "Unsere Klingen sind scharf"
+ dynn_Tallhart_motto: "Stolz und Frei"
+ dynn_Mormont_motto: "Hier stehen wir"
+ dynn_Ryder_motto: "Reite mit Zorn"
+ dynn_Manderly_motto: "Keine mächtigeren Ströme"
+ dynn_FisherSS_motto: "Geduld zahlt sich aus"
+ dynn_Dustin_motto: "Die Erstgekrönten"
+ dynn_Ironsmith_motto: "Mit Klinge und Huf"
+ dynn_Ryswell_motto: "Zu Pferd"
+ dynn_Slate_motto: "Um unsere Klingen zu schärfen"
+ dynn_Stout_motto: "Standhaft bleiben"
+  
+  
+  #Deepwood Clans 
+ dynn_Forrester_motto: "Eisen von Eis"
+ dynn_Woods_motto: "Erprobt, bewährt, wahrhaftig"
+ dynn_Bole_Motto: "Fest verwurzelt"
+ dynn_Branch_motto: "Wir finden unseren Weg"
+ dynn_Glover_motto: "Niemand entkommt unserem Griff"
+ dynn_Moss_motto: "Niemals zornig, immer Edel"
+  
+  #Hill Clans 
+ dynn_Burley_motto: "Korrekt schneiden, rein schneiden"
+ dynn_Harclay_motto: "Bei Berg und Mond"
+ dynn_Knott_motto: "Die Bänder, die uns zusammenhalten"
+ dynn_Liddle_motto: "Viel in wenig"
+ dynn_Norrey_motto: "Niemand provoziert mich straffrei"
+ dynn_Wull_motto: "Dennoch ist meine Hoffnung ungebrochen"
+  
+  #White Harbour District 
+ dynn_Ashwood_Motto: "Blutsverwandt"
+ dynn_Marsh_motto: "Sei achtsam"
+ dynn_Silverfield_motto: "Bei Ehre und Vergebung"
+  
+  #Crannogman 
+ dynn_Reaves_motto: "On Salty Shores" #NT!
+ dynn_Blackmyre_motto: "Über allem schwebend"
+ dynn_BoggsN_motto: "Be Stalwart" #NT!
+ dynn_Fenn_motto: "Wir kamen mit dem Kanu"
+ dynn_Cray_motto: "Hüte dich vor dem Rauschen"
+ dynn_Greengood_motto: "Loyal mit dem Schwert in der Hand"
+ dynn_Peat_motto: "Mit Lanze und Schwert"
+ dynn_Quagg_motto: "Für unsere Feinde, der Hammer - Für unsere Freunde, die Ehre"
+ dynn_Reed_motto: "Hüte dich vor unserem Biss"
+  
+  #Skagosi 
+ dynn_Crowl_motto: "Rotes Feuer, schwarzer Himmel"
+ dynn_Magnar_motto: "Herr der Steine"
+ dynn_Stane_motto: "Aus Stein gemeißelt"
+ dynn_Karn_motto: "The Truth Awaits" #NT!
+ dynn_Frikrigg_motto: "We Give, We Take, We Endure" #NT!
+ dynn_Yggr_motto: "For Flesh for Freedom" #NT!
+  
+  #Extinct 
+  
+  #Telltale 
+ dynn_Glenmore_motto: "Niemals nachgeben, Niemals ergeben"
+ dynn_Brownbarrow_motto: "Bescheidenes Temperament, tatendringliches Wesen"
+ dynn_Elliver_motto: "Bescheiden im Sieg"
+ dynn_Grayson_motto: "Standhaft"
+ dynn_Degore_motto: "Ergib dich nie"
+  
+  #Show 
+ dynn_Blackbrow_motto: "Niemals Vergessen"
+ dynn_Caulfield_motto: "Blut und Herkunft"
+ dynn_Dormand_motto: "Faithful and True" #NT!
+ dynn_Greenleaf_motto: "Der Traum vom Frühling"
+ dynn_Mazin_motto: "Die letzten von uns"
+ dynn_Strongbeard_motto: "Stark und Stolz"
+ dynn_Wibberley_motto: "Die Früchte unserer Arbeit"
+ dynn_Portan_motto: "What Comes Next" #NT!
+  
+  
+  #Telltale Fanon 
+ dynn_Thornton_motto: "Die Machthaber"
+ dynn_Mason_motto: "Verbeuge dich vorm Tapfersten"
+  
+  #TTRPG 
+ dynn_Orlych_motto: "Prepare for the Fall"
+ dynn_Tyre_motto: "Once More Mongrel" #NT!
+ dynn_Broths_motto: "Fail No Master" #NT!
+  
+  #New Modcanons 
+ dynn_Pinn_motto: "Salt and Sense" #NT!
+ dynn_Mack_motto: "Down Comes the Night" #NT!
+ dynn_Dusk_motto: "Striking in the Dark" #NT!
+ dynn_Coaler_motto: "Glory in Flames" #NT!
+ dynn_Pale_motto: "Our Line Will Not Fade" #NT!
+ dynn_Flade_motto: "No Blade Wasted" #NT!
+ dynn_Noll_motto: "We Find, We Fight, We Feast" #NT!
+ dynn_Colden_motto: "From Ice, Our Might" #NT!
+ dynn_Hume_motto: "We Rise Calm" #NT!
+ dynn_Stump_motto: "We Are What Remains" #NT!
+ dynn_Thaw_motto: "Change Endures" #NT!
+ dynn_Catcher_motto: "Let Them Come" #NT!
+ dynn_Sully_motto: "Honor the Wilds" #NT!
+ dynn_Furr_motto: "Steel Lies Still" #NT!
+ dynn_Aldcreek_motto: "The River Decides" #NT!
+ dynn_Crook_motto: "The Vigilance Above" #NT!
+ dynn_Reamy_motto: "A Time of Pause" #NT!
+ dynn_Riggwelt_motto: "The Pint Our Pride" #NT!
+ dynn_Hawley_motto: "We Cage the Monstrous" #NT!
+ dynn_Shackes_motto: "Fight Like an Animal" #NT!
+ dynn_Colt_motto: "The Omens Choose" #NT!
+ dynn_Rockhead_motto: "Bolted and Barred" #NT!
+ dynn_Scrimshaw_motto: "We Carve, We Hold" #NT!
+ dynn_Tumbler_motto: "Our Vigils Are Certain" #NT!
+ dynn_Seaver_motto: "We Will Sail Again" #NT!
+ dynn_Nash_motto: "What is Planted Shall Endure" #NT!
+ dynn_Cade_motto: "Nobody Makes Our Fate" #NT!
+ dynn_Porter_motto: "Raise Arms, Raise Tankards" #NT!
+ dynn_Brent_motto: "You Need Honor" #NT!
+ dynn_Mund_motto: "We Are the Hills" #NT!
+ dynn_Barley_motto: "Never Burn" #NT!
+ dynn_Draywin_motto: "The Leap Before the Fall" #NT!
+ dynn_Somber_motto: "Ever Rest" #NT!
+ dynn_Cairns_motto: "The Road Knows" #NT!
+ dynn_Brewer_motto: "Foam and Frost" #NT!
+ dynn_Cantle_motto: "Burn Your Gods" #NT!
+ dynn_Bray_motto: "Sound of Might" #NT!
+ dynn_Banks_motto: "Fierce and Knowing" #NT!
+ dynn_Messer_motto: "Prepare Once and Prepare Again" #NT!
+ dynn_Bywash_motto: "Strength Flows Eternal" #NT!
+ dynn_Bates_motto: "We All Go Mad" #NT!
+ dynn_Herring_motto: "Deceive Every Foe" #NT!
+ dynn_Kiddle_motto: "Keeping Steady" #NT!
+ dynn_Proud_motto: "Examine and Assess" #NT!
+ dynn_Switch_motto: "One Will, Many Lives" #NT!
+ dynn_Still_motto: "Our Calm Prevails" #NT!
+ dynn_Logg_motto: "No Rot Here" #NT!
+ dynn_Howle_motto: "By Night the Call" #NT!
+ dynn_Hartleaf_motto: "These Axes Unite" #NT!
+ dynn_Arden_motto: "Truths Best Blurred" #NT!
+ dynn_Orcutt_motto: "The Cold Comes With Fangs" #NT!
+ dynn_Kell_motto: "Fame or Repute I Seek Not" #NT!
+ dynn_Madden_motto: "With Embrace" #NT!
+ dynn_Darsett_motto: "What Must, Will" #NT!
+ dynn_Weir_motto: "We Are the Net" #NT!
+ dynn_Shale_motto: "What Lies Beneath" #NT!
+ dynn_Slowburn_motto: "Not Yet, But Soon" #NT!
+ dynn_Leadranack_motto: "One of the Houses of All Time" #NT!
+ dynn_Burl_motto: "We Grow in Woe" #NT!
+ dynn_Lurk_motto: "The Waiting Wins" #NT!
+ dynn_Sapp_motto: "Blood of the Land" #NT!
+ dynn_Flood_motto: "The Water Rises" #NT!
+ dynn_Croggen_motto: "Shift the Blockage" #NT!
+ dynn_Stilt_motto: "We Look Down" #NT!
+ dynn_Muddle_motto: "Ever Decisive" #NT!
+ dynn_Carr_motto: "Plow On" #NT!
+ dynn_Dampwood_motto: "Slow Your Stride" #NT!
+ dynn_Leach_motto: "Check the Skin" #NT!
+ dynn_Jeyne_motto: "Stand Sure" #NT!
+ dynn_Strand_motto: "All Else Unravels" #NT!
+ dynn_Clay_motto: "From One to Many" #NT!
+ dynn_Spears_motto: "For What We Are Famed" #NT!
+ dynn_Rouse_motto: "Die Where You Must" #NT!
+ dynn_Fog_motto: "With Unfettered Vision" #NT!
+ dynn_Beech_motto: "Strengthen the Hearth" #NT!
+ dynn_Fross_motto: "Dare to Look Down" #NT!
+ dynn_Hide_motto: "Pelts Unpunctured" #NT!
+ dynn_Dronigan_motto: "The Brave Are Free" #NT!
+ dynn_Barker_motto: "Always Alert" #NT!
+ dynn_Verran_motto: "We Follow the Winds" #NT!
+ dynn_Risk_motto: "Without Asking How" #NT!
+ dynn_Sedge_motto: "Turn Back Now" #NT!
+ dynn_Brummel_motto: "My Gods Are Smiling" #NT!
+ dynn_Mundrel_motto: "Torch Your Fear" #NT!
+ dynn_Torvok_motto: "We Bite" #NT!
+ dynn_Borragen_motto: "We Know Strength" #NT!
+ dynn_Thran_motto: "Sound the Horn!" #NT!
+ dynn_Raogdar_motto: "Forsaken" #NT!
+ dynn_Dross_motto: "Blood Makes Brothers" #NT!
+ dynn_Horksyett_motto: "Know No Warmth" #NT!
+ dynn_Kratan_motto: "Fatally Forgotten" #NT!

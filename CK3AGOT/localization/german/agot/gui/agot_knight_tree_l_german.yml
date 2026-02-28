@@ -1,0 +1,37 @@
+﻿l_german:
+  ###### Title 
+ AGOT_TITLE_KNIGHT_TREE: "Ser [GetPlayer.MakeScope.Var('knight_tree_being_shown').Var('knight_tree_founder').Char.GetFirstNamePossessiveNoTooltipRegnal|U]\nKnight Tree" #NT!
+  
+  ###### Info 
+ knight_tree_members: "[GetPlayer.MakeScope.Var('total_knight_tree_members').GetValue|0] Total Knights" #NT!
+ knight_tree_living: "[GetPlayer.MakeScope.Var('total_knight_tree_alive').GetValue|0] Living Members" #NT!
+ knight_tree_founding_dynasty: "#weak Founding Dynasty:#!\n  [GetPlayer.MakeScope.Var('knight_tree_being_shown').Var('knight_tree_founder').Char.GetDynasty.GetBaseNameNoTooltip|U]" #NT!
+  
+ agot_birth_date: "$AGOT_YEAR_BIRTH$ $AGOT_ERA_BIRTH$" #NT!
+ agot_death_date: "$AGOT_YEAR_DEATH$ $AGOT_ERA_DEATH$" #NT!
+  
+ knight_tree_count: "#D Trees: [GetPlayer.MakeScope.Var('total_knight_trees').GetValue|0]#!" #NT!
+ knight_tree_teachers: "#D Teachers: [GetPlayer.MakeScope.Var('total_knight_tree_teachers').GetValue|0]#!" #NT!
+ knight_tree_destroyed: "#D Destroyed: [GetGlobalVariable('knight_trees_destroyed').GetValue|0]#!" #NT!
+  
+  ###### Buttons 
+ KNIGHT_TREE_TT: "#T View Knight Tree\n#!View all Characters [Character.GetShortUINameNoTooltip] [Character.LocalPlayerString( 'have', 'has' )] knighted, who knighted [Character.LocalPlayerString( 'you', 'them' )] and who was knighted before [Character.LocalPlayerString( 'you', 'them' )], [Character.LocalPlayerString( 'if you want to reminisce...', 'that we know of...' )]" #NT!
+  
+  ###### Names 
+ AGOT_NAME_KNIGHT_TREE: "Ser [Scope.GetCharacter.GetFirstNameNoTooltip] [Scope.GetCharacter.Custom('SurnameSwitch')]" #NT!
+  
+  ###### Interaction 
+ agot_debug_make_knight: "Grant Knighthood" #NT!
+ agot_debug_prune_knight_trees: "Purge Knight Trees" #NT!
+ agot_debug_prune_knight_trees_desc: "Purge any knight trees that aren't historical and don't include you or your family" #NT!
+  
+  ###### Date replacements 
+  # ERA 
+ AGOT_ERA_BIRTH: "[Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)8000'), 'A.C.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)7898' ), 'A.D.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)6400' ), 'A.I.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)2500' ), 'A.H.', 'D.A.' ))))]" #NT!
+  
+ AGOT_ERA_DEATH: "[Select_CString( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)8000'), 'A.C.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)7898' ), 'A.D.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)6400' ), 'A.I.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)2500' ), 'A.H.', 'D.A.' ))))]" #NT!
+  
+  # YEAR 
+ AGOT_YEAR_BIRTH: "[Select_int32( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)8000'), Subtract_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)8000' ) , Select_int32( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)7898' ), Subtract_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)7898' ) , Select_int32( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)6400' ), Subtract_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)6400' ) , Max_int32( Select_int32( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)2500' ), Subtract_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)2500' ) , Scope.GetCharacter.GetBirthDate.GetYear ) , '(int32)1' ))))]" #NT!
+  
+ AGOT_YEAR_DEATH: "[Select_int32( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)8000'), Subtract_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)8000' ) , Select_int32( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)7898' ), Subtract_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)7898' ) , Select_int32( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)6400' ), Subtract_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)6400' ) , Max_int32( Select_int32( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)2500' ), Subtract_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)2500' ) , Scope.GetCharacter.GetDeathDate.GetYear ) , '(int32)1' ))))]" #NT!

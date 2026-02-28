@@ -3,8 +3,8 @@
  health.1015.t: "[SCOPE.Custom('EventTitleDisease')]: Ein kleines Elend"
  health.1015.desc: "#EMP Es juckt.#! Ich wache mitten in der Nacht auf und stelle fest, dass mein Bein blutet. Und auch meine Fingernägel. Der Juckreiz ist derart stark, dass ich meine Finger immer tiefer in die Haut grabe.\n\nIch tauche mein Gesicht in kaltes Wasser und hoffe, dass das Jucken verschwindet. Mein Spiegelbild – rote Augen."
   #AGOT Modified 
- #health.1015.court_physician.desc: "\n\n"My [ROOT.Char.GetLadyLord], that's the malady known as measles."" #NT!
- health.1015.court_physician.desc: "\n\n"My [ROOT.Char.GetLadyLord], that's the malady known as spotted fever."" #NT!
+ #health.1015.court_physician.desc: "\n\n"My [ROOT.Char.GetLadyLord], that's the malady known as measles.""
+ health.1015.court_physician.desc: "\n\n"My [ROOT.Char.GetLadyLord], that's the malady known as spotted fever.""
  health.1015.a: "Ich halte das nicht mehr aus!"
  health.1016.t: "[SCOPE.Custom('EventTitleDisease')]: Scharlachrote Fontäne"
  health.1016.desc: "#EMP Argh.#! Ich greife mir vor Schmerz an den Bauch. Ich weiß nicht mehr, wie viel Zeit ich schon in dieser Latrine verbracht habe. Stunden, Tage? #EMP Wochen?#! Arghhhhh. Die blutigen Ausscheidungen tun jedes Mal mehr weh. Der Geruch hilft auch nicht.\n\nIch habe das Gefühl, ich werde ohnmächtig …"
@@ -44,8 +44,8 @@
  disease_desc_short_dysentery: "mit blutigen Ausscheidungen geplagt"
  disease_desc_short_ergotism: "mit einem unberechenbaren Zucken bestraft"
   #AGOT Modified 
- #disease_desc_short_typhus: "tormented by camp fever" #NT!
- disease_desc_short_typhus: "tormented by green fever" #NT!
+ #disease_desc_short_typhus: "tormented by camp fever"
+ disease_desc_short_typhus: "tormented by green fever"
  disease_desc_short_consumption: "von einem blutigen Husten geplagt"
  disease_desc_short_smallpox: "von Narben und Ausschlägen übersät"
  disease_desc_short_cancer: "vom Krebs ausgelaugt"
@@ -59,13 +59,7 @@
  disease_desc_short_ill: "von einem Übel befallen"
   
  epidemic_events.1000.t: "Der Seuchenkult ([cult_epidemic.GetNameNoTooltip|U])"
- epidemic_events.1000.desc.intro: "Während sich die Seuche ([cult_epidemic.GetName]) weiter in ganz [infected_county.GetName] ausbreitet, ist ein gefährlicher Kult entstanden.\n\n[charismatic_priest.Custom('DE_ART_IND_N')|U] charismatisch[charismatic_priest.Custom('DE_END_ADJ_IND_S_N')] Priester[charismatic_priest.Custom('DE_END_NOU_S_GS_N')], [charismatic_priest.Custom('DE_ART_DEF_S_N')] auf den Namen [charismatic_priest.GetFirstName] hört, behauptet, dass die Seuche eine Folge"
- epidemic_events.1000.desc.mid.unreformed: "unseres sündhaften Lebens sei und wir uns zu weit von jener Liebe entfernt hätten, die uns die höchste Instanz ([charismatic_priest.GetFaith.HighGodName]) schenkte. [charismatic_priest.Custom('DE_PRO_PER_S_3P_G')|U] Ansicht nach können wir nur Erlösung finden, wenn wir unseren heidnischen Traditionen abschwören."
- epidemic_events.1000.desc.mid.reformed: "davon sei, uns von den Göttern unserer Vorfahren abgewandt zu haben. [charismatic_priest.Custom('DE_PRO_PER_S_3P_N')|U] behauptet, wir könnten dieser Seuche nur entkommen, wenn wir uns ganz den heilenden Mächten ([charismatic_priest.GetFaith.HealthGodName]) hingeben."
- epidemic_events.1000.desc.mid2.cynical: "So ungern ich es auch zugebe: [charismatic_priest.Custom('DE_PRO_PER_S_3P_N')|U] hat einige überzeugende Argumente …"
- epidemic_events.1000.desc.mid2.zealous: "[charismatic_priest.Custom('DE_PRO_POS_S_3P')|U] Kult hat sich im ganzen Land ausgebreitet und ist schlimmer als jede Seuche."
- epidemic_events.1000.desc.mid2.fallback: "[charismatic_priest.Custom('DE_PRO_PER_S_3P_N')|U] hat es geschafft, die Vorstellungskraft der Menschen in Beschlag zu nehmen."
- epidemic_events.1000.desc.outro: "Wenn wir nichts unternehmen, könnte dieser Kult in von Seuchen heimgesuchten Landen unseren Glauben ([ROOT.Char.GetFaith.GetName]) selbst unterwandern."
+ epidemic_events.1000.desc: "[Select_CString(charismatic_priest.IsFemale, ' Eine wild dreinblickende Priesterin', 'Ein wild dreinblickender Priester')], [charismatic_priest.GetFirstName] mit Namen, predigt, dass die herrschende Seuche ([cult_epidemic.GetName]) eine Strafe Gottes sei – und dass einzig die Anbetung einer gewissen Macht ([charismatic_priest.GetFaith.HighGodName]) uns retten könne. Die Leute scharen sich um [charismatic_priest.Custom('DE_PRO_PER_S_3P_D')], hin und her gerissen zwischen Zorn und Furcht.\n\nWenn er nicht eingedämmt wird, könnte dieser Seuchenkult die [ROOT.Char.GetFaith.GetAdjective|l]e Herrschaft in [infected_county.GetName] und darüber hinaus ins Wanken bringen."
  epidemic_events.1000.a: "Verbrennt dies[charismatic_priest.Custom('DE_END_PRO_S_A')] Verrückt[charismatic_priest.Custom('DE_END_ADJ_NUL_S_A')]!"
  epidemic_events.1000.b: "Das ist doch sicherlich harmlos."
  epidemic_events.1000.c: "Endlich habe ich zur höchsten Macht ([charismatic_priest.GetFaith.HighGodName]) gefunden!"
@@ -99,6 +93,7 @@
  epidemic_events.1050.b.tt.success: "Die Furcht vor dem Weltuntergang wurde abgewendet"
  epidemic_events.1050.b.tt.failure: "Das Volk ist nicht überzeugt"
  epidemic_events.1050.c: "„Vielleicht haben sie recht …“"
+ story_plague_trials_title: "Seuchenprozesse:"
  epidemic_events.1060.t: "Seuchenbringer"
  epidemic_events.1060.desc.intro: "Mein Reich wird weiterhin von der Seuche ([epidemic_scope.GetName]) heimgesucht, und Aberglaube ist unter der Bevölkerung weit verbreitet. Ich habe erfahren, dass man die Seuche auf"
  epidemic_events.1060.desc.mid.cats: "die übernatürlichen Eigenschaften von Katzen zurückführt.\n\nDie Leute glauben, gewöhnliche Hauskatzen trügen irgendwie die Seuche in sich und würden die Menschen allein mit ihrer Anwesenheit verfluchen. Dieser Glaube ist derart weit verbreitet, dass die am stärksten von der Seuche betroffenen Regionen begonnen haben, massenhaft Katzen abzuschlachten."
@@ -111,6 +106,7 @@
  epidemic_events.1060.a: "Es gibt nichts, was ich tun kann."
  epidemic_events.1060.b: "Haltet sie unverzüglich auf!"
  epidemic_events.1060.c: "Vielleicht liegt unsere Antwort in der heiligen Schrift ([ROOT.Char.GetFaith.ReligiousText|U])."
+ witch_trial_story_tt: "#EMP Das Schlimmste kommt womöglich erst noch …#!"
  epidemic_events.1061.t: "Scheiterhaufen für Haustiere"
  epidemic_events.1061.desc.intro: "Ich erwache in meinem Schlafgemach und höre das ferne Dröhnen von Unruhen inmitten von [ROOT.Char.GetCurrentLocation.GetNameNoTooltip|U]. Als ich nach draußen blicke, sehe ich den Himmel orange glühen und in der Ferne zahllose Rauchsäulen aufsteigen. Ist mein Reich in Flammen aufgegangen, während ich schlief?\n\n[chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U] liefert mir hoffentlich Antworten …"
  epidemic_events.1061.desc.mid.cats: "„Es sind die Katzen, m[ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetTitleAsNameNoTooltip]. Diese Biester werden in Weidenkäfigen gefangen und miauend und fauchend auf großen Scheiterhaufen verbrannt."
@@ -212,6 +208,7 @@
  epidemic_events.1100.a.zealous: "Mögen die heilenden Mächte ([ROOT.Char.GetFaith.HealthGodName]) uns schützen."
  epidemic_events.1100.a: "Irgendjemand sollte etwas unternehmen."
  epidemic_events.1100.b: "Ruft den Arzt!"
+ epidemic_events.1100.c: "Summon a maester!"
  look_for_physician_epidemic_tt: "Ihr sucht einen [GetCourtPositionType('court_physician_court_position').GetName()] auf, um dabei zu helfen, die [epidemic|E] aufzuhalten"
  physician_will_help_epidemic_tt: "Euer [GetCourtPositionType('court_physician_court_position').GetName()] wird Euch mehrere Möglichkeiten aufzählen, um die [epidemic|E] zu bekämpfen"
  epidemic_events.1110.t: "Leichen auf den Straßen"
@@ -459,11 +456,12 @@
  epidemic_events.5010.b.lose: "Ihr versinkt in einem Gefühl des Grauens"
   
   #AGOT Modified 
- #epidemic_events.5900.t: "The Black Death" #NT!
- epidemic_events.5900.t: "Great Spring Sickness" #NT!
+ #epidemic_events.5900.t: "The Black Death"
+ epidemic_events.5900.t: "Great Spring Sickness"
   #AGOT Modified 
- #epidemic_events.5900.desc: "Pestilence stalks the land.\n\nGrisly, bubbling buboes grow upon the victims, whose pitiful calls for help are slowly stifled as they gutter and drown in their own pus-filled throats.\n\nFrom the lowliest urchin to the most fêted emperor, all dread the indiscriminate scythe of the merciless plague. Those that survive must watch helplessly as all around them perish.\n\nThe devoted look to the divine for a savior, and the powerful their riches, but none can truly be safe. Dreadful tendrils spread across the land, constricting it until it no longer breathes.\n\nThe Great Spring Sickness is upon us. [ROOT.Char.GetFaith.HighGodName] save us all." #NT!
- epidemic_events.5900.desc: "Pestilence stalks the land.\n\nGrisly, bubbling buboes grow upon the victims, whose pitiful calls for help are slowly stifled as they gutter and drown in their own pus-filled throats.\n\nFrom the lowliest urchin to the richest lords, all dread the indiscriminate scythe of the merciless plague. Those that survive must watch helplessly as all around them perish.\n\nThe devoted look to the divine for a savior, and the powerful their riches, but none can truly be safe. Dreadful tendrils spread across the land, constricting it until it no longer breathes.\n\nThe Great Spring Sickness is upon us. [ROOT.Char.GetFaith.HighGodName] save us all." #NT!
+ #epidemic_events.5900.desc: "Pestilence stalks the land.\n\nGrisly, bubbling buboes grow upon the victims, whose pitiful calls for help are slowly stifled as they gutter and drown in their own pus-filled throats.\n\nFrom the lowliest urchin to the most fêted emperor, all dread the indiscriminate scythe of the merciless plague. Those that survive must watch helplessly as all around them perish.\n\nThe devoted look to the divine for a savior, and the powerful their riches, but none can truly be safe. Dreadful tendrils spread across the land, constricting it until it no longer breathes.\n\nThe Great Spring Sickness is upon us. [ROOT.Char.GetFaith.HighGodName] save us all."
+ epidemic_events.5900.desc: "Pestilence stalks the land.\n\nGrisly, bubbling buboes grow upon the victims, whose pitiful calls for help are slowly stifled as they gutter and drown in their own pus-filled throats.\n\nFrom the lowliest urchin to the richest lords, all dread the indiscriminate scythe of the merciless plague. Those that survive must watch helplessly as all around them perish.\n\nThe devoted look to the divine for a savior, and the powerful their riches, but none can truly be safe. Dreadful tendrils spread across the land, constricting it until it no longer breathes.\n\nThe Great Spring Sickness is upon us. [ROOT.Char.GetFaith.HighGodName] save us all."
+ epidemic_events.5900.desc_asia: "Die Pest ist unter uns.\n\nDie Geplagten schwellen an und sind von Geschwüren bedeckt. Ihre Schreie schwinden zu einem Gurgeln, während ihnen der Atem versagt. Der Tod macht selbst die Lautesten leise.\n\nNiemand wird verschont. Vom barfüßigen Tagelöhner bis zum klösterlichen Prinzen: Die Räder des Leids drehen sich für einen jeden. Die Lebenden bleiben zurück, um die Asche von den Türschwellen zu kehren und die leeren Schlafmatten zu zählen.\n\nManche singen Sutras, andere halten sich an Rituale und Stand – doch kein Erlass hält den Verfall auf, kein Verdienst mindert den Tribut. Wie Nebel im Tal verbreitet sich die Seuche unsichtbar, ist aber an jedem ruhigen Morgen zu spüren.\n\nDer Schwarze Tod ist hier. Der Himmel wendet sich ab."
  epidemic_events.5900.christian: "„Vater unser im Himmel, geheiligt werde dein Name …“"
  epidemic_events.5900.fallback: "Mögen wir diese düsteren Zeiten überdauern."
   
@@ -554,3 +552,5 @@
  msg_epidemic_infection_desc_1: "Eine als „[epidemic.GetName]“ bekannte [epidemic|E] hat sich nach „[LEFT_TITLE.GetProvince.GetBaronyNameExplicitly]“ ausgebreitet"
  msg_epidemic_infection_desc_2: "Eine als „[epidemic.GetName]“ bekannte [epidemic|E] hat sich nach „[LEFT_TITLE.GetProvince.GetBaronyNameExplicitly]“ und „[RIGHT_TITLE.GetProvince.GetBaronyNameExplicitly]“ ausgebreitet"
  msg_epidemic_infection_desc: "Eine als „[epidemic.GetName]“ bekannte [epidemic|E] hat sich nach „[LEFT_TITLE.GetProvince.GetBaronyNameExplicitly]“, „[RIGHT_TITLE.GetProvince.GetBaronyNameExplicitly]“ und $message_consolidation_others$ ausgebreitet."
+  
+ EVENT_WINDOW_OPTION_AVAILABLE_PHYSICIAN: "Verfügbar, weil Ihr einen [GetCourtPositionType('court_physician_court_position').GetName] habt"

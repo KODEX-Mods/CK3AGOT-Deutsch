@@ -5,24 +5,37 @@
  default_legitimacy_level_3: "[legitimacy|E] $LEVEL|V:roman$"
  default_legitimacy_level_4: "[legitimacy|E] $LEVEL|V:roman$"
  default_legitimacy_level_5: "[legitimacy|E] $LEVEL|V:roman$"
+ default_legitimacy_level_6: "[legitimacy|E] $LEVEL|V:roman$"
+ default_legitimacy_level_7: "[legitimacy|E] $LEVEL|V:roman$"
+ default_legitimacy_level_8: "[legitimacy|E] $LEVEL|V:roman$"
  default_legitimacy_level_0_flavor: "Illegitim"
  default_legitimacy_level_1_flavor: "Aufstrebend"
  default_legitimacy_level_2_flavor: "Anerkannt"
   #AGOT Modified 
- #default_legitimacy_level_3_flavor: "Rightful" #NT!
- default_legitimacy_level_3_flavor: "Lawful" #NT!
- #default_legitimacy_level_4_flavor: "True" #NT!
- default_legitimacy_level_4_flavor: "Rightful" #NT!
- #default_legitimacy_level_5_flavor: "Ordained" #NT!
- default_legitimacy_level_5_flavor: "True" #NT!
+ #default_legitimacy_level_3_flavor: "Rightful"
+ default_legitimacy_level_3_flavor: "Lawful"
+ #default_legitimacy_level_4_flavor: "True"
+ default_legitimacy_level_4_flavor: "Rightful"
+ #default_legitimacy_level_5_flavor: "Ordained"
+ default_legitimacy_level_5_flavor: "True"
+ default_legitimacy_level_6_flavor: "Vorbestimmt"
+ default_legitimacy_level_7_flavor: "Kosmisch"
+ default_legitimacy_level_8_flavor: "Ewiglich"
+ mandate_legitimacy_level_7_flavor: "Himmlisch"
   
  count_legitimacy_type_name: "[Concept('count', 'Grafen')|E]-[rank|E]"
  duke_legitimacy_type_name: "[Concept('duke', 'Herzogs')|E]-[rank|E]"
  king_legitimacy_type_name: "[Concept('kingdom', 'Königs')|E]-[rank|E]"
  emperor_legitimacy_type_name: "[Concept('emperor', 'Kaiser')|E]-[rank|E]"
+ hegemon_legitimacy_type_name: "[hegemon|E]-[rank|E]"
+ nomadic_legitimacy_type_name: "[GetGovernment('nomad_government').GetName|U]er [ruler|E]"
+ mandate_legitimacy_type_name: "„[mandate_of_heaven|E]“-[rank|E]"
+ mandala_legitimacy_type_name: "[GetGovernment('nomad_government').GetName|U]er [ruler|E]"
   
+ LEGITIMACY_CHANGED_EFFECTS: "\n[LegitimacyLevel.GetOnLevelEnteredDesc(Character.Self)]"
  LEGITIMACY_EFFECTS: "#S Auswirkungen:#!\n[LegitimacyLevel.GetModifierDesc]"
  LEGITIMACY_AVERAGE_EXPECTATIONS: "#S Durchschnittliche [expected_legitimacy|E] von [Character.GetShortUIName|U]:#!\n$BULLET$[powerful_vassals|EU]: [LegitimacyType.GetFlavorName(Character.GetAveragePowerfulVassalLegitimacyExpectation)|V] #weak ([Character.GetAveragePowerfulVassalLegitimacyExpectation.GetIndex]/[Subtract_int32(GetDataModelSize(LegitimacyType.GetLevels), '(int32)1')])#!\n$BULLET$[vassals|E]: [LegitimacyType.GetFlavorName(Character.GetAverageVassalLegitimacyExpectation)|V] #weak ([Character.GetAverageVassalLegitimacyExpectation.GetIndex]/[Subtract_int32(GetDataModelSize(LegitimacyType.GetLevels), '(int32)1')])#!"
+ LEGITIMACY_AVERAGE_EXPECTATIONS_NO_POWERFUL_VASSALS: "#S Durchschnittliche [expected_legitimacy|El] von [Character.GetShortUIName|U]:#!\n$BULLET$ [vassals|E]: [LegitimacyType.GetFlavorName(Character.GetAverageVassalLegitimacyExpectation)|V] #weak ([Character.GetAverageVassalLegitimacyExpectation.GetIndex]/[Subtract_int32(GetDataModelSize(LegitimacyType.GetLevels), '(int32)1')])#!"
  LEGITIMACY_BELOW_AVERAGE_EXPECTATIONS: "@warning_icon! #X  Unter erwarteter Legitimität aller Vasallen#!"
  VASSAL_BELOW_EXPECTED_LEGITIMACY_TT: "\n@warning_icon! #X [legitimacy_levels|E] unter [Character.Custom('DE_PRO_POS_P_3P')]en Erwartungen: [Subtract_int32(Character.GetLegitimacyExpectationsOfLiege, GetPlayer.GetLegitimacyLevel.GetIndex)|V]#!"
  VASSAL_EXPECTED_LEGITIMACY_TT: "#T [expected_legitimacy|EU]: [Character.GetLegitimacyExpectationsOfLiege]#![AddLocalizationIf(GreaterThan_int32(Character.GetLegitimacyExpectationsOfLiege, GetPlayer.GetLegitimacyLevel.GetIndex), 'VASSAL_BELOW_EXPECTED_LEGITIMACY_TT')]"
@@ -36,3 +49,7 @@
   
  legitimacy_high_modifier_tt: "Hohe [legitimacy|E]"
  legitimacy_low_modifier_tt: "Niedrige [legitimacy|E]"
+  
+ legitimacy_on_level_entered: "#S Bei Stufenänderung:#!\n"
+  #AGOT Disabled 
+ # legitimacy_on_entered_lost_mandate: "$legitimacy_on_level_entered$@warning_icon! #X Activates "$catalyst_hegemon_lost_mandate_of_heaven$", which will move the [dynastic_cycle|E] into [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName] [situation_dynastic_cycle_phase|E]#!" #NT!

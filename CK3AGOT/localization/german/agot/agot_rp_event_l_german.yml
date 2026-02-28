@@ -1,5 +1,5 @@
 ﻿l_german:
- #RP Event Weapons 
+  # RP Event Weapons 
  rp_hunters_spear: "Saufeder"
  rp_hunters_spear_desc: "Ein Speer zur Jagd auf Eber. Aufgrund der Risiken bei der Jagd auf ein solches Tier wurde der Speer sorgfältig mit einer Speerspitze aus burggeschmiedetem Stahl hergestellt und gepflegt."
  rp_spear: "Fußtruppenspeer"
@@ -15,20 +15,20 @@
  rp_torture_dagger: "Folterdolch"
  rp_torture_dagger_desc: "Dieser Dolch, der auf einer Burg geschmiedet wurde, hat keine Schmiedemarke und dient dazu, Geheimnisse zu lüften, die nur wenige preisgeben würden."
   
- #RP Events 
+  # RP Events 
  agot_rp_event.0001.t: "Eine Dynastie entsteht"
- agot_rp_event.0001.desc_westeros: ""Greetings, my [ROOT.Char.GetLadyLord]; the Citadel sent me once they received word of your rise to Lordship. No, I am not your maester. I am here to make a record of your new station and the birth of your new [house|E], that is if you will allow me to make such a record for the Citadel?"" #NT!
+ agot_rp_event.0001.desc_westeros: ""Greetings, my [ROOT.Char.GetLadyLord]; the Citadel sent me once they received word of your rise to Lordship. No, I am not your maester. I am here to make a record of your new station and the birth of your new [house|E], that is if you will allow me to make such a record for the Citadel?""
  agot_rp_event.0001.desc: "„Seid gegrüßt, [ROOT.Char.Custom('DE_Anrede')]. Die Zitadelle hat mich geschickt, nachdem sie von Eurem Aufstieg zu ein[ROOT.Char.Custom('DE_END_ADJ_NUL_S_D')] [ROOT.Char.GetLadyLord] erfahren hat. Nein, ich bin nicht Euer Maester. Ich bin hier, um Euren neuen Rang und die Gründung Eures neuen Hauses zu beurkunden, falls Ihr mir erlaubt, eine solche Aufzeichnung für die Zitadelle zu fertigen?'"
  agot_rp_event.0001.a: "Gewiss, was genau möchtet ihr wissen?"
- agot_rp_event.0001.a.tt_westeros: "Telling your story to the Maester will add modifiers to you and have opinion modifiers on your liege as well as other effects." #NT!
+ agot_rp_event.0001.a.tt_westeros: "Telling your story to the Maester will add modifiers to you and have opinion modifiers on your liege as well as other effects."
  agot_rp_event.0001.a.tt: "Wenn Ihr dem Maester Eure Geschichte erzählt, werden Euch Modifikatoren verliehen, und Ihr erhaltet Meinungsmodifikatoren für Euren Lehnsherren sowie andere Effekte."
  agot_rp_event.0001.b: "Gewiss, was genau möchtet ihr wissen?"
- agot_rp_event.0001.c_westeros: "I have no time for maesters’ books!" #NT!
+ agot_rp_event.0001.c_westeros: "I have no time for maesters’ books!"
  agot_rp_event.0001.c: "Ich habe keine Zeit für Maesterschriften!"
  agot_rp_event.0001.c.tt: "Mit dieser Option wird das Ereignis 'Eine Dynastie entsteht' abgelehnt und Ihr startet ohne Modifikatoren oder Meinungsmodifikatoren für Euren Lehnsherren."
- agot_rp_event.0001.d: "Record my dynasty's appearance" #NT!
- agot_rp_event.0001.d.tt: "This option will let you create a custom strong seed." #NT!
- agot_rp_event.0001.d.tt_warning: "@warning_icon! #X You may only select a custom strong seed from this point in the menu.#!" #NT!
+ agot_rp_event.0001.d: "Record my dynasty's appearance"
+ agot_rp_event.0001.d.tt: "This option will let you create a custom strong seed."
+ agot_rp_event.0001.d.tt_warning: "@warning_icon! #X You may only select a custom strong seed from this point in the menu.#!"
   
  agot_rp_event.0002.t: "Eine Dynastie entsteht"
  agot_rp_event.0002.desc: "„Dies wird nicht lange dauern, es geht um eine Zusammenfassung der Entstehung Eures Hauses, nicht um eine ausführliche Geschichte oder Ambitionen. Sollen wir damit beginnen, wie Ihr Euren Titel erlangt habt und mit Eurer Vergangenheit?“"
@@ -89,7 +89,7 @@
  agot_rp_event.0005.e.tt: "Euer Aufstieg war ein einsamer, doch man kann auf dem Weg Freunde finden, oder vielleicht ist es besser, allein zu sein."
   
  agot_rp_event.0006.t: "Eine Dynastie entsteht"
- agot_rp_event.0006.desc_westeros: ""I'm sorry, I thought I heard someone mention my name?" says the [rp_friend.GetWomanMan] in question as [rp_friend.GetSheHe] enters the room, [rp_friend.Custom('quirk_pos_pp')]; I cannot help by smile at his timing. The maester is quick to introduce himself and state his purpose before turning back to me. "Well, this should suffice for a summary, my [ROOT.Char.GetLadyLord]. I wish you the best going forward," says the maester with a bow." #NT!
+ agot_rp_event.0006.desc_westeros: ""I'm sorry, I thought I heard someone mention my name?" says the [rp_friend.GetWomanMan] in question as [rp_friend.GetSheHe] enters the room, [rp_friend.Custom('quirk_pos_pp')]; I cannot help by smile at his timing. The maester is quick to introduce himself and state his purpose before turning back to me. "Well, this should suffice for a summary, my [ROOT.Char.GetLadyLord]. I wish you the best going forward," says the maester with a bow."
  agot_rp_event.0006.desc: "„Verzeihung, ich dachte, ich hätte jemanden meinen Namen erwähnen hören“, sagte der besagte Mann, als er den Raum betrat. Ich konnte mir ein Lächeln ob des Zeitpunkts seines Erscheinens nicht verkneifen. Der Maester stellte sich schnell vor und erläuterte ihm sein Anliegen, bevor er sich wieder an mich wandte. „Nun, das sollte für eine Zusammenfassung genügen, [ROOT.Char.Custom('DE_Anrede')]. Ich wünsche Euch das Beste für die Zukunft“, sagte der Maester mit einer Verbeugung..."
  agot_rp_event.0006.a: "So beginnt die Entstehung meines Hauses!"
  agot_rp_event.0006.a.tt: "Wird Eure Dynastie aufsteigen, oder wird sie untergehen?"
@@ -103,7 +103,7 @@
  agot_rp_event.0007.b.tt: "Die Zitadelle hat sicher nichts dagegen."
   
  agot_rp_event.0008.t: "Eine Dynastie entsteht"
- agot_rp_event.0008.desc_westeros: "The maester quickly makes some scribbles of all I had told him. Once done, he looks up at me from his notes. "Well, this should suffice for a summary, my [ROOT.Char.GetLadyLord]. I wish you the best going forward," says the maester with a bow." #NT!
+ agot_rp_event.0008.desc_westeros: "The maester quickly makes some scribbles of all I had told him. Once done, he looks up at me from his notes. "Well, this should suffice for a summary, my [ROOT.Char.GetLadyLord]. I wish you the best going forward," says the maester with a bow."
  agot_rp_event.0008.desc: "Der Maester machte schnell ein paar Notizen zu Euren Ausführungen. Als er fertig war, blickte er von seinen Notizen zu euch auf. „Nun, das sollte für eine Zusammenfassung genügen, [ROOT.Char.Custom('DE_Anrede')]. Ich wünsche Euch alles Gute für die Zukunft“, sagte der Measter mit einer Verbeugung."
  agot_rp_event.0008.a: "So beginnt die Entstehung meines Hauses!"
  agot_rp_event.0008.a.tt: "Wird Eure Dynastie aufsteigen, oder wird sie untergehen?"
@@ -111,7 +111,7 @@
  agot_rp_event.0008.b.tt: "Die Zitadelle hat sicher nichts dagegen."
   
  agot_rp_event.0009.t: "Eine Dynastie entsteht"
- agot_rp_event.0009.desc_westeros: ""Knowing the ways of the Ironborn, do you claim descent from thralldom?" the maester asks, unsure of the best way to pose the question." #NT!
+ agot_rp_event.0009.desc_westeros: ""Knowing the ways of the Ironborn, do you claim descent from thralldom?" the maester asks, unsure of the best way to pose the question."
  agot_rp_event.0009.desc: "„Da Ihr mit den Gebräuchen der Eisenmänner vertraut seid, sagt Ihr, dass Ihr aus Leibeigenschaft stammt?“, fragte der Maester, unsicher, wie er die Frage am besten formulieren sollte."
  agot_rp_event.0009.a: "Ja... mein Haus ist mit dem Schandfleck der Leibeigenschaft behaftet."
  agot_rp_event.0009.a.tt: "Euer Haus stammt von Leibeigenen und Salzfrauen ab und wird daher von den Eisenmännern verachtet."
@@ -202,86 +202,86 @@
  agot_rp_event.0027.c: "Die Gestalt einer Schattenkatze."
  agot_rp_event.0027.c.tt: "Euer Aufstieg wurde von einer Schattenkatze begleitet, die Euch überallhin folgt."
   
- agot_rp_event.0100.t: "A Dynasty is Born: Custom Strong Seed" #NT!
- agot_rp_event.0100.desc: "Use the menu to select the aspects of your dynasty's strong seed appearance. You may select one custom strong seed from each category.\n\nYou may use the character on the right as an example of what each item looks like in terms of color or size." #NT!
- agot_rp_event.0100.a: "Hair" #NT!
- agot_rp_event.0100.b: "Height" #NT!
- agot_rp_event.0100.c: "Ears" #NT!
- agot_rp_event.0100.d: "Eyes" #NT!
- agot_rp_event.0100.e: "Finished" #NT!
- agot_rp_event.0101.a: "Okay" #NT!
- agot_rp_event.0102.a: "Okay" #NT!
- agot_rp_event.0103.a: "Okay" #NT!
- agot_rp_event.0104.a: "Okay" #NT!
- agot_rp_event.0105.t: "Custom Strong Seed" #NT!
- agot_rp_event.0105.desc: "If you wish to customize your ruler further, you may add a custom strong seed based on existing options.\n\nYour custom strong seed, if you choose to create it, will be inheritable by your children depending on your gamerules.\n\n@warning_icon! #X Using a custom strong seed may override your ruler's appearance.#!" #NT!
- agot_rp_event.0105.a: "Yes, take me to the Custom Strong Seed Menu!" #NT!
- agot_rp_event.0105.b: "No, I want to play now." #NT!
+ agot_rp_event.0100.t: "A Dynasty is Born: Custom Strong Seed"
+ agot_rp_event.0100.desc: "Use the menu to select the aspects of your dynasty's strong seed appearance. You may select one custom strong seed from each category.\n\nYou may use the character on the right as an example of what each item looks like in terms of color or size."
+ agot_rp_event.0100.a: "Hair"
+ agot_rp_event.0100.b: "Height"
+ agot_rp_event.0100.c: "Ears"
+ agot_rp_event.0100.d: "Eyes"
+ agot_rp_event.0100.e: "Finished"
+ agot_rp_event.0101.a: "Okay"
+ agot_rp_event.0102.a: "Okay"
+ agot_rp_event.0103.a: "Okay"
+ agot_rp_event.0104.a: "Okay"
+ agot_rp_event.0105.t: "Custom Strong Seed"
+ agot_rp_event.0105.desc: "If you wish to customize your ruler further, you may add a custom strong seed based on existing options.\n\nYour custom strong seed, if you choose to create it, will be inheritable by your children depending on your gamerules.\n\n@warning_icon! #X Using a custom strong seed may override your ruler's appearance.#!"
+ agot_rp_event.0105.a: "Yes, take me to the Custom Strong Seed Menu!"
+ agot_rp_event.0105.b: "No, I want to play now."
   
- agot_rp_event.0200.t: "Birthplace" #NT!
- agot_rp_event.0200.desc: "You can select any of [recipient.GetTitledFirstNamePossessive] counties as your place of birth." #NT!
- agot_rp_event.0200.a: "Set birthplace: [county_a.GetNameNoTier]." #NT!
- agot_rp_event.0200.b: "Set birthplace: [county_b.GetNameNoTier]." #NT!
- agot_rp_event.0200.c: "Set birthplace: [county_c.GetNameNoTier]." #NT!
- agot_rp_event.0200.d: "Set birthplace: [county_d.GetNameNoTier]." #NT!
- agot_rp_event.0200.e: "Set birthplace: [county_e.GetNameNoTier]." #NT!
- agot_rp_event.0200.f: "Set birthplace: [county_f.GetNameNoTier]." #NT!
- agot_rp_event.0200.g: "Set birthplace: [county_g.GetNameNoTier]." #NT!
- agot_rp_event.0200.h: "Set birthplace: [county_h.GetNameNoTier]." #NT!
- agot_rp_event.0200.i: "Set birthplace: [county_i.GetNameNoTier]." #NT!
- agot_rp_event.0200.j: "Set birthplace: [county_j.GetNameNoTier]." #NT!
- agot_rp_event.0200.k: "I have changed my mind." #NT!
+ agot_rp_event.0200.t: "Birthplace"
+ agot_rp_event.0200.desc: "You can select any of [recipient.GetTitledFirstNamePossessive] counties as your place of birth."
+ agot_rp_event.0200.a: "Set birthplace: [county_a.GetNameNoTier]."
+ agot_rp_event.0200.b: "Set birthplace: [county_b.GetNameNoTier]."
+ agot_rp_event.0200.c: "Set birthplace: [county_c.GetNameNoTier]."
+ agot_rp_event.0200.d: "Set birthplace: [county_d.GetNameNoTier]."
+ agot_rp_event.0200.e: "Set birthplace: [county_e.GetNameNoTier]."
+ agot_rp_event.0200.f: "Set birthplace: [county_f.GetNameNoTier]."
+ agot_rp_event.0200.g: "Set birthplace: [county_g.GetNameNoTier]."
+ agot_rp_event.0200.h: "Set birthplace: [county_h.GetNameNoTier]."
+ agot_rp_event.0200.i: "Set birthplace: [county_i.GetNameNoTier]."
+ agot_rp_event.0200.j: "Set birthplace: [county_j.GetNameNoTier]."
+ agot_rp_event.0200.k: "I have changed my mind."
   
- agot_rp_event.0201.t: "Birthplace" #NT!
- agot_rp_event.0201.desc: "#EMP You can set your birthplace by right-clicking on any landed character's portrait and selecting #S "Set Birthplace"." #NT!
- agot_rp_event.0201.a: "Thanks, I will do it." #NT!
- agot_rp_event.0201.b: "I don't want to choose my birthplace." #NT!
+ agot_rp_event.0201.t: "Birthplace"
+ agot_rp_event.0201.desc: "#EMP You can set your birthplace by right-clicking on any landed character's portrait and selecting #S "Set Birthplace"."
+ agot_rp_event.0201.a: "Thanks, I will do it."
+ agot_rp_event.0201.b: "I don't want to choose my birthplace."
   
- # Height 
- smol_tol_tt: "You have selected #P Smol Tol Height#!" #NT!
- tol_tt: "You have selected #P Tol Height#!" #NT!
- # Ears 
- dumbo_ears_tt: "You have selected #P Dumbo Ears#!" #NT!
- # Hair 
- cool_silver_hair_tt: "You have selected #P Cool Silver Hair#!" #NT!
- cool_neutral_silver_hair_tt: "You have selected #P Cool Neutral Silver Hair#!" #NT!
- neutral_silver_hair_tt: "You have selected #P Neutral Silver Hair#!" #NT!
- silver_blonde_hair_tt: "You have selected #P Silver Blonde Hair#!" #NT!
- silver_gold_hair_tt: "You have selected #P Silver Gold Hair#!" #NT!
- black_hair_tt: "You have selected #P Black Hair#!" #NT!
- light_blonde_hair_tt: "You have selected #P Light Blonde Hair#!" #NT!
- gold_hair_tt: "You have selected #P Gold Hair#!" #NT!
- bronze_hair_tt: "You have selected #P Bronze Hair#!" #NT!
- light_red_hair_tt: "You have selected #P Light Red Hair#!" #NT!
- red_hair_tt: "You have selected #P Red Hair#!" #NT!
- kissed_by_fire_hair_tt: "You have selected #P Kissed by Fire Hair#!" #NT!
- auburn_hair_tt: "You have selected #P Auburn Hair#!" #NT!
- brown_hair_tt: "You have selected #P Brown Hair#!" #NT!
- dark_brown_hair_tt: "You have selected #P Dark Brown Hair#!" #NT!
- light_blue_eyes_tt: "You have selected #P Light Blue Eyes#!" #NT!
- blue_eyes_tt: "You have selected #P Blue Eyes#!" #NT!
- midnight_eyes_tt: "You have selected #P Midnight Eyes#!" #NT!
- seaglass_eyes_tt: "You have selected #P Seaglass Eyes#!" #NT!
- seafoam_eyes_tt: "You have selected #P Seafoam Eyes#!" #NT!
- emerald_eyes_tt: "You have selected #P Emerald Eyes#!" #NT!
- grey_eyes_tt: "You have selected #P Grey Eyes#!" #NT!
- gold_eyes_tt: "You have selected #P Gold Eyes#!" #NT!
- light_brown_eyes_tt: "You have selected #P Light Brown Eyes#!" #NT!
- brown_eyes_tt: "You have selected #P Brown Eyes#!" #NT!
- black_eyes_tt: "You have selected #P Black Eyes#!" #NT!
- purple_eyes_1_tt: "You have selected #P Purple Eyes 1#!" #NT!
- purple_eyes_2_tt: "You have selected #P Purple Eyes 2#!" #NT!
- purple_eyes_3_tt: "You have selected #P Purple Eyes 3#!" #NT!
- purple_eyes_4_tt: "You have selected #P Purple Eyes 4#!" #NT!
- purple_eyes_5_tt: "You have selected #P Purple Eyes 5#!" #NT!
- purple_eyes_6_tt: "You have selected #P Purple Eyes 6#!" #NT!
- purple_eyes_7_tt: "You have selected #P Purple Eyes 7#!" #NT!
- purple_eyes_8_tt: "You have selected #P Purple Eyes 8#!" #NT!
- purple_eyes_9_tt: "You have selected #P Purple Eyes 9#!" #NT!
- purple_eyes_10_tt: "You have selected #P Purple Eyes 10#!" #NT!
- purple_eyes_11_tt: "You have selected #P Purple Eyes 11#!" #NT!
- purple_eyes_12_tt: "You have selected #P Purple Eyes 12#!" #NT!
- purple_eyes_13_tt: "You have selected #P Purple Eyes 13#!" #NT!
- purple_eyes_14_tt: "You have selected #P Purple Eyes 14#!" #NT!
- purple_eyes_15_tt: "You have selected #P Purple Eyes 15#!" #NT!
- purple_eyes_16_tt: "You have selected #P Purple Eyes 16#!" #NT!
+  # Height 
+ smol_tol_tt: "You have selected #P Smol Tol Height#!"
+ tol_tt: "You have selected #P Tol Height#!"
+  # Ears 
+ dumbo_ears_tt: "You have selected #P Dumbo Ears#!"
+  # Hair 
+ cool_silver_hair_tt: "You have selected #P Cool Silver Hair#!"
+ cool_neutral_silver_hair_tt: "You have selected #P Cool Neutral Silver Hair#!"
+ neutral_silver_hair_tt: "You have selected #P Neutral Silver Hair#!"
+ silver_blonde_hair_tt: "You have selected #P Silver Blonde Hair#!"
+ silver_gold_hair_tt: "You have selected #P Silver Gold Hair#!"
+ black_hair_tt: "You have selected #P Black Hair#!"
+ light_blonde_hair_tt: "You have selected #P Light Blonde Hair#!"
+ gold_hair_tt: "You have selected #P Gold Hair#!"
+ bronze_hair_tt: "You have selected #P Bronze Hair#!"
+ light_red_hair_tt: "You have selected #P Light Red Hair#!"
+ red_hair_tt: "You have selected #P Red Hair#!"
+ kissed_by_fire_hair_tt: "You have selected #P Kissed by Fire Hair#!"
+ auburn_hair_tt: "You have selected #P Auburn Hair#!"
+ brown_hair_tt: "You have selected #P Brown Hair#!"
+ dark_brown_hair_tt: "You have selected #P Dark Brown Hair#!"
+ light_blue_eyes_tt: "You have selected #P Light Blue Eyes#!"
+ blue_eyes_tt: "You have selected #P Blue Eyes#!"
+ midnight_eyes_tt: "You have selected #P Midnight Eyes#!"
+ seaglass_eyes_tt: "You have selected #P Seaglass Eyes#!"
+ seafoam_eyes_tt: "You have selected #P Seafoam Eyes#!"
+ emerald_eyes_tt: "You have selected #P Emerald Eyes#!"
+ grey_eyes_tt: "You have selected #P Grey Eyes#!"
+ gold_eyes_tt: "You have selected #P Gold Eyes#!"
+ light_brown_eyes_tt: "You have selected #P Light Brown Eyes#!"
+ brown_eyes_tt: "You have selected #P Brown Eyes#!"
+ black_eyes_tt: "You have selected #P Black Eyes#!"
+ purple_eyes_1_tt: "You have selected #P Purple Eyes 1#!"
+ purple_eyes_2_tt: "You have selected #P Purple Eyes 2#!"
+ purple_eyes_3_tt: "You have selected #P Purple Eyes 3#!"
+ purple_eyes_4_tt: "You have selected #P Purple Eyes 4#!"
+ purple_eyes_5_tt: "You have selected #P Purple Eyes 5#!"
+ purple_eyes_6_tt: "You have selected #P Purple Eyes 6#!"
+ purple_eyes_7_tt: "You have selected #P Purple Eyes 7#!"
+ purple_eyes_8_tt: "You have selected #P Purple Eyes 8#!"
+ purple_eyes_9_tt: "You have selected #P Purple Eyes 9#!"
+ purple_eyes_10_tt: "You have selected #P Purple Eyes 10#!"
+ purple_eyes_11_tt: "You have selected #P Purple Eyes 11#!"
+ purple_eyes_12_tt: "You have selected #P Purple Eyes 12#!"
+ purple_eyes_13_tt: "You have selected #P Purple Eyes 13#!"
+ purple_eyes_14_tt: "You have selected #P Purple Eyes 14#!"
+ purple_eyes_15_tt: "You have selected #P Purple Eyes 15#!"
+ purple_eyes_16_tt: "You have selected #P Purple Eyes 16#!"

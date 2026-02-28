@@ -1,0 +1,6 @@
+﻿l_german:
+ select_dynastic_nickname: "Proclaim Dynastic Nickname" #NT!
+ select_dynastic_nickname_desc: "The great houses of the realm are intrinsically tied to their sigils. It is time for us to adopt the cloak of a symbol through which we will be recognised across the realm." #NT!
+ select_dynastic_nickname_tooltip: "Select a symbol for your house's nicknames" #NT!
+ select_dynastic_nickname_tt: "You will be given the opportunity to select a symbol for your house's nicknames." #NT!
+ select_dynastic_nickname_confirm: "Know me!" #NT!

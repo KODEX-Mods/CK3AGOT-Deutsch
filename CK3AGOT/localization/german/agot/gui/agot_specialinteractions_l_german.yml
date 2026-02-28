@@ -1,0 +1,50 @@
+﻿l_german:
+ AGOT_CANNOT_BANISH_LIEGE: "[recipient.GetSheHe|U] ist Euer [liege|E]: $VALUE|=+0$"
+ AGOT_CANNOT_BANISH_LIEGE_FAMILY: "[recipient.GetSheHe|U] ist ein [close_family_member|E] von Eurem [liege|E]: $VALUE|=+0$"
+ AGOT_CANNOT_BANISH_PEER: "[recipient.GetSheHe|U] ist ein [recipient.GetTitleTierName]: $VALUE|=+0$"
+ AGOT_CANNOT_BANISH_PEER_FAMILY: "[recipient.GetSheHe|U] gehört zu einer mächtigen Familie: $VALUE|=+0$"
+ AGOT_CANNOT_BANISH_OUTSIDER: "[recipient.GetSheHe|U] ist ein Außenseiter: $VALUE|=+0$"
+  
+ character_to_knight_exists: "Es gibt keinen geeigneten Ritter an [CHARACTER.GetShortUINamePossessiveNoTooltip] Hof"
+ character_to_knight_exists_first: "No possible knight exists in your court"
+ character_to_squire_exists: "Keiner an [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] [court|E] kann ein [squire|E] werden"
+  
+ CONVINCING_PERK: "Ist überzeugend: $VALUE|=+0$"
+ CHARISMATIC_PERK: "Ist charismatisch: $VALUE|=+0$"
+  
+ HISTORICAL_NOT_ADMIN_REASON: "Historical [recipient.GetCulture.GetHeritage.GetNameNoTooltip] disdain for [administrative|E] [government|E]: $VALUE|=+0$" #NT!
+  
+ AGOT_LEGITIMATE_HOUSE_MARRIAGE_GOOD: "[secondary_actor.GetFirstName] is a member of a relevant [agot_legitimate_house|E]: $VALUE|=+0$"
+ AGOT_LEGITIMATE_HOUSE_MARRIAGE_GOOD_OWN: "You are a member of a relevant [agot_legitimate_house|E]: $VALUE|=+0$"
+ AGOT_POSSIBLE_HEIR_REASON: "[secondary_recipient.GetShortUIName|U] is in line of succession: $VALUE|=+0$"
+  
+ WILDLING_BLOCK: "Geteilt durch die Mauer: $VALUE|=+0$"
+ MTCLAN_BLOCK: "Verborgen im Grünen Tal: $VALUE|=+0$"
+ WILDLING_CULTURE_BLOCK: "Konflikt der Wildlingskulturen: $VALUE|=+0$"
+ WILDLING_MARRIAGE_PHYSIQUEGOOD: "[secondary_actor.GetFirstNamePossessive] sturdy constitution: $VALUE|=+0$"
+ WILDLING_MARRIAGE_PHYSIQUEGOOD_OWN: "Your sturdy constitution: $VALUE|=+0$"
+ WILDLING_MARRIAGE_PHYSIQUEBAD: "[secondary_actor.GetFirstNamePossessive] feeble constitution: $VALUE|=+0$"
+ WILDLING_MARRIAGE_PHYSIQUEBAD_OWN: "Your feeble constitution: $VALUE|=+0$"
+ WILDLING_MARRIAGE_LOOKSGOOD: "[secondary_actor.GetFirstNamePossessive] good looks: $VALUE|=+0$"
+ WILDLING_MARRIAGE_LOOKSGOOD_OWN: "Your good looks: $VALUE|=+0$"
+ WILDLING_MARRIAGE_LOOKSBAD: "[secondary_actor.GetFirstNamePossessive] unfortunate Appearance: $VALUE|=+0$"
+ WILDLING_MARRIAGE_LOOKSBAD_OWN: "Your unfortunate Appearance: $VALUE|=+0$"
+ WILDLING_MARRIAGE_SMART: "[secondary_actor.GetFirstNamePossessive] quick wits: $VALUE|=+0$"
+ WILDLING_MARRIAGE_SMART_OWN: "Your quick wits: $VALUE|=+0$"
+ WILDLING_MARRIAGE_DUMB: "[secondary_actor.GetFirstNamePossessive] dull mind: $VALUE|=+0$"
+ WILDLING_MARRIAGE_DUMB_OWN: "Your dull mind: $VALUE|=+0$"
+ WILDLING_MARRIAGE_MISSHAPEN: "[secondary_actor.GetFirstName] is misshapen: $VALUE|=+0$"
+ WILDLING_MARRIAGE_MISSHAPEN_OWN: "You are misshapen: $VALUE|=+0$"
+ WILDLING_MARRIAGE_FECUND: "[secondary_actor.GetFirstName] is fecund: $VALUE|=+0$"
+ WILDLING_MARRIAGE_FECUND_OWN: "You are fecund: $VALUE|=+0$"
+ WILDLING_MARRIAGE_STRONG: "[secondary_actor.GetFirstName] is strong: $VALUE|=+0$"
+ WILDLING_MARRIAGE_STRONG_OWN: "You are strong: $VALUE|=+0$"
+ AGOT_HOUSE_ALREADY_HAS_ROYAL_MAR: "Your [house|e] already has a royal marriage: $VALUE|=+0$"
+ AGOT_DIVIDED_DYNASTY_MARRIAGE_REASON: "Your [houses|e] are severed by [GetModifier('divided_dynasty_house_modifier').GetNameWithTooltip]: $VALUE|=+0$" #NT!
+ agot_grant_title_blocked: "You cannot give away this [title|E]"
+ AGOT_IS_DWARF: "[secondary_actor.GetFirstName] is a dwarf: $VALUE|=+0$" #NT!
+ AGOT_PIRATE_MARRYING_OUTSIDE_GOVT: "[secondary_actor.GetFirstName] is a [pirate_govt|E]: $VALUE|=+0$" #NT!
+  
+ grant_only_one_settlement_at_a_time: "#N #italic Can only grant one [settlement_holding|E] at a time#!#!\n" #NT!
+ recipient_at_settlement_limit: "#N #italic [recipient.GetShortUINameNotMe] is at their [settlement_holding_limit|E]#!#!\n" #NT!
+ recipient_needs_to_border_settlement_county: "#N #italic [recipient.GetShortUINameNotMe] needs to border the settlement county they are being granted#!#!\n" #NT!

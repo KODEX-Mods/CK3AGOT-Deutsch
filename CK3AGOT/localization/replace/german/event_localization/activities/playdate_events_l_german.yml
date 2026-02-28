@@ -361,8 +361,8 @@
   
  playdate_studied_ancient_tomes_together_log_title: "Zwei Studenten des Vergangenen"
  #AGOT Modified 
- #playdate_studied_ancient_tomes_together_log: "[CHARACTER.GetTitledFirstName] and [TARGET_CHARACTER.GetTitledFirstName] were taught ancient wisdoms by the realm's prelate" #NT!
- playdate_studied_ancient_tomes_together_log: "[CHARACTER.GetTitledFirstName] and [TARGET_CHARACTER.GetTitledFirstName] were taught ancient wisdoms by a local scholar" #NT!
+ #playdate_studied_ancient_tomes_together_log: "[CHARACTER.GetTitledFirstName] and [TARGET_CHARACTER.GetTitledFirstName] were taught ancient wisdoms by the realm's prelate"
+ playdate_studied_ancient_tomes_together_log: "[CHARACTER.GetTitledFirstName] and [TARGET_CHARACTER.GetTitledFirstName] were taught ancient wisdoms by a local scholar"
   
  playdate_kicked_in_shins_log_title: "Getretenes Schienenbein"
  playdate_kicked_in_shins_log: "[CHARACTER.GetTitledFirstName] wurde von [TARGET_CHARACTER.GetTitledFirstName] während eines freundschaftlichen Spiels heftig getreten"

@@ -1,0 +1,457 @@
+﻿l_german:
+  #Ethoses 
+ ethos_festive_name: "Feierlich"
+ ethos_festive_desc: "Sogar angesichts bitterster Lebensmühe schaffst es diese Kultur Seelenheil in Gemeindefesten und gemeinsamen Gelächter zu finden."
+ ethos_mystic_name: "Mystisch"
+ ethos_mystic_desc: "Die Pläne der Götter sind undurchsichtig und unerkennbar, aber das hindert diese Kultur nicht daran, durch den Nebel in die tieferen Geheimnisse dieser Welt zu blicken."
+ ethos_methodical_name: "Durchdacht"
+ ethos_methodical_desc: "Der ruhige Schritt verhindert den Fall, und die Menschen dieser Kultur machen keinen Schritt, ohne alle möglichen Konsequenzen zu bedenken."
+ ethos_assertive_name: "Assertive" #NT!
+ ethos_assertive_desc: "Only by taking what they need will a civilization flourish, an idea this culture has embraced. How they do so, by either arms or words, makes no difference." #NT!
+ culture_parameter_ethos_assertive_truce_breaking_twenty_five_cheaper: "[legitimacy|E], [prestige|E], and [piety|E] losses are reduced by #P -25%#! when breaking [truces|E]" #NT!
+ culture_parameter_ethos_assertive_additional_contract_change: "[feudal|E] [vassal_contracts|E] can be adjusted by #P +1#! additional change" #NT!
+ ethos_fervent_name: "Fervent" #NT!
+ ethos_fervent_desc: "When a culture is united in faith, it can survive, thrive, and prosper, for it is through the divine that a people truly advance." #NT!
+ culture_parameter_ethos_fervent_same_faith_increased_vassalization_acceptance: "Members of the same faith are more likely to accept vassalization" #NT!
+ culture_parameter_ethos_fervent_same_faith_increased_vassalization_acceptance_tt: "Fervent [ethos|E] and same [faith|E]: $VALUE|=+0$" #NT!
+  
+  #AGOT Tradition Effects 
+ culture_parameter_gluttonous_trait_bonuses: "Die [GetTrait('gluttonous').GetName( GetNullCharacter )] [traits|E] gewähren zusätzliche Boni"
+ culture_parameter_forder_trait_bonuses: "#italic Von den Flüssen#!: Die [GetTrait('forder').GetName( GetNullCharacter )] [traits|E] gewähren zusätzliche Boni"
+ culture_parameter_rough_terrain_trait_bonuses: "Die [GetTrait('rough_terrain_expert').GetName( GetNullCharacter )] [traits|E] gewähren zusätzliche Boni"
+ culture_parameter_can_recruit_forder_specialist: "Die Befehlshaber mit [GetTrait('forder').GetName( GetNullCharacter )] [traits|E] können rekrutiert werden."
+ culture_parameter_can_have_paramours: "Die Charaktere können offen Liebschaften haben, die sie aus Liebe gewählt haben und nicht um politischer Allianzen willen."
+ culture_parameter_the_mark_trait_gives_bonuses: "#italic Kinder der Wellen#!: Die [GetTrait('the_mark').GetName( GetNullCharacter )] [traits|E] gewähren zusätzliche Boni"
+ culture_parameter_cheaper_tour_activity: "The [GetActivityType( 'activity_tour' ).GetName] activity is #P 10%#! cheaper" #NT!
+ cheaper_tour_activity_discount: "[GetPlayer.GetCulture.GetName] [culture|E]" #NT!
+  
+  #Child Traits 
+ culture_parameter_bossy_trait_more_common: "[children|E] are more likely to get the [GetTrait('bossy').GetName( GetNullCharacter )] [trait|E]"
+ culture_parameter_curious_trait_more_common: "[children|E] are more likely to get the [GetTrait('curious').GetName( GetNullCharacter )] [trait|E]"
+  
+  #Common Traits 
+ culture_parameter_greedy_trait_more_common: "The [GetTrait('greedy').GetName( GetNullCharacter )] [trait|E] is more common"
+ culture_parameter_arrogant_trait_more_common: "The [GetTrait('arrogant').GetName( GetNullCharacter )] [trait|E] is more common"
+ culture_parameter_wrathful_trait_more_common: "The [GetTrait('wrathful').GetName( GetNullCharacter )] [trait|E] is more common" #NT!
+ culture_parameter_brave_trait_more_common: "The [GetTrait('brave').GetName( GetNullCharacter )] [trait|E] is more common" #NT!
+ culture_parameter_dragon_dreams_more_common: "The [GetTrait('dragon_dreams').GetName( GetNullCharacter )] [trait|E] is more common" #NT!
+ culture_parameter_cannibal_trait_is_more_common: "The [GetTrait('cannibal').GetName( GetNullCharacter )] [trait|E] is more common" #NT!
+ culture_parameter_greensight_more_common: "The [GetTrait('greensight').GetName( GetNullCharacter )] [trait|E] is more common" #NT!
+ culture_parameter_fashionable_trait_more_common: "The [GetTrait('fashionable').GetName( GetNullCharacter )] [trait|E] is more common" #NT!
+  
+  #Commander Traits 
+ culture_parameter_organizer_trait_more_common: "The [GetTrait('organizer').GetName( GetNullCharacter )] [commander_trait|E] is more common"
+ culture_parameter_aggressive_attacker_trait_more_common: "The [GetTrait('aggressive_attacker').GetName( GetNullCharacter )] [commander_trait|E] is more common"
+ culture_parameter_cautious_leader_trait_more_common: "The [GetTrait('cautious_leader').GetName( GetNullCharacter )] [commander_trait|E] is more common"
+ culture_parameter_holy_warrior_trait_more_common: "The [GetTrait('holy_warrior').GetName( GetNullCharacter )] [commander_trait|E] is more common"
+ culture_parameter_logistician_trait_more_common: "The [GetTrait('logistician').GetName( GetNullCharacter )] [commander_trait|E] is more common"
+ culture_parameter_military_engineer_trait_more_common: "The [GetTrait('military_engineer').GetName( GetNullCharacter )] [commander_trait|E] is more common"
+ culture_parameter_forder_trait_more_common: "The [GetTrait('forder').GetName( GetNullCharacter )] [commander_trait|E] is more common"
+ culture_parameter_open_terrain_expert_trait_more_common: "The [GetTrait('open_terrain_expert').GetName( GetNullCharacter )] [commander_trait|E] is more common" #NT!
+ culture_parameter_reaver_trait_more_common: "The [GetTrait('reaver').GetName( GetNullCharacter )] [commander_trait|E] is more common" #NT!
+  
+  #Terrain Bonuses 
+ culture_parameter_wetlands_trait_bonuses: "Some [commander_traits|E] and [personality_traits|E] have extra Wetlands bonuses"
+ culture_parameter_plains_trait_bonuses: "Some [commander_traits|E] and [personality_traits|E] have extra Plains bonuses"
+ culture_parameter_steppe_trait_bonuses: "Some [commander_traits|E] and [personality_traits|E] have extra Steppe bonuses" #NT!
+ culture_parameter_urban_trait_bonuses: "Some [commander_traits|E] and [personality_traits|E] have extra Urban bonuses" #NT!
+ culture_parameter_bog_hunt_success_chance: "Increased [hunt_success_chance|E] in [GetTerrain( 'the_bog' ).GetName]" #NT!
+  
+  #Trait Valued 
+ culture_parameter_shrewd_trait_more_valued: "The [GetTrait('shrewd').GetName( GetNullCharacter )] [trait|E] is more valued"
+ culture_parameter_knight_trait_more_valued: "The [GetTrait('knight').GetName( GetNullCharacter )] [trait|E] is more valued" #NT!
+ culture_parameter_just_trait_more_valued: "The [GetTrait('just').GetName( GetNullCharacter )] [trait|E] is more valued" #NT!
+ culture_parameter_cul_more_likely_born_with_mark: "Characters of this culture are more likely to be born with [GetTrait('the_mark').GetName( GetNullCharacter )]" #NT!
+ culture_parameter_cannibal_trait_more_valued: "The [GetTrait('cannibal').GetName( GetNullCharacter )] [trait|E] is more valued" #NT!
+ culture_parameter_poet_trait_more_valued: "The [GetTrait('lifestyle_poet').GetName( GetNullCharacter )] [trait|E] is more valued" #NT!
+  
+  #Trait Looked Down Upon 
+ culture_parameter_slave_master_trait_looked_down_upon: "The [GetTrait('slave_master').GetName( GetNullCharacter )] [trait|E] is looked down upon"
+ culture_parameter_cynical_trait_looked_down_upon: "The [GetTrait('cynical').GetName( GetNullCharacter )] [trait|E] is looked down upon"
+ culture_parameter_zealous_trait_looked_down_upon: "The [GetTrait('zealous').GetName( GetNullCharacter )] [trait|E] is looked down upon"
+ culture_parameter_content_trait_looked_down_upon: "The [GetTrait('content').GetName( GetNullCharacter )] [trait|E] is looked down upon"
+ culture_parameter_humble_trait_looked_down_upon: "The [GetTrait('humble').GetName( GetNullCharacter )] [trait|E] is looked down upon"
+ culture_parameter_lazy_trait_looked_down_upon: "The [GetTrait('lazy').GetName( GetNullCharacter )] [trait|E] is looked down upon"
+ culture_parameter_wrathful_trait_looked_down_upon: "The [GetTrait('wrathful').GetName( GetNullCharacter )] [trait|E] is looked down upon"
+ culture_parameter_craven_looked_down_upon: "The [GetTrait('craven').GetName( GetNullCharacter )] [trait|E] is looked down upon" #NT!
+ culture_parameter_shy_trait_looked_down_upon: "The [GetTrait('shy').GetName( GetNullCharacter )] [trait|E] is looked down upon" #NT!
+ culture_parameter_gluttonous_looked_down_upon: "The [GetTrait('gluttonous').GetName( GetNullCharacter )] [trait|E] is looked down upon" #NT!
+ culture_parameter_arbitrary_trait_looked_down_upon: "The [GetTrait('arbitrary').GetName( GetNullCharacter )] [trait|E] is looked down upon" #NT!
+ culture_parameter_disloyal_looked_down_upon: "The [GetTrait('disloyal').GetName( GetNullCharacter )] [trait|E] is looked down upon" #NT!
+  
+  #Wanderers Extra Skills 
+ culture_parameter_wanderers_gain_extra_learning_skills: "[wanderers|E] gain extra knowledge skills over time, such as [learning|E] or [lifestyle_traits|E]"
+ culture_parameter_wanderers_gain_extra_intrigue_skills: "[wanderers|E] gain extra plotting skills over time, such as [intrigue|E] or [lifestyle_traits|E]"
+ culture_parameter_wanderers_gain_extra_diplomacy_skills: "[wanderers|E] gain extra statecraft skills over time, such as [diplomacy|E] or [lifestyle_traits|E]"
+  
+  #Buildings 
+ culture_parameter_city_holdings_more_dev: "[city_holdings|E] give more [development|E]"
+ culture_parameter_city_holdings_more_levies: "[city_holdings|E] give more [levies|E]"
+ culture_parameter_city_holdings_more_taxes: "[city_holdings|E] give more [taxes|E]"
+ culture_parameter_city_holding_fort_level_bonus: "[fort_level|E] per level of #V $building_type_city_01$#!: [fort_level_i]#P +1#!"
+ culture_parameter_better_workshop_bonuses: "The #V $building_type_workshops_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
+ culture_parameter_better_farm_estates_bonuses: "The #V $building_type_farm_estates_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]" #NT!
+ culture_parameter_better_farm_bonuses: "The #V $building_type_cereal_fields_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
+ culture_parameter_better_smith_buildings: "The #V $building_type_smiths_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
+ culture_parameter_better_bakeries_bonuses: "The #V $building_type_agot_urban_farms_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]" #NT!
+ culture_parameter_better_watermill_bonuses: "The #V $building_type_watermills_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]" #NT!
+ culture_parameter_better_regimental_bonuses: "The #V $building_type_regimental_grounds_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]" #NT!
+ culture_parameter_better_barracks_bonuses: "The #V $building_type_barracks_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]" #NT!
+ culture_parameter_watermills_without_innovations_unlock: "The #V $building_type_watermills_01$#! line of [buildings|E] do not require innovations to be built" #NT!
+ culture_parameter_control_gain_on_building_complete: "Gain #P 15#! [control|E] when a [building|E] is constructed #weak (up to once a year)#!" #NT!
+ culture_parameter_piety_gain_on_building_complete: "Gain [piety|E] when a [building|E] is constructed" #NT!
+  
+  
+  #Misc 
+ culture_parameter_shortened_truce_period: "Shorter [truces|E]"
+ culture_parameter_more_slaves_from_raiding: "More slaves are captured when using a #V Raid for Slaves#! [casus_bellis|E]"
+ culture_parameter_gain_piety_from_aggro_war_victory: "Winning wars as the primary attacker will grant [piety|E]" #NT!
+ culture_parameter_guardians_add_more_prowess_to_wards: "Children will gain additional [prowess|E] if they have a [guardian|E] of this [culture|E]" #NT!
+ culture_parameter_slightly_hard_to_convert_county_faith: "County Conversion Resistance: #P +10%#!" #NT!
+ culture_parameter_fashionistas_marriage_acceptance_bonus: "[marriage|E] Acceptance: #P +10#!" #NT!
+  
+  #Triggers and Tooltips 
+ TRADITION_SLIGHTLY_HARD_TO_CONVERT_CONVERSION_MODIFIER: "$tradition_agot_first_men_name$ [culture_tradition|E]: $VALUE|=+0$" #NT!
+ TRADITION_BONUS_WEDDING_CEREMONIES_FASHIONISTAS: "$tradition_agot_fashionistas_name$ [culture_tradition|E]: $VALUE|+=0$" #NT!
+  
+  #Realm Traditions 
+ tradition_agot_insular_marriage_name: "Insular Marriage" #NT!
+ tradition_agot_insular_marriage_desc: "While not isolationist, this culture still prefers to marry within their own people." #NT!
+  
+ tradition_agot_debug_name: "Debug" #NT!
+ tradition_agot_debug_desc: "How did you get here?" #NT!
+  
+  #Societal Traditions 
+ tradition_agot_fashionistas_name: "Caress the Fabric" #NT!
+ tradition_agot_fashionistas_desc: "I see that the fashion wears out more apparel than the man." #NT!
+  
+  #Traditions 
+ tradition_agot_blackwater_bay_name: "Domain of the Crown" #NT!
+ tradition_agot_blackwater_bay_desc: "The Crownlands are the newest of the regions of Westeros, forged by the houses and peoples sworn directly to the Iron Throne. As a result, they have taken on its characteristics and ways of life. Dominated by the city of King's Landing, more and more people are beginning to live in cities and adopt more urban styles of living." #NT!
+  
+ tradition_agot_vale_andal_heritage_name: "Faith and Fury" #NT!
+ tradition_agot_vale_andal_heritage_desc: "The Andals hail from Northern Essos, though none know precisely where. With the continued expansion of the land-hungry Valyrian Freehold, the Andals were forced to flee from their native homelands to Westeros, sweeping over everywhere south of the Neck and bringing their religious fervor and traditions of knighthood and chivalry along with them." #NT!
+  
+ tradition_agot_valeman_finger_name: "Humble Service" #NT!
+ tradition_agot_valeman_finger_desc: "The Fingers are a dreary, windswept place, so assailed by the winds from the frigid north that little vegetation grows near their tips. There is little living to be made for the smallfolk beyond herding grazing animals, as there's scant land to make usable cropland. Thus, the Fingermen live modest lives, and the goatherds and sharecroppers find some contentment in their unforgiving home." #NT!
+  
+ tradition_agot_honeywiner_name: "Soft and Sweet" #NT!
+ tradition_agot_honeywiner_desc: "The men of the Honeywine and its surrounding lands are some of the most prosperous in all Westeros. With fertile lands and the great city of Oldtown, much trade flows through the river that gives the people their name. With the Citadel and Starry Sept, the area is a bastion of learning in Westeros, with even many smallfolk being lettered." #NT!
+  
+ tradition_agot_valeman_upper_name: "High Above" #NT!
+ tradition_agot_valeman_upper_desc: "Set apart from their kin who make their homes in the Vale's fertile valleys, the men who dwell in the heights of the Mountains of the Moon are a far more rugged, stalwart folk. In times of war, it is they who man the first lines of defense against outside incursions, and with their lives at high altitude, it is also they who must deal most with incursions from the Mountain Clansmen." #NT!
+  
+ tradition_agot_reachman_name: "Greenhand's Glory" #NT!
+ tradition_agot_reachman_desc: "The Reach is a prosperous and fertile land built on the backs of hardworking smallfolk. It is also a land of families with some of the oldest roots in Westeros, dating back to the mythical Garth Greenhand, from whom most prominent Reachmen families claim descent. With so many families striving for prominence in a wealthy land, the ties that bind them are stronger and more important than elsewhere in Westeros." #NT!
+  
+ tradition_agot_riverlands_name: "Rewards of the River" #NT!
+ tradition_agot_riverlands_desc: "The Rivermen are a people often caught between the powers around them, yet they tend to thrive when they have a strong king of their own. The Trident and its tributaries define their lives more than anything else, and from these waters they prosper." #NT!
+  
+ tradition_agot_shieldman_name: "Guarding the Mander" #NT!
+ tradition_agot_shieldman_desc: "Named after their primary function as a shield against Ironborn attacks, the Shield Isles are a collective of four well-fortified islands of the Reach, overseen by four separate houses. A loyal (although arguably isolated) people, those of the Shield Isles are known for their hardy temperaments and sense of duty. The islands are famous for their beacons, which elders in watchtowers light island by island to spread warnings of incoming longships to inland settlements. Above all else, those from the Shield Isles value themselves as a first line of naval defense." #NT!
+  
+ tradition_agot_stormlands_name: "Like Unto Their Weather" #NT!
+ tradition_agot_stormlands_desc: "The Stormlanders are a hardy bunch, well known for their martial inclinations and their quickness to anger. The men and women of the Stormlands have weathered the wrath of men, nature, and even the gods themselves, and yet they not only remain, but prosper." #NT!
+  
+ tradition_agot_marches_name: "Wars Beyond Count" #NT!
+ tradition_agot_marches_desc: "The Marches have long been the crossroads of the Stormlands, the Reach, and Dorne, witnessing countless battles since the Dawn Age. The people who call them home are known for their martial skill, fierce stubbornness, and constant alertness to all would-be threats." #NT!
+  
+ tradition_agot_stone_dornish_name: "Guarding the Passes" #NT!
+ tradition_agot_stone_dornish_desc: "The Stone Dornish are ethnically and culturally the least Rhoynar-influenced of the Dornish. Living in the heights and valleys of the Red Mountains, their culture has been shaped by their generations of conflict with the Marcher lords of the Reach and Stormlands, ardently defending their mountain passes from outside incursions." #NT!
+  
+ tradition_agot_vale_name: "Mountain and Vale" #NT!
+ tradition_agot_vale_desc: "The old kingdom of the Arryns is dominated by the Mountains of the Moon and the vales that run between them, chiefly the Vale of Arryn. These two features have isolated the peoples east of them from the rest of Westeros and united them." #NT!
+  
+ tradition_agot_vineman_name: "Wine, Women, and Song" #NT!
+ tradition_agot_vineman_desc: "Ever since the coming of Gilbert of the Vines, the men of the Arbor have known but one thing: wine. The vineyards of the Arbor are legendary in Westeros and beyond for the quality wine they produce, and many a merchant and sailor set their anchors in Ryamsport to buy the finest Arbor reds." #NT!
+  
+ tradition_agot_westerman_name: "Of Gold and Silver" #NT!
+ tradition_agot_westerman_desc: "The Westerlands, at first glance, seem like a paltry place; not the largest or most populous of the Seven Kingdoms, it is nevertheless the wealthiest. What it lacks in rolling fields of fertile farmland, it more than makes up for with the bounty of its hills, rich with gold and silver. It is this abundance of valuable minerals that the power of the Westerlands is built upon, and its nobles jealously guard their mines against those who look on, envious of their wealth." #NT!
+  
+ tradition_agot_north_name: "Bound by Bronze and Iron" #NT!
+ tradition_agot_north_desc: "The Northrons, the men and women who call the North their home, are a grim and hardy people. United by the Hungry Wolf thousands of years ago, the peoples are as varied as the lands they call home, and yet all are bound by their ancient oaths." #NT!
+  
+ tradition_agot_sisterman_name: "Beneath the Brine" #NT!
+ tradition_agot_sisterman_desc: "For much of their history, the Sistermen had more in common with the Ironborn than the men of the Vale or North. For millennia, the Sistermen were ruled by their pirate-kings, pillaging along the shores of the Bite to provide for themselves what their windswept isles could not, worshipping strange deities unknown to both the Andals and First Men." #NT!
+  
+ tradition_agot_ironmen_name: "Carved from Pale Wood" #NT!
+ tradition_agot_ironmen_desc: "The Ironmen are a scourge from the seas, yet their influence ebbs and flows like the tides that bring them. At times they are confined solely to their islands in the Sunset Sea; at others, they have spread to the Green Lands and ruled there. However, they always remain united by their ancient ties to the Grey King who dwells below." #NT!
+  
+ tradition_agot_dorne_rhoynish_heritage_name: "Children of the Mother Rhoyne" #NT!
+ tradition_agot_dorne_rhoynish_heritage_desc: "Rhoynish civilization is ancient and illustrious. So deep is the history of the Rhoynar that some credit them with teaching the Andals how to smith and work with iron. Hailing from the city-states along the river Rhoyne, the Rhoynar worship numerous gods of the river and also have a special affinity for all manner of boats, from small fishing vessels to obscene pleasure barges. Rhoynish culture is notably different from that of the Andals, with equal inheritance being the norm for both women and men, and same-sex relations being accepted. The Rhoynar are known for embracing works of art and music, which may be partially why some Rhoynar cultural practices were so quick to catch on when the Rhoyne arrived in Dorne." #NT!
+  
+ tradition_agot_greenblood_name: "Fluvial Orphanage" #NT!
+ tradition_agot_greenblood_desc: "After fleeing Essos and arriving in Dorne, the Orphans of the Greenblood earned their self-imposed titles by refusing to adopt Dornish customs and assimilate, choosing instead to live as the 'orphans' of the river Rhoyne — the river they call 'mother.' The Orphans of the Greenblood and their descendants cling to Rhoynar culture and beliefs, still speaking the Rhoynish Tongue behind closed doors and in secrecy, living on rafts along the river Greenblood from which they take their name." #NT!
+  
+ tradition_agot_salt_dornish_name: "The Blood of Nymeria" #NT!
+ tradition_agot_salt_dornish_desc: "With the most Rhoynar blood flowing through their veins of any Dornishmen, the Salt Dornish live on the more temperate coastlands of Dorne. They carry on many of the egalitarian traditions brought to Dorne by Nymeria and make for fine sailors, with the ports spotting the Dornish coast bringing them much prosperity." #NT!
+  
+ tradition_agot_sand_dornish_name: "Desert and Dune" #NT!
+ tradition_agot_sand_dornish_desc: "Eking out their existence in the harsh desert that they call home, the Sand Dornish are resilient, ruthless people. Their castles and settlements are based around the rare sources of water in their desert homeland, which they ardently defend. They are a naturally daring and adventurous people, with many of the noble houses in the region descending from those brave few who set out on expeditions into the harsh dunes." #NT!
+  
+ tradition_agot_wildling_name: "Ferocious, Savage, and Wild" #NT!
+ tradition_agot_wildling_desc: "Where the majority of peoples and societies progress and grow, there are groups that refuse to bow before progress, what can be seen by the many Wildlings in Westeros. The majority of them are found Beyond the Wall, but there are groups found in the Mountains of the Moon. These tribal groups are fierce, if undeveloped, and can become threats in large numbers." #NT!
+  
+ tradition_agot_moon_clan_name: "Above the Setting Sun" #NT!
+ tradition_agot_moon_clan_desc: "In the depths of the Mountains of the Moon dwell its clansmen, the most savage and uncivilized men anywhere south of the Wall. They are the last true remnants of the First Men in the Vale, their mountainous home protecting them from the onslaught of the Andals, leaving them to continue their primitive ways without much outside intervention." #NT!
+  
+ tradition_agot_rushlander_name: "Where Rivers Meet Hills" #NT!
+ tradition_agot_rushlander_desc: "A culture born on the border of the Vale and the Riverlands, Rushlanders are a hardy people adapted to life in the hills as well as the rivers." #NT!
+  
+ tradition_agot_harsh_laws_name: "Harsh Rule" #NT!
+ tradition_agot_harsh_laws_desc: "Society shapes the laws. History has shown that it's natural for a harsh land to give rise to harsh people, and they, in turn, make harsh laws to rule by." #NT!
+  
+ tradition_agot_thenn_name: "The Last of the First" #NT!
+ tradition_agot_thenn_desc: "Known as the more 'sophisticated' of the free folk by those south of the Wall, the Thenns consider themselves to be the last remaining First Men. The inhabitants of the mountain valley in the Frostfangs interact more with giants than with other cultures but have managed to learn the occasional word or sentence in Common Tongue, despite having never deviated from the Old Tongue they still speak today. Priding themselves in their belief in Magnar, the Thenn are somewhat more disciplined and organized than other free folk, and have managed to amass an impressive bronze armory. While those south of the Wall may consider the Thenn to be savage, they are more than capable, often coming into conflict with the Night's Watch." #NT!
+  
+ tradition_agot_andalos_name: "Hills Under the Stars" #NT!
+ tradition_agot_andalos_desc: "It was to Hugor that the Seven-Who-Are-One anointed upon the hill in Andalos with seven stars and tasked to bring the Andals to Westeros, their divine reward for maintaining the compact with the Seven-Who-Are-One." #NT!
+  
+ tradition_agot_braavos_name: "Freed from the Slavers' Chains" #NT!
+ tradition_agot_braavos_desc: "Unique amongst the Free Cities, Braavos was formed by escaped slaves on their way to Valyria, and thus is made up of peoples from all over the known world and beyond. This has shaped Braavos into a city and nation of many peoples, where one rule reigns above all: 'No man, woman, or child in Braavos will ever be a slave, thrall, or bondsman.'" #NT!
+  
+ tradition_agot_religious_fc_name: "In Search of Religious Purity" #NT!
+ tradition_agot_religious_fc_desc: "The Freehold was a blending of many peoples, from the Valyrians, to the Andals, Rhoynar, Ghiscari, and others, not counting the numerous slaves from beyond its borders. To keep control of such varied peoples, the Dragonlords allowed the worship of all, which was hated by some of the most zealous of their subjects, who left to found their own cities in search of religious purity." #NT!
+  
+ tradition_agot_three_daughters_name: "Caught Between Siblings" #NT!
+ tradition_agot_three_daughters_desc: "When the Freehold fell to the Doom, its empire was broken, with the different cities all striving for dominance. This can be seen most clearly in the Disputed Lands, where Lys, Myr, and Tyrosh all struggle against each other, with the common people trapped between them in their endless conflict." #NT!
+  
+ tradition_agot_pentos_name: "Bred Through the Mingling" #NT!
+ tradition_agot_pentos_desc: "The Pentoshi are a people believed to have been the product of Valyrian settlers and the native Andals who called the region home before, and thus were born the Pentoshi." #NT!
+  
+ tradition_agot_doom_name: "Cloaked by the Doom" #NT!
+ tradition_agot_doom_desc: "The Doom forever changed the world, and it still remains a mystery to this day. Those who escaped the cataclysmic destruction are still cloaked by it to this day." #NT!
+  
+ tradition_agot_slavers_bay_name: "Enthralled by the Trade" #NT!
+ tradition_agot_slavers_bay_desc: "The lifeblood of the Old Empire and even the Freehold was the slave trade. It is from this trade that a people can prosper and grow to build their own future, even if it comes at the cost of another people's freedom." #NT!
+  
+ tradition_agot_ghis_name: "In the Grasp of the Great" #NT!
+ tradition_agot_ghis_desc: "Through discipline and fortitude did the Old Empire of Ghis rise and spread. Despite the use of slaves, the Old Empire was built on the strength of arms of free men in the Lockstep Legions, and so great was their training and order that no other armies of men could stand against them, only dragons and their flames." #NT!
+  
+ tradition_agot_rhoynar_name: "Upon the Mother of Rivers" #NT!
+ tradition_agot_rhoynar_desc: "It is upon the Rhoyne, the great river of western Essos, that one of the great civilizations of the world arose. The Rhoynar are famed for the beauty of their cities and the use and teaching of smelting iron." #NT!
+  
+ tradition_agot_candling_name: "Beneath the Great Candle" #NT!
+ tradition_agot_candling_desc: "All hail the Great Candle. All shall worship the Great Candle. The Great Candle is wise. The Great Candle is our master; it will choose who will go and who will stay. CAN-DLE, CAN-DLE, CAN-DLE..." #NT!
+  
+  #Unique Cultural 
+ tradition_agot_andalosi_name: "Purified through Flame" #NT!
+ tradition_agot_andalosi_desc: "#italic “Qarlon the Great burned with his army, and afterward the dragonlords flew onward, bringing blood and fire to the isles of Lorath. Qarlon's great keep went up in flames, as did the towns and fishing villages along his shores. Even the great stones of the mazes were scorched and blackened by the firestorms that swept across the islands. It is said that not a man, woman, or child survived the Scouring of Lorath, so hot did those fires burn.”#!" #NT!
+  
+ tradition_agot_andal_name: "Chasing the Sunset" #NT!
+ tradition_agot_andal_desc: "#italic “...it is said that the Seven themselves walked among their people in the hills of Andalos, and it was they who crowned Hugor of the Hill and promised him and his descendants great kingdoms in a foreign land. This is what the septons and septas teach as the reason why the Andals left Essos and struck west to Westeros,”#!" #NT!
+  
+ tradition_agot_braavosi_name: "Carried by Purple Sails" #NT!
+ tradition_agot_braavosi_desc: "#italic “And because they had risked their lives in the name of freedom, the mothers and fathers of the new city vowed that no man, woman, or child in Braavos should ever be a slave, a thrall, or a bondsman. This is the First Law of Braavos, engraved in stone on the arch that spans the Long Canal. From that day to this, the Sealords of Braavos have opposed slavery in all its forms and have fought many a war against slavers and their allies.”#!" #NT!
+  
+ tradition_agot_lorathi_name: "In the Blindness of Isle and Maze" #NT!
+ tradition_agot_lorathi_desc: "#italic “These new Lorathi were at first subservient to the followers of Boash who had come before them, and for many years the priests of the Blind God continued to rule the islands. In time, however, the numbers of newcomers swelled whilst the ranks of the faithful dwindled. The worship of Boash fell away, as the priests who remained became more worldly and corrupt, forsaking their hair shirts, hoods, and piety and growing fat and rich off the taxes they extracted from those they ruled. Finally the fishermen, farmers, and other smallfolk rose in rebellion, throwing off the shackles of Boash.”#!" #NT!
+  
+ tradition_agot_lyseni_name: "Love of the Twilight" #NT!
+ tradition_agot_lyseni_desc: "#italic “The Lyseni are also great breeders of slaves, mating beauty with beauty in hopes of producing ever more refined and lovely courtesans and bedslaves. The blood of Valyria still runs strong in Lys, where even the smallfolk often boast pale skin, silver-gold hair, and the purple, lilac, and pale blue eyes of the dragonlords of old. The Lysene nobility values purity of blood above all and have produced many famous (and infamous) beauties.”#!" #NT!
+  
+ tradition_agot_myrish_name: "Clarity of the Lens" #NT!
+ tradition_agot_myrish_desc: "#italic “Trade has been the life of Myr ever since, and Myrish ships have plied the waters of the Narrow Sea for centuries. The artisans of Myr, many of slave birth, are also greatly renowned; Myrish lace and Myrish tapestries are said to be worth their weight in gold and spice, and Myrish lenses have no equal in all the world.”#!" #NT!
+  
+ tradition_agot_norvoshi_name: "In the Sound of Bell and Hair" #NT!
+ tradition_agot_norvoshi_desc: "#italic “Though Great Norvos dominates the headwaters of the Rhoyne today, the Norvoshi are not descended from the Rhoynar who ruled that mighty river of old. Like the other Free Cities, Norvos is a daughter of Valyria.”#!" #NT!
+  
+ tradition_agot_pentoshi_name: "With Chains of Debt" #NT!
+ tradition_agot_pentoshi_desc: "#italic “The first Pentoshi were merchants, traders, seafarers, and farmers, with few of high birth amongst them; perhaps for this reason, they were less protective of their Valyrian blood and more willing to breed with the original inhabitants of the lands they ruled.”#!" #NT!
+  
+ tradition_agot_hartalari_name: "Under Three Heels" #NT!
+ tradition_agot_hartalari_desc: "#italic “The wars amongst Tyrosh, Lys, and Myr have not only fueled the births of the free companies in the Disputed Lands but have brought about the formation of fleets of pirates and seaborne mercenaries as well, sellsails ready to fight for whoever will pay. Most are based in the Stepstones, the isles that dot the narrow wea between the Broken Arm and the eastern coast.”#!" #NT!
+  
+ tradition_agot_qohorik_name: "In the Dark of Forest and Forge" #NT!
+ tradition_agot_qohorik_desc: "#italic “The artisans of Qohor are far famed. Qohorik tapestries, woven primarily by the women and children of the city, are just as fine as those woven in Myr, though less costly. Exquisite (if somewhat disturbing) wood carvings can be bought in Qohor's market, and the city's forges have no peer.”#!" #NT!
+  
+ tradition_agot_tyroshi_name: "Wealth of the Snails" #NT!
+ tradition_agot_tyroshi_desc: "#italic “Tyroshi dyers soon learned to produce scarlet, crimson, and deep indigo dyes as well by varying the diet of the snails. Later centuries saw them devise dyes of a hundred other shades and hues, some naturally and some through alchemy. Brightly colored garments won the favor of lords and princes the world over, and the dyes that produced them all came from Tyrosh. The city grew rich, and with wealth came ostentation. Tyroshi delight in flamboyant display, and men and women both delight in dyeing their hair in garish and unnatural colors.”#!" #NT!
+  
+ tradition_agot_volantene_name: "First of the Daughters" #NT!
+ tradition_agot_volantene_desc: "#italic “After the Doom engulfed Valyria and the Lands of the Long Summer, Volantis asserted its right to rule over all the other Valyrian colonies throughout the world. Such was the might of the #italic “First Daughter”#! that for a time she succeeded in establishing hegemony over several of the other Free Cities...”#!" #NT!
+  
+ tradition_agot_essosi_valyrian_name: "Blood of the Old" #NT!
+ tradition_agot_essosi_valyrian_desc: "#italic “Many of the Old Blood of Volantis still keep the old gods of Valyria, but their faith is found primarily within the Black Walls. Without, the red god R'hllor is favored by many, especially among the slaves and freedmen of the city.”#!" #NT!
+  
+ tradition_agot_astapori_name: "Mastered by the Kind" #NT!
+ tradition_agot_astapori_desc: "#italic “Bricks and blood built Astapor, and bricks and blood her people, an old rhyme says, referring to the redbricked walls of the city and of the blood shed by the thousands of slaves who would live, labor, and die constructing them. Ruled by men who name themselves the Good Masters, Astapor is best known for the creation of the eunuch slave-soldiers called the Unsullied—men raised from boyhood to be fearless warriors who feel no pain.”#!" #NT!
+  
+ tradition_agot_yunkaii_name: "Mastered by the Wise" #NT!
+ tradition_agot_yunkaii_desc: "#italic “Of Yunkai, the yellow city, little needs be said, for it is a most disreputable place. The men who rule it, calling themselves the Wise Masters, are steeped in corruption, selling bed slaves and boy-whores and worse.”#!" #NT!
+  
+ tradition_agot_meereenese_name: "Mastered by the Great" #NT!
+ tradition_agot_meereenese_desc: "#italic “The most formidable of the cities along Slaver's Bay is ancient Meereen, but like the rest, it is a crumbling place, its population a fraction of what it once supported at the height of the Old Empire. Its walls of many-colored bricks contain endless suffering, for the Great Masters of Meereen train slaves to fight and die at their pleasure in the blood-soaked fighting pits.”#!" #NT!
+  
+ tradition_agot_ghiscari_name: "By Grasping the Thunderbolts" #NT!
+ tradition_agot_ghiscari_desc: "#italic “Old Ghis: a city built upon slavery. The legendary founder of the city, Grazdan the Great, remains so revered that men of the slaver families are still often given his name. It was he who, according to the oldest histories of the Ghiscari, founded the lockstep legions with their tall shields and three spears, which were the first to fight as disciplined bodies. Old Ghis and its army proceeded to colonize its surroundings, then, pressing on, to subjugate its neighbors. Thus was the first empire born, and for centuries it reigned supreme.”#!" #NT!
+  
+ tradition_agot_rhoynish_name: "Sworn through Shells of Water" #NT!
+ tradition_agot_rhoynish_desc: "#italic “A few, such as the Rhoynar, lasted against the tide for centuries, or even millennia. The Rhoynar, who founded great cities along the Rhoyne, were said to be the first to learn the art of iron-making.”#!" #NT!
+  
+ tradition_agot_chroyanar_name: "Through the Love of Festivals" #NT!
+ tradition_agot_chroyanar_desc: "#italic “...and Chroyane, greatest of all, the festival city with its great Palace of Love.”#!" #NT!
+  
+ tradition_agot_mellar_name: "Atop the Marsh of Flowers" #NT!
+ tradition_agot_mellar_desc: "#italic “...pale Sar Mell of the flowers;”#!" #NT!
+  
+ tradition_agot_qhoynar_name: "Raised with Fists of Marble" #NT!
+ tradition_agot_qhoynar_desc: "#italic “Ar Noy on the Qhoyne, with its halls of green marble;”#!" #NT!
+  
+ tradition_agot_sarhar_name: "Fed with Canals of Salt" #NT!
+ tradition_agot_sarhar_desc: "#italic “...sea-girt Sarhoy with its canals and saltwater gardens;”#!" #NT!
+  
+ tradition_agot_sarar_name: "Alive with Song of Fountains" #NT!
+ tradition_agot_sarar_desc: "#italic “Ny Sar, the city of fountains, alive with song;”#!" #NT!
+  
+  #Triggers 
+ ibbenese_heritage_trigger: "Die [culture|E] muss ovn Ibbenesicher [heritage|E] sein"
+ westerosi_heritage_trigger: "Die [culture|E] muss von Westerosi [heritage|E] sein"
+  
+  #Dreams of Essos - Culture Specific Traditions 
+ tradition_agot_axemen_name: "Grasping the Axe" #NT!
+ tradition_agot_axemen_desc: "#italic “The Andals brought iron weapons with them and suits of iron plates, against which the tribes that inhabited those lands could do little.”#!" #NT!
+  
+ tradition_agot_essari_name: "In the Sight of Sun and Sky" #NT!
+ tradition_agot_essari_desc: "#italic “The Valyrian colony Essaria, sometimes remembered as the Lost Free City,”#!" #NT!
+  
+ tradition_agot_noynar_name: "Through the Hills of Fur" #NT!
+ tradition_agot_noynar_desc: "#italic “...where the Mother gathers in her Wild Daughter, Noyne,”#!" #NT!
+  
+ tradition_agot_valyrian_original_name: "Will of the Freehold" #NT!
+ tradition_agot_valyrian_original_desc: "#italic “The Valyrians had no kings but instead called themselves the Freehold because all the citizenry who held land had a voice.”#!" #NT!
+  
+ tradition_agot_dothraki_sea_name: "Upon the Great Grass Sea" #NT!
+ tradition_agot_dothraki_sea_desc: "#italic “Those who make their homes upon the Great Grass Sea live a nomadic lifestyle,”#!" #NT!
+  
+ tradition_agot_dothraki_name: "Mounting the World" #NT!
+ tradition_agot_dothraki_desc: "#italic “Travelers name these the Haunted Lands for the many ruined cities that dot them, or the Great Desolation for their emptiness, but it is as the Dothraki sea that these grasslands are best known today. That usage is comparatively recent, however, for the Dothraki are a young race, and it was only since the Doom destroyed Valyria that their khalasars came to dominate these lands, sweeping out of the east with fire and steel to conquer and destroy the ancient cities that once thrived here and carrying off their peoples into bondage.”#!" #NT!
+  
+ tradition_agot_grass_sea_name: "Under the Hoof" #NT!
+ tradition_agot_grass_sea_desc: "#italic “...sunlight on the Dothraki sea, the living plain, rich with the smells of earth and death. Wind stirred the grasses, and they rippled like water.”#!" #NT!
+  
+ tradition_agot_lhazareen_name: "A United Flock" #NT!
+ tradition_agot_lhazareen_desc: "#italic “...the people of this country named themselves the Lhazareen, but the Dothraki called them haesh rakhi, the Lamb Men.”#!" #NT!
+  
+ tradition_agot_omberi_name: "A Willing Tributary" #NT!
+ tradition_agot_omberi_desc: "#italic “Those bold enough to continue still farther east will next pass the shores of the small, pastoral Kingdom of Omber, whose craven kings and feeble princes are best known for the grain, gems, and girls they pay the Dothraki horselords each year to be left unmolested.”#!" #NT!
+  
+ tradition_agot_sarnori_name: "Scions of the Fisher Queens" #NT!
+ tradition_agot_sarnori_desc: "#italic “The Kingdom of Sarnor (so called, though it boasted twoscore rival kings) was amongst the known world's great civilizations for more than two thousand years, yet much of what we know of them comes only from fragments of their otherwise lost histories, most notably the Summer and Winter Annals, and records of them from Qarth, Slaver's Bay, and the Free Cities. Sarnori traders traveled to Valyria and Yi Ti, to Leng and Asshai. Sarnori ships sailed the Shivering Sea to Ib and the Thousand Islands and Far Mossovy. Sarnori kings warred against the Qaathi and the Old Empire of Ghis, and led many a foray against the bands of nomadic horsemen who roamed the steppes to their east.”#!" #NT!
+  
+ tradition_agot_tagaez_fen_name: "Scions of the Towers" #NT!
+ tradition_agot_tagaez_fen_desc: "#italic “Westeros remembers their conquerors as the Sarnori, for at its height their great kingdom included all the lands watered by the Sarne and its vassals, and the three great lakes that were all that remained of the shrinking Silver Sea. They called themselves the Tall Men (in their own tongue the Tagaez Fen). Long of limb and brown of skin they were, like the Zoqora, though their hair and eyes were black as night. Warriors, sorcerers, and scholars, they traced their descent to the hero king they called Huzhor Amai (the Amazing), born of the last of the Fisher Queens,”#!" #NT!
+  
+ tradition_agot_trimbaez_fen_name: "Scions of the Caravans" #NT!
+ tradition_agot_trimbaez_fen_desc: "#italic “Eastward rose Kasath, City of Caravans;”#!" #NT!
+  
+ tradition_agot_goraez_fen_name: "Scions of the Lake" #NT!
+ tradition_agot_goraez_fen_desc: "#italic “Gornath by the Lake, with its canals;”#!" #NT!
+  
+ tradition_agot_zanhar_fen_name: "Scions of the Scholars" #NT!
+ tradition_agot_zanhar_fen_desc: "#italic “Sallosh by the Silver Shore, City of Scholars, with its vast library and Painted Walls.”#!" #NT!
+  
+ tradition_agot_madekh_fen_name: "Scions of the Soldiers" #NT!
+ tradition_agot_madekh_fen_desc: "#italic “Here, too, stood Mardosh, the City of Soldiers, renowned as Mardosh the Unconquerable.”#!" #NT!
+  
+ tradition_agot_gilal_fen_name: "Scions of the Waterfalls" #NT!
+ tradition_agot_gilal_fen_desc: "#italic “Sathar, the Waterfall City, at the juncture of two branches of the Sarne;”#!" #NT!
+  
+ tradition_agot_giren_fen_name: "Scions of the Hills" #NT!
+ tradition_agot_giren_fen_desc: "#italic “Sarnori traders traveled to Valyria and Yi Ti, to Leng and Asshai.”#!" #NT!
+  
+ tradition_agot_cenaakh_fen_name: "Scions of the Temples" #NT!
+ tradition_agot_cenaakh_fen_desc: "#italic “Only there are the hundred gods of the Kingdom of Sarnor still worshipped.”#!" #NT!
+  
+ tradition_agot_zivylar_fen_name: "Scions of the Coins" #NT!
+ tradition_agot_zivylar_fen_desc: "#italic “Downstream, where the Sarne turned north, the prosperous river cities Rathylar, Hornoth, and Kyth served the ships that plied her deep blue waters.”#!" #NT!
+  
+ tradition_agot_cewi_fen_name: "Scions of the Twin" #NT!
+ tradition_agot_cewi_fen_desc: "#italic “The ruins of Saath's sister city Sarys, sacked and destroyed by a Dothraki khal centuries ago, can be found across the width of the delta.”#!" #NT!
+  
+ tradition_agot_dawiz_fen_name: "Scions of the Last" #NT!
+ tradition_agot_dawiz_fen_desc: "#italic “...only Saath remains unruined today, and that port city is a sad place, much diminished from what it once was,”#!" #NT!
+  
+ tradition_agot_cymmeri_name: "With a Wife's Cuirass" #NT!
+ tradition_agot_cymmeri_desc: "#italic “...his Cymer wife made his armor (for her people were the first to work iron)”#!" #NT!
+  
+ tradition_agot_gipps_name: "With a Wife's Shield" #NT!
+ tradition_agot_gipps_desc: "#italic “...the long-legged Gipps with their wicker shields and lime-stiffened hair,”#!" #NT!
+  
+ tradition_agot_zoqora_name: "With a Wife's Drive" #NT!
+ tradition_agot_zoqora_desc: "#italic “His Zoqora wife drove his chariot, it is said,”#!" #NT!
+  
+ tradition_agot_first_clans_name: "Blowers of the Horn" #NT!
+ tradition_agot_first_clans_desc: "#italic “...and in ancient days Joramun, who blew the Horn of Winter and woke giants from the earth.”#!" #NT!
+  
+ tradition_agot_nonteloshi_name: "With Bonds of Courtesy" #NT!
+ tradition_agot_nonteloshi_desc: "#italic “We speak of Nine Free Cities, though across the width of Essos one may find many other Valyrian towns, settlements, and outposts, some larger and more populous than Gulltown, White Harbor, or even Lannisport. The distinction that sets the Nine apart is not their size but their origins.”#!" #NT!
+  
+ tradition_agot_valemen_main_name: "Chivalry of Falcons" #NT!
+ tradition_agot_valemen_main_desc: "#italic “As with the Valemen, some submitted to the Andals, even taking up the faith of the Seven. In many cases, the Andals took the wives and daughters of the defeated kings to wife, as a means of solidifying their right to rule. For, despite everything, the First Men were far more numerous than the Andals and could not simply be forced aside.”#!" #NT!
+  
+ tradition_agot_valemen_finger_name: "Stone-Carved Stars" #NT!
+ tradition_agot_valemen_finger_desc: "#italic “It's agreed by the septons, the singers, and the maesters alike that the first place where the Andals landed was on the Fingers in the Vale of Arryn. Carvings of the seven-pointed star are scattered upon the rocks and stones throughout that area—a practice that eventually fell out of use as the Andal conquests progressed.”#!" #NT!
+  
+ tradition_agot_valemen_upper_name: "High Above All" #NT!
+ tradition_agot_valemen_upper_desc: "#italic “The high road from the riverlands through the Mountains of the Moon has seen much blood spilled, for steep and stony as it is, it provides the most likely way for an army to enter the Vale.”#!" #NT!
+  
+ tradition_agot_sistermen_name: "Wave-Beached Treasures" #NT!
+ tradition_agot_sistermen_desc: "#italic “The last isles to be wedded to the Vale were the Three Sisters. For thousands of years, these islands had boasted their own cruel kings, pirates and raiders whose longships sailed the Bite, the narrow sea, and even the Shivering Sea with impunity, plundering and reaving as they would and returning to the Sisters laden with gold and slaves.”#!" #NT!
+  
+ tradition_agot_rivermen_main_name: "Upon the Trident's Forks" #NT!
+ tradition_agot_rivermen_main_desc: "#italic “Memories of ancient wrongs and bygone betrayals were not oft put aside by the lords of the Trident, whose enmities ran as deep as the rivers that watered their lands.”#!" #NT!
+  
+ tradition_agot_crownlander_name: "Born of the Blackwater" #NT!
+ tradition_agot_crownlander_desc: "#italic “He called his loyal lords to King's Landing, but all that came were minor lords of the crownlands...”#!" #NT!
+  
+ tradition_agot_clawmen_name: "Will of the Claw" #NT!
+ tradition_agot_clawmen_desc: "#italic “...regaling them with tales of Crackclaw Point. Every gloomy valley had its lord, he said, the lot of them united only by their mistrust of outsiders. In their veins the blood of the First Men ran dark and strong. "The Andals tried t' take Crackclaw, but we bled them in the valleys and drowned them in the bogs. Only what their sons couldn't win with swords, their pretty daughters won with kisses. They married into the houses they couldn't conquer, aye."”#!" #NT!
+  
+ tradition_agot_high_valyrian_name: "Blood of the Dragon" #NT!
+ tradition_agot_high_valyrian_desc: "#italic “The dragonlords of old Valyria had controlled their mounts with binding spells and sorcerous horns.”#!" #NT!
+  
+ tradition_agot_western_valyrian_name: "Gifts of the Tide" #NT!
+ tradition_agot_western_valyrian_desc: "#italic “...a family of old and storied Valyrian heritage who had come to Westeros before the Targaryens,”#!" #NT!
+  
+ tradition_agot_ironborn_name: "Paying the Iron Price" #NT!
+ tradition_agot_ironborn_desc: "#italic “War was an ironman's proper trade. The Drowned God had made them to reave and rape, to carve out kingdoms and write their names in fire and blood and song.”#!" #NT!
+  
+ tradition_agot_greenborn_name: "Ruling the Green Lands" #NT!
+ tradition_agot_greenborn_desc: "#italic “You may dress an ironman in silks and velvets, teach him to read and write and give him books, instruct him in chivalry and courtesy and the mysteries of the Faith... but when you look into his eyes, the sea will still be there, cold and grey and cruel.”#!" #NT!
+  
+ tradition_agot_first_men_name: "Conquer with Bronze and Steed" #NT!
+ tradition_agot_first_men_desc: "#italic “The First Men—who had brought with them strange gods, horses, cattle, and weapons of bronze—were also larger and stronger than the children, and so they were a significant threat.”#!" #NT!
+  
+ tradition_agot_northmen_name: "Ruled by Wolves and Winter" #NT!
+ tradition_agot_northmen_desc: "#italic “Hearth and heart and harvest we yield to you, my lord. Our swords and spears and arrows are yours to command. Grant mercy to our weak, help to our helpless, and justice to all, and we shall never fail you... I swear it by earth and water... I swear it by bronze and iron... We swear it by ice and fire.”#!" #NT!
+  
+ tradition_agot_bearmen_name: "Standing with Bear and Kin" #NT!
+ tradition_agot_bearmen_desc: "#italic “"She-bears, aye," said Lady Maege. "We have needed to be. In olden days the ironmen would come raiding in their longboats, or wildlings from the Frozen Shore. The men would be off fishing, like as not. The wives they left behind had to defend themselves and their children, or else be carried off."”#!" #NT!
+  
+ tradition_agot_wolfswood_clansmen_name: "Hunt by Fang and Feather" #NT!
+ tradition_agot_wolfswood_clansmen_desc: "#italic “The wolfswood is full of danger; your last ride should have taught you that.”#!" #NT!
+  
+ tradition_agot_northern_clans_name: "Armed with Mail and Ice" #NT!
+ tradition_agot_northern_clans_desc: "#italic “The map is not the land, my father often said. Men have lived in the high valleys and mountain meadows for thousands of years, ruled by their clan chiefs.”#!" #NT!
+  
+ tradition_agot_barrowmen_name: "Charging over Rills and Hills" #NT!
+ tradition_agot_barrowmen_desc: "#italic “There are barrows everywhere in the north, Your Grace... This land is old... And cold.”#!" #NT!
+  
+ tradition_agot_stoneborn_name: "Feast of Stone and Flesh" #NT!
+ tradition_agot_stoneborn_desc: "#italic “...well, only heart trees ever see half of what they do on Skagos.”#!" #NT!
+  
+ tradition_agot_krakenmen_name: "Birthed from Salt and Snow" #NT!
+ tradition_agot_krakenmen_desc: "#italic “Indeed, Cape Kraken, closest to the Iron Islands, has changed hands so many times that many maesters believe its populace to be closer in blood to the ironmen than to Northmen.”#!" #NT!
+  
+ tradition_agot_crannogmen_name: "Sworn by Earth and Water" #NT!
+ tradition_agot_crannogmen_desc: "#italic “Just as dangerous were its people, seldom seen but always lurking, the swamp-dwellers, the frog-eaters, the mud-men.”#!" #NT!
+  
+ tradition_agot_harbormen_name: "Welcomed with Snow and Silver" #NT!
+ tradition_agot_harbormen_desc: "#italic “They'd been great lords on the Mander until they overreached themselves and the green hands slapped them down. The wolf king took their gold, but he gave them land and let them keep their gods.”#!" #NT!
+  
+ tradition_agot_stormlander_main_name: "Warriors of Thunder" #NT!
+ tradition_agot_stormlander_main_desc: "#italic “Those who do choose to make their homes in the stormlands—whether along the stony shores of the narrow sea, amidst the dripping green forests of the rainwood, or on the windswept marches—are a special breed, however. The people of the stormlands are like unto their weather, it has oft been said: tumultuous, violent, implacable, unpredictable.”#!" #NT!
+  
+ tradition_agot_marcher_name: "Song of Swords" #NT!
+ tradition_agot_marcher_desc: "#italic “There in the sight of the Red Mountains, the great castles of the Marcher lords stand, built to guard the borders of the stormlands against Dornish incursions from the south and the steel-clad minions of the Kings of the Reach from the west.”#!" #NT!

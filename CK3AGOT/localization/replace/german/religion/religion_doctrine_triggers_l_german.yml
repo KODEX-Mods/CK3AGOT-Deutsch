@@ -26,6 +26,8 @@
  INCOMPATIBLE_TENET_SHARED_HOF_WORLD_VS_HUMSAC_GRUFES: "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$ Menschenopfer"
  INCOMPATIBLE_TENET_SHARED_HOF_MONOGAMY_VS_POLYGAMY: "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$ Vielehe"
  INCOMPATIBLE_TENET_SHARED_HOF_WORLD_VS_UNRESTRICTED_INCEST: "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$ Unbeschränkte Inzucht"
+ INCOMPATIBLE_TENET_SACRED_DESTRUCTION_TRIGGER: "Unvereinbar mit dem [core_tenet|E] „[GetFaithDoctrine('tenet_sacred_destruction').GetName(GetPlayer.GetFaith)]“"
+ INCOMPATIBLE_TENET_PRESERVATION_TRIGGER: "Unvereinbar mit dem [core_tenet|E] „[GetFaithDoctrine('tenet_preservation_trigger').GetName(GetPlayer.GetFaith)]“"
   
  INCOMPATIBLE_TENET_ARMED_PILGRIMAGES_VS_FORBIDDEN_PILGRIMAGES: "Unvereinbar mit der [doctrine|E] $doctrine_pilgrimage_name$: [GetFaithDoctrine('doctrine_pilgrimage_forbidden').GetBaseName]"
   
@@ -39,9 +41,9 @@
  DOCTRINE_PLURALISM_PLURALISTIC: "Unvereinbar mit der [doctrine|E] Pluralistisch"
  NOT_DOCTRINE_PLURALISM_PLURALISTIC: "Erfordert die [doctrine|E] Pluralistisch"
  DOCTRINE_UNRESTRICTED_CONSANGUINITY: "Unvereinbar mit der [doctrine|E] Unbeschränkte Heirat"
-  #AGOT modified 
- #NOT_DOCTRINE_UNRESTRICTED_CONSANGUINITY: "Requires the [doctrine|E] Unrestricted Marriage" #NT!
- NOT_DOCTRINE_UNRESTRICTED_CONSANGUINITY: "Requires the [doctrine|E] Unrestricted or Adelphogamous Marriage" #NT!
+  #AGOT Modified 
+ #NOT_DOCTRINE_UNRESTRICTED_CONSANGUINITY: "Requires the [doctrine|E] Unrestricted Marriage"
+ NOT_DOCTRINE_UNRESTRICTED_CONSANGUINITY: "Requires the [doctrine|E] Unrestricted or Adelphogamous Marriage"
  CANNOT_HAVE_TEMPORAL_HEAD_AND_THEOCRACY: "Ein Glaube kann nicht beides haben: eine Klerikale Tradition „[GetFaithDoctrine('doctrine_theocracy_temporal').GetBaseName]“ und ein Glaubensoberhaupt „[GetFaithDoctrine('doctrine_temporal_head').GetBaseName]“"
  CANNOT_HAVE_TEMPORAL_HEAD_AND_SPIRITUAL_APPOINTMENT: "Ein Glaube kann nicht beides haben: [GetFaithDoctrine('doctrine_clerical_succession_spiritual_appointment').GetBaseName]-Klerikale Ernennung und [GetFaithDoctrine('doctrine_temporal_head').GetBaseName]-Glaubensoberhaupt"
  DOCTRINE_REQUIRES_THEOCRATIC_HEAD_OF_FAITH_TRIGGER: "Erfordert die [doctrine|E] „[spiritual_head_of_faith|E]“"
@@ -58,6 +60,8 @@
  NOT_I_HAVE_DOCTRINE: "Euer [faith|E] hat #bold nicht#! die [doctrine|E] „[FAITH_DOCTRINE.GetName(FAITH.Self)]“"
  THEY_HAS_DOCTRINE: "[FAITH.GetName] hat die [doctrine|E] „[FAITH_DOCTRINE.GetName(FAITH.Self)]“"
  NOT_THEY_HAS_DOCTRINE: "[FAITH.GetName] hat #bold nicht#! die [doctrine|E] „[FAITH_DOCTRINE.GetName(FAITH.Self)]“"
+  
+ IN_RELIGION_FAMILY: "[RELIGION.GetName] ist [RELIGION.GetFamily.GetName]"
   
  HAS_DOCTRINE_PARAMETER: "Hat eine [doctrine|E] mit $PARAMETER_NAME$"
  NOT_HAS_DOCTRINE_PARAMETER: "Hat #bold keine#! [doctrine|E] mit $PARAMETER_NAME$"

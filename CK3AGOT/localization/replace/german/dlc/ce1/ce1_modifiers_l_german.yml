@@ -220,8 +220,8 @@
  plague_tales_desc: "Der Verfolgungswahn dieses Charakters in Bezug auf eine ferne Seuche wurde in ein tatkräftiges Eingreifen zum Schutz des eigenen Reichs gelenkt."
  plague_insights_gained: "Seucheneinsichten erlangt"
   #AGOT Modified 
- #plague_insights_gained_desc: "The timely dissection of a cadaver has given this character precious insight into the effects of the Bubonic Plague." #NT!
- plague_insights_gained_desc: "The timely dissection of a cadaver has given this character precious insight into the effects of the Sunset Plague." #NT!
+ #plague_insights_gained_desc: "The timely dissection of a cadaver has given this character precious insight into the effects of the Bubonic Plague."
+ plague_insights_gained_desc: "The timely dissection of a cadaver has given this character precious insight into the effects of the Sunset Plague."
  brutal_crackdown: "Grausames Durchgreifen"
  brutal_crackdown_desc: "Ein grausames Durchgreifen gegen Flüchtlinge an der Grenze hat die Obrigkeit gestärkt, aber auch viel Wut in dieser Baronie verursacht."
  shanty_towns: "Hüttensiedlungen"

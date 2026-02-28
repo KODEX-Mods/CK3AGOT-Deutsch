@@ -18,7 +18,7 @@
   #Translate old texts (Learning skill challenge), Mathilda Bjarnehed 
  martial_strategy.2000.t: "Lektionen der Vergangenheit"
   #AGOT Modified removed great for better flow with our triggered descs 
- #martial_strategy.2000.start.desc: "Though I will surely see many battlefields before I meet my maker, my library holds tales of war from a hundred lifetimes.\n\nI have recently acquired a tome on the great" #NT!
+ #martial_strategy.2000.start.desc: "Though I will surely see many battlefields before I meet my maker, my library holds tales of war from a hundred lifetimes.\n\nI have recently acquired a tome on the great"
  martial_strategy.2000.start.desc: "Obgleich ich sicher viele Schlachtfelder sehen werde, bevor ich vor meinen Schöpfer trete, enthält meine Bibliothek Kriegsgeschichten aus hundert Lebzeiten.\n\nIch habe kürzlich einen Folianten erhalten über die große"
  martial_strategy.2000.hastings.desc: "Schlacht von Hastings, "
  martial_strategy.2000.tours.desc: "Schlacht von Tours und Poitiers, "

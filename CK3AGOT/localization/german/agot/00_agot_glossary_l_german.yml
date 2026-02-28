@@ -1,13 +1,15 @@
 ﻿l_german:
   #FACE OF THE WEEK 
- FACE_OF_THE_WEEK_GLOSS: "Who are you? #italic No one?#! Well, all are welcome to the House of Black and White. Do you wish to don one of these fine faces? For even #italic no one#! can play the game of thrones as #italic anyone#!." #NT!
+ FACE_OF_THE_WEEK_GLOSS: "Who are you? #italic No one?#! Well, all are welcome to the House of Black and White. Do you wish to don one of these fine faces? For even #italic no one#! can play the game of thrones as #italic anyone#!."
+  
+  #LORE BATTLES 
+ REDGRASS_FIELD_GLOSS: "The battle where King Daeron II 'the Good' Targaryen's armies defeated those of Daemon I 'the Black Dragon' Blackfyre." #NT!
   
   #VALYRIAN 
- DOHAERAS_GLOSS: "High Valyrian for "Serve"" #NT!
- VALAR_DOHAERIS_GLOSS: "High Valyrian for "All men must serve" — and a secret code for the Faceless Men." #NT!
- VALAR_MORGHULIS_GLOSS: "High Valyrian for "All men must die" — and a secret code for the Faceless Men." #NT!
-  
+ DOHAERAS_GLOSS: "High Valyrian for "Serve""
+ VALAR_DOHAERIS_GLOSS: "High Valyrian for "All men must serve" — and a secret code for the Faceless Men."
+ VALAR_MORGHULIS_GLOSS: "High Valyrian for "All men must die" — and a secret code for the Faceless Men."
+ DRACARYS_GLOSS: "High Valyrian for "dragonfire" - used by dragonlords to command flames from their dragons." #NT!
   #OLD TONGUE 
- MAGNAR_GLOSS: "Old Tongue for "Lord"" #NT!
- CHILDREN_FOREST_GLOSS: "Old Tongue for "Little Squirrel People"" #NT!
-  
+ MAGNAR_GLOSS: "Old Tongue for "Lord""
+ CHILDREN_FOREST_GLOSS: "Old Tongue for "Little Squirrel People""

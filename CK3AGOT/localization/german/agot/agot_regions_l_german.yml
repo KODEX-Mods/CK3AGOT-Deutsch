@@ -10,14 +10,17 @@
  world_north_essos: "Nord-Essos"
  world_summer_sea: "das Sommermeer"
  world_slavers_bay: "die Sklavenbucht"
- world_essos_andalos: "Andalos" #NT!
- world_essos_pentos: "Pentos" #NT!
- world_essos_myr: "Myr" #NT!
- world_essos_tyrosh: "Tyrosh" #NT!
- world_essos_lys: "Lys" #NT!
- world_stepstones: "the Stepstones" #NT!
- world_essos_disputed_lands: "the Disputed Lands" #NT!
- world_essos_southern_free_cities: "Southern Free Cities" #NT!
+ world_essos_andalos: "Andalos"
+ world_essos_pentos: "Pentos"
+ world_essos_myr: "Myr"
+ world_essos_tyrosh: "Tyrosh"
+ world_essos_lys: "Lys"
+ world_stepstones: "the Stepstones"
+ world_essos_disputed_lands: "the Disputed Lands"
+ world_essos_southern_free_cities: "Southern Free Cities"
+  
+ world_essos_great_grass_sea: "Great Grass Sea" #NT!
+ world_essos_yi_ti: "Yi Ti" #NT!
   
  world_westeros_beyond_the_wall_thenn: "Thenn"
  world_westeros_beyond_the_wall_the_frostfangs: "die Frostfänge"
@@ -27,22 +30,22 @@
  world_westeros_beyond_the_wall: "Jenseits der Mauer"
  world_westeros_the_wall: "die Mauer"
   
- world_westeros_seven_kingdoms: "the Seven Kingdoms" #NT!
- world_westeros_seven_kingdoms_without_wall: "the Seven Kingdoms" #NT!
- world_westeros_seven_kingdoms_without_dorne: "the Seven Kingdoms excluding Dorne" #NT!
+ world_westeros_seven_kingdoms: "the Seven Kingdoms"
+ world_westeros_seven_kingdoms_without_wall: "the Seven Kingdoms"
+ world_westeros_seven_kingdoms_without_dorne: "the Seven Kingdoms excluding Dorne"
  world_westeros_dorne_stone: "Steindorne"
  world_westeros_dorne_rhoynish: "Rhoynisch Dorne"
  world_westeros_dorne: "Dorne"
- world_westeros_dornish_marches: "the Dornish Marches" #NT!
- world_westeros_dorne_red_dunes: "the Red Dunes" #NT!
- world_westeros_dornish_dustbowl: "the Dustbowl" #NT!
- world_westeros_dornish_mountains: "the Dornish Mountains" #NT!
+ world_westeros_dornish_marches: "the Dornish Marches"
+ world_westeros_dorne_red_dunes: "the Red Dunes"
+ world_westeros_dornish_dustbowl: "the Dustbowl"
+ world_westeros_dornish_mountains: "the Dornish Mountains"
  world_westeros_the_crownlands_reachman: "? PLACEHOLDER"
  world_westeros_the_crownlands_riverlander: "? PLACEHOLDER"
  world_westeros_the_crownlands_stormlander: "? PLACEHOLDER"
  world_westeros_the_crownlands_valyrian: "? PLACEHOLDER"
- world_westeros_dragonstone_island: "Dragonstone" #NT!
- world_westeros_dragonstone_kingdom: "Dragonstone" #NT!
+ world_westeros_dragonstone_island: "Dragonstone"
+ world_westeros_dragonstone_kingdom: "Dragonstone"
  world_westeros_the_crownlands: "die Kronlande"
  world_westeros_the_iron_islands: "die Eiseninseln"
  world_westeros_the_neck: "die Eng"
@@ -51,8 +54,8 @@
  world_westeros_the_riverlands: "die Flusslande"
  world_westeros_the_stormlands: "die Sturmlande"
  world_westeros_the_vale: "das Grüne Tal"
- world_westeros_the_vale_mainland: "the Vale Mainland" #NT!
+ world_westeros_the_vale_mainland: "the Vale Mainland"
  world_westeros_the_westerlands: "die Westlande"
  world_westeros_moonclans: "Mondclans"
   
- world_essos_free_cities: "the Free Cities" #NT!
+ world_essos_free_cities: "the Free Cities"

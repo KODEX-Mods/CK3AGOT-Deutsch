@@ -1,0 +1,209 @@
+﻿l_german:
+  
+  ######################### 
+  # DO A FLIP (0001-0004) # 
+  ######################### 
+  # 0001 
+ agot_travel_events_dragon.0001.t: "Flipping Out" #NT!
+ agot_travel_events_dragon.0001.desc: "As [pet_dragon.GetName] and I soar across the lands below, boredom begins to creep up on me. The novelty of taking off has passed, and my balance has begun to settle. Dragons are known for their ability to maneuver in the air during battle or while hunting, but such tricks carry their fair share of risks for a dragonrider.\n\nStill, it could liven up my journey to have a bit of fun." #NT!
+ agot_travel_events_dragon.0001.a: "How about a flip?" #NT!
+ agot_travel_events_dragon.0001.b: "Better safe than sorry." #NT!
+ agot_travel_events_dragon.0001.injury_warning: "@warning_icon! #X You may be injured.#!" #NT!
+ agot_travel_events_dragon.0001.success: "Success!" #NT!
+ agot_travel_events_dragon.0001.success.flip_past: "[pet_dragon.GetName] does a flip!" #NT!
+ agot_travel_events_dragon.0001.success.flip: "[pet_dragon.GetName] rears back, and I feel [pet_dragon.GetHerHis] weight shift beneath me as I hold on even tighter. For a few breathtaking moments, up is down and down is up, and the ground races past above me as the sky threatens to swallow me from below. Soon enough, all is as it should be, as [pet_dragon.GetNameNoTooltip] rights [pet_dragon.Custom('GetDragonHerselfHimself')] and returns to flying straight ahead, though my heart hammers in my chest with excitement." #NT!
+ agot_travel_events_dragon.0001.failure: "Failure!" #NT!
+ agot_travel_events_dragon.0001.failure.flip_past: "[pet_dragon.GetName] fails to do a flip..." #NT!
+ agot_travel_events_dragon.0001.failure.flip: "[pet_dragon.GetName] begins to rear back, but I am left scrambling as the dragon fails to shift [pet_dragon.Custom('GetDragonHerHis')] weight properly and twists uncomfortably in the sky. I nearly fall to my doom, but my leg painfully snags on the straps of my saddle. Climbing back up is an unpleasant thrill, but thankfully we manage to get back on course." #NT!
+ agot_travel_events_dragon.0001.no_attempt: "No point." #NT!
+ agot_travel_events_dragon.0001.no_attempt.flip: "It's not worth the risk..." #NT!
+  
+  
+  ############################ 
+  # BEAUTIFUL UP HERE (0005) # 
+  ############################ 
+  # 0005 
+ agot_travel_events_dragon.0005.t: "Beauty of the Heavens" #NT!
+ agot_travel_events_dragon.0005.desc: "As I fly with [pet_dragon.GetName], we breach the clouds, and a wondrous sight greets us both. On all sides we are surrounded by the domain of the very gods, soft walls of white marked by fierce grey, while the land beneath sprawls out like a map come to life." #NT!
+ agot_travel_events_dragon.0005.a: "It is all so calm, so far away from everything else." #NT!
+ agot_travel_events_dragon.0005.b: "How glorious! I share in the domain of the dragonriders of old!" #NT!
+ agot_travel_events_dragon.0005.c: "Being up here brings me closer to the gods." #NT!
+  
+  
+  ############################ 
+  # ANTSY DRAGON (0006-0010) # 
+  ############################ 
+  # 0006 
+ agot_travel_events_dragon.0006.t: "Antsy Dragon" #NT!
+ agot_travel_events_dragon.0006.desc: "All goes well on our flight until suddenly [pet_dragon.GetName] begins to buck and snort — growing antsy as we fly over some woods!\n\nWhether due to hunger, boredom, or distress, [pet_dragon.GetNameNoTooltip] definitely seems concerned with whatever lies below. What should I do?" #NT!
+ agot_travel_events_dragon.0006.a: "We have more important matters to attend to. Keep flying." #NT!
+ agot_travel_events_dragon.0006.a.tt: "You will not be delayed, but your dragon will be displeased that you ignored [pet_dragon.Custom('GetDragonHerHim')]." #NT!
+ agot_travel_events_dragon.0006.b: "Land, [pet_dragon.GetNameNoTooltip]. What troubles you?" #NT!
+ agot_travel_events_dragon.0006.b.tt: "You will be delayed." #NT!
+  
+  # 0007 
+ agot_travel_events_dragon.0007.t: "$agot_travel_events_dragon.0006.t$" #NT!
+ agot_travel_events_dragon.0007.desc: "[pet_dragon.GetName] lands with a thud, shaking me in my saddle. Upon scouting for the source of my dragon's discontent, we discover...\n\nNothing... [pet_dragon.GetNameNoTooltip] still seems agitated, but I can feel the tension slowly begin to fade as [pet_dragon.Custom('GetDragonHerHis')] body relaxes beneath me. Whatever might have spooked my dragon is either gone or never existed, and I can't help the pang of disappointment that hits me as I take the reins once more." #NT!
+ agot_travel_events_dragon.0007.a: "We all make mistakes occasionally. No harm done." #NT!
+ agot_travel_events_dragon.0007.b: "Insipid beast. We'd better not be late." #NT!
+  
+  # 0008 
+ agot_travel_events_dragon.0008.t: "$agot_travel_events_dragon.0006.t$" #NT!
+ agot_travel_events_dragon.0008.desc: "[pet_dragon.GetName] lands with a thud, shaking me in my saddle. Upon scouting for the source of my dragon's discontent, we discover...\n\n" #NT!
+ agot_travel_events_dragon.0008.desc.pred: "A vicious [ROOT.Char.Custom('RegionalFerociousAnimal')], clearly agitated by the sudden intrusion of [pet_dragon.GetNameNoTooltip] and me. In a possibly futile but no less ferocious display of defiance, the large beast growls a low warning. A dragon's first choice between fight and flight is typically to fight, and [pet_dragon.GetNameNoTooltip] seems like [pet_dragon.Custom('GetDragonSheHe')] could very well accept this daring challenge." #NT!
+ agot_travel_events_dragon.0008.desc.prey: "Nothing more than a spooked [ROOT.Char.Custom('GetRandomRegionalSmallGame')], frozen stiff by the sudden presence of an apex predator like [pet_dragon.GetNameNoTooltip]. It would take but a single command for [pet_dragon.GetNameNoTooltip] to make short work of the terrified animal, but is it really worth it?" #NT!
+ agot_travel_events_dragon.0008.a.valyrian: "#emp Dracarys!#!" #NT!
+ agot_travel_events_dragon.0008.a: "Turn it to cinder, [pet_dragon.GetNameNoTooltip]!" #NT!
+ agot_travel_events_dragon.0008.b: "Fly, [pet_dragon.GetNameNoTooltip]!" #NT!
+ agot_travel_events_dragon.0008.c: "Leave the poor thing alone..." #NT!
+  
+  # 0009 
+ agot_travel_events_dragon.0009.t: "Humanspotting" #NT!
+ agot_travel_events_dragon.0009.desc: "Traveling on dragonback can at times be dull; no company but the occasional cloud, and they are hardly good conversationalists. I oft pass the time by tracking the ground below for any sign of a fellow human, noting any distinct features I can make out — not the simplest of tasks from on high.\n\nToday, I take note of a passerby, barely distinguishable. But [pet_dragon.GetName] seems drawn to them, so I urge [pet_dragon.Custom('GetDragonHerHim')] into a descent to get a closer look." #NT!
+ agot_travel_events_dragon.0009.desc.good: "Landing nearby, I'm greeted warmly by a [good_commoner.GetWomanMan] who calls [good_commoner.GetHerselfHimself] [good_commoner.GetFirstNameNicknamed]. [pet_dragon.GetNameNoTooltip] seems at ease in [good_commoner.GetHerHis] presence, so I hop down. Surely I have time for a quick conversation?" #NT!
+ agot_travel_events_dragon.0009.desc.bad: "Landing nearby, I'm greeted hostilely by a [bad_commoner.GetWomanMan] who doesn't even have the manners to introduce [bad_commoner.GetHerselfHimself]. [pet_dragon.GetNameNoTooltip] bristles anxiously, and I share the gut feeling that this commoner is no good..." #NT!
+ agot_travel_events_dragon.0009.desc.noble: "Landing nearby, I'm greeted by [noble.GetTitledFirstNameNicknamed], who must be a local in these lands. Perhaps [noble.GetSheHe] is lost, or perhaps [noble.GetSheHe] is merely in need of some decent conversation." #NT!
+ agot_travel_events_dragon.0009.a: "So, tell me about yourself!" #NT!
+ agot_travel_events_dragon.0009.b: "I don't have time for this." #NT!
+ agot_travel_events_dragon.0009.c: "There's only one way to deal with bad apples!" #NT!
+ agot_travel_events_dragon.0009.d: "I'll put this one in a cell..." #NT!
+ agot_travel_events_dragon.0009.e: "These smallfolk ought not concern me." #NT!
+ agot_travel_events_dragon.0009.f: "I can help you home, my [noble.GetLadyLord]." #NT!
+ agot_travel_events_dragon.0009.g: "Perhaps you have time for a chat?" #NT!
+ agot_travel_events_dragon.0009.g.modifier_desc: "Had a conversation with [noble.GetName]." #NT!
+ agot_travel_events_dragon.0009.h: "It's best if I get going..." #NT!
+ agot_travel_events_dragon.0009.h.modifier_desc: "Ignored [noble.GetName]." #NT!
+  
+  
+  ############################### 
+  # STORM ENCOUNTER (0011-0012) # 
+  ############################### 
+  # 0011 
+ agot_travel_events_dragon.0011.t: "A Storm!" #NT!
+ agot_travel_events_dragon.0011.desc: "While the skies are beautiful and vast, they can often be just as treacherous as the land or sea. I am reminded of that firsthand as [pet_dragon.GetName] and I run into a storm that seems to form just as we fly beneath it.\n\n[pet_dragon.GetNameNoTooltip] tries [pet_dragon.Custom('GetDragonHerHis')] best to fly against the winds as they pick up speed, and thunder rumbles overhead. A flash of lightning cracks across the distant horizon, reminding me of the storm's danger. It is clear that this tempest will not pass soon, but with luck we may make it through unscathed if we do not wish to be delayed." #NT!
+ agot_travel_events_dragon.0011.a: "We should land and wait it out." #NT!
+ agot_travel_events_dragon.0011.a.tt: "You will be delayed three to seven days, but you will not be injured." #NT!
+ agot_travel_events_dragon.0011.b: "Fly through it!" #NT!
+ agot_travel_events_dragon.0011.b.tt: "You will risk injury, but not delay." #NT!
+  
+  
+  ########################################### 
+  # DRAGON TAKES YOU OFF COURSE (0013-0014) # 
+  ########################################### 
+  # 0013 
+ agot_travel_events_dragon.0013.t: "Wrong Way!" #NT!
+ agot_travel_events_dragon.0013.desc: "It is a dreadfully uneventful stretch of our trip — so much so that [pet_dragon.GetName] seems to have grown bored. As I lounge in the saddle, [pet_dragon.Custom('GetDragonSheHe')] veers sharply off course!\n\nThe sudden change in direction jolts me from my daze, forcing me to scramble for the reins. I shout commands as [pet_dragon.GetNameNoTooltip] hesitantly begins to turn back toward our intended course." #NT!
+ agot_travel_events_dragon.0013.a: "You'll be free to do as you wish once we get there, [pet_dragon.GetNameNoTooltip]." #NT!
+ agot_travel_events_dragon.0013.tt: "Your travel is delayed." #NT!
+  
+  
+  ############################## 
+  # PLAYFUL DRAGON (0021-0024) # 
+  ############################## 
+  # 0021 - In air 
+ agot_travel_events_dragon.0021.t: "Playful Dragon" #NT!
+ agot_travel_events_dragon.0021.desc: "While flying over a particularly unremarkable stretch of land, [pet_dragon.GetName] begins to eye me strangely. It's a look my dragon has given me since [pet_dragon.Custom('GetDragonSheHe')] was but a hatchling, and it means [pet_dragon.Custom('GetDragonSheHe')] wants to play. I can hardly blame [pet_dragon.Custom('GetDragonHerHim')]; a dragon is easily bored when not hunting, eating, or fighting. But if [pet_dragon.GetNameNoTooltip] gets too distracted, we may be late." #NT!
+ agot_travel_events_dragon.0021.a: "What's the harm?" #NT!
+ agot_travel_events_dragon.0021.a.tt: "You will play with [pet_dragon.GetName]" #NT!
+ agot_travel_events_dragon.0021.b: "No, we have places to be." #NT!
+ agot_travel_events_dragon.0021.b.tt: "You will not play with [pet_dragon.GetName]" #NT!
+  
+  # 0022 
+ agot_travel_events_dragon.0022.t: "Playful Dragon" #NT!
+ agot_travel_events_dragon.0022.desc.played: "I grin and reach for my saddlebags. Playing fetch with raw meat is an old game for us, but [pet_dragon.GetNameNoTooltip] and I still love it. A goat's leg, a flank of aurochs, even a chicken breast are among the cuts that fly through the air — only for [pet_dragon.GetNameNoTooltip] to snatch them up, char them, and swallow the morsels whole. Sometimes [pet_dragon.GetNameNoTooltip] rears up to catch them immediately; other times [pet_dragon.Custom('GetDragonSheHe')] waits and chases the meat as it falls to the ground. Eventually [pet_dragon.GetNameNoTooltip] settles down, and we are reinvigorated as we return to our journey." #NT!
+ agot_travel_events_dragon.0022.desc.no_play: "[pet_dragon.GetNameNoTooltip] keeps up the pleading look, [pet_dragon.Custom('GetDragonHerHis')] eyes growing almost forlorn as a soft, grumbling growl escapes the dragon's throat in protest. However, with but a few more commands, [pet_dragon.GetNameNoTooltip] finally gives up and looks away, flying onward to our destination." #NT!
+ agot_travel_events_dragon.0022.desc.fallback: "I honestly think this isn't needed, but just in case, for the sake of good code structure. /shrug." #NT!
+ agot_travel_events_dragon.0022.a: "This was fun. Good job, [pet_dragon.GetNameNoTooltip]." #NT!
+ agot_travel_events_dragon.0022.b: "Such pleading hardly befits a dragon." #NT!
+  
+  # 0023 - Camped out 
+ agot_travel_events_dragon.0023.t: "Playful Dragon" #NT!
+ agot_travel_events_dragon.0023.desc: "While camped out for the night, [pet_dragon.GetNameNoTooltip] lumbers toward where I am seated by the fire and nudges me with [pet_dragon.Custom('GetDragonHerHis')] snout in a tentatively eager way that tells me my dragon is bored. Naturally, [pet_dragon.Custom('GetDragonHerHis')] first instinct is to try and get me to play. With each other, dragons will often play a game of tug-of-war with their meals, and it is seldom different with their riders. But the hour is late, and sleep is not far off, so I could simply try to get [pet_dragon.GetNameNoTooltip] to bugger off." #NT!
+ agot_travel_events_dragon.0023.a: "Why not? Go find something to pull on, [pet_dragon.GetNameNoTooltip]." #NT!
+ agot_travel_events_dragon.0023.a.tt: "Increases bond, and your dragon may become tired, leaving them less likely to disrupt your camp." #NT!
+ agot_travel_events_dragon.0023.b: "No, let me sleep, [pet_dragon.GetNameNoTooltip]." #NT!
+ agot_travel_events_dragon.0023.b.tt: "Decreases bond, and your dragon will not be tired, making [pet_dragon.Custom('GetDragonHerHim')] more likely to get up to mischief on [pet_dragon.Custom('GetDragonHerHis')] own." #NT!
+  
+  # 0024 
+ agot_travel_events_dragon.0024.t: "Playful Dragon" #NT!
+ agot_travel_events_dragon.0024.desc.played: "Following my commands to the letter, [pet_dragon.GetNameNoTooltip] flies off excitedly and returns with a dead [ROOT.Char.Custom('GetRandomRegionalSmallGame')] that [pet_dragon.Custom('GetDragonSheHe')] undoubtedly sniffed out with ease. [pet_dragon.GetNameNoTooltip] offers me the head of the creature, and I grab it by the ears and start to pull. It is a mock game, of course, with [pet_dragon.GetNameNoTooltip] possessing natural strength far exceeding my own, but nevertheless [pet_dragon.GetNameNoTooltip] holds back until finally wrenching the carcass from my hands and trudging off to enjoy [pet_dragon.Custom('GetDragonHerHis')] late-night snack in triumph." #NT!
+ agot_travel_events_dragon.0024.desc.no_play: "I put a hand on the snout [pet_dragon.GetNameNoTooltip] is prodding me with and sigh. My High Valyrian is clear, but it takes several commands to make [pet_dragon.GetNameNoTooltip] turn and finally leave me alone so I can rest. The day and night have been long, and wrestling a dragon over some dead game is simply asking too much." #NT!
+ agot_travel_events_dragon.0024.desc.fallback: "I honestly think this isn't needed, but just in case, for the sake of good code structure. /shrug." #NT!
+ agot_travel_events_dragon.0024.a: "Ah, bonding with a dragon is certainly special." #NT!
+ agot_travel_events_dragon.0024.b: "Sorry, [pet_dragon.GetNameNoTooltip], but even a dragonrider must rest." #NT!
+  
+  
+  ########################## 
+  # TURBULENCE (0031-0032) # 
+  ########################## 
+  # 0031 
+ agot_travel_events_dragon.0031.t: "Turbulence!" #NT!
+ agot_travel_events_dragon.0031.desc: "The air is calm and steady — until suddenly [pet_dragon.GetName] and I run into an unexpected burst of turbulence! The rough air nearly launches me from my saddle as I strap myself in, and [pet_dragon.GetNameNoTooltip] growls in protest, attempting to right [pet_dragon.Custom('GetDragonHerselfHimself')] from the sudden harsh resistance.\n\nThe turbulence hits harder and for longer than I expected, and I brace myself against my dragon as the ground stares up at my invitingly through the ordeal." #NT!
+ agot_travel_events_dragon.0031.a: "Duck, dodge, dip, dive, and dodge!" #NT!
+ agot_travel_events_dragon.0031.a.tt: "You have a chance to be delayed and injured" #NT!
+  
+  
+  ############################# 
+  # HUNGRY DRAGON (0046-0055) # 
+  ############################# 
+  # 0047 - Flock of Birds 
+ agot_travel_events_dragon.0047.t: "Hungry Dragon!" #NT!
+ agot_travel_events_dragon.0047.desc: "While the skies are mostly empty, today [pet_dragon.GetName] and I run into a flock of birds in the midst of their migration — and in a bout of hunger, my [pet_dragon.Custom('GetDragonColor')] mount snaps at them with sharp fangs in hopes of a snack! It is a bit undisciplined, but a dragon's killer instincts sometimes cannot be helped." #NT!
+ agot_travel_events_dragon.0047.a: "Pluck them from the sky, [pet_dragon.GetNameNoTooltip]!" #NT!
+ agot_travel_events_dragon.0047.a.tt: "You will be delayed, but your dragon will appreciate this." #NT!
+ agot_travel_events_dragon.0047.b: "Control yourself!" #NT!
+ agot_travel_events_dragon.0047.b.tt: "You will not be delayed, but your dragon will not appreciate it." #NT!
+  
+  # 0048 - Fish / Dolphin / Whale 
+ agot_travel_events_dragon.0048.t: "$agot_travel_events_dragon.0047.t$" #NT!
+ agot_travel_events_dragon.0048.desc_fish: "Though we oft fly high among the clouds, today [pet_dragon.GetName] dips near the water, where a salty sea breeze blows. As we glide over the clear blue waves, something catches [pet_dragon.GetNamePossessiveNoTooltip] attention below.\n\nI suspect it to be a fish, given the noticeable shadowy shape swimming beneath us. Perhaps a cod or snapper. While not the largest of catches, it is nonetheless enough to tempt [pet_dragon.GetNamePossessiveNoTooltip] empty stomach." #NT!
+ agot_travel_events_dragon.0048.desc_dolphin: "Though we oft fly high among the clouds, today [pet_dragon.GetName] dips near the water, where a salty sea breeze blows. As we pass over the clear blue sea, [pet_dragon.GetNamePossessive] stomach groans loudly enough that I can almost feel the rumble through [pet_dragon.Custom('GetDragonHerHim')].\n\nPeering down at the waters below, I spot a common sight: dolphins breaching the waves for air. [pet_dragon.GetNameNoTooltip] notices as well, and it is clearly an appetizing spectacle for my hungry dragon." #NT!
+ agot_travel_events_dragon.0048.desc_whale: "The beats of [pet_dragon.GetNamePossessive] great wings over the open sea match the crashing waves beneath us in volume. A dragon as large as [pet_dragon.GetNameNoTooltip] can be voracious indeed, and I am starkly reminded of this as [pet_dragon.Custom('GetDragonSheHe')] suddenly lurches downward in a fit of hunger at the sight of a massive whale breaching below!\n\nIt would be no trifling task to pluck a whale from the sea like some oversized grape, but [pet_dragon.GetNameNoTooltip] is big and strong enough that the unfortunate leviathan may become nothing more than a kingly feast for the royalty of the skies." #NT!
+ agot_travel_events_dragon.0048.a: "Cast your net, [pet_dragon.GetNameNoTooltip]!" #NT!
+ agot_travel_events_dragon.0048.a.tt: "$agot_travel_events_dragon.0047.a.tt$" #NT!
+ agot_travel_events_dragon.0048.b: "Control yourself!" #NT!
+ agot_travel_events_dragon.0048.b.tt: "$agot_travel_events_dragon.0047.b.tt$" #NT!
+  
+  # 0049 - Farm Animals 
+ agot_travel_events_dragon.0049.t: "$agot_travel_events_dragon.0047.t$" #NT!
+ agot_travel_events_dragon.0049.desc: "While the skies are largely empty, over the rolling pastures beneath us [pet_dragon.GetName] takes keen notice of the livestock below. A field of grazing [ROOT.Char.Custom('RegionalFarmAnimalPlural')] lies spread out like a veritable feast before [pet_dragon.GetNamePossessiveNoTooltip] eyes and stomach, and the great [pet_dragon.Custom('GetDragonColor')] beast practically salivates in the air as [pet_dragon.Custom('GetDragonSheHe')] awaits my command." #NT!
+ agot_travel_events_dragon.0049.a: "The farmers won't miss one or two..." #NT!
+ agot_travel_events_dragon.0049.a.tt: "$agot_travel_events_dragon.0047.a.tt$" #NT!
+ agot_travel_events_dragon.0049.b: "Control yourself!" #NT!
+ agot_travel_events_dragon.0049.b.tt: "$agot_travel_events_dragon.0047.b.tt$" #NT!
+  
+  # 0050 - Game Animal 
+ agot_travel_events_dragon.0050.t: "$agot_travel_events_dragon.0047.t$" #NT!
+ agot_travel_events_dragon.0050.desc: "Soaring over the shaded forests below, [pet_dragon.GetName] lets out an agitated cry that I instantly recognize as [pet_dragon.Custom('GetDragonHerHis')] usual tone when hungry and eager to hunt. The urge is strong enough that [pet_dragon.GetNameNoTooltip] slows over the trees and spots a lone [ROOT.Char.Custom('GetRandomRegionalSmallGame')] that visibly tenses — even from so far above — at the sudden shadow passing over it. It would be a trifling matter to let my [pet_dragon.Custom('GetDragonColorGrade')] mount gobble it up, but we do have places to be..." #NT!
+ agot_travel_events_dragon.0050.a: "There's no harm. A dragon can only be a dragon, after all." #NT!
+ agot_travel_events_dragon.0050.a.tt: "$agot_travel_events_dragon.0047.a.tt$" #NT!
+ agot_travel_events_dragon.0050.b: "Bah, hardly worth our time. Onwards!" #NT!
+ agot_travel_events_dragon.0050.b.tt: "$agot_travel_events_dragon.0047.b.tt$" #NT!
+  
+  # 0051 - Predator 
+ agot_travel_events_dragon.0051.t: "$agot_travel_events_dragon.0047.t$" #NT!
+ agot_travel_events_dragon.0051.desc: "As [pet_dragon.GetNameNoTooltip] and I continue on our journey, I notice my dragon peering down at the ground more and more. It is obvious that [pet_dragon.GetNameNoTooltip] is growing hungry while carrying me across the land, and before long I spot a large [ROOT.Char.Custom('RegionalFerociousAnimal')] engaged in its own hunt below. On foot, such a [ROOT.Char.Custom('RegionalFerociousAnimal')] would be a great danger, but to [pet_dragon.GetNameNoTooltip] it is merely another land-bound beast at the mercy of [pet_dragon.GetHerHis] fangs and flame." #NT!
+ agot_travel_events_dragon.0051.a: "We can take it, [pet_dragon.GetNameNoTooltip]!" #NT!
+ agot_travel_events_dragon.0051.a.tt: "$agot_travel_events_dragon.0047.a.tt$" #NT!
+ agot_travel_events_dragon.0051.b: "On second thought, there might be more appetizing meals out there..." #NT!
+ agot_travel_events_dragon.0051.b.tt: "$agot_travel_events_dragon.0047.b.tt$" #NT!
+  
+  
+  ################################ 
+  # BIRD ATTACKS YOU (0056-0057) # 
+  ################################ 
+  # 0056 
+ agot_travel_events_dragon.0056.t: "Bird Attack!" #NT!
+ agot_travel_events_dragon.0056.desc: "I am enjoying the serenity of the sky when [pet_dragon.GetName] and I are suddenly assaulted by a crazed bird of prey that seems to think itself my dragon's equal! It squawks furiously and pecks in a blind rage as [pet_dragon.GetNameNoTooltip] and I valiantly fight it off." #NT!
+ agot_travel_events_dragon.0056.a: "Away, foul creature!" #NT!
+ agot_travel_events_dragon.0056.a.tt: "You have a chance to be delayed and injured." #NT!
+  
+  
+  ########################### 
+  # MAINTENANCE (9000-9999) # 
+  ########################### 
+  # 9000 
+ agot_travel_events_dragon.9000.t: "Left Behind"
+ agot_travel_events_dragon.9000.desc: "[awkward_entourage_member.GetName] approaches me nervously as I am saddling up [dragon.GetFirstName] for our journey. "Unfortunately, since you are choosing to take [dragon.GetFirstNameNoTooltip] to your destination, those of us that are not dragonriders will not be able to join you on your travels. We will eagerly await your return to court, mi[ROOT.Char.GetLadyLord|l]""
+ agot_travel_events_dragon.9000.a: "A pity."
+ agot_travel_events_dragon.9000.tt: "[entourage_member.GetFirstName] leaves the entourage"

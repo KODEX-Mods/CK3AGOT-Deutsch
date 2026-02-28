@@ -1,0 +1,43 @@
+﻿l_german:
+  ### THE RELIGION ### 
+ the_orders_religion: "The Orders of Jade and Cinnamon"
+ the_orders_religion_adj: "The Orders"
+ the_orders_religion_adherent: "Orderist"
+ the_orders_religion_adherent_plural: "Orderists"
+ the_orders_religion_desc: "While the Orders of the South-east have gods and deities, they are far more than what would traditionally be considered religion. The philosophical framework of each permeates far beyond their temples and truly is intrinsic to all aspects of their practitioners' lives."
+  
+  ### Faiths ### 
+  # Eternal Paradise 
+ order_paradise: "Order of Eternal Paradise"
+ order_paradise_adj: "Eternal Paradise"
+ order_paradise_adherent: "Eternalist"
+ order_paradise_adherent_plural: "Eternalists"
+ order_paradise_desc: "Amongst the southern islands of the Jade Sea and the Cinnamon Straits, the peoples of those lands worship more than just gods — they worship ideals and concepts. One such ideal is the Eternal Cycle, which teaches that the pleasures of the world are the true gateway to salvation, releasing people from the eternal cycle that binds them to the world."
+  
+  # Final Sting 
+ order_sting: "Order of the Final Sting"
+ order_sting_adj: "Final Sting"
+ order_sting_adherent: "Finalist"
+ order_sting_adherent_plural: "Finalists"
+ order_sting_desc: "Amongst the southern islands of the Jade Sea and the Cinnamon Straits, the peoples of those lands worship more than just gods — they worship ideals and concepts. One such ideal is The Lethal Bug, a vengeful belief centered on assassination and plots, seen as the gift of release from the world."
+  
+  # Flowing Spice 
+ order_spice: "Order of Flowing Spice"
+ order_spice_adj: "Flowing Spice"
+ order_spice_adherent: "Flowist"
+ order_spice_adherent_plural: "Flowists"
+ order_spice_desc: "Amongst the southern islands of the Jade Sea and the Cinnamon Straits, the peoples of those lands worship more than just gods — they worship ideals and concepts. One such ideal is the Flowing Spice, the consumption of a holy spice said to grant people understanding and insights into the future and the nature of space."
+  
+  # Stone Cow 
+ order_cow: "Order of Stone Cow"
+ order_cow_adj: "Stone Cow"
+ order_cow_adherent: "Stonist"
+ order_cow_adherent_plural: "Stonists"
+ order_cow_desc: "Amongst the southern islands of the Jade Sea and the Cinnamon Straits, the peoples of those lands worship more than just gods — they worship ideals and concepts. One such ideal is the Stone Cow, which speaks of the concept of converting one material into another, just as a Stone Cow gives milk from stone."
+  
+  # Chained Scars 
+ order_chain: "Order of Chained Scars"
+ order_chain_adj: "Chained Scars"
+ order_chain_adherent: "Chainist"
+ order_chain_adherent_plural: "Chainists"
+ order_chain_desc: "Amongst the southern islands of the Jade Sea and the Cinnamon Straits, the peoples of those lands worship more than just gods — they worship ideals and concepts. One such ideal is the Chained One, which teaches that the only way to escape the world is by wholly debasing oneself through becoming a slave and serving others."

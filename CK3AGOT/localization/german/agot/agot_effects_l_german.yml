@@ -23,7 +23,7 @@
  I_LOSE_AGOT_KNIGHT: "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger Euer #V [agot_knight|e]#!"
  THEY_LOSE_AGOT_KNIGHT: "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger [CHARACTER.GetShortUIName] #V [agot_knight|e]#!"
   
- #Paramours 
+  # Paramours 
  GET_PARAMOUR: "Erhält [TARGET_CHARACTER.GetShortUIName] als Konkubine"
  I_GET_PARAMOUR: "[TARGET_CHARACTER.GetShortUIName|U] wird Eure Konkubine"
  I_GOT_PARAMOUR: "[TARGET_CHARACTER.GetShortUIName|U] wurde Eure Konkubine"
@@ -34,7 +34,7 @@
  THEY_LOSE_PARAMOUR: "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger [CHARACTER.GetShortUINamePossessive] Konkubine"
   
   
- #Lifestyle perks 
+  # Lifestyle perks 
  SPYNETWORK_MASSES_DESCRIPTION: "Verdoppelt die Anzahl der Spione, die ohne Strafe rekrutiert werden können"
  I_SPYNETWORK_MASSES_DESCRIPTION: "Ihr könnt ohne Strafe doppelt so viele Spione rekrutieren"
  THEY_SPYNETWORK_MASSES_DESCRIPTION: "[CHARACTER.GetShortUIName|U] kann ohne Strafe doppelt so viele Spion rekrutieren"
@@ -67,22 +67,22 @@
  I_SPYNETWORK_SLEEPER_DESCRIPTION: "Es ist wahrscheinlicher, dass Eure Spione sich Euren feindseligen Komplotten als Agenten anschließen."
  THEY_SPYNETWORK_SLEEPER_DESCRIPTION: "Es ist wahrscheinlicher, dass Spione von [CHARACTER.GetShortUIName|U] sich [CHARACTER.Custom('DE_PRO_POS_S_3P')]en feindseligen Komplotten als Agenten anschließen"
   
- CHANGE_TITLE_HOLDER_INCLUDE_VASSALS_EFFECT_GLOBAL_PAST: "[CHARACTER.GetShortUIName|U] got [TARGET_TITLE.GetName|V] and its [vassals|E]" #NT!
+ CHANGE_TITLE_HOLDER_INCLUDE_VASSALS_EFFECT_GLOBAL_PAST: "[CHARACTER.GetShortUIName|U] got [TARGET_TITLE.GetName|V] and its [vassals|E]"
   
- ADD_TITLE_LAW_EFFECT: "Add the Law [LAW.GetName|V]" #NT!
- ADD_TITLE_LAW_PAST_EFFECT: "Added the Law [LAW.GetName|V]" #NT!
+ ADD_TITLE_LAW_EFFECT: "Add the Law [LAW.GetName|V]"
+ ADD_TITLE_LAW_PAST_EFFECT: "Added the Law [LAW.GetName|V]"
   
- STOP_CRADLING_EGG: "[ARTIFACT.GetName] will no longer be cradled" #NT!
+ STOP_CRADLING_EGG: "[ARTIFACT.GetName] will no longer be cradled"
   
- I_ENTERED_DREAD_CHALLENGE_EFFECT: "@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]" #NT!
- THEY_ENTERED_DREAD_CHALLENGE_EFFECT: "[CHARACTER.GetShortUIName|U]:\n@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]" #NT!
- ENTERED_DREAD_CHALLENGE_EFFECT: "@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]" #NT!
- I_ENTER_DREAD_CHALLENGE_EFFECT: "@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]" #NT!
- THEY_ENTER_DREAD_CHALLENGE_EFFECT: "[CHARACTER.GetShortUIName|U]:\n@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]" #NT!
- ENTERS_DREAD_CHALLENGE_EFFECT: "@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]" #NT!
+ I_ENTERED_DREAD_CHALLENGE_EFFECT: "@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]"
+ THEY_ENTERED_DREAD_CHALLENGE_EFFECT: "[CHARACTER.GetShortUIName|U]:\n@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]"
+ ENTERED_DREAD_CHALLENGE_EFFECT: "@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]"
+ I_ENTER_DREAD_CHALLENGE_EFFECT: "@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]"
+ THEY_ENTER_DREAD_CHALLENGE_EFFECT: "[CHARACTER.GetShortUIName|U]:\n@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]"
+ ENTERS_DREAD_CHALLENGE_EFFECT: "@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]"
   
- # Legitimate House 
- agot_set_legitimate_house_effect: "[HOUSE.GetName] is now the [agot_legitimate_house|E] of [TITLE_REF.GetName]" #NT!
- agot_add_new_house_progress_positive_effect: "[CURRENT_HOUSE.GetName] gains progress towards becoming the [agot_legitimate_house|E] of [TITLE_REF.GetName]" #NT!
- agot_add_new_house_progress_negative_effect: "[CURRENT_HOUSE.GetName] loses progress towards becoming the [agot_legitimate_house|E] of [TITLE_REF.GetName]" #NT!
- agot_add_new_house_progress_zero_effect: "[CURRENT_HOUSE.GetName] progress towards becoming the [agot_legitimate_house|E] of [TITLE_REF.GetName] remains unchanged" #NT!
+  # Legitimate House 
+ agot_set_legitimate_house_effect: "[HOUSE.GetName] is now the [agot_legitimate_house|E] of [TITLE_REF.GetName]"
+ agot_add_new_house_progress_positive_effect: "[CURRENT_HOUSE.GetName] gains progress towards becoming the [agot_legitimate_house|E] of [TITLE_REF.GetName]"
+ agot_add_new_house_progress_negative_effect: "[CURRENT_HOUSE.GetName] loses progress towards becoming the [agot_legitimate_house|E] of [TITLE_REF.GetName]"
+ agot_add_new_house_progress_zero_effect: "[CURRENT_HOUSE.GetName] progress towards becoming the [agot_legitimate_house|E] of [TITLE_REF.GetName] remains unchanged"

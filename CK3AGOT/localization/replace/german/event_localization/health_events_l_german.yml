@@ -71,12 +71,12 @@
  health.1004.a: "Was habe ich getan, um diesen Fluch zu verdienen?"
   
   #AGOT Modified 
- #health.1005.t: "[SCOPE.Custom('EventTitleDisease')]: Camp Fever" #NT!
- health.1005.t: "[SCOPE.Custom('EventTitleDisease')]: Green Fever" #NT!
- health.1005.desc: "I have heard stories about brave soldiers dying like flies before they even set foot on the battlefield. But me, a [ROOT.Char.GetTitleTierName]? This aching, feverish nightmare is not a fate meant for me.\n\nAs yet another meal forces its way up my throat, I pray for redemption, my nostrils stinging with the sharp stench of bile." #NT!
+ #health.1005.t: "[SCOPE.Custom('EventTitleDisease')]: Camp Fever"
+ health.1005.t: "[SCOPE.Custom('EventTitleDisease')]: Green Fever"
+ health.1005.desc: "I have heard stories about brave soldiers dying like flies before they even set foot on the battlefield. But me, a [ROOT.Char.GetTitleTierName]? This aching, feverish nightmare is not a fate meant for me.\n\nAs yet another meal forces its way up my throat, I pray for redemption, my nostrils stinging with the sharp stench of bile."
   #AGOT Modified 
- #health.1005.court_physician.desc: "\n\n"Do not worry, my [ROOT.Char.GetLadyLord]! Typhus is treatable, I assure you."" #NT!
- health.1005.court_physician.desc: "\n\n"Do not worry, my [ROOT.Char.GetLadyLord]! Green fever is treatable, I assure you."" #NT!
+ #health.1005.court_physician.desc: "\n\n"Do not worry, my [ROOT.Char.GetLadyLord]! Typhus is treatable, I assure you.""
+ health.1005.court_physician.desc: "\n\n"Do not worry, my [ROOT.Char.GetLadyLord]! Green fever is treatable, I assure you.""
  health.1005.a: "Ich flehe, dass es enden möge!"
   
  health.1006.t: "[SCOPE.Custom('EventTitleDisease')]: Schritt für Schritt"
@@ -136,8 +136,8 @@
   
  health.1105.t: "[SCOPE.Custom('EventTitleDisease')]: Eine gewonnene Schlacht"
   #AGOT Modified 
- #health.1105.desc: "Unlike many before me, I was strong enough to survive the ravages of the dreaded camp fever. It was a brutal challenge, I will not deny it, but I persevered!" #NT!
- health.1105.desc: "Unlike many before me, I was strong enough to survive the ravages of the dreaded green fever. It was a brutal challenge, I will not deny it, but I persevered!" #NT!
+ #health.1105.desc: "Unlike many before me, I was strong enough to survive the ravages of the dreaded camp fever. It was a brutal challenge, I will not deny it, but I persevered!"
+ health.1105.desc: "Unlike many before me, I was strong enough to survive the ravages of the dreaded green fever. It was a brutal challenge, I will not deny it, but I persevered!"
  health.1105.a: "Ich lebe auch morgen noch!"
   
  health.1106.t: "[SCOPE.Custom('EventTitleDisease')]: Eine zweite Chance"
@@ -198,28 +198,28 @@
  health.2101.smallpox_outbreak.desc: "Der Fluch des Todes lastet auf meinem Hof: Man hat einen Fall von Blattern entdeckt!"
  health.2101.smallpox_spreads.desc: "Eine weitere Seele wurde von den Blattern getroffen."
   #AGOT Modified 
- #health.2101.bubonic_plague_outbreak.desc: "[ROOT.Char.GetFaith.DeathDeityName|U] has raised [ROOT.Char.GetFaith.DeathDeityHerHis] scythe over my realm — a case of the dreaded bubonic plague has been discovered!" #NT!
- health.2101.bubonic_plague_outbreak.desc: "[ROOT.Char.GetFaith.DeathDeityName|U] has raised [ROOT.Char.GetFaith.DeathDeityHerHis] scythe over my realm — a case of the dreaded sunset plague has been discovered!" #NT!
+ #health.2101.bubonic_plague_outbreak.desc: "[ROOT.Char.GetFaith.DeathDeityName|U] has raised [ROOT.Char.GetFaith.DeathDeityHerHis] scythe over my realm — a case of the dreaded bubonic plague has been discovered!"
+ health.2101.bubonic_plague_outbreak.desc: "[ROOT.Char.GetFaith.DeathDeityName|U] has raised [ROOT.Char.GetFaith.DeathDeityHerHis] scythe over my realm — a case of the dreaded sunset plague has been discovered!"
  health.2101.bubonic_plague_spreads.desc: "Eine weitere Seele steht an der Schwelle zum Jenseits, und die gefürchteten Beulen verunstalten ihre Haut."
   #AGOT Modified 
- #health.2101.typhus_outbreak.desc: "A dangerous case of camp fever has crept in to court. Rashes, coughing and fever beset the afflicted." #NT!
- #health.2101.typhus_spreads.desc: "Another case of typhus has reared its head." #NT!
- health.2101.typhus_outbreak.desc: "A dangerous case of green fever has crept in to court. Rashes, coughing and fever beset the afflicted." #NT!
- health.2101.typhus_spreads.desc: "Another case of green fever has reared its head." #NT!
+ #health.2101.typhus_outbreak.desc: "A dangerous case of camp fever has crept in to court. Rashes, coughing and fever beset the afflicted."
+ #health.2101.typhus_spreads.desc: "Another case of typhus has reared its head."
+ health.2101.typhus_outbreak.desc: "A dangerous case of green fever has crept in to court. Rashes, coughing and fever beset the afflicted."
+ health.2101.typhus_spreads.desc: "Another case of green fever has reared its head."
  health.2101.consumption_outbreak.desc: "Krampfhaftes Husten hallt durch den Hof. Die Schwindsucht schleicht durch die Gänge und fordert ihr erstes Opfer."
  health.2101.consumption_spreads.desc: "Immer mehr unglückliche Seelen geraten in die Fänge der Schwindsucht."
   #AGOT Modifed 
- #health.2101.measles_outbreak.desc: "The rash that developed on the skin of the afflicted was plain to see: measles has been discovered at court." #NT!
- #health.2101.measles_spreads.desc: "More and more are falling ill and developing the livid rashes on their skin that belie the presence of measles." #NT!
- health.2101.measles_outbreak.desc: "The rash that developed on the skin of the afflicted was plain to see: spotted fever has been discovered at court." #NT!
- health.2101.measles_spreads.desc: "More and more are falling ill and developing the livid rashes on their skin that belie the presence of spotted fever." #NT!
+ #health.2101.measles_outbreak.desc: "The rash that developed on the skin of the afflicted was plain to see: measles has been discovered at court."
+ #health.2101.measles_spreads.desc: "More and more are falling ill and developing the livid rashes on their skin that belie the presence of measles."
+ health.2101.measles_outbreak.desc: "The rash that developed on the skin of the afflicted was plain to see: spotted fever has been discovered at court."
+ health.2101.measles_spreads.desc: "More and more are falling ill and developing the livid rashes on their skin that belie the presence of spotted fever."
  health.2101.dysentery_outbreak.desc: "Der Gestank, der den Ort umgibt, erzählt eine ganz eigene Geschichte. Am Hof wurde die Ruhr entdeckt."
  health.2101.dysentery_spreads.desc: "Weitere Fälle von Ruhr treten auf, und die Aborte sind Tag und Nacht besetzt."
   #AGOT Modifed 
- #health.2101.ergotism_outbreak.desc: "Ergotism has reared its head in court, the jerking motions of the victim making it obvious to all present." #NT!
- #health.2101.ergotism_spreads.desc: "Further cases of ergotism continue to strike down victims, setting their limbs afire beneath their skin." #NT!
- health.2101.ergotism_outbreak.desc: "Dancing plague has reared its head in court, the jerking motions of the victim making it obvious to all present." #NT!
- health.2101.ergotism_spreads.desc: "Further cases of dancing plague continue to strike down victims, setting their limbs afire beneath their skin." #NT!
+ #health.2101.ergotism_outbreak.desc: "Ergotism has reared its head in court, the jerking motions of the victim making it obvious to all present."
+ #health.2101.ergotism_spreads.desc: "Further cases of ergotism continue to strike down victims, setting their limbs afire beneath their skin."
+ health.2101.ergotism_outbreak.desc: "Dancing plague has reared its head in court, the jerking motions of the victim making it obvious to all present."
+ health.2101.ergotism_spreads.desc: "Further cases of dancing plague continue to strike down victims, setting their limbs afire beneath their skin."
  health.2101.imporant.desc: "Mein[sick_character.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMe',SCOPE.sC('sick_character'))] [sick_character.GetFirstName] kämpft verzweifelt um [sick_character.Custom('DE_PRO_POS_S_3P')] Leben."
  health.2101.prisoner.desc: "Das unglückliche Opfer ist [sick_character.GetTitledFirstName], einer meiner Gefangenen."
  health.2101.courtier_or_guest.desc: "Das unglückselige Opfer ist mein[ROOT.GetCharacter.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMe',SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstName]."
@@ -239,8 +239,8 @@
  disease_gout_ridden: "Gicht."
  disease_leper: "Aussatz."
   #AGOT Modified 
- #disease_typhus: "typhus." #NT!
- disease_typhus: "green fever." #NT!
+ #disease_typhus: "typhus."
+ disease_typhus: "green fever."
  disease_consumption: "Schwindsucht."
  disease_cancer: "Krebs."
  disease_lovers_pox: "Liebesbläschen."
@@ -248,14 +248,14 @@
  disease_great_pox: "Lues."
  disease_smallpox: "Blattern."
   #AGOT Modified 
- #disease_bubonic_plague: "bubonic plague." #NT!
- disease_bubonic_plague: "sunset plague." #NT!
+ #disease_bubonic_plague: "bubonic plague."
+ disease_bubonic_plague: "sunset plague."
   #AGOT Modifed 
- #disease_measles: "measles." #NT!
- disease_measles: "spotted fever." #NT!
+ #disease_measles: "measles."
+ disease_measles: "spotted fever."
   #AGOT Modifed 
- #disease_ergotism: "holy fire." #NT!
- disease_ergotism: "dancing plague." #NT!
+ #disease_ergotism: "holy fire."
+ disease_ergotism: "dancing plague."
  disease_dysentery: "Blutdurchfall."
  missing_illness: "#D Fehlende Krankheit #!"
  health.2201.minor_disease.desc: "\n\nÜblicherweise wäre solch eine kleine Erkrankung kein Grund zur Sorge, doch die Gesundheit von [sick_character.GetFirstName] ist angeschlagen, und das könnte zu viel für [sick_character.Custom('DE_PRO_PER_S_3P_A')] sein."
@@ -299,6 +299,8 @@
   # Recruit physician event 
  health.3001.disease.t: "[SCOPE.Custom('EventTitleDisease')]:"
  health.3001.t: "[ROOT.Char.Custom('GetCourt')|U]-Arzt"
+  #AGOT Modified, Vanilla Error 
+ # health.3001.fallback_reason.desc: "This world is full of dangers, even to a [ROOT.Char.GetTitleTierName] and [ROOT.Char.GetHerHis] [ROOT.Char.Custom('GetCourt')|l]. .\n\nI have asked around for recommendations, and have assembled a few options to chose from." #NT!
  health.3001.fallback_reason.desc: "Diese Welt ist voller Gefahren, selbst für ein[ROOT.Char.Custom('DE_END_PRO_S_A')] [ROOT.Char.GetTitleTierName] und den dazugehörigen Hofstaat. Ich sollte einen Arzt anstellen, der die Verletzungen und Krankheiten behandeln kann, die uns ereilen.\n\nIch habe mich nach Empfehlungen umgehört, und es stehen ein paar Kandidaten zur Auswahl."
  health.3001.decision.desc: "Diese Welt ist voller Gefahren, selbst für ein[ROOT.Char.Custom('DE_END_PRO_S_A')] [ROOT.Char.GetTitleTierName] und [ROOT.Char.Custom('DE_PRO_POS_S_3P')]e [ROOT.Char.Custom('GetCourtierPlural')]. Wie von mir erbeten, haben sich meine Dienstboten nach Empfehlungen umgehört. Nun haben sie mir ein paar Möglichkeiten zur Auswahl vorbereitet."
  health.3001.already_sick.desc: "Endlich haben meine Diener einige Leute gefunden, die sich als mein Arzt eignen würden. Trotzdem fürchte ich, dass ich nicht allzu wählerisch sein kann."

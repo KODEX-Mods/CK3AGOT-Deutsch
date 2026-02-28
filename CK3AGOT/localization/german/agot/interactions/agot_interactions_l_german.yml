@@ -1,0 +1,107 @@
+﻿l_german:
+ become_paramours_interaction: "Zur Konkubine nehmen"
+ become_paramours_interaction_desc: "Nehmt [recipient.GetShortUINameNoTooltip] öffentlich zur Konkubine."
+  
+ mark_as_captive_interaction: "Geisel zurückfordern"
+ mark_as_captive_interaction_desc: "Ihr könnt die Geisel zurückfordern, um alle Ehen und Konkubinate aufzulösen. Dadurch könnt ihr einen Krieg um die Befreiung aller Geiseln führen um diese zurück an Euren Hof zu holen."
+  
+ unmark_as_captive_interaction: "Geiselnahme akzeptieren"
+ unmark_as_captive_interaction_desc: "Ihr zieht Eure Freilassungsforderung zurück und akzeptiert den Status quo."
+  
+ mark_for_freedom_interaction: "Freilassung fordern"
+ mark_for_freedom_interaction_desc: "Ihr könnt die Freilassung des Gefangenen fordern. Dadurch könnt ihr einen Krieg um die Befreiung aller Gefangenen führen."
+  
+ unmark_for_freedom_interaction: "Gefangenschaft akzeptieren"
+ unmark_for_freedom_interaction_desc: "Ihr zieht Eure Freilassungsforderung zurück und akzeptiert den Status quo."
+  
+ marked_release_from_prison.title: "Freilassung zugestimmt"
+ marked_release_from_prison.desc: "[marked.GetTitledFirstName], ein Gefangener, dessen Freilassung Ihr gefordert habt, wurde befreit."
+  
+ impart_values_interaction: "Werte vermitteln"
+ impart_values_interaction_desc: "Versuchen, [recipient.GetShortUINameNoTooltip] Eure Werte zu vermitteln."
+  
+ legitimize_bastard_liege_interaction: "Bastardlegitimierung ersuchen"
+ legitimize_bastard_liege_interaction_extra_icon: "$hook_extra_icon$"
+ legitimize_bastard_liege_interaction_desc: "Den aktuellen Herrscher darum ersuchen, Euren Bastard zu legitimieren."
+ recipient_secondary_legitimize_bastard_liege_interaction: "Bastard"
+  
+ agot_goad_interaction: "Provozieren"
+ agot_goad_interaction_desc: "Ich werdet versuchen dieses Individuum zu provozieren. Falls Ihr erfoglreich seid, wird die Person gereizt und eher nach Ärger suchen. Jedoch solltet Ihr aufpassen, dass Ihr nicht am Ende den Zorn spürt."
+  
+ goad.success_title: "Erfolgreiche Provokation"
+ goad.failure_title: "Gescheiterte Provokation"
+  
+ recall_wanderer_interaction: "Wanderer zurückrufen"
+ recall_wanderer_interaction_desc: "Holt Euer eigensinniges Hausmitglied heim"
+  
+ demand_trial_by_combat_interaction: "Demand a Trial by Combat"
+ demand_trial_by_combat_interaction_desc: "Demand a trial by combat to prove your innocence in the eyes of gods and men."
+ demand_trial_by_combat_duel: "You will both be given a chance to choose champions who will fight on your behalf to prove or disprove [actor.GetHerHis] guilt."
+ TRIAL_BY_COMBAT_HONOR_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] Honor: $VALUE|=+0$" #NT!
+  
+ sent_to_silent_sisterhood_interaction: "Send to Silent Sisterhood"
+ sent_to_silent_sisterhood_interaction_desc: "Send [recipient.GetShortUINameNoTooltip] to take the vows of silence and join the sisterhood."
+  
+ reveal_royal_bastardry_interaction: "Reveal Royal Bastardry"
+ reveal_royal_bastardry_interaction_desc: "You will consider if you should reveal [recipient.GetShortUINameNoTooltip]'s heritage."
+  
+ set_signature_weapon_interaction: "Set Signature Weapon"
+ set_signature_weapon_interaction_desc: "Set your default weapon for portrait animations"
+ set_signature_weapon_swordshield_person: "Sword and Shield"
+ set_signature_weapon_maceshield_person: "Mace and Shield"
+ set_signature_weapon_spearshield_person: "Spear and Shield"
+ set_signature_weapon_sword_person: "Sword"
+ set_signature_weapon_axe_person: "Axe"
+ set_signature_weapon_spear_person: "Spear"
+ set_signature_weapon_mace_person: "Mace"
+ set_signature_weapon_hammer_person: "Hammer"
+  
+ agot_char_interaction.0200.opening: "[actor.Custom2('AppropriateGreetingPositive', recipient )]"
+ agot_char_interaction.0200.desc: "I hereby compell you to send [secondary_recipient.GetName] to my court forthwith to be the ward of [secondary_actor.GetName]."
+ agot_char_interaction.0200.a: "I see."
+ agot_char_interaction.0200.tt: "[actor.GetName] has used their hook on you."
+  
+ EXECUTION_DRAGON_FED: "Feed to Dragon"
+ EXECUTION_DRAGON_BURN: "Burn with Dragonflame"
+ EXECUTION_DRAGON_STOMPED: "Dragonstomp"
+ EXECUTION_DRAGON_DROPPED: "Drop from Dragonback"
+ EXECUTION_MOON_DOOR: "Send through the Moon Door"
+ EXECUTION_BLASPHEMOUS_SACRIFICE: "Sacrifice in Dark Ritual"
+ EXECUTION_PRISONER_IMPROVE_QUALITY: "Because your [faith|e] has a [doctrine|E] in which executed prisoners increase the quality of artifacts"
+ EXECUTION_FLAY: "Flay" #NT!
+ EXECUTION_DROWN: "Drown" #NT!
+ EXECUTION_THROWN_FROM_WALL: "Throw from the Wall" #NT!
+  
+ agot_laamp_legitimist_prestige_or_patron_warning: "#warning In order to accept this [task_contract|E] [recipient.GetShortUIName] must be your [contact_list_contact|E] or Your [prestige_level|E] must be at least [GetPrestigeLevelName('(int32)4')]#!"
+ agot_request_legitimist_support_tt: "You will be able to negotiate up to #color_yellow 1800 gold#! and #color_yellow 3000 elite troops#!, in exchange for sizable payments to [recipient.GetShortUIName] afterwards."
+  
+ agot_sacrifice_child_to_others: "Sacrifice Child to the Others"
+ agot_sacrifice_child_to_others_desc: "Sacrifice [recipient.GetShortUINameNoTooltip] to the Others."
+  
+ agot_send_food_to_dragon_religious: "Send Food to Dragon"
+ agot_send_food_to_dragon_religious_desc: "Dragons are divine, and thus sending tribute to [recipient.GetShortUINameNoTooltip] is necessary."
+ agot_send_food_to_dragon_religious_dragon_belongs_to_someone: "[recipient.GetShortUINameNoTooltip] belongs to someone!"
+ agot_send_food_to_dragon_religious_tt: "You will attempt to send food to [recipient.GetShortUINameNoTooltip]. The following outcomes may occur:\n$EFFECT_LIST_BULLET$#N You may be wounded or killed#! by [recipient.GetShortUINameNoTooltip]!\n$EFFECT_LIST_BULLET$You gain #P [EmptyScope.ScriptValue('minor_piety_value')|0]#! piety.\n$EFFECT_LIST_BULLET$You gain #P [EmptyScope.ScriptValue('major_piety_value')|0]#! piety."
+  
+ agot_send_for_faceless_interaction: "Send for Faceless Men"
+ agot_send_for_faceless_interaction_desc: "The Faceless Men of Braavos will get rid of your problem... for a price."
+ required_intrigue_faceless.tt: "You or your [spymaster|E] have an [intrigue|E] of at least [intrigue_i] 20"
+ faceless_payed_child_price.tt: "The Faceless Men have not already accepted an [artifact|E] from you"
+  
+ action_agot_faceless_interaction: "You can consult a Faceless Man about [recipient.GetShortUINameNoTooltip]"
+ action_agot_faceless_interaction_label: "Send for a Faceless Man"
+ action_agot_faceless_interaction_desc: "You have a murder plot against [recipient.GetShortUIName]. \n\n#help The Faceless Men of Braavos can take your problem off your hands if their price is met. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!"
+ action_agot_faceless_interaction_click: "#I Click to open the interaction window.\n#!"
+ action_agot_faceless_interaction_combined_label: "Consult a Faceless Man about [recipient.GetUIName]."
+ action_agot_faceless_interaction_combined_description: "Consult a Faceless Man about [recipient.GetUIName]."
+ action_agot_faceless_interaction_combined_group_label: "Send for a Faceless Man"
+ action_agot_faceless_interaction_combined_group_name: "Send for a Faceless Man"
+ action_agot_faceless_interaction_combined_group_description: "You have a murder plot against [recipient.GetShortUIName] and your [intrigue|E] is greater than 19. \n\n#help The Faceless Men of Braavos can take your problem off your hands if their price is met. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!"
+  
+ agot_remove_taken_face_interaction: "Remove Face" #NT!
+ agot_remove_taken_face_interaction_desc: "It is time to set this face aside and return to your original appearance." #NT!
+ agot_remove_taken_face_interaction.same_gender.tt: "You are wearing the face of a character with the same gender as your original character." #NT!
+  
+ agot_expel_landless_pirate: "Expel Pirate" #NT!
+ agot_expel_landless_pirate_desc: "You will demand that [recipient.GetShortUINameNoTooltip] move [recipient.GetHerHis] [agot_landless_pirate_domicile|E] elsewhere." #NT!
+ agot_pirate_will_be_expelled_tt: "[recipient.GetShortUINameNoTooltip] will decide either to remain in your port illegally or to flee." #NT!

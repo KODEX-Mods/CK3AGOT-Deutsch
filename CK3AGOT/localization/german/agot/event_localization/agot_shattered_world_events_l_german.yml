@@ -1,0 +1,7 @@
+﻿l_german:
+  
+ agot_shattered_world.1000.t: "A New Future" #NT!
+ agot_shattered_world.1000.desc: "Unwritten pages of history beckon, and at last I have the means to fill them. I have assembled my [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')], expanded my influence, and steered my realm through peril and promise.\n\nEach choice of mine now sparks a new era; every victory writes the tale of my rule. I must embrace the challenge and forge my future into legend — but how shall I do so?" #NT!
+ agot_shattered_world.1000.a: "I will found a new [Concept('administrative','Free City')|E]." #NT!
+ agot_shattered_world.1000.b: "I will establish a [Concept('feudal','Feudal Monarchy')|E]." #NT!
+ agot_shattered_world.1000.c: "I will create a grand [pirate_government|E]." #NT!

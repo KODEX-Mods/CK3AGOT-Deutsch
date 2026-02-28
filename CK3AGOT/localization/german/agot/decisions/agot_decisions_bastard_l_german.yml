@@ -1,0 +1,24 @@
+﻿l_german:
+  # Expose someone elses true parentage 
+ agot_expose_true_parentage_decision: "Jons wahre Abstammung offenlegen"
+ agot_expose_true_parentage_decision_tooltip: "Ihr werdet enthüllen, was wirklich im Turm der Freude geschehen ist."
+ agot_expose_true_parentage_decision_tooltip.jon: "You will reveal what truly occurred at the Tower of Joy."
+ agot_expose_true_parentage_decision_desc.jon: "I remember all too keenly the promises made amid the winter roses...and yet, before me is a child whose whole life is built upon a lie. It is not fair that Lyanna's child should live and die without ever knowing the truth."
+ agot_expose_true_parentage_decision_desc.man: "What I know cannot help but haunt me. To believe you are so low, yet to have come from so high. Before me is a child whose whole life is built upon a lie. A child now a man grown. It is not fair that he should live and die without ever knowing the truth."
+ agot_expose_true_parentage_decision_desc.woman: "What I know cannot help but haunt me. To believe you are so low, yet to have come from so high. Before me is a child whose whole life is built upon a lie. A child now a woman grown. It is not fair that she should live and die without ever knowing the truth."
+ agot_expose_true_parentage_decision_requirement_yes: "You know of a secret royal bastard who is an adult and have not told them already."
+ agot_expose_true_parentage_decision_confirm: "Die Wahrheit muss ans Licht!"
+  
+  # Expose my true parentage 
+ agot_expose_my_true_parentage_decision: "Expose Your True Parentage"
+ agot_expose_my_true_parentage_decision_tooltip: "You will reveal the truth of your parentage."
+ agot_expose_my_true_parentage_decision_cadet_tooltip: "You and your children will form a new [bastard_house|E]." #NT!
+ agot_expose_my_true_parentage_decision_desc: "What I know cannot help but haunt me. To have believed I was so low, yet to have come from so high. My whole life was built upon a lie. No more. Now that I am respected with lands of my own, the truth shall be revealed. I am royal blood, and the world shall know it!"
+ agot_expose_my_true_parentage_decision_confirm: "The truth must be known!"
+  
+  # Expose my true parentage 
+ agot_royal_bastard_claim_decision: "Press Your Claim on the Iron Throne"
+ agot_royal_bastard_claim_decision_tooltip: "You will claim your birthright due to your royal blood."
+ agot_royal_bastard_claim_decision_desc.forswore: "Despite my baseborn origins, I have risen high in the esteem of Westeros. Though I may have publically declared no intent, the reality remains that the royal blood flowing through my veins gives me an undeniable claim to the Seven Kingdoms. Of course, given my prior actions such a declaration would besmirch my honor, not to mention such a blatant challenge to the throne would put me on a path towards war that I could not turn from once embarked."
+ agot_royal_bastard_claim_decision_desc: "Despite my baseborn origins, I have risen high in the esteem of Westeros. The royal blood flowing through my veins gives me the right to claim the Seven Kingdoms if I so wished it. Of course, such a blatant challenge to the throne would put me on a path towards war that I could not turn from once embarked."
+ agot_royal_bastard_claim_decision_confirm: "I must claim my birthright!"

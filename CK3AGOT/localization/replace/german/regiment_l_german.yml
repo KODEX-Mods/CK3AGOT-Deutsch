@@ -24,13 +24,22 @@
  MAA_TERRAIN_EFFECT_PURSUIT: "$VALUE|+=0$ [pursuit|E]"
  MAA_TERRAIN_EFFECT_SCREEN: "$VALUE|+=0$ [screen|E]"
  MAA_TERRAIN_EFFECT_SIEGE_VALUE: "$VALUE|+=0$/Tag [siege_progress|E]"
+ MAA_HOLDING_EFFECT_FORMAT: "$EFFECT_LIST_BULLET$In $HOLDING_TYPE|V$: $LIST$"
+ MAA_HOLDING_EFFECT_DAMAGE: "$VALUE|+=0$ [damage|E]"
+ MAA_HOLDING_EFFECT_TOUGHNESS: "$VALUE|+=0$ [toughness|E]"
+ MAA_HOLDING_EFFECT_PURSUIT: "$VALUE|+=0$ [pursuit|E]"
+ MAA_HOLDING_EFFECT_SCREEN: "$VALUE|+=0$ [screen|E]"
+ MAA_HOLDING_EFFECT_SIEGE_VALUE: "$VALUE|+=0$/Tag [siege_progress|E]"
  MAA_DOES_NOT_FIGHT_IN_MAIN_PHASE: "Belagerungswaffen greifen im Kampf nicht an."
  MEN_AT_ARMS_TYPE_TOOLTIP_CREATION_COST: "Schaffungskosten: [MenAtArmsType.GetCostString(GetPlayer)]"
+ TITLE_MEN_AT_ARMS_TYPE_TOOLTIP_CREATION_COST: "Schaffungskosten: [MenAtArmsType.GetTitleRegimentCostString(GetPlayer)]"
  SIEGE_TIER_MAX_FORT_LEVEL: "$EFFECT_LIST_BULLET$Max. [fort_level|E]: $VALUE|V$"
  SIEGE_TIER_BEATS_ALL_FORTS: "$EFFECT_LIST_BULLET$Schlägt alle [Concept('fort_level', 'Festungsstufen')|E]"
  REGIMENT_TERRAIN_MODIFIER_TOOLTIP: "#T In [RegimentTerrainModifier.GetTerrain.GetName]#!\n[RegimentTerrainModifier.GetEffectString]"
  REGIMENT_TERRAIN_BONUS_HEADER: "[terrain|E]-Effekte:"
  REGIMENT_TERRAIN_BONUS_NONE: "#weak Keine Gelände-Effekte#!"
+ REGIMENT_HOLDING_BONUS_HEADER: "[holding_type|E]-Effekte:"
+ REGIMENT_HOLDING_MODIFIER_TOOLTIP: "#T In [RegimentHoldingModifier.GetHolding.GetName]#!\n[RegimentHoldingModifier.GetEffectString]"
  REGIMENT_WINTER_EFFECT_HEADER: "Wintereffekte:"
   
  REGIMENT_DAMAGE_TT: "#T [damage|E]: [MenAtArmsType.GetStat(GetPlayer, Province.Self, 'damage')|1V]#!\n[MenAtArmsType.GetStatDesc(GetPlayer, Province.Self, 'damage')]"
@@ -95,6 +104,8 @@
  archer_cavalry: "[archer_cavalry|E]"
  camel_cavalry: "[camel_cavalry|E]"
  elephant_cavalry: "[elephant_cavalry|E]"
+ gunpowder: "[gunpowder|E]"
+ peasant_militia: "[peasant_militia|E]"
   
   #Base MaA 
  light_footmen: "Leichtes Fußvolk"
@@ -104,6 +115,8 @@
  armored_footmen: "Gepanzertes Fußvolk"
  armored_horsemen: "Gepanzerte Reiterei"
  crossbowmen: "Armbrustschützen"
+ handgunners: "Handrohrschützen"
+ pikemen_militia: "Pikeniere-Miliz"
   
   #Siege MaA 
  siege_weapon: "[siege_weapons|E]"
@@ -111,6 +124,12 @@
  mangonel: "Mangonellen"
  trebuchet: "Bliden"
  bombard: "Bombarden"
+  
+  #TGP Siege MaA 
+ ballista: "Belagerungsarmbrüste"
+ cloud_ladder: "Wolkenleitern"
+ siege_tower: "Belagerungstürme"
+ cannon: "Feuerdrachenpioniere"
   
   #Regional MaA 
  war_elephant: "Kriegselefanten"
@@ -148,7 +167,7 @@
  abudrar: "Abudrar"
  zbrojnosh: "Zbrojnosh"
  palace_guards: "Palastwache"
- chu_ko_nu: "Chu-ko-nu-Schützen"
+ shenbigong: "Shenbigong"
  mulaththamun: "Mulathamūn"
  archers_of_the_nile: "Nil-Bogenschützen"
  paiks: "Paiks"
@@ -160,6 +179,20 @@
  skoutatoi: "Skoutatoi"
  varangian_guards: "Warägergarden"
  handpicked_faithful: "Handverlesene Getreue"
+ fire_lancers: "Feuerlanzenträger"
+ gakgung_archers: "Gakgung-Schützen"
+ ballista_elephant: "Ballisten-Elefanten"
+ pesilat_warriors: "Pesilat-Krieger"
+ samurai: "Samurai"
+ japanese_horse_archers: "Reiter-Samurai"
+ emishi_horse_archers: "Emishi-Reiter"
+ warrior_monks: "Kriegermönche"
+ zhanmadao_infantry: "Zhanmadao-Fußvolk"
+ tiefutu: "Tiefutu"
+ black_armor_cavalry: "Schwarze Panzerreiter"
+ burenjia: "Burenjia-Fußvolk"
+ rocket_carts: "Raketenkarren"
+ ordo_riders_horse_archers: "Hordenreiter"
   #Special MaA 
  house_guard: "Hausgarde"
  house_guard_flavor: "#F Diese Eliteregimenter stehen im Dienst einzelner Dynastien. Die Krieger werden handverlesen aus den treusten Untertanen.#!"
@@ -172,13 +205,31 @@
  pikemen_unit_flavor: "#F Lange Piken erlauben es solchen Regimentern, ganze Mauern aus spitzen Stangen zu bilden, mit denen sie jeden Reiteransturm aufhalten können.#!"
  armored_horsemen_flavor: "#F Schwer bewaffnet und gerüstet dominieren diese Reiter das Schlachtfeld in offenen Ebenen.#!"
  crossbowmen_flavor: "#F Auch wenn das Nachladen lange dauert, sind Armbrüste doch einfach einzusetzen, und die Bolzen können die meisten Rüstungen auf hohe Distanz durchschlagen.#!"
+ handgunners_flavor: "#F Diese kruden Feuerwaffen sind teuer und explosiv in gleichem Maß, aber es sind auch ungeheuer effektive Waffen.#!\n#help Erlaubt durch [GetBuilding('powder_magazine_01').GetName].#!"
+ fire_lancers_flavor: "#F Durch den Einsatz von Versuchsmischungen können Krieger mit seltsamen Stangenwaffen Feuer (und manchmal auch Projektile) auf verschreckte Feinde herabregnen lassen.#!\n#help Erlaubt durch [GetBuilding('powder_magazine_01').GetName].#!"
+ gakgung_archers_flavor: "#F Diese Bogenschützen sind mit starken Reflexbogen und Daumenringen ausgerüstet, um stärker spannen zu können, was es ihnen erlaubt, über unglaubliche Entfernungen hinweg zu schießen."
+ pesilat_warriors_flavor: "#F Silat-Kämpfer sind oft mit einem #italic Kris#!, #italic Golok#! oder einer Vielzahl anderer Nahkampfwaffen ausgetattet und sehr geübt im waffenlosen Kampf.#!"
+ samurai_flavor: "#F #italic Bushi#!-Gefolgsleute kümmern sich um die höchsten Ränge der Gesellschaft, wobei sie mit Schwertern und lackierten Leder- oder Metallrüstungen ausgestattet sind.#!"
+ zhanmadao_infantry_flavor: "#F Diese Soldaten sind mit gewaltigen Zweihandschwertern ausgestattet und wurden ausgebildet, Reiterei durch eine atemberaubende Folge von Stößen, Hieben und Finten zu kontern.#!"
+  
+ black_armor_cavalry_flavor: "#F Eine elitäre Kaisergarde, die für ihre schwarzen, oxidierten Eisenrüstungen bekannt ist.#!"
+ tiefutu_flavor: "#F Diese schwer bewaffnete Reiterei nennt man auch „Eiserne Pagoden“. Sie wurde von der Jurchen-Jin-Dynastie nach China gebracht. Ihre überlegene Reitkunst machte sie zusammen mit der schweren, alles abdeckenden Rüstung zu schrecklichen Gegnern auf jedem Schlachtfeld.#!"
+ burenjia_flavor: "#F Diese Fußtruppen wurden in großer Zahl und engen Formationen eingesetzt. So bildeten sie das Rückgrat der kaiserlichen Armeen. Die aus bis zu 1.000 Lamellenteilen bestehende schwere Rüstung ermöglicht es ihnen, fast jedem Eindringling Paroli zu bieten.#!"
+ rocket_carts_flavor: "#F Eine Handvoll dieser Soldaten kann mit nur einem Funken den Gegner mit der Kraft von hundert Bogenschützen treffen. Man sollte aber Soldaten, die bereit sind, mit solchen Gerätschaften zu arbeiten, lieber im Auge behalten.#!"
+ ordo_riders_horse_archers_flavor: "#F Die Steppe hat einige hartgesottene Krieger hervorgebracht, die ihrem Khan dienen und von verschiedenen Nachbarn Tribut erheben. Diese Reiter, die in eigenen Horden oder „Orda“ organisiert sind, bilden das Rückgrat jeder nomadischen Elitetruppe.#!"
   
  onager_flavor: "#F Diese kleinen Torsionskatapulte können gegnerische Befestigungen einreißen, indem sie auf Entfernung Steinprojektile schleudern.#!"
  mangonel_flavor: "#F Eine Mangonel nutzt Traktion und ist so leichter zu bedienen als ein Onager und kann zugleich viel schneller abgefeuert werden.#!"
  trebuchet_flavor: "#F Das Gegengewicht einer Blide kann große Projektile mit viel größerer Kraft schleudern als Mangonellen oder Onager.#!"
  bombard_flavor: "#F Befreit von den Beschränkungen von Hebeln und Seilzügen können diese Kanonen mit Leichtigkeit Befestigungen zerschmettern.#!"
   
+ ballista_flavor: "#F Diese großen Armbrüste wurden auf Plattformen mit Rädern angebracht. Ihre Bolzen waren mit Stahlspitzen versehen und konnten über beeindruckende Entfernungen schießen.#!"
+ cloud_ladder_flavor: "#F Diese klappbare Leiter mit einem einfachen Windenmechanismus ließ sich ausklappen, sobald man in Reichweite der feindlichen Mauern war.#!"
+ siege_tower_flavor: "#F Dieser große Holzturm auf Rädern wurde an gegnerische Mauern herangeschoben und bot mehr Schutz und Stabilität als Belagerungsleitern.#!"
+ cannon_flavor: "#F Die Mündung dieser verhältnismäßig kleinen, aber tödlichen Waffen wurde mit einem Ständer gehalten, während man die Rückseite in den Boden steckte, um den Rückstoß abzufangen.#!"
+  
  war_elephant_flavor: "#F Heranstürmende Elefanten sind unmöglich aufzuhalten, sodass sie hervorragende Schocktruppen sind.#!"
+ ballista_elephant_flavor: "#F Ein heranstürmender Elefant ist schon beunruhigend genug, aber ein heranstürmender Elefant, der mit einer mächtigen Balliste auf dem Rücken ausgerüstet wurde, kann selbst den kampferprobtesten Gegner aus der Ruhe bringen.#!"
  camel_rider_flavor: "#F Diese Reiter, die über die Sandweiten herrschen, sind besser an die Kriegsführung in der Wüste angepasst als traditionelle Reiterei.#!"
   
  huscarl_flavor: "#F Germanische Huskarle sind Meister der Schildwand, mit der sie feindliche Pfeilhagel abwehren.#!"
@@ -214,7 +265,7 @@
  zbrojnosh_flavor: "#F Die Zbrojnosh sind in den Hügeln und Wäldern Mitteleuropas zu Hause, wo man sie weithin fürchtet.#!"
  abudrar_flavor: "#F Die Abudrar-Gebirgsjäger kennen in ihrer Heimat jede Schlucht und jedes Wadi.#!"
  palace_guards_flavor: "#F Auch wenn sie meist Wache stehen und für Ruhe sorgen, können diese vielseitigen Krieger doch das Rückgrat einer Armee bilden.#!"
- chu_ko_nu_flavor: "#F Diese mit Chu-ko-nu bewaffneten Schützen sind in der Lage, Bolzen mit einer vernichtenden Schussrate von der Sehne schnellen zu lassen.#!"
+ shenbigong_flavor: "#F Diese Armbrustschützen-Elite ist mit dem mächtigen Shenbigong bewaffnet, dem „Himmelsarmbogen“. Jeder abgefeuerte Pfeil kann Rüstungen und Formationen mit verstörender Genauigkeit durchschlagen.#!"
  mulaththamun_flavor: "#F Diese Reiter haben ihr Können über ein ganzes Leben in enger Verbindung zur Wüste verfeinert, und sie bedecken sich das Gesicht mit dem Litham-Schleier, um sich vor dem Sand zu schützen und davor, vom Feind erkannt zu werden.#!"
  archers_of_the_nile_flavor: "#F Seit Jahrtausenden schützen die Nubier ihr Heimatland, indem sie schon in jungen Jahren den Umgang mit dem Bogen meistern. So schlagen sie Überfälle von umliegenden Wüstenvölkern ebenso zurück wie echte Invasoren.#!"
  paiks_flavor: "#F Fußvolk bildet seit Jahrhunderten den Großteil der indischen Armeen, und keine Waffe ist so verbreitet wie der einfache Bambusbogen, mit dem viele indische Gemeine von Kindesbeinen an für die Jagd üben.#!"
@@ -226,6 +277,10 @@
  skoutatoi_flavor: "#F Die großen #EMP Skouton#!-Schilde, mit denen diese Infanterie dem Feind entgegentritt, gibt ihr auch ihren Namen. Ihre größte Tugend im Kampf ist jedoch die Disziplin, durch die sie sowohl beim Vorrücken als auch beim Rückzug geordnet bleibt.#!"
  varangian_guards_flavor: "#F Diese berühmten axtschwingenden deutschen Söldner sind der unerschütterliche Kern des kaiserlichen Heeres.\n\n@warning_icon! #X Sie werden nach dem Tod des Basileus etwas [gold|E] fordern.#!"
  handpicked_faithful_flavor: "#F Diese Kämpfer zeichnen sich durch ihren Mut, ihre Treue und ihr Können aus und sind bereit, ihr Leben zu geben, um ihren Anführer zu schützen.#!"
+ emishi_horse_archers_flavor: "#F Um sich vor größeren Bedrohungen zu verteidigen, müssen Emishi-Reiterschützen Überfalltaktiken, das Rauben und Hinterhalte meistern.#!"
+ japanese_horse_archers_flavor: "#F Samurai, die in den Sattel steigen, orientieren sich an den nördlicheren Emishi, aber tragen stärkere Rüstungen, greifen zu Yumi und peinigen den Feind mit Pfeilen.#!"
+ warrior_monks_flavor: "#F Wenn diese Mönche nicht die Gläubigen verteidigen oder ihren Gönnern dienen, führen sie ein Leben voll Hingabe mit mehr als genug Zeit für ihre Ausbildung und das Entwickeln starker Überzeugungen.#!"
+ pikemen_militia_flavor: "#F Bereit, ihr Land und ihre Würde zu verteidigen. An den Rand der Verzweiflung gedrängt nötigen sie jeden adligen Landbesitzer dazu, das zu zahlen, was er schuldet.#!"
   
   #Religious MaA 
  teutonic_knights: "Ordensritter"
@@ -241,6 +296,7 @@
  camel_cavalry_lowercase: "Kamelreiterei"
  horse_archers_lowercase: "Reiterschützen"
  levies_lowercase: "Aufgebote"
+ gunpowder_lowercase: "Handrohrschützen"
   
   # Accolade MaA 
  accolade_maa_archers: "Bogenschützengefolge"
@@ -263,3 +319,38 @@
  accolade_maa_elephantiers_flavor: "[retinue_maa|E]\n#F Von hochaufragenden Howdahs aus beweisen die geübten Mahuts dieser Tiere, dass das Einzige, was schwerer aufzuhalten ist als ein heranstürmender Elefant, ein anderer, #EMP größerer#! Elefant ist.#!"
  accolade_maa_horse_archers: "Reiterschützengefolge"
  accolade_maa_horse_archers_flavor: "[retinue_maa|E]\n#F Gewöhnliche Steppenreiter verfügen schon über lebenslange Erfahrung, doch diese altgediente Reiterei hat noch mehr davon. Sich ihnen zu widersetzen, bedeutet Schmerz, ihnen hinterherzujagen den Tod.#!"
+ accolade_maa_handgunners: "Handrohrschützengefolge"
+ accolade_maa_handgunners_flavor: "[retinue_maa|E]\n#F Diese bestens ausgebildeten Schützen schreiten stetig durch den von ihren meisterhaft gefertigten Gewehren verursachten Schießpulverrauch voran, während sie die feindlichen Reihen zertrümmern.#!"
+  
+  #MPO 
+ nomadic_riders: "Hordenreiter"
+ nomadic_riders_flavor: "#F $nomadic_riders$ wurden fast schon im Sattel geboren und von Geburt an ausgebildet, in die Schlacht zu reiten.#!"
+  #AGOT Modified 
+ # kheshig: "Kheshig" #NT!
+ # kheshig_flavor: "#F The elite guard of a nomadic ruler, the $kheshig$ guarantee the safety of their liege, day and night. The #EMP khorchin#!, their battle division, extends this guard onto the field of battle.#!" #NT!
+ kheshig: "Great Guard" #NT!
+ kheshig_flavor: "#F The elite guard of a nomadic ruler, the $kheshig$ guarantee the safety of their liege, day and night. They should be feared by all on the field of battle.#!" #NT!
+ nomadic_horde: "[horde|E]"
+  
+ steppe_raiders: "Steppenräuber"
+ steppe_raiders_flavor: "#F Obwohl sie eher wie Späher ausgestattet werden, zögern diese Vorreiter selten, gegen einzelne Feinde anzustürmen und den Unvorsichtigen rasch Gewalt anzutun.#!"
+  
+ torch_bearers: "Fackelträger"
+  #AGOT Modified 
+ # torch_bearers_flavor: "#F On the boundless steppe, there's no need for siege towers or catapults — just a blazing torch and a swift horse, enough to set every yurt aflame.#!" #NT!
+ torch_bearers_flavor: "#F On the boundless steppe, there's no need for siege towers or catapults — just a blazing torch and a swift horse, enough to set every tent aflame.#!" #NT!
+  
+ heavy_horse_archers: "Schwere Reiterschützen"
+ heavy_horse_archers_flavor: "#F Gepanzerte Reiter, die schwere Bogen tragen. Da jeder eine ganze Reihe guter Pferde mit sich führt, können diese Nomaden auf freiem Feld unermüdlich kämpfen.#!"
+  
+ nomad_lancers: "Nomadenlanzierer"
+ nomad_lancers_flavor: "#F Über dieser wilden Elitereiterei der Nomaden ragen mit Haken versehene Lanzen und Pferdehaarbanner auf.#!"
+  
+ mangudai: "Mangudai"
+ mangudai_flavor: "#F Tapfere Freiwillige – „jene, die schon tot sind“ – sind die allerersten Reiter, die auf den Feind treffen, und indem sie sich opfern, stiften sie eine leichtsinnige Unordnung beim Feind.#!"
+  
+ cataphract_archers: "Kataphrakt-Bogenschützen"
+ cataphract_archers_flavor: "#F Pfeile und Klingen prallen harmlos von den Lamellenmänteln dieser Reiter und ihrer Streitrosse ab. Derweil bringen ihre Tod und Elend.#!"
+  
+ maturkan_warriors: "Maturkankrieger"
+ maturkan_warriors_flavor: "#F Diese Kriegsfürsten sind die Verteidiger der kalten Taiga und kämpfen dort, wo Pferde und Überfallkommandos kaum hinkommen.#!"

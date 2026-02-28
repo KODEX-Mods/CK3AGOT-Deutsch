@@ -2,3 +2,8 @@
  AGOT_VERSION_BUILD: "\nAGOT Build: #color_yellow;bold $AGOT_BUILD$#!\nAGOT Version: #color_yellow;bold $AGOT_VERSION$#!\nAGOT-Deutsch Version: #color_yellow;bold $AGOT_GERMAN_VERSION$#!"
  AGOT_BUILD: "Release Build"
  AGOT_VERSION: "Open Beta 0.1.11.1"
+ AGOT_REQUIRED_VERSION: "Crane (1.18.3.1)" #NT!
+ VERSION_MISMATCH_DESCRIPTION: "Dear #clickable [SelectLocalization(Or(Not(POPSStatusIsLoggedIn), POPStatusIsUserNameEmpty), 'NULL_USERNAME', 'FULL_USERNAME')]#!,\n\nYour version of CK3 is #negative_value [GetGameVersionInfoShort]#! while CK3AGOT requires #positive_value $AGOT_REQUIRED_VERSION$#!. If you choose to continue from here, this can result in your previous saves breaking or new saves behaving unexpectedly.\n\nClicking #high Confirm#! means that you understand this warning and won't attempt to report any bugs that result from this.\n\nOtherwise, we suggest exiting the game in order to get back to version #positive_value $AGOT_REQUIRED_VERSION$#!." #NT!
+ VERSION_MISMATCH_CONFIRM: "Confirm" #NT!
+ VERSION_MISMATCH_CONFIRM_TOOLTIP: "#high;bold You are confirming that you understand the risk associated with using an unsupported game version#!" #NT!
+ VERSION_MISMATCH_EXIT_TOOLTIP: "@warning_icon! #warning You will exit the game#!" #NT!

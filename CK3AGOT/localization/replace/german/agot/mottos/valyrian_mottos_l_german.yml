@@ -1,0 +1,20 @@
+﻿l_german:
+  #NOTE: follows the order of dynasties in the \common\dynasties\ files 
+  ### VALYRIAN DYNASTIES/CADET BRANCHES ### 
+  #Great Houses 
+ dynn_Targaryen_motto: "Feuer und Blut"
+ dynn_Blackfyre_motto: "Wir tragen das Schwert"
+ dynn_Bittersteel_motto: "Our Word Is Good as Gold" #NT!
+  
+  #High Valyrian 
+ dynn_Velaryon_motto: "Das Alte, das Treue, das Tapfere"
+  
+  #West Valyrian 
+ dynn_Celtigar_motto: "Unser Griff ist fest"
+ dynn_Scales_motto: "Das Gewicht der Gerechtigkeit"
+  
+  #East Valyrian 
+  
+  #Slaver's Bay 
+  
+  #Dragons 

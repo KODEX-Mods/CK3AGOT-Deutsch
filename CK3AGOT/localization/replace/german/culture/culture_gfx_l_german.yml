@@ -1,7 +1,7 @@
 ﻿l_german:
   #AGOT Modified 
- #african_building_gfx: "African" #NT!
- african_building_gfx: "Sothoryi Architecture" #NT!
+ #african_building_gfx: "African"
+ african_building_gfx: "Sothoryi Architecture"
  african_clothing_gfx: "Afrikanisch"
  anglo_saxon_coa_gfx: "Angelsächsisch"
  arabic_group_building_gfx: "Arabisch"
@@ -18,6 +18,12 @@
  castilian_coa_gfx: "Kastilisch"
  central_african_group_coa_gfx: "Zentralafrikanisch"
  chinese_group_coa_gfx: "Chinesisch"
+  #AGOT Modified 
+ #chinese_clothing_gfx: "Chinese" #NT!
+ chinese_clothing_gfx: "YiTish" #NT!
+  #AGOT Modified 
+ #chinese_unit_gfx: "Chinese" #NT!
+ chinese_unit_gfx: "YiTish" #NT!
  danish_coa_gfx: "Dänisch"
  dde_abbasid_clothing_gfx: "Abbasidisch"
  dde_hre_clothing_gfx: "Reichsrömisch"
@@ -26,8 +32,11 @@
  east_african_group_coa_gfx: "Ostafrikanisch"
  east_slavic_group_coa_gfx: "Ostslawisch"
   #AGOT Modified 
- #eastern_unit_gfx: "Eastern European" #NT!
- eastern_unit_gfx: "Freehold Steel" #NT!
+ #eastern_unit_gfx: "Eastern European"
+ eastern_unit_gfx: "Freehold Steel"
+  #AGOT Modified 
+ #ainu_clothing_gfx: "$ainu$" #NT!
+ ainu_clothing_gfx: "$lengii$" #NT!
  english_coa_gfx: "Englisch"
  fp1_norse_clothing_gfx: "Nordisch"
  frankish_group_coa_gfx: "Altfränkisch"
@@ -36,94 +45,111 @@
  german_group_coa_gfx: "Germanisch"
  iberian_group_coa_gfx: "Iberisch"
   #AGOT Modified 
- #indian_building_gfx: "Indian" #NT!
- indian_building_gfx: "Moraqi Architecture" #NT!
+ #indian_building_gfx: "Old Essosi"
+ indian_building_gfx: "Moraqi Architecture"
  indian_clothing_gfx: "Indisch"
  indian_coa_gfx: "Indisch"
   #AGOT Modified 
- #indian_unit_gfx: "Indian" #NT!
- indian_unit_gfx: "Essosi Steel" #NT!
+ #indian_unit_gfx: "Indian"
+ indian_unit_gfx: "Essosi Steel"
  indo_aryan_group_coa_gfx: "Indo-Arisch"
  iranian_group_coa_gfx: "Iranisch"
  irish_coa_gfx: "Irisch"
  israelite_group_coa_gfx: "Israelitisch"
+  #AGOT Modified 
+ #japanese_clothing_gfx: "Japanese" #NT!
+ japanese_clothing_gfx: "Lengii" #NT!
+  #AGOT Modified 
+ #japanese_unit_gfx: "Japanese" #NT!
+ japanese_unit_gfx: "Lengii" #NT!
+  #AGOT Modified 
+ #korean_clothing_gfx: "Korean" #NT!
+ korean_clothing_gfx: "YiTish" #NT!
  latin_group_coa_gfx: "Lateinisch"
  leonese_coa_gfx: "Leonisch"
  magyar_group_coa_gfx: "Magyarisch"
+ malay_clothing_gfx: "Malaiisch"
   #AGOT Modified 
- #mediterranean_building_gfx: "Mediterranean" #NT!
- mediterranean_building_gfx: "Essosi Architecture" #NT!
- #mena_building_gfx: "Arabic" #NT!
- mena_building_gfx: "Southern Architecture" #NT!
+ #mediterranean_building_gfx: "Free Urban"
+ mediterranean_building_gfx: "Essosi Architecture"
+ #mena_building_gfx: "Sandstone"
+ mena_building_gfx: "Southern Architecture"
  mena_clothing_gfx: "Arabisch"
   #AGOT Modified 
- #mena_unit_gfx: "Arabic" #NT!
- mena_unit_gfx: "Coastal Spear" #NT!
+ #mena_unit_gfx: "Arabic"
+ mena_unit_gfx: "Coastal Spear"
  mongol_clothing_gfx: "Mongolisch"
  mongol_coa_gfx: "Mongolisch"
   #AGOT Modified 
- #mongol_unit_gfx: "Mongolian" #NT!
- mongol_unit_gfx: "Horse Lord" #NT!
+ #mongol_unit_gfx: "Mongolian"
+ mongol_unit_gfx: "Horse Lord"
  norman_coa_gfx: "Normannisch"
   #AGOT Modified 
- #norse_building_gfx: "Norse" #NT!
- norse_building_gfx: "Northern Architecture" #NT!
+ #norse_building_gfx: "Timber Stone"
+ norse_building_gfx: "Northern Architecture"
  norse_coa_gfx: "Nordisch"
   #AGOT Modified 
- #norse_unit_gfx: "Norse" #NT!
- norse_unit_gfx: "Iron Raider" #NT!
+ #norse_unit_gfx: "Norse"
+ norse_unit_gfx: "Iron Raider"
  northern_clothing_gfx: "Nordisch"
   #AGOT Modified 
- #northern_unit_gfx: "Northern European" #NT!
+ #northern_unit_gfx: "Northern European"
  northern_unit_gfx: "Nordisch"
  norwegian_coa_gfx: "Norwegisch"
  occitan_coa_gfx: "Okzitanisch"
  oghuz_coa_gfx: "Oghusisch"
+ papuan_clothing_gfx: "$papuan$"
  polish_coa_gfx: "Polnisch"
  sami_coa_gfx: "Samisch"
  scottish_coa_gfx: "Schottisch"
  south_slavic_group_coa_gfx: "Südslawisch"
+ southeast_asian_clothing_gfx: "Südostasiatisch"
+ southeast_asian_unit_gfx: "Südostasiatisch"
   #AGOT Modified 
- #steppe_building_gfx: "Eurasian Steppe" #NT!
- steppe_building_gfx: "Nomadic Architecture" #NT!
+ #steppe_building_gfx: "Nomadic Horseman"
+ steppe_building_gfx: "Nomadic Architecture"
  steppe_coa_gfx: "Steppeneurasisch"
   #AGOT Modified 
- #sub_sahran_unit_gfx: "Sub-Saharan African" #NT!
- sub_sahran_unit_gfx: "Desert Steel" #NT!
+ #sub_sahran_unit_gfx: "Sub-Saharan African"
+ sub_sahran_unit_gfx: "Desert Steel"
  swedish_coa_gfx: "Schwedisch"
+ tai_clothing_gfx: "$tai$"
  tibetan_group_coa_gfx: "Tibetisch"
  turkic_group_coa_gfx: "Türkisch"
  ugro_permian_group_coa_gfx: "Ugro-Permisch"
+ viet_clothing_gfx: "$viet$"
  volga_finnic_group_coa_gfx: "Wolgafinnisch"
  welsh_coa_gfx: "Walisisch"
  west_african_group_coa_gfx: "Westafrikanisch"
  west_slavic_group_coa_gfx: "Westslawisch"
   #AGOT Modified 
- #western_building_gfx: "Continental European" #NT!
- western_building_gfx: "Westerosi Architecture" #NT!
+ #western_building_gfx: "Old Andalic"
+ western_building_gfx: "Westerosi Architecture"
  western_clothing_gfx: "Kontinentaleuropäisch"
  western_coa_gfx: "Kontinentaleuropäisch"
   #AGOT Modified 
- #western_unit_gfx: "Continental European" #NT!
- western_unit_gfx: "Westerosi Steel" #NT!
+ #western_unit_gfx: "Continental European"
+ western_unit_gfx: "Westerosi Steel"
   #AGOT Modified 
- #iberian_building_gfx: "Iberian" #NT!
- iberian_building_gfx: "Andalo-Rhoynar Architecture" #NT!
+ #iberian_building_gfx: "Andalo-Rhoynar"
+ iberian_building_gfx: "Andalo-Rhoynar Architecture"
   #AGOT Modified 
- #iberian_christian_unit_gfx: "Iberian" #NT!
- iberian_christian_unit_gfx: "Coastal Shields" #NT!
+ #iberian_christian_unit_gfx: "Iberian"
+ iberian_christian_unit_gfx: "Coastal Shields"
   #AGOT Modified 
- #iberian_muslim_unit_gfx: "Andalusian" #NT!
- iberian_muslim_unit_gfx: "Andalo-Rhoynar" #NT!
+ #iberian_muslim_unit_gfx: "Andalusian"
+ iberian_muslim_unit_gfx: "Andalo-Rhoynar"
  iberian_christian_clothing_gfx: "Iberisch"
  iberian_muslim_clothing_gfx: "Andalusisch"
  iranian_clothing_gfx: "Iranisch"
   #AGOT Modified 
- #iranian_building_gfx: "Iranian" #NT!
- iranian_building_gfx: "Rhoynar Architecture" #NT!
+ #iranian_building_gfx: "Princely Rhoynar"
+ iranian_building_gfx: "Rhoynar Architecture"
   #AGOT Modified 
- #iranian_unit_gfx: "Iranian" #NT!
- iranian_unit_gfx: "Silver Steel" #NT!
+ #iranian_unit_gfx: "Iranian"
+ iranian_unit_gfx: "Silver Steel"
+  #AGOT Modified 
+ #turkic_clothing_gfx: "Turkic" #NT!
  turkic_clothing_gfx: "Türkisch"
  west_slavic_clothing_gfx: "Westslawisch"
  afr_berber_clothing_gfx: "Berber"
@@ -131,3 +157,36 @@
  east_slavic_clothing_gfx: "Ostslawisch"
  sami_clothing_gfx: "Sami"
  ugro_permian_clothing_gfx: "Ugro-Permisch"
+  #AGOT Modified 
+ #tungus_building_gfx: "Tungus" #NT!
+ tungus_building_gfx: "Ibbish Architecture" #NT!
+ tungus_clothing_gfx: "Tungusisch"
+ tungus_coa_gfx: "Tungusisch"
+ tungus_unit_gfx: "Tungusisch"
+ japanese_coa_gfx: "Japanisch"
+  #AGOT Modified 
+ #chinese_building_gfx: "Chinese" #NT!
+ chinese_building_gfx: "YiTish Architecture" #NT!
+  #AGOT Modified 
+ #southeast_asian_building_gfx: "Southeast Asian" #NT!
+ southeast_asian_building_gfx: "Summer Architecture" #NT!
+  #AGOT Modified 
+ #japanese_building_gfx: "Japanese" #NT!
+ japanese_building_gfx: "Jade Sea Architecture" #NT!
+ caucasian_building_gfx: "Kaukasisch"
+ east_slavic_building_gfx: "Ostslawisch"
+ tibetan_building_gfx: "Tibetisch"
+  
+  
+ culture_aesthetics_naming_default: "Dynastiename zuletzt, wenn erforderlich"
+ culture_aesthetics_naming_dynasty_always_first: "Dynastiename zuerst, wird immer angezeigt"
+ culture_aesthetics_naming_dynasty_first: "Dynastiename zuerst, wenn erforderlich"
+ culture_aesthetics_naming_japanese: "$culture_aesthetics_naming_dynasty_first$"
+  
+ breton_clothing_gfx: "Bretonisch"
+ swabian_clothing_gfx: "Schwäbisch"
+ english_clothing_gfx: "Englisch"
+ norman_clothing_gfx: "Normannisch"
+ welsh_clothing_gfx: "Walisisch"
+ cornish_clothing_gfx: "Kornisch"
+ pommeranian_clothing_gfx: "Pommerisch"

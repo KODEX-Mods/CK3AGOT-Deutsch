@@ -5,34 +5,34 @@
  rich_presence_tywin_shitting: "Scheißt Gold als"
  rich_presence_tyrion_know_drink: "Trinkt und weiß Dinge als"
  rich_presence_rhaegar_prophecy: "Erfüllt die Prophezeihung als"
- rich_presence_robert: "Making the Eight as" #NT!
- rich_presence_stannis: "Gritting his teeth as" #NT!
- rich_presence_lancel: "Fetching the breastplate stretcher as" #NT!
+ rich_presence_robert: "Making the Eight as"
+ rich_presence_stannis: "Gritting his teeth as"
+ rich_presence_lancel: "Fetching the breastplate stretcher as"
  rich_presence_davos: "Hat weniger Fingernägel zu säubern als"
- rich_presence_darkstar: "Of the night as" #NT!
- rich_presence_egg: "Acting like a half-peasant as" #NT!
+ rich_presence_darkstar: "Of the night as"
+ rich_presence_egg: "Acting like a half-peasant as"
  rich_presence_dunk: "Breit wie ein Burgwall als"
- rich_presence_dunk_the_small: "Breaking betrothals as" #NT!
- rich_presence_maelys: "Talking with their second head as" #NT!
- rich_presence_roger_reyne: "Angering the Lannisters as" #NT!
- rich_presence_viserys_i: "Causing house instability as" #NT!
- rich_presence_daemon: "Conquering the Stepstones as" #NT!
- rich_presence_corlys: "On voyages as" #NT!
- rich_presence_craghas: "Feeding the crabs as" #NT!
- rich_presence_rhaenyra: "Appointed the rightful heir as" #NT!
- rich_presence_baelor_the_blessed: "Fasting all sins away as" #NT!
- rich_presence_daemon_blackfyre: "Bearing the sword as" #NT!
- rich_presence_lyonel_baratheon: "Laughing at their adversaries as" #NT!
- rich_presence_aryse_ran_ennox: "Restoring Andalos as" #NT!
- rich_presence_illyrio: "Cheesemongering as" #NT!
+ rich_presence_dunk_the_small: "Breaking betrothals as"
+ rich_presence_maelys: "Talking with their second head as"
+ rich_presence_roger_reyne: "Angering the Lannisters as"
+ rich_presence_viserys_i: "Causing house instability as"
+ rich_presence_daemon: "Conquering the Stepstones as"
+ rich_presence_corlys: "On voyages as"
+ rich_presence_craghas: "Feeding the crabs as"
+ rich_presence_rhaenyra: "Appointed the rightful heir as"
+ rich_presence_baelor_the_blessed: "Fasting all sins away as"
+ rich_presence_daemon_blackfyre: "Bearing the sword as"
+ rich_presence_lyonel_baratheon: "Laughing at their adversaries as"
+ rich_presence_aryse_ran_ennox: "Restoring Andalos as"
+ rich_presence_illyrio: "Cheesemongering as"
   # General 
- rich_presence_hatching_dragon: "Waking the dragons as" #NT!
- rich_presence_feeding_dragon_enemies: "Feeding enemies to their dragon as" #NT!
- rich_presence_soaring_above_clouds: "Soaring above the clouds as" #NT!
- rich_presence_keeping_dragon_in_check: "Keeping their dragon in check as" #NT!
- rich_presence_bonding_with_dragon: "Bonding with their dragon as" #NT!
- rich_presence_pondering_egg: "Pondering over their dragon egg as" #NT!
- rich_presence_faceless: "Wearing the mask of" #NT!
+ rich_presence_hatching_dragon: "Waking the dragons as"
+ rich_presence_feeding_dragon_enemies: "Feeding enemies to their dragon as"
+ rich_presence_soaring_above_clouds: "Soaring above the clouds as"
+ rich_presence_keeping_dragon_in_check: "Keeping their dragon in check as"
+ rich_presence_bonding_with_dragon: "Bonding with their dragon as"
+ rich_presence_pondering_egg: "Pondering over their dragon egg as"
+ rich_presence_faceless: "Wearing the mask of"
  rich_presence_burning_them_all: "Verbrennt sie alle als"
  rich_presence_reaving: "Plündert die Lande als"
  rich_presence_the_things_for_love: "Tut fragwürdige Dinge aus Liebe als"

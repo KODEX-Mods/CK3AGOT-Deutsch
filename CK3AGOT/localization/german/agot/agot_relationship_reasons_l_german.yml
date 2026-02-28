@@ -1,44 +1,50 @@
 ﻿l_german:
   
   #Best Friends Reasons 
- best_friend_kingsguard: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became sworn brothers-in-arms while serving in the [CHARACTER.Custom('KingsguardName')]." #NT!
+ best_friend_kingsguard: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became sworn brothers-in-arms while serving in the [CHARACTER.Custom('KingsguardName')]."
   
   #Friends reasons 
  friend_served_as_pages_together: "[TARGET_CHARACTER.GetShortUIName|U] und [CHARACTER.GetShortUIName] dienten in ihrer Jugend gemeinsam als Pagen."
  friend_served_as_pages_together_corresponding: "[CHARACTER.GetShortUIName|U] und [TARGET_CHARACTER.GetShortUIName] dienten in ihrer Jugend gemeinsam als Pagen"
   
- friend_squired_together: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] served as squires together." #NT!
- friend_squired_together_corresponding: "$friend_squired_together$" #NT!
+ friend_squired_together: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] served as squires together."
+ friend_squired_together_corresponding: "$friend_squired_together$"
   
- friend_campaigned_together: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] discovered the bonds of blood run thick, having served together on campaign." #NT!
- friend_campaigned_together_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] discovered the bonds of blood run thick, having served together on campaign." #NT!
+ friend_campaigned_together: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] discovered the bonds of blood run thick, having served together on campaign."
+ friend_campaigned_together_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] discovered the bonds of blood run thick, having served together on campaign."
   
- friend_bloodrider: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became sworn brothers-in-arms after a blood oath." #NT!
+ friend_bloodrider: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became sworn brothers-in-arms after a blood oath."
+  
+ friend_business_associate: "[TARGET_CHARACTER.GetShortUIName|U] is a trusted 'business associate' of [CHARACTER.GetShortUIName]." #NT!
+ friend_business_associate_corresponding: "[CHARACTER.GetShortUIName] is a trusted 'business associate' of [TARGET_CHARACTER.GetShortUIName]." #NT!
   
   #Lover reasons 
  lover_widowed_brothel: "Nach dem Tod von [CHARACTER.GetShortUINamePossessive] Geliebten, fand [CHARACTER.GetSheHe] Trost in den Armen eines [TARGET_CHARACTER.GetShortUIName], ein Freuden-[TARGET_CHARACTER.Custom('GirlBoy')] aus [PROVINCE.GetName]."
  lover_widowed_brothel_corresponding: "Nach dem Tod von [CHARACTER.GetShortUINamePossessive] Geliebten, fand [CHARACTER.GetSheHe] Trost in den Armen eines [TARGET_CHARACTER.GetShortUIName], eines Freuden-[TARGET_CHARACTER.Custom('GirlBoy')] aus [PROVINCE.GetName]."
   
   #Grudge Reasons 
- grudge_maidenvault_desc: "[CHARACTER.GetShortUIName|U] developed a grudge against [TARGET_CHARACTER.GetShortUIName] after spending many years locked in the Maidenvault." #NT!
- grudge_maidenvault_desc_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] developed a grudge against [CHARACTER.GetShortUIName] after spending many years locked in the Maidenvault." #NT!
+ grudge_maidenvault_desc: "[CHARACTER.GetShortUIName|U] developed a grudge against [TARGET_CHARACTER.GetShortUIName] after spending many years locked in the Maidenvault."
+ grudge_maidenvault_desc_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] developed a grudge against [CHARACTER.GetShortUIName] after spending many years locked in the Maidenvault."
+ grudge_rivalrystop_desc: "[CHARACTER.GetShortUINamePossessive|U] rivalry with [TARGET_CHARACTER.GetShortUIName] became a one-sided grudge after [CharYouSheHe(TARGET_CHARACTER)] decided [CHARACTER.GetShortUINameNoTooltip] wasn't worth [CharYourHerHis(TARGET_CHARACTER)] time anymore." #NT!
+ grudge_rivalrystop_desc_corresponding: "[TARGET_CHARACTER.GetShortUIName|U]'s rivalry with [CHARACTER.GetShortUIName] became a one-sided grudge after [CharYouSheHe(CHARACTER)] decided [TARGET_CHARACTER.GetShortUINameNoTooltip] wasn't worth [CharYourHerHis(CHARACTER)] time anymore." #NT!
   
   #Rival Reasons 
- rival_broke_important_betrothal: "[CHARACTER.GetShortUIName|U] broke a betrothal critical to [TARGET_CHARACTER.GetShortUINamePossessive] position." #NT!
- rival_broke_important_betrothal_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] broke a betrothal critical to [CHARACTER.GetShortUINamePossessive] position." #NT!
- rival_forced_betrothal: "[CHARACTER.GetShortUIName|U] was forced into an unwanted betrothal with [TARGET_CHARACTER.GetShortUIName]." #NT!
- rival_forced_betrothal_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was forced into an unwanted betrothal with [CHARACTER.GetShortUIName]." #NT!
- rival_forced_marriage: "[CHARACTER.GetShortUIName|U] forced [TARGET_CHARACTER.GetShortUIName] into a marriage against [TARGET_CHARACTER.GetHerHis] will." #NT!
- rival_forced_marriage_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] forced [CHARACTER.GetShortUIName] into a marriage against [CHARACTER.GetHerHis] will." #NT!
- rival_stole_prized_heirloom: "[TARGET_CHARACTER.GetShortUIName|U] stole [CHARACTER.GetShortUINamePossessive] valuable artifact." #NT!
- rival_stole_prized_heirloom_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive] swore to take vengeance upon [CHARACTER.GetShortUIName|U] for claiming their valuable artifact." #NT!
- rival_made_ride_dragon_piggyback: "[CHARACTER.GetShortUIName|U] made [TARGET_CHARACTER.GetShortUIName] ride a pig, even though [TARGET_CHARACTER.GetSheHe] was promised a dragon." #NT!
- rival_made_ride_dragon_piggyback_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] did not take kindly to being made to ride a pig by [CHARACTER.GetShortUIName]." #NT!
- rival_stole_horn: "[TARGET_CHARACTER.GetShortUIName] stole [CHARACTER.GetShortUINamePossessive|U] horn while attempting to tame a dragon." #NT!
- stole_dragon: "[TARGET_CHARACTER.GetShortUIName] used a dragon horn to steal a dragon from [CHARACTER.GetShortUIName|U]." #NT!
- stole_dragons: "[TARGET_CHARACTER.GetShortUIName] used a dragon horn to steal dragons from [CHARACTER.GetShortUIName|U]." #NT!
- steal_dragon_attempt: "[TARGET_CHARACTER.GetShortUIName|U] tried to steal a dragon from [CHARACTER.GetShortUIName|U] with dragon horn." #NT!
- rival_twin_given_egg: "[TARGET_CHARACTER.GetShortUIName|U] was given an egg at birth and [CHARACTER.GetShortUIName|U] was not." #NT!
- rival_has_my_legitimate_house_title: "[TARGET_CHARACTER.GetShortUIName|U] was enraged that [CHARACTER.GetShortUIName] gained a title they are the [agot_legitimate_house|E] of." #NT!
- rival_has_my_legitimate_house_title_corresponding: "[CHARACTER.GetShortUIName|U] was enraged that [TARGET_CHARACTER.GetShortUIName] gained a title they are the [agot_legitimate_house|E] of." #NT!
-  
+ rival_broke_important_betrothal: "[CHARACTER.GetShortUIName|U] broke a betrothal critical to [TARGET_CHARACTER.GetShortUINamePossessive] position."
+ rival_broke_important_betrothal_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] broke a betrothal critical to [CHARACTER.GetShortUINamePossessive] position."
+ rival_forced_betrothal: "[CHARACTER.GetShortUIName|U] was forced into an unwanted betrothal with [TARGET_CHARACTER.GetShortUIName]."
+ rival_forced_betrothal_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was forced into an unwanted betrothal with [CHARACTER.GetShortUIName]."
+ rival_forced_marriage: "[CHARACTER.GetShortUIName|U] forced [TARGET_CHARACTER.GetShortUIName] into a marriage against [TARGET_CHARACTER.GetHerHis] will."
+ rival_forced_marriage_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] forced [CHARACTER.GetShortUIName] into a marriage against [CHARACTER.GetHerHis] will."
+ rival_stole_prized_heirloom: "[TARGET_CHARACTER.GetShortUIName|U] stole [CHARACTER.GetShortUINamePossessive] valuable artifact."
+ rival_stole_prized_heirloom_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive] swore to take vengeance upon [CHARACTER.GetShortUIName|U] for claiming their valuable artifact."
+ rival_made_ride_dragon_piggyback: "[CHARACTER.GetShortUIName|U] made [TARGET_CHARACTER.GetShortUIName] ride a pig, even though [TARGET_CHARACTER.GetSheHe] was promised a dragon."
+ rival_made_ride_dragon_piggyback_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] did not take kindly to being made to ride a pig by [CHARACTER.GetShortUIName]."
+ rival_stole_horn: "[TARGET_CHARACTER.GetShortUIName] stole [CHARACTER.GetShortUINamePossessive|U] horn while attempting to tame a dragon."
+ stole_dragon: "[TARGET_CHARACTER.GetShortUIName] used a dragon horn to steal a dragon from [CHARACTER.GetShortUIName|U]."
+ stole_dragons: "[TARGET_CHARACTER.GetShortUIName] used a dragon horn to steal dragons from [CHARACTER.GetShortUIName|U]."
+ steal_dragon_attempt: "[TARGET_CHARACTER.GetShortUIName|U] tried to steal a dragon from [CHARACTER.GetShortUIName|U] with dragon horn."
+ rival_twin_given_egg: "[TARGET_CHARACTER.GetShortUIName|U] was given an egg at birth and [CHARACTER.GetShortUIName|U] was not."
+ rival_has_my_legitimate_house_title: "[TARGET_CHARACTER.GetShortUIName|U] was enraged that [CHARACTER.GetShortUIName] gained a title they are the [agot_legitimate_house|E] of."
+ rival_has_my_legitimate_house_title_corresponding: "[CHARACTER.GetShortUIName|U] was enraged that [TARGET_CHARACTER.GetShortUIName] gained a title they are the [agot_legitimate_house|E] of."
+ rival_raid_pirate_ship: "[TARGET_CHARACTER.GetShortUIName|U] raided [CHARACTER.GetShortUINamePossessive] pirate ship." #NT!
+ rival_raid_pirate_ship_corresponding: "[CHARACTER.GetShortUINamePossessive|U] pirate ship was raided by [TARGET_CHARACTER.GetShortUIName]." #NT!

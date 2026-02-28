@@ -1,0 +1,84 @@
+﻿l_german:
+  #AGOT Modified 
+ #CW_DATE_April: "April" #NT!
+ CW_DATE_April: "des Vierten Mondes"
+  #AGOT Modified 
+ #CW_DATE_August: "August" #NT!
+ CW_DATE_August: "des Achten Mondes"
+  #AGOT Modified 
+ #CW_DATE_December: "December" #NT!
+ CW_DATE_December: "des Zwölften Mondes"
+  #AGOT Modified 
+ #CW_DATE_February: "February" #NT!
+ CW_DATE_February: "des Zweiten Mondes"
+ CW_DATE_Friday: "Freitag"
+  #AGOT Modified 
+ #CW_DATE_January: "January" #NT!
+ CW_DATE_January: "des Ersten Mondes"
+  #AGOT Modified 
+ #CW_DATE_July: "July" #NT!
+ CW_DATE_July: "des Siebten Mondes"
+  #AGOT Modified 
+ #CW_DATE_June: "June" #NT!
+ CW_DATE_June: "des Sechsten Mondes"
+  #AGOT Modified 
+ #CW_DATE_March: "March" #NT!
+ CW_DATE_March: "des Dritten Mondes"
+  #AGOT Modified 
+ #CW_DATE_May: "May" #NT!
+ CW_DATE_May: "des Fünften Mondes"
+ CW_DATE_Monday: "Montag"
+  #AGOT Modified 
+ #CW_DATE_November: "November" #NT!
+ CW_DATE_November: "des Elften Mondes"
+  #AGOT Modified 
+ #CW_DATE_October: "October" #NT!
+ CW_DATE_October: "des Zehnten Mondes"
+ CW_DATE_Saturday: "Samstag"
+  #AGOT Modified 
+ #CW_DATE_September: "September" #NT!
+ CW_DATE_September: "des Neunten Mondes"
+ CW_DATE_Sunday: "Sonntag"
+ CW_DATE_Thursday: "Donnerstag"
+ CW_DATE_Tuesday: "Dienstag"
+ CW_DATE_Wednesday: "Mittwoch"
+  #AGOT Modified 
+ #CW_DATE_Jan: "Jan" #NT!
+ CW_DATE_Jan: "1."
+  #AGOT Modified 
+ #CW_DATE_Feb: "Feb" #NT!
+ CW_DATE_Feb: "2."
+  #AGOT Modified 
+ #CW_DATE_Mar: "Mar" #NT!
+ CW_DATE_Mar: "3."
+  #AGOT Modified 
+ #CW_DATE_Apr: "Apr" #NT!
+ CW_DATE_Apr: "4."
+  #AGOT Modified 
+ #CW_DATE_Jun: "Jun" #NT!
+ CW_DATE_Jun: "6."
+  #AGOT Modified 
+ #CW_DATE_Jul: "Jul" #NT!
+ CW_DATE_Jul: "7."
+  #AGOT Modified 
+ #CW_DATE_Aug: "Aug" #NT!
+ CW_DATE_Aug: "8."
+  #AGOT Modified 
+ #CW_DATE_Sep: "Sep" #NT!
+ CW_DATE_Sep: "9."
+  #AGOT Modified 
+ #CW_DATE_Oct: "Oct" #NT!
+ CW_DATE_Oct: "10."
+  #AGOT Modified 
+ #CW_DATE_Nov: "Nov" #NT!
+ CW_DATE_Nov: "11."
+  #AGOT Modified 
+ #CW_DATE_Dec: "Dec" #NT!
+ CW_DATE_Dec: "12."
+ CW_DATE_Mon: "Mo"
+ CW_DATE_Tue: "Di"
+ CW_DATE_Wed: "Mi"
+ CW_DATE_Thu: "Do"
+ CW_DATE_Fri: "Fr"
+ CW_DATE_Sat: "Sa"
+ CW_DATE_Sun: "So"

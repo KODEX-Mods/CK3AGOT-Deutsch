@@ -143,8 +143,8 @@
  bp1_house_feud.0500.t: "$story_cycle_house_feud_title$: Zornesziele"
  bp1_house_feud.0500.desc: "Obschon ich es zunächst bezweifelte, überzeugt mich der Tratsch am [ROOT.Char.Custom('GetCourt')] nun doch nach und nach davon, dass [house_feud_rival.GetTitledFirstName] meinen Kopf will – und das alles nur wegen einer [other_house_feud_story.Custom('GetFamilyFeudShort')].\n\nWegen der Verbindung zu mir ist für [house_feud_rival.Custom('DE_PRO_PER_S_3P_A')] jedes Mitglied von Haus [ROOT.Char.GetHouse.GetName] ein gerechtfertigtes Ziel. Dieser Hass ist von ganz oben aus durch [house_feud_rival.Custom('DE_PRO_POS_S_3P')]e gesamte [house_feud_rival.Custom('InsultAdjective')|l]e Familie gesickert."
   #AGOT Modified 
- #bp1_house_feud.0500.a: "House [house_feud_rival.GetFirstNameNoTooltip] will regret this." #NT!
- bp1_house_feud.0500.a: "House [house_feud_rival.GetHouse.GetBaseNameNoTooltip] will regret this." #NT!
+ # bp1_house_feud.0500.a: "House [house_feud_rival.GetFirstNameNoTooltip] will regret this." #NT!
+ bp1_house_feud.0500.a: "House [house_feud_rival.GetHouse.GetBaseNameNoTooltip] will regret this."
  bp1_house_feud.0500.b: "Ich habe größere Sorgen."
  bp1_house_feud.0501.t: "$story_cycle_house_feud_title$: [house_feud_attacker.GetHouse.GetBaseNameNoTooltip]-Rivalität"
  bp1_house_feud.0501.reciprocating: "[house_feud_attacker.Custom('DE_ART_DEF_S_N')|U] [house_feud_attacker.Custom('InsultAdjective')|l]e [house_feud_attacker.GetFirstName] hat die offene Feindseligkeit unserer Familie gegenüber [house_feud_attacker.Custom('DE_PRO_POS_S_3P')|U]er eigenen nun auf dieselbe Weise erwidert: eine jämmerliche und verleumderische Antwort auf unsere berechtigten Kümmernisse."

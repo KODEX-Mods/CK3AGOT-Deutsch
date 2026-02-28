@@ -77,6 +77,10 @@
  setting_easy_difficulty_desc: "Man erhält Boni. Unter anderem werden die Auswirkungen von Krankheiten, feindseligen Komplotten und Anspannung abgeschwächt. Man wird auch leichter mit Fraktionen fertig."
  setting_very_easy_difficulty: "#high Sehr Einfach#!"
  setting_very_easy_difficulty_desc: "Man erhält beträchtliche Boni (unter anderem werden die Auswirkungen von Krankheiten, feindseligen Komplotten und Anspannung abgeschwächt). Man wird auch viel leichter mit Fraktionen fertig."
+ setting_hard_difficulty: "#high Schwierig#!"
+ setting_hard_difficulty_desc: "KI-Herrscher erhalten Boni wie beispielsweise weniger Anspannung und stabilere Reiche. @alert_icon! #alert_trial Dies macht KI-Reiche viel stabiler und reicher, wodurch das Spiel weniger ausgewogen ist.#!"
+ setting_very_hard_difficulty: "#high Sehr schwierig#!"
+ setting_very_hard_difficulty_desc: "KI-Herrscher erhalten beträchtliche Boni wie beispielsweise weniger Anspannung und stabilere Reiche. @warning_icon! #X Dies macht KI-Reiche äußerst stabil und reich, wodurch das Spiel weniger ausgewogen ist.#!"
  setting_normal_difficulty: "Normal"
  setting_normal_difficulty_desc: "Man spielt auf ausgeglichenem Niveau ohne beachtliche Boni."
   
@@ -116,6 +120,8 @@
  setting_full_gender_equality_desc: "Alle Doktrinen und Rechte bezüglich der Geschlechter sind auf „Gleich“ voreingestellt. Es gelten dieselben Regeln und Rechte für alle Charaktere unabhängig von ihrem Geschlecht."
  setting_inversed_gender_equality: "#high Umgekehrt#!"
  setting_inversed_gender_equality_desc: "Alle Doktrinen und Rechte bezüglich der Geschlechter sind umgekehrt. Die Regeln und Rechte für Männer unter „Standard“ gelten für Frauen und umgekehrt."
+ setting_lenient_gender_equality: "#high Nachsichtig#!"
+ setting_lenient_gender_equality_desc: "Reich- und Titelgesetze, die derzeit auf „Nur Männer“ stehen, wechseln zu „Männliches Vorrecht“."
   
  rule_sexuality_distribution: "Verteilung der Sexualität"
  setting_sexuality_distribution_default: "Heterosexualität"
@@ -182,6 +188,18 @@
  setting_domain_limit_minus_two_desc: "Die [domain_limit|E] ist für alle [rulers|E] um zwei #EMP verringert#!."
  setting_domain_limit_minus_three: "#high -3#!"
  setting_domain_limit_minus_three_desc: "Die [domain_limit|E] ist für alle [rulers|E] um drei #EMP verringert#!."
+ setting_domain_limit_plus_one_player: "#high +1, nur Spieler#!"
+ setting_domain_limit_plus_one_player_desc: "Die [domain_limit|E] ist für Spieler um eins erhöht."
+ setting_domain_limit_plus_two_player: "#high +2, nur Spieler#!"
+ setting_domain_limit_plus_two_player_desc: "Die [domain_limit|E] ist für Spieler um zwei erhöht."
+ setting_domain_limit_plus_three_player: "#high +3, nur Spieler#!"
+ setting_domain_limit_plus_three_player_desc: "Die [domain_limit|E] ist für Spieler um drei erhöht."
+ setting_domain_limit_minus_one_player: "#high -1, nur Spieler#!"
+ setting_domain_limit_minus_one_player_desc: "Die [domain_limit|E] ist für Spieler um eins #EMP verringert#!."
+ setting_domain_limit_minus_two_player: "#high -2, nur Spieler#!"
+ setting_domain_limit_minus_two_player_desc: "Die [domain_limit|E] ist für Spieler um zwei #EMP verringert#!."
+ setting_domain_limit_minus_three_player: "#high -3, nur Spieler#!"
+ setting_domain_limit_minus_three_player_desc: "Die [domain_limit|E] ist für Spieler um drei #EMP verringert#!."
   
  rule_random_nickname_frequency: "Häufigkeit zufälliger Spitznamen"
  setting_random_nickname_frequency_default: "Standard"
@@ -423,10 +441,18 @@
   
  rule_matrilineal_marriages: "Matrilineare Ehen"
  setting_default_matrilineal_marriages: "Standard"
+  #AGOT Modified 
+ #setting_default_matrilineal_marriages_desc: "AI characters will arrange [matrilineal|E] marriages if they belong to the player's close family, or a [dynasty_prestige_level_4|L] [dynasty|E], or an [GetLaw('equal_law').GetName] realm, or are strong [rulers|E]. [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] realms default to Matrilineal." #NT!
  setting_default_matrilineal_marriages_desc: "KI-Charaktere werden Ehen [matrilineal|E] arrangieren, wenn sie zur nahen Verwandtschaft des Spielers, einer [dynasty_prestige_level_4|L]en [dynasty|E], einem Reich mit „[GetLaw('equal_law').GetName]“ oder starken [Concept('rulers', 'Herrschern')|E] gehören. Reiche mit „[GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]“ sind standardmäßig matrilinear."
+  #AGOT Modified 
+ #setting_matrilineal_marriages_no_player_exception: "#high Default (no Player exception)#!" #NT!
  setting_matrilineal_marriages_no_player_exception: "#high Standard (keine Spielerausnahme)#!"
+  #AGOT Modified 
+ #setting_matrilineal_marriages_no_player_exception_desc: "AI characters will arrange [matrilineal|E] marriages if they belong to a [dynasty_prestige_level_4|L] [dynasty|E], or an [GetLaw('equal_law').GetName] realm, or are strong [rulers|E]. [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] realms default to Matrilineal." #NT!
  setting_matrilineal_marriages_no_player_exception_desc: "KI-Charaktere werden Ehen [matrilineal|E] arrangieren, wenn sie zu einer [dynasty_prestige_level_4|L]en [dynasty|E], einem Reich mit „[GetLaw('equal_law').GetName]“ oder starken [Concept('rulers', 'Herrschern')|E] gehören. Reiche mit „[GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]“ sind standardmäßig matrilinear."
  setting_matrilineal_marriages_always: "#high Immer#!"
+  #AGOT Modified 
+ #setting_matrilineal_marriages_always_desc: "AI characters will want to arrange [matrilineal|E] marriages for all female [dynasty|E] members. Like with #high $setting_default_matrilineal_marriages$#! rules, [patrilineal|E] marriages still happen if deemed favorable enough." #NT!
  setting_matrilineal_marriages_always_desc: "KI-Charaktere werden für alle weiblichen [dynasty|E]-Mitglieder Ehen immer [matrilineal|E] arrangieren. Wie bei #high $setting_default_matrilineal_marriages$#!-Regeln werden Ehen [patrilineal|E] arrangiert, wenn der Vorteil groß genug erscheint."
  setting_matrilineal_marriages_female_and_equal: "#high Weiblich dominiert & Gleichgestellt#!"
  setting_matrilineal_marriages_female_and_equal_desc: "KI-Charaktere werden nur Ehen [matrilineal|E] arrangieren, wenn sie in Reichen mit „[GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]“ oder „[GetLaw('equal_law').GetName]“ sind. Wie bei #high $setting_default_matrilineal_marriages$#!-Regeln werden Ehen [patrilineal|E] arrangiert, wenn der Vorteil groß genug erscheint."
@@ -498,36 +524,36 @@
  setting_random_seljuk_invasion_desc: "Die Seldschuken fallen an einem zufälligen Datum ein."
   
   #AGOT Modified 
- #rule_black_death_occurrence: "Black Death Circumstance" #NT!
- rule_black_death_occurrence: "Great Spring Sickness Circumstance" #NT!
+ #rule_black_death_occurrence: "Black Death Circumstance"
+ rule_black_death_occurrence: "Great Spring Sickness Circumstance"
  setting_bd_occurrence_organic: "#high Organisch#!"
   #AGOT Modified 
- #setting_bd_occurrence_organic_desc: "The Black Death will occur in a historically plausible scenario that is reactive to the current state of the game." #NT!
- setting_bd_occurrence_organic_desc: "The Great Spring Sickness will occur in a historically plausible scenario that is reactive to the current state of the game." #NT!
+ #setting_bd_occurrence_organic_desc: "The Black Death will occur in a historically plausible scenario that is reactive to the current state of the game."
+ setting_bd_occurrence_organic_desc: "The Great Spring Sickness will occur in a historically plausible scenario that is reactive to the current state of the game."
  setting_bd_occurrence_historical: "Historisch"
   #AGOT Modified 
- #setting_bd_occurrence_historical_desc: "The Black Death will begin in Central Asia in the 14th century and spread organically through historically popular trade routes. Milan, the Pyrenees, Poland, and other historical regions will be less affected by it." #NT!
- setting_bd_occurrence_historical_desc: "The Great Spring Sickness will begin in a Westerosi city around 209 AC and spread organically." #NT!
+ #setting_bd_occurrence_historical_desc: "The Black Death will begin in Central Asia in the 14th century and spread organically through historically popular trade routes. Milan, the Pyrenees, Poland, and other historical regions will be less affected by it."
+ setting_bd_occurrence_historical_desc: "The Great Spring Sickness will begin in a Westerosi city around 209 AC and spread organically."
  setting_bd_occurrence_random: "#high Zufällig#!"
   #AGOT Modified 
- #setting_bd_occurrence_random_desc: "The Black Death will originate in a completely random province on the map." #NT!
- setting_bd_occurrence_random_desc: "The Great Spring Sickness will originate in a completely random province on the map." #NT!
+ #setting_bd_occurrence_random_desc: "The Black Death will originate in a completely random province on the map."
+ setting_bd_occurrence_random_desc: "The Great Spring Sickness will originate in a completely random province on the map."
   
   #AGOT Modified 
- #rule_black_death_frequency: "Black Death Frequency" #NT!
- rule_black_death_frequency: "Great Spring Sickness Frequency" #NT!
+ #rule_black_death_frequency: "Black Death Frequency"
+ rule_black_death_frequency: "Great Spring Sickness Frequency"
  setting_bd_frequency_once: "Einmal"
   #AGOT Modified 
- #setting_bd_frequency_once_desc: "The Black Death can only occur once during your playthrough." #NT!
- setting_bd_frequency_once_desc: "The Great Spring Sickness can only occur once during your playthrough." #NT!
+ #setting_bd_frequency_once_desc: "The Black Death can only occur once during your playthrough."
+ setting_bd_frequency_once_desc: "The Great Spring Sickness can only occur once during your playthrough."
  setting_bd_frequency_unlimited: "[game_rule_extreme_i|e] #high Unbegrenzt#!"
   #AGOT Modified 
- #setting_bd_frequency_unlimited_desc: "The Black Death can appear an unlimited number of times in a campaign." #NT!
- setting_bd_frequency_unlimited_desc: "The Great Spring Sickness can appear an unlimited number of times in a campaign." #NT!
+ #setting_bd_frequency_unlimited_desc: "The Black Death can appear an unlimited number of times in a campaign."
+ setting_bd_frequency_unlimited_desc: "The Great Spring Sickness can appear an unlimited number of times in a campaign."
  setting_bd_frequency_never: "#high Nie#!"
   #AGOT Modified 
- #setting_bd_frequency_never_desc: "The Black Death will never occur." #NT!
- setting_bd_frequency_never_desc: "The Great Spring Sickness will never occur." #NT!
+ #setting_bd_frequency_never_desc: "The Black Death will never occur."
+ setting_bd_frequency_never_desc: "The Great Spring Sickness will never occur."
   
  rule_other_epidemic_frequency: "Seuchenhäufigkeit"
  setting_epidemic_frequency_normal: "Gewöhnlich"
@@ -947,4 +973,186 @@
  setting_on_custom_duchies_player_desc: "Die Schaffung angepasster nicht-historischer Herzogtümer und die Eingliederung von Gemeinden in sie ist nur für Spieler möglich."
  setting_off_custom_duchies_desc: "Die Schaffung angepasster nicht-historischer Herzogtümer und die Eingliederung von Gemeinden in sie ist nicht möglich."
   
+ rule_situation_the_great_steppe: "[the_great_steppe|E]"
+ setting_situation_the_great_steppe_toggle_on: "Aktiviert"
+ setting_situation_the_great_steppe_toggle_on_desc: "Die [GetGovernment('nomad_government').GetName|l]en Herrscher der Großen Steppe sind in eine [situation|E] mit eigenen [steppe_seasons|E] verstrickt und ringen darum, [gurkhan|E] zu werden."
+ setting_situation_the_great_steppe_toggle_off: "#high Deaktiviert#!"
+ setting_situation_the_great_steppe_toggle_off_desc: "Die [situation|E] „[the_great_steppe|E]“ ist zu Beginn des Spiels nicht aktiviert, sodass die Steppe sich wie jeder andere Teil der Karte spielt."
   
+ rule_sami_nomad_region: "Zusätzliche Nomadenregion: Sápmi & Karelien"
+ setting_sami_nomad_region_off: "Standard"
+ setting_sami_nomad_region_off_desc: "Die Sápmi-Region bleibt unverändert."
+ setting_sami_nomad_region_on: "#high Nomadisch#!"
+ setting_sami_nomad_region_on_desc: "Die Sápmi-Region nutzt Nomadenmechaniken, die für Steppennomaden gedacht sind. Diese Regel zeigt nur Wirkung, wenn Ihr die Erweiterung #V $DLC020_CE2$#! besitzt."
+  
+ rule_tibet_nomad_region: "Zusätzliche Nomadenregion: Tibet"
+ setting_tibet_nomad_region_off: "Standard"
+ setting_tibet_nomad_region_off_desc: "Die Tibet-Region bleibt unverändert."
+ setting_tibet_nomad_region_on: "#high Nomadisch#!"
+ setting_tibet_nomad_region_on_desc: "Die Tibet-Region nutzt Nomadenmechaniken, die für Steppennomaden gedacht sind. Diese Regel zeigt nur Wirkung, wenn Ihr die Erweiterung #V $DLC020_CE2$#! besitzt."
+  
+ situation_game_rule_extra_nomads_tibet: "Changthang"
+ situation_game_rule_extra_nomads_tibet_desc: "[SITUATION.GetType.GetDesc]"
+ situation_type_game_rule_extra_nomads_tibet: "Changthang"
+ situation_type_game_rule_extra_nomads_tibet_desc: "Wo Yaks dem Wind folgen und der Himmel ganz nah scheint."
+ game_rule_extra_nomads_tibet_sub_region_eastern_plateau: "Osthochebene"
+ game_rule_extra_nomads_tibet_sub_region_western_plateau: "Westhochebene"
+ game_rule_extra_nomads_tibet_sub_region_river_valley: "Flusstal"
+ game_rule_extra_nomads_tibet_participant_group_nomad_rulers_capital: "Nomadenherrscher in der Region"
+ game_rule_extra_nomads_tibet_participant_group_nomad_rulers_capital_desc: "$the_great_steppe_participant_group_nomad_rulers_capital_desc$"
+ game_rule_extra_nomads_tibet_participant_group_nomad_rulers_realm: "Nomadenherrscher teilweise in der Region"
+ game_rule_extra_nomads_tibet_participant_group_nomad_rulers_realm_desc: "$the_great_steppe_participant_group_nomad_rulers_realm_desc$"
+ game_rule_extra_nomads_tibet_participant_group_herders: "Hirten"
+ game_rule_extra_nomads_tibet_participant_group_herders_desc: "$the_great_steppe_participant_group_herders_desc$"
+ game_rule_extra_nomads_tibet_nomad_rulers_capital: "[steppe_season|E] #weak (Herrscher in der Region)#!"
+ game_rule_extra_nomads_tibet_nomad_rulers_realm: "[steppe_season|E] #weak (Teilweise in der Region)#!"
+ game_rule_extra_nomads_tibet_participant_group_settled_rulers: "$the_great_steppe_participant_group_settled_rulers$"
+ game_rule_extra_nomads_tibet_participant_group_settled_rulers_desc: "$the_great_steppe_participant_group_settled_rulers_desc$"
+ game_rule_extra_nomads_tibet_settled_rulers: "[steppe_season|E] #weak (Sesshafte Herrscher)#!"
+ game_rule_extra_nomads_tibet_herders: "[steppe_season|E] #weak (Hirten)#!"
+ game_rule_extra_nomads_tibet_situation_steppe_abundant_grazing_season_situation_phase: "$situation_steppe_abundant_grazing_season$"
+ game_rule_extra_nomads_tibet_situation_steppe_severe_drought_season_situation_phase: "$situation_steppe_severe_drought_season$"
+ game_rule_extra_nomads_tibet_situation_steppe_white_zud_season_situation_phase: "$situation_steppe_white_zud_season$"
+ game_rule_extra_nomads_tibet_situation_steppe_cold_zud_season_situation_phase: "$situation_steppe_cold_zud_season$"
+ game_rule_extra_nomads_tibet_situation_steppe_warm_nights_season_situation_phase: "$situation_steppe_warm_nights_season$"
+ game_rule_extra_nomads_tibet_situation_steppe_sky_blessing_season_situation_phase: "$situation_steppe_sky_blessing_season$"
+ game_rule_extra_nomads_tibet_situation_steppe_havsarsan_zud_season_situation_phase: "$situation_steppe_havsarsan_zud_season$"
+  
+ situation_game_rule_extra_nomads_sami: "Taiga und Tundra"
+ situation_game_rule_extra_nomads_sami_desc: "[SITUATION.GetType.GetDesc]"
+ situation_type_game_rule_extra_nomads_sami: "Taiga und Tundra"
+ situation_type_game_rule_extra_nomads_sami_desc: "Das Heimatland der Sami und Karelier."
+ game_rule_extra_nomads_sami_sub_region_sami_land: "Sápmi"
+ game_rule_extra_nomads_sami_sub_region_karelian_land: "Karelien"
+ game_rule_extra_nomads_sami_participant_group_nomad_rulers_capital: "Nomadenherrscher in der Region"
+ game_rule_extra_nomads_sami_participant_group_nomad_rulers_capital_desc: "$the_great_steppe_participant_group_nomad_rulers_capital_desc$"
+ game_rule_extra_nomads_sami_participant_group_nomad_rulers_realm: "Nomadenherrscher teilweise in der Region"
+ game_rule_extra_nomads_sami_participant_group_nomad_rulers_realm_desc: "$the_great_steppe_participant_group_nomad_rulers_realm_desc$"
+ game_rule_extra_nomads_sami_participant_group_herders: "Hirten"
+ game_rule_extra_nomads_sami_participant_group_herders_desc: "$the_great_steppe_participant_group_herders_desc$"
+ game_rule_extra_nomads_sami_nomad_rulers_capital: "[steppe_season|E] #weak (Herrscher in der Region)#!"
+ game_rule_extra_nomads_sami_nomad_rulers_realm: "[steppe_season|E] #weak (Teilweise in der Region)#!"
+ game_rule_extra_nomads_sami_participant_group_settled_rulers: "$the_great_steppe_participant_group_settled_rulers$"
+ game_rule_extra_nomads_sami_participant_group_settled_rulers_desc: "$the_great_steppe_participant_group_settled_rulers_desc$"
+ game_rule_extra_nomads_sami_settled_rulers: "[steppe_season|E] #weak (Sesshafte Herrscher)#!"
+ game_rule_extra_nomads_sami_herders: "[steppe_season|E] #weak (Hirten)#!"
+ game_rule_extra_nomads_sami_situation_steppe_abundant_grazing_season_situation_phase: "$situation_steppe_abundant_grazing_season$"
+ game_rule_extra_nomads_sami_situation_steppe_severe_drought_season_situation_phase: "$situation_steppe_severe_drought_season$"
+ game_rule_extra_nomads_sami_situation_steppe_white_zud_season_situation_phase: "$situation_steppe_white_zud_season$"
+ game_rule_extra_nomads_sami_situation_steppe_cold_zud_season_situation_phase: "$situation_steppe_cold_zud_season$"
+ game_rule_extra_nomads_sami_situation_steppe_warm_nights_season_situation_phase: "$situation_steppe_warm_nights_season$"
+ game_rule_extra_nomads_sami_situation_steppe_sky_blessing_season_situation_phase: "$situation_steppe_sky_blessing_season$"
+ game_rule_extra_nomads_sami_situation_steppe_havsarsan_zud_season_situation_phase: "$situation_steppe_havsarsan_zud_season$"
+  
+ rule_arabia_nomad_region: "Zusätzliche Nomadenregion: Arabien"
+ setting_arabia_nomad_region_off: "Standard"
+ setting_arabia_nomad_region_off_desc: "Die arabische Region bleibt unverändert."
+ setting_arabia_nomad_region_on: "#high Nomadisch#!"
+ setting_arabia_nomad_region_on_desc: "Die arabische Region nutzt Nomadenmechaniken, die für Steppennomaden gedacht sind. Diese Regel zeigt nur Wirkung, wenn Ihr die Erweiterung #V $DLC020_CE2$#! besitzt."
+  
+ situation_game_rule_extra_nomads_arabs: "Al-Bādiya"
+ situation_game_rule_extra_nomads_arabs_desc: "[SITUATION.GetType.GetDesc]"
+ situation_type_game_rule_extra_nomads_arabs: "Al-Bādiya"
+ situation_type_game_rule_extra_nomads_arabs_desc: "Das offene Land – jene Weite, in denen die Beduinen traditionell umherstreifen."
+ game_rule_extra_nomads_arabs_sub_region_arabia_nomads: "Die Arabische Wüste"
+ game_rule_extra_nomads_arabs_sub_region_egypt_nomads: "Ägypten"
+ game_rule_extra_nomads_arabs_participant_group_nomad_rulers_capital: "Nomadenherrscher in der Region"
+ game_rule_extra_nomads_arabs_participant_group_nomad_rulers_capital_desc: "$the_great_steppe_participant_group_nomad_rulers_capital_desc$"
+ game_rule_extra_nomads_arabs_participant_group_nomad_rulers_realm: "Nomadenherrscher teilweise in der Region"
+ game_rule_extra_nomads_arabs_participant_group_nomad_rulers_realm_desc: "$the_great_steppe_participant_group_nomad_rulers_realm_desc$"
+ game_rule_extra_nomads_arabs_participant_group_herders: "Hirten"
+ game_rule_extra_nomads_arabs_participant_group_herders_desc: "$the_great_steppe_participant_group_herders_desc$"
+ game_rule_extra_nomads_arabs_nomad_rulers_capital: "[steppe_season|E] #weak (Herrscher in der Region)#!"
+ game_rule_extra_nomads_arabs_nomad_rulers_realm: "[steppe_season|E] #weak (Teilweise in der Region)#!"
+ game_rule_extra_nomads_arabs_settled_rulers: "[steppe_season|E] #weak (Sesshafte Herrscher)#!"
+ game_rule_extra_nomads_arabs_herders: "[steppe_season|E] #weak (Hirten)#!"
+ game_rule_extra_nomads_arabs_participant_group_settled_rulers: "$the_great_steppe_participant_group_settled_rulers$"
+ game_rule_extra_nomads_arabs_participant_group_settled_rulers_desc: "$the_great_steppe_participant_group_settled_rulers_desc$"
+ game_rule_extra_nomads_arabs_situation_steppe_abundant_grazing_season_situation_phase: "$situation_steppe_abundant_grazing_season$"
+ game_rule_extra_nomads_arabs_situation_steppe_severe_drought_season_situation_phase: "$situation_steppe_severe_drought_season$"
+ game_rule_extra_nomads_arabs_situation_steppe_white_zud_season_situation_phase: "$situation_steppe_white_zud_season$"
+ game_rule_extra_nomads_arabs_situation_steppe_cold_zud_season_situation_phase: "$situation_steppe_cold_zud_season$"
+ game_rule_extra_nomads_arabs_situation_steppe_warm_nights_season_situation_phase: "$situation_steppe_warm_nights_season$"
+ game_rule_extra_nomads_arabs_situation_steppe_sky_blessing_season_situation_phase: "$situation_steppe_sky_blessing_season$"
+ game_rule_extra_nomads_arabs_situation_steppe_havsarsan_zud_season_situation_phase: "$situation_steppe_havsarsan_zud_season$"
+  
+ rule_sahel_nomad_region: "Zusätzliche Nomadenregion: Sahel"
+ setting_sahel_nomad_region_off: "Standard"
+ setting_sahel_nomad_region_off_desc: "Die Sahel-Region bleibt unverändert."
+ setting_sahel_nomad_region_on: "#high Nomadisch#!"
+ setting_sahel_nomad_region_on_desc: "Die Sahel-Region nutzt Nomadenmechaniken, die für Steppennomaden gedacht sind. Diese Regel zeigt nur Wirkung, wenn Ihr die Erweiterung #V $DLC020_CE2$#! besitzt."
+  
+ situation_game_rule_extra_nomads_sahel: "Tiniri"
+ situation_game_rule_extra_nomads_sahel_desc: "[SITUATION.GetType.GetDesc]"
+ situation_type_game_rule_extra_nomads_sahel: "Tiniri"
+ situation_type_game_rule_extra_nomads_sahel_desc: "Die von den Berbern bevölkerten Maghreb- und Sahara-Regionen."
+ game_rule_extra_nomads_sahel_sub_region_north_africa_nomads: "Nordafrika"
+ game_rule_extra_nomads_sahel_sub_region_sahel_nomads: "Sahel"
+ game_rule_extra_nomads_sahel_sub_region_sahara_nomads: "Sahara"
+ game_rule_extra_nomads_sahel_participant_group_nomad_rulers_capital: "Nomadenherrscher in der Region"
+ game_rule_extra_nomads_sahel_participant_group_nomad_rulers_capital_desc: "$the_great_steppe_participant_group_nomad_rulers_capital_desc$"
+ game_rule_extra_nomads_sahel_participant_group_nomad_rulers_realm: "Nomadenherrscher teilweise in der Region"
+ game_rule_extra_nomads_sahel_participant_group_nomad_rulers_realm_desc: "$the_great_steppe_participant_group_nomad_rulers_realm_desc$"
+ game_rule_extra_nomads_sahel_participant_group_herders: "Hirten"
+ game_rule_extra_nomads_sahel_participant_group_herders_desc: "$the_great_steppe_participant_group_herders_desc$"
+ game_rule_extra_nomads_sahel_nomad_rulers_capital: "[steppe_season|E] #weak (Herrscher in der Region)#!"
+ game_rule_extra_nomads_sahel_nomad_rulers_realm: "[steppe_season|E] #weak (Teilweise in der Region)#!"
+ game_rule_extra_nomads_sahel_settled_rulers: "[steppe_season|E] #weak (Sesshafte Herrscher)#!"
+ game_rule_extra_nomads_sahel_herders: "[steppe_season|E] #weak (Hirten)#!"
+ game_rule_extra_nomads_sahel_participant_group_settled_rulers: "$the_great_steppe_participant_group_settled_rulers$"
+ game_rule_extra_nomads_sahel_participant_group_settled_rulers_desc: "$the_great_steppe_participant_group_settled_rulers_desc$"
+ game_rule_extra_nomads_sahel_situation_steppe_abundant_grazing_season_situation_phase: "$situation_steppe_abundant_grazing_season$"
+ game_rule_extra_nomads_sahel_situation_steppe_severe_drought_season_situation_phase: "$situation_steppe_severe_drought_season$"
+ game_rule_extra_nomads_sahel_situation_steppe_white_zud_season_situation_phase: "$situation_steppe_white_zud_season$"
+ game_rule_extra_nomads_sahel_situation_steppe_cold_zud_season_situation_phase: "$situation_steppe_cold_zud_season$"
+ game_rule_extra_nomads_sahel_situation_steppe_warm_nights_season_situation_phase: "$situation_steppe_warm_nights_season$"
+ game_rule_extra_nomads_sahel_situation_steppe_sky_blessing_season_situation_phase: "$situation_steppe_sky_blessing_season$"
+ game_rule_extra_nomads_sahel_situation_steppe_havsarsan_zud_season_situation_phase: "$situation_steppe_havsarsan_zud_season$"
+  
+ rule_horn_of_africa_nomad_region: "Zusätzliche Nomadenregion: Horn von Afrika"
+ setting_horn_of_africa_nomad_region_off: "Standard"
+ setting_horn_of_africa_nomad_region_off_desc: "Die horn-afrikanische Region bleibt unverändert."
+ setting_horn_of_africa_nomad_region_on: "#high Nomadisch#!"
+ setting_horn_of_africa_nomad_region_on_desc: "Die horn-afrikanische Region nutzt Nomadenmechaniken, die für Steppennomaden gedacht sind. Diese Regel zeigt nur Wirkung, wenn Ihr die Erweiterung #V $DLC020_CE2$#! besitzt."
+  
+ situation_game_rule_extra_nomads_horn: "Bilād as-Sūmāl"
+ situation_game_rule_extra_nomads_horn_desc: "[SITUATION.GetType.GetDesc]"
+ situation_type_game_rule_extra_nomads_horn: "Bilād as-Sūmāl"
+ situation_type_game_rule_extra_nomads_horn_desc: "Die verdorrten Ebenen, ein grenzenloser Horizont – wo somalische Hirten ihren Herden unter der sengenden Sonne folgen."
+ game_rule_extra_nomads_horn_sub_region_horn_nomads: "Horn von Afrika"
+ game_rule_extra_nomads_horn_sub_region_nubia_nomads: "Nubien"
+ game_rule_extra_nomads_horn_participant_group_nomad_rulers_capital: "Nomadenherrscher in der Region"
+ game_rule_extra_nomads_horn_participant_group_nomad_rulers_capital_desc: "$the_great_steppe_participant_group_nomad_rulers_capital_desc$"
+ game_rule_extra_nomads_horn_participant_group_nomad_rulers_realm: "Nomadenherrscher teilweise in der Region"
+ game_rule_extra_nomads_horn_participant_group_nomad_rulers_realm_desc: "$the_great_steppe_participant_group_nomad_rulers_realm_desc$"
+ game_rule_extra_nomads_horn_participant_group_herders: "Hirten"
+ game_rule_extra_nomads_horn_participant_group_herders_desc: "$the_great_steppe_participant_group_herders_desc$"
+ game_rule_extra_nomads_horn_nomad_rulers_capital: "[steppe_season|E] #weak (Herrscher in der Region)#!"
+ game_rule_extra_nomads_horn_herders: "[steppe_season|E] #weak (Hirten)#!"
+ game_rule_extra_nomads_horn_nomad_rulers_realm: "[steppe_season|E] #weak (Teilweise in der Region)#!"
+ game_rule_extra_nomads_horn_settled_rulers: "[steppe_season|E] #weak (Sesshafte Herrscher)#!"
+ game_rule_extra_nomads_horn_participant_group_settled_rulers: "$the_great_steppe_participant_group_settled_rulers$"
+ game_rule_extra_nomads_horn_participant_group_settled_rulers_desc: "$the_great_steppe_participant_group_settled_rulers_desc$"
+ game_rule_extra_nomads_horn_situation_steppe_abundant_grazing_season_situation_phase: "$situation_steppe_abundant_grazing_season$"
+ game_rule_extra_nomads_horn_situation_steppe_severe_drought_season_situation_phase: "$situation_steppe_severe_drought_season$"
+ game_rule_extra_nomads_horn_situation_steppe_white_zud_season_situation_phase: "$situation_steppe_white_zud_season$"
+ game_rule_extra_nomads_horn_situation_steppe_cold_zud_season_situation_phase: "$situation_steppe_cold_zud_season$"
+ game_rule_extra_nomads_horn_situation_steppe_warm_nights_season_situation_phase: "$situation_steppe_warm_nights_season$"
+ game_rule_extra_nomads_horn_situation_steppe_sky_blessing_season_situation_phase: "$situation_steppe_sky_blessing_season$"
+ game_rule_extra_nomads_horn_situation_steppe_havsarsan_zud_season_situation_phase: "$situation_steppe_havsarsan_zud_season$"
+  
+ _sub_region_ERROR_FLAG_INDEX: "ein Ort außerhalb der [situation|E]"
+  
+ rule_coronation_laws: "Krönungsgesetze"
+ setting_coronation_laws_on: "Standard"
+ setting_coronation_laws_no_imperial_uncrowned: "#high Gekrönte Kaiserthronbesteigung#!"
+ setting_coronation_laws_no_imperial_uncrowned_desc: "[kings|E] werden nicht [GetLaw('uncrowned').GetName|l], wenn sie in den [emperor|E]-[title_tier|E] aufsteigen."
+ setting_coronation_laws_off: "#high Keine Krönungsgesetze#!"
+ setting_coronation_laws_on_desc: "Das [law|E] „[GetLaw('uncrowned').GetName]“ schädigt die [legitimacy|E] und die [opinion|E] für [kings|E] und [emperors|E], bis sie eine [coronation|E] abhalten."
+ setting_coronation_laws_off_desc: "[rulers|E] mit hohem [title_tier|E] haben kein „[GetLaw('uncrowned').GetName]“-[law|E] und müssen keine [coronations|E] abhalten. Die KI wird [coronations|E] weniger häufig abhalten. Dadurch wird das Spiel leichter."
+  
+ rule_silk_road_starting_innovations: "Anfangs-[silk_road_innovations|E]"
+ setting_silk_road_starting_innovations_preset: "Voreinstellung"
+ setting_silk_road_starting_innovations_preset_desc: "Die Anfangs-[silk_road_innovations|E] werden für jedes Lesezeichen die gleiche voreingestellte Auswahl sein."
+ setting_silk_road_starting_innovations_random: "Zufällig"
+ setting_silk_road_starting_innovations_random_desc: "Die Anfangs-[silk_road_innovations|E] werden zufällig aus den Möglichkeiten der betreffenden [era|E] ausgewählt."

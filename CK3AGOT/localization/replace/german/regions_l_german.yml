@@ -34,11 +34,11 @@
  world_india: "Indien"
  world_himalaya: "Himalaya"
   #AGOT Modified 
- #world_innovation_elephants: "India or South East Asia" #NT!
- world_innovation_elephants: "Essos" #NT!
+ #world_innovation_elephants: "India or South East Asia"
+ world_innovation_elephants: "Essos"
   #AGOT Modified 
- #world_innovation_camels: "the Middle East, Persia or North Africa" #NT!
- world_innovation_camels: "Qarth" #NT!
+ #world_innovation_camels: "the Middle East, Persia or North Africa"
+ world_innovation_camels: "Qarth"
  western: "Westen"
  mena: "Nordafrika und der Nahe Osten"
  custom_eastern_baltic: "Ostbaltikum"
@@ -101,6 +101,7 @@
  custom_west_slavia: "Westslawenland"
  custom_south_slavia: "Südslawenland"
  custom_greater_armenia: "das ehemalige Großarmenien"
+ custom_viet_lands: "Viet-Lande"
  custom_ireland: "Irland"
  custom_sahara_proper: "die Sahara"
  custom_sahel_proper: "die Sahel"
@@ -170,3 +171,40 @@
   
   #EP3 
  custom_theodosian_ere: "Theodosianisches Ostreich"
+  
+  #MPO 
+ custom_eastern_balkans: "Ostbalkan"
+ ghw_region_northern_russia: "Nordrussland"
+ ghw_region_southern_russia: "Südrussland"
+ ghw_region_poland: "Polen"
+ ghw_region_baltic: "Baltikum"
+ dlc_mpo_steppe_caucasus_expansion: "Kaukasus"
+ dlc_mpo_steppe_persia_expansion: "Persien"
+  #AGOT Modified 
+ #dlc_mpo_steppe_siberia_further_expansion: "Northern Siberia" #NT!
+ dlc_mpo_steppe_siberia_further_expansion: "Hyperborean Regions" #NT!
+  
+  # TGP 
+ dlc_tgp_great_wall_shanhai: "Der Shanhai-Abschnitt"
+ dlc_tgp_great_wall_liaodong: "Der Liaodong-Abschnitt"
+ dlc_tgp_grand_canal_region: "Der Große Kanal"
+ dlc_tgp_grand_canal_1_region: "Südlicher Teil des Großen Kanals"
+ dlc_tgp_grand_canal_2_region: "Südlich-mittlerer Teil des Großen Kanals"
+ dlc_tgp_grand_canal_3_region: "Nördlich-mittlerer Teil des Großen Kanals"
+ dlc_tgp_grand_canal_4_region: "Nördlicher Teil des Großen Kanals"
+ world_asia_sakhalin_hokkaido: "Sachalin-Hokkaidō"
+ world_asia_japan: "Japan"
+ world_asia_north_east: "Nordostasien"
+ world_asia_korea: "Korea"
+ world_asia_southeast: "Südostasien"
+ world_asia_southeast_mainland: "Festland-Südostasien"
+ world_asia_southeast_islands: "Maritim-Südostasien"
+ world_asia_philippines: "Lusung & Kabisay-An"
+ world_asia_borneo: "Borneo"
+ world_asia_sulawesi_maluku: "Sulawesi & Maluku"
+ world_asia_indonesia: "Malayadvipa & Yavakadvipa"
+ world_asia_china: "China"
+ world_asia: "Ostasien"
+ world_asia_east: "Ostasien"
+  
+ paddy_field_region: "Reisfelder"

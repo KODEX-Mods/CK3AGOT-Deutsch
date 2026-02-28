@@ -1,27 +1,27 @@
 ﻿l_german:
- agot_dragonpit_amenities: "Dragonpit Amenities" #NT!
- agot_dragonpit_amenities_default: "Minimal Dragonpit Funding" #NT!
- agot_dragonpit_amenities_small: "Basic Dragonpit Funding" #NT!
- agot_dragonpit_amenities_middling: "Moderate Dragonpit Funding" #NT!
- agot_dragonpit_amenities_spacious: "High Dragonpit Funding" #NT!
- agot_dragonpit_amenities_grand: "Grand Dragonpit Funding" #NT!
+ agot_dragonpit_amenities: "Dragonpit Amenities"
+ agot_dragonpit_amenities_default: "Minimal Dragonpit Funding"
+ agot_dragonpit_amenities_small: "Basic Dragonpit Funding"
+ agot_dragonpit_amenities_middling: "Moderate Dragonpit Funding"
+ agot_dragonpit_amenities_spacious: "High Dragonpit Funding"
+ agot_dragonpit_amenities_grand: "Grand Dragonpit Funding"
   
- agot_dragonpit_amenities_default_desc: "The absolute minimal funding for [dragonpits|E], reserved for absolutely bare necessities." #NT!
- agot_dragonpit_amenities_small_desc: "Basic funding is allocated to the [dragonpit|E] and its [dragonkeepers|E], enough for simple repairs and maintenance." #NT!
- agot_dragonpit_amenities_middling_desc: "A moderate level of funding is allocated to the [dragonpit|E] and its [dragonkeepers|E], with adequate feed and stimulation for the dragons held." #NT!
- agot_dragonpit_amenities_spacious_desc: "Comparable to the finest dragontowers of old Valyria, this [dragonpit|E] is well funded and maintained, the thrum of activity a sight for the court and a pride of the realm." #NT!
- agot_dragonpit_amenities_grand_desc: "The [dragonpit|E] functions as more than a mere storage location for dragons now. Whole libraries of dragonlore exist, and a vast network of logistics operate to support the lives of the beasts within." #NT!
+ agot_dragonpit_amenities_default_desc: "The absolute minimal funding for [dragonpits|E], reserved for absolutely bare necessities."
+ agot_dragonpit_amenities_small_desc: "Basic funding is allocated to the [dragonpit|E] and its [dragonkeepers|E], enough for simple repairs and maintenance."
+ agot_dragonpit_amenities_middling_desc: "A moderate level of funding is allocated to the [dragonpit|E] and its [dragonkeepers|E], with adequate feed and stimulation for the dragons held."
+ agot_dragonpit_amenities_spacious_desc: "Comparable to the finest dragontowers of old Valyria, this [dragonpit|E] is well funded and maintained, the thrum of activity a sight for the court and a pride of the realm."
+ agot_dragonpit_amenities_grand_desc: "The [dragonpit|E] functions as more than a mere storage location for dragons now. Whole libraries of dragonlore exist, and a vast network of logistics operate to support the lives of the beasts within."
   
- agot_dragonpit_amenities_default_owner: "Head Dragonkeepers will usually generate with terrible [aptitude|e]." #NT!
- agot_dragonpit_amenities_small_owner: "Head Dragonkeepers will usually generate with poor [aptitude|e]." #NT!
- agot_dragonpit_amenities_middling_owner: "Head Dragonkeepers will usually generate with average [aptitude|e]." #NT!
- agot_dragonpit_amenities_spacious_owner: "Head Dragonkeepers will usually generate with good [aptitude|e]." #NT!
- agot_dragonpit_amenities_grand_owner: "Head Dragonkeepers will usually generate with excellent [aptitude|e]." #NT!
- agot_dragonpit_amenities_increase_tt: "Your Dragonpit [court_amenities|e] will increase a level" #NT!
- agot_dragonpit_amenities_decrease_tt: "Your Dragonpit [court_amenities|e] will decrease a level" #NT!
- agot_dragonpit_amenities_level_set_to_three_tt: "Your Dragonpit [court_amenities|e] will be set to $agot_dragonpit_amenities_middling$" #NT!
+ agot_dragonpit_amenities_default_owner: "Head Dragonkeepers will usually generate with terrible [aptitude|e]."
+ agot_dragonpit_amenities_small_owner: "Head Dragonkeepers will usually generate with poor [aptitude|e]."
+ agot_dragonpit_amenities_middling_owner: "Head Dragonkeepers will usually generate with average [aptitude|e]."
+ agot_dragonpit_amenities_spacious_owner: "Head Dragonkeepers will usually generate with good [aptitude|e]."
+ agot_dragonpit_amenities_grand_owner: "Head Dragonkeepers will usually generate with excellent [aptitude|e]."
+ agot_dragonpit_amenities_increase_tt: "Your Dragonpit [court_amenities|e] will increase a level"
+ agot_dragonpit_amenities_decrease_tt: "Your Dragonpit [court_amenities|e] will decrease a level"
+ agot_dragonpit_amenities_level_set_to_three_tt: "Your Dragonpit [court_amenities|e] will be set to $agot_dragonpit_amenities_middling$"
   # Unusused - For Testing 
- agot_dragonpit_amenities_small_inspirations: "TEST SMALL - Completed [inspiration|E] quality has a small chance of improvement" #NT!
- agot_dragonpit_amenities_middling_inspirations: "TEST MIDDLING - Completed [inspiration|E] quality has a chance of improvement" #NT!
- agot_dragonpit_amenities_spacious_inspirations: "TEST SPACIOUS - Completed [inspiration|E] quality has a decent chance of improvement" #NT!
- agot_dragonpit_amenities_grand_inspirations: "TEST GRAND - Completed [inspiration|E] quality has a good chance of improvement" #NT!
+ agot_dragonpit_amenities_small_inspirations: "TEST SMALL - Completed [inspiration|E] quality has a small chance of improvement"
+ agot_dragonpit_amenities_middling_inspirations: "TEST MIDDLING - Completed [inspiration|E] quality has a chance of improvement"
+ agot_dragonpit_amenities_spacious_inspirations: "TEST SPACIOUS - Completed [inspiration|E] quality has a decent chance of improvement"
+ agot_dragonpit_amenities_grand_inspirations: "TEST GRAND - Completed [inspiration|E] quality has a good chance of improvement"

@@ -1,0 +1,309 @@
+﻿l_german:
+  
+  ########################## 
+  #        Pickpocket      # 
+  #     ZombieSchrodCat    # 
+  #       0001 - 0002      # 
+  ########################## 
+  
+ agot_filler_kingslanding.0001.t: "Meine Taschen!"
+ agot_filler_kingslanding.0001.desc: "Königsmund mag das Juwel in der Krone von Westeros sein, aber selbst die glänzendsten Juwelen können einige Mängel aufweisen. Es ist zwar nicht meine Sitte, durch die weniger angesehenen Stadtviertel zu gehen, aber heute war eine solche Reise unvermeidlich, und ich stoße mit einem kleinen Straßenkind zusammen. Meine Wachen verjagen das Kind schnell in eine Gasse, aber als ich mir den Schmutz von meinem Hemd wische, merke ich, dass sich meine Taschen ein wenig leichter anfühlen."
+ agot_filler_kingslanding.0001.a: "Vielleicht habe ich meinen Geldbeutel auf meiner Kommode vergessen..."
+ agot_filler_kingslanding.0001.b: "Wachen! Ihm nach!"
+  
+ agot_filler_kingslanding.0002.t: "Meine Taschen!"
+ agot_filler_kingslanding.0002.desc: "Meine Wachen schleppen den kleinen Dieb vor meine Füße. Er ist nur ein Junge, zweifellos eines der unzähligen Waisenkinder von Flohloch, wenn man seine Lumpen und seine hagere Gestalt betrachtet. Bei der Durchsuchung seiner Taschen finden die Wachen nicht nur meinen Geldbeutel, sondern auch die Geldbeutel anderer."
+ agot_filler_kingslanding.0002.a: "Werft diese Ratte in eine Zelle."
+ agot_filler_kingslanding.0002.b: "Ich nehme das alles als Entschädigung für die Unannehmlichkeiten."
+ agot_filler_kingslanding.0002.c: "Du armes, verzweifeltes Ding. Lass uns dir Essen und Kleidung besorgen."
+  
+  ########################## 
+  #    The Fishmonger      # 
+  #     ZombieSchrodCat    # 
+  #       0003 - 0004      # 
+  ########################## 
+  
+ agot_filler_kingslanding.0003.t: "Die Fischhändlerin"
+ agot_filler_kingslanding.0003.desc: "Der Fischhändlerplatz ist der Markt direkt am Flusstor - oder Schlammtor, wie es die örtlichen Gemeinen nennen. Aufgrund seiner Nähe am Schwarzwasser hat er seinen Namen treffend erhalten und ist vielleicht der beste Ort in Königsmund, um den Fang des Tages zu kaufen.\n\nNormalerweise würde mein Kämmerer einen Diener schicken, um Fisch zu kaufen, doch heute fühle ich mich abenteuerlustig und habe die Aufgabe auf mich genommen. Ich frage die Fischhändlerin nach einem großen schwarzen Dorsch, und sie nennt mir den Preis von zehn Golddrachen."
+ agot_filler_kingslanding.0003.a: "Ich denke, wir können um einen besseren Preis feilschen."
+ agot_filler_kingslanding.0003.b: "Sie träumt wohl! Ich verzichte für heute auf Fisch."
+ agot_filler_kingslanding.0003.c: "Wenn ich es mir recht überlege, sollte ein kleiner Fisch völlig ausreichen."
+ agot_filler_kingslanding.0003.d: "Ich würde lieber fasten, als solche Wucherpreise zu zahlen!"
+  
+ agot_filler_kingslanding.0004.t: "Die Fischhändlerin"
+ agot_filler_kingslanding.0004.desc: "Wir beide feilschen um den Schwarzen Dorsch, man merkt, dass die Fischhändlerin sich in der Kunst des Verhandelns auskennt, doch bin ich unerbittlich. Nach etwa fünf Minuten des Hin und Her einigen wir uns schließlich auf einen akzeptablen Preis."
+ agot_filler_kingslanding.0004.a: "Wir haben ein Geschäft."
+ agot_filler_kingslanding.0004.success_title: "Gegen die Fischhändlerin durchgesetzt!"
+ agot_filler_kingslanding.0004.failure_title: "Die Fischhändlerin setzt sich durch..."
+  
+  ############################### 
+  # The Street of Steel: Knight # 
+  #     ZombieSchrodCat         # 
+  #       0005 - 0008           # 
+  ############################## 
+  
+ agot_filler_kingslanding.0005.t: "Die Geschichte eines Ritters"
+ agot_filler_kingslanding.0005.desc: "Die Stählerne Gasse beginnt am Fischhändlerplatz und führt hinauf bis zur Großen Septe von Baelor auf Visenyas Hügel, und je höher man den Hügel hinaufsteigt, desto besser ist die Qualität der Geschäfte.\n\nAm Fuße von Visenyas Hügel spielt sich eine Szene zwischen einem der Händler und einem Ritter ab. Der Ritter möchte sich eine Rüstung leihen, mit dem Versprechen, den Händler nachträglich zu bezahlen, wenn er ein Turnier gewönne. Der Händler lehnt dieses Angebot natürlich ab und sagt dem Ritter, er solle sein Glück im Schlammweg versuchen, wo Lehrlinge ihr Handwerk ausüben."
+ agot_filler_kingslanding.0005.a: "Ich bin sicher, dass sie eine Lösung finden werden."
+ agot_filler_kingslanding.0005.b: "Ich bezahle die Rüstung für den Ritter."
+ agot_filler_kingslanding.0005.c: "Ich werde euch unterstützen, aber wir können etwas viel Schöneres für euch finden."
+  
+ agot_filler_kingslanding.0006.t: "Die Geschichte eines Ritters"
+ agot_filler_kingslanding.0006.desc: "„Danke, [ROOT.Char.Custom('DE_Anrede')]! Ihr könnt meinen Gewinn als Rückzahlung haben! Ich bin Euch wirklich zu Dank verpflichtet.”\n\nAls er die Rüstung an sich nimmt, erzählt er mir, dass er die letzte Rüstung in einem Turnier mit hohen Einsätzen verloren hat - aber er ist zuversichtlich, dass er sich in der nächsten Runde platzieren wird."
+ agot_filler_kingslanding.0006.a: "Ich wünsche Euch dieses Mal viel Glück!"
+ agot_filler_kingslanding.0006.b: "Vielleicht kann ich euch ein paar Ratschläge geben..."
+  
+ agot_filler_kingslanding.0007.t: "Die Geschichte eines Ritters"
+ agot_filler_kingslanding.0007.desc: "„Ich freue mich über jeden Rat, den Sie haben, [ROOT.Char.Custom('DE_MylordMylady')]. Ich weiß jede Hilfe zu schätzen.”"
+ agot_filler_kingslanding.0007.a: "Stecht sie mit dem spitzen Ende, ha!"
+ agot_filler_kingslanding.0007.b: "Seid vor allem tapfer."
+ agot_filler_kingslanding.0007.c: "Immer einen Schritt voraus sein - Täuschung ist ein echter Vorteil."
+ agot_filler_kingslanding.0007.d: "Beugt euch nicht und gebt nicht nach."
+ agot_filler_kingslanding.0007.e: "Findet heraus, was euch wütend macht, und übertragt es auf eure Klinge."
+ agot_filler_kingslanding.0007.f: "Spielt das lange Spiel. Geduld wird euch zum Erfolg verhelfen."
+  
+ agot_filler_kingslanding.0008.t: "Die Geschichte eines Ritters"
+ agot_filler_kingslanding.0008.desc: "Meine Wachen führen einen Ritter zu mir in den Hof, der mir bekannt vorkommt. Der junge Ritter tritt vor mich, verbeugt sich und legt einen Lederbeutel mit dem Gold des Turniers vor mich hin. Er dankt mir für das Vertrauen, das ich in ihn gesetzt habe, und bietet mir sogar seine Dienste an."
+ agot_filler_kingslanding.0008.a: "Ich würde euch gerne an meinem Hof willkommen heißen!"
+ agot_filler_kingslanding.0008.b: "Ich denke, Ihr seid am besten für die Turniere geeignet..."
+  
+  ########################## 
+  # Fleabottom:The Brawlers# 
+  #     ZombieSchrodCat    # 
+  #       0009 - 0018      # 
+  ########################## 
+  
+ agot_filler_kingslanding.0009.t: "Die Flohlochschläger"
+ agot_filler_kingslanding.0009.desc: "Obgleich Flohloch das berüchtigtste Elendsviertel in Königsmund ist, findet man in seinen Weinkellern und verwinkelten Gassen auch Hochgeborene. Viele kommen aus den besseren Vierteln der Stadt, um auf der Suche nach vulgärer und illegaler Unterhaltung durch die mit Schlamm und Schweinemist bedeckten Straßen zu ziehen. \n\nDie Rattengruben sind eine solche Attraktion - normalerweise werden die Ratten von Hunden oder anderen Tieren gehetzt, während die Männer darauf wetten, wie viele sterben werden. Heute Abend jedoch werden die Ratten verschont und stattdessen steigen zwei Männer in den Ring, um zu kämpfen."
+ agot_filler_kingslanding.0009.a: "Ich setze auf [agot_filler_ratpit_fighter_1.GetFirstNameNoTooltip]"
+ agot_filler_kingslanding.0009.b: "Ich setze auf [agot_filler_ratpit_fighter_2.GetFirstNameNoTooltip]"
+ agot_filler_kingslanding.0009.c: "Was für eine Pisse wird hier als Wein bezeichnet?"
+ agot_filler_kingslanding.0009.d: "Schließt diesen abscheulichen Ort!"
+  
+ agot_filler_kingslanding.0010.t: "Die Flohlochschläger"
+ agot_filler_kingslanding.0010.desc: "[agot_filler_ratpit_fighter_1.GetFirstNameNoTooltip] und [agot_filler_ratpit_fighter_2.GetFirstNameNoTooltip] fangen an, sich gegenseitig zu umkreisen, die Fäuste geballt. [agot_filler_ratpit_fighter_1.GetFirstNameNoTooltip] schlägt auf [agot_filler_ratpit_fighter_2.GetFirstNameNoTooltip] seinen Kiefer ein. [agot_filler_ratpit_fighter_2.GetFirstNameNoTooltip] erwidert den Schlag mit einem eigenen Hieb in die Magengrube."
+ agot_filler_kingslanding.0010.a: "Kämpft! Kämpft! Kämpft!"
+  
+ agot_filler_kingslanding.0011.t: "Die Flohlochschläger"
+ agot_filler_kingslanding.0011.desc: "[agot_filler_ratpit_fighter_1.GetFirstNameNoTooltip] steht siegreich da, und [agot_filler_ratpit_fighter_2.GetFirstNameNoTooltip] gibt sich geschlagen."
+ agot_filler_kingslanding.0011.a: "Ein guter Kampf!"
+ agot_filler_kingslanding.0011.b: "Oh je, mein Gold..."
+  
+ agot_filler_kingslanding.0012.t: "Die Flohlochschläger"
+ agot_filler_kingslanding.0012.desc: "[agot_filler_ratpit_fighter_2.GetFirstNameNoTooltip] steht siegreich da, und [agot_filler_ratpit_fighter_1.GetFirstNameNoTooltip] gibt sich geschlagen."
+ agot_filler_kingslanding.0012.a: "Ein guter Kampf!"
+ agot_filler_kingslanding.0012.b: "Oh je, mein Gold..."
+  
+ agot_filler_kingslanding.0013.t: "Die Flohlochschläger"
+ agot_filler_kingslanding.0013.desc: "Der Wein ist stärker, als ich gedacht hatte - er ist nicht wie ein Arborwein, aber er hat definitiv etwas! Nach ein paar Bechern habe ich das Gefühl, dass ich es mit jedem dieser Kämpfer aufnehmen kann, vielleicht sogar mit jedem auf der Welt! Gestärkt durch den Wein steige ich in den Ring und gehe auf  [agot_filler_ratpit_fighter_1.GetFirstNameNoTooltip] zu. Sobald er auf seinem Platz steht, gehen wir beide in den Angriff über. Die Zuschauer jubeln, und die Wetten werden immer höher getrieben."
+ agot_filler_kingslanding.0013.a: "Lasst uns tanzen!"
+ agot_filler_kingslanding.0013.success_title: "Ich habe den Kampf gewonnen!"
+ agot_filler_kingslanding.0013.failure_title: "Ich habe den Kampf verloren..."
+  
+ agot_filler_kingslanding.0014.t: "Die Flohlochschläger"
+ agot_filler_kingslanding.0014.desc: "Es ist ein ziemlicher Kampf, aber [agot_filler_ratpit_fighter_1.GetFirstNameNoTooltip] gibt schließlich nach."
+ agot_filler_kingslanding.0014.a: "Ein guter Kampf! Gut gemacht!"
+  
+ agot_filler_kingslanding.0015.t: "Die Flohlochschläger"
+ agot_filler_kingslanding.0015.desc: "[agot_filler_ratpit_fighter_2.GetFirstNameNoTooltip] tritt vor, um mich als nächstes herauszufordern."
+ agot_filler_kingslanding.0015.a: "Ich hoffe, du bist ein guter Fänger, denn ich werde diese Hände werfen!"
+ agot_filler_kingslanding.0015.success_title: "Ich habe den Kampf gewonnen!"
+ agot_filler_kingslanding.0015.failure_title: "Ich habe den Kampf verloren..."
+  
+  
+ agot_filler_kingslanding.0016.t: "Die Flohlochschläger"
+ agot_filler_kingslanding.0016.desc: "Blutüberströmt und niedergeschlagen haben meine beiden Gegner aufgegeben, und die Menge jubelte mir zu, als ich meine Dominanz demonstrierte. Heute Abend bin ich der König von Flohloch!"
+ agot_filler_kingslanding.0016.a: "Was für eine Nacht!"
+  
+ agot_filler_kingslanding.0017.t: "Die Flohlochschläger"
+ agot_filler_kingslanding.0017.desc: "Ich bin mir nicht ganz sicher, welcher Schlag mich zu Fall gebracht hat, aber als ich wieder zu mir komme, liege ich auf dem feuchten Boden in einer Gasse. Einige meiner Münzen fehlen, vielleicht als Entschädigung für den vielen Wein, den ich getrunken haben muss."
+ agot_filler_kingslanding.0017.a: "Was für eine Nacht..."
+  
+  ########################## 
+  # The Potshop: Sellsword # 
+  #     ZombieSchrodCat    # 
+  #       0018 - 0021      # 
+  ########################## 
+  
+ agot_filler_kingslanding.0018.t: "Die mysteriöse „Schüssel Braunes“"
+ agot_filler_kingslanding.0018.desc: "Der verlockendste aller Gerüche ruft nach mir - heißes Fleisch, Grieben, Fett! Mein Hungergefühl siegt über die Vernunft, und ich marschiere in den Laden, aus dem der Geruch kommt.\n\n„[ROOT.Char.Custom('DE_MylordMylady')], Ihr möchtet hier wahrscheinlich nicht essen,“ warnt mich ein Söldner und deutet auf die Schüssel Braunes, durch die er sich derzeit kämpft. „Wenn die Sonne untergeht, ist dieser Ort eine Rattengrube. Es gibt hier ein Sprichwort: Verlierer in der Grube gewinnen einen Platz in der Schüssel.“"
+ agot_filler_kingslanding.0018.a: "Das kann ich für mich selbst entscheiden, danke."
+ agot_filler_kingslanding.0018.b: "Ihr seid nicht mein Vater!."
+ agot_filler_kingslanding.0018.c: "Wenn es so schlecht ist, warum esst ihr es dann?"
+  
+ agot_filler_kingslanding.0019.t: "Die mysteriöse „Schüssel Braunes“"
+ agot_filler_kingslanding.0019.desc: "„Verzeiht mir, [ROOT.Char.Custom('DE_MylordMylady')]. Ich dachte nur, Ihr solltet es wissen,” sagt der Söldner.\n\nIch setze mich und fange an, meine Schüssel Braunes zu verschlingen. Nach der Hälfte der Mahlzeit entdecke ich es: einen Rattenschädel, an dem noch etwas Fleisch hängt. Mein Magen - mein armer, sanfter Magen - beginnt sich zu überschlagen."
+ agot_filler_kingslanding.0019.a: "* WÜRG *"
+  
+ agot_filler_kingslanding.0020.t: "Die mysteriöse „Schüssel Braunes“"
+ agot_filler_kingslanding.0020.desc: "Der Söldner zuckt mit den Schultern. „Ich hatte schon Schlimmeres. So ist das Leben für einen Söldner, der keine Arbeit findet, [ROOT.Char.Custom('DE_MylordMylady')].“ Er fischt einen Knochen aus der braunen Plörre und wirft ihn beiseite, bevor er einen weiteren Löffel hinunterkippt."
+ agot_filler_kingslanding.0020.a: "...Ihr seid also auf der Suche nach Arbeit?"
+ agot_filler_kingslanding.0020.b: "Danke für die Warnung."
+  
+ agot_filler_kingslanding.0021.t: "Die mysteriöse „Schüssel Braunes“"
+ agot_filler_kingslanding.0021.desc: "„[ROOT.Char.Custom('DE_MylordMylady')], Ich habe Euch lediglich eine freundliche Warnung ausgesprochen. Aber wenn ihr einen Kampf wollt, dann bekommt ihr einen Kampf!“ Der Söldner erhebt sich von seinem Platz und knackt mit den Handgelenken. Einige der Gäste fliehen, aber die meisten bleiben zurück, um Wetten auf unseren Kampf abzuschließen."
+ agot_filler_kingslanding.0021.a: "Greif mich an, du Möchtegern-Ritter aus der Gosse!"
+ agot_filler_kingslanding.0021.success_title: "Ich habe den Kampf gewonnen!"
+ agot_filler_kingslanding.0021.failure_title: "Ich habe den Kampf verloren..."
+  
+  ########################### 
+  # Cobbler's Square: Septon# 
+  #     ZombieSchrodCat     # 
+  #       0022 - 0025       # 
+  ########################### 
+  
+ agot_filler_kingslanding.0022.t: "Schusterplatz: Der Septon"
+ agot_filler_kingslanding.0022.desc: "Der Schusterplatz, üblicherweise eine Heimstatt emsiger Handwerker, wird bisweilen auch von jenen besucht, die den Sieben huldigen. Das liegt zum Teil daran, dass der Platz östlich des Göttertores liegt, aber auch an den langjährigen Traditionen der Prediger des Glaubens. Es ist nicht ungewöhnlich, dass ein Septon sich anschickt, denen zu predigen, die ihm zuhören wollen, und heute ist es nicht anders."
+ agot_filler_kingslanding.0022.a: "Nein, nein, nein! Das ist alles falsch! Beten wir überhaupt denselben Glauben an?"
+ agot_filler_kingslanding.0022.b: "Sie scheinen ein wenig verwirrt über die Rolle des Alten Weibes zu sein..."
+ agot_filler_kingslanding.0022.c: "Ich habe keine Zeit für so etwas."
+ agot_filler_kingslanding.0022.d: "Schaut - da ist ein Bursche, der günstige Tomaten verkauft..."
+  
+ agot_filler_kingslanding.0023.t: "Schusterplatz: Der Septon"
+ agot_filler_kingslanding.0023.desc: "Ich stelle mich neben den Septon und beginne, seine Irrtümer anzuprangern. Lautstark. Er wehrt sich, doch ich bin hartnäckig und klüger als er. Wir verbringen einen guten Teil des Tages damit, mit Leidenschaft über den Glauben zu debattieren - auch wenn es dabei weniger um die Sieben als vielmehr darum geht, Recht zu haben."
+ agot_filler_kingslanding.0023.a: "...Moment, wieso kam ich nochmal zum Schusterplatz gekommen?"
+ agot_filler_kingslanding.0023.success_title: "Ich habe die Debatte gewonnen!"
+ agot_filler_kingslanding.0023.failure_title: "Ich habe die Debatte verloren..."
+  
+ agot_filler_kingslanding.0024.t: "Schusterplatz: Der Septon"
+ agot_filler_kingslanding.0024.desc: "Zunächst reagiert der Septon auf meine vorsichtigen Hinweise geradezu feindselig. Doch nach einer sorgfältigen Diskussion und etwas Geduld meinerseits, beginnt er schließlich auf meine Argumente einzugehen. Schließlich stelle ich fest, dass ich seinen Platz übernommen habe und der Septon sich der immer größer werdenden Menge angeschlossen hat, während ich nun versehentlich eine ganze, eigene Predigt halte!"
+ agot_filler_kingslanding.0024.a: "Vielleicht hätte ich Septon werden sollen..."
+  
+ agot_filler_kingslanding.0025.t: "Schusterplatz: Der Septon"
+ agot_filler_kingslanding.0025.desc: "Als ich sehe, wie die Tomate im Gesicht des Septons zerplatzt, wird mir klar, dass dies eine gute Investition war! Sicher, es gibt einige Bettnässer in der Menge, die mich missbilligend anstarren, aber viele andere folgen meinem Beispiel und kaufen selbst Tomaten, um sie auf den Septon zu werfen. Am Ende des Tages ist der Schusterplatz von den stumpfen Gebaren der Predigt befreit, ich habe gut lachen und der Tomatenverkäufer geht mit einer fetten Tasche voller Münzen nach Hause."
+ agot_filler_kingslanding.0025.a: "Alle hatten eine gute Zeit! ...außer der Septon."
+  
+  ########################### 
+  # Eel Alley: Bakers Cart  # 
+  #     ZombieSchrodCat     # 
+  #       0026 - 0028       # 
+  ########################### 
+  
+ agot_filler_kingslanding.0026.t: "Der Bäckerkarren"
+ agot_filler_kingslanding.0026.desc: "Ich bin ein Mensch, und manchmal möchte ein Mensch einfach nur ein warmes Brot essen. Zum Glück fehlt es in der Aalgasse, die für ihre Gasthäuser und Schenken bekannt ist, niemandem an frischem, warmem Brot. Ich schlendere zu einem Wagen, der von einem Bäcker und seinem Lehrling besetzt ist, und kaufe ein Brot, so frisch, dass es noch dampft.\n\nAls ich einen köstlichen Bissen nehme, spüre ich etwas ganz und gar nicht Köstliches: einen Holzsplitter. Ich reiße das Brot auseinander und finde sogar noch mehr - das Mehl dieses Brotes ist mit Sägespänen versetzt worden!"
+ agot_filler_kingslanding.0026.a: "Wachen!"
+ agot_filler_kingslanding.0026.b: "Ihr verdammten Schweine!"
+ agot_filler_kingslanding.0026.c: "Das Gesetz ist eindeutig, was die Heiligkeit des Brotes betrifft!"
+ agot_filler_kingslanding.0026.d: "Versucht ihr, mich umzubringen!?"
+  
+ agot_filler_kingslanding.0027.t: "Der Bäckerkarren"
+ agot_filler_kingslanding.0027.desc: "Ich packe den Karren an der Seite, werfe ihn zu Boden und zertrümmere ihn, bevor ich mit dem Schwert auf die restlichen Teile einhacke. Sowohl der Bäcker als auch der Lehrling können nur ängstlich zusehen, wie mich die Wut überkommt. Nachdem der Karren vollständig zerstört ist, nähere ich mich dem Bäcker und entreiße ihm den Münzbeutel, der an seinem Gürtel hängt - eine Strafe für das Verbrechen gegen das Brot.."
+ agot_filler_kingslanding.0027.a: "Lasst mich keinen von euch beiden jemals wiedersehen!"
+  
+ agot_filler_kingslanding.0028.t: "Der Bäckerkarren"
+ agot_filler_kingslanding.0028.desc: "Unsere Gesetze sind in diesem Punkt eindeutig: Der Bäcker muss eine Geldstrafe zahlen, wenn er Sägespäne in das Mehl mischt und versucht, dies als Brot zu verkaufen. Wenn er nicht in der Lage ist, die Strafe zu zahlen, wird er ausgepeitscht!"
+ agot_filler_kingslanding.0028.a: "Zahlt!"
+  
+  
+  ########################### 
+  #Street of Silk: Blackmail# 
+  #     ZombieSchrodCat     # 
+  #       0029 - 0030       # 
+  ########################### 
+  
+ agot_filler_kingslanding.0029.t: "Die Seidenstraße"
+ agot_filler_kingslanding.0029.desc: "Als ich eines der Freudenhäuser in der Seidenstraße verlasse, begrüßt mich eine Stimme. Der Mann lächelt und fragt mich, wie meine Nacht im Bordell war... oh, oh. Ertappt. Er versucht eindeutig, etwas Geld damit zu verdienen."
+ agot_filler_kingslanding.0029.a: "Nennt mir euren Preis und wir behalten das für uns."
+ agot_filler_kingslanding.0029.b: "Von mir bekommt ihr nichts!"
+ agot_filler_kingslanding.0029.c: "Ich glaube nicht, dass ihr irgendjemandem etwas erzählen werdet..."
+ agot_filler_kingslanding.0029.d: "Ah! Das Freudenhaus ist also doch eine Farce? Schlau."
+  
+ agot_filler_kingslanding.0030.t: "Die Seidenstraße"
+ agot_filler_kingslanding.0030.desc: "Natürlich ist das Bordell eine Farce - bei der schieren Menge an Kunden aus der Oberschicht und dem Adel, die dort verkehren, macht das durchaus Sinn. „Lass uns ein Abkommen treffen...“\n\nIhr unterhaltet euch den ganzen Vormittag mit dem Bordellbesitzer, schmiedet Pläne und schlagt ihm lohnende Personen vor, die seine Angestellten umgarnen und ihnen Geheimnisse entlocken können. Und dann, sobald es scheint, dass ihr euch angefreundet habt, erinnerst du den Bordellbesitzer an die Konsequenzen, die sein kleines Nebengeschäft mit sich bringen kann. Würde die Stadtwache ihn in eine Zelle werfen? Oder würden seine Opfer ihn als Fleisch in einer Schüssel Braunes sehen? Das Lächeln des Mannes verblasst, und Angst macht sich in seinem Blick bemerkbar."
+ agot_filler_kingslanding.0030.a: "Das kann aber unter uns bleiben, solange ihr euch daran erinnert, dass ihr für mich arbeitet."
+  
+  ########################### 
+  #   Redkeep: The Rats     # 
+  #     ZombieSchrodCat     # 
+  #       0031 - 0038       # 
+  ########################### 
+  
+ agot_filler_kingslanding.0031.t: "Die Ratten des Roten Bergfrieds"
+ agot_filler_kingslanding.0031.desc: "Ich stoße auf die unschönste Szene im Roten Bergfried: Ein Haufen Ratten hat es sich hier gemütlich gemacht. Angewidert verfolge ich das Ungeziefer, bis es durch ein kleines Loch in der Wand verschwindet. Das Loch ist... eigenartig. Es ist so gut gemeißelt, dass es fast wie eine absichtliche Designentscheidung aussieht. Ich ziehe an der Kante des kleinen Ausschnitts, um zu sehen, ob er unter meinen Händen zerbröckelt, und - bei den Sieben! Er fungiert als versteckter Hebel, der eine Geheimtür öffnet. Ich habe einen von König Maegors geheimen Tunneln gefunden!"
+ agot_filler_kingslanding.0031.a: "Ich frage mich, wo das hinführt..."
+ agot_filler_kingslanding.0031.b: "Ich werde einen Steinmetz finden und die Stelle versiegeln lassen."
+  
+ agot_filler_kingslanding.0032.t: "Die Ratten des Roten Bergfrieds"
+ agot_filler_kingslanding.0032.desc: "Ein Stückchen im Tunnel stoße ich auf eine riesige Grube. Der einzige Weg hinüber ist eine schmale Brücke, die gerade breit genug ist, um sie zu überqueren, wenn ich einen Fuß vor den anderen setze. Die Grube darunter ist so tief, dass ich den Boden nicht sehen kann - das wäre der sichere Tod, sollte ich fallen."
+ agot_filler_kingslanding.0032.a: "Ein Risiko, das ich bereit bin einzugehen."
+ agot_filler_kingslanding.0032.b: "Ich werde mein Leben nicht riskieren!"
+ agot_filler_kingslanding.0032.c: "Ich werde aus meinem Umhang einen Gurt anfertigen, um meine Sicherheit zu gewährleisten."
+  
+ agot_filler_kingslanding.0033.t: "Die Ratten des Roten Bergfrieds"
+ agot_filler_kingslanding.0033.desc: "Als ich durch den Tunnel gehe, spüre ich, wie eine Steinplatte unter meinem Fuß einsinkt, und als ich nach vorne schaue, sehe ich ein großes Pendel, das über den Tunnelweg schwingt."
+ agot_filler_kingslanding.0033.a: "Ich bin schnell genug, um daran vorbeizulaufen."
+ agot_filler_kingslanding.0033.b: "Ich entscheide mich stattdessen für das Leben."
+ agot_filler_kingslanding.0033.c: "Ich kann meine Bewegungen leicht takten..."
+ agot_filler_kingslanding.0033.d: "Irgendwann wird der Schwung nachlassen. Ich werde warten."
+  
+ agot_filler_kingslanding.0034.t: "Die Ratten des Roten Bergfrieds"
+ agot_filler_kingslanding.0034.desc: "Ich kann es riechen, bevor ich es sehe, und die Anzahl der Ratten bestätigt es nur: Unter den Trümmern eines eingestürzten Tunnelabschnitts liegt eine Leiche. Ich sehe mir die Leiche an und stelle fest, dass sie gut bewaffnet war. Das war ein Attentäter!"
+ agot_filler_kingslanding.0034.a: "Was, wenn er es durch die Tunnel geschafft hätte?"
+  
+ agot_filler_kingslanding.0035.t: "Die Ratten des Roten Bergfrieds"
+ agot_filler_kingslanding.0035.desc: "Ich stoße auf einen eingestürzten Teil des Tunnels, und als ich mich zum Gehen wende, entdecke ich eine Metallkiste. Ich breche sie auf und finde eine beträchtliche Summe Gold! Vielleicht war es ein Notgroschen für den Fall, dass der kleine Maegor jemals aus dem Bergfried fliehen müsste..."
+ agot_filler_kingslanding.0035.a: "Ich werde dieser Münze ein gutes Zuhause in meiner Tasche geben."
+  
+ agot_filler_kingslanding.0036.t: "Die Ratten des Roten Bergfrieds"
+ agot_filler_kingslanding.0036.desc: "Ich erkunde den Tunnel bis zum Ende, und als ich auf der anderen Seite wieder auftauche, befinde ich mich im Hinterzimmer eines #italic edlen Freudenhauses!#!"
+ agot_filler_kingslanding.0036.a: "...da ich ja schon mal hier bin..."
+ agot_filler_kingslanding.0036.b: "Ich bin nur hierher gekommen, um eine Auskunft darüber zu bekommen, wie ich von hier wieder wegkomme!"
+  
+ agot_filler_kingslanding.0037.t: "Die Ratten des Roten Bergfrieds"
+ agot_filler_kingslanding.0037.desc: "Ich erkunde die Tunnel noch tiefer, und der Weg beginnt sich zu verändern. Die Pflasterung scheint neuer zu sein. Sauberer. Stellt euch meine Freude vor, als ich herauskomme und mich in der Großen Septe von Baelor wiederfinde! Seltsam - die Septe gab es während der Herrschaft von König Maegor noch nicht. Ich nehme an, dass sie diesen Tunnel später hinzugefügt haben müssen. Wie seltsam. Ich frage mich, warum jemand einen geheimen Tunnel in eine Septe braucht..."
+ agot_filler_kingslanding.0037.a: "Die Verbindung des Königs zum Glauben ist sicherlich so tief wie der Tunnel!"
+ agot_filler_kingslanding.0037.b: "Die Gläubigen müssen dies gebaut haben, um den König auszuspionieren."
+  
+ agot_filler_kingslanding.0038.t: "Die Ratten des Roten Bergfrieds"
+ agot_filler_kingslanding.0038.desc: "Der Tunnel führt dich schließlich zu einer Holztür, und wenn du sie öffnest und hindurchtrittst, findest du dich in einem Raum wieder, der wie der Lagerraum einer Taverne aussieht. ...Vielleicht sollte ich mir, wenn ich schon mal hier bin, etwas zu essen und zu trinken holen."
+ agot_filler_kingslanding.0038.a: "Niemand wird ein oder zwei Flaschen Wein vermissen..."
+ agot_filler_kingslanding.0038.b: "Ist das dornische Salami?"
+ agot_filler_kingslanding.0038.c: "Ich wette, die Ratten fanden das auch lecker. Nein, danke."
+  
+  ########################### 
+  #     The Dragonpit      # 
+  #     ZombieSchrodCat     # 
+  #       0039 - 0043       # 
+  ########################### 
+  
+ agot_filler_kingslanding.0039.t: "Die Drachengrube"
+ agot_filler_kingslanding.0039.desc: "Die Drachengrube, die sich über Rhaenys' Hügel erhebt, ist zwar eine Ruine, aber dennoch nicht zu unterschätzen. Das massive Bauwerk wurde im Auftrag von König Maegor auf den Ruinen der Gedächtnissepte errichtet, nachdem Maegor diese dem Erdboden gleichgemacht hatte. Es sollte als Stall für die Drachen dienen, mit Türen, die groß genug waren, dass zwei Dutzend Ritter gleichzeitig hindurchreiten konnten. Nachdem sie jedoch während des Drachentanzes gestürmt wurde, stürzte die Grube zusammen herab und wurde bedauerlicherweise stillgelegt."
+ agot_filler_kingslanding.0039.a: "Das möchte ich aus der Nähe sehen."
+ agot_filler_kingslanding.0039.b: "Von hier aus habe ich eine schöne Aussicht."
+  
+ agot_filler_kingslanding.0040.t: "Die Drachengrube"
+ agot_filler_kingslanding.0040.desc: "Die Ruinen sind in ihrer Erhabenheit faszinierend, und ich bin so abgelenkt, dass ich den unter mir bröckelnden Holzboden erst bemerke, als ich hindurchfalle. Obwohl mich der Sturz nicht verletzt, finde ich mich inmitten von Asche und verkohlten Knochen wieder. Igitt. Ich ziehe mich aus dem Schlamassel und fliehe aus der Drachengrube.\n\nSpäter am Tag erinnere ich mich daran, dass es während der Frühjahrskrankheit so viele Leichen gegeben hatte, dass die Gilde der Alchemisten die Drachengrube nutzen musste, um die Toten zu verbrennen."
+ agot_filler_kingslanding.0040.a: "Ich glaube nicht, dass ich jemals all diese Knochen vergessen kann..."
+  
+ agot_filler_kingslanding.0041.t: "Die Drachengrube"
+ agot_filler_kingslanding.0041.desc: "Während ich die Drachengrube erkunde, kommt eine junge Frau auf mich zu. Zuerst denke ich, dass dies ein seltsamer Ort ist, um ein so nettes junges Mädchen zu treffen, aber dann erinnere ich mich an die Gerüchte, dass die Drachengrube von einigen für... intime Begegnungen genutzt wird, und diese junge Frau scheint sehr daran interessiert zu sein, viel mehr als nur die Drachengrube zu erkunden."
+ agot_filler_kingslanding.0041.a: "Ich kenne da einen gemütlichen Schlupfwinkel."
+ agot_filler_kingslanding.0041.b: "Ich bin nur hier, um die Drachengrube zu sehen, nein danke!"
+  
+ agot_filler_kingslanding.0042.t: "Die Drachengrube"
+ agot_filler_kingslanding.0042.desc: "Ich kann meinen Augen nicht trauen! Selbst die Trümmer beweisen die Handwerkskunst, mit der ein solcher Ort gebaut wurde. Es ist eine Schande, dass sie durch König Maegors Paranoia vernichtet wurde - aber ich kann trotzdem nicht anders, als zu staunen."
+ agot_filler_kingslanding.0042.a: "Ich bin wahrlich inspiriert!"
+ agot_filler_kingslanding.0042.b: "Wenn ich mich bemühe, kann ich vielleicht eines Tages auch so etwas bauen."
+ agot_filler_kingslanding.0042.c: "Ein solcher Anblick raubt mir den Atem!"
+  
+ agot_filler_kingslanding.0043.t: "Die Drachengrube"
+ agot_filler_kingslanding.0043.desc: "Schließlich stoße ich auf einen Obdachlosen, der in den Ruinen Schutz sucht. Er hat einen Bettelnapf neben sich stehen, in dem sich nur ein paar wenige Münzen befinden."
+ agot_filler_kingslanding.0043.a: "Hier, kauft euch eine warme Mahlzeit."
+ agot_filler_kingslanding.0043.b: "#italic Das#! nehme ich - du würdest das ganze Gold sowieso nur verschwenden."
+ agot_filler_kingslanding.0043.c: "*Ignoriert den Mann.*"
+ agot_filler_kingslanding.0043.d: "Niemand würde ihn vermissen... vielleicht könnte ich..."
+  
+  # Balerion making a ruckus 
+ agot_filler_kingslanding.0044.cat_name: "Balerion"
+ agot_filler_kingslanding.0044.t: "Balerion! What a Menace!"
+ agot_filler_kingslanding.0044.desc: "I hear a commotion coming from the courtyard, and when I go to investigate, I find Balerion, that notorious feline of King's Landing causing a ruckus. He's chasing a mouse around the courtyard, and the mouse is running for its life. As he races, he knocks into a servant carrying a try of food, and the tray goes flying. The food spills all over the ground, and the servant is left to clean up the mess. "Damned cat!" I hear the servant yell after the fiend.\n\nThat cat has proven a nuisance more than once! I should do something about it."
+ agot_filler_kingslanding.0044.a: "That kitty just needs a good home!"
+ agot_filler_kingslanding.0044.a.f: "You will adopt Balerion, and he will be your loyal companion."
+ agot_filler_kingslanding.0044.b: "Perhaps it is time to practice my vivisection's..."
+ agot_filler_kingslanding.0044.b.f: "You will dissect Balerion, and learn the secrets of his nine lives."
+ agot_filler_kingslanding.0044.c: "Come here cat! You'll get a swift kick!"
+ agot_filler_kingslanding.0044.c.f: "You will kick Balerion, hoping to teach him some manners!"
+ agot_filler_kingslanding.0044.d: "Awwww, look at the cute little kitty!"
+ agot_filler_kingslanding.0044.d.f: "You will pet Balerion, and give him a little treat!"
+ agot_filler_kingslanding.0044.e: "Perhaps [giving_cat_child.GetFirstName] would like a new pet?"
+ agot_filler_kingslanding.0044.e.f: "You will give Balerion to [giving_cat_child.GetFirstName] as a gift!"

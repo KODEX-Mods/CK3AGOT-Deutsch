@@ -1,0 +1,5 @@
+﻿l_german:
+ diarch_succession_score.regency.your_hand: "[ROOT.Char.GetLiege.Custom('GetLiegeYour')|U] Hand"
+  
+ liege_dismiss_free_city_diarch_interaction: "Dismiss Diarch"
+ liege_dismiss_free_city_diarch_interaction_desc: "You cannot do this."

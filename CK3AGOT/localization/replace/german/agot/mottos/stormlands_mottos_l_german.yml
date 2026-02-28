@@ -1,0 +1,117 @@
+﻿l_german:
+  #NOTE: follows the order of dynasties in the \common\dynasties\ files 
+  ### STORMLANDS DYNASTIES/CADET BRANCHES ### 
+  #Great Houses 
+ dynn_Durrandon_motto: "Unser ist der Zorn"
+ dynn_Baratheon_motto: "Unser ist der Zorn"
+ dynn_Wensington_motto: "Blast zum Angriff"
+  
+  #Landed Houses 
+ dynn_Bolling_motto: "Blutiger Donner"
+ dynn_Brownhill_motto: "Dieses Land ist unser"
+ dynn_Buckler_motto: "Wir fürchten nicht"
+ dynn_Cafferen_motto: "Für das, was gerecht ist"
+ dynn_Caron_motto: "Kein Gesang so süß"
+ dynn_Cole_motto: "Die Stärke des Kriegers"
+ dynn_Connington_motto: "Zu neuen Höhen"
+ dynn_Crowell_motto: "So trocknet die Tinte"
+ dynn_Dondarrion_motto: "Zweimal treffen, richtig treffen"
+ dynn_Errol_motto: "Brot und Erde"
+ dynn_Estermont_motto: "Langsam und beständig"
+ dynn_Fell_motto: "Der Mond steht hoch"
+ dynn_Gower_motto: "Treue über alles"
+ dynn_Grandison_motto: "Weck mich nicht"
+ dynn_Hasty_motto: "Der Tag kommt schnell"
+ dynn_Herston_motto: "Mutiger als die Löwen"
+ dynn_Horpe_motto: "Dem Licht entgegen"
+ dynn_Kellington_motto: "Weisheit und Wahrheit"
+ dynn_Lonmouth_motto: "Ihr habt die Wahl"
+ dynn_Mertyns_motto: "Wir warten in der Dunkelheit"
+ dynn_Morrigen_motto: "Begrüßen des Fremden"
+ dynn_Musgood_motto: "Fürchtet unsere Lanzen"
+ dynn_Peasebury_motto: "Geboren in Glückseligkeit und Freude"
+ dynn_Penrose_motto: "Haltet unsere Taten nicht"
+ dynn_Rogers_motto: "Von Reinheit und Unschuld"
+ dynn_Selmy_motto: "Sei mutig, sei kühn"
+ dynn_Sendney_motto: "aawagga"
+ dynn_Shaw_motto: "Mit Stolz dienen"
+ dynn_Staedmon_motto: "Sprich nicht von Liebe"
+ dynn_Stillman_motto: "Hart wie Eiche"
+ dynn_Straw_motto: "Das Fass zum Überlaufen bringen"
+ dynn_Swann_motto: "Auf weiß gefiederten Schwingen"
+ dynn_Swygert_motto: "Wahrheit obsiegt"
+ dynn_Tarth_motto: "Von der Dämmerung"
+ dynn_Trant_motto: "So enden unsere Feinde"
+ dynn_Toyne_motto: "Hoch fliegen, weit fliegen"
+ dynn_Tudbury_motto: "Die Großen und Mächtigen"
+ dynn_Wagstaff_motto: "Bewaffnet in Tapferkeit"
+ dynn_Whitehead_motto: "Für jene, die wir verloren haben"
+ dynn_Wormwood_motto: "Weise und wahrhaftig"
+ dynn_Wylde_motto: "Der Sturm tobt weiter"
+ dynn_Noye_motto: "We Know the Storm"
+ dynn_Polander_motto: "Brief and Bright"
+ dynn_Scallard_motto: "From the Mist"
+  
+  #Modcanons 
+ dynn_Staines_motto: "On the Rise"
+ dynn_Ripping_motto: "We Climb as One"
+ dynn_Ambellan_motto: "On Star-Touched Shores" #NT!
+ dynn_Tempers_motto: "With Blind Faith" #NT!
+ dynn_Noonan_motto: "We Walk the Line" #NT!
+ dynn_Lurrelen_motto: "Love Is No Master" #NT!
+ dynn_Poe_motto: "Never Again Led Astray" #NT!
+ dynn_Mitchell_motto: "Untapped Potential" #NT!
+ dynn_Bitters_motto: "Deep Roots, Long Memories" #NT!
+ dynn_Yeller_motto: "Cut Out the Rot" #NT!
+ dynn_Charron_motto: "With Hawkish Tenacity" #NT!
+ dynn_Blythe_motto: "A Black and White Army" #NT!
+ dynn_Cowley_motto: "The Soil Sings" #NT!
+ dynn_Shear_motto: "By a Hair" #NT!
+ dynn_Venerer_motto: "You Cannot Hide" #NT!
+ dynn_Pierce_motto: "Twist It In" #NT!
+ dynn_Bolander_motto: "The Seven Provide" #NT!
+ dynn_Hussell_motto: "No Task Too Small" #NT!
+ dynn_Burden_motto: "Keep It Secret, Keep It Safe" #NT!
+ dynn_Mullgrub_motto: "Such Pain Does Not Relent" #NT!
+ dynn_Grimsby_motto: "Our Grip Is Tight" #NT!
+ dynn_Pointe_motto: "Hear the Wail" #NT!
+ dynn_Gayle_motto: "Wings Beat, We Kneel" #NT!
+ dynn_Brandish_motto: "At the Ready" #NT!
+ dynn_Rooke_motto: "Checkmate" #NT!
+ dynn_Densmore_motto: "Turn the Other Cheek" #NT!
+ dynn_Morles_motto: "We Stand Unbothered" #NT!
+ dynn_Hargraves_motto: "Another on the Pile" #NT!
+ dynn_Morrison_motto: "More Reasons to Fight" #NT!
+ dynn_Spelder_motto: "Part Of the Pride" #NT!
+ dynn_Ferrers_motto: "Our Backs Are Iron" #NT!
+ dynn_Leddan_motto: "For the Smallfolk" #NT!
+ dynn_Harthwood_motto: "Splinter, Don't Break" #NT!
+ dynn_Pang_motto: "You Cannot Ignore It" #NT!
+ dynn_Rellace_motto: "Befriend the Crone" #NT!
+ dynn_Mallace_motto: "For It Will Never Stop" #NT!
+ dynn_Ginett_motto: "Fixed and Infallible" #NT!
+ dynn_Peck_motto: "Can You Endure?" #NT!
+ dynn_Spurn_motto: "Taunts and Thorns" #NT!
+ dynn_Lambert_motto: "None Will Sing For You" #NT!
+ dynn_Masters_motto: "No Arsenal Unfamiliar" #NT!
+ dynn_Morden_motto: "Judgment From Above" #NT!
+ dynn_Bander_motto: "Shan't Waiver" #NT!
+ dynn_Hennett_motto: "Follow Our Trail" #NT!
+ dynn_Standard_motto: "Hoist the Colours" #NT!
+ dynn_Bane_motto: "Peace Has Cost Your Strength" #NT!
+ dynn_Claught_motto: "Seize and Slaughter" #NT!
+ dynn_Dennecent_motto: "Don't Dare Presume" #NT!
+ dynn_Ire_motto: "Look Us In the Eye" #NT!
+ dynn_Orlestor_motto: "Pragmatism and Perseverance" #NT!
+ dynn_Snapper_motto: "In Our Jaws" #NT!
+ dynn_Den_Veln_motto: "To What Do We Owe?" #NT!
+ dynn_Sulk_motto: "Our Anguish, Your Anguish" #NT!
+ dynn_Pease_motto: "No Trust Betrayed" #NT!
+ dynn_Dripps_motto: "Let It Trickle" #NT!
+ dynn_Burnett_motto: "Our Scars Tell Stories" #NT!
+ dynn_Wenton_motto: "We Drink the River" #NT!
+  
+  #Landless 
+ dynn_Butcher_motto: "In Flesh and Fury"
+  
+  

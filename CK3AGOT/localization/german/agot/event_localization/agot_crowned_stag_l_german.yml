@@ -1,0 +1,20 @@
+﻿l_german:
+ agot_crowned_stag.0001.t: "Der Gekrönte Hirsch"
+ agot_crowned_stag.0001.desc: "Nach einem blutigen Kampf und dem Verlust meiner geliebten Lyanna haben wir uns gegen die Tyrannei des Irren Königs durchgesetzt. Die letzten Targaryens und ihre heimtückische Sippe wurden über die Meerenge verbannt. Ich bin nun der rechtmäßige König von Westeros.\n\nHeil Robert, dem Ersten seines Namens, König der Andalen, der Rhoynar und der Ersten Menschen, Herr der Sieben Königslande und Beschützer des Reiches!"
+ agot_crowned_stag.0001.a: "Unser ist der Zohn"
+  
+ agot_crowned_stag.0002.t: "Königliche Pflichten: Sehnsüchte"
+ agot_crowned_stag.0002.desc: "Es ist eine schwere Aufgabe, König zu sein. Ich treffe mich mit Bittstellern, sitze stundenlang untätig in Ratssitzungen und höre mir die immer gleichen schwatzenden Stimmen zu Themen an, die kaum oder gar nicht von Bedeutung sind. Schafzuchtrechte hier, Handelsrouten mit Myr dort. Es bringt keinen Ruhm, keine Spannung mit sich. Mein Blut kocht nicht mehr so wie früher - bei den #italic Göttern#! wie es früher donnerte, wenn ich meinen Hammer schwang. Wie sehr ich mich danach sehne, mich wieder lebendig zu fühlen.\n\nDa es keine Schlacht mehr zu schlagen gibt, sollte ich vielleicht einen anderen, sinnlicheren Weg der Befriedigung finden. Ich habe gehört, die Seidenstraße bietet genau das..."
+ agot_crowned_stag.0002.a: "Bei den #bold Göttern#!, ich brauche ein Weib!"
+ agot_crowned_stag.0002.b: "So weit werde ich mich nicht herablassen."
+  
+ agot_crowned_stag.0003.t: "Königliche Pflichten: Erleichterung"
+ agot_crowned_stag.0003.desc: "Es dämmert bereits, als Ihr das Bordell betretet, aber selbst im Halbdunkel könnt Ihr erkennen, dass die Frauen einladend und ansehnlich genug sind. Es dauert nicht lange, bis sich eine von ihnen Euch nähert und Euch ein sanftes Lächeln schenkt.\n\n'Willkommen, [ROOT.Char.Custom('DE_Anrede')],' sagt sie. 'Ich bin [prostitute_character.GetFirstName]. Wie kann ich Euch dienen?'\n\nInnerhalb einer Stunde hat sie Euch betrunken gemacht. Das leichte Kribbeln in Eurem Bauch macht Euch die Schritte zur Treppe leicht genug, um sie ohne viel Nachdenken zu nehmen. Genau das hattet Ihr im Sinn. Es ist nicht #italic ganz#! wie eine Schlacht, aber es wird reichen. Für den Moment reicht es... "
+ agot_crowned_stag.0003.a: "Endlich etwas Erleichterung..."
+ agot_crowned_stag.0003.a.tt: "Ihr schlaft mit [prostitute_character.GetFirstName]"
+  
+ agot_crowned_stag.1000.t: "Night Gathers" #NT!
+ agot_crowned_stag.1000.desc: "Benjen approaches me quietly, his face drawn and solemn. "You have a proper heir now, and soon enough, there will likely be more. You don't need me anymore."\n\n"Benjen—" "I would ask for your leave to join the Night's Watch," he interrupts me firmly. "Ned, I can't stay in Winterfell. Father, Brandon, Lya... maybe you can build a new family and find happiness here, but all I see are their ghosts. I keep wondering if I could have done something differently, maybe..."\n\nThe broken grief in his face hardens into determination. "The Night's Watch always needs recruits. I could do good there."" #NT!
+ agot_crowned_stag.1000.a: "If you feel you must." #NT!
+ agot_crowned_stag.1000.b: "I cannot bear to lose another family member." #NT!
+  

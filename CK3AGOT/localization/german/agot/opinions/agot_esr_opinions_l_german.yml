@@ -1,0 +1,99 @@
+﻿l_german:
+  ### war related 
+ esr_declared_war_on_family: "Declared War on [family_member|E]"
+ esr_declared_war_on_close_family: "Declared War on [close_family_member|E]"
+ esr_joined_war_on_family: "Joined War on [family_member|E]"
+ esr_joined_war_on_me: "Joined War on me"
+ esr_declared_war_on_friend: "Declared War on [friend|E]"
+ esr_declared_war_on_best_friend: "Declared War on [best_friend|E]"
+ esr_declared_war_on_lover: "Declared War on [lover|E]"
+ esr_declared_war_on_soulmate: "Declared War on [soulmate|E]"
+ esr_declared_war_on_rival: "Declared War on [rival|E]"
+ esr_declared_war_on_nemesis: "Declared War on [nemesis|E]"
+  
+  ### relation related 
+ esr_common_friend: "Have Common [friend|E]"
+ esr_rival_friend: "You are my [rival|E]'s [friend|E]"
+ esr_nemesis_friend: "You are my [nemesis|E]'s [friend|E]"
+ esr_rival_best_friend: "You are my [rival|E]'s [best_friend|E]"
+ esr_nemesis_best_friend: "You are my [nemesis|E]'s [best_friend|E]"
+ esr_common_rival: "Have Common [rival|E]"
+ esr_friend_rival: "You are my [friend|E]'s [rival|E]"
+ esr_best_friend_rival: "You are my [best_friend|E]'s [rival|E]"
+ esr_friend_nemesis: "You are my [friend|E]'s [nemesis|E]"
+ esr_best_friend_nemesis: "You are my [best_friend|E]'s [nemesis|E]"
+  
+  ### Murder / Execution related 
+ esr_murdered_best_friend: "Executed [best_friend|E]"
+ esr_murdered_soulmate: "Executed [soulmate|E]"
+ esr_murdered_rival: "Executed [rival|E]"
+ esr_murdered_nemesis: "Executed [nemesis|E]"
+ esr_murdered_extended_family: "Executed [extended_family_members|E]"
+ esr_hate_by_association_murder: "Family of Murderer"
+  
+  ### Attempted Murder related modifiers 
+ esr_attempted_murder_extended_family: "Attempted to Murder [extended_family_members|E]"
+ esr_attempted_murder_close_relation_opinion: "Attempted to Murder Close Relation"
+ esr_attempted_murder_best_friend: "Attempted to Murder [best_friend|E]"
+ esr_attempted_murder_soulmate: "Attempted to Murder [soulmate|E]"
+ esr_attempted_murder_rival: "Attempted to Murder [rival|E]"
+ esr_attempted_murder_nemesis: "Attempted to Murder [nemesis|E]"
+  
+  ### Execution modifiers 
+ esr_hate_by_association_execution: "Family of Executioner"
+  
+  ### Imprison modifiers 
+ esr_imprisoned_close_family: "Imprisoned [close_family_member|E]"
+ esr_imprisoned_extended_family: "Imprisoned [extended_family_members|E]"
+ esr_imprisoned_close_relation_opinion: "Imprisoned Close Relation"
+ esr_imprisoned_rival: "Imprisoned my [rival|E]"
+ esr_imprisoned_best_friend: "Imprisoned my [best_friend|E]"
+ esr_imprisoned_soulmate: "Imprisoned my [soulmate|E]"
+ esr_imprisoned_nemesis: "Imprisoned my [nemesis|E]"
+ esr_threw_family_in_dungeon: "Threw [family_member|E] in dungeon"
+ esr_threw_close_relation_in_dungeon: "Threw Close Relation in dungeon"
+ esr_threw_very_close_in_dungeon: "Threw [best_friend|E] or [soulmate|E] in dungeon"
+ esr_threw_nemesis_in_dungeon: "Threw [nemesis|E] in dungeon"
+ esr_move_family_to_house_arrest: "Moved [family_member|E] to House Arrest"
+ esr_move_close_relation_to_house_arrest: "Moved Close Relation to House Arrest"
+ esr_move_very_close_to_house_arrest: "Moved [best_friend|E] or [soulmate|E] to House Arrest"
+ esr_move_nemesis_to_house_arrest: "Moved [nemesis|E] to House Arrest"
+  
+  ### Revoke title modifiers 
+ esr_revoked_close_family: "Revoked [close_family_member|E]'s Title"
+ esr_revoked_extended_family: "Revoked [extended_family_members|E]'s Title"
+ esr_revoked_close_relation_opinion: "Revoked Close Relation's Title"
+ esr_revoked_best_friend: "Revoked [best_friend|E]'s Title"
+ esr_revoked_soulmate: "Revoked [soulmate|E]'s Title"
+ esr_revoked_rival: "Revoked [rival|E]'s Title"
+ esr_revoked_nemesis: "Revoked [nemesis|E]'s Title"
+  
+  ### Retracted vassal modifiers 
+ esr_retracted_close_family: "Retracted [close_family_member|E]'s [vassal|E]"
+ esr_retracted_extended_family: "Retracted [extended_family_members|E]'s [vassal|E]"
+ esr_retracted_close_relation_opinion: "Retracted Close Relation's [vassal|E]"
+ esr_retracted_best_friend: "Retracted [best_friend|E]'s [vassal|E]"
+ esr_retracted_soulmate: "Retracted [soulmate|E]'s [vassal|E]"
+ esr_retracted_rival: "Retracted [rival|E]'s [vassal|E]"
+ esr_retracted_nemesis: "Retracted [nemesis|E]'s [vassal|E]"
+  
+  ### Grant title / [vassal|E] modifiers 
+ esr_grant_family_county: "Granted [close_family_member|E] County"
+ esr_grant_family_duchy: "Granted [close_family_member|E] Duchy"
+ esr_grant_family_kingdom: "Granted [close_family_member|E] Kingdom"
+ esr_grant_family_empire: "Granted [close_family_member|E] Empire"
+ esr_grant_family_vassal: "Granted [close_family_member|E] [vassal|E]"
+ esr_grant_close_relation_opinion: "Granted Close Relation Title or [vassal|E]"
+ esr_grant_best_friend: "Granted [best_friend|E] Title or [vassal|E]"
+ esr_grant_soulmate: "Granted [soulmate|E] Title or [vassal|E]"
+ esr_grant_rival: "Granted [rival|E] Title or [vassal|E]"
+ esr_grant_nemesis: "Granted [nemesis|E] Title or [vassal|E]"
+  
+  ### Grant Independance 
+ esr_grant_independence_family: "Granted [close_family_member|E] Independence"
+  
+  ### Family friend 
+ esr_family_friend: "[family_friends|E]"
+  
+  ### Threat 
+ esr_threatened_by_war_declared: "Threatened by Aggression" #NT!

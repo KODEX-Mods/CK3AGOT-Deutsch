@@ -1,0 +1,458 @@
+﻿l_german:
+  #Ruin Artifacts 
+ ruin_sigil_ring: "Siegelring der Ruine"
+ ruin_sigil_ring_desc: "Ein Siegelring, der beim Wiederaufbau einer Burgruine gefunden wurde. Das Siegel ist zwar mit der Zeit stark verschlissen, aber es besteht kaum ein Zweifel daran, dass er einst zu dem unglückseligen Haus gehörte, das einst die Herrschaft über diese Ruinen beanspruchte."
+ ruin_sword: "Schwert der Ruine"
+ ruin_sword_desc: "Ein Schwert aus Stahlbarren geschmiedet,  die beim Wiederaufbau einer Burgruine gefunden wurden."
+ ruin_mace: "Streitkolben der Ruine"
+ ruin_mace_desc: "Ein Streitkolben aus Stahlbarren geschmiedet, die beim Wiederaufbau einer Burgruine gefunden wurden."
+ ruin_spear: "Speer der Ruine"
+ ruin_spear_desc: "Ein Speer aus Stahlbarren geschmiedet, die beim Wiederaufbau einer Burgruine gefunden wurden."
+ ruin_axe: "Kriegsaxt der Ruine"
+ ruin_axe_desc: "Eine Kriegsaxt aus Stahlbarren geschmiedet, die beim Wiederaufbau einer Burgruine gefunden wurden."
+ ruin_dagger: "Dolch der Ruine"
+ ruin_dagger_desc: "Ein Dolch aus Stahlbarren geschmiedet, die beim Wiederaufbau einer Burgruine gefunden wurden."
+  
+  
+  ############################### 
+  #     The Charcoal Sells      # 
+  #     ZombieSchrodCat         # 
+  ############################### 
+  
+ agot_rebuilding_ruins.0001.t: "The Charcoal Sellers"
+ agot_rebuilding_ruins.0001.desc: "Once the home to great lords, all that remains now are caliginous ruins and overgrown woods.\n\nAs we begin the rebuilding efforts, we notice some destitute charcoal sellers — smallfolk in the area whom we disregarded. But now, we have found some of the rebuilding efforts continually disrupted. Equipment damaged or missing. Provisions stolen in the night.\n\nOne of my men claims the charcoal sellers are responsible, stating they fear losing the woodlands from which they make their living."
+ agot_rebuilding_ruins.0001.a: "If they behave as bandits, I shall treat them as such!"
+ agot_rebuilding_ruins.0001.a.tt: "You bring your wrath down upon the charcoal sellers."
+ agot_rebuilding_ruins.0001.b: "I'll talk to them, letting them know we are not a threat."
+ agot_rebuilding_ruins.0001.b.tt: "Perhaps diplomacy will win them over for you — or, failing that, fair compensation for the loss of their woods."
+ agot_rebuilding_ruins.0001.win.title: "An understanding reached with the locals."
+ agot_rebuilding_ruins.0001.lose.title: "Compensation paided to the charcoal sellers."
+ agot_rebuilding_ruins.0001.c: "Perhaps a gift to them will gain us good will?"
+ agot_rebuilding_ruins.0001.c.tt: "You offer the charcoal sellers gold to compensate the loss of income from the woods."
+  
+  ############################### 
+  #     The Poultry Bandits     # 
+  #     ZombieSchrodCat         # 
+  ############################### 
+  
+ agot_rebuilding_ruins.0002.t: "The Poultry Bandits"
+ agot_rebuilding_ruins.0002.desc: "My men have been searching the ruins most of the morning, #N for a rooster?#!\n\nSome of the men claim to have heard a rooster crow overnight, sounding as though it beneath their feet. Frantic to find proof of their claims, they began searching for the fowl.\n\nMuch to their suprise, my men found the cloistered cock — along with several #bold men#! in a hidden cellar. It appears a group of bandits has been using the ruins as a base of operations, and our arrival has forced them into hiding."
+ agot_rebuilding_ruins.0002.a: "Arrest them!"
+ agot_rebuilding_ruins.0002.a.tt: "They are clearly outlaws, and justice must be done."
+ agot_rebuilding_ruins.0002.b: "Kill them, and take the loot..."
+ agot_rebuilding_ruins.0002.b.tt: "You will deliever justice to these outlaws, and their loot will serve as a reward."
+ agot_rebuilding_ruins.0002.c: "Perhaps they would be interested in working for me?"
+ agot_rebuilding_ruins.0002.c.tt: "Clearly the outlaws know how to use a weapon; hopefully they will be of use to you."
+  
+  ############################### 
+  #     Buried Treasuer         # 
+  #     ZombieSchrodCat         # 
+  ############################### 
+  
+ agot_rebuilding_ruins.0003.t: "Buried Treasure"
+ agot_rebuilding_ruins.0003.desc: "Some of my workers made a welcome discovery while clearing debris from a caved in room — #bold a purse of gold was found stashed away under the floor boards!#!\n\nWhomever the coin once belonged to is no longer among the living... It is mine to claim."
+ agot_rebuilding_ruins.0003.a: "A fortunate find!"
+ agot_rebuilding_ruins.0003.a.tt: "Fate smiles upon you."
+  
+  ############################### 
+  #     Bandit Attack!          # 
+  #     ZombieSchrodCat         # 
+  ############################### 
+  
+ agot_rebuilding_ruins.0004.t: "Bandit Attack"
+ agot_rebuilding_ruins.0004.desc: "#bold The whoresons waited until the hour of the wolf to strike!#! A large group of bandits laid in waiting, hidden among the dense woods near the ruins.\n\nWhether by arrogance, desperation, or stupidity, these poorly trained ruffians believe they can attack my men. I must decide quickly whether to take command or join the fight."
+ agot_rebuilding_ruins.0004.a: "I'll command my men in fighting them off!"
+ agot_rebuilding_ruins.0004.a.tt: "Using your martial knowledge, you will lead your men against the bandits."
+ agot_rebuilding_ruins.0004.a.win.title: "Battle Won!"
+ agot_rebuilding_ruins.0004.a.lose.title: "Battle Lost..."
+ agot_rebuilding_ruins.0004.b: "I'll join the fray!"
+ agot_rebuilding_ruins.0004.b.tt: "Your prowess will carry you in the fight, facing against the leader of the bandits in combat."
+ agot_rebuilding_ruins.0004.b.win.title: "Battle Won!"
+ agot_rebuilding_ruins.0004.b.lose.title: "Battle Lost..."
+ agot_rebuilding_ruins.0004.c: "This is lost, we best retreat..."
+ agot_rebuilding_ruins.0004.c.tt: "You are outmatched; better to flee, and live another day."
+  
+  ############################### 
+  #     Ghost Stories!          # 
+  #     ZombieSchrodCat         # 
+  ############################### 
+  
+ agot_rebuilding_ruins.0005.t: "Ghost Stories"
+ agot_rebuilding_ruins.0005.desc: "Since the reconstruction started on the ruin, my knight [agot_ghost_story_knight.GetTitledFirstName] began relaying the stories told by the smallfolk about the ruins. Around every corner, I hear whispers among my men...\n\n #italic      blood-curdling screams...#!\n\n #italic            frenzied cravens...#!\n\n #italic                  none left alive...#! \n\nUnfortunately, these tales of the ill-fated house that once held the ruins are spreading within my court."
+ agot_rebuilding_ruins.0005.a: "By staying the night at these ruins, I will lay this to rest."
+ agot_rebuilding_ruins.0005.a.tt: "You will end these stories, and you'll prove your own courage!"
+ agot_rebuilding_ruins.0005.b: "Ha! Let the fools talk."
+ agot_rebuilding_ruins.0005.b.tt: "What concern is it of yours what they whisper about in the halls?"
+ agot_rebuilding_ruins.0005.c: "I'll put fear into [agot_ghost_story_knight.GetFirstNameNoTooltip]..."
+ agot_rebuilding_ruins.0005.c.tt: "You will talk to your knight, pointing out how craven such stories makes [agot_ghost_story_knight.GetHerHim]."
+ agot_rebuilding_ruins.0005.c.win.title: "You seem to have an impact!"
+ agot_rebuilding_ruins.0005.c.lose.title: "You frightened [agot_ghost_story_knight.GetHerHim] more..."
+  
+ agot_rebuilding_ruins.0006.t: "Ghost Stories: Restful Night"
+ agot_rebuilding_ruins.0006.desc: "Staying the night at the ruins was more pleasant that I had imagined. Despite the stories, I was able to get a fine night's rest!\n\nWhen dawn came, the crisp morning air jolted me awake, feeling refreshed and exhilarated. My men and I take notice of the abundance of deer along the wood's edge, and I let out a hearty laugh thinking of those in my court fearing for me."
+ agot_rebuilding_ruins.0006.a: "This surely will end those stories."
+  
+ agot_rebuilding_ruins.0007.t: "Ghost Stories: Horrible Night"
+ agot_rebuilding_ruins.0007.desc: "#bold Curse these ruins...#! #italic though perhaps they already are...#! \n\nI had a horrific night! Nightmares plagued me throughout my attempts at sleeping, and the weather seemed to join in the torment as a storm howled through the night.\n\nWhen morning came, even the men who had once laughed at the ghost stories were now repeating them with sleepless eyes."
+ agot_rebuilding_ruins.0007.a: "Damn those stories... damn these ruins..."
+  
+ agot_rebuilding_ruins.0008.t: "Ghost Stories: Visions of the Dead"
+ agot_rebuilding_ruins.0008.desc: "#bold Curse these ruins...#! #italic though perhaps they already are...#! \n\nMy dreams were plagued with horrific nightmares, in which I lived the last moments of the ill-fated house that once ruled these ruins. A series of blood-curdling screams, as frenzied cravens attempted to flee. Myself, caught among the masses as [ROOT.Char.GetFaith.DeathDeityName] came for us; none left alive... \n\nThese nightmares awake me before dawn, and I wander the moonlit ruins, hoping to ease my troubled mind, when I see it — glinting in the moonlight is an #bold old sigil ring#!, laying on the ground."
+ agot_rebuilding_ruins.0008.a: "A relic of a ill-fated house."
+  
+  ############################### 
+  #     Blacksmith Cache        # 
+  #     ZombieSchrodCat         # 
+  ############################### 
+  
+ agot_rebuilding_ruins.0009.t: "Blacksmith Cache"
+ agot_rebuilding_ruins.0009.desc: "Many mysteries of this ruined castle rest beneath the mossy undergrowth that has invaded the remnants of the ancient structure.\n\nWhile clearing debris from the ruins, one of my men uncovers a cache of steel ingots where once the castle's smithies must have stood. Despite the years, the steel is in very good condition."
+ agot_rebuilding_ruins.0009.a: "This should bring me some coin."
+ agot_rebuilding_ruins.0009.a.tt: "You sell the steel ingots."
+ agot_rebuilding_ruins.0009.b: "Perhaps my own smith can create something..."
+ agot_rebuilding_ruins.0009.b.tt: "Your smith will try to forge you a weapon from the steel ingots of the ruins."
+ agot_rebuilding_ruins.0009.sword.title: "Sword Forged"
+ agot_rebuilding_ruins.0009.mace.title: "Mace Forged"
+ agot_rebuilding_ruins.0009.axe.title: "Axe Forged"
+ agot_rebuilding_ruins.0009.spear.title: "Spear Forged"
+ agot_rebuilding_ruins.0009.dagger.title: "Dagger Forged"
+  
+  ############################### 
+  #     A Quick Decision        # 
+  #     ZombieSchrodCat         # 
+  ############################### 
+  
+ agot_rebuilding_ruins.0010.t: "A Quick Decision"
+ agot_rebuilding_ruins.0010.desc: "Rebuilding a ruin such as this is no simple task. Years of decay must be repaired, and once-proud masonry must be restored.\n\nToday, as some of my men are hoisting pallets of bricks to the higher reaches of the ruined castle, I notice one of the ropes beginning to fray. I see [agot_rebuilding_ruin_block_head.GetTitledFirstName] below, totally unaware — #italic but is there enough time to help [agot_rebuilding_ruin_block_head.GetHerHim]?#!"
+ agot_rebuilding_ruins.0010.a: "Hopefully [agot_rebuilding_ruin_block_head.GetSheHe] will not be hurt..."
+ agot_rebuilding_ruins.0010.a.tt: "You try to warn [agot_rebuilding_ruin_block_head.GetHerHim]."
+ agot_rebuilding_ruins.0010.b: "I may yet reach the [agot_rebuilding_ruin_block_head.GetWomanMan] and shield [agot_rebuilding_ruin_block_head.GetHerHim]!"
+ agot_rebuilding_ruins.0010.b.tt: "Doing so will put you in harm's way, but [agot_rebuilding_ruin_block_head.GetFirstNameNoTooltip] will be grateful."
+  
+  ############################### 
+  #     Options set in Stone    # 
+  #     ZombieSchrodCat         # 
+  ############################### 
+  
+ agot_rebuilding_ruins.0011.t: "Options Set in Stone"
+ agot_rebuilding_ruins.0011.desc: "Stone for the rebuilding effort is being hauled in from all corners of my domain. One of my men has pointed out that there is a potental source of stone nearby — though it would only be a small quarry that would run dry within a few years."
+ agot_rebuilding_ruins.0011.a: "I'll provide the funds for this small quarry."
+ agot_rebuilding_ruins.0011.b: "My gold is better spent elsewhere."
+  
+  ############################### 
+  #     In the Details          # 
+  #     ZombieSchrodCat         # 
+  ############################### 
+  
+ agot_rebuilding_ruins.0012.t: "In the Details"
+ agot_rebuilding_ruins.0012.desc: "The rebuilding efforts have gone well, yet still I find myself pouring over the building plans late into the night. Sometimes, I make small changes or see miniscule ways to improve upon the plans already being implemented.\n\nSome of my men have commented that they worry I'm too absorbed into the rebuilding..."
+ agot_rebuilding_ruins.0012.a: "Surely this is not a obsession!"
+ agot_rebuilding_ruins.0012.a.tt: "You will rest when the ruins are rebuilt."
+ agot_rebuilding_ruins.0012.b: "Perhaps they are right..."
+ agot_rebuilding_ruins.0012.b.tt: "You take the advice and withdraw yourself from overseeing the project."
+  
+  ############################### 
+  #     Bronze Slate            # 
+  #     ZombieSchrodCat         # 
+  ############################### 
+  
+ agot_rebuilding_ruins.0013.t: "The Bronze Slate"
+ agot_rebuilding_ruins.0013.desc: "While rebuilding the ruins, my men came across a interesting relic, which seemed to be older than the ruins themselves. A bronze slate covered in the runes of the First Men."
+ agot_rebuilding_ruins.0013.a: "This may fetch some gold!"
+ agot_rebuilding_ruins.0013.a.tt: "You sell the slate for gold."
+ agot_rebuilding_ruins.0013.b: "Perhaps I could decipher the slate..."
+ agot_rebuilding_ruins.0013.b.tt: "You are very knowledgeable and resourceful; with time, you may uncover the truth."
+ agot_rebuilding_ruins.0013.c: "The maesters at the Citadel could translate it."
+ agot_rebuilding_ruins.0013.c.tt: "You pay a courier to bring the slate to the Citadel."
+  
+ agot_rebuilding_ruins.0014.t: "The Bronze God"
+ agot_rebuilding_ruins.0014.desc: "A maester was able to decipher some of the slate, using the armor and sigil of House Royce as a reference. The slate was a prayer ritual to a ancient god of the First Men, before the pact with the Children of the Forest: #bold the Bronze God#!, a god of war and mining.\n\nThe maester writes that he would be willing to purchase the Bronze slate for a decent sum."
+ agot_rebuilding_ruins.0014.a: "Perhaps #italic I#! should try this ritual."
+ agot_rebuilding_ruins.0014.a.tt: "You pray to a long dead god."
+ agot_rebuilding_ruins.0014.b: "The #bold gold#! would be welcomed!"
+ agot_rebuilding_ruins.0014.b.tt: "The Citadel will pay nicely for this."
+  
+ agot_rebuilding_ruins.0015.t: "Prayers to the Bronze God"
+ agot_rebuilding_ruins.0015.desc: "Late in the night, I perform the ritual as described by the maester. A zealous fever fills me as the ritual is completed — an overwhelming feeling that my faith has never given me."
+ agot_rebuilding_ruins.0015.a: "Perhaps the First Men were right."
+ agot_rebuilding_ruins.0015.b: "No... I will stay true to my faith."
+  
+  ############################### 
+  #     Learder by Example    # 
+  #     ZombieSchrodCat         # 
+  ############################### 
+  
+ agot_rebuilding_ruins.0016.t: "Beispielhafter Anführer"
+ agot_rebuilding_ruins.0016.desc: "Die Arbeit an den Ruinen war sowohl körperlich als auch geistig sehr anstrengend. Trotz meines Standes habe ich mich dabei ertappt, wie ich immer öfter bei den körperlichen Anforderungen des Wiederaufbaus helfe und an der Seite meiner Höflinge arbeite. Heute habe ich bemerkt, dass meine Höflinge es schätzen, dass ich mit ihnen zusammenarbeite."
+ agot_rebuilding_ruins.0016.a: "Je mehr anpacken, desto schneller sind wir!"
+  
+  ############################### 
+  #     A Curious Visitor       # 
+  #     ZombieSchrodCat         # 
+  ############################### 
+  
+ agot_rebuilding_ruins.0017.t: "Der erste Besucher"
+ agot_rebuilding_ruins.0017.desc: "Es hat sich herumgesprochen, dass ich mich bemühe, die alten Ruinen in ihrem alten Glanz wiederherzustellen. Heute erhielt ich Besuch von einem neugierigen Lord."
+ agot_rebuilding_ruins.0017.a: "Lasst mich Euch vom strategischen Mehrwert erzählen..."
+ agot_rebuilding_ruins.0017.a.tt: "Ihr nutzt Euer Wissen über die [martial|E] um den Lord zu unterhalten"
+ agot_rebuilding_ruins.0017.b: "Es war kein günstiges Unterfangen, aber..."
+ agot_rebuilding_ruins.0017.b.tt: "Ihr nutzt Euer Wissen über die [stewardship|E] um den Lord zu unterhalten"
+ agot_rebuilding_ruins.0017.c: "Diese Burg? Nicht der Rede wert. Erzählt mir von Euch..."
+ agot_rebuilding_ruins.0017.c.tt: "Ihr nutzt Euer Wissen über die [diplomacy|E] um den Lord zu unterhalten"
+ agot_rebuilding_ruins.0017.win.title: "Ihr habt einen guten Eindruck hinterlassen"
+ agot_rebuilding_ruins.0017.lose.title: "Ihr habt einen schlechten Eindruck hinterlassen"
+  
+  ############################### 
+  #     Jenye of Summerhall     # 
+  #     ZombieSchrodCat         # 
+  ############################### 
+  
+ agot_rebuilding_ruins.0018.t: "Die Blume der Ruine"
+ agot_rebuilding_ruins.0018.desc: "Einst das Heim eines großen Lords, nun eine zerfallene Ruine, welche vom örtlichen Pöbel für verschiedenste Tätigkeiten benutzt wird. Während unsere Wiederaufbaubemühungen einiges an Zwietracht unter den Einheimischen verursacht haben, hat ein einheimisches Mädchen eine Brücke zwischen uns geschlagen. Mit ihrer musikalischen Begabung hat sie meine Höflinge und Ritter, die an den Ruinen arbeiten, für sich gewonnen.\n\nHeute begann sie auf einer Harfe zu spielen, die einer der Arbeiter hatte, und alle blieben stehen, um ihr zuzuhören."
+ agot_rebuilding_ruins.0018.a: "Das Harfe läutet die Pause ein!"
+ agot_rebuilding_ruins.0018.a.tt: "Nach einer kurzen Pause mit guter Musik sind meine Männer bestimmt wieder gut drauf"
+ agot_rebuilding_ruins.0018.b: "Solches Talent wird an meinem Hof gern gesehen!"
+ agot_rebuilding_ruins.0018.b.tt: "Ihr ladet sie ein, an Euren Hof zu ziehen"
+  
+  ############################## 
+  #        Moat Cailin         # 
+  #          by Lord           # 
+  ############################## 
+ agot_rebuilding_ruins.1001.t: "Jaws in the Swamps"
+ agot_rebuilding_ruins.1001.desc: "The environment of a stronghold can safeguard its defenders at least as much, if not more, than its ramparts and curtain walls — as with the Eyrie atop the Giant's Lance, or Riverrun along the Red Fork.\n\nBut sometimes it happens that one day's favorable environment can become another's unpredictable danger. This has become my burden, with lizard-lions striking out at unsuspecting workers through the bog."
+ agot_rebuilding_ruins.1001.a: "Losses are acceptable for a project of this magnitude."
+ agot_rebuilding_ruins.1001.b: "Hire men to protect the site."
+ agot_rebuilding_ruins.1001.c: "Send professionals to hunt these swamp demons!"
+ agot_rebuilding_ruins.1001.c.tt: "They return with a skull of a lizard-lion."
+ agot_rebuilding_ruins.1001.d: "Make sure they only devour the least diligent."
+ agot_rebuilding_ruins.1001.e: "There must be a reason these beasts love human flesh..."
+  
+ agot_rebuilding_ruins.1002.t: "Lessons from the Ruins"
+ agot_rebuilding_ruins.1002.desc: "Just as Moat Cailin was not always a ruin, the Neck was not always a swamp. Though many believe the hammer of the waters made this bog, infested by lizard-lions and blood-blooms, born from the Children's spite, the truth of the matter is still much debated.\n\nMoat Cailin itself is the suspected site from whence the Children called their dark magic, and a maester has come urgently from the Citadel. It seems my undertaking to restore Moat Caillin could disrupt certain traces of information, and [new_maester.GetName] would like to access the site before work is complete.\n\n[new_maester.GetSheHe|U] does not hide that [new_maester.GetHerHis] presence could interrupt the work, but [new_maester.GetSheHe] respectfully insists that I grant [new_maester.GetHerHim] this favor."
+ agot_rebuilding_ruins.1002.a: "Very good, but share some of your knowledge with me."
+ agot_rebuilding_ruins.1002.a.tt: "You recieve [new_maester.GetNamePossessiveNoTooltip] book"
+ agot_rebuilding_ruins.1002.b: "You must have something of value to concede."
+ agot_rebuilding_ruins.1002.c: "I can't afford to fall behind."
+ agot_rebuilding_ruins.1002.d: "I am keen to know myself."
+  
+  ############################## 
+  #         Harrenhal          # 
+  #          by Lord           # 
+  ############################## 
+  
+ agot_rebuilding_ruins.2000.t: "Harren's Flames" #NT!
+ agot_rebuilding_ruins.2000.desc: "Over the past few days, I have received reports of a fever spreading at the Harrenhal restoration site. Thinking at first that it was an isolated illness, I paid it little heed, but the cases have continued to multiply.\n\nThere is now talk of internal pain, like a fire burning from the inside. #italic The same fire that took Black Harren,#! some whisper. It didn't take long for this tale of curses to spread like #WF wildfire#!.\n\nIf I don't want the work delayed, I must do something for the workers. I could search for the cause of this illness, though that may be a waste of time." #NT!
+ agot_rebuilding_ruins.2000.a: "I have to find the source of this trouble." #NT!
+ agot_rebuilding_ruins.2000.a.tt: "You will choose which method is used to uncover the origin of the "curse"" #NT!
+ agot_rebuilding_ruins.2000.b: "A few days of rest should suffice." #NT!
+ agot_rebuilding_ruins.2000.b.tt: "You hope there is no curse behind this and that things will work themselves out" #NT!
+ agot_rebuilding_ruins.2000.c: "No need to treat them — just replace them." #NT!
+ agot_rebuilding_ruins.2000.c.tt: "You hope the problem is sick workers rather than Harrenhal itself" #NT!
+ agot_rebuilding_ruins.2000.d: "[physician.GetName] can take care of this." #NT!
+ agot_rebuilding_ruins.2000.d.tt: "You rely on [physician.GetNamePossessiveNoTooltip] skills to resolve the problem" #NT!
+ agot_rebuilding_ruins.2000.e: "An infusion of certain plants could help." #NT!
+  
+ agot_rebuilding_ruins.2001.t: "The Mystery Revealed" #NT!
+ agot_rebuilding_ruins.2001.desc: "Curse or not, something is disrupting the restoration of the castle, and I must find the source." #NT!
+ agot_rebuilding_ruins.2001.a: "Well... where to start?" #NT!
+ agot_rebuilding_ruins.2001.a.tt: "You will try to get to the bottom of this story without knowing where to look" #NT!
+ agot_rebuilding_ruins.2001.b: "I think I've read about similar cases..." #NT!
+ agot_rebuilding_ruins.2001.b.tt: "You rely on your knowledge to research this "curse"" #NT!
+ agot_rebuilding_ruins.2001.c: "Nothing escapes my suspicion." #NT!
+ agot_rebuilding_ruins.2001.c.tt: "Your constant vigilance makes it easier to find clues." #NT!
+ agot_rebuilding_ruins.2001.d: "I need to speak with the foreman." #NT!
+ agot_rebuilding_ruins.2001.d.tt: "Your experience in administration will help your investigation" #NT!
+ agot_rebuilding_ruins.2001.success: "You discover the source" #NT!
+ agot_rebuilding_ruins.2001.failure: "You fail to discover the source" #NT!
+  
+ agot_rebuilding_ruins.2002.t: "The Mystery Solved" #NT!
+ agot_rebuilding_ruins.2002.d: "I finally discovered what was causing all this trouble. This was not due to any angry specter, but simply an incompetent cook. The workers ate meals prepared with rotten food. The fever was caused by food poisoning, and these stories of internal fire were nothing more than over-exaggerated stomach aches from gullible workers.\n\nNow that this matter is settled, the work can continue." #NT!
+ agot_rebuilding_ruins.2002.a: "Hopefully there are no further incidents..." #NT!
+  
+ agot_rebuilding_ruins.2003.t: "The Mystery Deepens" #NT!
+ agot_rebuilding_ruins.2003.d: "My searches turned up nothing.\n\nI hear them laughing at me, #italic damn ghosts!#!\n\nIf I die before I see this castle restored, I swear to every god in every heaven that I will come back and haunt you all!" #NT!
+ agot_rebuilding_ruins.2003.a: "This fortress may kill me!" #NT!
+  
+ agot_harrenhal_curse_gone: "The ghosts are banished" #NT!
+ agot_harrenhal_curse_not_gone: "The fever slows work considerably" #NT!
+  
+ agot_rebuilding_ruins.2200.t: "The Pyre Revived" #NT!
+ agot_rebuilding_ruins.2200.desc_opening: "The pouring rain shows no signs of stopping, and storm clouds drift overhead even blacker than the stones of Harrenhal. I take a moment to speak with the foreman.\n\nDespite the unpredictable weather, I was hopeful that the work would progress well today, but that was without counting" #NT!
+ agot_rebuilding_ruins.2200.desc_zealous: "on the intervention of [ROOT.Char.GetFaith.HighGodName].\n\n" #NT!
+ agot_rebuilding_ruins.2200.desc_not_zealous: "on the #italic bad luck#! that seems to haunt this site time and again.\n\n" #NT!
+ agot_rebuilding_ruins.2200.desc_ending: "#italic BOOM!#! Lightning strikes the Kingspyre Tower! With violence not seen since the Black Dread flew across these skies, the tower turns into a blazing torch. Of all the towers, it had to be this one that was struck! I see superstition-fueled panic flash across the workers' faces — panic that could spread throughout the construction site if I do not intervene..." #NT!
+ agot_rebuilding_ruins.2200.a: "Lightning is not the prerogative of curses. Get back to work!" #NT!
+ agot_rebuilding_ruins.2200.success.tt: "The workers pull themselves together and the fire is brought under control" #NT!
+ agot_rebuilding_ruins.2200.success: "You convince the people to calm down" #NT!
+ agot_rebuilding_ruins.2200.failure.tt: "Panic creates confusion, and the fire causes delays" #NT!
+ agot_rebuilding_ruins.2200.failure: "You fail to convince the people to calm down" #NT!
+ agot_rebuilding_ruins.2200.b: "The more time you speak of "curses" the less time you're getting paid!" #NT!
+ agot_rebuilding_ruins.2200.b_success.tt: "The people listen to your warning and get back to work" #NT!
+ agot_rebuilding_ruins.2200.b_failure.tt: "The people do not heed your warning and work is delayed" #NT!
+ agot_rebuilding_ruins.2200.b.tt: "Your warning cuts off talk of curses, and the workers rush to douse the flames." #NT!
+ agot_rebuilding_ruins.2200.c: "Curses are not what you should be scared of." #NT!
+ agot_rebuilding_ruins.2200.c.tt: "Your dark reputation eclipses the fear of curses, driving the workers to smother the fire at once." #NT!
+ agot_rebuilding_ruins.2200.d: "The flames... they are so magnificent..." #NT!
+ agot_rebuilding_ruins.2200.d.tt: "Your unsettling demeanor frightens the workers more than curses ever could, and they scramble to put out the blaze." #NT!
+  
+ agot_rebuilding_ruins.2300.t: "The Plague Bearers" #NT!
+ agot_rebuilding_ruins.2300.desc: "The constant clashing of the workmen's hammers has become like white noise to me; I simply ignore it as I stroll across the worksite. The cries of frightened workers, however, immediately draw my attention.\n\n"My [ROOT.Char.GetLadyLord]," says the foreman, rushing to greet me in the yard. I have already guessed the problem when I see the grey, matted forms of rodents squirming in all directions behind him. In a few words, I learn that the workers claim to have disturbed dormant spirits during the work, and they believe those spirits have sent armies of crawling pests through the castle as revenge.\n\nIf I can't go hunting for specters, I can certainly go hunting for rats." #NT!
+ agot_rebuilding_ruins.2300.a: "This is why rat hunters exist." #NT!
+ agot_rebuilding_ruins.2300.b: "Rats don't scare me!" #NT!
+ agot_rebuilding_ruins.2300.b.tt: "This could have serious consequences. Who knows what evil these beasts carry..." #NT!
+ agot_rebuilding_ruins.2300.c: "[ROOT.Char.Custom('DogStoryName')]! Come here!" #NT!
+ agot_rebuilding_ruins.2300.c_cat: "[ROOT.Char.Custom('CatStoryName')], you know what to do..." #NT!
+ agot_rebuilding_ruins.2300.c.tt: "You send your pet to hunt the rats" #NT!
+ agot_rebuilding_ruins.2300.d: "Burn them all!" #NT!
+ agot_rebuilding_ruins.2300.d.tt: "There is no evil that fire cannot purify" #NT!
+  
+ agot_rebuilding_ruins.2400.t: "A [bewitched.GetWomanMan|U] in Need" #NT!
+ agot_rebuilding_ruins.2400.desc: "Once again, I find myself caught up in the never-ending flow of tasks that have plagued the rebuilding efforts at Harrenhal, oft keeping me at the worksite until after dusk. The fortress, now emptied of the workers, bears an oppressive atmosphere of silence — aside from the incessant thrum of rain.\n\nThat near-silence is broken by a patter of footsteps: A lovely [bewitched.GetWomanMan] appears before me through the pouring rain. [bewitched.GetHerHis|U] eyes stare at me, as if [bewitched.GetSheHe] is searching my very soul.\n\n[bewitched.GetSheHe|U] is humbly dressed, with the exception of a necklace which stands out completely from the rest of [bewitched.GetHerHis] plain trappings.\n\nIn a smooth voice, more pleasant to the ear than honey on the tongue, [bewitched.GetSheHe] introduces [bewitched.GetHerselfHimself]; [bewitched.GetFirstName] respectfully requests shelter from the rain." #NT!
+ agot_rebuilding_ruins.2400.a: "My roof is yours for the night." #NT!
+ agot_rebuilding_ruins.2400.a.tt: "You courteously agree to accommodate the poor wanderer for the night" #NT!
+ agot_rebuilding_ruins.2400.b: "Does this place look like a tavern? Get out!" #NT!
+ agot_rebuilding_ruins.2400.b.tt: "You have no desire to let the woman enter the fortress" #NT!
+  
+ agot_rebuilding_ruins.2401.t: "Scouring the Fortress" #NT!
+ agot_rebuilding_ruins.2401.desc_denied_witch: "Darkness has fallen on the castle, and in my mind, because I have received word [bewitched.GetFirstName] has been secretly residing in my castle since I refused [bewitched.GetHerHim] entry. [bewitched.GetSheHe|U] wanders my halls as though [bewitched.GetSheHe] owns them.\n\nI take it upon myself to seek [bewitched.GetHerHim] out, searching the Hall of a Hundred Hearths and the Hunter's Hall, to no avail. After what feels like hours, I realize I've passed through the Kingspyre Tower to the Widow's Tower.\n\n" #NT!
+ agot_rebuilding_ruins.2401.desc_restored_widow_tower: "The tower looks much better since it has been restored, but something unsettling hangs in the air. Something beyond all reason or logic. Something from this [bewitched.GetWomanMan]?\n\n" #NT!
+ agot_rebuilding_ruins.2401.desc_not_restored_widow_tower: "The tower has always given off an unsettling aura, like nearly everything in Harrenhal, but this feeling is even more oppressive with this strange [bewitched.GetWomanMan] standing here.\n\n" #NT!
+ agot_rebuilding_ruins.2401.desc_ending: "I see [bewitched.GetHerHim], the moonlight directly upon [bewitched.GetHerHim], looking almost frail in the soft pale light. But then [bewitched.GetSheHe] is upon me — a dagger in [bewitched.GetHerHis] hand, hilt gleaming with the gem from [bewitched.GetHerHis] necklace..." #NT!
+ agot_rebuilding_ruins.2401.a: "I must defend myself!" #NT!
+  
+ agot_rebuilding_ruins.2402.t: "A Waking Moment" #NT!
+ agot_rebuilding_ruins.2402.desc_welcomed_witch: "I wake with a start, feeling the gaze of someone upon me as I slumber. When I look around my room, I find nothing out of the ordinary and no one watching me.\n\nI begin to rise from my sheets when I notice something beside me in my bed: [harrenhal_soul.GetName] that I saw wrapped around [bewitched.GetFirstNamePossessive] neck.\n\nIf this is here, then was [bewitched.GetSheHe] also here? Is [bewitched.GetSheHe] still in the castle?" #NT!
+ agot_rebuilding_ruins.2402.desc_denied_witch: "I let out a cry, and after a moment of confusion, the fog that hung over my mind clears. The room around me slowly comes into familiar focus. I'm in my own bed, daybreak reaching through my window, but I can't remember what happened last night.\n\nIt was #italic just a dream...#! #bold or a nightmare!#! The thought reassures me, until I discover something in my bed: [harrenhal_soul.GetName], completely spotless." #NT!
+ agot_rebuilding_ruins.2402.a: "I have to keep this to myself." #NT!
+ agot_rebuilding_ruins.2402.a.tt: "Although this story may disturb you, you prefer that rather than being thought mad" #NT!
+ agot_rebuilding_ruins.2402.a.tt_2: "There is no sign of [bewitched.GetHerHim], and no sign [bewitched.GetSheHe] was ever here. Are you sure [bewitched.GetSheHe] was ever here?" #NT!
+ agot_rebuilding_ruins.2402.b: "I must do everything possible to find [bewitched.GetHerHim]!" #NT!
+ agot_rebuilding_ruins.2402.b.tt: "It doesn't matter if it achieves nothing, you decide to turn the castle upside down to focus your anxiety on something, even if it means hindering the repairs" #NT!
+ agot_rebuilding_ruins.2402.c: "It's not the strangest dream I've had." #NT!
+ agot_rebuilding_ruins.2402.d: "[ROOT.Char.GetFaith.HighGodName] will give me the strength I need!" #NT!
+  
+ agot_rebuilding_ruins.2500.t: "The Fleeing Foreman" #NT!
+ agot_rebuilding_ruins.2500.desc: "As the curse of Harrenhal continues to haunt the construction and my dreams, the workmen themselves begin to waver. Now the foreman is determined to leave, preferring his safety to my coin. I thought it unlikely that I would find anyone willing to work in this accursed place, but he has given me the courtesy of recommending two potential replacements.\n\nOne is without experience, and therefore cheaper, but not without bravery — though he will need close guidance. The other is experienced but fears the curses of this place, unless I pay a hefty price for his courage. Unprovoked, a third man came to see me: strange in attitude, modest in price, but evasive when questioned about his experience." #NT!
+ agot_rebuilding_ruins.2500.a: "I'll not spend any more on workers than I already budgeted." #NT!
+ agot_rebuilding_ruins.2500.a.tt: "You prefer to spend time rather than money. You will still have to choose how to help the young foreman get comfortable on the construction site" #NT!
+ agot_rebuilding_ruins.2500.b: "I want this project finished, whatever the cost." #NT!
+ agot_rebuilding_ruins.2500.b.tt: "You agree to pay an exorbitant amount to make sure everything goes smoothly" #NT!
+ agot_rebuilding_ruins.2500.c: "I'll hear more about this third man." #NT!
+ agot_rebuilding_ruins.2500.c.tt: "As mysterious as this individual may be, he represents an alternative to the first two" #NT!
+  
+ agot_rebuilding_ruins.2500.continue: "The restoration of Harrenhal continues." #NT!
+ agot_rebuilding_ruins.2500.foreman_flee: "The "foreman" disappears with your money." #NT!
+ agot_rebuilding_ruins.2500.foreman_robbed: "The construction site will be interrupted until a new foreman is found who agrees to work in Harrenhal." #NT!
+  
+ agot_rebuilding_ruins.2501.t: "The New Foreman" #NT!
+ agot_rebuilding_ruins.2501.desc: "Just as I feared, my new and inexperienced foreman struggles to meet deadlines and keep the workers on task. I may have saved money on him, but I may lose more through his inefficiency. I must find a way to combat this, whether by supervising the construction myself or assigning one of my courtiers to handle it.\n\nEither way, this project must move forward!" #NT!
+ agot_rebuilding_ruins.2501.a: "I'll take care of it myself." #NT!
+ agot_rebuilding_ruins.2501.a.success: "You successfully handle the problems" #NT!
+ agot_rebuilding_ruins.2501.a.failure: "You cause more problems" #NT!
+ agot_rebuilding_ruins.2501.b: "I know how to help baby birds fly." #NT!
+ agot_rebuilding_ruins.2501.c: "[steward.GetName], take care of this." #NT!
+ agot_rebuilding_ruins.2501.c_success: "[steward.GetName] successfully handles the problems" #NT!
+ agot_rebuilding_ruins.2501.c_failure: "[steward.GetName] blunders and causes more problems" #NT!
+ agot_rebuilding_ruins.2501.d: "[architect.GetName], that's right up your alley." #NT!
+ agot_rebuilding_ruins.2501.d_failure: "[architect.GetName] blunders and causes more problems" #NT!
+  
+ agot_rebuilding_ruins.2600.t: "The Herald of Lies" #NT!
+ agot_rebuilding_ruins.2600.desc: "One person's misfortune is another's joy, it is said, and many bards and minstrels ensure its truth in song. Bards often shape truth, transforming bloodshed and bitter feuds into verses that twist sorrow into spectacle and folly into fame.\n\nOne such minstrel has arrived in Harrenhal. Infamous raven of darkness that [bard.GetSheHe] is, [bard.GetName] seeks inspiration for songs that will fill [bard.GetHerHis] tankard in the taverns and [bard.GetHerHis] purse in the courts.\n\nThe workers are already agitated enough without another pebble in their boots. I should exercise caution as I deal with this singer." #NT!
+ agot_rebuilding_ruins.2600.a: "If gold has brought him this far, gold can lead him away." #NT!
+ agot_rebuilding_ruins.2600.a.tt: "The bard leaves without a fuss" #NT!
+ agot_rebuilding_ruins.2600.a.ttwo: "The bard leaves... and spreads nasty songs aimed at you across the realm" #NT!
+ agot_rebuilding_ruins.2600.a.toast: "The bard leaves" #NT!
+ agot_rebuilding_ruins.2600.b: "Someone deal with this vagabond!" #NT!
+ agot_rebuilding_ruins.2600.b.tt: "One of your captains volunteers to stop the bard with a few guards" #NT!
+ agot_rebuilding_ruins.2600.b.ttwo: "The captain manages to imprison the bard without trouble" #NT!
+ agot_rebuilding_ruins.2600.b.tthree: "The bard is imprisoned, but his capture leads to a few minor accidents" #NT!
+ agot_rebuilding_ruins.2600.b.tfour: "The bard's escape attempt ends badly for him, the captain, and the shipyard" #NT!
+ agot_rebuilding_ruins.2600.b.toast: "The bard is arrested without worry." #NT!
+ agot_rebuilding_ruins.2600.b.toast_two: "The bard is arrested but people are hurt" #NT!
+ agot_rebuilding_ruins.2600.b.toast_three: "The bard is arrested but at a severe cost" #NT!
+ agot_rebuilding_ruins.2600.c: "I'm something of a bard myself!" #NT!
+ agot_rebuilding_ruins.2600.c_success: "You beat [bard.GetName] in a battle of bards" #NT!
+ agot_rebuilding_ruins.2600.c_failure: "[bard.GetName] beats you in a battle of bards" #NT!
+ agot_rebuilding_ruins.2600.d: "Words are wind compared to what a dragon can breathe." #NT!
+ agot_rebuilding_ruins.2600.d.tt: "If the bard is not frightened by the shadow of Harrenhal, he will be by that of [dragon.GetName]" #NT!
+  
+ agot_rebuilding_ruins.2700.t: "The Green Man" #NT!
+ agot_rebuilding_ruins.2700.desc: "The workers at Harrenhal speak in hushed tones of a spirit in the night. Normally, I would pay it no heed — this is Harrenhal, after all, and we knew what sort of castle we were building. Lately, though, I am inclined to listen, as the workmen describe leaving offerings of gold to a #italic green man#! of the Isle of Faces who prowls in the darkness.\n\nThough I still do not believe the stories, work slows where tall tales grow, and I must get us back on schedule. How shall I deal with this gold-greedy spirit?" #NT!
+ agot_rebuilding_ruins.2700.a: "I just need to watch where the gold is left... and wait." #NT!
+ agot_rebuilding_ruins.2700.a.tt: "If you want to catch this #italic donation collector#! in the act, you will have to be discreet" #NT!
+ agot_rebuilding_ruins.2700.a.toast: "Your investigation of the green man fails" #NT!
+ agot_rebuilding_ruins.2700.a.duel_win_tt: "You discover the #italic donation collector#!" #NT!
+ agot_rebuilding_ruins.2700.a.duel_loss_tt: "You fail to discover the #italic donation collector#!" #NT!
+ agot_rebuilding_ruins.2700.b: "The green men would do no such thing." #NT!
+ agot_rebuilding_ruins.2700.b_tt: "You attempt to convince the people with your knowledge of the Old Gods" #NT!
+ agot_rebuilding_ruins.2700.b_duel_win_tt: "The people are convinced" #NT!
+ agot_rebuilding_ruins.2700.b.toast_win: "You convince the people" #NT!
+ agot_rebuilding_ruins.2700.b_duel_loss_tt: "The people are unconvinced" #NT!
+ agot_rebuilding_ruins.2700.b.toast_loss: "You fail to convince them" #NT!
+ agot_rebuilding_ruins.2700.b_tt_old_gods: "Your knowledge of your gods convinces the people" #NT!
+ agot_rebuilding_ruins.2700.d: "When it comes to stalking prey, I'm second to none." #NT!
+ agot_rebuilding_ruins.2700.d.tt: "Your experience in tracking will prove useful" #NT!
+ agot_rebuilding_ruins.2700.e: "I can outsmart this green man." #NT!
+ agot_rebuilding_ruins.2700.e.tt: "Your skill at deception will let you see through the green man's tricks" #NT!
+ agot_rebuilding_ruins.2700.f: "I must obtain the blessing of the Old Gods." #NT!
+ agot_rebuilding_ruins.2700.f.tt: "Perhaps this modest donation could earn you divine favor" #NT!
+ agot_rebuilding_ruins.2700.f.toast: "The gods of the Isle of Faces remain deaf to you." #NT!
+ agot_rebuilding_ruins.2700.f.toasttwo: "Something has changed in you... were the gods listening?" #NT!
+  
+ agot_rebuilding_ruins.2701.t: "The False Spirit" #NT!
+ agot_rebuilding_ruins.2701.desc: "So here is the famous #italic green man#!. Answering to the name of [green_man.GetName] and no more mystical than any farmer, he was content to exploit people's naivety with an outfit mimicking the legends of the #italic true#! green men, complete with leaves for a crown and deer antlers for headgear.\n\nNow I must decide what to do with him. If I reveal his deception, the workers will be reassured and return to their tasks. On the other hand, they have been quite generous with their tributes of gold..." #NT!
+ agot_rebuilding_ruins.2701.a: "Everyone will know the identity of the 'green man.'" #NT!
+ agot_rebuilding_ruins.2701.a.tt: "The workers return to their tasks with peace of mind" #NT!
+ agot_rebuilding_ruins.2701.b: "You have talent... teach me everything you know." #NT!
+ agot_rebuilding_ruins.2701.b.tt: "You let the crook continue his scheme in exchange for a few lessons" #NT!
+ agot_rebuilding_ruins.2701.c: "There is a lot of gold to be made... but only one of us will be making it." #NT!
+ agot_rebuilding_ruins.2701.c.tt: "You take the place of the green man and let the workers continue to donate" #NT!
+  
+ agot_rebuilding_ruins.2800.t: "The Tree of Visions" #NT!
+ agot_rebuilding_ruins.2800.desc_opening: ""We must take down this... #italic thing#!! My [ROOT.GetCharacter.GetLadyLord], who knows what is watching us through those eyes?"\n\nUntil now, it was the haunting ghosts of Harrenhal that unsettled my workers, but today it is something more tangible that agitates them. One of the workers, [worker.GetName], claims that the heart tree of the fortress's godswood carries an ancient evil, and that it must be cut down." #NT!
+ agot_rebuilding_ruins.2800.desc_weirwood: "\n\nToo many heart trees have already been cut down south of the Neck!" #NT!
+ agot_rebuilding_ruins.2800.desc_no_weirwood: "\n\nAmong the workers are many who are superstitious of these trees and these halls. They would be even more agitated if I allow [worker.GetNameNoTooltip] to continue." #NT!
+ agot_rebuilding_ruins.2800.desc_weirwood_craven: "\n\nThose eyes have never stopped staring at me, and I fear what might happen if I draw the wrath of whatever lies beyond them." #NT!
+ agot_rebuilding_ruins.2800.desc_closing: ""It's out of the question!" I retort in a tone that shows no weakness. Despite this, [worker.GetNameNoTooltip] seems unlikely to back down. I now face a difficult choice." #NT!
+ agot_rebuilding_ruins.2800.desc_closing_shy_craven: ""It's out of the question!" I retort, rousing what little courage I have to say it. Despite this, [worker.GetNameNoTooltip] seems unlikely to back down. I now face a difficult choice." #NT!
+ agot_rebuilding_ruins.2800.a: "You leave me no choice." #NT!
+ agot_rebuilding_ruins.2800.a.tt: "Use force to make [worker.GetNameNoTooltip] comply" #NT!
+ agot_rebuilding_ruins.2800.b: "I said it was out of the question!" #NT!
+ agot_rebuilding_ruins.2800.b.duel_win_tt: "[worker.GetNameNoTooltip] is convinced" #NT!
+ agot_rebuilding_ruins.2800.modifier: "The people return to work, though progress is still delayed for two months" #NT!
+ agot_rebuilding_ruins.2800.b.duel_loss_tt: "[worker.GetNameNoTooltip] is not convinced and must be forcibly removed" #NT!
+ agot_rebuilding_ruins.2800.c.tt: "The second attempt will be more convincing than the first" #NT!
+ agot_rebuilding_ruins.2800.d: "Someone, please, do something!" #NT!
+ agot_rebuilding_ruins.2800.d.tt: "Unable to resolve this yourself, you stoop to begging for help" #NT!
+ agot_rebuilding_ruins.2800.e: "Fine, give me that axe. I'll end this." #NT!
+ agot_rebuilding_ruins.2800.e.tt: "Indeed, you do end it — and [worker.GetHerHim]" #NT!
+ agot_rebuilding_ruins.2800.a.win.title: "The blood of [worker.GetName] spills at the feet of the heart tree" #NT!
+ agot_rebuilding_ruins.2800.b.win.title: "[worker.GetName] bends to your will" #NT!
+ agot_rebuilding_ruins.2800.b.loss.title: "[worker.GetName] refuses to listen" #NT!
+ agot_rebuilding_ruins.2800.d.win.title: "[worker.GetName] is stopped in time" #NT!
+ agot_rebuilding_ruins.2800.d.win.desc: "The quick intervention of the other workers saves you from risking your life." #NT!
+ agot_rebuilding_ruins.2800.e.win.title: "The blood of [worker.GetName] spills at the feet of the heart tree" #NT!
+  
+ agot_rebuilding_ruins.2801.t: "The Bleeding Heart" #NT!
+ agot_rebuilding_ruins.2801.desc: "In the evening, I find myself drawn back to the weirwood, telling myself I only wish to ensure that any traces left by the earlier incident are gone. An unfortunate story, but perhaps it was for the best that it ended that way.\n\nI glance up to find the face of the weirwood gazing back at me. As the tree's eyes pierce through me, a strange feeling crawls across my skin. Something that was not present on my last visit now seems to emerge from the bark. I do not know if it is the ghosts of this ruin, or perhaps I'm under the influence of some witchcraft, but under the light of the moon, the sap seems... redder than it should be." #NT!
+ agot_rebuilding_ruins.2801.desc_old_gods: "I hear the voices of the old gods in the rustling of the leaves." #NT!
+ agot_rebuilding_ruins.2801.desc_craven: "#italic I don't have the strength to resist.#!" #NT!
+ agot_rebuilding_ruins.2801.desc_inquisitive: "#italic I have to know!#!" #NT!
+ agot_rebuilding_ruins.2801.desc_ending: "I step closer and lay my hand upon its face." #NT!
+ agot_rebuilding_ruins.2801.a: "I see something..." #NT!
+  
+ agot_rebuilding_ruins.2802.t: "A New Dawn" #NT!
+ agot_rebuilding_ruins.2802.desc: "#italic From the angry skies, incandescent rain falls on stone. The great ladies bend and wither while only shadow and smoke remain. Dawn breaks, and with it, the beginnings of a new era. Dread falls, and the air is permeated with it.#!\n\nThe vision is fragmented and scattered, but I glimpse some hidden meaning in it. I see..." #NT!
+ agot_rebuilding_ruins.2802.a: "...power!" #NT!
+ agot_rebuilding_ruins.2802.b: "...death!" #NT!
+ agot_rebuilding_ruins.2802.c: "...a future full of promise!" #NT!
+ agot_rebuilding_ruins.2802.d: "...the Doom of Valyria?" #NT!
+ agot_rebuilding_ruins.2802.e: "...the curse of Harrenhal?" #NT!
+  
+ agot_rebuilding_ruins.2804.t: "The Unending Tide" #NT!
+ agot_rebuilding_ruins.2804.desc: "#italic An endless horde preceded by shrill cries, their guttural tongue carrying on the wind. In their wake, the grass falls forever, and their blades turn even young shoots into corpses. Their long hair whips in the wind, death guides their lives, and fire marks their end.#!\n\nThe vision is broken and drifting, but I glimpse something real in it. I see..." #NT!
+ agot_rebuilding_ruins.2804.a: "...deadly blades!" #NT!
+ agot_rebuilding_ruins.2804.b: "...an unstoppable force!" #NT!
+ agot_rebuilding_ruins.2804.c: "...a furious charge!" #NT!
+ agot_rebuilding_ruins.2804.d: "...a Dothraki horde on an open field?" #NT!
+ agot_rebuilding_ruins.2804.e: "...the Long Night?" #NT!

@@ -19,9 +19,9 @@
  stress_threshold.1701.d.profligate.gain: "Vielleicht würde mich ein neuer Umhang ja aufmuntern …"
  stress_threshold.1701.d.profligate.effect: "$stress_threshold.1701.d.profligate.gain$"
  #AGOT Added 
- stress_threshold.1701.l.uncouth.gain: "Maybe letting myself go would help me feel better..." #NT!
+ stress_threshold.1701.l.uncouth.gain: "Maybe letting myself go would help me feel better..."
  #AGOT Added 
- stress_threshold.1701.b.uncouth.effect: "$stress_threshold.1701.l.uncouth.gain$" #NT!
+ stress_threshold.1701.b.uncouth.effect: "$stress_threshold.1701.l.uncouth.gain$"
  stress_threshold.1701.g.journaller.gain: "Ich muss Feder zu Papier bringen, um diese Gedanken loszuwerden."
  stress_threshold.1701.g.journaller.effect: "$stress_threshold.1701.g.journaller.gain$"
  stress_threshold.1701.h.confider.gain: "Vielleicht unterstützt [friend.GetFirstNameNoTooltip] mich ja?"
@@ -49,9 +49,9 @@
  stress_threshold.1711.a.reclusive.gain: "Den noch, und dann will ich allein sein."
  stress_threshold.1711.a.reclusive.effect: "$stress_threshold.1711.a.reclusive.gain$"
  #AGOT Added 
- stress_threshold.1711.j.uncouth.gain: "Perhaps I'll be an ass to the next petitioner." #NT!
+ stress_threshold.1711.j.uncouth.gain: "Perhaps I'll be an ass to the next petitioner."
  #AGOT Added 
- stress_threshold.1711.j.uncouth.effect: "$stress_threshold.1711.j.uncouth.gain$" #NT!
+ stress_threshold.1711.j.uncouth.effect: "$stress_threshold.1711.j.uncouth.gain$"
  stress_threshold.1711.b.flagellant.gain: "Vielleicht würde es die Sünden des Reichs tilgen, wenn ich mich selbst geißle …"
  stress_threshold.1711.b.flagellant.effect: "$stress_threshold.1711.b.flagellant.gain$"
  stress_threshold.1711.c.profligate.gain: "$stress_threshold.1701.d.profligate.gain$"
@@ -132,9 +132,9 @@
  stress_threshold.1731.b.reclusive.gain: "Das kann warten. Das kann alles warten."
  stress_threshold.1731.b.reclusive.effect: "$stress_threshold.1731.b.reclusive.gain$"
  #AGOT Added 
- stress_threshold.1731.b.uncouth.gain: "Do I look like I give #bold two shits#! about this, you fool?" #NT!
+ stress_threshold.1731.b.uncouth.gain: "Do I look like I give #bold two shits#! about this, you fool?"
  #AGOT Added 
- stress_threshold.1731.b.uncouth.effect: "$stress_threshold.1731.b.uncouth.gain$" #NT!
+ stress_threshold.1731.b.uncouth.effect: "$stress_threshold.1731.b.uncouth.gain$"
  stress_threshold.1731.c.profligate.gain: "Ich muss nur unterwegs einige Dinge kaufen …"
  stress_threshold.1731.c.profligate.effect: "$stress_threshold.1731.c.profligate.gain$"
  stress_threshold.1731.d.comfort_eater.gain: "Ich überlege, ob ich nicht früher zum Abendessen zurückkehren soll."
@@ -503,7 +503,7 @@
  tragic_drunk_modifier: "Tragischer Trunkenbold"
  tragic_drunk_modifier_desc: "Dieser Charakter fürchtet die Nüchternheit mehr als alles andere."
   #AGOT Modified 
- #tragic_stoner_modifier: "Tragic Hashishiyah" #NT!
+ #tragic_stoner_modifier: "Tragic Hashishiyah"
  tragic_stoner_modifier: "Tragischer Hashishiyah"
  tragic_stoner_modifier_desc: "$tragic_drunk_modifier_desc$"
  good_exercise_modifier: "Gute Übung"

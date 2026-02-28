@@ -2,24 +2,24 @@
   
   
   #Additional Councillors 
-  
  councillor_admiral: "Admiral"
  councillor_admiral_possessive: "Admirals"
+ councillor_admiral_desc: "$game_concept_admiral_desc$" #NT!
   
  councillor_castellan: "Kastellan"
  councillor_castellan_possessive: "Kastellans"
+ councillor_castellan_desc: "$game_concept_castellan_desc$" #NT!
   
   
   
   #Westerosi Council Loc 
-  
- agot_councillor_spouse_consort: "Consort" #NT!
+ agot_councillor_spouse_consort: "Consort"
  agot_councillor_spouse_paramount_female: "Lady"
  agot_councillor_spouse_paramount_male: "Lord"
  agot_councillor_spouse_paramount_female_targ: "Prinzessin"
  agot_councillor_spouse_paramount_male_targ: "Prinz"
- agot_councillor_spouse_lord_female: "Lady" #NT!
- agot_councillor_spouse_lord_male: "Lord" #NT!
+ agot_councillor_spouse_lord_female: "Lady"
+ agot_councillor_spouse_lord_male: "Lord"
   
  grand_maester: "Großmaester"
  agot_master_of_laws: "Meister des Rechts"
@@ -49,8 +49,7 @@
  agot_mistress_of_whispers_possessive: "Meisterin des Flüsterer"
   
   
- # Iron Throne Council Loc 
-  
+  # Iron Throne Council Loc 
  agot_councillor_spouse_iron_throne_female: "Königin"
  agot_councillor_spouse_iron_throne_male: "König"
   
@@ -71,13 +70,23 @@
  agot_councillor_spymaster_iron_throne_possessive: "Meisters der Flüsterer"
  agot_councillor_admiral_iron_throne_possessive: "Meisters der Schiffe"
   
- # Ironborn Loc 
-  
+  # Ironborn Loc 
  agot_councillor_admiral_iron_islands: "Lord Kapitän der Eisernen Flotte"
  agot_councillor_admiral_iron_islands_possessive: "Lords Kapitän der Eisernen Flotte"
   
+  # Pirate Government 
+ agot_councillor_castellan_pirate: "First Mate" #NT!
+ agot_councillor_castellan_pirate_possessive: "First Mate's" #NT!
+ agot_councillor_admiral_pirate: "Sailing Master" #NT!
+ agot_councillor_admiral_pirate_possessive: "Sailing Master's" #NT!
+ agot_councillor_steward_pirate: "Purser" #NT!
+ agot_councillor_steward_pirate_possessive: "Purser's" #NT!
+ agot_councillor_marshal_pirate: "Bosun" #NT!
+ agot_councillor_marshal_pirate_possessive: "Bosun's" #NT!
+ agot_councillor_chancellor_pirate: "Articles Master" #NT!
+ agot_councillor_chancellor_pirate_possessive: "Articles Master's" #NT!
   
- # Night's Watch Government 
+  # Night's Watch Government 
  agot_councillor_steward_nights_watch: "Erster Baumeister"
  agot_councillor_steward_nights_watch_possessive: "Ersten Baumeisters"
  agot_councillor_marshal_nights_watch: "Erster Grenzer"
@@ -89,40 +98,39 @@
  agot_councillor_personal_steward_nights_watch: "Persönlicher Kämmerer"
  agot_councillor_personal_steward_nights_watch_possessive: "Persönlichen Kämmerers"
  councillor_personal_steward: "Persönlicher Kämmerer"
- councillor_personal_steward_possessive: "Personal Steward's" #NT!
+ councillor_personal_steward_possessive: "Personal Steward's"
+ councillor_personal_steward_desc: "$game_concept_personal_steward_desc$" #NT!
   
-  #Court Chaplain Loc 
+  # Court Chaplain Loc 
   
-  #FoTS 
+  # FoTS 
  councillor_court_chaplain_the_seven_county: "Septon"
  councillor_court_chaplain_the_seven_county_possessive: "Septons"
  councillor_court_chaplain_the_seven_empire: "Hoher Septon"
  councillor_court_chaplain_the_seven_empire_possessive: "Hoher Septons"
   
-  #Drowned God 
+  # Drowned God 
  councillor_court_chaplain_drowned_god_county: "Ertrunkener Mann"
  councillor_court_chaplain_drowned_god_county_possessive: "Ertrunkenen Mannes"
   
-  #Old Gods 
+  # Old Gods 
  councillor_court_chaplain_old_gods_county: "Seher[Character.Custom('DE_END_NOU_S_GS_N')]"
  councillor_court_chaplain_old_gods_county_possessive: "Sehers"
   
-  #Rhllor Religion 
- councillor_court_chaplain_rhllor_fots_f_county: "Red Priestess" #NT!
- councillor_court_chaplain_rhllor_fots_m_county: "Red Priest" #NT!
- councillor_court_chaplain_rhllor_fots_f_county_possessive: "Red Priestess's" #NT!
- councillor_court_chaplain_rhllor_fots_m_county_possessive: "Red Priest's" #NT!
+  # Rhllor Religion 
+ councillor_court_chaplain_rhllor_fots_f_county: "Red Priestess"
+ councillor_court_chaplain_rhllor_fots_m_county: "Red Priest"
+ councillor_court_chaplain_rhllor_fots_f_county_possessive: "Red Priestess's"
+ councillor_court_chaplain_rhllor_fots_m_county_possessive: "Red Priest's"
   
-  #Rhoyne 
+  # Rhoyne 
+ councillor_court_chaplain_rhoyne_f_county: "Daughter"
+ councillor_court_chaplain_rhoyne_m_county: "Son"
+ councillor_court_chaplain_rhoyne_f_county_possessive: "Daughter's"
+ councillor_court_chaplain_rhoyne_m_county_possessive: "Son's"
   
- councillor_court_chaplain_rhoyne_f_county: "Daughter" #NT!
- councillor_court_chaplain_rhoyne_m_county: "Son" #NT!
- councillor_court_chaplain_rhoyne_f_county_possessive: "Daughter's" #NT!
- councillor_court_chaplain_rhoyne_m_county_possessive: "Son's" #NT!
-  
-  #Essosi 
-  
- councillor_court_chaplain_agot_fallback_m_county: "High Priest" #NT!
- councillor_court_chaplain_agot_fallback_f_county: "High Priestess" #NT!
- councillor_court_chaplain_agot_fallback_m_county_possessive: "High Priest's" #NT!
- councillor_court_chaplain_agot_fallback_f_county_possessive: "High Priestess'" #NT!
+  # Essosi 
+ councillor_court_chaplain_agot_fallback_m_county: "High Priest"
+ councillor_court_chaplain_agot_fallback_f_county: "High Priestess"
+ councillor_court_chaplain_agot_fallback_m_county_possessive: "High Priest's"
+ councillor_court_chaplain_agot_fallback_f_county_possessive: "High Priestess'"

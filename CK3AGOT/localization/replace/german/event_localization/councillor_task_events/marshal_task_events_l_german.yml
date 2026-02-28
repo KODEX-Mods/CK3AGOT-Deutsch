@@ -59,17 +59,17 @@
   
  marshal_task.2101.notification: "[commander.GetShortUINameNoTooltip] erhielt Eigenschaft: [commander.Custom('CommanderTraitBeingTaught')]"
   #AGOT Modified 
- #marshal_task.2102.notification: "Knight Improved: [commander.GetShortUIName]" #NT!
- marshal_task.2102.notification: "Captain Improved: [commander.GetShortUIName]" #NT!
+ #marshal_task.2102.notification: "Knight Improved: [commander.GetShortUIName]"
+ marshal_task.2102.notification: "Captain Improved: [commander.GetShortUIName]"
  marshal_task.2103.notification: "Hastiludia gedrillt: [trained_knight.GetShortUIName]"
  marshal_task.0302.notification.a: "Befehlshaber beträchtlich verbessert: [commander.GetShortUIName]"
  marshal_task.0302.notification.b: "Befehlshaber verbessert: [commander.GetShortUIName]"
   #AGOT Modified 
- #marshal_task.0303.notification.a: "Knight Significantly Improved: [commander.GetShortUIName]" #NT!
- marshal_task.0303.notification.a: "Captain Significantly Improved: [commander.GetShortUIName]" #NT!
+ #marshal_task.0303.notification.a: "Knight Significantly Improved: [commander.GetShortUIName]"
+ marshal_task.0303.notification.a: "Captain Significantly Improved: [commander.GetShortUIName]"
   #AGOT Modified 
- #marshal_task.0303.notification.c: "Knight Became Blademaster: [commander.GetShortUIName]" #NT!
- marshal_task.0303.notification.c: "Captain Became Blademaster: [commander.GetShortUIName]" #NT!
+ #marshal_task.0303.notification.c: "Knight Became Blademaster: [commander.GetShortUIName]"
+ marshal_task.0303.notification.c: "Captain Became Blademaster: [commander.GetShortUIName]"
   
  marshal_task.2002.t: "Befehlshaber schwer verletzt"
  marshal_task.2002.eye: "\n\nMein [councillor.GetCouncilTitle] rief schnell nach einem Arzt, doch es war unmöglich, [commander.Custom('DE_PRO_POS_S_3P')] Augenlicht zu retten."

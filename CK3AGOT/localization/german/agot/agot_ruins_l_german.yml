@@ -78,8 +78,8 @@
  agot_ruin_reconstruction: "Ruine im Wiederaufbau"
  agot_ruin_reconstruction_desc: "Dieser Ruine wird zu ihrer alten Pracht verholfen"
  RUIN_MUST_BEGIN_CONSTRUCTION: "Ihr müsst zuerst mit dem [reconstruction_effort|E] beginnen."
- agot_ruin_disease_modifier: "Ruin Debug Disease Modifier" #NT!
- agot_ruin_disease_modifier_desc: "This is a modifier used to protect ruins from disease." #NT!
+ agot_ruin_disease_modifier: "Ruin Debug Disease Modifier"
+ agot_ruin_disease_modifier_desc: "This is a modifier used to protect ruins from disease."
   
   # GUI 
  ABANDON_RUIN_BUTTON: "Ruine aufgeben"
@@ -111,45 +111,138 @@
  agot_ruins.1000.b: "eine prachtvolle Stadt."
  agot_ruins.1000.c: "einen herrlichen Tempel."
   
- agot_ruins.2000.t: "Treasures from Tragedy" #NT!
- agot_ruins.2000.d: "The tragedy at Summerhall has held a shadow over this project from the beginning. The more superstitious workers have whispered that the place is cursed and that the ghosts of the Targaryens who fell that day still haunt the very stones. Even the more cynical men seemed on edge when a tool was misplaced or a minor accident occurred.\n\nToday, however, rather than a curse, I have found a blessing. So close to the final stages of the restoration, a hidden chamber was discovered beneath the ruins! I have been brought before the chamber, and as I step inside, I can't help but whoop with joy. At the center of the room sits a small table with a pillow on it, and on that pillow, rests a pristine, unblemished dragon egg!" #NT!
- agot_ruins.2000.a: "A wondrous find!" #NT!
+ agot_ruins.2000.t: "Treasures from Tragedy"
+ agot_ruins.2000.d: "The tragedy at Summerhall has held a shadow over this project from the beginning. The more superstitious workers have whispered that the place is cursed and that the ghosts of the Targaryens who fell that day still haunt the very stones. Even the more cynical men seemed on edge when a tool was misplaced or a minor accident occurred.\n\nToday, however, rather than a curse, I have found a blessing. So close to the final stages of the restoration, a hidden chamber was discovered beneath the ruins! I have been brought before the chamber, and as I step inside, I can't help but whoop with joy. At the center of the room sits a small table with a pillow on it, and on that pillow, rests a pristine, unblemished dragon egg!"
+ agot_ruins.2000.a: "A wondrous find!"
   
- agot_ruins.3000.t: "Construction Begins" #NT!
- agot_ruins.3000.d: "The order has been given. The masons are already at work, and I have great hope of seeing this monument to northern power restored.\n\nOnly three towers remain of the Neck's great bastion, covered in white ghostskin, a pale echo of the holdfast's former might. In time, I shall restore all twenty, and make this place a fortress to be feared once again.\n\nWhen the work is completed, no one will cross without being invited!" #NT!
- agot_ruins.3000.a: "The old bastion of the crannogmen will be restored!" #NT!
+ agot_ruins.3000.t: "Construction Begins"
+ agot_ruins.3000.d: "The order has been given. The masons are already at work, and I have great hope of seeing this monument to northern power restored.\n\nOnly three towers remain of the Neck's great bastion, covered in white ghostskin, a pale echo of the holdfast's former might. In time, I shall restore all twenty, and make this place a fortress to be feared once again.\n\nWhen the work is completed, no one will cross without being invited!"
+ agot_ruins.3000.a: "The old bastion of the crannogmen will be restored!"
   
- agot_ruins.3001.t: "Towers Restored" #NT!
- agot_ruins.3001.d: "The reconstruction of Moat Cailin is progressing apace. Where previously there were only three towers, twenty now stand, with solid ramparts made from the same black stone used when the keep was first built.\n\nThe place now resembles more closely the fortress it was in ancient days, and some of the life has returned to the structure in kind.\n\nThe Children's Tower — where some believe the children called down the hammer of the waters — has had its roof restored, and already superstitious workers talk of juvenile whispers heard in the night." #NT!
- agot_ruins.3001.a: "This castle exudes a... supernatural power." #NT!
- agot_ruins.3001.b: "Let them go back to work, there is still much to do!" #NT!
+ agot_ruins.3001.t: "Towers Restored"
+ agot_ruins.3001.d: "The reconstruction of Moat Cailin is progressing apace. Where previously there were only three towers, twenty now stand, with solid ramparts made from the same black stone used when the keep was first built.\n\nThe place now resembles more closely the fortress it was in ancient days, and some of the life has returned to the structure in kind.\n\nThe Children's Tower — where some believe the children called down the hammer of the waters — has had its roof restored, and already superstitious workers talk of juvenile whispers heard in the night."
+ agot_ruins.3001.a: "This castle exudes a... supernatural power."
+ agot_ruins.3001.b: "Let them go back to work, there is still much to do!"
   
- agot_ruins.3002.t: "The Final Stage" #NT!
- agot_ruins.3002.d: "The masons continue their work, completing the last of the stonework needed for my great project. Once, Moat Cailin was a ruin, consumed by the dark and twisting mists of the swamp, left to rot amidst the muddied waters of the Neck.\n\nNow, it is nearly restored. Soon, I shall have made its walls strong again, restored its mighty towers, and staffed it with men enough to maintain it.\n\nWho would challenge the North with this place to pass?" #NT!
- agot_ruins.3002.a: "It will defend the North again!" #NT!
+ agot_ruins.3002.t: "The Final Stage"
+ agot_ruins.3002.d: "The masons continue their work, completing the last of the stonework needed for my great project. Once, Moat Cailin was a ruin, consumed by the dark and twisting mists of the swamp, left to rot amidst the muddied waters of the Neck.\n\nNow, it is nearly restored. Soon, I shall have made its walls strong again, restored its mighty towers, and staffed it with men enough to maintain it.\n\nWho would challenge the North with this place to pass?"
+ agot_ruins.3002.a: "It will defend the North again!"
   
- agot_ruins.3003.t: "Moat Cailin Restored" #NT!
- agot_ruins.3003.d: "The restoration of Moat Cailin is complete. No longer will those who defend the Neck hide in the swamps, ever cowering from invading foes; now they shall stand as tall as this place.\n\nI look around at the castle, surrounded by treacherous swamps filled with dangerous beasts, and mighty on its own besides. All twenty towers cast long shadows across the dense bogs. This is where the Andals failed, smashing themselves against this hold like waves against a great cliff.\n\nEven [GetScriptedCharacterByHistoryID('Stark_12').GetFirstNameNicknamed] would marvel at this work!" #NT!
- agot_ruins.3003.a: "House [ROOT.Char.GetHouse.GetName] can build too." #NT!
- agot_ruins.3003.a_stark: "I hope to honor your name, dear ancestor." #NT!
- agot_ruins.3003.b: "Let everyone be a witness to my work!" #NT!
+ agot_ruins.3003.t: "Moat Cailin Restored"
+ agot_ruins.3003.d: "The restoration of Moat Cailin is complete. No longer will those who defend the Neck hide in the swamps, ever cowering from invading foes; now they shall stand as tall as this place.\n\nI look around at the castle, surrounded by treacherous swamps filled with dangerous beasts, and mighty on its own besides. All twenty towers cast long shadows across the dense bogs. This is where the Andals failed, smashing themselves against this hold like waves against a great cliff.\n\nEven [GetScriptedCharacterByHistoryID('Stark_12').GetFirstNameNicknamed] would marvel at this work!"
+ agot_ruins.3003.a: "House [ROOT.Char.GetHouse.GetName] can build too."
+ agot_ruins.3003.a_stark: "I hope to honor your name, dear ancestor."
+ agot_ruins.3003.b: "Let everyone be a witness to my work!"
   
- agot_ruins.9999.t: "Halting Construction" #NT!
- agot_ruins.9999.opening: "Restoring such ruins is no small task, and I must be prepared. It may be wise to postpone.\n\nThough there is still much to be done," #NT!
- agot_ruins.9999.no_stress: "and even though my mind isn't clouded by some dark clouds," #NT!
- agot_ruins.9999.one_stress: "and I'm starting to feel the weight of stress affecting my moods;" #NT!
- agot_ruins.9999.two_stress: "and my mind feels clenched as though in a vice;" #NT!
- agot_ruins.9999.three_stress: "and I'm on the verge of breaking down;" #NT!
- agot_ruins.9999.recent_loss: "the loss of [deceased_character.GetName] is still too recent for me to think of anything else;" #NT!
- agot_ruins.9999.at_war: "the war occupies my thoughts and affects the realm's economy," #NT!
- agot_ruins.9999.poor: "the coffers are almost empty and I know how much of a financial drain this can be," #NT!
- agot_ruins.9999.bankrupt: "the coffers are empty and it would be wrong to continue while I am in debt," #NT!
- agot_ruins.9999.lazy: "who knows what the future holds. Not to mention that I never liked work in any form," #NT!
- agot_ruins.9999.greedy: "who knows what the future holds. I prefer to get the gold invested back to know it's safe," #NT!
- agot_ruins.9999.fickle: "who knows what the future holds. Anyway I knew from the start that it wasn't a good idea," #NT!
- agot_ruins.9999.paranoid: "who knows what the future holds. And when I think of all these people gathered in one place to "work", who knows what they could be plotting," #NT!
- agot_ruins.9999.impatient: "who knows what the future holds. I don't want to wait years to see the fruit of the labor, " #NT!
- agot_ruins.9999.someone_else: "and in any case it was not me who had initiated this project," #NT!
- agot_ruins.9999.relation: "and even if [restoration_constructor.GetName] was keen to see this project come to fruition, I have other priorities in the immediate future," #NT!
- agot_ruins.9999.outro: "so it's better for me to put aside the idea of continuing this endless work." #NT!
- agot_ruins.9999.a: "Let this work end now." #NT!
+ agot_ruins.4000.t: "The Tower of Dread Remade" #NT!
+ agot_ruins.4000.d: "I gaze up at the twisted and broken ruins of Harrenhal. If this place is to be strong again, I must choose where to begin. Surveying the melted remains of the five mighty towers, I understand why Harren dared provoke the dragon. At its height, this fortress must have made one feel invincible.\n\nAt last, I look upon the Tower of Dread; this is where I will begin." #NT!
+ agot_ruins.4000.a: "Begin the work." #NT!
+  
+ agot_ruins.4001.t: "The First Tower Complete" #NT!
+ agot_ruins.4001.desc: "My mad project has begun, and already one of the five eminences of the fortress has been restored to its former glory. The Tower of Dread now owes its name as much to its grim appearance as to its function. Its prisons have been enlarged, renovated, and fortified, the structure once again made strong.\n\nThis was only the first step in reconstruction, but it has been masterfully carried out." #NT!
+ agot_ruins.4001.a: "There is still much to be done." #NT!
+ agot_ruins.4001.b: "I should study the plans for reconstruction." #NT!
+ agot_ruins.4001.c: "I'm eager to fill these new cells." #NT!
+ agot_ruins.4001.d: "Bring the workers ale!" #NT!
+  
+ agot_ruins.4002.t: "The Wailing Tower Reborn" #NT!
+ agot_ruins.4002.d: "After the Tower of Dread, my next step in rebuilding the fortress is the Wailing Tower. The ground floor serves as a vital warehouse and granary, its stores to be relied on come winter. The foundations must be rebuilt, and the ground churned for renewed access to the cellars.\n\nThe fire melted the stone, but our sweat shall restore it." #NT!
+ agot_ruins.4002.a: "Let us begin without delay." #NT!
+ agot_ruins.4002.a_lazy: "As long as it isn't me who has to sweat..." #NT!
+  
+ agot_ruins.4003.t: "The Silent Tower" #NT!
+ agot_ruins.4003.desc: "Though some still claim to hear whispers in the dark, at least the wailing of the cursed castle has subsided. Harrenhal's second tower is complete, and the cracks that gave the wind its eerie voice have been sealed. Many workers have found their first peaceful nights of sleep since this project began.\n\nSome say this is the fruit of our labor, others that we are finally granting old Harren peace." #NT!
+ agot_ruins.4003.a: "Of course, and we all live in the eye of a blue-eyed giant." #NT!
+ agot_ruins.4003.b: "The spirits are appeased... and so am I." #NT!
+ agot_ruins.4003.c: "This curse may be more than mere wind." #NT!
+ agot_ruins.4003.d: "Finally! An end to the screams!" #NT!
+ agot_ruins.4003.e: "We've proven with time, anything can be fixed." #NT!
+  
+ agot_ruins.4004.t: "The Ghost Tower Rising" #NT!
+ agot_ruins.4004.d: "The Tower of Dread and the Wailing Tower now stand tall, and my attention turns to the Tower of Ghosts. This is the most ruined of Harren's towers, its mangled form casting a broken shadow over the castle's sept, with a clear view of the eastern wall's postern gate. To make this place serve me well, I must restore and reinforce all three.\n\nIt is no small task, but the completed towers give me strength!" #NT!
+ agot_ruins.4004.a: "Call for the workers." #NT!
+ agot_ruins.4004.b: "Another name born of superstitious tales." #NT!
+ agot_ruins.4004.c: "Why do people always choose the most horrible names?" #NT!
+  
+ agot_ruins.4005.t: "The Ghosts Banished" #NT!
+ agot_ruins.4005.d: "A rebuilt roof, reinforced walls, renovated rooms — the infamous Tower of Ghosts is now more suitable for the living than the dead.\n\nThough much work remains, the fortress looks far less ruin than stronghold. Soon Harren's dream will be fully reborn. I should give thanks for what has been achieved.\n\nWith prayer on my mind, what am I to do with the Sept?" #NT!
+ agot_ruins.4005.a: "The Worshippers of the Seven shall be free to pray there." #NT!
+ agot_ruins.4005.a_father: "I will pray to the Father." #NT!
+ agot_ruins.4005.a_mother: "I will pray to the Mother." #NT!
+ agot_ruins.4005.a_warrior: "I will pray to the Warrior." #NT!
+ agot_ruins.4005.a_smith: "I will pray to the Smith." #NT!
+ agot_ruins.4005.a_maiden: "I will pray to the Maiden." #NT!
+ agot_ruins.4005.a_crone: "I will pray to the Crone." #NT!
+ agot_ruins.4005.a_stranger: "I will pray to the Stranger." #NT!
+ agot_ruins.4005.b: "Perhaps the gods worshipped there will serve me better?" #NT!
+ agot_ruins.4005.c: "It shall remain a place of worship — but to the true gods." #NT!
+  
+ agot_ruins.4006.t: "The Widow's Home" #NT!
+ agot_ruins.4006.d: "My eyes now turn to the Widow's Tower, where Queen Rhaena Targaryen chose to retire in her final years.\n\nWe must take care with this tower, for in time it must be bridged to the Kingspyre Tower. Harrenhal now looms as a mighty fortress once more, though to live in it is still daunting. This tower shall be our solution." #NT!
+ agot_ruins.4006.d_before_rhaena: "My eyes now turn to [GetBuilding('building_ruins_harrenhal_05').GetNameNoTooltip].\n\nWe must take care with this tower, for in time it must be bridged to the Kingspyre Tower. Harrenhal now looms as a mighty fortress once more, though to live in it is still daunting. This tower shall be our solution." #NT!
+ agot_ruins.4006.a: "Restore the Widow to its former beauty." #NT!
+  
+ agot_ruins.4007.t: "A Widow Honored" #NT!
+ agot_ruins.4007.desc: "The rebuilding of the Widow's Tower is complete. The chambers where the dragon queen once stayed would now far better suit her than what she endured in her last years.\n\nHarrenhal has gone from grotesque ruin to something approaching beauty. The dread has been eased, the wailing silenced, the ghosts driven out, and the widow honored. All who look upon these high walls now see not a mangled monument to dragonfire, but a stronghold restored by labor.\n\nThe time soon comes for the final tower." #NT!
+ agot_ruins.4007.desc_before_rhaena: "The rebuilding of the Widow's Tower is complete.\n\nHarrenhal has gone from grotesque ruin to something approaching beauty. All who look upon these high walls now see not a mangled monument to dragonfire, but a stronghold restored by labor.\n\nThe time soon comes for the final tower." #NT!
+ agot_ruins.4007.a: "Harrenhal will soon be restored." #NT!
+ agot_ruins.4007.b: "I dedicate these efforts to Queen Rhaena." #NT!
+ agot_ruins.4007.c: "I see why Rhaena chose it." #NT!
+ agot_ruins.4007.c_before_rhaena: "This would make a fine private solar." #NT!
+ agot_ruins.4007.d: "The workers found strange things in the queen's chambers..." #NT!
+ agot_ruins.4007.d_before_rhaena: "The workers found strange things in one of the chambers..." #NT!
+ agot_ruins.4007.d_tt: "Your occult knowledge allows you to understand the strange things left behind" #NT!
+  
+ agot_ruins.4008.t: "The Final Tower" #NT!
+ agot_ruins.4008.d: "The Kingspyre Tower is the tallest and widest of the five. Here Harren and his sons met their end, boiling and screaming amidst dragonflame. The Hall of a Hundred Hearths once stood within its walls, and soon it must rise again. Once more it shall house the greatest hall in Westeros, fit for the mightiest of castles.\n\nWhat the fire of one dragon destroyed, we must now undo." #NT!
+ agot_ruins.4008.a: "I want the strongest stone and the most skilled masons!" #NT!
+  
+ agot_ruins.4009.t: "The Fifth Tower Stands" #NT!
+ agot_ruins.4009.desc: "Though its name was an exaggeration — bearing only thirty-five of the promised hundred hearths — the great hall was no small endeavor. The work has taken more time, laborers, and strain than I could have imagined. Yet at last, the five towers of Harrenhal stand restored.\n\nLittle now remains between me and the full restoration of this great fortress." #NT!
+ agot_ruins.4009.a: "The embers of dread are finally extinguished." #NT!
+ agot_ruins.4009.b: "I will see this reconstruction through to the end." #NT!
+ agot_ruins.4009.c: "I see now — fire is power." #NT!
+ agot_ruins.4009.d: "Harren's pride is a lesson." #NT!
+  
+ agot_ruins.4010.t: "Scarring Wounds" #NT!
+ agot_ruins.4010.d: "Harrenhal has regained a certain vitality. From a dark and twisted fortress steeped in misfortune, it has become a great castle, reshaped by time and human effort.\n\nThough traces of dragonflame still scar its walls, there are few castles that could match the glory of mine. Some will always whisper of curses and shadows, but the aura has been profoundly changed.\n\nThe five towers are whole, yet years of labor still await.\n\nThe end is in sight; no more delays!" #NT!
+ agot_ruins.4010.a: "Get to work!" #NT!
+ agot_ruins.4010.a_arrogant: "Harren built Harrenhal, but I have rebuilt it." #NT!
+  
+ agot_ruins.4011.t: "Harrenhal Reborn" #NT!
+ agot_ruins.4011.desc: "In the morning, I look out at my work. The timid rays of the sun scatter glittering light across the heart tree of the godswood, proud amidst the sentinel pines. At noon, the view of the Gods Eye from the high ramparts shines under the star's blazing zenith and in the evening, the Hall of a Hundred Hearths warms all within, casting golden light across the hold.\n\nThe place teems with life, servants and laborers bustling through its vast expanse. All who enter stand in awe of its enormity.\n\nSome still whisper of strange dreams and dark visions, and claim to hear the distant calls of ancient things from the Isle of Faces, but I am unconcerned. This place is mine, and no gods may lay claim to it now." #NT!
+ agot_ruins.4011.a: "Let all see this place and tremble!" #NT!
+ agot_ruins.4011.b: "It is now as much mine as Harren's." #NT!
+ agot_ruins.4011.b_hoare: "What Harren's sweat built, his blood rebuilt." #NT!
+ agot_ruins.4011.c: "If I can build, I can destroy." #NT!
+ agot_ruins.4011.d: "What one dragon destroyed, another will guard." #NT!
+ agot_ruins.4011.e: "This castle fears no army, and I no dragon." #NT!
+  
+ agot_ruins.4100.a: "My faith is not wrong." #NT!
+ the_seven_main: "The Faith of the Seven, followed by most of Westeros" #NT!
+ servants_of_the_star: "All other faiths are wrong, The Pure is the true way" #NT!
+ baelorism: "[GetScriptedCharacterByHistoryID( 'Targaryen_82' ).GetFirstName] is the most pious man! I will venerate him!" #NT!
+ warring_star: "We will worship the legend of the King of All Andals, maybe even achieve his goal" #NT!
+ weirwood_of_the_seven: "The Seven used to speak through the Weirwood, they are the same gods" #NT!
+ hugor_start: "The old ways of Hugor the Hill, when the Seven who are one revealed themselves" #NT!
+ original_fots: "The oldest of Andal faith, the closest to the truest" #NT!
+  
+ agot_ruins.9999.t: "Halting Construction"
+ agot_ruins.9999.opening: "Restoring such ruins is no small task, and I must be prepared. It may be wise to postpone.\n\nThough there is still much to be done,"
+ agot_ruins.9999.no_stress: "and even though my mind isn't clouded by some dark clouds,"
+ agot_ruins.9999.one_stress: "and I'm starting to feel the weight of stress affecting my moods;"
+ agot_ruins.9999.two_stress: "and my mind feels clenched as though in a vice;"
+ agot_ruins.9999.three_stress: "and I'm on the verge of breaking down;"
+ agot_ruins.9999.recent_loss: "the loss of [deceased_character.GetName] is still too recent for me to think of anything else;"
+ agot_ruins.9999.at_war: "the war occupies my thoughts and affects the realm's economy,"
+ agot_ruins.9999.poor: "the coffers are almost empty and I know how much of a financial drain this can be,"
+ agot_ruins.9999.bankrupt: "the coffers are empty and it would be wrong to continue while I am in debt,"
+ agot_ruins.9999.lazy: "who knows what the future holds. Not to mention that I never liked work in any form,"
+ agot_ruins.9999.greedy: "who knows what the future holds. I prefer to get the gold invested back to know it's safe,"
+ agot_ruins.9999.fickle: "who knows what the future holds. Anyway I knew from the start that it wasn't a good idea,"
+ agot_ruins.9999.paranoid: "who knows what the future holds. And when I think of all these people gathered in one place to "work", who knows what they could be plotting,"
+ agot_ruins.9999.impatient: "who knows what the future holds. I don't want to wait years to see the fruit of the labor, "
+ agot_ruins.9999.someone_else: "and in any case it was not me who had initiated this project,"
+ agot_ruins.9999.relation: "and even if [restoration_constructor.GetName] was keen to see this project come to fruition, I have other priorities in the immediate future,"
+ agot_ruins.9999.outro: "so it's better for me to put aside the idea of continuing this endless work."
+ agot_ruins.9999.a: "Let this work end now."

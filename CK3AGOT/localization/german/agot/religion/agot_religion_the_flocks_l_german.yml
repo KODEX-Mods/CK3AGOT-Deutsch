@@ -1,0 +1,15 @@
+﻿l_german:
+  ### THE RELIGION ### 
+ the_flocks_religion: "The Flocks of Lhazar"
+ the_flocks_religion_adj: "The Flocks"
+ the_flocks_religion_adherent: "Lamb"
+ the_flocks_religion_adherent_plural: "Lambs"
+ the_flocks_religion_desc: "We are all sheep of the Great Shepherd, even those of us who are not aware of it — or so the people of Lhazar believe."
+  
+  ### Faiths ### 
+  # Great Shepherd 
+ shepherd_faith: "Flock of the Great Shepherd"
+ shepherd_faith_adj: "Great Shepherd"
+ shepherd_faith_adherent: "Lamb"
+ shepherd_faith_adherent_plural: "Lambs"
+ shepherd_faith_desc: "The Great Shepherd watches over all of his flock, those devoted to peace and love in his name."

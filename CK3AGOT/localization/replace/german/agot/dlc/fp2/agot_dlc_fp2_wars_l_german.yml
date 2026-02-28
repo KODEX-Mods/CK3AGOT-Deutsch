@@ -1,0 +1,53 @@
+﻿l_german:
+  ## Night's Watch Struggle Loc ## 
+ GREAT_RANGING_WAR_NAME: "Der Große Ausmarsch"
+ GREAT_RANGING_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ GREAT_RANGING_CB: "Großer Ausmarsch"
+ great_ranging_defeat_desc: "Die Wildlinge wissen nun, dass die Nachtwache nur noch ein Schatten seiner früheren selbst ist."
+ great_ranging_victory_desc: "Die Wildlinge werden weiterhin untereinander streiten und somit nicht die Sicherheit der Reiche der Menschen gefährden."
+ shatter_wildling_realm: "The realm of [defender_realm.GetName] will shatter into independent county tribes" #NT!
+  
+  #AGOT TODO 
+ great_ranging_white_peace_desc: "Placeholder White Peace Text"
+ great_ranging_invalidated_desc: "Placeholder Invalidated Text"
+  
+ GENERIC_RANGING_WAR_NAME: "Ausmarsch jenseits der Mauer"
+ GENERIC_RANGING_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ GENERIC_RANGING_CB: "Ausmarsch jenseits der Mauer"
+  
+ nw_single_county_ranging_cb_desc_victory_attacker: "You gain [gold|E] in proportion to the [development|E] of the target [county|E], which will decrease.\n$border_raid_building_tt$\n$border_raid_warning_tt$" #NT!
+ nw_single_county_ranging_cb_desc_victory_defender: "[attacker.GetName] gains [gold|E] in proportion to the [development|E] of the target [county|E], which will decrease.\n$border_raid_building_tt$\n$border_raid_warning_tt$" #NT!
+ nw_single_county_ranging_cb_desc_white_peace_attacker: "You choose to abandon your attempted expedition." #NT!
+ nw_single_county_ranging_cb_desc_white_peace_defender: "[attacker.GetName] abandons [attacker.GetHerHis] ranging expedition." #NT!
+ nw_single_county_ranging_cb_desc_defeat_attacker: "Your ranging expedition fails spectacularly, leaving behind arms and supplies worth [gold|E]." #NT!
+ nw_single_county_ranging_cb_desc_defeat_defender: "[attacker.GetName] leaves behind arms and supplies [gold|E] in their disastrous ranging expedition." #NT!
+ nw_generic_ranging_message_title: "Nachtwachen Ausmarsch"
+  
+ nw_multi_county_ranging_cb_desc_victory_attacker: "You drive the wildlings deeper in the wilderness." #NT!
+ nw_multi_county_ranging_cb_desc_victory_defender: "One of your holdings is lost to the wilderness." #NT!
+ nw_multi_county_ranging_cb_desc_white_peace_attacker: "You choose to abandon your attempted expedition." #NT!
+ nw_multi_county_ranging_cb_desc_white_peace_defender: "[attacker.GetName] abandons [attacker.GetHerHis] ranging expedition." #NT!
+ nw_multi_county_ranging_cb_desc_defeat_attacker: "Your ranging expedition fails spectacularly, leaving behind arms and supplies worth [gold|E]." #NT!
+ nw_multi_county_ranging_cb_desc_defeat_defender: "[attacker.GetName] leaves behind arms and supplies [gold|E] in their disastrous ranging expedition." #NT!
+ nw_generic_ranging_county_becomes_wilderness: "[target_county.GetName] will be abandoned to the wilderness" #NT!
+  
+ btw_reclamation_cb_victory_desc_attacker_vassalize: "Ihr vasallisiert [defender.GetShortUIName|U]"
+ btw_reclamation_cb_victory_desc_defender_vassalize: "[attacker.GetShortUIName|U] vasallisiert Euch"
+ btw_reclamation_cb_victory_desc_attacker_conquer_1: "$EFFECT_LIST_BULLET$Ihr werdet [liege|E] von [defender.GetShortUINamePossessive|U] [struggle_involved|E], die einen niedrigeren [rank|E] [vassals|E] in der umkämpften [duchy|E] haben"
+ btw_reclamation_cb_victory_desc_attacker_conquer_2: "$EFFECT_LIST_BULLET$You gain contested [struggle_uninvolved|E] held [counties|E], and those of [holders|E] with lands outside the [duchy|E]\n"
+ btw_reclamation_cb_victory_desc_defender_conquer_1: "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] wird [liege|E] von [defender.GetShortUINamePossessive|U] [struggle_involved|E], die einen niedrigeren [rank|E] [vassals|E] in der umkämpften [duchy|E] haben"
+ btw_reclamation_cb_victory_desc_defender_conquer_2: "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] gains contested un-[struggle_involved|E] held [counties|E], and those of [holders|E] with lands outside the [duchy|E]\n"
+  
+ btw_reclamation_cb_white_peace_desc_vassalize: "[defender.GetShortUIName|U] bleibt [independent|E]"
+ btw_reclamation_cb_white_peace_desc_conquer: "[defender.GetShortUIName|U] will keep the contested [titles|E]"
+ btw_reclamation_cb_defeat_desc_vassalize: "$btw_reclamation_cb_white_peace_desc_vassalize$"
+ btw_reclamation_cb_defeat_desc_conquer: "$btw_reclamation_cb_white_peace_desc_conquer$"
+ btw_reclamation_cb_defeat_desc: "$btw_reclamation_cb_white_peace_desc$"
+  
+ CB_COST_BTW_RECLAMATION: "Kostet [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [prestige|E] pro [county|E]"
+  
+  #BTW Struggle 
+ CB_COST_STRUGGLE_PHASE_OPPORTUNITY: "[struggle_phase_btw_opportunity|E]"
+ CB_COST_STRUGGLE_PHASE_HOSTILITY: "[struggle_phase_btw_hostility|E]"
+ CB_COST_STRUGGLE_PHASE_COMPROMISE: "[struggle_phase_btw_compromise|E]"
+ CB_COST_STRUGGLE_PHASE_CONCILIATION: "[struggle_phase_btw_conciliation|E]"

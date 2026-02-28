@@ -1,0 +1,112 @@
+﻿l_german:
+  
+  ########################################## 
+  # Lost in the snow 
+  ########################################## 
+  
+ agot_filler_vale.200.t: "Ein verlorener Wanderer"
+ agot_filler_vale.200.desc: "Die Mondberge sind ein unwirtlicher Ort mit einem noch unwirtlicheren Volk. Von Zeit zu Zeit müssen diese Plünderer aus den Bergen zurückgedrängt werden, wenn sie die fruchtbaren Ländereien des Grünen Tals überfallen wollen.\n\nWährend ich mit einem kleinen Gefolge einen Plünderertrupp über einen vertrauten Bergpass verfolge, schlägt das Wetter um. Ehe ich mich versehe, bin ich allein - völlig eingehüllt in einen erdrückenden Schneesturm und ohne jede Orientierung."
+ agot_filler_vale.200.a: "Ich muss weiter."
+ agot_filler_vale.200.a_tt: "Diese Berge sind die Heimat von Schattenkatzen... und Schlimmerem."
+ agot_filler_vale.200.b: "Halt! Das ist zu gefährlich!"
+ agot_filler_vale.200.b_tt: "Ihr und Eure Leute kehrt sicher ins Tal zurück, ohne dass jemand verloren gegangen ist."
+  
+ agot_filler_vale.201.t: "Ein verlorener Wanderer"
+ agot_filler_vale.201.desc: "Ich muss in Bewegung bleiben, erst recht jetzt, da der Frost begonnen hat, sich meiner Glieder zu bemächtigen.\n\nDoch was ist das da vorne? Täuschen mich meine Augen oder nähert sich durch das Schneegestöber die Gestalt eines Mannes.?"
+ agot_filler_vale.201.a: "Das muss einer der Wilden sein."
+ agot_filler_vale.201.a_tt: "Mir bleibt wohl keine Wahl... ich muss um des Überlebens willen gemeinsame Sache mit ihm machen. Verzweifelte Zeiten erfordern verzweifelte Bündnisse..."
+ agot_filler_vale.201.b: "Das hat doch keinen Sinn."
+ agot_filler_vale.201.b_tt: "Ich verliere den Willen, weiter zu kämpfen..."
+  
+ agot_filler_vale.202.t: "Nicht länger verloren"
+ agot_filler_vale.202.desc: "Mein unwahrscheinlicher Begleiter und ich hasten durch den Sturm. Sie kennen diese Berge ganz offensichtlich, und schon bald sind wir in ihrer Bergfestung angekommen.\n\nNoch nie hat sich Wärme so gut angefühlt, wie an jenem prasselnden Feuer, vor dem wir Platz nehmen. Uns wird eine warme Mahlzeit angeboten, und ich breche bereitwillig das Brot mit diesem Clanmitglied - und sei es nur, um mich des Gastrechts zu versichern.\n\nAber während wir uns austauschen und unsere Lebensweise diskutieren, werde ich das Gefühl nicht los, dass wir uns mehr ähneln als unterscheiden. Vielleicht könnte ich mich sogar mit diesem Häuptling des Clans anfreunden und einen würdigen Verbündeten für mich gewinnen."
+ agot_filler_vale.202.a: "Es sollte Bier fließen, kein Blut."
+ agot_filler_vale.202.a_tt: "Mein Gastgeber und ich konnten einige Gemeinsamkeiten finden, sodass wir uns nun Freunde nennen können."
+ agot_filler_vale.202.b: "Ich, das Abendessen regelmäßig mit einem Wilden teilen?"
+ agot_filler_vale.202.b_tt: "Dieses Mahl wird unser letztes sein und ich kann es kaum erwarten, wieder nach Hause zurück zu kehren..."
+  
+ agot_filler_vale.203.t: "Verlorener Wanderer, gefundener Freund"
+ agot_filler_vale.203.desc: "Der Sturm hat sich endlich gelegt, als mich der Häuptling zu einem traditionellen Spiel seines Stammes einlädt. Sie bieten mir sogar einen kleinen Gefallen an, sollte ich gewinnen... wenn auch mit einem Augenzwinkern."
+ agot_filler_vale.203.a: "Das klingt interessant!"
+ agot_filler_vale.203.a_tt: "Eure Freundschaft mit den Bergmännern vertieft sich."
+  
+ agot_filler_vale.204.t: "Verlorener Wanderer, gefundener Freund"
+ agot_filler_vale.204.desc: "Das Spiel beginnt!\n\nZwischen uns liegt ein kariertes Brett, das mit hell- und dunkelgrauen Steinen übersät ist. Abwechselnd schieben wir die Steine auf dem Brett hin und her und fordern die Steine des anderen in einer Art Scheinkrieg ein."
+ agot_filler_vale.204.a: "Diese Runde wirst du verlieren, mein Freund!"
+ agot_filler_vale.204.a_tt: "Etwas freundschaftlicher Wettstreit schadet nie..."
+  
+ agot_filler_vale.205.t: "Verlorener Wanderer, gefundener Freund"
+ agot_filler_vale.205.desc: "Es fühlt sich an wie ein Augenblick, doch tatsächlich ist fast eine Stunde vergangen, da das Spiel endet."
+ agot_filler_vale.205.a: "Selbstverständlich habe ich gewonnen."
+ agot_filler_vale.205.a_tt: "Das hat Freude bereitet!"
+ agot_filler_vale.205.b: "Wie es scheint, hat meine Niederlage Folgen gehabt."
+ agot_filler_vale.205.b_tt: "Spielschulden sind Ehrenschulden..."
+  
+ agot_filler_vale.206.t: "Nicht länger verloren"
+ agot_filler_vale.206.desc: "Es ist ein bittersüßes Gefühl, meinen neuen Freund nach allem, was wir gemeinsam erlebt haben, zu verlassen.\n\nWir schwören uns einen Eid des Bündnisses und der Freundschaft, bevor wir an einer Gabelung getrennte Wege gehen und ich nach Hause zurückkehre."
+ agot_filler_vale.206.a: "Das war ein Abenteuer, von dem ich noch meinen Enkeln erzählen werde."
+ agot_filler_vale.206.a_tt: "Mit neuer Stärke kehre ich in das Tal zurück."
+  
+  ########################################## 
+  # Windswept 
+  ########################################## 
+  
+ agot_filler_vale.300.t: "Herannahende Kostbarkeiten"
+ agot_filler_vale.300.desc: "Mein [steward.GetCouncilTitle], [steward.GetTitledFirstName], bringt gute Nachrichten - eine Handelskolonne aus den Flusslanden, die eine beträchtliche Ladung wertvoller Waren mit sich führt, passiert gerade die Bergstraße. Sicherlich wollen sie einige Schätze im Grünen Tal zu einem guten Preis verkaufen."
+ agot_filler_vale.300.a: "Ich kann es kaum erwarten, die Waren zu sehen!"
+ agot_filler_vale.300.a_tt: "Die Bergstraße kann um diese Jahreszeit tückisch sein."
+ agot_filler_vale.300.b: "Ich hoffe, sie haben einige faszinierende Bücher dabei!"
+ agot_filler_vale.300.b_tt: "Ein neuer Wälzer wird helfen, mir die Zeit zu vertreiben."
+ agot_filler_vale.300.c: "Ich hoffe, der Weinhändler, den ich einst traf, kommt wie versprochen zurück..."
+ agot_filler_vale.300.c_tt: "Hier im Grünen Tal ist es schlicht unmöglich, guten Wein zu bekommen."
+  
+ agot_filler_vale.301.t: "Vom Winde verweht"
+ agot_filler_vale.301.desc: "Mein [steward.GetCouncilTitle], [steward.GetTitledFirstName], bringt schlechte Neuigkeiten - die Handelskolonne der Flussländer wurde beim Überqueren der Bergstraße von einem heftigen Sturm weggefegt. Die gesamte Gruppe von Händlern stürzte in den Tod... Es gab keine Überlebenden."
+ agot_filler_vale.301.a: "Bei den Sieben Höllen!"
+ agot_filler_vale.301.a_tt: "Wie es scheint, hat sich Fremde die Schätze genommen."
+ agot_filler_vale.301.b: "Bei den Leichen ist vielleicht noch wertvolles zu finden..."
+ agot_filler_vale.301.b_tt: "Ihr untersucht die Leichen nach Kostbarkeiten."
+  
+  ########################################## 
+  # Sister's Chicanery 
+  ########################################## 
+  
+ agot_filler_vale.400.t: "Die Schikanen der Schwestern"
+ agot_filler_vale.400.desc: "Mein [steward.GetCouncilTitle], [steward.GetTitledFirstName], begleitet mich zum Hafen, damit wir einen Eindruck unserer Seemacht bekommen, als man mir ein einen beunruhigenden Bericht überreicht: Auf einem meiner Schiffe, die #italic Schwester der See#!, gab es eine Meuterei! Man hat die Ladung an Piraten verkauft und hat wahrscheinlich schon die halbe Meerenge hinter sich gelassen. Dieses Schiff werde ich nie wiedersehen!"
+ agot_filler_vale.400.a: "Wahrlich beunruhigend!"
+ agot_filler_vale.400.a_tt: "Vielleicht werden ein paar Untersuchungen Licht ins Dunkel bringen."
+  
+ agot_filler_vale.401.t: "Die Schikanen der Schwestern"
+ agot_filler_vale.401.desc: "[steward.GetTitledFirstName] hat rastlos nach der #italic Schwester der See#! gesucht und dabei die Männer jedes Handelsschiffs im Hafen nach dem Schiff befragt.\n\nEndlich wird seine Hartnäckigkeit belohnt, denn einer der Seemänner behauptet, das Schiff nahe der Drei Schwestern segeln gesehen zu haben!"
+ agot_filler_vale.401.a: "Ich will Antworten!"
+ agot_filler_vale.401.a_tt: "Bereitet ein Schiff vor, mit dem wir zu den Schwestern segeln."
+ agot_filler_vale.401.b: "Wir haben Wichtigeres zu tun."
+  
+ agot_filler_vale.402.t: "Die Schikanen der Schwestern"
+ agot_filler_vale.402.desc: "[sister_lord.GetTitledFirstName] leugnet jede Verwicklung in die Angelegenheit, obwohl die Kassen der Schwestern seit der Meuterei auf dem Schiff angeblich stark gefüllt sind."
+ agot_filler_vale.402.a: "Ihr werdet mich begleiten... in Ketten."
+ agot_filler_vale.402.a_tt: "Ich lasse mich nicht beleidigen!"
+ agot_filler_vale.402.b: "Ich kann nichts davon beweisen..."
+ agot_filler_vale.402.b_tt: "Ich bin kein Tyrann! Daher muss ich ihn davonkommen lassen..."
+  
+  ########################################## 
+  # PUMPKINS 
+  ########################################## 
+  
+ agot_filler_vale.500.t: "Riesige Kürbisse!"
+ agot_filler_vale.500.desc: "Diese Ernte brachte dem Gemeinen Volk in meinen Ländern ungewöhnlich große Erträge ein - im wahrsten Sinne des Wortes. Einer dieser Riesenkürbisse soll die Größe eines Pferdekarren haben!"
+ agot_filler_vale.500.a: "Das wird mich reich machen!"
+ agot_filler_vale.500.a_tt: "Mit den richtigen Investitionen könnten diese Riesenkürbisse höchst profitabel werden.."
+ agot_filler_vale.500.b: "Das sollte ich zu meinen Gunsten nutzen..."
+ agot_filler_vale.500.b_tt: "Dem Gemeinen Volk sind Lob und Ruhm tatsächlich mehr wert als Gold. Ich bin wahrlich ein Genie!"
+  
+  ########################################## 
+  # The Seven-Pointed Star 
+  ########################################## 
+  
+ agot_filler_vale.600.t: "Der Siebenzackige Stern"
+ agot_filler_vale.600.desc: "Es heißt, ein Forscher habe bei der Erkundung einer alten andalischen Ruine eine Reliquie gefunden - einen in Stein gemeißelten siebenzackigen Stern, der aus der Zeit der Landung der Andalen stammt."
+ agot_filler_vale.600.a: "Ich werde den Stein ein Erbstück meiner Familie behalten."
+ agot_filler_vale.600.a_tt: "Die Götter werden mich und die meinen segnen!"
+ agot_filler_vale.600.b: "Das Ding muss doch sicher einige Golddrachen wert sein..."
+ agot_filler_vale.600.b_tt: "Irgendein Septon wird gut für den Stein bezahlen."

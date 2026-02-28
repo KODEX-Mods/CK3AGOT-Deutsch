@@ -1,13 +1,13 @@
 ﻿l_german:
- agot_custom_mapmode: "Roads" #NT!
- agot_custom_mapmode_desc: "#T Roads\n#!Shows Major & Minor Roads as well as Urban Terrain on the map." #NT!
- AGOT_ROADS_MAP_LEGEND: "Legend" #NT!
- AGOT_ROADS_MAP_URBAN_TERRAIN: "Urban Terrain" #NT!
- AGOT_ROADS_MAP_MAJOR_ROAD: "Major Road" #NT!
- AGOT_ROADS_MAP_MINOR_ROAD: "Minor Road" #NT!
+ agot_roads: "Roads" #NT!
+ agot_roads_desc: "#T Roads\n#!Shows Major & Minor Roads as well as Urban Terrain on the map." #NT!
+ AGOT_ROADS_MAP_LEGEND: "Legend"
+ AGOT_ROADS_MAP_URBAN_TERRAIN: "Urban Terrain"
+ AGOT_ROADS_MAP_MAJOR_ROAD: "Major Road"
+ AGOT_ROADS_MAP_MINOR_ROAD: "Minor Road"
   
- map_table_style_penny_kings: "Ninepenny Kings" #NT!
- map_table_style_rr: "Robert's Rebellion" #NT!
- map_table_style_crowned_stag: "Crowned Stag" #NT!
- map_table_style_rogue_prince: "Rogue Prince" #NT!
- map_table_style_golden_age: "Golden Age" #NT!
+ map_table_style_penny_kings: "Ninepenny Kings"
+ map_table_style_rr: "Robert's Rebellion"
+ map_table_style_crowned_stag: "Crowned Stag"
+ map_table_style_rogue_prince: "Rogue Prince"
+ map_table_style_golden_age: "Golden Age"

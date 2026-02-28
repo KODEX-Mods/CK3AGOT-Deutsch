@@ -248,8 +248,6 @@
  ep3_decisions_event.2080.a_liege: "Äußerst ärgerlich …"
  ep3_decisions_event.2080.a: "Zeit, neu über die Dinge nachzudenken …"
   
- ep3_decisions_event_costs_refunded: "Kosten für „$ep3_decisions_event_decision$“ erstattet"
-  
  become_landless_adventurer_decision: "Abenteurer werden"
  become_landless_adventurer_decision_desc: "Die weite Welt hat vieles zu bieten, wenn man mutig und zäh genug sind, ihre Gefahren zu überwinden und ihre Möglichkeiten zu nutzen."
  become_landless_adventurer_decision_tooltip: "Verlasst Euer [Concept('landed', 'Landbesitz')|E]-[realm|E] und gründet ein [adventurer|E]-[camp|E]"
@@ -617,7 +615,25 @@
  empire_tier_tt: "Ihr seid ein [emperor|E]"
  small_realm_size_tt: "Euer [realm|E] besteht aus #EMP mehr#! als #V [EmptyScope.ScriptValue('small_empire_size_value')|0]#! [counties|E]#! #weak (#color_white [root_scope.MakeScope.ScriptValue('current_size_empire_value')|0]#!)#!"
  all_powerful_vassals_required_tt: "Alle [Concept('powerful_vassals', 'mächtigen Vasallen')E] müssen eine [opinion|E] von 50 oder mehr von Euch haben."
+ go_administrative_government_desc: "$go_administrative_government_name$"
+ go_administrative_government_name: "[GetGovernment('administrative_government').GetNameNoTooltip]"
+ go_administrative_government_tooltip: "[GetGovernment('administrative_government').GetName]s-[government|E] annehmen"
+ go_celestial_government_desc: "$go_celestial_government_name$"
+ go_celestial_government_name: "[GetGovernment('celestial_government').GetNameNoTooltip]"
+ go_celestial_government_tooltip: "[GetGovernment('celestial_government').GetName|U]e [government|E] annehmen"
+ go_meritocratic_government_desc: "$go_meritocratic_government_name$"
+ go_meritocratic_government_name: "[GetGovernment('meritocratic_government').GetNameNoTooltip]"
+ go_meritocratic_government_tooltip: "[GetGovernment('meritocratic_government').GetName|U]e [government|E] annehmen"
+ go_japan_administrative_government_desc: "$go_japan_administrative_government_name$"
+ go_japan_administrative_government_name: "[GetGovernment('japan_administrative_government').GetNameNoTooltip]"
+ go_japan_administrative_government_tooltip: "[GetGovernment('japan_administrative_government').GetName]-[government|E] annehmen"
+ convert_to_administrative_decision_title_multiple: "Zentralverwaltung annehmen"
+ convert_to_administrative_decision_confirm_multiple: "Bürokratische Lebensart annehmen"
+ convert_to_administrative_decision_tooltip_multiple: "Die Art der [government|E] zu einer [Concept('government_bureaucratic_gov', 'bürokratischen Regierung')|E] Eurer Wahl ändern"
   
+ convert_to_administrative_celestial_desc: "Ihr erfüllt #bold nicht#! mindestens eine der folgenden Bedingungen:\n$EFFECT_LIST_BULLET$Ihr haltet [GetTitleByKey('h_china').GetName]\n$EFFECT_LIST_BULLET$Ihr seid ein Vasall von [GetTitleByKey('h_china').GetNameNoTier]\n$EFFECT_LIST_BULLET$Die [culture|E] Eures [Concept('top_liege', 'Obersten Lehnsherrn')|E] ist [GetCultureByKey('han').GetName|l]\n$EFFECT_LIST_BULLET$ Die [culture|E] Eures [Concept('top_liege', 'Obersten Lehnsherrn')|E] stammt von der [GetCultureByKey('han').GetName|l]en ab"
+ convert_to_administrative_meritocratic_desc: "Ihr erfüllt #bold nicht#! mindestens eine der folgenden Bedingungen:\n$EFFECT_LIST_BULLET$Euer [realm|E] grenzt an einen [ruler|E], dessen [government|E] [merit|E] verwendet\n$EFFECT_LIST_BULLET$Euer [capital|E] liegt in der Region [GetGeographicalRegion('world_asia').GetName], [GetGeographicalRegion('world_tibet').GetName], [GetGeographicalRegion('world_burma').GetName] oder [GetGeographicalRegion('world_steppe_east').GetName]"
+ convert_to_administrative_japanese_desc: "Ihr erfüllt #bold nicht#! mindestens eine der folgenden Bedingungen:\n$EFFECT_LIST_BULLET$Die [government|E] Eures [Concept('top_liege', 'Obersten Lehnsherrn')|E] ist [GetGovernment('japan_administrative_government').GetName] oder [GetGovernment('japan_feudal_government').GetName]\n$EFFECT_LIST_BULLET$Eure [government|E] ist [GetGovernment('japan_feudal_government').GetName]"
   
  dukes_become_governors: "Alle [vassals|E] mit dem [title_tier|E] „[duchy|E]“ werden [governor|E]"
  vassals_can_become_administrative: "\nAlle [feudal|E]- oder [clan|E]-[vassals|E] innerhalb Eures [Concept('de_jure', 'De-jure')|E]-[Concept('realm', 'Reichs')|E] Eures [Concept('faith', 'Glaubens')|E] können ihre [government|E] zu „[administrative|E]“ ändern, sofern sie eine der folgenden Bedingungen erfüllen:"
@@ -892,15 +908,25 @@
   # Renounce Governorship 
  renounce_governorship_decision: "Sich vom Statthaltertum zur Ruhe setzen"
  renounce_governorship_decision_desc: "Zieht Euch auf Euer Familienanwesen zurück und sammelt Reichtum und Einfluss, fernab der Pflichten des [Concept('governorship', 'Statthaltertums')|E].\n\nVerbergt Euch im Schatten, um als flammender Phönix zurückzukehren."
+ renounce_governorship_decision_desc_japan: "Sich von den Pflichten eines [Concept('governorship', 'Statthaltertums')|E] zurückziehen, um sich dem Kaiserhof anzuschließen und nach neuen Gelegenheiten zu suchen.\n\nIch werde meine Rivalen glauben machen, ich verfaule in den Schatten, während ich in Wahrheit als brennender Phönix zurückkehren und sie niedermachen werde!"
+ renounce_governorship_decision_desc_merit: "Sich auf Euer Familien-[estate|E] zurückziehen, um Wissen und Werte zu sammeln und eine weitere Stufe der [examinations|E] zu bestehen."
  renounce_governorship_decision_tooltip: "Aufhören, ein [governor|E] zu sein"
  renounce_governorship_decision_confirm: "Es war mir ein Vergnügen."
  renounce_governorship_decision_effect_tt: "Ihr seid kein [governor|E] mehr"
+ renounce_governorship_family_title_tt: "Ihr habt kein [estate|E], auf das Ihr Euch zurückziehen könnt"
  ep3_renounced_governorship: "In den Schatten"
  ep3_renounced_governorship_desc: "Dieser Charakter entschied sich, auf sein Statthaltertum zu verzichten und auf den richtigen Moment zu warten, um zuzuschlagen."
+ ep3_renounced_governorship_merit: "Zurück auf die Schulbank"
+ ep3_renounced_governorship_merit_desc: "Dieser Charakter entschied sich, auf sein Statthaltertum zu verzichten und für die nächste [examination|E] zu lernen."
+ renounced_governorship_japan: "Anwesenheit bei Hof"
+ renounced_governorship_japan_desc: "Dieser Charakter verbrachte einige Zeit als Statthalter auf dem Land und ist nun ins Zentrum der kaiserlichen Politik zurückgekehrt."
+ ep3_renounced_estate: "Friedlicher Winter"
+ ep3_renounced_estate_desc: "Dieser Charakter zog sich von allen Pflichten zurück, um den Rest seines Lebens fernab der Öffentlichkeit zu verbringen."
   
  ep3_decisions_event.4090.t: "Ein Schritt zurück"
  ep3_decisions_event.4090.desc: "Jenseits der Mauern des Anwesens schreien Kinder beim Spielen, Karren hubbeln über größere Felsen, ein Händler preist lautstark seine Waren an.\n\nIch habe [liege.GetTitledFirstName] lange genug gedient.\n\nDiese Mauern bauen sich nicht von selbst – und ein Haus braucht vor allem ein starkes Fundament."
  ep3_decisions_event.4090.a: "Ich werde warten."
+ ep3_decisions_event.4090.a_merit: "Ich werde studieren."
   
   # Change Imperial Aspirations 
  change_imperial_aspirations_decision: "[GetPlayer.GetTopLiege.Custom('GetRoyalCourtRank')|U]-Streben ändern"
@@ -923,8 +949,8 @@
   # The Knight of the Swan 
  knight_errant_decision: "Der [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')|U]-$knight_culture_player_no_tooltip$"
   #AGOT Modified 
- #knight_errant_decision_desc: "It is said that a mysterious $knight_culture_player_no_tooltip_lowercase$ comes in a [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')] driven boat to rescue those in danger.\n\nA little boat of pearly sheen, and a stately $knight_culture_player_no_tooltip_lowercase$ that sat therein." #NT!
- knight_errant_decision_desc: "It is said that a mysterious $knight_culture_player_no_tooltip_lowercase$ comes mounted on a gilded [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')] to rescue those in danger.\n\nA noble steed of radiant sheen, and a stately $knight_culture_player_no_tooltip_lowercase$ sat astride." #NT!
+ #knight_errant_decision_desc: "It is said that a mysterious $knight_culture_player_no_tooltip_lowercase$ comes in a [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')] driven boat to rescue those in danger.\n\nA little boat of pearly sheen, and a stately $knight_culture_player_no_tooltip_lowercase$ that sat therein."
+ knight_errant_decision_desc: "It is said that a mysterious $knight_culture_player_no_tooltip_lowercase$ comes mounted on a gilded [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')] to rescue those in danger.\n\nA noble steed of radiant sheen, and a stately $knight_culture_player_no_tooltip_lowercase$ sat astride."
  knight_errant_decision_tooltip: "Ein „[GetTrait('knight_errant').GetName(GetNullCharacter)]“ werden"
  knight_errant_decision_confirm: "[Select_CString(ROOT.Char.IsFemale, 'Die', 'Der')] Beste [ROOT.Char.Custom('DE_PRO_POS_S_3P')]er Art"
  knight_errant_decision_effect_tt: "$knight_errant_decision_tooltip$"
@@ -980,17 +1006,17 @@
  commission_artifact_decision_option_court_icon_small_desc: "[AddTextIf(ROOT.Char.GetInventory.HasEquippedArtifactsInSlotType('wall_small'), Concatenate('Derzeit ausgestellt:\n', ROOT.Char.GetInventory.GetEquippedArtifactsInSlotTypeString('wall_small', 'NEWLINE', 'NEWLINE', 'NEWLINE')))]"
  commission_artifact_decision_option_court_icon_small: "Kleiner Wandbehang\n#low Im Besitz: [ROOT.Char.GetInventory.GetNumberOfArtifactsForSlotTypeString('wall_small')]#!"
  artifact_wall_court_icon_large_name: "Große Ikone"
-  #AGOT MODIFIED 
- #artifact_wall_court_icon_large_description: "An imposing icon, painted in the traditional style of the Orthodox church, depicting a solemn religious scene: [owner.Custom('RandomIconTopic')]." #NT!
- artifact_wall_court_icon_large_description: "An imposing icon, painted in the traditional [ROOT.Char.GetFaith.GetName] style, depicting a solemn religious scene." #NT!
+  #AGOT Modified 
+ #artifact_wall_court_icon_large_description: "An imposing icon, painted in the traditional style of the Orthodox church, depicting a solemn religious scene: [owner.Custom('RandomIconTopic')]."
+ artifact_wall_court_icon_large_description: "An imposing icon, painted in the traditional [ROOT.Char.GetFaith.GetName] style, depicting a solemn religious scene."
  artifact_wall_court_icon_small_name: "Kleine Ikone"
-  #AGOT MODIFIED 
- #artifact_wall_court_icon_small_description: "A small but evocative icon, painted in the traditional style of the Orthodox church, depicting in vivid colors a religious scene: [owner.Custom('RandomIconTopic')]" #NT!
- artifact_wall_court_icon_small_description: "A small but evocative icon, painted in the traditional [ROOT.Char.GetFaith.GetName] style, depicting in vivid colors a religious scene." #NT!
+  #AGOT Modified 
+ #artifact_wall_court_icon_small_description: "A small but evocative icon, painted in the traditional style of the Orthodox church, depicting in vivid colors a religious scene: [owner.Custom('RandomIconTopic')]"
+ artifact_wall_court_icon_small_description: "A small but evocative icon, painted in the traditional [ROOT.Char.GetFaith.GetName] style, depicting in vivid colors a religious scene."
  artifact_trinket_icon_name: "Tragbare Ikone"
-  #AGOT MODIFIED 
- #artifact_trinket_icon_description: "A portable icon, painted in the usual style of the Orthodox church, depicting a traditional religious scene: [owner.Custom('RandomIconTopic')]. Despite its diminutive size, the pictorial traits are neat, the colors are vivid, and the tone is solemn." #NT!
- artifact_trinket_icon_description: "A portable icon, painted in the [ROOT.Char.GetFaith.GetName] style, depicting a traditional religious scene. Despite its diminutive size, the pictorial traits are neat, the colors are vivid, and the tone is solemn." #NT!
+  #AGOT Modified 
+ #artifact_trinket_icon_description: "A portable icon, painted in the usual style of the Orthodox church, depicting a traditional religious scene: [owner.Custom('RandomIconTopic')]. Despite its diminutive size, the pictorial traits are neat, the colors are vivid, and the tone is solemn."
+ artifact_trinket_icon_description: "A portable icon, painted in the [ROOT.Char.GetFaith.GetName] style, depicting a traditional religious scene. Despite its diminutive size, the pictorial traits are neat, the colors are vivid, and the tone is solemn."
  commission_icon_decision_effect: "Ein örtlicher Maler wird gerufen, um ein Ikonen-[artifact|E] anzufertigen"
  ep3_decisions_event.5000.t: "Verwirklichte Ikone"
  ep3_decisions_event.5000.desc: "[local_artisan.GetFirstName|U], [local_artisan.Custom('DE_ART_DEF_S_N')] Maler[local_artisan.Custom('DE_END_NOU_S_GS_N')], [local_artisan.Custom('DE_ART_DEF_S_A')] ich mit meiner Ikone beauftragt habe, ist an den Hof zurückgekehrt, um mir die Früchte [local_artisan.Custom('DE_PRO_POS_S_3P')]er Arbeit zu übergeben.\n\n„Die höchste Macht ([ROOT.Char.GetFaith.HighGodName]) hat Euch gesegnet, [ROOT.Char.GetTitleAsNameNoTooltip], denn ich überreiche Euch demütig diese heilige Ikone, die ich gemäß der Traditionen und jenen Fähigkeiten anfertigte, die die höchste Macht mir schenkte. Möge sie Euch auf dem Weg der Hingabe und der Rechtschaffenheit stets inspirieren.“"
@@ -1056,6 +1082,11 @@
   
   # Establish Silk Production 
  establish_silk_production_decision: "Seidenherstellung aufbauen"
+  #AGOT Modified 
+ # establish_silk_production_decision_desc.boilerplate: "Since the ancients smuggled the first silkworms from the remotest lands in the East to Constantinople, silk manufacture and sale have always been an imperial monopoly." #NT!
+ # establish_silk_production_decision_desc: "$establish_silk_production_decision_desc.boilerplate$\n\nIt would be an expensive venture, but we could buy an imperial dispensation to be allowed to establish our own silk production in our family Estate." #NT!
+ # establish_silk_production_decision_desc.emperor: "$establish_silk_production_decision_desc.boilerplate$\n\nAs the head of the imperial family, I can grant myself and my successors the privilege of its manufacture with but a wave of the hand." #NT!
+ # establish_silk_production_decision_tooltip: "Buy an imperial permit to unlock silk production buildings in your [estate|E]" #NT!
  establish_silk_production_decision_desc.boilerplate: "Schon in der Antike wurden die ersten Seidenraupen aus den entlegensten Gebieten des Ostens nach Konstantinopel geschmuggelt, sodass die Herstellung und der Verkauf von Seide stets ein kaiserliches Monopol waren."
  establish_silk_production_decision_desc: "$establish_silk_production_decision_desc.boilerplate$\n\n Es wäre ein teures Unterfangen, doch wir könnten uns eine kaiserliche Dispens erkaufen, um auf unserem Familienanwesen eine eigene Seidenproduktion aufbauen zu dürfen."
  establish_silk_production_decision_desc.emperor: "$establish_silk_production_decision_desc.boilerplate$\n\nAls Oberhaupt der kaiserlichen Familie kann ich mir und meinen Nachfolgern das Privileg der Herstellung mit einem Federstrich gewähren."
@@ -1065,6 +1096,8 @@
  unlocked_estate_silk_buildings_t: "„[GetDomicileBuilding('silk_01').GetName]“ freigeschaltet"
  has_unlocked_estate_silk: "Schaltet „[GetModifier('ep3_unlocked_silk').GetNameWithTooltip]“ durch die [decision|E] „[GetDecisionWithKey('establish_silk_production_decision').GetName]“ frei"
  commission_silk_regalia_decision: "Seideninsignien in Auftrag geben"
+  #AGOT Modified 
+ #commission_silk_regalia_decision_desc: "Our family is among the few imperially-authorized producers and sellers of the finest Byzantine silk. Our activity brings us gold and influence — and some more #EMP advantages#! — but we rarely enjoy the benefits directly. I think I deserve something #EMP extra nice#! for myself, for once!" #NT!
  commission_silk_regalia_decision_desc: "Unsere Familie gehört zu den wenigen kaiserlich autorisierten Herstellern und Verkäufern feinster byzantinischer Seide. Unsere Arbeit bringt uns Gold und Einfluss – und einige weitere #EMP Vorteile#! –, doch wir kommen nur selten unmittelbar in den Genuss der Vorzüge. Ich denke, ich habe mir auch einmal etwas #EMP besonders Schönes#! für mich verdient!"
  commission_silk_regalia_decision_tooltip: "Ein [artifact|E] aus Seide für Euch selbst in Auftrag geben"
  commission_silk_regalia_decision_confirm: "Den Kunsthandwerker kommen lassen"
@@ -1073,6 +1106,8 @@
  ep3_decisions_event.5030.desc: "Mit einer eleganten Verbeugung überreicht mir [local_artisan.GetFirstName], Meisterhandwerker[local_artisan.Custom('DE_END_NOU_S_GS_N')] der Seidenraupenzucht meiner Familie, einen Satz Seidengewänder von höchster Güte.\n\n„Euer Auftrag ist fertig, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]. Ich hoffe, dies genügt Euren Ansprüchen.“\n\nDie Seide fließt wie Wasser zwischen meinen Fingern, während meine Augen sich bemühen, all die winzigen Verzierungen zu erkennen."
  ep3_decisions_event.5030.a: "Wirklich prächtig!"
  silk_regalia_name: "Edle Seideninsignien"
+  #AGOT Modified 
+ #silk_regalia_description: "A set of silk robes worthy of an emperor, made by some of the best artisans of the Byzantine style in the family estate of House [owner.GetHouse.GetName].\n\nThe colors are brilliant, and a gold thread is elegantly interwoven throughout to make the intricate designs stand out." #NT!
  silk_regalia_description: "Ein Satz Seidengewänder, die eines Kaisers würdig sind, hergestellt von einigen der besten Kunsthandwerker im byzantinischen Stil vom Familienanwesen des Hauses [owner.GetHouse.GetName].\n\nDie Farben leuchten, und ein Goldfaden ist elegant eingewebt, um die komplexen Muster hervorzuheben."
   
   # Foster Integration 
@@ -1107,6 +1142,7 @@
  ep3_separatist_uprising: "Abspalteraufstand"
  ep3_separatist_uprising_desc: "Dieser Charakter hat all seine Kraft darin gesteckt, Land für die eigene Kultur zu sichern."
  separatist_uprising_culture_county_tt: "Ihr habt dieselbe Kultur wie [GetPlayer.GetCurrentLocation.GetCounty.GetTitle.GetName]#weak ([GetPlayer.GetCurrentLocation.GetCounty.GetCulture.GetName])#!"
+ separatist_uprising_culture_duchy_check_tt: "Es gibt ein [Concept('de_jure', 'De-jure')|E]-[duchy|E] Eures derzeitigen Standorts."
  separatist_uprising_capital_county_tt: "Euer [camp|E] liegt in der [capital|E]-[county|E]"
  culture_separatists: "[ROOT.Char.GetCulture.GetNameNoTooltip|U]e Abspalter"
   
@@ -1140,6 +1176,7 @@
  hold_byz_kingdom_title_tt: "Ihr oder einer Eurer [vassals|E] halten diesen [kingdom|E]-[title|E]"
  latin_capital_byzantine_kingdom_tt: "Euer [capital|E] liegt in einem [Concept('de_jure', 'De-jure')|E]-[kingdom|E] des Byzantinischen Kaiserreichs"
  is_latin_emperor_tt: "Euer [primary_title|E] ist: [GetTitleByKey('e_latin_empire').GetName|U]"
+ holds_latin_empire_tt: "Ihr haltet „[GetTitleByKey('e_latin_empire').GetName]“"
  gain_byz_kingdom_de_jure_tt: "„[GetTitleByKey('e_latin_empire').GetName|U]“ erlangt [de_jure|E] Besitz eines [GetTitleByKey('e_byzantium').GetAdjective|l]en [Concept('kingdom', 'Königreichs')|E] innerhalb Eures [Concept('realm', 'Reichs')|E]"
  legitimize_latin_control_tt: "[county_control|E] steigt im ganzen neuen [GetTitleByKey('e_latin_empire').GetAdjective|l]en [kingdom|E]"
  legitimize_latin_cultural_acceptance_tt: "[cultural_acceptance|E] steigt bei allen [county|E]-[cultures|E] des neuen [GetTitleByKey('e_latin_empire').GetAdjective|l]en [Concept('kingdom', 'Königreichs')|E]"

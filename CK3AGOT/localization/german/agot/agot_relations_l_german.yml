@@ -2,26 +2,60 @@
   #Scripted Relations 
  agot_squire: "[squire|E]"
  agot_knight: "[agot_knight|E]"
- agot_personal_coa_slave: "Personal Arms Holder" #NT!
+ agot_personal_coa_slave: "Personal Arms Holder"
  paramour: "Konkubine"
- bodyguard: "Bodyguard" #NT!
- bloodrider: "Bloodrider" #NT!
- agot_dragon: "Dragon" #NT!
+ bodyguard: "Bodyguard"
+ bloodrider: "Bloodrider"
+ agot_dragon: "Dragon"
+ agot_parent_in_law: "[Character.Custom('GoodMotherFatherWithConcept')]" #NT!
+ agot_child_in_law: "[Character.Custom('GoodDaughterSonWithConcept')]" #NT!
+ pirate_ship_designated_heir: "[pirate_ship_designated_heir|E]" #NT!
   
  agot_squire_desc: "Dies ist [CHARACTER.GetShortUINamePossessiveNoTooltip] [squire|E]"
  agot_knight_desc: "Dies ist [CHARACTER.GetShortUINamePossessiveNoTooltip] [agot_knight|E]"
  paramour_desc: "Dies ist [CHARACTER.GetShortUINamePossessiveNoTooltip] Konkubine"
- bodyguard_desc: "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bodyguard" #NT!
- bloodrider_desc: "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bloodrider" #NT!
- agot_dragon_desc: "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bonded [dragon|E]" #NT!
+ bodyguard_desc: "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bodyguard"
+ bloodrider_desc: "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bloodrider"
+ agot_dragon_desc: "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bonded [dragon|E]"
+ agot_pirate_ship_designated_heir: "This is the designated heir to [CHARACTER.GetShortUINamePossessiveNoTooltip] [agot_landless_pirate_domicile|E]" #NT!
   
-  
- relation_court_physician_female: "Maester"
- relation_court_physician_male: "Maester"
- relation_court_physician_female_possessive: "Maesters"
- relation_court_physician_male_possessive: "Maesters"
-  
- relation_bloodrider_female: "bloodrider" #NT!
- relation_bloodrider_male: "bloodrider" #NT!
- relation_bloodrider_female_possessive: "bloodrider's" #NT!
- relation_bloodrider_male_possessive: "bloodrider's" #NT!
+ relation_maester_female: "maester" #NT!
+ relation_maester_male: "maester" #NT!
+ relation_maester_female_possessive: "maester's" #NT!
+ relation_maester_male_possessive: "maester's" #NT!
+ relation_captain_of_the_household_guard_female: "captain of the household guard" #NT!
+ relation_captain_of_the_household_guard_male: "captain of the household guard" #NT!
+ relation_captain_of_the_household_guard_female_possessive: "captain of the household guard's" #NT!
+ relation_captain_of_the_household_guard_male_possessive: "captain of the household guard's" #NT!
+ relation_septa_female: "septa" #NT!
+ relation_septa_female_possessive: "septa's" #NT!
+ relation_septon_male: "septon" #NT!
+ relation_septon_male_possessive: "septon's" #NT!
+ relation_gaoler_female: "keeper of the cells" #NT!
+ relation_gaoler_male: "keeper of the cells" #NT!
+ relation_gaoler_female_possessive: "keeper of the cells's" #NT!
+ relation_gaoler_male_possessive: "keeper of the cells's" #NT!
+ relation_master_at_arms_female: "master-at-arms" #NT!
+ relation_master_at_arms_male: "master-at-arms" #NT!
+ relation_master_at_arms_female_possessive: "master-at-arms's" #NT!
+ relation_master_at_arms_male_possessive: "master-at-arms's" #NT!
+ relation_court_smith_female: "court smith" #NT!
+ relation_court_smith_male: "court smith" #NT!
+ relation_court_smith_female_possessive: "court smith's" #NT!
+ relation_court_smith_male_possessive: "court smith's" #NT!
+ relation_harbormaster_female: "harbormaster" #NT!
+ relation_harbormaster_male: "harbormaster" #NT!
+ relation_harbormaster_female_possessive: "harbormaster's" #NT!
+ relation_harbormaster_male_possessive: "harbormaster's" #NT!
+ relation_paramour_female: "paramour" #NT!
+ relation_paramour_male: "paramour" #NT!
+ relation_paramour_female_possessive: "paramour's" #NT!
+ relation_paramour_male_possessive: "paramour's" #NT!
+ relation_head_dragonkeeper_female: "head dragonkeeper" #NT!
+ relation_head_dragonkeeper_male: "head dragonkeeper" #NT!
+ relation_head_dragonkeeper_female_possessive: "head dragonkeeper's" #NT!
+ relation_head_dragonkeeper_male_possessive: "head dragonkeeper's" #NT!
+ relation_bloodrider_female: "bloodrider"
+ relation_bloodrider_male: "bloodrider"
+ relation_bloodrider_female_possessive: "bloodrider's"
+ relation_bloodrider_male_possessive: "bloodrider's"

@@ -282,13 +282,13 @@
  learning_scholarship.5004.t: "$bibliomancy_chain_header$ Eine besorgniserregende Textstelle"
  learning_scholarship.5004.desc: "Ich komme ums Verrecken nicht darauf, was mir diese Textstelle aus meiner heiligen Schrift ([sacred_text.GetName]) sagen will, und das macht mich kirre!\n\nDie Angst tötet das Bewusstsein … Was kann das bedeuten? Wovor sollte ich Angst haben? #EMP Was entgeht mir#!?\n\nVielleicht kann ja jemand anderes Licht ins Dunkel bringen."
   #AGOT Modified 
- #learning_scholarship.5004.a: "[court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstNameNoTooltip] will know the answer." #NT!
+ #learning_scholarship.5004.a: "[court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstNameNoTooltip] will know the answer."
  learning_scholarship.5004.a: "[court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstNameNoTooltip] wird die Antwort kennen."
  learning_scholarship.5004.b: "Mein Höfling [target_courtier.GetTitledFirstNameNoTooltip] wird mir helfen."
  learning_scholarship.5004.c: "Ich gebe auf."
   #AGOT Modified 
- #learning_scholarship.5004.a.success: "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] clarifies the passage" #NT!
- #learning_scholarship.5004.a.failure: "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] fails to understand the passage" #NT!
+ #learning_scholarship.5004.a.success: "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] clarifies the passage"
+ #learning_scholarship.5004.a.failure: "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] fails to understand the passage"
  learning_scholarship.5004.a.success: "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] erklärt die Textstelle"
  learning_scholarship.5004.a.failure: "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] versteht die Textstelle auch nicht"
  learning_scholarship.5004.b.success: "[target_courtier.GetFirstNameNoTooltip] erklärt die Textstelle"

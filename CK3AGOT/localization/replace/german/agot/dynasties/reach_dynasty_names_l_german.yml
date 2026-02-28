@@ -1,0 +1,185 @@
+﻿l_german:
+  ### REACH DYNASTIES/CADET BRANCHES ### 
+  #Great Houses 
+ dynn_Gardener: "Gärtner"
+ dynn_Oldflowers: "Altblumen"
+ dynn_Tyrell: "Tyrell"
+  
+  #Landed Houses 
+ dynn_Ambrose: "Ambros"
+ dynn_Appleton: "Eppeln"
+ dynn_Ashford: "Aschfurt"
+ dynn_Ball: "Ball"
+ dynn_Beesbury: "Biengraben"
+ dynn_Blackbar: "Schwarzgitter"
+ dynn_Bridges: "Brücken"
+ dynn_Bulwer: "Bulwer"
+ dynn_Bushy: "Buschig"
+ dynn_Caswell: "Kaswell"
+ dynn_Cobb: "Kopp"
+ dynn_Cockshaw: "Hagestolz"
+ dynn_Conklyn: "Konklyn"
+ dynn_Cordwayner: "Kortwayner"
+ dynn_Costayne: "Costayn"
+ dynn_Crane: "Kranich"
+ dynn_Cupps: "Tassen"
+ dynn_Cuy: "Kuy"
+ dynn_Dunn: "Dunn"
+ dynn_Durwell: "Durbronn"
+ dynn_Farrow: "Ferkel"
+ dynn_Florent: "Florent"
+ dynn_Footly: "Fersen"
+ dynn_Fossoway: "Fossowey"
+ house_Fossoway_New_Barrel: "Fossowey of Neufass"
+ dynn_Foxglove: "Fuchshandschuh"
+ dynn_Goldwyne: "Goldweyne"
+ dynn_Goode: "Guth"
+ dynn_Graceford: "Gnadenfurt"
+ dynn_Graves: "Gräbern"
+ dynn_Hastwyck: "Hastwyck"
+ dynn_Hightower: "Hohenturm"
+ dynn_Hunt: "Hatz"
+ dynn_Hutcheson: "Hüttenfeld"
+ dynn_Inchfield: "Zollfeld"
+ dynn_Kidwell: "Kindgut"
+ dynn_Leygood: "Fuhrgut"
+ dynn_Lowther: "Unther"
+ dynn_Lyberr: "Lyberr"
+ dynn_Meadows: "Wiesen"
+ dynn_Merryweather: "Sonnwetter"
+ dynn_Middlebury: "Mittgraben"
+ dynn_Mullendore: "Mullendor"
+ dynn_Norcross: "Norcross"
+ dynn_Norridge: "Norrid"
+ dynn_Oakheart: "Eichenherz"
+ dynn_Orme: "Orm"
+ dynn_Osgrey: "Osgrau"
+ dynn_Peake: "Gipfel"
+ dynn_Pommingham: "Pommingen"
+ dynn_Potter: "Töpfer"
+ dynn_Redding: "Redding"
+ dynn_Redwyne: "Rothweyn"
+ dynn_Rhysling: "Rhysling"
+ dynn_Risley: "Reisig"
+ dynn_Rodden: "Rodden"
+ dynn_Rowan: "Esch"
+ dynn_Roxton: "Steinern"
+ dynn_Sawyer: "Säger"
+ dynn_Shermer: "Schermer"
+ dynn_Sloane: "Räuber"
+ dynn_Stackhouse: "Schloten"
+ dynn_Stafford: "Staffurth"
+ dynn_Stonecrab: "Steinkrebs"
+ dynn_Strickland: "Strickland"
+ dynn_Summerchild: "Sommerkind"
+ dynn_Tarly: "Tarly"
+ dynn_Uffering: "Uffering"
+ dynn_Varner: "Varner"
+ dynn_Vyrwel: "Vyrwell"
+ dynn_Webber: "Weber"
+ dynn_Westbrook: "Westbach"
+ dynn_Whitewater: "Weisswasser"
+ dynn_Willum: "Willum"
+ dynn_Woodwright: "Holzbauer"
+ dynn_Wythers: "Wyters"
+ dynn_Yelshire: "Gelbau"
+  
+  #Shield Islands 
+ dynn_Chester: "Kester"
+ dynn_Grimm: "Grim"
+ dynn_Hewett: "Hewett"
+ dynn_Serry: "Serry"
+  
+  #TTRPG semi-canon 
+ dynn_Kern: "Kern"
+ dynn_Addey: "Addey"
+  
+  #Landless Houses 
+ dynn_Duckfield: "Entenfeld"
+ dynn_Stoops: "Stups"
+  
+  #AGoT Video Game (2012) 
+ dynn_Dunford: "Dunford" #NT!
+  
+  #Modcanon and Easter Eggs 
+ dynn_Rummand: "Rummant"
+ dynn_Harme: "Leyth"
+ dynn_Deadsing: "Totensang"
+ dynn_Marchment: "Marschen"
+ dynn_Ronning: "Ronning"
+ dynn_Janney: "Janney"
+ dynn_Sorley: "Sorley"
+ dynn_Bettencer: "Ferbess"
+ dynn_Enright: "Aufrycht"
+ dynn_Bellamy: "Bellemy"
+ dynn_Percy: "Percell"
+ dynn_Whitaker: "Whitaker" #NT!
+ dynn_Everran: "Everren"
+ dynn_Averdyre: "Wendyr"
+ dynn_Bowles: "Schals"
+ dynn_Lush: "Fyllick"
+ dynn_Converlon: "Konverlon"
+ dynn_Gates: "Torren"
+ house_Vernal: "Vernal"
+ dynn_Twinrose: "Twinrose" #NT!
+ dynn_Astley: "Astley" #NT!
+ dynn_Steady: "Steady" #NT!
+ dynn_Gallant: "Gallant" #NT!
+ dynn_Bliss: "Bliss" #NT!
+ dynn_Strum: "Strum" #NT!
+ dynn_Gamble: "Gamble" #NT!
+ dynn_Macey: "Macey" #NT!
+ dynn_Verge: "Verge" #NT!
+ dynn_Lavenderne: "Lavenderne" #NT!
+ dynn_Cask: "Cask" #NT!
+ dynn_Courtnall: "Courtnall" #NT!
+ dynn_Glasser: "Glasser" #NT!
+ dynn_Quayle: "Quayle" #NT!
+ dynn_Oates: "Oates" #NT!
+ dynn_Blume: "Blume" #NT!
+ dynn_Lovett: "Lovett" #NT!
+ dynn_Ashridge: "Ashridge" #NT!
+ dynn_Amandine: "Amandine" #NT!
+ dynn_Festune: "Festune" #NT!
+ dynn_Posey: "Posey" #NT!
+ dynn_Ross: "Ross"
+ dynn_Spruce: "Spruce" #NT!
+ dynn_Meager: "Meager" #NT!
+ dynn_Litchmore: "Litchmore" #NT!
+ dynn_Wether: "Wether" #NT!
+ dynn_Roundtree: "Roundtree" #NT!
+ dynn_Foy: "Foy"
+ dynn_Rosvenore: "Rosvenore" #NT!
+ dynn_Silkbraid: "Silkbraid" #NT!
+ dynn_Lashings: "Lashings" #NT!
+ dynn_Deckler: "Deckler" #NT!
+ dynn_Harvey: "Harvey" #NT!
+ dynn_Eander: "Eander" #NT!
+ dynn_Combe: "Combe" #NT!
+ dynn_Button: "Button" #NT!
+ dynn_Oakley: "Oakley" #NT!
+ dynn_Rhoades: "Rhoades" #NT!
+ dynn_Itchweed: "Itchweed" #NT!
+ dynn_Winfler: "Winfler" #NT!
+ dynn_Tharp: "Tharp" #NT!
+ dynn_Juniper: "Juniper" #NT!
+ dynn_Lahey: "Lahey" #NT!
+ dynn_Wyse: "Weyse"
+ dynn_Persemon: "Persemon" #NT!
+ dynn_Nodding: "Nodding" #NT!
+ dynn_Darn: "Darn" #NT!
+ dynn_Kiteberry: "Kiteberry" #NT!
+ dynn_Tillwick: "Tillwick" #NT!
+ dynn_Holly: "Holly" #NT!
+ dynn_Singer: "Singer" #NT!
+ dynn_Fairley: "Fairley" #NT!
+ dynn_Eilish: "Eilish" #NT!
+ dynn_Larch: "Larch" #NT!
+ dynn_Thistle: "Thistle" #NT!
+ dynn_Threshingham: "Threshingham" #NT!
+ dynn_Cropp: "Cropp" #NT!
+ dynn_Winnow: "Winnow" #NT!
+ dynn_Hythe: "Hythe" #NT!
+ dynn_Rochalan: "Rochalan" #NT!
+ dynn_Draper: "Draper" #NT!
+ dynn_Coneflowers: "Coneflowers" #NT!

@@ -34,10 +34,10 @@
  agot_became_squire_desc_second_perspective_1: "Ihr wurdet [knight.GetTitledFirstNamePossessive] Knappe"
  agot_became_squire_desc_third_perspective_1: "[owner.GetName] wurde [knight.GetTitledFirstNamePossessive] Knappe"
   
- agot_squired_together: "Squired Together" #NT!
- agot_squired_together_desc_1: "[fellow_squire.GetTitledFirstName] and I squired together for [knight.GetTitledFirstName]" #NT!
- agot_squired_together_desc_second_perspective_1: "You and [fellow_squire.GetTitledFirstName] squired together for [knight.GetTitledFirstName]" #NT!
- agot_squired_together_desc_third_perspective_1: "[owner.GetName] and [fellow_squire.GetTitledFirstName] squired together for [knight.GetTitledFirstName]" #NT!
+ agot_squired_together: "Squired Together"
+ agot_squired_together_desc_1: "[fellow_squire.GetTitledFirstName] and I squired together for [knight.GetTitledFirstName]"
+ agot_squired_together_desc_second_perspective_1: "You and [fellow_squire.GetTitledFirstName] squired together for [knight.GetTitledFirstName]"
+ agot_squired_together_desc_third_perspective_1: "[owner.GetName] and [fellow_squire.GetTitledFirstName] squired together for [knight.GetTitledFirstName]"
   
  agot_lost_squire: "Velor einen Knappen"
  agot_lost_squire_desc_1: "[squire.GetTitledFirstName] ist nicht mehr mein Knappe"
@@ -53,6 +53,12 @@
  agot_was_knighted_desc_1: "Ich wurde von [knight.GetTitledFirstName] zum Ritter geschlagen"
  agot_was_knighted_desc_second_perspective_1: "Ihr wurdet von [knight.GetTitledFirstName] zum Ritter geschlagen"
  agot_was_knighted_desc_third_perspective_1: "[owner.GetName] wurde von [knight.GetTitledFirstName] zum Ritter geschlagen"
+  
+ agot_was_knighted_on_the_battlefield: "Was knighted on the battlefield" #NT!
+ agot_was_knighted_on_the_battlefield_desc: "Became a knight at the battle of [ROOT.Var('battle_location').GetProvince.GetName]" #NT!
+ agot_was_knighted_on_the_battlefield_desc_1: "I was knighted by [knight.GetTitledFirstName] after we won the battle of [ROOT.Var('battle_location').GetProvince.GetName]" #NT!
+ agot_was_knighted_on_the_battlefield_desc_second_perspective_1: "You were knighted by [knight.GetTitledFirstName] after you won the battle of [ROOT.Var('battle_location').GetProvince.GetName]" #NT!
+ agot_was_knighted_on_the_battlefield_desc_third_perspective_1: "[owner.GetName] was knighted by [knight.GetTitledFirstName] after winning the battle of [ROOT.Var('battle_location').GetProvince.GetName]" #NT!
   
  agot_knighted_someone: "Verlieh Ritterschlag"
  agot_knighted_someone_desc_1: "Ich schlug [squire.GetTitledFirstName] zum Ritter"
@@ -75,30 +81,30 @@
  agot_knighted_someone_as_tourney_prize_desc_second_perspective_1: "Ihr schlugt [squire.GetTitledFirstName] zum Ritter, nachdem er einen Wettkampf an Eurem Turnier gewonnen hat"
  agot_knighted_someone_as_tourney_prize_desc_third_perspective_1: "[owner.GetName] schlug [squire.GetTitledFirstName] zum Ritter, nachdem [squire.GetSheHe] an [owner.Custom('DE_PRO_POS_S_3P')]em Turnier gewonnen hat"
   
- agot_was_stripped_of_knighthood: "Was stripped of knighthood" #NT!
- agot_was_stripped_of_knighthood_desc_1: "I was stripped of my knighthood by [stripper.GetTitledFirstName] as punishment" #NT!
- agot_was_stripped_of_knighthood_desc_second_perspective_1: "You were stripped of knighthood by [stripper.GetTitledFirstName] as punishment" #NT!
- agot_was_stripped_of_knighthood_desc_third_perspective_1: "[owner.GetName] was stripped of knighthood by [stripper.GetTitledFirstName] as punishment" #NT!
+ agot_was_stripped_of_knighthood: "Was stripped of knighthood"
+ agot_was_stripped_of_knighthood_desc_1: "I was stripped of my knighthood by [stripper.GetTitledFirstName] as punishment"
+ agot_was_stripped_of_knighthood_desc_second_perspective_1: "You were stripped of knighthood by [stripper.GetTitledFirstName] as punishment"
+ agot_was_stripped_of_knighthood_desc_third_perspective_1: "[owner.GetName] was stripped of knighthood by [stripper.GetTitledFirstName] as punishment"
   
- agot_stripped_knighthood: "Was stripped of knighthood" #NT!
- agot_stripped_knighthood_desc_1: "I stripped [knight.GetTitledFirstName] of their knighthood as punishment" #NT!
- agot_stripped_knighthood_desc_second_perspective_1: "You stripped the knighthood of [knight.GetTitledFirstName] as punishment" #NT!
- agot_stripped_knighthood_desc_third_perspective_1: "[owner.GetName] stripped the knighthood of [knight.GetTitledFirstName] as punishment" #NT!
+ agot_stripped_knighthood: "Was stripped of knighthood"
+ agot_stripped_knighthood_desc_1: "I stripped [knight.GetTitledFirstName] of their knighthood as punishment"
+ agot_stripped_knighthood_desc_second_perspective_1: "You stripped the knighthood of [knight.GetTitledFirstName] as punishment"
+ agot_stripped_knighthood_desc_third_perspective_1: "[owner.GetName] stripped the knighthood of [knight.GetTitledFirstName] as punishment"
   
  agot_joined_nightswatch: "Trat der Nachtwache bei"
  agot_joined_nightswatch_desc_1: "Ich trat der Nachtwache unter [commander.GetTitledFirstName] bei"
  agot_joined_nightswatch_desc_second_perspective_1: "Ihr tratet der Nachtwache unter [commander.GetTitledFirstName] bei"
  agot_joined_nightswatch_desc_third_perspective_1: "[owner.GetName] trat der Nachtwache unter [commander.GetTitledFirstName] bei"
   
- agot_swore_nightswatch_oath: "Took the Black" #NT!
- agot_swore_nightswatch_oath_desc_1: "I swore my vows and took the black" #NT!
- agot_swore_nightswatch_oath_desc_second_perspective_1: "You swore your vows and took the black" #NT!
- agot_swore_nightswatch_oath_desc_third_perspective_1: "[owner.GetName] swore his vows and took the black" #NT!
+ agot_swore_nightswatch_oath: "Took the Black"
+ agot_swore_nightswatch_oath_desc_1: "I swore my vows and took the black"
+ agot_swore_nightswatch_oath_desc_second_perspective_1: "You swore your vows and took the black"
+ agot_swore_nightswatch_oath_desc_third_perspective_1: "[owner.GetName] swore his vows and took the black"
   
- agot_joined_silent_sisters: "Joined the Silent Sisterhood" #NT!
- agot_joined_silent_sisters_desc_1: "I joined the Silent Sisterhood under [silent_mother.GetTitledFirstName]" #NT!
- agot_joined_silent_sisters_desc_second_perspective_1: "You joined the Silent Sisterhood under [silent_mother.GetTitledFirstName]" #NT!
- agot_joined_silent_sisters_desc_third_perspective_1: "[owner.GetName] joined the Silent Sisterhood under [silent_mother.GetTitledFirstName]" #NT!
+ agot_joined_silent_sisters: "Joined the Silent Sisterhood"
+ agot_joined_silent_sisters_desc_1: "I joined the Silent Sisterhood under [silent_mother.GetTitledFirstName]"
+ agot_joined_silent_sisters_desc_second_perspective_1: "You joined the Silent Sisterhood under [silent_mother.GetTitledFirstName]"
+ agot_joined_silent_sisters_desc_third_perspective_1: "[owner.GetName] joined the Silent Sisterhood under [silent_mother.GetTitledFirstName]"
   
  agot_got_paramour: "Nahm eine Konkubine"
  agot_got_paramour_desc_1: "Ich nahm [paramour.GetFirstName] zur Konkubine"
@@ -115,30 +121,30 @@
  agot_joined_citadel_desc_second_perspective_1: "Ihr begannt Eure Ausbildung an der Zitadelle"
  agot_joined_citadel_desc_third_perspective_1: "[owner.GetName] begann [owner.Custom('DE_PRO_POS_S_3P')]e Ausbildung an der Zitadelle"
   
- agot_earned_maester_link: "Earned First Link" #NT!
- agot_earned_maester_link_desc_1: "I earned my first link towards my maester's chain studying under [instructor.Custom('MaesterCheck')] [instructor.GetFirstName]" #NT!
- agot_earned_maester_link_desc_second_perspective_1: "You earned your first link towards your maester's chain studying under Maester [instructor.GetFirstName]" #NT!
- agot_earned_maester_link_desc_third_perspective_1: "[owner.GetName] earned their first link towards their maester's chain studying under Maester [instructor.GetFirstName]" #NT!
+ agot_earned_maester_link: "Earned First Link"
+ agot_earned_maester_link_desc_1: "I earned my first link towards my maester's chain studying under [instructor.Custom('MaesterCheck')] [instructor.GetFirstName]"
+ agot_earned_maester_link_desc_second_perspective_1: "You earned your first link towards your maester's chain studying under Maester [instructor.GetFirstName]"
+ agot_earned_maester_link_desc_third_perspective_1: "[owner.GetName] earned their first link towards their maester's chain studying under Maester [instructor.GetFirstName]"
   
- agot_became_maester: "Became a Maester" #NT!
- agot_became_maester_desc_1: "I became a full-fledged maester at the Citadel" #NT!
- agot_became_maester_desc_second_perspective_1: "You became a full-fledged maester at the Citadel" #NT!
- agot_became_maester_desc_third_perspective_1: "[owner.GetName] became a full-fledged maester at the Citadel" #NT!
+ agot_became_maester: "Became a Maester"
+ agot_became_maester_desc_1: "I became a full-fledged maester at the Citadel"
+ agot_became_maester_desc_second_perspective_1: "You became a full-fledged maester at the Citadel"
+ agot_became_maester_desc_third_perspective_1: "[owner.GetName] became a full-fledged maester at the Citadel"
   
- agot_became_archmaester: "Nominated to Archmaester" #NT!
- agot_became_archmaester_desc_1: "I became an Archmaester at the Citadel" #NT!
- agot_became_archmaester_desc_second_perspective_1: "You became an Archmaester at the Citadel" #NT!
- agot_became_archmaester_desc_third_perspective_1: "[owner.GetName] became an Archmaester at the Citadel" #NT!
+ agot_became_archmaester: "Nominated to Archmaester"
+ agot_became_archmaester_desc_1: "I became an Archmaester at the Citadel"
+ agot_became_archmaester_desc_second_perspective_1: "You became an Archmaester at the Citadel"
+ agot_became_archmaester_desc_third_perspective_1: "[owner.GetName] became an Archmaester at the Citadel"
   
- agot_became_grandmaester: "Appointed Grand Maester" #NT!
- agot_became_grandmaester_desc_1: "I was appointed to the royal position of Grand Maester" #NT!
- agot_became_grandmaester_desc_second_perspective_1: "You were appointed to the royal position of Grand Maester" #NT!
- agot_became_grandmaester_desc_third_perspective_1: "[owner.GetName] was appointed to the royal position of Grand Maester" #NT!
+ agot_became_grandmaester: "Appointed Grand Maester"
+ agot_became_grandmaester_desc_1: "I was appointed to the royal position of Grand Maester"
+ agot_became_grandmaester_desc_second_perspective_1: "You were appointed to the royal position of Grand Maester"
+ agot_became_grandmaester_desc_third_perspective_1: "[owner.GetName] was appointed to the royal position of Grand Maester"
   
  agot_widowed_memory: "Tod [spouse.Custom('DE_ART_DEF_S_G')] Ehe[spouse.GetWomanMan|L]"
  agot_widowed_memory_desc_1: "Mein[spouse.Custom('DE_END_PRO_S_N')] Ehe[spouse.GetWomanMan|L] starb und ließ mich als Witw[owner.Custom('DE_END_ADJ_IND_S_N')] zurück"
  agot_widowed_memory_desc_second_perspective_1: "[spouse.Custom('DE_PRO_POS_P_2P_N')|U] Ehe[spouse.GetWomanMan|L] starb und ließ Euch als Witw[owner.Custom('DE_END_ADJ_IND_S_N')] zurück."
- agot_widowed_memory_desc_third_perspective_1: "[owner.GetNamePossessive] spouse died, making [owner.GetHerHis] a widow" #NT!
+ agot_widowed_memory_desc_third_perspective_1: "[owner.GetNamePossessive] spouse died, making [owner.GetHerHis] a widow"
   
  agot_tortured_memory: "Wurde gefoltert"
  agot_tortured_memory_desc: "Ich wurde von [torturer.GetTitledFirstName] gefoltert"
@@ -155,15 +161,15 @@
  agot_blinded_memory_desc_second_perspective_1: "Ihr wurdet von [torturer.GetTitledFirstName] Eures Augenlichts beraubt"
  agot_blinded_memory_desc_third_perspective_1: "[owner.GetName] wurde von [torturer.GetTitledFirstName] [owner.Custom('DE_PRO_POS_S_3P')]es Augenlichts beraubt"
   
- agot_disfigured_memory: "Was Disfigured" #NT!
- agot_disfigured_memory_desc: "I was disfigured by [torturer.GetTitledFirstName]" #NT!
- agot_disfigured_memory_desc_second_perspective_1: "You were disfigured by [torturer.GetTitledFirstName]" #NT!
- agot_disfigured_memory_desc_third_perspective_1: "[owner.GetName] was disfigured by [torturer.GetTitledFirstName]" #NT!
+ agot_disfigured_memory: "Was Disfigured"
+ agot_disfigured_memory_desc: "I was disfigured by [torturer.GetTitledFirstName]"
+ agot_disfigured_memory_desc_second_perspective_1: "You were disfigured by [torturer.GetTitledFirstName]"
+ agot_disfigured_memory_desc_third_perspective_1: "[owner.GetName] was disfigured by [torturer.GetTitledFirstName]"
   
- agot_maimed_memory: "Was Maimed" #NT!
- agot_maimed_memory_desc: "I was maimed by [torturer.GetTitledFirstName]" #NT!
- agot_maimed_memory_desc_second_perspective_1: "You were maimed by [torturer.GetTitledFirstName]" #NT!
- agot_maimed_memory_desc_third_perspective_1: "[owner.GetName] was maimed by [torturer.GetTitledFirstName]" #NT!
+ agot_maimed_memory: "Was Maimed"
+ agot_maimed_memory_desc: "I was maimed by [torturer.GetTitledFirstName]"
+ agot_maimed_memory_desc_second_perspective_1: "You were maimed by [torturer.GetTitledFirstName]"
+ agot_maimed_memory_desc_third_perspective_1: "[owner.GetName] was maimed by [torturer.GetTitledFirstName]"
   
  agot_muted_memory: "Wurde zum Schweigen gebracht"
  agot_muted_memory_desc: "Mir wurde von [torturer.GetTitledFirstName] die Zunge herausgeschnitten"
@@ -175,92 +181,97 @@
  agot_raised_to_nobility_memory_desc_second_perspective_1: "[raiser.GetTitledFirstName] erhob Euch in den Adelsstand"
  agot_raised_to_nobility_memory_desc_third_perspective_1: "[raiser.GetTitledFirstName] erhob [owner.GetName] in den Adelssstand"
   
- agot_memory_interesting_area_explored: "Explored [ROOT.Var('city_location').GetProvince.GetName]" #NT!
- interesting_area_explored_desc: "I explored [ROOT.Var('city_location').GetProvince.GetName] during my travels" #NT!
- interesting_area_explored_desc_second_perspective: "you explored [ROOT.Var('city_location').GetProvince.GetName] during your travels" #NT!
- interesting_area_explored_desc_third_perspective: "[owner.GetName] explored [ROOT.Var('city_location').GetProvince.GetName] during [owner.GetHerHis] travels" #NT!
+ agot_memory_interesting_area_explored: "Explored [ROOT.Var('city_location').GetProvince.GetName]"
+ interesting_area_explored_desc: "I explored [ROOT.Var('city_location').GetProvince.GetName] during my travels"
+ interesting_area_explored_desc_second_perspective: "you explored [ROOT.Var('city_location').GetProvince.GetName] during your travels"
+ interesting_area_explored_desc_third_perspective: "[owner.GetName] explored [ROOT.Var('city_location').GetProvince.GetName] during [owner.GetHerHis] travels"
   
- agot_named_a_qolab: "Named a Queen of Love and Beauty" #NT!
- agot_named_a_qolab_desc: "I named [qolab.GetTitledFirstName] the Queen of Love and Beauty" #NT!
- agot_named_a_qolab_desc_second_perspective: "You named [qolab.GetTitledFirstName] the Queen of Love and Beauty" #NT!
- agot_named_a_qolab_desc_third_perspective: "[owner.GetName] named [qolab.GetTitledFirstName] the Queen of Love and Beauty" #NT!
+ agot_named_a_qolab: "Named a Queen of Love and Beauty"
+ agot_named_a_qolab_desc: "I named [qolab.GetTitledFirstName] the Queen of Love and Beauty"
+ agot_named_a_qolab_desc_second_perspective: "You named [qolab.GetTitledFirstName] the Queen of Love and Beauty"
+ agot_named_a_qolab_desc_third_perspective: "[owner.GetName] named [qolab.GetTitledFirstName] the Queen of Love and Beauty"
   
- agot_named_as_qolab: "Crowned Queen of Love and Beauty" #NT!
- agot_named_as_qolab_desc: "I was crowned the Queen of Love and Beauty by [crowner.GetTitledFirstName]" #NT!
- agot_named_as_qolab_desc_second_perspective: "You were crowned the Queen of Love and Beauty by [crowner.GetTitledFirstName]" #NT!
- agot_named_as_qolab_desc_third_perspective: "[owner.GetName] was crowned the Queen of Love and Beauty by [crowner.GetTitledFirstName]" #NT!
+ agot_named_as_qolab: "Crowned Queen of Love and Beauty"
+ agot_named_as_qolab_desc: "I was crowned the Queen of Love and Beauty by [crowner.GetTitledFirstName]"
+ agot_named_as_qolab_desc_second_perspective: "You were crowned the Queen of Love and Beauty by [crowner.GetTitledFirstName]"
+ agot_named_as_qolab_desc_third_perspective: "[owner.GetName] was crowned the Queen of Love and Beauty by [crowner.GetTitledFirstName]"
   
- agot_freed_from_slavery_memory: "Freed from Slavery" #NT!
- agot_freed_from_slavery_memory_desc: "[liberator.GetTitledFirstName] freed me from slavery to [slaveowner.GetTitledFirstName]" #NT!
- agot_freed_from_slavery_memory_desc_second_perspective_1: "[liberator.GetTitledFirstName] freed you from slavery to [slaveowner.GetTitledFirstName]" #NT!
- agot_freed_from_slavery_memory_desc_third_perspective_1: "[liberator.GetTitledFirstName] freed [owner.GetName] from slavery to [slaveowner.GetTitledFirstName]" #NT!
+ agot_freed_from_slavery_memory: "Freed from Slavery"
+ agot_freed_from_slavery_memory_desc: "[liberator.GetTitledFirstName] freed me from slavery to [slaveowner.GetTitledFirstName]"
+ agot_freed_from_slavery_memory_desc_second_perspective_1: "[liberator.GetTitledFirstName] freed you from slavery to [slaveowner.GetTitledFirstName]"
+ agot_freed_from_slavery_memory_desc_third_perspective_1: "[liberator.GetTitledFirstName] freed [owner.GetName] from slavery to [slaveowner.GetTitledFirstName]"
   
- agot_divorced_spouse: "Divorced Spouse" #NT!
- agot_divorced_spouse_desc_1: "I divorced [divorcee.GetTitledFirstName]" #NT!
- agot_divorced_spouse_desc_second_perspective_1: "You divorced [divorcee.GetTitledFirstName]" #NT!
- agot_divorced_spouse_desc_third_perspective_1: "[divorcee.GetTitledFirstName] was divorced by [owner.GetNamePossessive]" #NT!
+ agot_divorced_spouse: "Divorced Spouse"
+ agot_divorced_spouse_desc_1: "I divorced [divorcee.GetTitledFirstName]"
+ agot_divorced_spouse_desc_second_perspective_1: "You divorced [divorcee.GetTitledFirstName]"
+ agot_divorced_spouse_desc_third_perspective_1: "[divorcee.GetTitledFirstName] was divorced by [owner.GetNamePossessive]"
   
- agot_was_divorced_by_spouse: "Was Divorced by my Spouse" #NT!
- agot_was_divorced_by_spouse_desc_1: "I was divorced by [divorcer.GetTitledFirstName]" #NT!
- agot_was_divorced_by_spouse_desc_second_perspective_1: "You were divorced by [divorcer.GetTitledFirstName]" #NT!
- agot_was_divorced_by_spouse_desc_third_perspective_1: "[owner.GetTitledFirstName] was divorced by [divorcer.GetNamePossessive]" #NT!
+ agot_was_divorced_by_spouse: "Was Divorced by my Spouse"
+ agot_was_divorced_by_spouse_desc_1: "I was divorced by [divorcer.GetTitledFirstName]"
+ agot_was_divorced_by_spouse_desc_second_perspective_1: "You were divorced by [divorcer.GetTitledFirstName]"
+ agot_was_divorced_by_spouse_desc_third_perspective_1: "[owner.GetTitledFirstName] was divorced by [divorcer.GetNamePossessive]"
   
- agot_bonded_a_dragon: "Bonded a Dragon" #NT!
- agot_bonded_a_dragon_desc_1: "I bonded with [tamed_dragon.GetName]" #NT!
- agot_bonded_a_dragon_desc_second_perspective_1: "You bonded with [tamed_dragon.GetName]" #NT!
- agot_bonded_a_dragon_desc_third_perspective_1: "[owner.GetName] bonded with [tamed_dragon.GetName]" #NT!
+ agot_bonded_a_dragon: "Bonded a Dragon"
+ agot_bonded_a_dragon_desc_1: "I bonded with [tamed_dragon.GetName]"
+ agot_bonded_a_dragon_desc_second_perspective_1: "You bonded with [tamed_dragon.GetName]"
+ agot_bonded_a_dragon_desc_third_perspective_1: "[owner.GetName] bonded with [tamed_dragon.GetName]"
   
- agot_tamed_a_dragon: "Tamed a Dragon" #NT!
- agot_tamed_a_dragon_desc_1: "I tamed [tamed_dragon.GetName]" #NT!
- agot_tamed_a_dragon_desc_second_perspective_1: "You tamed [tamed_dragon.GetName]" #NT!
- agot_tamed_a_dragon_desc_third_perspective_1: "[owner.GetName] tamed [tamed_dragon.GetName]" #NT!
+ agot_tamed_a_dragon: "Tamed a Dragon"
+ agot_tamed_a_dragon_desc_1: "I tamed [tamed_dragon.GetName]"
+ agot_tamed_a_dragon_desc_second_perspective_1: "You tamed [tamed_dragon.GetName]"
+ agot_tamed_a_dragon_desc_third_perspective_1: "[owner.GetName] tamed [tamed_dragon.GetName]"
   
- agot_failed_tamed_a_dragon: "Failed to Tame a Dragon" #NT!
- agot_failed_to_tame_a_dragon_desc_1: "I failed to tame [dragon.GetName]" #NT!
- agot_failed_to_tame_a_dragon_desc_second_perspective_1: "You failed to tame [dragon.GetName]" #NT!
- agot_failed_to_tame_a_dragon_desc_third_perspective_1: "[owner.GetName] failed to tame [dragon.GetName]" #NT!
+ agot_failed_tamed_a_dragon: "Failed to Tame a Dragon"
+ agot_failed_to_tame_a_dragon_desc_1: "I failed to tame [dragon.GetName]"
+ agot_failed_to_tame_a_dragon_desc_second_perspective_1: "You failed to tame [dragon.GetName]"
+ agot_failed_to_tame_a_dragon_desc_third_perspective_1: "[owner.GetName] failed to tame [dragon.GetName]"
   
- agot_dragon_died: "Dragon Died" #NT!
- agot_dragon_died_desc_1: "My dragon [dead_dragon.GetName] died" #NT!
- agot_dragon_died_desc_second_perspective_1: "Your dragon [dead_dragon.GetName] died" #NT!
- agot_dragon_died_desc_third_perspective_1: "[owner.GetNamePossessive] dragon [dead_dragon.GetName] died" #NT!
+ agot_dragon_died: "Dragon Died"
+ agot_dragon_died_desc_1: "My dragon [dead_dragon.GetName] died"
+ agot_dragon_died_desc_second_perspective_1: "Your dragon [dead_dragon.GetName] died"
+ agot_dragon_died_desc_third_perspective_1: "[owner.GetNamePossessive] dragon [dead_dragon.GetName] died"
   
- agot_slayed_dragon: "Slayed a Dragon" #NT!
- agot_slayed_dragon_desc_1: "I slew the dragon [slayed_dragon.GetName]" #NT!
- agot_slayed_dragon_desc_second_perspective_1: "You slew the dragon [slayed_dragon.GetName]" #NT!
- agot_slayed_dragon_desc_third_perspective_1: "[owner.GetName] slew the dragon [slayed_dragon.GetName]" #NT!
+ agot_slayed_dragon: "Slayed a Dragon"
+ agot_slayed_dragon_desc_1: "I slew the dragon [slayed_dragon.GetName]"
+ agot_slayed_dragon_desc_second_perspective_1: "You slew the dragon [slayed_dragon.GetName]"
+ agot_slayed_dragon_desc_third_perspective_1: "[owner.GetName] slew the dragon [slayed_dragon.GetName]"
   
- agot_wounded_by_dragon: "Wounded by a Dragon" #NT!
- agot_wounded_by_dragon_desc_1: "I was wounded by the dragon [wounding_dragon.GetName]" #NT!
- agot_wounded_by_dragon_desc_second_perspective_1: "You were wounded by the dragon [wounding_dragon.GetName]" #NT!
- agot_wounded_by_dragon_desc_third_perspective_1: "[owner.GetName] was wounded by the dragon [wounding_dragon.GetName]" #NT!
+ agot_wounded_by_dragon: "Wounded by a Dragon"
+ agot_wounded_by_dragon_desc_1: "I was wounded by the dragon [wounding_dragon.GetName]"
+ agot_wounded_by_dragon_desc_second_perspective_1: "You were wounded by the dragon [wounding_dragon.GetName]"
+ agot_wounded_by_dragon_desc_third_perspective_1: "[owner.GetName] was wounded by the dragon [wounding_dragon.GetName]"
   
- agot_hatched_egg: "Hatched Dragon" #NT!
- agot_hatched_egg_desc_1: "I hatched the dragon [dragon.GetName] from their egg" #NT!
- agot_hatched_egg_desc_second_perspective_1: "You hatched the dragon [dragon.GetName] from their egg" #NT!
- agot_hatched_egg_desc_third_perspective_1: "[owner.GetName] hatched the dragon [dragon.GetName] from their egg" #NT!
+ agot_hatched_egg: "Hatched Dragon"
+ agot_hatched_egg_desc_1: "I hatched the dragon [dragon.GetName] from their egg"
+ agot_hatched_egg_desc_second_perspective_1: "You hatched the dragon [dragon.GetName] from their egg"
+ agot_hatched_egg_desc_third_perspective_1: "[owner.GetName] hatched the dragon [dragon.GetName] from their egg"
   
- agot_dragon_laid_clutch_1: "Laid Clutch" #NT!
- agot_laid_clutch_desc_1: "I laid a clutch of one egg" #NT!
- agot_laid_clutch_desc_second_perspective_1: "You laid a clutch of one egg" #NT!
- agot_laid_clutch_desc_third_perspective_1: "[owner.GetName] laid a clutch of one egg" #NT!
+ agot_dragon_laid_clutch_1: "Laid Clutch"
+ agot_laid_clutch_desc_1: "I laid a clutch of one egg"
+ agot_laid_clutch_desc_second_perspective_1: "You laid a clutch of one egg"
+ agot_laid_clutch_desc_third_perspective_1: "[owner.GetName] laid a clutch of one egg"
   
- agot_dragon_laid_clutch_2: "Laid Clutch" #NT!
- agot_laid_clutch_desc_2: "I laid a clutch of two eggs" #NT!
- agot_laid_clutch_desc_second_perspective_2: "You laid a clutch of two eggs" #NT!
- agot_laid_clutch_desc_third_perspective_2: "[owner.GetName] laid a clutch of two eggs" #NT!
+ agot_dragon_laid_clutch_2: "Laid Clutch"
+ agot_laid_clutch_desc_2: "I laid a clutch of two eggs"
+ agot_laid_clutch_desc_second_perspective_2: "You laid a clutch of two eggs"
+ agot_laid_clutch_desc_third_perspective_2: "[owner.GetName] laid a clutch of two eggs"
   
- agot_dragon_laid_clutch_3: "Laid Clutch" #NT!
- agot_laid_clutch_desc_3: "I laid a clutch of three eggs" #NT!
- agot_laid_clutch_desc_second_perspective_3: "You laid a clutch of three eggs" #NT!
- agot_laid_clutch_desc_third_perspective_3: "[owner.GetName] laid a clutch of three eggs" #NT!
+ agot_dragon_laid_clutch_3: "Laid Clutch"
+ agot_laid_clutch_desc_3: "I laid a clutch of three eggs"
+ agot_laid_clutch_desc_second_perspective_3: "You laid a clutch of three eggs"
+ agot_laid_clutch_desc_third_perspective_3: "[owner.GetName] laid a clutch of three eggs"
   
- agot_dragon_laid_clutch_4: "Laid Clutch" #NT!
- agot_laid_clutch_desc_4: "I laid a clutch of four eggs" #NT!
- agot_laid_clutch_desc_second_perspective_4: "You laid a clutch of four eggs" #NT!
- agot_laid_clutch_desc_third_perspective_4: "[owner.GetName] laid a clutch of four eggs" #NT!
+ agot_dragon_laid_clutch_4: "Laid Clutch"
+ agot_laid_clutch_desc_4: "I laid a clutch of four eggs"
+ agot_laid_clutch_desc_second_perspective_4: "You laid a clutch of four eggs"
+ agot_laid_clutch_desc_third_perspective_4: "[owner.GetName] laid a clutch of four eggs"
   
- agot_dragon_laid_clutch_5: "Laid Clutch" #NT!
- agot_laid_clutch_desc_5: "I laid a clutch of five eggs" #NT!
- agot_laid_clutch_desc_second_perspective_5: "You laid a clutch of five eggs" #NT!
- agot_laid_clutch_desc_third_perspective_5: "[owner.GetName] laid a clutch of five eggs" #NT!
+ agot_dragon_laid_clutch_5: "Laid Clutch"
+ agot_laid_clutch_desc_5: "I laid a clutch of five eggs"
+ agot_laid_clutch_desc_second_perspective_5: "You laid a clutch of five eggs"
+ agot_laid_clutch_desc_third_perspective_5: "[owner.GetName] laid a clutch of five eggs"
+  
+ agot_became_pirate: "Became a Pirate" #NT!
+ agot_became_pirate_desc: "I became a pirate" #NT!
+ agot_became_pirate_desc_second_perspective: "You became a pirate" #NT!
+ agot_became_pirate_desc_third_perspective: "[owner.GetName] became a pirate" #NT!

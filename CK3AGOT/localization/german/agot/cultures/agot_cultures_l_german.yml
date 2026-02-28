@@ -1,0 +1,656 @@
+﻿l_german:
+ children_culture: "Those Who Sing the Song of the Earth" #NT!
+ children_culture_prefix: "Singing" #NT!
+ children_culture_collective_noun: "Singers" #NT!
+  
+ dragon_culture: "Dragon" #NT!
+ dragon_culture_prefix: "Draco" #NT!
+ dragon_culture_collective_noun: "Dragons" #NT!
+  
+ giant_culture: "Giant" #NT!
+ giant_culture_prefix: "Giant" #NT!
+ giant_culture_collective_noun: "Giants" #NT!
+  
+ ifequevron: "Ifequevronisch"
+ ifequevron_prefix: "Ifequevroni"
+ ifequevron_collective_noun: "Ifequevroni"
+  
+ jhogwin: "Jhogwinisch"
+ jhogwin_prefix: "Jhogwini"
+ jhogwin_collective_noun: "Jhogwinen"
+  
+ fisher_queen_race: "Fisher Queen" #NT!
+ fisher_queen_race_prefix: "Fisher" #NT!
+ fisher_queen_race_collective_noun: "Fisher Queens" #NT!
+  
+ others_culture: "Other" #NT!
+ others_culture_prefix: "Ice" #NT!
+ others_culture_collective_noun: "Others" #NT!
+  
+ mazemaker: "Labyrinthisch"
+ mazemaker_prefix: "Labyrinth"
+ mazemaker_collective_noun: "Labyrinthbauer"
+  
+ unknown_culture: "Unknown" #NT!
+ unknown_culture_prefix: "Unknown" #NT!
+ unknown_culture_collective_noun: "Unknown" #NT!
+  
+ candling: "Candling" #NT!
+ candling_prefix: "Candling" #NT!
+ candling_collective_noun: "Candlings" #NT!
+  
+ andal: "Andalisch"
+ andal_prefix: "Andalo"
+ andal_collective_noun: "Andalen"
+  
+ andalosi: "Andalosisch"
+ andalosi_prefix: "Andalosi"
+ andalosi_collective_noun: "Andalosi"
+  
+ axeman: "Axtmännisch"
+ axeman_prefix: "Axt"
+ axeman_collective_noun: "Axtmänner"
+  
+ crownlander: "Kronländisch"
+ crownlander_prefix: "Kron"
+ crownlander_collective_noun: "Kronländer"
+  
+ sandman: "Sandman" #NT!
+ sandman_prefix: "Sand" #NT!
+ sandman_collective_noun: "Sandmen" #NT!
+  
+ vineman: "Rebenmännisch"
+ vineman_prefix: "Reben"
+ vineman_collective_noun: "Rebenmänner"
+  
+ honeywiner: "Honigweinländisch"
+ honeywiner_prefix: "Honig"
+ honeywiner_collective_noun: "Honigweinländer"
+  
+ reachman: "Weitländisch"
+ reachman_prefix: "Rosen"
+ reachman_collective_noun: "Weitländer"
+  
+ shieldman: "Schildmännisch"
+ shieldman_prefix: "Schild"
+ shieldman_collective_noun: "Schildmänner"
+  
+ riverman_main: "Riverlander" #NT!
+ riverman_main_prefix: "Trident" #NT!
+ riverman_main_collective_noun: "Riverlanders" #NT!
+  
+ stormlander_main: "Stormlander" #NT!
+ stormlander_main_prefix: "Storm" #NT!
+ stormlander_main_collective_noun: "Stormlanders" #NT!
+  
+ marcher: "Marschländisch"
+ marcher_prefix: "Marsch"
+ marcher_collective_noun: "Marschländer"
+  
+ valeman_finger: "Finger Valeman" #NT!
+ valeman_finger_prefix: "Finger" #NT!
+ valeman_finger_collective_noun: "Finger Valemen" #NT!
+  
+ valeman_main: "Lower Valeman" #NT!
+ valeman_main_prefix: "Lower" #NT!
+ valeman_main_collective_noun: "Lower Valemen" #NT!
+  
+ sisterman: "Schwestermännisch"
+ sisterman_prefix: "Schwestern"
+ sisterman_collective_noun: "Schwestermänner"
+  
+ valeman_upper: "Upper Valeman" #NT!
+ valeman_upper_prefix: "Upper" #NT!
+ valeman_upper_collective_noun: "Upper Valemen" #NT!
+  
+ westerman_main: "Westerlander" #NT!
+ westerman_main_prefix: "Western" #NT!
+ westerman_main_collective_noun: "Westerlanders" #NT!
+  
+ clawman: "Klauenmännisch"
+ clawman_prefix: "Klauen"
+ clawman_collective_noun: "Klauenmänner"
+  
+ first_man: "Erstmännisch"
+ first_man_prefix: "Ersten"
+ first_man_collective_noun: "Die Ersten Menschen"
+  
+ first_clan: "First Clan" #NT!
+ first_clan_prefix: "First" #NT!
+ first_clan_collective_noun: "First Clan" #NT!
+  
+ barrowman: "Hügelländisch"
+ barrowman_prefix: "Hügel"
+ barrowman_collective_noun: "Hügelländer"
+  
+ bearman: "Bearman"
+ bearman_prefix: "Bear"
+ bearman_collective_noun: "Bearmen"
+  
+ crannogman: "Pfahlbaummännisch"
+ crannogman_prefix: "Moor"
+ crannogman_collective_noun: "Pfahlbaummenschen"
+  
+ harborman: "Hafenmännisch"
+ harborman_prefix: "Hafen"
+ harborman_collective_noun: "Hafenmänner"
+  
+ krakenman: "Krakenmännisch"
+ krakenman_prefix: "Kraken"
+ krakenman_collective_noun: "Krakenmänner"
+  
+ northern_clan: "Northern Clan" #NT!
+ northern_clan_prefix: "Clan" #NT!
+ northern_clan_collective_noun: "Northern Clans" #NT!
+  
+ northman: "Nordmännisch"
+ northman_prefix: "Winter"
+ northman_collective_noun: "Nordmänner"
+  
+ skagosi: "Skagosisch"
+ skagosi_prefix: "Skagosi"
+ skagosi_collective_noun: "Skagosi"
+  
+ wolfswood_clansman: "Wolfswaldmännisch"
+ wolfswood_clansman_prefix: "Wolfswald"
+ wolfswood_clansman_collective_noun: "Wolfswaldmänner"
+  
+ braavosi: "Braavosisch"
+ braavosi_prefix: "Braavosi"
+ braavosi_collective_noun: "Braavosi"
+  
+ essarian: "Essarianisch"
+ essarian_prefix: "Essari"
+ essarian_collective_noun: "Essarianer"
+  
+ lorathi: "Lorathisch"
+ lorathi_prefix: "Lorathi"
+ lorathi_collective_noun: "Lorathi"
+  
+ norvoshi: "Norvosisch"
+ norvoshi_prefix: "Norvosi"
+ norvoshi_collective_noun: "Norvosi"
+  
+ pentoshi: "Pentosisch"
+ pentoshi_prefix: "Pentosi"
+ pentoshi_collective_noun: "Pentosi"
+  
+ nonteloshi: "Nonteloshi" #NT!
+ nonteloshi_prefix: "Nontelo" #NT!
+ nonteloshi_collective_noun: "Nonteloshi" #NT!
+  
+ qohorik: "Qohorikisch"
+ qohorik_prefix: "Qohori"
+ qohorik_collective_noun: "Qohoriken"
+  
+ hartalari: "Hartalari"
+ hartalari_prefix: "Haro"
+ hartalari_collective_noun: "Hartalari"
+  
+ lyseni: "Lysenisch"
+ lyseni_prefix: "Lyseni"
+ lyseni_collective_noun: "Lyseni"
+  
+ myrish: "Myrisch"
+ myrish_prefix: "Myri"
+ myrish_collective_noun: "Myrer"
+  
+ tyroshi: "Tyrosisch"
+ tyroshi_prefix: "Tyrosi"
+ tyroshi_collective_noun: "Tyrosi"
+  
+ volantene: "Volantenisch"
+ volantene_prefix: "Volanti"
+ volantene_collective_noun: "Volantener"
+  
+ ghaeni: "Ghaeni" #NT!
+ ghaeni_prefix: "Ghaeno" #NT!
+ ghaeni_collective_noun: "Ghaeni" #NT!
+  
+ ghardaqi: "Ghardaqi" #NT!
+ ghardaqi_prefix: "Ghardo" #NT!
+ ghardaqi_collective_noun: "Ghardaqi" #NT!
+  
+ ghiscari_original: "Ghiscari" #NT!
+ ghiscari_original_prefix: "Ghiso" #NT!
+ ghiscari_original_collective_noun: "Ghiscari" #NT!
+  
+ hazdahni: "Hazdahnisch"
+ hazdahni_prefix: "Hazdahni"
+ hazdahni_collective_noun: "Hazdahni"
+  
+ shuzduni: "Shuzdunisch"
+ shuzduni_prefix: "Shuzduni"
+ shuzduni_collective_noun: "Shuzduni"
+  
+ astapori: "Astaporisch"
+ astapori_prefix: "Astapori"
+ astapori_collective_noun: "Astapori"
+  
+ meereenese: "Meereenisch"
+ meereenese_prefix: "Meereeno"
+ meereenese_collective_noun: "Meereener"
+  
+ yunkaii: "Yunkai'i" #NT!
+ yunkaii_prefix: "Yunko" #NT!
+ yunkaii_collective_noun: "Yunkai'i" #NT!
+  
+ gorgari: "Gorgari" #NT!
+ gorgari_prefix: "Gorgo" #NT!
+ gorgari_collective_noun: "Gorgari" #NT!
+  
+ goroshari: "Goroshari" #NT!
+ goroshari_prefix: "Goro" #NT!
+ goroshari_collective_noun: "Goroshari" #NT!
+  
+ zamettari: "Zamettari" #NT!
+ zamettari_prefix: "Zamo" #NT!
+ zamettari_collective_noun: "Zamettari" #NT!
+  
+ dothraki: "Dothrakisch"
+ dothraki_prefix: "Dothraki"
+ dothraki_collective_noun: "Dothraki"
+  
+ lhazareen: "Lhazareenisch"
+ lhazareen_prefix: "Lhazareeni"
+ lhazareen_collective_noun: "Lhazareen"
+  
+ omberi: "Omberisch"
+ omberi_prefix: "Omberi"
+ omberi_collective_noun: "Omberi"
+  
+ hairy_forest: "Clan of the Forests" #NT!
+ hairy_forest_prefix: "Forest" #NT!
+ hairy_forest_collective_noun: "Clans of the Forests" #NT!
+  
+ hairy_isle: "Clan of the Isles" #NT!
+ hairy_isle_prefix: "Isle" #NT!
+ hairy_isle_collective_noun: "Clans of the Isles" #NT!
+  
+ hairy_rivers: "Clan of the Rivers" #NT!
+ hairy_rivers_prefix: "River" #NT!
+ hairy_rivers_collective_noun: "Clans of the Rivers" #NT!
+  
+ bayasabhadan: "Bayasabhadan" #NT!
+ bayasabhadan_prefix: "Bayaso" #NT!
+ bayasabhadan_collective_noun: "Bayasabhadans" #NT!
+  
+ hyrkoonan_original: "Hyrkoonan" #NT!
+ hyrkoonan_original_prefix: "Hyrko" #NT!
+ hyrkoonan_original_collective_noun: "Hyrkoonans" #NT!
+  
+ kayakayanayan: "Kayakayanayan" #NT!
+ kayakayanayan_prefix: "Kayakayo" #NT!
+ kayakayanayan_collective_noun: "Kayakayanayans" #NT!
+  
+ shamyrianan: "Shamyrianan" #NT!
+ shamyrianan_prefix: "Shamyro" #NT!
+ shamyrianan_collective_noun: "Shamyrianans" #NT!
+  
+ shan_ren: "Shan Ren" #NT!
+ shan_ren_prefix: "Shan" #NT!
+ shan_ren_collective_noun: "Shan Ren" #NT!
+  
+ ibbatese: "Ibbatese" #NT!
+ ibbatese_prefix: "Ibbato" #NT!
+ ibbatese_collective_noun: "Ibbatese" #NT!
+  
+ ibbenese: "Ibbenesisch"
+ ibbenese_prefix: "Ibbeneso"
+ ibbenese_collective_noun: "Ibbenesen"
+  
+ ib_sarese: "Ibsaresisch"
+ ib_sarese_prefix: "Ibsaresi"
+ ib_sarese_collective_noun: "Ibsaresen"
+  
+ greenborn: "Grünmännisch"
+ greenborn_prefix: "Grün"
+ greenborn_collective_noun: "Grünmänner"
+  
+ ironborn: "Eisenmännisch"
+ ironborn_prefix: "Eisern"
+ ironborn_collective_noun: "Eisenmänner"
+  
+ jade_islander: "Jade Islander" #NT!
+ jade_islander_prefix: "Jade" #NT!
+ jade_islander_collective_noun: "Jade Islanders" #NT!
+  
+ lengii: "Lengii" #NT!
+ lengii_prefix: "Lengo" #NT!
+ lengii_collective_noun: "Lengii" #NT!
+  
+ manticorian: "Manticorian" #NT!
+ manticorian_prefix: "Mantico" #NT!
+ manticorian_collective_noun: "Manticorians" #NT!
+  
+ marahaiian: "Marahaiian" #NT!
+ marahaiian_prefix: "Maraho" #NT!
+ marahaiian_collective_noun: "Marahaiians" #NT!
+  
+ bloodless_man: "Bloodless Man" #NT!
+ bloodless_man_prefix: "Bloodless" #NT!
+ bloodless_man_collective_noun: "Bloodless Men" #NT!
+  
+ carcosan: "Carcosan" #NT!
+ carcosan_prefix: "Carcoso" #NT!
+ carcosan_collective_noun: "Carcosans" #NT!
+  
+ dathian: "Dathian" #NT!
+ dathian_prefix: "Datho" #NT!
+ dathian_collective_noun: "Dathians" #NT!
+  
+ grey_man: "Grey Man" #NT!
+ grey_man_prefix: "Grey" #NT!
+ grey_man_collective_noun: "Grey Men" #NT!
+  
+ fish_man: "Thousand Islander" #NT!
+ fish_man_prefix: "Thousand" #NT!
+ fish_man_collective_noun: "Thousand Islanders" #NT!
+  
+ lion_man: "Lion Man" #NT!
+ lion_man_prefix: "Lion" #NT!
+ lion_man_collective_noun: "Lion Men" #NT!
+  
+ mossovite: "Mossovite" #NT!
+ mossovite_prefix: "Mosso" #NT!
+ mossovite_collective_noun: "Mossovites" #NT!
+  
+ shryke: "Shryke" #NT!
+ shryke_prefix: "Shryke" #NT!
+ shryke_collective_noun: "Shrykes" #NT!
+  
+ winged_man: "Winged Man" #NT!
+ winged_man_prefix: "Winged" #NT!
+ winged_man_collective_noun: "Winged Men" #NT!
+  
+ farosi: "Farosi" #NT!
+ farosi_prefix: "Faro" #NT!
+ farosi_collective_noun: "Farosi" #NT!
+  
+ moraqi: "Moraqi" #NT!
+ moraqi_prefix: "Moro" #NT!
+ moraqi_collective_noun: "Moraqi" #NT!
+  
+ vahari: "Vahari" #NT!
+ vahari_prefix: "Vaho" #NT!
+ vahari_collective_noun: "Vahari" #NT!
+  
+ zabhadi: "Zabhadisch"
+ zabhadi_prefix: "Zabhadi"
+ zabhadi_collective_noun: "Zabhadi"
+  
+ jogos_nhai: "Jogos N'hai" #NT!
+ jogos_nhai_prefix: "Jogo" #NT!
+ jogos_nhai_collective_noun: "Jogos N'hai" #NT!
+  
+ nefer: "N'ghai" #NT!
+ nefer_prefix: "N'gho" #NT!
+ nefer_collective_noun: "N'ghai" #NT!
+  
+ qaathi: "Qaathi" #NT!
+ qaathi_prefix: "Qaatho" #NT!
+ qaathi_collective_noun: "Qaathi" #NT!
+  
+ qaleen: "Qaleen" #NT!
+ qaleen_prefix: "Qalo" #NT!
+ qaleen_collective_noun: "Qaleen" #NT!
+  
+ qartheen: "Qartheenisch"
+ qartheen_prefix: "Qartheeni"
+ qartheen_collective_noun: "Qartheen"
+  
+ greenblood: "Grünblütig"
+ greenblood_prefix: "Grünblut"
+ greenblood_collective_noun: "Waisen des Grünblut"
+  
+ salt_dornish: "Salzdornisch"
+ salt_dornish_prefix: "Salzdorn"
+ salt_dornish_collective_noun: "Salzdornisch"
+  
+ sand_dornish: "Sanddornisch"
+ sand_dornish_prefix: "Sanddorn"
+ sand_dornish_collective_noun: "Sanddornische"
+  
+ stone_dornish: "Steindornisch"
+ stone_dornish_prefix: "Steindorn"
+ stone_dornish_collective_noun: "Steindornische"
+  
+ chroyanar: "Chroyanar" #NT!
+ chroyanar_prefix: "Chroyo" #NT!
+ chroyanar_collective_noun: "Chroyanar" #NT!
+  
+ mellar: "Mellar" #NT!
+ mellar_prefix: "Mello" #NT!
+ mellar_collective_noun: "Mellar" #NT!
+  
+ noynar: "Noynar" #NT!
+ noynar_prefix: "Noyno" #NT!
+ noynar_collective_noun: "Noynar" #NT!
+  
+ qhoynar: "Qhoynar" #NT!
+ qhoynar_prefix: "Qhoyno" #NT!
+ qhoynar_collective_noun: "Qhoynar" #NT!
+  
+ rhoynar_original: "Rhoynar" #NT!
+ rhoynar_original_prefix: "Rhoyno" #NT!
+ rhoynar_original_collective_noun: "Rhoynar" #NT!
+  
+ sarhar: "Sarhar" #NT!
+ sarhar_prefix: "Sarho" #NT!
+ sarhar_collective_noun: "Sarhar" #NT!
+  
+ sarar: "Sarar" #NT!
+ sarar_prefix: "Saro" #NT!
+ sarar_collective_noun: "Sarar" #NT!
+  
+ abular: "Abular" #NT!
+ abular_prefix: "Summer" #NT!
+ abular_collective_noun: "Abular" #NT!
+  
+ trimbaez_fen: "Trimbaez Fen" #NT!
+ trimbaez_fen_prefix: "Trimbaez" #NT!
+ trimbaez_fen_collective_noun: "Trimbaez Fen" #NT!
+  
+ cymmeri: "Cymmerisch"
+ cymmeri_prefix: "Cymmeri"
+ cymmeri_collective_noun: "Cymmeri"
+  
+ gipps: "Gippsisch"
+ gipps_prefix: "Gipps"
+ gipps_collective_noun: "Gipps"
+  
+ zoqora: "Zoqoraisch"
+ zoqora_prefix: "Zoqoro"
+ zoqora_collective_noun: "Zoqoraer"
+  
+ goraez_fen: "Goraez Fen" #NT!
+ goraez_fen_prefix: "Goraez" #NT!
+ goraez_fen_collective_noun: "Goraez Fen" #NT!
+  
+ zanhar_fen: "Zanhar Fen" #NT!
+ zanhar_fen_prefix: "Zanhar" #NT!
+ zanhar_fen_collective_noun: "Zanhar Fen" #NT!
+  
+ madekh_fen: "Madekh Fen" #NT!
+ madekh_fen_prefix: "Madekh" #NT!
+ madekh_fen_collective_noun: "Madekh Fen" #NT!
+  
+ tagaez_fen: "Tagaez Fen" #NT!
+ tagaez_fen_prefix: "Tagaez" #NT!
+ tagaez_fen_collective_noun: "Tagaez Fen" #NT!
+  
+ gilal_fen: "Gilal Fen" #NT!
+ gilal_fen_prefix: "Gilal" #NT!
+ gilal_fen_collective_noun: "Gilal Fen" #NT!
+  
+ cenaakh_fen: "Cenaakh Fen" #NT!
+ cenaakh_fen_prefix: "Cenaakh" #NT!
+ cenaakh_fen_collective_noun: "Cenaakh Fen" #NT!
+  
+ giren_fen: "Giren Fen" #NT!
+ giren_fen_prefix: "Giren" #NT!
+ giren_fen_collective_noun: "Giren Fen" #NT!
+  
+ zivylar_fen: "Zivylar Fen" #NT!
+ zivylar_fen_prefix: "Zivylar" #NT!
+ zivylar_fen_collective_noun: "Zivylar Fen" #NT!
+  
+ cewi_fen: "Cewi Fen" #NT!
+ cewi_fen_prefix: "Cewi" #NT!
+ cewi_fen_collective_noun: "Cewi Fen" #NT!
+  
+ dawiz_fen: "Dawiz Fen" #NT!
+ dawiz_fen_prefix: "Dawiz" #NT!
+ dawiz_fen_collective_noun: "Dawiz Fen" #NT!
+  
+ asshaii: "Asshai'i" #NT!
+ asshaii_prefix: "Assho" #NT!
+ asshaii_collective_noun: "Asshai'i" #NT!
+  
+ shadowman: "Shadowlander" #NT!
+ shadowman_prefix: "Shadow" #NT!
+ shadowman_collective_noun: "Shadowlanders" #NT!
+  
+ basiliskite: "Basiliskite" #NT!
+ basiliskite_prefix: "Basiliso" #NT!
+ basiliskite_collective_noun: "Basiliskites" #NT!
+  
+ brindled_man: "Brindled Man" #NT!
+ brindled_man_prefix: "Brindled" #NT!
+ brindled_man_collective_noun: "Brindled Men" #NT!
+  
+ gogossite: "Gogossite" #NT!
+ gogossite_prefix: "Gogosso" #NT!
+ gogossite_collective_noun: "Gogossites" #NT!
+  
+ yeenite: "Yeenite" #NT!
+ yeenite_prefix: "Yeeno" #NT!
+ yeenite_collective_noun: "Yeenites" #NT!
+  
+ naathi: "Naathisch"
+ naathi_prefix: "Naathi"
+ naathi_collective_noun: "Naathi"
+  
+ jhalai: "Jhalai" #NT!
+ jhalai_prefix: "Jhalo" #NT!
+ jhalai_collective_noun: "Jhalai" #NT!
+  
+ moluuni: "Moluunisch"
+ moluuni_prefix: "Moluuni"
+ moluuni_collective_noun: "Moluuni"
+  
+ omborui: "Omborui" #NT!
+ omborui_prefix: "Omboro" #NT!
+ omborui_collective_noun: "Omborui" #NT!
+  
+ walanoi: "Walanoi" #NT!
+ walanoi_prefix: "Walano" #NT!
+ walanoi_collective_noun: "Walanoi" #NT!
+  
+ essosi_valyrian: "Essosi-Valyrisch"
+ essosi_valyrian_prefix: "Ostdrachen"
+ essosi_valyrian_collective_noun: "Essosi-Valyrer"
+  
+ painted_clansman: "Bemalt"
+ painted_clansman_prefix: "Bunt"
+ painted_clansman_collective_noun: "Bemalte"
+  
+ elyrian: "Elyrian"
+ elyrian_prefix: "Elyro"
+ elyrian_collective_noun: "Elyrians"
+  
+ bhorashi: "Bhorashi" #NT!
+ bhorashi_prefix: "Bhoro" #NT!
+ bhorashi_collective_noun: "Bhorashi" #NT!
+  
+ mantaryan: "Mantaryanisch"
+ mantaryan_prefix: "Mantary"
+ mantaryan_collective_noun: "Mantaryaner"
+  
+ tolosi: "Tolosi"
+ tolosi_prefix: "Toloso"
+ tolosi_collective_noun: "Tolosi"
+  
+ valyrian_original: "Valyrian" #NT!
+ valyrian_original_prefix: "Valyro" #NT!
+ valyrian_original_collective_noun: "Valyrians" #NT!
+  
+ high_valyrian: "Hochvalyrisch"
+ high_valyrian_prefix: "Hochvalyria"
+ high_valyrian_collective_noun: "Hochvalyrer"
+  
+ westerosi_valyrian: "Westerosi-Valyrisch"
+ westerosi_valyrian_prefix: "Westdrachen"
+ westerosi_valyrian_collective_noun: "Westerosi-Valyrer"
+  
+ cave_dweller: "Cave-Dweller" #NT!
+ cave_dweller_prefix: "Cave" #NT!
+ cave_dweller_collective_noun: "Cave-Dwellers" #NT!
+  
+ fangman: "Frostfangmännisch"
+ fangman_prefix: "Frostfang"
+ fangman_collective_noun: "Frostangmänner"
+  
+ forestman: "Waldmännisch"
+ forestman_prefix: "Wald"
+ forestman_collective_noun: "Waldmänner"
+  
+ frozen_shoreman: "Walrossmännisch"
+ frozen_shoreman_prefix: "Eisküsten"
+ frozen_shoreman_collective_noun: "Walrossmänner"
+  
+ hornfoot: "Hornfußmännisch"
+ hornfoot_prefix: "Hornfuß"
+ hornfoot_collective_noun: "Hornfußmenschen"
+  
+ ice_riverman: "Eisflusskannibalisch"
+ ice_riverman_prefix: "Eisfluss"
+ ice_riverman_collective_noun: "Eisflusskannibalen"
+  
+ lakefolk: "Lakefolk" #NT!
+ lakefolk_prefix: "Lake" #NT!
+ lakefolk_collective_noun: "Lakefolk" #NT!
+  
+ milkwaterman: "Milkwaterman" #NT!
+ milkwaterman_prefix: "Milkwater" #NT!
+ milkwaterman_collective_noun: "Milkwatermen" #NT!
+  
+ nightrunner: "Nachtläuferisch"
+ nightrunner_prefix: "Nachtlauf"
+ nightrunner_collective_noun: "Nachtläufer"
+  
+ thenn: "Thennisch"
+ thenn_prefix: "Thenn"
+ thenn_collective_noun: "Thenn"
+  
+ moon_clan: "Moon Clansman" #NT!
+ moon_clan_prefix: "Moon" #NT!
+ moon_clan_collective_noun: "Moon Clansmen" #NT!
+  
+ aobao_ren: "Aobao Ren" #NT!
+ aobao_ren_prefix: "Aobao" #NT!
+ aobao_ren_collective_noun: "Aobao Ren" #NT!
+  
+ bixi_ren: "Bixi Ren" #NT!
+ bixi_ren_prefix: "Bixi" #NT!
+ bixi_ren_collective_noun: "Bixi Ren" #NT!
+  
+ haungyu_ren: "Haungyu Ren" #NT!
+ haungyu_ren_prefix: "Haungyu" #NT!
+ haungyu_ren_collective_noun: "Haungyu Ren" #NT!
+  
+ heinao_ren: "Heinao Ren" #NT!
+ heinao_ren_prefix: "Heinao" #NT!
+ heinao_ren_collective_noun: "Heinao Ren" #NT!
+  
+ feicui_ren: "Feicui Ren" #NT!
+ feicui_ren_prefix: "Feicui" #NT!
+ feicui_ren_collective_noun: "Feicui Ren" #NT!
+  
+ zhenzhu_ren: "Zhenzhu Ren" #NT!
+ zhenzhu_ren_prefix: "Zhenzhu" #NT!
+ zhenzhu_ren_collective_noun: "Zhenzhu Ren" #NT!
+  
+ somberysh: "Somberysh"
+ somberysh_prefix: "Somberysh"
+ somberysh_collective_noun: "Somberysh"

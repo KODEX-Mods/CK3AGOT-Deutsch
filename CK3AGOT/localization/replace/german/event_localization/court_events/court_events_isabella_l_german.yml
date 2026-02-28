@@ -21,22 +21,6 @@
  court.4100.b: "Die Strumpfhosen sind für die Damen sicher zu viel des Guten."
  court.4100.c: "Meine Münzen habt Ihr. Ich freue mich schon sehr auf die Vorstellung!"
   
- ##### Sneaky passages by Isabella Welch ###### 
-  
- court.4200.t: "Mörder- und Priesterlöcher"
- court.4200.desc: "Ein blasses Individuum, das aussieht, als hätte es sein gesamtes Leben im Untergrund verbracht, lauert in der Ecke meines Thronsaals."
- court.4200.desc_middle: "\n\n„Ich habe gehört, Ihr möchtet einen Geheimgang bauen lassen. Ich kann jeden noch so verrückten Wunsch erfüllen, den Euer finsteres Herz für diesen Gang hegt."
- court.4200.desc_oubliette: "$court.4200.desc_middle$ Ich kann Euch sogar einen Kerker in Eure Schlafgemächer bauen, in den Euch Eure Liebschaft in der Hitze der Leidenschaft hineinwerfen kann!“"
- court.4200.desc_gluttony: "$court.4200.desc_middle$ Ich kann sogar einen diskreten Schacht zwischen Eurem Schlafzimmer und der Küche anfertigen, durch den Ihr mitten in der Nacht Kuchen transportieren könnt.“"
- court.4200.desc_fallback: "$court.4200.desc_middle$“"
- court.4200.a: "Ich betrete und verlasse Zimmer nur durch die Vordertür!"
- court.4200.b: "Eine Reihe von Gucklöchern an Orten, an denen sich meine Höflinge versammeln, bitte!"
- court.4200.c: "Ich bin [ROOT.Char.Custom('DE_ART_IND_N')] einfach[ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.GetWomanMan]. Ein verborgener Fluchtweg reicht mir."
- court.4200.d: "Eine Kuchenwinde? Genial!"
- court.4200.e: "Ich gebe zu, dass ich #EMP schon#! gern splitternackt in einen Privatkerker geworfen werden möchte."
- court.4200.f: "Ein versteckter Folterraum, in dem ich mit allem davonkommen kann."
- court.4200.g: "Ich #EMP habe#! mir schon immer einen Raum gewünscht, in dem ich ungestört in Panik ausbrechen kann!"
-  
  ##### My Spire is Bigger than Yours! by Isabella Welch ##### 
   
  court.4250.t: "Meine Turmspitze ist größer als Eure!"
@@ -309,7 +293,7 @@
  court.4751.topic.caligula_desc: "Ich werde zwar im Text erwähnt, bin aber nur Tyrions müder Berater, weder Freund[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')] noch Gleichgestellt[ROOT.GetCharacter.Custom('DE_END_ADJ_IND_S_N')]! Der Kaiser quält mich mit der Peitsche oder zwingt mich, mich wie eine Jungfer zu verkleiden und für ihn zu tanzen.\n\nAls ich weiterlese, scheint es tatsächlich ziemlich viele Szenen zu geben, in denen er mich auspeitscht."
   #AGOT Modified 
  # court.4751.topic.nasreddin_desc: "The tales show Nasreddin riding behind me as I go about my courtly duties, making snide remarks at my every action from atop his donkey.\n\nI made a speech full of platitudes at a feast, and he yells 'the interlocutor is but breaking wind as he states the obvious!', then jokes at the futility of gorging oneself on food."
- court.4751.topic.nasreddin_desc: "The tales show Mushroom wadling behind me as I go about my courtly duties, making snide remarks at my every action.\n\nI made a speech full of platitudes at a feast, and he yells 'the interlocutor is but breaking wind as he states the obvious!', then jokes at the futility of gorging oneself on food." #NT!
+ court.4751.topic.nasreddin_desc: "The tales show Mushroom wadling behind me as I go about my courtly duties, making snide remarks at my every action.\n\nI made a speech full of platitudes at a feast, and he yells 'the interlocutor is but breaking wind as he states the obvious!', then jokes at the futility of gorging oneself on food."
   #AGOT Modified 
  # court.4751.topic.valmiki_desc: "\n\nLike the legend, a hunter shoots a beautiful bird and I cannot help but spout out a couplet. I trip over a rock and exclaim a rhyme before hitting the ground.\n\nAs the harbinger-poet composed the first poem by accident, it shows me composing spontaneous verses whenever I am caught off-guard."
  court.4751.topic.valmiki_desc: "\n\nWie in der Legende erlegt ein Jäger einen wunderschönen Vogel, und ich kann nicht anders, als einen Zweizeiler hinauszuposaunen. Ich stolpere über einen Stein und rufe einen Reim aus, bevor ich auf dem Boden aufschlage.\n\nSo wie der Bardenkönig das erste Gedicht aus Versehen verfasste, zeigt mich das Geschehen so, dass ich spontan Verse verfasse, wann immer ich von etwas überrascht werde."

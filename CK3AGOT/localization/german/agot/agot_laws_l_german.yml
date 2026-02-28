@@ -3,7 +3,7 @@
  title_succession_laws_singular: "[succession law|E]"
   
   # Silent Sisters 
- the_silent_sisterhood_succession_law: "Silent Sisterhood Succession" #NT!
+ the_silent_sisterhood_succession_law: "Silent Sisterhood Succession"
   
   # Night's Watch 
  night_watch_centralization: "Nachtwachenordnung"
@@ -12,48 +12,67 @@
  night_watch_centralization_2: "Hohe Nachtwachenordnung"
  night_watch_centralization_3: "Absolute Nachtwachenordnung"
   
- slavery_laws: "Slavery" #NT!
- slavery_disallowed_law: "Slavery Forbidden" #NT!
- slavery_disallowed_law_effect: "No form of slavery is tolerated. Rulers have access to the #V Free Slaves#! [casus_bellis|E]." #NT!
- slavery_allowed_law: "Slavery Allowed" #NT!
- slavery_allowed_law_effect: "Rulers can build and use the $building_type_agot_slave_camps_01$ lines of [buildings|E], and sell prisoners into slavery. Rulers may use the #V Raid for Slaves#! [casus_bellis|E] to fill their slave camps." #NT!
+ slavery_laws: "Slavery"
+ slavery_laws_singular: "Slavery Policy" #NT!
+ slavery_disallowed_law: "Slavery Forbidden"
+ slavery_disallowed_law_effect: "No form of slavery is tolerated. Rulers have access to the #V Free Slaves#! [casus_bellis|E]."
+ slavery_allowed_law: "Slavery Allowed"
+ slavery_allowed_law_effect: "Rulers can build and use the $building_type_agot_slave_camps_01$ lines of [buildings|E], and sell prisoners into slavery. Rulers may use the #V Raid for Slaves#! [casus_bellis|E] to fill their slave camps."
   
- SLAVERY_LAW_IS_ON_COOLDOWN: "You recently changed Slavery Laws. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'slavery_law_cooldown') )]" #NT!
- SLAVERY_CRIMINAL_UNDER_FAITH: "Your faith considers slavery criminal" #NT!
- DRAGONPIT_LAW_IS_ON_COOLDOWN: "You recently changed Dragonpit Laws. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'dragonpit_law_cooldown') )]" #NT!
+ SLAVERY_LAW_IS_ON_COOLDOWN: "You recently changed Slavery Laws. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'slavery_law_cooldown') )]"
+ SLAVERY_CRIMINAL_UNDER_FAITH: "Your faith considers slavery criminal"
+ DRAGONPIT_LAW_IS_ON_COOLDOWN: "You recently changed Dragonpit Laws. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'dragonpit_law_cooldown') )]"
+ PIRATE_PORT_TAX_RATE_IS_ON_COOLDOWN: "You recently changed Pirate Port Tax Rates. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'pirate_port_law_cooldown') )]" #NT!
   
- dragonpit_laws: "Dragonpit Access Laws" #NT!
- dragonpit_close_family_law: "Close Family Only" #NT!
- dragonpit_close_family_law_effects: "[dragons_plural|E] in your [dragonpit|e] can only be accessed by [close_family_members|e]" #NT!
- dragonpit_house_law: "House Only" #NT!
- dragonpit_house_law_effects: "[dragons_plural|E] in your [dragonpit|e] can only be accessed by [house|e] members" #NT!
- dragonpit_dynasty_law: "Dynasty Only" #NT!
- dragonpit_dynasty_law_effects: "[dragons_plural|E] in your [dragonpit|e] can only be accessed by [dynasty|e] members" #NT!
- dragonpit_everyone_law: "Everyone" #NT!
- dragonpit_everyone_law_effects: "[dragons_plural|E] in your [dragonpit|e] can be accessed by #warning everyone#!" #NT!
- YOU_ARE_BANNED_FROM_THIS_DRAGONS_PIT: "You are banned from the [dragonpit|e] this dragon is located in" #NT!
+ dragonpit_laws: "Dragonpit Access Laws"
+ dragonpit_laws_singular: "Dragonpit Access Policy" #NT!
+ dragonpit_close_family_law: "Close Family Only"
+ dragonpit_close_family_law_effects: "[dragons_plural|E] in your [dragonpit|e] can only be accessed by [close_family_members|e]"
+ dragonpit_house_law: "House Only"
+ dragonpit_house_law_effects: "[dragons_plural|E] in your [dragonpit|e] can only be accessed by [house|e] members"
+ dragonpit_dynasty_law: "Dynasty Only"
+ dragonpit_dynasty_law_effects: "[dragons_plural|E] in your [dragonpit|e] can only be accessed by [dynasty|e] members"
+ dragonpit_everyone_law: "Everyone"
+ dragonpit_everyone_law_effects: "[dragons_plural|E] in your [dragonpit|e] can be accessed by #warning everyone#!"
+ YOU_ARE_BANNED_FROM_THIS_DRAGONS_PIT: "You are banned from the [dragonpit|e] this dragon is located in"
   
- # Free Cities 
- franchise_laws: "Franchise" #NT!
- franchise_democratic_full: "Popular" #NT!
- franchise_lean_democratic: "Oligarchic" #NT!
- franchise_lean_aristocratic: "Aristocratic" #NT!
- franchise_aristocratic_full: "Patrician" #NT!
- franchise_theocratic: "Theocratic" #NT!
+  #Pirates 
+ pirate_tax_rate_law: "[pirate_port_rates|e]" #NT!
+ pirate_tax_rate_01: "Friendly" #NT!
+ pirate_tax_rate_01_effects: "$EFFECT_LIST_BULLET$[GetCouncilTaskType('task_find_secrets').GetName|V] [councillor_task|E]: #P +10%#! additional chance of learning a [secret|E]\n#underline #underline [agot_landless_pirate_domiciles|e] will pay#!:#!\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 5 @gold_icon! docking fee, and a 20 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 10 @gold_icon! docking fee, and a 40 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 15 @gold_icon! docking fee, and a 60 @gold_icon! yearly fee." #NT!
+ pirate_tax_rate_02: "Standard" #NT!
+ pirate_tax_rate_02_effects: "#underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 7.5 @gold_icon! docking fee, and a 30 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 12.5 @gold_icon! docking fee, and a 50 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 17.5 @gold_icon! docking fee, and a 70 @gold_icon! yearly fee." #NT!
+ pirate_tax_rate_03: "High" #NT!
+ pirate_tax_rate_03_effects: "$EFFECT_LIST_BULLET$[agot_landless_pirate_domiciles|e] will receive increased protection from [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]\n#underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 10 @gold_icon! docking fee, and a 40 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 15 @gold_icon! docking fee, and a 60 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 20 @gold_icon! docking fee, and an 80 @gold_icon! yearly fee." #NT!
+ pirate_tax_rate_04: "Extortionate" #NT!
+ pirate_tax_rate_04_effects: "$EFFECT_LIST_BULLET$[agot_landless_pirate_domiciles|e] are less likely to start [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]\n#underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 12.5 @gold_icon! docking fee, and a 50 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 17.5 @gold_icon! docking fee, and a 70 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 22.5 @gold_icon! docking fee, and a 90 @gold_icon! yearly fee." #NT!
+ PIRATE_TAX_RATE_LAW_SELECTED: "[Law.GetNameNoTooltip]" #NT!
   
- policy_laws: "Foreign Policy" #NT!
- policy_mercantile_full: "Pacifist" #NT!
- policy_lean_mercantile: "Mercantile" #NT!
- policy_lean_militaristic: "Militaristic" #NT!
- policy_militaristic_full: "Imperialist" #NT!
+  # Free Cities 
+ franchise_laws: "Franchise"
+ franchise_laws_singular: "Franchise Policy" #NT!
+ franchise_democratic_full: "Popular"
+ franchise_lean_democratic: "Oligarchic"
+ franchise_lean_aristocratic: "Aristocratic"
+ franchise_aristocratic_full: "Patrician"
+ franchise_theocratic: "Theocratic"
   
- term_length_laws: "Term Length" #NT!
- term_length_historical_laws: "Term Length" #NT!
- term_length_historical: "Historical" #NT!
- term_length_historical_effects: "Election Terms are based on the historical setup of long-lasting Free City Traditions" #NT!
- term_length_short: "Short Terms" #NT!
- term_length_short_effects: "Election Terms are 5 years long" #NT!
- term_length_long: "Long Terms" #NT!
- term_length_long_effects: "Election Terms are 10 years long" #NT!
- term_length_life: "Life Terms" #NT!
- term_length_life_effects: "Election Terms are until death" #NT!
+ policy_laws: "Foreign Policy"
+ policy_laws_singular: "$policy_laws$" #NT!
+ policy_mercantile_full: "Pacifist"
+ policy_lean_mercantile: "Mercantile"
+ policy_lean_militaristic: "Militaristic"
+ policy_militaristic_full: "Imperialist"
+  
+ term_length_laws: "Term Length"
+ term_length_laws_singular: "Term Length Policy" #NT!
+ term_length_historical_laws: "Term Length"
+ term_length_historical_laws_singular: "Term Length Policy" #NT!
+ term_length_historical: "Historical"
+ term_length_historical_effects: "Election Terms are based on the historical setup of long-lasting Free City Traditions"
+ term_length_short: "Short Terms"
+ term_length_short_effects: "Election Terms are 5 years long"
+ term_length_long: "Long Terms"
+ term_length_long_effects: "Election Terms are 10 years long"
+ term_length_life: "Life Terms"
+ term_length_life_effects: "Election Terms are until death"

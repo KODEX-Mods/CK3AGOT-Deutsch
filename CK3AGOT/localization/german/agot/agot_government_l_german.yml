@@ -1,196 +1,254 @@
 ﻿l_german:
- government_is_free_city: "[government|E] type is [GetGovernment( 'administrative_government' ).GetName]" #NT!
- government_is_lp_feudal: "[government|E] type is [GetGovernment( 'lp_feudal_government' ).GetName]" #NT!
- government_is_nw: "[government|E] type is [GetGovernment( 'nights_watch_government' ).GetName]" #NT!
- government_is_ruins: "[government|E] type is [GetGovernment( 'ruins_government' ).GetName]" #NT!
- government_is_host: "[government|E] type is [GetGovernment( 'host_government' ).GetName]" #NT!
- government_is_pirate: "[government|E] type is [GetGovernment( 'pirate_government' ).GetName]" #NT!
- government_is_silent_sisters: "[government|E] type is [GetGovernment( 'silent_sisterhood_government' ).GetName]" #NT!
- government_is_kg: "[government|E] type is [GetGovernment( 'kingsguard_government' ).GetName]" #NT!
- government_is_the_citadel: "[government|E] type is [GetGovernment( 'the_citadel_government' ).GetName]" #NT!
+ government_is_free_city: "[government|E] type is [GetGovernment( 'administrative_government' ).GetName]"
   
-  #LP Feudal 
- lp_feudal_government_with_icon: "@government_type_feudal! $lp_feudal_government$" #NT!
+  # LP Feudal 
+ lp_feudal_government_with_icon: "@government_type_feudal! $lp_feudal_government$"
  lp_feudal_government: "Feudal"
  lp_feudal_government_adjective: "Feudal"
  lp_feudal_government_realm: "Feudalreich"
- lp_feudal_government_filter_option: "Feudal Paramountcy" #NT!
- lp_feudal_government_filter_option_desc: "Only show characters with Feudal Paramountcy [government|E]" #NT!
+ lp_feudal_government_filter_option: "Feudal Paramountcy"
+ lp_feudal_government_filter_option_desc: "Only show characters with Feudal Paramountcy [government|E]"
  lp_feudal_government_vassals_label: "Feudale [obligations|E] basieren auf dem [feudal_contract|E] eines jeden [Concept('vassal', 'Vasallen')|E]"
  lp_feudal_government_desc: "$game_concept_feudal_desc$\n\n#F PLACEHOLDER_DESCRIPTION"
+ government_is_lp_feudal: "[government|E] type is [GetGovernment( 'lp_feudal_government' ).GetName]"
+ lp_feudal_vassal: "$lp_feudal_government$" #NT!
+ lp_feudal_vassal_desc: "$game_concept_feudal_desc$" #NT!
   
-  #Free Cities 
- administrative_government_with_icon: "@civilian_administration! $administrative_government$" #NT!
- administrative_government: "Free City" #NT!
- administrative_government_adjective: "Free City" #NT!
- administrative_government_realm: "City Holdings" #NT!
- administrative_government_filter_option: "Free City" #NT!
- administrative_government_filter_option_desc: "Only show characters with Free City [government|E]" #NT!
- administrative_government_vassals_label: "Free City [obligations|E] are based on each [vassal|E]'s [vassal_contract|E]" #NT!
- administrative_government_desc: "The Free Cities of Essos are independent city states that have existed since the Valyrian Empire ruled the continent." #NT!
+  # Free Cities 
+ free_city_election_succession_law: "Free City Elective"
+ free_city_election_succession_law_subname: "Elected, under Terms or Lifetime Appointments"
+ free_city_election_succession_law_effects: "\n#V Under $free_city_election_succession_law$, the ruler of the Free City will be chosen by the wealthiest and most influential citizens. Depending on the realm’s laws, different groups may have more influence, and the term length can vary—some cities may even appoint a ruler for life.#!"
   
- free_city_election_succession_law: "Free City Elective" #NT!
- free_city_election_succession_law_subname: "Elected, under Terms or Lifetime Appointments" #NT!
- free_city_election_succession_law_effects: "\n#V Under $free_city_election_succession_law$, the ruler of the Free City will be chosen by the wealthiest and most influential citizens. Depending on the realm’s laws, different groups may have more influence, and the term length can vary—some cities may even appoint a ruler for life.#!" #NT!
+ free_city_single_heir_succession_law: "Primogeniture"
+ free_city_single_heir_succession_law_subname: "Primogeniture"
   
- free_city_single_heir_succession_law: "Primogeniture" #NT!
- free_city_single_heir_succession_law_subname: "Primogeniture" #NT!
+ magisterial_life_succession_law: "Archonate Elective"
+ magisterial_life_succession_law_subname: "Magisterial"
+ magisterial_life_elective_candidates: "Magisters"
+ magisterial_life_elective_candidates_tooltip: "The wealthy and powerful of the Free Cities are known as the magisters"
+ magisterial_life_elective_electors: "Magisters"
+ magisterial_life_elective_electors_tooltip: "The votes of the greatest magisters decide the election. The rest will fall into line"
+ magisterial_life_succession_attached_titles_law: "Archonate Elective"
+ magisterial_life_succession_attached_titles_law_effects: "This title will follow the kingdom's election."
+ magisterial_life_succession_attached_titles_law_subname: "Magisterial"
   
- magisterial_life_succession_law: "Archonate Elective" #NT!
- magisterial_life_succession_law_subname: "Magisterial" #NT!
- magisterial_life_elective_candidates: "Magisters" #NT!
- magisterial_life_elective_candidates_tooltip: "The wealthy and powerful of the Free Cities are known as the magisters" #NT!
- magisterial_life_elective_electors: "Magisters" #NT!
- magisterial_life_elective_electors_tooltip: "The votes of the greatest magisters decide the election. The rest will fall into line" #NT!
- magisterial_life_succession_attached_titles_law: "Archonate Elective" #NT!
- magisterial_life_succession_attached_titles_law_effects: "This title will follow the kingdom's election." #NT!
- magisterial_life_succession_attached_titles_law_subname: "Magisterial" #NT!
+ magisterial_limited_succession_law: "First Magisterial Elective"
+ magisterial_limited_succession_law_subname: "Magisterial"
+ magisterial_limited_elective_candidates: "Magisters"
+ magisterial_limited_elective_candidates_tooltip: "The wealthy and powerful of the Free Cities are known as the magisters"
+ magisterial_limited_elective_electors: "Magisters"
+ magisterial_limited_elective_electors_tooltip: "The votes of the greatest magisters decide the election. The rest will fall into line"
+ magisterial_attached_titles_law: "First Magisterial Elective"
+ magisterial_attached_titles_law_effects: "This title will follow the kingdom's election."
+ magisterial_attached_titles_law_subname: "Magisterial"
   
- magisterial_limited_succession_law: "First Magisterial Elective" #NT!
- magisterial_limited_succession_law_subname: "Magisterial" #NT!
- magisterial_limited_elective_candidates: "Magisters" #NT!
- magisterial_limited_elective_candidates_tooltip: "The wealthy and powerful of the Free Cities are known as the magisters" #NT!
- magisterial_limited_elective_electors: "Magisters" #NT!
- magisterial_limited_elective_electors_tooltip: "The votes of the greatest magisters decide the election. The rest will fall into line" #NT!
- magisterial_attached_titles_law: "First Magisterial Elective" #NT!
- magisterial_attached_titles_law_effects: "This title will follow the kingdom's election." #NT!
- magisterial_attached_titles_law_subname: "Magisterial" #NT!
+ dictatorship_succession_law: "Dictatorship"
+ dictatorship_succession_law_subname: "Dictatorial"
   
- dictatorship_succession_law: "Dictatorship" #NT!
- dictatorship_succession_law_subname: "Dictatorial" #NT!
-  
- election_history: "Elected" #NT!
+ election_history: "Elected"
   
   # Free City Election Timer 
- agot_election_progress_loc_succession_window: "Time Until Election: [SuccessionAppointmentWindow.GetTitle.Custom('AgotElectionProgress_Succession')]" #NT!
- agot_election_progress_loc_life_succession_window: "#Bold #V Life#!#!" #NT!
- agot_election_progress_loc_term_succession_window: "#Bold #V [SuccessionAppointmentWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years#!#!" #NT!
- agot_election_progress_loc_this_year_succession_window: "#Bold #V This Year#!#!" #NT!
- # "#Bold [SuccessionAppointmentWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years Until Next Election!#" "#Bold [SuccessionAppointmentWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years Until Next Election!#" #NT!
+ agot_election_progress_loc_succession_window: "Time Until Election: [SuccessionAppointmentWindow.GetTitle.Custom('AgotElectionProgress_Succession')]"
+ agot_election_progress_loc_life_succession_window: "#Bold #V Life#!#!"
+ agot_election_progress_loc_delayed_until_war_ends_succession_window: "#Bold #V Delayed Until War Ends#!#!" #NT!
+ agot_election_progress_loc_election_suspended_succession_window: "#Bold #V @warning_icon!#X Election Suspended#!#!#!" #NT!
+ agot_election_progress_loc_term_succession_window: "#Bold #V [SuccessionAppointmentWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years#!#!"
+ agot_election_progress_loc_this_year_succession_window: "#Bold #V This Year#!#!"
+  # "#Bold [SuccessionAppointmentWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years Until Next Election!#" "#Bold [SuccessionAppointmentWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years Until Next Election!#" #NT!
   
- agot_election_progress_loc_admin_window: "Time Until Election: [GovernmentAdministrationWindow.GetTitle.Custom('AgotElectionProgress_Admin')]" #NT!
- agot_election_progress_loc_life_admin_window: "#Bold #V Life#!#!" #NT!
- agot_election_progress_loc_term_admin_window: "#Bold #V [GovernmentAdministrationWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years#!#!" #NT!
- agot_election_progress_loc_this_year_admin_window: "#Bold #V This Year#!#!" #NT!
- # "#Bold [GovernmentAdministrationWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years Until Next Election!#" "#Bold [GovernmentAdministrationWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years Until Next Election!#" #NT!
+ agot_election_progress_loc_admin_window: "Time Until Election: [GovernmentAdministrationWindow.GetTitle.Custom('AgotElectionProgress_Admin')]"
+ agot_election_progress_loc_life_admin_window: "#Bold #V Life#!#!"
+ agot_election_progress_loc_delayed_until_war_ends_admin_window: "#Bold #V Delayed Until War Ends#!#!" #NT!
+ agot_election_progress_loc_election_suspended_admin_window: "#Bold #V @warning_icon!#X Election Suspended#!#!#!" #NT!
+ agot_election_progress_loc_term_admin_window: "#Bold #V [GovernmentAdministrationWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years#!#!"
+ agot_election_progress_loc_this_year_admin_window: "#Bold #V This Year#!#!"
+  # "#Bold [GovernmentAdministrationWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years Until Next Election!#" "#Bold [GovernmentAdministrationWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years Until Next Election!#" #NT!
   
-  #Pirates 
- pirate_government_with_icon: "@naval_administration! $pirate_government$" #NT!
- pirate_government: "Pirate Captaincy" #NT!
- pirate_government_desc: "A mostly irregular form of government where outlaws, exiles, sellswords, and those attempting to gain glory have banded together under a Captain. Being comparatively disorganized and unpredictable than others, the Pirates nominate each other, or themselves, for the position of Captain. However, it's common to see disgruntled Pirates unhappy with the vote's results to splinter off, and try to gain glory for themselves." #NT!
- pirate_government_adjective: "Pirate" #NT!
- pirate_government_realm: "Pirate Realm" #NT!
- pirate_government_filter_option: "$game_concept_pirate_govt$" #NT!
- pirate_government_filter_option_desc: "Only show characters with Pirate [government|E]" #NT!
- pirate_government_vassals_label: "" #NT!
- #agot_pirate_gov_succ_block: "Unlocks special Pirate Succession [succession_law|E]. Blocks other [succession_laws|E]\n$EFFECT_LIST_BULLET$ If [heir|E] is too weak the [realm|E] will collapse upon [ruler|E] [character_death_death|E]" #NT!
- agot_pirate_gov_succ_block: "Unlocks special Pirate Succession [succession_law|E]. Blocks other [succession_laws|E]" #NT!
- agot_unlocks_conquest_cb: "Unlocks Conquest [casus_belli|E]" #NT!
+  # Pirates 
+ pirate_government_with_icon: "@naval_administration! $pirate_government$"
+ pirate_government: "Pirate Captaincy"
+ pirate_government_desc: "A mostly irregular form of government where outlaws, exiles, sellswords, and those attempting to gain glory have banded together under a Captain. Being comparatively disorganized and unpredictable than others, the Pirates nominate each other, or themselves, for the position of Captain. However, it's common to see disgruntled Pirates unhappy with the vote's results to splinter off, and try to gain glory for themselves."
+ pirate_government_adjective: "Pirate"
+ pirate_government_realm: "Pirate Realm"
+ pirate_government_filter_option: "$game_concept_pirate_govt$"
+ pirate_government_filter_option_desc: "Only show characters with Pirate [government|E]"
+ pirate_govt_concept: "[pirate_govt_i|E]"
+ government_is_pirate: "[government|E] type is [GetGovernment( 'pirate_government' ).GetName]"
+ pirate_vassal: "$pirate_government$" #NT!
+ pirate_vassal_desc: "$game_concept_pirate_govt$" #NT!
   
-  #Silent Sister 
- silent_sisterhood_holder: "Silent Mother" #NT!
- silent_sisterhood_government_with_icon: "@silent_sisters_government! $silent_sisterhood_government$" #NT!
- silent_sisterhood_government: "Silent Sisterhood" #NT!
- silent_sisterhood_government_adjective: "Silent Sister" #NT!
- silent_sisterhood_government_filter_option: "$game_concept_silent_sisters_govt$" #NT!
- silent_sisterhood_government_filter_option_desc: "Only show characters with Silent Sisterhood [government|E]" #NT!
- silent_sisterhood_government_desc: "The Silent Sisterhood [government_form|E] is exclusive to the order of the Silent Sisters. They hold no [domain|E], have no [vassals|E], and stand no [armies|E]." #NT!
+ pirate_no_dlc_government_with_icon: "@naval_administration! $pirate_no_dlc_government$" #NT!
+ pirate_no_dlc_government: "$pirate_government$" #NT!
+ pirate_no_dlc_government_desc: "$pirate_government_desc$" #NT!
+ pirate_no_dlc_government_adjective: "Pirate" #NT!
+ pirate_no_dlc_government_realm: "Pirate Realm" #NT!
+ pirate_no_dlc_government_filter_option: "$game_concept_pirate_no_dlc_govt$" #NT!
+ pirate_no_dlc_govt_concept: "[pirate_no_dlc_govt_i|E]" #NT!
+ pirate_no_dlc_government_filter_option_desc: "Only show characters with Pirate [government|E]" #NT!
+ government_is_pirate_without_landless_dlc: "[government|E] type is [GetGovernment( 'pirate_no_dlc_government' ).GetName]" #NT!
   
-  #Host 
- host_government: "Host" #NT!
- host_government_adjective: "Host" #NT!
- host_government_realm: "Host" #NT!
- host_government_filter_option: "Host" #NT!
- host_government_filter_option_desc: "Only show characters with Host [government|E]" #NT!
- host_government_desc: "A [government_form|E] that is less of a government and more of a temporary gathering of people, often for a specific purpose. The host is not a permanent [government|E], and will change or disband once the purpose is fulfilled." #NT!
+ pirate_government_vassals_label: ""
+ #agot_pirate_gov_succ_block: "Unlocks special Pirate Succession [succession_law|E]. Blocks other [succession_laws|E]\n$EFFECT_LIST_BULLET$ If [heir|E] is too weak the [realm|E] will collapse upon [ruler|E] [character_death_death|E]"
+ agot_pirate_gov_succ_block: "Unlocks special Pirate Succession [succession_law|E]. Blocks other [succession_laws|E]"
+ agot_unlocks_conquest_cb: "Unlocks Conquest [casus_belli|E]"
   
-  #Dummy adv govt for bookmark purposes 
- dummy_adventurer_govt_for_bms: "$landless_adventurer_government$" #NT!
- dummy_adventurer_govt_for_bms_with_icon: "$landless_adventurer_government_with_icon$" #NT!
- dummy_adventurer_govt_for_bms_adjective: "$landless_adventurer_government_adjective$" #NT!
- dummy_adventurer_govt_for_bms_realm: "$landless_adventurer_government_realm$" #NT!
- dummy_adventurer_govt_for_bms_desc: "$landless_adventurer_government_desc$" #NT!
- dummy_adventurer_govt_for_bms_filter_option: "Developer" #NT!
- dummy_adventurer_govt_for_bms_filter_option_desc: "Only show characters with Developer [government|E]" #NT!
+  # Silent Sister 
+ silent_sisterhood_holder: "Silent Mother"
+ silent_sisterhood_government_with_icon: "@silent_sisters_government! $silent_sisterhood_government$"
+ silent_sisterhood_government: "Silent Sisterhood"
+ silent_sisterhood_government_adjective: "Silent Sister"
+ silent_sisterhood_government_filter_option: "$game_concept_silent_sisters_govt$"
+ silent_sisterhood_government_filter_option_desc: "Only show characters with Silent Sisterhood [government|E]"
+ silent_sisterhood_government_desc: "The Silent Sisterhood [government_form|E] is exclusive to the order of the Silent Sisters. They hold no [domain|E], have no [vassals|E], and stand no [armies|E]."
+ silent_sisterhood_govt_concept: "[silent_sisters_govt_i|E]"
+ government_is_silent_sisters: "[government|E] type is [GetGovernment( 'silent_sisterhood_government' ).GetName]"
   
-  #Dummy admin govt for bookmark purposes 
- dummy_admin_govt_for_bms: "$administrative_government$" #NT!
- dummy_admin_govt_for_bms_with_icon: "$administrative_government_with_icon$" #NT!
- dummy_admin_govt_for_bms_adjective: "$administrative_government_adjective$" #NT!
- dummy_admin_govt_for_bms_realm: "$administrative_government_realm$" #NT!
- dummy_admin_govt_for_bms_desc: "$administrative_government_desc$" #NT!
- dummy_admin_govt_for_bms_vassals_label: "$administrative_government_vassals_label$" #NT!
+  # Host 
+ host_government: "Host"
+ host_government_adjective: "Host"
+ host_government_with_icon: "@host_government! $host_government$" #NT!
+ host_government_realm: "Host"
+ host_government_filter_option: "Host"
+ host_government_filter_option_desc: "Only show characters with Host [government|E]"
+ host_government_desc: "A [government_form|E] that is less of a government and more of a temporary gathering of people, often for a specific purpose. The host is not a permanent [government|E], and will change or disband once the purpose is fulfilled."
+ host_govt_concept: "[host_govt_i|E]" #NT!
+ government_is_host: "[government|E] type is [GetGovernment( 'host_government' ).GetName]"
   
-  #Night's Watch 
- nights_watch_government_with_icon: "@nights_watch_government! $nights_watch_government$" #NT!
+  # Dummy adv govt for bookmark purposes 
+ dummy_adventurer_govt_for_bms: "$landless_adventurer_government$"
+ dummy_adventurer_govt_for_bms_with_icon: "$landless_adventurer_government_with_icon$"
+ dummy_adventurer_govt_for_bms_adjective: "$landless_adventurer_government_adjective$"
+ dummy_adventurer_govt_for_bms_realm: "$landless_adventurer_government_realm$"
+ dummy_adventurer_govt_for_bms_desc: "$landless_adventurer_government_desc$"
+ dummy_adventurer_govt_for_bms_filter_option: "Developer"
+ dummy_adventurer_govt_for_bms_filter_option_desc: "Only show characters with Developer [government|E]"
+  
+  # Dummy admin govt for bookmark purposes 
+ dummy_admin_govt_for_bms: "$administrative_government$"
+ dummy_admin_govt_for_bms_with_icon: "$administrative_government_with_icon$"
+ dummy_admin_govt_for_bms_adjective: "$administrative_government_adjective$"
+ dummy_admin_govt_for_bms_realm: "$administrative_government_realm$"
+ dummy_admin_govt_for_bms_desc: "$administrative_government_desc$"
+ dummy_admin_govt_for_bms_vassals_label: "$administrative_government_vassals_label$"
+ dummy_admin_govt_for_bms_filter_option: "Developer" #NT!
+ dummy_admin_govt_for_bms_filter_option_desc: "Only show characters with Developer [government|E]" #NT!
+  
+  # Night's Watch 
+ nights_watch_government_with_icon: "@nights_watch_government! $nights_watch_government$"
  nights_watch_government: "Nachtwache"
  nights_watch_government_adjective: "Nachtwache"
  nights_watch_government_realm: "Nachtwache"
- nights_watch_government_filter_option: "$game_concept_nw_govt$" #NT!
- nights_watch_government_filter_option_desc: "Only show characters with Night's Watch [government|E]" #NT!
+ nights_watch_government_filter_option: "$game_concept_nw_govt$"
+ nights_watch_government_filter_option_desc: "Only show characters with Night's Watch [government|E]"
  nights_watch_government_desc: "Die Nachtwache ist ein militärischer Orden, der die Mauer bewacht, um die Wildlinge und andere Kreaturen des Nordens daran zu hindern, in die Reiche der Menschen einzudringen."
+ nw_govt_concept: "[nw_govt_i|E]"
+ government_is_nw: "[government|E] type is [GetGovernment( 'nights_watch_government' ).GetName]"
   
- nights_watch_realm_succession_law: "Night's Watch Succession" #NT!
- nights_watch_realm_succession_law_effects: "\n#V Under $nights_watch_realm_succession_law$, all Lord Commander [titles|E] will pass to a successor elected among all eligible Black Brothers, and all vassal [titles|E] will pass to the Lord Commander.#!" #NT!
+ nights_watch_realm_succession_law: "Night's Watch Succession"
+ nights_watch_realm_succession_law_effects: "\n#V Under $nights_watch_realm_succession_law$, all Lord Commander [titles|E] will pass to a successor elected among all eligible Black Brothers, and all vassal [titles|E] will pass to the Lord Commander.#!"
   
- nights_watch_temp_realm_succession_law: "$nights_watch_realm_succession_law$" #NT!
- nights_watch_temp_realm_succession_law_effects: "$nights_watch_realm_succession_law_effects$" #NT!
+ nights_watch_temp_realm_succession_law: "$nights_watch_realm_succession_law$"
+ nights_watch_temp_realm_succession_law_effects: "$nights_watch_realm_succession_law_effects$"
   
- lc_nights_watch_male_empire: "Lord Commander" #NT!
- lc_nights_watch_male_kingdom: "Lord Commander" #NT!
- lc_nights_watch_male_duchy: "Commander" #NT!
- lc_nights_watch_male_county: "Commander" #NT!
- lc_nights_watch_male_barony: "Commander" #NT!
+ lc_nights_watch_male_empire: "Lord Commander"
+ lc_nights_watch_male_kingdom: "Lord Commander"
+ lc_nights_watch_male_duchy: "Commander"
+ lc_nights_watch_male_county: "Commander"
+ lc_nights_watch_male_barony: "Commander"
  lc_nights_watch_female: "Lady Kommandant"
  commander_nights_watch: "Kommandant"
  dc_nights_watch: "Kommandant"
  commander_post: "Kommandant"
   
-  #Citadel 
- seneschal_the_citadel_male: "$seneschal_court_position$" #NT!
- the_citadel_government: "The Conclave" #NT!
- the_citadel_government_with_icon: "@the_citadel_government! $the_citadel_government$" #NT!
- the_citadel_government_adjective: "The Conclave" #NT!
- the_citadel_government_realm: "The Conclave" #NT!
- the_citadel_government_filter_option: "$game_concept_citadel_govt$" #NT!
- the_citadel_government_filter_option_desc: "Only show characters with Conclave [government|E]" #NT!
- the_citadel_government_desc: "The Conclave is an unplayable [government_form|E] controlled by a seneschal who is elected from among the archmaesters every year. Novices train here to become maesters who eventually serve the realm at court or with research. This government is unique to the Citadel at Oldtown." #NT!
+  # Citadel 
+ seneschal_the_citadel_male: "$seneschal_court_position$"
+ the_citadel_government: "The Conclave"
+ the_citadel_government_with_icon: "@the_citadel_government! $the_citadel_government$"
+ the_citadel_government_adjective: "The Conclave"
+ the_citadel_government_realm: "The Conclave"
+ the_citadel_government_filter_option: "$game_concept_citadel_govt$"
+ the_citadel_government_filter_option_desc: "Only show characters with Conclave [government|E]"
+ the_citadel_government_desc: "The Conclave is an unplayable [government_form|E] controlled by a seneschal who is elected from among the archmaesters every year. Novices train here to become maesters who eventually serve the realm at court or with research. This government is unique to the Citadel at Oldtown."
+ citadel_govt_concept: "[citadel_govt_i|E]"
+ government_is_the_citadel: "[government|E] type is [GetGovernment( 'the_citadel_government' ).GetName]"
   
-  #Kingsguard 
- kingsguard_government: "Kingsguard" #NT!
- kingsguard_government_with_icon: "@kingsguard_government! $kingsguard_government$" #NT!
- kingsguard_government_adjective: "Kingsguard" #NT!
- kingsguard_government_desc: "Kingsguard" #NT!
- kingsguard_government_filter_option: "$game_concept_kg_govt$" #NT!
- kingsguard_government_filter_option_desc: "Only show characters with Kingsguard [government|E]" #NT!
- kingsguard_succession_law: "Kingsguard Succession" #NT!
- kingsguard_succession_law_effects: "\n#V Under $kingsguard_succession_law$, the liege will select which member of the order will inherit the [titles].#!" #NT!
+  # Kingsguard 
+ kingsguard_government: "Kingsguard"
+ kingsguard_government_with_icon: "@kingsguard_government! $kingsguard_government$"
+ kingsguard_government_adjective: "Kingsguard"
+ kingsguard_government_desc: "Kingsguard"
+ kingsguard_government_filter_option: "$game_concept_kg_govt$"
+ kingsguard_government_filter_option_desc: "Only show characters with Kingsguard [government|E]"
+ kingsguard_succession_law: "Kingsguard Succession"
+ kingsguard_succession_law_effects: "\n#V Under $kingsguard_succession_law$, the liege will select which member of the order will inherit the [titles].#!"
+ kg_govt_concept: "[kg_govt_i|E]"
+ government_is_kg: "[government|E] type is [GetGovernment( 'kingsguard_government' ).GetName]"
   
-  #Theocracies 
- baron_theocracy_male_the_seven_religion: "Septon" #NT!
- baron_theocracy_female_the_seven_religion: "Septa" #NT!
- barony_theocracy_the_seven_religion: "Sept" #NT!
- count_theocracy_male_the_seven_religion: "Septon" #NT!
- count_theocracy_female_the_seven_religion: "Septa" #NT!
- county_theocracy_the_seven_religion: "Sept" #NT!
- duke_theocracy_male_the_seven_religion: "Septon" #NT!
- duke_theocracy_female_the_seven_religion: "Septa" #NT!
- duchy_theocracy_the_seven_religion: "Sept" #NT!
- king_theocracy_male_the_seven_religion: "High Septon" #NT!
- king_theocracy_female_the_seven_religion: "High Septa" #NT!
- kingdom_theocracy_the_seven_religion: "Sept" #NT!
- emperor_theocracy_male_the_seven_religion: "High Septon" #NT!
- emperor_theocracy_female_the_seven_religion: "High Septa" #NT!
- empire_theocracy_the_seven_religion: "Sept" #NT!
+  # Command 
+ command_government_with_icon: "@command_government! $command_government$" #NT!
+ command_government: "Command" #NT!
+ command_government_adjective: "Command" #NT!
+ command_government_filter_option: "$game_concept_command_govt$" #NT!
+ command_government_filter_option_desc: "Only show characters with Command [government|E]" #NT!
+ command_government_desc: "The Command [government_form|E] represents an appointed commander who oversees a title and contributes all levies to their liege. Command positions can be reassigned at will and revert to the liege upon the holder's death." #NT!
+ command_govt_concept: "[command_govt_i|E]" #NT!
+ government_is_command: "[government|E] type is [GetGovernment( 'command_government' ).GetName]" #NT!
+ command_government_vassals_label: "Command [obligations|E] are the same for all Command [vassals|E]" #NT!
+ command_vassal: "$command_government$" #NT!
+ command_vassal_desc: "$game_concept_command_govt_desc$" #NT!
+  
+  # Theocracies 
+ baron_theocracy_male_the_seven_religion: "Septon"
+ baron_theocracy_female_the_seven_religion: "Septa"
+ barony_theocracy_the_seven_religion: "Sept"
+ count_theocracy_male_the_seven_religion: "Septon"
+ count_theocracy_female_the_seven_religion: "Septa"
+ county_theocracy_the_seven_religion: "Sept"
+ duke_theocracy_male_the_seven_religion: "Septon"
+ duke_theocracy_female_the_seven_religion: "Septa"
+ duchy_theocracy_the_seven_religion: "Sept"
+ king_theocracy_male_the_seven_religion: "High Septon"
+ king_theocracy_female_the_seven_religion: "High Septa"
+ kingdom_theocracy_the_seven_religion: "Sept"
+ emperor_theocracy_male_the_seven_religion: "High Septon"
+ emperor_theocracy_female_the_seven_religion: "High Septa"
+ empire_theocracy_the_seven_religion: "Sept"
+  
+ magnar_hof: "Magnar" #NT!
+  
+  # Unknown 
+ unknown_government: "Unknown" #NT!
+ unknown_government_with_icon: "@unknown_government! $unknown_government$" #NT!
+ unknown_government_adjective: "Unknown" #NT!
+ unknown_government_realm: "Unknown" #NT!
+ unknown_government_filter_option: "$game_concept_unknown_govt$" #NT!
+ unknown_government_filter_option_desc: "Only show characters with [unknown|E] [government|E]" #NT!
+ unknown_government_desc: "The government of this realm is unknown, as it lies beyond the reach of your diplomatic sight." #NT!
+ unknown_govt_concept: "[unknown_govt_i|E]" #NT!
+ government_is_unknown: "[government|E] type is [GetGovernment( 'unknown_government' ).GetName]" #NT!
+  
+  # Wilderness 
+ wilderness_government: "Wilderness" #NT!
+ wilderness_government_with_icon: "@wilderness_government! $wilderness_government$" #NT!
+ wilderness_government_adjective: "Wild" #NT!
+ wilderness_government_realm: "Wilderness" #NT!
+ wilderness_government_filter_option: "$game_concept_wilderness_govt$" #NT!
+ wilderness_government_filter_option_desc: "Only show characters with [wilderness|E] [government|E]" #NT!
+ wilderness_government_desc: "The government of this realm does not exist, as it is uninhabited or too sparesely populated to maintain one." #NT!
+ wilderness_govt_concept: "[wilderness_govt_i|E]" #NT!
+ government_is_wilderness: "[government|E] type is [GetGovernment( 'wilderness_government' ).GetName]" #NT!
   
   # Ruins 
  ruins_government: "Ruine"
- ruins_government_with_icon: "@ruins_government! $ruins_government$" #NT!
+ ruins_government_with_icon: "@ruins_government! $ruins_government$"
  ruins_government_adjective: "Ruine"
  ruins_government_realm: "Ruine"
- ruins_government_filter_option: "$game_concept_ruins_govt$" #NT!
- ruins_government_filter_option_desc: "Only show characters with [ruin|E] [government|E]" #NT!
+ ruins_government_filter_option: "$game_concept_ruins_govt$"
+ ruins_government_filter_option_desc: "Only show characters with [ruin|E] [government|E]"
  ruins_government_desc: "Einst war es ein stattliches und beständiges Heim für viele, jetzt ist es nur noch eine Ansammlung von Schutt und überwucherten Steinen, über die niemand mehr herrscht."
+ ruins_govt_concept: "[ruins_govt_i|E]"
+ government_is_ruins: "[government|E] type is [GetGovernment( 'ruins_government' ).GetName]"
+  
  baron_ruin_male: "Wächter"
  baron_ruin_female: "Wächter"
  barony_ruin: "Ruine"
@@ -207,6 +265,38 @@
  emperor_ruin_female: "Wächter"
  empire_ruin: "Ruine"
   
+ baron_unknown_male: "Unknown" #NT!
+ baron_unknown_female: "Unknown" #NT!
+ barony_unknown: "Realm" #NT!
+ count_unknown_male: "Unknown" #NT!
+ count_unknown_female: "Unknown" #NT!
+ county_unknown: "Realm" #NT!
+ duke_unknown_male: "Unknown" #NT!
+ duke_unknown_female: "Unknown" #NT!
+ duchy_unknown: "Realm" #NT!
+ king_unknown_male: "Unknown" #NT!
+ king_unknown_female: "Unknown" #NT!
+ kingdom_unknown: "Realm" #NT!
+ emperor_unknown_male: "Unknown" #NT!
+ emperor_unknown_female: "Unknown" #NT!
+ empire_unknown: "Realm" #NT!
+  
+ baron_wilderness_male: "Warden" #NT!
+ baron_wilderness_female: "Warden" #NT!
+ barony_wilderness: "Wilderness" #NT!
+ count_wilderness_male: "Warden" #NT!
+ count_wilderness_female: "Warden" #NT!
+ county_wilderness: "Wilderness" #NT!
+ duke_wilderness_male: "Warden" #NT!
+ duke_wilderness_female: "Warden" #NT!
+ duchy_wilderness: "Wilderness" #NT!
+ king_wilderness_male: "Warden" #NT!
+ king_wilderness_female: "Warden" #NT!
+ kingdom_wilderness: "Wilderness" #NT!
+ emperor_wilderness_male: "Warden" #NT!
+ emperor_wilderness_female: "Warden" #NT!
+ empire_wilderness: "Wilderness" #NT!
+  
  baron_watch_male: ""
  count_watch_male: "Kommandant"
  duke_watch_male: "Kommandant"
@@ -217,10 +307,3 @@
  cant_fight_the_seven_k_as_wall: "Als $nights_watch_government$ könnt ihr den Reichen südlich der Mauer nicht den Krieg erklären."
  NOT_cant_fight_the_wall: "Ihr könnt der Nachtwache nicht den Krieg erklären"
  NOT_cant_fight_the_seven_k_as_wall: "Als $nights_watch_government$ könnt ihr den Reichen südlich der Mauer nicht den Krieg erklären."
-  
- citadel_govt_concept: "[citadel_govt_i|E]" #NT!
- nw_govt_concept: "[nw_govt_i|E]" #NT!
- pirate_govt_concept: "[pirate_govt_i|E]" #NT!
- kg_govt_concept: "[kg_govt_i|E]" #NT!
- silent_sisterhood_govt_concept: "[silent_sisters_govt_i|E]" #NT!
- ruins_govt_concept: "[ruins_govt_i|E]" #NT!

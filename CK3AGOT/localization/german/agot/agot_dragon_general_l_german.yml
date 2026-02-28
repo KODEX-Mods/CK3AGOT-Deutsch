@@ -1,125 +1,128 @@
 ﻿l_german:
   # Portraits / GUI 
- MATES_LABEL: "Mate" #NT!
- CURRENT_HOST_LABEL: "Host" #NT!
- CURRENT_RIDER_LABEL: "Rider" #NT!
- CURRENT_BONDED_HUMAN_LABEL: "Bonded" #NT!
- PAST_RIDERS_LABEL: "Past Riders #weak ([GetDataModelSize(CharacterWindow.GetCharacter.MakeScope.GetList('past_riders'))])#!" #NT!
- UNKNOWN_DRAGON_TOOLTIP: "Sex: Male ([Concept('dragon_gender','Assumed')|E])" #NT!
- MALE_DRAGON_TOOLTIP: "Sex: Male" #NT!
- FEMALE_DRAGON_TOOLTIP: "Sex: Female" #NT!
- DRAGON_TYPE_TOOLTIP: "[dragon_type|E]" #NT!
- WILD_DRAGON_TOOLTIP: "[wild_dragon|E]" #NT!
- OWNED_DRAGON_TOOLTIP: "[owned_dragon|E]" #NT!
- TAMED_DRAGON_TOOLTIP: "[tamed_dragon|E]" #NT!
- WILD_DRAGON_GUI_TOOLTIP: "[wild_dragon|E]" #NT!
- OWNED_DRAGON_GUI_TOOLTIP: "[owned_dragon|E]" #NT!
- TAMED_DRAGON_GUI_TOOLTIP: "[tamed_dragon|E]" #NT!
- dragon_owner_unlanded: "[ROOT.Char.GetFullNamePossessive]" #NT!
- dragon_owner_landed: "[ROOT.Char.GetTitledFirstNamePossessive]" #NT!
+ MATES_LABEL: "Mate"
+ CURRENT_HOST_LABEL: "Host"
+ CURRENT_RIDER_LABEL: "Rider"
+ CURRENT_BONDED_HUMAN_LABEL: "Bonded"
+ PAST_RIDERS_LABEL: "Past Riders #weak ([GetDataModelSize(CharacterWindow.GetCharacter.MakeScope.GetList('past_riders'))])#!"
+ UNKNOWN_DRAGON_TOOLTIP: "Sex: Male ([Concept('dragon_gender','Assumed')|E])"
+ MALE_DRAGON_TOOLTIP: "Sex: Male"
+ FEMALE_DRAGON_TOOLTIP: "Sex: Female"
+ DRAGON_TYPE_TOOLTIP: "[dragon_type|E]"
+ WILD_DRAGON_TOOLTIP: "[wild_dragon|E]"
+ OWNED_DRAGON_TOOLTIP: "[owned_dragon|E]"
+ TAMED_DRAGON_TOOLTIP: "[tamed_dragon|E]"
+ WILD_DRAGON_GUI_TOOLTIP: "[wild_dragon|E]"
+ OWNED_DRAGON_GUI_TOOLTIP: "[owned_dragon|E]"
+ TAMED_DRAGON_GUI_TOOLTIP: "[tamed_dragon|E]"
+ dragon_owner_unlanded: "[ROOT.Char.GetFullNamePossessive]"
+ dragon_owner_landed: "[ROOT.Char.GetTitledFirstNamePossessive]"
   
   # Notifications 
   # Healing 
- agot_dragon_healed.t: "[dragon.GetName] Recovered" #NT!
- agot_dragon_healed.tt: "[dragon.GetName] has recovered from [dragon.Custom('GetDragonHerHis')] wound." #NT!
+ agot_dragon_healed.t: "[dragon.GetName] Recovered"
+ agot_dragon_healed.tt: "[dragon.GetName] has recovered from [dragon.Custom('GetDragonHerHis')] wound."
   # Dragon must be in the same location alert 
- agot_dragon_same_location.t: "Returned To Dragon" #NT!
- agot_dragon_same_location.tt: "You have left the army in [current_location.GetName] and returned to your dragon in [dragon_location.GetName]." #NT!
+ agot_dragon_same_location.t: "Returned To Dragon"
+ agot_dragon_same_location.tt: "You have left the army in [current_location.GetName] and returned to your dragon in [dragon_location.GetName]."
   
   # Wild dragon notifications 
- wild_dragon_returned_home.t: "[dragon.GetName] Returned" #NT!
- wild_dragon_returned_home.desc: "[dragon.GetName] has been sighted returning to [dragon.Custom('GetDragonHerHis')] lair in [lair.GetName]" #NT!
- wild_dragon_returned_home_from.t: "[dragon.GetName] Flew Home" #NT!
- wild_dragon_returned_home_from.desc: "[dragon.GetName] has been sighted flying back [dragon.Custom('GetDragonHerHis')] lair in [lair.GetName]" #NT!
- wild_dragon_travelling_arrived.t: "[dragon.GetName] Roaming Nearby" #NT!
- wild_dragon_travelling_arrived.desc: "[dragon.GetName], known to lair in the province of [lair.GetName], has been sighted roaming near [destination.GetName]" #NT!
- wild_dragon_left.t: "[dragon.GetName] Roaming Elsewhere" #NT!
- wild_dragon_left.desc: "[dragon.GetName] was sighted flying away, heading towards the province of [destination.GetName]" #NT!
- wild_dragon_left_lair.t: "[dragon.GetName] Roaming" #NT!
- wild_dragon_left_lair.desc: "[dragon.GetName] was sighted leaving [dragon.Custom('GetDragonHerHis')] lair in [lair.GetName], heading towards the province of [destination.GetName]" #NT!
+ wild_dragon_returned_home.t: "[dragon.GetName] Returned"
+ wild_dragon_returned_home.desc: "[dragon.GetName] has been sighted returning to [dragon.Custom('GetDragonHerHis')] lair in [lair.GetName]"
+ wild_dragon_returned_home_from.t: "[dragon.GetName] Flew Home"
+ wild_dragon_returned_home_from.desc: "[dragon.GetName] has been sighted flying back [dragon.Custom('GetDragonHerHis')] lair in [lair.GetName]"
+ wild_dragon_travelling_arrived.t: "[dragon.GetName] Roaming Nearby"
+ wild_dragon_travelling_arrived.desc: "[dragon.GetName], known to lair in the province of [lair.GetName], has been sighted roaming near [destination.GetName]"
+ wild_dragon_left.t: "[dragon.GetName] Roaming Elsewhere"
+ wild_dragon_left.desc: "[dragon.GetName] was sighted flying away, heading towards the province of [destination.GetName]"
+ wild_dragon_left_lair.t: "[dragon.GetName] Roaming"
+ wild_dragon_left_lair.desc: "[dragon.GetName] was sighted leaving [dragon.Custom('GetDragonHerHis')] lair in [lair.GetName], heading towards the province of [destination.GetName]"
   
   # Effects 
- agot_spawn_dragon_effect.interface.t: "Dragon Joined Court" #NT!
- agot_spawn_dragon_effect.interface.desc: "[dragon.GetName] joined court" #NT!
- agot_spawn_wild_dragon_effect.interface.t: "A Wild Dragon Appears" #NT!
- agot_spawn_wild_dragon_effect.interface.desc: "[dragon.GetName] appeared in [dragon.GetCurrentLocation.GetName]" #NT!
- agot_reveal_dragon_gender_effect_tt_male: "[dragon.GetNamePossessive] gender is revealed to be male" #NT!
- agot_reveal_dragon_gender_effect_tt_female: "[dragon.GetNamePossessive] gender is revealed to be female" #NT!
- dragonpit_was_ruinized_tt: "The [dragonpit|E] in this realm will be destroyed. Any [dragons_plural|E] locked within will be freed." #NT!
- free_dragon_tt: "[free_dragon_for_effect.GetFirstName] will become a [wild_dragon|E]" #NT!
-  #Dragon Mil Tooltip Stuff 
- realm_dragons_faux_tt: "Realm [dragons_plural|E]:" #NT!
- realm_dragons_faux_armies_tt: "Armies" #NT!
- dragons_military_war_participant_text: "Dragons:" #NT!
- dragons_military_war_overview_text: "Total Dragons:" #NT!
- dragons_versus_war_overview_attacker_text: "Attackers' Dragons:" #NT!
- dragons_versus_war_overview_defender_text: "Defenders' Dragons:" #NT!
+ agot_spawn_dragon_effect.interface.t: "Dragon Joined Court"
+ agot_spawn_dragon_effect.interface.desc: "[dragon.GetName] joined court"
+ agot_spawn_wild_dragon_effect.interface.t: "A Wild Dragon Appears"
+ agot_spawn_wild_dragon_effect.interface.desc: "[dragon.GetName] appeared in [dragon.GetCurrentLocation.GetName]"
+ agot_reveal_dragon_gender_effect_tt_male: "[dragon.GetNamePossessive] gender is revealed to be male"
+ agot_reveal_dragon_gender_effect_tt_female: "[dragon.GetNamePossessive] gender is revealed to be female"
+ dragonpit_was_ruinized_tt: "The [dragonpit|E] in this realm will be destroyed. Any [dragons_plural|E] locked within will be freed."
+ free_dragon_tt: "[free_dragon_for_effect.GetFirstName] will become a [wild_dragon|E]"
+ agot_dragon_hatched_from_egg_effect_tt: "A [dragon|E] hatched from [egg.GetName]!" #NT!
   
- building_dragonpit_effect: "This building acts as a [dragonpit|e], which allows the [county|e] holder to store [dragons_plural|e]. However, the dragons interned within will suffer health and growth penalities." #NT!
- building_dragonmont_dragonpit_effect: "This building acts as a [natural_dragonpit|e], which allows the [county|e] holder to store [dragons_plural|e]. The dragons locked within will suffer considerably less than a dragon in an artifical dragonpit." #NT!
+  # Dragon Mil Tooltip Stuff 
+ realm_dragons_faux_tt: "Realm [dragons_plural|E]:"
+ realm_dragons_faux_armies_tt: "Armies"
+ dragons_military_war_participant_text: "Dragons:"
+ dragons_military_war_overview_text: "Total Dragons:"
+ dragons_versus_war_overview_attacker_text: "Attackers' Dragons:"
+ dragons_versus_war_overview_defender_text: "Defenders' Dragons:"
   
- GET_DRAGON: "Becomes [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider" #NT!
- GOT_DRAGON: "Became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider" #NT!
- I_GET_DRAGON: "You become [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider" #NT!
- THEY_GET_DRAGON: "[CHARACTER.GetShortUIName] becomes [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider" #NT!
- I_GOT_DRAGON: "You became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider" #NT!
- THEY_GOT_DRAGON: "[CHARACTER.GetShortUIName] became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider" #NT!
+ building_dragonpit_effect: "This building acts as a [dragonpit|e], which allows the [county|e] holder to store [dragons_plural|e]. However, the dragons interned within will suffer health and growth penalities."
+ building_dragonmont_dragonpit_effect: "This building acts as a [natural_dragonpit|e], which allows the [county|e] holder to store [dragons_plural|e]. The dragons locked within will suffer considerably less than a dragon in an artifical dragonpit."
   
- # Size checks 
- dragon_size_at_least_10: "[dragon_size|E] is at least 10" #NT!
- dragon_size_at_least_20: "[dragon_size|E] is at least 20" #NT!
- dragon_size_at_least_30: "[dragon_size|E] is at least 30" #NT!
- dragon_size_at_least_40: "[dragon_size|E] is at least 40" #NT!
- recipient_dragon_size_at_least_10: "[recipient.GetFirstName] has at least 10 [dragon_size|E]" #NT!
- recipient_dragon_size_at_least_20: "[recipient.GetFirstName] has at least 20 [dragon_size|E]" #NT!
- recipient_dragon_size_at_least_30: "[recipient.GetFirstName] has at least 30 [dragon_size|E]" #NT!
- recipient_dragon_size_at_least_40: "[recipient.GetFirstName] has at least 40 [dragon_size|E]" #NT!
+ GET_DRAGON: "Becomes [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
+ GOT_DRAGON: "Became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
+ I_GET_DRAGON: "You become [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
+ THEY_GET_DRAGON: "[CHARACTER.GetShortUIName] becomes [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
+ I_GOT_DRAGON: "You became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
+ THEY_GOT_DRAGON: "[CHARACTER.GetShortUIName] became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
+  
+  # Size checks 
+ dragon_size_at_least_10: "[dragon_size|E] is at least 10"
+ dragon_size_at_least_20: "[dragon_size|E] is at least 20"
+ dragon_size_at_least_30: "[dragon_size|E] is at least 30"
+ dragon_size_at_least_40: "[dragon_size|E] is at least 40"
+ recipient_dragon_size_at_least_10: "[recipient.GetFirstName] has at least 10 [dragon_size|E]"
+ recipient_dragon_size_at_least_20: "[recipient.GetFirstName] has at least 20 [dragon_size|E]"
+ recipient_dragon_size_at_least_30: "[recipient.GetFirstName] has at least 30 [dragon_size|E]"
+ recipient_dragon_size_at_least_40: "[recipient.GetFirstName] has at least 40 [dragon_size|E]"
   
   # Color CusLoc Keys 
- dragon_black_key: "black" #NT!
- dragon_grey_key: "grey" #NT!
- dragon_white_key: "white" #NT!
- dragon_red_key: "red" #NT!
- dragon_orange_key: "orange" #NT!
- dragon_yellow_key: "yellow" #NT!
- dragon_green_key: "green" #NT!
- dragon_teal_key: "teal" #NT!
- dragon_blue_key: "blue" #NT!
- dragon_purple_key: "purple" #NT!
- dragon_pink_key: "pink" #NT!
- dragon_fuschia_key: "rose" #NT!
- dragon_lightest_key: "pale" #NT!
- dragon_lighter_key: "light" #NT!
- dragon_middle_key: "bright" #NT!
- dragon_darker_key: "deep" #NT!
- dragon_darkest_key: "dark" #NT!
- dragon_color_full: "[ROOT.Char.Custom('GetDragonColorGrade')] [ROOT.Char.Custom('GetDragonColor')]" #NT!
+ dragon_black_key: "black"
+ dragon_grey_key: "grey"
+ dragon_white_key: "white"
+ dragon_red_key: "red"
+ dragon_orange_key: "orange"
+ dragon_yellow_key: "yellow"
+ dragon_green_key: "green"
+ dragon_teal_key: "teal"
+ dragon_blue_key: "blue"
+ dragon_purple_key: "purple"
+ dragon_pink_key: "pink"
+ dragon_fuschia_key: "rose"
+ dragon_lightest_key: "pale"
+ dragon_lighter_key: "light"
+ dragon_middle_key: "bright"
+ dragon_darker_key: "deep"
+ dragon_darkest_key: "dark"
+ dragon_color_full: "[ROOT.Char.Custom('GetDragonColorGrade')] [ROOT.Char.Custom('GetDragonColor')]"
   
-  #Used in French Localisation, DO NOT REMOVE 
- dragon_black_key_F: "black" #NT!
- dragon_grey_key_F: "grey" #NT!
- dragon_white_key_F: "white" #NT!
- dragon_red_key_F: "red" #NT!
- dragon_orange_key_F: "orange" #NT!
- dragon_yellow_key_F: "yellow" #NT!
- dragon_green_key_F: "green" #NT!
- dragon_teal_key_F: "teal" #NT!
- dragon_blue_key_F: "blue" #NT!
- dragon_purple_key_F: "purple" #NT!
- dragon_pink_key_F: "pink" #NT!
- dragon_fuschia_key_F: "rose" #NT!
- dragon_lightest_key_F: "pale" #NT!
- dragon_lighter_key_F: "light" #NT!
- dragon_middle_key_F: "bright" #NT!
- dragon_darker_key_F: "deep" #NT!
- dragon_darkest_key_F: "dark" #NT!
+  # Used in French Localisation, DO NOT REMOVE 
+ dragon_black_key_F: "black"
+ dragon_grey_key_F: "grey"
+ dragon_white_key_F: "white"
+ dragon_red_key_F: "red"
+ dragon_orange_key_F: "orange"
+ dragon_yellow_key_F: "yellow"
+ dragon_green_key_F: "green"
+ dragon_teal_key_F: "teal"
+ dragon_blue_key_F: "blue"
+ dragon_purple_key_F: "purple"
+ dragon_pink_key_F: "pink"
+ dragon_fuschia_key_F: "rose"
+ dragon_lightest_key_F: "pale"
+ dragon_lighter_key_F: "light"
+ dragon_middle_key_F: "bright"
+ dragon_darker_key_F: "deep"
+ dragon_darkest_key_F: "dark"
   
   
- tame_unbonded_dragon_scheme_scheme_power_mult: "[GetScheme('tame_unbonded_dragon_scheme').GetTypeName] [scheme_power|E]" #NT!
+ tame_unbonded_dragon_scheme_scheme_power_mult: "[GetScheme('tame_unbonded_dragon_scheme').GetTypeName] [scheme_power|E]"
   
- title_is_dragonpit_warning: "@warning_icon! #warning [target.GetNameNoTier] has a [dragonpit|e], giving it away would surrender control of it to an outside ruler!#!" #NT!
- title_is_dragonpit_and_ruler_is_not_king_warning: "@warning_icon! #warning [target.GetNameNoTier] has a [dragonpit|e], [recipient.GetShortUIName] is not a king-tier ruler which would limit their access to the dragonpit!#!" #NT!
+ title_is_dragonpit_warning: "@warning_icon! #warning [target.GetNameNoTier] has a [dragonpit|e], giving it away would surrender control of it to an outside ruler!#!"
+ title_is_dragonpit_and_ruler_is_not_king_warning: "@warning_icon! #warning [target.GetNameNoTier] has a [dragonpit|e], [recipient.GetShortUIName] is not a king-tier ruler which would limit their access to the dragonpit!#!"
   
- has_a_relation_dragon_trigger_tooltip: "Has a [tamed_dragon|E]" #NT!
- has_a_dragon_egg_artifact_tooltip: "Has a [dragon|E] egg [artifact|e]" #NT!
- dragons_are_extant_desc_tooltip: "[dragons_plural|E] are extant in the World" #NT!
+ has_a_relation_dragon_trigger_tooltip: "Has a [tamed_dragon|E]"
+ has_a_dragon_egg_artifact_tooltip: "Has a [dragon|E] egg [artifact|e]"
+ dragon_rider_is_in_sieging_army_tooltip: "Is a riding a [dragon|E] in a sieging army" #NT!
+ dragons_are_extant_desc_tooltip: "[dragons_plural|E] are extant in the World"

@@ -1,11 +1,8 @@
 ﻿l_german:
-  #AGOT Added TITAN DON"T COMPATCH # AGOT Added # AGOT Added # AGOT Modified 
-  
- # cadet_name: "[GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetPrefix')][GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetSuffix')]"
-  
+ #cadet_name: "[GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetPrefix')][GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetSuffix')]" #NT!
  cadet_name: "[GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetName')]"
   
- cadet_name_for_dynasty: "[GetGlobalVariable('cadet_new_name').Char.GetHouse.GetNameNoTooltip]" #NT!
+ cadet_name_for_dynasty: "[GetGlobalVariable('cadet_new_name').Char.GetHouse.GetNameNoTooltip]"
   
  GetCadetHouseName_A: "[GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetPrefix')][GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetSuffix')]"
   
@@ -15,7 +12,7 @@
   
  GetCadetHouseName_D: "[GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetHousePrefix')][GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetSigilSuffix')]"
   
- #Cadet Prefix Colours 
+  #Cadet Prefix Colours 
  CadetPrefix_green: "Grün"
  CadetPrefix_blue: "Blau"
  CadetPrefix_red: "Rot"
@@ -27,7 +24,7 @@
  CadetPrefix_pink: "Rosa"
  CadetPrefix_blood: "Blut"
   
- #Cadet Prefix Metals 
+  #Cadet Prefix Metals 
  CadetPrefix_gold: "Gold"
  CadetPrefix_silver: "Silber"
  CadetPrefix_argent: "Ar"
@@ -35,7 +32,7 @@
  CadetPrefix_steel: "Stahl"
  CadetPrefix_iron: "Eisen"
   
- #Cadet Prefix Personality 
+  #Cadet Prefix Personality 
  CadetPrefix_brave: "Kühn"
  CadetPrefix_calm: "Still"
  CadetPrefix_wrathful: "Zorn"
@@ -57,7 +54,7 @@
  CadetPrefix_generous: "Edel"
   
   
- #Cadet Prefix Congenital Traits 
+  #Cadet Prefix Congenital Traits 
  CadetPrefix_giant: "Groß"
  CadetPrefix_long: "lang"
  CadetPrefix_dwarf: "Gnom"
@@ -67,7 +64,7 @@
  CadetPrefix_ugly: "Ekel"
   
   
- #Cadet Prefix Education/Lifestyle Traits 
+  #Cadet Prefix Education/Lifestyle Traits 
  CadetPrefix_hard: "Hart"
  CadetPrefix_sharp: "Scharf"
  CadetPrefix_bright: "Hell"
@@ -75,8 +72,7 @@
  CadetPrefix_hunt: "Jäger"
  CadetPrefix_herb: "Kraut"
   
- #Cadet Prefix Faiths, Religions, Regions 
-  
+  #Cadet Prefix Faiths, Religions, Regions 
  CadetPrefix_weir: "Wehr"
  CadetPrefix_drown: "Salz"
  CadetPrefix_nor: "Nor"
@@ -89,8 +85,8 @@
  CadetPrefix_dor: "Dor"
  CadetPrefix_tri: "Tri"
   
- #Cadet Prefix Titles 
- #North 
+  #Cadet Prefix Titles 
+  #North 
  CadetPrefix_d_winterfell: "Winter"
  CadetPrefix_d_skagos: "Skag"
  CadetPrefix_d_bear_island: "Bär"
@@ -104,13 +100,13 @@
  CadetPrefix_d_the_barrowlands: "Hügel"
  CadetPrefix_d_white_harbor: "Mer"
  CadetPrefix_d_the_neck: "Eng"
- #Iron Islands 
+  #Iron Islands 
  CadetPrefix_d_harlaw: "Har"
  CadetPrefix_d_orkmont: "Org"
  CadetPrefix_d_old_wyk: "Wiek"
  CadetPrefix_d_hardstone_hills: "Hart"
  CadetPrefix_d_saltcliffe: "Salz"
- #Riverlands 
+  #Riverlands 
  CadetPrefix_d_blackwood_vale: "Schar"
  CadetPrefix_d_the_crossing: "Kreuz"
  CadetPrefix_d_willow_wood: "Weiden"
@@ -118,7 +114,7 @@
  CadetPrefix_d_harrenhal: "Harren"
  CadetPrefix_d_maidenpool: "Maiden"
  CadetPrefix_d_pinkmaiden: "Rosa"
- #Vale 
+  #Vale 
  CadetPrefix_d_the_giants_lance: "Lanz"
  CadetPrefix_c_the_eyrie: "Hohen"
  CadetPrefix_d_wickenden: "Wick"
@@ -126,7 +122,7 @@
  CadetPrefix_d_gulltown: "Möwen"
  CadetPrefix_d_runestone: "Run"
  CadetPrefix_d_hearts_home: "Herz"
- #Westerlands 
+  #Westerlands 
  CadetPrefix_d_castamere: "Casta"
  CadetPrefix_d_casterly_rock: "Caster"
  CadetPrefix_d_crakehall: "Rallen"
@@ -135,7 +131,7 @@
  CadetPrefix_d_ashemark: "Asch"
  CadetPrefix_d_denslane: "Den"
  CadetPrefix_c_deep_den: "Tief"
- #Reach 
+  #Reach 
  CadetPrefix_d_highgarden: "Rosen"
  CadetPrefix_c_ashford: "Asch"
  CadetPrefix_c_horn_hill: "Horn"
@@ -150,7 +146,7 @@
  CadetPrefix_d_the_arbor: "Arbor"
  CadetPrefix_d_darstone: "Dar"
  CadetPrefix_c_hayholt: "Heu"
- #Crownlands 
+  #Crownlands 
  CadetPrefix_d_hayford: "Heu"
  CadetPrefix_d_rosby: "Ros"
  CadetPrefix_d_stokeworth: "Schur"
@@ -165,7 +161,7 @@
  CadetPrefix_d_dragonstone: "Drachen"
  CadetPrefix_c_driftmark: "Drift"
  CadetPrefix_c_claw_isle: "Klauen"
- #Stormlands 
+  #Stormlands 
  CadetPrefix_d_shipbreaker_bay: "Bruch"
  CadetPrefix_c_storms_end: "Kap"
  CadetPrefix_d_nestridge: "Nest"
@@ -189,7 +185,7 @@
  CadetPrefix_c_parchments: "Per"
  CadetPrefix_d_tarth: "Saphir"
  CadetPrefix_c_evenfall: "Abend"
- #Dorne 
+  #Dorne 
  CadetPrefix_d_sunspear: "Schatten"
  CadetPrefix_c_plankytown: "Plank"
  CadetPrefix_c_stinkwater: "Stink"
@@ -208,7 +204,7 @@
  CadetPrefix_d_sandstone: "Sand"
  CadetPrefix_d_torrentine: "Torrent"
  CadetPrefix_c_high_hermitage: "Klaus"
- CadetPrefix_d_yronwood: "Isen"
+ CadetPrefix_d_greenbelt: "Green" #NT!
  CadetPrefix_c_royalmarch: "Königs"
  CadetPrefix_d_the_princes_pass: "Fürst"
  CadetPrefix_c_skyreach: "Himmel"
@@ -216,7 +212,7 @@
  CadetPrefix_d_the_stoneway: "Bein"
  CadetPrefix_c_wyl: "Wyl"
   
- #Cadet Prefix Cultures 
+  #Cadet Prefix Cultures 
  CadetPrefix_Vis: "Vis"
  CadetPrefix_Qoh: "Qoh"
  CadetPrefix_Aeg: "Aeg"
@@ -227,7 +223,7 @@
  CadetPrefix_Aur: "Aur"
  CadetPrefix_Jae: "Jae"
   
- #Cadet Prefix Houses 
+  #Cadet Prefix Houses 
  CadetPrefix_Mormont: "Mor"
  CadetPrefix_Ryswell: "Rys"
  CadetPrefix_Glover: "Glau"
@@ -286,9 +282,9 @@
   
  CadetPrefix_Greyjoy: "Grau"
   
- #SUFFIXES 
+  #SUFFIXES 
   
- #Cadet Suffix Generic 
+  #Cadet Suffix Generic 
  CadetSuffix_law: "lau"
  CadetSuffix_ton: "ten"
  CadetSuffix_ent: "ent"
@@ -304,11 +300,9 @@
  CadetSuffix_house: "heim"
  CadetSuffix_mark: "mark"
  CadetSuffix_shire: "hof"
- CadetSuffix_mark: "mark"
  CadetSuffix_ary: "ery"
  CadetSuffix_ly: "ly"
  CadetSuffix_run: "bach"
- CadetSuffix_ren: "ren"
  CadetSuffix_back: "heck"
  CadetSuffix_beck: "beck"
  CadetSuffix_crann: "pfahl"
@@ -330,7 +324,7 @@
  CadetSuffix_brother: "bruder"
  CadetSuffix_sister: "schwester"
   
- #Cadet Suffix Terrain 
+  #Cadet Suffix Terrain 
  CadetSuffix_Mountains: "berg"
  CadetSuffix_Hills: "tor"
  CadetSuffix_Ridge: "kamm"
@@ -344,9 +338,9 @@
  CadetSuffix_Sea: "see"
  CadetSuffix_Foam: "schaum"
   
- #Cadet Suffix Bastards / Cultural 
+  #Cadet Suffix Bastards / Cultural 
   
- #High Valyrian 
+  #High Valyrian 
  CadetSuffix_Aryen: "aryen"
  CadetSuffix_Aryon: "aryon"
  CadetSuffix_Axes: "axes"
@@ -372,15 +366,15 @@
  CadetSuffix_reaver: "räuber"
  CadetSuffix_Storm: "sturm"
   
- #Cadet Suffix Titles 
+  #Cadet Suffix Titles 
   
- #North 
+  #North 
  CadetSuffix_d_winterfell: "fell"
  CadetSuffix_d_the_dreadfort: "fort"
- #Iron Islands 
+  #Iron Islands 
  CadetSuffix_d_blacktyde: "flut"
  CadetSuffix_d_saltcliffe: "klipp"
- #Riverlands 
+  #Riverlands 
  CadetSuffix_d_the_crossing: "kreuz"
  CadetSuffix_d_cape_of_eagles: "wart"
  CadetSuffix_d_tridents_mouth: "pfann"
@@ -389,12 +383,12 @@
  CadetSuffix_d_wayfarers_rest: "rast"
  CadetSuffix_d_fairmarket: "markt"
  CadetSuffix_d_three_forks: "gabel"
- #Vale 
+  #Vale 
  CadetSuffix_d_the_giants_lance: "toren"
  CadetSuffix_d_ironoaks: "eichen"
  CadetSuffix_d_strongsong: "lied"
  CadetSuffix_d_the_sisters: "schwestern"
- #Westerlands 
+  #Westerlands 
  CadetSuffix_d_castamere: "maer"
  CadetSuffix_c_casterly_rock: "stein"
  CadetSuffix_c_lannisport: "hort"
@@ -403,7 +397,7 @@
  CadetSuffix_d_the_crag: "klipp"
  CadetSuffix_d_lanns_point: "kap"
  CadetSuffix_d_fair_isle: "insel"
- #Reach 
+  #Reach 
  CadetSuffix_d_highgarden: "garten"
  CadetSuffix_d_cockleswhent: "fluss"
  CadetSuffix_d_the_westmarch: "mark"
@@ -414,14 +408,14 @@
  CadetSuffix_d_shield_islands: "schild"
  CadetSuffix_d_darstone: "stein"
  CadetSuffix_c_hayholt: "fest"
- #Crownlands 
+  #Crownlands 
  CadetSuffix_d_kings_landing: "mund"
  CadetSuffix_d_crackclaw_point: "klau"
  CadetSuffix_c_antlers: "horn"
  CadetSuffix_c_stonedance: "tanz"
  CadetSuffix_c_driftmark: "mark"
  CadetSuffix_c_high_tide: "fluth"
- #Stormlands 
+  #Stormlands 
  CadetSuffix_d_dark_harrow: "egg"
  CadetSuffix_c_stonehelm: "helm"
  CadetSuffix_d_blackhaven: "hafen"
@@ -429,7 +423,7 @@
  CadetSuffix_c_broad_arch: "bogen"
  CadetSuffix_d_greatstock: "sud"
  CadetSuffix_c_the_haystacks: "schober"
- #Dorne 
+  #Dorne 
  CadetSuffix_d_sunspear: "blut"
  CadetSuffix_d_godsgrace: "gnad"
  CadetSuffix_c_hellholt: "hain"
@@ -438,7 +432,7 @@
  CadetSuffix_c_starfall: "fall"
  CadetSuffix_d_redmarch: "marsch"
   
- #Cadet Suffix Houses 
+  #Cadet Suffix Houses 
  CadetSuffix_Stark: "stark"
  CadetSuffix_Umber: "umber"
  CadetSuffix_Frey: "frey"
@@ -451,7 +445,7 @@
  CadetSuffix_Dayne: "dayn"
  CadetSuffix_Vance: "vanke"
   
- #Cadet Symbols 
+  #Cadet Symbols 
  CadetSigil_Anvil: "amboss"
  CadetSigil_Arrow: "pfeil"
  CadetSigil_Axe: "axt"
@@ -510,7 +504,6 @@
  CadetSigil_Sting: "stich"
  CadetSigil_Star: "stern"
  CadetSigil_Stars: "sternen"
- CadetSigil_Sting: "stich"
  CadetSigil_Sun: "sonn"
  CadetSigil_Swan: "schwan"
  CadetSigil_Sword: "schwert"

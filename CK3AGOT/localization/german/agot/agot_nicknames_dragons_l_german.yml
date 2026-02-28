@@ -3,129 +3,133 @@
   # HISTORICAL # 
   ############## 
   
- nick_dragon_the_blind_maggot: "The Blind Maggot" #NT!
- nick_dragon_the_blind_maggot_desc: "A wriggling maggot-white monstrosity, vicious and full of hate." #NT!
+ nick_agot_dragon_historical_the_black_dread: "the Black Dread" #NT!
+ nick_agot_dragon_historical_the_blind_maggot: "The Blind Maggot" #NT!
+ nick_agot_dragon_historical_the_blind_maggot_desc: "A wriggling maggot-white monstrosity, vicious and full of hate." #NT!
+ nick_agot_dragon_historical_the_blood_wyrm: "the Blood Wyrm" #NT!
+ nick_agot_dragon_historical_the_blue_queen: "the Blue Queen" #NT!
+ nick_agot_dragon_historical_the_bronze_fury: "the Bronze Fury" #NT!
+ nick_agot_dragon_historical_the_golden: "the Golden" #NT!
+ nick_agot_dragon_historical_the_red_queen: "the Red Queen" #NT!
   
   ################### 
   # COLOR NICKNAMES # 
   ################### 
   
   # Black 
- nick_dragon_the_black_dread: "the Black Dread" #NT!
- nick_dragon_the_shadow: "the Shadow" #NT!
- nick_dragon_the_shade: "the Shade" #NT!
- nick_dragon_the_dark_wyrm: "the Darkwyrm" #NT!
- nick_dragon_the_night_terror: "the Night Terror" #NT!
- nick_dragon_the_nights_flame: "the Night's Flame" #NT!
- nick_dragon_nightfyre: "Nightfyre" #NT!
- nick_dragon_the_black_flame: "the Black Flame" #NT!
- nick_dragon_the_eclipse: "the Eclipse" #NT!
+ nick_agot_dragon_the_black_dread: "the Black Dread" #NT!
+ nick_agot_dragon_the_shadow: "the Shadow" #NT!
+ nick_agot_dragon_the_shade: "the Shade" #NT!
+ nick_agot_dragon_the_dark_wyrm: "the Darkwyrm" #NT!
+ nick_agot_dragon_the_night_terror: "the Night Terror" #NT!
+ nick_agot_dragon_the_nights_flame: "the Night's Flame" #NT!
+ nick_agot_dragon_nightfyre: "Nightfyre" #NT!
+ nick_agot_dragon_the_black_flame: "the Black Flame" #NT!
+ nick_agot_dragon_the_eclipse: "the Eclipse" #NT!
   
   # Grey 
- nick_dragon_the_phantom: "the Phantom" #NT!
- nick_dragon_the_ashen: "the Ashen" #NT!
- nick_dragon_the_silver_storm: "the Silver Storm" #NT!
- nick_dragon_the_iron_shadow: "the Iron Shadow" #NT!
- nick_dragon_the_iron_menace: "the Iron Menace" #NT!
+ nick_agot_dragon_the_phantom: "the Phantom" #NT!
+ nick_agot_dragon_the_ashen: "the Ashen" #NT!
+ nick_agot_dragon_the_silver_storm: "the Silver Storm" #NT!
+ nick_agot_dragon_the_iron_shadow: "the Iron Shadow" #NT!
+ nick_agot_dragon_the_iron_menace: "the Iron Menace" #NT!
   
   # White 
- nick_dragon_the_white_dread: "the White Dread" #NT!
- nick_dragon_the_cloud: "the Cloud" #NT!
- nick_dragon_the_cloud_wyrm: "the Cloudwyrm" #NT!
- nick_dragon_the_milk_wyrm: "the Milkwyrm" #NT!
- nick_dragon_the_ghost_flame: "the Ghost Flame" #NT!
- nick_dragon_the_ivory_terror: "the Ivory Terror" #NT!
- nick_dragon_the_frost_drake: "the Frost Drake" #NT!
+ nick_agot_dragon_the_white_dread: "the White Dread" #NT!
+ nick_agot_dragon_the_cloud: "the Cloud" #NT!
+ nick_agot_dragon_the_cloud_wyrm: "the Cloudwyrm" #NT!
+ nick_agot_dragon_the_milk_wyrm: "the Milkwyrm" #NT!
+ nick_agot_dragon_the_ghost_flame: "the Ghost Flame" #NT!
+ nick_agot_dragon_the_ivory_terror: "the Ivory Terror" #NT!
+ nick_agot_dragon_the_frost_drake: "the Frost Drake" #NT!
   
   # Blue 
- nick_dragon_the_blue_queen: "the Blue Queen" #NT!
- nick_dragon_the_azure_flame: "the Azure Flame" #NT!
- nick_dragon_the_sky_serpent: "the Sky Serpent" #NT!
- nick_dragon_the_sapphire_flame: "the Sapphire Flame" #NT!
+ nick_agot_dragon_the_azure_flame: "the Azure Flame" #NT!
+ nick_agot_dragon_the_sky_serpent: "the Sky Serpent" #NT!
+ nick_agot_dragon_the_sapphire_flame: "the Sapphire Flame" #NT!
   
   # Orange 
- nick_dragon_the_bronze_fury: "the Bronze Fury" #NT!
- nick_dragon_the_ember_maw: "the Ember Maw" #NT!
- nick_dragon_the_firestorm: "the Firestorm" #NT!
- nick_dragon_the_amber_terror: "the Amber Terror" #NT!
+ nick_agot_dragon_the_bronze_fury: "the Bronze Fury" #NT!
+ nick_agot_dragon_the_ember_maw: "the Ember Maw" #NT!
+ nick_agot_dragon_the_firestorm: "the Firestorm" #NT!
+ nick_agot_dragon_the_amber_terror: "the Amber Terror" #NT!
   
   # Yellow 
- nick_dragon_the_golden: "the Golden" #NT!
- nick_dragon_the_golden_blaze: "the Golden Blaze" #NT!
- nick_dragon_the_suns_wrath: "the Sun's Wrath" #NT!
- nick_dragon_the_dancing_sun: "the Dancing Sun" #NT!
+ nick_agot_dragon_the_golden: "the Golden" #NT!
+ nick_agot_dragon_the_golden_blaze: "the Golden Blaze" #NT!
+ nick_agot_dragon_the_suns_wrath: "the Sun's Wrath" #NT!
+ nick_agot_dragon_the_dancing_sun: "the Dancing Sun" #NT!
   
   # Red 
- nick_dragon_the_red_queen: "the Red Queen" #NT!
- nick_dragon_the_blood_wyrm: "the Blood Wyrm" #NT!
- nick_dragon_the_inferno: "the Inferno" #NT!
- nick_dragon_the_blood_reaver: "the Blood Reaver" #NT!
- nick_dragon_the_ember: "the Ember" #NT!
- nick_dragon_the_crimson_comet: "the Crimson Comet" #NT!
+ nick_agot_dragon_the_blood_wyrm: "the Blood Wyrm" #NT!
+ nick_agot_dragon_the_inferno: "the Inferno" #NT!
+ nick_agot_dragon_the_blood_reaver: "the Blood Reaver" #NT!
+ nick_agot_dragon_the_ember: "the Ember" #NT!
+ nick_agot_dragon_the_crimson_comet: "the Crimson Comet" #NT!
   
   # Green 
- nick_dragon_the_jade_menace: "the Jade Menace" #NT!
- nick_dragon_the_mossy_mountain: "the Mossy Mountain" #NT!
+ nick_agot_dragon_the_jade_menace: "the Jade Menace" #NT!
+ nick_agot_dragon_the_mossy_mountain: "the Mossy Mountain" #NT!
   
   # Purple 
- nick_dragon_the_amethyst: "the Amethyst" #NT!
- nick_dragon_the_violet_flame: "the Violet Flame" #NT!
- nick_dragon_the_violet_violence: "the Violet Violence" #NT!
+ nick_agot_dragon_the_amethyst: "the Amethyst" #NT!
+ nick_agot_dragon_the_violet_flame: "the Violet Flame" #NT!
+ nick_agot_dragon_the_violet_violence: "the Violet Violence" #NT!
   
   # Pink 
- nick_dragon_the_rose_fury: "the Rose Fury" #NT!
- nick_dragon_the_blossom_blaze: "the Blossom Blaze" #NT!
+ nick_agot_dragon_the_rose_fury: "the Rose Fury" #NT!
+ nick_agot_dragon_the_blossom_blaze: "the Blossom Blaze" #NT!
   
   # Fuschia 
- nick_dragon_the_sunrise: "the Sunrise" #NT!
+ nick_agot_dragon_the_sunrise: "the Sunrise" #NT!
   
   # Dynamic Colors 
- nick_dragon_the_color_king: "the [CHARACTER.Custom('GetDragonColor')|U] King" #NT!
- nick_dragon_the_color_queen: "the [CHARACTER.Custom('GetDragonColor')|U] Queen" #NT!
- nick_dragon_the_color_dread: "the [CHARACTER.Custom('GetDragonColor')|U] Dread" #NT!
- nick_dragon_the_color_grading_dread: "the [CHARACTER.Custom('GetDragonColorGrade')|U] Dread" #NT!
- nick_dragon_the_color_fury: "the [CHARACTER.Custom('GetDragonColor')|U] Fury" #NT!
- nick_dragon_the_color_grading_fury: "the [CHARACTER.Custom('GetDragonColorGrade')|U] Fury" #NT!
- nick_dragon_the_color_flame: "the [CHARACTER.Custom('GetDragonColor')|U] Flame" #NT!
- nick_dragon_the_color_grading_flame: "the [CHARACTER.Custom('GetDragonColorGrade')|U] Flame" #NT!
+ nick_agot_dragon_the_color_king: "the [CHARACTER.Custom('GetDragonColor')|U] King" #NT!
+ nick_agot_dragon_the_color_queen: "the [CHARACTER.Custom('GetDragonColor')|U] Queen" #NT!
+ nick_agot_dragon_the_color_dread: "the [CHARACTER.Custom('GetDragonColor')|U] Dread" #NT!
+ nick_agot_dragon_the_color_grading_dread: "the [CHARACTER.Custom('GetDragonColorGrade')|U] Dread" #NT!
+ nick_agot_dragon_the_color_fury: "the [CHARACTER.Custom('GetDragonColor')|U] Fury" #NT!
+ nick_agot_dragon_the_color_grading_fury: "the [CHARACTER.Custom('GetDragonColorGrade')|U] Fury" #NT!
+ nick_agot_dragon_the_color_flame: "the [CHARACTER.Custom('GetDragonColor')|U] Flame" #NT!
+ nick_agot_dragon_the_color_grading_flame: "the [CHARACTER.Custom('GetDragonColorGrade')|U] Flame" #NT!
   
   
   ######################### 
   # PERSONALITY NICKNAMES # 
   ######################### 
   
- nick_dragon_the_radiant: "the Radiant" #NT!
- nick_dragon_the_skysplitter: "the Skysplitter" #NT!
- nick_dragon_the_streak: "the Streak" #NT!
- nick_dragon_the_terrible: "the Terrible" #NT!
- nick_dragon_the_great_and_terrible: "the Great and Terrible" #NT!
- nick_dragon_the_bringer_of_the_end: "the Bringer of the End" #NT!
- nick_dragon_the_sorrowful: "the Sorrowful" #NT!
- nick_dragon_the_pitiful: "the Pitiful" #NT!
- nick_dragon_the_devourer: "the Devourer" #NT!
- nick_dragon_the_song_seeker: "the Songseeker" #NT!
- nick_dragon_the_dreadful: "the Dreadful" #NT!
- nick_dragon_the_ancient: "the Ancient" #NT!
+ nick_agot_dragon_the_radiant: "the Radiant" #NT!
+ nick_agot_dragon_the_skysplitter: "the Skysplitter" #NT!
+ nick_agot_dragon_the_streak: "the Streak" #NT!
+ nick_agot_dragon_the_terrible: "the Terrible" #NT!
+ nick_agot_dragon_the_great_and_terrible: "the Great and Terrible" #NT!
+ nick_agot_dragon_the_bringer_of_the_end: "the Bringer of the End" #NT!
+ nick_agot_dragon_the_sorrowful: "the Sorrowful" #NT!
+ nick_agot_dragon_the_pitiful: "the Pitiful" #NT!
+ nick_agot_dragon_the_devourer: "the Devourer" #NT!
+ nick_agot_dragon_the_song_seeker: "the Songseeker" #NT!
+ nick_agot_dragon_the_dreadful: "the Dreadful" #NT!
+ nick_agot_dragon_the_ancient: "the Ancient" #NT!
   
   ##################### 
   # SPECIAL NICKNAMES # 
   ##################### 
- nick_the_sea_dragon: "the Sea Dragon" #NT!
+ nick_the_sea_dragon: "the Sea Dragon"
   
  ############### 
  # Easter Eggs # 
  ############### 
   
- nick_dragon_dorkstar: "Dorkstar" #NT!
- nick_dragon_the_emerald_nightmare: "the Emerald Nightmare" #NT!
- nick_dragon_the_chiefest_and_greatest_of_calamities: "the Chiefest and Greatest of Calamities" #NT!
- nick_dragon_the_sky_high: "the Sky High" #NT!
- nick_dragon_the_eternal_dragon: "the Eternal Dragon" #NT!
- nick_dragon_the_unrelenting_force: "the Unrelenting Force" #NT!
- nick_dragon_the_world_eater: "the World-Eater" #NT!
- nick_dragon_the_hope_devourer: "the Hope Devourer" #NT!
- nick_dragon_the_iron_storm: "the Iron Storm" #NT!
- nick_dragon_the_cinder_king: "the Cinder King" #NT!
- nick_dragon_the_nightmare_in_ivory: "the Nightmare in Ivory" #NT!
- nick_dragon_the_luck_dragon: "the Luck-Dragon" #NT!
- nick_dragon_the_mistress_of_all_evil: "the Mistress of All Evil" #NT!
+ nick_agot_dragon_dorkstar: "Dorkstar" #NT!
+ nick_agot_dragon_the_emerald_nightmare: "the Emerald Nightmare" #NT!
+ nick_agot_dragon_the_chiefest_and_greatest_of_calamities: "the Chiefest and Greatest of Calamities" #NT!
+ nick_agot_dragon_the_sky_high: "the Sky High" #NT!
+ nick_agot_dragon_the_eternal_dragon: "the Eternal Dragon" #NT!
+ nick_agot_dragon_the_unrelenting_force: "the Unrelenting Force" #NT!
+ nick_agot_dragon_the_world_eater: "the World-Eater" #NT!
+ nick_agot_dragon_the_hope_devourer: "the Hope Devourer" #NT!
+ nick_agot_dragon_the_iron_storm: "the Iron Storm" #NT!
+ nick_agot_dragon_the_cinder_king: "the Cinder King" #NT!
+ nick_agot_dragon_the_nightmare_in_ivory: "the Nightmare in Ivory" #NT!
+ nick_agot_dragon_the_luck_dragon: "the Luck-Dragon" #NT!
+ nick_agot_dragon_the_mistress_of_all_evil: "the Mistress of All Evil" #NT!

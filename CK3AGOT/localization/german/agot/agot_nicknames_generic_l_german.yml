@@ -1,272 +1,494 @@
 ﻿l_german:
   
-  #Generic Nicknames from the Nickname Events 
+ nick_agot_the_warrior: "the Warrior" #NT!
+ nick_agot_greysteel: "Greysteel" #NT!
+ nick_agot_fireball: "Fireball" #NT!
+ nick_agot_hardstone: "Hardstone" #NT!
+ nick_agot_breakspear: "Breakspear" #NT!
+ nick_agot_oakenfist: "Oakenfist" #NT!
+ nick_agot_greatheart: "Greatheart" #NT!
+ nick_agot_ironheart: "Ironheart" #NT!
+ nick_agot_the_neveryield: "Neveryield" #NT!
+ nick_agot_greycloak: "Greycloak" #NT!
+ nick_agot_longspear: "Longspear" #NT!
+ nick_agot_shieldbreaker: "Shieldbreaker" #NT!
+ nick_agot_shieldsmasher: "the Shieldsmasher" #NT!
+ nick_agot_thunderbolt: "Thunderbolt" #NT!
+ nick_agot_the_steelskin: "Steelskin" #NT!
+ nick_agot_the_woe: "the Woe" #NT!
+ nick_agot_the_morningstar: "the Morningstar" #NT!
+ nick_agot_oakenshield: "Oakenshield" #NT!
+ nick_agot_blacksword: "Blacksword" #NT!
+ nick_agot_widowmaker: "Widowmaker" #NT!
+ nick_agot_bloodborn: "Bloodborn" #NT!
+ nick_agot_starfire: "Starfire" #NT!
+ nick_agot_the_windrider: "Windrider" #NT!
+ nick_agot_swiftspur: "Swiftspur" #NT!
+ nick_agot_battleborn: "Battleborn" #NT!
+ nick_agot_swordbiter: "Swordbiter" #NT!
+ nick_agot_the_painter: "the Painter" #NT!
+ nick_agot_the_painter_desc: "Watching [CHARACTER.GetShortUINameNoTooltipNoFormat|U] with a blade in [CharYourHerHis(CHARACTER)] hand is like watching an artist who exclusively paints in red." #NT!
   
- nick_the_warrior: "the Warrior" #NT!
- nick_greysteel: "Graustahl"
- nick_fireball: "Feuerball"
- nick_hardstone: "Hartstein"
- nick_breakspear: "Speerbrecher"
- nick_oakenfist: "Eichenfaust"
- nick_greatheart: "Greatheart" #NT!
- nick_ironheart: "Ironheart" #NT!
- nick_the_neveryield: "Nimmerfüg"
- nick_greycloak: "Graumantel"
- nick_longspear: "Langspeer"
- nick_shieldbreaker: "Schildbrecher[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_shieldsmasher: "the Shieldsmasher" #NT!
- nick_thunderbolt: "der Donnerschlag"
- nick_the_steelskin: "Steelskin" #NT!
- nick_the_woe: "das Leid"
- nick_the_morningstar: "der Morgenstern"
- nick_oakenshield: "Eichenschild"
- nick_blacksword: "Schwarzschwert"
- nick_widowmaker: "Widowmaker" #NT!
- nick_bloodborn: "Blut[CHARACTER.Custom('GetDaughterSon')|l]"
- nick_starfire: "Sternenfeuer"
- nick_the_windrider: "Windrider" #NT!
- nick_swiftspur: "Mauersegler[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_battleborn: "Battleborn" #NT!
- nick_swordbiter: "Schwertbeißer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_painter: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Maler[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_painer_desc: "Watching [CHARACTER.GetShortUINameNoTooltipNoFormat|U] with a blade in [CharYourHerHis(CHARACTER)] hand is like watching an artist who exclusively paints in red." #NT!
+ nick_agot_the_awful: "the Awful" #NT!
+ nick_agot_the_brute: "the Brute" #NT!
+ nick_agot_the_beast: "the Beast" #NT!
+ nick_agot_the_butcher: "the Butcher" #NT!
+ nick_agot_hard: "Hard" #NT!
+ nick_agot_the_demon: "the Demon" #NT!
+ nick_agot_the_monster_large: "the Monster" #NT!
+ nick_agot_the_slaughterer: "the Slaughterer" #NT!
+ nick_agot_the_fiend: "the Fiend" #NT!
   
- nick_the_awful: "the Awful" #NT!
- nick_the_brute: "die Bestie"
- nick_the_beast: "the Beast" #NT!
- nick_hard: "Hard" #NT!
- nick_the_demon: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Dämon[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_monster: "das Ungeheuer"
- nick_the_slaughterer: "the Slaughterer" #NT!
- nick_the_fiend: "the Fiend" #NT!
+ nick_agot_the_anvil: "the Anvil" #NT!
+ nick_agot_the_tactician: "the Tactician" #NT!
+ nick_agot_the_trebuchet: "the Trebuchet" #NT!
+ nick_agot_the_warlord: "the Warlord" #NT!
+ nick_agot_the_battlemaster: "the Battlemaster" #NT!
+ nick_agot_the_stone: "Stone" #NT!
   
- nick_the_anvil: "der Amboss"
- nick_the_tactician: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Taktiker[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_trebuchet: "the Trebuchet" #NT!
- nick_the_warlord: "the Warlord" #NT!
- nick_the_battlemaster: "the Battlemaster" #NT!
- nick_the_stone: "Stone" #NT!
+ nick_agot_silvertongue: "Silvertongue" #NT!
+ nick_agot_the_affable: "the Affable" #NT!
+ nick_agot_the_jovial: "the Jovial" #NT!
+ nick_agot_the_jolly: "the Jolly" #NT!
+ nick_agot_the_merry: "the Merry" #NT!
+ nick_agot_the_eloquent: "the Eloquent" #NT!
   
- nick_silvertongue: "Silvertongue" #NT!
- nick_the_affable: "Kämpfend[CHARACTER.Custom('DE_END_ADJ_IND_S_N')] Sympathische"
- nick_the_jovial: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Fröhliche"
- nick_the_jolly: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lustige"
- nick_the_merry: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Fröhliche"
+ nick_agot_the_reader: "the Reader" #NT!
+ nick_agot_the_learned: "the Learned" #NT!
+ nick_agot_the_scholar: "the Scholar" #NT!
+ nick_agot_the_scribe: "the Scribe" #NT!
+ nick_agot_the_lettered: "the Lettered" #NT!
+ nick_agot_the_erudite: "the Erudite" #NT!
   
- nick_the_reader: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Leser[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_learned: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Gelehrte"
- nick_the_scholar: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Gelehrte"
- nick_the_scribe: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schreiber[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_lettered: "the Lettered" #NT!
- nick_the_erudite: "the Erudite" #NT!
+ nick_agot_the_golden: "the Golden" #NT!
+ nick_agot_gold_hands: "Golden-Hands" #NT!
+ nick_agot_the_brilliant: "the Brilliant" #NT!
+ nick_agot_the_exact: "the Exact" #NT!
+ nick_agot_the_administrator: "the Administrator" #NT!
+ nick_agot_the_treasurer: "the Treasurer" #NT!
+ nick_agot_pennylover: "Pennylover" #NT!
   
- nick_the_golden: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Goldene"
- nick_gold_hands: "Golden-Hands" #NT!
- nick_the_brilliant: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Brillante"
- nick_the_exact: "the Exact" #NT!
- nick_the_administrator: "the Administrator" #NT!
- nick_the_treasurer: "the Treasurer" #NT!
- nick_pennylover: "Pfennigfuchser[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
+ nick_agot_the_shadow: "the Shadow" #NT!
+ nick_agot_the_dagger: "the Dagger" #NT!
+ nick_agot_the_whisperer: "the Whisperer" #NT!
+ nick_agot_the_wily: "the Wily" #NT!
+ nick_agot_the_fox: "the Fox" #NT!
+ nick_agot_the_spider: "the Spider" #NT!
+ nick_agot_the_cunning: "the Cunning" #NT!
+ nick_agot_moonshadow: "Moonshadow" #NT!
   
- nick_the_shadow: "der Schatten"
- nick_the_dagger: "the Dagger" #NT!
- nick_the_whisperer: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Flüsternde"
- nick_the_wily: "the Wily" #NT!
- nick_the_fox: "der Fuchs"
- nick_the_spider: "die Spinne"
- nick_the_cunning: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Listige"
- nick_moonshadow: "Moonshadow" #NT!
+ nick_agot_the_handsome: "the Handsome" #NT!
+ nick_agot_brightsmile: "Brightsmile" #NT!
+ nick_agot_the_splendid: "the Splendid" #NT!
   
- nick_the_handsome: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schöne"
- nick_brightsmile: "Schönmund"
- nick_the_splendid: "the Splendid" #NT!
+ nick_agot_the_fair: "the Fair" #NT!
+ nick_agot_pretty: "Pretty" #NT!
+ nick_agot_the_beautiful: "the Beautiful" #NT!
+ nick_agot_the_beauty: "the Beauty" #NT!
+ nick_agot_the_comely: "the Comely" #NT!
+ nick_agot_easy_eyes: "Easy Eyes" #NT!
   
- nick_the_fair: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schönste"
- nick_pretty: "Pretty" #NT!
- nick_the_beautiful: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schöne"
- nick_the_beauty: "the Beauty" #NT!
- nick_the_comely: "the Comely" #NT!
- nick_easy_eyes: "Easy Eyes" #NT!
+ nick_agot_the_ugly: "the Ugly" #NT!
+ nick_agot_the_homely: "the Homely" #NT!
+ nick_agot_the_hideous: "the Hideous" #NT!
+ nick_agot_the_grotesque: "the Grotesque" #NT!
+ nick_agot_the_beauty_ironic: "the Beauty" #NT!
   
- nick_the_ugly: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Hässliche"
- nick_the_homely: "the Homely" #NT!
- nick_the_hideous: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Abscheuliche"
- nick_the_grotesque: "the Grotesque" #NT!
- nick_the_beauty_ironic: "the Beauty" #NT!
+ nick_agot_the_mountain: "the Mountain" #NT!
+ nick_agot_the_titan: "the Titan" #NT!
+ nick_agot_the_mighty: "the Mighty" #NT!
+ nick_agot_the_giant: "the Giant" #NT!
+ nick_agot_bonebreaker: "Bonebreaker" #NT!
+ nick_agot_the_minotaur: "the Minotaur" #NT!
+ nick_agot_thunderhead: "Thunderhead" #NT!
+ nick_agot_rampage: "Rampage" #NT!
+ nick_agot_the_goliath: "the Goliath" #NT!
+ nick_agot_the_small_ironic: "the Small" #NT!
   
- nick_the_mountain: "the Mountain" #NT!
- nick_the_titan: "the Titan" #NT!
- nick_the_mighty: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Mächtige"
- nick_the_giant: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Titan[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_bonebreaker: "Bonebreaker" #NT!
- nick_the_minotaur: "the Minotaur" #NT!
- nick_thunderhead: "Thunderhead" #NT!
- nick_rampage: "Rampage" #NT!
- nick_the_goliath: "der Goliath"
- nick_the_small_ironic: "the Small" #NT!
+ nick_agot_the_sot: "the Sot" #NT!
+ nick_agot_the_drunken: "the Drunken" #NT!
+ nick_agot_the_drunken_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] more often seen inebriated than not." #NT!
+ nick_agot_the_fermented: "the Fermented" #NT!
+ nick_agot_the_souse: "the Souse" #NT!
   
- nick_the_sot: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Säufer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_drunken: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Säufer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_fermented: "the Fermented" #NT!
- nick_the_souse: "the Souse" #NT!
+ nick_agot_the_ruthless: "the Ruthless" #NT!
+ nick_agot_the_merciless: "the Merciless" #NT!
+ nick_agot_the_heartless: "the Heartless" #NT!
+ nick_agot_stoneheart: "Stoneheart" #NT!
+ nick_agot_coldblood: "Coldblood" #NT!
+ nick_agot_the_unflinching: "the Unflinching" #NT!
+ nick_agot_hard_boiled: "Hard-Boiled" #NT!
+ nick_agot_the_frigid: "the Frigid" #NT!
+ nick_agot_the_grim: "the Grim" #NT!
   
- nick_the_ruthless: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Unbarmherzige"
- nick_the_merciless: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Gnadenlose"
- nick_the_heartless: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Herzlose"
- nick_stoneheart: "Steinherz"
+ nick_agot_the_vindictive: "the Vindictive" #NT!
+ nick_agot_the_rancorous: "the Rancorous" #NT!
+ nick_agot_tit_for_tat: "Tit-for-Tat" #NT!
+ nick_agot_the_ill_natured: "the Ill-Natured" #NT!
   
- nick_the_tormentor: "der Peiniger"
- nick_the_mutilator: "the Mutilator" #NT!
- nick_the_depraved: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lasterhafte"
- nick_the_monster: "das Ungeheuer"
- nick_the_cruel: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Grausame"
- nick_the_terrible: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schreckliche"
- nick_the_monstrous: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Abscheuliche"
- nick_the_weeper: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Weinende"
- nick_the_barber: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Barbier[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_redhand: "Rothand"
- nick_redarm: "Rotarm"
- nick_the_twisted: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Krumme"
- nick_the_soulless: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Seelenlose"
- nick_the_red_smile: "Redsmile" #NT!
- nick_the_tickler: "the Tickler" #NT!
+ nick_agot_the_tormentor: "the Tormentor" #NT!
+ nick_agot_the_mutilator: "the Mutilator" #NT!
+ nick_agot_the_depraved: "the Depraved" #NT!
+ nick_agot_the_monster: "the Monster" #NT!
+ nick_agot_the_cruel: "the Cruel" #NT!
+ nick_agot_the_cruel_desc: "For [CharYourHerHis(CHARACTER)] great acts of cruelty and malice, history will forever remember [CHARACTER.GetShortUINameNoTooltipNoFormat] as 'the Cruel.'" #NT!
+ nick_agot_the_terrible: "the Terrible" #NT!
+ nick_agot_the_monstrous: "the Monstrous" #NT!
+ nick_agot_the_monstrous_desc: "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] appearance is more monstrous than manlike." #NT!
+ nick_agot_the_weeper: "the Weeper" #NT!
+ nick_agot_the_barber: "the Barber" #NT!
+ nick_agot_redhand: "Redhand" #NT!
+ nick_agot_redarm: "Redarm" #NT!
+ nick_agot_the_twisted: "the Twisted" #NT!
+ nick_agot_the_soulless: "the Soulless" #NT!
+ nick_agot_the_red_smile: "Redsmile" #NT!
+ nick_agot_the_tickler: "the Tickler" #NT!
   
- nick_the_brave: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Mutige"
- nick_the_fearless: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Furchtlose"
- nick_the_bold: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kühne"
- nick_the_daring: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Wagemutige"
- nick_the_tenacious: "the Tenacious" #NT!
- nick_the_resolute: "the Resolute" #NT!
+ nick_agot_the_brave: "the Brave" #NT!
+ nick_agot_the_fearless: "the Fearless" #NT!
+ nick_agot_the_daring: "the Daring" #NT!
+ nick_agot_the_bold: "the Bold" #NT!
+ nick_agot_the_tenacious: "the Tenacious" #NT!
+ nick_agot_the_resolute: "the Resolute" #NT!
+ nick_agot_dauntless: "Dauntless" #NT!
+ nick_agot_stoutheart: "Stoutheart" #NT!
+ nick_agot_the_unshrinking: "the Unshrinking" #NT!
+ nick_agot_death_or_glory: "Death-or-Glory" #NT!
   
- nick_the_gallant: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Edle"
- nick_the_valiant: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Beherzte"
- nick_the_mettle: "the Mettle" #NT!
- nick_the_stalwart: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Tapfere"
- nick_silverspur: "Silverspur" #NT!
+ nick_agot_the_devout: "the Devout" #NT!
+ nick_agot_the_fanatic: "the Fanatic" #NT!
+ nick_agot_the_kneeler: "the Kneeler" #NT!
   
- nick_the_strong: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Starke"
- nick_the_bull: "der Bulle"
- nick_the_brawny: "the Brawny" #NT!
- nick_the_robust: "the Robust" #NT!
- nick_the_hearty: "the Hearty" #NT!
- nick_the_durable: "the Durable" #NT!
+ nick_agot_the_selfish: "the Selfish" #NT!
+ nick_agot_tightfist: "Tightfist" #NT!
+ nick_agot_copper_counter: "Copper-Counter" #NT!
+ nick_agot_skinflint: "Skinflint" #NT!
+ nick_agot_pennylover_greedy: "Pennylover" #NT!
+ nick_agot_the_haggler: "the Haggler" #NT!
   
- nick_the_wild: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Wilde"
- nick_the_rash: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Voreilige"
- nick_the_fierce: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Fürchterliche"
- nick_the_feral: "the Feral" #NT!
+ nick_agot_the_capricious: "the Capricious" #NT!
+ nick_agot_the_mercurial: "the Mercurial" #NT!
+ nick_agot_quicksilver: "Quicksilver" #NT!
+ nick_agot_the_wayward: "the Wayward" #NT!
+ nick_agot_fly_by_night: "Fly-By-Night" #NT!
   
- nick_the_arrogant: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Arrogante"
- nick_the_haughty: "the Haughty" #NT!
+ nick_agot_the_sober: "the Sober" #NT!
+ nick_agot_lemonwater: "Lemonwater" #NT!
+ nick_agot_the_abstinent: "the Abstinent" #NT!
+ nick_agot_the_teetotaler: "the Teetotaler" #NT!
+ nick_agot_the_disciplined: "the Disciplined" #NT!
+ nick_agot_the_boring: "the Boring" #NT!
   
- nick_the_mule: "the Mule" #NT!
- nick_the_defiant: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Trotzige"
- nick_the_inflexible: "the Inflexible" #NT!
+ nick_agot_the_voracious: "the Voracious" #NT!
+ nick_agot_the_insatiable: "the Insatiable" #NT!
+ nick_agot_the_starved: "the Starved" #NT!
+ nick_agot_the_unsatisfied: "the Unsatisfied" #NT!
+ nick_agot_all_devouring: "all-Devouring" #NT!
+ nick_agot_lord_lard: "Lord Lard" #NT!
   
- nick_the_grim: "der Grim"
- nick_the_sour: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Saure"
- nick_the_morbid: "the Morbid" #NT!
- nick_the_unsmiling: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Ernste"
- nick_the_grave: "the Grave" #NT!
- nick_the_stoic: "the Stoic" #NT!
+ nick_agot_the_industrious: "the Industrious" #NT!
+ nick_agot_the_tireless: "the Tireless" #NT!
+ nick_agot_the_fastidious: "the Fastidious" #NT!
+ nick_agot_on_the_go: "On-the-Go" #NT!
+ nick_agot_the_precise: "the Precise" #NT!
   
- nick_the_clubfoot: "der Klumpfuss"
- nick_the_lame: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lahme"
- nick_the_limp: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Weiche"
- nick_the_limper: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Hinker[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
+ nick_agot_the_idle: "the Idle" #NT!
+ nick_agot_slothkin: "Slothkin" #NT!
+ nick_agot_the_houseplant: "the Houseplant" #NT!
+ nick_agot_the_lackadaisical: "the Lackadaisical" #NT!
+ nick_agot_the_negligent: "the Negligent" #NT!
+ nick_agot_lazybones: "Lazybones" #NT!
   
- nick_the_ruin: "die Ruine"
- nick_the_ruined: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Zerfallene"
- nick_the_twisted: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Krumme"
- nick_the_broken: "the Broken" #NT!
+ nick_agot_the_approachable: "the Approachable" #NT!
+ nick_agot_the_amicable: "the Amicable" #NT!
+ nick_agot_friend_to_all: "Friend-to-All" #NT!
+ nick_agot_the_gracious: "the Gracious" #NT!
+ nick_agot_the_hospitable: "the Hospitable" #NT!
   
- nick_the_mummer: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Mime"
- nick_the_poet: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Dichter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_bard: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Bard[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
- nick_the_songbird: "the Songbird" #NT!
- nick_the_singer: "the Singer" #NT!
+ nick_agot_the_bashful: "the Bashful" #NT!
+ nick_agot_the_demure: "the Demure" #NT!
+ nick_agot_the_nervous: "the Nervous" #NT!
+ nick_agot_the_recessive: "the Recessive" #NT!
   
- nick_the_knight: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Ritter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
+ nick_agot_the_naive: "the Naive" #NT!
+ nick_agot_the_susceptible: "the Susceptible" #NT!
+ nick_agot_dew_eye: "Dew-Eye" #NT!
+ nick_agot_the_optimistic: "the Optimistic" #NT!
+ nick_agot_the_entrusting: "the Entrusting" #NT!
+ nick_agot_the_unguarded: "the Unguarded" #NT!
   
- nick_the_dreamer: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Träumer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_seer: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Seher[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
+ nick_agot_shadowseer: "Shadowseer" #NT!
+ nick_agot_the_disturbed: "the Disturbed" #NT!
+ nick_agot_the_insecure: "the Insecure" #NT!
   
- nick_the_bloodaxe: "the Bloodaxe" #NT!
- nick_the_reaver: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Räuber[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_raider: "the Raider" #NT!
- nick_the_pillager: "the Pillager" #NT!
- nick_red_sails: "Red-Sails" #NT!
+ nick_agot_the_coward: "the Coward" #NT!
+ nick_agot_chickenheart: "Chickenheart" #NT!
+ nick_agot_yellowbelly: "Yellowbelly" #NT!
+ nick_agot_the_recreant: "the Recreant" #NT!
+ nick_agot_lilyliver: "Lilyliver" #NT!
   
- nick_the_drowned: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Ertrunkene"
- nick_the_drownedknight: "the Drowned[CHARACTER.Custom('GetWarriorNicknamePrefix')]" #NT!
- nick_the_damp: "the Damp" #NT!
- nick_salt_lungs: "Salt-Lungs" #NT!
+ nick_agot_the_tranquil: "the Tranquil" #NT!
+ nick_agot_the_composed: "the Composed" #NT!
+ nick_agot_serenity: "Serenity" #NT!
+ nick_agot_easygoer: "Easygoer" #NT!
+ nick_agot_the_stoic: "the Stoic" #NT!
   
- nick_the_red: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Rote"
- nick_the_redknight: "the Red[CHARACTER.Custom('GetWarriorNicknamePrefix')]" #NT!
- nick_the_firegazer: "the Firegazer" #NT!
+ nick_agot_the_equitable: "the Equitable" #NT!
+ nick_agot_the_righteous: "the Righteous" #NT!
+ nick_agot_the_principled: "the Principled" #NT!
+ nick_agot_hardheart: "Hardheart" #NT!
+ nick_agot_stoneheart_just: "Stoneheart" #NT!
   
- nick_the_paunch: "the Paunch" #NT!
- nick_ironguts: "Ironguts" #NT!
- nick_the_maneater: "the Maneater" #NT!
+ nick_agot_summerstorm: "Summerstorm" #NT!
+ nick_agot_wayward: "Wayward" #NT!
+ nick_agot_the_irregular: "the Irregular" #NT!
+ nick_agot_highhand: "Highhand" #NT!
+ nick_agot_the_illogical: "the Illogical" #NT!
+ nick_agot_why_not: "Why-Not" #NT!
+ nick_agot_rotten_ice: "Rotten-Ice" #NT!
   
- nick_the_guest: "der Gast"
- nick_maidensbane: "Jungfrauentod"
- nick_whoresbane: "Hurentod"
+ nick_agot_the_determined: "the Determined" #NT!
+ nick_agot_the_grasping: "the Grasping" #NT!
+ nick_agot_the_gumptious: "the Gumptious" #NT!
+ nick_agot_whipcrack: "Whipcrack" #NT!
+ nick_agot_the_aspirant: "the Aspirant" #NT!
+ nick_agot_the_enterprising: "the Enterprising" #NT!
   
- nick_the_sheep_lover: "Sheep-Lover" #NT!
- nick_corpse_licker: "Corpse-Licker" #NT!
+ nick_agot_the_satisfied: "the Satisfied" #NT!
+ nick_agot_the_monk: "the Monk" #NT!
+ nick_agot_the_untroubled: "the Untroubled" #NT!
+ nick_agot_the_blithe: "the Blithe" #NT!
   
- nick_the_necromancer: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Totenbeschwörer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_warlock: "the Warlock" #NT!
- nick_the_witch: "die Hexe"
+ nick_agot_double_dealer: "Double-Dealer" #NT!
+ nick_agot_the_underhanded: "the Underhanded" #NT!
+ nick_agot_the_cunning_deceitful: "the Cunning" #NT!
+ nick_agot_the_crooked: "the Crooked" #NT!
+ nick_agot_the_ambidextrous: "the Ambidextrous" #NT!
+ nick_agot_the_dirty: "the Dirty" #NT!
+ nick_agot_the_rogue: "the Rogue" #NT!
+ nick_agot_the_knave: "the Knave" #NT!
+ nick_agot_snake_eater: "Snake-Eater" #NT!
   
- nick_ninefingers: "Ninefingers" #NT!
- nick_the_scarred: "the Scarred" #NT!
- nick_the_damaged: "the Damaged" #NT!
- nick_woundworn: "Woundworn" #NT!
+ nick_agot_frank: "Frank" #NT!
+ nick_agot_truthteller: "Truthteller" #NT!
+ nick_agot_the_forthright: "the Forthright" #NT!
+ nick_agot_the_reputable: "the Reputable" #NT!
   
- nick_the_queer: "der Sonderling"
- nick_the_peculiar: "the Peculiar" #NT!
- nick_the_odd: "the Odd" #NT!
+ nick_agot_the_charitable: "the Charitable" #NT!
+ nick_agot_the_magnanimous: "the Magnanimous" #NT!
+ nick_agot_the_openhanded: "the Open-Handed" #NT!
+ nick_agot_openhand: "Openhand" #NT!
+ nick_agot_the_overflowing: "the Overflowing" #NT!
+ nick_agot_the_decent: "the Decent" #NT!
   
- nick_the_green: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Grüne"
- nick_green_thumb: "Green Thumb" #NT!
+ nick_agot_the_forgetful: "the Forgetful" #NT!
+ nick_agot_the_weak: "the Weak" #NT!
+ nick_agot_the_hopeful: "the Hopeful" #NT!
+ nick_agot_the_good_natured: "the Good-Natured" #NT!
+ nick_agot_softshell: "Softshell" #NT!
   
- nick_the_short: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kurze"
- nick_the_imp: "Der Gnom"
- nick_the_small: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kleine"
- nick_the_flea: "der Floh"
- nick_the_tall_ironic: "the Tall" #NT!
+ nick_agot_the_soft: "the Soft" #NT!
+ nick_agot_sweetheart: "Sweetheart" #NT!
+ nick_agot_the_sweet: "the Sweet" #NT!
+ nick_agot_the_sympathetic: "the Sympathetic" #NT!
+ nick_agot_the_mild: "the Mild" #NT!
   
- nick_silver: "Silver" #NT!
- nick_the_silver: "the Silver" #NT!
- nick_silverhair: "Silberhaar"
- nick_palehair: "Hellhaar"
+ nick_agot_the_skeptic: "the Skeptic" #NT!
+ nick_agot_the_pessimist: "the Pessimist" #NT!
+ nick_agot_world_weary: "World-Weary" #NT!
+ nick_agot_the_dubious: "the Dubious" #NT!
+ nick_agot_the_bitter: "the Bitter" #NT!
+ nick_agot_the_grouch: "the Grouch" #NT!
   
- nick_the_crow: "die Krähe"
- nick_the_black_nightswatch: "the Black" #NT!
- nick_blackcloak: "Blackcloak" #NT!
- nick_coldhands: "Coldhands" #NT!
- nick_the_frostbitten: "the Frostbitten" #NT!
- nick_the_slushboots: "Slushboots" #NT!
- nick_snarkslayer: "Snarkslayer" #NT!
- nick_the_grumkin_hunter: "the Grumkin Hunter" #NT!
- nick_wallpisser: "Wallpisser" #NT!
- nick_the_molestown_guest: "the Mole's Town Guest" #NT!
+ nick_agot_the_innocent: "the Innocent" #NT!
+ nick_agot_the_white: "the White" #NT!
+ nick_agot_the_maiden: "the Maiden" #NT!
+ nick_agot_bed_shy: "Bed-Shy" #NT!
+ nick_agot_the_virtuous: "the Virtuous" #NT!
   
- nick_the_white: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Weiße"
- nick_the_pale: "the Pale" #NT!
- nick_the_alabaster: "the Alabaster" #NT!
- nick_the_ivory: "the Ivory" #NT!
- nick_milkglass: "Milkglass" #NT!
- nick_whiteshield: "Whiteshield" #NT!
- nick_whiteblood: "Whiteblood" #NT!
- nick_the_white_knight: "the White Knight" #NT!
- nick_the_white_shadow: "the White Shadow" #NT!
- nick_the_white_bull: "der Weiße Bulle"
- nick_the_snowman: "the Snowman" #NT!
- nick_the_white_bastard: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Weiße Bastard[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_white_worm: "der Weiße Wurm"
- nick_the_white_wine: "the White Wine" #NT!
- nick_wastecloak: "Wastecloak" #NT!
+ nick_agot_the_lewd: "the Lewd" #NT!
+ nick_agot_the_lecherous: "the Lecherous" #NT!
+ nick_agot_the_beloved: "the Beloved" #NT!
+ nick_agot_the_beloved_desc: "[CHARACTER.GetFullName] is loved like no other by the smallfolk." #NT!
+ nick_agot_the_lusty: "the Lusty" #NT!
+ nick_agot_hotblood: "Hotblood" #NT!
+ nick_agot_the_romantic: "the Romantic" #NT!
+ nick_agot_salacious: "Salacious" #NT!
+  
+ nick_agot_the_modest: "the Modest" #NT!
+ nick_agot_the_ignoble: "the Ignoble" #NT!
+ nick_agot_the_quiet: "the Quiet" #NT!
+ nick_agot_littlelamb: "Littlelamb" #NT!
+ nick_agot_the_meek: "the Meek" #NT!
+  
+ nick_agot_the_steady: "the Steady" #NT!
+ nick_agot_the_persistent: "the Persistent" #NT!
+ nick_agot_the_composed_patient: "the Composed" #NT!
+ nick_agot_the_even_tempered: "the Even-Tempered" #NT!
+ nick_agot_the_overripe: "the Overripe" #NT!
+ nick_agot_surefoot: "Surefoot" #NT!
+  
+ nick_agot_the_gallant: "the Gallant" #NT!
+ nick_agot_the_valiant: "the Valiant" #NT!
+ nick_agot_the_mettle: "the Mettle" #NT!
+ nick_agot_the_stalwart: "the Stalwart" #NT!
+ nick_agot_silverspur: "Silverspur" #NT!
+  
+ nick_agot_the_strong: "the Strong" #NT!
+ nick_agot_the_bull: "the Bull" #NT!
+ nick_agot_the_brawny: "the Brawny" #NT!
+ nick_agot_the_robust: "the Robust" #NT!
+ nick_agot_the_hearty: "the Hearty" #NT!
+ nick_agot_the_durable: "the Durable" #NT!
+  
+ nick_agot_the_wild: "the Wild" #NT!
+ nick_agot_the_rash: "the Rash" #NT!
+ nick_agot_the_fierce: "the Fierce" #NT!
+ nick_agot_the_fierce_desc: "All who meet [CHARACTER.GetShortUINameNoTooltipNoFormat] in combat know exactly how [CharYouSheHe(CHARACTER)] earned [CharYourHerHis(CHARACTER)] name." #NT!
+ nick_agot_the_feral: "the Feral" #NT!
+ nick_agot_the_seether: "the Seether" #NT!
+ nick_agot_the_apoplectic: "the Apoplectic" #NT!
+ nick_agot_the_ill_tempered: "the Ill-Tempered" #NT!
+ nick_agot_hotcollar: "Hotcollar" #NT!
+ nick_agot_wildfire: "Wildfire" #NT!
+ nick_agot_the_unsteady: "the Unsteady" #NT!
+ nick_agot_the_unripe: "the Unripe" #NT!
+ nick_agot_half_baked: "Half-Baked" #NT!
+ nick_agot_the_callow: "the Callow" #NT!
+ nick_agot_the_immature: "the Immature" #NT!
+  
+ nick_agot_the_arrogant: "the Arrogant" #NT!
+ nick_agot_the_haughty: "the Haughty" #NT!
+ nick_agot_the_pompous: "the Pompous" #NT!
+ nick_agot_the_cocky: "the Cocky" #NT!
+ nick_agot_the_snob: "the Snob" #NT!
+ nick_agot_vainglory: "Vainglory" #NT!
+ nick_agot_the_boastful: "the Boastful" #NT!
+  
+ nick_agot_the_mule: "the Mule" #NT!
+ nick_agot_the_defiant: "the Defiant" #NT!
+ nick_agot_the_inflexible: "the Inflexible" #NT!
+ nick_agot_headstrong: "Headstrong" #NT!
+ nick_agot_pighead: "Pighead" #NT!
+ nick_agot_the_unrelenting: "the Unrelenting" #NT!
+ nick_agot_the_recalcitrant: "the Recalcitrant" #NT!
+ nick_agot_the_intractable: "the Intractable" #NT!
+ nick_agot_the_implacable: "the Implacable" #NT!
+  
+ nick_agot_the_grim_unsocial: "the Grim" #NT!
+ nick_agot_the_sour: "the Sour" #NT!
+ nick_agot_the_morbid: "the Morbid" #NT!
+ nick_agot_the_unsmiling: "the Unsmiling" #NT!
+ nick_agot_the_grave: "the Grave" #NT!
+ nick_agot_the_stoic_unsocial: "the Stoic" #NT!
+  
+ nick_agot_the_clubfoot: "the Clubfoot" #NT!
+ nick_agot_the_lame: "the Lame" #NT!
+ nick_agot_the_limp: "the Limp" #NT!
+ nick_agot_the_limper: "the Limper" #NT!
+  
+ nick_agot_the_ruin: "the Ruin" #NT!
+ nick_agot_the_ruined: "the Ruined" #NT!
+ nick_agot_the_twisted_crippled: "the Twisted" #NT!
+ nick_agot_the_broken: "the Broken" #NT!
+  
+ nick_agot_the_mummer: "the Mummer" #NT!
+ nick_agot_the_poet: "the Poet" #NT!
+ nick_agot_the_bard: "the Bard" #NT!
+ nick_agot_the_songbird: "the Songbird" #NT!
+ nick_agot_the_singer: "the Singer" #NT!
+  
+ nick_agot_the_knight: "the Knight" #NT!
+  
+ nick_agot_the_dreamer: "the Dreamer" #NT!
+ nick_agot_the_dreamer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for having prophetic dreams and visions." #NT!
+ nick_agot_the_seer: "the Seer" #NT!
+  
+ nick_agot_the_bloodaxe: "the Bloodaxe" #NT!
+ nick_agot_the_reaver: "the Reaver" #NT!
+ nick_agot_the_raider: "the Raider" #NT!
+ nick_agot_the_pillager: "the Pillager" #NT!
+ nick_agot_red_sails: "Red-Sails" #NT!
+  
+ nick_agot_damphair: "Damphair" #NT!
+ nick_agot_the_drowned: "the Drowned" #NT!
+ nick_agot_the_drownedknight: "the Drowned[CHARACTER.Custom('GetWarriorNicknamePrefix')]" #NT!
+ nick_agot_the_damp: "the Damp" #NT!
+ nick_agot_salt_lungs: "Salt-Lungs" #NT!
+  
+ nick_agot_the_red: "the Red" #NT!
+ nick_agot_the_redknight: "the Red[CHARACTER.Custom('GetWarriorNicknamePrefix')]" #NT!
+ nick_agot_the_firegazer: "the Firegazer" #NT!
+  
+ nick_agot_the_paunch: "the Paunch" #NT!
+ nick_agot_ironguts: "Ironguts" #NT!
+ nick_agot_the_maneater: "the Maneater" #NT!
+  
+ nick_agot_the_guest: "the Guest" #NT!
+ nick_agot_maidensbane: "Maidensbane" #NT!
+ nick_agot_whoresbane: "Whoresbane" #NT!
+  
+ nick_agot_the_sheep_lover: "Sheep-Lover" #NT!
+ nick_agot_corpse_licker: "Corpse-Licker" #NT!
+  
+ nick_agot_the_necromancer: "the Necromancer" #NT!
+ nick_agot_the_warlock: "the Warlock" #NT!
+ nick_agot_the_witch: "the Witch" #NT!
+  
+ nick_agot_ninefingers: "Nine-Fingers" #NT!
+ nick_agot_the_scarred: "the Scarred" #NT!
+ nick_agot_the_damaged: "the Damaged" #NT!
+ nick_agot_woundworn: "Woundworn" #NT!
+  
+ nick_agot_the_queer: "the Queer" #NT!
+ nick_agot_the_peculiar: "the Peculiar" #NT!
+ nick_agot_the_odd: "the Odd" #NT!
+  
+ nick_agot_the_green: "the Green" #NT!
+ nick_agot_green_thumb: "Greenthumb" #NT!
+ nick_agot_the_planter: "the Planter" #NT!
+ nick_agot_the_florist: "the Florist" #NT!
+ nick_agot_the_reaper_gardener: "the Reaper" #NT!
+  
+ nick_agot_the_short: "the Short" #NT!
+ nick_agot_the_imp: "the Imp" #NT!
+ nick_agot_the_small: "the Small" #NT!
+ nick_agot_the_flea: "the Flea" #NT!
+ nick_agot_the_tall_ironic: "the Tall" #NT!
+  
+ nick_agot_silver: "Silver" #NT!
+ nick_agot_the_silver: "the Silver" #NT!
+ nick_agot_silverhair: "Silverhair" #NT!
+ nick_agot_palehair: "Palehair" #NT!
+  
+ nick_agot_the_crow: "the Crow" #NT!
+ nick_agot_the_black_nightswatch: "the Black" #NT!
+ nick_agot_blackcloak: "Blackcloak" #NT!
+ nick_agot_coldhands: "Coldhands" #NT!
+ nick_agot_the_frostbitten: "the Frostbitten" #NT!
+ nick_agot_snarkslayer: "Snarkslayer" #NT!
+ nick_agot_the_slushboots: "Slushboots" #NT!
+ nick_agot_the_grumkin_hunter: "the Grumkin Hunter" #NT!
+ nick_agot_wallpisser: "Wallpisser" #NT!
+ nick_agot_the_molestown_guest: "the Mole's Town Guest" #NT!
+  
+ nick_agot_the_white_kingsguard: "the White" #NT!
+ nick_agot_the_pale: "the Pale" #NT!
+ nick_agot_the_alabaster: "the Alabaster" #NT!
+ nick_agot_the_ivory: "the Ivory" #NT!
+ nick_agot_milkglass: "Milkglass" #NT!
+ nick_agot_whiteshield: "Whiteshield" #NT!
+ nick_agot_whiteblood: "Whiteblood" #NT!
+ nick_agot_the_white_knight: "the White Knight" #NT!
+ nick_agot_the_white_shadow: "the White Shadow" #NT!
+ nick_agot_the_white_bull: "the White Bull" #NT!
+ nick_agot_the_snowman: "the Snowman" #NT!
+ nick_agot_the_white_bastard: "the White Bastard" #NT!
+ nick_agot_the_white_worm: "the White Worm" #NT!
+ nick_agot_the_white_wine: "the White Wine" #NT!
+ nick_agot_wastecloak: "Wastecloak" #NT!
+  
+ nick_agot_woods_bewitched: "the Woods-Bewitched" #NT!
+ nick_agot_little_hero: "Little Hero" #NT!
+ nick_agot_tumbling: "Tumbling" #NT!
+ nick_agot_lord_of_books: "Blank-Paged" #NT!

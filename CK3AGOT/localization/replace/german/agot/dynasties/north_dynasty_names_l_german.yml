@@ -1,0 +1,212 @@
+﻿l_german:
+  ### NORTH DYNASTIES/CADET BRANCHES ### 
+  #Northern Great Houses 
+ dynn_Stark: "Stark"
+ dynn_Cassel: "Cassel"
+ dynn_Karstark: "Karstark"
+ house_Greystark: "Graustark"
+  
+  #Main North 
+ dynn_Bolton: "Bolton"
+ dynn_Caulfield: "Kaulfeld"
+ dynn_Cerwyn: "Cerwyn"
+ dynn_Condon: "Kandon"
+ dynn_Dustin: "Staublin"
+ dynn_Fisher: "Fischer"
+ dynn_Flint: "Flint"
+ dynn_Hornwood: "Hornwald"
+ dynn_Ironsmith: "Eisenschmydt"
+ dynn_Lake: "See"
+ dynn_Lightfoot: "Laychtfuhs"
+ dynn_Mollen: "Mollen"
+ dynn_Mormont: "Mormont"
+ dynn_Moss: "Moos"
+ dynn_Overton: "Oberten"
+ dynn_Poole: "Pool"
+ dynn_Ryder: "Reyter"
+ dynn_Ryswell: "Ryswell"
+ dynn_Short: "Kurdts"
+ dynn_Stout: "Feist"
+ dynn_Tallhart: "Tallhart"
+ dynn_Umber: "Umber"
+ dynn_WellsN: "Wells" #NT!
+ dynn_Whitehill: "Weißhügel"
+ dynn_Wibberley: "Wibberly"
+  
+  #Deepwood Clans 
+ dynn_Bole: "Stamm"
+ dynn_Branch: "Bruchast"
+ dynn_Forrester: "Förster"
+ dynn_Glover: "Glauer"
+ dynn_Woods: "Wälder"
+  
+  #Hill Clans 
+ dynn_Burley: "Burley"
+ dynn_Harclay: "Harclay"
+ dynn_Knott: "Knott"
+ dynn_Liddle: "Liddle"
+ dynn_Norrey: "Norrey"
+ dynn_Wull: "Wull"
+  
+  #White Harbour District 
+ dynn_Ashwood: "Eschwald"
+ dynn_Holt: "Holt"
+ dynn_Locke: "Locke"
+ dynn_Long: "Lang"
+ dynn_Manderly: "Manderly"
+ dynn_Silverfield: "Silberfeld"
+ dynn_Slate: "Schiefer"
+ dynn_Warrick: "Warrick"
+ dynn_Waterman: "Wassermann"
+ dynn_Woolfield: "Wollfeld"
+  
+  #Crannogman 
+ dynn_Blackmyre: "Schwarzmoor"
+ dynn_Boggs: "Morig"
+ dynn_Cray: "Flusskrebs"
+ dynn_Fenn: "Fenn"
+ dynn_Greengood: "Grüngut"
+ dynn_Marsh: "Marsch"
+ dynn_Peat: "Torf"
+ dynn_Quagg: "Modder"
+ dynn_Reed: "Reet"
+  
+  #Skagosi 
+ dynn_Crowl: "Krähl"
+ dynn_Magnar: "Magnar"
+ dynn_Stane: "Stane"
+  
+  #Extinct 
+ dynn_Amber: "Bernstein"
+ dynn_Frost: "Frost"
+ dynn_Greenwood: "Grüngut"
+ dynn_Greywolf: "Grauwolf"
+ dynn_Towers_N: "Türmen"
+ dynn_Woodfoot: "Waldfuß"
+ dynn_Marsh_King: "of the Marsh King" #NT!
+ dynn_Warg_King: "of the Warg King" #NT!
+  
+  #Telltale 
+ dynn_Brownbarrow: "Braungrub"
+ dynn_Degore: "Degor"
+ dynn_Elliver: "Elliver"
+ dynn_Glenmore: "Glennmoor"
+ dynn_Grayson: "Grausohn"
+ dynn_Tuttle: "Tuttel"
+  
+  #Show 
+ dynn_Blackbrow: "Schwarzbraue"
+ dynn_Blackbrow: "Schwarzbraue"
+ dynn_Dormand: "Dormand" #NT!
+ dynn_Goodman: "Guthmann"
+ dynn_Greenleaf: "Grünblatt"
+ dynn_Mazin: "Meysen"
+ dynn_Strongbeard: "Starkbart"
+ dynn_Portan: "Portan" #NT!
+ dynn_Leadranack: "Leadranack" #NT!
+  
+  #TT-RPG 
+ dynn_Orlych: "Orlych"
+  
+  #Kingsroad 
+ dynn_Tyre: "Tyre" #NT!
+ dynn_Broths: "Broths" #NT!
+  
+  #Modcanon 
+ dynn_Reaves: "Reaves" #NT!
+ dynn_Raogdar: "Raogdar" #NT!
+ dynn_Thran: "Thran" #NT!
+ dynn_Dross: "Dross" #NT!
+ dynn_Horksyett: "Horksyett" #NT!
+ dynn_Kratan: "Kratan" #NT!
+ dynn_Frikrigg: "Frikrigg" #NT!
+ dynn_Borragen: "Borragen" #NT!
+ dynn_Karn: "Karn" #NT!
+ dynn_Torvok: "Torvok" #NT!
+ dynn_Mundrel: "Mundrel" #NT!
+ dynn_Yggr: "Yggr" #NT!
+ dynn_Orcutt: "Orcutt" #NT!
+ dynn_Beech: "Beech" #NT!
+ dynn_Sully: "Sully"
+ dynn_Catcher: "Catcher" #NT!
+ dynn_Pinn: "Pinn" #NT!
+ dynn_Furr: "Furr" #NT!
+ dynn_Colden: "Colden" #NT!
+ dynn_Thaw: "Thaw" #NT!
+ dynn_Mack: "Mack" #NT!
+ dynn_Stump: "Stump" #NT!
+ dynn_Hume: "Hume" #NT!
+ dynn_Keane: "Keane" #NT!
+ dynn_Coaler: "Coaler" #NT!
+ dynn_Dusk: "Dusk" #NT!
+ dynn_Flade: "Flade" #NT!
+ dynn_Pale: "Pale" #NT!
+ dynn_Hatchett: "Hatchett" #NT!
+ dynn_Shackes: "Shackes" #NT!
+ dynn_Colt: "Colt" #NT!
+ dynn_Scrimshaw: "Scrimshaw" #NT!
+ dynn_Rockhead: "Rockhead" #NT!
+ dynn_Tumbler: "Tumbler" #NT!
+ dynn_Hawley: "Hawley" #NT!
+ dynn_Reamy: "Reamy" #NT!
+ dynn_Riggwelt: "Riggwelt" #NT!
+ dynn_Crook: "Crook" #NT!
+ dynn_Wearden: "Wearden" #NT!
+ dynn_Aldcreek: "Aldcreek" #NT!
+ dynn_Cade: "Cade" #NT!
+ dynn_Nash: "Nash" #NT!
+ dynn_Seaver: "Seaver" #NT!
+ dynn_Banks: "Banks" #NT!
+ dynn_Cantle: "Cantle" #NT!
+ dynn_Brewer: "Brewer" #NT!
+ dynn_Bray: "Bray" #NT!
+ dynn_Somber: "Somber" #NT!
+ dynn_Bates: "Bates" #NT!
+ dynn_Herring: "Herring" #NT!
+ dynn_Bywash: "Bywash" #NT!
+ dynn_Messer: "Messer" #NT!
+ dynn_Kiddle: "Kiddle" #NT!
+ dynn_Cairns: "Cairns" #NT!
+ dynn_Shale: "Shale" #NT!
+ dynn_Slowburn: "Slowburn" #NT!
+ dynn_Burl: "Burl" #NT!
+ dynn_Sapp: "Sapp" #NT!
+ dynn_Lurk: "Lurk" #NT!
+ dynn_Hartleaf: "Hartleaf" #NT!
+ dynn_Still: "Still" #NT!
+ dynn_Switch: "Switch" #NT!
+ dynn_Howle: "Howle" #NT!
+ dynn_Darsett: "Darsett" #NT!
+ dynn_Logg: "Logg" #NT!
+ dynn_Proud: "Proud" #NT!
+ dynn_Brummel: "Brummel" #NT!
+ dynn_Sedge: "Sedge" #NT!
+ dynn_Risk: "Risk" #NT!
+ dynn_Porter: "Porter" #NT!
+ dynn_Brent: "Brent" #NT!
+ dynn_Mund: "Mund" #NT!
+ dynn_Barley: "Barley" #NT!
+ dynn_Draywin: "Draywin" #NT!
+ dynn_Noll: "Noll" #NT!
+ dynn_Verran: "Verran" #NT!
+ dynn_Madden: "Madden" #NT!
+ dynn_Kell: "Kell" #NT!
+ dynn_Stilt: "Stilt" #NT!
+ dynn_Croggen: "Croggen" #NT!
+ dynn_Flood: "Flood" #NT!
+ dynn_Muddle: "Muddle" #NT!
+ dynn_Carr: "Carr" #NT!
+ dynn_Dampwood: "Dampwood" #NT!
+ dynn_Leach: "Leach" #NT!
+ dynn_Jeyne: "Jeyne" #NT!
+ dynn_Strand: "Strand" #NT!
+ dynn_Clay: "Clay" #NT!
+ dynn_Spears: "Speeren"
+ dynn_Weir: "Weir" #NT!
+ dynn_Rouse: "Rouse" #NT!
+ dynn_Fog: "Fog" #NT!
+ dynn_Hide: "Hide" #NT!
+ dynn_Fross: "Fross" #NT!
+ dynn_Dronigan: "Dronigan" #NT!
+ dynn_Arden: "Arden" #NT!
+ dynn_Barker: "Barker" #NT!

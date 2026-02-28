@@ -1,472 +1,472 @@
 ﻿l_german:
   # Prestige 
- TRAIT_FLAG_DESC_add_rider_monthly_prestige_1: "Rider [prestige|E]: @prestige_icon!#P +1.00#!/month" #NT!
- TRAIT_FLAG_DESC_subtract_rider_monthly_prestige_1: "Rider [prestige|E]: @prestige_icon!#N -1.00#!/month" #NT!
+ TRAIT_FLAG_DESC_add_rider_monthly_prestige_1: "Rider [prestige|E]: @prestige_icon!#P +1.00#!/month"
+ TRAIT_FLAG_DESC_subtract_rider_monthly_prestige_1: "Rider [prestige|E]: @prestige_icon!#N -1.00#!/month"
   
   # Draconic dread loc 
   # Add 
- TRAIT_FLAG_DESC_add_draconic_dread_1: "[draconic_dread|E]: @draconic_dread_icon!#P +1#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_2: "[draconic_dread|E]: @draconic_dread_icon!#P +2#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_3: "[draconic_dread|E]: @draconic_dread_icon!#P +3#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_4: "[draconic_dread|E]: @draconic_dread_icon!#P +4#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_5: "[draconic_dread|E]: @draconic_dread_icon!#P +5#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_6: "[draconic_dread|E]: @draconic_dread_icon!#P +6#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_7: "[draconic_dread|E]: @draconic_dread_icon!#P +7#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_8: "[draconic_dread|E]: @draconic_dread_icon!#P +8#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_9: "[draconic_dread|E]: @draconic_dread_icon!#P +9#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_10: "[draconic_dread|E]: @draconic_dread_icon!#P +10#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_11: "[draconic_dread|E]: @draconic_dread_icon!#P +11#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_12: "[draconic_dread|E]: @draconic_dread_icon!#P +12#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_13: "[draconic_dread|E]: @draconic_dread_icon!#P +13#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_14: "[draconic_dread|E]: @draconic_dread_icon!#P +14#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_15: "[draconic_dread|E]: @draconic_dread_icon!#P +15#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_16: "[draconic_dread|E]: @draconic_dread_icon!#P +16#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_17: "[draconic_dread|E]: @draconic_dread_icon!#P +17#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_18: "[draconic_dread|E]: @draconic_dread_icon!#P +18#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_19: "[draconic_dread|E]: @draconic_dread_icon!#P +19#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_20: "[draconic_dread|E]: @draconic_dread_icon!#P +20#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_21: "[draconic_dread|E]: @draconic_dread_icon!#P +21#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_22: "[draconic_dread|E]: @draconic_dread_icon!#P +22#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_23: "[draconic_dread|E]: @draconic_dread_icon!#P +23#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_24: "[draconic_dread|E]: @draconic_dread_icon!#P +24#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_25: "[draconic_dread|E]: @draconic_dread_icon!#P +25#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_26: "[draconic_dread|E]: @draconic_dread_icon!#P +26#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_27: "[draconic_dread|E]: @draconic_dread_icon!#P +27#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_28: "[draconic_dread|E]: @draconic_dread_icon!#P +28#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_29: "[draconic_dread|E]: @draconic_dread_icon!#P +29#!" #NT!
- TRAIT_FLAG_DESC_add_draconic_dread_30: "[draconic_dread|E]: @draconic_dread_icon!#P +30#!" #NT!
+ TRAIT_FLAG_DESC_add_draconic_dread_1: "[draconic_dread|E]: @draconic_dread_icon!#P +1#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_2: "[draconic_dread|E]: @draconic_dread_icon!#P +2#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_3: "[draconic_dread|E]: @draconic_dread_icon!#P +3#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_4: "[draconic_dread|E]: @draconic_dread_icon!#P +4#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_5: "[draconic_dread|E]: @draconic_dread_icon!#P +5#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_6: "[draconic_dread|E]: @draconic_dread_icon!#P +6#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_7: "[draconic_dread|E]: @draconic_dread_icon!#P +7#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_8: "[draconic_dread|E]: @draconic_dread_icon!#P +8#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_9: "[draconic_dread|E]: @draconic_dread_icon!#P +9#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_10: "[draconic_dread|E]: @draconic_dread_icon!#P +10#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_11: "[draconic_dread|E]: @draconic_dread_icon!#P +11#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_12: "[draconic_dread|E]: @draconic_dread_icon!#P +12#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_13: "[draconic_dread|E]: @draconic_dread_icon!#P +13#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_14: "[draconic_dread|E]: @draconic_dread_icon!#P +14#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_15: "[draconic_dread|E]: @draconic_dread_icon!#P +15#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_16: "[draconic_dread|E]: @draconic_dread_icon!#P +16#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_17: "[draconic_dread|E]: @draconic_dread_icon!#P +17#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_18: "[draconic_dread|E]: @draconic_dread_icon!#P +18#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_19: "[draconic_dread|E]: @draconic_dread_icon!#P +19#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_20: "[draconic_dread|E]: @draconic_dread_icon!#P +20#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_21: "[draconic_dread|E]: @draconic_dread_icon!#P +21#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_22: "[draconic_dread|E]: @draconic_dread_icon!#P +22#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_23: "[draconic_dread|E]: @draconic_dread_icon!#P +23#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_24: "[draconic_dread|E]: @draconic_dread_icon!#P +24#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_25: "[draconic_dread|E]: @draconic_dread_icon!#P +25#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_26: "[draconic_dread|E]: @draconic_dread_icon!#P +26#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_27: "[draconic_dread|E]: @draconic_dread_icon!#P +27#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_28: "[draconic_dread|E]: @draconic_dread_icon!#P +28#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_29: "[draconic_dread|E]: @draconic_dread_icon!#P +29#!"
+ TRAIT_FLAG_DESC_add_draconic_dread_30: "[draconic_dread|E]: @draconic_dread_icon!#P +30#!"
   # Subtract 
- TRAIT_FLAG_DESC_subtract_draconic_dread_1: "[draconic_dread|E]: @draconic_dread_icon!#N -1#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_2: "[draconic_dread|E]: @draconic_dread_icon!#N -2#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_3: "[draconic_dread|E]: @draconic_dread_icon!#N -3#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_4: "[draconic_dread|E]: @draconic_dread_icon!#N -4#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_5: "[draconic_dread|E]: @draconic_dread_icon!#N -5#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_6: "[draconic_dread|E]: @draconic_dread_icon!#N -6#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_7: "[draconic_dread|E]: @draconic_dread_icon!#N -7#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_8: "[draconic_dread|E]: @draconic_dread_icon!#N -8#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_9: "[draconic_dread|E]: @draconic_dread_icon!#N -9#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_10: "[draconic_dread|E]: @draconic_dread_icon!#N -10#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_11: "[draconic_dread|E]: @draconic_dread_icon!#N -11#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_12: "[draconic_dread|E]: @draconic_dread_icon!#N -12#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_13: "[draconic_dread|E]: @draconic_dread_icon!#N -13#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_14: "[draconic_dread|E]: @draconic_dread_icon!#N -14#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_15: "[draconic_dread|E]: @draconic_dread_icon!#N -15#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_16: "[draconic_dread|E]: @draconic_dread_icon!#N -16#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_17: "[draconic_dread|E]: @draconic_dread_icon!#N -17#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_18: "[draconic_dread|E]: @draconic_dread_icon!#N -18#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_19: "[draconic_dread|E]: @draconic_dread_icon!#N -19#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_20: "[draconic_dread|E]: @draconic_dread_icon!#N -20#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_21: "[draconic_dread|E]: @draconic_dread_icon!#N -21#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_22: "[draconic_dread|E]: @draconic_dread_icon!#N -22#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_23: "[draconic_dread|E]: @draconic_dread_icon!#N -23#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_24: "[draconic_dread|E]: @draconic_dread_icon!#N -24#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_25: "[draconic_dread|E]: @draconic_dread_icon!#N -25#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_26: "[draconic_dread|E]: @draconic_dread_icon!#N -26#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_27: "[draconic_dread|E]: @draconic_dread_icon!#N -27#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_28: "[draconic_dread|E]: @draconic_dread_icon!#N -28#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_29: "[draconic_dread|E]: @draconic_dread_icon!#N -29#!" #NT!
- TRAIT_FLAG_DESC_subtract_draconic_dread_30: "[draconic_dread|E]: @draconic_dread_icon!#N -30#!" #NT!
+ TRAIT_FLAG_DESC_subtract_draconic_dread_1: "[draconic_dread|E]: @draconic_dread_icon!#N -1#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_2: "[draconic_dread|E]: @draconic_dread_icon!#N -2#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_3: "[draconic_dread|E]: @draconic_dread_icon!#N -3#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_4: "[draconic_dread|E]: @draconic_dread_icon!#N -4#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_5: "[draconic_dread|E]: @draconic_dread_icon!#N -5#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_6: "[draconic_dread|E]: @draconic_dread_icon!#N -6#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_7: "[draconic_dread|E]: @draconic_dread_icon!#N -7#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_8: "[draconic_dread|E]: @draconic_dread_icon!#N -8#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_9: "[draconic_dread|E]: @draconic_dread_icon!#N -9#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_10: "[draconic_dread|E]: @draconic_dread_icon!#N -10#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_11: "[draconic_dread|E]: @draconic_dread_icon!#N -11#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_12: "[draconic_dread|E]: @draconic_dread_icon!#N -12#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_13: "[draconic_dread|E]: @draconic_dread_icon!#N -13#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_14: "[draconic_dread|E]: @draconic_dread_icon!#N -14#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_15: "[draconic_dread|E]: @draconic_dread_icon!#N -15#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_16: "[draconic_dread|E]: @draconic_dread_icon!#N -16#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_17: "[draconic_dread|E]: @draconic_dread_icon!#N -17#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_18: "[draconic_dread|E]: @draconic_dread_icon!#N -18#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_19: "[draconic_dread|E]: @draconic_dread_icon!#N -19#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_20: "[draconic_dread|E]: @draconic_dread_icon!#N -20#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_21: "[draconic_dread|E]: @draconic_dread_icon!#N -21#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_22: "[draconic_dread|E]: @draconic_dread_icon!#N -22#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_23: "[draconic_dread|E]: @draconic_dread_icon!#N -23#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_24: "[draconic_dread|E]: @draconic_dread_icon!#N -24#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_25: "[draconic_dread|E]: @draconic_dread_icon!#N -25#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_26: "[draconic_dread|E]: @draconic_dread_icon!#N -26#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_27: "[draconic_dread|E]: @draconic_dread_icon!#N -27#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_28: "[draconic_dread|E]: @draconic_dread_icon!#N -28#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_29: "[draconic_dread|E]: @draconic_dread_icon!#N -29#!"
+ TRAIT_FLAG_DESC_subtract_draconic_dread_30: "[draconic_dread|E]: @draconic_dread_icon!#N -30#!"
   
   # Temperament loc 
   # Add 
- TRAIT_FLAG_DESC_add_temperament_1: "[temperament|E]: @temperament_icon!#P +1#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_2: "[temperament|E]: @temperament_icon!#P +2#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_3: "[temperament|E]: @temperament_icon!#P +3#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_4: "[temperament|E]: @temperament_icon!#P +4#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_5: "[temperament|E]: @temperament_icon!#P +5#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_6: "[temperament|E]: @temperament_icon!#P +6#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_7: "[temperament|E]: @temperament_icon!#P +7#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_8: "[temperament|E]: @temperament_icon!#P +8#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_9: "[temperament|E]: @temperament_icon!#P +9#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_10: "[temperament|E]: @temperament_icon!#P +10#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_11: "[temperament|E]: @temperament_icon!#P +11#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_12: "[temperament|E]: @temperament_icon!#P +12#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_13: "[temperament|E]: @temperament_icon!#P +13#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_14: "[temperament|E]: @temperament_icon!#P +14#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_15: "[temperament|E]: @temperament_icon!#P +15#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_16: "[temperament|E]: @temperament_icon!#P +16#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_17: "[temperament|E]: @temperament_icon!#P +17#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_18: "[temperament|E]: @temperament_icon!#P +18#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_19: "[temperament|E]: @temperament_icon!#P +19#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_20: "[temperament|E]: @temperament_icon!#P +20#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_21: "[temperament|E]: @temperament_icon!#P +21#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_22: "[temperament|E]: @temperament_icon!#P +22#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_23: "[temperament|E]: @temperament_icon!#P +23#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_24: "[temperament|E]: @temperament_icon!#P +24#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_25: "[temperament|E]: @temperament_icon!#P +25#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_26: "[temperament|E]: @temperament_icon!#P +26#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_27: "[temperament|E]: @temperament_icon!#P +27#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_28: "[temperament|E]: @temperament_icon!#P +28#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_29: "[temperament|E]: @temperament_icon!#P +29#!" #NT!
- TRAIT_FLAG_DESC_add_temperament_30: "[temperament|E]: @temperament_icon!#P +30#!" #NT!
+ TRAIT_FLAG_DESC_add_temperament_1: "[temperament|E]: @temperament_icon!#P +1#!"
+ TRAIT_FLAG_DESC_add_temperament_2: "[temperament|E]: @temperament_icon!#P +2#!"
+ TRAIT_FLAG_DESC_add_temperament_3: "[temperament|E]: @temperament_icon!#P +3#!"
+ TRAIT_FLAG_DESC_add_temperament_4: "[temperament|E]: @temperament_icon!#P +4#!"
+ TRAIT_FLAG_DESC_add_temperament_5: "[temperament|E]: @temperament_icon!#P +5#!"
+ TRAIT_FLAG_DESC_add_temperament_6: "[temperament|E]: @temperament_icon!#P +6#!"
+ TRAIT_FLAG_DESC_add_temperament_7: "[temperament|E]: @temperament_icon!#P +7#!"
+ TRAIT_FLAG_DESC_add_temperament_8: "[temperament|E]: @temperament_icon!#P +8#!"
+ TRAIT_FLAG_DESC_add_temperament_9: "[temperament|E]: @temperament_icon!#P +9#!"
+ TRAIT_FLAG_DESC_add_temperament_10: "[temperament|E]: @temperament_icon!#P +10#!"
+ TRAIT_FLAG_DESC_add_temperament_11: "[temperament|E]: @temperament_icon!#P +11#!"
+ TRAIT_FLAG_DESC_add_temperament_12: "[temperament|E]: @temperament_icon!#P +12#!"
+ TRAIT_FLAG_DESC_add_temperament_13: "[temperament|E]: @temperament_icon!#P +13#!"
+ TRAIT_FLAG_DESC_add_temperament_14: "[temperament|E]: @temperament_icon!#P +14#!"
+ TRAIT_FLAG_DESC_add_temperament_15: "[temperament|E]: @temperament_icon!#P +15#!"
+ TRAIT_FLAG_DESC_add_temperament_16: "[temperament|E]: @temperament_icon!#P +16#!"
+ TRAIT_FLAG_DESC_add_temperament_17: "[temperament|E]: @temperament_icon!#P +17#!"
+ TRAIT_FLAG_DESC_add_temperament_18: "[temperament|E]: @temperament_icon!#P +18#!"
+ TRAIT_FLAG_DESC_add_temperament_19: "[temperament|E]: @temperament_icon!#P +19#!"
+ TRAIT_FLAG_DESC_add_temperament_20: "[temperament|E]: @temperament_icon!#P +20#!"
+ TRAIT_FLAG_DESC_add_temperament_21: "[temperament|E]: @temperament_icon!#P +21#!"
+ TRAIT_FLAG_DESC_add_temperament_22: "[temperament|E]: @temperament_icon!#P +22#!"
+ TRAIT_FLAG_DESC_add_temperament_23: "[temperament|E]: @temperament_icon!#P +23#!"
+ TRAIT_FLAG_DESC_add_temperament_24: "[temperament|E]: @temperament_icon!#P +24#!"
+ TRAIT_FLAG_DESC_add_temperament_25: "[temperament|E]: @temperament_icon!#P +25#!"
+ TRAIT_FLAG_DESC_add_temperament_26: "[temperament|E]: @temperament_icon!#P +26#!"
+ TRAIT_FLAG_DESC_add_temperament_27: "[temperament|E]: @temperament_icon!#P +27#!"
+ TRAIT_FLAG_DESC_add_temperament_28: "[temperament|E]: @temperament_icon!#P +28#!"
+ TRAIT_FLAG_DESC_add_temperament_29: "[temperament|E]: @temperament_icon!#P +29#!"
+ TRAIT_FLAG_DESC_add_temperament_30: "[temperament|E]: @temperament_icon!#P +30#!"
   # Subtract 
- TRAIT_FLAG_DESC_subtract_temperament_1: "[temperament|E]: @temperament_icon!#N -1#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_2: "[temperament|E]: @temperament_icon!#N -2#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_3: "[temperament|E]: @temperament_icon!#N -3#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_4: "[temperament|E]: @temperament_icon!#N -4#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_5: "[temperament|E]: @temperament_icon!#N -5#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_6: "[temperament|E]: @temperament_icon!#N -6#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_7: "[temperament|E]: @temperament_icon!#N -7#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_8: "[temperament|E]: @temperament_icon!#N -8#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_9: "[temperament|E]: @temperament_icon!#N -9#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_10: "[temperament|E]: @temperament_icon!#N -10#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_11: "[temperament|E]: @temperament_icon!#N -11#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_12: "[temperament|E]: @temperament_icon!#N -12#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_13: "[temperament|E]: @temperament_icon!#N -13#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_14: "[temperament|E]: @temperament_icon!#N -14#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_15: "[temperament|E]: @temperament_icon!#N -15#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_16: "[temperament|E]: @temperament_icon!#N -16#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_17: "[temperament|E]: @temperament_icon!#N -17#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_18: "[temperament|E]: @temperament_icon!#N -18#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_19: "[temperament|E]: @temperament_icon!#N -19#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_20: "[temperament|E]: @temperament_icon!#N -20#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_21: "[temperament|E]: @temperament_icon!#N -21#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_22: "[temperament|E]: @temperament_icon!#N -22#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_23: "[temperament|E]: @temperament_icon!#N -23#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_24: "[temperament|E]: @temperament_icon!#N -24#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_25: "[temperament|E]: @temperament_icon!#N -25#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_26: "[temperament|E]: @temperament_icon!#N -26#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_27: "[temperament|E]: @temperament_icon!#N -27#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_28: "[temperament|E]: @temperament_icon!#N -28#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_29: "[temperament|E]: @temperament_icon!#N -29#!" #NT!
- TRAIT_FLAG_DESC_subtract_temperament_30: "[temperament|E]: @temperament_icon!#N -30#!" #NT!
+ TRAIT_FLAG_DESC_subtract_temperament_1: "[temperament|E]: @temperament_icon!#N -1#!"
+ TRAIT_FLAG_DESC_subtract_temperament_2: "[temperament|E]: @temperament_icon!#N -2#!"
+ TRAIT_FLAG_DESC_subtract_temperament_3: "[temperament|E]: @temperament_icon!#N -3#!"
+ TRAIT_FLAG_DESC_subtract_temperament_4: "[temperament|E]: @temperament_icon!#N -4#!"
+ TRAIT_FLAG_DESC_subtract_temperament_5: "[temperament|E]: @temperament_icon!#N -5#!"
+ TRAIT_FLAG_DESC_subtract_temperament_6: "[temperament|E]: @temperament_icon!#N -6#!"
+ TRAIT_FLAG_DESC_subtract_temperament_7: "[temperament|E]: @temperament_icon!#N -7#!"
+ TRAIT_FLAG_DESC_subtract_temperament_8: "[temperament|E]: @temperament_icon!#N -8#!"
+ TRAIT_FLAG_DESC_subtract_temperament_9: "[temperament|E]: @temperament_icon!#N -9#!"
+ TRAIT_FLAG_DESC_subtract_temperament_10: "[temperament|E]: @temperament_icon!#N -10#!"
+ TRAIT_FLAG_DESC_subtract_temperament_11: "[temperament|E]: @temperament_icon!#N -11#!"
+ TRAIT_FLAG_DESC_subtract_temperament_12: "[temperament|E]: @temperament_icon!#N -12#!"
+ TRAIT_FLAG_DESC_subtract_temperament_13: "[temperament|E]: @temperament_icon!#N -13#!"
+ TRAIT_FLAG_DESC_subtract_temperament_14: "[temperament|E]: @temperament_icon!#N -14#!"
+ TRAIT_FLAG_DESC_subtract_temperament_15: "[temperament|E]: @temperament_icon!#N -15#!"
+ TRAIT_FLAG_DESC_subtract_temperament_16: "[temperament|E]: @temperament_icon!#N -16#!"
+ TRAIT_FLAG_DESC_subtract_temperament_17: "[temperament|E]: @temperament_icon!#N -17#!"
+ TRAIT_FLAG_DESC_subtract_temperament_18: "[temperament|E]: @temperament_icon!#N -18#!"
+ TRAIT_FLAG_DESC_subtract_temperament_19: "[temperament|E]: @temperament_icon!#N -19#!"
+ TRAIT_FLAG_DESC_subtract_temperament_20: "[temperament|E]: @temperament_icon!#N -20#!"
+ TRAIT_FLAG_DESC_subtract_temperament_21: "[temperament|E]: @temperament_icon!#N -21#!"
+ TRAIT_FLAG_DESC_subtract_temperament_22: "[temperament|E]: @temperament_icon!#N -22#!"
+ TRAIT_FLAG_DESC_subtract_temperament_23: "[temperament|E]: @temperament_icon!#N -23#!"
+ TRAIT_FLAG_DESC_subtract_temperament_24: "[temperament|E]: @temperament_icon!#N -24#!"
+ TRAIT_FLAG_DESC_subtract_temperament_25: "[temperament|E]: @temperament_icon!#N -25#!"
+ TRAIT_FLAG_DESC_subtract_temperament_26: "[temperament|E]: @temperament_icon!#N -26#!"
+ TRAIT_FLAG_DESC_subtract_temperament_27: "[temperament|E]: @temperament_icon!#N -27#!"
+ TRAIT_FLAG_DESC_subtract_temperament_28: "[temperament|E]: @temperament_icon!#N -28#!"
+ TRAIT_FLAG_DESC_subtract_temperament_29: "[temperament|E]: @temperament_icon!#N -29#!"
+ TRAIT_FLAG_DESC_subtract_temperament_30: "[temperament|E]: @temperament_icon!#N -30#!"
   
   # Taming chance loc 
   # Add 
- TRAIT_FLAG_DESC_add_taming_chance_1: "[taming_chance|E]: @taming_chance_icon!#P +1#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_2: "[taming_chance|E]: @taming_chance_icon!#P +2#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_3: "[taming_chance|E]: @taming_chance_icon!#P +3#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_4: "[taming_chance|E]: @taming_chance_icon!#P +4#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_5: "[taming_chance|E]: @taming_chance_icon!#P +5#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_6: "[taming_chance|E]: @taming_chance_icon!#P +6#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_7: "[taming_chance|E]: @taming_chance_icon!#P +7#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_8: "[taming_chance|E]: @taming_chance_icon!#P +8#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_9: "[taming_chance|E]: @taming_chance_icon!#P +9#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_11: "[taming_chance|E]: @taming_chance_icon!#P +11#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_10: "[taming_chance|E]: @taming_chance_icon!#P +10#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_12: "[taming_chance|E]: @taming_chance_icon!#P +12#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_13: "[taming_chance|E]: @taming_chance_icon!#P +13#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_14: "[taming_chance|E]: @taming_chance_icon!#P +14#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_15: "[taming_chance|E]: @taming_chance_icon!#P +15#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_16: "[taming_chance|E]: @taming_chance_icon!#P +16#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_17: "[taming_chance|E]: @taming_chance_icon!#P +17#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_18: "[taming_chance|E]: @taming_chance_icon!#P +18#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_19: "[taming_chance|E]: @taming_chance_icon!#P +19#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_20: "[taming_chance|E]: @taming_chance_icon!#P +20#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_21: "[taming_chance|E]: @taming_chance_icon!#P +21#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_22: "[taming_chance|E]: @taming_chance_icon!#P +22#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_23: "[taming_chance|E]: @taming_chance_icon!#P +23#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_24: "[taming_chance|E]: @taming_chance_icon!#P +24#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_25: "[taming_chance|E]: @taming_chance_icon!#P +25#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_26: "[taming_chance|E]: @taming_chance_icon!#P +26#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_27: "[taming_chance|E]: @taming_chance_icon!#P +27#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_28: "[taming_chance|E]: @taming_chance_icon!#P +28#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_29: "[taming_chance|E]: @taming_chance_icon!#P +29#!" #NT!
- TRAIT_FLAG_DESC_add_taming_chance_30: "[taming_chance|E]: @taming_chance_icon!#P +30#!" #NT!
+ TRAIT_FLAG_DESC_add_taming_chance_1: "[taming_chance|E]: @taming_chance_icon!#P +1#!"
+ TRAIT_FLAG_DESC_add_taming_chance_2: "[taming_chance|E]: @taming_chance_icon!#P +2#!"
+ TRAIT_FLAG_DESC_add_taming_chance_3: "[taming_chance|E]: @taming_chance_icon!#P +3#!"
+ TRAIT_FLAG_DESC_add_taming_chance_4: "[taming_chance|E]: @taming_chance_icon!#P +4#!"
+ TRAIT_FLAG_DESC_add_taming_chance_5: "[taming_chance|E]: @taming_chance_icon!#P +5#!"
+ TRAIT_FLAG_DESC_add_taming_chance_6: "[taming_chance|E]: @taming_chance_icon!#P +6#!"
+ TRAIT_FLAG_DESC_add_taming_chance_7: "[taming_chance|E]: @taming_chance_icon!#P +7#!"
+ TRAIT_FLAG_DESC_add_taming_chance_8: "[taming_chance|E]: @taming_chance_icon!#P +8#!"
+ TRAIT_FLAG_DESC_add_taming_chance_9: "[taming_chance|E]: @taming_chance_icon!#P +9#!"
+ TRAIT_FLAG_DESC_add_taming_chance_11: "[taming_chance|E]: @taming_chance_icon!#P +11#!"
+ TRAIT_FLAG_DESC_add_taming_chance_10: "[taming_chance|E]: @taming_chance_icon!#P +10#!"
+ TRAIT_FLAG_DESC_add_taming_chance_12: "[taming_chance|E]: @taming_chance_icon!#P +12#!"
+ TRAIT_FLAG_DESC_add_taming_chance_13: "[taming_chance|E]: @taming_chance_icon!#P +13#!"
+ TRAIT_FLAG_DESC_add_taming_chance_14: "[taming_chance|E]: @taming_chance_icon!#P +14#!"
+ TRAIT_FLAG_DESC_add_taming_chance_15: "[taming_chance|E]: @taming_chance_icon!#P +15#!"
+ TRAIT_FLAG_DESC_add_taming_chance_16: "[taming_chance|E]: @taming_chance_icon!#P +16#!"
+ TRAIT_FLAG_DESC_add_taming_chance_17: "[taming_chance|E]: @taming_chance_icon!#P +17#!"
+ TRAIT_FLAG_DESC_add_taming_chance_18: "[taming_chance|E]: @taming_chance_icon!#P +18#!"
+ TRAIT_FLAG_DESC_add_taming_chance_19: "[taming_chance|E]: @taming_chance_icon!#P +19#!"
+ TRAIT_FLAG_DESC_add_taming_chance_20: "[taming_chance|E]: @taming_chance_icon!#P +20#!"
+ TRAIT_FLAG_DESC_add_taming_chance_21: "[taming_chance|E]: @taming_chance_icon!#P +21#!"
+ TRAIT_FLAG_DESC_add_taming_chance_22: "[taming_chance|E]: @taming_chance_icon!#P +22#!"
+ TRAIT_FLAG_DESC_add_taming_chance_23: "[taming_chance|E]: @taming_chance_icon!#P +23#!"
+ TRAIT_FLAG_DESC_add_taming_chance_24: "[taming_chance|E]: @taming_chance_icon!#P +24#!"
+ TRAIT_FLAG_DESC_add_taming_chance_25: "[taming_chance|E]: @taming_chance_icon!#P +25#!"
+ TRAIT_FLAG_DESC_add_taming_chance_26: "[taming_chance|E]: @taming_chance_icon!#P +26#!"
+ TRAIT_FLAG_DESC_add_taming_chance_27: "[taming_chance|E]: @taming_chance_icon!#P +27#!"
+ TRAIT_FLAG_DESC_add_taming_chance_28: "[taming_chance|E]: @taming_chance_icon!#P +28#!"
+ TRAIT_FLAG_DESC_add_taming_chance_29: "[taming_chance|E]: @taming_chance_icon!#P +29#!"
+ TRAIT_FLAG_DESC_add_taming_chance_30: "[taming_chance|E]: @taming_chance_icon!#P +30#!"
   # Subtract 
- TRAIT_FLAG_DESC_subtract_taming_chance_1: "[taming_chance|E]: @taming_chance_icon!#N -1#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_2: "[taming_chance|E]: @taming_chance_icon!#N -2#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_3: "[taming_chance|E]: @taming_chance_icon!#N -3#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_4: "[taming_chance|E]: @taming_chance_icon!#N -4#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_5: "[taming_chance|E]: @taming_chance_icon!#N -5#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_6: "[taming_chance|E]: @taming_chance_icon!#N -6#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_7: "[taming_chance|E]: @taming_chance_icon!#N -7#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_8: "[taming_chance|E]: @taming_chance_icon!#N -8#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_9: "[taming_chance|E]: @taming_chance_icon!#N -9#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_10: "[taming_chance|E]: @taming_chance_icon!#N -10#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_11: "[taming_chance|E]: @taming_chance_icon!#N -11#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_12: "[taming_chance|E]: @taming_chance_icon!#N -12#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_13: "[taming_chance|E]: @taming_chance_icon!#N -13#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_14: "[taming_chance|E]: @taming_chance_icon!#N -14#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_15: "[taming_chance|E]: @taming_chance_icon!#N -15#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_16: "[taming_chance|E]: @taming_chance_icon!#N -16#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_17: "[taming_chance|E]: @taming_chance_icon!#N -17#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_18: "[taming_chance|E]: @taming_chance_icon!#N -18#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_19: "[taming_chance|E]: @taming_chance_icon!#N -19#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_20: "[taming_chance|E]: @taming_chance_icon!#N -20#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_21: "[taming_chance|E]: @taming_chance_icon!#N -21#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_22: "[taming_chance|E]: @taming_chance_icon!#N -22#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_23: "[taming_chance|E]: @taming_chance_icon!#N -23#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_24: "[taming_chance|E]: @taming_chance_icon!#N -24#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_25: "[taming_chance|E]: @taming_chance_icon!#N -25#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_26: "[taming_chance|E]: @taming_chance_icon!#N -26#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_27: "[taming_chance|E]: @taming_chance_icon!#N -27#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_28: "[taming_chance|E]: @taming_chance_icon!#N -28#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_29: "[taming_chance|E]: @taming_chance_icon!#N -29#!" #NT!
- TRAIT_FLAG_DESC_subtract_taming_chance_30: "[taming_chance|E]: @taming_chance_icon!#N -30#!" #NT!
+ TRAIT_FLAG_DESC_subtract_taming_chance_1: "[taming_chance|E]: @taming_chance_icon!#N -1#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_2: "[taming_chance|E]: @taming_chance_icon!#N -2#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_3: "[taming_chance|E]: @taming_chance_icon!#N -3#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_4: "[taming_chance|E]: @taming_chance_icon!#N -4#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_5: "[taming_chance|E]: @taming_chance_icon!#N -5#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_6: "[taming_chance|E]: @taming_chance_icon!#N -6#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_7: "[taming_chance|E]: @taming_chance_icon!#N -7#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_8: "[taming_chance|E]: @taming_chance_icon!#N -8#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_9: "[taming_chance|E]: @taming_chance_icon!#N -9#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_10: "[taming_chance|E]: @taming_chance_icon!#N -10#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_11: "[taming_chance|E]: @taming_chance_icon!#N -11#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_12: "[taming_chance|E]: @taming_chance_icon!#N -12#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_13: "[taming_chance|E]: @taming_chance_icon!#N -13#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_14: "[taming_chance|E]: @taming_chance_icon!#N -14#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_15: "[taming_chance|E]: @taming_chance_icon!#N -15#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_16: "[taming_chance|E]: @taming_chance_icon!#N -16#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_17: "[taming_chance|E]: @taming_chance_icon!#N -17#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_18: "[taming_chance|E]: @taming_chance_icon!#N -18#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_19: "[taming_chance|E]: @taming_chance_icon!#N -19#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_20: "[taming_chance|E]: @taming_chance_icon!#N -20#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_21: "[taming_chance|E]: @taming_chance_icon!#N -21#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_22: "[taming_chance|E]: @taming_chance_icon!#N -22#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_23: "[taming_chance|E]: @taming_chance_icon!#N -23#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_24: "[taming_chance|E]: @taming_chance_icon!#N -24#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_25: "[taming_chance|E]: @taming_chance_icon!#N -25#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_26: "[taming_chance|E]: @taming_chance_icon!#N -26#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_27: "[taming_chance|E]: @taming_chance_icon!#N -27#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_28: "[taming_chance|E]: @taming_chance_icon!#N -28#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_29: "[taming_chance|E]: @taming_chance_icon!#N -29#!"
+ TRAIT_FLAG_DESC_subtract_taming_chance_30: "[taming_chance|E]: @taming_chance_icon!#N -30#!"
   
   # Size 
   # Special 
- TRAIT_FLAG_DESC_add_early_growth: "First year [dragon_size|E] @dragon_size_icon! growth rate: #P x10#!" #NT!
+ TRAIT_FLAG_DESC_add_early_growth: "First year [dragon_size|E] @dragon_size_icon! growth rate: #P x10#!"
   # Add 
- TRAIT_FLAG_DESC_add_size_modifier_1: "[dragon_size|E]: @dragon_size_icon!#P +1%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_2: "[dragon_size|E]: @dragon_size_icon!#P +2%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_3: "[dragon_size|E]: @dragon_size_icon!#P +3%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_4: "[dragon_size|E]: @dragon_size_icon!#P +4%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_5: "[dragon_size|E]: @dragon_size_icon!#P +5%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_6: "[dragon_size|E]: @dragon_size_icon!#P +6%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_7: "[dragon_size|E]: @dragon_size_icon!#P +7%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_8: "[dragon_size|E]: @dragon_size_icon!#P +8%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_9: "[dragon_size|E]: @dragon_size_icon!#P +9%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_10: "[dragon_size|E]: @dragon_size_icon!#P +10%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_11: "[dragon_size|E]: @dragon_size_icon!#P +11%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_12: "[dragon_size|E]: @dragon_size_icon!#P +12%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_13: "[dragon_size|E]: @dragon_size_icon!#P +13%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_14: "[dragon_size|E]: @dragon_size_icon!#P +14%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_15: "[dragon_size|E]: @dragon_size_icon!#P +15%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_16: "[dragon_size|E]: @dragon_size_icon!#P +16%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_17: "[dragon_size|E]: @dragon_size_icon!#P +17%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_18: "[dragon_size|E]: @dragon_size_icon!#P +18%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_19: "[dragon_size|E]: @dragon_size_icon!#P +19%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_20: "[dragon_size|E]: @dragon_size_icon!#P +20%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_21: "[dragon_size|E]: @dragon_size_icon!#P +21%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_22: "[dragon_size|E]: @dragon_size_icon!#P +22%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_23: "[dragon_size|E]: @dragon_size_icon!#P +23%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_24: "[dragon_size|E]: @dragon_size_icon!#P +24%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_25: "[dragon_size|E]: @dragon_size_icon!#P +25%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_26: "[dragon_size|E]: @dragon_size_icon!#P +26%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_27: "[dragon_size|E]: @dragon_size_icon!#P +27%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_28: "[dragon_size|E]: @dragon_size_icon!#P +28%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_29: "[dragon_size|E]: @dragon_size_icon!#P +29%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_30: "[dragon_size|E]: @dragon_size_icon!#P +30%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_50: "[dragon_size|E]: @dragon_size_icon!#P +50%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_60: "[dragon_size|E]: @dragon_size_icon!#P +60%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_70: "[dragon_size|E]: @dragon_size_icon!#P +70%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_75: "[dragon_size|E]: @dragon_size_icon!#P +75%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_80: "[dragon_size|E]: @dragon_size_icon!#P +80%#!" #NT!
- TRAIT_FLAG_DESC_add_size_modifier_90: "[dragon_size|E]: @dragon_size_icon!#P +90%#!" #NT!
+ TRAIT_FLAG_DESC_add_size_modifier_1: "[dragon_size|E]: @dragon_size_icon!#P +1%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_2: "[dragon_size|E]: @dragon_size_icon!#P +2%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_3: "[dragon_size|E]: @dragon_size_icon!#P +3%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_4: "[dragon_size|E]: @dragon_size_icon!#P +4%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_5: "[dragon_size|E]: @dragon_size_icon!#P +5%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_6: "[dragon_size|E]: @dragon_size_icon!#P +6%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_7: "[dragon_size|E]: @dragon_size_icon!#P +7%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_8: "[dragon_size|E]: @dragon_size_icon!#P +8%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_9: "[dragon_size|E]: @dragon_size_icon!#P +9%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_10: "[dragon_size|E]: @dragon_size_icon!#P +10%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_11: "[dragon_size|E]: @dragon_size_icon!#P +11%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_12: "[dragon_size|E]: @dragon_size_icon!#P +12%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_13: "[dragon_size|E]: @dragon_size_icon!#P +13%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_14: "[dragon_size|E]: @dragon_size_icon!#P +14%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_15: "[dragon_size|E]: @dragon_size_icon!#P +15%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_16: "[dragon_size|E]: @dragon_size_icon!#P +16%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_17: "[dragon_size|E]: @dragon_size_icon!#P +17%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_18: "[dragon_size|E]: @dragon_size_icon!#P +18%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_19: "[dragon_size|E]: @dragon_size_icon!#P +19%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_20: "[dragon_size|E]: @dragon_size_icon!#P +20%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_21: "[dragon_size|E]: @dragon_size_icon!#P +21%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_22: "[dragon_size|E]: @dragon_size_icon!#P +22%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_23: "[dragon_size|E]: @dragon_size_icon!#P +23%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_24: "[dragon_size|E]: @dragon_size_icon!#P +24%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_25: "[dragon_size|E]: @dragon_size_icon!#P +25%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_26: "[dragon_size|E]: @dragon_size_icon!#P +26%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_27: "[dragon_size|E]: @dragon_size_icon!#P +27%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_28: "[dragon_size|E]: @dragon_size_icon!#P +28%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_29: "[dragon_size|E]: @dragon_size_icon!#P +29%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_30: "[dragon_size|E]: @dragon_size_icon!#P +30%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_50: "[dragon_size|E]: @dragon_size_icon!#P +50%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_60: "[dragon_size|E]: @dragon_size_icon!#P +60%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_70: "[dragon_size|E]: @dragon_size_icon!#P +70%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_75: "[dragon_size|E]: @dragon_size_icon!#P +75%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_80: "[dragon_size|E]: @dragon_size_icon!#P +80%#!"
+ TRAIT_FLAG_DESC_add_size_modifier_90: "[dragon_size|E]: @dragon_size_icon!#P +90%#!"
   # Subtract 
- TRAIT_FLAG_DESC_subtract_size_modifier_1: "[dragon_size|E]: @dragon_size_icon!#N -1%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_2: "[dragon_size|E]: @dragon_size_icon!#N -2%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_3: "[dragon_size|E]: @dragon_size_icon!#N -3%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_4: "[dragon_size|E]: @dragon_size_icon!#N -4%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_5: "[dragon_size|E]: @dragon_size_icon!#N -5%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_6: "[dragon_size|E]: @dragon_size_icon!#N -6%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_7: "[dragon_size|E]: @dragon_size_icon!#N -7%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_8: "[dragon_size|E]: @dragon_size_icon!#N -8%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_9: "[dragon_size|E]: @dragon_size_icon!#N -9%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_10: "[dragon_size|E]: @dragon_size_icon!#N -10%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_11: "[dragon_size|E]: @dragon_size_icon!#N -11%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_12: "[dragon_size|E]: @dragon_size_icon!#N -12%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_13: "[dragon_size|E]: @dragon_size_icon!#N -13%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_14: "[dragon_size|E]: @dragon_size_icon!#N -14%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_15: "[dragon_size|E]: @dragon_size_icon!#N -15%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_16: "[dragon_size|E]: @dragon_size_icon!#N -16%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_17: "[dragon_size|E]: @dragon_size_icon!#N -17%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_18: "[dragon_size|E]: @dragon_size_icon!#N -18%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_19: "[dragon_size|E]: @dragon_size_icon!#N -19%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_20: "[dragon_size|E]: @dragon_size_icon!#N -20%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_21: "[dragon_size|E]: @dragon_size_icon!#N -21%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_22: "[dragon_size|E]: @dragon_size_icon!#N -22%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_23: "[dragon_size|E]: @dragon_size_icon!#N -23%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_24: "[dragon_size|E]: @dragon_size_icon!#N -24%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_25: "[dragon_size|E]: @dragon_size_icon!#N -25%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_26: "[dragon_size|E]: @dragon_size_icon!#N -26%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_27: "[dragon_size|E]: @dragon_size_icon!#N -27%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_28: "[dragon_size|E]: @dragon_size_icon!#N -28%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_29: "[dragon_size|E]: @dragon_size_icon!#N -29%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_30: "[dragon_size|E]: @dragon_size_icon!#N -30%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_50: "[dragon_size|E]: @dragon_size_icon!#N -50%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_60: "[dragon_size|E]: @dragon_size_icon!#N -60%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_70: "[dragon_size|E]: @dragon_size_icon!#N -70%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_75: "[dragon_size|E]: @dragon_size_icon!#N -75%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_80: "[dragon_size|E]: @dragon_size_icon!#N -80%#!" #NT!
- TRAIT_FLAG_DESC_subtract_size_modifier_90: "[dragon_size|E]: @dragon_size_icon!#N -90%#!" #NT!
+ TRAIT_FLAG_DESC_subtract_size_modifier_1: "[dragon_size|E]: @dragon_size_icon!#N -1%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_2: "[dragon_size|E]: @dragon_size_icon!#N -2%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_3: "[dragon_size|E]: @dragon_size_icon!#N -3%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_4: "[dragon_size|E]: @dragon_size_icon!#N -4%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_5: "[dragon_size|E]: @dragon_size_icon!#N -5%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_6: "[dragon_size|E]: @dragon_size_icon!#N -6%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_7: "[dragon_size|E]: @dragon_size_icon!#N -7%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_8: "[dragon_size|E]: @dragon_size_icon!#N -8%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_9: "[dragon_size|E]: @dragon_size_icon!#N -9%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_10: "[dragon_size|E]: @dragon_size_icon!#N -10%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_11: "[dragon_size|E]: @dragon_size_icon!#N -11%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_12: "[dragon_size|E]: @dragon_size_icon!#N -12%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_13: "[dragon_size|E]: @dragon_size_icon!#N -13%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_14: "[dragon_size|E]: @dragon_size_icon!#N -14%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_15: "[dragon_size|E]: @dragon_size_icon!#N -15%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_16: "[dragon_size|E]: @dragon_size_icon!#N -16%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_17: "[dragon_size|E]: @dragon_size_icon!#N -17%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_18: "[dragon_size|E]: @dragon_size_icon!#N -18%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_19: "[dragon_size|E]: @dragon_size_icon!#N -19%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_20: "[dragon_size|E]: @dragon_size_icon!#N -20%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_21: "[dragon_size|E]: @dragon_size_icon!#N -21%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_22: "[dragon_size|E]: @dragon_size_icon!#N -22%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_23: "[dragon_size|E]: @dragon_size_icon!#N -23%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_24: "[dragon_size|E]: @dragon_size_icon!#N -24%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_25: "[dragon_size|E]: @dragon_size_icon!#N -25%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_26: "[dragon_size|E]: @dragon_size_icon!#N -26%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_27: "[dragon_size|E]: @dragon_size_icon!#N -27%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_28: "[dragon_size|E]: @dragon_size_icon!#N -28%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_29: "[dragon_size|E]: @dragon_size_icon!#N -29%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_30: "[dragon_size|E]: @dragon_size_icon!#N -30%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_50: "[dragon_size|E]: @dragon_size_icon!#N -50%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_60: "[dragon_size|E]: @dragon_size_icon!#N -60%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_70: "[dragon_size|E]: @dragon_size_icon!#N -70%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_75: "[dragon_size|E]: @dragon_size_icon!#N -75%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_80: "[dragon_size|E]: @dragon_size_icon!#N -80%#!"
+ TRAIT_FLAG_DESC_subtract_size_modifier_90: "[dragon_size|E]: @dragon_size_icon!#N -90%#!"
   
   # Combat Effectiveness 
   # Add 
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_1: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +1%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_2: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +2%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_3: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +3%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_4: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +4%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_5: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +5%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_6: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +6%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_7: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +7%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_8: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +8%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_9: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +9%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_10: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +10%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_11: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +11%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_12: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +12%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_13: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +13%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_14: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +14%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_15: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +15%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_16: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +16%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_17: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +17%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_18: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +18%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_19: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +19%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_20: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +20%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_21: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +21%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_22: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +22%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_23: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +23%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_24: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +24%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_25: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +25%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_26: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +26%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_27: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +27%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_28: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +28%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_29: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +29%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_30: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +30%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_50: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +50%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_60: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +60%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_70: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +70%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_75: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +75%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_80: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +80%#!" #NT!
- TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_90: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +90%#!" #NT!
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_1: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +1%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_2: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +2%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_3: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +3%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_4: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +4%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_5: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +5%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_6: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +6%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_7: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +7%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_8: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +8%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_9: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +9%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_10: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +10%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_11: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +11%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_12: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +12%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_13: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +13%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_14: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +14%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_15: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +15%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_16: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +16%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_17: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +17%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_18: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +18%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_19: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +19%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_20: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +20%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_21: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +21%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_22: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +22%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_23: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +23%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_24: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +24%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_25: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +25%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_26: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +26%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_27: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +27%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_28: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +28%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_29: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +29%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_30: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +30%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_50: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +50%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_60: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +60%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_70: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +70%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_75: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +75%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_80: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +80%#!"
+ TRAIT_FLAG_DESC_add_combat_effectiveness_modifier_90: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#P +90%#!"
   # Subtract 
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_1: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -1%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_2: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -2%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_3: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -3%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_4: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -4%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_5: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -5%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_6: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -6%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_7: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -7%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_8: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -8%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_9: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -9%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_10: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -10%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_11: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -11%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_12: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -12%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_13: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -13%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_14: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -14%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_15: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -15%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_16: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -16%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_17: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -17%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_18: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -18%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_19: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -19%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_20: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -20%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_21: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -21%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_22: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -22%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_23: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -23%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_24: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -24%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_25: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -25%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_26: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -26%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_27: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -27%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_28: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -28%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_29: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -29%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_30: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -30%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_50: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -50%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_60: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -60%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_70: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -70%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_75: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -75%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_80: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -80%#!" #NT!
- TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_90: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -90%#!" #NT!
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_1: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -1%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_2: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -2%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_3: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -3%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_4: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -4%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_5: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -5%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_6: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -6%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_7: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -7%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_8: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -8%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_9: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -9%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_10: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -10%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_11: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -11%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_12: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -12%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_13: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -13%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_14: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -14%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_15: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -15%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_16: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -16%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_17: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -17%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_18: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -18%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_19: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -19%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_20: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -20%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_21: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -21%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_22: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -22%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_23: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -23%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_24: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -24%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_25: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -25%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_26: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -26%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_27: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -27%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_28: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -28%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_29: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -29%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_30: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -30%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_50: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -50%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_60: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -60%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_70: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -70%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_75: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -75%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_80: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -80%#!"
+ TRAIT_FLAG_DESC_subtract_combat_effectiveness_modifier_90: "[dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon!#N -90%#!"
   
   # Loc transformations for easier writing 
- add_draconic_dread_1: "$TRAIT_FLAG_DESC_add_draconic_dread_1$" #NT!
- add_draconic_dread_2: "$TRAIT_FLAG_DESC_add_draconic_dread_2$" #NT!
- add_draconic_dread_3: "$TRAIT_FLAG_DESC_add_draconic_dread_3$" #NT!
- add_draconic_dread_4: "$TRAIT_FLAG_DESC_add_draconic_dread_4$" #NT!
- add_draconic_dread_5: "$TRAIT_FLAG_DESC_add_draconic_dread_5$" #NT!
- add_draconic_dread_6: "$TRAIT_FLAG_DESC_add_draconic_dread_6$" #NT!
- add_draconic_dread_7: "$TRAIT_FLAG_DESC_add_draconic_dread_7$" #NT!
- add_draconic_dread_8: "$TRAIT_FLAG_DESC_add_draconic_dread_8$" #NT!
- add_draconic_dread_9: "$TRAIT_FLAG_DESC_add_draconic_dread_9$" #NT!
- add_draconic_dread_10: "$TRAIT_FLAG_DESC_add_draconic_dread_10$" #NT!
- add_draconic_dread_11: "$TRAIT_FLAG_DESC_add_draconic_dread_11$" #NT!
- add_draconic_dread_12: "$TRAIT_FLAG_DESC_add_draconic_dread_12$" #NT!
- add_draconic_dread_13: "$TRAIT_FLAG_DESC_add_draconic_dread_13$" #NT!
- add_draconic_dread_14: "$TRAIT_FLAG_DESC_add_draconic_dread_14$" #NT!
- add_draconic_dread_15: "$TRAIT_FLAG_DESC_add_draconic_dread_15$" #NT!
- subtract_draconic_dread_1: "$TRAIT_FLAG_DESC_subtract_draconic_dread_1$" #NT!
- subtract_draconic_dread_2: "$TRAIT_FLAG_DESC_subtract_draconic_dread_2$" #NT!
- subtract_draconic_dread_3: "$TRAIT_FLAG_DESC_subtract_draconic_dread_3$" #NT!
- subtract_draconic_dread_4: "$TRAIT_FLAG_DESC_subtract_draconic_dread_4$" #NT!
- subtract_draconic_dread_5: "$TRAIT_FLAG_DESC_subtract_draconic_dread_5$" #NT!
- subtract_draconic_dread_6: "$TRAIT_FLAG_DESC_subtract_draconic_dread_6$" #NT!
- subtract_draconic_dread_7: "$TRAIT_FLAG_DESC_subtract_draconic_dread_7$" #NT!
- subtract_draconic_dread_8: "$TRAIT_FLAG_DESC_subtract_draconic_dread_8$" #NT!
- subtract_draconic_dread_9: "$TRAIT_FLAG_DESC_subtract_draconic_dread_9$" #NT!
- subtract_draconic_dread_10: "$TRAIT_FLAG_DESC_subtract_draconic_dread_10$" #NT!
- subtract_draconic_dread_11: "$TRAIT_FLAG_DESC_subtract_draconic_dread_11$" #NT!
- subtract_draconic_dread_12: "$TRAIT_FLAG_DESC_subtract_draconic_dread_12$" #NT!
- subtract_draconic_dread_13: "$TRAIT_FLAG_DESC_subtract_draconic_dread_13$" #NT!
- subtract_draconic_dread_14: "$TRAIT_FLAG_DESC_subtract_draconic_dread_14$" #NT!
- subtract_draconic_dread_15: "$TRAIT_FLAG_DESC_subtract_draconic_dread_15$" #NT!
- add_temperament_1: "$TRAIT_FLAG_DESC_add_temperament_1$" #NT!
- add_temperament_2: "$TRAIT_FLAG_DESC_add_temperament_2$" #NT!
- add_temperament_3: "$TRAIT_FLAG_DESC_add_temperament_3$" #NT!
- add_temperament_4: "$TRAIT_FLAG_DESC_add_temperament_4$" #NT!
- add_temperament_5: "$TRAIT_FLAG_DESC_add_temperament_5$" #NT!
- add_temperament_6: "$TRAIT_FLAG_DESC_add_temperament_6$" #NT!
- add_temperament_7: "$TRAIT_FLAG_DESC_add_temperament_7$" #NT!
- add_temperament_8: "$TRAIT_FLAG_DESC_add_temperament_8$" #NT!
- add_temperament_9: "$TRAIT_FLAG_DESC_add_temperament_9$" #NT!
- add_temperament_10: "$TRAIT_FLAG_DESC_add_temperament_10$" #NT!
- add_temperament_11: "$TRAIT_FLAG_DESC_add_temperament_11$" #NT!
- add_temperament_12: "$TRAIT_FLAG_DESC_add_temperament_12$" #NT!
- add_temperament_13: "$TRAIT_FLAG_DESC_add_temperament_13$" #NT!
- add_temperament_14: "$TRAIT_FLAG_DESC_add_temperament_14$" #NT!
- add_temperament_15: "$TRAIT_FLAG_DESC_add_temperament_15$" #NT!
- subtract_temperament_1: "$TRAIT_FLAG_DESC_subtract_temperament_1$" #NT!
- subtract_temperament_2: "$TRAIT_FLAG_DESC_subtract_temperament_2$" #NT!
- subtract_temperament_3: "$TRAIT_FLAG_DESC_subtract_temperament_3$" #NT!
- subtract_temperament_4: "$TRAIT_FLAG_DESC_subtract_temperament_4$" #NT!
- subtract_temperament_5: "$TRAIT_FLAG_DESC_subtract_temperament_5$" #NT!
- subtract_temperament_6: "$TRAIT_FLAG_DESC_subtract_temperament_6$" #NT!
- subtract_temperament_7: "$TRAIT_FLAG_DESC_subtract_temperament_7$" #NT!
- subtract_temperament_8: "$TRAIT_FLAG_DESC_subtract_temperament_8$" #NT!
- subtract_temperament_9: "$TRAIT_FLAG_DESC_subtract_temperament_9$" #NT!
- subtract_temperament_10: "$TRAIT_FLAG_DESC_subtract_temperament_10$" #NT!
- subtract_temperament_11: "$TRAIT_FLAG_DESC_subtract_temperament_11$" #NT!
- subtract_temperament_12: "$TRAIT_FLAG_DESC_subtract_temperament_12$" #NT!
- subtract_temperament_13: "$TRAIT_FLAG_DESC_subtract_temperament_13$" #NT!
- subtract_temperament_14: "$TRAIT_FLAG_DESC_subtract_temperament_14$" #NT!
- subtract_temperament_15: "$TRAIT_FLAG_DESC_subtract_temperament_15$" #NT!
- add_taming_chance_1: "$TRAIT_FLAG_DESC_add_taming_chance_1$" #NT!
- add_taming_chance_2: "$TRAIT_FLAG_DESC_add_taming_chance_2$" #NT!
- add_taming_chance_3: "$TRAIT_FLAG_DESC_add_taming_chance_3$" #NT!
- add_taming_chance_4: "$TRAIT_FLAG_DESC_add_taming_chance_4$" #NT!
- add_taming_chance_5: "$TRAIT_FLAG_DESC_add_taming_chance_5$" #NT!
- add_taming_chance_6: "$TRAIT_FLAG_DESC_add_taming_chance_6$" #NT!
- add_taming_chance_7: "$TRAIT_FLAG_DESC_add_taming_chance_7$" #NT!
- add_taming_chance_8: "$TRAIT_FLAG_DESC_add_taming_chance_8$" #NT!
- add_taming_chance_9: "$TRAIT_FLAG_DESC_add_taming_chance_9$" #NT!
- add_taming_chance_10: "$TRAIT_FLAG_DESC_add_taming_chance_10$" #NT!
- add_taming_chance_11: "$TRAIT_FLAG_DESC_add_taming_chance_11$" #NT!
- add_taming_chance_12: "$TRAIT_FLAG_DESC_add_taming_chance_12$" #NT!
- add_taming_chance_13: "$TRAIT_FLAG_DESC_add_taming_chance_13$" #NT!
- add_taming_chance_14: "$TRAIT_FLAG_DESC_add_taming_chance_14$" #NT!
- add_taming_chance_15: "$TRAIT_FLAG_DESC_add_taming_chance_15$" #NT!
- add_taming_chance_16: "$TRAIT_FLAG_DESC_add_taming_chance_16$" #NT!
- add_taming_chance_17: "$TRAIT_FLAG_DESC_add_taming_chance_17$" #NT!
- add_taming_chance_18: "$TRAIT_FLAG_DESC_add_taming_chance_18$" #NT!
- add_taming_chance_19: "$TRAIT_FLAG_DESC_add_taming_chance_19$" #NT!
- add_taming_chance_20: "$TRAIT_FLAG_DESC_add_taming_chance_20$" #NT!
- add_taming_chance_21: "$TRAIT_FLAG_DESC_add_taming_chance_21$" #NT!
- add_taming_chance_22: "$TRAIT_FLAG_DESC_add_taming_chance_22$" #NT!
- add_taming_chance_23: "$TRAIT_FLAG_DESC_add_taming_chance_23$" #NT!
- add_taming_chance_24: "$TRAIT_FLAG_DESC_add_taming_chance_24$" #NT!
- add_taming_chance_25: "$TRAIT_FLAG_DESC_add_taming_chance_25$" #NT!
- add_taming_chance_26: "$TRAIT_FLAG_DESC_add_taming_chance_26$" #NT!
- add_taming_chance_27: "$TRAIT_FLAG_DESC_add_taming_chance_27$" #NT!
- add_taming_chance_28: "$TRAIT_FLAG_DESC_add_taming_chance_28$" #NT!
- add_taming_chance_29: "$TRAIT_FLAG_DESC_add_taming_chance_29$" #NT!
- add_taming_chance_30: "$TRAIT_FLAG_DESC_add_taming_chance_30$" #NT!
- subtract_taming_chance_1: "$TRAIT_FLAG_DESC_subtract_taming_chance_1$" #NT!
- subtract_taming_chance_2: "$TRAIT_FLAG_DESC_subtract_taming_chance_2$" #NT!
- subtract_taming_chance_3: "$TRAIT_FLAG_DESC_subtract_taming_chance_3$" #NT!
- subtract_taming_chance_4: "$TRAIT_FLAG_DESC_subtract_taming_chance_4$" #NT!
- subtract_taming_chance_5: "$TRAIT_FLAG_DESC_subtract_taming_chance_5$" #NT!
- subtract_taming_chance_6: "$TRAIT_FLAG_DESC_subtract_taming_chance_6$" #NT!
- subtract_taming_chance_7: "$TRAIT_FLAG_DESC_subtract_taming_chance_7$" #NT!
- subtract_taming_chance_8: "$TRAIT_FLAG_DESC_subtract_taming_chance_8$" #NT!
- subtract_taming_chance_9: "$TRAIT_FLAG_DESC_subtract_taming_chance_9$" #NT!
- subtract_taming_chance_10: "$TRAIT_FLAG_DESC_subtract_taming_chance_10$" #NT!
- subtract_taming_chance_11: "$TRAIT_FLAG_DESC_subtract_taming_chance_11$" #NT!
- subtract_taming_chance_12: "$TRAIT_FLAG_DESC_subtract_taming_chance_12$" #NT!
- subtract_taming_chance_13: "$TRAIT_FLAG_DESC_subtract_taming_chance_13$" #NT!
- subtract_taming_chance_14: "$TRAIT_FLAG_DESC_subtract_taming_chance_14$" #NT!
- subtract_taming_chance_15: "$TRAIT_FLAG_DESC_subtract_taming_chance_15$" #NT!
- subtract_taming_chance_16: "$TRAIT_FLAG_DESC_subtract_taming_chance_16$" #NT!
- subtract_taming_chance_17: "$TRAIT_FLAG_DESC_subtract_taming_chance_17$" #NT!
- subtract_taming_chance_18: "$TRAIT_FLAG_DESC_subtract_taming_chance_18$" #NT!
- subtract_taming_chance_19: "$TRAIT_FLAG_DESC_subtract_taming_chance_19$" #NT!
- subtract_taming_chance_20: "$TRAIT_FLAG_DESC_subtract_taming_chance_20$" #NT!
- subtract_taming_chance_21: "$TRAIT_FLAG_DESC_subtract_taming_chance_21$" #NT!
- subtract_taming_chance_22: "$TRAIT_FLAG_DESC_subtract_taming_chance_22$" #NT!
- subtract_taming_chance_23: "$TRAIT_FLAG_DESC_subtract_taming_chance_23$" #NT!
- subtract_taming_chance_24: "$TRAIT_FLAG_DESC_subtract_taming_chance_24$" #NT!
- subtract_taming_chance_25: "$TRAIT_FLAG_DESC_subtract_taming_chance_25$" #NT!
- subtract_taming_chance_26: "$TRAIT_FLAG_DESC_subtract_taming_chance_26$" #NT!
- subtract_taming_chance_27: "$TRAIT_FLAG_DESC_subtract_taming_chance_27$" #NT!
- subtract_taming_chance_28: "$TRAIT_FLAG_DESC_subtract_taming_chance_28$" #NT!
- subtract_taming_chance_29: "$TRAIT_FLAG_DESC_subtract_taming_chance_29$" #NT!
- subtract_taming_chance_30: "$TRAIT_FLAG_DESC_subtract_taming_chance_30$" #NT!
+ add_draconic_dread_1: "$TRAIT_FLAG_DESC_add_draconic_dread_1$"
+ add_draconic_dread_2: "$TRAIT_FLAG_DESC_add_draconic_dread_2$"
+ add_draconic_dread_3: "$TRAIT_FLAG_DESC_add_draconic_dread_3$"
+ add_draconic_dread_4: "$TRAIT_FLAG_DESC_add_draconic_dread_4$"
+ add_draconic_dread_5: "$TRAIT_FLAG_DESC_add_draconic_dread_5$"
+ add_draconic_dread_6: "$TRAIT_FLAG_DESC_add_draconic_dread_6$"
+ add_draconic_dread_7: "$TRAIT_FLAG_DESC_add_draconic_dread_7$"
+ add_draconic_dread_8: "$TRAIT_FLAG_DESC_add_draconic_dread_8$"
+ add_draconic_dread_9: "$TRAIT_FLAG_DESC_add_draconic_dread_9$"
+ add_draconic_dread_10: "$TRAIT_FLAG_DESC_add_draconic_dread_10$"
+ add_draconic_dread_11: "$TRAIT_FLAG_DESC_add_draconic_dread_11$"
+ add_draconic_dread_12: "$TRAIT_FLAG_DESC_add_draconic_dread_12$"
+ add_draconic_dread_13: "$TRAIT_FLAG_DESC_add_draconic_dread_13$"
+ add_draconic_dread_14: "$TRAIT_FLAG_DESC_add_draconic_dread_14$"
+ add_draconic_dread_15: "$TRAIT_FLAG_DESC_add_draconic_dread_15$"
+ subtract_draconic_dread_1: "$TRAIT_FLAG_DESC_subtract_draconic_dread_1$"
+ subtract_draconic_dread_2: "$TRAIT_FLAG_DESC_subtract_draconic_dread_2$"
+ subtract_draconic_dread_3: "$TRAIT_FLAG_DESC_subtract_draconic_dread_3$"
+ subtract_draconic_dread_4: "$TRAIT_FLAG_DESC_subtract_draconic_dread_4$"
+ subtract_draconic_dread_5: "$TRAIT_FLAG_DESC_subtract_draconic_dread_5$"
+ subtract_draconic_dread_6: "$TRAIT_FLAG_DESC_subtract_draconic_dread_6$"
+ subtract_draconic_dread_7: "$TRAIT_FLAG_DESC_subtract_draconic_dread_7$"
+ subtract_draconic_dread_8: "$TRAIT_FLAG_DESC_subtract_draconic_dread_8$"
+ subtract_draconic_dread_9: "$TRAIT_FLAG_DESC_subtract_draconic_dread_9$"
+ subtract_draconic_dread_10: "$TRAIT_FLAG_DESC_subtract_draconic_dread_10$"
+ subtract_draconic_dread_11: "$TRAIT_FLAG_DESC_subtract_draconic_dread_11$"
+ subtract_draconic_dread_12: "$TRAIT_FLAG_DESC_subtract_draconic_dread_12$"
+ subtract_draconic_dread_13: "$TRAIT_FLAG_DESC_subtract_draconic_dread_13$"
+ subtract_draconic_dread_14: "$TRAIT_FLAG_DESC_subtract_draconic_dread_14$"
+ subtract_draconic_dread_15: "$TRAIT_FLAG_DESC_subtract_draconic_dread_15$"
+ add_temperament_1: "$TRAIT_FLAG_DESC_add_temperament_1$"
+ add_temperament_2: "$TRAIT_FLAG_DESC_add_temperament_2$"
+ add_temperament_3: "$TRAIT_FLAG_DESC_add_temperament_3$"
+ add_temperament_4: "$TRAIT_FLAG_DESC_add_temperament_4$"
+ add_temperament_5: "$TRAIT_FLAG_DESC_add_temperament_5$"
+ add_temperament_6: "$TRAIT_FLAG_DESC_add_temperament_6$"
+ add_temperament_7: "$TRAIT_FLAG_DESC_add_temperament_7$"
+ add_temperament_8: "$TRAIT_FLAG_DESC_add_temperament_8$"
+ add_temperament_9: "$TRAIT_FLAG_DESC_add_temperament_9$"
+ add_temperament_10: "$TRAIT_FLAG_DESC_add_temperament_10$"
+ add_temperament_11: "$TRAIT_FLAG_DESC_add_temperament_11$"
+ add_temperament_12: "$TRAIT_FLAG_DESC_add_temperament_12$"
+ add_temperament_13: "$TRAIT_FLAG_DESC_add_temperament_13$"
+ add_temperament_14: "$TRAIT_FLAG_DESC_add_temperament_14$"
+ add_temperament_15: "$TRAIT_FLAG_DESC_add_temperament_15$"
+ subtract_temperament_1: "$TRAIT_FLAG_DESC_subtract_temperament_1$"
+ subtract_temperament_2: "$TRAIT_FLAG_DESC_subtract_temperament_2$"
+ subtract_temperament_3: "$TRAIT_FLAG_DESC_subtract_temperament_3$"
+ subtract_temperament_4: "$TRAIT_FLAG_DESC_subtract_temperament_4$"
+ subtract_temperament_5: "$TRAIT_FLAG_DESC_subtract_temperament_5$"
+ subtract_temperament_6: "$TRAIT_FLAG_DESC_subtract_temperament_6$"
+ subtract_temperament_7: "$TRAIT_FLAG_DESC_subtract_temperament_7$"
+ subtract_temperament_8: "$TRAIT_FLAG_DESC_subtract_temperament_8$"
+ subtract_temperament_9: "$TRAIT_FLAG_DESC_subtract_temperament_9$"
+ subtract_temperament_10: "$TRAIT_FLAG_DESC_subtract_temperament_10$"
+ subtract_temperament_11: "$TRAIT_FLAG_DESC_subtract_temperament_11$"
+ subtract_temperament_12: "$TRAIT_FLAG_DESC_subtract_temperament_12$"
+ subtract_temperament_13: "$TRAIT_FLAG_DESC_subtract_temperament_13$"
+ subtract_temperament_14: "$TRAIT_FLAG_DESC_subtract_temperament_14$"
+ subtract_temperament_15: "$TRAIT_FLAG_DESC_subtract_temperament_15$"
+ add_taming_chance_1: "$TRAIT_FLAG_DESC_add_taming_chance_1$"
+ add_taming_chance_2: "$TRAIT_FLAG_DESC_add_taming_chance_2$"
+ add_taming_chance_3: "$TRAIT_FLAG_DESC_add_taming_chance_3$"
+ add_taming_chance_4: "$TRAIT_FLAG_DESC_add_taming_chance_4$"
+ add_taming_chance_5: "$TRAIT_FLAG_DESC_add_taming_chance_5$"
+ add_taming_chance_6: "$TRAIT_FLAG_DESC_add_taming_chance_6$"
+ add_taming_chance_7: "$TRAIT_FLAG_DESC_add_taming_chance_7$"
+ add_taming_chance_8: "$TRAIT_FLAG_DESC_add_taming_chance_8$"
+ add_taming_chance_9: "$TRAIT_FLAG_DESC_add_taming_chance_9$"
+ add_taming_chance_10: "$TRAIT_FLAG_DESC_add_taming_chance_10$"
+ add_taming_chance_11: "$TRAIT_FLAG_DESC_add_taming_chance_11$"
+ add_taming_chance_12: "$TRAIT_FLAG_DESC_add_taming_chance_12$"
+ add_taming_chance_13: "$TRAIT_FLAG_DESC_add_taming_chance_13$"
+ add_taming_chance_14: "$TRAIT_FLAG_DESC_add_taming_chance_14$"
+ add_taming_chance_15: "$TRAIT_FLAG_DESC_add_taming_chance_15$"
+ add_taming_chance_16: "$TRAIT_FLAG_DESC_add_taming_chance_16$"
+ add_taming_chance_17: "$TRAIT_FLAG_DESC_add_taming_chance_17$"
+ add_taming_chance_18: "$TRAIT_FLAG_DESC_add_taming_chance_18$"
+ add_taming_chance_19: "$TRAIT_FLAG_DESC_add_taming_chance_19$"
+ add_taming_chance_20: "$TRAIT_FLAG_DESC_add_taming_chance_20$"
+ add_taming_chance_21: "$TRAIT_FLAG_DESC_add_taming_chance_21$"
+ add_taming_chance_22: "$TRAIT_FLAG_DESC_add_taming_chance_22$"
+ add_taming_chance_23: "$TRAIT_FLAG_DESC_add_taming_chance_23$"
+ add_taming_chance_24: "$TRAIT_FLAG_DESC_add_taming_chance_24$"
+ add_taming_chance_25: "$TRAIT_FLAG_DESC_add_taming_chance_25$"
+ add_taming_chance_26: "$TRAIT_FLAG_DESC_add_taming_chance_26$"
+ add_taming_chance_27: "$TRAIT_FLAG_DESC_add_taming_chance_27$"
+ add_taming_chance_28: "$TRAIT_FLAG_DESC_add_taming_chance_28$"
+ add_taming_chance_29: "$TRAIT_FLAG_DESC_add_taming_chance_29$"
+ add_taming_chance_30: "$TRAIT_FLAG_DESC_add_taming_chance_30$"
+ subtract_taming_chance_1: "$TRAIT_FLAG_DESC_subtract_taming_chance_1$"
+ subtract_taming_chance_2: "$TRAIT_FLAG_DESC_subtract_taming_chance_2$"
+ subtract_taming_chance_3: "$TRAIT_FLAG_DESC_subtract_taming_chance_3$"
+ subtract_taming_chance_4: "$TRAIT_FLAG_DESC_subtract_taming_chance_4$"
+ subtract_taming_chance_5: "$TRAIT_FLAG_DESC_subtract_taming_chance_5$"
+ subtract_taming_chance_6: "$TRAIT_FLAG_DESC_subtract_taming_chance_6$"
+ subtract_taming_chance_7: "$TRAIT_FLAG_DESC_subtract_taming_chance_7$"
+ subtract_taming_chance_8: "$TRAIT_FLAG_DESC_subtract_taming_chance_8$"
+ subtract_taming_chance_9: "$TRAIT_FLAG_DESC_subtract_taming_chance_9$"
+ subtract_taming_chance_10: "$TRAIT_FLAG_DESC_subtract_taming_chance_10$"
+ subtract_taming_chance_11: "$TRAIT_FLAG_DESC_subtract_taming_chance_11$"
+ subtract_taming_chance_12: "$TRAIT_FLAG_DESC_subtract_taming_chance_12$"
+ subtract_taming_chance_13: "$TRAIT_FLAG_DESC_subtract_taming_chance_13$"
+ subtract_taming_chance_14: "$TRAIT_FLAG_DESC_subtract_taming_chance_14$"
+ subtract_taming_chance_15: "$TRAIT_FLAG_DESC_subtract_taming_chance_15$"
+ subtract_taming_chance_16: "$TRAIT_FLAG_DESC_subtract_taming_chance_16$"
+ subtract_taming_chance_17: "$TRAIT_FLAG_DESC_subtract_taming_chance_17$"
+ subtract_taming_chance_18: "$TRAIT_FLAG_DESC_subtract_taming_chance_18$"
+ subtract_taming_chance_19: "$TRAIT_FLAG_DESC_subtract_taming_chance_19$"
+ subtract_taming_chance_20: "$TRAIT_FLAG_DESC_subtract_taming_chance_20$"
+ subtract_taming_chance_21: "$TRAIT_FLAG_DESC_subtract_taming_chance_21$"
+ subtract_taming_chance_22: "$TRAIT_FLAG_DESC_subtract_taming_chance_22$"
+ subtract_taming_chance_23: "$TRAIT_FLAG_DESC_subtract_taming_chance_23$"
+ subtract_taming_chance_24: "$TRAIT_FLAG_DESC_subtract_taming_chance_24$"
+ subtract_taming_chance_25: "$TRAIT_FLAG_DESC_subtract_taming_chance_25$"
+ subtract_taming_chance_26: "$TRAIT_FLAG_DESC_subtract_taming_chance_26$"
+ subtract_taming_chance_27: "$TRAIT_FLAG_DESC_subtract_taming_chance_27$"
+ subtract_taming_chance_28: "$TRAIT_FLAG_DESC_subtract_taming_chance_28$"
+ subtract_taming_chance_29: "$TRAIT_FLAG_DESC_subtract_taming_chance_29$"
+ subtract_taming_chance_30: "$TRAIT_FLAG_DESC_subtract_taming_chance_30$"

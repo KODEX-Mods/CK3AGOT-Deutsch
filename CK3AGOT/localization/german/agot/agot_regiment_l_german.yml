@@ -1,5 +1,5 @@
 ﻿l_german:
-  #Cultural MaA 
+  # Cultural MaA 
  winter_wolves: "Winterwölfe"
  winter_wolves_flavor: "In einem Land mit Tiefschnee, der Jahre andauert, setzt sich oft eher die schwere Infanterie als die Reiterei durch, doch diese Krieger aus dem Norden sind auf jedem Schlachtfeld zu Hause."
   
@@ -18,23 +18,29 @@
  cape_watch: "Kapwächter"
  cape_watch_flavor: "Krakenkap war lange Zeit Schauplatz von Kämpfen zwischen Eisenmännern und Nordmännern, und die hiesigen Krieger entstammen den militärischen Traditionen beider Seiten."
   
- frog_spears: "Frog Spears" #NT!
- frog_spears_flavor: "Hunting with their traditional weapon, the Frog Spear, these lightly armed troops are a threat to all who are stalked by them." #NT!
+ frog_spears: "Frog Spears"
+ frog_spears_flavor: "Hunting with their traditional weapon, the Frog Spear, these lightly armed troops are a threat to all who are stalked by them."
   
  green_hand: "Ritter der Grünen Hand"
  green_hand_flavor: "Als letztes Überbleibsel eines alten Ordens, der von einem König der Weite gegründet wurde, bringen diese Ritter aus dem Norden südländische Ritterlichkeit und Taktik mit verheerender Wirkung gegen Infanterie-Formationen zum Einsatz."
   
- reavers: "Plünderer"
- reavers_flavor: "Diese furchteinflößende schwere Infanterie ist die Geißel der Küsten von Westeros und stellt eine ernste Bedrohung für leichter bewaffnete Fußtruppen dar."
+ bronze_cavalry: "Bronze Cavalry" #NT!
+ bronze_cavalry_flavor: "It was by hoof and bronze that the First Men conquered the Sunset Lands — and once again, they shall conquer." #NT!
+  
+ ironborn_reavers: "Reavers" #NT!
+ ironborn_reavers_flavor: "The scourge of the Westerosi coastline, these fearsome heavy infantry represent a serious threat to more lightly armed footmen." #NT!
+  
+ black_blood_cavalry: "Black Blood Cavalry" #NT!
+ black_blood_cavalry_flavor: "As the Ironmen have come to the greenlands, taking what they will, they can no longer rely on longboats and reavers like their kin from the isles. Now upon the greenlands, the horse will be their boat, and the Black Blood Cavalry their reavers." #NT!
   
  royal_crossbowmen: "Königliche Armbrustschützen"
  royal_crossbowmen_flavor: "Armbrüste erfordern weniger Ausbildung als herkömmliche Bögen, können aber die beste Rüstung mit Leichtigkeit durchschlagen und so den Vorteil schwerer Infanterie und Kavallerie aufheben."
   
- marsh_walker: "Marschläufer"
- marsh_walker_flavor: "Dass es den Andalen nicht gelang, das Klauenhorn zu erobern, lag nicht nur an dem unwegsamen Gelände, sondern auch an den leichten Kämpfern, die es sich zunutze machten. Diese Regimenter führen das Erbe der Überraschungsangriffe mit großem Erfolg fort."
+ marsh_walkers: "Marsh Walker" #NT!
+ marsh_walkers_flavor: "The Andal Invasion's failure to conquer Crackclaw Point was due not just to the difficult terrain, but also to the lightly armed warriors who exploited it. These regiments carry on that legacy of hit-and-run tactics to great effect." #NT!
   
- dragonkeepers: "Drachenhüter"
- dragonkeepers_flavor: "Die Drachenhüter waren einst die Wachen der Drachengrube. Bewaffnet mit ihren Schwertern und Speeren verteidigen sie nun die Targaryen, trotz der Zerstörung der Drachengrube."
+ dragonguard: "Dragonguard" #NT!
+ dragonguard_flavor: "The Dragonguard are heavily armed and armored men sworn to the service of House Targaryen and the other High Valyrian lords of the Narrow Sea." #NT!
   
  sea_snakes: "Seeschlangen"
  sea_snakes_flavor: "Diese Regimenter stammen von den Inseln der Schwarzwasserbucht und sind an die Wirren von Enteraktionen gewöhnt. Ihre Schnelligkeit und Aggressivität kommt ihnen sowohl bei der Verfolgung als auch beim Zurückweichen zugute."
@@ -69,11 +75,11 @@
  storm_knights: "Sturmritter"
  storm_knights_flavor: "Wie der Donner, nach dem ihre Heimat benannt ist, erschüttern die Ritter der Sturmlande Erde und Männer zugleich, wenn sie zum Angriff schreiten."
   
- longbowmen: "Langbogenschützen"
- longbowmen_flavor: "Diese Krieger, die eine stolze Tradition der Dornischen Marschen pflegen, verwenden mächtige Langbögen, um schwerfällige Fußtruppenverbände zu stören."
+ marcher_longbowmen: "Marcher Longbowmen" #NT!
+ marcher_longbowmen_flavor: "Carrying on a proud tradition of the Dornish Marches, these fighters wield powerful longbows to disrupt slow-moving infantry formations." #NT!
   
- bloody_balesters: "Blutbalester"
- bloody_balesters_flavor: "Von einigen als unehrenhafte Waffe erachtet, haben die Männer der Westlande keine Skrupel, Ihre Kugelarmbrüste im Kampf oder sonstwie einzusetzen."
+ rain_bringers: "Rain Bringers" #NT!
+ rain_bringers_flavor: "Considered a dishonorable weapon by some, the men of the Westerlands have no qualms about employing crossbows on the battlefield — or elsewhere." #NT!
   
  greenblood_oars: "Grünblut-Ruderer"
  greenblood_oars_flavor: "Diese Krieger, die sich an Bord von Flößen auf dem Grünblut ihren Lebensunterhalt verdienten, tragen noch immer stolze Erinnerungen an ihre alten rhoynischen Ahnen in sich."
@@ -87,8 +93,8 @@
  pass_pikes: "Passpikeniere"
  pass_pikes_flavor: "Als Nachfahren der Dornischen, die die Bergpässe über ein Jahrhundert lang gegen die Invasionen der Targaryen gehalten haben, trotzen diese Krieger voller Stolz jeglicher Art von Kavallerie."
   
- she_bears: "She-Bears" #NT!
- she_bears_flavor: "The women of Bear Island have grown rugged and hardy when compared to their mainland counterparts; and are more than capable of splitting an Ironman's skull in twain." #NT!
+ she_bears: "She-Bears"
+ she_bears_flavor: "The women of Bear Island have grown rugged and hardy when compared to their mainland counterparts; and are more than capable of splitting an Ironman's skull in twain."
   
  stolen_spears: "Gestohlene Speere"
  stolen_spears_flavor: "Wenngleich sie einfacher ausgestattet sind als die Soldaten der 'Flachländer', haben die Speerträger der Bergstämme Freude daran, die Pferde ihrer verhassten andalischen Feinde aufzuspießen."
@@ -96,26 +102,47 @@
  bronze_raiders: "Bronzeplünderer"
  bronze_raiders_flavor: "Die aus der zerklüfteten Tundra des Thenn-Tals stammenden Bronzeräuber sind einige der wenigen Wildlingskämpfer, die von einheimischen Metallwaffen Gebrauch machen. Neben ihrer eindrucksvollen Ausrüstung sind die Bronzeräuber furchteinflößend in der Schlacht. Sie sind das einzige schwere Fußvolk nördlich der Mauer."
   
- purple_sailors: "Purpurne Seemänner"
- purple_sailors_flavor: "#F PLACEHOLDER.#!"
+ sons_of_gendel: "Sons of Gendel" #NT!
+ sons_of_gendel_flavor: "When Gorne and Gendel invaded the North, not all of their men made it back above ground. Many instead remained beneath the earth, and the deadliest of their warriors now call themselves the Sons of Gendel." #NT!
+  
+ fire_flingers: "Fire Flingers" #NT!
+ fire_flingers_flavor: "Living in the Frostfangs is a daily battle with death, with fire being a key weapon. Yet fire is not only used to fight the elements, but also to fight others and destroy their camps." #NT!
+  
+ cannibal_bows: "Cannibal Bows" #NT!
+ cannibal_bows_flavor: "The Ice-River Clans are feared across the far north for their cannibalistic tendencies, and their archers are skilled at pinning would-be dinners without killing them." #NT!
+  
+ bat_catchers: "Bat Catchers" #NT!
+ bat_catchers_flavor: "The warriors of the Nightrunners train from childhood by catching bats at night, learning to move silently and quickly, causing the other tribes to call them Bat Catchers." #NT!
+  
+ wildling_raiders: "Wildling Raiders" #NT!
+ wildling_raiders_flavor: "Beyond the Wall, life is hard and the land is cold. To survive, men raid one another for food, weapons, and even wives. Raiding is life to the wildlings." #NT!
+  
+ ice_skatters: "Ice Skatters" #NT!
+ ice_skatters_flavor: "Far to the north, beyond the Haunted Forest, upon the great frozen lakes, men do battle upon vast sheets of ice. It is said they wear blades of metal or bone upon their feet, allowing them to fly across the ice." #NT!
+  
+ cairn_wardens: "Cairn Wardens" #NT!
+ cairn_wardens_flavor: "Few things unite the wildlings beyond the Wall, but a shared reverence for the cairns of their kings and heroes in the Milkwater Valley is one. Those who would dishonor the dead are dealt with by the Cairn Wardens." #NT!
+  
+ purple_marines: "Purple Marines" #NT!
+ purple_marines_flavor: "Braavos is the second greatest force among the Free Cities, and its chief source of power is its navy. The purple sails, dyed from the snails found in the lagoon, ferry the marines of that city across the seas." #NT!
   
  indentured_legion: "Verpflichtete Legion"
  indentured_legion_flavor: "#F PLACEHOLDER.#!"
   
- sun_guard: "Sun Guard" #NT!
- sun_guard_flavor: "The guard of Essari, the Lost Free City. Now that the city is rebuilt and returned, the sunlight shines off the golden shields of the Sun Guard." #NT!
+ sun_guard: "Sun Guard"
+ sun_guard_flavor: "The guard of Essari, the Lost Free City. Now that the city is rebuilt and returned, the sunlight shines off the golden shields of the Sun Guard."
   
- moroshi_pikes: "Moroshi Pikes" #NT!
- moroshi_pikes_flavor: "Despite being the smallest, and oftne forgotten, free city, Lorath maintains a strong guard protecting their colonies and allies upon the mouth of the Sarne. Where other cities buy the Dothraki off, Lorath has had to protect Morosh with spear and pike." #NT!
+ moroshi_pikes: "Moroshi Pikes"
+ moroshi_pikes_flavor: "Despite being the smallest, and oftne forgotten, free city, Lorath maintains a strong guard protecting their colonies and allies upon the mouth of the Sarne. Where other cities buy the Dothraki off, Lorath has had to protect Morosh with spear and pike."
   
- stair_guard: "Stair Guard" #NT!
- stair_guard_flavor: "Often overlooked by the Holy Guard of the Bearded Priests, the city guard of Norvos takes its name from the grat stair that connects the lower and upper of cities of Norvos, which the locals call the Sinner's Steps." #NT!
+ stair_guard: "Stair Guard"
+ stair_guard_flavor: "Often overlooked by the Holy Guard of the Bearded Priests, the city guard of Norvos takes its name from the grat stair that connects the lower and upper of cities of Norvos, which the locals call the Sinner's Steps."
   
  cohort_of_the_three_thousand: "Kohorte der Dreitausend"
  cohort_of_the_three_thousand_flavor: "#F PLACEHOLDER.#!"
   
- disputant_scouts: "Disputant Scouts" #NT!
- disputant_scouts_flavor: "Once the breadbasket of the great Freehold of Valyria, the area now known as the disputed lands are home to the Hartalari people. Used to having avoid the great armies of the Three Daughters their scouts are swift and silent." #NT!
+ disputant_scouts: "Disputant Scouts"
+ disputant_scouts_flavor: "Once the breadbasket of the great Freehold of Valyria, the area now known as the disputed lands are home to the Hartalari people. Used to having avoid the great armies of the Three Daughters their scouts are swift and silent."
   
  weeping_guard: "Tränenwache"
  weeping_guard_flavor: "#F PLACEHOLDER.#!"
@@ -123,32 +150,32 @@
  myrish_crossbows: "Myrische Armbrustschützen"
  myrish_crossbows_flavor: "#F PLACEHOLDER.#!"
   
- ornate_helms: "Ornate Helms" #NT!
- ornate_helms_flavor: "Adorned in the intricate helms of their mother-city, the Ornate Helms are unit of pikemen famed for fighting in the Disputed Lands." #NT!
+ ornate_helms: "Ornate Helms"
+ ornate_helms_flavor: "Adorned in the intricate helms of their mother-city, the Ornate Helms are unit of pikemen famed for fighting in the Disputed Lands."
   
- slave_legion: "Slave Legions" #NT!
- slave_legion_flavor: "The great Freehold of Valyria was built through blood magic and dragonfire; and upon the backs of slaves. Where the dragonriders or bloodmages were not directly, the slave legions of the Freehold could be found." #NT!
+ slave_legion: "Slave Legions"
+ slave_legion_flavor: "The great Freehold of Valyria was built through blood magic and dragonfire; and upon the backs of slaves. Where the dragonriders or bloodmages were not directly, the slave legions of the Freehold could be found."
   
- tiger_cloaks: "Tiger Cloaks" #NT!
- tiger_cloaks_flavor: "The guard of Volantis and its tributaries, the Tiger Cloaks are slave soldiers dedicated to following the will of the triarchs with their sharp spears and silver mail." #NT!
+ tiger_cloaks: "Tiger Cloaks"
+ tiger_cloaks_flavor: "The guard of Volantis and its tributaries, the Tiger Cloaks are slave soldiers dedicated to following the will of the triarchs with their sharp spears and silver mail."
   
- black_wall_chariots: "Black Wall Chariots" #NT!
- black_wall_chariots_flavor: "The Old Blood of Volantis hold themselves apart from the rest of Volantis, and they show their glory with the annual chariot race atop the black walls, which serves not just as spectacle but training for their deadly war machines." #NT!
+ black_wall_chariots: "Black Wall Chariots"
+ black_wall_chariots_flavor: "The Old Blood of Volantis hold themselves apart from the rest of Volantis, and they show their glory with the annual chariot race atop the black walls, which serves not just as spectacle but training for their deadly war machines."
   
- dragonsworn: "Dragonsworn" #NT!
- dragonsworn_flavor: "The Senrillian tribes of the Painted Mountains are a fearsome and savage people, and their greatest warriors are no different. Believing themselves to be champions of one their draconic gods they will chase any foe down and slay them with their great swords." #NT!
+ dragonsworn: "Dragonsworn"
+ dragonsworn_flavor: "The Senrillian tribes of the Painted Mountains are a fearsome and savage people, and their greatest warriors are no different. Believing themselves to be champions of one their draconic gods they will chase any foe down and slay them with their great swords."
   
- demon_guards: "Demon Guards" #NT!
- demon_guards_flavor: "The people of Mantarys are much like the land they inhabit, twisted and doomed. And, their guards use this fearsome reputation to their own benefit donning grotesque and terrible masks." #NT!
+ demon_guards: "Demon Guards"
+ demon_guards_flavor: "The people of Mantarys are much like the land they inhabit, twisted and doomed. And, their guards use this fearsome reputation to their own benefit donning grotesque and terrible masks."
   
- elyrian_sailors: "Elyrian Sailors" #NT!
- elyrian_sailors_flavor: "The sailors of Elyria ply not only Slaver's Bay, but the waters beyond, often ferrying the slaves trained in the cities of that bay to Lys and Volantis only to return with untrained slaves to repeat the cycle." #NT!
+ elyrian_sailors: "Elyrian Sailors"
+ elyrian_sailors_flavor: "The sailors of Elyria ply not only Slaver's Bay, but the waters beyond, often ferrying the slaves trained in the cities of that bay to Lys and Volantis only to return with untrained slaves to repeat the cycle."
   
- tolosi_slingers: "Tolosi Slingers" #NT!
- tolosi_slingers_flavor: "The slingers of Tolos are famed across Essos for their deadly accuracy, it is said they would bring down a dragon by hitting the beast in both eyes." #NT!
+ tolosi_slingers: "Tolosi Slingers"
+ tolosi_slingers_flavor: "The slingers of Tolos are famed across Essos for their deadly accuracy, it is said they would bring down a dragon by hitting the beast in both eyes."
   
- pit_fighters: "Pit Fighters" #NT!
- pit_fighters_flavor: "The fighting pits of Meereen are famed across the lands of the Old Empire, and the fighters that come out of them are brutal and vicious." #NT!
+ pit_fighters: "Pit Fighters"
+ pit_fighters_flavor: "The fighting pits of Meereen are famed across the lands of the Old Empire, and the fighters that come out of them are brutal and vicious."
   
  collared_bows: "Sklaven-Bogenschützen"
  collared_bows_flavor: "#F PLACEHOLDER.#!"
@@ -156,163 +183,379 @@
  unsullied: "Unbefleckte"
  unsullied_flavor: "#F PLACEHOLDER.#!"
   
- lockstep_legion: "Lockstep Legion" #NT!
- lockstep_legion_flavor: "The Old Empire of Ghis was built by Grazdan the Great and his Lockstep Legions, whose discipline allowed Ghis to threaten Valyria and their dragons in mutiple wars." #NT!
+ lockstep_legion: "Lockstep Legion"
+ lockstep_legion_flavor: "The Old Empire of Ghis was built by Grazdan the Great and his Lockstep Legions, whose discipline allowed Ghis to threaten Valyria and their dragons in mutiple wars."
   
  iron_legion: "Eiserne Legion"
  iron_legion_flavor: "#F PLACEHOLDER.#!"
   
- star_carved: "Star Carved" #NT!
- star_carved_flavor: "The Andal warriors went into battle with iron in their hands and stars carved upon their foreheads to show their faith to the Seven-Who-Are-One." #NT!
+ star_carved: "Star Carved"
+ star_carved_flavor: "The Andal warriors went into battle with iron in their hands and stars carved upon their foreheads to show their faith to the Seven-Who-Are-One."
   
- qarlons_fallen: "Qarlon's Fallen" #NT!
- qarlons_fallen_flavor: "Qarlon the Great, last of the Andal kings in Essos, led his people in wars and conquests arcoss the north of Essos. The Andalosi to this day still fight according to the tactics and traditions he taught them." #NT!
+ qarlons_fallen: "Qarlon's Fallen"
+ qarlons_fallen_flavor: "Qarlon the Great, last of the Andal kings in Essos, led his people in wars and conquests arcoss the north of Essos. The Andalosi to this day still fight according to the tactics and traditions he taught them."
   
- mother_sworn: "Mother Sworn" #NT!
- mother_sworn_flavor: "Those who make their lives upon the great river of the Rhoyne swear their lives to the Mother, and will defend her to their last." #NT!
+ smiths_axes: "Smith's Axes" #NT!
+ smiths_axes_flavor: "It is unclear whether the Andals of the Axe took their name from the weapon, or whether the weapon took its name from them, but these warriors favor great axes over swords." #NT!
   
- festival_guards: "Festival Guard" #NT!
- festival_guards_flavor: "Chroyane famed for its great festivals found throughout the year and all across the city, and the guards in their shinning coats of steel and high helms." #NT!
+ mother_sworn: "Mother Sworn"
+ mother_sworn_flavor: "Those who make their lives upon the great river of the Rhoyne swear their lives to the Mother, and will defend her to their last."
   
- flower_spears: "Flower Spears" #NT!
- flower_spears_flavor: "The pale city on the eastern side of the Rhoyne and its many flowers were guarded by a force known for their long spears, often adorned with flowers themselves." #NT!
+ festival_guards: "Festival Guard"
+ festival_guards_flavor: "Chroyane famed for its great festivals found throughout the year and all across the city, and the guards in their shinning coats of steel and high helms."
   
- green_daggers: "Green Daggers" #NT!
- green_daggers_flavor: "Ar Noy, along the Qhoyne, with its green marble towers and walls were protected by its sailors who patrolled the Qhoyne and Dagger Lake, from whence they gained their name." #NT!
+ flower_spears: "Flower Spears"
+ flower_spears_flavor: "The pale city on the eastern side of the Rhoyne and its many flowers were guarded by a force known for their long spears, often adorned with flowers themselves."
   
- garden_guard: "Garden Guard" #NT!
- garden_guard_flavor: "The great port of the Rhoynar at the mouth of the mother river, Sarhoy was protected by its Garden Guard, who took their name from the city's famed saltwater gardens." #NT!
+ green_daggers: "Green Daggers"
+ green_daggers_flavor: "Ar Noy, along the Qhoyne, with its green marble towers and walls were protected by its sailors who patrolled the Qhoyne and Dagger Lake, from whence they gained their name."
   
- grey_spears: "Grey Spears" #NT!
- grey_spears_flavor: "Ny Sar has a long history of martial actions, especially compared to the other Rhoynar cities. It was Prince Garris the Grey who drove the Hairy Men from the Noyne, and from him that the city guard took their name." #NT!
+ garden_guard: "Garden Guard"
+ garden_guard_flavor: "The great port of the Rhoynar at the mouth of the mother river, Sarhoy was protected by its Garden Guard, who took their name from the city's famed saltwater gardens."
   
- market_guard: "Market Guard" #NT!
- market_guard_flavor: "The slave trade has brought wealth to the Ghiscari cities, and known have seen that more than Hazdahn Mo, however tempers between would be traders can raise, and the threat of a slave revolt is alway present, hence the need for the Market Guard." #NT!
+ grey_spears: "Grey Spears"
+ grey_spears_flavor: "Ny Sar has a long history of martial actions, especially compared to the other Rhoynar cities. It was Prince Garris the Grey who drove the Hairy Men from the Noyne, and from him that the city guard took their name."
   
- skahazdahn_wardens: "Skahazadhan Wardens" #NT!
- skahazdahn_wardens_flavor: "The Skahazadhan connects the heart of Ghis to its further outposts in the great plains, hence the need to patrol and protect it, for the slaves from the plains need to be sent to the bay for further training or sale." #NT!
+ market_guard: "Market Guard"
+ market_guard_flavor: "The slave trade has brought wealth to the Ghiscari cities, and known have seen that more than Hazdahn Mo, however tempers between would be traders can raise, and the threat of a slave revolt is alway present, hence the need for the Market Guard."
+  
+ skahazdahn_wardens: "Skahazadhan Wardens"
+ skahazdahn_wardens_flavor: "The Skahazadhan connects the heart of Ghis to its further outposts in the great plains, hence the need to patrol and protect it, for the slaves from the plains need to be sent to the bay for further training or sale."
+  
+ dothraki_archers: "Dothraki Archers" #NT!
+ dothraki_archers_flavor: "Mounted like all warriors of the khalasars, the archers of the Dothraki are unerringly accurate. They have brought ruin to many an army, city, and kingdom." #NT!
+  
+ shepherds: "Shepherds" #NT!
+ shepherds_flavor: "Just as shepherds guard their flocks, so too do these men protect the Lhazareen from the perils of the wider world." #NT!
+  
+ tribute_guards: "Tribute Guards" #NT!
+ tribute_guards_flavor: "Much of Omber's success depends upon the tributes it pays — both to one another and to external threats — and so these offerings are guarded at all costs." #NT!
   
  sarsfield_horse_archers: "Sarsfeld-Schützen"
  sarsfield_horse_archers_flavor: "#F Diese Eliteeinheit berittener Bogenschützen dient dem Haus Sarsfeld als Verkörperung ihres Siegels und zieht unerbittlich dorthin, wohin ihr Herr sie schickt.#!"
   
- dothraki_screamers: "Dothraki Screamers" #NT!
- dothraki_screamers_flavor: "Dothraki Screamers are an elite unite of Dothraki warriors." #NT!
+ caravan_guards: "Caravan Guards" #NT!
+ caravan_guards_flavor: "Crossing the Great Grass Sea — even the settled stretches along the Sarne — is no easy feat, and caravans must be well guarded against would-be attackers." #NT!
   
-  #Spawned Armies 
+ cymmeri_iron_shirts: "Cymmeri Iron Shirts" #NT!
+ cymmeri_iron_shirts_flavor: "Renowned for their mastery of iron and the mail they forge from it, the Cymmeri are better protected than most nomadic peoples of the Great Grass Sea." #NT!
+  
+ gipp_wicker_shields: "Gipp Wicker Shields" #NT!
+ gipp_wicker_shields_flavor: "Speed is often the greatest asset upon the Great Grass Sea. Though they fight on foot rather than horseback, wicker shields allow these warriors to move with remarkable swiftness." #NT!
+  
+ zoqora_chariots: "Zoqora Chariots" #NT!
+ zoqora_chariots_flavor: "The Zoqora are famed for their great chariots, which speed across the Great Grass Sea, cutting down all who stand before them." #NT!
+  
+ lake_wardens: "Lake Wardens" #NT!
+ lake_wardens_flavor: "The Lake Wardens of the Goraez Fen are sworn to protect both their city and the great lake, one of the last remnants of the Silver Sea." #NT!
+  
+ library_guard: "Library Guard" #NT!
+ library_guard_flavor: "The Library Guard of Sallosh are famed for their unwavering dedication to defending the city's vast and ancient repository of knowledge." #NT!
+  
+ silver_shields: "Silver Shields" #NT!
+ silver_shields_flavor: "The famed Silver Shields of the City of Soldiers are renowned as the most disciplined and diligent warriors in all of Sarnor." #NT!
+  
+ clan_raiders: "Clan Raiders" #NT!
+ clan_raiders_flavor: "The men who were caught north of Brandon's Wall were cut off from the warmer, tamer lands, and the clans were forced to raid each other to survive." #NT!
+  
+ scythed_chariots: "Scythed Chariots" #NT!
+ scythed_chariots_flavor: "The Tagaez Fen, the Tall Men of Sarnor, were heirs to many ancient legacies. They kept the tradition of using great scythed chariots, which were feared across the Great Grass Sea." #NT!
+  
+ shining_cataphracts: "Shining Cataphracts" #NT!
+ shining_cataphracts_flavor: "The Shining Cataphracts of Sathar crash upon their enemies like a waterfall upon shattered stone." #NT!
+  
+ coin_collectors: "Coin Collectors" #NT!
+ coin_collectors_flavor: "In Rathylar, coin is king, and those charged with collecting it often face danger from all sides, necessitating arms." #NT!
+  
+ temple_guardians: "Temple Guardians" #NT!
+ temple_guardians_flavor: "The temple guardians of Kyth stand steadfast in their sacred duty to defend the houses of the gods." #NT!
+  
+ hill_runners: "Hill Runners" #NT!
+ hill_runners_flavor: "The Hill Runners of Hornoth are known for their vigilance, watching over the city's domain and lands." #NT!
+  
+ firstborne: "Firstborne" #NT!
+ firstborne_flavor: "Within the city of Sarys, it is the honor of every firstborn citizen to serve upon the city's walls in its defense." #NT!
+  
+ lastborne: "Lastborne" #NT!
+ lastborne_flavor: "As the final city of the Sarnori, Saath's defenders call themselves the Lastborne, for they are the last to uphold the ancient legacy." #NT!
+  
+ ar_archers: "Ar Archers" #NT!
+ ar_archers_flavor: "The Nonteloshi are caught between Myr and Pentos, not just physically but militarily as well. While they lack the ability to mass-produce crossbows like the Myrish, they do make excellent archers." #NT!
+  
+ civic_guard: "Civic Guard" #NT!
+ civic_guard_flavor: "The Pureborn of Qarth do not ride horses like the barbarians of other lands. Instead, they ride camels, the far superior mount. This has given them protection and control of the Queen of Cities since they came to these lands." #NT!
+  
+ pale_cavalry: "Pale Cavalry" #NT!
+ pale_cavalry_flavor: "The Qaathi came from the plains of the north. Like many peoples of that region, they were known for their horsemanship, with the Qaathi prizing sabino horses." #NT!
+  
+ gate_sailors: "Gate Sailors" #NT!
+ gate_sailors_flavor: "Lying just within the Jade Gates, Qal has often been the stronghold from which Qarth has defended its hold upon the gates." #NT!
+  
+ port_guard: "Port Guard" #NT!
+ port_guard_flavor: "The Ibbenese are called to the sea, and thus their great seats tend to be ports, both large and small, making the guards of the port the closest thing to professional soldiers they have." #NT!
+  
+ mountain_spears: "Mountain Spears" #NT!
+ mountain_spears_flavor: "The Ibbenese who move inland on their island contend with bears and other threats more than men, and their use of spears keeps such dangers at arm's length." #NT!
+  
+ sar_wardens: "Sar Wardens" #NT!
+ sar_wardens_flavor: "From its humble beginnings as a penal colony, Ib Sar has grown, and its defenders still call themselves wardens." #NT!
+  
+ patriarchal_guard: "Patriarchal Guard" #NT!
+ patriarchal_guard_flavor: "The Patriarchs are the last who hold the blood of the Hero; it is from them that he will return, and thus they must be guarded to ensure that the line continues." #NT!
+  
+ bone_collectos: "Bone Collectors" #NT!
+ bone_collectos_flavor: "While all three of the fortress-cities of the Bone Mountains face constant threats, it is in the north, upon the Road of Bones, that the Kayakayanayans face the greatest dangers. Yet their warriors meet them all and collect their enemies' bones to add to the city's walls." #NT!
+  
+ stone_shields: "Stone Shields" #NT!
+ stone_shields_flavor: "Life in the Bone Mountains is hard, and for those who live upon the Stone Road, they fight threats from east and west with great shields that none can pierce." #NT!
+  
+ sand_couriers: "Sand Couriers" #NT!
+ sand_couriers_flavor: "Along the great Sand Road, the Bayasabhadans act as the intermediary between the far east and the rest of Essos. Their couriers brave every threat, whether element, beast, or man." #NT!
+  
+ asa_scouts: "Asa Scouts" #NT!
+ asa_scouts_flavor: "The warriors of Asabhad are famed for their quick and silent scouts, who are said to make their way through both mountain and jungle with equal ease." #NT!
+  
+ pearl_phoenixes: "Pearl Phoenixes" #NT!
+ pearl_phoenixes_flavor: "Just as the phoenix's flames burn those impure and impious, so too do the quarrels of these soldiers find those who would do their lord harm." #NT!
+  
+ jade_dragons: "Jade Dragons" #NT!
+ jade_dragons_flavor: "Under the leadership of the Sea-Green Emperors, the sailors of the Feicui Ren ruled the Jade Sea and beyond. Their ships were said to be protected by water dragons." #NT!
+  
+ tourmaline_tortoises: "Tourmaline Tortoises" #NT!
+ tourmaline_tortoises_flavor: "With the Shadow lying to the east, the Bixi Ren have long faced raids and other attacks. Much like great tortoises, their soldiers equip themselves in heavy armor to drive away the Shadowmen." #NT!
+  
+ onyx_crows: "Onyx Crows" #NT!
+ onyx_crows_flavor: "In the north of Yi Ti, upon the border of the plains of the Jogos N'hai, the Heinao Ren fiercely defend the Golden Empire with pike and will." #NT!
+  
+ topaz_tigers: "Topaz Tigers" #NT!
+ topaz_tigers_flavor: "The central jungles are home to many predators, not least among them the tigers that stalk those lands. Yet the Haungyu Ren archers are just as dangerous. They are the Topaz Tigers, and their claws and bites are just as deadly." #NT!
+  
+ opal_cranes: "Opal Cranes" #NT!
+ opal_cranes_flavor: "Upon the central plains of Yi Ti, speed is a great advantage, both in war and trade. Thus the Aobao Ren fight with swiftness enough to rival the cranes that fill the skies." #NT!
+  
+ depth_killers: "Depth Killers" #NT!
+ depth_killers_flavor: "The Lengii have long mastered the art of guerrilla warfare, driving the Golden Empire from their lands. Any enemy taken alive is said to disappear into the depths of the island." #NT!
+  
+ jade_sailors: "Jade Sailors" #NT!
+ jade_sailors_flavor: "Life upon the Jade Sea is full of opportunity, though there is always someone looking to take rather than build. Thus, honest sailors go armed to protect themselves." #NT!
+  
+ poison_stings: "Poison Stings" #NT!
+ poison_stings_flavor: "Even among the paradise of the islands of the Jade Sea, dangers lie. Often, the prettiest insect has the deadliest sting." #NT!
+  
+ crescent_blades: "Crescent Blades" #NT!
+ crescent_blades_flavor: "Even upon the Paradise Isle, guards are needed. The greatest are the Crescent Blades, named for the moon-shaped blades they wield." #NT!
+  
+ moraqi_elephants: "Moraqi Elephants" #NT!
+ moraqi_elephants_flavor: "The elephants of Moraq are known far and wide and are often given as gifts and tribute. The greatest and strongest of them never leave Great Moraq; instead, they remain as part of the armies of the Moraqi, a strong and terrible force." #NT!
+  
+ shans_herd: "Shan's Herd" #NT!
+ shans_herd_flavor: "Upon the Isle of Elephants, from his palace of ivory, the Shan is guarded by the largest and fiercest elephants in the known world." #NT!
+  
+ blue_eyes: "Blue Eyes" #NT!
+ blue_eyes_flavor: "The most dangerous of the Vahari are those who have blue eyes, for they are trained relentlessly." #NT!
+  
+ stone_ranchers: "Stone Ranchers" #NT!
+ stone_ranchers_flavor: "Just as ranchers and farmers guard their herds, so too do the Stone Ranchers guard and protect the Stone Bull and its herd—the Farosi people." #NT!
+  
+ ash_wardens: "Ash Wardens" #NT!
+ ash_wardens_flavor: "The Ash is the great poisoned artery of Asshai, and occasionally threats from the Shadow follow the river. The Ash Wardens must deal with them swiftly." #NT!
+  
+ shadow_raiders: "Shadow Raiders" #NT!
+ shadow_raiders_flavor: "Life under the Shadow is said to be harsher than anywhere else. The men who dwell there thrive on raiding their neighbors, both within and beyond the Shadow." #NT!
+  
+ lions_of_night: "Lions of Night" #NT!
+ lions_of_night_flavor: "When man betrayed the covenant with the Celestial Court, the Lion of Night unleashed his demons upon the realms of men. The greatest of these took the form of great lions, and so the people beyond the Five Forts today clad themselves in armor fashioned in their image." #NT!
+  
+ vassals_in_yellow: "Vassals in Yellow" #NT!
+ vassals_in_yellow_flavor: "Even beyond the Five Forts, Carcosa stands apart, stranger and shadowed. Its denizens are dedicated to their Yellow Emperor, and armed with long pikes, they threaten all around them." #NT!
+  
+ dream_questors: "Dream Questors" #NT!
+ dream_questors_flavor: "It is said that in far K'Dath, true greatness is found only in dreams, often hand in hand with madness. These men have followed the eldritch whispers and are now warriors without fear." #NT!
+  
+ drainers: "Drainers" #NT!
+ drainers_flavor: "Beyond the Five Forts, the lands of the Bloodless Men are feared across the world. It is said that any who venture there will be drained of all their blood." #NT!
+  
+ waste_raiders: "Waste Raiders" #NT!
+ waste_raiders_flavor: "Beyond the Five Forts, the grey wastes are a bleak and dangerous place. To survive, one must raid friend and foe alike." #NT!
+  
+ wind_demons: "Wind Demons" #NT!
+ wind_demons_flavor: "It is said men are strange and monstrous beyond the Five Forts, not least the Winged Men. Surely, such tales are metaphors for their speed and skill upon horseback." #NT!
+  
+ venom_bites: "Venom Bites" #NT!
+ venom_bites_flavor: "The Shrykes from beyond the Five Forts strike fast and with poison, much like the bite of a venomous snake." #NT!
+  
+  # Spawned Armies 
  black_brothers: "Schwarze Brüder"
- black_brothers_flavor: "" #NT!
+ black_brothers_flavor: ""
   
-  #Holy Order MaAs 
- holy_order_poor_fellows: "Arme Gefährten"
- holy_order_poor_fellows_flavor: "" #NT!
+  # Holy Order MaAs 
+ shrikes: "Shrikes" #NT!
+ shrikes_flavor: "The priests of the Drowned God have taken up arms to drive the heretics and blasphemers from the Islands, just as the Shrike did against Harmund III." #NT!
   
- holy_order_warriors_sons: "Söhne des Kriegers"
- holy_order_warriors_sons: "Söhne des Kriegers"
+ poorfellow_skirmishers: "Stars of the Poor Fellows" #NT!
+ poorfellow_skirmishers_flavor: "These men and women have dedicated themselves to the Poor Fellows." #NT!
+  
+ warriors_sons_heavy_infantry: "Swords of the Warrior's Sons" #NT!
+ warriors_sons_heavy_infantry_flavor: "These knights of the Noble and Puissant Order of the Warrior's Sons choose to fight on foot." #NT!
+  
+ warriors_sons_heavy_cav: "Swords of the Warrior's Sons" #NT!
+ warriors_sons_heavy_cav_flavor: "These knights of the Noble and Puissant Order of the Warrior's Sons choose to fight on horseback." #NT!
   
  holy_guard: "Heilige Wache"
  holy_guard_flavor: "#F PLACEHOLDER.#!"
   
- fiery_hand: "Fiery Hand of R'hllor" #NT!
- fiery_hand_flavor: "The slave soldiers of R'hllor in the Free Cities, the Fiery Hand are dedicated to carrying out the will of the Lord of Light as directed by the High Priest in Volantis." #NT!
+ fiery_hand: "Fiery Hand of R'hllor"
+ fiery_hand_flavor: "The slave soldiers of R'hllor in the Free Cities, the Fiery Hand are dedicated to carrying out the will of the Lord of Light as directed by the High Priest in Volantis."
+  
+ dothraki_screamers: "Dothraki Screamers"
+ dothraki_screamers_flavor: "Dothraki Screamers are an elite unite of Dothraki warriors."
   
   # Innovation MaAs 
- battering_ram: "Battering Ram" #NT!
- battering_ram_flavor: "A ram for battering down the gates and walls of any enemy!" #NT!
+ battering_ram: "Battering Ram"
+ battering_ram_flavor: "A ram for battering down the gates and walls of any enemy!"
   
- northern_spears: "Ironwood Spears" #NT!
- northern_spears_flavor: "Armed with spears of Ironwood, these northern troops prove a deadly counter to the knights of the south." #NT!
+ knights_of_the_dragon: "Knights of the Dragon" #NT!
+ knights_of_the_dragon_flavor: "As the Valyrians have come to adopt the ways of Westeros, their greatest warriors have embraced the traditions of knighthood. Armored in fearsome plate and adorned with dragons, these knights are a terrible force upon the field of battle." #NT!
   
- dornish_crossbows: "Dornish Vipers" #NT!
- dornish_crossbows_flavor: "Armed with crossbows, these Dornishmen are known for their deadly accuracy and poison tipped quarrels." #NT!
+ northern_spears: "Ironwood Spears"
+ northern_spears_flavor: "Armed with spears of Ironwood, these northern troops prove a deadly counter to the knights of the south."
   
- vale_heavy_infantry: "Bloody Guard" #NT!
- vale_heavy_infantry_flavor: "Known for their defense of the Bloody Gate, these swordsmen are resolute in the defense of the Vale." #NT!
+ dornish_crossbows: "Dornish Vipers"
+ dornish_crossbows_flavor: "Armed with crossbows, these Dornishmen are known for their deadly accuracy and poison tipped quarrels."
   
- crownlands_spears: "Dusk Spears" #NT!
- crownlands_spears_flavor: "These spearmen know the lands of Blackwater Bay well, and are renowned for fighting in cities." #NT!
+ vale_heavy_infantry: "Bloody Guard"
+ vale_heavy_infantry_flavor: "Known for their defense of the Bloody Gate, these swordsmen are resolute in the defense of the Vale."
   
- reach_light_cavalry: "Hand Messengers" #NT!
- reach_light_cavalry_flavor: "Fast and light, these outriders can cover the breadth of the Reach faster than any other mounted force, either to bring word or harass the enemy." #NT!
+ crownlands_spears: "Dusk Spears"
+ crownlands_spears_flavor: "These spearmen know the lands of Blackwater Bay well, and are renowned for fighting in cities."
   
- riverlands_light_infantry: "Bargemen" #NT!
- riverlands_light_infantry_flavor: "Traveling up and down the Trident and its many, many tributaries, these Bargemen provide their lords a quick and mobile infantry force." #NT!
+ reach_light_cavalry: "Hand Messengers"
+ reach_light_cavalry_flavor: "Fast and light, these outriders can cover the breadth of the Reach faster than any other mounted force, either to bring word or harass the enemy."
   
- westerlands_knights: "Lion Knights" #NT!
- westerlands_knights_flavor: "Strong and hardy, the knights of the Westerlands are as fierce as lions." #NT!
+ riverlands_light_infantry: "Bargemen"
+ riverlands_light_infantry_flavor: "Traveling up and down the Trident and its many, many tributaries, these Bargemen provide their lords a quick and mobile infantry force."
   
- stormlands_heavy_infantry: "Antlermen" #NT!
- stormlands_heavy_infantry_flavor: "Armored and armed in cold steel, these men adorn their helmets with antlers to show their fury." #NT!
+ westerlands_knights: "Lion Knights"
+ westerlands_knights_flavor: "Strong and hardy, the knights of the Westerlands are as fierce as lions."
   
- westerosi_sellswords: "Westerosi Sellswords" #NT!
- westerosi_sellswords_flavor: "Many Westerosi knights find service in the Free Companies of Essos, they are not as dedicated as those sworn to the lords in Westeros, for coin is never as strong as an oath." #NT!
+ stormlands_heavy_infantry: "Antlermen"
+ stormlands_heavy_infantry_flavor: "Armored and armed in cold steel, these men adorn their helmets with antlers to show their fury."
+  
+ westerosi_sellswords: "Westerosi Sellswords"
+ westerosi_sellswords_flavor: "Many Westerosi knights find service in the Free Companies of Essos, they are not as dedicated as those sworn to the lords in Westeros, for coin is never as strong as an oath."
   
  stepstone_sailors: "Trittstein-Seemänner"
  stepstone_sailors_flavor: "#F PLACEHOLDER.#!"
   
- giant_regiment: "Giants" #NT!
- giant_regiment_flavor: "Some of the famed giants of the far north, these great creatures have decided to fight for a tribe from beyond the Wall." #NT!
+ giant_regiment: "Giants"
+ giant_regiment_flavor: "Some of the famed giants of the far north, these great creatures have decided to fight for a tribe from beyond the Wall."
   
- goldenheart_bowmen: "Goldenheart Bowmen" #NT!
- goldenheart_bowmen_flavor: "The Summer Isles and their swanships are feared by pirates and slavers, for they are protected by regiments of Goldenheart Bowmen, whose bows are only surpassed by the rare dragonbone bows." #NT!
+ goldenheart_bowmen: "Goldenheart Bowmen"
+ goldenheart_bowmen_flavor: "The Summer Isles and their swanships are feared by pirates and slavers, for they are protected by regiments of Goldenheart Bowmen, whose bows are only surpassed by the rare dragonbone bows."
   
- ruby_spearwomen: "Ruby Spearwomen" #NT!
- ruby_spearwomen_flavor: "The fearsome women of the Bone Mountains are fierce and skilled with their great spears, and famed for their rubies and iron rings." #NT!
+ ruby_spearwomen: "Ruby Spearwomen"
+ ruby_spearwomen_flavor: "The fearsome women of the Bone Mountains are fierce and skilled with their great spears, and famed for their rubies and iron rings."
   
-  #Title MaAs 
- goldcloaks: "Gold Cloaks" #NT!
- goldcloaks_flavor: "The City Watch of King's Landing, more infamously known as the gold cloaks, are a force to be reckoned with. Equipped with gold-dyed wool cloaks, short spears, cudgels, and black mail and gloves, they are recognizable anywhere in the realm." #NT!
+  # Title MaAs 
+ goldcloaks: "Gold Cloaks"
+ goldcloaks_flavor: "The City Watch of King's Landing, more infamously known as the gold cloaks, are a force to be reckoned with. Equipped with gold-dyed wool cloaks, short spears, cudgels, and black mail and gloves, they are recognizable anywhere in the realm."
   
- sea_watch: "Sea Watch" #NT!
- sea_watch_flavor: "The Sea Watch of the Iron Throne is a naval unit dedicated to guarding Blackwater Bay and the approach to the city of King's Landing. They are feared by smugglers and execute any they catch." #NT!
+ sea_watch: "Sea Watch"
+ sea_watch_flavor: "The Sea Watch of the Iron Throne is a naval unit dedicated to guarding Blackwater Bay and the approach to the city of King's Landing. They are feared by smugglers and execute any they catch."
   
- redcloaks: "Red Cloaks" #NT!
- redcloaks_flavor: "The City Watch of Lannisport, or red cloaks, are known for their efficiency and training. With the wealth of Lannisport behind them, they are well-equipped and trained." #NT!
+ redcloaks: "Red Cloaks"
+ redcloaks_flavor: "The City Watch of Lannisport, or red cloaks, are known for their efficiency and training. With the wealth of Lannisport behind them, they are well-equipped and trained."
   
- greycloaks: "Grey Cloaks" #NT!
- greycloaks_flavor: "The City Watch of Oldtown, known as the grey cloaks, are the oldest city watch in Westeros, and well-known for their professionalism and orderly conduct." #NT!
+ greycloaks: "Grey Cloaks"
+ greycloaks_flavor: "The City Watch of Oldtown, known as the grey cloaks, are the oldest city watch in Westeros, and well-known for their professionalism and orderly conduct."
   
- cailin_archers: "Cailin Archers" #NT!
- cailin_archers_flavor: "Moat Cailin serves as the gateway to the North, and with its strong position at the end of the Causeway and protected by the Neck, archers can easily protect the castle, ruined or rebuilt, against any foe." #NT!
+ cailin_archers: "Cailin Archers"
+ cailin_archers_flavor: "Moat Cailin serves as the gateway to the North, and with its strong position at the end of the Causeway and protected by the Neck, archers can easily protect the castle, ruined or rebuilt, against any foe."
   
-  #Night's Watch MaAs 
- rangers: "Waldläufer"
- rangers_flavor: "The main militant forces of the Night's Watch, the rangers regularly venture past the Wall and engage with Wildlings in the Haunted Forest and beyond." #NT!
+ grey_wolves: "Grey Wolves" #NT!
+ grey_wolves_flavor: "With the Warg King's Castle rebuilt, great warriors have flocked to take up the name of Gaven Greywolf and carry on the Warg King's legacy." #NT!
   
- trackers: "Fährtenleser"
- trackers_flavor: "Diese leicht bewaffneten Pfahlbaumänner stammen aus den Sümpfen der Eng und sind ebenso unberechenbar wie lästig gegen langsamere Fußtruppen."
+ hammers_of_justice: "Hammers of Justice" #NT!
+ hammers_of_justice_flavor: "With Oldstones rebuilt, great warriors have flocked to take up the name of Tristifer Mudd and carry on the River King's legacy." #NT!
   
- sworn_brothers: "Sworn Brothers" #NT!
- sworn_brothers_flavor: "While diminished in number from days past, the sworn brothers are still a force to be reckoned with, especially compared to the Wildlings beyond the Wall." #NT!
+ morne_guardians: "Perfect Knights" #NT!
+ morne_guardians_flavor: "With Morne rebuilt, great warriors have flocked to take up the name of Ser Galladon and carry on the Perfect Knight's legacy." #NT!
   
- shadow_spears: "Shadow Spears" #NT!
- shadow_spears_flavor: "The men of the Shadow Tower have long guarded the Bridge of Skulls and to keep enemies back at such a crucial chokepoint the use of long spears has been perfected." #NT!
+ dust_devils: "Dust Devils" #NT!
+ dust_devils_flavor: "With Hellgate Hall rebuilt, great warriors have flocked to take up the name of Lucifer Dryland and carry on the King of the Brimstone's legacy." #NT!
   
- eastwatch_sailors: "Eastwatch Sailors" #NT!
- eastwatch_sailors_flavor: "As the only port of the Night's Watch, the brothers of Eastwatch-by-the-Sea are skilled sailors, used to patrolling the Shivering Sea." #NT!
+ head_collectors: "Head Collectors" #NT!
+ head_collectors_flavor: "With the Whispers rebuilt, great warriors have flocked to take up the name of Clarence Crabb and carry on the Auroch Rider's legacy." #NT!
   
-  #Dragons 
- anti_dragon: "[anti_dragon_maa|E]" #NT!
- scorpions: "Scorpions" #NT!
- scorpions_flavor: "A large bolt thrower, capable of piercing through the thickest of armor. Though outclassed in traditional warfare, the scorpion is unrivaled in one aspect — the ability to pierce dragon scales." #NT!
+ cruel_chains: "Cruel Chains" #NT!
+ cruel_chains_flavor: "With Hoare Castle rebuilt, great warriors have flocked to take up the name of Qhored Hoare and carry on the Cruel High King's legacy." #NT!
   
- water_wizards: "Water Wizards" #NT!
- water_wizards_flavor: "The Rhoynar were famed for their ties to the great river, who they worship as their Mother Goddess. This worship manifests itself greatest in the Water Wizards who weild the body of the Mother itself, to slay even dragons." #NT!
+ bloody_blades: "Bloody Blades" #NT!
+ bloody_blades_flavor: "With the Bloody Keep raised, great warriors have flocked to take up the name of Brandon of the Bloody Blade and carry on the Bloody Blade's legacy." #NT!
   
- dragons_regiment: "[dragons_plural|E]" #NT!
- dragons_flavor: "Dragons are the most fearsome weapon in the world, capable of burning entire armies to ash. To face one is to know the face of death itself." #NT!
+ sharp_claws: "Sharp Claws" #NT!
+ sharp_claws_flavor: "With Castamere rebuilt, great warriors have flocked to take up the name of Roger Reyne and carry on the Red Lion's legacy." #NT!
   
- #MaA Types 
- chariot_cavalry: "[chariot_cavalry|E]" #NT!
- game_concept_chariot_cavalry: "Chariots" #NT!
- game_concept_chariot_cavalry_desc: "Chariots are [men_at_arms|E], a sturdy cavalry unit that [counters|E] [heavy_cavalry|E] and [heavy_infantry|E]. They are in turn countered by [spearmen|E] and crossbowmen." #NT!
- chariot_cavalry_damage_add: "[chariot_cavalry|E] [damage|E]" #NT!
- chariot_cavalry_damage_mult: "$chariot_cavalry_damage_add$" #NT!
- chariot_cavalry_toughness_add: "[chariot_cavalry|E] [toughness|E]" #NT!
- chariot_cavalry_toughness_mult: "$chariot_cavalry_toughness_add$" #NT!
- chariot_cavalry_pursuit_add: "[chariot_cavalry|E] [pursuit|E]" #NT!
- chariot_cavalry_pursuit_mult: "$chariot_cavalry_pursuit_add$" #NT!
- chariot_cavalry_screen_add: "[chariot_cavalry|E] [screen|E]" #NT!
- chariot_cavalry_screen_mult: "$chariot_cavalry_screen_add$" #NT!
- chariot_cavalry_maintenance_mult: "[chariot_cavalry|E] Maintenance" #NT!
- chariot_cavalry_recruitment_cost_mult: "[chariot_cavalry|E] Recruitment Cost" #NT!
- chariot_cavalry_max_size_add: "Max Size of [chariot_cavalry|E] [regiments|E]" #NT!
+ ursulas_screams: "Ursula's Screams" #NT!
+ ursulas_screams_flavor: "With the Merling Keep built, great warriors have flocked to take up the name of Ursula Upcliff and carry on the Merling Bride's legacy." #NT!
+  
+ wildling_cavalry: "Free Folk Riders" #NT!
+ wildling_cavalry_flavor: "The wildlings use cavalry less than the kneelers do, relying on a small, hardy breed of horse that can survive the cold and sparse grazing." #NT!
+  
+  # Pirate MaAs 
+ pirate_archers: "Forcastle Men" #NT!
+ pirate_archers_flavor: "The lookouts assigned to the forcastle, these men are armed with bows and are the first to draw blood." #NT!
+  
+ pirate_pikemen: "Long Hooks" #NT!
+ pirate_pikemen_flavor: "Used to grapple onto enemy ships, the long hook makes an excellent weapon, especially against anyone atop a horse." #NT!
+  
+ pirate_skirmishers: "Black Cutlasses" #NT!
+ pirate_skirmishers_flavor: "Armed with cutlasses and dressed in black, these pirates will cut down any between them and their booty." #NT!
+  
+  # Night's Watch MaAs 
+ nw_rangers: "Rangers" #NT!
+ nw_rangers_flavor: "The main militant forces of the Night's Watch, rangers regularly venture past the Wall and engage with wildlings in the Haunted Forest and beyond." #NT!
+  
+ nw_trackers: "Trackers" #NT!
+ nw_trackers_flavor: "Occasionally, members of the Night's Watch are sent far afield to track important targets or gather key information. Few in number, these troops are among the few to ride horses." #NT!
+  
+ sworn_brothers: "Sworn Brothers"
+ sworn_brothers_flavor: "While diminished in number from days past, the sworn brothers are still a force to be reckoned with, especially compared to the Wildlings beyond the Wall."
+  
+ shadow_spears: "Shadow Spears"
+ shadow_spears_flavor: "The men of the Shadow Tower have long guarded the Bridge of Skulls and to keep enemies back at such a crucial chokepoint the use of long spears has been perfected."
+  
+ eastwatch_sailors: "Eastwatch Sailors"
+ eastwatch_sailors_flavor: "As the only port of the Night's Watch, the brothers of Eastwatch-by-the-Sea are skilled sailors, used to patrolling the Shivering Sea."
+  
+  # Dragons 
+ anti_dragon: "[anti_dragon_maa|E]"
+ scorpions: "Scorpions"
+ scorpions_flavor: "A large bolt thrower, capable of piercing through the thickest of armor. Though outclassed in traditional warfare, the scorpion is unrivaled in one aspect — the ability to pierce dragon scales."
+  
+ water_wizards: "Water Wizards"
+ water_wizards_flavor: "The Rhoynar were famed for their ties to the great river, who they worship as their Mother Goddess. This worship manifests itself greatest in the Water Wizards who weild the body of the Mother itself, to slay even dragons."
+  
+ dragons_regiment: "[dragons_plural|E]"
+ dragons_flavor: "Dragons are the most fearsome weapon in the world, capable of burning entire armies to ash. To face one is to know the face of death itself."
+  
+  #Special 
+  
+ laamp_settler_maa: "Settlers" #NT!
+ laamp_settler_maa_flavor: "No true soldiers, settlers are a ramshackle collection of those seeking a fresh start. They can be found in any holding, willing to join any [adventurer|E] who has room in their #V Settler Train#! [building|E]." #NT!
+  
+  # MaA Types 
+ chariot_cavalry: "[chariot_cavalry|E]"
+ game_concept_chariot_cavalry: "Chariots"
+ game_concept_chariot_cavalry_desc: "Chariots are [men_at_arms|E], a sturdy cavalry unit that [counters|E] [heavy_cavalry|E] and [heavy_infantry|E]. They are in turn countered by [spearmen|E] and crossbowmen."
+ chariot_cavalry_damage_add: "[chariot_cavalry|E] [damage|E]"
+ chariot_cavalry_damage_mult: "$chariot_cavalry_damage_add$"
+ chariot_cavalry_toughness_add: "[chariot_cavalry|E] [toughness|E]"
+ chariot_cavalry_toughness_mult: "$chariot_cavalry_toughness_add$"
+ chariot_cavalry_pursuit_add: "[chariot_cavalry|E] [pursuit|E]"
+ chariot_cavalry_pursuit_mult: "$chariot_cavalry_pursuit_add$"
+ chariot_cavalry_screen_add: "[chariot_cavalry|E] [screen|E]"
+ chariot_cavalry_screen_mult: "$chariot_cavalry_screen_add$"
+ chariot_cavalry_maintenance_mult: "[chariot_cavalry|E] Maintenance"
+ chariot_cavalry_recruitment_cost_mult: "[chariot_cavalry|E] Recruitment Cost"
+ chariot_cavalry_max_size_add: "Max Size of [chariot_cavalry|E] [regiments|E]"

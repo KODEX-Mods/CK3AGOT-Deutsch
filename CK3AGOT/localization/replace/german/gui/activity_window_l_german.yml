@@ -5,8 +5,8 @@
   
  activity_intent_event_widget: "Vorsatz: [Character.GetInvolvedActivityIntent.GetName]"
   #AGOT Modified 
- #activity_intent_target_event_widget: "Target: [Character.GetIntentTarget.GetShortUIName]" #NT!
- activity_intent_target_event_widget: "Target: [Character.GetIntentTarget.Custom('AGOTCustomGetShortUIName')]" #NT!
+ #activity_intent_target_event_widget: "Target: [Character.GetIntentTarget.GetShortUIName]"
+ activity_intent_target_event_widget: "Target: [Character.GetIntentTarget.Custom('AGOTCustomGetShortUIName')]"
   
  ACTIVITY_WINDOW_HEADER: "[Activity.GetNameNoTooltip|U]"
  ACTIVITY_WINDOW_EVENT_HEADER: "[Activity.GetShortNameNoTooltip]: [EventWindowData.GetTitle]"
@@ -127,3 +127,6 @@
  ACTIVITY_WINDOW_PHASE_IN_PROGRESS_TOOLTIP: "#T [ActivityPhase.GetName]#!\nLetzte Aktion: [ActivityWindow.GetLastWeeklyPulseEffectData.GetTitle|V][AddLine(ActivityWindow.GetLastWeeklyPulseEffectData.GetEffectText)]\n\n[Subtract_int32(DaysPerWeek, GetTicksSinceLastProgress(Activity.GetID, DaysPerWeek))|V] Tage bis zur nächsten Chance auf eine [activity_phase_action|E].\n\n[ActivityPhase.GetDescription]"
  ACTIVITY_PULSE_ACTION_NONE: "Keine"
  ACTIVITY_TIME_UNTIL_PROGRESS: " ([Activity.GetEstimatedProgressPhaseDate.GetTimeToDate] bis sie [Select_CString(Activity.IsCurrentPhaseActive, 'endet', 'beginnt')])"
+  
+ OPEN_ACTIVITY_NEVER_SEEN: "Nie gehalten"
+ OPEN_ACTIVITY_LAST_SEEN: "Zuletzt gehalten vor [GetTimeBetweenDates(DATE.Self, GetCurrentDate)]"

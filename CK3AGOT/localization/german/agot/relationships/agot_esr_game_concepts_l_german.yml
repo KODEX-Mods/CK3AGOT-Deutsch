@@ -1,0 +1,4 @@
+﻿l_german:
+ game_concept_family_friend: "Family Friend"
+ game_concept_family_friends: "Family Friends"
+ game_concept_family_friend_desc: "A Family Friend is an implicit relation formed when you have at least three friends who are [close_family_members|E] to each other.\nThe Family Friend gains opinion of all members of that [close_family|E].\nOne cannot become Family Friend with their own [close_family|E]"

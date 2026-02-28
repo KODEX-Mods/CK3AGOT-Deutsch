@@ -34,10 +34,10 @@
  trait_education_intrigue_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat sich als [ROOT.GetCharacter.Custom('DE_ART_IND_N')] Meister[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')] des Ränkespiels hervorgetan, und [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] ist in einen Schleier der Geheimhaltung gehüllt, der seinesgleichen sucht."
  trait_education_intrigue_5: "Hinterlistiger Puppenspieler"
   #AGOT Modified 
- #trait_education_intrigue_5_desc: "The Conniving Puppetmaster is a whisper in the wind, a shadow on the wall. Their knife serves where words would not." #NT!
- #trait_education_intrigue_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a whisper in the wind, a shadow on the wall. Their knife serves where words would not." #NT!
- trait_education_intrigue_5_desc: "The Conniving Puppetmaster is beyond the shadow lurking behind a wall, or the little bird listening outside a window, they are guile personified, and no plot is beyond their grasp. " #NT!
- trait_education_intrigue_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is beyond the shadow lurking behind a wall, or the little bird listening outside a window, [ROOT.GetCharacter.GetSheHe] is guile personified and no plot is beyond [ROOT.GetCharacter.GetHerHis] grasp." #NT!
+ #trait_education_intrigue_5_desc: "The Conniving Puppetmaster is a whisper in the wind, a shadow on the wall. Their knife serves where words would not."
+ #trait_education_intrigue_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a whisper in the wind, a shadow on the wall. Their knife serves where words would not."
+ trait_education_intrigue_5_desc: "The Conniving Puppetmaster is beyond the shadow lurking behind a wall, or the little bird listening outside a window, they are guile personified, and no plot is beyond their grasp. "
+ trait_education_intrigue_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is beyond the shadow lurking behind a wall, or the little bird listening outside a window, [ROOT.GetCharacter.GetSheHe] is guile personified and no plot is beyond [ROOT.GetCharacter.GetHerHis] grasp."
   
  trait_education_diplomacy_1: "Einfältiger Beschwichtiger"
  trait_education_diplomacy_1_desc: "Der Einfältige Beschwichtiger hat zwar eine gewisse Ausbildung in der Kunst der Diplomatie erhalten, ist aber trotzdem in der Regel eine Peinlichkeit für sich selbst und alle in seiner Umgebung."
@@ -49,16 +49,16 @@
  trait_education_diplomacy_3_desc: "Als Meister der Überredungskunst und der Feinheiten der Diplomatie ist der Charismatische Verhandler ein ausgezeichneter Unterhändler."
  trait_education_diplomacy_3_character_desc: "Als Meister[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')] der Überredungskunst und der Feinheiten der Diplomatie ist [ROOT.GetCharacter.GetFirstNameNoTooltip] [ROOT.GetCharacter.Custom('DE_ART_IND_N')] ausgezeichnet[ROOT.GetCharacter.Custom('DE_END_ADJ_IND_S_N')] Unterhändler[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')]."
   #AGOT Modified 
- #trait_education_diplomacy_4: "Grey Eminence" #NT!
- #trait_education_diplomacy_4_desc: "As familiar with the nuances of diplomacy as the back of their hand, the Grey Eminence is a master of the art." #NT!
- #trait_education_diplomacy_5: "Virtuoso Arbitrator" #NT!
- #trait_education_diplomacy_5_desc: "The Virtuoso Arbitrator's silver tongue can charm the hardest hearts and open the most barricaded of doors." #NT!
+ #trait_education_diplomacy_4: "Grey Eminence"
+ #trait_education_diplomacy_4_desc: "As familiar with the nuances of diplomacy as the back of their hand, the Grey Eminence is a master of the art."
+ #trait_education_diplomacy_5: "Virtuoso Arbitrator"
+ #trait_education_diplomacy_5_desc: "The Virtuoso Arbitrator's silver tongue can charm the hardest hearts and open the most barricaded of doors."
  trait_education_diplomacy_4: "Graue Eminenz"
  trait_education_diplomacy_4_desc: "Die Graue Eminenz kennt die Feinheiten der Diplomatie wie ihre Westentasche und ist eine Meisterin ihrer Kunst."
  trait_education_diplomacy_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] kennt die Feinheiten der Diplomatie wie [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]e Westentasche und ist [ROOT.GetCharacter.Custom('DE_ART_IND_N')] Meister[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')] [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Kunst."
- trait_education_diplomacy_5: "Wise Conciliator" #NT!
- trait_education_diplomacy_5_desc: "The Wise Conciliator is a virtuoso of statecraft and all its symphonies. Be it kin, distant dignataries, or hated foes, by their silver tongue the Envoy plays all to their whims." #NT!
- trait_education_diplomacy_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a virtuoso of statecraft and all its symphonies. Be it kin, distant dignataries, or hated foes, by [ROOT.GetCharacter.GetHerHis] silver tongue [ROOT.GetCharacter.GetFirstNameNoTooltip] plays all to their whims." #NT!
+ trait_education_diplomacy_5: "Wise Conciliator"
+ trait_education_diplomacy_5_desc: "The Wise Conciliator is a virtuoso of statecraft and all its symphonies. Be it kin, distant dignataries, or hated foes, by their silver tongue the Envoy plays all to their whims."
+ trait_education_diplomacy_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a virtuoso of statecraft and all its symphonies. Be it kin, distant dignataries, or hated foes, by [ROOT.GetCharacter.GetHerHis] silver tongue [ROOT.GetCharacter.GetFirstNameNoTooltip] plays all to their whims."
   
  trait_education_stewardship_1: "Zügelloser Verschwender"
  trait_education_stewardship_1_desc: "Der Zügellose Verschwender hat eine Verwaltungsausbildung erhalten, um den Fluss des Geldes nachvollziehen zu können, doch bedauerlicherweise scheint der letztere immer nur in eine Richtung zu strömen …"
@@ -70,8 +70,8 @@
  trait_education_stewardship_3_desc: "Der Wohlstandsschaffer besitzt ein feines Gespür für alle Belange der Verwaltung und ist in diesem Bereich geradezu eine Naturgewalt."
  trait_education_stewardship_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] besitzt ein feines Gespür für alle Belange der Verwaltung und ist in diesem Bereich geradezu eine Naturgewalt."
   #AGOT Modified 
- #trait_education_stewardship_4: "Midas Touched" #NT!
- #trait_education_stewardship_4_desc: "The Midas Touched is followed by success after success in the art of stewardship, displaying an indisputable mastery of the art." #NT!
+ #trait_education_stewardship_4: "Midas Touched"
+ #trait_education_stewardship_4_desc: "The Midas Touched is followed by success after success in the art of stewardship, displaying an indisputable mastery of the art."
  trait_education_stewardship_4: "Kaufmännisches Genie"
  trait_education_stewardship_4_desc: "Das Kaufmännische Genie erzielt in der Kunst der Verwaltung einen Erfolg nach dem anderen, und es ist vollkommen unstrittig, dass es sie erstklassig beherrscht."
  trait_education_stewardship_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] erzielt in der Kunst der Verwaltung einen Erfolg nach dem anderen, und es ist vollkommen unstrittig, dass [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] sie erstklassig beherrscht."
@@ -80,7 +80,7 @@
  trait_education_stewardship_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] kann selbst mit dem kleinen Finger eine scheiternde Unternehmung noch zu Wohlstand führen. Reichtümer sprießen, wo zuvor nur leere Kassen waren."
   
   #AGOT Modified 
- # trait_education_martial_1: "Misguided Warrior" #NT!
+ # trait_education_martial_1: "Misguided Warrior"
  # trait_education_martial_1_desc: "The Misguided Warrior has received an education in the art of war, but is more likely to hurt themselves than their enemies."
  # trait_education_martial_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has received an education in the art of war, but is more likely to hurt [ROOT.GetCharacter.GetHerselfHimself] than [ROOT.GetCharacter.GetHerHis] enemies."
  # trait_education_martial_2: "Tough Soldier"
@@ -92,9 +92,9 @@
  # trait_education_martial_4: "Brilliant Strategist"
  # trait_education_martial_4_desc: "The battlefield is the domain of the Brilliant Strategist, and no martial matter is beyond their knowledge."
  # trait_education_martial_4_character_desc: "The battlefield is the domain of [ROOT.GetCharacter.GetFirstNameNoTooltip], and no martial matter is beyond [ROOT.GetCharacter.GetHerHis] knowledge."
- #trait_education_martial_5: "Exalted Warlord" #NT!
- #trait_education_martial_5_desc: "The Exalted Warlord overcomes seemingly insurmountable odds on the battlefield with consummate ease, turning whole campaigns with a single deft maneuver." #NT!
- #trait_education_martial_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] overcomes seemingly insurmountable odds on the battlefield with consummate ease, turning whole campaigns with a single deft maneuver." #NT!
+ #trait_education_martial_5: "Exalted Warlord"
+ #trait_education_martial_5_desc: "The Exalted Warlord overcomes seemingly insurmountable odds on the battlefield with consummate ease, turning whole campaigns with a single deft maneuver."
+ #trait_education_martial_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] overcomes seemingly insurmountable odds on the battlefield with consummate ease, turning whole campaigns with a single deft maneuver."
  trait_education_martial_1: "Inkompetenter Kommandant"
  trait_education_martial_1_desc: "Obwohl er für das Kommandieren vorbereitet wurde, zeigt er nur wenig Eignung und verfügt nicht über die geringste Ahnung von elementarer Strategie."
  trait_education_martial_1_character_desc: "Obwohl er für das Kommando vorbereitet wurde, zeigt [ROOT.GetCharacter.GetFirstNameNoTooltip] wenig Eignung und hat nicht den Hauch einer Ahnung von elementarer Strategie."
@@ -107,9 +107,9 @@
  trait_education_martial_4: "Brillanter Stratege"
  trait_education_martial_4_desc: "Eroberungen lassen das Blut des Brillanten Strategen zum Kochen bringen und dies seiner Feinde gefrieren."
  trait_education_martial_4_character_desc: "Eroberungen lassen das Blut von [ROOT.GetCharacter.GetFirstNameNoTooltip] zum Kochen bringen und das von [ROOT.Char.GetHerHis] Feinden gefrieren."
- trait_education_martial_5: "Ingenious General" #NT!
- trait_education_martial_5_desc: "The Ingenious General's opponents shake with fear to learn who awaits them across the field. They overcomes seemingly insurmountable odds with consummate ease, turning whole campaigns with a single deft maneuver." #NT!
- trait_education_martial_5_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] opponents shake with fear to learn who awaits them across the field. [ROOT.GetCharacter.GetSheHe] overcomes seemingly insurmountable odds with consummate ease, turning whole campaigns with a single deft maneuver." #NT!
+ trait_education_martial_5: "Erhabener Kriegsfürst"
+ trait_education_martial_5_desc: "Der Erhabene Kriegsfürst bewältigt scheinbar unüberwindliche Hindernisse auf dem Schlachtfeld mit vollkommener Leichtigkeit, sodass ganze Feldzüge durch ein einziges geschicktes Manöver neue Wendungen nehmen."
+ trait_education_martial_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] bewältigt scheinbar unüberwindliche Hindernisse auf dem Schlachtfeld mit vollkommener Leichtigkeit, sodass ganze Feldzüge durch ein einziges geschicktes Manöver neue Wendungen nehmen."
   
   #AGOT Modified 
  # trait_education_martial_prowess_1: "Bumbling Squire"
@@ -155,12 +155,12 @@
  trait_education_learning_4_desc: "Der Meisterhafte Philosoph verfügt über unheimlich tiefe Einblicke in alle Aspekte der höheren Bildung."
  trait_education_learning_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] verfügt über unheimlich tiefe Einblicke in alle Aspekte der höheren Bildung."
   #AGOT Modified 
- #trait_education_learning_5: "Erudite Oracle" #NT!
- #trait_education_learning_5_desc: "The Erudite Oracle's knowledge of the divine and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles." #NT!
- #trait_education_learning_5_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] knowledge of the divine and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles." #NT!
- trait_education_learning_5: "Erudite Scholar" #NT!
- trait_education_learning_5_desc: "The Erudite Scholar's knowledge of the higher mysteries and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles." #NT!
- trait_education_learning_5_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] knowledge of the higher mysteries and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles." #NT!
+ #trait_education_learning_5: "Erudite Oracle"
+ #trait_education_learning_5_desc: "The Erudite Oracle's knowledge of the divine and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles."
+ #trait_education_learning_5_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] knowledge of the divine and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles."
+ trait_education_learning_5: "Erudite Scholar"
+ trait_education_learning_5_desc: "The Erudite Scholar's knowledge of the higher mysteries and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles."
+ trait_education_learning_5_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] knowledge of the higher mysteries and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles."
   
  #Lifestyle Traits 
  trait_diplomat: "Diplomat"
@@ -270,6 +270,8 @@
  lifestyle_gardener: "Gärtner"
  lifestyle_gardener_desc: "Dieser Charakter weiß alles, was man über Gärten, Pflanzen und deren Pflege wissen muss."
  lifestyle_gardener_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] weiß alles, was man über Gärten, Pflanzen und deren Pflege wissen muss."
+ trait_lifestyle_poet_desc: "Dieser Charakter verbringt seine Abende gern damit, seinen Gedanken, Gefühlen und Erfahrungen in Versform sinnvoll Ausdruck zu verleihen."
+ trait_lifestyle_poet_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] verbringt [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]e Abende gern damit, [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]en Gedanken, Gefühlen und Erfahrungen in Versform sinnvoll Ausdruck zu verleihen."
   
  #Personality Traits 
  trait_chaste: "Keusch"
@@ -456,6 +458,9 @@
  trait_athletic: "Athletisch"
  trait_athletic_desc: "Regelmäßige Ertüchtigung hilft diesem Charakter, einen kühlen Kopf zu bewahren und Anspannung abzubauen."
  trait_athletic_character_desc: "Regelmäßige Ertüchtigung hilft [ROOT.GetCharacter.GetFirstNameNoTooltip], einen kühlen Kopf zu bewahren und Anspannung abzubauen."
+ trait_burdened: "Belastet"
+ trait_burdened_desc: "Gelehrter Erfolg fällt diesem Charakter nicht zu und bleibt ein dorniger Pfad für ihn. Um dem ständigen Gefühl der Unfähigkeit zu entkommen, lässt er die Gedanken zu den weichen Wolken am Himmel schweifen."
+ trait_burdened_character_desc: "Gelehrter Erfolg fällt [ROOT.GetCharacter.GetFirstNameNoTooltip] nicht zu und bleibt ein dorniger Pfad für [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_A')]. Um dem ständigen Gefühl der Unfähigkeit zu entkommen, lässt [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] die Gedanken zu den weichen Wolken am Himmel schweifen."
   
  #Health traits 
  trait_pregnant: "Schwanger"
@@ -536,15 +541,17 @@
  trait_cancer_desc: "Der Krebs hat sich durch den Körper dieses Charakters ausgebreitet und saugt ihm das Leben aus."
  trait_cancer_character_desc: "Der Krebs hat sich durch den Körper von [ROOT.GetCharacter.GetFirstNameNoTooltip] ausgebreitet und saugt [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_D')] das Leben aus."
   #AGOT Modified 
- #trait_typhus: "Typhus" #NT!
+ #trait_typhus: "Typhus"
  trait_typhus: "Typhus"
  trait_typhus_desc: "Dieser Charakter leidet am Fleckfieber und wird von Ausschlägen, Fieber und Husten geplagt."
  trait_typhus_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] leidet am Fleckfieber und wird von Ausschlägen, Fieber und Husten geplagt."
   #AGOT Modified 
- #trait_bubonic_plague: "Bubonic Plague" #NT!
+ #trait_bubonic_plague: "Bubonic Plague"
  trait_bubonic_plague: "Pest"
  trait_bubonic_plague_desc: "Dieser Charakter hat unter schwarzen Flecken auf der Haut und mehreren Beulen zu leiden. Er ist dem Tode nahe."
  trait_bubonic_plague_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat unter schwarzen Flecken auf der Haut und mehreren Beulen zu leiden. [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] ist dem Tode nahe."
+  #AGOT Modified 
+ #trait_smallpox: "Smallpox" #NT!
  trait_smallpox: "Pocken"
  trait_smallpox_desc: "Dieser von Narben, Ausschlägen und Beulen überzogene Charakter wird nie wieder derselbe sein, selbst wenn er seine Krankheit überstehen sollte."
  trait_smallpox_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist von Narben, Ausschlägen und Beulen überzogen. [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] wird nie wieder so sein wie früher, selbst wenn [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] seine Krankheit überstehen sollte."
@@ -732,6 +739,8 @@
  trait_devoted_hinduism_female: "Sannyasini"
  trait_devoted_jainism_male: "Muni"
  trait_devoted_jainism_female: "Aryika"
+ trait_devoted_buddhism_japanese_male: "Sō"
+ trait_devoted_buddhism_japanese_female: "Ama"
   	#Muslim version of Faith Warrior 
  trait_mujahid: "Mudschahed"
  trait_mujahid_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]e muslimische Pflicht erfüllt und an einem Dschihad teilgenommen."
@@ -789,13 +798,13 @@
  trait_legend: "Sagenumwoben"
  trait_legend_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist bekannt für ein heldenhaftes Leben und gilt bei allen als lebende Legende."
  trait_legend_desc: "Dieser Charakter ist bekannt für ein heldenhaftes Leben und gilt bei allen als lebende Legende."
- #AGOT Modified Reloc 
- # trait_historical_character: "Historical Character" #NT!
- # trait_historical_character_character_desc: "[ROOT.GetCharacter.GetFullNameNicknamed] has dynamically emerged and is of real life historical importance." #NT!
- # trait_historical_character_desc: "This character has dynamically emerged and is of real life historical importance." #NT!
- trait_historical_character: "Canon Character" #NT!
- trait_historical_character_character_desc: "[ROOT.GetCharacter.GetFullNameNicknamed] has dynamically emerged and is of canonical importance." #NT!
- trait_historical_character_desc: "This character has dynamically emerged and is of canonical importance." #NT!
+  #AGOT Modified Reloc 
+ # trait_historical_character: "Historical Character"
+ # trait_historical_character_character_desc: "[ROOT.GetCharacter.GetFullNameNicknamed] has dynamically emerged and is of real life historical importance."
+ # trait_historical_character_desc: "This character has dynamically emerged and is of real life historical importance."
+ trait_historical_character: "Canon Character"
+ trait_historical_character_character_desc: "[ROOT.GetCharacter.GetFullNameNicknamed] has dynamically emerged and is of canonical importance."
+ trait_historical_character_desc: "This character has dynamically emerged and is of canonical importance."
  trait_order_member: "Ordensmitglied"
  trait_order_member_desc: "Dieser Charakter dient in einem militarisierten Kriegerorden."
  trait_order_member_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] dient in einem militarisierten Kriegerorden."
@@ -803,15 +812,15 @@
  trait_bastard_desc: "Dieser Charakter wurde nicht in einer Ehe oder von einer Konkubine geboren und wird sich das ganze Leben mit dem Makel der Unehelichkeit abfinden müssen."
  trait_bastard_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] wurde nicht in einer Ehe oder von einer Konkubine geboren und wird sich das ganze Leben mit dem Makel der Unehelichkeit abfinden müssen."
   #AGOT Added - Bastard Surnames 
- trait_bastard_flowers_desc: "Born or raised a [bastard|E] in the Reach, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Flowers#!." #NT!
- trait_bastard_hill_desc: "Born or raised a [bastard|E] in the Westerlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Hill#!." #NT!
- trait_bastard_pyke_desc: "Born or raised a [bastard|E] in the Iron Islands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Pyke#!." #NT!
- trait_bastard_rivers_desc: "Born or raised a [bastard|E] in the Riverlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Rivers#!." #NT!
- trait_bastard_sand_desc: "Born or raised a [bastard|E] in Dorne, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Sand#!." #NT!
- trait_bastard_snow_desc: "Born or raised a [bastard|E] in the North, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Snow#!." #NT!
- trait_bastard_stone_desc: "Born or raised a [bastard|E] in the Vale, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Stone#!." #NT!
- trait_bastard_storm_desc: "Born or raised a [bastard|E] in the Stormlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Storm#!." #NT!
- trait_bastard_waters_desc: "Born or raised a [bastard|E] in the Crownlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Waters#!." #NT!
+ trait_bastard_flowers_desc: "Born or raised a [bastard|E] in the Reach, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Flowers#!."
+ trait_bastard_hill_desc: "Born or raised a [bastard|E] in the Westerlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Hill#!."
+ trait_bastard_pyke_desc: "Born or raised a [bastard|E] in the Iron Islands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Pyke#!."
+ trait_bastard_rivers_desc: "Born or raised a [bastard|E] in the Riverlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Rivers#!."
+ trait_bastard_sand_desc: "Born or raised a [bastard|E] in Dorne, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Sand#!."
+ trait_bastard_snow_desc: "Born or raised a [bastard|E] in the North, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Snow#!."
+ trait_bastard_stone_desc: "Born or raised a [bastard|E] in the Vale, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Stone#!."
+ trait_bastard_storm_desc: "Born or raised a [bastard|E] in the Stormlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Storm#!."
+ trait_bastard_waters_desc: "Born or raised a [bastard|E] in the Crownlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Waters#!."
  trait_twin: "Zwilling"
  trait_twin_desc: "Dieser Charakter wurde als Zwilling geboren."
  trait_twin_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] wurde als Zwilling geboren."
@@ -830,7 +839,12 @@
  # trait_bastard_founder_character_desc: "A former bastard who has founded [ROOT.GetCharacter.GetHerHis] own [dynasty|E]."
  trait_bastard_founder_desc: "Ein Bastard, der seine eigenes [bastard_house|E] begründet hat."
  trait_bastard_founder_character_desc: "Ein Bastard, der [ROOT.GetCharacter.GetHerHis] eigenes [bastard_house|E] begründet hat."
+  #AGOT Modified 
+ #trait_kinslayer_1: "Dynastic Kinslayer" #NT!
  trait_kinslayer_1: "Dynastiemörder"
+  #AGOT Modified 
+ #trait_kinslayer_1_desc: "This character has committed the sin of murdering a dynasty member." #NT!
+ #trait_kinslayer_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has committed the sin of murdering a dynasty member." #NT!
  trait_kinslayer_1_desc: "Dieser Charakter hat die Sünde begangen, ein Mitglied der Dynastie zu töten."
  trait_kinslayer_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat die Sünde begangen, ein Mitglied der Dynastie zu töten."
  trait_kinslayer_2: "Sippenmörder"
@@ -881,9 +895,6 @@
  trait_shieldmaiden_desc: "Dieser Charakter hat eine Axt als Liebhaber genommen und kämpft auf dem Schlachtfeld wie jeder andere Krieger."
  trait_shieldmaiden_female_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] trotzt den üblichen Strukturen [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Gesellschaft hat [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] eine Axt als Liebhaber genommen und kämpft auf dem Schlachtfeld, als wäre [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] ein Mann."
  trait_shieldmaiden_male_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] trotzt den üblichen Strukturen [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Gesellschaft hat [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] eine Axt als Liebhaber genommen und kämpft auf dem Schlachtfeld, als wäre [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] eine Frau."
- trait_poet: "Poet"
- trait_poet_desc: "Dieser Charakter verbringt seine Abende gern damit, seinen Gedanken, Gefühlen und Erfahrungen in Versform sinnvoll Ausdruck zu verleihen."
- trait_poet_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] verbringt [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]e Abende gern damit, [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]en Gedanken, Gefühlen und Erfahrungen in Versform sinnvoll Ausdruck zu verleihen."
  trait_varangian: "Waräger"
  trait_varangian_desc: "Dieser Charakter hat als Teil der Warägergarde in der Byzantinischen Armee gedient."
  trait_varangian_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat als Teil der Warägergarde in der Byzantinischen Armee gedient."
@@ -906,18 +917,18 @@
   
  trait_education_republican_knowledge: "Republikanisches Wissen"
   #AGOT Modified 
- #trait_education_republican_knowledge_1: "Town Dweller" #NT!
- #trait_education_republican_knowledge_1_desc: "This character has been initiated to the management of cities." #NT!
- #trait_education_republican_knowledge_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been initiated to the management of cities." #NT!
- #trait_education_republican_knowledge_2: "Mayor Trainee" #NT!
- #trait_education_republican_knowledge_2_desc: "This character has been trained in the art of city management." #NT!
- #trait_education_republican_knowledge_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been trained in the art of city management." #NT!
- #trait_education_republican_knowledge_3: "Town Maven" #NT!
- #trait_education_republican_knowledge_3_desc: "This character has developed a strong sense of city management." #NT!
- #trait_education_republican_knowledge_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has developed a strong sense of city management." #NT!
- #trait_education_republican_knowledge_4: "Republican Heir" #NT!
- #trait_education_republican_knowledge_4_desc: "This character has mastered the arcane art of city management." #NT!
- #trait_education_republican_knowledge_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered the arcane art of city management." #NT!
+ #trait_education_republican_knowledge_1: "Town Dweller"
+ #trait_education_republican_knowledge_1_desc: "This character has been initiated to the management of cities."
+ #trait_education_republican_knowledge_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been initiated to the management of cities."
+ #trait_education_republican_knowledge_2: "Mayor Trainee"
+ #trait_education_republican_knowledge_2_desc: "This character has been trained in the art of city management."
+ #trait_education_republican_knowledge_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been trained in the art of city management."
+ #trait_education_republican_knowledge_3: "Town Maven"
+ #trait_education_republican_knowledge_3_desc: "This character has developed a strong sense of city management."
+ #trait_education_republican_knowledge_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has developed a strong sense of city management."
+ #trait_education_republican_knowledge_4: "Republican Heir"
+ #trait_education_republican_knowledge_4_desc: "This character has mastered the arcane art of city management."
+ #trait_education_republican_knowledge_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered the arcane art of city management."
  trait_education_republican_knowledge_1: "Stadtbewohner"
  trait_education_republican_knowledge_1_desc: "Dieser Charakter erhielt eine Einführung in die Verwaltung von Städten."
  trait_education_republican_knowledge_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] erhielt eine Einführung in die Verwaltung von Städten."
@@ -930,11 +941,11 @@
  trait_education_republican_knowledge_4: "Republikanischer Erbe"
  trait_education_republican_knowledge_4_desc: "Dieser Charakter hat die obskure Kunst der Stadtverwaltung gemeistert."
  trait_education_republican_knowledge_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat die obskure Kunst der Stadtverwaltung gemeistert."
- trait_education_republican_knowledge_5_neutral: "Ruler of Trade" #NT!
- trait_education_republican_knowledge_5_male: "Prince of Trade" #NT!
- trait_education_republican_knowledge_5_female: "Princess of Trade" #NT!
- trait_education_republican_knowledge_5_desc: "The Ruler of Trade not only excelled, but mastered, the complex, convoluted world of the Free Cities finances. They are near untouchable, their reach spreading across realms, across nations, all bringing them wealth." #NT!
- trait_education_republican_knowledge_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] not only excelled, but mastered, the complex, convoluted world of the Free Cities finances. [ROOT.GetCharacter.GetSheHe|U] is near untouchable, [ROOT.GetCharacter.GetHerHis] reach spreading across realms, across nations, all bringing [ROOT.GetCharacter.GetHerHim] wealth." #NT!
+ trait_education_republican_knowledge_5_neutral: "Ruler of Trade"
+ trait_education_republican_knowledge_5_male: "Prince of Trade"
+ trait_education_republican_knowledge_5_female: "Princess of Trade"
+ trait_education_republican_knowledge_5_desc: "The Ruler of Trade not only excelled, but mastered, the complex, convoluted world of the Free Cities finances. They are near untouchable, their reach spreading across realms, across nations, all bringing them wealth."
+ trait_education_republican_knowledge_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] not only excelled, but mastered, the complex, convoluted world of the Free Cities finances. [ROOT.GetCharacter.GetSheHe|U] is near untouchable, [ROOT.GetCharacter.GetHerHis] reach spreading across realms, across nations, all bringing [ROOT.GetCharacter.GetHerHim] wealth."
   
   	# Female version of Child of Concubine 
  trait_child_of_concubine: "Konkubinenkind"
@@ -951,6 +962,9 @@
  #Revolting Leader Traits 
   #Peasant Leaders 
  trait_peasant_leader: "Bauernführer"
+ trait_peasant_leader_1: "Rädelsführer von niedriger Geburt"
+ trait_peasant_leader_2: "Vorstreiter des Volks"
+ trait_peasant_leader_3: "Volksheld"
  trait_peasant_leader_desc: "Dieser Charakter ist ein aufmüpfiger Bauer, der gegen Höhergestellte rebelliert hat."
  trait_peasant_leader_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein aufmüpfiger Bauer, der gegen Höhergestellte rebelliert hat."
   #Heretic Uprisings 
@@ -1281,6 +1295,7 @@
  trait_lifestyle_physician: "Ärzte"
  trait_lifestyle_herbalist: "Kräuterkundler"
  trait_lifestyle_gardener: "Gärtner"
+ trait_lifestyle_poet: "Dichter"
   
   # Fame Groups 
  trait_kinslayer: "Familienmörder"
@@ -1309,6 +1324,8 @@
   # REWORKED LIFESTYLES 
  trait_lifestyle_hunter_desc: "Dieser Charakter ist dem Ruf der Wildnis gefolgt."
  trait_lifestyle_hunter_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist dem Ruf der Wildnis gefolgt."
+ #AGOT MODIFIED 
+ #  trait_track_hunter: "Venator" #NT!
  trait_track_hunter: "Venator"
  trait_track_hunter_desc: "Der Klang der Hörner, die Hunde, die Beute! Ob mit Bogen oder Jagdstall: Es gibt keinen vergleichbaren Nervenkitzel, als ein wildes Tier zu erlegen!"
  trait_track_falconer: "Falkner"
@@ -1323,6 +1340,8 @@
  trait_track_lifestyle_blademaster_desc: "Viele Lebensjahre wurden darauf verwendet, eine Waffe so zu meistern, dass die daraus resultierende Anmut eines Tages ein Leben retten und ein anderes beenden kann."
  trait_track_lifestyle_physician: "Arzt"
  trait_track_lifestyle_physician_desc: "Hier den Blutfluss eindämmen, dort eine Ader öffnen. Die Körpersäfte werden bald ausgeglichen sein!"
+ trait_track_lifestyle_poet: "Dichtkunst"
+ trait_track_lifestyle_poet_desc: "Worte können einem ewigen Ruhm einbringen, und die Feder kann schärfer sein als die beste Klinge."
   
   # EP3 
  trait_governor: "Statthalter"
@@ -1402,3 +1421,40 @@
  trait_lifestyle_surveyor: "Inspektor"
  trait_lifestyle_surveyor_desc: "Das Reich gedeiht unter den wachsamen Augen von [ROOT.GetCharacter.GetFirstNameNoTooltip]. Mit einem Hang zu Reisen, die kunstvoll ins Geflecht des Regierens eingewoben werden, überwacht [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] persönlich die Vasallen und bewältigt die Herausforderungen der Verwaltung, was für eine gedeihende und wohlgepflegte Domäne sorgt."
  trait_lifestyle_surveyor_adventurer_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip|U] ist bekannt für das eigene Wissen, was Reisen durch das Land angeht. Die Wildnis kennt [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] wie die eigenen Taschen, und [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] kann gegnerische Armeen umgehen, schreckliche Hinterhalte legen oder einfach für eine sichere Reise von einer Stadt zur anderen sorgen."
+  
+  #MPO 
+ trait_nomadic_philosophy: "Weg des Nomaden"
+ trait_nomadic_philosophy_desc: "Dieser Charakter wurde von Geburt an vom rauen Leben in der Steppe geformt. Seine Sitten, obschon sie den sanftmütigen sesshaften Menschen fremd erscheinen, bieten eine beispiellose Stärke und Schläue.\n\n#weak $nomadic_philosophy_ender$#!"
+ trait_nomadic_philosophy_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip|U] wurde von Geburt an vom rauen Leben in der Steppe geformt. [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')|U]e Sitten, obschon sie den sanftmütigen sesshaften Menschen fremd erscheinen, bieten eine beispiellose Stärke und Schläue.\n\n#weak $nomadic_philosophy_ender$#!"
+ nomadic_philosophy_ender: "Ich gegen meine Brüder – meine Brüder und ich gegen meine Vettern – meine Brüder, meine Vettern und ich gegen die anderen Stämme – alle Stämme gegen die Welt."
+ trait_lifestyle_seasoned_pastor: "Erfahrener Viehhalter"
+ trait_lifestyle_seasoned_pastor_desc: "Dieser Charakter hat sich viel Fachwissen über die Viehzucht angeeignet und kann dafür sorgen, dass sein Vieh das Weideland bestmöglich nutzt."
+ trait_lifestyle_seasoned_pastor_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip|U] hat sich viel Fachwissen über die Viehzucht angeeignet und kann dafür sorgen, dass [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')] Vieh das Weideland bestmöglich nutzt."
+  
+ unlock_maa_steppe_raiders: "Kann [GetMaA('steppe_raiders').GetName] als [men_at_arms|E] rekrutieren"
+ unlock_maa_heavy_horse_archers: "Kann [GetMaA('heavy_horse_archers').GetName] als [men_at_arms|E] rekrutieren"
+ unlock_maa_nomad_lancers: "Kann [GetMaA('nomad_lancers').GetName] als [men_at_arms|E] rekrutieren"
+  
+ TRAIT_FLAG_DESC_gok_obedience_flag: "Sehr stark erhöhter @obedience_icon![obedience|E] bei [Concept('subject', 'Untertänigen')]"
+  
+ trait_golden_lineage: "Goldene Blutlinie"
+ trait_golden_lineage_desc: "Was die Blutlinie diese Charakters über die Welt brachte, ist unvergesslich. Er ist der goldene Abkömmling von Feuer und Eroberungswille."
+ trait_golden_lineage_character_desc: "Was die Blutlinie von [ROOT.GetCharacter.GetFirstNameNoTooltip] über die Welt brachte, ist unvergesslich. [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')|U] ist der goldene Abkömmling von Feuer und Eroberungswille."
+ descendants_gain_golden_lineage: "Eure Nachfahren erhalten „[GetTrait('golden_lineage').GetName(GetNullCharacter)|U]“"
+  
+  # TGP 
+ trait_track_confucian_education: "Konfuzianismus"
+ trait_track_confucian_education_desc: "Durch Enthaltsamkeit und Mildtätigkeit bauen wir gemeinsam eine bessere Gesellschaft.\n\n#weak Diese [trait|E] kann durch die [character_interaction|E] #V $request_mentoring_interaction$#! oder [court_position_tasks|E] der [court_positions|E] #V $grand_mentor_court_position$#! oder #V $court_tutor_court_position$#! Stufen aufsteigen"
+ trait_confucian_education_character_desc: "Dieser Charakter hat seine Reise auf dem Weg zum Dasein als Weiser gerade erst begonnen."
+ trait_confucian_education: "Konfuzianische Bildung"
+ trait_confucian_education_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat die eigene Reise auf dem Weg zum Dasein als weiser Mensch gerade erst begonnen."
+ trait_confucian_education_1: "Wirklicher Konfuzianer"
+ trait_confucian_education_1_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat einen Blick auf die ungeheure Weisheit der konfuzianischen Lebensart erhascht."
+ trait_confucian_education_2: "Gelehrter Kenner der Klassiker"
+ trait_confucian_education_2_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] wendet bescheiden die Lehren von Konfuziius auf das tägliche Leben an."
+ trait_confucian_education_3: "Tugendhafter Ethiker"
+ trait_confucian_education_3_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] begreift langsam, was es heißt, ein tugendhafter Konfuzianer zu sein."
+ trait_confucian_education_4: "Moralischer Leitstern"
+ trait_confucian_education_4_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] widmet sich dem Weg wie ein wahres Vorbild."
+ trait_confucian_education_5: "Makelloser Weiser"
+ trait_confucian_education_5_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] gilt in konfuzianischen Kreisen fast schon als Heiliger. Andere Konfuzianer in nah und fern haben von seinem moralischen und ethischen Können gehört."

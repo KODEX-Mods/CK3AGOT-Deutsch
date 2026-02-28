@@ -57,6 +57,11 @@
   #AGOT Modified 
  # learning_medicine.2010.trota.desc: "Trota of Salerno"
  learning_medicine.2010.trota.desc: "Prendros von Lys"
+ learning_medicine.2010.sun_simiao.desc: "Sun Simiao"
+ learning_medicine.2010.zhan_zhongjing.desc: "Zhang Zhongjing"
+ learning_medicine.2010.hua_tuo.desc: "Hua Tuo"
+ learning_medicine.2010.tamba_yasuyori.desc: "Tamba Yasuyori"
+ learning_medicine.2010.bianque.desc: "[Glossary('Bian Que', 'BIAN_QUE_GLOSS')]"
  learning_medicine.2010.fallback.desc: "eines Autopsieberichts"
  learning_medicine.2010.end.desc: "ist grauenhaft“, sagt [court_physician.Custom('DE_PRO_PER_S_3P_N')] mit einem Seufzen. „Wenn ich diesen Anweisungen folge, würde ich meinen Patienten wohl eher töten, als ihn zu heilen.“"
   
@@ -143,7 +148,7 @@
   #Helping healing hand (medicine friend), by Mathilda Bjarnehed 
  learning_medicine.2050.t: "Verbluten"
   #AGOT Modified 
- #learning_medicine.2050.start.desc: "I am inspecting the [Select_CString(IsLandlessAdventurer(ROOT.Char),'camps','barracks')] infirmary when a severely injured soldier is brought in. "[soldier.GetSheHe|U] is losing too much blood! Where is the physician?!"\n\n" #NT!
+ #learning_medicine.2050.start.desc: "I am inspecting the [Select_CString(IsLandlessAdventurer(ROOT.Char),'camps','barracks')] infirmary when a severely injured soldier is brought in. "[soldier.GetSheHe|U] is losing too much blood! Where is the physician?!"\n\n"
  learning_medicine.2050.start.desc: "Ich inspiziere gerade die Krankenstube der Kaserne, als ein schwer verletzter Soldat hereingebracht wird. „[soldier.Custom('DE_PRO_PER_S_3P_N')|U] verliert zu viel Blut! Wo ist der Arzt?!“\n\n"
  learning_medicine.2050.physician.desc: "[physician.GetTitledFirstName] ist unauffindbar."
  learning_medicine.2050.no_physician.desc: "Der Heiler ist unauffindbar."

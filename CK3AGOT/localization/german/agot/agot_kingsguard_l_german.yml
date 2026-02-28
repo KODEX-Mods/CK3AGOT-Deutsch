@@ -1,6 +1,7 @@
 ﻿l_german:
+  
+ kingsguard_lord_commander_male: "Lord Commander" #NT!
  kingsguard_lord_commander_flavor: "Lord Kommandant"
- kingsguard_lord_commander_flavors: "Lord Kommandant"
  kingsguard_lord_commander: "Lord Kommandant der Königsgarde"
  kingsguard_lord_commander_name: "$kingsguard_lord_commander$"
  kingsguard_lord_commander_tooltip: "$kingsguard_lord_commander$"
@@ -10,12 +11,9 @@
   
  KINGSGUARD: "[CHARACTER.Custom('KingsguardName')]"
   
-  
- Kingsguard_possesive: "[CHARACTER.Custom('KingsguardName')]'s"
-  
- #GUI 
+  # GUI 
  kingsguard: "Königsgarde"
- Kingsguard_possesive: "[CHARACTER.Custom('KingsguardName')]'s"
+ kingsguard_possessive: "Kingsguard's" #NT!
  kingsguard_1: "Königsgardist"
  kingsguard_2: "Königsgardist"
  kingsguard_3: "Königsgardist"
@@ -29,11 +27,11 @@
  kingsguard_5_possessive: "$Kingsguard_possesive$"
  kingsguard_6_possessive: "$Kingsguard_possesive$"
   
- KINGSGUARD_CLICK_TO_HIRE: "Interact with Characters \nto appoint a [ActiveCouncilTask.GetPositionName|E]" #NT!
+ KINGSGUARD_CLICK_TO_HIRE: "Interact with Characters \nto appoint a [ActiveCouncilTask.GetPositionName|E]"
   
- KINGSGUARD_TAB_BUTTON_TEXT: "Your [GetPlayer.Custom('KingsguardName')]" #NT!
+ KINGSGUARD_TAB_BUTTON_TEXT: "Your [GetPlayer.Custom('KingsguardName')]"
   
-  #Naming 
+  # Naming 
  kingsguard_name: "Königsgarde"
  queensguard_name: "Königinnengarde"
   
@@ -48,9 +46,9 @@
  kingsguard_oathbreaker_desc: "Dieser Charakter hat den heiligen Eid gebrochen und die Königsgarde verraten."
   
  kingsguard_protection: "[councillor.GetModifierDescForTask('kingsguard_default_1')]"
- task_kingsguard_bodyguard_effect_desc: "[Select_CString(councillor.GetRelationOfType(GetRelation('bodyguard_target')).IsValid, councillor.GetRelationOfType(GetRelation('bodyguard_target')).GetUIName, 'Guarded dynasty member')] gets [GetModifier('kingsguard_bodyguard').GetNameWithTooltip]" #NT!
+ task_kingsguard_bodyguard_effect_desc: "[Select_CString(councillor.GetRelationOfType(GetRelation('bodyguard_target')).IsValid, councillor.GetRelationOfType(GetRelation('bodyguard_target')).GetUIName, 'Guarded dynasty member')] gets [GetModifier('kingsguard_bodyguard').GetNameWithTooltip]"
   
- valid_kingsguard_bodyguard_court: "There are no unguarded members of your dynasty in this court." #NT!
+ valid_kingsguard_bodyguard_court: "There are no unguarded members of your dynasty in this court."
   
  kingsguard_bodyguard: "Leibwächter"
  kingsguard_bodyguard_desc: "Dieser Charakter wird von einem Mitglied der Königsgarde bewacht"

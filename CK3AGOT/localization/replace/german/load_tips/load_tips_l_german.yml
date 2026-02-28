@@ -70,7 +70,7 @@
  LOADING_TIP_67: "#T 'Sie starben an dem Tag, als wir marschierten, Junge.' - Lord Cregan Stark an den Blutigen Ben Schwarzhain"
  LOADING_TIP_68: "#T 'In diesem Punkt sind wir uns einig.'"
  LOADING_TIP_69: "#T 'Ihr habt nur ein Auge verloren, wie könnt ihr so blind sein?' - Ser Otto Hohenturm zu Prinz Aemond Targaryen"
- LOADING_TIP_70: "#TT Maybe I never saw a camel, but I know a camel’s cunt when I smell one." #NT!
+ LOADING_TIP_70: "#TT Maybe I never saw a camel, but I know a camel’s cunt when I smell one."
  LOADING_TIP_71: "#T 'Scheiß auf die Königswache. Scheiß auf die Stadt. Scheiß auf den König.'"
  LOADING_TIP_72: "#T 'Dann schlug ich ihren verdammten Kopf ein. Genau so.'"
  LOADING_TIP_73: "#T 'Ohne Frage? Nein. Ich würde fragen, wie viel.' - Ser Bronn vom Schwarzwasser"
@@ -138,10 +138,12 @@
  LOADING_TIP_135: "#T $game_concept_stationed_regiment$#!\n\n$game_concept_stationed_regiment_desc$"
  LOADING_TIP_136: "#T $game_concept_activity$#!\n\n$game_concept_activity_desc$"
  LOADING_TIP_137: "#T $game_concept_economical_archetype$#!\n\n$game_concept_economical_archetype_desc$"
- LOADING_TIP_138: "#TT It was not for murder that the gods cursed him, nor for serving the Andal king his son in a pie. A man has a right to vengeance. But he slew a guest beneath his roof, and that the gods cannot forgive." #NT!
- LOADING_TIP_139: "#TT Aegon ‘the Dragon’ and his sisters conquered the Seven Kingdoms, but it was Jaehaerys ‘the Conciliator’ who truly made them one." #NT!
- LOADING_TIP_140: "#TT Where are you going? You’re my cupbearer, remember?" #NT!
-   #AGOT End 
+ LOADING_TIP_138: "#TT It was not for murder that the gods cursed him, nor for serving the Andal king his son in a pie. A man has a right to vengeance. But he slew a guest beneath his roof, and that the gods cannot forgive."
+ LOADING_TIP_139: "#TT Aegon ‘the Dragon’ and his sisters conquered the Seven Kingdoms, but it was Jaehaerys ‘the Conciliator’ who truly made them one."
+ LOADING_TIP_140: "#TT Where are you going? You’re my cupbearer, remember?"
+ LOADING_TIP_141: "#TT How many eyes does Bloodraven have? A thousand eyes, and one." #NT!
+  #AGOT End 
+  
  #LOADING_TIP_0: "Auf Charakterporträts rechtsklicken, um mit ihnen zu interagieren!"
  #LOADING_TIP_1: "Ihr könnt den Mauszeiger über Symbole und hervorgehobenen Text in Tooltips bewegen, um noch mehr Informationen zu erhalten!"
  #LOADING_TIP_2: "Illegitime Bastarde können Eure Dynastie nicht weiterführen."

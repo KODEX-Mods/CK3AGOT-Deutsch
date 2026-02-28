@@ -1,0 +1,156 @@
+﻿l_german:
+  #NOTE: follows the order of dynasties in the \common\dynasties\ files 
+  ### PREFIXES ### 
+ dynnp_of_the: "von "
+  
+  ### WILDLINGS DYNASTIES/CADET BRANCHES ### 
+  #Canon 
+ dynn_Rayder: "Reuber"
+ dynn_Ruddy_Hall: "Rothall"
+ dynn_Skirling_Pass: "Klagendpass"
+ dynn_Crasters_Keep: "Crasterfried"
+ dynn_Sygerrik: "Sygerrik"
+ house_Kingsblood: "Königsblut"
+ dynn_Wooden_Ear: "Holzohr"
+ dynn_Redbeard: "Rotbart"
+ dynn_Keep: "Fryd"
+ dynn_Thenn: "Thenn"
+ house_Thenn: "Thenn" #NT!
+ dynn_Bonespike: "Bonespike" #NT!
+ dynn_Bearkin: "Bearkin" #NT!
+  
+  #Placeholder Dynasties for Canon Wildling Chieftans 
+ dynn_Shivers: "Schaudern"
+ dynn_Boarhell: "Eberhöll"
+ dynn_Warriormane: "Kriegermähne"
+ dynn_Mossfoot: "Moosfuhs"
+ dynn_Whitemask: "Weißmaske"
+ dynn_Frostfang: "Frostfang"
+ dynn_Iceguard: "Eiswacht"
+ dynn_Forester: "Forrstmann"
+ dynn_Frostbite: "Frostbiss"
+ dynn_Palefist: "Bleychfaust"
+ dynn_Axebar: "Axtknauff"
+ dynn_Torgrand: "Torgrant"
+ dynn_Skullsmorn: "Schädelmorn"
+  
+  #Dynasties for Placeholder Wildlings 
+ dynn_Thanskull: "Thanschädel"
+ dynn_Wanderer: "Wanderer"
+ dynn_Crowhunter: "Krähentöter"
+ dynn_Bloodfang: "Blutzahn"
+ dynn_Hallowbluff: "Steylwand"
+ dynn_Whitehunt: "Weisshatz"
+ dynn_Heartwhisper: "Herzwispern"
+ dynn_Hardhunter: "Hartjäger"
+ dynn_Stonemorn: "Steynmorgen"
+ dynn_Greensky: "Grünhimmel"
+ dynn_Blackwolf: "Schwarzwolf"
+ dynn_Thanrage: "Thanenzorn"
+ dynn_Lacrion: "Lacrion"
+ dynn_Deglor: "Deglor"
+ dynn_Hornfoot: "Hornfuß"
+ dynn_Clanbreaker: "Stammesbrecher"
+ dynn_Riverblood: "Flussblut"
+ dynn_Nightrunner: "Nachtläufer"
+ dynn_Varrag: "Varrag" #NT!
+ dynn_Sril: "Sril" #NT!
+ dynn_Crettag: "Crettag" #NT!
+ dynn_Vardok: "Vardok" #NT!
+ dynn_Covehold: "Covehold" #NT!
+  
+  #Randomly Generated Wildling Dynasties 
+ dynn_Boarshaper: "Eberschnytz"
+ dynn_Bridgeshield: "Bruckschild"
+ dynn_Skullarm: "Schädelglied"
+ dynn_Sealcut: "Robbenschnitt"
+ dynn_Crowbane: "Krähenbann"
+ dynn_Freeskull: "Freyschädel"
+ dynn_Egelbone: "Egelbein"
+ dynn_Shieldblood: "Schildbluth"
+ dynn_Varabane: "Varabann"
+ dynn_Sternhell: "Sternhell"
+ dynn_Spearwarrior: "Speerkrieger"
+ dynn_Skywillow: "Himmelsweid"
+ dynn_Manwatcher: "Mannenwacht"
+ dynn_Redtree: "Rotbaum"
+ dynn_Bloodmember: "Blutling"
+ dynn_Weirbar: "Wehrholzbalk"
+ dynn_Wolfkiller: "Wolfstöter"
+ dynn_Songmask: "Liedermaske"
+ dynn_Woodsmane: "Waldmähne"
+ dynn_Goreshield: "Heymschild"
+ dynn_Warriorkin: "Kriegerhaut"
+ dynn_Woodskinner: "Holzhäuter"
+ dynn_Songwarrior: "Singkrieger"
+ dynn_Burningboar: "Brannteber"
+ dynn_Wolfmember: "Wolfling"
+ dynn_Starwhisper: "Sternflüstern"
+ dynn_Shadeface: "Schattenblyck"
+ dynn_Sternsun: "Sonnstern"
+ dynn_Oldhorn: "Althorn"
+ dynn_Greenchief: "Grünhaupt"
+ dynn_Redbone: "Rotbein"
+ dynn_Sealtamer: "Robbenbändiger"
+ dynn_Pikehead: "Fischkopf"
+ dynn_Whitekiller: "Weißtöter"
+ dynn_Axehunt: "Axtjagd"
+ dynn_Bloodconn: "Blutkonn"
+ dynn_Skytree: "Himmelbaum"
+ dynn_Boarhunter: "Eberjäger"
+ dynn_Icerage: "Eiszorn"
+ dynn_Heartcut: "Herzschnitt"
+ dynn_Blackgaze: "Schwarzblick"
+ dynn_Marawatcher: "Marrwächter"
+ dynn_Hallowclaw: "Heiligenkrall"
+ dynn_Weirspear: "Wehrspeer"
+ dynn_Lockmask: "Sperrmask"
+ dynn_Flintwood: "Feuersteinnhain"
+ dynn_Drynmane: "Trockenmähne"
+ dynn_Thannkin: "Thanenkinn"
+ dynn_Torbow: "Torbogen"
+ dynn_Highwolf: "Hochwolf"
+  
+  #Randomly Generated Thenn Dynasties 
+ dynn_Rhenn: "Rhenn"
+ dynn_Stynn: "Stynn"
+ dynn_Vartt: "Vartt"
+ dynn_Celrnn: "Celrnn"
+ dynn_Mreinn: "Mreinn"
+ dynn_Riird: "Riird"
+ dynn_Tiind: "Tiind"
+ dynn_Siild: "Siild"
+ dynn_Eemr: "Eemr"
+ dynn_Aarlk: "Aarlk"
+  
+  #Randomly Generated Frozen Shore Dynasties 
+ dynn_Ibarg: "Ibarg"
+ dynn_Latag: "Latag"
+ dynn_Frebgi: "Frebgi"
+ dynn_Mubroch: "Mubroch"
+ dynn_Slumnir: "Slumnir"
+ dynn_Mibgan: "Mibgan"
+ dynn_Nokrus: "Nokrus"
+ dynn_Variok: "Variok"
+ dynn_Drufum: "Drufum"
+ dynn_Trasak: "Trasak"
+ dynn_Jalog: "Jalog"
+ dynn_Redsog: "Redsog"
+ dynn_Oskus: "Oskus"
+ dynn_Lemgar: "Lemgar"
+ dynn_Crewdyr: "Crewdyr"
+ dynn_Hukal: "Hukal"
+ dynn_Vaom: "Vaom"
+ dynn_Gladwor: "Gladwor"
+ dynn_Ukor: "Ukor"
+ dynn_Tringi: "Tringi"
+ dynn_Varok: "Varok"
+  
+  #Giants 
+ dynn_Mar_Tun_Doh_Weg: "Mar Tun Doh Weg"
+ dynn_Weg_Wun_Dar_Wun: "Weg Wun Dar Wun"
+  
+  #Others 
+ dynn_White_Walker: "Weißer Wanderer"
+  
+  #Children of the Forest 

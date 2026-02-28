@@ -1,0 +1,72 @@
+﻿l_german:
+  
+  # LOOK INTO THE FLAMES MODIFIERS 
+ flames_visions_of_conquest: "Visions of Conquest"
+ flames_visions_of_conquest_desc: "This character believes great victories await in battle."
+  
+ flames_visions_of_reconciliation: "Visions of Reconciliation"
+ flames_visions_of_reconciliation_desc: "This character has chosen to steer away from strife."
+  
+ flames_visions_friendship: "Visions of Friendship"
+ flames_visions_friendship_desc: "This character is dedicated to forging new friendships and alliances."
+  
+ flames_visions_ominous_visions: "Ominous Visions"
+ flames_visions_ominous_visions_desc: "Strange visions have led this character to believe danger lurks around the corner."
+  
+ flames_visions_studying_prophecies: "Studying Prophecies"
+ flames_visions_studying_prophecies_desc: "Visions witnessed within the flames have steered this character onto a spiritual path in hopes to grasp their meaning."
+  
+ flames_visions_studying_scriptures: "Studying Ancient Texts"
+ flames_visions_studying_scriptures_desc: "Visions witnessed within the flames have led this character to study their nature through ancient texts."
+  
+ flames_visions_fortune: "Visions of Fortune"
+ flames_visions_fortune_desc: "This character is certain their hard work will pay off eventually."
+  
+ flames_visions_glimpse_of_past: "Visions of the Past"
+ flames_visions_glimpse_of_past_desc: "This character has become enthralled by empires long gone and their histories."
+  
+ flames_visions_lurking_dangers: "Visions of Betrayal"
+ flames_visions_lurking_dangers_desc: "This character has recently become more vigilant."
+  
+ flames_visions_hostile_schemes: "Visions of Deceit"
+ flames_visions_hostile_schemes_desc: "This character believes to have foreseen their successful machinations."
+  
+ flames_visions_falsehoods_revealed: "Falsehoods Revealed"
+ flames_visions_falsehoods_revealed_desc: "Strage visions guide this character through the perils lurking in the dark."
+  
+ burned_commoners: "Outraged by Sacrificial Burnings"
+ burned_commoners_desc: "The smallfolk in this county is outraged by sacrificial burnings conducted by the ruler of these lands."
+  
+ blood_drained_malus_small_modifier: "Small Blood Lossage"
+ blood_drained_malus_moderate_modifier_desc: "This character's blood has been deliberately drained."
+ blood_drained_malus_large_modifier: "Large Blood Lossage"
+ blood_drained_malus_small_modifier_desc: "$blood_drained_malus_moderate_modifier_desc$"
+ blood_drained_malus_moderate_modifier: "Moderate Blood Lossage"
+ blood_drained_malus_large_modifier_desc: "$blood_drained_malus_moderate_modifier_desc$"
+  
+ mediocre_trade_deal_modifier: "Mediocre Trade Deal"
+ mediocre_trade_deal_modifier_desc: "This county has been provided with a modest return from a recent trade deal, with small benefits and common goods exchanged."
+ decent_trade_deal_modifier: "Decent Trade Deal"
+ decent_trade_deal_modifier_desc: "This county has seen steady growth from a recent trade deal, with reliable but ordinary goods exchanged."
+ satisfactory_trade_deal_modifier: "Satisfactory Trade Deal"
+ satisfactory_trade_deal_modifier_desc: "This county has experienced consistent improvements due to a recent trade deal, with a healthy flow of valuable goods."
+ impressive_trade_deal_modifier: "Impressive Trade Deal"
+ impressive_trade_deal_modifier_desc: "This county has reaped considerable rewards from a recent trade deal, with valuable goods exchanged."
+ flourishing_trade_deal_modifier: "Flourishing Trade Deal"
+ flourishing_trade_deal_modifier_desc: "This county has been brought significant prosperity from a recent tradae deal, with rare goods exchanged and thriving foreign trade."
+  
+ blasphemous_sacrifice_1_modifier: "Blasphemous Sacrifice I"
+ blasphemous_sacrifice_2_modifier: "Blasphemous Sacrifice II"
+ blasphemous_sacrifice_3_modifier: "Blasphemous Sacrifice III"
+ blasphemous_sacrifice_4_modifier: "Blasphemous Sacrifice IV"
+ blasphemous_sacrifice_5_modifier: "Blasphemous Sacrifice V"
+ blasphemous_sacrifice_6_modifier: "Blasphemous Sacrifice VI"
+ blasphemous_sacrifice_7_modifier: "Blasphemous Sacrifice VII"
+ blasphemous_sacrifice_8_modifier: "Blasphemous Sacrifice VIII"
+ blasphemous_sacrifice_9_modifier: "Blasphemous Sacrifice IX"
+ blasphemous_sacrifice_10_modifier: "Blasphemous Sacrifice X"
+  
+ holy_bonds_broke_truce_modifier: "Broke Unholy Truce"
+  
+ shade_of_the_evening: "Shade of the Evening" #NT!
+ shade_of_the_evening_desc: "This character regularly drinks shade of the evening, staining their lips blue." #NT!

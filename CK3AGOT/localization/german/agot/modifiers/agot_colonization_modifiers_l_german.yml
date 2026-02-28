@@ -1,0 +1,31 @@
+﻿l_german:
+  
+ holding_one_settlements: "[ongoing_colonies|E]" #NT!
+ holding_two_settlements: "[ongoing_colonies|E]" #NT!
+ holding_three_settlements: "[ongoing_colonies|E]" #NT!
+ holding_four_settlements: "[ongoing_colonies|E]" #NT!
+ holding_five_settlements: "[ongoing_colonies|E]" #NT!
+ holding_more_than_five_settlements: "[ongoing_colonies|E]" #NT!
+  
+ block_settlement_ability: "This land cannot be colonized" #NT!
+  
+ bear_on_shrooms_loose: "Shroomed Bear" #NT!
+ bear_on_shrooms_loose_desc: "A bear high on some of the local produce is terrorizing this county." #NT!
+  
+ pet_bear_modifier: "Pet Bear" #NT!
+ pet_bear_modifier_desc: "This character keeps a bear as a pet that they have raised from a cub." #NT!
+  
+ fostered_hunt_clubs: "Wolf-Hunting Fostered" #NT!
+ fostered_hunt_clubs_desc: "Wolf-hunting was fostered in this province." #NT!
+  
+ uncontrolled_hunting: "Uncontrolled Wolf-Hunting" #NT!
+ uncontrolled_hunting_desc: "Wolf-hunting got out of control in this province during its settlement." #NT!
+  
+ fostered_wolf_hunting: "Wolf-Hunter Fosterer" #NT!
+ fostered_wolf_hunting_desc: "This character fosters hunts for wolves." #NT!
+  
+ enlisted_bandits_province_modifier: "Enlisted Bandits" #NT!
+ enlisted_bandits_province_modifier_desc: "This province has enlisted bandits into its ranks to bolster its defensive capabilities." #NT!
+  
+ agot_sacked_by_pirates_modifier: "Sacked by Pirates" #NT!
+ agot_sacked_by_pirates_modifier_desc: "This county has recently been plundered by pirates, leaving its stores depleted and disrupting trade." #NT!

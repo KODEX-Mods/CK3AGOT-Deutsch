@@ -46,8 +46,8 @@
  commission_epic.0001.b: "Ich werde meine besten [ROOT.Char.Custom('CommissionEpicScribes')] versammeln."
  scribes_write_epic: "Meine Schreiber verfassen das Epos"
   #AGOT Modified, vanilla fix 
- # bards_write_epic: "My scribes compose the epic" #NT!
- bards_write_epic: "My bards compose the epic" #NT!
+ # bards_write_epic: "My scribes compose the epic"
+ bards_write_epic: "My bards compose the epic"
  commission_epic.0001.c: "Sicherlich tut ein niederer Diener es doch auch?"
  servant_writes_epic: "Diener[servant.Custom('DE_END_NOU_S_GS_N')] [servant.GetTitledFirstName] verfasst das Epos"
  commission_epic.0001.d: "Wenn ich es mir genauer überlege …"
@@ -168,8 +168,8 @@
   
  commission_epic.2006.t: "Familienepos: Im Glauben gebunden"
   #AGOT Modified 
- #commission_epic.2006.desc: "I do not know whether to be relieved or disconcerted about the enthusiasm my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_chaplain'))], [court_chaplain.GetTitledFirstName], shows after [ROOT.Char.Custom('CompositionTypeActionPP')] the completed parts of my family epic.\n\n"This is a telling of a wonderful moral!" [court_chaplain.GetSheHe] claims. "The [ROOT.Char.GetDynasty.GetBaseName] dynasty has always seen greatness when advised by clerics, and dark times when it has failed to heed that advice! I hope it is a lesson you will heed equally well."" #NT!
- commission_epic.2006.desc: "I do not know whether to be relieved or disconcerted about the enthusiasm my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_chaplain'))], [court_chaplain.GetFirstNameNicknamed], shows after [ROOT.Char.Custom('CompositionTypeActionPP')] the completed parts of my family epic.\n\n"This is a telling of a wonderful moral!" [court_chaplain.GetSheHe] claims. "The [ROOT.Char.GetDynasty.GetBaseName] dynasty has always seen greatness when advised by clerics, and dark times when it has failed to heed that advice! I hope it is a lesson you will heed equally well."" #NT!
+ #commission_epic.2006.desc: "I do not know whether to be relieved or disconcerted about the enthusiasm my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_chaplain'))], [court_chaplain.GetTitledFirstName], shows after [ROOT.Char.Custom('CompositionTypeActionPP')] the completed parts of my family epic.\n\n"This is a telling of a wonderful moral!" [court_chaplain.GetSheHe] claims. "The [ROOT.Char.GetDynasty.GetBaseName] dynasty has always seen greatness when advised by clerics, and dark times when it has failed to heed that advice! I hope it is a lesson you will heed equally well.""
+ commission_epic.2006.desc: "I do not know whether to be relieved or disconcerted about the enthusiasm my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_chaplain'))], [court_chaplain.GetFirstNameNicknamed], shows after [ROOT.Char.Custom('CompositionTypeActionPP')] the completed parts of my family epic.\n\n"This is a telling of a wonderful moral!" [court_chaplain.GetSheHe] claims. "The [ROOT.Char.GetDynasty.GetBaseName] dynasty has always seen greatness when advised by clerics, and dark times when it has failed to heed that advice! I hope it is a lesson you will heed equally well.""
  commission_epic.2006.a: "In der Tat. Das weiß ich nur zu gut."
  commission_epic.2006.a.tt: "Beim Abschluss erhaltet Ihr ein Familienepos-Buch-[artifact|E], das die [piety|E] und die Steuer für denselben [Concept('faith', 'Glauben')|E] verbessert"
  commission_epic.2006.b: "Ha! Es ist genau andersherum."

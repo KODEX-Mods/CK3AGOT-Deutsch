@@ -1,33 +1,35 @@
 ﻿l_german:
- COA_DESIGNER_CATEGORY_agotheraldrymisc: "AGOT Verschiedenes"
- COA_DESIGNER_CATEGORY_agotdefinedheraldrymisc: "AGOT Verschiedenes"
+  #Marked for Review 
   
- COA_DESIGNER_CATEGORY_agotheraldrycrownlands: "AGOT Kronlande"
- COA_DESIGNER_CATEGORY_agotdefinedheraldrycrownlands: "AGOT Kronlande"
+ COA_DESIGNER_CATEGORY__agotheraldrymisc: "AGOT Miscellaneous Heraldry" #NT!
+ COA_DESIGNER_CATEGORY__agotdefinedheraldrymisc: "AGOT Miscellaneous Heraldry" #NT!
   
- COA_DESIGNER_CATEGORY_agotheraldrydorne: "AGOT Dorne"
- COA_DESIGNER_CATEGORY_agotdefinedheraldrydorne: "AGOT Dorne"
+ COA_DESIGNER_CATEGORY__agotheraldrycrownlands: "AGOT Crownlands Heraldry" #NT!
+ COA_DESIGNER_CATEGORY__agotdefinedheraldrycrownlands: "AGOT Crownlands Heraldry" #NT!
   
- COA_DESIGNER_CATEGORY_agotheraldryironisles: "AGOT Eiseninseln"
- COA_DESIGNER_CATEGORY_agotdefinedheraldryironisles: "AGOT Eiseninseln"
+ COA_DESIGNER_CATEGORY__agotheraldrydorne: "AGOT Dorne Heraldry" #NT!
+ COA_DESIGNER_CATEGORY__agotdefinedheraldrydorne: "AGOT Dorne Heraldry" #NT!
   
- COA_DESIGNER_CATEGORY_agotheraldrynorth: "AGOT Norden"
- COA_DESIGNER_CATEGORY_agotdefinedheraldrynorth: "AGOT Norden"
+ COA_DESIGNER_CATEGORY__agotheraldryironisles: "AGOT Iron Isles Heraldry" #NT!
+ COA_DESIGNER_CATEGORY__agotdefinedheraldryironisles: "AGOT Iron Isles Heraldry" #NT!
   
- COA_DESIGNER_CATEGORY_agotheraldryreach: "AGOT Weite"
- COA_DESIGNER_CATEGORY_agotdefinedheraldryreach: "AGOT Weite"
+ COA_DESIGNER_CATEGORY__agotheraldrynorth: "AGOT North Heraldry" #NT!
+ COA_DESIGNER_CATEGORY__agotdefinedheraldrynorth: "AGOT North Heraldry" #NT!
   
- COA_DESIGNER_CATEGORY_agotheraldryriverlands: "AGOT Flusslande"
- COA_DESIGNER_CATEGORY_agotdefinedheraldryriverlands: "AGOT Flusslande"
+ COA_DESIGNER_CATEGORY__agotheraldryreach: "AGOT Reach Heraldry" #NT!
+ COA_DESIGNER_CATEGORY__agotdefinedheraldryreach: "AGOT Reach Heraldry" #NT!
   
- COA_DESIGNER_CATEGORY_agotheraldrystormlands: "AGOT Sturmlande"
- COA_DESIGNER_CATEGORY_agotdefinedheraldrystormlands: "AGOT Sturmlande"
+ COA_DESIGNER_CATEGORY__agotheraldryriverlands: "AGOT Riverlands Heraldry" #NT!
+ COA_DESIGNER_CATEGORY__agotdefinedheraldryriverlands: "AGOT Riverlands Heraldry" #NT!
   
- COA_DESIGNER_CATEGORY_agotheraldryvale: "AGOT Grünes Tal"
- COA_DESIGNER_CATEGORY_agotdefinedheraldryvale: "AGOT Grünes Tal"
+ COA_DESIGNER_CATEGORY__agotheraldrystormlands: "AGOT Stormlands Heraldry" #NT!
+ COA_DESIGNER_CATEGORY__agotdefinedheraldrystormlands: "AGOT Stormlands Heraldry" #NT!
   
- COA_DESIGNER_CATEGORY_agotheraldrywesterlands: "AGOT Westlande"
- COA_DESIGNER_CATEGORY_agotdefinedheraldrywesterlands: "AGOT Westlande"
+ COA_DESIGNER_CATEGORY__agotheraldryvale: "AGOT Vale Heraldry" #NT!
+ COA_DESIGNER_CATEGORY__agotdefinedheraldryvale: "AGOT Vale Heraldry" #NT!
   
- COA_DESIGNER_CATEGORY_agotheraldryessos: "AGOT Essos Heraldry" #NT!
- COA_DESIGNER_CATEGORY_agotheraldrypirates: "AGOT Pirates Heraldry" #NT!
+ COA_DESIGNER_CATEGORY__agotheraldrywesterlands: "AGOT Westerlands Heraldry" #NT!
+ COA_DESIGNER_CATEGORY__agotdefinedheraldrywesterlands: "AGOT Westerlands Heraldry" #NT!
+  
+ COA_DESIGNER_CATEGORY__agotheraldryessos: "AGOT Essos Heraldry" #NT!
+ COA_DESIGNER_CATEGORY__agotheraldrypirates: "AGOT Pirates Heraldry" #NT!

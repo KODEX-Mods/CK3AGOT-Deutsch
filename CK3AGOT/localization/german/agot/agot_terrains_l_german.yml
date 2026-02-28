@@ -6,7 +6,8 @@
  highlands: "Hochland"
  cloudforest: "Nebelwald"
  taiga_bog: "Taiga-Moor"
- farmlands: "Weideland"
+  #Modified in Vanilla file 
+ #farmlands: "Meadows" #NT!
  the_bog: "Das Moor"
  majorroad_plains: "Ebenen (Hauptstraße)"
  majorroad_farmlands: "Weideland (Hauptstraße)"
@@ -22,14 +23,14 @@
  majorroad_steppe: "Steppe (Hauptstraße)"
  majorroad_floodplains: "Auen (Hauptstraße)"
  majorroad_drylands: "Trockengebiete (Hauptstraße)"
- majorroad_urban: "Urban (Major Road)" #NT!
- majorroad_frozen_flats: "Frozen Flats (Major Road)" #NT!
- majorroad_glacier: "Glacier (Major Road)" #NT!
- majorroad_canyon: "Canyon (Major Road)" #NT!
- majorroad_highlands: "Highlands (Major Road)" #NT!
- majorroad_cloudforest: "Cloud Forest (Major Road)" #NT!
- majorroad_taiga_bog: "Taiga Bog (Major Road)" #NT!
- majorroad_the_bog: "The Bog (Major Road)" #NT!
+ majorroad_urban: "Urban (Major Road)"
+ majorroad_frozen_flats: "Frozen Flats (Major Road)"
+ majorroad_glacier: "Glacier (Major Road)"
+ majorroad_canyon: "Canyon (Major Road)"
+ majorroad_highlands: "Highlands (Major Road)"
+ majorroad_cloudforest: "Cloud Forest (Major Road)"
+ majorroad_taiga_bog: "Taiga Bog (Major Road)"
+ majorroad_the_bog: "The Bog (Major Road)"
  minorroad_plains: "Ebenen (Nebenstraße)"
  minorroad_farmlands: "Weideland (Nebenstraße)"
  minorroad_hills: "Hügel (Nebenstraße)"
@@ -44,66 +45,66 @@
  minorroad_steppe: "Steppe (Nebenstraße)"
  minorroad_floodplains: "Auen (Nebenstraße)"
  minorroad_drylands: "Trockengebiete (Nebenstraße)"
- minorroad_urban: "Urban (Minor Road)" #NT!
- minorroad_frozen_flats: "Frozen Flats (Minor Road)" #NT!
- minorroad_glacier: "Glacier (Minor Road)" #NT!
- minorroad_canyon: "Canyon (Minor Road)" #NT!
- minorroad_highlands: "Highlands (Minor Road)" #NT!
- minorroad_cloudforest: "Cloud Forest (Minor Road)" #NT!
- minorroad_taiga_bog: "Taiga Bog (Minor Road)" #NT!
- minorroad_the_bog: "The Bog (Minor Road)" #NT!
+ minorroad_urban: "Urban (Minor Road)"
+ minorroad_frozen_flats: "Frozen Flats (Minor Road)"
+ minorroad_glacier: "Glacier (Minor Road)"
+ minorroad_canyon: "Canyon (Minor Road)"
+ minorroad_highlands: "Highlands (Minor Road)"
+ minorroad_cloudforest: "Cloud Forest (Minor Road)"
+ minorroad_taiga_bog: "Taiga Bog (Minor Road)"
+ minorroad_the_bog: "The Bog (Minor Road)"
   
   # Combat Modifiers 
  combat_urban: "Verteidigen in einer Stadt"
- combat_frozen_flats: "Defending in Frozen Flats" #NT!
- combat_glacier: "Defending in Glacier" #NT!
- combat_canyon: "Defending in Canyon" #NT!
- combat_highlands: "Defending in Highlands" #NT!
- combat_cloudforest: "Defending in Cloud Forest" #NT!
- combat_taiga_bog: "Defending in Taiga Bog" #NT!
- combat_farmlands: "Defending in Meadows" #NT!
- combat_the_bog: "Defending in The Bog" #NT!
- combat_majorroad_plains: "Defending in Plains" #NT!
- combat_majorroad_farmlands: "Defending in Meadows" #NT!
- combat_majorroad_hills: "Defending in Hills" #NT!
- combat_majorroad_mountains: "Defending in Mountains" #NT!
- combat_majorroad_desert: "Defending in Desert" #NT!
- combat_majorroad_desert_mountains: "Defending in Desert Mountains" #NT!
- combat_majorroad_oasis: "Defending in Oasis" #NT!
- combat_majorroad_jungle: "Defending in Jungle" #NT!
- combat_majorroad_forest: "Defending in Forest" #NT!
- combat_majorroad_taiga: "Defending in Taiga" #NT!
- combat_majorroad_wetlands: "Defending in Wetlands" #NT!
- combat_majorroad_steppe: "Defending in Steppe" #NT!
- combat_majorroad_floodplains: "Defending in Floodplains" #NT!
- combat_majorroad_drylands: "Defending in Drylands" #NT!
- combat_majorroad_urban: "Defending in Urban" #NT!
- combat_majorroad_frozen_flats: "Defending in Frozen Flats" #NT!
- combat_majorroad_glacier: "Defending in Glacier" #NT!
- combat_majorroad_canyon: "Defending in Canyon" #NT!
- combat_majorroad_highlands: "Defending in Highlands" #NT!
- combat_majorroad_cloudforest: "Defending in Cloud Forest" #NT!
- combat_majorroad_taiga_bog: "Defending in Taiga Bog" #NT!
- combat_majorroad_the_bog: "Defending in The Bog" #NT!
- combat_minorroad_plains: "Defending in Plains" #NT!
- combat_minorroad_farmlands: "Defending in Meadows" #NT!
- combat_minorroad_hills: "Defending in Hills" #NT!
- combat_minorroad_mountains: "Defending in Mountains" #NT!
- combat_minorroad_desert: "Defending in Desert" #NT!
- combat_minorroad_desert_mountains: "Defending in Desert Mountains" #NT!
- combat_minorroad_oasis: "Defending in Oasis" #NT!
- combat_minorroad_jungle: "Defending in Jungle" #NT!
- combat_minorroad_forest: "Defending in Forest" #NT!
- combat_minorroad_taiga: "Defending in Taiga" #NT!
- combat_minorroad_wetlands: "Defending in Wetlands" #NT!
- combat_minorroad_steppe: "Defending in Steppe" #NT!
- combat_minorroad_floodplains: "Defending in Floodplains" #NT!
- combat_minorroad_drylands: "Defending in Drylands" #NT!
- combat_minorroad_urban: "Defending in Urban" #NT!
- combat_minorroad_frozen_flats: "Defending in Frozen Flats" #NT!
- combat_minorroad_glacier: "Defending in Glacier" #NT!
- combat_minorroad_canyon: "Defending in Canyon" #NT!
- combat_minorroad_highlands: "Defending in Highlands" #NT!
- combat_minorroad_cloudforest: "Defending in Cloud Forest" #NT!
- combat_minorroad_taiga_bog: "Defending in Taiga Bog" #NT!
- combat_minorroad_the_bog: "Defending in The Bog" #NT!
+ combat_frozen_flats: "Defending in Frozen Flats"
+ combat_glacier: "Defending in Glacier"
+ combat_canyon: "Defending in Canyon"
+ combat_highlands: "Defending in Highlands"
+ combat_cloudforest: "Defending in Cloud Forest"
+ combat_taiga_bog: "Defending in Taiga Bog"
+ combat_farmlands: "Defending in Meadows"
+ combat_the_bog: "Defending in The Bog"
+ combat_majorroad_plains: "Defending in Plains"
+ combat_majorroad_farmlands: "Defending in Meadows"
+ combat_majorroad_hills: "Defending in Hills"
+ combat_majorroad_mountains: "Defending in Mountains"
+ combat_majorroad_desert: "Defending in Desert"
+ combat_majorroad_desert_mountains: "Defending in Desert Mountains"
+ combat_majorroad_oasis: "Defending in Oasis"
+ combat_majorroad_jungle: "Defending in Jungle"
+ combat_majorroad_forest: "Defending in Forest"
+ combat_majorroad_taiga: "Defending in Taiga"
+ combat_majorroad_wetlands: "Defending in Wetlands"
+ combat_majorroad_steppe: "Defending in Steppe"
+ combat_majorroad_floodplains: "Defending in Floodplains"
+ combat_majorroad_drylands: "Defending in Drylands"
+ combat_majorroad_urban: "Defending in Urban"
+ combat_majorroad_frozen_flats: "Defending in Frozen Flats"
+ combat_majorroad_glacier: "Defending in Glacier"
+ combat_majorroad_canyon: "Defending in Canyon"
+ combat_majorroad_highlands: "Defending in Highlands"
+ combat_majorroad_cloudforest: "Defending in Cloud Forest"
+ combat_majorroad_taiga_bog: "Defending in Taiga Bog"
+ combat_majorroad_the_bog: "Defending in The Bog"
+ combat_minorroad_plains: "Defending in Plains"
+ combat_minorroad_farmlands: "Defending in Meadows"
+ combat_minorroad_hills: "Defending in Hills"
+ combat_minorroad_mountains: "Defending in Mountains"
+ combat_minorroad_desert: "Defending in Desert"
+ combat_minorroad_desert_mountains: "Defending in Desert Mountains"
+ combat_minorroad_oasis: "Defending in Oasis"
+ combat_minorroad_jungle: "Defending in Jungle"
+ combat_minorroad_forest: "Defending in Forest"
+ combat_minorroad_taiga: "Defending in Taiga"
+ combat_minorroad_wetlands: "Defending in Wetlands"
+ combat_minorroad_steppe: "Defending in Steppe"
+ combat_minorroad_floodplains: "Defending in Floodplains"
+ combat_minorroad_drylands: "Defending in Drylands"
+ combat_minorroad_urban: "Defending in Urban"
+ combat_minorroad_frozen_flats: "Defending in Frozen Flats"
+ combat_minorroad_glacier: "Defending in Glacier"
+ combat_minorroad_canyon: "Defending in Canyon"
+ combat_minorroad_highlands: "Defending in Highlands"
+ combat_minorroad_cloudforest: "Defending in Cloud Forest"
+ combat_minorroad_taiga_bog: "Defending in Taiga Bog"
+ combat_minorroad_the_bog: "Defending in The Bog"

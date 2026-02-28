@@ -4,8 +4,8 @@
  DYNASTY_VIEW_INFO_TITLE: "#T Dynastie [Dynasty.GetBaseNameNoTooltip|U]#!"
  DYNASTY_VIEW_PRESTIGE: "[Dynasty.GetPrestige|V0] [dynasty_prestige|E]"
   #AGOT Modified 
- #DYNASTY_VIEW_HOUSES_AMOUNT: "[Dynasty.GetFoundedDynastyHousesCount|V] [Select_CString( EqualTo_int32( Dynasty.GetFoundedDynastyHousesCount, '(int32)1' ), 'House', 'Houses' )]" #NT!
- DYNASTY_VIEW_HOUSES_AMOUNT: "View all Houses" #NT!
+ #DYNASTY_VIEW_HOUSES_AMOUNT: "[Dynasty.GetFoundedDynastyHousesCount|V] [Select_CString( EqualTo_int32( Dynasty.GetFoundedDynastyHousesCount, '(int32)1' ), 'House', 'Houses' )]"
+ DYNASTY_VIEW_HOUSES_AMOUNT: "View all Houses"
  DYNASTY_VIEW_HOUSES_TT: "#T Alle Häuser der [Dynasty.GetNameNoTooltip]-Dynastie anzeigen#!"
  DYNASTY_VIEW_MEMBERS: "[Dynasty.GetNumberOfLivingMembers|V] lebende Mitglieder"
  DYNASTY_VIEW_MEMBERS_TT: "#T Alle Mitglieder der [Dynasty.GetNameNoTooltip]-Dynastie anzeigen#!"
@@ -59,3 +59,7 @@
  DYNASTY_SPLENDOR: "Dynastie-Pracht:"
  DYNASTY_LEGACIES: "Dynastie-Vermächtnisse"
  DYNASTY_HOUSE_VIEW_LEGACY_COST: "Nächstes Vermächtnis: [dynasty_prestige_i] [Dynasty.GetNextPerkCost|V0]"
+ DYNASTY_HOUSE_FROM_MEMBERS: "Durch [dynasty_members|E]:"
+ DYNASTY_HOUSE_FROM_MEMBERS_EXCESS: "Durch andere [dynasty_members|E]:"
+ DYNASTY_HOUSE_FROM_RULERS: "Durch Herrscher:"
+ DYNASTY_HOUSE_PRESTIGE_MULTIPLIERS: "Multiplikatoren:"

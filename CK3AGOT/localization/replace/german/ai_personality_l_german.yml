@@ -96,6 +96,7 @@
  compassion_strong_explanation: "Dieser Charakter ist #Bold äußerst mitfühlend#!. Er wird andere viel weniger wahrscheinlich verletzen, lässt [prisoners|E] (besonders Kinder) frei, fördert die [cultural_acceptance|E], lässt Menschen aus Liebe [marry|E] und findet rasch [friends|E]. Ein solcher Charakter wird gegen andere Charaktere auch fast niemals ein [GetScheme('murder').GetTypeName]-, [Concept('execute', 'Hinrichtungs')|E]- oder [Concept('torture', 'Folter')|E]-[scheme|E] durchführen."
  compassion_strong_neg_explanation: "Dieser Charakter ist #Bold äußerst grausam#!. Er neigt oft dazu, anderen zu schaden, [hostile_schemes|E] wie [GetScheme('murder').GetTypeName] einzusetzen, [prisoners|E] mit [execution|E] und [torture|E] zu bestrafen und sich als [agent|E] Komplotten anzuschließen. Einen solchen Charakter schert das Leid anderer nicht."
   
+ ai_pious_builder_personality: "[pious_builder_i] [ai_pious_builder_personality|L]"
  ai_warlike_personality: "[warlike_i][ai_warlike_personality]"
  ai_cautious_personality: "[cautious_i][ai_cautious_personality]"
  ai_economical_boom_personality: "[builder_i][ai_economical_boom_personality]"

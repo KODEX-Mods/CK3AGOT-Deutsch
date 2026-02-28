@@ -1,0 +1,139 @@
+﻿l_german:
+  #NOTE: follows the order of dynasties in the \common\dynasties\ files 
+  ### RIVERLANDS DYNASTIES/CADET BRANCHES ### 
+  #Great Houses 
+ dynn_Tully_motto: "Familie, Pflicht, Ehre"
+  
+  #Extinct Royal Houses 
+  
+  #Harrenhal Houses 
+ dynn_Whent_motto: "Mit schwärzeste nFlügeln"
+ dynn_Lothston_motto: "Erbe des Kummers"
+ dynn_Strong_motto: "Dem Namen treu"
+ dynn_Towers_motto: "Immer höher bauen"
+ dynn_Harroway_motto: "Unter dem Schatten"
+ dynn_Nutt_motto: "Nie geknackt"
+  #Landed Houses 
+ dynn_Bigglestone_motto: "Ewiger Dienst"
+ dynn_Blackwood_motto: "Niemals vergeben, niemals vergessen"
+ dynn_Blanetree_motto: "As the Leaves Fall"
+ dynn_Bracken_motto: "Vollblüter Fürwahr"
+ dynn_Butterwell_motto: "Treuer Dienst"
+ dynn_Chambers_motto: "Past Us Not"
+ dynn_Charlton_motto: "Mit Entschlossenheit"
+ dynn_Cox_motto: "Hinter dicken Mauern"
+ dynn_Darry_motto: "Harte Arbeit, loyaler Dienst"
+ dynn_Deddings_motto: "Kühne Träume"
+ dynn_Erenford_motto: "Edel auf der Jagd"
+ dynn_Frey_motto: "Wir stehen zusammen"
+ dynn_Goodbrook_motto: "Gut wie unser Wort"
+ dynn_Grell_motto: "Auf Flügel der Bemühung"
+ dynn_Grey_motto: "Durch Nebel und Farn"
+ dynn_Haigh_motto: "Niemals Brachland"
+ dynn_Hawick_motto: "Hoch im blauen Himmel"
+ dynn_Keath_motto: "Leinen los"
+ dynn_Lolliston_motto: "By the Barrel" #NT!
+ dynn_Lychester_motto: "Feel Our Talons" #NT!
+ dynn_Mallister_motto: "Über den Anderen"
+ dynn_Mooton_motto: "Weisheit und Stärke"
+ dynn_Paege_motto: "Gmeinsam verbunden"
+ dynn_Piper_motto: "Mutig und Anmutig"
+ dynn_Rankenfell_motto: "We Find Our Feet" #NT!
+ dynn_Roote_motto: "Care Not to Trip" #NT!
+ dynn_Ryger_motto: "Wir biegen, statt zu brechen"
+ dynn_Shawney_motto: "Mit borstigen Klingen"
+ dynn_Terrick_motto: "We Heed, We Follow" #NT!
+ dynn_Vance_motto: "Stets wachsam"
+ dynn_VanceA_motto: "Kraft Gesetzes und Glaubens"
+ dynn_VanceAW_motto: "Forever Remembered" #NT!
+ dynn_Vypren_motto: "Weiter springen"
+ dynn_Wayn_motto: "Our Coats Don't Turn" #NT!
+ dynn_Mandrake_motto: "We Are the Root"
+ dynn_Byrne_motto: "Into The Fire"
+  
+  
+ dynn_Wode_motto: "Rühr mich nicht an"
+ dynn_Smallwood_motto: "Von diesen Anfängen"
+  
+  
+  #AGot Video Game (2012) 
+ dynn_Harlton_motto: "Find Shade in Faith"
+  
+  #Non-Canon 
+ dynn_Banbeck_motto: "Capture and Command"
+  
+  #TTRPG semi-canon 
+ dynn_Kytley_motto: "Das Feuer härter, der Hammer schärft"
+ dynn_Weller_motto: "Vorwärts stürmen"
+ dynn_Barnell_motto: "Never Falter"
+ dynn_Tullison_motto: "Stone Endures"
+ dynn_Dannett_motto: "Eat Bitter, Grow Strong"
+ dynn_Wallain_motto: "The Blade Remembers"
+ dynn_Landseer_motto: "The Wary, the Watchful"
+ dynn_Ward_motto: "Faith and Truth"
+ dynn_Finch_motto: "Heart and Wing"
+ dynn_Pace_motto: "Step by Step"
+ dynn_Warrens_motto: "Through Turmoil"
+ dynn_Elridge_motto: "No Use In Hiding"
+  #Landless Houses 
+  
+  #Extinct 
+ dynn_Justman_motto: "Ein verdienter Name"
+  
+  #Modcanons 
+ dynn_Alderdice_motto: "Leave No Tracks"
+ dynn_Renn_motto: "Never Stop Burning"
+ dynn_Clare_motto: "The Red, the Blue, the Loon"
+ dynn_Werth_motto: "Our Hands Weigh"
+ dynn_Eager_motto: "To Stir, To Bother" #NT!
+ dynn_Berry_motto: "By the Bunch" #NT!
+ dynn_Urgont_motto: "Wash the Stones" #NT!
+ dynn_Growne_motto: "We Creep Closer" #NT!
+ dynn_Brimer_motto: "Slither By" #NT!
+ dynn_Forthe_motto: "We Serve the Land" #NT!
+ dynn_Sillinger_motto: "Make Light Work" #NT!
+ dynn_Wotlin_motto: "You'll Croak Too" #NT!
+ dynn_Sylvas_motto: "Freedom Is Won" #NT!
+ dynn_Deadmarsh_motto: "Drink It In" #NT!
+ dynn_Warl_motto: "Make the Climb" #NT!
+ dynn_Prosper_motto: "We Take the Chance" #NT!
+ dynn_Helney_motto: "Know Your Limits" #NT!
+ dynn_Nayland_motto: "At A Crossroads" #NT!
+ dynn_Brightmoon_motto: "Wipe Your Eyes" #NT!
+ dynn_Rushmoor_motto: "Swift to Act" #NT!
+ dynn_Festering_motto: "The Boldest" #NT!
+ dynn_Pemford_motto: "Conflict Brings Truth" #NT!
+ dynn_Temper_motto: "Quick to Bite" #NT!
+ dynn_Runny_motto: "Like A Mudslide" #NT!
+ dynn_Hickory_motto: "The Smoke Gathers" #NT!
+ dynn_Whett_motto: "Test the Edge" #NT!
+ dynn_Gleaner_motto: "Change No Hands" #NT!
+ dynn_Pond_motto: "Never Still" #NT!
+ dynn_Fernly_motto: "No Better Subjects" #NT!
+ dynn_Kemble_motto: "Hold That Thought" #NT!
+ dynn_Ryn_motto: "Quick As A Cat" #NT!
+ dynn_Atell_motto: "Few Cross Us" #NT!
+ dynn_Whistler_motto: "Dance to Our Tune" #NT!
+ dynn_Givven_motto: "Eternally Grateful" #NT!
+ dynn_Madduc_motto: "Risk Not the Youth" #NT!
+ dynn_Leed_motto: "Gods, We Know" #NT!
+ dynn_Gillmore_motto: "This Line Held" #NT!
+ dynn_Fletcher_motto: "Hold Your Breath" #NT!
+ dynn_Barrett_motto: "Dare to Believe" #NT!
+ dynn_Pimm_motto: "Fair and Fruitful" #NT!
+ dynn_Penny_motto: "Every Little Helps" #NT!
+ dynn_Haynes_motto: "Don the Coat" #NT!
+ dynn_Severyn_motto: "Taking What's Owed" #NT!
+ dynn_Dunstable_motto: "Your Mind Forges Manacles" #NT!
+ dynn_Boddy_motto: "What Was Tested Still Remains" #NT!
+ dynn_Becker_motto: "Love the Victories, Endure the Losses" #NT!
+ dynn_Common_motto: "Look at Us Now" #NT!
+ dynn_Garr_motto: "Revere the Dragon" #NT!
+ dynn_Deremond_motto: "Adorned in Silk" #NT!
+ dynn_Beaver_motto: "Stem the Flow" #NT!
+ dynn_Dally_motto: "Dredge the Depths" #NT!
+ dynn_Longbough_motto: "Toss Doubt Aside" #NT!
+ dynn_Perryn_motto: "Conquer the Current" #NT!
+ dynn_Heddle_motto: "Know No Stranger" #NT!
+ dynn_Greysteel_motto: "With Lasting Legacy" #NT!
+ dynn_Chaynes_motto: "Chains Breed Fighters" #NT!

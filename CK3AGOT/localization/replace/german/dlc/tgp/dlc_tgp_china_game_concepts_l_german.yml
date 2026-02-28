@@ -1,0 +1,380 @@
+﻿l_german:
+  
+  
+  # Celestial 
+ game_concept_celestial_government: "Himmlische Regierung"
+ game_concept_celestial: "Himmlischer"
+ game_concept_celestials: "Himmlische"
+ game_concept_celestial_i: "@government_type_celestial!"
+ game_concept_celestial_government_desc: "„Himmlisch“ ist eine hoch zentralisierte [Concept('government_bureaucratic_type', 'bürokratische')|E] [government_form|E], in der der [liege|E] Charaktere als [governors|E] einsetzt, von denen es zwei Arten gibt: zivile und militärische.\n\nCharaktere haben Zugriff auf [influence|E], [noble_families|E], [family_estates|E] und [treasury|E].\n\nUnabhängige [rulers|E] haben [legitimacy|E], wohingegen [vassals|E] sich ganz dem Erlangen von [merit|E] widmen."
+  
+  
+  # Merit 
+ game_concept_merit: "Verdienst"
+ game_concept_meritorious: "verdienstreich"
+  #AGOT Modified 
+ # game_concept_merit_desc: "A [character_possessive|E] $game_concept_merit$ tracks their progress to the next [merit_level|E]. All characters with an [elder|E] or [disciples|E] produce a passive $game_concept_merit$ gain.\n\n[governors|E] can increase their $game_concept_merit$ by constructing [buildings|E] in their assigned [holdings|E], going on an [inspection|E] [activity|E], participating in a [GetActivityType('activity_debate').GetName] and attending [examinations|E].\n\n[GetSubjectContractType( 'celestial_provinces' ).GetObligationNameShort( 'celestial_province_standard' )] governors increase their monthly merit gain by paying more [taxes|E] to their [liege|E], while [GetSubjectContractType( 'celestial_provinces' ).GetObligationNameShort( 'celestial_province_military' )] governors increase it by creating [men_at_arms|E].\n\nNon-$game_concept_governors$ can attempt to increase it by attending [examinations|E]." #NT!
+ game_concept_merit_desc: "A [character_possessive|E] $game_concept_merit$ tracks their progress to the next [merit_level|E]. All characters with an [elder|E] or [disciples|E] produce a passive $game_concept_merit$ gain.\n\n[governors|E] can increase their $game_concept_merit$ by constructing [buildings|E] in their assigned [holdings|E], going on an [inspection|E] [activity|E] and attending [examinations|E].\n\n[GetSubjectContractType( 'celestial_provinces' ).GetObligationNameShort( 'celestial_province_standard' )] governors increase their monthly merit gain by paying more [taxes|E] to their [liege|E], while [GetSubjectContractType( 'celestial_provinces' ).GetObligationNameShort( 'celestial_province_military' )] governors increase it by creating [men_at_arms|E].\n\nNon-$game_concept_governors$ can attempt to increase it by attending [examinations|E]." #NT!
+ game_concept_merit_i: "@merit_icon!"
+ game_concept_merit_level: "Verdienstrang"
+ game_concept_merit_level_desc: "Der $game_concept_merit_level$ eines [Concept('character','Charakters')|E] gibt sein Potenzial als [governor|E] in ostasiatischen [administrative_governments|E] an.\n\nEr steht für seine dokumentierten Leistungen und sein moralisches Benehmen entsprechend der konfuzianischen Ideale und wird durch den von ihm erlangten [merit|E] dargestellt.\n\nEin Beamter mit höherem $game_concept_merit_level$ hat einen höheren [candidate_score|E] und ein besseres [governor_salary|E].\n\nDie Ränge sind:\n$EFFECT_LIST_BULLET$[GetModifier('merit_level_0').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('merit_level_1').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('merit_level_2').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('merit_level_3').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('merit_level_4').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('merit_level_5').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('merit_level_6').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('merit_level_7').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('merit_level_8').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('merit_level_9').GetNameWithTooltip|L]"
+ game_concept_merit_levels: "Verdienstränge"
+ game_concept_merit_level_impact: "Verdienstrang-Auswirkung"
+ game_concept_merit_level_impact_desc: "Die Auswirkung des Verdienstrangs erhöht oder verringert die [modifiers|E], die man durch Euren derzeitigen [merit_level|E] erlangt."
+  
+  # Imperial Examinations 
+ game_concept_imperial_examination: "Beamtenprüfung"
+ game_concept_imperial_examinations: "Beamtenprüfungen"
+ game_concept_examination: "Prüfung"
+ game_concept_examinations: "Prüfungen"
+ game_concept_imperial_examination_desc: "Die $game_concept_imperial_examinations$ spielen eine entscheidende Rolle bei den [Concept('administrative', 'Verwaltungs')|E]-Ämtern der [GetGovernment('celestial_government').GetName|El]en und [GetGovernment('meritocratic_government').GetName|El]en [government|E].\n\nDurch das Prüfungssystem werden Bürokraten anhand ihres [Concept('merit', 'Verdiensts')|E] statt durch ihre Abstammung eingesetzt, was den klügsten Gelehrten ungeachtet ihrer Herkunft [governorship|E]-Ernennungen ermöglicht.\n\nDie Prüfungsstufen sind:\n#indent_newline:2 $EFFECT_LIST_BULLET$#bold Kinder#!: Eltern können ihre Kinder ab einem Alter von [EmptyScope.ScriptValue('child_exam_min_age')] Jahren die Prüfung über die [interaction|E] „$send_child_to_examination_interaction$“ ablegen lassen.#!\n#indent_newline:2 $EFFECT_LIST_BULLET$#bold Provinz#!: Charaktere ohne [Concept('landed', 'Landbesitz')|E] können sich über die [decision|E] „[GetActivityType('activity_local_examination').GetName]“ an der zweiten Stufe der Prüfungen versuchen.#!\n#indent_newline:2 $EFFECT_LIST_BULLET$#bold Metropole#!: Diese Prüfungen werden über die Aktivität „[GetActivityType('activity_imperial_examination').GetName]“ von der Himmlischen Regierung abgehalten.#!\n#indent_newline:2 $EFFECT_LIST_BULLET$#bold Palast#!: Die letzten [EmptyScope.ScriptValue('metropolitan_exam_final_entrants_loc')] Prüflinge aus der [activity|E] „$activity_imperial_examination$“ werden zu einem Festmahl in den Herrscherpalast eingeladen, wo sie den [son_of_heaven|E] treffen und ihm ihren Wert beweisen können.#!"
+ game_concept_exam_cheat: "Prüfungsschummelei"
+ game_concept_exam_cheat_desc: "Eine $game_concept_exam_cheat$ schaltet Auswahlen frei, die man einsetzen kann, um die nächste anstehende Prüfung zu umgehen. Aber Obacht: Erwischt zu werden, kann einen teuer zu stehen kommen."
+  
+ game_concept_childrens_examination_i: "@child_exam_icon"
+ game_concept_childrens_examination: "Kinderprüfung"
+ game_concept_childrens_examination_desc: "Die erste Stufe der [imperial_examinations|E], an der man im Alter von [EmptyScope.ScriptValue('child_exam_min_age')] Jahren teilnehmen kann. Eltern entsenden ihre Kinder mit der [interaction|E] „$send_child_to_examination_interaction$“ zur Prüfung."
+  
+ game_concept_provincial_examination_i: "@provincial_exam_icon"
+ game_concept_provincial_examination: "Provinzprüfung"
+ game_concept_provincial_examination_desc: "Die zweite Stufe der [imperial_examinations|E], an der man sich über die „[GetActivityType('activity_local_examination').GetName]“-[activity|E] versuchen kann.\n\n#S Bei Bestehen:#!\n[GetModifier('tgp_passed_provincial_exam_modifier').GetDescWithEffects]."
+  
+ game_concept_metropolitan_examination_i: "@metropolitan_exam_icon"
+ game_concept_metropolitan_examination: "Metropolenprüfung"
+ game_concept_metropolitan_examination_desc: "Die dritte Stufe der [imperial_examinations|E]. Abgehalten von der [GetGovernment('celestial_government').GetName|EU]en [government|E] bei der [activity|E] „[GetActivityType('activity_imperial_examination').GetName]“.\n\n#S Bei Bestehen:#!\n[GetModifier('tgp_passed_metropolitan_exam_modifier').GetDescWithEffects]."
+  
+ game_concept_palace_examination_i: "@palace_exam_icon"
+ game_concept_palace_examination: "Palastprüfung"
+ game_concept_palace_examination_desc: "Die vierte und letzte [imperial_examinations|E]. Die verbleibenden [EmptyScope.ScriptValue('metropolitan_exam_final_entrants_loc')] Teilnehmer an der [GetActivityType('activity_imperial_examination').GetName] werden zu einem Festmahl im Kaiserpalast eingeladen, um sich kennenzulernen und dem [son_of_heaven|E] ihren Wert zu beweisen.\n\n#S Bei Bestehen:#!\n[GetModifier('tgp_passed_palace_exam_modifier').GetDescWithEffects]."
+  
+ game_concept_exam_advantage: "Prüfungsvorteil"
+ game_concept_exam_advantage_desc: "Ein $game_concept_exam_advantage$ verbessert die Erfolgswahrscheinlichkeit verschiedener Aktionen während einer [imperial_examination|E] sowie die Beantwortung von Fragen und die Zurschaustellung des eigenen Könnens."
+  
+ game_concept_exam_score: "Prüfungspunkte"
+  #AGOT Modified 
+ # game_concept_exam_score_desc: "The $game_concept_exam_score$ determines how likely an entrant is to pass a [imperial_examination|E]\n\nThe initial score is based on the entrant's [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait|E], as well as their [learning|E], [stewardship|E] and [martial|E] [skills|E] depending on the focus of the $game_concept_examination$.\n\nOnly the top ten entrants in the [GetActivityType('activity_imperial_examination').GetName] [activity|E] may attempt the @palace_exam_icon! #V Palace Examination#!." #NT!
+ game_concept_exam_score_desc: "The $game_concept_exam_score$ determines how likely an entrant is to pass a [imperial_examination|E]\n\nThe score is based on the entrant's [learning|E], [stewardship|E] and [martial|E] [skills|E] depending on the focus of the $game_concept_examination$.\n\nOnly the top ten entrants in the [GetActivityType('activity_imperial_examination').GetName] [activity|E] may attempt the @palace_exam_icon! #V Palace Examination#!." #NT!
+  
+ game_concept_merit_pool: "Kandidatenliste"
+ game_concept_merit_pools: "Kandidatenlisten"
+ game_concept_merit_pool_possessive: "der Kandidatenliste"
+ game_concept_merit_pool_desc: "Eine $game_concept_merit_pool$ enthält alle [characters|E], die zulässig für die [appointment|E] für bestimmte Arten von [Concept('titles','Titeln')|E] sind.\n\nKandidaten werden nach [candidate_score|E] sortiert. Einige [appointment_succession_laws|E] verwenden [merit|E], sodass die Kandidaten erst nach [merit_level|E] und dann nach $game_concept_candidate_score$ sortiert werden.\n\nStirbt der [holder|E] eines $game_concept_appointment$stitels, wird der Titel an den höchstrangigen Charakter der Liste übertragen. Hält der Charakter bereits Titel, muss der Titel eine höhere [appointment_prominence|E] haben. Ansonsten geht er an den nächsten Charakter auf der Liste."
+  
+ game_concept_appointment_prominence: "Wichtigkeit"
+ game_concept_appointment_prominence_desc: "$game_concept_appointment_prominence$ spiegelt wider, wie erstrebenswert ein [title|E] für zulässige Kandidaten ist.\n\nEin Kandidat, der bereits einen Titel hält, wird nur für einen neuen Titel desselben [Concept('title_tier', 'Titelrangs')|E] ernannt werden, wenn dessen $game_concept_appointment_prominence$ höher ist.\n\n$game_concept_appointment_prominence$ beruht üblicherweise auf dem Wohlstand und der Entfernung zum [realm_capital|E], aber andere Faktoren abhängig von den Umständen können auch wichtig sein, beispielsweise die Größe in Sachen [title_men_at_arms|E] für [military_governors|E]."
+  
+ game_concept_entrant: "Prüfling"
+ game_concept_entrants: "Prüflinge"
+ game_concept_entrant_desc: "Ein $game_concept_entrant$ ist ein Charakter, der sein Können bei der [activity|E] „[imperial_examination|E]“ beweisen will."
+  
+ game_concept_subject_standing: "Untertänigenstand"
+ game_concept_subject_standing_desc: "Der $game_concept_subject_standing$ stellt den Status dar, der einem [tributary|E] oder [Concept('vassal', 'Vasallen')|E] vom eigenen [suzerain|E] oder [Concept('liege', 'Lehnsherrn')|E] verliehen wurde."
+  
+ game_concept_imperial_grace: "Kaisergnade"
+ game_concept_imperial_grace_desc: "Die $game_concept_imperial_grace$ stellt den Status dar, der einem [tributary|E] vom [son_of_heaven|E] verliehen wurde.\n\nEine hohe $game_concept_imperial_grace$ kann dazu führen, dass einem $game_concept_tributary$ bei einer [tribute_missions|E] besondere Privilegien verliehen werden. Auf niedrigen $game_concept_favor$-Stufen kann der $game_concept_son_of_heaven$ Tribut von Euch #EMP fordern#! – und falls die Kaisergnade null erreicht, kann dies das Ende der Beziehung bedeuten."
+  
+ game_concept_seal_of_investiture: "Investitursiegel"
+  #AGOT Modified 
+ #  game_concept_seal_of_investiture_desc: "Simultaneously a legal document and a revered symbol of the grace of the Son of Heaven, the $game_concept_seal_of_investiture$ signifies the holder's special status as a loyal and favored [tributary|E] of [SelectLocalization( GetPlayer.IsValid, 'game_concept_seal_of_investiture_desc_ingame', 'h_china' )].\n\nA $game_concept_seal_of_investiture$ may be granted to $game_concept_tributaries$ with high [imperial_grace|E] during the closing ceremonies of a successful #bold Tribute Mission#!." #NT!
+ game_concept_seal_of_investiture_desc: "Simultaneously a legal document and a revered symbol of the grace of the God-Emperor, the $game_concept_seal_of_investiture$ signifies the holder's special status as a loyal and favored [tributary|E] of the Golden Empire of Yi Ti.\n\nA $game_concept_seal_of_investiture$ may be granted to $game_concept_tributaries$ with high [imperial_grace|E] during the closing ceremonies of a successful #bold Tribute Mission#!." #NT!
+  #AGOT Modied 
+ #  game_concept_seal_of_investiture_desc_ingame: "[GetTitleByKey('h_china').GetDefinitiveName]" #NT!
+ game_concept_seal_of_investiture_desc_ingame: "Golden Empire of Yi Ti" #NT!
+ HAS_SEAL_OF_INVESTITURE: "Ihr besitzt ein [seal_of_investiture|E]"
+ NO_SEAL_OF_INVESTITURE: "Ihr besitzt kein [seal_of_investiture|E]"
+  
+ SUBJECT_STANDING_CONCEPT: "[subject_standing|E]"
+ SUBJECT_STANDING_IMPERIAL_GRACE_CONCEPT: "[imperial_grace|E]"
+ IMPERIAL_GRACE_ICON: "@imperial_grace!"
+  
+ IMPERIAL_GRACE_LOSS_STABILITY: "Da der [dynastic_cycle|E] derzeit in der Phase der $situation_dynastic_cycle_phase_stability$ ist, verlieren alle #EMP himmlischen Tributzahler#! @imperial_grace![EmptyScope.ScriptValue('imperial_grace_loss_situation_dynastic_cycle_phase_stability')|V1] [imperial_grace|E] pro Jahr."
+ IMPERIAL_GRACE_LOSS_STABILITY_EXPANSION: "Da der [dynastic_cycle|E] derzeit in der Phase der $situation_dynastic_cycle_phase_stability_expansion$ ist, verlieren alle #EMP himmlischen Tributzahler#! @imperial_grace![EmptyScope.ScriptValue('imperial_grace_loss_situation_dynastic_cycle_phase_stability_expansion')|V1] [imperial_grace|E] pro Jahr."
+ IMPERIAL_GRACE_LOSS_STABILITY_ADVANCEMENT: "Da der [dynastic_cycle|E] derzeit in der Phase des $situation_dynastic_cycle_phase_stability_advancement$s ist, verlieren alle #EMP himmlischen Tributzahler#! @imperial_grace![EmptyScope.ScriptValue('imperial_grace_loss_situation_dynastic_cycle_phase_stability_advancement')|V1] [imperial_grace|E] pro Jahr."
+ IMPERIAL_GRACE_LOSS_INSTABILITY: "Da der [dynastic_cycle|E] derzeit in der Phase der $situation_dynastic_cycle_phase_instability$ ist, verlieren alle #EMP himmlischen Tributzahler#! @imperial_grace![EmptyScope.ScriptValue('imperial_grace_loss_situation_dynastic_cycle_phase_instability')|V1] [imperial_grace|E] pro Jahr."
+ IMPERIAL_GRACE_LOSS_INSTABILITY_CONQUEST: "Da der [dynastic_cycle|E] derzeit in der Phase der $situation_dynastic_cycle_phase_instability_conquest$ ist, verlieren alle #EMP himmlischen Tributzahler#! @imperial_grace! [EmptyScope.ScriptValue('imperial_grace_loss_situation_dynastic_cycle_phase_instability_conquest')|V1] [imperial_grace|E] pro Jahr."
+ IMPERIAL_GRACE_LOSS_CHAOS: "Da der [dynastic_cycle|E] derzeit in der Phase der $situation_dynastic_cycle_phase_chaos$ ist, verlieren alle #EMP himmlischen Tributzahler#! @imperial_grace![EmptyScope.ScriptValue('imperial_grace_loss_situation_dynastic_cycle_phase_chaos')|V1] [imperial_grace|E] pro Jahr."
+  
+  # Mandate 
+ game_concept_mandate_of_heaven: "Mandat des Himmels"
+ game_concept_mandate_of_heaven_mandate: "Mandat"
+ game_concept_mandate_of_heaven_desc: "Das $game_concept_mandate_of_heaven$ ist eine besondere Form der [legitimacy|E], die nur dem [son_of_heaven|E] zur Verfügung steht. Es steht für das Anrecht des Monarchen auf die Herrschaft und darauf, wer als oberster Herrscher unter dem gesamten Himmel gilt.\n\nDas Mandat ist eng mit dem [dynastic_cycle|E] verknüpft. Der Kreislauf wirkt sich darauf aus, wie der herrschende Monarch Legitimität erlangt, und kann sogar die [situation_dynastic_cycle_phase|E] ändern – abhängig von der Mandatsstufe des Monarchen."
+  
+ game_concept_son_of_heaven: "Himmelssohn"
+ game_concept_son_of_heaven_possessive: "des Himmelssohns"
+ game_concept_son_of_heaven_desc: "Der $game_concept_son_of_heaven$ ist der [hegemon|E] von China und der [top_liege|El] der [Concept('celestial_government', 'Himmlischen Regierung')|E].\n\nDer $game_concept_son_of_heaven$ besitzt eine besondere Form der [legitimacy|E], das [mandate_of_heaven|E], sowie eine einzigartige [situation_participant_group|E], die schlicht $game_concept_son_of_heaven$ heißt."
+  
+  # Treasury 
+ game_concept_treasury_i: "@treasury_icon!"
+ game_concept_treasury: "Schatz"
+ game_concept_treasury_desc: "In manchen [administrative_governments|E] stellt der Schatz Mittel dar, die nur für Regierungszwecke verwendet werden dürfen – und die damit getrennt vom persönlichen [gold|E] sind.\n\n$BULLET$#indent_newline:2 Als [vassal|E] erhaltet Ihr Schatz von Eurem [Concept('liege', 'Lehnsherrn')|E] auf Grundlage Eurer [tax|E]-Beiträge und anderer Verpflichtungen#!\n$BULLET$#indent_newline:2 Schatz wird vom [Concept('top_liege', 'Obersten Lehnsherrn')|E] geschaffen, der einen Anteil der [Concept('taxation', 'Besteuerungs')|E]-Einnahmen in Schatz umwandelt#!\n$BULLET$#indent_newline:2 Ihr könnt nach Belieben [gold|E] in den Schatz einzahlen#!\n$BULLET$#indent_newline:2 Der Schatz bleibt beim [title|E], wenn dieser einen neuen Träger bekommt#!"
+ game_concept_imperial_treasury_i: "$game_concept_treasury_i$"
+ game_concept_imperial_treasury: "Kaiserschatz"
+ game_concept_imperial_treasury_desc: "$game_concept_treasury_desc$"
+  
+ game_concept_treasury_vassal_development: "Vasallenentwicklung"
+ game_concept_treasury_vassal_development_desc: "Direkte [vassals|E] werden durch ihren [Concept('liege', 'Lehnsherrn')|E] Schätze geschickt (beruhend auf ihren Steuerbeiträgen und anderen [obligations|E])."
+ game_concept_treasury_ministry_budget: "Ministeriumsetat"
+ game_concept_treasury_ministry_budget_short: "Ministerium"
+ game_concept_treasury_ministry_budget_desc: "Schätze, die die Zentralregierung an [vassals|E] schickt, um [ministries|E] zu finanzieren. Der Etat beruht auf einer regelmäßig berechneten Zuteilung der [treasury|E]-Einnahmen des [Concept('top_liege', 'Obersten Lehnsherrn')|E]."
+ game_concept_treasury_salary_budget: "Saläretat"
+ game_concept_treasury_salary_budget_short: "Salär"
+ game_concept_treasury_salary_budget_desc: "Schätze, die die Zentralregierung an [vassals|E] schickt und die Letztere in Form von [gold|E] als ihr persönliches Salär erhalten. Der Etat beruht auf einer regelmäßig berechneten Zuteilung der [treasury|E]-Einnahmen des [Concept('top_liege', 'Obersten Lehnsherrn')|E]."
+ game_concept_treasury_military_budget: "Militäretat"
+ game_concept_treasury_military_budget_short: "Militär"
+ game_concept_treasury_military_budget_desc: "Schätze, die die Zentralregierung an Militär-[province|E]-[vassals|E] schickt, um zusätzliche militärische Aktivitäten zu finanzieren. Der Etat beruht auf einer regelmäßig berechneten Zuteilung der [treasury|E]-Einnahmen des [Concept('top_liege', 'Obersten Lehnsherrn')|E]."
+  
+ game_concept_governor_salary: "Statthaltersalär"
+ game_concept_governor_salary_desc: "In [administrative_governments|E], die zwischen [gold|E] und [treasury|E] unterscheiden, erhalten [governors|E] ein Salär in $game_concept_gold$."
+  
+ game_concept_treasury_budgeting: "Schatzetatverteilung"
+ game_concept_treasury_budget: "Schatzetat"
+ game_concept_treasury_budgeting_desc: "Nach diesen Vorgaben werden die zentralen Etats an bestimmte [vassals|E] und Unter-Vasallen entsprechend der Zuweisungsraten verteilt.\n\nWird ein Etat beschlossen, kommt es für jeden Vasall zu einer Berechnung der [treasury_budget_base_rate|E] gemäß der [treasury_budget_category|E] und auf Grundlage der verfügbaren [treasury_budget_capacity|E].\n\n@alert_icon! Die berechnete Grundrate #bold wird sich nicht ändern#!, bis irgendwann in der Zukunft ein neuer Etat beschlossen wird! Wenn also weitere Empfänger dazukommen, steigen die Etatkosten."
+  
+ game_concept_treasury_budget_capacity: "Etatkapazität"
+ game_concept_treasury_budget_capacity_desc: "Der monatliche [treasury|E], der für die [treasury_budgeting|E] zur Verfügung steht. Die Etatkapazität setzt sich zusammen aus den Schatz-Einnahmen abzüglich aller etwaigen regelmäßigen Ausgaben, die nicht Teil der Etats sind, darunter [treasury_vassal_development|E] und [court_amenities|E]."
+  
+ game_concept_treasury_budget_category: "Etatkategorie"
+ game_concept_treasury_budget_category_desc: "Ein bestimmter Teil der [treasury_budgeting|E], dem man einen Schatzetat zuweisen kann. Jede Etatkategorie kann verschiedene Empfänger haben und unter Umständen sogar [gold|E] anstelle von [treasury|E] auszahlen."
+  
+ game_concept_treasury_budget_base_rate: "Budgetetatrate"
+ game_concept_treasury_budget_base_rate_short: "Grundrate"
+ game_concept_treasury_budget_base_rate_desc: "Die Menge, die ein üblicher Empfänger einer [treasury_budget_category|E] erhält. Empfänger können mehr oder weniger als die Grundrate erhalten, abhängig von ihrem [title_rank|E], ihrem [merit_level|E] oder anderen Modifikatoren."
+  
+ game_concept_treasury_budget_category_trend: "Etatkategorie-Entwicklung"
+ game_concept_treasury_budget_category_trend_short: "Entwicklung"
+ game_concept_treasury_budget_category_trend_desc: "Die Differenz an [Concept('treasury', 'Schatz')|E], die eine [treasury_budget_category|E] im Vergleich zum vorherigen Etatbeschluss erhält."
+  
+ game_concept_treasury_budget_unallocated: "nicht-zugewiesener Schatzetat"
+ game_concept_treasury_budget_unallocated_short: "nicht zugewiesen"
+ game_concept_treasury_budget_unallocated_desc: "Nicht-zugewiesener Schatzetat trägt zu den allgemeinen [treasury]-Einnahmen bei."
+  
+ game_concept_treasury_budget_deficit: "Schatzetatdefizit"
+ game_concept_treasury_budget_deficit_short: "Defizit"
+ game_concept_treasury_budget_deficit_desc: "Wird mehr als die [treasury_budget_capacity|E] ausgegeben, wird eine gewisse Menge von den monatlichen [treasury|E]-Einnahmen abgezogen."
+  
+  # Celestial Bureaucracy 
+ game_concept_celestial_bureaucracy: "Himmlische Bürokratie"
+ game_concept_celestial_bureaucracy_desc: "Die $game_concept_celestial_bureaucracy$ steht für die Zentralisierung von [Concept('celestial', 'himmlischen')|E] [realms|E] und die allgemeine Macht, die der [ruler|E] über seine [vassals|E] ausübt.\n\nNur der [Concept('top_liege', 'Oberste Lehnsherr')|E] kann die $game_concept_celestial_bureaucracy$ ändern. Himmlische Vasallen benutzen dieselbe Stufe wie ihr $game_concept_liege$.\n\nEs gibt vier Stufen von Himmlischer Bürokratie:\n$EFFECT_LIST_BULLET$$celestial_bureaucracy_0$\n$EFFECT_LIST_BULLET$$celestial_bureaucracy_1$\n$EFFECT_LIST_BULLET$$celestial_bureaucracy_2$\n$EFFECT_LIST_BULLET$$celestial_bureaucracy_3$\n\nDie $game_concept_celestial_bureaucracy$ zu steigern, kostet einen Betrag an [prestige|E], der von der [realm_size|E] und dem [learning_skill|E] des Herrschers abhängt."
+ game_concept_minister: "Minister"
+ game_concept_ministers: "Minister"
+ game_concept_minister_possessive: "des Ministers"
+ game_concept_ministers_possessive: "der Minister"
+ game_concept_minister_desc: "$game_concept_ministers$ sind eine Art von [Concept('councillors', 'Ratsmitgliedern')|E], die im [council|E] oder [ministry|E] des [Concept('son_of_heaven', 'Himmelssohns')|E] dienen.\n\nJeder Minister hat eine Reihe von Verantwortlichkeiten, darunter die Finanzierung von [great_projects|E] sowie die Unterstützung von [Concept('governors', 'Statthaltern')|E] auf unterschiedliche Arten und Weisen."
+ game_concept_ministry: "Ministerium"
+ game_concept_ministries: "Ministerien"
+ game_concept_ministry_possessive: "des Ministeriums"
+ game_concept_ministries_possessive: "der Ministerien"
+ game_concept_ministry_desc: "Das $game_concept_ministry$ ist eine Art [council|E], der nur dem [son_of_heaven|E] zur Verfügung steht.\n\nEs gibt neun [ministers|E], die jeweils die höchste Ebene der Regierung und den Kopf ihrer Abteilung darstellen. Sie sind in einer Hierarchie angeordnet, sodass Minister eines niedrigeren Rangs auf Grundlage der [appointment_prominence|E] des [Concept('title', 'Titels')|E] auf einen Posten von höherem Rang befördert werden können.\n\nDie $game_concept_ministers$ sind:\n$EFFECT_LIST_BULLET$[minister_grand_chancellor|E]\n$EFFECT_LIST_BULLET$[minister_censor|E]\n$EFFECT_LIST_BULLET$[minister_grand_marshal|E]\n$EFFECT_LIST_BULLET$[minister_of_personnel|E]\n$EFFECT_LIST_BULLET$[minister_of_war|E]\n$EFFECT_LIST_BULLET$[minister_of_revenue|E]\n$EFFECT_LIST_BULLET$[minister_of_justice|E]\n$EFFECT_LIST_BULLET$[minister_of_rites|E]\n$EFFECT_LIST_BULLET$[minister_of_works|E]"
+ game_concept_minister_grand_chancellor: "$councillor_chancellor_celestial_government_imperial$"
+  #AGOT Modified 
+ # game_concept_minister_grand_chancellor_desc: "The $game_concept_minister_grand_chancellor$ is the highest ranking [minister|E] and is in charge of diplomatic matters. They are typically assigned the position of [grand_secretariat_director|E].\n\nThe Chancellor can be the designated [grand_secretariat_director|E], depending on the #V [GetLawGroup('grand_secretariat_laws').GetName]#! [law|E].\n\n$minister_grand_chancellor_action_breakdown$" #NT!
+ game_concept_minister_grand_chancellor_desc: "The $game_concept_minister_grand_chancellor$ is the highest ranking [minister|E] and is in charge of diplomatic matters. They are typically assigned the position of [grand_secretariat_director|E]." #NT!
+ game_concept_minister_grand_chancellor_possessive: "$councillor_chancellor_celestial_government_imperial_possessive$"
+ minister_grand_chancellor_action_breakdown: "#indent_newline:4 #weak Der Minster kann zum Beispiel:\n$BULLET$Die [decision|E] „[GetDecision('favored_movement_consults_heaven_decision').GetName|V]“ einsetzen\nJede Art von [courtier|E] mit der [decision|E] „[GetDecision('tgp_minister_recruit_courtiers_decision').GetName|V]“ einladen\n$BULLET$Auf besondere Auswahlen bei der [interaction|E] #V $influence_meritorious_career_interaction$#! zu niedrigeren Kosten zugreifen\n$BULLET$Das „[GetGreatProjectType('minister_compel_religious_uniformity').GetName|V]“-[great_project|E] beginnen#!#!"
+ game_concept_minister_censor: "$councillor_spymaster_celestial_government_imperial$"
+  #AGOT Modified 
+ # game_concept_minister_censor_desc: "The $game_concept_minister_censor$ is the [minister|E] in charge of matters of intrigue and intelligence.\n\nBeware of having a disloyal Censor, for they can easily conceal and participate in [schemes|E] against you and your [close_family|E]!\n\nThe Censor can be the designated [grand_secretariat_director|E], depending on the [GetLawGroup('grand_secretariat_laws').GetName|V] [law|E].\n\n$minister_censor_action_breakdown$" #NT!
+ game_concept_minister_censor_desc: "The $game_concept_minister_censor$ is the [minister|E] in charge of matters of intrigue and intelligence.\n\nBeware of having a disloyal Censor, for they can easily conceal and participate in [schemes|E] against you and your [close_family|E]!" #NT!
+ game_concept_minister_censor_possessive: "$councillor_spymaster_celestial_government_imperial_possessive$"
+ minister_censor_action_breakdown: "#indent_newline:4 #weak Der Minister kann zum Beispiel:\n$BULLET$Die [interaction|E] #V $censor_find_secrets_interaction$#! einsetzen, um [secrets|E] an [Concept('vassal', 'Vasallen')|E]-[Concept('courts', 'Höfen')|E] zu finden oder [hooks|E] zu erhalten\n$BULLET$Durch [Concept('blackmail', 'Erpressungen')|E] den [dynastic_cycle_catalyst|E] #V $catalyst_minister_blackmailed$#! auslösen\n$BULLET$Auf besondere Auswahlen bei der [interaction|E] #V $influence_meritorious_career_interaction$#! zugreifen#!#!"
+ game_concept_minister_grand_marshal: "$minister_grand_marshal$"
+  #AGOT Modified 
+ # game_concept_minister_grand_marshal_desc: "The $game_concept_minister_grand_marshal$ is the highest ranking commander in the [realm|E] and commands an [army|E] of [title_men_at_arms|E].\n\nThe Marshal can be the designated [grand_secretariat_director|E], depending on the #V [GetLawGroup('grand_secretariat_laws').GetName]#! [law|E].\n\n$minister_grand_marshal_action_breakdown$" #NT!
+ game_concept_minister_grand_marshal_desc: "The $game_concept_minister_grand_marshal$ is the highest ranking commander in the [realm|E] and commands an [army|E] of [title_men_at_arms|E]." #NT!
+ game_concept_minister_grand_marshal_possessive: "$minister_grand_marshal_possessive$"
+ minister_grand_marshal_action_breakdown: "#indent_newline:4 #weak Der Minister kann zum Beispiel:\n$BULLET$Das #V Großfeldzug#!-[great_project|E] beginnen\n$BULLET$Das „[GetGreatProjectType('construct_great_barracks').GetName|V]“-[great_project|E] beginnen\n$BULLET$Die [casus_bellis|E] #V $CHINA_SEIZE_COUNTY_CB_NAME$#! und #V $CHINA_SEIZE_DUCHY_CB_NAME$#! in den [dynastic_cycle_eras_short|E] [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName] und [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability_conquest').GetName] einsetzen\n$BULLET$Auf besondere Auswahlen bei der [interaction|E] #V $influence_meritorious_career_interaction$#! zugreifen#!#!"
+ game_concept_minister_of_personnel: "$minister_personnel$"
+  #AGOT Modified 
+ # game_concept_minister_of_personnel_desc: "The $game_concept_minister_of_personnel$ is the [minister|E] in charge of all matters related to [appointments|E] and can greatly impact the [candidate_score|E] of other [characters|E].\n\n$minister_of_personnel_action_breakdown$" #NT!
+ game_concept_minister_of_personnel_desc: "The $game_concept_minister_of_personnel$ is the [minister|E] in charge of all matters related to [appointments|E] and can greatly impact the [candidate_score|E] of other [characters|E]." #NT!
+ game_concept_minister_of_personnel_possessive: "$minister_personnel_possessive$"
+ minister_of_personnel_action_breakdown: "#indent_newline:4 #weak Der Minister kann zum Beispiel:\n$BULLET$Die [interaction|E] #V $force_governor_removal_interaction$#! einsetzen, um [governors|E] ungeachtet des [GetLawGroup('celestial_retirement_law').GetName]-[Concept('law', 'Gesetzes')|E] zu entlassen\n$BULLET$Alle Arten von [courtier|E] mit der [decision|E] „[GetDecision('tgp_minister_recruit_courtiers_decision').GetName|V]“ einladen\n$BULLET$Die Annahme der [interactions|E] #V $offer_courtier_interaction$#! und #V $demand_courtier_interaction$#! erzwingen\n$BULLET$Auf besondere Auswahlen bei der [interaction|E] #V $influence_meritorious_career_interaction$#! zu geringeren Kosten zugreifen#!#!"
+ game_concept_minister_of_revenue: "$councillor_steward_celestial_government_imperial$"
+  #AGOT Modified 
+ # game_concept_minister_of_revenue_desc: "The $game_concept_minister_of_revenue$ is the [minister|E] in charge of [taxation|E] and aids [son_of_heaven|E] with the [treasury|E].\n\n$minister_of_revenue_action_breakdown$" #NT!
+ game_concept_minister_of_revenue_desc: "The $game_concept_minister_of_revenue$ is the [minister|E] in charge of [taxation|E] and aids [son_of_heaven|E] with the [treasury|E]." #NT!
+ game_concept_minister_of_revenue_possessive: "$councillor_steward_celestial_government_imperial_possessive$"
+ minister_of_revenue_action_breakdown: "#indent_newline:4 #weak Der Minister kann zum Beispiel:\n$BULLET$[vassals|E] unterstützen, die #V $celestial_request_treasury_interaction$#!\n$BULLET$Die [decision|E] „[GetDecision('tgp_suggest_budget_change_decision').GetName|V]“ einsetzen\n$BULLET$Das [GetGreatProjectType('minister_project_conduct_census').GetName|V]s-[great_project|E] beginnen\n$BULLET$Die [interaction|E] #V $pay_treasury_debt_interaction$#! einsetzen, um [treasury_debt|E] von [Concept('civilian_governors', 'Zivilstatthaltern')|E] zu bezahlen und den [dynastic_cycle_catalyst|E] #V '$catalyst_cleared_treasury_debt$'#! auszulösen\n$BULLET$Auf besondere Auswahlen bei der [interaction|E] #V $influence_meritorious_career_interaction$#! zugreifen#!#!"
+ game_concept_minister_of_rites: "$councillor_court_chaplain_celestial_government_imperial$"
+  #AGOT Modified 
+ # game_concept_minister_of_rites_desc: "The $game_concept_minister_of_rites$ is the [minister|E] in charge of religious and spiritual affairs, and can assist [governors|E] in hosting [examinations|E].\n\n$minister_of_rites_action_breakdown$" #NT!
+ game_concept_minister_of_rites_desc: "The $game_concept_minister_of_rites$ is the [minister|E] in charge of religious and spiritual affairs, and can assist [governors|E] in hosting [examinations|E]." #NT!
+ game_concept_minister_of_rites_possessive: "$councillor_court_chaplain_celestial_government_imperial_possessive$"
+ minister_of_rites_action_breakdown: "#indent_newline:4 #weak Der Minister kann zum Beispiel:\n$BULLET$Das „[GetGreatProjectType('minister_project_culture').GetName|V]“-[great_project|E] beginnen\n$BULLET$Das „[GetGreatProjectType('minister_compel_religious_uniformity').GetName|V]“-[great_project|E] beginnen\n$BULLET$[vassals|E] beim Ausrichten von [examinations|E] helfen\n$BULLET$Auf besondere Auswahlen bei der [interaction|E] #V $influence_meritorious_career_interaction$#! zugreifen\n$BULLET$#V $demand_conversion_minister_rites_interaction$#! bei [Concept('characters','Charakteren')|E] von [faiths|E], die [faith_hostile|El] oder [faith_evil|El] sind#!#!"
+ game_concept_minister_of_war: "$minister_war$"
+  #AGOT Modified 
+ # game_concept_minister_of_war_desc: "The $game_concept_minister_of_war$ is the [minister|E] in charge of the administration and management of troops. When subject [governors|E] are in need of military aid, it is the $game_concept_minister_of_war$ who can send Military Governors to help.\n\nThe minister is not an active [commander|E] and does not lead troops. That is the purview of the [minister_grand_marshal|E].\n\n$minister_of_war_action_breakdown$" #NT!
+ game_concept_minister_of_war_desc: "The $game_concept_minister_of_war$ is the [minister|E] in charge of the administration and management of troops. When subject [governors|E] are in need of military aid, it is the $game_concept_minister_of_war$ who can send Military Governors to help.\n\nThe minister is not an active [commander|E] and does not lead troops. That is the purview of the [minister_grand_marshal|E]." #NT!
+ game_concept_minister_of_war_possessive: "$minister_war_possessive$"
+ minister_of_war_action_breakdown: "#indent_newline:4 #weak Der Minister kann zum Beispiel:\n$BULLET$[vassals|E] im [war|E] Hilfe schicken, die #V $celestial_request_military_aid_interaction$#!\n$BULLET$[Concept('military_governors', 'Militärstatthaltern')|E] befehlen, sich den [Concept('wars','Kriegen')|E] anderer [governors|E] anzuschließen\n$BULLET$Das „[GetGreatProjectType('minister_project_train_troops').GetName|V]“-[great_project|E] beginnen\n$BULLET$Die [interaction|E] #V $pay_treasury_debt_interaction$#! einsetzen, um [treasury_debt|E] von [Concept('military_governors', 'Militärstatthaltern')|E] zu bezahlen und so den [dynastic_cycle_catalyst|E] #V '$catalyst_cleared_treasury_debt$'#! auslösen\n$BULLET$Auf besondere Auswahlen bei der [interaction|E] #V $influence_meritorious_career_interaction$#! zugreifen#!#!"
+ game_concept_minister_of_justice: "$minister_justice$"
+   #AGOT Modified 
+ # game_concept_minister_of_justice_desc: "The $game_concept_minister_of_justice$ is the [minister|E] in charge of legal affairs and assisting [son_of_heaven|E] to maintain a righteous rule.\n\n$minister_of_justice_action_breakdown$" #NT!
+ game_concept_minister_of_justice_desc: "The $game_concept_minister_of_justice$ is the [minister|E] in charge of legal affairs and assisting [son_of_heaven|E] to maintain a righteous rule." #NT!
+ game_concept_minister_of_justice_possessive: "$minister_justice_possessive$"
+ minister_of_justice_action_breakdown: "#indent_newline:4 #weak Der Minister kann zum Beispiel:\n$BULLET$Das [great_project|E] [GetGreatProjectType('minister_project_establish_control').GetName|V] beginnen\n$BULLET$Die [interaction|E] #V $imprison_interaction$#! bei [vassals|E] und [Concept('courtiers', 'Höflingen')|E] einsetzen, die sich nicht weigern können\n$BULLET$Die [interaction|E] #V $pardon_interaction$#! bei [Concept('characters','Charakteren')|E] einsetzen, die [crimes|E] begangen haben\n$BULLET$Die [interaction|E] #V $censor_find_secrets_interaction$#! einsetzen, um [secrets|E] an [Concept('vassal', 'Vasallen')|E]-[Concept('courts', 'Höfen')|E] zu finden und sie dafür [Concept('imprison', 'einzukerkern')|E] oder sie zu begnadigen\n$BULLET$Über das Aufdecken von [Concept('secrets', 'Geheimnissen')|E] den [dynastic_cycle_catalyst|E] „$catalyst_minister_exposed_secret$“ auslösen\n$BULLET$Auf besondere Auswahlen bei der [interaction|E] $influence_meritorious_career_interaction$#!#! zugreifen"
+ game_concept_minister_of_works: "$minister_works$"
+  #AGOT Modified 
+ # game_concept_minister_of_works_desc: "The $game_concept_minister_of_works$ is the [minister|E] in charge of construction and development throughout the [realm|E], and may start [great_projects|E].\n\n$minister_of_works_action_breakdown$" #NT!
+ game_concept_minister_of_works_desc: "The $game_concept_minister_of_works$ is the [minister|E] in charge of construction and development throughout the [realm|E], and may start [great_projects|E]." #NT!
+ game_concept_minister_of_works_possessive: "$minister_works_possessive$"
+ minister_of_works_action_breakdown: "#indent_newline:4 #weak Der Minister kann zum Beispiel:\n$BULLET$Das „[GetGreatProjectType('minister_project_development').GetName|V]“-[great_project|E] beginnen\n$BULLET$Das „[GetGreatProjectType('grand_canals').GetName|V]“-[great_project|E] beginnen\n$BULLET$Das „[GetGreatProjectType('great_wall').GetName|V]“-[great_project|E] beginnen\n$BULLET$[buildings|E] und [holdings|E] im [realm|E] bauen\n$BULLET$[buildings|E] und [holdings|E] in [Concept('tributaries', 'Tributzahlern')|E] des [Concept('son_of_heaven', 'Himmelssohns')|E] in der [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]-[dynastic_cycle_era_short|E] bauen\n$BULLET$Auf besondere Auswahlen bei der [interaction|E] #V $influence_meritorious_career_interaction$#! zugreifen#!#!"
+ game_concept_grand_secretariat_director: "Sekretariatsleiter"
+ game_concept_grand_secretariat: "Großsekretariat"
+ game_concept_grand_secretariat_possessive: "des Großsekretariats"
+  #AGOT Modified 
+ # game_concept_grand_secretariat_director_desc: "The Secretary Director is a type of [diarch|E] for [son_of_heaven|E], helping the divine ruler to manage the [realm|E].\n\nWho the Director is depends on the active [GetLawGroup('grand_secretariat_laws').GetName|V] [law|E]. The position can be held by either the [minister_grand_chancellor|E], the [minister_grand_marshal|E], or the [minister_censor|E].\n\nThe Director is able to start most [great_projects|E] available to certain [ministers|E] and Son of Heaven." #NT!
+ game_concept_grand_secretariat_director_desc: "The Secretary Director is a type of [diarch|E] for [son_of_heaven|E], helping the divine ruler to manage the [realm|E]." #NT!
+ game_concept_ministry_obligation: "Ministerialpflicht"
+ game_concept_ministry_obligations: "Ministerialpflichten"
+ game_concept_ministry_obligations_desc: "$game_concept_ministry_obligations$ sind einzigartige [vassal_obligations|E], die nur [ministers|E] betreffen.\n\nAlle Zivilminister haben eine bestimmte Auswahl standardmäßig voreingestellt, während der [minister_grand_marshal|E] über die einzigartige Möglichkeit verfügt, den Marschall mit [title_men_at_arms|E] auszustatten.\n\nDiese Pflichten können nicht geändert werden."
+  
+ game_concept_civilian_career_path: "Zivillaufbahn"
+ game_concept_civilian_career_path_i: "@celestial_standard_administration!"
+ game_concept_civilian_career_path_desc: "[rulers|E], die einer Zivillaufbahn nachgehen, konzentrieren sich auf Verwaltungsangelegenheiten statt kriegerischem Können. Sie werden in Zivilkreisen eingesetzt und ihr [merit|E] wächst entsprechend ihrer Erfolge beim Entwickeln des Lands mit [Concept('buildings', 'Gebäuden')|E] und der Steigerung der an ihren [Concept('liege', 'Lehnsherrn')|E] gezahlten [taxes|E]."
+ game_concept_civilian_career: "Zivillaufbahn"
+ game_concept_civilian_career_short: "Zivil"
+ game_concept_military_career_path: "Militärlaufbahn"
+ game_concept_military_career_path_i: "@celestial_military_administration!"
+ game_concept_military_career_path_desc: "[rulers|E], die einer Militärlaufbahn nachgehen, konzentrieren sich auf Kriegsführung statt auf Verwaltungsfähigkeiten. Sie werden für Militärkreise ernannt und ihr [merit|E] wächst auf Grundlage ihrer Fähigkeit, [title_men_at_arms|E] zu rekrutieren und zu unterhalten."
+ game_concept_military_career: "Militärlaufbahn"
+ game_concept_military_career_short: "Militär"
+  
+ game_concept_civilian_governor: "Zivilstatthalter"
+ game_concept_civilian_governors: "Zivilstatthalter"
+ game_concept_civilian_governor_short: "Zivil"
+ game_concept_civilian_governor_desc: "Ein Zivilstatthalter ist ein [governor|E] mit zivilen [vassal_obligations|E]. Im Gegensatz zu [military_governors|E] können sie kein [title_men_at_arms|E] ins Feld führen und konzentrieren sich nur auf Verwaltungsaufgaben und die Entwicklung des von ihnen regierten Landes.\n\n[characters|E], die einer [civilian_career_path|E] nachgehen, können Zivilstatthalter werden."
+ game_concept_military_governor: "Militärstatthalter"
+ game_concept_military_governors: "Militärstatthalter"
+ game_concept_military_governor_short: "Militär"
+ game_concept_military_governor_desc: "Ein Militärstatthalter ist ein [governor|E] mit militärischen [vassal_obligations|E]. Sie können im Gegensatz zu [Concept('civilian_governors', 'Zivilstatthaltern')|E] [title_men_at_arms|E] ins Feld schicken und es nutzen, um das [realm|E] vor fremdländischen Eindringlingen zu schützen und andere Statthalter zu unterstützen, die militärische Hilfe brauchen.\n\n[characters|E], die einer [military_career_path|E] nachgehen, können Militärstatthalter werden."
+  
+  # Great Projects 
+ game_concept_great_project: "Großvorhaben"
+ game_concept_great_projects: "Großvorhaben"
+ game_concept_great_project_i: "@great_project_icon!"
+ game_concept_great_project_possessive: "des Großvorhabens"
+ game_concept_great_project_desc: "Großvorhaben sind gewaltige Unternehmungen, die Beiträge aus dem ganzen [realm|E] erfordern.\n\nBei manchen Großvorhaben werden [great_building|E] errichtet, während es bei anderen darum geht, sich von einer [natural_disaster|E] zu erholen.\n\nWährend der [ruler|E] des Reichs die Entwicklung des Großvorhabens überwacht, können seine [Concept('subjects', 'Untertänigen')|E] [great_project_contributions|E] anbieten, um es voranzubringen."
+ game_concept_great_project_contribution: "Beitrag"
+ game_concept_great_project_contributions: "Beiträge"
+ game_concept_great_project_contribute: "beteiligen"
+ game_concept_great_project_contributed: "Beigetragen"
+ game_concept_great_project_contribution_desc: "Beiträge erlauben es mehreren [Concept('rulers','Herrschern')|E], die Entwicklung eines [Concept('great_project', 'Großvorhabens')|E] zu unterstützen, was ihnen im Gegenzug verschiedene Vorzüge einbringt.\n\nManche Beiträge sind erforderlich, damit ein Großvorhaben überhaupt beginnen kann, während andere wahlweise eingebracht werden können. Verbleibende wahlweise Beiträge können noch für eine gewisse Weile erbracht werden, auch wenn der Fortschritt bereits begonnen hat."
+ game_concept_great_project_contributor: "Beitragender"
+ game_concept_great_project_contributors: "Beitragende"
+ game_concept_great_project_contributor_possessive: "des Beitragenden"
+ game_concept_great_project_contributors_possessive: "der Beitragenden"
+ game_concept_great_project_contributor_desc: "Beitragende [rulers|E], die sich zu mindestens einem [great_project_contribution|E] eines [Concept('great_project', 'Großvorhabens')|E] verpflichten, erhalten im Gegenzug verschiedene Vorzüge.\n\nDer [subject|E] im [realm|E] mit den meisten [great_project_contributions|E] kann [great_project_contributor|E] werden."
+  
+  # Situation 
+ game_concept_dynastic_cycle: "Dynastiekreislauf"
+ game_concept_dynastic_cycle_possessive: "des Dynastiekreislaufs"
+ game_concept_dynastic_cycle_desc: "Der $game_concept_dynastic_cycle$ stellt den gesellschaftlich-politischen Zustand des großen Kaiserreichs von China dar, das die [situation_dynastic_cycle_phases|E] Stabilität, Instabilität und Chaos durchläuft.\n\nEntscheidend für den $game_concept_dynastic_cycle$ ist das [mandate_of_heaven|E], eine Form der [legitimacy|E], die der Kaiser innehat. Geht das Mandat jemals verloren, wird das große Kaiserreich von China #N zerschlagen#! – bis es wieder von jemandem geeint wird, der würdig ist, der Himmelssohn zu sein.#!"
+  
+  #AGOT Modified 
+ # game_concept_situation_dynastic_cycle_phase: "Dynastic Cycle Era" #NT!
+ # game_concept_situation_dynastic_cycle_phases: "Dynastic Cycle Eras" #NT!
+ # game_concept_dynastic_cycle_era_short: "Era" #NT!
+ # game_concept_dynastic_cycle_eras_short: "Eras" #NT!
+ # game_concept_situation_dynastic_cycle_phase_desc: "The socio-political state of the [dynastic_cycle|E].\n\nEras:\n$BULLET$[dynastic_cycle_era_type_stable|E]: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName], [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]\n$BULLET$[dynastic_cycle_era_type_unstable|E]: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName]\n$BULLET$[dynastic_cycle_era_type_chaotic|E]: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]" #NT!
+ # game_concept_dynastic_cycle_era_type_stable: "Stable Era" #NT!
+ # game_concept_dynastic_cycle_era_type_stable_desc: "Stable [dynastic_cycle_era_types|E] present times when the Empire is most prosperous and successful, and the [mandate_of_heaven|E] is strong.\n\nEras: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName], [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]" #NT!
+ # game_concept_dynastic_cycle_era_type_unstable: "Unstable Era" #NT!
+ # game_concept_dynastic_cycle_era_type_unstable_desc: "Unstable [dynastic_cycle_era_types|E] present times when the Empire is in turmoil due to internal or external forces, and the [mandate_of_heaven|E] is wavering.\n\nEras: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName], [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability_conquest').GetName]" #NT!
+ # game_concept_dynastic_cycle_era_type_chaotic: "Chaotic Era" #NT!
+ # game_concept_dynastic_cycle_era_type_chaotic_desc: "Chaotic [dynastic_cycle_era_types|E] present times when the Empire is shattered, and the [mandate_of_heaven|E] is lost - potentially to be regained by those worthy.\n\nThere is only one Chaotic Era: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]" #NT!
+ # game_concept_dynastic_cycle_era_type: "Dynastic Cycle Era Type" #NT!
+ # game_concept_dynastic_cycle_era_types: "Era Types" #NT!
+ # game_concept_dynastic_cycle_era_type_desc: "There are three Era Types in the [dynastic_cycle|E], they categorize the [situation_dynastic_cycle_phases|E] and place each into the three-part repeating nature of the Dynastic Cycle.\n\nEra Types: [dynastic_cycle_era_type_stable|E], [dynastic_cycle_era_type_unstable|E], [dynastic_cycle_era_type_chaotic|E]" #NT!
+ game_concept_situation_dynastic_cycle_phase: "" #NT!
+ game_concept_situation_dynastic_cycle_phases: "" #NT!
+ game_concept_dynastic_cycle_era_short: "" #NT!
+ game_concept_dynastic_cycle_eras_short: "" #NT!
+ game_concept_situation_dynastic_cycle_phase_desc: "" #NT!
+ game_concept_dynastic_cycle_era_type_stable: "" #NT!
+ game_concept_dynastic_cycle_era_type_stable_desc: "" #NT!
+ game_concept_dynastic_cycle_era_type_unstable: "" #NT!
+ game_concept_dynastic_cycle_era_type_unstable_desc: "" #NT!
+ game_concept_dynastic_cycle_era_type_chaotic: "" #NT!
+ game_concept_dynastic_cycle_era_type_chaotic_desc: "" #NT!
+ game_concept_dynastic_cycle_era_type: "" #NT!
+ game_concept_dynastic_cycle_era_types: "" #NT!
+ game_concept_dynastic_cycle_era_type_desc: "" #NT!
+  
+ game_concept_dynastic_cycle_catalyst: "Dynastiekreislauf-Auslöser"
+ game_concept_dynastic_cycle_catalysts: "Dynastiekreislauf-Auslöser"
+ game_concept_dynastic_cycle_catalyst_possessive: "des Dynastiekreislauf-Auslösers"
+ game_concept_dynastic_cycle_catalysts_possessive: "der Dynastiekreislauf-Auslöser"
+ game_concept_dynastic_cycle_catalyst_desc: "$game_concept_situation_catalyst_desc$"
+  
+ game_concept_movement: "Bewegung"
+ game_concept_movements: "Bewegungen"
+ game_concept_movement_possessive: "der Bewegung"
+ game_concept_movements_possessive: "der Bewegungen"
+ game_concept_movement_desc: "Eine Gruppe von [characters|E] mit gemeinsamen Interessen und Zukunftsvisionen für den [dynastic_cycle|E]. Jedes Bewegungsmitglied kann Zugriff auf unterschiedliche [interactions|E] und [decisions|E] besitzen, um den Kreislauf voranzutreiben. Ein [movement_leader|E] ist ein Sprecher, der die Interessen [movement_possessive|E] beim [son_of_heaven|E] vertritt."
+ game_concept_movement_power: "Bewegungsmacht"
+ game_concept_movement_power_i: "@movement_power_icon!"
+  #AGOT Modified 
+ # game_concept_movement_power_desc: "Movement Power represents the political clout of a group involved in the [dynastic_cycle|E]. It is the sum of [personal_movement_power|E] of all of the characters in the group.\n\n#V [movement_power_i|E][EmptyScope.ScriptValue('extremely_high_movement_power_value')]#! unlocks $dismiss_strong_hook_interaction$ [interaction|E], $request_raid_remit_interaction$ [interaction|E] and [GetScheme('raid_estate').GetTypeName] [scheme|E]\n\n#help Power is derived from:\n$BULLET_WITH_TAB$[merit_i][merit_level|E]\n$BULLET_WITH_TAB$[influence_i][influence_level|E]\n$BULLET_WITH_TAB$Age\n$BULLET_WITH_TAB$[movement_power|E] of [disciples|E]\n$BULLET_WITH_TAB$Current Military Strength #weak (less important in [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName])#!\n$BULLET_WITH_TAB$[GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E] #weak (less important in [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName])#!\n$BULLET_WITH_TAB$[GetTrait('governor').GetName( GetNullCharacter )] [trait_level_track_xp|E] #weak (less important in [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName])#!#!" #NT!
+ game_concept_movement_power_desc: "" #NT!
+ game_concept_movement_power_short: "Macht"
+ game_concept_personal_movement_power: "Persönliche Bewegungsmacht"
+ game_concept_personal_movement_power_desc: "$game_concept_personal_movement_power$ gibt an, um wie viel ein Mitglied die Gesamt-[movement_power_short|E] seiner [movement|E] erhöht."
+ game_concept_personal_movement_power_short: "Macht"
+ game_concept_movement_leader: "Bewegungsanführer"
+ game_concept_movement_leader_possessive: "des Bewegungsanführers"
+ game_concept_movement_leaders: "Bewegungsanführer"
+ game_concept_movement_leaders_possessive: "der Bewegungsanführer"
+ game_concept_movement_leader_short: "Anführer"
+  #AGOT Modified 
+ # game_concept_movement_leader_desc: "A character leading the [movement|E], delegated as the only member allowed to directly speak with [son_of_heaven|E] to further the [movements|E] agenda using [GetDecision('movement_petition_decision').GetName] [decision|E].\n\n#help To become a leader you either have to have the highest amount of [movement_power_i][movement_power|E] on previous leader's death or defeat the current leader in [GetActivityType('activity_debate').GetName] [activity|E].#!" #NT!
+ game_concept_movement_leader_desc: "A character leading the [movement|E], delegated as the only member allowed to directly speak with [son_of_heaven|E] to further the [movements|E] agenda." #NT!
+ game_concept_favored_era: "bevorzugte Epoche"
+ game_concept_favored_era_possessive: "der bevorzugten Epoche"
+ game_concept_favored_era_desc: "Die bevorzugte Epoche ist der Wille des Himmels, der sich durch den [son_of_heaven|E] im Zuge des [Concept('dynastic_cycle', 'Dynastiekreislaufs')|E] manifestiert. Sie bestimmt darüber, welche [dynastic_cycle_era_type_stable|E] eintritt, sobald die [dynastic_cycle_era_type_unstable|E] vorüber ist."
+ game_concept_favored_movement: "Bevorzugte Bewegung"
+  #AGOT Modified 
+ # game_concept_favored_movement_desc: "The $game_concept_favored_movement$ is the [movement|E] that has gained the support of [son_of_heaven|E].\n$BULLET_WITH_TAB$ Members have higher [candidate_scores|E] for any [titles|E] in [SelectLocalization( GetPlayer.IsValid, 'game_concept_favored_movement_desc_ingame', 'h_china' )]\n$BULLET_WITH_TAB$Petitions from [GetDecision('movement_petition_decision').GetName] [decision|E] are more likely to be accepted\n$BULLET_WITH_TAB$[dynastic_cycle_possessive|E] [situation_catalyst_catalysts|E] are triggered based on which [movement|E] is favored\n$BULLET_WITH_TAB$Gains access to [GetDecision('favored_movement_consults_heaven_decision').GetName] [decision|E]\n\n#help To become a favored movement you have to defeat the current favored movement leader in [GetActivityType('activity_debate').GetName] [activity|E].#!" #NT!
+ game_concept_favored_movement_desc: "The $game_concept_favored_movement$ is the [movement|E] that has gained the support of [son_of_heaven|E]." #NT!
+  #AGOT Modified 
+ # game_concept_favored_movement_desc_ingame: "[GetTitleByKey('h_china').GetDefinitiveName]" #NT!
+ game_concept_favored_movement_desc_ingame: "" #NT!
+ game_concept_favored_movement_possessive: "der bevorzugten Bewegung"
+ game_concept_favored_movement_short: "Bevorzugt"
+ game_concept_disciple: "Zögling"
+ game_concept_disciples: "Zöglinge"
+ game_concept_disciple_possessive: "des Zöglings"
+ game_concept_disciples_possessive: "der Zöglinge"
+  #AGOT Modified 
+ # game_concept_disciple_desc: "$game_concept_disciples$ are [characters|E] that respect the high status of an [elder|E] and follow their teachings, up to a [disciple_limit_short|E].\n\nThey can access to the #high $request_mentoring_interaction$#! [character_interaction|E] #weak (Scheme)#! to increase their [skills|E], and the #high $celestial_request_elders_support_interaction$#! [character_interaction|E] to obtain [gold|E], [courtiers|E] and more.\n\n$disciple_elder_benefits_tt$" #NT!
+ game_concept_disciple_desc: "$game_concept_disciples$ sind [characters|E], die den hohen Status eines [Concept('elder', 'Ältesten')|E] respektieren und sich an dessen Lehre halten, bis zu einer gewissen [disciple_limit_short|E].\n\nSie erhalten Zugriff auf die [character_interaction|E] #high $request_mentoring_interaction$#! #weak (Komplott)#!, um ihre [skills|E] zu verbessern und die [character_interaction|E] #high $celestial_request_elders_support_interaction$#!, um [gold|E], [courtiers|E] und mehr zu erlangen.\n\n$disciple_elder_benefits_tt$"
+  #AGOT Modified 
+ # disciple_elder_benefits_tt: "A $game_concept_disciple$ and an [elder|E]:\n$BULLET_WITH_TAB$Obtain more [merit|E]\n$BULLET_WITH_TAB$Are less likely to use [hostile_schemes|E] against each other\n$BULLET_WITH_TAB$Are more likely to accept [interactions|E] sent by the other\n$BULLET_WITH_TAB$Are more likely to use friendly [interactions|E] on the other #weak (i.e. $gift_interaction$, $invite_to_council_position_interaction$, etc.)#!\n$BULLET_WITH_TAB$Will both belong to the $game_concept_elder_possessive$ [movement|E]" #NT!
+ disciple_elder_benefits_tt: "A $game_concept_disciple$ and an [elder|E]:\n$BULLET_WITH_TAB$Obtain more [merit|E]\n$BULLET_WITH_TAB$Are less likely to use [hostile_schemes|E] against each other\n$BULLET_WITH_TAB$Are more likely to accept [interactions|E] sent by the other\n$BULLET_WITH_TAB$Are more likely to use friendly [interactions|E] on the other #weak (i.e. $gift_interaction$, $invite_to_council_position_interaction$, etc.)#!" #NT!
+ game_concept_disciple_limit: "Zöglingsschwelle"
+ game_concept_disciple_limit_short: "Schwelle"
+ game_concept_disciple_limit_desc: "Die $game_concept_disciple_limit$ gibt an, wie viele [disciples|E] ein [elder|E] auf einmal haben kann.\n\nDie Schwelle liegt üblicherweise bei [EmptyScope.ScriptValue('disciples_limit_base_value')|V0]. Sie kann erhöht werden – zum Beispiel durch die Verbesserung eines [Concept('domicile', 'Wohnsitzes')|E] mit bestimmten [Concept('domicile_buildings', 'Wohnsitzgebäuden')|E]."
+ game_concept_elder: "Ältester"
+ game_concept_elders: "Älteste"
+ game_concept_elder_possessive: "des Ältesten"
+ game_concept_elders_possessive: "der Ältesten"
+ game_concept_elder_desc: "Ein $game_concept_elder$ ist ein [character|E] mit einem oder mehreren [disciples|E], die den Lehren $game_concept_elders_possessive$ folgen.\n\n$disciple_elder_benefits_tt$"
+  
+ game_concept_disaster: "Katastrophe"
+ game_concept_disasters: "Katastrophen"
+ game_concept_natural_disaster: "Naturkatastrophe"
+ game_concept_natural_disasters: "Naturkatastrophen"
+ game_concept_disaster_desc: "$game_concept_natural_disasters$ umfassen [floods|E] und [earthquakes|E].\n\nEin $game_concept_natural_disaster$ führt zum [character_death_death|E] vieler [characters|e] in den betroffenen [counties|E] und wird weitere negative Auswirkungen auf [development|E], [county_opinion|E] und [control|E] entsprechend der Schwere der Katastrophe haben.\n\nDie durch eine $game_concept_natural_disaster$ verursachte Verwüstung kann ungeschehen gemacht und das Land neu belebt werden, indem man ein Hilfsmaßnahmen-[great_project|E] abschließt."
+  
+ game_concept_earthquake: "Erdbeben"
+ game_concept_earthquakes: "Erdbeben"
+ game_concept_earthquake_desc: "Ein $game_concept_earthquake$ ist eine Art von [natural_disaster|E], die eine schwere und plötzliche Zerstörung in einer kleinen Zahl von [counties|E] verursacht.\n$game_concept_earthquakes$ können nur in Regionen auftreten, die anfälliger für seismische Aktivitäten sind."
+  
+ game_concept_flood: "Flut"
+ game_concept_floods: "Fluten"
+ game_concept_flooded: "überflutet"
+ game_concept_flood_desc: "Eine $game_concept_flood$ ist eine Art von [natural_disaster|E], die wachsenden Schaden in einer großen Zahl an [counties|E] verursacht.\n$game_concept_floods$ können nur an den Ufern großer Flüsse auftreten."
+  
+ game_concept_government_bureaucratic_type: "Bürokratisch"
+ game_concept_government_bureaucratic_type_desc: "Einige [governments|E] sind bürokratisch. Es sind stark zentralisierte Regierungen, die sich üblicherweise auf [governors|E], [appointment|E] und landlose [noble_families|E] verlassen, um [provinces|E] im [realm|E] zu verwalten.\n\nHäufig findet man bei Ihnen auch [domiciles|E], [influence|E] und [title_men_at_arms|E].\n\nEs gibt verschiedene bürokratische Regierungen:\n$BULLET_WITH_TAB$[GetGovernment('administrative_government').GetNameWithIcon]\n$BULLET_WITH_TAB$[GetGovernment('celestial_government').GetNameWithIcon]\n$BULLET_WITH_TAB$[GetGovernment('meritocratic_government').GetNameWithIcon]\n$BULLET_WITH_TAB$[GetGovernment('japan_administrative_government').GetNameWithIcon]\n$BULLET_WITH_TAB$[GetGovernment('steppe_admin_government').GetNameWithIcon]"
+ game_concept_government_bureaucratic_gov: "Bürokratische Regierung"

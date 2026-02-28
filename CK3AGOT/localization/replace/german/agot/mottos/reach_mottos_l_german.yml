@@ -1,0 +1,183 @@
+﻿l_german:
+  #NOTE: follows the order of dynasties in the \common\dynasties\ files 
+  ### REACH DYNASTIES/CADET BRANCHES ### 
+  #Great Houses 
+ dynn_agot_Gardener_motto: "By Our Hand" #NT!
+ dynn_Tyrell_motto: "Hoch hinaus"
+  
+  #Landed Houses 
+ dynn_Ambrose_motto: "Niemals ausruhen"
+ dynn_Appleton_motto: "Früchte tragend"
+ dynn_Ashford_motto: "Unsere Sonne scheint hell"
+ dynn_Ball_motto: "Heißblütig"
+ dynn_Beesbury_motto: "Vorsicht vor unserem Stich"
+ dynn_Blackbar_motto: "Singt das eiserne Band"
+ dynn_Bridges_motto: "Wir ertragen"
+ dynn_Bulwer_motto: "Tod vor Schande"
+ dynn_Bushy_motto: "Beachte die Hecken"
+ dynn_Caswell_motto: "Tapferkeit durch Candor"
+ dynn_Chester_motto: "Keinen Schritt weiter"
+ dynn_Cockshaw_motto: "Erblicke unsere Großartigkeit"
+ dynn_Conklyn_motto: "Nicht knien!"
+ dynn_Cordwayner_motto: "Lebe nicht in Eitelkeit"
+ dynn_Costayne_motto: "Durch den Willen der Götter"
+ dynn_Crane_motto: "Wachsamkeit durch Flucht"
+ dynn_Cuy_motto: "Hell aufsteigend"
+ dynn_Dunn_motto: "Zweifach geopfert"
+ dynn_Durwell_motto: "Wir hüten die Schwachen"
+ dynn_Florent_motto: "Durch List maskiert"
+ dynn_Footly_motto: "Schreitet vorsichtig hier"
+ dynn_Fossoway_motto: "Ein Geschmack von Ruhm"
+ dynn_FossowayNB_motto: "Neue Ehrungen, neuer Ruhm"
+ dynn_Graceford_motto: "Bewirke ihren Willen"
+ dynn_Goldwyne_motto: "Sweet to Sip"
+ dynn_Graves_motto: "Schone diese Steine"
+ dynn_Grimm_motto: "Härter als Stahl"
+ dynn_Hastwyck_motto: "Keiner so pflichtbewusst"
+ dynn_Hewett_motto: "Brich über uns herein"
+ dynn_Hightower_motto: "Wir belichten den Weg"
+ dynn_Hunt_motto: "Keine leichte Beute"
+ dynn_Hutcheson_motto: "Diese Sonne wird bluten"
+ dynn_Inchfield_motto: "Ein weiterer Schritt"
+ dynn_Kidwell_motto: "Ewige Hingabe"
+ dynn_Leygood_motto: "Wir kamen mit dem Sturm"
+ dynn_Lowther_motto: "Meister der Freude"
+ dynn_Lyberr_motto: "Wir suchten Abenteuer"
+ dynn_Meadows_motto: "Blühende Loyalität"
+ dynn_Merryweather_motto: "Sieh unsere Fülle"
+ dynn_Middlebury_motto: "Unter dem Weißdornbaum"
+ dynn_Mullendore_motto: "Würdevoll in der Höhe"
+ dynn_Norcross_motto: "Niemals ergeben!"
+ dynn_Norridge_motto: "Wahrlich schießen"
+ dynn_Oakheart_motto: "Unsere Wurzeln reichen tief"
+ dynn_Oldflowers_motto: "Immergrün"
+ dynn_Orme_motto: "Süßlich singend"
+ dynn_Osgrey_motto: "Standhaft, Standsicher"
+ dynn_Peake_motto: "Wir Drei stehen"
+ dynn_Pommingham_motto: "Von vielen Samen"
+ dynn_Redding_motto: "Sättigt Euch"
+ dynn_Redwyne_motto: "Die Frucht des Weinstocks"
+ dynn_Rhysling_motto: "Versuche so sehr du willst"
+ dynn_Risley_motto: "Gerechtigkeit gesprochen"
+ dynn_Rowan_motto: "Unbändigender Entschlossenheit"
+ dynn_Roxton_motto: "Der erste Schnitt"
+ dynn_Serry_motto: "Der Biss der Dornen"
+ dynn_Shermer_motto: "Möge es und gut gehen"
+ dynn_Sloane_motto: "Bei Tag oder Nacht"
+ dynn_Stackhouse_motto: "Beschlage Dein Pferd"
+ dynn_Strickland_motto: "Loyal Yet Free"
+ dynn_Tarly_motto: "Erster in der Schlacht"
+ dynn_Uffering_motto: "Erbauer und Verteidiger"
+ dynn_Varner_motto: "Reines Wesen"
+ dynn_Vyrwel_motto: "Vor keinem außer einem knien"
+ dynn_Webber_motto: "Wir spinnen den Stahl"
+ dynn_WebberHW_motto: "From Above" #NT!
+ dynn_Westbrook_motto: "Verteidiger der Tugend"
+ dynn_Willum_motto: "Während Wir verbleiben"
+ dynn_Woodwright_motto: "The Strong do not Wither"
+ dynn_Wythers_motto: "Von dem, was wächst"
+ dynn_Yelshire_motto: "Keiner so groß"
+ dynn_Dalbridge_motto: "Let Them Fly"
+ dynn_Archay_motto: "Don't Look Back"
+ dynn_Addey_motto: "We Wield These Talons"
+ dynn_Stoops_motto: "Up and Up"
+ dynn_Dunford_motto: "The Betrayal Still Stings" #NT!
+  
+  #Modcanon Houses 
+ dynn_Enright_motto: "From Battle Blooms"
+ dynn_Deadsing_motto: "From the Other Side"
+ dynn_Rummand_motto: "Our Cups, Our Hearts"
+ dynn_Marchment_motto: "Victory in Truth"
+ dynn_Janney_motto: "With Our Brother's Bravery"
+ dynn_Gates_motto: "Misdirect, Manipulate, Manage"
+ dynn_Twinrose_motto: "Knowledge is Power, Guard It Well" #NT!
+ dynn_Harme_motto: "None Upon You" #NT!
+ dynn_Darn_motto: "Condemned" #NT!
+ dynn_Kiteberry_motto: "For Some Are Poisonous" #NT!
+ dynn_Tillwick_motto: "From the Chaff" #NT!
+ dynn_Holly_motto: "Boughs Of Thorns" #NT!
+ dynn_Wyse_motto: "No Name More Fitting" #NT!
+ dynn_Persemon_motto: "With Silver Tongue" #NT!
+ dynn_Nodding_motto: "Our Claws Dig Deep" #NT!
+ dynn_Juniper_motto: "Few Ask Again" #NT!
+ dynn_Lahey_motto: "We Are the Ale" #NT!
+ dynn_Roundtree_motto: "Our Trunks Are Thicker" #NT!
+ dynn_Foy_motto: "One Bittersweet Bite" #NT!
+ dynn_Wether_motto: "Dared to Abide" #NT!
+ dynn_Litchmore_motto: "From Darkest Depths" #NT!
+ dynn_Meager_motto: "Once, They Jeered" #NT!
+ dynn_Button_motto: "On Boar's Doorstep" #NT!
+ dynn_Tharp_motto: "String Them Up" #NT!
+ dynn_Itchweed_motto: "Scratch, Scratch, Scratch" #NT!
+ dynn_Winfler_motto: "We Know the Land" #NT!
+ dynn_Converlon_motto: "Quick to Bloom" #NT!
+ dynn_Lush_motto: "Wealth From the Branch" #NT!
+ dynn_Averdyre_motto: "We Remember the Merman" #NT!
+ dynn_Everran_motto: "Escaped No Longer" #NT!
+ dynn_Whitaker_motto: "Take the Helm" #NT!
+ dynn_Eander_motto: "Mourn the Ashes" #NT!
+ dynn_Bellamy_motto: "Salt the Beds, Salt the Fields" #NT!
+ dynn_Deckler_motto: "In View Of Greatness" #NT!
+ dynn_Harvey_motto: "As Ancient As the Heart" #NT!
+ dynn_Lashings_motto: "Until Morale Improves" #NT!
+ dynn_Hythe_motto: "At First Sight" #NT!
+ dynn_Silkbraid_motto: "Skilled Hands Make Quick Work" #NT!
+ dynn_Rosvenore_motto: "Evergreen Vitality" #NT!
+ dynn_Oakley_motto: "Do Not Discount the Young" #NT!
+ dynn_Singer_motto: "Oh, How You Shrieked" #NT!
+ dynn_Blume_motto: "From Battlefield to Market Stall" #NT!
+ dynn_Fairley_motto: "Find the Answer" #NT!
+ dynn_Eilish_motto: "We Don't Belong to Anyone" #NT!
+ dynn_Larch_motto: "Tread Carefully" #NT!
+ dynn_Stafford_motto: "Man the Walls" #NT!
+ dynn_Strum_motto: "Listen Closely" #NT!
+ dynn_Cobb_motto: "The Stones Tell Tales" #NT!
+ dynn_Winnow_motto: "Sharpen the Scythes" #NT!
+ dynn_Cropp_motto: "Treasure These Moments" #NT!
+ dynn_Threshingham_motto: "The Harvest Awaits" #NT!
+ dynn_Gamble_motto: "Never Tell Us the Odds" #NT!
+ dynn_Thistle_motto: "Our Hands Know Struggle" #NT!
+ dynn_Macey_motto: "It All Crashes Down" #NT!
+ dynn_Bliss_motto: "Bring Me Another" #NT!
+ dynn_Gallant_motto: "Like the Warrior" #NT!
+ dynn_Spruce_motto: "Heft the Axe" #NT!
+ dynn_Ross_motto: "Few So Brave, None So Keen" #NT!
+ dynn_Verge_motto: "Tempt the Stranger" #NT!
+ dynn_Ronning_motto: "For One More Dawn" #NT!
+ dynn_Lavenderne_motto: "In Vibrant Tabards" #NT!
+ dynn_Astley_motto: "We Know the Game" #NT!
+ dynn_Bettencer_motto: "Always Smiling" #NT!
+ dynn_Sorley_motto: "Vanguard's Kin" #NT!
+ dynn_Whitewater_motto: "Only the Purest" #NT!
+ dynn_Amandine_motto: "Rich Of Mind, Rich Of Body" #NT!
+ dynn_Foxglove_motto: "Quicker Than the Eye" #NT!
+ dynn_Goode_motto: "Who Are You to Judge?" #NT!
+ dynn_Combe_motto: "We Know But One Queen" #NT!
+ dynn_Steady_motto: "Pikes Forward!" #NT!
+ dynn_Potter_motto: "Spin the Wheel" #NT!
+ dynn_Rodden_motto: "No Finer Steeds" #NT!
+ dynn_Sawyer_motto: "Down the Middle" #NT!
+ dynn_Courtnall_motto: "One Eye Open" #NT!
+ dynn_Cask_motto: "It All Spills" #NT!
+ dynn_Oates_motto: "Obey the Father" #NT!
+ dynn_Quayle_motto: "Where Fates Cross" #NT!
+ dynn_Glasser_motto: "We See Through" #NT!
+ dynn_Rochalan_motto: "We Man the Ships" #NT!
+ dynn_Draper_motto: "Our Steel Is Dyed" #NT!
+ dynn_Festune_motto: "Celebrate While You Can" #NT!
+ dynn_Posey_motto: "First, the Cough" #NT!
+ dynn_Ashridge_motto: "Where Ravens Roost" #NT!
+ dynn_Lovett_motto: "Tall, Thorough, Thriving" #NT!
+ dynn_Rhoades_motto: "Our Faith In Faith" #NT!
+ dynn_Bowles_motto: "We Kill On Our Fields" #NT!
+ dynn_Stonecrab_motto: "Our Claws Close" #NT!
+ dynn_Cupps_motto: "We Take Our Fill" #NT!
+ dynn_Percy_motto: "Verdant, Valiant, Vigilant" #NT!
+ dynn_Coneflowers_motto: "None Can Resist" #NT!
+  
+  #Baron Houses 
+ dynn_Summerchild_motto: "Keiner so toll"
+ dynn_Greenhill_motto: "Ewig aufsteigend"
+  
+  #Landless Houses 
+ dynn_Duckfield_motto: "Bound by Steel"

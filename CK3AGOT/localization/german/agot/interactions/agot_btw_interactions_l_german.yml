@@ -1,0 +1,37 @@
+﻿l_german:
+ agot_btw_nightswatch_petition_non_rc: "Bittgesuch an Euren Herrscher"
+ agot_btw_wildling_call_to_arms: "Ruf zu den Waffen der Wildlinge"
+  
+ agot_btw_interaction_events.0001.opening: "A Call to Arms" #NT!
+ agot_btw_interaction_events.0001.desc: "For too long, the black crows have picked apart the lands of the free folk like carrion — feasting on the death of our men, women, and children.\n\nBefore the kneelers came with their crowns and steel swords, all men shared this land. #bold And so it shall be again.#!\n\nJoin me, and we will bring a united fight against the kneelers!" #NT!
+ agot_btw_interaction_events.0001.a: "Of course, I will join!" #NT!
+ agot_btw_interaction_events.0001.b: "I will join... #italic for a price.#!" #NT!
+ agot_btw_interaction_events.0001.c: "Ha! I would never join the likes of you, [wildling_caller.GetFirstNameNoTooltip]!" #NT!
+  
+ agot_btw_interaction_events.0002.opening: "To Arms!" #NT!
+ agot_btw_interaction_events.0002.desc: "Once, long before the black crows descended upon us, the free folk lived in unity with the land. #bold Together, we may see that day again!#!\n\nThe kneelers will tremble in their steel armor when they catch sight of us — free folk, united in our fight against them!" #NT!
+ agot_btw_interaction_events.0002.a: "Truly a sight to behold!" #NT!
+  
+  # FireFighter451 TODO It may be useful to add tooltips to these options. 
+ agot_btw_interaction_events.0003.opening: "For a Price..." #NT!
+ agot_btw_interaction_events.0003.desc: "I have no love in my heart for the kneelers, nor the black crows that protect the Wall.\n\nBut I do have love in my heart for gold, so I'll consider joining your cause if you'll meet my demands." #NT!
+ agot_btw_interaction_events.0003.a: "I need all the help I can afford." #NT!
+ agot_btw_interaction_events.0003.b: "My kin is worth more than gold." #NT!
+ agot_btw_interaction_events.0003.c: "You'll regret the day you made a beggar of me..." #NT!
+  
+ agot_btw_interaction_events.0004.opening: "On Your Own" #NT!
+ agot_btw_interaction_events.0004.desc: "I cannot imagine a worse way to die than joining your shit war against the kneelers.\n\nCome to think of it, who is worse? The bloody crows, or you, [ROOT.Char.GetCulture.GetName]." #NT!
+ agot_btw_interaction_events.0004.a: "That vile fiend!" #NT!
+  
+ agot_btw_interaction_events.0005.opening: "Worth More Than Gold" #NT!
+ agot_btw_interaction_events.0005.desc: "I cannot meet your demands with gold, but I can give you something worth far more...\n\n[wildling_potential_house_hostage.GetFullName] is kin, of my own blood, and will serve as a worthy hostage during our war to come." #NT!
+ agot_btw_interaction_events.0005.a: "I cannot refuse such an offer." #NT!
+ agot_btw_interaction_events.0005.b: "Ha! A good jest." #NT!
+  
+ agot_btw_interaction_events.0006.opening: "To Arms!" #NT!
+ agot_btw_interaction_events.0006.desc: "You've proven yourself to be more than just talk — and that means an awful lot to us free folk.\n\nI'll join this war of yours. The kneelers will tremble at the sight of us." #NT!
+ agot_btw_interaction_events.0006.a: "Good to hear." #NT!
+  
+ agot_btw_interaction_events.0007.opening: "Enjoy Dying While I Feast" #NT!
+ agot_btw_interaction_events.0007.desc: "To the foolish [ROOT.Char.GetTitledFirstNameNoTooltip], your attempts to buy my allegiance have left me in good humors. #bold To think I'd even join the likes of you in battle!#!\n\nI cannot stop laughing..." #NT!
+ agot_btw_interaction_events.0007.a: "Damn the scurrilous fiend!" #NT!

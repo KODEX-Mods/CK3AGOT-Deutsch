@@ -30,21 +30,28 @@
   #AGOT Modified 
  #warhorse.0003.desc: "The mythological world is rich in grandeur, and names for horses."
   #AGOT Disabled 
- # warhorse.0003.desc: "The higher mysteries are rich in grandeur, and names for horses."
- # warhorse.0003.llamrei: "Llamrei — after the horse of King Arthur!"
- # warhorse.0003.sleipnir: "Sleipnir — same as the steed that carried Oden!"
- # warhorse.0003.uchchaihshravas: "Uchchaihshravas — the mount of the Sun-God!"
- # warhorse.0003.dadhi_kra: "Dadhi-krā — the morning sun!"
- # warhorse.0003.devadatta: "Devadatta — same as Kalki's own horse!"
- # warhorse.0003.keshi: "Keshi — after the horse-demon!"
- # warhorse.0003.kanthaka: "Kanthaka — for Gautama Buddha's trusty steed!"
- # warhorse.0003.burko: "Burko — like a magical horse from folklore!"
- # warhorse.0003.aranjagaan: "Aranjagaan — the mount from the Epic of Jangar!"
- # warhorse.0003.haizum: "Haizum — the horse of the archangel Gabriel!"
- # warhorse.0003.buraq: "Burāq — after the creature that carried prophets!"
- # warhorse.0003.balius: "Balius — one of Achilles' own!"
- # warhorse.0003.xanthos: "Xanthos — the name of Achilles' other horse would fit better!"
- # warhorse.0003.boreas: "Boreas — the ancient Greek god of the north wind!"
+ #warhorse.0003.desc: "The mythological world is rich in grandeur, and names for horses."
+ #warhorse.0003.llamrei: "Llamrei — after the horse of King Arthur!" #NT!
+ #warhorse.0003.sleipnir: "Sleipnir — same as the steed that carried Odin!" #NT!
+ #warhorse.0003.uchchaihshravas: "Uchchaihshravas — the mount of the Sun-God!" #NT!
+ #warhorse.0003.dadhi_kra: "Dadhi-krā — the morning sun!" #NT!
+ #warhorse.0003.devadatta: "Devadatta — same as Kalki's own horse!" #NT!
+ #warhorse.0003.keshi: "Keshi — after the horse-demon!" #NT!
+ #warhorse.0003.kanthaka: "Kanthaka — for Gautama Buddha's trusty steed!" #NT!
+ #warhorse.0003.burko: "Burko — like a magical horse from folklore!" #NT!
+ #warhorse.0003.aranjagaan: "Aranjagaan — mount of the great warrior Jangar!" #NT!
+ #warhorse.0003.haizum: "Haizum — the horse of the archangel Gabriel!" #NT!
+ #warhorse.0003.buraq: "Burāq — after the creature that carried prophets!" #NT!
+ #warhorse.0003.balius: "Balius — one of Achilles' own!" #NT!
+ #warhorse.0003.xanthos: "Xanthos — the name of Achilles' other horse would fit better!" #NT!
+ #warhorse.0003.boreas: "Boreas — the ancient Greek god of the north wind!" #NT!
+ #warhorse.0003.khiimori: "Khiimori, the Wind Horse, symbol of the soul!" #NT!
+ #warhorse.0003.rlung_rta: "Rlung Rta, a carrier of prayers and good fortune!" #NT!
+ #warhorse.0003.jonon_khar: "Jonon Khar, a flying horse who cries out like the horsehead fiddle." #NT!
+ #warhorse.0003.tulpar: "Tulpar — a divine, winged beast of matchless speed." #NT!
+ #warhorse.0003.aranzhale: "Aranzhale, after another of Jangar's steeds." #NT!
+ #warhorse.0003.oyomaa: "Oyomaa, after the fine dark beast of Mengen Shigshirge." #NT!
+ #warhorse.0003.rakhsh: "Rakhsh, from the #EMP Shahnameh#!, with lion's form and elephant strength." #NT!
   
  warhorse.0004.desc: "Ein Pferd sollte den Namen einer niederen Kreatur erhalten, da es ja nun einmal eine solche ist."
   #AGOT Modified 
@@ -59,6 +66,7 @@
   #AGOT Modified 
  #warhorse.0004.d: "Glitterhoof"
  warhorse.0004.d: "Lächler"
+ warhorse.0004.courser: "Läufer."
   
  warhorse.1001.t: "[ROOT.Char.Custom('WarhorseStoryName')|U]: Das treue Pferd"
  warhorse.1001.desc: "Ein berühmter Ausbilder ist an mich herangetreten, nachdem er Gerüchte über mein mächtiges Schlachtross gehört hat und bietet mir nun seine Dienste an.\n\n„Alles, was ich im Gegenzug dafür verlange, ist eine kleine Vergütung.“"

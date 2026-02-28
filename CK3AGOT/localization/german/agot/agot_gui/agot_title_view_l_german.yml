@@ -1,4 +1,0 @@
-﻿l_german:
- SAME_CULTURE_NOBLE: "[GetPlayer.GetCulture.GetNameNoTooltip]"
- SAME_CULTURE_NOBLE_VALYRIAN: "Westerosi-Valyrisch"
- TITLE_HISTORY_CHARNAME: "[Character.GetCharacterViewNameNicknamedNoTooltipRegnal] [Character.Custom('TitleHistorySurnameSwitch')]" #NT!

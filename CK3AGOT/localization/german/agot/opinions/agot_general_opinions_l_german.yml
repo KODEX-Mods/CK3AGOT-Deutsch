@@ -1,0 +1,238 @@
+﻿l_german:
+  ######################## 
+  ###Kingsguard Opinions## 
+  ######################## 
+ courtly_lowborn_kingsguard_opinion: "Appointed a Lowborn to the Kingsguard"
+ zealot_infidel_kingsguard_opinion: "Appointed a Heathen to the Kingsguard"
+ broke_vows_opinion: "Eidbrecher"
+  
+  ###################### 
+  ###Culture Opinions## 
+  ###################### 
+ children_race_opinion: "$children_race$ Opinion" #NT!
+ dragon_race_opinion: "$dragon_race$ Opinion" #NT!
+ giant_race_opinion: "$giant_race$ Opinion" #NT!
+ east_children_race_opinion: "$east_children_race$ Opinion" #NT!
+ east_giant_race_opinion: "$east_giant_race$ Opinion" #NT!
+ fisher_queen_race_opinion: "$fisher_queen_race$ Opinion" #NT!
+ other_race_opinion: "$other_race$ Opinion" #NT!
+ mazemaker_race_opinion: "$mazemaker_race$ Opinion" #NT!
+ andal_original_opinion: "$andal_original$ Opinion" #NT!
+ andalosi_opinion: "$andalosi$ Opinion"
+ axeman_opinion: "$axeman$ Opinion"
+ crownlander_opinion: "$crownlander$ Opinion" #NT!
+ sandman_opinion: "$sandman$ Opinion" #NT!
+ vineman_opinion: "$vineman$ Opinion" #NT!
+ groveman_opinion: "$groveman$ Opinion" #NT!
+ honeywiner_opinion: "$honeywiner$ Opinion" #NT!
+ manderman_opinion: "$manderman$ Opinion" #NT!
+ shieldman_opinion: "$shieldman$ Opinion" #NT!
+ riverman_main_opinion: "$riverman_main$ Opinion" #NT!
+ bay_riverman_opinion: "$bay_riverman$ Opinion" #NT!
+ cape_riverman_opinion: "$cape_riverman$ Opinion" #NT!
+ green_riverman_opinion: "$green_riverman$ Opinion" #NT!
+ highland_riverman_opinion: "$highland_riverman$ Opinion" #NT!
+ lake_riverman_opinion: "$lake_riverman$ Opinion" #NT!
+ rush_riverman_opinion: "$rush_riverman$ Opinion" #NT!
+ cape_stormlander_opinion: "$cape_stormlander$ Opinion" #NT!
+ hook_stormlander_opinion: "$hook_stormlander$ Opinion" #NT!
+ stormlander_main_opinion: "$stormlander_main$ Opinion" #NT!
+ tarthman_opinion: "$tarthman$ Opinion" #NT!
+ marcher_opinion: "$marcher$ Opinion"
+ bite_valeman_opinion: "$bite_valeman$ Opinion" #NT!
+ finger_valeman_opinion: "$finger_valeman$ Opinion" #NT!
+ valeman_opinion: "$valeman_main$ Opinion" #NT!
+ sisterman_opinion: "$sisterman$ Opinion" #NT!
+ valeman_upper_opinion: "$valeman_upper$ Opinion" #NT!
+ green_westerman_main_opinion: "$green_westerman$ Opinion" #NT!
+ hill_westerman_main_opinion: "$hill_westerman$ Opinion" #NT!
+ westerman_main_opinion: "$westerman_main$ Opinion" #NT!
+ shore_westerman_main_opinion: "$shore_westerman$ Opinion" #NT!
+ crackclaw_opinion: "$crackclaw$ Opinion" #NT!
+ first_man_opinion: "$first_man$ Opinion" #NT!
+ barrowman_opinion: "$barrowman$ Opinion"
+ bearman_opinion: "$bearman$ Opinion"
+ crannogman_opinion: "$crannogman$ Opinion"
+ harborman_opinion: "$harborman$ Opinion"
+ krakenman_opinion: "$krakenman$ Opinion"
+ northern_clan_opinion: "$northern_clan$ Opinion" #NT!
+ northman_opinion: "$northman$ Opinion"
+ stoneborn_opinion: "$stoneborn$ Opinion" #NT!
+ wolfswood_clansman_opinion: "$wolfswood_clansman$ Opinion"
+ braavosi_opinion: "$braavosi$ Meinung"
+ essarian_opinion: "$essarian$ Opinion" #NT!
+ lorathi_opinion: "$lorathi$ Opinion" #NT!
+ norvoshi_opinion: "$norvoshi$ Opinion"
+ pentoshi_opinion: "$pentoshi$ Opinion"
+ nonteloshi_opinion: "$nonteloshi$ Opinion" #NT!
+ qohorik_opinion: "$qohorik$ Opinion"
+ hartalari_opinion: "$hartalari$ Opinion"
+ lyseni_opinion: "$lyseni$ Opinion"
+ myrish_opinion: "$myrish$ Opinion"
+ tyroshi_opinion: "$tyroshi$ Opinion"
+ volantene_opinion: "$volantene$ Opinion"
+ ghaeni_opinion: "$ghaeni$ Opinion" #NT!
+ ghardaqi_opinion: "$ghardaqi$ Opinion" #NT!
+ ghiscari_original_opinion: "$ghiscari_original$ Opinion" #NT!
+ shuzduni_opinion: "$shuzduni$ Opinion" #NT!
+ hazdahni_opinion: "$hazdahni$ Opinion" #NT!
+ astapori_opinion: "$astapori$ Opinion" #NT!
+ meereenese_opinion: "$meereenese$ Opinion" #NT!
+ yunkaii_opinion: "$yunkaii$ Opinion" #NT!
+ gorgari_opinion: "$gorgari$ Opinion" #NT!
+ goroshari_opinion: "$goroshari$ Opinion" #NT!
+ zamettari_opinion: "$zamettari$ Opinion" #NT!
+ dothraki_opinion: "$dothraki$ Opinion"
+ lhazareen_opinion: "$lhazareen$ Opinion" #NT!
+ omberi_opinion: "$omberi$ Opinion" #NT!
+ hairy_forest_opinion: "$hairy_forest$ Opinion" #NT!
+ hairy_isle_opinion: "$hairy_isle$ Opinion" #NT!
+ hairy_rivers_opinion: "$hairy_rivers$ Opinion" #NT!
+ bayasabhadan_opinion: "$bayasabhadan$ Opinion" #NT!
+ hyrkoonan_original_opinion: "$hyrkoonan_original$ Opinion" #NT!
+ kayakayanayan_opinion: "$kayakayanayan$ Opinion" #NT!
+ shamyrianan_opinion: "$shamyrianan$ Opinion" #NT!
+ shan_ren_opinion: "$shan_ren$ Opinion" #NT!
+ ibbatese_opinion: "$ibbatese$ Opinion" #NT!
+ ibbenese_opinion: "$ibbenese$ Opinion" #NT!
+ sarese_opinion: "$sarese$ Opinion" #NT!
+ greenborn_opinion: "$greenborn$ Opinion" #NT!
+ ironborn_opinion: "$ironborn$ Opinion"
+ jade_islander_opinion: "$jade_islander$ Opinion" #NT!
+ lengii_opinion: "$lengii$ Opinion" #NT!
+ manticorian_opinion: "$manticorian$ Opinion" #NT!
+ marahaiian_opinion: "$marahaiian$ Opinion" #NT!
+ bloodless_man_opinion: "$bloodless_man$ Opinion" #NT!
+ carcosan_opinion: "$carcosan$ Opinion" #NT!
+ dathian_opinion: "$dathian$ Opinion" #NT!
+ grey_man_opinion: "$grey_man$ Opinion" #NT!
+ fish_man_opinion: "$fish_man$ Opinion" #NT!
+ lion_man_opinion: "$lion_man$ Opinion" #NT!
+ mossovite_opinion: "$mossovite$ Opinion" #NT!
+ shryke_opinion: "$shryke$ Opinion" #NT!
+ winged_man_opinion: "$winged_man$ Opinion" #NT!
+ farosi_opinion: "$farosi$ Opinion" #NT!
+ moraqi_opinion: "$moraqi$ Opinion" #NT!
+ vahari_opinion: "$vahari$ Opinion" #NT!
+ zabhadi_opinion: "$zabhadi$ Opinion" #NT!
+ jogos_nhai_opinion: "$jogos_nhai$ Opinion" #NT!
+ nefer_opinion: "$nefer$ Opinion" #NT!
+ qaathi_opinion: "$qaathi$ Opinion" #NT!
+ qaleen_opinion: "$qaleen$ Opinion" #NT!
+ qartheen_opinion: "$qartheen$ Opinion" #NT!
+ orphan_opinion: "$orphan$ Opinion" #NT!
+ salt_dornish_opinion: "$salt_dornish$ Opinion"
+ sand_dornish_opinion: "$sand_dornish$ Opinion"
+ stone_dornish_opinion: "$stone_dornish$ Opinion"
+ chroyanar_opinion: "$chroyanar$ Opinion" #NT!
+ mellar_opinion: "$mellar$ Opinion" #NT!
+ noynar_opinion: "$noynar$ Opinion" #NT!
+ qhoynar_opinion: "$qhoynar$ Opinion" #NT!
+ rhoynar_original_opinion: "$rhoynar_original$ Opinion" #NT!
+ sarhar_opinion: "$sarhar$ Opinion" #NT!
+ sarar_opinion: "$sarar$ Opinion" #NT!
+ abular_opinion: "$abular$ Opinion" #NT!
+ trimbaez_fen_opinion: "$trimbaez_fen$ Opinion" #NT!
+ cymmeri_opinion: "$cymmeri$ Opinion" #NT!
+ gipps_opinion: "$gipps$ Opinion" #NT!
+ zoqora_opinion: "$zoqora$ Opinion" #NT!
+ goraez_fen_opinion: "$goraez_fen$ Opinion" #NT!
+ zanhar_fen_opinion: "$zanhar_fen$ Opinion" #NT!
+ madekh_fen_opinion: "$madekh_fen$ Opinion" #NT!
+ tagaez_fen_opinion: "$tagaez_fen$ Opinion" #NT!
+ gilal_fen_opinion: "$gilal_fen$ Opinion" #NT!
+ cenaakh_fen_opinion: "$cenaakh_fen$ Opinion" #NT!
+ giren_fen_opinion: "$giren_fen$ Opinion" #NT!
+ zivylar_fen_opinion: "$zivylar_fen$ Opinion" #NT!
+ cewi_fen_opinion: "$cewi_fen$ Opinion" #NT!
+ dawiz_fen_opinion: "$dawiz_fen$ Opinion" #NT!
+ asshaii_opinion: "$asshaii$ Opinion" #NT!
+ shadowman_opinion: "$shadowman$ Opinion" #NT!
+ basiliskite_opinion: "$basiliskite$ Opinion" #NT!
+ brindled_man_opinion: "$brindled_man$ Opinion" #NT!
+ gogossite_opinion: "$gogossite$ Opinion" #NT!
+ yeenite_opinion: "$yeenite$ Opinion" #NT!
+ naathi_opinion: "$naathi$ Opinion" #NT!
+ jhalai_opinion: "$jhalai$ Opinion" #NT!
+ moluuni_opinion: "$moluuni$ Opinion" #NT!
+ omborui_opinion: "$omborui$ Opinion" #NT!
+ wallanoi_opinion: "$wallanoi$ Opinion" #NT!
+ eastern_valyrian_opinion: "$eastern_valyrian$ Opinion" #NT!
+ senrillian_opinion: "$senrillian$ Opinion" #NT!
+ elyrian_opinion: "$elyrian$ Opinion" #NT!
+ bhorashi_opinion: "$bhorashi$ Opinion" #NT!
+ mantaryan_opinion: "$mantaryan$ Opinion" #NT!
+ tolosi_opinion: "$tolosi$ Opinion" #NT!
+ valyrian_original_opinion: "$valyrian_original$ Opinion" #NT!
+ high_valyrian_opinion: "$high_valyrian$ Opinion"
+ western_valyrian_opinion: "$western_valyrian$ Opinion" #NT!
+ cave_dweller_opinion: "$cave_dweller$ Opinion" #NT!
+ fangman_opinion: "$fangman$ Opinion"
+ first_clan_opinion: "$first_clan$ Opinion" #NT!
+ ice_riverman_opinion: "$ice_riverman$ Opinion"
+ lakefolk_opinion: "$lakefolk$ Opinion" #NT!
+ forestman_opinion: "$forestman$ Opinion"
+ frozen_shoreman_opinion: "$frozen_shoreman$ Opinion"
+ hornfoot_opinion: "$hornfoot$ Opinion"
+ milkwaterman_opinion: "$milkwaterman$ Opinion" #NT!
+ nightrunner_opinion: "$nightrunner$ Opinion"
+ thenn_opinion: "$thenn$ Opinion"
+ moon_clan_opinion: "$moon_clan$ Opinion" #NT!
+ aobao_ren_opinion: "$aobao_ren$ Opinion" #NT!
+ bixi_ren_opinion: "$bixi_ren$ Opinion" #NT!
+ haungyu_ren_opinion: "$haungyu_ren$ Opinion" #NT!
+ heinao_ren_opinion: "$heinao_ren$ Opinion" #NT!
+ feicui_ren_opinion: "$feicui_ren$ Opinion" #NT!
+ zhenzhu_ren_opinion: "$zhenzhu_ren$ Opinion" #NT!
+  ###################### 
+  ###Government Opinions## 
+  ###################### 
+ pirate_government_opinion: "Pirate Opinion"
+ nomad_government_opinion: "[nomad|E] Opinion" #NT!
+  
+  ###################### 
+  ###Misc Opinions## 
+  ###################### 
+ offered_concubine_opinion: "Offered Concubine"
+ agot_unworthy_opinion: "Unworthy"
+ agot_supported_legitimate_house_claim: "Supported my [agot_legitimate_house|E] claim"
+ agot_denied_legitimate_house_claim: "Denied my [agot_legitimate_house|E] claim"
+ agot_supported_enemy_legitimate_house_claim: "Supported other house's [agot_legitimate_house|E] claim"
+ agot_denied_enemy_legitimate_house_claim: "Denied other house's [agot_legitimate_house|E] claim"
+ agot_defamed_my_legitimacy_opinion: "Decried my legitimacy"
+ agot_hurt_me_for_a_ritual: "Hurt me for a ritual"
+ agot_betrayed_my_support_opinion: "Betrayed my support by lying about their identity"
+ agot_killed_my_kin_story_opinion: "Murdered my close kin"
+ agot_sacrificed_member_of_court: "Sacrificed a subject"
+ agot_hoarding_paramountcies: "Won't relinquish my de jure paramountcy" #NT!
+ personal_steward_mediation_opinion: "Vermittlung durch Persönlichen Kämmerer"
+ dishonorable_opinion: "Unehrenhaft"
+ cut_on_throne_opinion: "Rejected by the Throne"
+ forced_to_nightswatch_opinion: "Forced Me into Night's Watch"
+ heir_violates_tradition: "Appointed Untraditional Heir"
+ band_of_nine_opinion: "Band of the Nine"
+  
+  ########### 
+  # DRAGONS # 
+  ########### 
+ burned_my_holding: "Burned my [county|E]"
+ burned_my_vassals_holding: "Burned my [vassal|E]'s [county|E]"
+ instructed_burned_my_holding: "Instructed burning of my [county|E]"
+ instructed_burned_my_vassals_holding: "Instructed burning of my [vassal|E]'s [county|E]"
+ ran_terror_campaign: "Ran [dragon|E] Terror Campaign"
+ rejected_terror_campaign: "Rejected my Terror Campaign request"
+ agreed_to_dragon_conquest: "Voluntarily submitted to me and my [dragon|E]"
+ let_me_dragon_ride: "Gave me a dragon ride"
+ refused_me_dragon_ride: "Refused to give me a dragon ride"
+ revoked_access_to_dragonpit: "Revoked my [authorized_tamer|E] status"
+ denied_access_to_dragonpit: "Denied my request to become an [authorized_tamer|E]"
+ granted_access_to_dragonpit: "Made me an [authorized_tamer|E]"
+ banned_from_dragonpit: "Banned me from a [dragonpit|e]"
+ reversed_ban_from_dragonpit: "Lifted my ban from a [dragonpit|e]"
+ agot_drank_wildfire_died: "Died by drinking wildfire"
+ agot_drank_wildfire_lived: "Drank wildfire"
+ agot_tried_to_sacrifice_me: "Tried to sacrifice me"
+ agot_refused_horn_blow: "Refused to blow the dragon horn for me"
+ agot_stole_horn: "Stole my dragon horn"
+ agot_disobeyed_order_opinion: "Disobeyed my orders" #NT!
+ agot_followed_order: "Followed my orders" #NT!

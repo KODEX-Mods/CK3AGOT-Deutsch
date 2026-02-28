@@ -1,0 +1,57 @@
+﻿l_german:
+  ### THE RELIGION ### 
+ the_first_gods_religion: "The First Gods of Men"
+ the_first_gods_religion_adj: "The First Gods"
+ the_first_gods_religion_adherent: "Follower"
+ the_first_gods_religion_adherent_plural: "Followers"
+ the_first_gods_religion_desc: "Before the forging of the Pact, the First Men worshipped their own gods, gods that they brought from their original home near the grasslands around the Silver Sea. The worship of these First Gods has largely fallen away, yet some followers can still be found in Westeros and beyond."
+  
+  ### Faiths ### 
+  # Bronze Gods 
+ fg_pan_bronze: "Gods of Bronze and Hoof"
+ fg_pan_bronze_adj: "Bronze Gods"
+ fg_pan_bronze_adherent: "Follower"
+ fg_pan_bronze_adherent_plural: "Followers"
+ fg_pan_bronze_desc: "The First Men did not originally worship the Old Gods; that was only after the Pact between Man and Children. They originally worshipped their own gods, gods much more knowable and similar to themselves. The Chiefs of these were the Gods of Bronze and Hoof, who led the First Men to Westeros from Essos."
+  
+  # Sisters' Gods 
+ fg_pan_sisters: "Gods of Wave and Sky"
+ fg_pan_sisters_adj: "Sisters' Gods"
+ fg_pan_sisters_adherent: "Follower"
+ fg_pan_sisters_adherent_plural: "Followers"
+ fg_pan_sisters_desc: "Before the arrival of the Andals and their worship of the Seven Who Are One, the native peoples of the Three Sisters worshipped their own gods, prime amongst them the Lady of the Waves and her mate, the Lord of the Skies. She is revered as a lustful and demanding goddess, whose trysts with her mate are thought to cause the storms that plague the region.\n\nShe is known to demand her followers cast those born stunted or deformed into the sea, returning them to her domain. However, her demanding nature is not without benevolence — or love for her worshippers. Those born with the mark of webbing between their digits are rewarded with her favor freely."
+  
+  # Storm Gods 
+ fg_pan_elenei: "Gods of Sea and Wind"
+ fg_pan_elenei_adj: "Storm Gods"
+ fg_pan_elenei_adherent: "Follower"
+ fg_pan_elenei_adherent_plural: "Followers"
+ fg_pan_elenei_desc: "The gods of the First Men were many and varied, but around Shipbreaker's Bay, the sea god and his wife, the goddess of the wind, are paramount. For it was their daughter, Elenei, who married Durran Godsgrief, and from him, the Durrandons and their ilk claim descent."
+  
+  # Merling Gods 
+ fg_pan_merling: "Gods of the Merling Court"
+ fg_pan_merling_adj: "Merling Gods"
+ fg_pan_merling_adherent: "Follower"
+ fg_pan_merling_adherent_plural: "Followers"
+ fg_pan_merling_desc: "The Merling King is a god worshipped in many lands, and by many peoples, but his relationship with the First Men was closer than others. It was among the First Men, specifically House Upcliff, that he found his wife in Ursula Upcliff, the Merling Queen."
+  
+  # Snow Gods 
+ fg_pan_sni: "Gods of Snow and Ice" #NT!
+ fg_pan_sni_adj: "Snow Gods" #NT!
+ fg_pan_sni_adherent: "Follower" #NT!
+ fg_pan_sni_adherent_plural: "Followers" #NT!
+ fg_pan_sni_desc: "Upon the great frozen flats, where the ice rivers flow, the people worship gods of snow and ice that long predate the Pact." #NT!
+  
+  # Garth the Green 
+ fg_pan_garth: "God of the Green"
+ fg_pan_garth_adj: "Green God"
+ fg_pan_garth_adherent: "Thumb"
+ fg_pan_garth_adherent_plural: "Thumbs"
+ fg_pan_garth_desc: "Garth the Green, Garth Greenhand, Garth Greenhair — by many names this legendary man is known, and from him, the many houses of the Reach and beyond claim descent. What some see as the First King, others see as the chief god of the First Men. Those who worship him seek to spread the Green."
+  
+  # Unknown/ Dummy Faith 
+ fg_unknown: "Unknown" #NT!
+ fg_unknown_adj: "Unknown" #NT!
+ fg_unknown_adherent: "Unknown" #NT!
+ fg_unknown_adherent_plural: "Unknown" #NT!
+ fg_unknown_desc: "This faith is a mystery to you." #NT!

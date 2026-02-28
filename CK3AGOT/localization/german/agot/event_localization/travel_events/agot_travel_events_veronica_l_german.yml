@@ -1,0 +1,8 @@
+﻿l_german:
+  
+  # Grotesque Events 
+ get_grotesque_westeros: "ein schwachsinniger mantaryanischer Sklave mit zwei Köpfen"
+ get_grotesque_westeros_plural: "Mantaryanische Sklaven mit allen Arten von Missbildungen"
+  
+  # Church Visiting Event 
+ building_temple_sept: "Septe"

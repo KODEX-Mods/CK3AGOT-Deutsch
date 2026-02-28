@@ -1,0 +1,252 @@
+﻿l_german:
+  # the Silk Road 
+ silk_road_situation: "Die Seidenstraße"
+ silk_road_situation_desc: "$game_concept_silk_road_situation_desc$"
+ situation_silk_road_situation_desc: "$silk_road_situation_desc$"
+  
+ game_concept_silk_road_situation: "Seidenstraße"
+ game_concept_silk_road: "$game_concept_silk_road_situation$"
+ game_concept_silk_road_situation_desc: "Die $game_concept_silk_road_situation$ ist nicht eine Straße, sondern ein ganzes Netzwerk von Routen, die die entferntesten Winkel der Zivilisation verbinden, um Gold, Waren und Ideen auszutauschen. Zugang zur Seidenstraße zu haben, bedeutet, Zugang zu allen Reichtümern der Welt zu besitzen.\n\nJe nachdem, wie hoch die Zugangsstufe zur Seidenstraße ist, erhält man unterschiedliche Goldboni und einzigartige Möglichkeiten, exotische [innovations|E] freizuschalten. Wie viel Gold und Wissen auf der Seidenstraße unterwegs sind, hängt von ihrem Wohlstand ab, der durch Faktoren wie Kriege, Ereignisse und Chinas [dynastic_cycle|E] beeinflusst wird."
+ game_concept_situation_silk_road_phase_exceptional_bounty: "$situation_silk_road_phase_exceptional_bounty$"
+ game_concept_situation_silk_road_phase_exceptional_bounty_desc: "$situation_silk_road_phase_exceptional_bounty_desc$"
+ game_concept_situation_silk_road_phase_steady_trading: "$situation_silk_road_phase_steady_trading$"
+ game_concept_situation_silk_road_phase_steady_trading_desc: "$situation_silk_road_phase_steady_trading_desc$"
+ game_concept_situation_silk_road_phase_hardship: "$situation_silk_road_phase_hardship$"
+ game_concept_situation_silk_road_phase_hardship_desc: "$situation_silk_road_phase_hardship_desc$"
+  
+ situation_silk_road_phase_exceptional_bounty: "Herausragender Ertrag"
+ situation_silk_road_phase_exceptional_bounty_desc: "Erstaunliche Schätze und die besten Gewinne lassen sich einstreichen, während Ideen und Innovationen sich in guten Zeiten entlang der Seidenstraße ausbreiten."
+ situation_silk_road_phase_steady_trading: "Stetiger Handel"
+ situation_silk_road_phase_steady_trading_desc: "Gewinne werden erwirtschaftet, über Verträge wird gefeilscht und das Geschäft läuft wie üblich. Es mag lohnenswertere Orte anderswo geben, doch die Seidenstraße ist verlässlicher."
+ situation_silk_road_phase_hardship: "Harte Zeiten"
+ situation_silk_road_phase_hardship_desc: "Durch Kriege, Unglücke oder die unberechenbaren Irrungen und Wirrungen des Schicksals ist die Seidenstraße zum völligen Erliegen gekommen. Weder Geld noch Ideen sind im Fluss, und so findet man entlang der Routen der Seidenstraße nur Elend und Armut."
+ phase_exceptional_bounty: "$situation_silk_road_phase_exceptional_bounty$"
+ phase_exceptional_bounty_desc: "$situation_silk_road_phase_exceptional_bounty_desc$"
+ phase_steady_trading: "$situation_silk_road_phase_steady_trading$"
+ phase_steady_trading_desc: "$situation_silk_road_phase_steady_trading_desc$"
+ phase_hardship: "$situation_silk_road_phase_hardship$"
+ phase_hardship_desc: "$situation_silk_road_phase_hardship_desc$"
+  
+ situation_silk_road_situation: "Die $game_concept_silk_road_situation$"
+  
+ silk_road_phase_effects_concept: "[silk_road|E]"
+  
+  #AGOT Modified 
+ # silk_road_situation_participant_group_china_realm: "Lands Under Heaven" #NT!
+ # silk_road_situation_participant_group_china_realm_desc: "This character is a non-[nomadic|E] [ruler|E] within [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_china').GetName]." #NT!
+ # silk_road_situation_participant_group_silk_road_domain: "Silk Road Domains" #NT!
+ # silk_road_situation_participant_group_silk_road_domain_desc: "This character is a non-[nomadic|E] [independent_ruler|E] outside [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_china').GetName] whose [domain|E] lays on the [GetGeographicalRegion('dlc_tgp_silk_road_route_region').GetName]." #NT!
+ # silk_road_situation_participant_group_silk_road_realm: "Silk Road Realms" #NT!
+ # silk_road_situation_participant_group_silk_road_realm_desc: "This character is a non-[nomadic|E] [independent_ruler|E] outside [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_china').GetName] whose [realm|E] lays on the [GetGeographicalRegion('dlc_tgp_silk_road_route_region').GetName]." #NT!
+ # silk_road_situation_participant_group_silk_road_periphery: "Peripheral Realms" #NT!
+ # silk_road_situation_participant_group_silk_road_periphery_desc: "This character is a non-[nomadic|E] [independent_ruler|E] outside [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_china').GetName] whose [realm|E] is within the [GetGeographicalRegion('tgp_silk_road_region').GetName]." #NT!
+ # silk_road_situation_participant_group_silk_road_nomad: "Steppe Nomads" #NT!
+ # silk_road_situation_participant_group_silk_road_nomad_desc: "This character is [nomadic|E] [independent_ruler|E] who has set up camp within the [silk_road_situation|E]." #NT!
+ # silk_road_situation_all: "Current [silk_road|E] [situation_phase|E]" #NT!
+ silk_road_situation_participant_group_china_realm: "" #NT!
+ silk_road_situation_participant_group_china_realm_desc: "" #NT!
+ silk_road_situation_participant_group_silk_road_domain: "" #NT!
+ silk_road_situation_participant_group_silk_road_domain_desc: "" #NT!
+ silk_road_situation_participant_group_silk_road_realm: "" #NT!
+ silk_road_situation_participant_group_silk_road_realm_desc: "" #NT!
+ silk_road_situation_participant_group_silk_road_periphery: "" #NT!
+ silk_road_situation_participant_group_silk_road_periphery_desc: "" #NT!
+ silk_road_situation_participant_group_silk_road_nomad: "" #NT!
+ silk_road_situation_participant_group_silk_road_nomad_desc: "" #NT!
+ silk_road_situation_all: "" #NT!
+  
+ silk_road_situation_sub_region_region_silk_road_proper_china: "China"
+ silk_road_situation_sub_region_region_silk_road_proper_china_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak Im Osten kaufen Händler Seide und Tee und beginnen dann die lange Reise in die Fremde. Neben diesen Waren bringen die Händler aber noch etwas mit: neue #italic Ideen#!.#!"
+ silk_road_situation_sub_region_region_silk_road_proper_tibet: "Tibet"
+ silk_road_situation_sub_region_region_silk_road_proper_tibet_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak Die tibetische Hochebene ist eine ehrfurchtgebietende Landschaft, doch zwischen den verstreuten Tälern und Pässen der Region verlaufen auch Handelsrouten.#!"
+ silk_road_situation_sub_region_region_silk_road_proper_india: "Indien"
+ silk_road_situation_sub_region_region_silk_road_proper_india_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak Handelsströme durchqueren diese Region wie die Wasser des Ganges und des Indus: Sie verebben und fließen, sind aber stets da.#!"
+ silk_road_situation_sub_region_region_silk_road_proper_central_asia: "Zentralasien"
+ silk_road_situation_sub_region_region_silk_road_proper_central_asia_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak Fähige Augen können über die Steppen blicken und die Vielzahl offener Wege vor sich erkennen. Hier gibt es immer Gelegenheiten, für Händler und Plünderer gleichermaßen.#!"
+ silk_road_situation_sub_region_region_silk_road_proper_transcaspia: "Transkaspien"
+ silk_road_situation_sub_region_region_silk_road_proper_transcaspia_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak Das Kaspische Meer und das Schwarze Meer bieten einzigartige Möglichkeiten für Handel und Reisen. Flüsse verbinden diese Gewässer mit nördlichen Landen, die über eigene Handelsnetze und eigene Möglichkeiten für Reichtum und Glück verfügen.#!"
+ silk_road_situation_sub_region_region_silk_road_proper_occident: "Abendland"
+ silk_road_situation_sub_region_region_silk_road_proper_occident_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak Hier erreichen die großen Karawanen ihre endgültigen Ziele, und hier werden Vermögen verdient und verloren.#!"
+  
+ silk_road_situation_phase_exceptional_bounty_situation_phase: "$situation_silk_road_phase_exceptional_bounty$"
+ silk_road_situation_phase_steady_trading_situation_phase: "$situation_silk_road_phase_steady_trading$"
+ silk_road_situation_phase_hardship_situation_phase: "$situation_silk_road_phase_hardship$"
+  
+ silk_road_dynastic_cycle_status: "[GetSituation('dynastic_cycle').GetName]"
+  
+ silk_road_phase_effects: "Seidenstraßen-[SITUATION_PHASE_TYPE.GetNameNoTooltip]"
+  
+ debug_change_silk_road_cycle: "Seidenstraßen-Phase ändern"
+ debug_change_silk_road_prosperity: "Zu $phase_exceptional_bounty$ ändern"
+ debug_change_silk_road_disruption: "Zu $phase_steady_trading$ ändern"
+ debug_change_silk_road_devastation: "Zu $phase_hardship$ ändern"
+ debug_change_silk_road_positive: "Punkte für Herausragenden Ertrag hinzufügen"
+ debug_change_silk_road_negative: "Punkte für $phase_hardship$ hinzufügen"
+  
+  #AGOT Modified 
+ # INNOVATION_IN_SUB_REGION: "#T [silk_road_innovation|E]#! in [SituationSubRegion.GetName] [region|E]" #NT!
+ # game_concept_silk_road_innovation: "$game_concept_silk_road_situation$ Innovation" #NT!
+ # game_concept_silk_road_innovations: "$game_concept_silk_road_situation$ Innovations" #NT!
+ # game_concept_silk_road_innovation_desc: "$game_concept_silk_road_innovations$ are [innovations|E] that spread westwards along the [silk_road_situation|E].\n\nEvery [GetDefine('NSilkRoad', 'INNOVATION_TRAVEL_DURATION')|0V] years a $game_concept_silk_road_innovation$ discovered by the Han [culture|E] will be randomly assigned to the China [situation_sub_region|E], with all other $game_concept_silk_road_innovations$ moving west along the $game_concept_silk_road$.\n\n$game_concept_cultures$ with the [GetCultureTradition('tradition_sinophilic').GetName] [tradition|E] have access to all $game_concept_silk_road_innovations$ discovered by the Han $game_concept_culture$.\n\n[rulers|E] outside the $game_concept_silk_road$ can attempt to bring knowledge back to their [culture|E] via the [GetDecisionWithKey('visit_silk_road_market_decision').GetName|V] [decision|E]. If successful, the $game_concept_silk_road_innovation$ can be discovered like any other $game_concept_innovation$ once they return." #NT!
+ # game_concept_silk_road_innovation_short: "$game_concept_silk_road_situation$" #NT!
+ # game_concept_silk_road_innovation_i: "@silk_road_icon!" #NT!
+ # game_concept_silk_road_innovation_short_i: "@silk_road_icon! [silk_road_innovation_short|E]" #NT!
+ INNOVATION_IN_SUB_REGION: "" #NT!
+ game_concept_silk_road_innovation: "" #NT!
+ game_concept_silk_road_innovations: "" #NT!
+ game_concept_silk_road_innovation_desc: "" #NT!
+ game_concept_silk_road_innovation_short: "" #NT!
+ game_concept_silk_road_innovation_i: "" #NT!
+ game_concept_silk_road_innovation_short_i: "" #NT!
+  
+  #AGOT Modified 
+ # visit_silk_road_market_decision: "Visit a Silk Road Market" #NT!
+ # visit_silk_road_market_decision_desc: "The riches of the Silk Road aren't all stored in coins. Sometimes there's new... #italic thoughts#! that travel on camelback from bazaar to bazaar. Visit the right market, talk to the right people, and learn of secrets unknown to the wider world." #NT!
+ # visit_silk_road_market_decision_tooltip: "Travel to a market on the Silk Road to unlock unique [innovations|E]" #NT!
+ # THE_SILK_ROAD_AWAITS: "The Silk Road Awaits!" #NT!
+ # visit_silk_road_market_decision_confirm: "What riches will I find?" #NT!
+ # visit_silk_road_market_not_involved_tt: "You must not be involved in the [GetSituation('silk_road_situation').GetName] [situation|E]" #NT!
+ # visit_silk_road_market_decision_changan: "$building_changan_market_01$ #weak ([GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_china').MakeScope.Var('innovation').CultureInnovationType.GetName])#!" #NT!
+ # visit_silk_road_market_decision_lhasa: "$building_lhasa_market_01$ #weak ([GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_tibet').MakeScope.Var('innovation').CultureInnovationType.GetName])#!" #NT!
+ # visit_silk_road_market_decision_lahur: "$building_lahur_bazaar_01$ #weak ([GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_india').MakeScope.Var('innovation').CultureInnovationType.GetName])#!" #NT!
+ # visit_silk_road_market_decision_dunhuang: "$building_dunhuang_market_01$ #weak ([GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_central_asia').MakeScope.Var('innovation').CultureInnovationType.GetName])#!" #NT!
+ # visit_silk_road_market_decision_khiva: "$building_khiva_bazaar_01$ #weak ([GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_transcaspia').MakeScope.Var('innovation').CultureInnovationType.GetName])#!" #NT!
+ # visit_silk_road_market_decision_dvin: "$building_dvin_shuka_01$ #weak ([GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_occident').MakeScope.Var('innovation').CultureInnovationType.GetName])#!" #NT!
+ # no_building_at_silk_road_market_desc: "This [location|E] does #bold not#! have a Silk Road [special_building|E]" #NT!
+ # no_available_innovation_at_silk_road_market_desc: "There are no [silk_road_innovations|E] spreading at this market that are unknown to your [culture|E]" #NT!
+ # travel_silk_road_market_desc: "You will [travel|E] to [destination_province.GetName]" #NT!
+ # travel_silk_road_market_long_tt: "@warning_icon! #X [destination_province.GetName] will be more expensive and take longer to visit because it is far away#!" #NT!
+ # travel_silk_road_market_innovation_warning_tt: "@alert_icon! #alert_trial If travel to [destination_province.GetName] takes more than#! #italic #V [GetSituation('silk_road_situation').MakeScope.Var('innovation_travel_countdown').GetValue|V0] years#!#!#alert_trial , the innovation there will have changed before you arrive#!" #NT!
+ # potential_innovation_at_silk_road_market_desc: "The [sub_region_temp.MakeScope.Var('innovation').CultureInnovationType.GetName|V] [silk_road_innovation|E] may become available to the [THIS.Char.GetCulture.GetName] [culture|E]" #NT!
+ # tgp_silk_road_events.0010.t.market: "The Market of [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]" #NT!
+ # tgp_silk_road_events.0010.t.khrom: "The Khroms of [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]" #NT!
+ # tgp_silk_road_events.0010.t.shuka: "The Shuka of [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]" #NT!
+ # tgp_silk_road_events.0010.t: "The Bazaars of [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]" #NT!
+ # tgp_silk_road_events.0010.desc: "Walking among the bustling market stalls of [ROOT.Char.GetCurrentLocation.GetName], my guide mentions hearing scraps of conversation, "[innovation_temp.GetName]" is repeated again and again. The town is abuzz with it, but their voices lower when they see strangers like me pass by.\n\nI spot a cluster of traders huddled under one stall who seem less wary than others hereabouts, and keep talking even as my guide and I approach. Is this my chance to learn?" #NT!
+ # tgp_silk_road_events.0010.a: "What is this strange "[innovation_temp.GetName]"? I must know!" #NT!
+ # tgp_silk_road_events.0010.a_success: "Your curiosity pays off" #NT!
+ # SILK_ROAD_MARKET_EMPTY_HANDED: "Everything ventured, nothing gained" #NT!
+ # tgp_silk_road_events.0010.a_nada: "You gain nothing of value" #NT!
+ # tgp_silk_road_events.0010.b: "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]'s trinkets are worth more than these vague whispers." #NT!
+ # tgp_silk_road_events.0010.b_tt: "Markets are for profits and gold!" #NT!
+ # tgp_silk_road_events.0010.b_trinket: "You acquire a valuable trinket" #NT!
+ # tgp_silk_road_events.0010.b_small_gold: "You break even making deals among the market stalls" #NT!
+ # tgp_silk_road_events.0010.b_big_gold: "You make a profit among the market stalls" #NT!
+ # c_dvin_tooltip: "Visit the markets of [GetTitleByKey('c_dvin').GetNameNoTier] in [GetGeographicalRegion('tgp_silk_road_occident_region').GetName] and learn of the [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_occident').MakeScope.Var('innovation').CultureInnovationType.GetName|V] [silk_road_innovation|E]" #NT!
+ # c_jingzhao_tooltip: "Visit the markets of [GetTitleByKey('c_jingzhao').GetNameNoTier] in [GetGeographicalRegion('tgp_silk_road_china_region').GetName] and learn of the [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_china').MakeScope.Var('innovation').CultureInnovationType.GetName|V] [silk_road_innovation|E]" #NT!
+ # c_lahur_tooltip: "Visit the bazaars of [GetTitleByKey('c_lahur').GetNameNoTier] in [GetGeographicalRegion('tgp_silk_road_india_region').GetName] and learn of the [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_india').MakeScope.Var('innovation').CultureInnovationType.GetName|V] [silk_road_innovation|E]" #NT!
+ # c_luobupo_tooltip: "Visit the markets of [GetTitleByKey('c_luobupo').GetNameNoTier] in [GetGeographicalRegion('tgp_silk_road_central_asia_region').GetName] and learn of the [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_central_asia').MakeScope.Var('innovation').CultureInnovationType.GetName|V] [silk_road_innovation|E]" #NT!
+ # c_lhasa_tooltip: "Visit the khroms of [GetTitleByKey('c_lhasa').GetNameNoTier] in [GetGeographicalRegion('tgp_silk_road_tibet_region').GetName] and learn of the [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_tibet').MakeScope.Var('innovation').CultureInnovationType.GetName|V] [silk_road_innovation|E]" #NT!
+ # c_khiva_tooltip: "Visit the bazaars of [GetTitleByKey('c_khiva').GetNameNoTier] in [GetGeographicalRegion('tgp_silk_road_central_asia_region').GetName] and learn of the [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_transcaspia').MakeScope.Var('innovation').CultureInnovationType.GetName|V] [silk_road_innovation|E]" #NT!
+ visit_silk_road_market_decision: "" #NT!
+ visit_silk_road_market_decision_desc: "" #NT!
+ visit_silk_road_market_decision_tooltip: "" #NT!
+ THE_SILK_ROAD_AWAITS: "" #NT!
+ visit_silk_road_market_decision_confirm: "" #NT!
+ visit_silk_road_market_not_involved_tt: "" #NT!
+ visit_silk_road_market_decision_changan: "" #NT!
+ visit_silk_road_market_decision_lhasa: "" #NT!
+ visit_silk_road_market_decision_lahur: "" #NT!
+ visit_silk_road_market_decision_dunhuang: "" #NT!
+ visit_silk_road_market_decision_khiva: "" #NT!
+ visit_silk_road_market_decision_dvin: "" #NT!
+ no_building_at_silk_road_market_desc: "" #NT!
+ no_available_innovation_at_silk_road_market_desc: "" #NT!
+ travel_silk_road_market_desc: "" #NT!
+ travel_silk_road_market_long_tt: "" #NT!
+ travel_silk_road_market_innovation_warning_tt: "" #NT!
+ potential_innovation_at_silk_road_market_desc: "" #NT!
+ tgp_silk_road_events.0010.t.market: "" #NT!
+ tgp_silk_road_events.0010.t.khrom: "" #NT!
+ tgp_silk_road_events.0010.t.shuka: "" #NT!
+ tgp_silk_road_events.0010.t: "" #NT!
+ tgp_silk_road_events.0010.desc: "" #NT!
+ tgp_silk_road_events.0010.a: "" #NT!
+ tgp_silk_road_events.0010.a_success: "" #NT!
+ SILK_ROAD_MARKET_EMPTY_HANDED: "" #NT!
+ tgp_silk_road_events.0010.a_nada: "" #NT!
+ tgp_silk_road_events.0010.b: "" #NT!
+ tgp_silk_road_events.0010.b_tt: "" #NT!
+ tgp_silk_road_events.0010.b_trinket: "" #NT!
+ tgp_silk_road_events.0010.b_small_gold: "" #NT!
+ tgp_silk_road_events.0010.b_big_gold: "" #NT!
+ c_dvin_tooltip: "" #NT!
+ c_jingzhao_tooltip: "" #NT!
+ c_lahur_tooltip: "" #NT!
+ c_luobupo_tooltip: "" #NT!
+ c_lhasa_tooltip: "" #NT!
+ c_khiva_tooltip: "" #NT!
+  
+ # MOVING_TOWARDS_TO: "Arriving downstream in #BOLD [GetSituation('silk_road_situation').MakeScope.Var( 'innovation_travel_countdown' ).GetValue|0V]#! years" #NT!
+ MOVING_TOWARDS_TO: "" #NT!
+ VISIT_SUB_REGION_BAZAAR: "[Building.GetNameNoTooltip|U] besuchen"
+  
+ VISIT_BAZAAR_IN_SUB_REGION: "Basar in [SituationSubRegion.GetBazaarBuilding.GetName] besuchen"
+ NEXT_PHASE_PROGRESSING: "Nächste Phase: $DAYS|V$ verbleibend"
+ TRAVEL_TO_INNOVATION: "Reisen um „[CultureInnovation.GetNameNoTooltip]“ zu entdecken"
+ CURRENT_INNOVATION_HEADER: "Derzeitige [silk_road_innovation|E] in der [region|E] [SituationSubRegion.GetNameNoTooltip]:"
+ CURRENT_PHASE_IN_SUBREGION_HEADER: "Derzeitige [situation_phase|E]: [SituationPhase.GetName|V]"
+ RecentCatalystsHeader: "Letzter [situation_catalyst_catalyst|E]"
+ CURRENT_PHASE_PROGRESS_HEADER: "Fortschritt ([SituationPhaseType.GetName]):"
+ FUTURE_PHASE_PROGRESS_HEADER: "Fortschritt in Richtung [FutureSituationPhase.GetType.GetName]: [FutureSituationPhase.GetRelativeProgressPercent|%]"
+ SILK_ROAD_WINDOW_CATALYSTS_LIST: "Seidenstraßen-Auslöser"
+ FUTURE_PHASE_PROGRESSING_TEXT: "Schreitet voran: $YEARS|V$ verbleiben"
+ SILK_ROAD_REGION_EFEFCTS: "Regionsauswirkungen:"
+ FUTURE_PHASE_HEADER: "Fortschritt zur nächsten [dynastic_cycle_era_short|E]:"
+ FUTURE_PHASE_VALUE: "[SituationPhaseType.GetName]: [SituationPhase.GetPhaseRelativeProgressPercent|V%]"
+ SILK_ROAD_HEADER_DESC: "Die Seidenstraße ist ein Netzwerk aus Märkten, Rastplätzen und ausgetretenen Pfaden in einsamen Landschaften. Wer mutig genug ist, ihre legendären Routen zu beschreiten, kann ein Vermögen verdienen und neue Ideen kennenlernen."
+  
+ dlc_tgp_silk_road_route_region: "Seidenstraße"
+ tgp_silk_road_region: "Seidenstraße"
+ dlc_tgp_silk_road_route_china: "Chinesische Seidenstraße"
+ tgp_silk_road_china_region: "China"
+ dlc_tgp_silk_road_route_tibet: "Tibetische Seidenstraße"
+ tgp_silk_road_tibet_region: "Tibet"
+ dlc_tgp_silk_road_route_india: "Indische Seidenstraße"
+ tgp_silk_road_india_region: "Indien"
+ dlc_tgp_silk_road_route_central_asia: "Zentralasiatische Seidenstraße"
+ tgp_silk_road_central_asia_region: "Zentralasien"
+ dlc_tgp_silk_road_route_transcaspia: "Transkaspische Seidenstraße"
+ tgp_silk_road_transcaspia_region: "Transkaspien"
+ dlc_tgp_silk_road_route_occident: "Abendländische Seidenstraße"
+ tgp_silk_road_occident_region: "Abendland"
+  
+ msg_silk_road_prosperity_upstream_peace: "Frieden stärkt Seidenstraße"
+ msg_silk_road_prosperity_upstream_war: "Krieg stört Seidenstraße"
+ tgp_silk_road_move_sub_region_peace_desc: "[origin_sub_region_temp.GetName] ist friedvoll"
+ tgp_silk_road_move_sub_region_war_desc: "Streit erfasst [origin_sub_region_temp.GetName]"
+ tgp_silk_road_move_sub_region_towards_exceptional_bounty_tt: "[origin_sub_region_temp.GetName] ist friedvoll, sodass es selbst und alle [Concept('silk_road', 'Seidenstraßen')|E]-[situation_sub_regions|E] sich die Straße abwärts auf „[situation_silk_road_phase_exceptional_bounty|E]“ zubewegen"
+ tgp_silk_road_move_sub_region_towards_hardship_tt: "[origin_sub_region_temp.GetName] ist von Streit erfasst, sodass es und alle [Concept('silk_road', 'Seidenstraßen')|E]-[situation_sub_regions|E] sich die Straße abwärts auf „[situation_silk_road_phase_hardship|E]“ zubewegen"
+ tgp_silk_road_move_sub_region_towards_hardship_primary_tt: "[player_sub_region_temp.GetName] bewegt [EmptyScope.ScriptValue('silk_road_downstream_primary_value')|V0] in Richtung „[situation_silk_road_phase_hardship|E]“"
+ tgp_silk_road_move_sub_region_towards_hardship_secondary_tt: "[player_sub_region_temp.GetName] bewegt [EmptyScope.ScriptValue('silk_road_downstream_secondary_value')|V0] in Richtung „[situation_silk_road_phase_hardship|E]“"
+ tgp_silk_road_move_sub_region_towards_hardship_tertiary_tt: "[player_sub_region_temp.GetName] bewegt [EmptyScope.ScriptValue('silk_road_downstream_tertiary_value')|V0] in Richtung „[situation_silk_road_phase_hardship|E]“"
+ tgp_silk_road_move_sub_region_towards_steady_trading_primary_tt: "[player_sub_region_temp.GetName] bewegt [EmptyScope.ScriptValue('silk_road_downstream_primary_value')|V0] in Richtung „[situation_silk_road_phase_steady_trading|E]“"
+ tgp_silk_road_move_sub_region_towards_steady_trading_secondary_tt: "[player_sub_region_temp.GetName] bewegt [EmptyScope.ScriptValue('silk_road_downstream_secondary_value')|V0] in Richtung „[situation_silk_road_phase_steady_trading|E]“"
+ tgp_silk_road_move_sub_region_towards_steady_trading_tertiary_tt: "[player_sub_region_temp.GetName] bewegt [EmptyScope.ScriptValue('silk_road_downstream_tertiary_value')|V0] in Richtung „[situation_silk_road_phase_steady_trading|E]“"
+ tgp_silk_road_move_sub_region_towards_exceptional_bounty_primary_tt: "[player_sub_region_temp.GetName] bewegt [EmptyScope.ScriptValue('silk_road_downstream_primary_value')|V0] in Richtung „[situation_silk_road_phase_exceptional_bounty|E]“"
+ tgp_silk_road_move_sub_region_towards_exceptional_bounty_secondary_tt: "[player_sub_region_temp.GetName] bewegt [EmptyScope.ScriptValue('silk_road_downstream_secondary_value')|V0] in Richtung „[situation_silk_road_phase_exceptional_bounty|E]“"
+ tgp_silk_road_move_sub_region_towards_exceptional_bounty_tertiary_tt: "[player_sub_region_temp.GetName] bewegt [EmptyScope.ScriptValue('silk_road_downstream_tertiary_value')|V0] in Richtung „[situation_silk_road_phase_exceptional_bounty|E]“"
+  
+ msg_silk_road_innovation_movement_stream_title: "Seidenstraßen-Innovations-Bewegung"
+ msg_silk_road_innovation_movement_stream_desc: "Ein steter Strom von Händlern bringt frische Ideen aus dem Osten"
+ msg_silk_road_innovation_movement_china_title: "Seidenstraßen-Innovations-Bewegung"
+ msg_silk_road_innovation_movement_china_desc: "Händler aus dem Westen sind sehr interessiert an unseren Fortschritten"
+ msg_silk_road_innovation_movement_tt: "[new_innovation_temp.GetName|V] ist die neue [silk_road_innovation|E] in [sub_region_temp.GetName]"
+  
+ msg_silk_road_innovation_spread_title: "Seidenstraßen-Innovations-Einsichten"
+ msg_silk_road_innovation_spread_desc: "[market_temp.GetHolder.GetShortUIName|U] nahm frische Ideen aus dem Osten durch die Kontrolle des berühmten Markts von [market_temp.GetNameNoTier] auf"
+ msg_silk_road_innovation_spread_tt: "Die [innovation_temp.GetName|V]-[silk_road_innovation|E] wird verfügbar für die [culture_temp.GetName|l]e [culture|E]"
+  
+ msg_silk_road_innovation_visit_desc: "[new_trinket.GetShortUIName|U] [Select_CString(new_trinket.IsLocalPlayer, 'nahmt', 'nahm')] durch den Besuch des berühmten Markts von [market_temp.GetNameNoTier] frische Ideen aus dem Osten mit"
+  
+ msg_silk_road_phase_change_title: "Seidenstraße: [situation_sub_region.GetCurrentPhase.GetName] in [situation_sub_region.GetNameNoTooltip]"
+ msg_silk_road_phase_change_tt: "Die [situation_sub_region|E] [situation_sub_region.GetNameNoTooltip|V] ist jetzt in der [situation_phase|E] „[situation_sub_region.GetCurrentPhase.GetName|V]“"
+  
+ silk_road_crossbow_trigger_tt: "Erfordert die [innovation|E] #V $innovation_repeating_crossbow$#! oder #V $innovation_advanced_bowmaking$#!"
+ silk_road_sericulture_trigger_tt: "Erfodert das [GetCulturePillar('heritage_chinese').GetName|l]e oder [GetCulturePillar('heritage_byzantine').GetName|l]e [heritage|E]"
+  
+ silk_road_hardship_province_modifier: "Seidenstraße: Harte Zeiten"
+ silk_road_steady_trading_province_modifier: "Seidenstraße: Stetiger Handel"
+ silk_road_exceptional_bounty_province_modifier: "Seidenstraße: Herausragender Ertrag"
+  
+ SILK_ROAD_CATALYST_PER_PHASE: "Auslöser für [SituationPhaseType.GetName]"

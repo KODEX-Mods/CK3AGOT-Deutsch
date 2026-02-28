@@ -1,0 +1,42 @@
+﻿l_german:
+ MEGA_WAR_SWITCH_SIDES: "Zwingen die Seite zu wechseln"
+ SWITCH_SIDES_NEGATIVE_REASON: "[recipient.GetSheHe|U] sträubt sich die Seite zu wechseln: $VALUE|=+0$"
+ SWITCH_SIDES_HEIR_IMPRISONED: "[recipient.GetHerHis|U] Erbe ist gefangen genommen: $VALUE|=+0$"
+ SWITCH_SIDES_LOYAL: "[recipient.GetSheHe|U] ist treu: $VALUE|=+0$"
+ SWITCH_SIDES_DISLOYAL: "[recipient.GetSheHe|U] ist untreu: $VALUE|=+0$"
+ SWITCH_SIDES_CONTROLS_CAPITAL: "[recipient.GetSheHe|U] kontrolliert nicht [recipient.GetHerHis]n Hauptsitz: $VALUE|=+0$"
+ SWITCH_SIDES_LOSING_WAR: "[recipient.GetHerHis|U] Seite verliert den Krieg: $VALUE|=+0$"
+  
+ AGOT_REALM_MEGAWAR_REASON: "Realm at war: $VALUE|=+0$"
+  
+ DESIGNATE_HEIR_HAS_CHILD: "Ihr habt bereits einen Erben!"
+  
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_WV: "Versuchen, [secondary_recipient.GetShortUIName] zur ([secondary_actor.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]) zu bekehren."
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_WV: "Versuchen, [secondary_actor.GetShortUIName] zur ([secondary_recipient.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]) zu bekehren."
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_EV: "Versuchen, [secondary_recipient.GetShortUIName] zur ([secondary_actor.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]) zu bekehren."
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_EV: "Versuchen, [secondary_actor.GetShortUIName] zur ([secondary_recipient.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]) zu bekehren."
+  
+ childhood_education.1011.wv.desc: "[guardian.GetTitledFirstName] hat mir vieles über [guardian.GetHerHis] Volk —#EMP unser#! Volk beigebracht. Nicht nur folge ich dem [guardian.GetFaith.GetAdjective] Glauben, ich sehe mich auch voll als Teil der [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur."
+ childhood_education.1011.ev.desc: "[guardian.GetTitledFirstName] hat mir vieles über [guardian.GetHerHis] Volk —#EMP unser#! Volk beigebracht. Nicht nur folge ich dem [guardian.GetFaith.GetAdjective] Glauben, ich sehe mich auch voll als Teil der [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur."
+  
+ childhood_education.1012.wv.desc: "Ich unterrichte [ward.GetTitledFirstName] weiterhin im Glauben und in den Sitten meines Volkes, und [ward.GetSheHe] hat mir mitgeteilt, dass [ward.GetSheHe] sich voll und ganz als Teil unserer Kultur fühlt. Ganz und gar [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]."
+ childhood_education.1012.ev.desc: "Ich unterrichte [ward.GetTitledFirstName] weiterhin im Glauben und in den Sitten meines Volkes, und [ward.GetSheHe] hat mir mitgeteilt, dass [ward.GetSheHe] sich voll und ganz als Teil unserer Kultur fühlt. Ganz und gar [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]."
+  
+ childhood_education.1031.wv.desc: "Ich wurde zwar in die [ward.GetCulture.GetName] hineingeboren, doch ich muss mir eingestehen, dass ich mittlerweile gar nicht mehr weiß, was das bedeuten soll. Dank [guardian.GetTitledFirstNamePossessive] Anleitung, fühle ich mich inzwischen der  [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur mit Leib und Seele angehörig."
+ childhood_education.1031.ev.desc: "Ich wurde zwar in die [ward.GetCulture.GetName] hineingeboren, doch ich muss mir eingestehen, dass ich mittlerweile gar nicht mehr weiß, was das bedeuten soll. Dank [guardian.GetTitledFirstNamePossessive] Anleitung, fühle ich mich inzwischen der  [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur mit Leib und Seele angehörig."
+  
+ childhood_education.1032.wv.desc: "Nachdem ich [ward.GetTitledFirstName] so lange unterrichtet hatte, freute es mich umso mehr, als [ward.GetSheHe] mir mitteilte, dass [ward.GetSheHe] sich der [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur zugehörig fühlt!"
+ childhood_education.1032.ev.desc: "Nachdem ich [ward.GetTitledFirstName] so lange unterrichtet hatte, freute es mich umso mehr, als [ward.GetSheHe] mir mitteilte, dass [ward.GetSheHe] sich der [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur zugehörig fühlt!"
+  
+ agot_strip_knighthood: "Strip Knighthood"
+ NOT_RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON: "[recipient.GetSheHe|U] is not religiously attached to [recipient.GetHerHis] knighthood: $VALUE|=+0$"
+ RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON: "[recipient.GetSheHe|U] is religiously attached to knighthood: $VALUE|=+0$"
+  
+ agot_send_to_nw: "Send to [nw_govt|E]" #NT!
+ RELEASE_BANISH_INVALID_SEND_TO_NW_CONDITION: "You cannot banish characters and send them to the Night's Watch at the same time." #NT!
+ RELEASE_SEND_TO_NW_INVALID_BANISH_CONDITION: "You cannot banish characters and send them to the Night's Watch at the same time." #NT!
+ NW_NEGATIVE_REASON: "[recipient.GetSheHe|U] fears taking the black: $VALUE|=+0$" #NT!
+  
+ agot_ransom_artifact: "Ransom for Artifacts" #NT!
+ agot_ransom_artifact_requirement: "Use the $ransom_for_artifacts_interaction$ interaction to add at least one artifact to your demands." #NT!
+ ARTIFACT_RANSOM_REASON: "[recipient.GetSheHe|U] will lose Artifacts: $VALUE|=+0$" #NT!

@@ -246,8 +246,8 @@
  bg_gametype_go: "Go"
  bg_gametype_fidchell: "Fidchell"
   #AGOT Modified 
- #bg_gametype_chess: "chess" #NT!
- bg_gametype_chess: "cyvasse" #NT!
+ #bg_gametype_chess: "chess"
+ bg_gametype_chess: "cyvasse"
   
  bg_gametype_concept_pachisi: "[board_game_type_pachisi|E]"
  bg_gametype_concept_hnefatafl: "[board_game_type_hnefatafl|E]"

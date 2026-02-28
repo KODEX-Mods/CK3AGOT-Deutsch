@@ -1,0 +1,154 @@
+﻿l_german:
+  # by Eskarina 
+ FAITH_PATRON_HEADING: "Schutzpatron-Aspekt wählen"
+ PATRON_WINDOW_SHOW_EFFECTS: "Effekte anzeigen"
+ FAITH_PATRON: "Schutzpatron-Aspekt"
+ CHOOSE_PATRON_TOOLTIP: "Wählt einen Aspekt"
+ select_patron_confirm_text_1: "Macht "
+ select_patron_confirm_text_2: " zu Eurem Schutzpatron-Aspekt?"
+ patron_select_confirm: "This is my patron!"
+  
+ action_pick_patron: "Wählt einen Schutzpatron-Aspekt"
+ action_pick_patron_label: "$action_pick_patron$"
+ action_pick_patron_desc: "Als Anhänger des Glaubens an die Sieben könnt Ihr einen Aspekt der Sieben, die Eins sind, als Euren Schutzpatron wählen."
+ action_pick_patron_click: "#I Klicken, um mögliche Schutzpatrone zu sehen#!"
+  
+  #Faith of the Seven 
+ patron_god_the_father: "Der Vater"
+ patron_god_desc_the_father: "Der Vater steht für das Gericht und Gerechtigkeit. Die guten Menschen schlemmen nach ihrem Tod bis in alle Ewigkeit in der Goldenen Halle des Vaters."
+  
+ patron_god_the_mother: "Die Mutter"
+ patron_god_desc_the_mother: "Die Mutter, auch als Mutter Oben bezeichnet, steht für Mutterschaft und Pflege. Sie wird angebetet für Fruchtbarkeit oder Mitgefühl und verkörpert die Gnade."
+  
+ patron_god_the_warrior: "Der Krieger"
+ patron_god_desc_the_warrior: "Der Krieger mit seinem Heiligen Schwert steht für die Stärke in der Schlacht. Er wird angebetet für Mut und für den Sieg."
+  
+ patron_god_the_smith: "Der Schmied"
+ patron_god_desc_the_smith: "Der Schmied steht für Handwerk und Arbeit. Er wird für vor allem für das gute Gelingen einer Arbeit und das Wiedererrichten von Dingen, die zerbrochen sind, angebetet."
+  
+ patron_god_the_maiden: "Die Jungfrau"
+ patron_god_desc_the_maiden: "Die Jungfrau, schön und unschuldig, soll den Mädchen Tugend verleihen und ihre Unschuld bewahren. Sie wird auch angebetet, um Handlungen der Unreinheit zu vergeben."
+  
+ patron_god_the_crone: "Das Alte Weib"
+ patron_god_desc_the_crone: "Das Alte Weib steht für Weisheit und wird für Führung und Anleitung angebetet. Sie wird runzlig dargestellt und oft mit einer goldenen Laterne"
+  
+ patron_god_the_stranger: "Der Fremde"
+ patron_god_desc_the_stranger: "Der Fremde, weder Mann noch Frau, Ausgestoßener, Wanderer von fernen Orten. Sein Gesicht ist das des Todes, seine Hand führt Seelen in die andere Welt."
+  
+  #Faith of the Seven Extras 
+ patron_god_drownedgod: "The Drowned God"
+ patron_god_desc_drownedgod: "The Drowned God is the traditional god of the Ironborn, and as one of the Eight Aspects is seen as the Aspect of the Sea and its dread."
+  
+ patron_god_baelor: "Baelor the Blessed"
+ patron_god_desc_baelor: "The Septon-King, often viewed as just another mortal, is seen by this faith almost in the same light as the Seven aspects."
+  
+ patron_god_qarlon: "Qarlon the Great"
+ patron_god_desc_qarlon: "The last King of All Andals, and the last chance for an Andal kingdom in Essos, he has grown into a mythic hero, an avatar of the Seven, one that speaks of a ruined past."
+  
+ patron_god_weirwood: "Weirwoods"
+ patron_god_desc_weirwood: "The weirwood has long been held sacred by those who follow the Old Gods, but to those of the Faith of Old and New, they are the windows from which the Seven-Who-Are-One watched early men."
+  
+  #Free Cities 
+ patron_god_moon_pale_maiden: "Moon-Pale Maiden"
+ patron_god_desc_moon_pale_maiden: "A goddess of the moon, who some believe to be a corruption of the goddess from the Further East, the Maiden-Made-of-Light. Regardless, her followers ask for her protection often upon the seas, hoping for her light to lead them home."
+  
+ patron_god_lion_of_night: "Lion of Night"
+ patron_god_desc_lion_of_night: "The Lion of Night was a god from the Further East, said to have brought the Long Night to punish men for the Blood Betrayal, he is seen as a darker god, though not an evil one."
+  
+ patron_god_father_of_waters: "Father of Waters"
+ patron_god_desc_father_of_waters: "The Father of Waters is a god of the seas, he is venerated by sailors in the hopes of calm waters."
+  
+ patron_god_merling_king: "Merling King"
+ patron_god_desc_merling_king: "The Merling King lives below the waves and is said to help men with gifts and boons in exchange for the occasional wife."
+  
+ patron_god_the_pattern: "The Patternmaker"
+ patron_god_desc_the_pattern: "Not a god, but rather a prophet who through great suffering divined that life is a great pattern, which must be traversed to reality's center."
+  
+ patron_god_semosh_and_selloso: "Semosh and Selloso"
+ patron_god_desc_semosh_and_selloso: "The brother gods, united and yet separated, east and west, sunrise and sunset, Semosh and Selloso push and pull the world between them."
+  
+ patron_god_trios: "Trios"
+ patron_god_desc_trios: "The Three Faced God, Trios is said to be a god who divided itself into three. Each face is the embodiment of a different emotion; Joy, Anger, and Confusion."
+  
+ patron_god_drunken_god: "The Drunken God"
+ patron_god_desc_drunken_god: "The Drunken God is often looked down upon, and yet his adherents are some of the most faithful."
+  
+ patron_god_weeping_lady: "Weeping Lady"
+ patron_god_desc_weeping_lady: "The Weeping Lady is the chief deity of Lys, and decorates their coins. She weeps for ill and joy and all in between."
+  
+ patron_god_pantera: "Pantera"
+ patron_god_desc_pantera: "Pantera is a six-breasted cat goddess, whose worship is centered in Lys."
+  
+ patron_god_yyndros: "Yyndros"
+ patron_god_desc_yyndros: "Yndros of the Twilight is male by day, female by night, and whose worshippers can transform themselves between male and female during the act of love."
+  
+ patron_god_bakkalon: "Bakkalon"
+ patron_god_desc_bakkalon: "The Pale Child, Bakkalon of the Sword is a god of death whose sword hangs above us all."
+  
+ patron_god_saagael: "Saagael"
+ patron_god_desc_saagael: "The Giver of Pain, Saagael is one of the more extreme cults of the Free Cities."
+  
+ patron_god_aquan: "Aquan the Red Bull"
+ patron_god_desc_aquan: "Aquan the Red Bull is a god of war and combat, worshipped by the many warriors and sellswords of the Free Cities."
+  
+ patron_god_hooded_wayfarer: "The Hooded Wayfarer"
+ patron_god_desc_hooded_wayfarer: "Worshipped by the poor and desolate, the Hooded Wayfarer walks among us, unseen and unnoticed."
+  
+ patron_god_silent_god: "The Silent God"
+ patron_god_desc_silent_god: "The Silent God speaks not to its followers, yet allows them to find the truth all the same."
+  
+ patron_god_gelenei: "Gelenei"
+ patron_god_desc_gelenei: "Gelenei is said to be a nature deity, though they are usually represented by a tree with silver leaves."
+  
+  #Yi Ti 
+ patron_god_pearl_emperor: "Pearl Emperor"
+ patron_god_desc_pearl_emperor: "First of the successors of the God-on-Earth, the Pearl Emperor is remembered for his great wisdom and the great strides of knowledge that the world achieved in his reign."
+  
+ patron_god_jade_emperor: "Jade Emperor"
+ patron_god_desc_jade_emperor: "The Second Successor, the Jade Emperor is said to have brought in many foreign lands and peoples into the Great Empire of the Dawn, though not with sword, but with word."
+  
+ patron_god_tourmaline_emperor: "Tourmaline Emperor"
+ patron_god_desc_tourmaline_emperor: "The Tourmaline Emperor, the Third Successor, the ever vigilant champion of the Jeweled Court. It is said with any weapon, sword, bow, or lance, he was the deadliest of threats."
+  
+ patron_god_onyx_emperor: "Onyx Emperor"
+ patron_god_desc_onyx_emperor: "The Fourth Successor, the Onyx Emperor defended the empire from many threats, from the hordes outside to the rebellions within. He led the armies to victory in all endeavors."
+  
+ patron_god_topaz_emperor: "Topaz Emperor"
+ patron_god_desc_topaz_emperor: "The Topaz Emperor reaped the benefits of his precursor and reestablished order and civility throughout the Great Empire of the Dawn as the Fifth Successor."
+  
+ patron_god_opal_emperor: "Opal Emperor"
+ patron_god_desc_opal_emperor: "The Sixth of the Successors, the Opal Emperor built great works across the empire, wonders both here today and lost to time."
+  
+ patron_god_amethyst_empress: "Amethyst Empress"
+ patron_god_desc_amethyst_empress: "The last and Seventh Successor, the Amethyst Empress did not get to leave much of a lasting legacy, but is now seen as the redeemer of the Jeweled Court, the hope for what might be."
+  
+  #Summer Islands 
+ patron_god_itaya: "Itaya"
+ patron_god_desc_itaya: "Itanya is the Chief Goddess of the Summer Islands and the Goddess of Fertility. She is the Mother of Summer."
+  
+ patron_god_qunda: "Qunda"
+ patron_god_desc_qunda: "Qunda is the God of Vitality of the Summer Islands."
+  
+ patron_god_tolaq: "Tolaq"
+ patron_god_desc_tolaq: "Tolaq is the God of Wealth of the Summer Islands."
+  
+ patron_god_dhosu: "Dhosu"
+ patron_god_desc_dhosu: "Dhosu is the God of What Will Be and brother of Qhubar in the Summer Islands."
+  
+ patron_god_qhubar: "Qhubar"
+ patron_god_desc_qhubar: "Qhubar is the Goddess of Knowledge and Sister of Dhosu in the Summer Islands."
+  
+ patron_god_chatana: "Chatana"
+ patron_god_desc_chatana: "Chatana is the Goddess of the Bow and War, and protects the Summer Islands from all threats, especially slavers."
+  
+ patron_god_hulabhar: "Hulabhar"
+ patron_god_desc_hulabhar: "Hulabhar is the Trickster God of the Summer Gods."
+  
+ patron_god_xholthar: "Xholthar"
+ patron_god_desc_xholthar: "Xholthar is the God of Death and Night and the last protector of the Summer Islands."
+  
+ patron_god_anayana: "Anayana"
+ patron_god_desc_anayana: "Anayana is the Goddess of all the Waters and Sailors. The Swan Ships are dedicated in her honor."
+  
+ patron_god_qoanasa: "Qoanasa"
+ patron_god_desc_qoanasa: "Qoanasa is the Goddess of the Secret Way, and her followers would be called witches in the Seven Kingdoms."

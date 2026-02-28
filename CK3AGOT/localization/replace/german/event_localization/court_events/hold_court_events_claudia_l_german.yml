@@ -89,8 +89,8 @@
  hold_court.6090.desc.almoner: "\n\n„M[ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetLadyLord] – wenn ich darf“, wirft [high_almoner.Custom2('MyCharacterIntroduction', ROOT.Char)] ein. „Vielleicht könnten sie überzeugt werden, wenn wir den #EMP richtigen#! Gläubigen ein paar Almosen geben?“"
  hold_court.6090.desc.executioner: "\n\n„Ich wette, sie brauchen nur #EMP eine strenge Hand#!“, sagt [executioner.Custom2('MyCharacterIntroduction', ROOT.Char)] mit einem düsteren Lächeln."
   #AGOT Modified 
- #hold_court.6090.a: "[court_chaplain.GetFirstNameNoTooltip], see what you can do." #NT!
- hold_court.6090.a: "[court_chaplain.GetFirstNameNicknamedNoTooltip], see what you can do." #NT!
+ #hold_court.6090.a: "[court_chaplain.GetFirstNameNoTooltip], see what you can do."
+ hold_court.6090.a: "[court_chaplain.GetFirstNameNicknamedNoTooltip], see what you can do."
  hold_court.6090.b: "[high_almoner.GetFirstNameNoTooltip], sorgt für einige örtliche Almosen."
  hold_court.6090.c: "Ein friedliches Miteinander ist stets die beste Lösung."
  title_granted_to_local_leader_tt: "„[6090_main_county.GetName|U]“ wird einem Einheimischen mit dem Glauben „[6090_main_county.GetCountyData.GetFaith.GetName]“ gewährt. Ihr erhaltet ein [hook|E] gegen ihn."
@@ -157,7 +157,7 @@
  hold_court.6130.a.tt: "[6130_proposer.GetFirstNameNoTooltip|U] beginnt mit der Arbeit an der Katastervermessung, die mehrere Monate dauern wird. Bei Abschluss erhaltet Ihr folgende Belohnungen:"
  hold_court.6130.d: "Karten werden überbewertet."
  hold_court.6131.t: "Das Kataster: Fertiggestellt!"
- hold_court.6131.desc:0 "[6131_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bows briefly before me and explains with a satisfied smile: "[6131_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bows briefly before me and explains with a satisfied smile: "My [ROOT.Char.GetLadyLord], you might remember that, some months ago, you invested a large sum of gold into a cadastre of your counties. \n\n"I have personally supervised the matter and can proudly say that the job is done!"" #NT!
+ hold_court.6131.desc:0 "[6131_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bows briefly before me and explains with a satisfied smile: "[6131_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bows briefly before me and explains with a satisfied smile: "[ROOT.Char.Custom('FormOfAddressForLiege')|U], you might remember that, some months ago, you invested a large sum of gold into a cadastre of your counties. \n\n"I have personally supervised the matter and can proudly say that the job is done!"" #NT!
  hold_court.6131.desc_tutor: "Ich freue mich auch über einen ausführlichen Lernbericht von [6130_tutored.GetTitledFirstName], dem [6130_helper.Custom2('MyCharacterIntroduction', ROOT.Char)] lenkend zur Seite stand."
  hold_court.6131.desc_hunt: "\n\nIch freue mich auch über einen ausführlichen Bericht darüber, wie [6130_helper.Custom2('MyCharacterIntroduction', ROOT.Char)] aushalf."
  hold_court.6131.desc_dead: "\n\nLeider lebte [6130_helper.GetTitledFirstName] nicht lange genug, um die Fertigstellung des Katasters zu erleben, bei dessen Erstellung [6130_helper.Custom('DE_PRO_PER_S_3P_N')] zu helfen geschworen hatte."
@@ -165,7 +165,7 @@
  all_realm_county: "Jede [Concept('realm', 'Reichs')|E]-[county|E]"
   #A Cumbersome Gift 
  hold_court.6140.t: "Ein sperriges Geschenk"
- hold_court.6140.desc:2 "The whole throne room falls silent as [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] enters triumphantly, followed by two struggling servants who are dragging #EMP a chained [ROOT.Char.Custom('GetAnimalType')]#!.\n\nSmiling proudly, [6140_gifter.GetFirstNameNoTooltip] exclaims: "The whole throne room falls silent as [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] enters triumphantly, followed by two struggling servants who are dragging #EMP a chained [ROOT.Char.Custom('GetAnimalType')]#!.\n\nSmiling proudly, [6140_gifter.GetFirstNameNoTooltip] exclaims: "My [ROOT.Char.GetLadyLord], I present you a gift worthy of the mightiest ruler in the world! This magnificent beast was hunted in the [6140_province.GetTerrain.GetNameNoTooltip] of [6140_province.GetCounty.GetName], and now I offer it to you as a symbol of my devotion and your unparalleled power!"" #NT!
+ hold_court.6140.desc:2 "The whole throne room falls silent as [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] enters triumphantly, followed by two struggling servants who are dragging #EMP a chained [ROOT.Char.Custom('GetAnimalType')]#!.\n\nSmiling proudly, [6140_gifter.GetFirstNameNoTooltip] exclaims: "The whole throne room falls silent as [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] enters triumphantly, followed by two struggling servants who are dragging #EMP a chained [ROOT.Char.Custom('GetAnimalType')]#!.\n\nSmiling proudly, [6140_gifter.GetFirstNameNoTooltip] exclaims: "[ROOT.Char.Custom('FormOfAddressForLiege')|U], I present you a gift worthy of the mightiest ruler in the world! This magnificent beast was hunted in the [6140_province.GetTerrain.GetNameNoTooltip] of [6140_province.GetCounty.GetName], and now I offer it to you as a symbol of my devotion and your unparalleled power!"" #NT!
  6140_bear: "Bären"
  6140_tiger: "Tiger"
  6140_lion: "Löwen"

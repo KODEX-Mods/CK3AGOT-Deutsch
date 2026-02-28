@@ -1,0 +1,207 @@
+﻿l_german:
+  #Vanilla Feudal Add-Ons 
+ king_feudal_male_fallback: "King"
+ king_feudal_female_fallback: "Queen"
+ kingdom_feudal_independent: "Kingdom"
+  
+ agot_king_flavour: "[ROOT.Char.Custom('AGOT_KING_FLAVOUR')]" #NT!
+ agot_king_spouse_flavour: "[ROOT.Char.Custom('AGOT_KING_SPOUSE_FLAVOUR')]" #NT!
+ agot_queen_flavour: "[ROOT.Char.Custom('AGOT_QUEEN_FLAVOUR')]" #NT!
+ agot_queen_spouse_flavour: "[ROOT.Char.Custom('AGOT_QUEEN_SPOUSE_FLAVOUR')]" #NT!
+  
+ hegemony_feudal: "[CHARACTER.Custom('FEUDAL_HEGEMONY')]" #NT!
+ hegemony_feudal_iron_throne: "Seven Kingdoms" #NT!
+ hegemony_feudal_male: "[CHARACTER.Custom('FEUDAL_HEGEMONY_MALE')]" #NT!
+ hegemony_feudal_female: "[CHARACTER.Custom('FEUDAL_HEGEMONY_FEMALE')]" #NT!
+ empire_feudal_principiality: "Principality" #NT!
+ empire_feudal_paramountcy: "Lord Paramountcy" #NT!
+ empire_feudal_default: "Kingdom" #NT!
+ lord_paramount: "Lord Paramount" #NT!
+ lady_paramount: "Lady Paramount" #NT!
+ lord_non_paramount: "Lord" #NT!
+ lady_non_paramount: "Lady" #NT!
+ princess_mother: "Princess Mother" #NT!
+ queen_mother_default: "Queen Mother" #NT!
+ empress_mother_default: "Empress Mother" #NT!
+ petty_kingdom: "Petty Kingdom" #NT!
+  
+ prince_kingdom: "[CHARACTER.Custom('PRINCE_MALE')]" #NT!
+ princess_kingdom: "[CHARACTER.Custom('PRINCE_FEMALE')]" #NT!
+ prince_hegemony_feudal_male: "Prince" #NT!
+ prince_hegemony_feudal_female: "Princess" #NT!
+ child_lord: "Lord" #NT!
+ child_lady: "Lady" #NT!
+  
+ king_claimant_feudal_male: "[CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_MALE')]" #NT!
+ king_claimant_feudal_female: "[CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_FEMALE')]" #NT!
+ king_claimant_feudal_male_default: "King" #NT!
+ king_claimant_feudal_female_default: "Queen" #NT!
+  
+ king_claimant_feudal_laamp_male: "[CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_MALE')]" #NT!
+ king_claimant_feudal_laamp_female: "[CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_FEMALE')]" #NT!
+ king_claimant_feudal_laamp_male_default: "King" #NT!
+ king_claimant_feudal_laamp_female_default: "Queen" #NT!
+  
+ emperor_blackfyre_rebellion_male: "King" #NT!
+ emperor_blackfyre_rebellion_female: "Queen" #NT!
+ empire_blackfyre_rebellion: "Kingdom" #NT!
+  
+  #Free Cities 
+ king_free_city_male_k_lys: "First Magister"
+ king_free_city_female_k_lys: "First Magister"
+ king_free_city_male_k_tyrosh: "Archon"
+ king_free_city_female_k_tyrosh: "Archon"
+ king_free_city_male_k_myr: "Eliate"
+ king_free_city_female_k_myr: "Eliate"
+ king_free_city_male_bob: "Bob" #NT!
+ king_free_city_female_bob: "Bob" #NT!
+ king_free_city_male_k_pentos: "Prince"
+ king_free_city_female_k_pentos: "Princess"
+ baron_free_city_male: "Magister"
+ baron_free_city_female: "Magister"
+ barony_free_city: "Borough"
+ count_free_city_male: "Magister"
+ count_free_city_female: "Magister"
+ county_free_city: "Town"
+ duke_free_city_male: "Magister"
+ duke_free_city_female: "Magister"
+ duchy_free_city: "City"
+ duke_free_city_independent_male: "First Magister"
+ duke_free_city_independent_female: "First Magister"
+ duchy_free_city_independent: "City"
+ king_free_city_male: "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]"
+ king_free_city_female: "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]"
+ king_free_city_male_fallback: "Magister"
+ king_free_city_female_fallback: "Magister"
+ kingdom_free_city: "Kingdom"
+ king_free_city_male_spouse: "Lord"
+ king_free_city_female_spouse: "Lady"
+ king_free_city_independent_male: "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]"
+ king_free_city_independent_female: "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]"
+ king_free_city_independent_male_fallback: "First Magister"
+ king_free_city_independent_female_fallback: "First Magister"
+ king_free_city_male_k_braavos: "Sealord"
+ king_free_city_female_k_braavos: "Sealady"
+ kingdom_free_city_independent: "Free City"
+ emperor_free_city_male_spouse: "Lord"
+ emperor_free_city_female_spouse: "Lady"
+ emperor_free_city_male: "[CHARACTER.Custom('EMPIRE_FREE_CITIES_MALE')]"
+ emperor_free_city_female: "[CHARACTER.Custom('EMPIRE_FREE_CITIES_FEMALE')]"
+ emperor_free_city_male_fallback: "First Magister"
+ emperor_free_city_female_fallback: "First Magister"
+ spouse_estate_holder_free_city_male: "Magister"
+ spouse_estate_holder_free_city_female: "Magister"
+ empire_free_city: "Free City"
+ archon_tyrosh_male: "Archon"
+ archon_tyrosh_female: "Archon"
+ triarch_three_daughters_male: "Triarch"
+ triarch_three_daughters_female: "Triarch"
+ kingdom_three_daughters: "Kingdom"
+  
+  #Pirate Titles 
+ baron_pirate_male: "Skipper"
+ baron_pirate_female: "$baron_pirate_male$"
+ barony_pirate: "Boats"
+ count_pirate_male: "Captain"
+ count_pirate_female: "$count_pirate_male$"
+ county_pirate: "Ships"
+ duke_pirate_male: "Pirate Lord"
+ duke_pirate_female: "Pirate Lady"
+ duchy_pirate: "Squadron"
+ king_pirate_male: "[CHARACTER.Custom('KINGDOM_PIRATE_MALE')]"
+ king_pirate_female: "[CHARACTER.Custom('KINGDOM_PIRATE_FEMALE')]"
+ king_pirate_male_corsair: "Corsair King" #NT!
+ king_pirate_female_corsair: "Corsair Queen" #NT!
+ king_pirate_male_fallback: "Pirate King"
+ king_pirate_female_fallback: "Pirate Queen"
+ kingdom_pirate: "Fleet"
+ emperor_pirate_male: "King of the Seas"
+ emperor_pirate_female: "Queen of the Seas"
+ empire_pirate: "Armada"
+ hegemony_pirate: "Pirate Empire" #NT!
+  
+ prince_admiral: "Prince-Admiral"
+ princess_admiral: "Princess-Admiral"
+  
+  #Wolfswood Clansman Master Title 
+ wolfswood_clansman_master_male: "Master"
+ wolfswood_clansman_master_female: "Mistress"
+  
+  #Riverlands 
+ e_the_riverlands_old: "Die Flüsse und Hügel"
+  
+  #Magnar 
+ magnar_count: "Magnar"
+ magnar_duke: "Magnar"
+ magnar_king: "Magnar"
+ magnar_emperor: "Magnar des Freien Volks"
+  
+  #King Flavourisation 
+ king_stormlands: "Sturmkönig"
+ queen_stormlands: "Sturmkönigin"
+ king_north: "König"
+ queen_north: "Königin"
+ good_queen: "'Good Queen'"
+ bad_queen: "'Bad Queen'"
+ king_riverlands: "Flusskönig"
+ queen_riverlands: "Flusskönigin"
+ king_wall: "Lord Kommandant"
+ queen_wall: "Lord Kommandantin"
+  
+  #Smaller Kingdoms 
+ king_the_dreadlands: "Red King"
+ queen_the_dreadlands: "Red Queen"
+ king_barrows_and_rills: "Barrow King"
+ queen_barrows_and_rills: "Barrow Queen"
+ king_the_neck: "Marsh King"
+ queen_the_neck: "Marsh Queen"
+ king_tridents_mouth: "Fool King"
+ queen_tridents_mouth: "Maid Queen"
+ king_the_bay_of_crabs: "True King"
+ queen_the_bay_of_crabs: "True Queen"
+ king_runestone: "Bronzekönig"
+ queen_runestone: "Bronzekönigin"
+ king_the_red_mountains: "Vulture King"
+ queen_the_red_mountains: "Vulture Queen"
+ king_withermoore: "Hooded King"
+ queen_withermoore: "Hooded Queen"
+ king_yronwood: "Bloodroyal"
+ queen_yronwood: "Bloodroyal"
+ king_the_stormlands: "Storm King"
+ queen_the_stormlands: "Storm Queen"
+ king_rhoynish: "Prince" #NT!
+ queen_rhoynish: "Princess" #NT!
+ king_dragonstone_heir: "Prince" #NT!
+ queen_dragonstone_heir: "Princess" #NT!
+  
+  #Faegon Host 
+ lp_empire_male_faegon: "König"
+ lp_empire_female_faegon: "Königin"
+  
+ head_of_faith_male_normal: "[CHARACTER.GetFaith.ReligiousHeadName|U]"
+ head_of_faith_male_fots: ""
+  
+  #Landless 
+ duke_landless_adventurer_knight_camp: "Ser" #NT!
+ spouse_landless_adventurer_knight_male: "Ser" #NT!
+ duchess_landless_adventurer_knight_camp: "Ser" #NT!
+ spouse_landless_adventurer_knight_female: "Ser" #NT!
+  
+ default_duke_landless_adventurer_male_camp: "Captain" #NT!
+ default_duke_landless_adventurer_female_camp: "Captain" #NT!
+ default_spouse_landless_adventurer_male: "Master" #NT!
+ default_spouse_landless_adventurer_holder_female: "Mistress" #NT!
+  
+ default_duke_landless_adventurer_camp_mercenaries: "Captain" #NT!
+ default_duke_landless_adventurer_camp_wanderers: "[Character.Custom('MistressMaster')|U]" #NT!
+ default_duke_landless_adventurer_camp_scholars: "[Character.Custom('MistressMaster')|U]" #NT!
+ default_duke_landless_adventurer_camp_explorers: "Leader" #NT!
+ default_duke_landless_adventurer_camp_brigands: "Boss" #NT!
+ default_duke_landless_adventurer_camp_legitimists: "[Character.GetLadyLord|U]" #NT!
+  
+ default_duchess_landless_adventurer_camp_mercenaries: "Captain" #NT!
+ default_duchess_landless_adventurer_camp_wanderers: "[Character.Custom('MistressMaster')|U]" #NT!
+ default_duchess_landless_adventurer_camp_scholars: "[Character.Custom('MistressMaster')|U]" #NT!
+ default_duchess_landless_adventurer_camp_explorers: "Leader" #NT!
+ default_duchess_landless_adventurer_camp_brigands: "Boss" #NT!
+ default_duchess_landless_adventurer_camp_legitimists: "[Character.GetLadyLord|U]" #NT!

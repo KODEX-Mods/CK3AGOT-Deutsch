@@ -1,0 +1,91 @@
+﻿l_german:
+  #Cusloc Static Key 
+ agot_pirate_ship_name_static: "[GetGlobalVariable('pirate_ship_new_name').Char.Custom('GetStaticPirateShipName')]" #NT!
+  
+  #Static Names 
+ agot_pirate_ship_queen_nymerias_revenge: "Queen Nymeria's Revenge" #NT!
+ agot_pirate_ship_flying_myrman: "Flying Myrman" #NT!
+ agot_pirate_ship_nautilus: "Nautilus" #NT!
+ agot_pirate_ship_tempest: "Tempest" #NT!
+ agot_pirate_ship_straw_hat: "Straw Hat" #NT!
+ agot_pirate_ship_royal_fortune: "Royal Fortune" #NT!
+ agot_pirate_ship_jolly_rogar: "Jolly Rogar" #NT!
+ agot_pirate_ship_interceptor: "Interceptor" #NT!
+ agot_pirate_ship_gold_hoarder: "Gold Hoarder" #NT!
+ agot_pirate_ship_bilge_rat: "Bilge Rat" #NT!
+ agot_pirate_ship_red_corsair: "Red Corsair" #NT!
+ agot_pirate_ship_dreadnought: "Dreadnought" #NT!
+ agot_pirate_ship_red_rackham: "Red Rackham" #NT!
+ agot_pirate_ship_dawn_treader: "Dawn Treader" #NT!
+  #Static Canon Names 
+ agot_pirate_ship_moonrunner: "Moonrunner" #NT!
+ agot_pirate_ship_cobblecat: "Cobblecat" #NT!
+ agot_pirate_ship_elephant: "Elephant" #NT!
+ agot_pirate_ship_dolphin: "Dolphin" #NT!
+ agot_pirate_ship_fingerdancer: "Fingerdancer" #NT!
+ agot_pirate_ship_goodheart: "Goodheart" #NT!
+ agot_pirate_ship_hags_teeth: "Hag's Teeth" #NT!
+ agot_pirate_ship_indigo_star: "Indigo Star" #NT!
+ agot_pirate_ship_lisping_lady: "Lisping Lady" #NT!
+ agot_pirate_ship_merry_midwife: "Merry Midwife" #NT!
+ agot_pirate_ship_peregrine: "Peregrine" #NT!
+ agot_pirate_ship_salty_wench: "Salty Wench" #NT!
+ agot_pirate_ship_sea_demon: "Sea Demon" #NT!
+ agot_pirate_ship_seastrider: "Seastrider" #NT!
+ agot_pirate_ship_silken_spirit: "Silken Spirit" #NT!
+ agot_pirate_ship_treasure: "Treasure" #NT!
+ agot_pirate_ship_wildwind: "Wildwind" #NT!
+ agot_pirate_ship_willing_maiden: "Willing Maiden" #NT!
+ agot_pirate_ship_wraith: "Wraith" #NT!
+  
+  #Cusloc Dynamic Key 
+ agot_pirate_ship_name_dynamic: "[GetGlobalVariable('pirate_ship_new_name').Char.Custom('GetPirateShipPrefix')] [GetGlobalVariable('pirate_ship_new_name').Char.Custom('GetPirateShipSuffix')]" #NT!
+  
+  #Prefixes 
+ agot_pirate_ship_black: "Black" #NT!
+ agot_pirate_ship_crimson: "Crimson" #NT!
+ agot_pirate_ship_grey: "Grey" #NT!
+ agot_pirate_ship_red: "Red" #NT!
+ agot_pirate_ship_scarlet: "Scarlet" #NT!
+ agot_pirate_ship_pale: "Pale" #NT!
+ agot_pirate_ship_ashen: "Ashen" #NT!
+ agot_pirate_ship_salty: "Salty" #NT!
+ agot_pirate_ship_bitter: "Bitter" #NT!
+ agot_pirate_ship_briny: "Briny" #NT!
+ agot_pirate_ship_blood: "Blood" #NT!
+ agot_pirate_ship_iron: "Iron" #NT!
+ agot_pirate_ship_storm: "Storm" #NT!
+ agot_pirate_ship_narrow: "Narrow" #NT!
+ agot_pirate_ship_deep: "Deep" #NT!
+ agot_pirate_ship_swift: "Swift" #NT!
+ agot_pirate_ship_silent: "Silent" #NT!
+ agot_pirate_ship_bold: "Bold" #NT!
+ agot_pirate_ship_brazen: "Brazen" #NT!
+ agot_pirate_ship_brave: "Brave" #NT!
+ agot_pirate_ship_night: "Night" #NT!
+ agot_pirate_ship_wicked: "Wicked" #NT!
+ agot_pirate_ship_savage: "Savage" #NT!
+ agot_pirate_ship_grim: "Grim" #NT!
+  
+  #Suffixes 
+ agot_pirate_ship_bitch_suffix: "Bitch" #NT!
+ agot_pirate_ship_daughter_suffix: "Daughter" #NT!
+ agot_pirate_ship_fish_suffix: "Fish" #NT!
+ agot_pirate_ship_flyer_suffix: "Flyer" #NT!
+ agot_pirate_ship_hull_suffix: "Hull" #NT!
+ agot_pirate_ship_keel_suffix: "Keel" #NT!
+ agot_pirate_ship_maiden_suffix: "Maiden" #NT!
+ agot_pirate_ship_rime_suffix: "Rime" #NT!
+ agot_pirate_ship_scourge_suffix: "Scourge" #NT!
+ agot_pirate_ship_squall_suffix: "Squall" #NT!
+ agot_pirate_ship_wake_suffix: "Wake" #NT!
+ agot_pirate_ship_wind_suffix: "Wind" #NT!
+ agot_pirate_ship_widow_suffix: "Widow" #NT!
+ agot_pirate_ship_victory_suffix: "Victory" #NT!
+ agot_pirate_ship_oath_suffix: "Oath" #NT!
+ agot_pirate_ship_wraith_suffix: "Wraith" #NT!
+ agot_pirate_ship_dagger_suffix: "Dagger" #NT!
+ agot_pirate_ship_tempest_suffix: "Tempest" #NT!
+ agot_pirate_ship_reaper_suffix: "Reaper" #NT!
+ agot_pirate_ship_exile_suffix: "Exile" #NT!
+ agot_pirate_ship_kraken_suffix: "Kraken" #NT!

@@ -1,0 +1,9 @@
+﻿l_german:
+ ub_predecessor_friend: "Predecessor's [friend|E]"
+ ub_friend_heir: "[friend|E]'s [heir|E]"
+ ub_predecessor_best_friend: "Predecessor's [best_friend|E]"
+ ub_best_friend_heir: "[best_friend|E]'s [heir|E]"
+ ub_predecessor_rival: "Predecessor's [rival|E]"
+ ub_rival_heir: "[rival|E]'s [heir|E]"
+ ub_predecessor_nemesis: "Predecessor's [nemesis|E]"
+ ub_nemesis_heir: "[nemesis|E]'s [heir|E]"

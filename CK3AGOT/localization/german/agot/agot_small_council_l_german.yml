@@ -22,7 +22,7 @@
   
  set_relation_small_councillor: "[TARGET_CHARACTER.GetTitledFirstName|V] beginnt, in Eurem kleinen Rat mitzuwirken.""
   
- ### MODIFIERS ### 
+  ### MODIFIERS ### 
   
  small_council_vassal_repatriation: "Rückgabe von Vasallen"
  small_council_vassal_repatriation_desc: "Einer der Vasallen dieses Charakters sitzt im Rat seines Lehnsherrn, schickt ihm aber weiterhin Abgaben und Steuern."

@@ -63,10 +63,10 @@
  tradition_formation_fighting_name: "Formationskampf-Experten"
  tradition_formation_fighting_desc: "Diese Kultur weiß, wie man Synergien zwischen verschiedenen Einheiten erzielt, indem man schützende Formationen einsetzt."
   #AGOT Modified 
- #tradition_republican_legacy_name: "Republican Legacy" #NT!
- #tradition_republican_legacy_desc: "This culture has a long history of republican values, where the urban classes are just as important as the rural landholders." #NT!
- tradition_republican_legacy_name: "Freehold Legacy" #NT!
- tradition_republican_legacy_desc: "This culture has a long history of being part of the Freehold, where the urban classes are just as important as the rural landholders." #NT!
+ #tradition_republican_legacy_name: "Republican Legacy"
+ #tradition_republican_legacy_desc: "This culture has a long history of republican values, where the urban classes are just as important as the rural landholders."
+ tradition_republican_legacy_name: "Freehold Legacy"
+ tradition_republican_legacy_desc: "This culture has a long history of being part of the Freehold, where the urban classes are just as important as the rural landholders."
  tradition_hereditary_hierarchy_name: "Erbhierarchie"
  tradition_hereditary_hierarchy_desc: "Es ist ein fester Teil dieser Kultur, dass der Führungsanspruch über das Blut weitergegeben wird, Adel durch den Fels von Burgen gebunden ist und die Feudalstruktur unerschütterlich bleibt. Diese Menschen vergessen es nicht so leicht, wenn jemand den Feudalkodex bricht."
  tradition_theocratic_autonomy_name: "Theokratische Autonomie"
@@ -340,11 +340,8 @@
  culture_parameter_devoted_trait_bonuses: "Die [traits|E]-Reihe [GetTrait('devoted').GetName(GetNullCharacter)] erhält weitere Boni."
  tradition_strong_kinship_name: "Starke Verwandtschaft"
  tradition_strong_kinship_desc: "In dieser Kultur legt man besonderen Wert auf die weitere Verwandtschaft oder den Clan. In Zeiten der Not wird sich ein Herrscher immer auf seine Verwandten verlassen können."
-  #AGOT Modified (AMANES IS MEAN) 
- #tradition_amharic_highlanders_name: "Amharic Highlanders" #NT!
- #tradition_amharic_highlanders_desc: "The Amharic highlands are quite suitable for farming as long as one knows how to best approach the matter. For many generations this people have worked and lived in this environment, thriving while developing their own traditions and customs." #NT!
- tradition_amharic_highlanders_name: "Hardened Highlanders" #NT!
- tradition_amharic_highlanders_desc: "The highlands are quite suitable for farming as long as one knows how to best approach the matter. For many generations this people have worked and lived in this environment, thriving while developing their own traditions and customs." #NT!
+ tradition_amharic_highlanders_name: "Hardened Highlanders"
+ tradition_amharic_highlanders_desc: "The highlands are quite suitable for farming as long as one knows how to best approach the matter. For many generations this people have worked and lived in this environment, thriving while developing their own traditions and customs."
   
  culture_parameter_witenagemot_succession_enabled: "Erlaubt folgendes [succession_law|E]: [GetLaw('saxon_elective_succession_law').GetName|U]"
  culture_parameter_scandinavian_elective_enabled: "Erlaubt folgendes [succession_law|E]: [GetLaw('scandinavian_elective_succession_law').GetName|U]"
@@ -369,8 +366,8 @@
  culture_parameter_prowess_from_martial_education: "Die [martial|E]-[Concept('education', 'Ausbildungs')|E]-[traits|E] gewähren auch [prowess|E]."
  culture_parameter_martial_education_more_valued: "Die [martial|E]-[Concept('education', 'Ausbildungs')|E]-[traits|E] sind höher angesehen."
   #AGOT Modified INCREASED FROM 10 
- #culture_parameter_high_prowess_ignores_knight_restrictions: "Most restrictions on who can be a [knight|E] are lifted for characters with [prowess_i]#V 10#! or more [prowess|E]" #NT!
- culture_parameter_high_prowess_ignores_knight_restrictions: "Most restrictions on who can be a [knight|E] are lifted for characters with [prowess_i]#V 12#! or more [prowess|E]" #NT!
+ #culture_parameter_high_prowess_ignores_knight_restrictions: "Most restrictions on who can be a [knight|E] are lifted for characters with [prowess_i]#V 10#! or more [prowess|E]"
+ culture_parameter_high_prowess_ignores_knight_restrictions: "Most restrictions on who can be a [knight|E] are lifted for characters with [prowess_i]#V 12#! or more [prowess|E]"
   
  culture_parameter_blademaster_traits_more_common: "[knights|E] erlangen in Schlachten öfter die [GetTrait('lifestyle_blademaster').GetName(GetNullCharacter)]-[traits|E]."
  culture_parameter_prowess_from_religious_traits: "[traits|E] wie [GetTrait('education_learning_3').GetName(GetNullCharacter)], [GetTrait('devoted').GetName(GetNullCharacter)] oder [GetTrait('theologian').GetName(GetNullCharacter)] gewähren [prowess|E]."
@@ -449,6 +446,7 @@
  culture_parameter_honest_trait_more_common: "Die [trait|E] [GetTrait('honest').GetName(GetNullCharacter)] ist verbreiteter."
  culture_parameter_generous_trait_more_common: "Die [trait|E] [GetTrait('generous').GetName(GetNullCharacter)] ist verbreiteter."
  culture_parameter_compassionate_trait_more_common: "Die [trait|E] [GetTrait('compassionate').GetName(GetNullCharacter)] ist verbreiteter."
+ culture_parameter_lustful_trait_less_common: "Die [trait|E] „[GetTrait('lustful').GetName(GetNullCharacter)|U]“ ist weniger häufig"
  culture_parameter_gives_more_gifts: "[rulers|E] dieser [culture|E] nutzen die [send_gift|E]-[interaction|E] öfter."
  culture_parameter_more_gift_opinion: "[Concept('opinion', 'Meinungs')|E]-Zuwachs durch [send_gift|E]: #P +20 %#!"
  culture_parameter_temperate_trait_more_common: "Die [trait|E] [GetTrait('temperate').GetName(GetNullCharacter)] ist verbreiteter."
@@ -487,6 +485,7 @@
  culture_parameter_extra_language_cap: "Kann #V 1#! weitere [language|E] ohne Mali lernen."
  culture_parameter_extra_language_cap_2: "$culture_parameter_extra_language_cap$"
  culture_parameter_coastal_agriculture_building_bonuses: "Die #V $building_type_pastures_01$#!-, #V $building_type_cereal_fields_01$#!-, #V $building_type_peat_quarries_01$#!-, #V $building_type_farm_estates_01$#!- und #V $building_type_orchards_01$#!-Reihen von [Concept('buildings', 'Gebäuden')|E] haben zusätzliche Boni in Küsten-[baronies|E] in [counties|E] dieser [culture|E]."
+ culture_parameter_coastal_tribe_bonuses: "[Concept('stationed', 'Stationiertes')|E] [men_at_arms|E] in [Concept('tribal', 'Stammes')|E]-[Concept('holdings', 'Besitztümern')|E] erhält Boni"
  culture_parameter_coastal_holding_bonuses: "Boni auf das Bautempo von [Concept('holdings', 'Besitztümern')|E] an der Küste."
  culture_parameter_can_levy_longbowmen: "Schaltet [levy_longbowmen_decision|E] frei."
  culture_parameter_archer_era_improvement: "Das [GetMaA('longbowmen').GetName]-[men_at_arms|E] wird mit jeder [era|E] besser."
@@ -537,6 +536,8 @@
  culture_parameter_better_food_tasters_no_dlc: ""
  court_position_food_tasters_free: "Verbesserter #V [GetCourtPositionType('food_taster_court_position').GetName]#!"
  culture_parameter_characters_are_better_court_poets: "[characters|E] dieser [culture|E] sind besser, wenn sie für das [court_position|E] #high [GetCourtPositionType('court_poet_court_position').GetName]#! ernannt werden"
+ culture_parameter_naked_culture_active: "[characters|E] dieser [culture|E] sind nackt"
+ culture_parameter_characters_are_better_court_gardeners: "[characters|E] dieser [culture|E] sind besser, wenn sie für das [court_position|E] #high $court_gardener_court_position$#! ernannt werden"
  culture_parameter_better_court_poets: "[SelectLocalization(HasDlcFeature('royal_court'), 'culture_parameter_better_court_poets_has_dlc', 'culture_parameter_better_court_poets_no_dlc')]"
  culture_parameter_better_court_poets_has_dlc: "Erlaubt das [court_position|E] #V [GetCourtPositionType('court_poet_court_position').GetName]#! einen [title_tier|E] früher\n$EFFECT_LIST_BULLET$Das [court_position|E] #V [GetCourtPositionType('court_poet_court_position').GetName]#! erhöht das monatliche [prestige_i][prestige|E]"
  culture_parameter_better_court_poets_no_dlc: ""
@@ -565,8 +566,10 @@
  culture_parameter_vegetarian_next_level_cereal_fields: "Die [Concept('buildings', 'Gebäudereihe')|E] „#V $building_type_cereal_fields_01$#!“ kann eine [era|E] früher gebaut werden"
  culture_parameter_vegetarian_fruit_orchard_allowed: "Die [Concept('buildings', 'Gebäudereihe')|E] „#V $building_type_orchards_01$#!“ kann in [counties|E] dieser [culture|E] immer gebaut werden"
  culture_parameter_ancient_miners_quarries_building_bonuses: "Die [Concept('buildings', 'Gebäudereihe')|E] „#V $building_type_quarries_01$#!“ gewährt zusätzliche Boni"
+ culture_parameter_rice_cultivators_next_level_paddy_fields: "Die [Concept('buildings', 'Gebäudereihe')|E] #V $building_type_paddy_fields_01$#! kann eine [era|E] früher gebaut werden"
+ culture_parameter_rice_cultivators_can_construct_paddy_fields_in_hills_and_jungle: "Die [Concept('buildings', 'Gebäudereihen')|E] [GetBuilding('paddy_fields_01').GetTypeName|V] und [GetBuilding('farm_estates_01').GetTypeName|V] können in [GetTerrain('hills').GetName]n und [GetTerrain('jungle').GetName]n gebaut werden"
   
- next_level_trade_ports_name: "#V $tradition_maritime_mercantilism_name$#!"
+ next_level_trade_ports_name: "$tradition_maritime_mercantilism_name$"
  next_level_military_camps_name: "#V $tradition_adaptive_skirmishing_name$#!"
  next_level_barracks_name: "#V $tradition_formation_fighting_name$#!"
  next_level_stables_name: "#V $tradition_horse_breeder_name$#!"
@@ -574,10 +577,12 @@
  next_level_w_mills_name: "#V $tradition_hard_working_name$#!"
  next_level_smiths_name: "#V $tradition_metal_craftsmanship_name$#!"
  temple_next_level_name: "#V $tradition_fervent_temple_builders_name$#!"
+ tribals_can_into_temples_name: "$temple_next_level_name$"
  next_level_monasteries_name: "#V $tradition_monastic_communities_name$#!"
  next_level_fortification_name: "#V $tradition_stalwart_defenders_name$#!"
  next_level_cities_name: "#V $tradition_republican_legacy_name$#!"
  vegetarian_next_level_cereal_fields_name: "#V $tradition_vegetarianism_name$#!"
+ rice_cultivators_next_level_paddy_fields_name: "#V $tradition_tgp_rice_cultivators_name$#!"
  vegetarian_building_ban_name: "#V $tradition_vegetarianism_name$#!"
  warrior_lodges_lift_restrictions_name: "#V $tradition_reverence_for_veterans_name$#!"
  farm_estates_pastures_unlock_name: "#V $tradition_pastoralists_name$#!"
@@ -590,6 +595,7 @@
  CHOOSE_TERRAIN_SPECIALIST_DECISION_NEXT_STEP_BUTTON: "Geländespezialist auswählen"
  recruit_terrain_specialist_decision_confirm: "Rekrutieren"
  recruit_terrain_specialist_decision_tooltip: "Ihr sucht einen sehr geübten [commander|E] mit der gewählten [commander_trait|E], um sich Eurem [court|E] anzuschließen\n\n#weak Eure [culture_traditions|E] beeinflussen die Arten von Befehlshabern, die Ihr rekrutieren könnt#!"
+ recruit_terrain_specialist_decision_minister_tooltip: "Ihr sucht einen sehr geübten [commander|E] mit der gewählten [commander_trait|E], um sich Eurem [court|E] anzuschließen\n\n#weak Als [minister|E] könnt ihr alle Arten von Befehlshabern rekrutieren#!"
   
  recruit_winter_specialist_decision: "Winterspezialisten anwerben"
  recruit_winter_specialist_decision_desc: "Mein zähes Volk, die [ROOT.Char.GetCulture.GetCollectiveNoun], haben die Kälte gemeistert. Wenn ich einen Experten als Befehlshaber brauche, um meine Truppen im gnadenlosen Winter zu führen, brauche ich nur Bescheid geben: Es besteht kein Mangel an Veteranen mit Erfrierungen, die bereit sind, meinem Ruf zu folgen."
@@ -633,6 +639,8 @@
  recruit_open_specialist_decision_tooltip: "$recruit_open_specialist_decision.tt$"
  recruit_open_specialist_decision_confirm: "$invite_knights_decision_confirm$"
   
+ recruit_terrain_specialist_decision_desc: "Wir haben unzählige Feinde, und unsere Armeen können sich nicht immer das Schlachtfeld aussuchen, auf dem wir sie stellen.\n\nUm den Sieg an allen Fronten zu sichern, benötigen wir Befehlshaber, die selbst das Land geschickt zu unserem Vorteil nutzen können."
+  
  commander_recruited.t: "Befehlshaber angeworben"
  commander_recruited.desc: "[new_commander.GetFullName] schließt sich Eurem Hof an!"
   
@@ -662,6 +670,9 @@
  trait_culture_disinherited_desc: "Dieser Charakter wurde durch die Bräuche der eigenen Kultur enterbt und kann keinerlei Titel mehr erben."
   
  culture_parameter_courtiers_and_guests_less_likely_to_join_schemes: "[courtiers|E] und [guests|E] schließen sich seltener [Concept('hostile_schemes','Feindseligen Komplotten')|E] gegen ihre [rulers|E] an."
+ culture_parameter_court_machinations_eunuch_trait_bonuses: "Die [traits|E] „[GetTrait('eunuch_1').GetName(GetNullCharacter)]“ und „[GetTrait('beardless_eunuch').GetName(GetNullCharacter)]“ gewähren zusätzliche [skills|E], [aptitude|E], [merit|E] und [influence|E]"
+ culture_parameter_eunuch_powerful_scheme_agents: "Charaktere, die [GetTrait('eunuch_1').GetName(GetNullCharacter)] oder [GetTrait('beardless_eunuch').GetName(GetNullCharacter)] sind, sind in Komplotten mächtigere [agents|E]"
+ culture_parameter_courtiers_more_likely_to_join_hostile_schemes_in_court: "[courtiers|E] schließen sich weniger wahrscheinlich [Concept('hostile_schemes', 'feindseligen Komplotten')|E] gegen andere [courtiers|E] an"
  culture_parameter_cheaper_cbs: "[casus_belli|E]-Kosten: [prestige_i]#P -20 %#!"
  culture_parameter_innovation_from_learning_traits: "[Concept('learning', 'Bildungs')|E]-[education_traits|E] und die [trait|E] [GetTrait('scholar').GetName(GetNullCharacter)] gewähren auch [Concept('cultural_fascination', 'Kulturinteressen')|E]-Fortschritt."
  culture_parameter_cannot_attack_allies: "Man kann [allies|E] nicht angreifen."
@@ -677,6 +688,7 @@
  culture_parameter_hunting_traits_more_pious: "Die [trait|E] „[GetTrait('lifestyle_hunter').GetName(GetNullCharacter)]“ wird als [piety_i][pious|El] angesehen."
  culture_parameter_reveler_traits_more_valued: "Die [trait|E] „[GetTrait('lifestyle_reveler').GetName(GetNullCharacter)]“ wird als [prestige_i][prestigious|El] angesehen."
  culture_parameter_prestige_gain_on_building_complete_in_mountains: "[prestige_i][prestige|E]-Zuwachs beim Abschluss von [Concept('buildings', 'Gebäuden')|E] in [Concept('holdings', 'Besitztümern')|E] mit dem [terrain|E] #V Berge#! oder #V Bergwüste#!."
+ culture_parameter_prestige_gain_on_building_complete_in_mountains_forest: "[prestige_i][prestige|E]-Zuwachs beim Abschluss von [Concept('buildings', 'Gebäuden')|E] in [Concept('holdings', 'Besitztümern')|E] mit dem [terrain|E] [GetTerrain('mountains').GetName] oder [GetTerrain('forest').GetName]"
  culture_parameter_more_frequent_feasts: "Abklingzeit zwischen „[GetActivityType('activity_feast').GetName]“ und „[GetActivityType('activity_camp_party').GetName]“-[activities|E]: #P -50 %#!"
  culture_parameter_refined_feasts: "Erfolgreiche „[GetActivityType('activity_feast').GetName]“-[activities|E] gewähren mehr [prestige_i][prestige|E]."
  culture_parameter_more_expensive_feasts: "Kosten von „[GetActivityType('activity_feast').GetName]“-[activities|E]: [gold_i]#N +100 %#!"
@@ -719,6 +731,12 @@
  culture_parameter_number_of_spouses: "$doctrine_parameter_number_of_spouses$"
  culture_parameter_number_of_spouses_1: "$doctrine_parameter_number_of_spouses_1$"
  culture_parameter_number_of_consorts: "$doctrine_parameter_number_of_consorts$"
+ culture_parameter_number_of_consorts_barony: "Herrscher im [barony|E]-Rang dürfen, wenn es das [gender_law|E] erlaubt, bis zu $VALUE|V0$ [concubines|E] haben"
+ culture_parameter_number_of_consorts_county: "Herrscher im [county|E]-Rang dürfen, wenn es das [gender_law|E] erlaubt, bis zu $VALUE|V0$ [concubines|E] haben"
+ culture_parameter_number_of_consorts_duchy: "Herrscher im [duchy|E]-Rang dürfen, wenn es das [gender_law|E] erlaubt, bis zu $VALUE|V0$ [concubines|E] haben"
+ culture_parameter_number_of_consorts_kingdom: "Herrscher im [kingdom|E]-Rang dürfen, wenn es das [gender_law|E] erlaubt, bis zu $VALUE|V0$ [concubines|E] haben"
+ culture_parameter_number_of_consorts_empire: "Herrscher im [empire|E]-Rang dürfen, wenn es das [gender_law|E] erlaubt, bis zu $VALUE|V0$ [concubines|E] haben"
+ culture_parameter_number_of_consorts_hegemony: "Herrscher im [hegemony|E]-Rang dürfen, wenn es das [gender_law|E] erlaubt, bis zu $VALUE|V0$ [concubines|E] haben"
  culture_parameter_poet_trait_gives_bonuses: "Die [trait|E] [GetTrait('poet').GetName(GetNullCharacter)] hat zusätzliche Boni."
  culture_parameter_poet_trait_more_common: "Die [trait|E] [GetTrait('poet').GetName(GetNullCharacter)] ist verbreiteter."
  culture_parameter_piety_gain_on_building_complete_in_forest_taiga: "[piety_i][Concept('piety','Frömmigkeits')|E]-Zuwachs beim Abschluss von [Concept('buildings','Gebäuden')|E] in [Concept('holdings','Besitztümern')|E] mit dem [terrain|E] #V Dschungel#!, #V Wald#! oder #V Taiga#!."
@@ -828,6 +846,7 @@
  TRADITION_HARDER_TO_CONVERT_CONVERSION_MODIFIER: "[culture_tradition|E] „$tradition_zealous_people_name$“"
  TRADITION_BREAKDOWN_LAW_REALM_SIZE_COST: "$KEY$: $VALUE|=-0$ #Weak (durch [traditions|E]: #P -50 %#!)#!"
   
+ faith_conversion_cost_heritage: "Derzeitige [heritage|E]"
  faith_conversion_cost_tradition: "Derzeitige [traditions|E]"
  cheaper_tradition_from_faith: "Derzeitiger [faith|E]"
   
@@ -840,11 +859,15 @@
  20_percent_churches: "Die [culture|E] hat nicht [temple|E] in #V 20 %#! ihrer [counties|E]."
  must_be_feudal_or_clan: "Ihr müsst eine [feudal|E]- or [clan|E]-[government|E] haben."
  must_be_feudal_clan_or_admin: "Ihr müsst eine [feudal|E]-, [Concept('clan', 'Clans')|E]- oder [Concept('administrative', 'Verwaltungs')]-[government|E]haben"
+ must_be_feudal_clan_or_admin_base_game: "Ihr müsst eine [feudal|E]-, [Concept('clan', 'Clans')|E]- oder [Concept('administrative', 'Verwaltungs')|E]-[government|E]haben"
+ must_be_feudal_clan_or_admin_auh: "Ihr müsst eine [feudal|E]-, [Concept('clan', 'Clans')|E]-, [Concept('administrative', 'Verwaltungs')|E]-, [Concept('celestial', 'himmlische')|E], [Concept('meritocratic', 'meritokratische')|E] oder [japan_feudal|E]-[government|E] haben"
  only_one_marriage_tradition_allowed: "Es ist nur eine [marriage|E]-[tradition|E] erlaubt, und die folgenden lassen sich nicht kombinieren: $tradition_monogamous_name$, $tradition_polygamous_name$ und $tradition_concubines_name$"
  no_warrior_culture: "„$tradition_fp3_beacon_of_learning_name$“ ist unvereinbar mit „$tradition_warrior_culture_name$“"
  no_philosopher_culture: "„$tradition_fp3_beacon_of_learning_name$“ ist unvereinbar mit „$tradition_philosopher_culture_name$“"
   
  culture_in_winter_geographical_region_trigger_desc: "Die [culture|E] ist nicht in einer [region|E] mit Winter präsent."
+  #AGOT Modified 
+ #culture_in_non_sedentary_geographical_region_trigger_desc: "The [culture|E] is not present in the [GetGeographicalRegion('world_steppe').GetName]" #NT!
  culture_in_non_sedentary_geographical_region_trigger_desc: "Die [culture|E] ist nicht in der [GetGeographicalRegion('world_steppe').GetName] präsent."
  #culture_in_britannia_region_trigger_desc: "The [culture|E] is not present in [GetGeographicalRegion('world_europe_west_britannia').GetName]"
  #culture_in_world_europe_north_region_trigger_desc: "The [culture|E] is not present in [GetGeographicalRegion('world_europe_north').GetName]"
@@ -863,7 +886,9 @@
  culture_in_wetlands_desc: "Die [culture|E] ist nicht in einer [county|E] mit dem [terrain|E] Feuchtgebiete präsent."
  culture_in_wetlands_count_desc: "Die [culture|E] ist nicht in mindestens #V 3#! [counties|E] mit dem [terrain|E] Feuchtgebiete präsent."
  culture_in_farmlands_or_floodplains_terrain_desc: "Die [culture|E] ist nicht in einer [county|E] mit dem [terrain|E] Ackerland oder Auen präsent."
+ culture_in_terraced_hills_terrain_desc: "Die [culture|E] ist nicht in einer [county|E] mit dem [terrain|E] „Hügelterrassen“ präsent"
  culture_in_farmlands_or_floodplains_terrain_count_desc: "Die [culture|E] ist nicht in mindestens #V 5#! [counties|E] mit dem [terrain|E] Ackerland oder Auen präsent."
+ culture_in_terraced_hills_terrain_count_desc: "Die [culture|E] ist nicht in mindestens #V 3#! [counties|E] mit dem [terrain|E] „Hügelterrassen“ präsent."
  culture_in_plains_or_steppe_terrain_percentage_desc: "Die [culture|E] hat nicht #V 60 %#! ihrer [counties|E] im [terrain|E] Ebenen, Steppen oder der [region|E] [GetGeographicalRegion('world_steppe').GetName]."
  culture_in_steppe_desc: "Die [culture|E] hat nicht mindestens #V 40 %#! ihrer [counties|E] in der [region|E] [GetGeographicalRegion('world_steppe').GetName]."
  culture_on_coast_desc: "Die [culture|E] ist nicht in einer Küsten-[county|E] präsent."
@@ -917,7 +942,10 @@
  not_bellicose_spiritual_or_stoic_desc: "Die [culture|E] hat nicht das [ethos|E] $ethos_bellicose_name$, $ethos_spiritual_name$ oder $ethos_stoic_name$."
  not_bellicose_bureaucratic_or_spiritual_desc: "Die [culture|E] hat nicht das [ethos|E] $ethos_bellicose_name$, $ethos_bureaucratic_name$ oder $ethos_spiritual_name$."
  not_bellicose_egalitarian_or_spiritual_desc: "Die [culture|E] hat nicht das [ethos|E] „$ethos_bellicose_name$“, „$ethos_egalitarian_name$“ oder „$ethos_spiritual_name$“."
+  
+  
   ## Stoic. 
+  
   
   ## Bureaucratic. 
  not_bureaucratic_courtly_or_egalitarian_desc: "Die [culture|E] hat nicht das [ethos|E] $ethos_bureaucratic_name$, $ethos_courtly_name$ oder $ethos_egalitarian_name$."
@@ -926,7 +954,14 @@
  culture_parameter_can_adopt_administrative_government_as_kingdom_tier: "[SelectLocalization(HasDlcFeature('royal_court'), 'can_adopt_administrative_government_as_kingdom_tier_text', '')]"
  can_adopt_administrative_government_as_kingdom_tier_text: "Herrscher können nicht nur als [emperors|E], sondern auch als [king|E] eine [Concept('administrative', 'Verwaltungsregierung')]-Art annehmen"
   
+  
   ## Spiritual. 
+ not_spiritual_communal_or_stoic_desc: "Die [culture|E] hat nicht das [ethos|E] „$ethos_spiritual_name$“, „$ethos_communal_name$“ oder „$ethos_stoic_name$“"
+ culture_parameter_ethos_spiritual_better_consult_the_skies: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'ethos_spiritual_better_consult_the_skies_effects', '')]"
+ ethos_spiritual_better_consult_the_skies_effects: "Die [decision|E] „$mpo_divination_decision$“ hat zusätzliche Auswirkungen"
+ culture_parameter_ethos_spiritual_better_court_astrologers: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'ethos_spiritual_better_court_astrologers_effects', '')]"
+ ethos_spiritual_better_court_astrologers_effects: "[characters|E] dieser [culture|E] haben eine bessere [aptitude|E] als $court_astrologer_court_position$"
+  
   
   ## Courtly. 
  not_courtly_communal_or_spiritual_desc: "Die [culture|E] hat nicht das [ethos|E] $ethos_courtly_name$, $ethos_communal_name$ oder $ethos_spiritual_name$."
@@ -937,22 +972,24 @@
  not_egalitarian_stoic_or_bureaucratic_desc: "Die [culture|E] hat nicht das [ethos|E] $ethos_egalitarian_name$, $ethos_stoic_name$ oder $ethos_bureaucratic_name$."
  not_egalitarian_or_courtly_desc: "Die [culture|E] hat nicht das [ethos|E] „$ethos_egalitarian_name$“ oder „$ethos_courtly_name$“."
   
+  
   ## Communal. 
   #AGOT Modified 
- #not_communal_or_spiritual_desc: "The [culture|E] does not have the Communal or Spiritual [ethos|E]" #NT!
- not_communal_or_spiritual_desc: "The [culture|E] does not have the $ethos_communal_name$ or $ethos_spiritual_name$ [ethos|E]" #NT!
+ #not_communal_or_spiritual_desc: "The [culture|E] does not have the Communal or Spiritual [ethos|E]"
+ not_communal_or_spiritual_desc: "The [culture|E] does not have the $ethos_communal_name$ or $ethos_spiritual_name$ [ethos|E]"
  not_communal_bureaucratic_or_stoic_desc: "Die [culture|E] hat nicht das [ethos|E] $ethos_communal_name$, $ethos_bureaucratic_name$ oder $ethos_stoic_name$."
   #AGOT Modified 
- #not_communal_egalitarian_or_stoic_desc: "The [culture|E] does not have the Communal, Egalitarian or Stoic [ethos|E]" #NT!
- not_communal_egalitarian_or_stoic_desc: "The [culture|E] does not have the $ethos_communal_name$, $ethos_egalitarian_name$ or $ethos_stoic_name$ [ethos|E]" #NT!
+ #not_communal_egalitarian_or_stoic_desc: "The [culture|E] does not have the Communal, Egalitarian or Stoic [ethos|E]"
+ not_communal_egalitarian_or_stoic_desc: "The [culture|E] does not have the $ethos_communal_name$, $ethos_egalitarian_name$ or $ethos_stoic_name$ [ethos|E]"
   #AGOT Modified 
- #not_communal_or_egalitarian_desc: "The [culture|E] does not have the Communal or Egalitarian [ethos|E]" #NT!
- not_communal_or_egalitarian_desc: "The [culture|E] does not have the $ethos_communal_name$ or $ethos_egalitarian_name$ [ethos|E]" #NT!
+ #not_communal_or_egalitarian_desc: "The [culture|E] does not have the Communal or Egalitarian [ethos|E]"
+ not_communal_or_egalitarian_desc: "The [culture|E] does not have the $ethos_communal_name$ or $ethos_egalitarian_name$ [ethos|E]"
   #AGOT Modified 
- #not_communal_spiritual_or_stoic_desc: "The [culture|E] does not have the Communal, Spiritual or Stoic [ethos|E]" #NT!
- not_communal_spiritual_or_stoic_desc: "The [culture|E] does not have the $ethos_communal_name$, $ethos_spiritual_name$ or $ethos_stoic_name$ [ethos|E]" #NT!
+ #not_communal_spiritual_or_stoic_desc: "The [culture|E] does not have the Communal, Spiritual or Stoic [ethos|E]"
+ not_communal_spiritual_or_stoic_desc: "The [culture|E] does not have the $ethos_communal_name$, $ethos_spiritual_name$ or $ethos_stoic_name$ [ethos|E]"
  not_communal_egalitarian_or_courtly_desc: "Die [culture|E] hat nicht das [ethos|E] $ethos_communal_name$, $ethos_egalitarian_name$ oder $ethos_courtly_name$."
  not_communal_or_courtly_desc: "Die [culture|E] hat nicht das [ethos|E] $ethos_communal_name$ oder $ethos_courtly_name$."
+  
   
   
   
@@ -989,6 +1026,7 @@
  culture_head_archers_desc: "Ihr habt nicht #V 800#! [archers|E]."
  culture_head_light_cavalry_desc: "Ihr habt nicht #V 500#! [light_cavalry|E]."
  culture_head_skirmishers_desc: "Ihr habt nicht #V 800#! [skirmishers|E]."
+ culture_head_archer_cavalry_desc: "Ihr habt nicht #V 600#! [archer_cavalry|E]"
  culture_head_has_elephants_desc: "Ihr habt kein [regiment|E] [elephant_cavalry|E]."
  turkic_or_mongolic_desc: "Die [culture|E] hat nicht die [heritage|E] Türkisch oder Mongolisch."
  iranian_desc: "Die [culture|E] hat nicht die [heritage|E] Iranisch."
@@ -1061,6 +1099,7 @@
  culture_emergence_events.0001.a: "Wenn sie sich benehmen wie ich, werde ich mich auch benehmen wie sie. Umso schneller werden wir eins werden."
  culture_emergence_events.0001.b: "Ihre Bewunderung ist mir genug!"
  cultural_acceptance_gain_event: "PLATZHALTER"
+ cultural_acceptance_loss_event: "PLATZHALTER"
  new_hybrid_culture_tt: "Eine [hybrid_culture|E] wird entstehen, die eine Kombination der [traditions|E] und [culture_pillars|E] aus der [ROOT.Char.GetCulture.GetName]en und [hybdridization_offer_culture.GetName]en [culture|E] darstellt."
  culture_emergence_events.0001.existing_hybrid: "Ihr und Eure Lande werden die [existing_hybrid_culture.GetName]e [culture|E] annehmen."
  culture_emergence_events.0001.new_hybrid: "Ihr und Eure Lande werden eine neu entstehende [hybrid_culture|E] annehmen."
@@ -1074,6 +1113,15 @@
  culture_emergence_events.vassals: "[vassals|E] können sich anschließen oder nicht."
   
  culture_emergence_events.0003.desc: "[culture_check_2.GetName]\n[duchy_title.GetName]\n[diverge_dummy.GetFullName]"
+  
+ culture_emergence_events.0005.t: "Das Romantische des Rätoromanischen"
+ culture_emergence_events.0005.desc: "Während [county_scope.GetNameNoTierNoTooltip] die Entstehung des [new_culture_scope.GetName|U]en feiert, ist mir aufgefallen, dass viele #italic ländliche#! Bewohner noch immer einen Dialekt sprechen, der nicht ganz das ist, was mir für das [new_culture_scope.GetNameNoTooltip|U]e vorschwebte.\n\nZufällig komme ich an [Select_CString(rustic_peasant.IsFemale, 'an einer Bäuerin vorbei, die', 'an einem Bauern vorbei, der')] dieses Kauderwelch von sich gibt. „Ihr da!“, donnere ich. „Was um Himmels willen sprecht Ihr da für eine Zunge?“\n\n[rustic_peasant.Custom('DE_ART_DEF_S_N')|U] [rustic_peasant.GetWomanMan] hält inne. „Ich schätze …“, antwortet [rustic_peasant.Custom('DE_PRO_PER_S_3P_N')] langsam auf [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip|U], „… wir nennen es einfach #italic Rätoromanisch#!.“\n\n‚Rätoromanisch‘? Ist es das, was mein Volk wirklich ist?"
+ culture_emergence_events.0005.a: "Unsere Zungen müssen ebenso Rätoromanisch sein wie unsere Herzen."
+ culture_emergence_events.0005.a.tt: "[new_culture_scope.GetNameNoTooltip|U] wird #bold nur#! rätoromanische Namen verwenden"
+ culture_emergence_events.0005.b: "Rätoromanisch wird Teil des [new_culture_scope.GetName|l]en Mosaiks."
+ culture_emergence_events.0005.b.tt: "[new_culture_scope.GetNameNoTooltip|U] wird rätoromanische Namen #bold zusätzlich#! zu den derzeitigen Namen verwenden"
+ culture_emergence_events.0005.c: "Die Sprache der Bauern hat keinen Wert für das [new_culture_scope.GetName|U]e!"
+ culture_emergence_events.0005.c.tt: "[new_culture_scope.GetNameNoTooltip|U] wird bleiben, wie es ist"
   
  realm_culture_size_diff: "Unterschiede in der Größe innerhalb des [Concept('realm', 'Reichs')|E]."
  hybrid_cost_from_acceptance: "Durch [cultural_acceptance|E]"
@@ -1147,6 +1195,7 @@
  cannot_have_tradition_warrior_culture: "$cannot_combine_tradition_trigger_desc$ #high $tradition_warrior_culture_name$#!"
  cannot_have_tradition_seafaring: "$cannot_combine_tradition_trigger_desc$ #high $tradition_seafaring_name$#!"
  cannot_have_tradition_fp1_coastal_warriors: "$cannot_combine_tradition_trigger_desc$ #high $tradition_fp1_coastal_warriors_name$#!"
+ cannot_have_tradition_maritime_way_of_life: "$cannot_combine_tradition_trigger_desc$ #high $tradition_maritime_way_of_life_name$#!"
  cannot_have_tradition_fp1_trials_by_combat: "$cannot_combine_tradition_trigger_desc$ #high $tradition_fp1_trials_by_combat_name$#!"
  cannot_have_tradition_fp1_the_right_to_prove: "$cannot_combine_tradition_trigger_desc$ #high $tradition_fp1_the_right_to_prove_name$#!"
  cannot_have_tradition_runestones: "$cannot_combine_tradition_trigger_desc$ #high $tradition_runestones_name$#!"
@@ -1250,6 +1299,7 @@
  tradition_noble_adoption_desc: "Die Adoption von Waisenkindern in Adelshäuser ist in dieser Gesellschaft gang und gäbe. Das Blut des Bundes ist dicker als das Wasser des Mutterleibs."
  culture_parameter_allows_adoption: "[characters|E] dieser [culture|E] können [Concept('children','Kindern')|E], die nicht direkt mit [rulers|E] verwandt sind, die [adoption|E] anbieten."
  culture_parameter_free_adoption: "[characters|E] dieser [culture|E] können [adopt|El], ohne dafür [prestige|E] oder [dynasty_prestige|E] einsetzen zu müssen."
+ culture_parameter_wider_adoption: "[characters|E] dieser [culture|E] können nicht-verwandte, verwaiste [children|E] [adopt|El] und verlieren dafür keine [opinion|E]"
   
  traditionalist_discount_desc: "Die [culture|E] wurde durch das [culture_head|E] zum Traditionalismus geführt."
  culture_parameter_more_hostage_acceptance: "[characters|E] dieser [culture|E] sind eher bereit, [hostages|E] wegzuschicken, zu nehmen und zurückzugeben"
@@ -1280,6 +1330,99 @@
  culture_head_court_grandeur_desc: "Das [culture_head|E] hat keine [court_grandeur_level|E] von #high 8#! oder mehr"
  culture_parameter_unlock_akolouthos: "Kann das [court_position|E] [GetCourtPositionType('akolouthos_court_position').GetName()] besetzen, wenn die Warägergarde gegründet wurde"
   
+ tradition_tgp_bushido_name: "Bushidō"
+ tradition_tgp_bushido_desc: "Diese Tradition gründet sich auf einem Vermächtnis von Ehre und kriegerischer Disziplin. Sie flicht die Bande zwischen Fürst und Vasall durch Huldigungen und tapfere Taten. Charakterstärke und Integrität schaffen unerschütterliche Treue und Respekt."
+ culture_parameter_must_pledge_loyalty_to_liege: "Muss umgehend #v Treue schwören#!, sobald die [decision|E] verfügbar ist"
+ culture_parameter_better_petition_outcomes: "Die [decision|E] #v Petition#! hat bessere Ergebnisse"
+ culture_parameter_opinion_from_prowess: "[Concept('opinion', 'Meinungs')|E]-Boni durch [prowess|E]"
+ culture_parameter_honorable_trait_bonuses: "Die [personality_traits|E] Fleißig, Demütig, Tapfer und Gerecht sind besser."
+ culture_parameter_unlock_infantry_samurai_units: "Kann „[GetMaA('samurai').GetName]“ als [men_at_arms|E] anwerben"
+ culture_parameter_stalwart_leader_non_admin_duels: "„[GetPerk('stalwart_leader_perk').GetName(GetPlayer)]“-[single_combat_fight|E] verfügbar gegen nicht-[Concept('administrative', 'verwalterische')|E] [characters|E] des [Concept('martial', 'kriegsführenden')|E] Geschlechts vom selben oder einem niedrigeren [rank|E]"
+ culture_parameter_non_admin_close_family_non_martial_gender_knights_in_defensive_wars: "Unverheiratete [close_family|El] vom nicht-[Concept('martial', 'kriegsführenden')|E] Geschlecht und [spouses|E] von nicht-[Concept('administrative', 'verwalterischen')|E] [Concept('rulers','Herrschern')|E] können in Verteidigungs-[Concept('wars','Kriegen')|E] als $knight_culture_player_plural$ dienen"
+  
+ tradition_tgp_court_machinations_name: "Hofmachenschaften"
+ tradition_tgp_court_machinations_desc: "Innerhalb der labyrinthartigen Gänge des Hofs ziehen Eunuchen die Strippen, Konkubine buhlen um die Gunst der Mächtigen und das Wispern von Verrat hallt durch vergoldete Gemächer."
+  
+ tradition_tgp_art_of_war_name: "Kunst des Krieges"
+ tradition_tgp_art_of_war_desc: "Diese Kultur beschäftigt sich seit tausend Jahren mit Militärtheorie, und ihre Generäle und Marschale verfügen über eine Fülle militärischer Hand- und Lehrbücher. Dieser Wissensschatz wird noch um ein großes technisches Verständnis für die Herstellung robuster Rüstungen und Waffen ergänzt."
+ duchies_with_examination_halls_desc: "Die [culture|E] hält keine #high 5#! [duchies|E] mit $building_type_examination_hall_01$ in ihren [Concept('holdings', 'Besitztümern')|E]"
+ culture_parameter_unlock_maa_tiefutu: "Kann „[GetMaA('tiefutu').GetName]“ als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_black_armor_cavalry: "Kann „[GetMaA('black_armor_cavalry').GetName]“ als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_zhanmadao: "Kann „[GetMaA('zhanmadao_infantry').GetName]“ als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_burenjia: "Kann „[GetMaA('burenjia').GetName]“ als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_shenbigong_innovation: "Die [innovation|E] #high $innovation_repeating_crossbow$#! wird ab der [era|E] „$culture_era_tribal$“ verfügbar"
+ culture_parameter_military_governor_appointment_score: "[learning_skill|E] erhöht den [candidate_score|E] für [GetSubjectContractType('celestial_provinces').GetObligationNameShort('celestial_province_military')]-Provinzen"
+  
+ tradition_tgp_ephemeral_grace_name: "Flüchtige Anmut"
+ tradition_tgp_ephemeral_grace_desc: "Die ästhetische Philosophie des #EMP Mono no Aware#! feiert die vergängliche Schönheit flüchtiger Augenblicke. Sie sorgt für eine tiefe Harmonie mit der Natur und eine reflektierte Wertschätzung der Kunst und der Vergänglichkeit des Lebens."
+ culture_parameter_stress_loss_bonus_from_harmonious_traits: "Erhöht [Concept('stress', 'Anspannungs')|E]-Verlust durch die [traits|E] „[GetTrait('temperate').GetName(GetNullCharacter)]“, „[GetTrait('calm').GetName(GetNullCharacter)]“, „[GetTrait('patient').GetName(GetNullCharacter)]“ und „[GetTrait('compassionate').GetName(GetNullCharacter)]“"
+  
+ tradition_tgp_imperial_peace_name: "Zerbrechlicher Frieden"
+ tradition_tgp_imperial_peace_desc: "Obwohl Kanmu vom Meer aus weitgehend vor Invasionen geschützt ist, erfordert die Verteidigung gegen Überfälle aus dem Norden und die Aufrechterhaltung des Friedens gegenüber Thronräubern oder aufmüpfigen Statthaltern immer noch erfahrene Kämpfer und eine gute Organisation."
+ culture_parameter_unlock_mounted_samurai_units: "Kann „[GetMaA('japanese_horse_archers').GetName]“ als [men_at_arms|E] anwerben"
+  
+ tradition_tgp_rice_cultivators_name: "Reiszüchter"
+ tradition_tgp_rice_cultivators_desc: "Reis ist die Lebensgrundlage dieser Kultur. Durch fleißige Arbeit und Wissen um den Ackerbau sind die Ernten stets reich, solange passende Lande für den Anbau zur Verfügung stehen. Ihr wirtschaftlicher Wohlstand und ihre militärische Stärke übersteigen bei Weitem die ihrer weniger fortschrittlichen Nachbarn."
+  
+ tradition_tgp_inward_perfection_name: "Innere Vollkommenheit"
+ tradition_tgp_inward_perfection_desc: "Diese Kultur zieht Eigenständigkeit und eine Mehrung innerer Tugenden fremdländischen Einflüssen vor. Diplomatische Bande mögen vergehen, doch Wissen und Innenschau gedeihen in dieser stillen Abgeschiedenheit."
+  
+ tradition_tgp_fortified_strongholds_name: "Verstärkte Befestigungen"
+ tradition_tgp_fortified_strongholds_desc: "Diese Kultur ist bekannt für ihre großen befestigten Städte, die religiöse, militärische und regierungsbezogene Aufgaben übernehmen. Der Schutz dieser Hochburgen der Kultur ist überlebenswichtig und die Gründung weiterer Städte eine Frage des hohen Ansehens."
+ culture_parameter_founding_temple_citadels_gives_more_piety: "Die Gründung von [Concept('temple_citadel', 'Tempelzitadellen')|e]-[Concept('holdings', 'Besitztümern')|E] gewährt #P +100 %#! [piety|e]"
+ culture_parameter_warmonger_city_founders: "Die Gründung von [temple_citadel|e]-[Concept('holdings', 'Besitztümern')|E] setzt die Kontrolle auf #P 100 %#!"
+ culture_parameter_temple_citadel_fort_level_bonus: "[temple_citadels|e] haben eine erhöhte [fort_level_i][fort_level|E]"
+ culture_parameter_temple_citadel_control_bonus: "[temple_citadels|e] bieten einen kleinen [control_i][control|E]-Bonus"
+ not_a_defense_focused_culture: "Weniger als #N 50 %#! der [culture|e]-[counties|e] liegen an der [coastal|e]"
+  
+ tradition_tgp_hydraulic_builders_name: "Wasserflächen-Baumeister"
+ tradition_tgp_hydraulic_builders_desc: "Diese Kultur legt großen Wert auf den Einsatz künstlicher Wasserflächen bei ihren Sakralstätten. Besonderes Augenmerk legt sie auf [GetBuilding('sacred_pool_06').GetName], die man meist zu großen Reservoirs ausbaut, die große religiöse Bedeutung besitzen."
+ culture_parameter_sacred_pool_additional_bonuses: "Die [Concept('buildings', 'Gebäudereihe')|E] #V [GetBuilding('sacred_pool_01').GetTypeName|V]#! gewährt [counties|E] dieser [culture|E] zusätzliche Boni #V $building_type_sacred_pool_01$#!"
+ culture_parameter_waterworks_additional_bonuses: "Die [Concept('buildings', 'Gebäudereihe')|E] #V [GetBuilding('waterworks_01').GetTypeName|V]#! gewährt [counties|E] dieser [culture|E] zusätzliche Boni #V $building_type_waterworks_01$#!"
+ culture_parameter_may_build_sacred_pools_ahead_of_time: "Alle „[GetBuilding('sacred_pool_01').GetTypeName|V]“-[buildings|E] können eine [era|E] früher gebaut werden"
+  
+ tradition_tgp_esoteric_power_name: "Esoterische Macht"
+ tradition_tgp_esoteric_power_desc: "Göttlich und geheimnisvoll sind zwei Worte, mit denen man den Adel in dieser Kultur beschreibt. Herrscher, die ihr Mandat sichern wollen, müssen aufwendige Rituale durchführen und ihre Macht durch die Zurschaustellung göttlicher Artefakte beweisen."
+ culture_parameter_increases_effect_of_mandala_realm_contracts: "[Concept('piety', 'Frömmigkeits')|E]- und [Concept('legitimacy', 'Legitimitäts')|E]-Zuwachs durch [mandala_rituals|e] wird erhöht"
+ culture_parameter_may_commission_kris: "Kann die [decision|E] „[GetDecisionWithKey('commission_artifact_decision').GetName]“ nutzen, um Kris-[artifacts|E] in Auftrag zu geben"
+ culture_parameter_piety_level_affect_artifact_quality: "[inspirations|E] bringen [artifacts|E] von höherer Güte hervor, je nachdem, wie hoch die [piety_level|E] des Beauftragenden ist"
+ culture_parameter_kris_artifacts_are_more_powerful: "Hergestellte Kris-$artifact_dagger$-[artifacts|e] erhalten zusätzliche Boni"
+  
+ tradition_tgp_barangay_confederations_name: "Barangay-Bünde"
+ tradition_tgp_barangay_confederations_desc: "Die Herrscher dieser Kultur führen getrennte Stadtstaaten, die an Flussmündungen und Küsten verstreut liegen. Solche Staaten unterscheiden sich stark in der Größe, neigen aber dazu, sich zu Bünden zusammenzuschließen, die von einem Häuptling geführt werden, der aus den [Glossary('Datu', 'DATU_GLOSS')] ihrer Mitglieder ausgewählt wird."
+ DATU_GLOSS: "Ein Titel, der Häuptlinge verschiedener politischer Gebilde bezeichnet, die man auf den Philipinen findet."
+ culture_parameter_religious_relations_is_empowered: "[piety|e] durch [religious_relations|e] wird um #P +20 %#! erhöht"
+ culture_parameter_forming_confederations_is_easier: "Einen [confederation|E] zu bilden, erfordert nicht länger einen starken Nachbarn oder die [traits|E] [GetTrait('diplomat').GetName(GetNullCharacter)] oder „[GetTrait('family_first').GetName(GetNullCharacter)]“"
+ culture_parameter_forming_confederations_is_less_expensive: "Die Bildung eines [Concept('confederation', 'Bunds')|E] kostet #P 50 %#! weniger [prestige|e] und [piety|e]"
+ culture_parameter_invite_to_confederation_extra_reasons: "Akzeptanz der [character_interaction|e] „$offer_confederation_interaction$“: #P +20#!"
+ culture_parameter_mandala_tributaries: "Die [decision|E] „[GetDecision('convert_to_mandala_government_decision').GetName]“ macht alle [confederates|E] zu [Concept('tributaries', 'Tributzahlern')|E]"
+ culture_parameter_confederation_tribal_authority: "Kann [tribal_authority|E] erhöhen, obwohl man Teil eines [Concept('confederation', 'Bunds')|E] ist"
+ confederates_to_tributaries_tt: "Alle [confederates|E] werden Eure [tributaries|E]"
+ BARANGAY_TRADITION_REASON: "[actor.GetCulture.GetName|U]e [culture_traditions|E]: $VALUE|=+0$"
+ forming_confederations_is_less_expensive_desc: "[actor.GetCulture.GetName|U] hat [culture_tradition|e], die Kosten verringert: $VALUE|=-1$"
+  
+ tradition_tgp_religious_hospitality_name: "Religiöse Gastfreundschaft"
+ tradition_tgp_religious_hospitality_desc: "Diese Kultur ist geschickt darin, fremdländische Religionen mit ihren Bräuchen zu vermischen, was zu einer weltmännischeren Gesellschaft führt, in der viele Glauben friedlich zusammenleben. Viel davon wurde durch Handel und grenzübergreifende Beziehungen erreicht."
+ not_a_coastal_culture: "Weniger als #N 50 %#! der [culture|e]-[counties|e] liegen an der [coastal|e]"
+ culture_parameter_development_gain_from_religious_exiles_is_doubled: "Der Zuwachs an [development|E] durch die [decision|e] „[GetDecisionWithKey('invite_religious_exiles_decision').GetName]“ wird verdoppelt"
+ culture_parameter_invite_courtiers_reasons: "Akzeptanz der [charakter_interaction|E] „An den Hof einladen“: #P +15#!"
+ invite_courtiers_additional_reason: "[actor.GetCulture.GetName|U]e [culture_traditions|E]: $VALUE|=+0$"
+ culture_parameter_less_cost_to_invite_religious_exiles: "Die [decision|e] „[GetDecisionWithKey('invite_religious_exiles_decision').GetName]“ kostet #P 50 %#! weniger [piety|e]"
+ culture_parameter_ai_uses_religious_exiles: "Charaktere setzen die [decision|e] „[GetDecisionWithKey('invite_religious_exiles_decision').GetName]“ öfter ein"
+  
+ tradition_tgp_defiant_ambushers_name: "Trotzige Heckenschützen"
+ tradition_tgp_defiant_ambushers_desc: "Ständig von vordringenden Invasoren geplagt ermöglicht die Beherrschung von Sattel und Bogen den Einsatz einer begrenzten Anzahl von Soldaten mit verheerender Wirkung bei Überfallangriffen und Hinterhalten."
+ culture_parameter_unlock_emishi_horse_archers_units: "Kann „[GetMaA('emishi_horse_archers').GetName]“ als [men_at_arms|E] anwerben"
+ culture_parameter_county_peasant_and_populist_factions_more_common: "$doctrine_parameter_peasant_and_populist_factions_more_common$"
+  
+ tradition_tgp_mountain_island_name: "Yashima"
+ tradition_tgp_mountain_island_desc: "Die Berge und Wälder der vielen Inseln des japanischen Archipels erheben sich steil aus dem Ozean und fallen ebenso steil wieder ab. Ihre Bewohner sind mit der Durchquerung der rauen und vielfältigen Landschaft bestens vertraut."
+  
+ tradition_tgp_japanese_houses_name: "Dynastischer Pragmatismus"
+ tradition_tgp_japanese_houses_desc: "Zwar ist es aus Gründen des äußeren Scheins und der rechtlichen Zweckmäßigkeit wichtig, die Regeln der Ehe einzuhalten, doch ist Vergnügen ein natürliches Geschenk der Götter und für eine gute Gesundheit unerlässlich, unabhängig von den Auswirkungen auf die Abstammung."
+ culture_parameter_adultery_always_accepted: "Charaktere mit den [traits|E] „[GetTrait('adulterer').GetName(GetNullCharacter)]“ und „[GetTrait('fornicator').GetName(GetNullCharacter)]“ werden voll akzeptiert"
+ culture_parameter_increased_house_relation_changes: "Alle [Concept('house_relation', 'Hausbeziehungsänderungen')|E] werden vervierfacht"
+  
  capital_province_development_level_desc: "Der Hauptsitz des [Concept('culture_head', 'Kulturoberhaupts')|E] hat keine [county_development|E] von #high 30#! oder mehr"
   
  culture_parameter_other_cultures_more_likely_to_hybridize: "[rulers|E] anderer [cultures|E] [hybridize|E] sich mit größerer Wahrscheinlichkeit mit dieser [culture|E]"
@@ -1308,6 +1451,8 @@
  culture_parameter_watermills_forestries_unlock: "Der Bau des [Concept('building', 'Gebäudes')|E] „#V $building_logging_camps_04$#!“ schaltet die ersten vier Stufen der [Concept('buildings', 'Gebäudereihe')|E] „#V $building_watermills_camps_04$#!“ frei"
  culture_parameter_windmills_hill_farms_unlock: "Der Bau des [Concept('building', 'Gebäudes')|E] „#V $building_hill_farms_04$#!“ schaltet die ersten vier Stufen der [Concept('buildings', 'Gebäudereihe')|E] „#V $building_type_windmills_01$#!“ frei"
  culture_parameter_second_caravanserai: "Eine zweite „#V $building_type_caravanserai_01$#!“ kann in [counties|E] dieser [culture|E] gebaut werden"
+ has_two_caravanserai_in_county: "Es gibt bereits 2 $building_type_caravanserai_01$en im Land"
+ not_allowed_second_caravanserai: "Ihr braucht die [GetCultureTradition('tradition_caravaneers').GetName]-[culture_tradition|E], um noch eine $building_type_caravanserai_01$ in der Gemeinde zu bauen"
   
  culture_parameter_family_castration: "Kann die [interaction|E] „$castrate_child_interaction$“ nutzen"
   
@@ -1339,4 +1484,187 @@
  culture_in_farm_or_mansion_count_desc: "Die [culture|E] ist nicht in mindestens #V 5#! [counties|E] mit einem [building|E] der Art „#color_white $building_type_cereal_fields_01$#!“ oder „#color_white $building_type_farm_estates_01$#!“ vertreten"
   
  can_appoint_chief_eunuch_name_tt: "[root_scope.GetCulture.GetName|U]e [culture|E] hat eine der folgenden [traditions|E]:\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_court_eunuchs').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_byzantine_succession').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_ep3_palace_politics').GetName]"
+  
+ #MPO 
+ tradition_mpo_iron_cavalry_name: "Eisenreiterei"
+ tradition_mpo_iron_cavalry_desc: "Selbst ein Pferdevolk kann von Reiterei geschlagen werden, die von Kopf bis Huf Lamellenpanzer trägt. Diese Kultur ist bei solch teurer Ausrüstung nicht nur auf den Geschmack gekommen, sondern setzt jene, die sie tragen, auch mit Bogen in der Hand als schwer gepanzerte Reiter ein."
+ culture_parameter_unlock_maa_cataphract_archers: "Kann „[GetMaA('cataphract_archers').GetName]“ als [men_at_arms|E] rekrutieren"
+  
+ tradition_mpo_wolves_of_the_deep_steppe_name: "Wölfe der tiefen Steppe"
+ tradition_mpo_wolves_of_the_deep_steppe_desc: "Fernab ‚zivilisierter‘ Bequemlichkeiten leben Menschen von dem, was sie kriegen können, während sie auf dem Rücken ihrer Pferde vom Tod träumen. Schwächere Völker treiben diese Krieger vor sich her."
+ culture_parameter_unlock_maa_mangudai: "Kann „[GetMaA('mangudai').GetName]“ als [men_at_arms|E] rekrutieren"
+ unlock_maa_mangudai_name: "[GetCultureTradition('tradition_mpo_wolves_of_the_deep_steppe').GetName]"
+  
+ tradition_mpo_northern_tribes_name: "Stämme des Nordens"
+ tradition_mpo_northern_tribes_desc: "Dies ist eine jene Kulturen, die von ihren südlichen Nachbarn meist als ‚Waldvolk‘ bezeichnet werden. Diese Nordmenschen sind an manchen Orten bekannte Jäger, an anderen edle Flussfischer, manchmal auch Eisenschmelzer und oft Hirten."
+ culture_parameter_unlock_maa_maturkan_warriors: "Kann „[GetMaA('maturkan_warriors').GetName]“ als [men_at_arms|E] rekrutieren"
+  
+ tradition_devoted_horsemanship_name: "Hingebungsvolle Reitkunst"
+ tradition_devoted_horsemanship_desc: "Selbst die Annehmlichkeiten eines Palasts können das Volk dieser Kultur nicht vom Sattel fernhalten. Wo immer man es findet, findet man auch seine Herden – und die Pferde, die man mit wachem Auge hegt."
+  
+  
+ inspired_by_culture_desc: "Inspiriert durch [traditions|E]"
+ inspire_by_culture_tt: "[tradition_scope.GetName]:\n\t$BULLET$Kosten der [tradition|E]: [prestige_i]#P -50 %#!"
+  
+ culture_parameter_metalworkers_internal_yurt_unlock: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_metalworkers_nomadic_desc', 'blank_line')]"
+ culture_parameter_sorcerous_metallurgy_internal_yurt_unlock: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_sorcerous_metallurgy_nomadic_desc', 'blank_line')]"
+ culture_parameter_nomadic_metal_artifact_unlock: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_nomadic_metal_nomadic_desc', 'blank_line')]"
+ culture_parameter_zealous_people_internal_yurt_unlock: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_zealous_people_nomadic_desc', 'blank_line')]"
+ culture_parameter_loyal_soldiers_internal_yurt_unlock: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_loyal_soldiers_nomadic_desc', 'blank_line')]"
+ culture_parameter_nomadic_loyal_soldiers_obedience: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_nomadic_loyal_nomadic_desc', 'blank_line')]"
+ culture_parameter_forbearing_internal_yurt_unlock: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_forbearing_nomadic_desc', 'blank_line')]"
+ culture_parameter_stalwart_defenders_internal_yurt_unlock: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_stalwart_defenders_nomadic_desc', 'blank_line')]"
+ culture_parameter_legalistic_internal_yurt_unlock: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_legalistic_nomadic_desc', 'blank_line')]"
+ culture_parameter_forest_nomadic_cultrad_stationing_bonus: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_forest_nomadic_desc', 'blank_line')]"
+ culture_parameter_hills_nomadic_cultrad_stationing_bonus: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_hills_nomadic_desc', 'blank_line')]"
+ culture_parameter_mountains_nomadic_cultrad_stationing_bonus: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_mountains_nomadic_desc', 'blank_line')]"
+ culture_parameter_desert_nomadic_cultrad_stationing_bonus: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_desert_nomadic_desc', 'blank_line')]"
+ culture_parameter_skirmisher_nomadic_cultrad_stationing_bonus: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_skirmisher_nomadic_desc', 'blank_line')]"
+ culture_parameter_formation_nomadic_cultrad_stationing_bonus: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_formation_nomadic_desc', 'blank_line')]"
+ culture_parameter_stand_fight_nomadic_cultrad_stationing_bonus: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_stand_fight_nomadic_desc', 'blank_line')]"
+ culture_parameter_hit_run_nomadic_cultrad_stationing_bonus: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_hit_run_nomadic_desc', 'blank_line')]"
+ culture_parameter_horse_breeder_internal_yurt_unlock: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'cultrad_horse_breeder_nomadic_desc', 'blank_line')]"
+  
+ cultrad_metalworkers_nomadic_desc: "Erlaubt die [domicile_building_upgrade|E] „[GetDomicileBuilding('metalworkers_cultrad_yurt_01').GetName]“ für [GetGovernment('nomad_government').GetName|l]e [domiciles|E]"
+ cultrad_sorcerous_metallurgy_nomadic_desc: "Erlaubt die [domicile_building_upgrade|E] „[GetDomicileBuilding('sorcerous_metallurgy_yurt_01').GetName]“ für [GetGovernment('nomad_government').GetName|l]e [domiciles|E]"
+ cultrad_nomadic_metal_nomadic_desc: "Erlaubt die [decision|E] #V $commission_artifact_decision$#! für Metall-[artifacts|E]"
+ cultrad_zealous_people_nomadic_desc: "Erlaubt die [domicile_building_upgrade|E] „[GetDomicileBuilding('zealous_people_yurt_01').GetName]“ für [GetGovernment('nomad_government').GetName|l]e [domiciles|E]"
+ cultrad_loyal_soldiers_nomadic_desc: "Erlaubt die [domicile_building_upgrade|E] „[GetDomicileBuilding('loyal_soldiers_yurt_01').GetName]“ für [GetGovernment('nomad_government').GetName|l]e [domiciles|E]"
+ cultrad_nomadic_loyal_nomadic_desc: "[characters|E] dieser [culture|E] werden wahrscheinlicher [obedient|El]"
+ cultrad_forbearing_nomadic_desc: "Erlaubt die [domicile_building_upgrade|E] „[GetDomicileBuilding('forbearing_yurt_01').GetName]“ für [GetGovernment('nomad_government').GetName|l]e [domiciles|E]"
+ cultrad_stalwart_defenders_nomadic_desc: "Erlaubt die [domicile_building_upgrade|E] „[GetDomicileBuilding('stalwart_defenders_yurt_01').GetName]“ für [GetGovernment('nomad_government').GetName|l]e [domiciles|E]"
+ cultrad_legalistic_nomadic_desc: "Erlaubt die [domicile_building_upgrade|E] „[GetDomicileBuilding('legalistic_yurt_01').GetName]“ für [GetGovernment('nomad_government').GetName|l]e [domiciles|E]"
+ cultrad_forest_nomadic_desc: "Erhöht die Boni von [Concept('stationed', 'stationiertem')|E] [men_at_arms|E] für [nomads|E] im [terrain|E] #V Wälder#! und #V Taiga#!"
+ cultrad_hills_nomadic_desc: "Erhöht die Boni von [Concept('stationed', 'stationiertem')|E] [men_at_arms|E] für [nomads|E] im [terrain|E] #V Hügel#!"
+ cultrad_mountains_nomadic_desc: "Erhöht die Boni von [Concept('stationed', 'stationiertem')|E] [men_at_arms|E] für [nomads|E] im [terrain|E] #V Berge#! und #V Bergwüste#!"
+ cultrad_desert_nomadic_desc: "Erhöht die Boni von [Concept('stationed', 'stationiertem')|E] [men_at_arms|E] für [nomads|E] im [terrain|E] #V Wüste#! und #V Trockengebiete#!"
+ cultrad_skirmisher_nomadic_desc: "Erhöht die Boni von [Concept('skirmishers', 'Plänklern')|E] und [archers|E] als [Concept('stationed', 'stationiertem')|E] [men_at_arms|E] für [nomads|E]"
+ cultrad_formation_nomadic_desc: "Erhöht die Boni von [Concept('stationed', 'stationiertem')|E] [men_at_arms|E] für [nomads|E]"
+ cultrad_stand_fight_nomadic_desc: "Erhöht die [Concept('toughness', 'Zähigkeits')|E]-Boni von [Concept('stationed', 'stationiertem')|E] [men_at_arms|E] für [nomads|E]"
+ cultrad_hit_run_nomadic_desc: "Erhöht die [Concept('damage', 'Schadens')|E]-Boni von [Concept('stationed', 'stationiertem')|E] [men_at_arms|E] für [nomads|E]"
+ cultrad_horse_breeder_nomadic_desc: "Erlaubt die [domicile_building_upgrade|E] „[GetDomicileBuilding('horse_breeder_yurt_01').GetName]“ für [GetGovernment('nomad_government').GetName|l]e [domiciles|E]"
+  
+  
+ culture_parameter_better_herders_pasturalists: "$culture_parameter_ethos_communal_herders_bonus$"
+ culture_parameter_ethos_communal_herders_bonus: "[SelectLocalization(HasDlcFeature('khans_of_the_steppe'), 'ethos_communal_herders_bonus_effects', '')]"
+ ethos_communal_herders_bonus_effects: "[herders|E] haben einen größeren $MOD_MONTHLY_COUNTY_FERTILITY_GROWTH$"
+  
+ cultrad_not_nomadic_government_type: "Eure [government|E] ist [GetGovernment('nomad_government').GetName|l]"
+  
+ mpo_northern_tribes_percentage_desc: "Die [culture|E] hat nicht #V 50 %#! der [counties|E] mit dem [modifier|E] #V $mpo_siberian_permafrost_modifier$#!"
+ permafrost_feudal_ban: "Eure [culture|E] hat die [culture_tradition|E] #V $tradition_mpo_northern_tribes_name$#!"
+ culture_parameter_permafrost_unlock_tribal_building: "[Concept('tribal', 'Stammes')|E]-[building|E]-Verbesserungen erfordern keine [innovations|E] in [counties|E] dieser [culture|E], die den [modifier|E] #V $mpo_siberian_permafrost_modifier$#! haben"
+ culture_parameter_permafrost_cannot_become_feudal: "Kann nicht die [decisions|E] #V Feudal-Lebensart annehmen#! und #V Feudal-Lebensart über den Lehnsherrn annehmen#! fällen"
+ culture_parameter_permafrost_modifier_mechanic: "[counties|E] dieser [culture|E] beginnen mit dem [modifier|E] #V $mpo_siberian_permafrost_modifier$#!, der [development|E] und [control|E] verringert. Haben der [holder|E] und die [county|E] eine [culture|E] mit dieser [culture_tradition|E], senkt #V $mpo_siberian_permafrost_modifier$#! nicht die [control|E] und bietet Boni."
+  #AGOT Modified 
+ #culture_parameter_permafrost_modifier_removal_condition: "#V $mpo_siberian_permafrost_modifier$#! [modifier|E] can be removed by the #V $expand_the_steppe_decision_generic$#! [decision|E] or #V $feudalize_holding_interaction$#! [interaction|E]" #NT!
+ culture_parameter_permafrost_modifier_removal_condition: "#V $mpo_siberian_permafrost_modifier$#! [modifier|E] can be removed by the #V $feudalize_holding_interaction$#! [interaction|E]" #NT!
+ permafrost_modifier_removal_desc: "Entfernt #V $mpo_siberian_permafrost_modifier$#! von allen [counties|E], die ihn aufweisen"
+ culture_parameter_martial_traits_give_out_hcav_bonus: "Die [traits|E] „[GetTrait('gallant').GetName(GetNullCharacter)]“, „[GetTrait('overseer').GetName(GetNullCharacter)]“ und „[GetTrait('strategist').GetName(GetNullCharacter)]“ gewähren „[heavy_cavalry|E]“-[men_at_arms|E]-Boni"
+ culture_parameter_stewardship_traits_give_out_cav_bonus: "Die [traits|E] „[GetTrait('avaricious').GetName(GetNullCharacter)]“, „[GetTrait('architect').GetName(GetNullCharacter)]“ und „[GetTrait('administrator').GetName(GetNullCharacter)]“ gewähren „[light_cavalry|E]“-, „[heavy_cavalry|E]“- und „[archer_cavalry|E]“-[men_at_arms|E]-Boni"
+  
+  #AGOT Modified 
+ #mpo_siberian_permafrost_modifier: "Siberian Permafrost" #NT!
+ #mpo_siberian_permafrost_modifier_desc: "Soil frozen for millennia, no groundwater access, sparse vegetation. Terrain shifts every year due to repeated melting and refreezing. To make these lands their own, those who live here need centuries to adapt. Everybody, everything else will perish and join the ancient dead beneath the ice.\n\n#weak This modifier can be removed either by the #V $feudalize_holding_interaction$#! [interaction|E] or after conquering the whole North by the #V $expand_the_steppe_decision_generic$#! [decision|E] for the #V $dlc_mpo_steppe_siberia_further_expansion_tooltip$#! region#!\n\n" #NT!
+ mpo_siberian_permafrost_modifier: "Hyperborean Permafrost" #NT!
+ mpo_siberian_permafrost_modifier_desc: "Soil frozen for millennia, no groundwater access, sparse vegetation. Terrain shifts every year due to repeated melting and refreezing. To make these lands their own, those who live here need centuries to adapt. Everybody, everything else will perish and join the ancient dead beneath the ice.\n\n#weak This modifier can be removed by the #V $feudalize_holding_interaction$#! [interaction|E]#!\n\n" #NT!
+  
+ mpo_siberian_permafrost_modifier_bad: "$mpo_siberian_permafrost_modifier$"
+ mpo_siberian_permafrost_modifier_bad_desc: "$mpo_siberian_permafrost_modifier_desc$"
+ cannot_hybridize_northern_tribes: "Die [tradition|E] #high $tradition_mpo_northern_tribes_name$#! kann nicht für eine [hybrid_culture|E] gewählt werden"
+  
+  # TGP 
+ tradition_cultural_primacy_name: "Kulturvorherrschaft"
+ tradition_cultural_primacy_desc: "Diese stolze Kultur ist zufrieden mit ihrer eigenen reichen Geschichte und ihrer eigenen Gesellschaft. Sie hat keinen Bedarf an Berührungspunkten zu ihren Nachbarn."
+ culture_parameter_reduced_marriage_acceptance_outside_culture: "[characters|E] sind weniger bereit, andere [cultures|E] zu heiraten"
+ culture_parameter_reduced_marriage_acceptance_distant_realms: "[characters|E] sind weniger bereit, mit fernen [Concept('realms', 'Reichen')|E] zu heiraten"
+ REDUCED_MARRIAGE_ACCEPTANCE_OUTSIDE_CULTURE_REASON: "[secondary_recipient.GetCulture.GetName|U] will ungern andere [cultures|E] heiraten: $VALUE|=+0$"
+ REDUCED_MARRIAGE_ACCEPTANCE_DISTANT_REALMS_REASON: "[secondary_recipient.GetCulture.GetName|U] will ungern ferne [realms|E] heiraten: $VALUE|=+0$"
+ REDUCED_MARRIAGE_ACCEPTANCE_DISTANT_REALMS_INVERTED_REASON: "Gegenseitige [secondary_recipient.GetCulture.GetName|l]e Zögerlichkeit, in ferne [realms|E] heiraten: $VALUE|=+0$"
+ REDUCED_MARRIAGE_ACCEPTANCE_HOUSE_RELATION_REASON: "[house_relation|E]: $VALUE|=+0$"
+  
+ tradition_maritime_way_of_life_name: "Seefahrersitten"
+ tradition_maritime_way_of_life_desc: "Schon seit undenkbaren Zeiten werden die Auslegerkatamarane dieser Kultur am Horizont gesichtet. Lange Seereisen gehören für dieses Volk zum Leben dazu.\nWer das Dasen auf See als etwas ganz Natürliches empfindet, für den gibt es keine Grenzen, wo man siedeln, wie man handeln und wen man überfallen kann."
+  
+ tradition_nudists_name: "Nacktkultur"
+ tradition_nudists_desc: "Anhänger dieser Kultur glauben nicht, dass man den eigenen Leib vor den Elementen schützen muss. Stattdessen leben sie, wie der Schöpfer sie schuf."
+  
+ tradition_stratified_society_name: "Schichtgesellschaft"
+ tradition_stratified_society_desc: "Es gibt jene, die zum Führen geboren sind, und dann gibt es jene, die zum Dienen geboren sind. In einer $tradition_stratified_society_name$ übertrumpfen oft erbliche Privilegien die Prinzipien der Meritokratie, und die Nähe zur Macht ist alles …"
+ culture_parameter_family_shares_merit: "Wenn [merit|E] @merit_level_5_icon![GetModifier('merit_level_5').GetNameWithTooltip|L] erreicht wird, erhalten alle [Concept('close_family_member', 'nahen Verwandten')|E] des bevorzugten Geschlechts unter diesem Rang eine beträchtliche Menge an [merit|E]"
+ culture_parameter_family_skips_exams: "Des Weiteren werden diese [Concept('close_family_member', 'nahen Verwandten')|E] auch noch behandelt, als hätten sie die @provincial_exam_icon! [GetActivityType('activity_local_examination').GetName] bestanden"
+ culture_parameter_marrying_into_the_ruling_family_gives_influence: "Wenn ein [independent_ruler|El] einen [character|E] im selben [realm|E] heiratet, der diese [tradition|E] teilt, erhält das [house_head|e] [spouse_possessive|e] beträchtlichen [influence|E]"
+ culture_parameter_unlocks_gakgung_archers_maa: "Kann [GetMaA('gakgung_archers').GetName] als [men_at_arms|E] anwerben"
+  
+ tradition_stratified_society_toast_title: "Aufstieg von Haus [ROOT.Char.GetHouse.GetNameNoTooltip]"
+ tradition_stratified_society_toast_desc: "Als Privileg unseres erlesenen Rangs erlangten unsere Verwandten [merit|E] und müssen nicht an der @provincial_exam_icon! [GetActivityType('activity_local_examination').GetName] teilnehmen"
+ tradition_stratified_society_family_member_toast_title: "$tradition_stratified_society_toast_title$"
+ tradition_stratified_society_family_member_toast_desc: "Dank der Leistungen von [family_success.GetName] habt Ihr [merit|E] erlangt und müsst nicht an der @provincial_exam_icon! [GetActivityType('activity_local_examination').GetName] teilnehmen"
+ tgp_nepotism_bypass_exams_modifier: "Prüfungsausnahme"
+ tgp_nepotism_bypass_exams_modifier_desc: "Dieser Charakter umging die üblichen Prüfungsanforderungen und wurde durch den Einfluss naher Verwandter zu einem Beamten."
+  
+ tenet_takamin_name: "Takamin"
+ tenet_takamin_desc: "Bären gelten als Verkörperungen der Götter, sodass ihre Heiligkeit respektiert werden muss: Auf Jagden darf man sie nur mit größtem Respekt töten."
+ doctrine_parameter_allows_bear_sacrifice: "Erlaubt die [decision|E] „[GetDecisionWithKey('sacrifice_bear_decision').GetName]“"
+ doctrine_parameter_chance_to_gain_prowess_during_bear_hunts: "Das Töten eines #V Bären#! während einer [GetActivityType('activity_hunt').GetName] gewährt [prowess_i][prowess|e] und [martial_i][martial|E]"
+ doctrine_parameter_frequent_bear_sightings: "Es gibt gelegentlich [hunt_sightings|E] von #V Bären#!"
+ doctrine_parameter_efficient_hunt_cornering: "Bei [GetActivityType('activity_hunt').GetName]en hat die Methode #V In die Ecke drängen#! wahrscheinlicher Erfolg"
+ culture_tradition_events.3000.t: "Bärensichtung"
+ culture_tradition_events.3000.desc: "Jäger in [bear_sighting.GetName] haben [bear_sighting_county.Custom('GetAnimalPlural')] durchs Gelände ([bear_sighting.Custom('GetTerrainTypePlural')]) streifen sehen: Breite Pfotenabdrücke im Schlamm, Krallenspuren an den Bäumen und abgeknickte Büsche sind klare Hinweise.\n\nWenn ich eine [GetActivityType('activity_hunt').GetName] ausriefe, um einen zu erlegen oder zu fangen, würden die Geister dies sicher bemerken."
+ culture_tradition_events.3000.a: "Ich sollte meinen Speer bereit machen …"
+ bear_sacrifice_war_modifier: "Bären-Kriegsopfer"
+ bear_sacrifice_war_modifier_desc: "Dieser Charakter opferte einen Bären und glaubt, dass er dafür im Krieg erfolgreich sein wird."
+ bear_sacrifice_authority_modifier: "Bären-Autoritätsopfer"
+ bear_sacrifice_authority_modifier_desc: "Dieser Charakter opferte einen Bären und glaubt, dass er dafür mit einer Autorität ausstrahlenden Erscheinung gesegnet wurde."
+ sacrifice_bear_decision_effect: "Ihr erhaltet nach Eurer Wahl [piety_i][piety|E], [GetModifier('bear_sacrifice_war_modifier').GetNameWithTooltip] oder [GetModifier('bear_sacrifice_authority_modifier').GetNameWithTooltip]"
+ culture_tradition_events.3100.t: "Bärenopfer"
+ culture_tradition_events.3100.desc: "Schweigend fesseln wir den großen Bären. Die Jäger singen mit tiefen, festen Stimmen, während der Fichtenrauch aufsteigt.\n\nIch knie nieder und drücke die Stirn gegen die Schnauze. Während die Klinge niederfährt, flüstere ich meinen Dank. Wir werden sein Fleisch teilen, damit seine Stärke unter uns weiterleben kann."
+ culture_tradition_events.3100.a: "Tafeln wir!"
+ culture_tradition_events.3100.b: "Unsere Feinde werden fallen!"
+ culture_tradition_events.3100.c: "Gehorcht, denn der Bärengeist ist an meiner Seite."
+  
+ tradition_ordo_riders_name: "Hordenreiter"
+ tradition_ordo_riders_desc: "Das Streben nach größeren Herden und die Notwendigkeit, die Einheit des Stamms zu stärken, zwangen viele Hordenvölker dieser Kultur, abgehärtete Krieger zu werden, die Angriffe ebenso effektiv abwehren können wie sie Vorräte sammeln."
+ culture_parameter_unlocks_ordo_riders_maa: "Kann „[GetMaA('ordo_riders_horse_archers').GetName]“ als [men_at_arms|E] anwerben"
+ culture_parameter_reaver_gives_buffs_to_horse_archers: "[GetTrait('reaver').GetName(GetNullCharacter)]-[traits|E] gewähren unserem [archer_cavalry|e]-[men_at_arms|e] Boni"
+  
+ tradition_chinese_arts_name: "Chinesische Künste"
+ tradition_chinese_arts_desc: "Der Weg der Feder und der Weg des Pinsels sind beides wichtige Elemente dieser Kultur. Anstatt sich nur auf militärische Macht oder eine aufwendige Verwaltung zu verlassen, legen die Chinesen wert darauf, jedwede Formen der Kunst zu vervollkommnen."
+ culture_parameter_commissions_cheaper: "Die [decision|e] #bold $commission_artifact_decision$#! kostet #P 50 %#! weniger [gold_i][gold|e]"
+ culture_parameter_scholars_and_poets_are_viewed_more_positively: "Die [traits|E] „[GetTrait('lifestyle_poet').GetName(GetNullCharacter)]“ und „[GetTrait('scholar').GetName(GetNullCharacter)]“ gelten als positiv"
+  
+ tradition_sinophilic_name: "Sinophil"
+ tradition_sinophilic_desc: "Der Einfluss der chinesischen Hegemonie über dieses Reich führte dazu, dass viele im Volk ihre Bräuche übernommen haben."
+ culture_parameter_can_adopt_chinese_culture: "Kann die [culture|e] der [GetCultureByKey('han').GetCollectiveNoun] annehmen"
+ culture_parameter_more_successful_kowtows: "[tribute_missions|E] haben eine höhere Erfolgswahrscheinlichkeit"
+ culture_parameter_may_adopt_silk_road_innovations: "Kann auf [silk_road_innovations|E] zugreifen, die der [culture|E] der [GetCultureByKey('han').GetCollectiveNoun] bekannt sind"
+  
+ tradition_tgp_warrior_monks_name: "Kriegermönche"
+ tradition_tgp_warrior_monks_desc: "Die Hingabe an ein moralisches Leben sollte den Einsatz von Gewalt nicht ausschließen, insbesondere dann nicht, wenn es darum geht, die religiöse Gemeinschaft vor rivalisierenden Sekten und korrupten Beamten zu schützen oder Bedürftige zu verteidigen."
+ culture_parameter_unlock_warrior_monk_units: "Kann „[GetMaA('warrior_monks').GetName]“ als [men_at_arms|E] anwerben"
+  
+ tradition_scholar_officials_name: "Gelehrtenbeamte"
+ tradition_scholar_officials_desc: "Feder und Pinsel sind mächtiger als das Schwert … Diese Kultur glaubt an ein Ideal, bei dem man treuen Beamten, die in den schönen und edlen Künsten gebildet sind, Einfluss gewährt."
+ culture_parameter_can_always_convert_to_confucianism: "Kann die [decision|E] „[GetDecisionWithKey('convert_to_confucianism').GetName]“ verwenden"
+ culture_parameter_can_always_convert_to_taoism: "Kann die [decision|E] „[GetDecisionWithKey('convert_to_taoism').GetName]“ verwenden"
+ culture_parameter_can_author_books: "Kann die [decision|E] #V $author_book_decision$#! treffen"
+ culture_parameter_scholar_official_trait_bonuses: "Die [traits|E] „[GetTrait('confucian_education').GetName(GetNullCharacter)]“ und „[GetTrait('loyal').GetName(GetNullCharacter)]“ erhalten weitere Boni"
+ culture_parameter_wants_to_learn_chinese: "Charaktere dieser [Concept('culture', 'Kultur')|E] lernen oft die chinesische [language|E]"
+ culture_parameter_learn_language_success_chance_for_others: "[success_chance|E] für [GetScheme('learn_language').GetTypeName]: #P +50 %#! beim Erlernen der [language|E] dieser Kultur"
+ culture_parameter_mystic_trait_from_education: "Kinder, können die [trait|E] „[GetTrait('lifestyle_mystic').GetName(GetNullCharacter)]“ erhalten, wenn sie einen [guardian|E] dieser [culture|E] mit #V 12+#! [learning_i][learning|E] haben"
+  
+ tradition_cultivation_name: "Kultivierung"
+ tradition_cultivation_desc: "Die Einstimmung des Körpers, des Atems und des Geistes, bis der Schlamm des Herzens sich absetzt und die innere Tugend wie reines Wasser aufsteigt."
+  
+ tradition_intensive_farming_name: "Intensivackerwirtschaft"
+ tradition_intensive_farming_desc: "Diese Kultur legt hohen Wert auf eine große Bauernschaft, die die nicht-ackerbauende Bevölkerung versorgt. Durch jahrtausendelange Erfahrung konnte sie die Weizen- und Reisproduktion je nach den örtlichen Gegebenheiten stark steigern."
+  
+  # ACH 
+ oath_mend_the_fracture_tradition_name: "Vermächtnis der eidgeschworenen Versöhnung"
+ oath_mend_the_fracture_tradition_desc: "Aus Wut und blutigem Misstrauen ging doch eine Versöhnung hervor. Geführt vom eidgeschworenden Souverän hat diese Kultur die Kluft zwischen sich und den anderen Völkern des Reichs überbrückt, um Frieden und Wohlstand zu erlangen."
+ culture_parameter_synergy_cultures_counties_development: "Alle drei Jahre können [counties|E] dieser [culture|E] den „[GetModifier('oath_mend_the_fracture_county').GetNameWithTooltip]“-[modifier|E] erhalten"
+ culture_parameter_synergy_cultures_maa_spawn: "Alle drei Jahre kann das [culture_head|E] zusätzliche [Concept('soldiers', 'Sondertruppen')|E] erhalten."
+ culture_parameter_synergy_cultures_opinion_gain: "Alle drei Jahre kann das [culture_head|E] [opinion|E] beim [culture_head|E] der versöhnten [culture|E] erhalten."
+ culture_parameter_synergy_cultures_positive_chance_desc: "Die Wahrscheinlichkeit und Stärke des oben genannten Effekts wird beeinflusst von der [cultural_acceptance|E] zwischen den versöhnten [cultures|E] und der [opinion|E] über das andere [culture_head|E]"
+ ach_culture_synergy_troops: "Eidgeschworenen-Truppen"
   

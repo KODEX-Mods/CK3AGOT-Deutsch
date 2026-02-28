@@ -42,6 +42,5 @@
  iberian_reclamation_cb_white_peace_desc_conquer: "[defender.GetShortUIName|U] wird umkämpfte [titles|E] behalten"
  iberian_reclamation_cb_defeat_desc_vassalize: "$iberian_reclamation_cb_white_peace_desc_vassalize$"
  iberian_reclamation_cb_defeat_desc_conquer: "$iberian_reclamation_cb_white_peace_desc_conquer$"
- iberian_reclamation_cb_defeat_desc: "$iberian_reclamation_cb_white_peace_desc$"
   
  CB_COST_IBERIAN_RECLAMATION: "Kostet [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [prestige|E] pro [county|E]"

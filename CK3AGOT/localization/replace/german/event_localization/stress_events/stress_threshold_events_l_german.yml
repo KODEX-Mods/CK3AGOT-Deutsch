@@ -55,9 +55,9 @@
  stress_threshold.1501.e: "Ich darf mich von diesen finsteren Gedanken nicht ablenken lassen."
  stress_threshold.1501.f: "Das Leben als [scoped_ruler.GetFaith.GetAdherentName] hat keinen Sinn."
  #AGOT Added 
- stress_threshold.1501.g: "Why must I keep up my appearances?" #NT!
+ stress_threshold.1501.g: "Why must I keep up my appearances?"
  #AGOT Added 
- stress_threshold.1501.h: "I cannot be bothered to act #italic properly#! anymore." #NT!
+ stress_threshold.1501.h: "I cannot be bothered to act #italic properly#! anymore."
   
  stress_threshold.1502.t: "Geistiger Zusammenbruch: Ablehnung"
  stress_threshold.1502.intro.desc: "Warum muss ich immer alles selbst machen? Wie kann man denn von mir erwarten, dass ich [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] regiere, wenn die Hälfte meiner Dienstboten nicht in der Lage ist, meine Befehle zu befolgen, und die andere Hälfte nicht in der Lage ist, sie zu verstehen?"
@@ -71,7 +71,7 @@
  stress_threshold.1502.f: "Vielleicht sollte ich ein Tagebuch meines Unglücks anlegen?"
  stress_threshold.1502.g: "[scoped_ruler.GetFaith.HighGodName], ich brauche etwas zu trinken!"
  #AGOT Added 
- stress_threshold.1502.h: "Perhaps I shall become unbearable to be around!" #NT!
+ stress_threshold.1502.h: "Perhaps I shall become unbearable to be around!"
   
  stress_threshold.1503.t: "Geistiger Zusammenbruch: Innere Leere"
  stress_threshold.1503.desc: "Nichts stellt mich noch zufrieden. Trotz all meiner Bemühungen fühle ich weder Freude noch Frieden in mir. Es ist, als ob da etwas fehlen würde.\n\nWas kann dieses Loch schließen, dass da an meiner Seele nagt?"
@@ -91,10 +91,10 @@
  stress_threshold.1504.f: "Ich bin umgeben von Narren!"
  stress_threshold.1504.g: "Ich werde meine Gedanken schriftlich sammeln."
  stress_threshold.1504.h: "Sattelt mein Pferd. Ich muss hier raus!"
+ stress_threshold.1504.i: "I cannot waste energy on what others think of me!"
  #AGOT Added 
- stress_threshold.1504.i: "I cannot waste energy on what others think of me!" #NT!
- #AGOT Added 
- stress_threshold.1504.j: "I just need to let loose... #EMP *fart*#!" #NT!
+ stress_threshold.1504.i: "I cannot waste energy on what others think of me!"
+ stress_threshold.1504.j: "I just need to let loose... #EMP *fart*#!"
   
  stress_threshold.1601.t: "Geistiger Zusammenbruch: Wirbelnde Gedanken"
  stress_threshold.1601.desc: "Ich kann mich nicht konzentrieren, meine Gedanken laufen wild im Kreis! Ich muss mich um die Residenz kümmern, die Truppen inspizieren und dann noch …\n\nWie soll ich zur Ruhe kommen, wenn mich selbst meine Gedanken derart hintergehen?!"
@@ -109,9 +109,9 @@
  stress_threshold.1601.reclusive.gain: "Vielleicht könnte ich mich besser konzentrieren, wenn ich alleine bin …"
  stress_threshold.1601.reclusive.effect: "Ich kann mich immer gut konzentrieren, wenn ich alleine bin …"
  #AGOT Added 
- stress_threshold.1601.uncouth.gain: "Perhaps I could think better if I spent less time on appearances..." #NT!
+ stress_threshold.1601.uncouth.gain: "Perhaps I could think better if I spent less time on appearances..."
  #AGOT Added 
- stress_threshold.1601.uncouth.effect: "I can focus much better when I don't worry about what others think of me." #NT!
+ stress_threshold.1601.uncouth.effect: "I can focus much better when I don't worry about what others think of me."
  stress_threshold.1601.irritable.gain: "Vielleicht könnte ich ja nachdenken, wenn die Leute einfach mal #EMP ruhig#! wären!"
  stress_threshold.1601.irritable.effect: "Ich sage den Leuten, sie sollen #EMP ruhig sein#!!"
  stress_threshold.1601.confider.gain: "„[friend.GetFirstName], helft mir bitte, meine Gedanken zu sortieren!“"
@@ -134,6 +134,9 @@
  stress_threshold.1601.hashishiyah.effect: "Ich war noch nie ruhiger als nach einem Abend mit einem Becher Mohnblumensaft."
  stress_threshold.1601.journaller.gain: "Es sollte meinen Geist ordnen, wenn ich meine Gedanken niederschreibe …"
  stress_threshold.1601.journaller.effect: "Meine Gedanken niederzuschreiben ordnet stets meinen Geist!"
+ stress_threshold.1601.burdened.gain: "Von einem besseren Ort zu träumen, könnte hilfreich sein."
+ stress_threshold.1601.burdened.effect: "Von guten Dingen zu träumen, ist immer hilfreich!"
+  
  stress_threshold.1601.endure_no_option: "Ich, ich muss das durchhalten. Es gibt nichts, was ich dagegen tun kann …"
   
  stress_threshold.1602.t: "Geistiger Zusammenbruch: Wirbelnde Gefühle"
@@ -149,9 +152,9 @@
  stress_threshold.1602.reclusive.gain: "Vielleicht könnte ich mich beruhigen, wenn ich alleine bin …"
  stress_threshold.1602.reclusive.effect: "Wenn ich alleine bin, kann ich immer klar denken."
  #AGOT Added 
- stress_threshold.1602.uncouth.gain: "Maybe this would be easier if I let myself go..." #NT!
+ stress_threshold.1602.uncouth.gain: "Maybe this would be easier if I let myself go..."
  #AGOT Added 
- stress_threshold.1602.uncouth.effect: "I feel much better when I let myself go." #NT!
+ stress_threshold.1602.uncouth.effect: "I feel much better when I let myself go."
  stress_threshold.1602.irritable.gain: "Es wäre einfacher, wenn mich die Menschen einfach #EMP in Ruhe lassen#! könnten!"
  stress_threshold.1602.irritable.effect: "Ich werde ihnen schon sagen, was ich von ihrem #EMP Misstrauen#! halte!"
  stress_threshold.1602.confider.gain: "Es könnte helfen, mit [friend.GetFirstName] darüber zu reden."
@@ -174,6 +177,8 @@
   #AGOT Modified 
  #stress_threshold.1602.hashishiyah.effect: "Hashish always centers me."
  stress_threshold.1602.hashishiyah.effect: "Mohnblumensaft hilft mir stets dabei, meine innere Mitte zu finden."
+ stress_threshold.1602.burdened.gain: "Wenn ich nur an etwas anderes denken könnte – #EMP irgendetwas#! anderes."
+ stress_threshold.1602.burdened.effect: "Wenn ich meinen Gedanken freien Lauf lasse, wird meine Angst weniger."
   
   # Level 2 Stress Events 
  stress_threshold.2001.t: "Geistiger Zusammenbruch: Undankbarkeit"

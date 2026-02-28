@@ -32,19 +32,19 @@
   
  epidemic_smallpox: "Blattern"
   #AGOT Modified 
- #epidemic_bubonic_plague: "Bubonic Plague" #NT!
- epidemic_bubonic_plague: "Sunset Plague" #NT!
+ #epidemic_bubonic_plague: "Bubonic Plague"
+ epidemic_bubonic_plague: "Sunset Plague"
  epidemic_bubonic_plague_global_notification: "sucht/suchen das Land heim"
   #AGOT Modified 
- #epidemic_black_death: "Black Death" #NT!
- epidemic_black_death: "Great Spring Sickness" #NT!
+ #epidemic_black_death: "Black Death"
+ epidemic_black_death: "Great Spring Sickness"
   #AGOT Modified 
- #epidemic_typhus: "Typhus" #NT!
- epidemic_typhus: "Green Fever" #NT!
+ #epidemic_typhus: "Typhus"
+ epidemic_typhus: "Green Fever"
  epidemic_consumption: "Schwindsucht"
   #AGOT Modifed 
- #epidemic_measles: "Measles" #NT!
- epidemic_measles: "Spotted Fever" #NT!
+ #epidemic_measles: "Measles"
+ epidemic_measles: "Spotted Fever"
  epidemic_realm_loc: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip|U]"
  epidemic_ruler_loc: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetFirstNameNoTooltip|U]"
  epidemic_holder_loc: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetFirstNameNoTooltip|U]"
@@ -77,8 +77,8 @@
  epidemic_province_sweats: "$epidemic_province_loc$er Schweiß"
  epidemic_realm_fever: "$epidemic_realm_loc$es Fieber"
   #AGOT Modified 
- #epidemic_terrain_fever: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetTerrain.GetNameNoTooltip|U] Fever" #NT!
- epidemic_terrain_fever: "[ROOT.Epidemic.GetStartingOutbreakProvince.Custom('TerrainTypeProvince')|U] Fever" #NT!
+ #epidemic_terrain_fever: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetTerrain.GetNameNoTooltip|U] Fever"
+ epidemic_terrain_fever: "[ROOT.Epidemic.GetStartingOutbreakProvince.Custom('TerrainTypeProvince')|U] Fever"
  epidemic_culture_sweats: "$epidemic_culture_loc$er Schweiß"
  epidemic_devils_fever: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetFaith.random_EvilGodNames|U]-Fieber"
  epidemic_camp_fever: "Fleckfieber"
@@ -105,8 +105,8 @@
  epidemic_bloody_flux: "Blutdurchfall"
  epidemic_realm_flux: "$epidemic_realm_loc$e Ruhr"
   #AGOT Modified 
- #epidemic_terrain_flux: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetTerrain.GetNameNoTooltip|U] Flux" #NT!
- epidemic_terrain_flux: "[ROOT.Epidemic.GetStartingOutbreakProvince.Custom('TerrainTypeProvince')|U] Flux" #NT!
+ #epidemic_terrain_flux: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetTerrain.GetNameNoTooltip|U] Flux"
+ epidemic_terrain_flux: "[ROOT.Epidemic.GetStartingOutbreakProvince.Custom('TerrainTypeProvince')|U] Flux"
  epidemic_ruler_flux: "$epidemic_ruler_possessive_loc$-Ruhr"
  epidemic_titled_ruler_flux: "Ruhr von $epidemic_titled_ruler_possessive_loc$"
  epidemic_culture_flux: "$epidemic_culture_loc$e Ruhr"
@@ -136,8 +136,8 @@
  epidemic_little_leprosy: "Kleiner Aussatz"
  epidemic_crimson_horror: "Scharlachschrecken"
   #AGOT Modifed 
- #trait_measles: "Measles" #NT!
- trait_measles: "Spotted Fever" #NT!
+ #trait_measles: "Measles"
+ trait_measles: "Spotted Fever"
  trait_measles_desc: "Dieser Charakter leidet an anhaltendem Fieber, Ausschlag und Husten, was viele Menschen dazu veranlasst, diese Erkrankung mit einem „kleinen Aussatz“ gleichzusetzen."
  trait_measles_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat anhaltendes Fieber, Ausschlag und Husten, was viele Menschen dazu veranlasst, diese Erkrankung mit einem „kleinen Aussatz“ gleichzusetzen."
  epidemic_dysentery: "Blutdurchfall"
@@ -145,12 +145,12 @@
  trait_dysentery_desc: "Fieber, Wahnzustände und starke Unterleibsschmerzen sorgten dafür, dass dieser Charakter sich … #EMP blutig#! in den Abort erleichtert hat."
  trait_dysentery_character_desc: "Fieber, Wahnzustände und starke Unterleibsschmerzen sorgten dafür, dass [ROOT.GetCharacter.GetFirstNameNoTooltip] sich … #EMP blutig#! in den Abort erleichtert hat."
   #AGOT Modifed 
- #epidemic_ergotism: "Holy Fire" #NT!
- epidemic_ergotism: "Dancing Plague" #NT!
+ #epidemic_ergotism: "Holy Fire"
+ epidemic_ergotism: "Dancing Plague"
  epidemic_saint_anthonys_fire: "Sankt-Antonius-Feuer"
   #AGOT Modifed 
- #trait_ergotism: "Holy Fire" #NT!
- trait_ergotism: "Dancing Plague" #NT!
+ #trait_ergotism: "Holy Fire"
+ trait_ergotism: "Dancing Plague"
  trait_ergotism_desc: "Dieser Charakter leidet unter schmerzhaften Krämpfen, Kopfschmerzen, Übelkeit und Durchfall – die unwillkürlichen Krämpfe lassen es so aussehen, als würde er tanzen."
  trait_ergotism_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip|U] leidet unter schmerzhaften Krämpfen, Kopfschmerzen, Übelkeit und Durchfall – die unwillkürlichen Krämpfe lassen es so aussehen, als würde [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] tanzen."
  county_epidemic_recovered_tiny_modifier: "Kleine Erholung von einer Krankheit"

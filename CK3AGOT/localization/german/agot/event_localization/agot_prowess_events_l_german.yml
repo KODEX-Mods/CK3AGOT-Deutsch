@@ -1,0 +1,7 @@
+﻿l_german:
+ agot_prowess.0002.notification.a: "Child Improved Swordplay: [trained.GetShortUIName]"
+ agot_prowess.02.notification.b: "Kind wurde Schwertmeister:  [trained.GetShortUIName]"
+  
+ agot_prowess.0003.t: "Swordsmanship Improved"
+ agot_prowess.0003.desc: "While out sweating in the yard training with [marshal.GetName] I find my grasp of swordsmanship has improved."
+ agot_prowess.0003.a: "My training has paid off"

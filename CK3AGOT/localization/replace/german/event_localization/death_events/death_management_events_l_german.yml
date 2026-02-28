@@ -16,8 +16,8 @@
  death_management.1001.t: "Sein Kind zu überleben"
  death_management.1001.murder: "[dead_character.GetTitledFirstName] wurde ermordet!\n\n"
   #AGOT Modified 
- #death_management.1001.tt: "Your [THIS.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))], [dead_character.GetTitledFirstName], has [THIS.Char.Custom('DiedHouse_arrest')]." #NT!
- death_management.1001.tt: "Your [THIS.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))], [dead_character.GetTitledFirstNameNicknamed], has [THIS.Char.Custom('DiedHouse_arrest')]." #NT!
+ #death_management.1001.tt: "Your [THIS.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))], [dead_character.GetTitledFirstName], has [THIS.Char.Custom('DiedHouse_arrest')]."
+ death_management.1001.tt: "Your [THIS.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))], [dead_character.GetTitledFirstNameNicknamed], has [THIS.Char.Custom('DiedHouse_arrest')]."
  death_management.1001.plaguechild: "Mein Magen dreht und windet sich in stillen Qualen, als m[dead_character.Custom('DE_ART_IND_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))] [dead_character.GetFirstName] tot an mir vorbeigetragen wird. Ärzte und Heiler mühten sich von morgens bis abends, um [dead_character.Custom('DE_PRO_PER_S_3P_A')] zu retten, doch ihre grimmigen Mienen verrieten allen mehr, als sie zu sagen bereit waren.\n\nSo jung, so vielversprechend. So viele mehr, die so sterben müssen.\n\nMögen die höchsten Mächte ([ROOT.Char.GetFaith.HighGodName]) uns erlösen."
  death_management.1001.child: "Ich hatte so viel Hoffnung für dich, mein liebstes Kind. Die Dinge, die du lernen solltest, erleben solltest, tun solltest. Dir standen so viele Möglichkeiten offen; ein ganzes Leben wartete auf dich. Vielleicht hättest du eines Tages selbst Kinder gehabt. Aber jetzt wird nichts davon mehr passieren …"
  death_management.1001.like: "O höchste Mächte ([ROOT.Char.GetFaith.HighGodName]), wie konntet Ihr [dead_character.GetFirstName] das antun? Wenn ich gesündigt habe, warum bestraft Ihr dann nicht mich? [dead_character.Custom('DE_PRO_PER_S_3P_N')|U] war bar jeder Schuld, mein[dead_character.Custom('DE_END_PRO_S_N')] perfekt[dead_character.Custom('DE_END_ADJ_NUL_S_N')] [dead_character.Custom('GetDaughterSon')]! Das Leben hatte noch so viel vor mit [dead_character.Custom('DE_PRO_PER_S_3P_D')] …"
@@ -60,12 +60,14 @@
   
  death_management.betrothed.desc: "Euer [betrothed|E] [dead_character.GetFullName] [dead_character.GetDeathReason]."
   #AGOT Modified 
- #death_management.liege_councillor.desc: "Your [councillor|E], [dead_character.GetFirstNameNoTooltip], [dead_character.GetDeathReason]." #NT!
- death_management.liege_councillor.desc: "[dead_character.GetTitledFirstNameNicknamedNoTooltip] [dead_character.GetDeathReason]." #NT!
+ #death_management.liege_councillor.desc: "Your [councillor|E], [dead_character.GetFirstNameNoTooltip], [dead_character.GetDeathReason]."
+ death_management.liege_councillor.desc: "[dead_character.GetTitledFirstNameNicknamedNoTooltip] [dead_character.GetDeathReason]."
   
  death_management.liege.desc: "Euer [vassal|E] [dead_character.GetFullName] [dead_character.GetDeathReason]."
   
  death_management.pinned.desc: "Ein Mensch, der für Euch von Interesse ist, [dead_character.GetNameNoTooltip], [dead_character.GetDeathReason]."
+  
+ death_management.elder.desc: "Euer [elder|E], [deceased_elder.GetFullName], verstarb ([deceased_elder.GetDeathReason|U])."
   
  death_management.1008.desc: "[dead_character.GetTitledFirstName], [dead_character.Custom('DE_ART_DEF_S_N')] mein[spouse_of_dead_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse_of_dead_character'))] [spouse_of_dead_character.GetFirstName] als Ehepartner[dead_character.Custom('DE_END_NOU_S_GS_N')] um sich hatte, ist verstorben. All diese sorgfältig geschmiedeten Pläne, zerteilt von des Todes launischer Sense, obgleich solcherlei Beschwerden wohl gering erscheinen verglichen mit dem Schmerz [dead_character.Custom('DE_PRO_POS_S_3P')]er Familie …"
  death_management.1008.a: "Ruhet in Frieden."
@@ -310,28 +312,14 @@
  death_management.death.uninvolved: "‚#EMP Wir bestätigen, dass [dead_character.GetTitledFirstName] fiel, als [dead_character.Custom('DE_PRO_PER_S_3P_N')] den [battle_death_leader.GetPrimaryTitle.GetAdjectiveNoTooltip|l]en Truppen erbitterten Widerstand leistete."
   # Killer 
  death_management.killer.witnessed.enemy: "Binnen weniger Augenblicke stürmt [battle_death_killer.GetTitledFirstName], [battle_death_killer.GetLiege.Custom2('RelationToMe', SCOPE.sC('battle_death_killer'))] von [battle_death_killer.GetLiege.GetTitledFirstName], entschlossen voran, [battle_death_killer.Custom('DE_4_signature_weapon')] [battle_death_killer.Custom('signature_weapon')] hoch erhoben. Mühelos übertrumpft [battle_death_killer.Custom('DE_PRO_PER_S_3P_N')] die [dead_character.GetFirstNameNoTooltip] noch verbliebene Kraft und versetzt [dead_character.Custom('DE_PRO_PER_S_3P_D')] den Gnadenstoß. "
-  # AGOT Added 
- death_management.killer.witnessed.enemy_dragon: "None could stand against the force of [battle_death_killer.GetFirstName]. Ridden by [battle_death_killer_rider.GetTitledFirstName], they tore through the enemy lines, with [dead_character.GetFirstNameNoTooltip] as one of their many victims. " #NT!
-  # 
  death_management.killer.witnessed.friendly: "Ich erhasche das jähe Funkeln einer Waffe und vor meinen Augen vollführt [battle_death_killer.GetTitledFirstName], [battle_death_killer.GetLiege.Custom2('RelationToMe', SCOPE.sC('battle_death_killer'))] von[battle_death_killer.GetLiege.GetTitledFirstName], den wilden, tödlichen Hieb."
-  # AGOT Added 
- death_management.killer.witnessed.friendly_dragon: "None could stand against the terror of [battle_death_killer.GetFirstName]. Ridden by [battle_death_killer_rider.GetTitledFirstName], they tore through our lines, with [dead_character.GetFirstNameNoTooltip] one of the many who fell to fire and flame. " #NT!
-  # 
  death_management.killer: "[dead_character.Custom('DE_PRO_PER_S_3P_N')|U] wurde im Zuge eines wilden Gefechts von [battle_death_killer.GetTitledFirstName], [battle_death_killer.GetLiege.Custom2('RelationToMe', SCOPE.sC('battle_death_killer'))] von [battle_death_killer.GetLiege.GetTitledFirstName], erschlagen.‘#!"
-  # AGOT Added 
- death_management.killer_dragon: "[dead_character.GetSheHe|U] was one of the many who fell before [battle_death_killer.GetFirstName], dragon of [battle_death_killer_rider.GetTitledFirstName].'#!" #NT!
-  # 
  death_management.no_killer: "[dead_character.Custom('DE_PRO_PER_S_3P_N')|U] wurde bei einem wilden Gefecht von einem verirrten Pfeil getroffen.‘#!"
   # Spouse 
  death_management.1200.t: "Gefallene Konkubine"
  death_management.1200.desc_sad: "\n\nIch hätte [dead_character.Custom('DE_PRO_PER_S_3P_A')] nicht gehen lassen sollen … Nicht so …"
  death_management.1200.desc_happy: "\n\nEndlich ist dieses Scheusal tot!"
-  # AGOT Modified - vanilla scope error 
- #death_management.1200.a: "[battle_death_killer.GetFirstNameNoTooltip] is a dead [dead_character.GetWomanMan]! Dead!" #NT!
- death_management.1200.a: "[battle_death_killer.GetFirstNameNoTooltip] is a dead [battle_death_killer.GetWomanMan]! Dead!" #NT!
-  # AGOT Added 
- death_management.1200.a_dragon: "[battle_death_killer_rider.GetFirstNameNoTooltip] is a dead [battle_death_killer_rider.GetWomanMan]! Dead!" #NT!
-  # 
+ death_management.1200.a: "[battle_death_killer.GetFirstNameNoTooltip] is a dead [battle_death_killer.GetWomanMan]! Dead!"
  death_management.1200.b: "Ich werde Euch niemals vergessen …"
  death_management.1200.c: "Ihr habt Eure Tapferkeit bewiesen, mein Liebling …"
  death_management.1200.d: "Endlich bin ich frei!"
@@ -339,9 +327,6 @@
  death_management.1201.t: " Gefallen[dead_character.Custom('DE_END_ADJ_IND_S_N')] [dead_character.Custom('GetDaughterSon')]"
  death_management.1201.desc: "\n\nIch hätte [dead_character.Custom('DE_PRO_PER_S_3P_A')] nicht retten können … doch Eltern sollten ihre Kinder nicht überleben …"
  death_management.1201.a: "[battle_death_killer.GetFirstNameNoTooltip] wird damit nicht davonkommen!"
-  # AGOT Added 
- death_management.1201.a_dragon: "[battle_death_killer_rider.GetFirstNameNoTooltip] will not get away with this!" #NT!
-  # 
  death_management.1201.b: "#EMP Mein[dead_character.Custom('DE_END_PRO_S_N')] tapfer[dead_character.Custom('DE_END_ADJ_IND_S_N')] [dead_character.Custom('GetDaughterSon')] …#!"
  death_management.1201.c: "Ihr seid zu früh gegangen, mein Kind …"
  death_management.1201.d: "Ruhet sanft, mein Kind."
@@ -350,9 +335,6 @@
  death_management.1202.desc: "\n\nEs ist zu spät, um die Dinge noch zu ändern. Ich hoffe nur, [dead_character.Custom('DE_PRO_PER_S_3P_N')] findet im Jenseits Frieden."
  death_management.1202.a: "#EMP Warum Ihr, [dead_character.Custom('GetMamaPapa')]?#!"
  death_management.1202.b: "[battle_death_killer.GetFirstNameNoTooltip] wird dafür büßen."
-  # AGOT Added 
- death_management.1202.b_dragon: "[battle_death_killer_rider.GetFirstNameNoTooltip] will pay." #NT!
-  # 
   # Lover 
  death_management.1204.t: "Gefallene Affäre"
  death_management.1204.desc: "\n\nMein Herz wird zu Eis, als ich begreife, dass ich nie wieder die warme Umarmung meines geliebten Menschen spüren werde …"
@@ -363,26 +345,17 @@
  death_management.1205.desc: "\n\nIch werde nie wieder [dead_character.Custom('DE_PRO_POS_S_3P')]e geschätzte Gesellschaft genießen können …"
  death_management.1205.a: "Nicht [dead_character.GetFirstNameNoTooltip]!"
  death_management.1205.b: "[battle_death_killer.GetFirstNameNoTooltip] wird hierfür bezahlen!"
-  # AGOT Added 
- death_management.1205.b_dragon: "[battle_death_killer_rider.GetFirstNameNoTooltip] will pay for this!" #NT!
-  # 
   # Rival 
  death_management.1206.t: "[Select_CString(dead_character.IsFemale, 'Gefallene Rivalin', 'Gefallener Rivale')]"
  death_management.1206.desc: "\n\nIch muss grinsen bei dem Gedanken, dass [dead_character.GetFirstNameNoTooltip] dabei starn, als er #EMP meine#! Schlachten schlug. Das wird meiner Laune für Tage Auftrieb geben!"
  death_management.1206.a: "Auf Nimmerwiedersehen."
  death_management.1206.b: "[dead_character.GetFirstNameNoTooltip] hätte mir gehören sollen!"
  death_management.1206.c: "Mein[battle_death_killer.Custom('DE_END_PRO_S_N')] #EMP Held[battle_death_killer.Custom('DE_END_NOU_S_GS_N')]#!! Ich werde [battle_death_killer.GetFirstNameNoTooltip] Blumen ([ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')]) schicken!"
-  # AGOT Added 
- death_management.1206.c_dragon: "My #EMP hero!#! I shall send [battle_death_killer_rider.GetFirstNameNoTooltip] a [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')]!" #NT!
-  # 
   # Heir 
  death_management.1207.t: "[Select_CString(dead_character.IsFemale, 'Gefallene Erbin', 'Gefallener Erbe')]"
  death_management.1207.desc: "\n\nDie Nachfolge von [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] muss nun wieder in den Blick genommen werden …"
  death_management.1207.a: "Ihr wart nicht bereit …"
  death_management.1207.b: "… Doch [battle_death_killer.GetFirstNameNoTooltip] wird es auch nicht sein!"
-  # AGOT Added 
- death_management.1207.b_dragon: "...but neither is [battle_death_killer_rider.GetFirstNameNoTooltip]!" #NT!
-  # 
  death_battle_new_rivalry_title: "[avenger.GetTitledFirstNameNoTooltip] strebt nach Vergeltung"
   # Family Feud 
  death_management.3006.b: "Wie schade. Ich hatte gehofft, [dead_character.Custom('DE_PRO_PER_S_3P_N')] würde länger durchhalten."

@@ -107,6 +107,11 @@
  artifact_wall_sword_attila_name: "Das Schwert Gottes"
  artifact_wall_sword_attila_description: "Das legendäre Schwert des Hunnenherrschers Attila, der Geißel Gottes. Es ist auch als das Schwert des Mars bekannt."
   
+ artifact_sword_goujian_name: "Schwert von Gouijan"
+ artifact_sword_goujian: "Dieses antike Schwert soll einst dem König von Yue, Goujian, gehört haben. Obwohl es seinem Äußeren nach altmodisch wirkt, zeugt es von herausragender Handwerkskunst. Nahe dem Griff ist eine vergoldete Inschrift in chinesischer Siegelschrift zu sehen."
+ artifact_sword_goujian_refulgence: "[gujian_sword.GetDesc]\n\nDies soll das Schwert namens „Erstrahlen“ sein, das Gouijan trug, als er Konfuzius um Rat ersuchte."
+ artifact_sword_goujian_purity: "[gujian_sword.GetDesc]\n\nDies soll das Schwert namens „Reinheit“ sein."
+  
   # Animals (used in ArtifactAnimalType) 
  animal_type_cat: "Katze"
  animal_type_dog: "Hund"
@@ -500,7 +505,7 @@
  #feature_book_title_diplomacy_hitopadesa: "$artifact_name_prefix_artifact_scope$ Hitopadesa"
  feature_book_title_diplomacy_hitopadesa: "Hitopadesa ($artifact_name_prefix_artifact_scope$)"
   #AGOT Modified 
- #feature_book_topic_diplomacy_hitopadesa: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated manuscript containing a new collection of ancient traditional fables, known as Hitopadesa." #NT!
+ #feature_book_topic_diplomacy_hitopadesa: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated manuscript containing a new collection of ancient traditional fables, known as Hitopadesa."
  feature_book_topic_diplomacy_hitopadesa: "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')]es und [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminiertes Manuskript mit einer neuen Sammlung uralter, traditioneller Fabeln, die man als Hitopadesa kennt."
   #AGOT Modified 
  #feature_book_title_diplomacy_hitopadesa: "$artifact_name_prefix_artifact_scope$ Hitopadesa"
@@ -576,7 +581,7 @@
  #feature_book_title_learning_mufaddaliyat: "$artifact_name_prefix_artifact_scope$ Mufaddaliyat"
  feature_book_title_learning_mufaddaliyat: "Mufaddaliyat ($artifact_name_prefix_artifact_scope$)"
   #AGOT Modified 
- #feature_book_topic_learning_mufaddaliyat: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] commented recension of the poetic anthology known as Mufaddaliyat by the famous scholar [author.GetTitledFirstNameNoTooltip]." #NT!
+ #feature_book_topic_learning_mufaddaliyat: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] commented recension of the poetic anthology known as Mufaddaliyat by the famous scholar [author.GetTitledFirstNameNoTooltip]."
  feature_book_topic_learning_mufaddaliyat: "Eine [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] kommentierte Revision der als Mufaddaliyat bekannten Gedichtsammlung aus der berühmten Feder von [author.GetTitledFirstNameNoTooltip]."
  feature_book_title_learning_prayers: "Gebete für [Artifact.GetOwner.GetFaith.GetAdjective|l]e Gläubige"
  feature_book_topic_learning_prayers: "Ein imposantes Gebetsbuch für [Artifact.GetOwner.GetFaith.GetAdjective|l]e Gläubige, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')|l] illustriert."
@@ -858,3 +863,30 @@
   
  artifact_wall_icon_court_large: "Große Ikone"
  artifact_wall_icon_court_small: "Kleine Ikone"
+  
+ artifact_pedestal_sakanoue_sword_name: "Banke no Hōken"
+ artifact_pedestal_sakanoue_sword_desc: "Dieses Schwert wurde vom berühmten General $dynn_Sakanoue$ $Tamuramaro$ geführt, und man sagt, es schütze den Kaiserhof. Es wurde nach $Tamuramaro$s Tod von $king_tenno_male_japanese$ $Saga_JP$ dem Palast überreicht."
+ artifact_higekiri_sword_name: "Higekiri"
+ artifact_higekiri_sword_desc: "Der ‚Bartschneider‘ wurde zusammen mit Hizamaru von $dynn_Minamoto$ no $Mitsunaka$ in Auftrag gegeben und in der $Seiwa$-$dynn_Minamoto$-Familie weitervererbt."
+ artifact_hizamaru_sword_name: "Hizamaru"
+ artifact_hizamaru_sword_desc: "Dieses Schwert wurde zusammen mit Higekiri von $dynn_Minamoto$ no $Mitsunaka$ in Auftrag gegeben und in der $Seiwa$-$dynn_Minamoto$-Familie weitervererbt."
+ artifact_dojigiri_sword_name: "Dojigiri"
+ artifact_dojigiri_sword_desc: "Dieses Schwert wurde vom berühmten Schmied $Yasutsuna_4$ für $dynn_Fujiwara$ $Toshihito$ geschaffen und in der $dynn_Fujiwara$-Familie weitergegeben."
+ artifact_mikazuki_munechika_sword_name: "Mikazuki"
+ artifact_mikazuki_munechika_sword_desc: "Der ‚Sichelmond‘ wurde vom berühmten Schmied $dynn_SanjO_$ $Munechika_2$ während der Herrschaft von $king_tenno_male_japanese$ $IchijO_$ geschaffen."
+ artifact_odenta_sword_name: "Ōtenta"
+ artifact_odenta_sword_desc: "Das ‚Ōtenta‘ wurde vom berühmten Schmied $Mitsuyo$, der auch als Tenta bekannt ist, während der Herrschaft von $king_tenno_male_japanese$ $Shirakawa$ geschaffen."
+ artifact_pedestal_hamayumi_bow_name: "Hamayumi"
+ artifact_pedestal_hamayumi_bow_desc: "Der ‚Zerstörer des Bösen‘ wurde von $dynn_Minamoto$ $Yorimasa$ geführt, der in den Kaiserpalast gerufen wurde, um böse Geister zu bannen."
+ artifact_pedestal_seven_branched_sword_name: "Shichishitō"
+ artifact_pedestal_seven_branched_sword_desc: "Das ‚Siebenarmige Schwert‘ ist eine Eisenklinge mit sieben flammenartigen Armen. Es wurde dem $king_tenno_male_japanese$ angeblich vor langer Zeit von König Baekje als Zeichen der Freundschaft von jenseits des Meeres geschickt."
+ artifact_pedestal_gyerimro_dagger_name: "Exotischer Dolch"
+ artifact_pedestal_gyerimro_dagger_desc: "Dieser kunstvoll geschaffene Dolch hat einen Griff und eine Scheide, in die feines Gold und kosterbare Steine eingelassen wurden. Er ist ein hochgeschätzter Besitz des Silla-Hofs und soll aus Landen stammen, die fern im Westen liegen."
+ artifact_karakawa_armor_name: "Karakawa"
+ artifact_karakawa_armor_desc: "Diese edel gefertige Ō-yoroi-Rüstung ist ein Erbstück der Taira-Familie. Sie soll ein Geschenk vom Neffen des $Kanmu$-$king_tenno_male_japanese$ sein."
+ artifact_nukemaru_sword_name: "Nukemaru"
+ artifact_nukemaru_sword_desc: "Dieses Schwert wurde angeblich von Amaterasu einem Jäger in Ise übergeben, dann aber von $dynn_Taira$ $Tadamori$ erworben. Angeblich sprang es von selbst aus der Scheide, als eine Schlange seinen schlafenden Träger bedrohte."
+ artifact_kogarasumaru_sword_name: "Kogarasumaru"
+ artifact_kogarasumaru_sword_desc: "Die ‚Kleine Krähe‘ wurde von Amakuni für den Kaiserhof geschmiedet und später von $king_tenno_male_japanese$ $Suzaku$ an $dynn_Taira$ $Sadamori$ für geleistete Dienste im Jōhei-Tengyō-Aufstand verliehen."
+ artifact_statue_green_amitabha_buddha_name: "Grünstein-Amitabha-Buddha"
+ artifact_statue_green_amitabha_buddha_descripton: "Diese wunderschöne Statue des Amitabha-Buddha scheint aus einem einzigen grünen Steinblock gehauen zu sein. Der Sockel ist mit Lotosblüten und Wellenmustern verziert.\n\nDer Legende nach entstand die Statue auf wundersame Weise aus den Trümmern einer Pagode, die kurz nach ihrer Errichtung einstürzte."

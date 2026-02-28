@@ -1,0 +1,141 @@
+﻿l_german:
+  ### RIVERLANDS DYNASTIES/CADET BRANCHES ### 
+  #Great Houses 
+ dynn_Tully: "Tully"
+  
+  #Extinct Royal Houses 
+ dynn_Fisher: "Fischer"
+ dynn_Hook: "Haken"
+ dynn_Justman: "Gerechtermann"
+ dynn_Mudd: "Schlamm"
+ dynn_Teague: "Dichter"
+  
+  #Harrenhal Houses 
+ dynn_Harroway: "Eggen"
+ dynn_Lothston: "Widersten"
+ dynn_Nutt: "Nutt"
+ dynn_Strong: "Kraft"
+ dynn_Towers: "Türmen"
+ dynn_Whent: "Whent"
+  
+  #Landed Houses 
+ dynn_Bigglestone: "Biggelstein"
+ dynn_Blackwood: "Schwarzhain"
+ dynn_Blanetree: "Blathain"
+ dynn_Bracken: "Bracken"
+ dynn_Butterwell: "Butterquell"
+ dynn_Byrne: "Brandt"
+ dynn_Chambers: "Kammer"
+ dynn_Charlton: "Karlten"
+ dynn_Cox: "Cox"
+ dynn_Darry: "Darry"
+ dynn_Deddings: "Dedding"
+ dynn_Dunstable: "Bergmarkt"
+ dynn_Erenford: "Erenfurt"
+ dynn_Frey: "Frey"
+ dynn_Goodbrook: "Gotbrook"
+ dynn_Grell: "Grell"
+ dynn_Grey: "Grau"
+ dynn_Greysteel: "Graustahl"
+ dynn_Haigh: "Heckenfeld"
+ dynn_Hawick: "Hawick"
+ dynn_Heddle: "Heddel"
+ dynn_Keath: "Kummer"
+ dynn_Lolliston: "Eichenfass"
+ dynn_Lychester: "Lester"
+ dynn_Mallister: "Mallister"
+ dynn_Mandrake: "Mandrayk"
+ dynn_Mooton: "Muton"
+ dynn_Nayland: "Neinland"
+ dynn_Paege: "Paege"
+ dynn_Pemford: "Pimfurt"
+ dynn_Penny: "Heller"
+ dynn_Perryn: "Perryn"
+ dynn_Pimm: "Pimm"
+ dynn_Piper: "Peiper"
+ dynn_Rankenfell: "Rankenfell"
+ dynn_Roote: "Wurtz"
+ dynn_Ryger: "Ryger"
+ dynn_Ryn: "Rynn"
+ dynn_Shawney: "Wasserblatt"
+ dynn_Smallwood: "Kleinwald"
+ dynn_Terrick: "Terrick"
+ dynn_Vance: "Vanke"
+ dynn_Vypren: "Vypren"
+ dynn_Wayn: "Wayn"
+ dynn_Whistler: "Schnytzer"
+ dynn_Wode: "Wod"
+  
+  #AGoT Video Game (2012) 
+ dynn_Harlton: "Harltyn"
+  
+  #Non-Canon 
+ dynn_Kanet: "Kanett"
+ dynn_Rushmoor: "Binsmoor"
+ dynn_Chaynes: "Kette"
+ dynn_Clare: "Kleyr"
+ dynn_Renn: "Renn"
+ dynn_Alderdice: "Erlenbruch"
+ dynn_Gleaner: "Rayn"
+ dynn_Sylvas: "Sylbers"
+ dynn_Forthe: "Fest"
+ dynn_Werth: "Werth"
+ dynn_Warl: "Warl"
+ dynn_Sillinger: "Sillinger"
+ dynn_Boddy: "Leyb"
+ dynn_Haynes: "Hayns"
+ dynn_Severyn: "Severyn"
+ dynn_Gillmore: "Mehrfreud"
+ dynn_Fletcher: "Fletscher"
+ dynn_Barrett: "Barrett"
+ dynn_Mason: "Mauer"
+ dynn_Banbeck: "Bannbeck"
+ dynn_Runny: "Flyss"
+ dynn_Helney: "Helney"
+ dynn_Pond: "Taych"
+ dynn_Hickory: "Hickery"
+ dynn_Kemble: "Kembel"
+ dynn_Beaver: "Beaver" #NT!
+ dynn_Deadmarsh: "Deadmarsh" #NT!
+ dynn_Eager: "Eager" #NT!
+ dynn_Givven: "Givven" #NT!
+ dynn_Whett: "Whett" #NT!
+ dynn_Brightmoon: "Brightmoon" #NT!
+ dynn_Festering: "Festering" #NT!
+ dynn_Growne: "Growne" #NT!
+ dynn_Deremond: "Deremond" #NT!
+ dynn_Garr: "Garr" #NT!
+ dynn_Leed: "Leed" #NT!
+ dynn_Madduc: "Madduc" #NT!
+ dynn_Prosper: "Prosper" #NT!
+ dynn_Brimer: "Brimer" #NT!
+ dynn_Urgont: "Urgont" #NT!
+ dynn_Berry: "Berry" #NT!
+ dynn_Becker: "Becker" #NT!
+ dynn_Common: "Common" #NT!
+ dynn_Wotlin: "Wotlin" #NT!
+ dynn_Temper: "Temper" #NT!
+ dynn_Fairhand: "Fairhand" #NT!
+  
+  #TTRPG semi-canon 
+ dynn_Dannett: "Dannett"
+ dynn_Elridge: "Elridge"
+ dynn_Kytley: "Kytley"
+ dynn_Weller: "Brunner"
+ dynn_Barnell: "Barnell"
+ dynn_Tullison: "Tullison"
+ dynn_Wallain: "Wallain"
+ dynn_Landseer: "Landseer"
+ dynn_Ward: "Ward"
+ dynn_Finch: "Finch"
+ dynn_Pace: "Pace"
+ dynn_Warrens: "Warrens"
+ dynn_Dally: "Dally" #NT!
+ dynn_Atell: "Atell" #NT!
+ dynn_Fernly: "Fernly" #NT!
+  
+  
+  #Landless Houses 
+ dynn_Bromley: "Bromm"
+ dynn_Crossing: "Kreuzweg"
+ dynn_Longbough: "Langzweig"

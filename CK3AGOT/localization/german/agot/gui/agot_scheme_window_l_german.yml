@@ -1,0 +1,17 @@
+﻿l_german:
+ INTRIGUE_WINDOW_SPY_NETWORK: "Spitzelnetz"
+ INTRIGUE_WINDOW_NO_SPIES: "Ihr habt keine Spione."
+ OPEN_SPY_NETWORK_TAB: "Spion"
+  
+ AGOT_SCHEME_AGENT_IS_MY_SPY: "Ist Euer Spion: $VALUE|+0=$"
+ SCHEME_AGENT_IS_HOUSEHOLD_GUARD: "$household_guard_court_position$ von [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_MAESTER: " $maester_court_position$ von [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_BLOODRIDER: "[target.GetShortUINamePossessiveNoTooltip] $bloodrider_court_position$: $VALUE|+0=$"
+  
+ AGOT_SCHEME_IS_AGAINST_ILLEGITIMATE_HOUSE: "Against Illegitimate House"
+  
+ INTRIGUE_WINDOW_MY_SPIES_TITLE: "[agot_spies|E] In Your [agot_spy_network|E]" #NT!
+ INTRIGUE_WINDOW_SPIES_MAX_COUNT: "#T Number of [agot_spies|E]#!\nMax calculated as one fifth of the combined [intrigue|E] of you and your [spymaster|E], rounded down." #NT!
+ INTRIGUE_WINDOW_DISMISS: "Dismiss" #NT!
+ INTRIGUE_WINDOW_DISMISS_BUTTON_TT: "#T Dismiss#!\n\nDismiss [Character.GetTitledFirstName] from your [agot_spy_network|E]" #NT!
+ SPY_ABBREVIATED_RELATIONS_TOOLTIP: "[Character.GetRelationToString( GetPlayer )]" #NT!

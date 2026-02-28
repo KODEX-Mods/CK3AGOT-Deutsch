@@ -1,0 +1,132 @@
+﻿l_german:
+ agot_nights_watch.0004.t: "Die Mauer muss standhalten"
+ agot_nights_watch.0004.desc: "Der heutige Tag begann nicht wie üblich. Die Stützpfeiler der Mauer knarrten, die Bäume in der Umgebung rüttelten und schüttelten sich - #N etwas stimmt nicht.#!\n\nWährend alle schwarzen Brüder besorgt sind, läuft ein Grenzer durch die Menge zu mir. #bold "Unsere Mauer wird durchbrochen!"#! schreit er.\n\nWenn Ihr über die Mauer hinausblickt, könnt Ihr die schwankenden und tückischen Bewegungen der Bäume sehen. Es gibt Gerüchte, die besagen, dass sich Wildlinge und Riesen auf den Weg gen Süden machen. Bisher galten sie als Scherze von Betrunkenen und als das Gerede schwacher Männer., bis jetzt...\n\nDie Wildlinge schwärmen durch die Bresche wie Schaben aus einem faulenden Getreidesack, wenn das Licht auf sie fällt, nur dreht sich mir der Magen bei diesem Anblick noch heftiger um. #bold Seit Tausenden von Jahren hat die Mauer nicht nachgegeben, wir dürfen nicht zulassen, dass unsere Wache diejenige ist, die es zulässt."
+ agot_nights_watch.0004.a: "Wir haben schon Schlimmeres überstanden!"
+  
+ agot_nights_watch.0024.t: "Wiederherstellung der Nachtwache"
+ agot_nights_watch.0024.desc: "Seit ihrer Auflösung sind unsere Festungen und Völker von Wilden und anderen grässlichen Kreaturen bedroht, die im hohen Norden lauern.\n\nNun, da die Wache wiederhergestellt ist, können wir beruhigt feststellen, dass unsere Grenzen sicher sind und unser Volk vor allen Gefahren aus dem Norden geschützt ist."
+ agot_nights_watch.0024.a: "Die Ordnung ist wiederhergestellt."
+ agot_nights_watch.0024.b: "Brandons Schenkung soll natürlich zurückgegeben werden."
+ agot_nights_watch.0024.c: "Die Wache sollte in ihrer vollen Stärke wiederhergestellt werden!"
+  
+ agot_nights_watch.0025.t: "Auflösung der Nachtwache"
+ agot_nights_watch.0025.desc: "Unser Volk ist schon viel zu lange von der Nachtwache und ihrer Mauer bedroht worden!\n\nNachdem wir die Kontrolle über die Mauer errungen haben, ist es an der Zeit, der schwarzen Bruderschaft endlich ein Ende zu bereiten und unserem Volk die Freiheit und den Frieden zu gewähren, die man ihm seit Tausenden von Jahren geraubt hat."
+ agot_nights_watch.0025.a: "Dies wird ewig in Erinnerung bleiben..."
+  
+ agot_nights_watch.0026.t: "Ein neuer Lord Kommandant"
+ agot_nights_watch.0026.desc: "Es ist erst wenige Tage her, dass die Amtszeit meines Vorgängers zu Ende ging, ein paar Tage, um über so manchen Gedanken nachzusinnen.\n\nHaben meine Kommandanten der Nachtwache wirklich nach bestem Wissen und Gewissen gedient? Haben sie klares Handeln und rationales Denken bewiesen? Oder hat ihre Zielstrebigkeit nachgelassen und ihr Vermögen nachgelassen. Während diese Brüder ihre wichtigen Positionen genossen haben, haben viele jüngere Männer großes Potenzial und Verstand bewiesen.\n\nAls Lord Kommandant ist es meine Pflicht, dafür zu sorgen, dass die Wache in fähigen Händen liegt, auch wenn das bedeuten kann, dass einige dieser Hände wechseln."
+ agot_nights_watch.0026.a: "Meine Kommandanten haben viel Kompetenz bewiesen."
+ agot_nights_watch.0026.b: "Meine Kommandanten lassen viel zu wünschen übrig."
+  
+ agot_nights_watch.2001.t: "Ein Wunsch, der Nachtwache beizutreten"
+ agot_nights_watch.2001.desc: "Mein Kind, [child.GetFirstName], ist stets ein komischer Kauz gewesen - ohne Aussicht darauf zu erben, es sei denn durch ein düsteres Unglück, und immer brabbelnd über Snarks und Grumkins jenseits der Mauer.\n\nEs ist keine Überraschung für mich, als [child.GetSheHe] [child.Custom('quirk_pos_pp')] zu mir kommt . "[ROOT.Char.Custom('DE_Anrede')], ich habe mich entschieden", sagt [child.GetSheHe] so kühn, wie [child.GetSheHe] noch nie zu mir gesprochen hat. "Ich werde mich der Nachtwache anschließen. #bold Ich will das Schwarz anlegen.#!""
+ agot_nights_watch.2001.a: "So geh, und diene ehrenvoll."
+ agot_nights_watch.2001.b: "Ich habe andere Pläne für dich."
+  
+ agot_nights_watch.2002.t: "Ein Wunsch, der Nachtwache beizutreten"
+ agot_nights_watch.2002.desc: "Mein[sibling.Custom('DE_END_PRO_S_N')] [sibling.Custom('SisterBrother')], [sibling.GetFirstName], betritt mein Arbeitszimmer mit einer [sibling.Custom('quirk_pos_adverb')]en Ausstrahlung. [sibling.Custom('quirk_pos_standalone')] und nähert sich mir mit einem Hauch von [sibling.Custom('quirk_pos_noun')]. \n\n"[ROOT.Char.Custom('DE_Anrede')], ich habe mich entschieden", sagt [sibling.GetSheHe] und die Worte sprudeln aus [sibling.Custom('DE_PRO_POS_S_3P')]em Mund wie eine Drachenflamme. "Ich werde mich der Nachtwache anschließen. #bold Ich will das Schwarz anlegen.#!""
+ agot_nights_watch.2002.a: "So geh, und diene ehrenvoll."
+ agot_nights_watch.2002.b: "Ich habe andere Pläne für dich."
+  
+ agot_nights_watch.2003.t: "Macht den Weg frei für die Jugend"
+ agot_nights_watch.2003.desc: "Während mein Haar ergraut und meine Gelenke schmerzen, frage ich mich, ob ich nicht bereits meine besten Jahre in den Dienst dieses Landes gestellt habe und ob es nicht besser wäre, wenn ein[heir.Custom('DE_END_PRO_S_N')] jünger[heir.Custom('DE_END_ADJ_IND_S_N')] [heir.GetWomanMan] seine Geschicke in die Hand nehmen würde.\n\nMein[heir.Custom('DE_END_PRO_S_N')] [heir.Custom('DaughterSon')] [heir.GetName] ist ein[heir.Custom('DE_END_PRO_S_N')] jung[heir.Custom('DE_END_ADJ_IND_S_N')] [heir.GetLadyLord] in [heir.Custom('DE_PRO_PER_S_3P_G')] Blütezeit und könnte viel Gutes für [ROOT.Char.GetPrimaryTitle.GetNameNoTier] tun. Und die Erfahrung, die [heir.GetSheHe] sammeln, wäre von unschätzbarem Wert in den zukünftigen Schlachten, die auf Haus [ROOT.Char.GetHouse.GetName] zukommen. Die [nightwatch.GetName] ist ein alter und ehrwürdiger Orden, der von [ROOT.Char.GetCulture.GetCollectiveNoun]n hoch geschätzt wird, und es ist nicht gänzlich ungewöhnlich, dass ein älterer Lord seine Ländereien und Titel zum Wohle des Reiches und seiner Besitztümer aufgibt..."
+ agot_nights_watch.2003.a: "Es ist Zeit, dass [heir.GetName] die Zügel in die Hand nimmt."
+ agot_nights_watch.2003.a.tt: "Ihr dankt zugunsten von [heir.GetName] ab"
+ agot_nights_watch.2003.b: "Es steckt noch Leben in diesen alten Knochen!"
+  
+  ####### 
+  # Heir is unsuitable - Randyll Tarly 
+  # Badger 
+  ####### 
+ agot_nights_watch.2004.t: "The Stability of My House"
+ agot_nights_watch.2004.desc: "My [ROOT.Char.Custom2('RelationToMe', craven_heir)] [craven_heir.GetFirstName] is an embarrassment to the [ROOT.Char.GetDynasty.GetNameNoTooltip] dynasty. Should [craven_heir.GetSheHe] inherit [primary_title.GetNameNoTier] it would spell disaster for our house. The reigns of this dynasty would be far better served in the hands of [good_heir.GetFirstName].\n\nIt falls to me to protect our future from sure downfall. Removing a weak link from the chain of succession is difficult, but there are options. Should I take [craven_heir.GetHerHim] out on a hunt I can give [craven_heir.GetHerHim] the choice. [craven_heir.GetSheHe|U] can ride north to The Wall and forsake all titles, or [craven_heir.GetSheHe] will suffer an unfortunate, unavoidable accident."
+ agot_nights_watch.2004.a: "I shall bring [craven_heir.GetHerHim] out for a ride, where I will deliver my ultimatum."
+ agot_nights_watch.2004.a.tt: "[craven_heir.GetNameNoTooltip] shall be forced to choose between the Watch, or [craven_heir.GetHerHis] life."
+ agot_nights_watch.2004.b: "[craven_heir.GetSheHe|U] is a [ROOT.Char.GetDynasty.GetName], for better or worse."
+  
+ agot_nights_watch.2005.t: "A Journey to the North"
+ agot_nights_watch.2005.desc: "My [ROOT.Char.Custom2('RelationToMe', craven_heir)] [craven_heir.GetFirstName] has acquiesced to my demands. Rather than find [craven_heir.GetHerselfHimself] trampled beneath a destrier or drowned in a ditch, [craven_heir.GetSheHe] will begin the arduous journey North. On the morrow [craven_heir.GetSheHe] will bid farewell to the household, and inform them that [craven_heir.GetSheHe] has made the difficult decision to sacrifice their birthright in order to serve the realm. He will take no wife, hold no lands, father no children, and not stain this great house with [craven_heir.GetHerHis] weakness.\n\n[good_heir.GetName] shall take the reigns of House [ROOT.Char.GetDynasty.GetName] and ensure that our bloodline remains hale and powerful while [craven_heir.GetFirstNameNoTooltip] will disappear into the snowy annals of The Wall's records. Perhaps [craven_heir.GetSheHe] can garb [craven_heir.GetHerselfHimself] with the honor and strength [craven_heir.GetSheHe] failed to accumulate in [ROOT.Char.GetCapitalLocation.GetName]."
+ agot_nights_watch.2005.a: "For the greater good."
+ agot_nights_watch.2005.a.tt: "[craven_heir.GetNameNoTooltip] will set out for the North."
+  
+ agot_nights_watch.2006.t: "Into the Night"
+ agot_nights_watch.2006.desc: "When [craven_heir.GetFirstName] was informed of what would come to pass if [craven_heir.GetSheHe] did not make [craven_heir.GetHerselfHimself] sparse at [ROOT.Char.GetCapitalLocation.GetName], [craven_heir.GetSheHe] blanched and stuttered an agreement.\n\nThe next morning when I sent for [craven_heir.GetHerHim], [craven_heir.GetSheHe] was nowhere to be found, and [craven_heir.GetHerHis] room had been ransacked. [ROOT.Char.GetCapitalLocation.GetName] was upturned in the search for [craven_heir.GetName], but the findings were regrettable. The smallfolk speak of a figure riding out in the dead of night atop a steed far too fine for any messenger.\n\nOnly [ROOT.Char.GetFaith.HighGodNameAlternate] knows where [craven_heir.GetName] has gotten to now. Though this solves my current problem, it may return to bite at my heels later..."
+ agot_nights_watch.2006.a: "How could [craven_heir.GetSheHe] have gotten away?!"
+  
+ agot_nights_watch.2007.t: "The Craven's Coals"
+ agot_nights_watch.2007.desc: "[craven_heir.GetName] grits [craven_heir.GetHerHis] teeth as the ripple of my threat washes over [craven_heir.GetHerHis] face. "The right to rule in [ROOT.Char.GetCapitalLocation.GetName] is mine, by birthright. You will not take it from me," [craven_heir.GetSheHe] says with a fire in [craven_heir.GetHerHis] tone that has been stoked to life by my demand. Perhaps there is a part of me in this child after all.\n\nIt is clear that [craven_heir.GetName] won't give up [craven_heir.GetHerHis] claim to my seat. Now I must decide if my [ROOT.Char.Custom2('RelationToMe', craven_heir)] has truly grown a spine, or if this bellowing flame is only a mummer's fire, stoked by the coals of fear. Will [craven_heir.GetSheHe] still be the ruin of House [ROOT.Char.GetDynasty.GetName]?"
+ agot_nights_watch.2007.a: "My ultimatum was no idle threat, [craven_heir.Custom('GirlBoy')]."
+ agot_nights_watch.2007.a.success: "[craven_heir.GetFirstNameNoTooltip] dies"
+ agot_nights_watch.2007.a.failure: "[craven_heir.GetFirstNameNoTooltip] survives your murder attempt"
+ agot_nights_watch.2007.b: "The [craven_heir.Custom('GirlBoy')] grows a spine?! Perhaps [craven_heir.GetSheHe] won't be the ruin of House [ROOT.Char.GetDynasty.GetNameNoTooltip]."
+  
+ agot_nights_watch.9901.t: "New Lord Commander on the Wall"
+ agot_nights_watch.9901.desc: ""A raven has brought news from [new_holder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], my liege." The messenger gives a quick bow and hands me the letter to peruse.\n\nWith the recent passing of [previous_holder.GetTitledFirstName], the Sworn Brothers of the Night's Watch have chosen [new_holder.GetFirstNameNoTooltip] [new_holder.GetHouse.GetBaseName] as their new commander."
+ agot_nights_watch.9901.stark: "Winter is Coming."
+ agot_nights_watch.9901.a: "And now his watch is ended."
+  
+ agot_nights_watch.0027.t: "[nightswatch_candidate.GetFirstNameNoTooltip] [nightswatch_candidate.GetHouse.GetNameNoTooltip] Takes the Black" #NT!
+ agot_nights_watch.0027.t.lowborn: "[nightswatch_candidate.GetFirstNameNoTooltip] Takes the Black" #NT!
+ agot_nights_watch.0027.intro: "I've stopped counting the days since I started harboring a dislike for [nightswatch_candidate.GetFirstNameNicknamed]. Many ideas about it crossed my mind, but how many actually came to fruition?" #NT!
+ agot_nights_watch.0027.mid.trusting: "Although an #italic enmity#! had driven a wedge between us, I'm sure [nightswatch_candidate.GetSheHe] had no intention of harming me further." #NT!
+ agot_nights_watch.0027.mid.nocompassion: "Learning of [nightswatch_candidate.GetHerHis] death would not have displeased me, but it was another fate that befell [nightswatch_candidate.GetHerHim]. And whatever [nightswatch_candidate.GetSheHe] was planning against me, I don't really have to worry about it anymore." #NT!
+ agot_nights_watch.0027.mid: "I'm sure [nightswatch_candidate.GetSheHe] had some machinations and plots aimed at me in [nightswatch_candidate.GetHerHis] plans, but I doubt now that it went further than vulgar sketches." #NT!
+ agot_nights_watch.0027.mid2.sender: "By my will and on a very simple order, [nightswatch_candidate.GetSheHe] is condemned to exile on the edge of the world. The black [nightswatch_candidate.GetSheHe] will wear will keep intact the memory of the day I sent [nightswatch_candidate.GetHerHim] far from my sight to answer for [nightswatch_candidate.GetHerHis] crimes against the realm... and against #bold me#!." #NT!
+ agot_nights_watch.0027.mid2: "On orders from [actor.GetName], [nightswatch_candidate.GetFirstNameNoTooltip] will now languish at the Wall, forced to wear black and respect [nightswatch_candidate.GetHerHis] oaths. [nightswatch_candidate.GetSheHe|U] will no longer have any family, friends, or allies — only criminals of all kinds for company." #NT!
+ agot_nights_watch.0027.mid2.blamemw: "For [nightswatch_candidate.GetHerHis] numerous misdeeds, [nightswatch_candidate.GetFirstNameNoTooltip] will now languish at the Wall, forced to wear black and respect [nightswatch_candidate.GetHerHis] oaths. [nightswatch_candidate.GetSheHe|U] will no longer have any family, friends, or allies — only criminals of all kinds for company." #NT!
+ agot_nights_watch.0027.outro: "In a way, it's a form of justice for what [nightswatch_candidate.GetSheHe] did to me... isn't it?" #NT!
+ agot_nights_watch.0027.a: "[nightswatch_candidate.GetSheHe|U] got what [nightswatch_candidate.GetSheHe] deserved." #NT!
+ agot_nights_watch.0027.b: "It is, but I'm going to revel in [nightswatch_candidate.GetHerHis] fate" #NT!
+ agot_nights_watch.0027.c: "[nightswatch_candidate.GetSheHe|U] may now atone for [nightswatch_candidate.GetHerHis] faults." #NT!
+ agot_nights_watch.0027.d1: "Now, time to finish the job." #NT!
+ agot_nights_watch.0027.d2: "Fuck justice; I want revenge!" #NT!
+  
+ reclaim_brandons_gift_decision: "Reclaim Brandon's Gift" #NT!
+ reclaim_brandons_gift_decision_desc: "The lands of Brandon's Gift once swore fealty to the North rather than the Night's Watch. It's time to reclaim our rightful lands and raise new lords to develop the lands that the Watch has mismanaged." #NT!
+ reclaim_brandons_gift_decision_tooltip: "Reclaim Brandon's Gift" #NT!
+ reclaim_gift_decision.requirements: "One of the following must be valid:\n$EFFECT_LIST_BULLET$You are allied to the Night's Watch\n$EFFECT_LIST_BULLET$You have the [GetPerk('diplomat_perk').GetName( GetNullCharacter )] perk\n$EFFECT_LIST_BULLET$The Lord Commander of the Night's Watch has 100 opinion of you" #NT!
+ reclaim_brandons_gift_decision_confirm: "$reclaim_brandons_gift_decision_tooltip$" #NT!
+  
+ reclaim_gift_decision: "Reclaim the New Gift" #NT!
+ reclaim_gift_decision_desc: "The lands of the New Gift once swore fealty to the North rather than the Night's Watch. It's time to reclaim our rightful lands and raise new lords to develop the lands that the Watch has mismanaged." #NT!
+ reclaim_gift_decision_tooltip: "Reclaim the New Gift" #NT!
+ reclaim_gift_decision_confirm: "$reclaim_gift_decision_tooltip$" #NT!
+ reclaim_gift_decision_desc_effect: "[GetTitleByKey('k_the_wall').GetHolder.GetName] will be sent a proposal concerning returning the [GetTitleByKey('d_new_gift').GetNameNoTier] to the North." #NT!
+  
+ reclaim_brandons_gift_decision_desc_effect: "[GetTitleByKey('k_the_wall').GetHolder.GetName] will be sent a proposal concerning returning the [GetTitleByKey('d_brandons_gift').GetNameNoTier] to the North." #NT!
+ reclaim_gift_decision_desc_use_hook_tt: "Your [hook|e] on your [top_liege|E] will be used." #NT!
+  
+ agot_nights_watch.holding_conversion_tt: "[new_gift_county_to_give_away.GetNameNoTier] will be converted into a [castle_holding|E]" #NT!
+ agot_nights_watch.new_capital_tt: "[new_capital.GetName] will become the capital of [new_gift_county_to_give_away.GetNameNoTier]." #NT!
+ donate_land_to_nw_decision_desc: "We hold some of the Night's Watch's historical lands. Perhaps returning the land to them can strengthen their position." #NT!
+ donate_land_to_nw_decision_tooltip: "Return the Land!" #NT!
+ donate_land_to_nw_decision: "Return Historical Land to the Night's Watch" #NT!
+ donate_land_to_nw_decision_confirm: "Return the Land!" #NT!
+  
+ brandons_gift_will_be_returned_to_nw_tt: "Every county in the [GetTitleByKey('d_brandons_gift').GetName] will be granted to [GetTitleByKey('k_the_wall').GetHolder.GetName]" #NT!
+ new_gift_will_be_returned_to_nw_tt: "Every county in the [GetTitleByKey('d_new_gift').GetName] will be granted to [GetTitleByKey('k_the_wall').GetHolder.GetName]" #NT!
+  
+ agot_nights_watch.3000.t: "The New Gift" #NT!
+ agot_nights_watch.3000.desc: "[winterfell_petitioner.GetName] has asked that we return the New Gift to the North, in exchange for a large sum of gold. Four new lords will be raised up in these lands, but they will be sworn to the North, ending the Night's Watch's dominion over those lands for the first time in generations." #NT!
+ agot_nights_watch.3000.desc_brandons_gift: "[winterfell_petitioner.GetName] has asked that we return Brandon's Gift to the North, in exchange for a large sum of gold. Three new lords will be raised up in these lands, but they will be sworn to the North, ending the Night's Watch's dominion over those lands for the first time in generations." #NT!
+ agot_nights_watch.3000.a: "I agree, the North may have its land back." #NT!
+ agot_nights_watch.3000.b: "I refuse. The land is the property of the Night's Watch." #NT!
+ agot_nights_watch.3001.t: "The Gift: Request Granted" #NT!
+ agot_nights_watch.3001.desc: "[nw_lc.GetName] has agreed to return the Gift to the dominion of the North.\n\nNow it is time to appoint the new lords that will settle the counties in the region." #NT!
+ agot_nights_watch.3001.a: "I will personally pick the new lords." #NT!
+ agot_nights_watch.3001.b: "Issue the lands to anyone." #NT!
+ agot_nights_watch.3003.t: "New Lords of the New Gift" #NT!
+ agot_nights_watch.3003.desc: "It is time to select a lord of [new_gift_county_to_give_away.GetNameNoTier]." #NT!
+ agot_nights_watch.3003.a: "This person will do." #NT!
+ agot_nights_watch.3003.b: "Actually, grant the title to a random person." #NT!
+ nw_proposal_rejected: "Proposal Rejected" #NT!
+  
+ agot_nights_watch.3004.t: "Gifts Reclaimed" #NT!
+ agot_nights_watch.3004.desc: "The New Gift has been returned to the dominion of the North after years of governance from the Night's Watch. [winterfell_petitioner.GetName] raised the following lords to populate the lands:\n\n$BULLET$[norlinton_holder.GetFirstName] [norlinton_holder.GetHouse.GetName] of [GetTitleByKey('c_norlinton').GetNameNoTier]\n$BULLET$[boreharrow_holder.GetFirstName] [boreharrow_holder.GetHouse.GetName] of [GetTitleByKey('c_boreharrow').GetNameNoTier]\n$BULLET$[whitecross_holder.GetFirstName] [whitecross_holder.GetHouse.GetName] of [GetTitleByKey('c_whitecross').GetNameNoTier]\n$BULLET$[giantsbeard_holder.GetFirstName] [giantsbeard_holder.GetHouse.GetName] of [GetTitleByKey('c_giantsbeard').GetNameNoTier]" #NT!
+ agot_nights_watch.3004.desc_brandons_gift: "Brandon's Gift has been returned to the dominion of the North after years of governance from the Night's Watch. [winterfell_petitioner.GetName] raised the following lords to populate the lands:\n\n$BULLET$[weatherback_ridge_holder.GetFirstName] [weatherback_ridge_holder.GetHouse.GetName] of [GetTitleByKey('c_weatherback_ridge').GetNameNoTier]\n$BULLET$[moles_town_holder.GetFirstName] [moles_town_holder.GetHouse.GetName] of [GetTitleByKey('c_moles_town').GetNameNoTier]\n$BULLET$[hoarburn_holder.GetFirstName] [hoarburn_holder.GetHouse.GetName] of [GetTitleByKey('c_hoarburn').GetNameNoTier]" #NT!
+ agot_nights_watch.3004.a: "My deeds will benefit the North for generations to come." #NT!
+  
+ agot_nights_watch.3005.t: "Territory Returned" #NT!
+ agot_nights_watch.3005.desc: "Though the North reclaimed the New Gift, they have now generously returned it to the control of the Night's Watch.\n\n[GetTitleByKey('c_norlinton').GetNameNoTier], [GetTitleByKey('c_boreharrow').GetNameNoTier], [GetTitleByKey('c_whitecross').GetNameNoTier], and [GetTitleByKey('c_giantsbeard').GetNameNoTier] are now the property of the Night's Watch once again!" #NT!
+ agot_nights_watch.3005.desc_brandons_gift: "Though the North reclaimed Brandon's Gift, they have now generously returned it to the control of the Night's Watch.\n\n[GetTitleByKey('c_weatherback_ridge').GetNameNoTier], [GetTitleByKey('c_moles_town').GetNameNoTier], and [GetTitleByKey('c_hoarburn').GetNameNoTier] are now the property of the Night's Watch once again!" #NT!
+ agot_nights_watch.3005.a: "We cannot squander this generosity." #NT!

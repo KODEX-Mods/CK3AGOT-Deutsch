@@ -1,12 +1,12 @@
 ﻿l_german:
  agot_invite_to_spy_network_interaction: "Als Spion anheuern"
- agot_check_for_potential_spies_interaction: "Check for Potential Spies" #NT!
+ agot_check_for_potential_spies_interaction: "Check for Potential Spies"
  agot_remove_from_spy_network_interaction: "Spion entlassen"
  SPY_RECRUIT_GOLD: "Bestechung"
  SPY_RECRUIT_GOLD_VALID: "Zahle [recipient.GetShortUINameNoTooltip] [gold_i] [SCOPE.ScriptValue('bribe_value')|V0]"
  AGOT_RECRUIT_SPY_SKILL_MOD: "Eure [intrigue|E]-Fähigkeit: $VALUE|=+0$"
  AGOT_RECRUIT_SPY_CAP_MODIFIER: "Ihr habt mehr Spion, als Ihr verwalten könnt: $VALUE|=+0$"
- AGOT_RECRUIT_SPY_KINGSGUARD_REASON: "[recipient.GetShortUINameNoTooltip] is a Kingsguard: $VALUE|=+0$" #NT!
+ AGOT_RECRUIT_SPY_KINGSGUARD_REASON: "[recipient.GetShortUINameNoTooltip] is a Kingsguard: $VALUE|=+0$"
  highest_held_title_tier_greater_than: "Ihr besitzt einen höheren Titel."
  DECEITFUL_REASON: "[recipient.GetShortUINameNoTooltip] ist hinterlistig: $VALUE|+0=$"
  HONEST_REASON: "[recipient.GetShortUINameNoTooltip] ist ehrlich: $VALUE|+0=$"
@@ -22,8 +22,8 @@
  agot_spy_network.0200.interface.employer.t: "Spion enthüllt Geheimnis"
  agot_spy_network.0200.interface.employer.desc: "Einer Eurer Spion hat an seinem Hof ein Geheimnis enthüllt, das nützlich sein könnte."
   
- agot_spy_network.0201.interface.employer.t: "Spy Reveals Information" #NT!
- agot_spy_network.0201.interface.employer.desc: "One of your spies revealed personal and military information about their court's owner." #NT!
+ agot_spy_network.0201.interface.employer.t: "Spy Reveals Information"
+ agot_spy_network.0201.interface.employer.desc: "One of your spies revealed personal and military information about their court's owner."
   
  agot_spy_network.0200.interface.spymaster.t: "Spion enthüllt Geheimnis"
  agot_spy_network.0200.interface.spymaster.desc: "Einer Eurer Spion hat an seinem Hof ein Geheimnis enthüllt, das nützlich sein könnte."
@@ -65,12 +65,30 @@
  agot_spy_network.0700.desc: "[recipient.GetTitledFirstName] hat sich in die Reihen Eures weitgespannten Spitzelnetzwerks eingefügt."
  agot_spy_network.0700.a: "Einfluss wächst wie Unkraut..."
   
- agot_spy_network.0800.t: "A Spy Can Be Hired" #NT!
- agot_spy_network.0800.desc: "Your spymaster found a potential new spy at [recipient.GetTitledFirstNamePossessive] court. [potential_new_spy.GetTitledFirstName] might be convinced to join your spy network." #NT!
- agot_spy_network.0800.a: "I should contact [potential_new_spy.GetTitledFirstName] soon..." #NT!
+ agot_spy_network.0800.t: "A Spy Can Be Hired"
+ agot_spy_network.0800.desc: "Your spymaster found a potential new spy at [recipient.GetTitledFirstNamePossessive] court. [potential_new_spy.GetTitledFirstName] might be convinced to join your spy network."
+ agot_spy_network.0800.a: "I should contact [potential_new_spy.GetTitledFirstName] soon..."
   
- hostile_scheme_discovery_spy.2001.intro: "My spymaster, [spymaster.GetTitledFirstName], has discovered preparations for a scheme against me at [courtowner.GetTitledFirstNamePossessive] court. While we do not yet know who," #NT!
- potential_spy_in_court: "A character in this court is willing to spy for you." #NT!
+ hostile_scheme_discovery_spy.2001.intro: "My spymaster, [spymaster.GetTitledFirstName], has discovered preparations for a scheme against me at [courtowner.GetTitledFirstNamePossessive] court. While we do not yet know who,"
+ potential_spy_in_court: "A character in this court is willing to spy for you."
+  
+  # Recruit Spy 
+ agot_invite_to_spy_network_interaction_desc: "Recruit [recipient.GetTitledFirstName] to your [agot_spy_network|E]" #NT!
+ invite_to_spy_network_interaction_target_added_to_network.tt: "You add [recipient.GetShortUIName] to your spy network" #NT!
+ invite_to_spy_network_interaction_target_becomes_spy.tt: "[recipient.GetShortUIName] is added to your spy network" #NT!
+ invite_to_spy_network_toast_title: "Spy Recruited" #NT!
+ invite_to_spy_network_toast_desc: "[recipient.GetTitledFirstName] has joined the ranks of your sprawling spy network." #NT!
+  
+  # Dismiss Spy 
+ agot_remove_from_spy_network_interaction_desc: "Dismiss [recipient.GetTitledFirstName] from your [agot_spy_network|E]" #NT!
+ dismiss_from_spy_network_interaction_target_remove_from_network.tt: "You dismiss [recipient.GetShortUIName] from your spy network" #NT!
+ dismiss_from_spy_network_interaction_target_loses_spy.tt: "[recipient.GetShortUIName] is dismissed from your spy network" #NT!
+ dismiss_from_spy_network_toast_title: "Spy Dismissed" #NT!
+ dismiss_from_spy_network_toast_desc: "[recipient.GetTitledFirstName] has left the ranks of your sprawling spy network." #NT!
+  
+  # Check for Potential Spies 
+ agot_check_for_potential_spies_interaction_desc: "Check [recipient.GetShortUIName]'s court for courtiers who might be willing to join your [agot_spy_network|E]" #NT!
+ check_for_potential_spies_actor.tt: "You will be notified of a potential [agot_spy|E] you may negotiate into joining your [agot_spy_network|E]" #NT!
   
   #GUI 
- your_spies: "Your Spies" #NT!
+ your_spies: "Your Spies"

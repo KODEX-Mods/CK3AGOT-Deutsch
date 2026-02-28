@@ -1,61 +1,61 @@
 ﻿l_german:
   
- #AGOT COURT POSITIONS 
+  #AGOT COURT POSITIONS 
   
- #King's Justice - Executioner re-flavour 
- #King's Counter/Sclaes? 
- #Keeper of Keys? 
- #Wardens of Mint? 
- #Lord Confessor/Keeper of the Cells 
- #Gold Cloaks 
- #Head Dragonkeeper 
+  #King's Justice - Executioner re-flavour 
+  #King's Counter/Sclaes? 
+  #Keeper of Keys? 
+  #Wardens of Mint? 
+  #Lord Confessor/Keeper of the Cells 
+  #Gold Cloaks 
+  #Head Dragonkeeper 
   
   
   ## TRAITS ## 
-  
  court_position_education_martial_1_trait: "[GetTrait('education_martial_1').GetName( ROOT.Char )]"
  court_position_education_martial_2_trait: "[GetTrait('education_martial_2').GetName( ROOT.Char )]"
  court_position_education_martial_3_trait: "[GetTrait('education_martial_3').GetName( ROOT.Char )]"
  court_position_education_martial_4_trait: "[GetTrait('education_martial_4').GetName( ROOT.Char )]"
- court_position_unyielding_defender_trait: "[GetTrait('unyielding_defender').GetName( ROOT.Char )]"
- court_position_flexible_leader_trait: "[GetTrait('flexible_leader').GetName( ROOT.Char )]"
- court_position_organizer_trait: "[GetTrait('organizer').GetName( ROOT.Char )]"
- court_position_reckless_trait: "[GetTrait('reckless').GetName( ROOT.Char )]"
- court_position_strong_trait: "[GetTrait('strong').GetName( ROOT.Char )]"
   
- court_position_brave_trait: "[GetTrait('brave').GetName(ROOT.Char)]"
- court_position_disloyal_trait: "[GetTrait('disloyal').GetName( ROOT.Char )]" #NT!
+ court_position_disloyal_trait: "[GetTrait('disloyal').GetName( ROOT.Char )]"
  court_position_authoritative_trait: "[GetTrait('authoritative').GetName( ROOT.Char )]"
- court_position_inquisitve_trait: "[GetTrait('inquisitive').GetName( ROOT.Char )]" #NT!
+ court_position_inquisitive_trait: "[GetTrait('inquisitive').GetName( ROOT.Char )]" #NT!
  court_position_rude_trait: "[GetTrait('rude').GetName( ROOT.Char )]"
- court_position_callous_trait: "[GetTrait('callous').GetName( ROOT.Char )]"
   
- court_position_historic_title_holder: "Historic Title Holder" #NT!
+ court_position_historic_title_holder: "Historic Title Holder"
   
   
-  #Positions 
-  
+  # Positions 
  maester_court_position: "Maester"
  maester_tradition_bonus: "Von [culture_tradition|E]"
- maester_court_position_desc: "The $maester_court_position$ is responsible for the health and well-being of the [court|E] they are in. They will treat disease and suture wounds to the best of their abilities." #NT!
+ maester_court_position_desc: "The $maester_court_position$ is responsible for the health and well-being of the [court|E] they are in. They will treat disease and suture wounds to the best of their abilities."
  maester_employer_custom_effect_description: "Führt [medical_treatments|E] durch#!\nVerbessert [education|E]-Ergebnisse \nSchaltet die #V [interaction|E] $make_child_learn_language_interaction$#! frei \n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen Euch#!"
   
- grandmaester_court_position: "Grand Maester" #NT!
- grandmaester_tradition_bonus: "From [culture_tradition|E]" #NT!
- grandmaester_court_position_desc: "The $grandmaester_court_position$ is responsible for the health and well-being of the royal family. They will treat disease and suture wounds to the best of their abilities." #NT!
- grandmaester_employer_custom_effect_description: "Performs [medical_treatments|E]#!\nImproves [education|E] outcomes\nUnlocks the #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!" #NT!
+ grandmaester_court_position: "Grand Maester"
+ grandmaester_tradition_bonus: "From [culture_tradition|E]"
+ grandmaester_court_position_desc: "The $grandmaester_court_position$ is responsible for the health and well-being of the royal family. They will treat disease and suture wounds to the best of their abilities."
+ grandmaester_employer_custom_effect_description: "Performs [medical_treatments|E]#!\nImproves [education|E] outcomes\nUnlocks the #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!"
   
  household_guard_court_position: "Hauptmann der Leibgarde"
  household_guard_tradition_bonus: "Von [culture_tradition|E]"
  household_guard_court_position_desc: "Der $household_guard_court_position$ ist verantwortlich für den Schutz des [Concept('house', 'Hauses')|E], dem er dient."
  household_guard_employer_custom_effect_description: "Verringert das Risiko, in Schlachten, an denen ihr beide teilnehmt, zu sterben oder gefangen genommen zu werden. #!\n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen Euch#!"
   
+ admiral_court_position: "Admiral" #NT!
+ admiral_court_position_desc: "The $admiral_court_position$ in charge of matters nautical and naval. Grand Captain of your [fleet|E], and overseer of when your armies [embark|E]." #NT!
+ admiral_fleet: "Scatter Fleets" #NT!
+ admiral_fleet_desc: "This character is dispersing the realm's fleets to patrol wider waters and respond swiftly to threats along the coast." #NT!
+ admiral_maritime: "Protect Trade" #NT!
+ admiral_maritime_desc: "This character is tasked with safeguarding maritime trade routes and ensuring the steady flow of goods through your ports." #NT!
+ admiral_raid: "Embolden Raiders" #NT!
+ admiral_raid_desc: "This character encourages aggressive action at sea, favoring swift strikes and plunder over caution or restraint." #NT!
+  
  septon_court_position: "Septon"
- speton_tradition_bonus: "Von [culture_tradition|E]"
+ septon_tradition_bonus: "From [culture_tradition|E]" #NT!
  septon_court_position_desc: "Der $septon_court_position$ bietet religiöse Betreuung für die Mitglieder Eures [Concept('court', 'Hofes')|E], die dem Glauben an die Sieben angehören."
   
  septa_court_position: "Septa"
- speta_tradition_bonus: "Von [culture_tradition|E]"
+ septa_tradition_bonus: "From [culture_tradition|E]" #NT!
  septa_court_position_desc: "Die $septa_court_position$ ist verantwortlich für die Erziehung Eurer weiblichen [children|E], die keinen [guardian|E] haben."
   
  gaoler_court_position: "Kerkermeister"
@@ -86,17 +86,16 @@
  court_smith_court_position_desc: "Die $court_smith_court_position$ ist für die Instandhaltung und Pflege von Metallwerken zuständig"
   
   # Bloodrider 
- bloodrider_court_position: "Bloodrider" #NT!
- bloodrider_court_position_desc: "A $bloodrider_court_position$ is a guardian — bound in blood as a brother and companion — sworn to protect their leader. It is more than merely a bond of service; it is an unbreakable joining of their souls until their leader falls. Should they fail in their duty of protection, it turns to one of vengeance, and then death as they join their leader in the afterlife." #NT!
- bloodrider_employer_custom_effect_description: "$BULLET$Has a chance to prevent Assassination [GetScheme('murder').GetTypeName] [schemes|E]#!\n$BULLET$Reduces your risk to die or be captured in [battles|E] you're both fighting in#!\n$BULLET$Will gain the [GetTrait('loyal').GetName( GetNullCharacter )] [trait|E] and become your [friend|E] if not already\n$BULLET$Will commit suicide upon your death to honor their blood oath" #NT!
+ bloodrider_court_position: "Bloodrider"
+ bloodrider_court_position_desc: "A $bloodrider_court_position$ is a guardian — bound in blood as a brother and companion — sworn to protect their leader. It is more than merely a bond of service; it is an unbreakable joining of their souls until their leader falls. Should they fail in their duty of protection, it turns to one of vengeance, and then death as they join their leader in the afterlife."
+ bloodrider_employer_custom_effect_description: "$BULLET$Has a chance to prevent Assassination [GetScheme('murder').GetTypeName] [schemes|E]#!\n$BULLET$Reduces your risk to die or be captured in [battles|E] you're both fighting in#!\n$BULLET$Will gain the [GetTrait('loyal').GetName( GetNullCharacter )] [trait|E] and become your [friend|E] if not already\n$BULLET$Will commit suicide upon your death to honor their blood oath"
   
- first_sword_court_position: "First Sword of Braavos" #NT!
- first_sword_court_position_desc: "The $first_sword_court_position$ is the chief protector of the Sealord of Braavos." #NT!
+ first_sword_court_position: "First Sword of Braavos"
+ first_sword_court_position_desc: "The $first_sword_court_position$ is the chief protector of the Sealord of Braavos."
   
-  #NIGHTS WATCH 
-  
- nw_septon: "Septon" #NT!
- nw_septon_desc: "The resident septon serving the brothers of the Night's Watch who follow the Seven." #NT!
+  # NIGHT'S WATCH 
+ nw_septon: "Septon"
+ nw_septon_desc: "The resident septon serving the brothers of the Night's Watch who follow the Seven."
   
  COURT_POSITION_CATEGORY_CASTLE_KEEPER: "Festungkommandant"
  b_the_shadow_tower_keeper: "Kommandant des Schattenturms"
@@ -108,7 +107,7 @@
  b_eastwatch_by_the_sea_keeper_desc: "Beaufsichtigt und verteidigt Ostwacht an der See"
   
  b_the_nightfort_keeper: "Kommandant der Nachtfeste"
- b_the_nightfort_keeper_employer_custom_effect_description: "Keeps and protects The Nightfort" #NT!
+ b_the_nightfort_keeper_employer_custom_effect_description: "Keeps and protects The Nightfort"
  b_the_nightfort_keeper_desc: "Beaufsichtigt und verteidigt die Nachtfeste"
   
  b_icemark_keeper: "Kommandant von Eismark"
@@ -175,21 +174,21 @@
   # DRAGONKEEPER # 
   ################ 
   
- head_dragonkeeper_court_position: "Head Dragonkeeper" #NT!
- head_dragonkeeper_court_position_desc: "The $head_dragonkeeper_court_position$ is the head of the [dragonkeeper|E] order they serve. They will protect and raise [dragons_plural|e] in the [dragonpit|e] to the best of their ability." #NT!
- head_dragonkeeper_court_position_custom_effect_description: "Unlocks [dragonpit_interactions|E]" #NT!
- court_position_knows_valyrian_language: "Knows Valyrian Tongue" #NT!
- court_position_valyrian_heritage: "Has Valyrian Heritage" #NT!
- court_position_blood_of_old_valyria: "Blood of Old Valyria" #NT!
- deepen_bond_with_dragon_scheme_scheme_power_mult: "#V Deepen Bond with Your Dragon#! [scheme|E] power" #NT!
- bond_with_dragon_scheme_scheme_power_mult: "#V Bond with Dragon#! [scheme|E] power" #NT!
- court_position_professional_dragonkeeper_training: "Professional Dragonkeeper Training" #NT!
- court_position_standarized_dragonkeeper_training: "Standarized Dragonkeeper Training" #NT!
+ head_dragonkeeper_court_position: "Head Dragonkeeper"
+ head_dragonkeeper_court_position_desc: "The $head_dragonkeeper_court_position$ is the head of the [dragonkeeper|E] order they serve. They will protect and raise [dragons_plural|e] in the [dragonpit|e] to the best of their ability."
+ head_dragonkeeper_court_position_custom_effect_description: "Unlocks [dragonpit_interactions|E]"
+ court_position_knows_valyrian_language: "Knows Valyrian Tongue"
+ court_position_valyrian_heritage: "Has Valyrian Heritage"
+ court_position_blood_of_old_valyria: "Blood of Old Valyria"
+ deepen_bond_with_dragon_scheme_scheme_power_mult: "#V Deepen Bond with Your Dragon#! [scheme|E] power"
+ bond_with_dragon_scheme_scheme_power_mult: "#V Bond with Dragon#! [scheme|E] power"
+ court_position_professional_dragonkeeper_training: "Professional Dragonkeeper Training"
+ court_position_standardized_dragonkeeper_training: "Standardized Dragonkeeper Training" #NT!
   
-  #cost descs 
- agot_laamp_cost_reduction: "You are landless" #NT!
+  # cost descs 
+ agot_laamp_cost_reduction: "You are landless"
+ agot_pirate_cost_reduction_50: "You are a landless pirate" #NT!
   
-  #Maester VS Physician for event loc 
- agot_physician_essos: "physician" #NT!
- agot_physician_maester: "maester" #NT!
-  
+  # Maester vs Physician for event loc 
+ agot_physician_essos: "physician"
+ agot_physician_maester: "maester"

@@ -1,0 +1,21 @@
+﻿l_german:
+  ### THE RELIGION ### 
+ the_others_religion: "The White Shadows of the Far North"
+ the_others_religion_adj: "The Others"
+ the_others_religion_adherent: "Appeaser"
+ the_others_religion_adherent_plural: "Appeasers"
+ the_others_religion_desc: "In the Far North, beyond the realms of men in the Lands of Always Winter, worship is of a colder nature, centered around Gods and Beings of Ice and Death."
+  
+  ### Faiths ### 
+  # Cold Gods 
+ cold_gods: "Die Kalten Götter"
+ cold_gods_adj: "Anderenfürchtig"
+ cold_gods_adherent: "Anderenfürchtiger"
+ cold_gods_adherent_plural: "Anderenfürchtige"
+ cold_gods_desc: "Die Anderen bringen die Lange Nacht und mit ihr den Tod. Jene, die diese unheimlichen Gestalten verehren, heißen die von ihne gebrachte Zerstörung entweder willkommen oder erhoffen sich durch die Opfergaben so lange wie möglich verschont zu bleiben."
+  
+ cold_gods_wildling: "Cold Gods of Cruel Winter" #NT!
+ cold_gods_wildling_adj: "Cold Gods" #NT!
+ cold_gods_wildling_adherent: "Appeaser" #NT!
+ cold_gods_wildling_adherent_plural: "Appeasers" #NT!
+ cold_gods_wildling_desc: "While others worship nature, or gods from the heavens, or hearts of fire, those who have felt the harsh chill of death know the only true gods are those Cold Gods of Ever Winter, who will one day march south again, bringing the Long Night once more." #NT!

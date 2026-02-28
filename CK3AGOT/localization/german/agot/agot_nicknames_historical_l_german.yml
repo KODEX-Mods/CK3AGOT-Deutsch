@@ -1,0 +1,1073 @@
+﻿l_german:
+  
+ nick_agot_historical_ambercloak: "Ambercloak" #NT!
+ nick_agot_historical_anvil_of_hammerhal: "the Anvil of Hammerhal" #NT!
+ nick_agot_historical_anvilbreaker: "Anvilbreaker" #NT!
+ nick_agot_historical_anvilbreaker_desc: "A mighty warrior of the Ironborn, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] long since lost count of how many heads [CharYouSheHe(CHARACTER)] [CharHaveHas(CHARACTER)] crushed against [CharYourHerHis(CHARACTER)] anvil." #NT!
+ nick_agot_historical_apple_eater: "Apple-Eater" #NT!
+ nick_agot_historical_apple_eater_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] distinguished [CharYourHerHimself(CHARACTER)] during the Battle of the Blackwater, earning [CharYourHerHis(CHARACTER)] name by capturing a knight of House Fossoway and slaying two more." #NT!
+ nick_agot_historical_appleseed: "Appleseed" #NT!
+ nick_agot_historical_badbrother: "Badbrother" #NT!
+ nick_agot_historical_badbrother_desc: "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] first act as king was to have all [CharYourHerHis(CHARACTER)] predecessor's sons slain, an act that led many to deem [CharYouHerHim(CHARACTER)] unworthy of [CharYourHerHis(CHARACTER)] House's name." #NT!
+ nick_agot_historical_be_lucky: "Be-Lucky" #NT!
+ nick_agot_historical_be_lucky_desc: "With only one eye remaining to [CharYourHerHis(CHARACTER)] person, some have begun to wonder if [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] truly fitting of this moniker." #NT!
+ nick_agot_historical_big: "Big" #NT!
+ nick_agot_historical_big_desc: "Powerfully built and strong of arm, [CHARACTER.GetShortUINameNoTooltipNoFormat] easily towers over [CharYourHerHis(CHARACTER)] fellows." #NT!
+ nick_agot_historical_big_belly: "Big Belly" #NT!
+ nick_agot_historical_big_liddle: "Big Liddle" #NT!
+ nick_agot_historical_big_liddle_desc: "Named as such for being the eldest son of the Liddle, [CHARACTER.GetShortUINameNoTooltipNoFormat] stand[_s(CHARACTER)] little taller than the common man." #NT!
+ nick_agot_historical_big_walder_frey: "Big" #NT!
+ nick_agot_historical_big_walder_frey_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] born fifty-two days before [CharYourHerHis(CHARACTER)] cousin 'Little Walder', though these monikers may not reflect [CharYourTheir(CHARACTER)] physical statures." #NT!
+ nick_agot_historical_bitterbee: "Bitterbee" #NT!
+ nick_agot_historical_bittersteel: "Bittersteel" #NT!
+ nick_agot_historical_bittersteel_desc: "Baseborn of Aegon IV, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known for [CharYourHerHis(CHARACTER)] bitter nature and fierce combat ability." #NT!
+ nick_agot_historical_black: "Black" #NT!
+ nick_agot_historical_black_bear: "Black Bear" #NT!
+ nick_agot_historical_black_pearl: "Black Pearl" #NT!
+ nick_agot_historical_blackbean: "Blackbean" #NT!
+ nick_agot_historical_blackbolt: "Blackbolt" #NT!
+ nick_agot_historical_blackcrown: "Blackcrown" #NT!
+ nick_agot_historical_blackfish: "Blackfish" #NT!
+ nick_agot_historical_blackfish_desc: "Called 'the black goat of the Tully flock' by [CharYourHerHis(CHARACTER)] brother, [CHARACTER.GetShortUINameNoTooltipNoFormat] took a black trout for [CharYourHerHis(CHARACTER)] sigil, and by it became known to all." #NT!
+ nick_agot_historical_blackheart: "Blackheart" #NT!
+ nick_agot_historical_blackheart_desc: "So called as such due to [CharYourHerHis(CHARACTER)] House's sigil, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] a fearsome reputation, yet beneath it bear[_s(CHARACTER)] a heart that belie[_s(CHARACTER)] [CharYourHerHis(CHARACTER)] name." #NT!
+ nick_agot_historical_blacklance: "Blacklance" #NT!
+ nick_agot_historical_blackshield: "Blackshield" #NT!
+ nick_agot_historical_blacksword: "Blacksword" #NT!
+ nick_agot_historical_blackthumb: "Blackthumb" #NT!
+ nick_agot_historical_bleak: "Bleak" #NT!
+ nick_agot_historical_bloodaxe: "Bloodaxe" #NT!
+ nick_agot_historical_bloodbeard: "Bloodbeard" #NT!
+ nick_agot_historical_bloodbeard_desc: "Known for [CharYourHerHis(CHARACTER)] great bush of a beard with fiery red whiskers and long braids, [CHARACTER.GetShortUINameNoTooltipNoFormat] equally revel[_s(CHARACTER)] in spilling that which has become [CharYourHerHis(CHARACTER)] namesake." #NT!
+ nick_agot_historical_bloodborn: "Bloodborn" #NT!
+ nick_agot_historical_bloodless: "Bloodless" #NT!
+ nick_agot_historical_bloodraven: "Bloodraven" #NT!
+ nick_agot_historical_bloodraven_desc: "Baseborn of Aegon IV, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] born with a red raven-shaped mark on [CharYourHerHis(CHARACTER)] neck that stands out against [CharYourHerHis(CHARACTER)] albino skin." #NT!
+ nick_agot_historical_bloody: "Bloody" #NT!
+ nick_agot_historical_bluespur: "Bluespur" #NT!
+ nick_agot_historical_bluetooth: "Bluetooth" #NT!
+ nick_agot_historical_bold_jon_roxton: "Bold" #NT!
+ nick_agot_historical_bonehand: "Bonehand" #NT!
+ nick_agot_historical_bonesuckled: "Bonesuckled" #NT!
+ nick_agot_historical_books: "Books" #NT!
+ nick_agot_historical_brave_bentbow: "Brave Bentbow" #NT!
+ nick_agot_historical_breakbones: "Breakbones" #NT!
+ nick_agot_historical_breakbones_desc: "Blessed with a massive and powerful frame, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] heralded to be the strongest man in the Seven Kingdoms." #NT!
+ nick_agot_historical_breakspear: "Breakspear" #NT!
+ nick_agot_historical_breakspear_desc: "At the age of seventeen, [CHARACTER.GetShortUINameNoTooltipNoFormat] unseated the great warrior Ser Daemon Blackfyre in a tilt, winning the nickname of Breakspear." #NT!
+ nick_agot_historical_breaksword: "Breaksword" #NT!
+ nick_agot_historical_brightflame: "Brightflame" #NT!
+ nick_agot_historical_brightflame_desc: "Known for [CharYourHerHis(CHARACTER)] eclectic behavior, [CHARACTER.GetShortUINameNoTooltipNoFormat] prefer[_s(CHARACTER)] to go by the name 'Brightflame.'" #NT!
+ nick_agot_historical_brightmane: "Brightmane" #NT!
+ nick_agot_historical_brightrune: "Brightrune" #NT!
+ nick_agot_historical_brightsmile: "Brightsmile" #NT!
+ nick_agot_historical_bronze: "Bronze" #NT!
+ nick_agot_historical_bronze_axe: "Bronze-Axe" #NT!
+ nick_agot_historical_bronze_bitch: "the Bronze Bitch" #NT!
+ nick_agot_historical_bronze_bitch_desc: "So-dubbed by [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] husband Daemon, in mocking reference to the ancient armor of [CharYourHerHis(CHARACTER)] House." #NT!
+ nick_agot_historical_brown: "Brown" #NT!
+ nick_agot_historical_browntooth: "Browntooth" #NT!
+ nick_agot_historical_buckets: "Buckets" #NT!
+ nick_agot_historical_buttercat: "Buttercat" #NT!
+ nick_agot_historical_butterkitten: "Butterkitten" #NT!
+ nick_agot_historical_cleftjaw: "Cleftjaw" #NT!
+ nick_agot_historical_cleftjaw_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] bear[_s(CHARACTER)] a hideous scar in [CharYourHerHis(CHARACTER)] mouth, where it was cleaved nearly in twain by the swing of a longaxe." #NT!
+ nick_agot_historical_clubfoot: "Clubfoot" #NT!
+ nick_agot_historical_clubfoot_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] born with one foot twisted and deformed, an affliction that has plagued [CharYouHerHim(CHARACTER)] all [CharYourHerHis(CHARACTER)] life." #NT!
+ nick_agot_historical_coldwind: "Coldwind" #NT!
+ nick_agot_historical_cornburner: "Cornburner" #NT!
+ nick_agot_historical_corpse: "Corpse" #NT!
+ nick_agot_historical_cotter: "Cotter" #NT!
+ nick_agot_historical_crabfeeder: "Crabfeeder" #NT!
+ nick_agot_historical_crabfeeder_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ordered hundreds of pirates to be staked on the beaches of the Stepstones." #NT!
+ nick_agot_historical_crowfood: "Crowfood" #NT!
+ nick_agot_historical_crowfood_desc: "While sleeping by the side of a road, a crow pecked out [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] eye. [CharYouSheHe(CHARACTER)] repaid the favor by biting off its head." #NT!
+ nick_agot_historical_crowkiller: "Crowkiller" #NT!
+ nick_agot_historical_crowkiller_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] gained infamy by slaying black brothers of the Night's Watch." #NT!
+ nick_agot_historical_crows_eye: "Crow's Eye" #NT!
+ nick_agot_historical_crows_eye_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] wear[_s(CHARACTER)] a black leather patch over [CharYourHerHis(CHARACTER)] left eye, whispered by some to be a black orb shining with malice." #NT!
+ nick_agot_historical_dame_of_andalos: "the Dame of Andalos" #NT!
+ nick_agot_historical_damphair: "Damphair" #NT!
+ nick_agot_historical_damphair_desc: "Miraculously washing up ashore after [CharYourHerHis(CHARACTER)] near death in a storm, [CHARACTER.GetShortUINameNoTooltipNoFormat] would dedicate [CharYourHerHis(CHARACTER)] life to the Drowned God, and keep [CharYourHerHis(CHARACTER)] hair wet thereafter." #NT!
+ nick_agot_historical_dance_for_me: "Dance-For-Me" #NT!
+ nick_agot_historical_darkrobin: "Darkrobin" #NT!
+ nick_agot_historical_darkstar: "Darkstar" #NT!
+ nick_agot_historical_darkstar_desc: "Men call [CharYouHerHim(CHARACTER)] 'Darkstar.' [CharYouSheHe(CHARACTER)|U] [CharAreIs(CHARACTER)] of the night." #NT!
+ nick_agot_historical_dashing_prefix: "Dashing" #NT!
+ nick_agot_historical_deaf: "Deaf" #NT!
+ nick_agot_historical_dim: "Dim" #NT!
+ nick_agot_historical_dolorous: "Dolorous" #NT!
+ nick_agot_historical_dour_prefix: "Dour" #NT!
+ nick_agot_historical_dread_prefix: "Dread" #NT!
+ nick_agot_historical_drunken_giant: "Drunken Giant" #NT!
+ nick_agot_historical_dryhorn: "Dryhorn" #NT!
+ nick_agot_historical_dusteye: "Dusteye" #NT!
+ nick_agot_historical_evenstar: "Evenstar" #NT!
+ nick_agot_historical_ever_sweet: "Ever Sweet" #NT!
+ nick_agot_historical_ever_sweet_desc: "Legend tells that [CHARACTER.GetShortUINameNoTooltipNoFormat] loved honey so much that [CharYouSheHe(CHARACTER)] made a pact with the King of the Bees to care for his children, and his children's children for all time." #NT!
+ nick_agot_historical_fair: "Fair" #NT!
+ nick_agot_historical_fairhands: "Fairhands" #NT!
+ nick_agot_historical_falconhelm: "Falconhelm" #NT!
+ nick_agot_historical_fat: "Fat" #NT!
+ nick_agot_historical_fighting_fool: "Fighting Fool" #NT!
+ nick_agot_historical_fireball: "Fireball" #NT!
+ nick_agot_historical_fireball_desc: "Called as such for [CharYourHerHis(CHARACTER)] red hair and fiery temper, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] considered to be one of the finest knights of [CharYourHerHis(CHARACTER)] day." #NT!
+ nick_agot_historical_first_goose: "First Feather" #NT!
+ nick_agot_historical_first_goose_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] the first of a set of triplets." #NT!
+ nick_agot_historical_flatnose: "Flatnose" #NT!
+ nick_agot_historical_fletcher: "Fletcher" #NT!
+ nick_agot_historical_four_groats: "Four-groats" #NT!
+ nick_agot_historical_fourskins: "Fourskins" #NT!
+ nick_agot_historical_fourskins_desc: "A gifted skinchanger, [CHARACTER.GetShortUINameNoTooltipNoFormat] wear[_s(CHARACTER)] the skins of four beasts." #NT!
+ nick_agot_historical_foxglove: "Foxglove" #NT!
+ nick_agot_historical_frostfinger: "Frostfinger" #NT!
+ nick_agot_historical_frostfinger_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] lost two fingers to frostbite while being held in a cage of ice." #NT!
+ nick_agot_historical_gatehouse: "Gatehouse" #NT!
+ nick_agot_historical_gatehouse_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] said to raise [CharYourHerHis(CHARACTER)] portcullis for every knight who passes by." #NT!
+ nick_agot_historical_giantsbane: "Giantsbane" #NT!
+ nick_agot_historical_giantsbane_desc: "Said to have slain a giant, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharYourHerHimself(CHARACTER)] claim[_s(CHARACTER)] that [CharYouSheHe(CHARACTER)] instead cut open the belly of one and climbed inside for warmth — then suckled it for three months after it woke up." #NT!
+ nick_agot_historical_ginger: "Ginger" #NT!
+ nick_agot_historical_godsgrief: "Godsgrief" #NT!
+ nick_agot_historical_godsgrief_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] won the love of fair Elenei, daughter of gods, and took her to wife. For this, the sea god and the goddess of wind brought their wrath upon [CharYourHerHis(CHARACTER)] home, destroying each one until it was finally withstood by the seventh and final castle — Storm's End." #NT!
+ nick_agot_historical_gold_tree: "Gold Tree" #NT!
+ nick_agot_historical_golden: "Golden" #NT!
+ nick_agot_historical_goldstag: "Goldstag" #NT!
+ nick_agot_historical_great_axe: "Great Axe" #NT!
+ nick_agot_historical_greatheart: "Greatheart" #NT!
+ nick_agot_historical_greatjon: "Greatjon" #NT!
+ nick_agot_historical_greatjon_desc: "An enormous man, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] seven feet tall and twice as wide. A formidable warrior with fists as large as hams, many regard [CharYourHerHim(CHARACTER)] to be one of the strongest living men in Westeros." #NT!
+ nick_agot_historical_greenbeard: "Greenbeard" #NT!
+ nick_agot_historical_greenbeard_desc: "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] beard is dyed a bright shade of green." #NT!
+ nick_agot_historical_greenhand: "Greenhand" #NT!
+ nick_agot_historical_greensail: "Greensail" #NT!
+ nick_agot_historical_grey_eyes: "Grey-Eyes" #NT!
+ nick_agot_historical_greybeard: "Greybeard" #NT!
+ nick_agot_historical_greycloak: "Greycloak" #NT!
+ nick_agot_historical_greysteel: "Greysteel" #NT!
+ nick_agot_historical_greysteel_desc: "A knight of some repute, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] skilled enough at arms to impart it to others." #NT!
+ nick_agot_historical_grim: "Grim" #NT!
+ nick_agot_historical_half_hoare: "Half-Hoare" #NT!
+ nick_agot_historical_halfblood: "Halfblood" #NT!
+ nick_agot_historical_halfdrowned: "Halfdrowned" #NT!
+ nick_agot_historical_halfhand: "Halfhand" #NT!
+ nick_agot_historical_halfhand_desc: "Through accident or battle, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] missing half a hand." #NT!
+ nick_agot_historical_hard: "Hard" #NT!
+ nick_agot_historical_hardhand: "Hardhand" #NT!
+ nick_agot_historical_hardstone: "Hardstone" #NT!
+ nick_agot_historical_hodor: "Hodor" #NT!
+ nick_agot_historical_hodor_desc: "Hodor." #NT!
+ nick_agot_historical_homeless: "Homeless" #NT!
+ nick_agot_historical_homeless_desc: "Born in exile and raised in the wandering Golden Company, [CHARACTER.GetShortUINameNoTooltipNoFormat] never had a place to truly call home." #NT!
+ nick_agot_historical_honeyed: "Honeyed" #NT!
+ nick_agot_historical_hot: "Hot" #NT!
+ nick_agot_historical_ice_eyes: "Ice-Eyes" #NT!
+ nick_agot_historical_inkpots: "Inkpots" #NT!
+ nick_agot_historical_iron: "Iron" #NT!
+ nick_agot_historical_iron_banger: "Iron Banger" #NT!
+ nick_agot_historical_ironfoot: "Ironfoot" #NT!
+ nick_agot_historical_ironhand: "Ironhand" #NT!
+ nick_agot_historical_ironhand_desc: "Knighted for [CharYourHerHis(CHARACTER)] valor during the Siege of Pyke, [CHARACTER.GetShortUINameNoTooltipNoFormat] lost [CharYourHerHis(CHARACTER)] right hand during the fighting, later replacing it with a hand of iron." #NT!
+ nick_agot_historical_ironrod: "Ironrod" #NT!
+ nick_agot_historical_jingelbells: "Jinglebell" #NT!
+ nick_agot_historical_jingelbells_desc: "The lackwitted Fool of the Twins, [CHARACTER.GetShortUINameNoTooltipNoFormat] wear[_s(CHARACTER)] a crown and collar decorated with small brass bells." #NT!
+ nick_agot_historical_kegs: "Kegs" #NT!
+ nick_agot_historical_kin_killer: "Kin-Killer" #NT!
+ nick_agot_historical_kin_killer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] slew [CharYourHerHis(CHARACTER)] own brother Durran, who had become besotted with [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] daughter." #NT!
+ nick_agot_historical_knight_of_the_moon: "Knight of the Moon" #NT!
+ nick_agot_historical_knight_of_the_pantry: "the Knight of the Pantry" #NT!
+ nick_agot_historical_lady_bird: "the Lady Bird" #NT!
+ nick_agot_historical_lame: "Lame" #NT!
+ nick_agot_historical_lame_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] born with a twisted leg." #NT!
+ nick_agot_historical_lap_goose: "Lap Gander" #NT!
+ nick_agot_historical_lap_goose_desc: "Loyal to a fault, [CHARACTER.GetShortUINameNoTooltipNoFormat] stayed true to the Mad King even after his many crimes." #NT!
+ nick_agot_historical_lazy: "Lazy" #NT!
+ nick_agot_historical_left_hand: "Left Hand" #NT!
+ nick_agot_historical_lefthand: "Lefthand" #NT!
+ nick_agot_historical_lemoncloak: "Lemoncloak" #NT!
+ nick_agot_historical_lemoncloak_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] named for the cloak [CharYouSheHe(CHARACTER)] wear[_s(CHARACTER)]: a large hooded yellow greatcloak that make[_s(CHARACTER)] [CharYouHerHim(CHARACTER)] look like some huge yellow bird." #NT!
+ nick_agot_historical_lightheart: "Lightheart" #NT!
+ nick_agot_historical_lightlance: "Lightlance" #NT!
+ nick_agot_historical_little: "Little" #NT!
+ nick_agot_historical_little_liddle: "Little Liddle" #NT!
+ nick_agot_historical_little_liddle_desc: "The third son of the Liddle, time will tell if [CHARACTER.GetShortUINameNoTooltipNoFormat] will prove true to [CharYourHerHis(CHARACTER)] name or not." #NT!
+ nick_agot_historical_little_walder_frey: "Little" #NT!
+ nick_agot_historical_little_walder_frey_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] born 52 days later than [CharYourHerHis(CHARACTER)] cousin, 'Big Walder', though this moniker may not prove true for [CharYourTheir(CHARACTER)] actual sizes." #NT!
+ nick_agot_historical_littlefinger: "Littlefinger" #NT!
+ nick_agot_historical_littlefinger_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so-named for [CharYourHerHis(CHARACTER)] short and slender frame — and the fact that [CharYourHerHis(CHARACTER)] House only holds the smallest of the Fingers." #NT!
+ nick_agot_historical_littlefoot: "Littlefoot" #NT!
+ nick_agot_historical_long: "Long" #NT!
+ nick_agot_historical_longaxe: "Longaxe" #NT!
+ nick_agot_historical_longinch: "Longinch" #NT!
+ nick_agot_historical_longneck: "Longneck" #NT!
+ nick_agot_historical_longneck_the_hanged: "Longneck the Hanged" #NT!
+ nick_agot_historical_longneck_the_thrice_hanged: "Longneck the Thrice-Hanged" #NT!
+ nick_agot_historical_longneck_the_twice_hanged: "Longneck the Twice-Hanged" #NT!
+ nick_agot_historical_longspear_ryk: "Longspear" #NT!
+ nick_agot_historical_longspear_ryk_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] never known to bear a spear, save the one [CharYouSheHe(CHARACTER)] keep[_s(CHARACTER)] beneath [CharYourHerHis(CHARACTER)] breeches." #NT!
+ nick_agot_historical_longthorn: "Longthorn" #NT!
+ nick_agot_historical_lophand: "Lophand" #NT!
+ nick_agot_historical_lophand_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] lost a hand after being caught for thievery, a harsh punishment that [CharYouSheHe(CHARACTER)] [CharHaveHas(CHARACTER)] resented since." #NT!
+ nick_agot_historical_lord_of_battles: "Lord of Battles" #NT!
+ nick_agot_historical_lord_of_daughters: "the Lord of Daughters" #NT!
+ nick_agot_historical_mad: "Mad" #NT!
+ nick_agot_historical_maidensbane: "Maidensbane" #NT!
+ nick_agot_historical_maidensbane_desc: "As High King of the Iron Islands, [CHARACTER.GetShortUINameNoTooltipNoFormat] raided the Arbor and carried off every woman under the age of thirty." #NT!
+ nick_agot_historical_merry: "Merry" #NT!
+ nick_agot_historical_middle_liddle: "Middle Liddle" #NT!
+ nick_agot_historical_middle_liddle_desc: "So called due to being the second son of the Liddle, though not often in [CharYourHerHis(CHARACTER)] hearing." #NT!
+ nick_agot_historical_milk_eye: "Milk-Eye" #NT!
+ nick_agot_historical_milk_eye_desc: "An infamous pirate-king,[CHARACTER.GetShortUINameNoTooltipNoFormat] fought in a war over Massey's Hook against the Storm King Erich VII Durrandon." #NT!
+ nick_agot_historical_mossdear: "Moss-dear" #NT!
+ nick_agot_historical_mudfoot: "Mudfoot" #NT!
+ nick_agot_historical_nine_eyes: "Nine Eyes" #NT!
+ nick_agot_historical_nine_eyes_desc: "The feared captain of the 'Jolly Fellows', [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] one of the infamous Band of Nine." #NT!
+ nick_agot_historical_noseless: "Noseless" #NT!
+ nick_agot_historical_noseless_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] lost the tip of [CharYourHerHis(CHARACTER)] nose to frostbite." #NT!
+ nick_agot_historical_oakenfist: "Oakenfist" #NT!
+ nick_agot_historical_oakenfist_desc: "During the Daughters' War, [CHARACTER.GetShortUINameNoTooltipNoFormat] sank the Braavosi dromond 'Grand Defiance' using [CharYourHerHis(CHARACTER)] own flagship 'Queen Rhaenys' like a great oaken fist." #NT!
+ nick_agot_historical_oakenshield: "Oakenshield" #NT!
+ nick_agot_historical_oakshanks: "Oakshanks" #NT!
+ nick_agot_historical_ocean_eyes: "Ocean-Eyes" #NT!
+ nick_agot_historical_of_many_honors: "of Many Honors" #NT!
+ nick_agot_historical_of_oldstones: "of Oldstones" #NT!
+ nick_agot_historical_of_oldstones_desc: "A strange girl who wore flowers in her hair, [CHARACTER.GetShortUINameNoTooltipNoFormat] claimed descent from the ancient river-kings of Oldstones." #NT!
+ nick_agot_historical_of_red_lake: "of Red Lake" #NT!
+ nick_agot_historical_of_red_lake_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U], a daughter of the legendary Garth Greenhand, made [CharYourHerHis(CHARACTER)] home by Red Lake. [CharYourHerHis(CHARACTER)|U] descendants still live there today, where legend says the women of their line can transform into cranes." #NT!
+ nick_agot_historical_of_sour_hill: "of Sour Hill" #NT!
+ nick_agot_historical_of_sour_hill_desc: "A grizzled old knight that remains quicker than men half his age, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] said to have fought in hundreds of battles." #NT!
+ nick_agot_historical_of_the_black_hood: "of the Black Hood" #NT!
+ nick_agot_historical_of_the_black_hood_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] continued [CharYourHerHis(CHARACTER)] father's dark reputation as Lord of Harrenhal." #NT!
+ nick_agot_historical_of_the_bloody_blade: "of the Bloody Blade" #NT!
+ nick_agot_historical_of_the_bloody_blade_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] said to have slain so many children of the forest at Blue Lake that it became known as the Red Lake thereafter." #NT!
+ nick_agot_historical_of_the_brown_shield: "of the Brown Shield" #NT!
+ nick_agot_historical_of_the_brown_shield_desc: "A hedge knight of ill repute, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known to carry a tall kite shield of dark unpainted wood girded with iron." #NT!
+ nick_agot_historical_of_the_golden_bowl: "of the Golden Bowl" #NT!
+ nick_agot_historical_of_the_high_tower: "of the High Tower" #NT!
+ nick_agot_historical_of_the_horn: "of the Horn" #NT!
+ nick_agot_historical_of_the_mirror_shield: "of the Mirror Shield" #NT!
+ nick_agot_historical_of_the_mirror_shield_desc: "Legend tells that [CHARACTER.GetShortUINameNoTooltipNoFormat] tricked the dragon Urrax with its own reflection by approaching it behind [CharYourHerHis(CHARACTER)] polished shield, before slaying it with a spear through the eye." #NT!
+ nick_agot_historical_of_the_red_smile: "of the Red Smile" #NT!
+ nick_agot_historical_of_the_tower: "of the Tower" #NT!
+ nick_agot_historical_of_the_vines: "of the Vines" #NT!
+ nick_agot_historical_of_the_vines_desc: "A son of the legendary Garth Greenhand, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] said to have taught the men of the Arbor how to make wine." #NT!
+ nick_agot_historical_of_the_woods: "of the Woods" #NT!
+ nick_agot_historical_old_hawk: "Old Hawk" #NT!
+ nick_agot_historical_old_tattersalt: "the Old Tattersalt" #NT!
+ nick_agot_historical_old_tattersalt_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for the stained and faded black clothes [CharYouSheHe(CHARACTER)] wear[_s(CHARACTER)]." #NT!
+ nick_agot_historical_one_ear: "One-Ear" #NT!
+ nick_agot_historical_one_eye: "One-Eye" #NT!
+ nick_agot_historical_one_eye_historical_aemond: "One-Eye" #NT!
+ nick_agot_historical_one_eye_historical_aemond_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] lost an eye, yet gained a dragon in turn, counting it a fair exchange." #NT!
+ nick_agot_historical_one_eye_historical_jonnel: "One-Eye" #NT!
+ nick_agot_historical_one_hand: "One-Hand" #NT!
+ nick_agot_historical_one_hand_desc: "Captured in battle during the First Dornish War, [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] sword hand was chopped off so that [CharYouSheHe(CHARACTER)] may never again raise it against Dorne." #NT!
+ nick_agot_historical_palehair_gaemon: "Palehair" #NT!
+ nick_agot_historical_palehair_gaemon_desc: "Claimed by [CharYourHerHis(CHARACTER)] mother to be a bastard of Aegon II, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] the distinctive pale hair of [CharYourHerHis(CHARACTER)] alleged relatives." #NT!
+ nick_agot_historical_pennylover: "Pennylover" #NT!
+ nick_agot_historical_pimple: "Pimple" #NT!
+ nick_agot_historical_pimple_desc: "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] face is covered with [CharYourHerHis(CHARACTER)] namesake, a fact that others are not soon to let [CharYouHerHim(CHARACTER)] forget." #NT!
+ nick_agot_historical_pinchface: "Pinchface" #NT!
+ nick_agot_historical_pinchpenny: "Pinchpenny" #NT!
+ nick_agot_historical_preachfire: "Preachfire" #NT!
+ nick_agot_historical_pretty: "Pretty" #NT!
+ nick_agot_historical_priestkiller: "Priestkiller" #NT!
+ nick_agot_historical_priestkiller_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] slaughtered the priests of the Drowned God that rose in rebellion after [CharYouSheHe(CHARACTER)] allowed the building of a sept in Old Wyk." #NT!
+ nick_agot_historical_queen_lorea: "Queen Lorea" #NT!
+ nick_agot_historical_queen_lorea_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] fond of dressing in [CharYourHerHis(CHARACTER)] wife's clothing and wandering the docks of Lannisport in the guise of a common whore." #NT!
+ nick_agot_historical_ragged: "Ragged" #NT!
+ nick_agot_historical_ragged_desc: "A leader of the Poor Fellows, [CHARACTER.GetShortUINameNoTooltipNoFormat] and [CharYourHerHis(CHARACTER)] followers are hardly distinguishable from outlaws." #NT!
+ nick_agot_historical_rattleshirt: "Rattleshirt" #NT!
+ nick_agot_historical_raven_feeder: "Raven-Feeder" #NT!
+ nick_agot_historical_raven_feeder_desc: "After Erich the Ugly was cast down by Galon Whitestaff, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] chosen in the kingsmoot as the new High King of the Iron Islands." #NT!
+ nick_agot_historical_ravenfriend: "Ravenfriend" #NT!
+ nick_agot_historical_reaversbane: "Reaversbane" #NT!
+ nick_agot_historical_red: "Red" #NT!
+ nick_agot_historical_red_oarsman: "Red Oarsman" #NT!
+ nick_agot_historical_red_spear: "Red Spear" #NT!
+ nick_agot_historical_redarm_royce: "Redarm" #NT!
+ nick_agot_historical_redarm_royce_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] infamous for tearing out the entrails of [CharYourHerHis(CHARACTER)] prisoners with [CharYourHerHis(CHARACTER)] bare hands." #NT!
+ nick_agot_historical_redback: "Redback" #NT!
+ nick_agot_historical_redbeard: "Redbeard" #NT!
+ nick_agot_historical_redhand_line: "Redhand" #NT!
+ nick_agot_historical_redhand_line_desc: "This is the line of Urron Greyiron, the first King of the Iron Islands who put an end to the Kingsmoot and made the kingship hereditary." #NT!
+ nick_agot_historical_redhand_urron: "Redhand" #NT!
+ nick_agot_historical_redhand_urron_desc: "With [CharYourHerHis(CHARACTER)] axemen, [CHARACTER.GetShortUINameNoTooltipNoFormat] descended on Nagga's Hill and slew all those that have gathered for the kingsmoot, putting an end to the ancient tradition." #NT!
+ nick_agot_historical_redraven: "Redraven" #NT!
+ nick_agot_historical_redraven_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so named for [CharYourHerHis(CHARACTER)] distinctive red hair — and because singers needed a word to rhyme with 'craven'." #NT!
+ nick_agot_historical_redsteel: "Redsteel" #NT!
+ nick_agot_historical_redtusk: "Redtusk" #NT!
+ nick_agot_historical_reek: "Reek" #NT!
+ nick_agot_historical_reek_desc: "Reek, Reek, it rhymes with leek." #NT!
+ nick_agot_historical_ryvydrakio: "Rȳvȳdrakio" #NT!
+ nick_agot_historical_ryvydrakio_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U], the first Rogare known to history, is credited with brokering the first deal between the city of Lys and the Freehold. The agreement granted Lys vast autonomy and tax breaks, and is widely regarded as the foundation of the Free City. Logaro was thereafter forever known as Rȳvȳdrakio – The Mediator." #NT!
+ nick_agot_historical_salt_beard: "Salt-Beard" #NT!
+ nick_agot_historical_sealskinner: "Sealskinner" #NT!
+ nick_agot_historical_seaspray: "Seaspray" #NT!
+ nick_agot_historical_seastar: "Seastar" #NT!
+ nick_agot_historical_seastar_desc: "Named by [CharYourHerHis(CHARACTER)] mother as the 'Star of the Sea', [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] said to be the most beautiful woman in the Seven Kingdoms." #NT!
+ nick_agot_historical_second_goose: "Second Feather" #NT!
+ nick_agot_historical_second_goose_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] the second in a set of triplets." #NT!
+ nick_agot_historical_sharpgrove: "Sharpgrove" #NT!
+ nick_agot_historical_sheepstealer: "Sheepstealer" #NT!
+ nick_agot_historical_shieldbreaker: "Shieldbreaker" #NT!
+ nick_agot_historical_shitmouth: "Shitmouth" #NT!
+ nick_agot_historical_short: "Short" #NT!
+ nick_agot_historical_shortfoot: "Shortfoot" #NT!
+ nick_agot_historical_shortfoot_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] lost half of [CharYourHerHis(CHARACTER)] foot to a shadowcat in [CharYourHerHis(CHARACTER)] youth." #NT!
+ nick_agot_historical_sick_leek: "Sick Leek" #NT!
+ nick_agot_historical_silveraxe: "Silveraxe" #NT!
+ nick_agot_historical_silverhair_sigfryd: "Silverhair" #NT!
+ nick_agot_historical_silverhair_sigfryd_desc: "An old man, some believe that [CHARACTER.GetShortUINameNoTooltipNoFormat] intend[_s(CHARACTER)] to live forever." #NT!
+ nick_agot_historical_silverhorn: "Silverhorn" #NT!
+ nick_agot_historical_silvertongue: "Silvertongue" #NT!
+ nick_agot_historical_sixskins: "Sixskins" #NT!
+ nick_agot_historical_sixskins_desc: "A gifted skinchanger, [CHARACTER.GetShortUINameNoTooltipNoFormat] wear[_s(CHARACTER)] the skins of three wolves, a snow bear, a shadowcat, and an eagle." #NT!
+ nick_agot_historical_sly: "Sly" #NT!
+ nick_agot_historical_small: "Small" #NT!
+ nick_agot_historical_smalljon: "Smalljon" #NT!
+ nick_agot_historical_smalljon_desc: "Despite [CharYourHerHis(CHARACTER)] moniker, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] strongly built like [CharYourHerHis(CHARACTER)] enormous father, and even threaten[_s(CHARACTER)] to overtop him in due time." #NT!
+ nick_agot_historical_snowbeard: "Snowbeard" #NT!
+ nick_agot_historical_snowbeard_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ruled the North for nearly a hundred years — a reign marked by threats from enemies within and without." #NT!
+ nick_agot_historical_softspear: "Softspear" #NT!
+ nick_agot_historical_softspear_desc: "The last Massey king, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] slain by Storm King Qarlton II Durrandon in his conquest of Massey's Hook." #NT!
+ nick_agot_historical_sourmouth: "Sourmouth" #NT!
+ nick_agot_historical_speardancer: "Speardancer" #NT!
+ nick_agot_historical_spearlover: "Spearlover" #NT!
+ nick_agot_historical_spotted: "Spotted" #NT!
+ nick_agot_historical_spotted_butcher: "Spotted" #NT!
+ nick_agot_historical_spotted_butcher_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known as 'Spotted' Tom. Simple as." #NT!
+ nick_agot_historical_squire: "Squire" #NT!
+ nick_agot_historical_stammerer: "Stammerer" #NT!
+ nick_agot_historical_star_eyes: "Star-Eyes" #NT!
+ nick_agot_historical_star_eyes_desc: "The old songs tell that [CHARACTER.GetShortUINameNoTooltipNoFormat] replaced [CharYourHerHis(CHARACTER)] lost eyes with star sapphires." #NT!
+ nick_agot_historical_starfire_samwell: "Starfire" #NT!
+ nick_agot_historical_starfire_samwell_desc: "As King of the Torrentine and Lord of Starfall, [CHARACTER.GetShortUINameNoTooltipNoFormat] successfully sacked Oldtown." #NT!
+ nick_agot_historical_steelshanks: "Steelshanks" #NT!
+ nick_agot_historical_steelshanks_desc: "A tall and dour man, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known for the steel greaves [CharYouSheHe(CHARACTER)] wear[_s(CHARACTER)] over [CharYourHerHis(CHARACTER)] long legs." #NT!
+ nick_agot_historical_steelsong: "Steelsong" #NT!
+ nick_agot_historical_stonehand: "Stonehand" #NT!
+ nick_agot_historical_stoneheart: "Stoneheart" #NT!
+ nick_agot_historical_stonesnake: "Stonesnake" #NT!
+ nick_agot_historical_stormborn: "Stormborn" #NT!
+ nick_agot_historical_stormborn_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] born during a great storm that caused much destruction." #NT!
+ nick_agot_historical_stormsword: "Stormsword" #NT!
+ nick_agot_historical_strong_prefix: "Strong" #NT!
+ nick_agot_historical_strongboar: "Strongboar" #NT!
+ nick_agot_historical_strongboar_desc: "Bearing a large body and a booming voice, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] regarded by many to be the strongest living man in Westeros." #NT!
+ nick_agot_historical_strongbrother: "Strongbrother" #NT!
+ nick_agot_historical_stump_hand: "Stump-Hand" #NT!
+ nick_agot_historical_sunbane: "Sunbane" #NT!
+ nick_agot_historical_stump_hand_desc: "Legend tells that [CHARACTER.GetShortUINameNoTooltipNoFormat] won [CharYourHerHis(CHARACTER)] crown at a finger dance, at the cost of two of [CharYourHerHis(CHARACTER)] fingers." #NT!
+ nick_agot_historical_sweetberry: "Sweetberry" #NT!
+ nick_agot_historical_sweetberry_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] given [CharYourHerHis(CHARACTER)] name by the Princess Saera, who considered [CharYourHerHis(CHARACTER)] as one of her favorites." #NT!
+ nick_agot_historical_swiftspur: "Swiftspur" #NT!
+ nick_agot_historical_swordbiter: "Swordbiter" #NT!
+ nick_agot_historical_tailcutter: "Tailcutter" #NT!
+ nick_agot_historical_tanner: "Tanner" #NT!
+ nick_agot_historical_the_acolyte: "the Acolyte" #NT!
+ nick_agot_historical_the_anvil: "the Anvil" #NT!
+ nick_agot_historical_the_archer: "the Archer" #NT!
+ nick_agot_historical_the_architect: "the Architect" #NT!
+ nick_agot_historical_the_arrogant: "the Arrogant" #NT!
+ nick_agot_historical_the_artist: "the Artist" #NT!
+ nick_agot_historical_the_avenger: "the Avenger" #NT!
+ nick_agot_historical_the_bad: "the Bad" #NT!
+ nick_agot_historical_the_bad_apple: "the Bad Apple" #NT!
+ nick_agot_historical_the_bad_apple_desc: "One of the infamous Band of Nine, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] an exiled knight with a black reputation." #NT!
+ nick_agot_historical_the_bald: "the Bald" #NT!
+ nick_agot_historical_the_barber_nute: "the Barber" #NT!
+ nick_agot_historical_the_barber_nute_desc: "It is said that such is [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] skill with the axe that [CharYouSheHe(CHARACTER)] can shave a man with a thrown one from twenty yards away." #NT!
+ nick_agot_historical_the_bard_bael: "the Bard" #NT!
+ nick_agot_historical_the_bard_bael_desc: "A King-Beyond-the Wall and one of the greatest raiders of [CharYourHerHis(CHARACTER)] time, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] also famed for [CharYourHerHis(CHARACTER)] skill in song — through which [CharYouSheHe(CHARACTER)] won the most beautiful flower that grew in the gardens of Winterfell." #NT!
+ nick_agot_historical_the_bard_loron: "the Bard" #NT!
+ nick_agot_historical_the_bard_loron_desc: "A lord of the ironborn, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known for [CharYourHerHis(CHARACTER)] great and tragic friendship with a knight of the green lands." #NT!
+ nick_agot_historical_the_barren: "the Barren" #NT!
+ nick_agot_historical_the_bastard: "the Bastard" #NT!
+ nick_agot_historical_the_bastard_king: "the Bastard King" #NT!
+ nick_agot_historical_the_bat: "the Bat" #NT!
+ nick_agot_historical_the_bear: "the Bear" #NT!
+ nick_agot_historical_the_beast_of_harrenhal: "the Beast of Harrenhal" #NT!
+ nick_agot_historical_the_beautiful: "the Beautiful" #NT!
+ nick_agot_historical_the_beggar_king: "the Beggar King" #NT!
+ nick_agot_historical_the_beggar_king_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] may be a king by rights, but the reality leaves much to be desired." #NT!
+ nick_agot_historical_the_belly: "the Belly" #NT!
+ nick_agot_historical_the_belly_lorimer: "the Belly" #NT!
+ nick_agot_historical_the_belly_lorimer_desc: "Corpulent and large of stomach, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] a hard time keeping [CharYourHerHis(CHARACTER)] hands off food." #NT!
+ nick_agot_historical_the_besieger: "the Besieger" #NT!
+ nick_agot_historical_the_big: "the Big" #NT!
+ nick_agot_historical_the_big_bucket: "the Big Bucket" #NT!
+ nick_agot_historical_the_big_man: "the Big Man" #NT!
+ nick_agot_historical_the_big_man_desc: "Six and a half feet tall, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] legs like tree trunks, hands the size of hams, and no neck." #NT!
+ nick_agot_historical_the_big_prefix: "Big" #NT!
+ nick_agot_historical_the_bitter: "the Bitter" #NT!
+ nick_agot_historical_the_black: "the Black" #NT!
+ nick_agot_historical_the_black_centaur: "the Black Centaur" #NT!
+ nick_agot_historical_the_black_dragon: "the Black Dragon" #NT!
+ nick_agot_historical_the_black_dragon_desc: "Baseborn of Aegon IV, [CHARACTER.GetShortUINameNoTooltipNoFormat] took for [CharYourHerHis(CHARACTER)] sigil a black dragon on a red field." #NT!
+ nick_agot_historical_the_black_goat: "the Black Goat" #NT!
+ nick_agot_historical_the_black_harren: "the Black" #NT!
+ nick_agot_historical_the_black_harren_desc: "A vain, bloody tyrant hated by those [CharYouSheHe(CHARACTER)] ruled, [CHARACTER.GetShortUINameNoTooltipNoFormat] would oversee the completion of Harrenhal at great cost to the Riverlands and the Iron Islands." #NT!
+ nick_agot_historical_the_black_lion: "the Black Lion" #NT!
+ nick_agot_historical_the_black_prefix: "Black" #NT!
+ nick_agot_historical_the_black_priest: "the Black Priest" #NT!
+ nick_agot_historical_the_black_rose: "the Black Rose" #NT!
+ nick_agot_historical_the_black_shepherd: "the Black Shepherd" #NT!
+ nick_agot_historical_the_black_swan: "the Black Swan" #NT!
+ nick_agot_historical_the_black_swan_historical_desc: "Enslaved in [CharYourHerHis(CHARACTER)] youth, [CHARACTER.GetShortUINameNoTooltipNoFormat] rose to become a celebrated courtesan and the ruler of Lys in all but name." #NT!
+ nick_agot_historical_the_black_tempest: "the Black Tempest" #NT!
+ nick_agot_historical_the_black_widow: "the Black Widow" #NT!
+ nick_agot_historical_the_blackhand: "the Blackhand" #NT!
+ nick_agot_historical_the_blackmane: "the Blackmane" #NT!
+ nick_agot_historical_the_blessed: "the Blessed" #NT!
+ nick_agot_historical_the_blessed_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] so holy as to be considered blessed by the gods." #NT!
+ nick_agot_historical_the_blind: "the Blind" #NT!
+ nick_agot_historical_the_blind_bastard: "the Blind Bastard" #NT!
+ nick_agot_historical_the_blind_bowman: "the Blind Bowman" #NT!
+ nick_agot_historical_the_blind_king: "the Blind King" #NT!
+ nick_agot_historical_the_blind_prefix: "Blind" #NT!
+ nick_agot_historical_the_bloody: "the Bloody" #NT!
+ nick_agot_historical_the_blue: "the Blue" #NT!
+ nick_agot_historical_the_blue_bard: "the Blue Bard" #NT!
+ nick_agot_historical_the_blue_bard_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] dress[_es(CHARACTER)] all in blue, and even dye[_s(CHARACTER)] [CharYourHerHis(CHARACTER)] hair with the same color in the Tyroshi fashion." #NT!
+ nick_agot_historical_the_boar: "the Boar" #NT!
+ nick_agot_historical_the_boarkiller: "the Boarkiller" #NT!
+ nick_agot_historical_the_boarkiller_desc: "The founder of House Crakehall, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] a legendary figure from the Age of Heroes." #NT!
+ nick_agot_historical_the_boastful: "the Boastful" #NT!
+ nick_agot_historical_the_boisterous: "the Boisterous" #NT!
+ nick_agot_historical_the_bold_barristan: "the Bold" #NT!
+ nick_agot_historical_the_bold_barristan_desc: "Entering a tourney as a mystery knight at the mere age of ten, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] first given this epithet by the Prince of Dragonflies, and with [CharYourHerHis(CHARACTER)] deeds proven [CharYourHerHimself(CHARACTER)] to be more than worthy of having it." #NT!
+ nick_agot_historical_the_bold_merrell: "the Bold" #NT!
+ nick_agot_historical_the_bold_torrhen_forrester: "the Bold" #NT!
+ nick_agot_historical_the_boor: "the Boor" #NT!
+ nick_agot_historical_the_boy_king: "the Boy King" #NT!
+ nick_agot_historical_the_boy_king_desc: "Coming to rule at a young age, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known as 'the Boy King.'" #NT!
+ nick_agot_historical_the_brave: "the Brave" #NT!
+ nick_agot_historical_the_brave_baelor: "the Brave" #NT!
+ nick_agot_historical_the_brave_baelor_desc: "When [CHARACTER.GetShortUINameNoTooltipNoFormat] first visited the Dragonpit, [CharYouSheHe(CHARACTER)] hit the great dragon Balerion the Black Dread on the snout, earning the nickname 'the Brave.'" #NT!
+ nick_agot_historical_the_breaker_bulwer: "the Breaker" #NT!
+ nick_agot_historical_the_breaker_bulwer_desc: "Legend tells that [CHARACTER.GetShortUINameNoTooltipNoFormat] gained the strength of twenty men by drinking only bull's blood, eventually drinking so much that [CharYouSheHe(CHARACTER)] grew a pair of horns." #NT!
+ nick_agot_historical_the_breaker_bulwer_line: "the Breaker" #NT!
+ nick_agot_historical_the_breaker_bulwer_line_desc: "This is the line of Bors the Breaker, son of Garth Greenhand and founder of House Bulwer." #NT!
+ nick_agot_historical_the_breaker_stark: "the Breaker" #NT!
+ nick_agot_historical_the_breaker_stark_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ended the thirteen-year-long rule of the Night's King and freed the Night's Watch from bondage." #NT!
+ nick_agot_historical_the_breaker_stark_line: "the Breaker" #NT!
+ nick_agot_historical_the_breaker_stark_line_desc: "This is the line of Brandon the Breaker, King of Winter." #NT!
+ nick_agot_historical_the_bridegroom: "Bridegroom" #NT!
+ nick_agot_historical_the_bridegroom_garland: "Bridegroom" #NT!
+ nick_agot_historical_the_bridegroom_garland_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] brought Oldtown into the Kingdom of the Reach by wedding [CharYourHerHis(CHARACTER)] daughter to Lord Lymond Hightower and by setting aside [CharYourHerHis(CHARACTER)] own wives to wed the lord's daughter." #NT!
+ nick_agot_historical_the_bronzeman: "the Bronzeman" #NT!
+ nick_agot_historical_the_brown_dragon: "the Brown Dragon" #NT!
+ nick_agot_historical_the_brown_dragon_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] fell into a mud puddle after a joust, unfortunately earning the name 'the Brown Dragon' in mockery of [CharYourHerHis(CHARACTER)] father's epithet." #NT!
+ nick_agot_historical_the_brute: "the Brute" #NT!
+ nick_agot_historical_the_builder: "the Builder" #NT!
+ nick_agot_historical_the_bull: "the Bull" #NT!
+ nick_agot_historical_the_bull_of_blackcrown: "the Bull of Blackcrown" #NT!
+ nick_agot_historical_the_burner: "the Burner" #NT!
+ nick_agot_historical_the_burner_desc: "In [CharYourHerHis(CHARACTER)] grief after [CharYourHerHis(CHARACTER)] father's disappearance in the Sunset Sea, [CHARACTER.GetShortUINameNoTooltipNoFormat] set ablaze the ships [CharYourHerHis(CHARACTER)] father once loved." #NT!
+ nick_agot_historical_the_butcher: "the Butcher" #NT!
+ nick_agot_historical_the_callow: "the Callow" #NT!
+ nick_agot_historical_the_castout: "the Cast-Out" #NT!
+ nick_agot_historical_the_cat: "the Cat" #NT!
+ nick_agot_historical_the_chain: "the Chain" #NT!
+ nick_agot_historical_the_champion: "the Champion" #NT!
+ nick_agot_historical_the_cheerful: "the Cheerful" #NT!
+ nick_agot_historical_the_cherry: "the Cherry" #NT!
+ nick_agot_historical_the_chestmaker: "the Chestmaker" #NT!
+ nick_agot_historical_the_chestnut: "the Chestnut" #NT!
+ nick_agot_historical_the_child: "The Child" #NT!
+ nick_agot_historical_the_child_desc: "This High Septon is known for being elevated to their position whilst still in their childhood, against the objections of many." #NT!
+ nick_agot_historical_the_chopper: "the Chopper" #NT!
+ nick_agot_historical_the_clever: "the Clever" #NT!
+ nick_agot_historical_the_cloakless: "the Cloakless" #NT!
+ nick_agot_historical_the_clubfoot: "the Clubfoot" #NT!
+ nick_agot_historical_the_clubfoot_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] born with one foot twisted and deformed, an affliction that has plagued [CharYouHerHim(CHARACTER)] all [CharYourHerHis(CHARACTER)] life." #NT!
+ nick_agot_historical_the_collector: "the Collector" #NT!
+ nick_agot_historical_the_conciliator: "the Conciliator" #NT!
+ nick_agot_historical_the_conciliator_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known across the realm and beyond for great diplomatic and administrative acts." #NT!
+ nick_agot_historical_the_conqueror: "the Conqueror" #NT!
+ nick_agot_historical_the_conqueror_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] the preeminent figure of [CharYourHerHis(CHARACTER)] age, conquering the Seven Kingdoms with fire and blood." #NT!
+ nick_agot_historical_the_corpsekiller: "Corpsekiller" #NT!
+ nick_agot_historical_the_corpsekiller_desc: "During the Siege of Astapor, [CHARACTER.GetShortUINameNoTooltipNoFormat] hacked down Cleon the Butcher King, a feat of some renown — had Cleon not been just an armored corpse tied to a horse." #NT!
+ nick_agot_historical_the_cousin: "the Cousin" #NT!
+ nick_agot_historical_the_crab: "the Crab" #NT!
+ nick_agot_historical_the_crackclaw: "the Crackclaw" #NT!
+ nick_agot_historical_the_craftsman: "the Craftsman" #NT!
+ nick_agot_historical_the_creator: "the Creator" #NT!
+ nick_agot_historical_the_cruel: "the Cruel" #NT!
+ nick_agot_historical_the_cunning: "the Cunning" #NT!
+ nick_agot_historical_the_cunning_qhorwyn: "the Cunning" #NT!
+ nick_agot_historical_the_cunning_qhorwyn_desc: "Shrewd and avaricious, [CHARACTER.GetShortUINameNoTooltipNoFormat] avoided war and pursued trade. Believing that weakness invites attack, [CharYouSheHe(CHARACTER)] ordered the creation of additional armament — a decision that would greatly aid [CharYourHerHis(CHARACTER)] son's later conquest of the Riverlands." #NT!
+ nick_agot_historical_the_curt: "the Curt" #NT!
+ nick_agot_historical_the_daring: "the Daring" #NT!
+ nick_agot_historical_the_daring_daeron: "the Daring" #NT!
+ nick_agot_historical_the_daring_daeron_desc: "For saving Lord Ormund Hightower's army with [CharYourHerHis(CHARACTER)] dragon Tessarion at only thirteen, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] awarded the nickname 'the Daring.'" #NT!
+ nick_agot_historical_the_darling_of_the_vale: "the Darling of the Vale" #NT!
+ nick_agot_historical_the_darling_of_the_vale_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] a renowned jouster, handsome and gallant and brimming with courtesy." #NT!
+ nick_agot_historical_the_daughter_of_the_dusk: "the Daughter of the Dusk" #NT!
+ nick_agot_historical_the_daughterless: "the Daughterless" #NT!
+ nick_agot_historical_the_daughterless_desc: "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] only daughter was stolen by Bael the Bard, and returned nearly a year later bearing Bael's bastard son." #NT!
+ nick_agot_historical_the_defiant_argrave: "the Defiant" #NT!
+ nick_agot_historical_the_defiant_argrave_desc: "A knight from Nunny in service to Lord Butterwell, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] often described to be a spare, hard man." #NT!
+ nick_agot_historical_the_defiant_daena: "the Defiant" #NT!
+ nick_agot_historical_the_defiant_daena_desc: "Ever the willful character, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known for defying [CharYourHerHis(CHARACTER)] brother Baelor's continued attempts to imprison [CharYouHerHim(CHARACTER)]." #NT!
+ nick_agot_historical_the_delayer: "the Delayer" #NT!
+ nick_agot_historical_the_delayer_desc: "Unwilling to do battle against the Faith Militant, [CHARACTER.GetShortUINameNoTooltipNoFormat] closed [CharYourHerHis(CHARACTER)] gates and kept Septon Moon and his followers outside Oldtown's walls." #NT!
+ nick_agot_historical_the_demon: "the Demon" #NT!
+ nick_agot_historical_the_demon_of_darry: "the Demon of Darry" #NT!
+ nick_agot_historical_the_demonlover: "the Demonlover" #NT!
+ nick_agot_historical_the_devout: "the Devout" #NT!
+ nick_agot_historical_the_dim: "the Dim" #NT!
+ nick_agot_historical_the_dogshead: "the Dogshead" #NT!
+ nick_agot_historical_the_dour_dorden: "the Dour" #NT!
+ nick_agot_historical_the_dour_durran: "the Dour" #NT!
+ nick_agot_historical_the_dour_durran_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] renowned for slaying Lun the Last, King of the Giants, at the Battle of Crookwater." #NT!
+ nick_agot_historical_the_dragonbane: "the Dragonbane" #NT!
+ nick_agot_historical_the_dragonbane_desc: "For reigning during the death of the last dragon, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known as 'the Dragonbane.'" #NT!
+ nick_agot_historical_the_dragonknight_historic: "the Dragonknight" #NT!
+ nick_agot_historical_the_dragonknight_historic_desc: "For [CharYourHerHis(CHARACTER)] nobility, valor, and clear displays of Targaryen heritage, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known as 'the Dragonknight.'" #NT!
+ nick_agot_historical_the_dragonless: "the Dragonless" #NT!
+ nick_agot_historical_the_dragonless_desc: "Against the convention of [CharYourHerHis(CHARACTER)] house, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] not hatched or tamed a dragon." #NT!
+ nick_agot_historical_the_dread: "the Dread" #NT!
+ nick_agot_historical_the_dreamer: "the Dreamer" #NT!
+ nick_agot_historical_the_drunkard: "the Drunkard" #NT!
+ nick_agot_historical_the_drunken: "the Drunken" #NT!
+ nick_agot_historical_the_dutiful: "the Dutiful" #NT!
+ nick_agot_historical_the_eagle: "the Eagle" #NT!
+ nick_agot_historical_the_eagle_desc: "Despite the Hungry Wolf's defeat of Ravos the Raper, [CHARACTER.GetShortUINameNoTooltipNoFormat] continued raiding the western shores of the North." #NT!
+ nick_agot_historical_the_eastern: "the Eastern" #NT!
+ nick_agot_historical_the_ebon_prince: "the Ebon Prince" #NT!
+ nick_agot_historical_the_eeper_silly_mode: "the Eeper" #NT!
+ nick_agot_historical_the_elder: "the Elder" #NT!
+ nick_agot_historical_the_elder_desc: "Not the only [CHARACTER.GetFirstName] of [CharYourHerHis(CHARACTER)] family at the time, this [CHARACTER.GetFirstName] is the elder." #NT!
+ nick_agot_historical_the_exile: "the Exile" #NT!
+ nick_agot_historical_the_exile_desc: "For fleeing the doom of Valyria to Dragonstone, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known as [CHARACTER.GetFirstNameNoTooltip] 'the Exile.'" #NT!
+ nick_agot_historical_the_exiled_admiral: "the Exiled Admiral" #NT!
+ nick_agot_historical_the_fair: "the Fair" #NT!
+ nick_agot_historical_the_faithful: "the Faithful" #NT!
+ nick_agot_historical_the_falcon_knight: "the Falcon Knight" #NT!
+ nick_agot_historical_the_falcon_knight_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] bear[_s(CHARACTER)] the moon-and-falcon on [CharYourHerHis(CHARACTER)] shield, and a pair of falcon's wings decorated [CharYourHerHis(CHARACTER)] silver warhelm." #NT!
+ nick_agot_historical_the_fat: "the Fat" #NT!
+ nick_agot_historical_the_fat_one: "The Fat One" #NT!
+ nick_agot_historical_the_fat_one_desc: "This High Septon is known for his enormity ... of devotion to the Seven." #NT!
+ nick_agot_historical_the_fatherless: "the Fatherless" #NT!
+ nick_agot_historical_the_fierce: "the Fierce" #NT!
+ nick_agot_historical_the_fighter: "the Fighter" #NT!
+ nick_agot_historical_the_fishwife: "the Fishwife" #NT!
+ nick_agot_historical_the_flamboyant: "the Flamboyant" #NT!
+ nick_agot_historical_the_flea: "the Flea" #NT!
+ nick_agot_historical_the_fool_florian: "the Fool" #NT!
+ nick_agot_historical_the_fool_frey: "the Fool" #NT!
+ nick_agot_historical_the_fool_shagwell: "the Fool" #NT!
+ nick_agot_historical_the_forgotten: "the Forgotten" #NT!
+ nick_agot_historical_the_fox: "the Fox" #NT!
+ nick_agot_historical_the_fox_knight: "the Fox Knight" #NT!
+ nick_agot_historical_the_frog: "the Frog" #NT!
+ nick_agot_historical_the_fury: "the Fury" #NT!
+ nick_agot_historical_the_gallant: "the Gallant" #NT!
+ nick_agot_historical_the_gardener: "the Gardener" #NT!
+ nick_agot_historical_the_garlic: "the Garlic" #NT!
+ nick_agot_historical_the_giantslayer: "the Giantslayer" #NT!
+ nick_agot_historical_the_giantslayer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned this epithet during the Battle Beneath the Wall, where [CharYouSheHe(CHARACTER)] slew a fleeing giant with a lance to the back and hacked off its head." #NT!
+ nick_agot_historical_the_girlfather: "the Girlfather" #NT!
+ nick_agot_historical_the_glorious: "the Glorious" #NT!
+ nick_agot_historical_the_glorious_desc: "Whether for wisdom, war or wit, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] acquired much glory." #NT!
+ nick_agot_historical_the_glutton: "the Glutton" #NT!
+ nick_agot_historical_the_goat: "the Goat" #NT!
+ nick_agot_historical_the_goatman: "the Goatman" #NT!
+ nick_agot_historical_the_gods_fearing: "the Gods Fearing" #NT!
+ nick_agot_historical_the_golden: "the Golden" #NT!
+ nick_agot_historical_the_goldenhand: "the Goldenhand" #NT!
+ nick_agot_historical_the_goldsmith: "the Goldsmith" #NT!
+ nick_agot_historical_the_good: "the Good" #NT!
+ nick_agot_historical_the_good_daeron: "the Good" #NT!
+ nick_agot_historical_the_good_daeron_desc: "For love of peace, good governance, and just rulership, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] called 'the Good.'" #NT!
+ nick_agot_historical_the_great: "the Great" #NT!
+ nick_agot_historical_the_great_kraken: "the Great Kraken" #NT!
+ nick_agot_historical_the_green: "the Green" #NT!
+ nick_agot_historical_the_green_lady: "the Green Lady" #NT!
+ nick_agot_historical_the_green_lion: "the Green Lion" #NT!
+ nick_agot_historical_the_green_oak: "the Green Oak" #NT!
+ nick_agot_historical_the_grey: "the Grey" #NT!
+ nick_agot_historical_the_grey_lion: "the Grey Lion" #NT!
+ nick_agot_historical_the_grey_thunder: "the Grey Thunder" #NT!
+ nick_agot_historical_the_greyhaired: "the Greyhaired" #NT!
+ nick_agot_historical_the_grim: "the Grim" #NT!
+ nick_agot_historical_the_grim_handed: "Grim-Handed" #NT!
+ nick_agot_historical_the_gross: "the Gross" #NT!
+ nick_agot_historical_the_guest: "the Guest" #NT!
+ nick_agot_historical_the_haggler: "the Haggler" #NT!
+ nick_agot_historical_the_half_year_queen: "the Half-Year Queen" #NT!
+ nick_agot_historical_the_half_year_queen_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] only able to sit the throne [CharYouSheHe(CHARACTER)] claimed for half a year before being forced to flee." #NT!
+ nick_agot_historical_the_halfwild: "the Halfwild" #NT!
+ nick_agot_historical_the_ham: "the Ham" #NT!
+ nick_agot_historical_the_hammer: "the Hammer" #NT!
+ nick_agot_historical_the_hammer_of_justice: "the Hammer of Justice" #NT!
+ nick_agot_historical_the_hammer_of_justice_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] said to have fought one hundred battles, winning ninety-nine and losing one — when seven Andal kings all fought [CharYouHerHim(CHARACTER)] at once." #NT!
+ nick_agot_historical_the_handsome: "the Handsome" #NT!
+ nick_agot_historical_the_hardhead: "the Hardhead" #NT!
+ nick_agot_historical_the_harelip: "the Harelip" #NT!
+ nick_agot_historical_the_harper: "the Harper" #NT!
+ nick_agot_historical_the_haunted: "the Haunted" #NT!
+ nick_agot_historical_the_heartless: "the Heartless" #NT!
+ nick_agot_historical_the_hell_knight: "the Hell-knight" #NT!
+ nick_agot_historical_the_hewer: "the Hewer" #NT!
+ nick_agot_historical_the_high_lickspittle: "The High Lickspittle" #NT!
+ nick_agot_historical_the_high_lickspittle_desc: "This High Septon is known for their irritating loyalty to the King." #NT!
+ nick_agot_historical_the_holy_fool: "the Holy Fool" #NT!
+ nick_agot_historical_the_honorable: "the Honorable" #NT!
+ nick_agot_historical_the_hopeful: "the Hopeful" #NT!
+ nick_agot_historical_the_horsekiller: "the Horsekiller" #NT!
+ nick_agot_historical_the_host: "the Host" #NT!
+ nick_agot_historical_the_host_desc: "Contrary to [CharYourHerHis(CHARACTER)] predecessors, [CHARACTER.GetShortUINameNoTooltipNoFormat] welcomed travelers and traders from the far corners of the world to the Iron Islands." #NT!
+ nick_agot_historical_the_hound: "the Hound" #NT!
+ nick_agot_historical_the_humpback: "the Humpback" #NT!
+ nick_agot_historical_the_hungry: "the Hungry" #NT!
+ nick_agot_historical_the_hungry_wolf: "the Hungry Wolf" #NT!
+ nick_agot_historical_the_hungry_wolf_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] defended the North from the Andals and the Ironborn, earning [CharYourHerHis(CHARACTER)] moniker for being ever at war." #NT!
+ nick_agot_historical_the_hunter: "the Hunter" #NT!
+ nick_agot_historical_the_huntsman: "the Huntsman" #NT!
+ nick_agot_historical_the_illuminator: "the Illuminator" #NT!
+ nick_agot_historical_the_imp: "the Imp" #NT!
+ nick_agot_historical_the_implacable: "the Implacable" #NT!
+ nick_agot_historical_the_inked: "the Inked" #NT!
+ nick_agot_historical_the_iron_serpent: "the Iron Serpent" #NT!
+ nick_agot_historical_the_ironmonger: "the Ironmonger" #NT!
+ nick_agot_historical_the_jewel_of_the_eyrie: "the Jewel of the Eyrie" #NT!
+ nick_agot_historical_the_jolly: "the Jolly" #NT!
+ nick_agot_historical_the_jousting_lord: "the Jousting Lord" #NT!
+ nick_agot_historical_the_jousting_lord_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] well-known for [CharYourHerHis(CHARACTER)] skill in the tilt." #NT!
+ nick_agot_historical_the_joyful: "the Joyful" #NT!
+ nick_agot_historical_the_just: "the Just" #NT!
+ nick_agot_historical_the_keg_o_ale: "the Keg o' Ale" #NT!
+ nick_agot_historical_the_king_who_flew: "the King Who Flew" #NT!
+ nick_agot_historical_the_king_who_flew_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] flew thrice atop Vhagar around the summit of the Giant's Lance as a little king, and landed to find [CharYourHerHimself(CHARACTER)] a little lord." #NT!
+ nick_agot_historical_the_king_who_knelt: "the King Who Knelt" #NT!
+ nick_agot_historical_the_king_who_knelt_desc: "Wary of sharing the same fate that befell Harrenhal and those that burned in the Field of Fire, [CHARACTER.GetShortUINameNoTooltipNoFormat] chose instead to bend the knee to the Conqueror, and rose as a king no more." #NT!
+ nick_agot_historical_the_kingmaker: "the Kingmaker" #NT!
+ nick_agot_historical_the_kingslayer: "the Kingslayer" #NT!
+ nick_agot_historical_the_kinslayer: "the Kinslayer" #NT!
+ nick_agot_historical_the_kinslayer_desc: "Styling [CharYourHerHimself(CHARACTER)] as King of Mountain and Vale, [CHARACTER.GetShortUINameNoTooltipNoFormat] sent [CharYourHerHis(CHARACTER)] brother flying through the Moon Door after the lords of the Vale demanded the release of their rightful liege lord." #NT!
+ nick_agot_historical_the_knight: "the Knight" #NT!
+ nick_agot_historical_the_knight_of_flowers: "the Knight of Flowers" #NT!
+ nick_agot_historical_the_knight_of_kisses: "the Knight of Kisses" #NT!
+ nick_agot_historical_the_knight_of_the_flame: "the Knight of the Flame" #NT!
+ nick_agot_historical_the_knight_of_the_fountains: "the Knight of the Fountains" #NT!
+ nick_agot_historical_the_knight_of_the_fountains_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] a tourney knight of some repute." #NT!
+ nick_agot_historical_the_knight_of_the_twilight: "the Knight of the Twilight" #NT!
+ nick_agot_historical_the_knight_of_the_twilight_desc: "Formerly a hostage at the Red Keep during the Conquest of Dorne, [CHARACTER.GetShortUINameNoTooltipNoFormat] became one of the founding members of the Sons of the Spear." #NT!
+ nick_agot_historical_the_krakens_daughter: "the Kraken's Daughter" #NT!
+ nick_agot_historical_the_lace_serpent: "the Lace Serpent" #NT!
+ nick_agot_historical_the_lackwit: "the Lackwit" #NT!
+ nick_agot_historical_the_lame: "the Lame" #NT!
+ nick_agot_historical_the_last: "the Last" #NT!
+ nick_agot_historical_the_last_giant: "the Last Giant" #NT!
+ nick_agot_historical_the_last_loren: "the Last" #NT!
+ nick_agot_historical_the_last_loren_desc: "The last King of the Rock, [CHARACTER.GetShortUINameNoTooltipNoFormat] bent the knee to Aegon the Conqueror after surviving the Field of Fire." #NT!
+ nick_agot_historical_the_last_reaver: "the Last Reaver" #NT!
+ nick_agot_historical_the_last_reaver_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] aspired to make the Sunset Sea [CharYourHerHis(CHARACTER)] own and harried the western coasts — the last ironborn lord to do so for many years." #NT!
+ nick_agot_historical_the_last_valyrian: "the Last Valyrian" #NT!
+ nick_agot_historical_the_last_valyrian_desc: "A notorious raider, [CHARACTER.GetShortUINameNoTooltipNoFormat] come[_s(CHARACTER)] from a Lysene line of pirate-lords that are said to have descended from the Valyrians." #NT!
+ nick_agot_historical_the_late_lord: "the Late Lord" #NT!
+ nick_agot_historical_the_late_lord_desc: "During Robert's Rebellion, [CHARACTER.GetShortUINameNoTooltipNoFormat] arrived at the Battle of the Trident after the rebel victory, prompting [CharYourHerHis(CHARACTER)] liege lord to bestow upon [CharYouHerHim(CHARACTER)] this unflattering epithet." #NT!
+ nick_agot_historical_the_latecomer: "the Latecomer" #NT!
+ nick_agot_historical_the_latecomer_desc: "When his father died, [CHARACTER.GetShortUINameNoTooltipNoFormat] had been raiding along the Mander, and [CharWereWas(CHARACTER)] not sent word of the Kingsmoot. Upon [CharYourHerHis(CHARACTER)] return, [CharYouSheHe(CHARACTER)] denounced the Kingsmoot as unlawful, and successfully revolted against Urrathon IV Goodbrother, thereby taking [CharYourHerHis(CHARACTER)] throne — and this name." #NT!
+ nick_agot_historical_the_laughing_lion: "the Laughing Lion" #NT!
+ nick_agot_historical_the_laughing_storm: "the Laughing Storm" #NT!
+ nick_agot_historical_the_laughing_storm_desc: "Oft breaking into booming laughter when fighting [CharYourHerHis(CHARACTER)] opponents, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] considered to be one of the finest warriors of [CharYourHerHis(CHARACTER)] day." #NT!
+ nick_agot_historical_the_laughing_wolf: "the Laughing Wolf" #NT!
+ nick_agot_historical_the_laughing_wolf_desc: "Known for [CharYourHerHis(CHARACTER)] good nature, [CHARACTER.GetShortUINameNoTooltipNoFormat] took the Neck away from the Marsh King and took his daughter to wife." #NT!
+ nick_agot_historical_the_learned: "the Learned" #NT!
+ nick_agot_historical_the_leech_lord: "the Leech Lord" #NT!
+ nick_agot_historical_the_leech_lord_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] believe[_s(CHARACTER)] that leechings are the secret to a long life, leading some to call [CharYouHerHim(CHARACTER)] by this moniker, though never to [CharYourHerHis(CHARACTER)] face." #NT!
+ nick_agot_historical_the_leopard: "the Leopard" #NT!
+ nick_agot_historical_the_liar: "the Liar" #NT!
+ nick_agot_historical_the_limp: "the Limp" #NT!
+ nick_agot_historical_the_limper: "the Limper" #NT!
+ nick_agot_historical_the_lion: "the Lion" #NT!
+ nick_agot_historical_the_lion_king: "the Lion King" #NT!
+ nick_agot_historical_the_lion_king_desc: "A King of the Rock, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] so-named in a Volantene chronicle that told the tale of [CharYourHerHis(CHARACTER)] golden fleet and expedition to Valyria — a voyage from which neither [CharYouSheHe(CHARACTER)], nor the greatsword Brightroar, returned." #NT!
+ nick_agot_historical_the_lion_of_braavos: "the Lion of Braavos" #NT!
+ nick_agot_historical_the_lionslayer: "the Lionslayer" #NT!
+ nick_agot_historical_the_lionslayer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] dealt a mortal wound to Lord Jason Lannister during the Battle at the Red Fork, and [CharWereWas(CHARACTER)] thereafter dubbed as Longleaf the Lionslayer." #NT!
+ nick_agot_historical_the_little: "the Little" #NT!
+ nick_agot_historical_the_little_bear: "the Little Bear" #NT!
+ nick_agot_historical_the_little_bee: "the Little Bee" #NT!
+ nick_agot_historical_the_little_lemon: "the Little Lemon" #NT!
+ nick_agot_historical_the_little_lion: "the Little Lion" #NT!
+ nick_agot_historical_the_little_pussy: "the Little Pussy" #NT!
+ nick_agot_historical_the_little_witch: "the Little Witch" #NT!
+ nick_agot_historical_the_long_prefix: "Long" #NT!
+ nick_agot_historical_the_longknife: "the Longknife" #NT!
+ nick_agot_historical_the_lord_lamprey: "the Lord Lamprey" #NT!
+ nick_agot_historical_the_lord_lamprey_desc: "Mocked by [CharYourHerHis(CHARACTER)] own people by this name due to [CharYourHerHis(CHARACTER)] voracious appetite, [CHARACTER.GetShortUINameNoTooltipNoFormat] hide[_s(CHARACTER)] a clever mind behind [CharYourHerHis(CHARACTER)] rotund appearance." #NT!
+ nick_agot_historical_the_loud: "the Loud" #NT!
+ nick_agot_historical_the_lusty: "the Lusty" #NT!
+ nick_agot_historical_the_lusty_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] broke [CharYourHerHis(CHARACTER)] Kingsguard vows by thrice marrying in secret and fathering sixteen children between [CharYourHerHis(CHARACTER)] three wives." #NT!
+ nick_agot_historical_the_mad: "the Mad" #NT!
+ nick_agot_historical_the_mad_bard: "the Mad Bard" #NT!
+ nick_agot_historical_the_mad_huntsman: "the Mad Huntsman" #NT!
+ nick_agot_historical_the_mad_king: "the Mad King" #NT!
+ nick_agot_historical_the_mad_king_desc: "Prone to bouts of paranoia, wanton cruelty, and detachment from basic reality, [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] madness is clear to all the realm." #NT!
+ nick_agot_historical_the_mad_maid: "the Mad Maid" #NT!
+ nick_agot_historical_the_mad_maid_desc: "The unwed eldest daughter of the Lord of Oldtown, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known to consult books of spells." #NT!
+ nick_agot_historical_the_mad_mouse: "the Mad Mouse" #NT!
+ nick_agot_historical_the_madling: "the Madling" #NT!
+ nick_agot_historical_the_mage: "the Mage" #NT!
+ nick_agot_historical_the_mage_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] travelled east to study the higher mysteries, and [CharWereWas(CHARACTER)] so-named after [CharYourHerHis(CHARACTER)] return — a moniker that quickly spread, much to the annoyance of the grey sheep." #NT!
+ nick_agot_historical_the_magnificent: "the Magnificent" #NT!
+ nick_agot_historical_the_magnificent_desc: "Tales of [CharYourHerHis(CHARACTER)] splendid deeds are told from the Wall to the Shadow Lands beyond Asshai." #NT!
+ nick_agot_historical_the_maid: "the Maid" #NT!
+ nick_agot_historical_the_mason: "the Mason" #NT!
+ nick_agot_historical_the_maul: "the Maul" #NT!
+ nick_agot_historical_the_meek: "the Meek" #NT!
+ nick_agot_historical_the_merciful: "the Merciful" #NT!
+ nick_agot_historical_the_merling_queen: "the Merling Queen" #NT!
+ nick_agot_historical_the_merry: "the Merry" #NT!
+ nick_agot_historical_the_mighty: "the Mighty" #NT!
+ nick_agot_historical_the_mistress_of_swords: "the Mistress of Swords" #NT!
+ nick_agot_historical_the_monstrous: "the Monstrous" #NT!
+ nick_agot_historical_the_moon_king: "the Moon King" #NT!
+ nick_agot_historical_the_moonshadow: "the Moonshadow" #NT!
+ nick_agot_historical_the_mordant: "the Mordant" #NT!
+ nick_agot_historical_the_morningstar: "the Morningstar" #NT!
+ nick_agot_historical_the_mother: "the Mother" #NT!
+ nick_agot_historical_the_mother_hen: "the Mother Hen" #NT!
+ nick_agot_historical_the_mountain_that_rides: "the Mountain That Rides" #NT!
+ nick_agot_historical_the_mountain_that_rides_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so large that to see [CharYouHerHim(CHARACTER)] ride is to think a mountain is approaching." #NT!
+ nick_agot_historical_the_mouse: "the Mouse" #NT!
+ nick_agot_historical_the_mummer: "the Mummer" #NT!
+ nick_agot_historical_the_mummer_desc: "Famed for [CharYourHerHis(CHARACTER)] prowess with sword and shield, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known for being quick, strong, and observant." #NT!
+ nick_agot_historical_the_musician: "the Musician" #NT!
+ nick_agot_historical_the_nail: "the Nail" #NT!
+ nick_agot_historical_the_necromancer: "the Necromancer" #NT!
+ nick_agot_historical_the_necromancer_desc: "A legendary ironborn raider during the Age of Heroes, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] so-named for the black art [CharYouSheHe(CHARACTER)] practice[_s(CHARACTER)]." #NT!
+ nick_agot_historical_the_neveryield: "the Neveryield" #NT!
+ nick_agot_historical_the_niggardly: "the Niggardly" #NT!
+ nick_agot_historical_the_niggardly_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for [CharYourHerHis(CHARACTER)] pettiness." #NT!
+ nick_agot_historical_the_nightingale: "the Nightingale" #NT!
+ nick_agot_historical_the_nights_king: "the Night's King" #NT!
+ nick_agot_historical_the_nimble: "the Nimble" #NT!
+ nick_agot_historical_the_nocturnal: "the Nocturnal" #NT!
+ nick_agot_historical_the_northman: "the Northman" #NT!
+ nick_agot_historical_the_nose: "the Nose" #NT!
+ nick_agot_historical_the_oak: "the Oak" #NT!
+ nick_agot_historical_the_oak_desc: "The legendary founder of House Oakheart, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] said to be eight (ten or twelve in some tales) feet tall." #NT!
+ nick_agot_historical_the_old: "the Old" #NT!
+ nick_agot_historical_the_old_bear: "the Old Bear" #NT!
+ nick_agot_historical_the_old_bear_desc: "Named for the sigil of [CharYourHerHis(CHARACTER)] house, [CHARACTER.GetShortUINameNoTooltipNoFormat] remain[_s(CHARACTER)] strong even in [CharYourHerHis(CHARACTER)] advanced age." #NT!
+ nick_agot_historical_the_old_falcon: "the Old Falcon" #NT!
+ nick_agot_historical_the_old_grey_gull: "the Old Grey Gull" #NT!
+ nick_agot_historical_the_old_grey_gull_desc: "A priest of the Drowned God, [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] true name is unknown." #NT!
+ nick_agot_historical_the_old_king: "the Old King" #NT!
+ nick_agot_historical_the_old_king_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] lived to a truly old age which has, for good or ill, overshadowed other life works." #NT!
+ nick_agot_historical_the_old_kraken: "the Old Kraken" #NT!
+ nick_agot_historical_the_old_kraken_desc: "A King of the Iron Islands, [CHARACTER.GetShortUINameNoTooltipNoFormat] invaded the western shores of the north, taking Bear Island and Cape Kraken." #NT!
+ nick_agot_historical_the_old_ox: "the Old Ox" #NT!
+ nick_agot_historical_the_old_ox_desc: "An aged knight of some renown, [CHARACTER.GetShortUINameNoTooltipNoFormat] is clad in blood-red armor and a helm with black bull horns." #NT!
+ nick_agot_historical_the_old_prefix: "Old" #NT!
+ nick_agot_historical_the_old_steelhand: "the Old Steelhand" #NT!
+ nick_agot_historical_the_oldfather: "the Oldfather" #NT!
+ nick_agot_historical_the_oldfather_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] famed for fathering a hundred sons." #NT!
+ nick_agot_historical_the_one_after_the_fat_one: "The One After The Fat One" #NT!
+ nick_agot_historical_the_one_after_the_fat_one_desc: "This High Septon is known only for the enormity of his predecessor." #NT!
+ nick_agot_historical_the_onion_knight: "the Onion Knight" #NT!
+ nick_agot_historical_the_onion_knight_desc: "During the Siege of Storm's End, [CHARACTER.GetShortUINameNoTooltipNoFormat] evaded the blockading fleet to smuggle onions and salted fish to the starving defenders, earning [CharYourHerHimself(CHARACTER)] lands and a knighthood as [CharYourHerHis(CHARACTER)] reward." #NT!
+ nick_agot_historical_the_onion_lord: "the Onion Lord" #NT!
+ nick_agot_historical_the_openhanded: "the Open-Handed" #NT!
+ nick_agot_historical_the_openhanded_desc: "A disgraced knight of the Kingsguard, [CHARACTER.GetShortUINameNoTooltipNoFormat] shamed [CharYourHerHis(CHARACTER)] white cloak with [CharYourHerHis(CHARACTER)] cowardice." #NT!
+ nick_agot_historical_the_orange: "the Orange" #NT!
+ nick_agot_historical_the_painter: "the Painter" #NT!
+ nick_agot_historical_the_pale: "the Pale" #NT!
+ nick_agot_historical_the_pale_griffin: "the Pale Griffin" #NT!
+ nick_agot_historical_the_pale_griffin_desc: "Named for [CharYourHerHis(CHARACTER)] House's sigil, [CHARACTER.GetShortUINameNoTooltipNoFormat] serve[_s(CHARACTER)] as a knight of the Kingsguard." #NT!
+ nick_agot_historical_the_pander: "the Pander" #NT!
+ nick_agot_historical_the_pander_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] said to have allowed Aegon the Unworthy to take both [CharYourHerHis(CHARACTER)] wife and daughter to bed — some say at the same time." #NT!
+ nick_agot_historical_the_patriarch: "the Patriarch" #NT!
+ nick_agot_historical_the_patternmaker: "the Patternmaker" #NT!
+ nick_agot_historical_the_peasant_king: "the Peasant King" #NT!
+ nick_agot_historical_the_penniless: "the Penniless" #NT!
+ nick_agot_historical_the_penniless_desc: "A practical but impoverished hedge knight, [CHARACTER.GetShortUINameNoTooltipNoFormat] wield[_s(CHARACTER)] a battered blade and ride[_s(CHARACTER)] a half-starved horse." #NT!
+ nick_agot_historical_the_piglet: "the Piglet" #NT!
+ nick_agot_historical_the_pious: "the Pious" #NT!
+ nick_agot_historical_the_pious_will: "the Pious Will" #NT!
+ nick_agot_historical_the_pirate: "the Pirate" #NT!
+ nick_agot_historical_the_plowman: "the Plowman" #NT!
+ nick_agot_historical_the_plowman_desc: "The legendary founder of House Moreland, [CHARACTER.GetShortUINameNoTooltipNoFormat] lived during the Age of Heroes." #NT!
+ nick_agot_historical_the_poet: "the Poet" #NT!
+ nick_agot_historical_the_poetess: "the Poetess" #NT!
+ nick_agot_historical_the_prince_of_dragonflies: "the Prince of Dragonflies" #NT!
+ nick_agot_historical_the_proud_perwyn: "the Proud" #NT!
+ nick_agot_historical_the_proud_perwyn_desc: "As the head of House Osgrey, [CHARACTER.GetShortUINameNoTooltipNoFormat] built the greatest of their castles — Coldmoat." #NT!
+ nick_agot_historical_the_puppeteer: "the Puppeteer" #NT!
+ nick_agot_historical_the_purple: "the Purple" #NT!
+ nick_agot_historical_the_queen_of_thorns: "the Queen of Thorns" #NT!
+ nick_agot_historical_the_queen_of_thorns_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] is infamous for her sharp tongue and biting wit." #NT!
+ nick_agot_historical_the_queen_who_never_was: "the Queen Who Never Was" #NT!
+ nick_agot_historical_the_queen_who_never_was_desc: "Though nearly made [CHARACTER.Custom('GetQueenKing')] after the death of the last ruler, the great council ruled against [CharYourHerHis(CHARACTER)] claim." #NT!
+ nick_agot_historical_the_queer: "the Queer" #NT!
+ nick_agot_historical_the_quick: "the Quick" #NT!
+ nick_agot_historical_the_quickfinger: "the Quickfinger" #NT!
+ nick_agot_historical_the_quiver: "the Quiver" #NT!
+ nick_agot_historical_the_raper: "the Raper" #NT!
+ nick_agot_historical_the_raper_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ruled Bear Island as an Ironborn raider, before being slain in battle by the Hungry Wolf himself." #NT!
+ nick_agot_historical_the_raven: "the Raven" #NT!
+ nick_agot_historical_the_reader: "the Reader" #NT!
+ nick_agot_historical_the_reader_desc: "Unlike most ironborn, [CHARACTER.GetShortUINameNoTooltipNoFormat] feel[_s(CHARACTER)] more at home between the pages of a book than the deck of a ship." #NT!
+ nick_agot_historical_the_realms_delight: "the Realm's Delight" #NT!
+ nick_agot_historical_the_reaper: "the Reaper" #NT!
+ nick_agot_historical_the_reaver: "the Reaver" #NT!
+ nick_agot_historical_the_red: "the Red" #NT!
+ nick_agot_historical_the_red_crab: "the Red Crab" #NT!
+ nick_agot_historical_the_red_cofferer: "the Red Cofferer" #NT!
+ nick_agot_historical_the_red_dog: "the Red Dog of the Hills" #NT!
+ nick_agot_historical_the_red_dog_desc: "As the Grand Captain of the Warrior's Sons, [CHARACTER.GetShortUINameNoTooltipNoFormat] ruled the hill country north of the Golden Tooth in all but name." #NT!
+ nick_agot_historical_the_red_kraken: "the Red Kraken" #NT!
+ nick_agot_historical_the_red_kraken_desc: "As a sellsail in the Stepstones, [CHARACTER.GetShortUINameNoTooltipNoFormat] emerged from a battle drenched in blood from a dozen wounds." #NT!
+ nick_agot_historical_the_red_lion: "the Red Lion" #NT!
+ nick_agot_historical_the_red_lion_desc: "So-named for [CharYourHerHis(CHARACTER)] house's sigil, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known to be one of the deadliest men in the Westerlands. An immensely prideful man, [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] of the opinion that whether a lion wears gold or red, its claws are long and sharp all the same." #NT!
+ nick_agot_historical_the_red_viper: "the Red Viper" #NT!
+ nick_agot_historical_the_red_viper_desc: "As a young man, [CHARACTER.GetShortUINameNoTooltipNoFormat] dueled Lord Edgar Yronwood after being found abed with his paramour — gaining notoriety when the lord later died from the poison used in [CharYourHerHis(CHARACTER)] blade." #NT!
+ nick_agot_historical_the_red_widow: "the Red Widow" #NT!
+ nick_agot_historical_the_red_widow_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] survived four husbands at a young age, with none of [CharYourHerHis(CHARACTER)] children surviving infancy." #NT!
+ nick_agot_historical_the_redsmile: "the Redsmile" #NT!
+ nick_agot_historical_the_regent: "the Regent" #NT!
+ nick_agot_historical_the_rhoynar: "the Rhoynar" #NT!
+ nick_agot_historical_the_rhymer: "the Rhymer" #NT!
+ nick_agot_historical_the_riverman: "the Riverman" #NT!
+ nick_agot_historical_the_rodent: "the Rodent" #NT!
+ nick_agot_historical_the_rogue_prince: "the Rogue Prince" #NT!
+ nick_agot_historical_the_rogue_prince_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] widely known for [CharYourHerHis(CHARACTER)] rogueish and adventurous nature, having both spurned and inspired many in [CharYourHerHis(CHARACTER)] time." #NT!
+ nick_agot_historical_the_rook: "the Rook" #NT!
+ nick_agot_historical_the_ruin: "the Ruin" #NT!
+ nick_agot_historical_the_ruin_desc: "A savage combatant, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] been known to be so drunk in the frenzy of battle that [CharYouSheHe(CHARACTER)] do[_es(CHARACTER)] not feel [CharYourHerHis(CHARACTER)] wounds." #NT!
+ nick_agot_historical_the_ruined: "the Ruined" #NT!
+ nick_agot_historical_the_rune: "the Rune" #NT!
+ nick_agot_historical_the_saddlesore: "the Saddlesore" #NT!
+ nick_agot_historical_the_saddlesore_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] spent [CharYourHerHis(CHARACTER)] entire reign ahorse, crushing rebellions and hanging hostages across the Riverlands." #NT!
+ nick_agot_historical_the_sailmaker: "the Sailmaker" #NT!
+ nick_agot_historical_the_sailmaker_desc: "As Storm King, [CHARACTER.GetShortUINameNoTooltipNoFormat] sailed south to claim Estermont and its nearby isles for the Kingdom of the Storm." #NT!
+ nick_agot_historical_the_salt_rat: "the Salt Rat" #NT!
+ nick_agot_historical_the_sand_dog: "the Sand Dog" #NT!
+ nick_agot_historical_the_savage: "the Savage" #NT!
+ nick_agot_historical_the_scaly_prefix: "Scaly" #NT!
+ nick_agot_historical_the_scrapesword: "the Scrapesword" #NT!
+ nick_agot_historical_the_scribe: "the Scribe" #NT!
+ nick_agot_historical_the_scriverner: "the Scriverner" #NT!
+ nick_agot_historical_the_sculptor: "the Sculptor" #NT!
+ nick_agot_historical_the_sea_dragon: "the Sea Dragon" #NT!
+ nick_agot_historical_the_sea_lion_leo: "the Sea Lion" #NT!
+ nick_agot_historical_the_sea_lion_leo_desc: "A grizzled seafarer, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] adept in commanding the fleets of the Reach." #NT!
+ nick_agot_historical_the_sea_lion_lymond: "the Sea Lion" #NT!
+ nick_agot_historical_the_sea_lion_lymond_desc: "After swearing fealty to the Reach, [CHARACTER.GetShortUINameNoTooltipNoFormat] turned [CharYourHerHis(CHARACTER)] attention to [CharYourHerHis(CHARACTER)] 'great purpose' — the building of ships and conquest by sea." #NT!
+ nick_agot_historical_the_sea_snake: "the Sea Snake" #NT!
+ nick_agot_historical_the_sea_snake_desc: "Having sailed a great many voyages to sea, [CHARACTER.GetShortUINameNoTooltipNoFormat] now wear[_s(CHARACTER)] the name of [CharYourHerHis(CHARACTER)] ship like it is [CharYourHerHis(CHARACTER)] own." #NT!
+ nick_agot_historical_the_seeker: "the Seeker" #NT!
+ nick_agot_historical_the_shade_of_ghost_hill: "the Shade of Ghost Hill" #NT!
+ nick_agot_historical_the_shadow_sandoq: "the Shadow" #NT!
+ nick_agot_historical_the_shadow_sandoq_desc: "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] face is horribly disfigured — an affliction [CharYouSheHe(CHARACTER)] hide[_s(CHARACTER)] beneath a black silk veil." #NT!
+ nick_agot_historical_the_shaker: "the Shaker" #NT!
+ nick_agot_historical_the_shebear: "the She-Bear" #NT!
+ nick_agot_historical_the_shepherd: "the Shepherd" #NT!
+ nick_agot_historical_the_shieldsmasher: "the Shieldsmasher" #NT!
+ nick_agot_historical_the_shipwright: "the Shipwright" #NT!
+ nick_agot_historical_the_shipwright_desc: "Known for [CharYourHerHis(CHARACTER)] love of open water, [CHARACTER.GetShortUINameNoTooltipNoFormat] set out to sail the Sunset Sea and was never seen again." #NT!
+ nick_agot_historical_the_silver_lion: "the Silver Lion" #NT!
+ nick_agot_historical_the_silver_prefix: "Silver" #NT!
+ nick_agot_historical_the_silver_rose: "the Silver Rose" #NT!
+ nick_agot_historical_the_simple_vaella: "the Simple" #NT!
+ nick_agot_historical_the_simple_vaella_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] sweet, but simple-minded." #NT!
+ nick_agot_historical_the_sisterman: "the Sisterman" #NT!
+ nick_agot_historical_the_sisterman_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] hails from the Three Sisters." #NT!
+ nick_agot_historical_the_sleepy: "the Sleepy" #NT!
+ nick_agot_historical_the_sleepy_jack: "the Sleepy" #NT!
+ nick_agot_historical_the_sleepy_jack_desc: "As Lord Commander, [CHARACTER.GetShortUINameNoTooltipNoFormat] not only let an army of wildlings slip past the Wall, but also arrived too late to join the battle against them." #NT!
+ nick_agot_historical_the_small: "the Small" #NT!
+ nick_agot_historical_the_smiling_knight: "the Smiling Knight" #NT!
+ nick_agot_historical_the_smith: "the Smith" #NT!
+ nick_agot_historical_the_snail: "the Snail" #NT!
+ nick_agot_historical_the_snail_desc: "Some say [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] deserving of this moniker not only due to [CharYourHerHis(CHARACTER)] personal emblem, but because of [CharYourHerHis(CHARACTER)] propensity of 'hiding in [CharYourHerHis(CHARACTER)] shell'." #NT!
+ nick_agot_historical_the_snake_eater: "the Snake-Eater" #NT!
+ nick_agot_historical_the_sneaky: "the Sneaky" #NT!
+ nick_agot_historical_the_snowman: "the Snowman" #NT!
+ nick_agot_historical_the_soulless: "the Soulless" #NT!
+ nick_agot_historical_the_sour: "the Sour" #NT!
+ nick_agot_historical_the_sparrow: "the Sparrow" #NT!
+ nick_agot_historical_the_spring_king: "the Spring King" #NT!
+ nick_agot_historical_the_spring_prince: "the Spring Prince" #NT!
+ nick_agot_historical_the_spring_prince_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] born two days after the white ravens had flown from the Citadel to announce the arrival of spring." #NT!
+ nick_agot_historical_the_stargazer: "the Stargazer" #NT!
+ nick_agot_historical_the_stargazer_desc: "As an Archmaester of the Citadel, [CHARACTER.GetShortUINameNoTooltipNoFormat] teach[_es(CHARACTER)] and judge[_s(CHARACTER)] the subject of the heavens." #NT!
+ nick_agot_historical_the_starvling: "the Starvling" #NT!
+ nick_agot_historical_the_starvling_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] a prominent member of the order of the Poor Fellows." #NT!
+ nick_agot_historical_the_steelhand: "the Steelhand" #NT!
+ nick_agot_historical_the_stinger: "the Stinger" #NT!
+ nick_agot_historical_the_stinger_desc: "Skilled at arms, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] considered the finest lance in the Reach." #NT!
+ nick_agot_historical_the_stonemason: "The Stonemason" #NT!
+ nick_agot_historical_the_stonemason_desc: "This High Septon is known for their aptitude with stonemasonry, some even claiming them to be the Smith in the flesh." #NT!
+ nick_agot_historical_the_stormbreaker: "the Stormbreaker" #NT!
+ nick_agot_historical_the_stormbreaker_desc: "A famed knight, [CHARACTER.GetShortUINameNoTooltipNoFormat] earned [CharYourHerHis(CHARACTER)] name by besting two 'Storms' in a tourney." #NT!
+ nick_agot_historical_the_storyteller: "the Storyteller" #NT!
+ nick_agot_historical_the_stray: "the Stray" #NT!
+ nick_agot_historical_the_strong: "the Strong" #NT!
+ nick_agot_historical_the_strummer: "the Strummer" #NT!
+ nick_agot_historical_the_strummer_desc: "Both a knight and a singer, [CHARACTER.GetShortUINameNoTooltipNoFormat] mock[_s(CHARACTER)] [CharYourHerHis(CHARACTER)] opponents with ribald songs before battle." #NT!
+ nick_agot_historical_the_survivor: "the Survivor" #NT!
+ nick_agot_historical_the_sweet: "the Sweet" #NT!
+ nick_agot_historical_the_sweet_prefix: "Sweet" #NT!
+ nick_agot_historical_the_sweetling: "the Sweetling" #NT!
+ nick_agot_historical_the_sweetling_desc: "Soft-spoken and handsome, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] nonetheless a cruel and sadistic member of the Mountain's men." #NT!
+ nick_agot_historical_the_sword_of_the_evening: "the Sword of the Evening" #NT!
+ nick_agot_historical_the_sword_of_the_evening_desc: "Renowned as the greatest knight in all of Dorne, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] defeated by Nymeria, and thereafter sent to the Wall in golden fetters — a Sword of the Morning clad in black." #NT!
+ nick_agot_historical_the_sybarite: "the Sybarite" #NT!
+ nick_agot_historical_the_tall_duncan: "the Tall" #NT!
+ nick_agot_historical_the_tall_duncan_desc: "An inch shy of seven feet, [CHARACTER.GetShortUINameNoTooltipNoFormat] tower[_s(CHARACTER)] over most men." #NT!
+ nick_agot_historical_the_tall_gerhard: "the Tall" #NT!
+ nick_agot_historical_the_tall_gerhard_desc: "Tall of stature, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] the founder of House Forrester." #NT!
+ nick_agot_historical_the_tall_john: "the Tall" #NT!
+ nick_agot_historical_the_tall_john_desc: "As King of the Reach, [CHARACTER.GetShortUINameNoTooltipNoFormat] sailed [CharYourHerHis(CHARACTER)] barge up the Mander to its very headwaters and received homage from those whose lands lined the river's banks." #NT!
+ nick_agot_historical_the_tall_tallad: "the Tall" #NT!
+ nick_agot_historical_the_tall_tallad_desc: "Big and strapping, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] a promising knight despite [CharYourHerHis(CHARACTER)] common origin." #NT!
+ nick_agot_historical_the_tall_toregg: "the Tall" #NT!
+ nick_agot_historical_the_tall_toregg_desc: "The eldest son of Tormund Giantsbane, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] a foot taller than [CharYourHerHis(CHARACTER)] already enormous father." #NT!
+ nick_agot_historical_the_talon: "the Talon" #NT!
+ nick_agot_historical_the_talon_desc: "A fierce King of Mountain and Vale, [CHARACTER.GetShortUINameNoTooltipNoFormat] captured and burned the castle of the Wolf's Den during the wars between the North and the Vale." #NT!
+ nick_agot_historical_the_tame: "the Tame" #NT!
+ nick_agot_historical_the_tame_desc: "Sickly since birth, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] not much of a fighter." #NT!
+ nick_agot_historical_the_tanglebeard: "Tanglebeard" #NT!
+ nick_agot_historical_the_tanglebeard_desc: "A simple man from Dragonstone, [CHARACTER.GetShortUINameNoTooltipNoFormat] bear[_s(CHARACTER)] an unkempt beard." #NT!
+ nick_agot_historical_the_tangletongue: "Tangletongue" #NT!
+ nick_agot_historical_the_tangletongue_desc: "Born with a stutter, it is said that [CHARACTER.GetShortUINameNoTooltipNoFormat] heard more than [CharYouSheHe(CHARACTER)] said." #NT!
+ nick_agot_historical_the_tattered_prince: "the Tattered Prince" #NT!
+ nick_agot_historical_the_tattered_prince_desc: "Once chosen to be the Prince of Pentos, [CHARACTER.GetShortUINameNoTooltipNoFormat] fled to the Disputed Lands in fear of [CharYourHerHis(CHARACTER)] new station. As leader of the Windblown, [CharYouSheHe(CHARACTER)] wear[_s(CHARACTER)] a ragged cloak sewn of different colored twists of cloths." #NT!
+ nick_agot_historical_the_terrible: "the Terrible" #NT!
+ nick_agot_historical_the_terrible_togarion: "the Terrible" #NT!
+ nick_agot_historical_the_terrible_togarion_desc: "A feared Andal warlord, [CHARACTER.GetShortUINameNoTooltipNoFormat] drove away the stormlanders and forged a new kingdom in Massey's Hook." #NT!
+ nick_agot_historical_the_thrall: "the Thrall" #NT!
+ nick_agot_historical_the_thrall_desc: "Once a thrall [CharYourHerHimself(CHARACTER)], [CHARACTER.GetShortUINameNoTooltipNoFormat] now raid[_s(CHARACTER)] alongside the Ironborn." #NT!
+ nick_agot_historical_the_threadbare: "the Threadbare" #NT!
+ nick_agot_historical_the_threadbare_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so-named for [CharYourHerHis(CHARACTER)] personal emblem — a frayed maunch, white on brown." #NT!
+ nick_agot_historical_the_thrice_drowned: "the Thrice-Drowned" #NT!
+ nick_agot_historical_the_thrice_drowned_desc: "A priest of the Drowned God, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] renowned for [CharYourHerHis(CHARACTER)] remarkable success in performing the kiss of life." #NT!
+ nick_agot_historical_the_thrice_widowed: "the Thrice-Widowed" #NT!
+ nick_agot_historical_the_tickler_jon: "the Tickler" #NT!
+ nick_agot_historical_the_tickler_jon_desc: "One of the Mountain's Men, [CHARACTER.GetShortUINameNoTooltipNoFormat] serve[_s(CHARACTER)] as a torturer for Ser Gregor Clegane — a vocation [CharYouSheHe(CHARACTER)] seem[_s(CHARACTER)] to delight in." #NT!
+ nick_agot_historical_the_tiger: "the Tiger" #NT!
+ nick_agot_historical_the_tideman: "the Tideman" #NT!
+ nick_agot_historical_the_tiger_tessario: "the Tiger" #NT!
+ nick_agot_historical_the_tiger_tessario_desc: "Marked with tiger stripes across [CharYourHerHis(CHARACTER)] face and back, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] said to have once served as a tiger cloak of Volantis." #NT!
+ nick_agot_historical_the_titans_bastard: "the Titan's Bastard" #NT!
+ nick_agot_historical_the_titans_bastard_desc: "An infamous Braavosi sellsword, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] an evil reputation and often prove[_s(CHARACTER)] to be as dangerous to [CharYourHerHis(CHARACTER)] employers as to [CharYourHerHis(CHARACTER)] foes." #NT!
+ nick_agot_historical_the_toothless_lion: "the Toothless Lion" #NT!
+ nick_agot_historical_the_toothless_lion_desc: "Weak of will and anxious to please, [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] own bannermen defy [CharYouHerHim(CHARACTER)] openly and mock [CharYouHerHim(CHARACTER)] to [CharYourHerHis(CHARACTER)] face — a practice some call 'twisting the lion's tail'." #NT!
+ nick_agot_historical_the_tormentor_tyrion: "the Tormentor" #NT!
+ nick_agot_historical_the_tormentor_tyrion_desc: "Known for [CharYourHerHis(CHARACTER)] delight in torture, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] said to take no delight in women unless [CharYouSheHe(CHARACTER)] first make[_s(CHARACTER)] them bleed." #NT!
+ nick_agot_historical_the_trader: "the Trader" #NT!
+ nick_agot_historical_the_true: "the True" #NT!
+ nick_agot_historical_the_trueborn: "the Trueborn" #NT!
+ nick_agot_historical_the_twisted_peremore: "the Twisted" #NT!
+ nick_agot_historical_the_twisted_peremore_desc: "Born with a withered arm and twisted back, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] bedridden for much of [CharYourHerHis(CHARACTER)] short life." #NT!
+ nick_agot_historical_the_ugly_erich: "the Ugly" #NT!
+ nick_agot_historical_the_ugly_erich_desc: "Condemned to death after unlawfully declaring [CharYourHerHimself(CHARACTER)] as High King, [CHARACTER.GetShortUINameNoTooltipNoFormat] avoided [CharYourHerHis(CHARACTER)] fate by casting [CharYourHerHis(CHARACTER)] father's crown to the sea." #NT!
+ nick_agot_historical_the_uncrowned: "the Uncrowned" #NT!
+ nick_agot_historical_the_uncrowned_desc: "Unjustly usurped by [CharYourHerHis(CHARACTER)] uncle, [CHARACTER.GetShortUINameNoTooltipNoFormat] did not survive [CharYourHerHis(CHARACTER)] sire long enough to be crowned as the next [CHARACTER.Custom('GetQueenKing')|U] of the Seven Kingdoms." #NT!
+ nick_agot_historical_the_unlikely: "the Unlikely" #NT!
+ nick_agot_historical_the_unlikely_desc: "Never expecting to inherit, [CHARACTER.GetShortUINameNoTooltipNoFormat] went from a distant relative to next-in-line due to a series of unfortunate circumstances." #NT!
+ nick_agot_historical_the_unready_erich: "the Unready" #NT!
+ nick_agot_historical_the_unready_erich_desc: "Declaring that [CharYouSheHe(CHARACTER)] had no interest in the quarrels of strangers in a land far away, [CHARACTER.GetShortUINameNoTooltipNoFormat] ignored the invasion that would soon engulf all of Westeros." #NT!
+ nick_agot_historical_the_unsmiling: "the Unsmiling" #NT!
+ nick_agot_historical_the_unsmiling_desc: "Acclaimed as the fiercest reaver of [CharYourHerHis(CHARACTER)] time, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] never known to smile." #NT!
+ nick_agot_historical_the_unworthy: "the Unworthy" #NT!
+ nick_agot_historical_the_unworthy_desc: "Rather than working to be worthy of [CharYourHerHis(CHARACTER)] inherited responsibility, [CHARACTER.GetShortUINameNoTooltipNoFormat] wiled away [CharYourHerHis(CHARACTER)] days to the disappointment of all." #NT!
+ nick_agot_historical_the_valiant_victor: "Described as good-hearted, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] made a knight of the Kingsguard for being one of the champions of the War for the White Cloaks." #NT!
+ nick_agot_historical_the_veiled_lady: "the Veiled Lady" #NT!
+ nick_agot_historical_the_visitor: "the Visitor" #NT!
+ nick_agot_historical_the_vole: "the Vole" #NT!
+ nick_agot_historical_the_vole_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] a small, hairy, and homely man." #NT!
+ nick_agot_historical_the_vulture: "the Vulture" #NT!
+ nick_agot_historical_the_vulture_king: "the Vulture King" #NT!
+ nick_agot_historical_the_wanderer: "the Wanderer" #NT!
+ nick_agot_historical_the_wanderer_desc: "Skilled in arms, [CHARACTER.GetShortUINameNoTooltipNoFormat] serve[_s(CHARACTER)] the Seven as a knight of the Warrior's Sons." #NT!
+ nick_agot_historical_the_wandering_wolf: "the Wandering Wolf" #NT!
+ nick_agot_historical_the_wandering_wolf_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] traveled far from [CharYourHerHis(CHARACTER)] home in the North and served as a sellsword with the Second Sons." #NT!
+ nick_agot_historical_the_war_hound: "the War Hound" #NT!
+ nick_agot_historical_the_wasp: "the Wasp" #NT!
+ nick_agot_historical_the_wasp_desc: "A knight of the Kingsguard, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] given [CharYourHerHis(CHARACTER)] position after being victorious in the War for the White Cloaks." #NT!
+ nick_agot_historical_the_weak_legs: "the Weak Legs" #NT!
+ nick_agot_historical_the_weeper_gendel: "the Weeper" #NT!
+ nick_agot_historical_the_weeper_gendel_desc: "A notorious raider of the Free Folk, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] given this moniker due to [CharYourHerHis(CHARACTER)] watery eyes." #NT!
+ nick_agot_historical_the_wetnurse: "the Wetnurse" #NT!
+ nick_agot_historical_the_white: "the White" #NT!
+ nick_agot_historical_the_white_bastard: "the White Bastard" #NT!
+ nick_agot_historical_the_white_bull: "the White Bull" #NT!
+ nick_agot_historical_the_white_fawn: "the White Fawn" #NT!
+ nick_agot_historical_the_white_owl: "the White Owl" #NT!
+ nick_agot_historical_the_white_owl_desc: "A knight of the Kingsguard, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] so-named for the sigil of [CharYourHerHis(CHARACTER)] house — an owl." #NT!
+ nick_agot_historical_the_white_worm: "the White Worm" #NT!
+ nick_agot_historical_the_white_worm_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so-dubbed by [CharYourHerHis(CHARACTER)] foes for [CharYourHerHis(CHARACTER)] pale skin and loathsome reputation." #NT!
+ nick_agot_historical_the_white_watchman: "the White Watchman" #NT!
+ nick_agot_historical_the_whoreson: "the Whoreson" #NT!
+ nick_agot_historical_the_whoreson_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] blew [CharYourHerHis(CHARACTER)] warhorn as a signal for the whores of Kayce to open a postern gate, allowing [CharYourHerHis(CHARACTER)] men to capture the town for House Lannister." #NT!
+ nick_agot_historical_the_widower: "the Widower" #NT!
+ nick_agot_historical_the_widowmaker: "the Widowmaker" #NT!
+ nick_agot_historical_the_widowmaker_desc: "Opposed by priests of the Drowned God, [CHARACTER.GetShortUINameNoTooltipNoFormat] allowed the construction of the first sept in the Iron Islands on Great Wyk." #NT!
+ nick_agot_historical_the_wild_flower: "the Wild Flower" #NT!
+ nick_agot_historical_the_wild_prefix: "Wild" #NT!
+ nick_agot_historical_the_winter_child: "the Winter Child" #NT!
+ nick_agot_historical_the_winter_child_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so-named for being born in a winter year, though some also say that [CharYouSheHe(CHARACTER)] [CharWereWas(CHARACTER)] also called thus due to [CharYourHerHis(CHARACTER)] mother being in the winter of her childbearing years." #NT!
+ nick_agot_historical_the_winterfast: "the Winterfast" #NT!
+ nick_agot_historical_the_witch: "the Witch" #NT!
+ nick_agot_historical_the_woe_gyles: "the Woe" #NT!
+ nick_agot_historical_the_woe_gyles_desc: "As King of the Reach, [CHARACTER.GetShortUINameNoTooltipNoFormat] brutally sacked Oldtown and reportedly sold three-fourths of its people into slavery." #NT!
+ nick_agot_historical_the_wolf: "the Wolf" #NT!
+ nick_agot_historical_the_wolf_korm: "the Wolf" #NT!
+ nick_agot_historical_the_woodcock: "the Woodcock" #NT!
+ nick_agot_historical_the_woodcock_desc: "The youngest of those that fought in the War for the White Cloaks, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] knighted by Ser Joffrey Doggett himself to end the accusation that [CharYouSheHe(CHARACTER)] [CharWereWas(CHARACTER)] no true knight." #NT!
+ nick_agot_historical_the_wordsmith: "the Wordsmith" #NT!
+ nick_agot_historical_the_yellow: "the Yellow" #NT!
+ nick_agot_historical_the_young: "the Young" #NT!
+ nick_agot_historical_the_young_dragon: "the Young Dragon" #NT!
+ nick_agot_historical_the_young_falcon: "the Young Falcon" #NT!
+ nick_agot_historical_the_young_falcon_desc: "By some also called 'the Heir', [CHARACTER.GetShortUINameNoTooltipNoFormat] became the heir presumptive to the Eyrie after [CharYourHerHis(CHARACTER)] great-uncle lost three heirs in succession." #NT!
+ nick_agot_historical_the_young_prince: "the Young Prince" #NT!
+ nick_agot_historical_the_young_prince_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] the eldest son of Baelor 'Breakspear', himself a prince and the eldest son of King Daeron II." #NT!
+ nick_agot_historical_the_young_wolf: "the Young Wolf" #NT!
+ nick_agot_historical_the_young_wolf_desc: "So-named by friend and foe alike, [CHARACTER.GetShortUINameNoTooltipNoFormat] proved [CharYourHerHis(CHARACTER)] mettle despite [CharYourHerHis(CHARACTER)] young age." #NT!
+ nick_agot_historical_the_younger: "the Younger" #NT!
+ nick_agot_historical_the_youngest: "the Youngest" #NT!
+ nick_agot_historical_third_goose: "Third Feather" #NT!
+ nick_agot_historical_third_goose_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] the third in a set of triplets." #NT!
+ nick_agot_historical_three_finger: "Three-Finger" #NT!
+ nick_agot_historical_three_finger_desc: "One of [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] hands [CharAreIs(CHARACTER)] maimed, leaving only the three fingers for which [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] named." #NT!
+ nick_agot_historical_three_toes: "Three Toes" #NT!
+ nick_agot_historical_three_tooth: "Three-Tooth" #NT!
+ nick_agot_historical_three_tooth_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] oddly named for the number of teeth [CharYouSheHe(CHARACTER)] bear[_s(CHARACTER)]." #NT!
+ nick_agot_historical_threeskins: "Threeskins" #NT!
+ nick_agot_historical_threeskins_desc: "A gifted skinchanger, [CHARACTER.GetShortUINameNoTooltipNoFormat] wear[_s(CHARACTER)] the skins of three beasts." #NT!
+ nick_agot_historical_thunderbolt: "Thunderbolt" #NT!
+ nick_agot_historical_thunderbolt_tybolt: "Thunderbolt" #NT!
+ nick_agot_historical_thunderbolt_tybolt_desc: "As King of the Rock, [CHARACTER.GetShortUINameNoTooltipNoFormat] defeated the first Andal warriors to march into the Westerlands." #NT!
+ nick_agot_historical_toad: "Toad" #NT!
+ nick_agot_historical_toad_desc: "A short man with small and shiny pig-eyes, [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] appearance has led others to bestow [CharYouHerHim(CHARACTER)] with this unfortunate moniker." #NT!
+ nick_agot_historical_too_tall: "Too-Tall" #NT!
+ nick_agot_historical_tourney_goose: "the Tourney Gander" #NT!
+ nick_agot_historical_tourney_goose_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] enjoy[_s(CHARACTER)] jousts and tourneys without caring overmuch of the risks." #NT!
+ nick_agot_historical_trusty: "Trusty" #NT!
+ nick_agot_historical_twelve_tooth: "Twelve-Tooth" #NT!
+ nick_agot_historical_twelve_tooth_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] oddly named for the number of teeth [CharYouSheHe(CHARACTER)] bear[_s(CHARACTER)]" #NT!
+ nick_agot_historical_twice_over: "Twice-Over" #NT!
+ nick_agot_historical_two_swords: "Two Swords" #NT!
+ nick_agot_historical_two_swords_desc: "A sellsword in service to the Golden Company, [CHARACTER.GetShortUINameNoTooltipNoFormat] always bear[_s(CHARACTER)] two weapons in [CharYourHerHis(CHARACTER)] person." #NT!
+ nick_agot_historical_wanderer: "Wanderer" #NT!
+ nick_agot_historical_warwolf: "Warwolf" #NT!
+ nick_agot_historical_white: "White" #NT!
+ nick_agot_historical_white_mask: "White Mask" #NT!
+ nick_agot_historical_white_mask_desc: "A warrior witch, [CHARACTER.GetShortUINameNoTooltipNoFormat] wear[_s(CHARACTER)] a white weirwood mask to cover [CharYourHerHis(CHARACTER)] visage." #NT!
+ nick_agot_historical_whitebow: "Whitebow" #NT!
+ nick_agot_historical_whiteye: "Whiteye" #NT!
+ nick_agot_historical_whiteye_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] blind in [CharYourHerHis(CHARACTER)] left eye." #NT!
+ nick_agot_historical_whittlestick: "Whittlestick" #NT!
+ nick_agot_historical_whoresbane_hother: "Whoresbane" #NT!
+ nick_agot_historical_whoresbane_hother_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] disemboweled a whore that tried to rob [CharYouHerHim(CHARACTER)] — though the story is told only in whispers, for some say that the whore was a man." #NT!
+ nick_agot_historical_witch_eye: "Witch-Eye" #NT!
+ nick_agot_historical_yellow: "Yellow" #NT!
+  

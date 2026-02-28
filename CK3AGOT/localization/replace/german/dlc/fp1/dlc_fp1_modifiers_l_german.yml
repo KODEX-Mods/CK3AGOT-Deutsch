@@ -18,10 +18,10 @@
  generous_host_fp1_modifier: "Großzügiger Gastgeber"
  generous_host_fp1_modifier_desc: "Dieser Charakter ist bekannt dafür, Wanderer mit Höflichkeit und Respekt zu behandeln und ihnen auch eine heiße Mahlzeit zukommen zu lassen."
   #AGOT Modified 
- # phantom_island_trivia_fp1_modifier: "Mysteries of the Atlantic" #NT!
- # phantom_island_trivia_fp1_modifier_desc: "This character remembers many interesting tales of the mysterious islands of the Atlantic." #NT!
- phantom_island_trivia_fp1_modifier: "Maritime Mysteries" #NT!
- phantom_island_trivia_fp1_modifier_desc: "This character remembers many interesting tales of mysterious islands of the world." #NT!
+ # phantom_island_trivia_fp1_modifier: "Mysteries of the Atlantic"
+ # phantom_island_trivia_fp1_modifier_desc: "This character remembers many interesting tales of the mysterious islands of the Atlantic."
+ phantom_island_trivia_fp1_modifier: "Maritime Mysteries"
+ phantom_island_trivia_fp1_modifier_desc: "This character remembers many interesting tales of mysterious islands of the world."
  phantom_island_critique_fp1_modifier: "Kritischer Geist"
  phantom_island_critique_fp1_modifier_desc: "Dieser Charakter ist für seine Skepsis gegenüber dem Seemannsgarn bekannt, das gewisse Seeleute spinnen."
  exotic_foreign_lord_fp1_modifier: "Exotischer fremder Fürst"

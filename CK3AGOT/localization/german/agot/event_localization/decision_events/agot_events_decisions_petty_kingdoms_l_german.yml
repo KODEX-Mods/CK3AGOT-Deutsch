@@ -1,0 +1,47 @@
+﻿l_german:
+  
+ agot_proclaim.a: "Yet another false [Select_CString(agot_proclaimed_kingqueen.IsFemale,'Queen','King')]."
+ agot_proclaim.b: "Long live the [Select_CString(agot_proclaimed_kingqueen.IsFemale,'Queen','King')]!"
+ agot_proclaim.c: "I am the one true [Select_CString(agot_proclaimed_kingqueen.IsFemale,'Queen','King')]."
+  
+ agot_proclaim.0001.t: "The Iron Throne Reformed"
+ agot_proclaim.0001.desc: "In a significant turn of events, a new ruler has emerged, uniting the lands of Westeros under a single banner. \n\nAfter years of relentless battles, cunning diplomacy, and strategic marriages, this leader has achieved what many thought impossible — the reformation of the Iron Throne. Holding five of the nine empire titles within Westeros, this ruler has demonstrated unmatched prowess and determination. \n\nThe Iron Throne, once shattered and its legacy tarnished by conflict, has been restored through sheer will and ambition. The Seven Kingdoms, once divided by rivalries and wars, now look upon a new era of potential peace and stability. \n\nThe lords and ladies of Westeros must now reckon with this new reality. Will you bend the knee to this new ruler or challenge the might of the Iron Throne?"
+  
+ agot_proclaim.0100.t: "The Kingdom of Runestone Reformed" #NT!
+ agot_proclaim.0100.desc: "A new ruler has emerged in the Vale, successfully reuniting the territories and restoring the ancient Kingdom of Runestone.\n\nThis leader has revived the legacy of House Royce, bringing strength and stability back to the region.\n\nThis resurgence marks a significant shift in the balance of power. How will you respond to this new force in the Vale?" #NT!
+  
+ agot_proclaim.0101.t: "The Kingdom of the Sisters Reformed" #NT!
+ agot_proclaim.0101.desc: "A new ruler has emerged in the Bite, successfully reuniting the territories and restoring the Kingdom of the Sisters.\n\nThis leader has revived the legacy of House Sunderland, bringing strength and stability back to the region.\n\nThis resurgence marks a significant shift in the balance of power. How will you respond to this new force in the Bite?" #NT!
+  
+ agot_proclaim.0200.t: "The Kingdom of Bear Island Reformed" #NT!
+ agot_proclaim.0200.desc: "A new ruler has emerged in the North, successfully reuniting the territories and restoring the Kingdom of Bear Island.\n\nThis leader has revived the legacy of House Mormont, bringing strength and stability back to the region.\n\nThis resurgence marks a significant shift in the balance of power. How will you respond to this new force in the North?" #NT!
+  
+ agot_proclaim.0201.t: "The Kingdom of Greystones Reformed" #NT!
+ agot_proclaim.0201.desc: "A new ruler has emerged in the North, successfully reuniting the territories and restoring the Kingdom of Greystones.\n\nThis leader has revived the legacy of House Slate, bringing strength and stability back to the region.\n\nThis resurgence marks a significant shift in the balance of power. How will you respond to this new force in the North?" #NT!
+  
+ agot_proclaim.0300.t: "The Kingdom of Great Wyk Reformed" #NT!
+ agot_proclaim.0300.desc: "A new ruler has emerged in the Iron Islands, successfully reuniting the territories and restoring the Kingdom of Great Wyk.\n\nThis leader has revived the legacy of House Goodbrother, bringing strength and stability back to the region.\n\nThis resurgence marks a significant shift in the balance of power. How will you respond to this new force in the Iron Islands?" #NT!
+  
+ agot_proclaim.0301.t: "The Kingdom of Old Wyk Reformed" #NT!
+ agot_proclaim.0301.desc: "A new ruler has emerged in the Iron Islands, successfully reuniting the territories and restoring the Kingdom of Ironman's Bay.\n\nThis leader has revived the legacy of House Drumm, bringing strength and stability back to the region.\n\nThis resurgence marks a significant shift in the balance of power. How will you respond to this new force in the Iron Islands?" #NT!
+  
+ agot_proclaim.0400.t: "The Kingdom of the Blackwood Vale Reformed" #NT!
+ agot_proclaim.0400.desc: "A new ruler has emerged in the Riverlands, successfully reuniting the territories and restoring the Kingdom of the Blackwood Vale.\n\nThis leader has revived the legacy of House Blackwood, bringing strength and stability back to the region.\n\nThis resurgence marks a significant shift in the balance of power. How will you respond to this new force in the Riverlands?" #NT!
+  
+ agot_proclaim.0401.t: "The Kingdom of the Red Fork Reformed" #NT!
+ agot_proclaim.0401.desc: "A new ruler has emerged in the Riverlands, successfully reuniting the territories and restoring the Kingdom of the Red Fork.\n\nThis leader has revived the legacy of House Bracken, bringing strength and stability back to the region.\n\nThis resurgence marks a significant shift in the balance of power. How will you respond to this new force in the Riverlands?" #NT!
+  
+ agot_proclaim.0500.t: "The Kingdom of Fair Isle Reformed" #NT!
+ agot_proclaim.0500.desc: "A new ruler has emerged in the Westerlands, successfully reuniting the territories and restoring the Kingdom of Fair Isle.\n\nThis leader has revived the legacy of House Farman, bringing strength and stability back to the region.\n\nThis resurgence marks a significant shift in the balance of power. How will you respond to this new force in the Westerlands?" #NT!
+  
+ agot_proclaim.0600.t: "The Kingdom of Stone and Sky Reformed" #NT!
+ agot_proclaim.0600.desc: "A new ruler has risen in Dorne, successfully reuniting the territories and restoring the Kingdom of Stone and Sky.\n\nThis leader has revived the legacy of House Fowler, bringing strength and stability back to the region.\n\nThis resurgence marks a significant shift in the balance of power. How will you respond to this new force in Dorne?" #NT!
+  
+ agot_proclaim.0601.t: "The Kingdom of the Torrentine Reformed" #NT!
+ agot_proclaim.0601.desc: "A new ruler has emerged in Dorne, successfully reuniting the territories and restoring the Kingdom of the Torrentine.\n\nThis leader has revived the legacy of House Dayne, bringing strength and stability back to the region.\n\nThis resurgence marks a significant shift in the balance of power. How will you respond to this new force in Dorne?" #NT!
+  
+ agot_proclaim.0602.t: "The Kingdom of Godsgrace Reformed" #NT!
+ agot_proclaim.0602.desc: "A new ruler has emerged in Dorne, successfully reuniting the territories and restoring the Kingdom of Godsgrace.\n\nThis leader has revived the legacy of House Allyrion, bringing strength and stability back to the region.\n\nThis resurgence marks a significant shift in the balance of power. How will you respond to this new force in Dorne?" #NT!
+  
+ agot_proclaim.0603.t: "The Kingdom of the Tor Reformed" #NT!
+ agot_proclaim.0603.desc: "A new ruler has emerged in Dorne, successfully reuniting the territories and restoring the Kingdom of the Tor.\n\nThis leader has revived the legacy of House Jordayne, bringing strength and stability back to the region.\n\nThis resurgence marks a significant shift in the balance of power. How will you respond to this new force in Dorne?" #NT!

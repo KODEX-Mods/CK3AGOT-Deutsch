@@ -1,0 +1,134 @@
+﻿l_german:
+  
+ agot_appearance_decisions_events.1000.t: "A Vibrant Array" #NT!
+ agot_appearance_decisions_events.1000.desc: "Dozens of exotic and ostentatious colors are laid before me, a rainbow formed across the table. I eagerly gaze upon my options, trying to imagine which would suit me best. After a moment of consideration, a servant taps me on the shoulder. "Has any tone caught your eye, my [ROOT.Char.GetLadyLord|U]?"" #NT!
+ agot_appearance_decisions_events.1000.a: "Red" #NT!
+ agot_appearance_decisions_events.1000.b: "Orange" #NT!
+ agot_appearance_decisions_events.1000.c: "Yellow" #NT!
+ agot_appearance_decisions_events.1000.d: "Green" #NT!
+ agot_appearance_decisions_events.1000.e: "Blue" #NT!
+ agot_appearance_decisions_events.1000.f: "Purple" #NT!
+ agot_appearance_decisions_events.1000.g: "Pink" #NT!
+ agot_appearance_decisions_events.1000.h: "I miss my natural color." #NT!
+ agot_appearance_decisions_events.1000.i: "Never mind." #NT!
+ agot_appearance_decisions_events.more_reds: "More Reds" #NT!
+ agot_appearance_decisions_events.more_oranges: "More Oranges" #NT!
+ agot_appearance_decisions_events.more_yellows: "More Yellows" #NT!
+ agot_appearance_decisions_events.more_greens: "More Greens" #NT!
+ agot_appearance_decisions_events.more_blues: "More Blues" #NT!
+ agot_appearance_decisions_events.more_purples: "More Purples" #NT!
+ agot_appearance_decisions_events.more_pinks: "More Pinks" #NT!
+ agot_appearance_decisions_events.main: "Return To Start" #NT!
+  
+ agot_hair_dye.poppy_hair_dye: "Poppy"
+ agot_hair_dye.asshaii_scarlet_hair_dye: "Asshai'i Scarlet"
+ agot_hair_dye.ghost_rose_hair_dye: "Ghost Rose"
+ agot_hair_dye.hibiscus_hair_dye_hash: "Hibiscus" #NT!
+ agot_hair_dye.aquan_red_hair_dye: "Aquan Red"
+ agot_hair_dye.ghiscari_copper_hair_dye: "Ghiscari Copper"
+ agot_hair_dye.hranna_bloom_hair_dye: "Hranna Bloom"
+ agot_hair_dye.melee_hair_dye: "Melee"
+ agot_hair_dye.bloodstone_red_hair_dye: "Bloodstone Red"
+ agot_hair_dye.passioned_plea_hair_dye: "Passioned Plea"
+ agot_hair_dye.dragons_breath_hair_dye: "Dragon's Breath"
+ agot_hair_dye.cut_crimson_hair_dye: "Cut Crimson"
+ agot_hair_dye.rich_madder_hair_dye: "Rich Madder"
+ agot_hair_dye.womens_weapon_hair_dye: "Women's Weapon"
+ agot_hair_dye.maidens_game_hair_dye: "Maiden's Game"
+ agot_hair_dye.sarhoy_flush_hair_dye: "Sarhoy Flush"
+ agot_hair_dye.pennyroyal_hair_dye: "Pennyroyal"
+ agot_hair_dye.sweet_lotus_hair_dye: "Sweet Lotus"
+ agot_hair_dye.oleander_heart_hair_dye: "Oleander Heart"
+ agot_hair_dye.panteras_bite_hair_dye: "Pantera's Bite"
+ agot_hair_dye.lovers_blush_hair_dye: "Lover's Blush"
+ agot_hair_dye.sunset_on_the_narrows_hair_dye: "Sunset on the Narrows"
+ agot_hair_dye.pink_graces_hair_dye: "Pink Graces"
+ agot_hair_dye.wild_cherry_hair_dye: "Wild Cherry"
+ agot_hair_dye.twilight_ruby_hair_dye: "Twilight Ruby"
+ agot_hair_dye.trueborn_hair_dye: "Trueborn"
+ agot_hair_dye.mountain_magenta_hair_dye: "Mountain Magenta"
+ agot_hair_dye.pink_cardoon_hair_dye: "Pink Cardoon"
+ agot_hair_dye.lord_of_the_seas_hair_dye: "Lord of the Seas"
+ agot_hair_dye.nightshade_hair_dye: "Nightshade"
+ agot_hair_dye.secret_city_hair_dye: "Secret City"
+ agot_hair_dye.lavender_haze_hair_dye: "Lavender Haze"
+ agot_hair_dye.winesink_hair_dye: "Winesink"
+ agot_hair_dye.courtesan_locks_hair_dye: "Courtesan Locks"
+ agot_hair_dye.thistles_touch_hair_dye: "Thistle's Touch"
+ agot_hair_dye.lilac_dream_hair_dye: "Lilac Dream"
+ agot_hair_dye.dornish_plum_hair_dye: "Dornish Plum"
+ agot_hair_dye.archonite_hair_dye: "Archonite"
+ agot_hair_dye.emperors_tune_hair_dye: "Emperor's Tune"
+ agot_hair_dye.palemoon_hair_dye: "Moon-Pale"
+ agot_hair_dye.princely_hair_dye: "Princely"
+ agot_hair_dye.misty_cloud_hair_dye: "Misty Cloud"
+ agot_hair_dye.shade_of_the_evening_hair_dye: "Shade of the Evening"
+ agot_hair_dye.spirit_of_sapphire_hair_dye: "Spirit of Sapphire"
+ agot_hair_dye.winter_rose_hair_dye: "Winter Rose"
+ agot_hair_dye.bluejay_hair_dye: "Bluejay"
+ agot_hair_dye.azure_crown_hair_dye: "Azure Crown"
+ agot_hair_dye.shivering_ends_hair_dye: "Shivering Ends"
+ agot_hair_dye.melange_sea_hair_dye: "Melange Sea"
+ agot_hair_dye.berry_mash_hair_dye: "Berry Mash"
+ agot_hair_dye.mummers_mask_hair_dye: "Mummer's Mask"
+ agot_hair_dye.coldsnap_hair_dye: "Coldsnap"
+ agot_hair_dye.griffins_hide_hair_dye: "Griffin's Hide"
+ agot_hair_dye.crashing_waves_hair_dye: "Crashing Waves"
+ agot_hair_dye.mermaids_flowers_hair_dye: "Mermaid's Flowers"
+ agot_hair_dye.glittering_galley_hair_dye: "Glittering Galley"
+ agot_hair_dye.myrish_lace_hair_dye: "Myrish Lace"
+ agot_hair_dye.shadowmint_hair_dye: "Shadowmint"
+ agot_hair_dye.seaglass_hair_dye: "Seaglass"
+ agot_hair_dye.jungles_welcome_hair_dye: "Jungle's Welcome"
+ agot_hair_dye.viridescent_charm_hair_dye: "Viridescent Charm"
+ agot_hair_dye.clover_hair_dye: "Clover"
+ agot_hair_dye.merling_green_hair_dye: "Merling Green"
+ agot_hair_dye.imperial_jade_hair_dye: "Imperial Jade"
+ agot_hair_dye.evergreen_hair_dye: "Evergreen"
+ agot_hair_dye.cliffmoss_hair_dye: "Cliffmoss"
+ agot_hair_dye.wildfire_hair_dye: "Wildfire"
+ agot_hair_dye.selhoru_skies_hair_dye: "Selhoru Skies"
+ agot_hair_dye.verdant_mane_hair_dye: "Verdant Mane"
+ agot_hair_dye.summer_emerald_hair_dye: "Summer Emerald"
+ agot_hair_dye.isles_venom_hair_dye: "Isle's Venom"
+ agot_hair_dye.olive_hair_dye: "Olive"
+ agot_hair_dye.pipers_grass_hair_dye: "Piper's Grass"
+ agot_hair_dye.yellow_toad_hair_dye: "Yellow Toad"
+ agot_hair_dye.evening_star_hair_dye: "Evening Star"
+ agot_hair_dye.lemon_cake_hair_dye: "Lemon Cake"
+ agot_hair_dye.goldenrod_hair_dye: "Goldenrod"
+ agot_hair_dye.bees_wax_hair_dye: "Bee's Wax"
+ agot_hair_dye.honeywine_hair_dye: "Honeywine"
+ agot_hair_dye.rogare_gold_hair_dye: "Rogare Gold"
+ agot_hair_dye.aged_cheddar_hair_dye: "Aged Cheddar"
+ agot_hair_dye.ambitious_amber_hair_dye: "Ambitious Amber"
+ agot_hair_dye.saffron_hair_dye: "Saffron"
+ agot_hair_dye.lantern_glow_hair_dye: "Lantern Glow"
+ agot_hair_dye.spiced_pumpkin_hair_dye: "Spiced Pumpkin"
+ agot_hair_dye.peach_petals_hair_dye: "Peach Petals"
+ agot_hair_dye.coastal_orange_hair_dye: "Coastal Orange"
+ agot_hair_dye.tigers_poise_hair_dye: "Tiger's Poise"
+ agot_hair_dye.blood_orange_hair_dye: "Blood Orange"
+ agot_hair_dye.coral_hair_dye: "Coral"
+  
+ agot_appearance_decisions_events.4000.t: "Commissioning a Mask" #NT!
+ agot_appearance_decisions_events.4000.desc: "I find myself once more staring at my disfigured face in the mirror. I've been catching myself doing this more often since I removed the bandages and chose to show my face to the world. The more I look, the more disgusted I become by what stares back at me. The familiar lines of my face have been forever altered, and I'm unsure how I can continue to see myself this way.\n\nI realize I must do something to save myself from this torment. I cannot rule if I cannot focus on anything except the broken horror that stares back at me from every reflection..." #NT!
+ agot_appearance_decisions_events.4000.a: "A mask to cover the disfigurement will suit me." #NT!
+ agot_appearance_decisions_events.4000.b: "I must cover my entire face!" #NT!
+ agot_appearance_decisions_events.4000.c: "No, I am [disfigured_root.GetNameNoTooltip]! I do not need a mask!" #NT!
+  
+ agot_appearance_decisions_events.4001.t: "Showing My Face to the World" #NT!
+ agot_appearance_decisions_events.4001.desc: "Just as I have done every morning since commissioning my mask, I place the leather strap around my scalp and feel the cold, unforgiving metal fall upon my broken visage. With a heavy sigh, I cross the room, take the hand mirror from the side table, and raise it to my face.\n\nI look into the mirror with disgust. A coward who was too afraid to show [ROOT.Char.GetHerHis] true self to the world... Not for the first time, I wonder if I should leave the mask in my chambers and hold court with my face uncovered, just as it is." #NT!
+ agot_appearance_decisions_events.4001.a: "I will remove my mask and show my face to the world once more!" #NT!
+ agot_appearance_decisions_events.4001.b: "No, I can't bare it." #NT!
+  
+ agot_appearance_decisions_events.5000.t: "One Eye Upon the World" #NT!
+ agot_appearance_decisions_events.5000.desc: "I examine my reflection, uncertain whether this is the right way to present the loss of my eye. Another option may serve me better.\n\nSeveral coverings are laid out before me. I must choose whether to take one up, or to face the realm as I am." #NT!
+ agot_appearance_decisions_events.5000.a: "$agot_health_events.4000.a$" #NT!
+ agot_appearance_decisions_events.5000.b: "$agot_health_events.4000.b$" #NT!
+ agot_appearance_decisions_events.5000.c: "$agot_health_events.4000.c$" #NT!
+ agot_appearance_decisions_events.5000.d: "$agot_health_events.4000.d$" #NT!
+ agot_appearance_decisions_events.5000.e: "$agot_health_events.4000.e$" #NT!
+ agot_appearance_decisions_events.5000.f: "$agot_health_events.4000.f$" #NT!
+ agot_appearance_decisions_events.5000.g: "$agot_health_events.4000.g$" #NT!
+ agot_appearance_decisions_events.5000.h: "This is acceptable." #NT!

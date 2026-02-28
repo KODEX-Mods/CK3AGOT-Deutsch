@@ -57,8 +57,8 @@
  court.6020.t: "Besessenheit bei Hofe"
  court.6020.desc_opening: "Der Zustand von [possessed_char.GetTitledFirstName] ist ebenso mysteriös wie beängstigend."
   #AGOT Modified 
- #court.6020.desc_chaplain: "\n\nAccording to [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetTitledFirstName]," #NT!
- court.6020.desc_chaplain: "\n\nAccording to [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)]," #NT!
+ #court.6020.desc_chaplain: "\n\nAccording to [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetTitledFirstName],"
+ court.6020.desc_chaplain: "\n\nAccording to [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)],"
  court.6020.desc_no_chaplain: "\n\nEs ist allgemein bekannt, dass eine dunkle Wesenheit Besitz von [possessed_char.Custom('DE_PRO_POS_S_3P')]em Körper ergriffen hat und sich gelegentlich durch eine unbeherrschbare Stärke manifestiert."
  court.6020.desc_middle: "Die Häufigkeit und Heftigkeit, mit der dieses Phänomen auftritt, verursacht jedoch zunehmende Beunruhigung unter meinen Höflingen. [court_chaplain.Custom('DE_PRO_PER_S_3P_N')] fürchtet, die böse Präsenz könne die Macht übernehmen und Chaos und Tod unter uns verbreiten."
  court.6020.desc_physician: "\n\n[court_physician.GetTitledFirstName] beruhigt mich mit der Aussage, dass [possessed_char.GetFirstNameNoTooltip] #EMP an sich#! noch nie gefährlich war,"
@@ -109,21 +109,21 @@
  court.6050.t: "Anzügliche Lektüre"
  court.6050.desc_opening: "In letzter Zeit kann ich nicht umhin, die Scharen kichernder Maiden und sonst so disziplinierter Krieger zu bemerken, die sich in dunklen Nischen versammeln, um verzückt einem Buch zu lauschen. \n\nHeute habe ich endlich [courtier.GetTitledFirstName] mit dem Buch in [courtier.Custom('DE_PRO_POS_S_3P')]en Händen in die Enge treiben können."
   #AGOT Modified 
- #court.6050.desc_byz: "Despite its cover suggesting a pious book of prayers, it is a licentious novel, written centuries ago by our pagan forefathers! There's a beautiful maiden, pirates, temptations, and lustful pages upon pages filled with unholy desires..." #NT!
- court.6050.desc_byz: "Despite its cover suggesting a pious book of prayers, it is a licentious novel, drawn from centuries-old First Men tales! There's a beautiful lady, Ironborn reavers, temptations, and lustful pages upon pages filled with unholy desires..." #NT!
+ #court.6050.desc_byz: "Despite its cover suggesting a pious book of prayers, it is a licentious novel, written centuries ago by our pagan forefathers! There's a beautiful maiden, pirates, temptations, and lustful pages upon pages filled with unholy desires..."
+ court.6050.desc_byz: "Despite its cover suggesting a pious book of prayers, it is a licentious novel, drawn from centuries-old First Men tales! There's a beautiful lady, Ironborn reavers, temptations, and lustful pages upon pages filled with unholy desires..."
   #AGOT Modified 
- #court.6050.desc_islam: "Quickly scanning through the text, I find pirates, scantily-clothed maidens, luxury-driven kings, lascivious and devious queens, and even an enriched street-rat who marries a princess through the help of a djinn..." #NT!
- court.6050.desc_islam: "Quickly scanning through the text, I find corsairs of the Stepstones, scantily-clothed Lysene noblewomen, luxury-driven archons, lascivious and devious magisters, and even an enriched street-rat who marries a Westerosi princess through the help of a sphinx..." #NT!
+ #court.6050.desc_islam: "Quickly scanning through the text, I find pirates, scantily-clothed maidens, luxury-driven kings, lascivious and devious queens, and even an enriched street-rat who marries a princess through the help of a djinn..."
+ court.6050.desc_islam: "Quickly scanning through the text, I find corsairs of the Stepstones, scantily-clothed Lysene noblewomen, luxury-driven archons, lascivious and devious magisters, and even an enriched street-rat who marries a Westerosi princess through the help of a sphinx..."
   #AGOT Modified 
- #court.6050.desc_sonetti: "There are pages upon pages of poetry, graceful in form, but lascivious in nature. The angelic beauty of all sort of women is exalted by gentle words, which can barely cover the poet's very earthly desire..." #NT!
- court.6050.desc_sonetti: "There are pages upon pages of poetry, graceful in form, but lascivious in nature. The inhuman beauty of all sort of women is exalted by gentle words, which can barely cover the poet's very earthly desire..." #NT!
+ #court.6050.desc_sonetti: "There are pages upon pages of poetry, graceful in form, but lascivious in nature. The angelic beauty of all sort of women is exalted by gentle words, which can barely cover the poet's very earthly desire..."
+ court.6050.desc_sonetti: "There are pages upon pages of poetry, graceful in form, but lascivious in nature. The inhuman beauty of all sort of women is exalted by gentle words, which can barely cover the poet's very earthly desire..."
   #AGOT Modified 
- #court.6050.desc_chaucer: "All are tales from pilgrims on the road; however, they don't deal with the salvation of their souls, but with gory murders and unfaithful wives..." #NT!
- court.6050.desc_chaucer: "All are tales from pilgrims on the road; however, they don't deal with the beauty of the Seven, but with gory murders and unfaithful ladies..." #NT!
+ #court.6050.desc_chaucer: "All are tales from pilgrims on the road; however, they don't deal with the salvation of their souls, but with gory murders and unfaithful wives..."
+ court.6050.desc_chaucer: "All are tales from pilgrims on the road; however, they don't deal with the beauty of the Seven, but with gory murders and unfaithful ladies..."
  court.6050.desc_generic: "Es ist eindeutig ein zügelloser Text, randvoll mit sinnlichen Verlockungen, irdischen Verführungen und üppigen Busen …"
   #AGOT Modified 
- #court.6050.desc_ending: "\n\nI am silent while I ponder the probable reaction of [court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstName], and [courtier.GetFirstNameNoTooltip] stares at me in apprehension." #NT!
- court.6050.desc_ending: "\n\nI am silent while I ponder the probable reaction of [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)], and [courtier.GetFirstNameNoTooltip] stares at me in apprehension." #NT!
+ #court.6050.desc_ending: "\n\nI am silent while I ponder the probable reaction of [court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstName], and [courtier.GetFirstNameNoTooltip] stares at me in apprehension."
+ court.6050.desc_ending: "\n\nI am silent while I ponder the probable reaction of [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)], and [courtier.GetFirstNameNoTooltip] stares at me in apprehension."
  court.6050.a: "Meine armen Augen!"
  court.6050.b: "Läutert es mit Feuer!"
  court.6050.b.tt: "Ihr lasst alle Kopien des skandalösen Texts verbrennen und verbietet ihn an Eurem Hof"
@@ -139,8 +139,8 @@
   #The Joys of Wine 
  court.6060.t: "Die Freuden des Weins"
   #AGOT Modified 
- #court.6060.desc_opening: "All of a sudden, [court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstName] and [court_physician.Custom2('MyCharacterIntroduction', ROOT.Char)] barge into the throne room, bickering.\n\n"Wine offends [ROOT.Char.GetFaith.HighGodName]! It #EMP must#! be avoided!" screeches [court_chaplain.GetFirstNameNoTooltip].\n\n"A bit of wine is healthy for the body!" replies [court_physician.GetFirstNameNoTooltip]." #NT!
- court.6060.desc_opening: "All of a sudden, [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)] and [court_physician.Custom2('MyCharacterIntroduction', ROOT.Char)] barge into the throne room, bickering.\n\n"Wine offends [ROOT.Char.GetFaith.HighGodName]! It #EMP must#! be avoided!" screeches [court_chaplain.GetFirstNameNicknamedNoTooltip].\n\n"A bit of wine is healthy for the body!" replies [court_physician.GetFirstNameNoTooltip]." #NT!
+ #court.6060.desc_opening: "All of a sudden, [court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstName] and [court_physician.Custom2('MyCharacterIntroduction', ROOT.Char)] barge into the throne room, bickering.\n\n"Wine offends [ROOT.Char.GetFaith.HighGodName]! It #EMP must#! be avoided!" screeches [court_chaplain.GetFirstNameNoTooltip].\n\n"A bit of wine is healthy for the body!" replies [court_physician.GetFirstNameNoTooltip]."
+ court.6060.desc_opening: "All of a sudden, [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)] and [court_physician.Custom2('MyCharacterIntroduction', ROOT.Char)] barge into the throne room, bickering.\n\n"Wine offends [ROOT.Char.GetFaith.HighGodName]! It #EMP must#! be avoided!" screeches [court_chaplain.GetFirstNameNicknamedNoTooltip].\n\n"A bit of wine is healthy for the body!" replies [court_physician.GetFirstNameNoTooltip]."
  court.6060.desc_drunkard_courtier:1 "\n\nFrom a corner of the room, [courtier_drunkard.GetTitledFirstName] interrupts the discussion: "\n\nFrom a corner of the room, [courtier_drunkard.GetTitledFirstName] interrupts the discussion: "The only amount of wine that is good for you is #EMP ALL OF IT#!!"" #NT!
  court.6060.desc_ending: "\n\nWie stehe ich zum Thema Wein?"
  court.6060.a: "Wein öffnet die Tür für die finsteren Mächte!"
@@ -151,7 +151,7 @@
  court.6060.d: "Die Antwort darauf liegt auf dem Boden dieses Kruges!"
   # The Value of Letters 
  court.6070.t: "Der Wert von Briefen"
- court.6070.desc:0 "I can feel the judging stares of all my courtiers on me while I slowly, carefully sign my name on a new decree with a trembling pen and uncertain hand. \n\nOf course, #EMP signing#! is a strong word. I am merely retracing letters carved in a wooden tablet - and barely succeeding at it. Today, even [tutor_6070.Custom2('MyCharacterIntroduction', ROOT.Char)] is looking at me with what I guess is a mix of pity and disgust. \n\nBefore I can reprimand [tutor_6070.GetHerHim] for disrespecting me, [tutor_6070.GetSheHe] interjects with a hopeful tone: "I can feel the judging stares of all my courtiers on me while I slowly, carefully sign my name on a new decree with a trembling pen and uncertain hand. \n\nOf course, #EMP signing#! is a strong word. I am merely retracing letters carved in a wooden tablet - and barely succeeding at it. Today, even [tutor_6070.Custom2('MyCharacterIntroduction', ROOT.Char)] is looking at me with what I guess is a mix of pity and disgust. \n\nBefore I can reprimand [tutor_6070.GetHerHim] for disrespecting me, [tutor_6070.GetSheHe] interjects with a hopeful tone: "My [ROOT.Char.GetLadyLord], perhaps it's time for you to learn to read and write properly?"" #NT!
+ court.6070.desc: "Ich spüre die prüfenden Blicke all meiner Höflinge auf mir, während ich mit zittriger Feder und unsicherer Hand langsam und vorsichtig meinen Namen auf einen neuen Erlass schreibe.\n\n#EMP Schreiben#! ist so ein großes Wort. Ich zeichne nur Buchstaben ab, die in eine Holztafel geritzt sind – und selbst das gelingt mir kaum. Heute sieht mich sogar [tutor_6070.Custom2('MyCharacterIntroduction', ROOT.Char)] mit einer Mischung aus Mitleid und Verachtung an.\n\nEhe ich [tutor_6070.Custom('DE_PRO_PER_S_3P_A')] für [tutor_6070.Custom('DE_PRO_POS_S_3P')]e Respektlosigkeit zurechtweisen kann, wirft [tutor_6070.Custom('DE_PRO_PER_S_3P_N')] in hoffnungsvollem Tonfall ein: „[ROOT.Char.Custom('FormOfAddressForLiege')|U], vielleicht ist es an der Zeit, dass Ihr richtig lesen und schreiben lernt?“"
  court.6070.a: "Lehrt es mich #EMP auf der Stelle#!!"
  court.6070.a.success: "Ich lerne erfolgreich lesen und schreiben"
  court.6070.a.failure: "Lesen und schreiben lernen zu wollen, ist bei mir ein hoffnungsloses Unterfangen"
@@ -198,7 +198,7 @@
  court.6090.desc.teacher: "[6090_poet.GetFirstName|U], [Select_CString(6090_poet.IsFemale, 'eine vor berühmte Lehrerin, die', 'ein vor Ort berühmter Lehrer, der')] gerade unseren Hof besucht, scheint nicht mehr weiter zu wissen,"
  court.6090.desc.middle: "während [6090_child_a.GetFirstNameNoTooltip] und [6090_child_b.GetFirstName] [6090_poet.Custom('DE_PRO_PER_S_3P_A')] mit den teilnahmslosesten Mienen mustern, die ich je auf ihren jungen Gesichtern sah."
  court.6090.desc_other: "[6090_child_c.GetFirstName] ist zu einem Fenster davongestromert und zeigt offenkundig mehr Interesse an #EMP allem#!, was immer draußen auch vor sich gehen mag."
- court.6090.desc_end:0 "\n\nWhen [6090_poet.GetHerHis] eyes meet mine, [6090_poet.GetFirstNameNoTooltip] begs of me: "\n\nWhen [6090_poet.GetHerHis] eyes meet mine, [6090_poet.GetFirstNameNoTooltip] begs of me: "My [ROOT.Char.GetLadyLord], #EMP please#!, I'm just trying to explain your children the fine art of rhetoric, as required by their noble birth..."" #NT!
+ court.6090.desc_end:0 "\n\nWhen [6090_poet.GetHerHis] eyes meet mine, [6090_poet.GetFirstNameNoTooltip] begs of me: "\n\nWhen [6090_poet.GetHerHis] eyes meet mine, [6090_poet.GetFirstNameNoTooltip] begs of me: "[ROOT.Char.Custom('FormOfAddressForLiege')|U], #EMP please#!, I'm just trying to explain your children the fine art of rhetoric, as required by their noble birth..."" #NT!
  court.6090.a: "Aufgepasst, Kinder! Ihr werdet das brauchen."
  court.6090.b: "Lasst mich Euch das Ganze etwas einfacher erklären."
  court.6090.b.success: "Die Kinder sind beeindruckt"

@@ -829,10 +829,10 @@
  stony_shore_004: "Steinige Küste"
  stony_shore_005: "Steinige Küste"
  stony_shore_006: "Steinige Küste"
- storm_sea: "Storm Sea" #NT!
+ storm_sea: "Storm Sea"
  storm_sea_002: "Sturmmeer"
  storm_sea_003: "Sturmmeer"
- shore_of_braavos: "Shore of Braavos" #NT!
+ shore_of_braavos: "Shore of Braavos"
  straits_of_braavos: "Straße von Braavos"
  straits_of_braavos_002: "Straße von Braavos"
  straits_of_braavos_003: "Straße von Braavos"
@@ -1052,7 +1052,7 @@
  the_blue_fork_008: "Blauer Arm"
  the_blue_fork_009: "Blauer Arm"
  the_gods_eye: "Götterauge"
- gods_eye: "The Gods Eye" #NT!
+ gods_eye: "The Gods Eye"
  the_green_fork: "Grünen Arm"
  the_green_fork_002: "Grüner Arm"
  the_green_fork_003: "Grüner Arm"
@@ -1086,7 +1086,7 @@
  the_grey_sea_003: "Graues Meer"
  the_grey_sea_004: "Graues Meer"
  the_grey_sea_005: "Graues Meer"
- masseys_coast: "Massey's Coast" #NT!
+ masseys_coast: "Massey's Coast"
  the_gullet: "Gurgel"
  the_gullet_002: "Gurgel"
  the_gullet_003: "Gurgel"
@@ -1139,3 +1139,8 @@
  rocky_coast: "Felsenküste"
  bay_plc_1: "Walrossbucht"
  bay_plc_2: "Walrossbucht"
+ b_impassable_sea_2: "Sunset Sea" #NT!
+ b_impassable_sea_3: "Summer Sea" #NT!
+ b_impassable_sea_4: "Jade Sea" #NT!
+ b_impassable_sea_5: "Jade Sea" #NT!
+ b_impassable_sea_6: "Shivering Sea" #NT!

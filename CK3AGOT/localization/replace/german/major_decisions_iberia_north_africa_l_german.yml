@@ -180,12 +180,12 @@
  iberia_north_africa.2105.a: "Niemand kann sich uns entgegenstellen!"
   
   #AGOT Modified 
- #iberia_north_africa.fp2_golden_age_generic_title_intro: "Golden Age Science:" #NT!
- iberia_north_africa.fp2_golden_age_generic_title_intro: "Traveling Scholar:" #NT!
+ #iberia_north_africa.fp2_golden_age_generic_title_intro: "Golden Age Science:"
+ iberia_north_africa.fp2_golden_age_generic_title_intro: "Traveling Scholar:"
  iberia_north_africa.2001.t: "$iberia_north_africa.fp2_golden_age_generic_title_intro$ Verlorenes Wissen"
   #AGOT Modified 
- #iberia_north_africa.2001.desc: "A famed translator, [generated_actor.GetFullName], has arrived at my court after hearing that I was sponsoring the sciences. "If it is knowledge you seek, the best can be found in books of old. For while it may be forgotten, it does not hold any less true." states the translator.\n\n"I have with me many books that remain untranslated, if you sponsor me, you will surely benefit from it too!"" #NT!
- iberia_north_africa.2001.desc: "A traveling maester, [generated_actor.GetFullName], has arrived at my court after hearing that I was sponsoring the research. "If it is knowledge you seek, the best can be found in books of old. For while it may be forgotten, it does not hold any less true." states the translator.\n\n"I have with me many books that remain untranslated, if you sponsor me, you will surely benefit from it too!"" #NT!
+ #iberia_north_africa.2001.desc: "A famed translator, [generated_actor.GetFullName], has arrived at my court after hearing that I was sponsoring the sciences. "If it is knowledge you seek, the best can be found in books of old. For while it may be forgotten, it does not hold any less true." states the translator.\n\n"I have with me many books that remain untranslated, if you sponsor me, you will surely benefit from it too!""
+ iberia_north_africa.2001.desc: "A traveling maester, [generated_actor.GetFullName], has arrived at my court after hearing that I was sponsoring the research. "If it is knowledge you seek, the best can be found in books of old. For while it may be forgotten, it does not hold any less true." states the translator.\n\n"I have with me many books that remain untranslated, if you sponsor me, you will surely benefit from it too!""
  iberia_north_africa.2001.a: "Ich werde für"
  iberia_north_africa.2001.a.learning: "philosophische"
  iberia_north_africa.2001.a.martial: "militärkundliche"
@@ -196,14 +196,14 @@
  iberia_north_africa.2001.b: "Ihr habt meine Unterstützung. Bringt mir etwas Nützliches."
  iberia_north_africa.2001.b.a: "[generated_actor.GetFirstNameNoTooltip] wird Euch ein zufälliges [skill|E]verbesserndes Buch geben"
   #AGOT Modified 
- #iberia_north_africa.2001.c: "Why would I want old books? History has no place in science!" #NT!
- iberia_north_africa.2001.c: "Why would I want old books? History has no place in the world of the future!" #NT!
+ #iberia_north_africa.2001.c: "Why would I want old books? History has no place in science!"
+ iberia_north_africa.2001.c: "Why would I want old books? History has no place in the world of the future!"
   #AGOT Modified 
- #iberia_north_africa.2002.t: "$iberia_north_africa.fp2_golden_age_generic_title_intro$ Starry-eyed Surgeon" #NT!
- iberia_north_africa.2002.t: "$iberia_north_africa.fp2_golden_age_generic_title_intro$ Starry-eyed Red Hand" #NT!
+ #iberia_north_africa.2002.t: "$iberia_north_africa.fp2_golden_age_generic_title_intro$ Starry-eyed Surgeon"
+ iberia_north_africa.2002.t: "$iberia_north_africa.fp2_golden_age_generic_title_intro$ Starry-eyed Red Hand"
   #AGOT Modified 
- #iberia_north_africa.2002.desc: ""My liege, please make this fool listen! This surgeon performed a cataract operation on my right eye but now refuses to fix my left!" exclaims [patientzero.GetTitledFirstName]. "The operation was only successful because the conjunction of the stars was perfect. You #italic must#! wait twelve more years to ensure another successful operation!" replies the frustrated doctor, [generated_actor.GetFirstName].\n\nAs ruler, it is my duty to settle such matters. Should I interfere with astrology and risk a botched surgery?" #NT!
- iberia_north_africa.2002.desc: ""My liege, please make this fool listen! This Red Hand healer performed a cataract operation on my right eye but now refuses to fix my left!" exclaims [patientzero.GetTitledFirstName]. "The operation was only successful because the conjunction of the stars was perfect. You #italic must#! wait twelve more years to ensure another successful operation!" replies the frustrated doctor, [generated_actor.GetFirstName].\n\nAs ruler, it is my duty to settle such matters. Should I interfere with astrology and risk a botched surgery?" #NT!
+ #iberia_north_africa.2002.desc: ""My liege, please make this fool listen! This surgeon performed a cataract operation on my right eye but now refuses to fix my left!" exclaims [patientzero.GetTitledFirstName]. "The operation was only successful because the conjunction of the stars was perfect. You #italic must#! wait twelve more years to ensure another successful operation!" replies the frustrated doctor, [generated_actor.GetFirstName].\n\nAs ruler, it is my duty to settle such matters. Should I interfere with astrology and risk a botched surgery?"
+ iberia_north_africa.2002.desc: ""My liege, please make this fool listen! This Red Hand healer performed a cataract operation on my right eye but now refuses to fix my left!" exclaims [patientzero.GetTitledFirstName]. "The operation was only successful because the conjunction of the stars was perfect. You #italic must#! wait twelve more years to ensure another successful operation!" replies the frustrated doctor, [generated_actor.GetFirstName].\n\nAs ruler, it is my duty to settle such matters. Should I interfere with astrology and risk a botched surgery?"
  iberia_north_africa.2002.a: "Das ist eine wunderbare Gelegenheit für [child_offering.GetFirstNameNoTooltip], Medizin zu erlernen!"
  iberia_north_africa.2002.a.flavor: "Ihr bietet Eurem Kind [child_offering.GetFirstName] an, bei der Kataraktoperation nach der Saugmethode von [patientzero.GetFirstName] zur Hand zu gehen."
  iberia_north_africa.2002.a.a: "[child_offering.GetFirstName] assistiert bei der Operation"
@@ -214,48 +214,48 @@
  iberia_north_africa.2002.d: "#italic Eigentlich#! stehen die Sterne genau richtig, wenn man sie #italic so#! betrachtet!"
  iberia_north_africa.2003.t: "$iberia_north_africa.fp2_golden_age_generic_title_intro$ Widerstreitende Wesen"
   #AGOT Modified 
- #iberia_north_africa.2003.desc: "Many scholars have come and past through [playerprovince.GetNameNoTooltip] since granting my sponsor, but two of them have stuck out to me. Perhaps it is because they are both individuals of vast intellect, perhaps it is because they #italic wont shut up#! and stop arguing about minute differences of belief in middle of my court. "I #italic refuse#! to work with a fool such as [generated_actor_r.GetFirstName]!" exclaims [generated_actor_k.GetFirstName] before [generated_actor_r.GetFirstName] replies with "Fine by me, I'd never work with someone as stubborn as #italic you!#!"\n\n"[ROOT.Char.GetTitledFirstName], what do you believe? Is it the role of the philosopher to explain the natural world or does it fall under the authority of the prophet?"" #NT!
- iberia_north_africa.2003.desc: "Many scholars have come and passed through [playerprovince.GetNameNoTooltip] since granting my sponsor, but two of them have stuck out to me. Perhaps it is because they are both individuals of vast intellect, perhaps it is because they #italic won't shut up#! and stop arguing about minute differences of belief in middle of my court.\n\n"I #italic refuse#! to work with a fool such as [generated_actor_r.GetFirstName]!" exclaims [generated_actor_k.GetFirstName] before [generated_actor_r.GetFirstName] replies with "Fine by me, I'd never work with someone as stubborn as #italic you!#!"\n\n"[ROOT.Char.GetTitledFirstName], what do you believe? Is it the role of the maester to explain the natural world or does it fall under the authority of the septon?"" #NT!
+ #iberia_north_africa.2003.desc: "Many scholars have come and past through [playerprovince.GetNameNoTooltip] since granting my sponsor, but two of them have stuck out to me. Perhaps it is because they are both individuals of vast intellect, perhaps it is because they #italic wont shut up#! and stop arguing about minute differences of belief in middle of my court. "I #italic refuse#! to work with a fool such as [generated_actor_r.GetFirstName]!" exclaims [generated_actor_k.GetFirstName] before [generated_actor_r.GetFirstName] replies with "Fine by me, I'd never work with someone as stubborn as #italic you!#!"\n\n"[ROOT.Char.GetTitledFirstName], what do you believe? Is it the role of the philosopher to explain the natural world or does it fall under the authority of the prophet?""
+ iberia_north_africa.2003.desc: "Many scholars have come and passed through [playerprovince.GetNameNoTooltip] since granting my sponsor, but two of them have stuck out to me. Perhaps it is because they are both individuals of vast intellect, perhaps it is because they #italic won't shut up#! and stop arguing about minute differences of belief in middle of my court.\n\n"I #italic refuse#! to work with a fool such as [generated_actor_r.GetFirstName]!" exclaims [generated_actor_k.GetFirstName] before [generated_actor_r.GetFirstName] replies with "Fine by me, I'd never work with someone as stubborn as #italic you!#!"\n\n"[ROOT.Char.GetTitledFirstName], what do you believe? Is it the role of the maester to explain the natural world or does it fall under the authority of the septon?""
  iberia_north_africa.2003.a: "Eigentlich fällt es in #ber meine#! Autorität. Und jetzt zurück an die Arbeit."
  iberia_north_africa.2003.a.flavor: "Ihr beleidigt beide Gelehrte, sodass sie ihre Abscheu auf Euch richten anstatt aufeinander."
   #AGOT Modified 
- #iberia_north_africa.2003.b: "Philosophers of course, wise men like Aristutalis should." #NT!
- iberia_north_africa.2003.b: "Maesters of course, that is why Peremore gathered them." #NT!
+ #iberia_north_africa.2003.b: "Philosophers of course, wise men like Aristutalis should."
+ iberia_north_africa.2003.b: "Maesters of course, that is why Peremore gathered them."
   #AGOT Modified 
- #iberia_north_africa.2003.c: "How can you believe philosophers if you cannot trust Ezekiel?" #NT!
- iberia_north_africa.2003.c: "How can you believe maesters if you cannot trust Robeson?" #NT!
+ #iberia_north_africa.2003.c: "How can you believe philosophers if you cannot trust Ezekiel?"
+ iberia_north_africa.2003.c: "How can you believe maesters if you cannot trust Robeson?"
  iberia_north_africa.fp2_pilgrim_roads_generic_title_intro: "Pilgerstraßen:"
  iberia_north_africa.2011.t: "$iberia_north_africa.fp2_pilgrim_roads_generic_title_intro$ Wandernd[generated_actor.Custom('DE_END_ADJ_IND_S_N')] Krieger[generated_actor.Custom('DE_END_NOU_S_GS_N')]"
   #AGOT Modified 
- #iberia_north_africa.2011.desc: "As I wander through the [chosen_location_for_pilgrim_roads.GetName], I come across a large tree quietly tempting me to rest below it. I sit beneath the cool shade alongside  a [generated_actor.GetWomanMan]. "Are you a pilgrim?" I ask." #NT!
- #iberia_north_africa.2011.desc_merge_into: "To which the resting figure answers," #NT!
- #iberia_north_africa.2011.desc_soldier: "$iberia_north_africa.2011.desc_merge_into$ "I am but a misguided warrior by the name of [generated_actor.GetName]. I've come to visit [chosen_holy_site_for_pilgrim_roads.GetNameNoTier] to find why [generated_actor.GetFaith.HighGodName] has forsaken me and to know where I must drive my blade next."" #NT!
- #iberia_north_africa.2011.desc_captain: "$iberia_north_africa.2011.desc_merge_into$ "Perhaps, I am. But I recognize myself as more of a lost soul. My name is [generated_actor.GetName], former captain of a holy order, now wondering vagabond in search of [generated_actor.GetFaith.HighGodName] and a greater cause to serve."" #NT!
- #iberia_north_africa.2011.a: "[generated_actor.GetFaith.HighGodName] would want you to join my ranks, [generated_actor.GetFirstNameNoTooltip]." #NT!
- #iberia_north_africa.2011.b: "I am certain [generated_actor.GetFaith.HighGodName] wants you to keep wandering in search of foes." #NT!
- iberia_north_africa.2011.desc: "As I wander through the [chosen_location_for_pilgrim_roads.GetName], I come upon an old oak whose cool shade tempts me to rest beneath its branches. I leave my retainers to sit there alone for a moment when I notice the legs of a [generated_actor.GetWomanMan] lying in the grass on the other side. With a light step, I round the trunk to ask softly, "Are you a pilgrim as well?"" #NT!
- iberia_north_africa.2011.desc_merge_into: "The resting warrior sits up at my voice then rises as they recognize my station before offering a quick bow," #NT!
- iberia_north_africa.2011.desc_soldier: "$iberia_north_africa.2011.desc_merge_into$ "Only a misguided warrior. [generated_actor.GetName] they call me. I travel the roseroad to [chosen_holy_site_for_pilgrim_roads.GetNameNoTier] that I may discover why [generated_actor.GetFaith.HighGodName] has forsaken me... and learn how I might wield my blade to regain their favor."" #NT!
- iberia_north_africa.2011.desc_captain: "$iberia_north_africa.2011.desc_merge_into$ "Perhaps I am. But I recognize myself as more of a lost soul. My name is [generated_actor.GetName], former captain of a holy order, now wondering vagabond in search of [generated_actor.GetFaith.HighGodName] and a greater cause to serve."" #NT!
- iberia_north_africa.2011.a: "Surely [generated_actor.GetFaith.HighGodName] sent me to you just as it sent you to me, [generated_actor.GetFirstNameNoTooltip]." #NT!
- iberia_north_africa.2011.b: "I have no doubt [generated_actor.GetFaith.HighGodName] would charge you to protect the roseroad." #NT!
+ #iberia_north_africa.2011.desc: "As I wander through the [chosen_location_for_pilgrim_roads.GetName], I come across a large tree quietly tempting me to rest below it. I sit beneath the cool shade alongside  a [generated_actor.GetWomanMan]. "Are you a pilgrim?" I ask."
+ #iberia_north_africa.2011.desc_merge_into: "To which the resting figure answers,"
+ #iberia_north_africa.2011.desc_soldier: "$iberia_north_africa.2011.desc_merge_into$ "I am but a misguided warrior by the name of [generated_actor.GetName]. I've come to visit [chosen_holy_site_for_pilgrim_roads.GetNameNoTier] to find why [generated_actor.GetFaith.HighGodName] has forsaken me and to know where I must drive my blade next.""
+ #iberia_north_africa.2011.desc_captain: "$iberia_north_africa.2011.desc_merge_into$ "Perhaps, I am. But I recognize myself as more of a lost soul. My name is [generated_actor.GetName], former captain of a holy order, now wondering vagabond in search of [generated_actor.GetFaith.HighGodName] and a greater cause to serve.""
+ #iberia_north_africa.2011.a: "[generated_actor.GetFaith.HighGodName] would want you to join my ranks, [generated_actor.GetFirstNameNoTooltip]."
+ #iberia_north_africa.2011.b: "I am certain [generated_actor.GetFaith.HighGodName] wants you to keep wandering in search of foes."
+ iberia_north_africa.2011.desc: "As I wander through the [chosen_location_for_pilgrim_roads.GetName], I come upon an old oak whose cool shade tempts me to rest beneath its branches. I leave my retainers to sit there alone for a moment when I notice the legs of a [generated_actor.GetWomanMan] lying in the grass on the other side. With a light step, I round the trunk to ask softly, "Are you a pilgrim as well?""
+ iberia_north_africa.2011.desc_merge_into: "The resting warrior sits up at my voice then rises as they recognize my station before offering a quick bow,"
+ iberia_north_africa.2011.desc_soldier: "$iberia_north_africa.2011.desc_merge_into$ "Only a misguided warrior. [generated_actor.GetName] they call me. I travel the roseroad to [chosen_holy_site_for_pilgrim_roads.GetNameNoTier] that I may discover why [generated_actor.GetFaith.HighGodName] has forsaken me... and learn how I might wield my blade to regain their favor.""
+ iberia_north_africa.2011.desc_captain: "$iberia_north_africa.2011.desc_merge_into$ "Perhaps I am. But I recognize myself as more of a lost soul. My name is [generated_actor.GetName], former captain of a holy order, now wondering vagabond in search of [generated_actor.GetFaith.HighGodName] and a greater cause to serve.""
+ iberia_north_africa.2011.a: "Surely [generated_actor.GetFaith.HighGodName] sent me to you just as it sent you to me, [generated_actor.GetFirstNameNoTooltip]."
+ iberia_north_africa.2011.b: "I have no doubt [generated_actor.GetFaith.HighGodName] would charge you to protect the roseroad."
  iberia_north_africa.2011.b.flavor: "Ihr ermutigt, [generated_actor.Custom('DE_ART_DEF_S_A')] Krieger[generated_actor.Custom('DE_END_NOU_S_GS_N')], weiter allein im Namen von [generated_actor.GetFaith.HighGodName] umherzustreifen und dabei von Eurem freundlichen Wesen zu erzählen."
   #AGOT Modified 
- #iberia_north_africa.2011.c: "You will surely find [generated_actor.GetFaith.HighGodName] by the end of your pilgrimage." #NT!
- iberia_north_africa.2011.c: "[generated_actor.GetFaith.HighGodName] will answer you in the midst of your pilgrimage." #NT!
+ #iberia_north_africa.2011.c: "You will surely find [generated_actor.GetFaith.HighGodName] by the end of your pilgrimage."
+ iberia_north_africa.2011.c: "[generated_actor.GetFaith.HighGodName] will answer you in the midst of your pilgrimage."
  iberia_north_africa.2011.c.flavor: "Ihr lasst [generated_actor.Custom('DE_ART_DEF_S_A')] Krieger[generated_actor.Custom('DE_END_NOU_S_GS_N')] weiter [generated_actor.Custom('DE_PRO_POS_S_3P')]er Pflicht gegenüber [generated_actor.GetFaith.HighGodName] nachgehen."
  iberia_north_africa.2012.t: "$iberia_north_africa.fp2_pilgrim_roads_generic_title_intro$ Verarmt[generated_actor.Custom('DE_END_ADJ_IND_S_N')] Student[generated_actor.Custom('DE_END_NOU_S_GS_N')]"
   #AGOT Modified 
- #iberia_north_africa.2012.desc: "Wandering through my newly built roads at the [chosen_location_for_pilgrim_roads.GetName], I encounter a young [generated_actor.GetWomanMan] sitting on a marking stone with a gloomy face and an empty pouch on hand. The [generated_actor.GetWomanMan] turns to me and asks, "[ROOT.Char.Custom2('RelationToMeAddress', generated_actor)], would you please spare a coin for a student on a pilgrimage? " #NT!
- #iberia_north_africa.2012.desc_student: "I am a student of theology, wishing to better understand the world granted to us by [generated_actor.GetFaith.HighGodName]. I would even be willing to give you my traveling notes as a token of appreciation as a fellow [generated_actor.GetFaith.GetAdjective]!"" #NT!
- #iberia_north_africa.2012.desc_architect: "I study architecture, having come all the way to see and learn from the well-kept works at [chosen_holy_site_for_pilgrim_roads.GetNameNoTier]. I am solely dedicated to the craft. If you would spare me coin, I would even give you my scriptures on architecture!"" #NT!
- iberia_north_africa.2012.desc: "Meandering down the newly constructed road leading to [chosen_location_for_pilgrim_roads.GetName], I encounter a gloomy young [generated_actor.GetWomanMan] sitting on a low stone wall overlooking the gorgeous view of the Reach's vineyards in bloom. As I approach the [generated_actor.GetWomanMan] turns to me extending a small leather pouch, "Could you spare some coin for a student on pilgrimage, [ROOT.Char.Custom2('RelationToMeAddress', generated_actor)]?" #NT!
- iberia_north_africa.2012.desc_student: "I am a student seeking the knowledge of the gods and... higher mysteries at the Citadel and Starry Sept. Don't we all wish to better understand the world granted to us by [generated_actor.GetFaith.HighGodName]? I would even be willing to trade you my travelling notes as you are a fellow [generated_actor.GetFaith.GetAdjective]!"" #NT!
- iberia_north_africa.2012.desc_architect: "I study the architect's trade and I have come to see the wonders that lay at the end of the roseroad... and perhaps learn from the well-kept works at [chosen_holy_site_for_pilgrim_roads.GetNameNoTier]. If you have the coin I would even be willing to part with my notes on architecture!"" #NT!
+ #iberia_north_africa.2012.desc: "Wandering through my newly built roads at the [chosen_location_for_pilgrim_roads.GetName], I encounter a young [generated_actor.GetWomanMan] sitting on a marking stone with a gloomy face and an empty pouch on hand. The [generated_actor.GetWomanMan] turns to me and asks, "[ROOT.Char.Custom2('RelationToMeAddress', generated_actor)], would you please spare a coin for a student on a pilgrimage? "
+ #iberia_north_africa.2012.desc_student: "I am a student of theology, wishing to better understand the world granted to us by [generated_actor.GetFaith.HighGodName]. I would even be willing to give you my traveling notes as a token of appreciation as a fellow [generated_actor.GetFaith.GetAdjective]!""
+ #iberia_north_africa.2012.desc_architect: "I study architecture, having come all the way to see and learn from the well-kept works at [chosen_holy_site_for_pilgrim_roads.GetNameNoTier]. I am solely dedicated to the craft. If you would spare me coin, I would even give you my scriptures on architecture!""
+ iberia_north_africa.2012.desc: "Meandering down the newly constructed road leading to [chosen_location_for_pilgrim_roads.GetName], I encounter a gloomy young [generated_actor.GetWomanMan] sitting on a low stone wall overlooking the gorgeous view of the Reach's vineyards in bloom. As I approach the [generated_actor.GetWomanMan] turns to me extending a small leather pouch, "Could you spare some coin for a student on pilgrimage, [ROOT.Char.Custom2('RelationToMeAddress', generated_actor)]?"
+ iberia_north_africa.2012.desc_student: "I am a student seeking the knowledge of the gods and... higher mysteries at the Citadel and Starry Sept. Don't we all wish to better understand the world granted to us by [generated_actor.GetFaith.HighGodName]? I would even be willing to trade you my travelling notes as you are a fellow [generated_actor.GetFaith.GetAdjective]!""
+ iberia_north_africa.2012.desc_architect: "I study the architect's trade and I have come to see the wonders that lay at the end of the roseroad... and perhaps learn from the well-kept works at [chosen_holy_site_for_pilgrim_roads.GetNameNoTier]. If you have the coin I would even be willing to part with my notes on architecture!""
  iberia_north_africa.2012.a: "Ich könnte das Wissen brauchen. Wohlan denn. Ich lasse mich auf diesen Handel ein."
   #AGOT Modified 
- #iberia_north_africa.2012.b: "Maybe you should try getting a job." #NT!
- iberia_north_africa.2012.b: "Why trade for your notes when I could have you?" #NT!
+ #iberia_north_africa.2012.b: "Maybe you should try getting a job."
+ iberia_north_africa.2012.b: "Why trade for your notes when I could have you?"
  iberia_north_africa.2012.b.flavor: "Ihr bietet [generated_actor.Custom('DE_ART_DEF_S_D')] [Select_CString(generated_actor.IsFemale,'Studentin','Studenten')] einen guten Posten an Eurem Hof an, was [generated_actor.Custom('DE_PRO_PER_S_3P_A')] merklich überrascht."
  iberia_north_africa.2012.c: "Kein Geschacher. Als [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] ist es meine Pflicht, Euch zu helfen."
  iberia_north_africa.2013.t: "Auf [ROOT.Char.Custom('DE_ART_DEF_S_A')] Erbauer[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] dieses Pilgerwegs."
@@ -263,12 +263,12 @@
  iberia_north_africa.2013.a: "Euer Lob allein ist schon genug, [fp2_iberia_north_africa_2013_head_of_faith.GetFaith.ReligiousHeadName]."
  iberia_north_africa.2013.b: "Verbreitet die Kunde meiner Taten im Namen von [ROOT.Char.GetFaith.HighGodName]."
   #AGOT Modified 
- #iberia_north_africa.2013.d: "Gift me an artifact worthy of display at [chosen_holy_site_for_pilgrim_roads.GetNameNoTierNoTooltip]." #NT!
- #iberia_north_africa.2013.d.tooltip: "[fp2_iberia_north_africa_2013_head_of_faith.GetTitledFirstName] will gift you a blessed [artifact|E]" #NT!
- iberia_north_africa.2013.d: "Grant me a relic to show the pilgrims who seek [chosen_holy_site_for_pilgrim_roads.GetNameNoTierNoTooltip] my devotion." #NT!
+ #iberia_north_africa.2013.d: "Gift me an artifact worthy of display at [chosen_holy_site_for_pilgrim_roads.GetNameNoTierNoTooltip]."
+ #iberia_north_africa.2013.d.tooltip: "[ROOT.Char.GetFaith.TitledReligiousHeadName] will bestow upon you an anointed [artifact|E]"
+ iberia_north_africa.2013.d: "Grant me a relic to show the pilgrims who seek [chosen_holy_site_for_pilgrim_roads.GetNameNoTierNoTooltip] my devotion."
   #AGOT Modified 
- #iberia_north_africa.2013.d.tooltip: "[ROOT.Char.GetFaith.TitledReligiousHeadName] will bestow upon you an anointed [artifact|E]" #NT!
- iberia_north_africa.2013.d.tooltip: "The [fp2_iberia_north_africa_2013_head_of_faith.GetFaith.ReligiousHeadName] will bestow upon you an anointed [artifact|E]" #NT!
+ #iberia_north_africa.2013.d.tooltip: "[ROOT.Char.GetFaith.TitledReligiousHeadName] will bestow upon you an anointed [artifact|E]"
+ iberia_north_africa.2013.d.tooltip: "The [fp2_iberia_north_africa_2013_head_of_faith.GetFaith.ReligiousHeadName] will bestow upon you an anointed [artifact|E]"
  iberia_north_africa.2013.notif.t: "Pfad der Frömmigkeit"
  struggle_iberia_form_portugal_decision_correct_phase_tt: "Die derzeitige [struggle_phase|E] ist die [struggle_phase_iberia_opportunity|E]"
   

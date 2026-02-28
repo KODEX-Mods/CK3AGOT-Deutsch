@@ -1,0 +1,36 @@
+﻿l_german:
+  ### THE RELIGION ### 
+ the_songs_religion: "The Songs of the Nhai"
+ the_songs_religion_adj: "The Songs"
+ the_songs_religion_adherent: "Nhai"
+ the_songs_religion_adherent_plural: "Nhai"
+ the_songs_religion_desc: "When one speaks to the gods, how should one show proper respect? For those to the north of Yi Ti, the answer lies in song. Only through song can the gods hear the people and, in turn, respond to them." #NT!
+  
+  ### Faiths ### 
+  # Jogos Moonsingers 
+ song_moon: "Songs of the Moon"
+ song_moon_adj: "Songs of the Moon"
+ song_moon_adherent: "Nhai"
+ song_moon_adherent_plural: "Nhai"
+ song_moon_desc: "The Jogos Nhai have been a scourge of the plains north of Yi Ti since the earliest records of the Golden Empire. Throughout this time, their spiritual leaders have been the Moonsingers. They listen to the Songs of the Moon and provide spiritual leadership and guidance, while the Jhats offer temporal leadership."
+  
+  # Braavosi Moonsingers 
+ fc_pan_moon: "Disciples of the Moonsingers"
+ fc_pan_moon_adj: "Moonsingers"
+ fc_pan_moon_adherent: "Auditor"
+ fc_pan_moon_adherent_plural: "Auditors"
+ fc_pan_moon_desc: "The slaves of the Freehold were made up of countless peoples, both those conquered by the Freehold and others from beyond their borders, who were never directly encountered. One such group consisted of Jogos Nhai Moonsingers who led a party of escaped slaves to the lagoon that would become Braavos. Since then, the Moonsingers have remained a respected and influential faith, albeit a small one, in the secret city."
+  
+  # Nefer 
+ song_nefer: "Songs of the Beneath"
+ song_nefer_adj: "Songs of the Beneath"
+ song_nefer_adherent: "Dredger"
+ song_nefer_adherent_plural: "Dredgers"
+ song_nefer_desc: "Nefer, the last of the N'Ghai, has been able to hold back the hordes of Jogos Nhai by retreating into the earth itself, where the Songs of the Beneath has sheltered and warmed the inhabitants. By listening to the rhythm and beat of the earthen walls that surround them, they have expanded deep within the earth."
+  
+  # Mossovy 
+ song_mossovy: "Songs of the Snow"
+ song_mossovy_adj: "Songs of the Snow"
+ song_mossovy_adherent: "Monomakh"
+ song_mossovy_adherent_plural: "Monomakh"
+ song_mossovy_desc: "The far-off land of Mossovy is said to be a strange and peculiar place. The land is locked in cold and snow, but unlike the inhospitable Lands of Always Winter, the Mossovites embrace and prosper in this frozen realm. To them, the snows and blizzards sing songs, from which they can order and grow from."

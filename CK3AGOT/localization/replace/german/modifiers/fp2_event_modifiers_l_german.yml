@@ -32,14 +32,14 @@
  fp2_mozarab_quarter_modifier: "Mozaraberviertel"
  fp2_mozarab_quarter_modifier_desc: "Die Städte dieser Gemeinde haben eigene Viertel für Mozaraber."
   #AGOT Modified 
- # fp2_mozarab_church_modifier: "Accepts Mozarabs" #NT!
- # fp2_mozarab_church_modifier_desc: "This character has allowed Mozarabic churches to be built in their lands." #NT!
- # fp2_mozarab_rejected_modifier: "Mozarab Discrimination" #NT!
- # fp2_mozarab_rejected_modifier_desc: "This character does not permit Mozarabs to build churches in their lands." #NT!
- fp2_mozarab_church_modifier: "Accepts New Gods" #NT!
- fp2_mozarab_church_modifier_desc: "This character has allowed septs to be built in their lands." #NT!
- fp2_mozarab_rejected_modifier: "New Gods Discrimination" #NT!
- fp2_mozarab_rejected_modifier_desc: "This character does not permit followers of the Seven to build septs in their lands." #NT!
+ # fp2_mozarab_church_modifier: "Accepts Mozarabs"
+ # fp2_mozarab_church_modifier_desc: "This character has allowed Mozarabic churches to be built in their lands."
+ # fp2_mozarab_rejected_modifier: "Mozarab Discrimination"
+ # fp2_mozarab_rejected_modifier_desc: "This character does not permit Mozarabs to build churches in their lands."
+ fp2_mozarab_church_modifier: "Accepts New Gods"
+ fp2_mozarab_church_modifier_desc: "This character has allowed septs to be built in their lands."
+ fp2_mozarab_rejected_modifier: "New Gods Discrimination"
+ fp2_mozarab_rejected_modifier_desc: "This character does not permit followers of the Seven to build septs in their lands."
  fp2_multifaith_county_modifier: "Multireligiöse Toleranz"
  fp2_multifaith_county_modifier_desc: "Dieser Charakter hat Toleranz gegenüber anderen Glauben in seinem Reich gezeigt."
  fp2_religious_strife_modifier: "Religiöser Zwist"

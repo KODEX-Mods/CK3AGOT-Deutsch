@@ -1,0 +1,1632 @@
+﻿l_german:
+  
+  ###################### 
+  # County # 
+  ###################### 
+  
+ agot_weakened_walls: "Geschwächte Mauern"
+  
+  ###################### 
+  # Character # 
+  ###################### 
+  
+ reluctant_bride_modifier: "Reluctant Bride"
+ reluctant_bride_modifier_desc: "This character is reluctant to fulfill their engagement at this time."
+ agot_precarious_reputation: "Precarious Reputation"
+ agot_precarious_reputation_desc: "Given their current circumstances, others are wary of getting entangled in this character's affairs."
+  
+ agot_craft_focused_major: "Focused on Craft" #NT!
+ agot_craft_focused_major_desc: "This character's focus is currently drawn away from court." #NT!
+ agot_craft_focused_minor: "Split Focus" #NT!
+ agot_craft_focused_minor_desc: "This character's focus is split between court and a hobby." #NT!
+  
+ agot_incest_aversion_modifier: "Incest Aversion" #NT!
+ agot_incest_aversion_modifier_desc: "This character is uninterested in marrying a sibling." #NT!
+  
+ agot_tomboy_modifier: "Spirited Temperament" #NT!
+ agot_tomboy_modifier_desc: "Though uncommon for a woman of her station, this character takes great delight in the practice of arms, the clang of steel, and the drills of the training yard." #NT!
+  
+ agot_legendary_conversion_modifier: "Evangelize to the Realm" #NT!
+ agot_legendary_conversion_modifier_desc: "This character is evangelizing to their realm and will find it easier to convert counties to their faith." #NT!
+  
+  
+  ################# 
+  # Filler Events # 
+  ################# 
+  
+  
+ agot_escorted_noble_county_modifier: "Draconic Escort" #NT!
+ agot_escorted_noble_county_modifier_desc: "The smallfolk of this county were amazed by their ruler's escort home on dragonback." #NT!
+  
+ agot_ignored_noble_modifier: "Ignored Character" #NT!
+ agot_ignored_noble_modifier_desc: "This character was ignored when in need." #NT!
+  
+ agot_modifiers_invited_wildling_modifier: "Wildling am Hof begrüßt"
+ agot_modifiers_invited_wildling_modifier_desc: "Dieser Charakter erlaubte es einem Wildling, an seinen Hof zu ziehen."
+  
+ agot_filler_disdain_for_invaders_warfare_modifier: "Verachtung für Eindringlinge"
+ agot_filler_disdain_for_invaders_warfare_modifier_desc: "Die Pfahlbaummenschen verteidigten sich seit Jahrtausenden gegen Eindringlinge. Sie kennen ihre Sümpfe in der Eng besser als jedes andere Lebewesen auf dieser Welt. Aufgrund der Ereignisse in letzter Zeit, mochte sich dieser Charakter an die legendären Geschichten seiner Vorfahren zurückbesinnen."
+  
+ agot_filler_displeased_with_response_to_crisis_modifier: "Verstimmte Gemeine"
+ agot_filler_displeased_with_response_to_crisis_modifier_desc: "Das Gemeine Volk ist unzufrieden mit der Reaktion des Herrschers auf eine Krise oder ein tragisches Ereignis."
+  
+ agot_filler_hired_bandit_modifier: "Banditen angeheuert"
+ agot_filler_hired_bandit_modifier_desc: "Dieser Charakter hat einen Banditen für seine Geschäfte angeheuert. Seine Vasallen sind empört."
+  
+ agot_filler_haunted_by_outlaw: "Gesetzloser entwischt"
+ agot_filler_haunted_by_outlaw_desc: "Diesen Charakter belastet, dass er kürzlich daran gescheitert ist, einen berüchtigten Gesetzlosen zu fangen."
+  
+ agot_questioned_heroic_soldier: "Beleidigte Soldaten"
+ agot_questioned_heroic_soldier_desc: "Dieser Charakter hat einen ehrhaften Soldaten öffentlicht beleidigt."
+  
+ agot_filler_hunting_boom: "Florierende Jagd"
+ agot_filler_hunting_boom_desc: "Der Herrscher dieser Lordschaft hat Gesetze verabschiedet, welche zu einem Aufschwung des Jagdbetriebs geführt hat."
+  
+ agot_filler_collapsing_wool_trade: "Abnehmender Wollhandel"
+ agot_filler_collapsing_wool_trade_desc: "Der Wollhandel in dieser Lordschaft hat abgenommen, was auf wirtschaftlichen und soziale Schwierigkeiten stößt."
+  
+ agot_filler_magnificent_godswood: "Prächtiger Götterhain"
+ agot_filler_magnificent_godswood_desc: "Dieser Charakter hat einen schönen Götterhain mit einem riesigen Herzbaum als Prachtstück. Dafür hat der Besitzer wohl die Besten aller Gärtner bei sich am Hof versammelt."
+  
+ agot_filler_embarassing_godswood: "Verschändelter Götterhain"
+ agot_filler_embarassing_godswood_desc: "Dieser Charakter hat einen entstellten Götterhain mit einem verkümmerten Herzbaum als Schandmal. Schuld daran tragen wohl die unerfahrenen Gärtner, die der Besitzer beauftragt hat."
+  
+ agot_filler_disrupted_local_activities: "Unzufriedene Gemeine"
+ agot_filler_disrupted_local_activities_desc: "Dieser Charakter hat örtliche Feierlichkeiten unterbrochen. Das Gemeine Volk ist unzufrieden."
+  
+ agot_filler_rubbing_elbows_with_smallfolk: "Verprügelte Gemeinen"
+ agot_filler_rubbing_elbows_with_smallfolk_desc: "Dieser Charakter hat sich vor kurzem mit ein paar Gemeinen angelegt."
+  
+ direwolf_pet_modifier: "Schoß-Schattenwolf"
+  
+ agot_filler_exceptional_stock_of_dornish_horses: "Dornische Reinblüter"
+ agot_filler_exceptional_stock_of_dornish_horses_desc: "Dieser Charakter verfügt einen außergewöhnlichen Bestand an Dornischen Sandstuten."
+  
+ agot_filler_horse_breeding_buisness: "Erfolgreiche Pferdezucht"
+ agot_filler_horse_breeding_buisness_desc: "Dieser Charakter hat einen betrachtlichen Anteil an einer erfolgreichen Pferdezucht."
+  
+ agot_filler_dornish_lord_ran_out_of_spices: "Gewürzknappheit"
+ agot_filler_dornish_lord_ran_out_of_spices_desc: "Diesem Charakter sind die Gewürze ausgegangen - Etwas, das in ihrer Kultur als äußerst peinlich gilt."
+  
+ agot_filler_poor_farming_harvest: "Schlechte Ernte"
+ agot_filler_poor_farming_harvest_desc: "Die Höfe dieses Charakters haben vor kurzem eine schlechte Ernte eingefahren."
+  
+ agot_filler_exceptional_farming_harvest: "Bemerkenswerte Ernte"
+ agot_filler_exceptional_farming_harvest_desc: "Die Höfe dieses Charakters haben vor kurzem eine bemerkenswerte Ernte eingefahren."
+  
+ agot_filler_sandstorm_damaged_farms: "Sandsturmschäden am Feld"
+ agot_filler_sandstorm_damaged_farms_desc: "Die Höfe in der Domäne dieses Charakters sind durch einen Sandsturm beschädigt worden."
+  
+ agot_filler_hurricane_wrecked_stepstones: "Massive Sturmschäden"
+ agot_filler_hurricane_wrecked_stepstones_desc: "Diese Ländereien habe wegen einer Reihe von Stürmen massive Schäden erlitten."
+  
+  # agot_filler_event_ironislands 
+ agot_filler_killed_challenger_at_sea: "Tötete Herausforderer"
+ agot_filler_bribed_challenger_at_sea: "Bestach Herausforderer"
+  
+  # Modifiers 
+  # For UShawBruh Reach Events 
+  # Yield Modifiers 
+ agot_filler_reach_lots_of_cake: "Eine üppige Ernte"
+ agot_filler_reach_lots_of_cake_desc: "Die Ernte fiel üppiger aus als gewöhnlich."
+  
+ agot_filler_reach_good_yield: "Eine normale Ernte"
+ agot_filler_reach_good_yield_desc: "Die Ernte war ziemlich normal."
+  
+ agot_filler_reach_let_them_eat_cake: "Eine dürftige Ernte"
+ agot_filler_reach_let_them_eat_cake_desc: "Leider fiel die Ernte schlecht aus."
+  
+  # Traders Modifiers 
+ agot_filler_reach_trade_route: "Angeregter Handel"
+ agot_filler_reach_trade_route_desc: "Diese Lordschaft profitiert von einer kürzlich eingerichteten Handelsroute."
+  
+ agot_filler_reach_traders_hated: "Verschreckte Händler"
+ agot_filler_reach_traders_hated_desc: "Unter den Händlern spricht sich herum, dass sie diese Lordschaft meiden sollten. Ob sie wohl schlechte Erfahrungen gemacht haben?"
+  
+  # Hand Coin found modifiers 
+ agot_filler_reach_hand_coin: "Gold von Gestern"
+ agot_filler_reach_hand_coin_desc: "Ein Goldstück aus der Zeit vor Aegon I. Auch wenn sie nur noch den Wert des Goldes hat, könnte sie als interessanter Gesprächsstoff dienen."
+  
+  # Greenhand Modifier 
+ agot_filler_reach_greenhand: "Ritter des Ordens der Grünen Hand"
+ agot_filler_reach_greenhand_desc: "Dieser Charakter hat beschlossen, nach den Regeln des alten Ordens der Grünen Hand zu leben."
+  
+  # Party Modifiers 
+ agot_filler_reach_garden_party: "Platzhalter"
+ agot_filler_reach_quiet_garden: "Platzhalter"
+ agot_filler_reach_great_gp: "Platzhalter"
+ agot_filler_reach_bad_gp: "Platzhalter"
+  
+  # Possible farmland Modifiers 
+ agot_filler_reach_farm_building: "Platzhalter"
+ agot_filler_reach_protected_land: "Naturschützer"
+ agot_filler_reach_protected_land_desc: "Seine Ländereien sind unberührt um ihre natürliche Schönheit zu bewahren."
+  
+  
+ agot_mw_let_traitors_go_modifier: "Verschonte Verräter"
+ agot_mw_let_traitors_go_modifier_desc: "Dieser Charakter ließ Verräter laufen, als sie sich ihrer Strafe widersetzten."
+  
+  #Maester and Beetle - Zombieschrodcat 
+ agot_filler_reach_beetle_dye: "Des Käfers Gewänder"
+ agot_filler_reach_beetle_dye_desc: "Diese Lordschaft hat einen lukrativen Betrieb, welcher Farbstoff aus einheimischen Käferarten herstellt."
+  
+  #The Mushroom in the Godswood - Zombieschrodcat 
+ agot_filler_posion_mushroom: "Pilzgift von Giftpilzen"
+  
+  #Dragon in the North  - Zombieschrodcat 
+ agot_filler_prepared_for_dragon: "Einem Drachenangriff gewappnet"
+  
+  #Wildling Raids | North Filler - Defined 
+ agot_bad_wildling_raids: "Devastating Wildling Raids"
+ agot_bad_wildling_raids_desc: "This county has been devastated by Wildling attacks, and the people are suffering."
+ agot_victorious_wildling_raids: "Wildling Raids"
+ agot_victorious_wildling_raids_desc: "Wildlings raiding this county were defeated, their spoils were given back to the people, minimizing their impact."
+ agot_free_wildling_raids: "Wildling Raids"
+ agot_free_wildling_raids_desc: "Wildlings raiding this county were defeated, but the survivors set free, despite the damage they had done."
+  
+  # Lannister Events Modifiers 
+ agot_knight_protector_positive_modifier: "Beschützer des Heckenritters"
+ agot_knight_protector_negative_modifier: "Schurkenritter"
+ agot_selfish_new_mine_modifier: "Vasallenausbeutung"
+ agot_new_mine_shares_modifier: "Erhielt Goldabgaben"
+ agot_fresh_gold_veins_modifier: "Frische Goldader"
+  
+ agot_filler_north_protect_economy: "Die Kornspeicher beschützt"
+ agot_filler_north_protect_economy_desc: "Die Wirtschaft wird nicht unter den Klagen dieser Gemeinen leiden."
+ agot_filler_north_help_people: "Die Gemeinen beschützt"
+ agot_filler_north_help_people_desc: "Zwar muss sich die Wirtschaft erholen, jedoch ist die örtliche Bevölkerung dankbar."
+ agot_filler_north_do_nothing: "Nicht gehandelt..."
+ agot_filler_north_do_nothing_desc: "Die Gemeinen mussten sich selbst versorgen"
+  
+  # Westerlands Events Modifiers 
+  
+ stolen_from_modifier: "Bestohlen"
+ stolen_from_modifier_desc: "Dieser Charakter wurde bestohlen!"
+ beat_up_steward_modifier: "Gepeinigter Kämmerer"
+ beat_up_steward_modifier_desc: "Dieser Charakter prügelte nach einem Wutausbruch seinen armen Kämmerer windelweich."
+ shiny_jewel_modifier: "Funkelnder Edelstein"
+ shiny_jewel_modifier_desc: "Dieser Charakter besitzt einen Funkelnder Edelstein von besonderer Herkunft."
+ rock_slide_modifier: "Steinschlag"
+ rock_slide_modifier_desc: "Ein Steinschlag in dieser Lordschaft hat einen wichtigen Handelsweg versperrt."
+ ignored_rock_slide_modifier: "Fels im Weg"
+ ignored_rock_slide_modifier_desc: "Seit einem Steinschlag ist ein wichtiger Handelsweg dieser Lordschaft versperrt. Der Herrscher ließ dies unbehoben, weshalb nun die Gemeinen unter den steigenden Preisen leiden."
+ improved_road_modifier: "Wiederaufgenommener Handel"
+ improved_road_modifier_desc: "Seit einem Steinschlag ist ein wichtiger Handelsweg dieser Lordschaft versperrt. Der Handel hat sich seit der Beseitigung nicht nur erhohlt, sondern sogar verbessert."
+ ruined_road_modifier: "Zerstörte Handelsroute"
+ ruined_road_modifier_desc: "Seit einem Steinschlag ist ein wichtiger Handelsweg dieser Lordschaft versperrt. Nach einem fehlgeschlagenen Versuch, die Felsen zu beseitigen, wurde die Handelsroute endgültig zerstört."
+ agot_lion_cub_rat_catcher_modifier: "Lion Cub Rat Catcher"
+ agot_lion_cub_rat_catcher_modifier_desc: "This character has bought a lion cub to hunt rats around their castle."
+ agot_lion_adult_rat_catcher_modifier: "Lion Rat Catcher"
+ agot_lion_adult_rat_catcher_modifier_desc: "This character has bought a lion to hunt rats around their castle."
+  
+  #Kings Landing Filler Modifiers 
+ agot_filler_kingslanding_haggler: "Feilscher"
+ agot_filler_kingslanding_brothel_spys: "Spione an der Seidenstraße"
+  
+ agot_cat_vivisection_modifier: "Vivisected Cat"
+ agot_cat_vivisection_modifier_desc: "This character has vivisected a cat. While educational, it was an unsightly scene for the court to witness."
+  
+  #Bottleneck county stuff 
+ bottleneck_province_modifiers: "Niedrige Versorgung im Moorweg-Umland"
+ bottleneck_character_modifiers: "Niedrige Versorgung im Moorweg-Umland"
+ bottleneck_province_causeway_modifiers: "Niedriege Versorgung am Moorweg (Königsweg)"
+ bottleneck_character_causeway_modifiers: "Niedriege Versorgung am Moorweg (Königsweg)"
+ bottleneck_visual: "Das Moorweg-Umland"
+ bottleneck_visual_desc: "Das Moorweg-Umland ist das Gebiet um den Königsweg, der durch die Eng verläuft. Wurde das Moorweg-Umland nicht vorher besetzt, wird es schwierig, sich auf dem Moorweg zu bewegen. Die Plünderung dieser Lordschaft gibt Euch Immunität vor Verschleiß für zwei Jahre."
+ bottleneck_causeway_visual: "Der Moorweg"
+ bottleneck_causeway_visual_desc: "Der Moorweg ist Teil des Königsweges und erlaubt, die tiefen Moore der Eng ohne weitere Probleme passieren."
+  
+  #Mule Shortage - pbbm 
+ mule_shortage_modifier: "Muli-Mangel"
+ mule_shortage_modifier_desc: "In letzter Zeit kämpft die Nachtwache mit einem Mangel an Mautlieren an der Mauer."
+  
+  #Mule Shortage Scam - pbbm 
+ mule_shortage_scam_modifier: "Muli-Hehler"
+ mule_shortage_scam_modifier_desc: "Dieser Charakter verdient sein Silber, indem er gestohlene Maultiere der Nachtwache verkauft."
+  
+  # Succesful Wolf Hunt - pbbm 
+ successful_wolf_hunt: "Erfolgreiche Wolfsjagd"
+ successful_wolf_hunt_desc: "Ein Jagdgefolge hat erfolgreich das örtliche Wolfsrudel getötet oder verscheucht."
+  
+  # Showed Compassion - pbbm 
+ showed_compassion_modifier: "Zeigte Mitgefühl"
+ showed_compassion_modifier_desc: "Dieser Charakter beweiste sein Mitgefühl in einer schwierigen Situation."
+  
+  # Contemplative - pbbm 
+ contemplative_modifier: "Nachdenklich"
+ contemplative_modifier_desc: "Dieser Charakter ist vorsichtig und bedacht."
+  
+  # False Bravado - pbbm 
+ false_bravado_modifier: "Aufgeblasenes Ego"
+ false_bravado_modifier_desc: "Dieser Charakter versuchte sich als mehr zu verkaufen, als er eigentlich ist."
+  
+  # Afraid of Dying = pbbm 
+ afraid_of_dying_modifier: "Furcht vor dem Tod"
+ afraid_of_dying_modifier_desc: "Dieser Charakter hat paranoide Angst vorm Sterben."
+  
+  # Overconfident - pbbm 
+ overconfident_modifier: "Hochmütig"
+ overconfident_modifier_desc: "Dieser Charakter hat ein großes Selbstvertrauen."
+  
+  # Hunting Trophy - pbbm 
+ hunting_trophy_modifier: "Jagdtrophäe"
+ hunting_trophy_modifier_desc: "Eine eindrucksvolle Jagdtrophäe hängt in der großen Halle dieses Charakters und belegt seine Leistung."
+  
+  # Doubting Yourself - pbbm 
+ doubting_yourself_modifier: "Selbstzweifel"
+ doubting_yourself_modifier_desc: "Dieser Charakter zweifelt stets an sich selbst."
+  
+  # Disrupted Trade Routes - ZombieSchordCat 
+ disrupted_trade_modifier: "Gestörte Handelsrouten"
+ disrupted_trade_modifier_desc: "Die Handelsrouten sind aufgrund von Piraten unsicher geworden."
+  
+  # Border Tension - ZombieSchrodCat 
+ border_tension_modifier: "Grenzkonflikt"
+ border_tension_modifier_desc: "Ein unabhängiges Dorne bedeutet Konflikt zwischen den mächtigen Marschlords und den wilden Steindornischen."
+  
+  #Well known Dynasty - ZombieSchrodCat 
+ agot_renown_dynasty_modifier: "Weitbekannte Dynastie"
+ agot_renown_dynasty_modifier_desc: "Die Dynastie dieses Charakters ist in letzter zeit in aller Munde."
+  
+  #Grafted Flower Trees - ZombieSchrodCat 
+ agot_graft_flowering_tree: "Exotische, blühende Bäume"
+ agot_graft_flowering_tree_desc: "Diese Ländereien sind bekannt für die bunten Farben der gepfropften Bäume."
+  
+  #Grafted Fruit Trees - ZombieSchrodCat 
+ agot_graft_fruit_tree: "Sagenhafte Obstgärten"
+ agot_graft_fruit_tree_desc: "Die Vielzahl der Apfelsorten in diesem Obstgarten ist weitbekannt und äußerst profitreich."
+  
+  #Blight - ZombieSchrodCat 
+ agot_graft_tree_blight: "Zerstörter Obstgarten"
+ agot_graft_tree_blight_desc: "Aufgrund der Pfropfung hat sich eine Seuche im Obstgarten ausgebreitet und diesen zerstört."
+  
+  #First Man Ruins - Dylan/ZombieSchrodCat 
+ agot_first_man_stone: "Runenstein der Ersten Menschen"
+ agot_first_man_stone_desc: "Ein Stein, eingedeckt mit Runen aus der Zeit vor der andalischen Invasion."
+  
+  #Blood of Old Valyria -DYNASTY MODIFIER- - ZombieSchrodCat 
+ valyrian_heritage_dynasty_modifier: "Blut des Alten Valyria"
+ valyrian_heritage_dynasty_modifier_desc: "Das Blut des Alten Valyria fließt noch immer durch die Adern dieser Dynastie."
+  
+ dragonrider_house_modifier: "Dragonriding House"
+ dragonrider_house_modifier_desc: "Though the most of the ancient Dragonlords of Valyria were claimed by the Doom, this house continues their legacy and are known to tame and ride dragons."
+  
+ divided_dynasty_house_modifier: "Divided Dynasty"
+ divided_dynasty_house_modifier_desc: "This house has been cast off from the main dynasty and cannot call non-house dynasty members for aid. Deaths between divided houses will not results in a [kinslayer|E] trait."
+  
+ disavowed_incest_house_modifier: "Disavowed Incest" #NT!
+ disavowed_incest_house_modifier_desc: "This house has chosen to not use their incest exemption laid out in the Doctrine of Exceptionalism." #NT!
+  
+ walled_off_no_more_modifier: "Walled Off No More"
+ walled_off_no_more_modifier_desc: "This clan was at the forefront of chasing off the crows from their Wall and introducing the free folk to the wonders of the world beyond."
+  
+ dealt_with_traders_modifier: "Mit Dornischen gehandelt"
+ dealt_with_traders_modifier_desc: "Die Einwohner dieser Lande werden es nicht schätzen, dass Ihr Handel mit ihren historischen Feinden treibt."
+ dealt_with_traders_county_modifier: "Mit Dornischen gehandelt"
+ dealt_with_traders_county_modifier_desc: "Die Einwohner dieser Lande werden es nicht schätzen, dass Ihr Handel mit ihren historischen Feinden treibt."
+  
+ kicked_dornish_traders: "Dornische Händler rausgeschmissen"
+ kicked_dornish_traders_desc: "Der Handel treibt die Wirtschaft und einen gutes Abkommen abzulehnen, selbst aufgrund von Rivalitäten schlagen sich nieder."
+ kicked_dornish_traders_county: "Dornische Händler rausgeschmissen"
+ kicked_dornish_traders_county_desc: "Der Handel stärkt die Wirtschaft, und einen gutes Abkommen abzulehnen, selbst aufgrund von Rivalitäten, schlägt sich in den Kassen nieder."
+  
+ blessed_by_storm: "Vom Sturm gesegnet"
+ blessed_by_storm_desc: "Dieser Charakter fand zu neuer Kraft."
+  
+ agot_prosperous_fishing: "Erfolgreiche Fischerei"
+ agot_prosperous_fishing_desc: "In der Umgebung hat es Seen, Flüsse oder Meere, die vor Fischen förmlich überquellen"
+  
+ pumpkin_master_modifier: "Kürbislord"
+ pumpkin_master_modifier_desc: "Dieser Charakter ist bekannt für die Riesenkürbise, die in seinen Ländereien, und vielleicht zwischen seinen Beinen, wachsen."
+  
+ burned_lands_modifier: "Verbranntes Land"
+ burned_lands_modifier_desc: "Dieser Charakter hat wertvolles Land aufgrund einer Brandstiftung verloren."
+  
+ lands_were_burned_modifier: "Verbranntes Land"
+ lands_were_burned_modifier_desc: "Dieser Charakter hat wertvolles Land an einen Brand verloren."
+  
+ lands_recovery_modifier: "Heilendes Land"
+ lands_recovery_modifier_desc: "Das Land erhohlt sich von einem Feuer."
+  
+ ignored_commoners_modifier: "Ignorierte Hilferufe"
+ ignored_commoners_modifier_desc: "Dieser Charakter ignorierte die Hilferufe der örtlichen Gemeinen."
+  
+ helped_commoners_modifier: "Retter des Volkes"
+ helped_commoners_modifier_desc: "Dieser Charakter folgte den Hilferufen der örtlichen Gemeinen und wird dafür von ihnen geschätzt."
+  
+  # Working off Bastardry - Sililex 
+ agot_working_off_bastardry: "Working Off Bastardry"
+ agot_working_off_bastardry_desc: "Though born in less-than-ideal circumstances, this character is working hard to bring honor to their family name."
+  
+  # Reversed Claims Forswearing - Sililex 
+ agot_reversed_claim_forswear: "Reversed Claims Forswearing"
+ agot_reversed_claim_forswear_desc: "Despite swearing they would not press their claim, this character has reversed this declaration, forever staining their honor."
+  
+ agot_visited_crypts: "Visited Winterfell's Crypts"
+ agot_visited_crypts_desc: "This character visited Winterfell's crypts and is inspired by the famous Starks that are entombed there."
+  
+ btwfiller_solved_dispute_modifier: "Resolved Dispute"
+ maesters_project_modifier: "Maester's Project"
+ btwfiller_failed_dispute_modifier: "Failed to Resolve Dispute"
+ btwfiller_strong_armed_neighbour_modifier: "Strong-armed Neighbor"
+ vale_pumpkins_modifier: "Vale Pumpkins"
+ fostered_pumpkins_modifier: "Fostered Pumpkins"
+ visited_by_the_dead_2_modifier: "Visited by the Dead"
+ visited_by_the_dead_modifier: "Visited by the Dead"
+  
+  ### RELIGION ### 
+ the_pact_religion_opinion: "$the_pact_religion$ Opinion"
+ old_gods_wnw_opinion: "$old_gods_wnw$ Opinion" #NT!
+ old_gods_rnh_opinion: "$old_gods_rnh$ Opinion" #NT!
+ old_gods_mnv_opinion: "$old_gods_mnv$ Opinion" #NT!
+ old_gods_rng_opinion: "$old_gods_rng$ Opinion" #NT!
+ old_gods_fng_opinion: "$old_gods_fng$ Opinion" #NT!
+ old_gods_snw_opinion: "$old_gods_snw$ Opinion" #NT!
+ old_gods_dns_opinion: "$old_gods_dns$ Opinion" #NT!
+ old_gods_sns_opinion: "$old_gods_sns$ Opinion" #NT!
+ old_gods_btw_fnf_opinion: "$old_gods_btw_fnf$ Opinion" #NT!
+ old_gods_btw_sni_opinion: "$old_gods_btw_sni$ Opinion" #NT!
+ old_gods_btw_mns_opinion: "$old_gods_btw_mns$ Opinion" #NT!
+ old_gods_btw_pnv_opinion: "$old_gods_btw_pnv$ Opinion" #NT!
+ old_gods_btw_dnc_opinion: "$old_gods_btw_dnc$ Opinion" #NT!
+ old_gods_btw_sas_opinion: "$old_gods_btw_sas$ Opinion" #NT!
+ old_gods_children_opinion: "$old_gods_children$ Opinion" #NT!
+  
+ the_others_religion_opinion: "$the_others_religion$ Opinion" #NT!
+ cold_gods_opinion: "$cold_gods$ Opinion" #NT!
+ cold_gods_wildling_opinion: "$cold_gods_wildling$ Opinion" #NT!
+  
+ the_seven_religion_opinion: "$the_seven_religion$ Opinion"
+ fots_stars_opinion: "$fots_stars$ Opinion" #NT!
+ fots_seven_opinion: "$fots_seven$ Opinion" #NT!
+ fots_blessed_opinion: "$fots_blessed$ Opinion" #NT!
+ fots_sword_opinion: "$fots_sword$ Opinion" #NT!
+ fots_pure_opinion: "$fots_pure$ Opinion" #NT!
+ fots_oldnew_opinion: "$fots_oldnew$ Opinion" #NT!
+ fots_sands_opinion: "$fots_sands$ Opinion" #NT!
+ fots_axe_opinion: "$fots_axe$ Opinion" #NT!
+ fots_scourged_opinion: "$fots_scourged$ Opinion" #NT!
+  
+ the_ways_religion_opinion: "$the_ways_religion$ Opinion"
+ drowned_god_opinion: "$drowned_god$ Opinion" #NT!
+ fots_drowned_opinion: "$fots_drowned$ Opinion" #NT!
+ storm_god_opinion: "$storm_god$ Opinion" #NT!
+  
+ the_mother_religion_opinion: "$the_mother_religion$ Opinion"
+ mother_rhoyne_opinion: "$mother_rhoyne$ Opinion" #NT!
+ mother_orphan_opinion: "$mother_orphan$ Opinion" #NT!
+ mother_summer_opinion: "$mother_summer$ Opinion" #NT!
+  
+ the_cults_religion_opinion: "$the_cults_religion$ Opinion" #NT!
+ fc_pan_braavos_opinion: "$fc_pan_braavos$ Opinion" #NT!
+ fc_pan_faceless_opinion: "$fc_pan_faceless$ Opinion" #NT!
+ fc_pan_tyrosh_opinion: "$fc_pan_tyrosh$ Opinion" #NT!
+ fc_pan_lys_opinion: "$fc_pan_lys$ Opinion" #NT!
+ fc_pan_myr_opinion: "$fc_pan_myr$ Opinion" #NT!
+ fc_pan_pentos_opinion: "$fc_pan_pentos$ Opinion" #NT!
+ fc_pan_lorath_opinion: "$fc_pan_lorath$ Opinion" #NT!
+ fc_pan_volantis_opinion: "$fc_pan_volantis$ Opinion" #NT!
+ fc_pan_essaria_opinion: "$fc_pan_essaria$ Opinion" #NT!
+ fc_pan_boash_opinion: "$fc_pan_boash$ Opinion" #NT!
+ fc_pan_blackgoat_opinion: "$fc_pan_blackgoat$ Opinion" #NT!
+ fc_pan_bearded_opinion: "$bearded_god$ Opinion"
+  
+ the_flames_religion_opinion: "$the_flames_religion$ Opinion"
+ valyrian_pan_freehold_opinion: "$valyrian_pan_freehold$ Opinion" #NT!
+ fots_dragon_opinion: "$fots_dragon$ Opinion" #NT!
+ valyrian_pan_dragon_opinion: "$valyrian_pan_dragon$ Opinion" #NT!
+  
+ the_rhllor_religion_opinion: "$the_rhllor_religion$ Opinion"
+ rhllor_asshai_opinion: "$rhllor_asshai$ Opinion" #NT!
+ rhllor_fc_opinion: "$rhllor_fc$ Opinion" #NT!
+ rhllor_fots_opinion: "$rhllor_fots$ Opinion"
+ rhllor_hyrkoon_opinion: "$rhllor_hyrkoon$ Opinion" #NT!
+  
+ the_graces_religion_opinion: "$the_graces_religion$ Opinion" #NT!
+ sc_harpy_opinion: "$sc_harpy$ Opinion" #NT!
+ sc_spear_opinion: "$sc_spear$ Opinion" #NT!
+  
+ the_flocks_religion_opinion: "$the_flocks_religion$ Opinion" #NT!
+ shepherd_faith_opinion: "$shepherd_faith$ Opinion" #NT!
+  
+ the_counsels_religion_opinion: "$the_counsels_religion$ Opinion" #NT!
+ dothraki_faith_opinion: "$dothraki_faith$ Opinion" #NT!
+  
+ the_liturgies_religion_opinion: "$the_liturgies_religion$ Opinion" #NT!
+ sarnori_faith_opinion: "$sarnori_faith$ Opinion" #NT!
+  
+ the_houses_religion_opinion: "$the_houses_religion$ Opinion" #NT!
+ qh_warlock_opinion: "$qh_warlock$ Opinion" #NT!
+ qh_pureborn_opinion: "$qh_pureborn$ Opinion" #NT!
+ qh_commoner_opinion: "$qh_commoner$ Opinion" #NT!
+  
+ the_first_gods_religion_opinion: "$the_first_gods_religion$ Opinion" #NT!
+ fg_pan_bronze_opinion: "$fg_pan_bronze$ Opinion" #NT!
+ fg_pan_sisters_opinion: "$fg_pan_sisters$ Opinion" #NT!
+ fg_pan_elenei_opinion: "$fg_pan_elenei$ Opinion" #NT!
+ fg_pan_merling_opinion: "$fg_pan_merling$ Opinion" #NT!
+ fg_pan_sni_opinion: "$fg_pan_sni$ Opinion" #NT!
+ fg_pan_garth_opinion: "$fg_pan_garth$ Opinion" #NT!
+  
+ the_venerations_religion_opinion: "$the_venerations_religion$ Opinion" #NT!
+ ib_ven_god_king_opinion: "$ib_ven_god_king$ Opinion" #NT!
+ ib_ven_sound_opinion: "$ib_ven_sound$ Opinion" #NT!
+  
+ the_courts_religion_opinion: "$the_courts_religion$ Opinion" #NT!
+ yt_court_celestial_opinion: "$yt_court_celestial$ Opinion" #NT!
+ yt_court_jewel_opinion: "$yt_court_jewel$ Opinion" #NT!
+ yt_court_ancestor_opinion: "$yt_court_ancestor$ Opinion" #NT!
+ yt_court_bloodstone_opinion: "$yt_court_bloodstone$ Opinion" #NT!
+ yt_court_leng_opinion: "$yt_court_leng$ Opinion" #NT!
+  
+ the_songs_religion_opinion: "$the_songs_religion$ Opinion" #NT!
+ song_moon_opinion: "$song_moon$ Opinion" #NT!
+ fc_pan_moon_opinion: "$fc_pan_moon$ Opinion" #NT!
+ song_nefer_opinion: "$song_nefer$ Opinion" #NT!
+ song_mossovy_opinion: "$song_mossovy$ Opinion" #NT!
+  
+ the_churches_religion_opinion: "$the_churches_religion$ Opinion" #NT!
+ eldritch_fishgod_opinion: "$eldritch_fishgod$ Opinion" #NT!
+ eldritch_bloodgod_opinion: "$eldritch_bloodgod$ Opinion" #NT!
+ eldritch_yellow_opinion: "$eldritch_yellow$ Opinion" #NT!
+ eldritch_deep_dreams_opinion: "$eldritch_deep_dreams$ Opinion" #NT!
+ eldritch_starry_wisdom_opinion: "$eldritch_starry_wisdom$ Opinion" #NT!
+ eldritch_leng_opinion: "$eldritch_leng$ Opinion" #NT!
+  
+ the_shanties_religion_opinion: "$the_shanties_religion$ Opinion" #NT!
+ shanty_basilisks_opinion: "$shanty_basilisks$ Opinion" #NT!
+ shanty_toad_opinion: "$shanty_toad$ Opinion" #NT!
+ shanty_brindle_opinion: "$shanty_brindle$ Opinion" #NT!
+ shanty_black_opinion: "$shanty_black$ Opinion" #NT!
+ shanty_greenhell_opinion: "$shanty_greenhell$ Opinion" #NT!
+  
+ the_orders_religion_opinion: "$the_orders_religion$ Opinion" #NT!
+ order_paradise_opinion: "$order_paradise$ Opinion" #NT!
+ order_sting_opinion: "$order_sting$ Opinion" #NT!
+ order_spice_opinion: "$order_spice$ Opinion" #NT!
+ order_cow_opinion: "$order_cow$ Opinion" #NT!
+ order_chain_opinion: "$order_chain$ Opinion" #NT!
+  
+ the_chosen_religion_opinion: "$the_chosen_religion$ Opinion" #NT!
+ god_naath_opinion: "$god_naath$ Opinion" #NT!
+  
+ the_temples_religion_opinion: "$the_temples_religion$ Opinion" #NT!
+ summer_gods_pan_opinion: "$summer_gods_pan$ Opinion" #NT!
+  
+  ## Riverlands Filler Modifiers ## 
+ agot_heard_good_tales: "Inspirierter Zuhörer"
+ agot_heard_good_tales_desc: "Dieser Charkter ließ sich von einem Geschichtenerzähler einige gute Geschichten erzählen."
+  
+ agot_divine_guidance: "Göttliche Führung"
+ agot_divine_guidance_desc: "Dieser Charakter bat die Götter um Rat... und sie antworteten."
+  
+ agot_lost_trade_route: "Verlorene Handelsroute"
+ agot_lost_trade_route_desc: "Dieser Charakter hat eine bedeutende Handelsroute verloren."
+  
+ agot_gained_trade_route: "Neue Handelsroute"
+ agot_gained_trade_route_desc: "Dieser Charakter konnte eine neue Handelsroute errichten."
+  
+ agot_pet_rock: "Schoßfels"
+ agot_pet_rock_desc: "Dieser Charakter scheint die Gegenwart seines auf mysteriöse Weise aufgetauchten Felsen zu genießen."
+  
+ agot_crown_brooch: "Die Kronenbrosche"
+ agot_crown_brooch_desc: "Diese Brosche gibt ihrem Träger Prestige und Ansehen."
+  
+ agot_fist_brooch: "Die Faustbrosche"
+ agot_fist_brooch_desc: "Diese Brosche gewährt ihrem Träger Macht und Stärke."
+  
+ agot_heart_brooch: "Die Herzbrosche"
+ agot_heart_brooch_desc: "Diese Brosche strahlt vor Liebe, Kaft und Leidenschaft."
+  
+ agot_filler_closed_pits: "Rattengrube geschlossen"
+ agot_filler_closed_pits_desc: "Dieser Charakter schloss eine beliebte Rattengrube."
+  
+ intrigue_speedy_siege_modifier: "Roberts Zorn"
+ intrigue_speedy_siege_modifier_desc: "Robert Baratheron ist, wegen der Entführung seiner Verlobten und dem Mord an ihrere Familie, gefüllt von Zorn!"
+  
+  ## Reaver Modifiers ## 
+ agot_smell_bad: "Übler Geruch"
+ agot_smell_bad_desc: "Dieser Charakter riecht schlimmer, als der dreckigste Scheißtop im Flohloch."
+  
+ agot_sellsword_work: "Soldklinge"
+ agot_sellsword_work_desc: "Ihr kämpfet mit dem Schwert, doch nicht für Ehre oder Glaube, sondern für Gold."
+  
+  #Thrall House -DYNASTY MODIFIER- - ZombieSchrodCat 
+ thrall_house_dynasty_modifier: "Haus von Leibeigenen"
+ thrall_house_dynasty_modifier_desc: "Diese Dynastie stammt von Leibeigenen und Salzweibern der Eisenmänner ab. Als Folge werden sie verachtet."
+  
+  #Codd 
+ codd_dynasty_modifier: "Codd"
+  
+  #Unique Dynastic Nickname 
+ unique_dynasty_nickname_modifier: "Dynastic Nickname" #NT!
+ unique_dynasty_nickname_modifier_desc: "This dynasty is semiotically bound to the [GetGlobalVariable('maester').Char.GetNameNoTooltip] as a symbol of their legitimacy." #NT!
+  
+  ## Rebuilding Modifiers ## 
+ agot_rebuilding_new_stone: "Kleiner Steibruch"
+ agot_rebuilding_new_stone_desc: "Ein kleiner Steinbruch, welcher den örtlchen Dörfer als Steinquelle dient."
+  
+ agot_rebuilding_focused: "Beständiger Fokus"
+ agot_rebuilding_focused_desc: "Eine Aufgabe hat die Aufmerksamkeit dieses Charakters voll eingenommen."
+  
+  ################# 
+  ###  WIDOWED  ### 
+  ################# 
+  
+ cold_hearted_modifier: "Coldhearted" #NT!
+ cold_hearted_modifier_desc: "This character has recently been widowed and has become unsympathetic and ruthless." #NT!
+  
+  ################# 
+  ###   HEALTH  ### 
+  ################# 
+  
+ recently_muted: "Kürzlich die Zunge verloren"
+ recently_muted_desc: "This character has had their tongue removed, and can no longer speak."
+  
+  ################# 
+  ### KNIGHTING ### 
+  ################# 
+  
+ agot_has_squire_modifier: "Hat einen Knappen"
+ agot_has_squire_modifier_desc: "Dieser Charakter hat einen Knappen."
+  
+  ###Ruins##### 
+  
+ agot_ruins_ghost_stories: "Ruinen: Geistergeschichten"
+ agot_ruins_ghost_stories_desc: "Dieser Charakter wird von Geistergeschichten geplagt, welche die Ruinen betreffen, die er aufzubauen versucht."
+  
+ agot_brozen_god_fanatic: "Bronzener Fanatiker"
+ agot_brozen_god_fanatic_desc: "Dieser Charakter hat den Glauben an die Bronzegötter wiederbelebt."
+  
+ agot_hardworker_ruins: "Anführen und ausführen"
+ agot_hardworker_ruins_desc: "Dieser Charakter scheut nicht davor, die Aufgaben, die er seinen Höflingen stellt, auch selbst zu erledigen. Daher respektieren sie ihn umso mehr."
+  
+  ###Harrenhal Curse##### 
+ cursed_bathed_blood: "In Blut gebadet"
+ cursed_bathed_blood_desc: "Dieser Charakter hat die gleiche Pflegeroutine wie Danelle Widersten."
+  
+ cursed_lessons_past: "Bluthungrige Klinge"
+ cursed_lessons_past_desc: "Dieser Charakter hat die Angewohnheit, andere für ohne wirklichen Grund anzugreifen."
+  
+  ################# 
+  ###  GOADED ### 
+  ################# 
+  
+ agot_goaded: "Fuchsteufelswild"
+ agot_goaded_desc: "Dieser Charakter ist aufgrund einer Provokation äußerst aufgebracht und hat sich nicht unter Kontrolle."
+  
+  ############### 
+  ## IRON BANK ## 
+  ############### 
+  
+ economically_undermined_character_modifier: "Wirtschaftlich untergraben"
+ economically_undermined_character_modifier_desc: "Dieser Charakter wird durch Fremdeinwirkung wirtschaftlich untergraben."
+  
+ economically_undermined_modifier: "Wirtschaftlich untergraben"
+ economically_undermined_modifier_desc: "Dieser Titel wird durch Fremdeinwirkung wirtschaftlich untergraben."
+  
+  ########################## 
+  ## HISTORICAL LOYALTIES ## 
+  ########################## 
+  
+ agot_historical_loyalty_targaryen: "Traditionelle Targaryen-Loyalisten"
+ agot_historical_loyalty_targaryen_desc: "Dieses Haus ist bekannt für seine starke Verbundenheit mit dem Haus Targaryen und wird in zukünftigen Konflikten wahrscheinlich auf deren Seite stehen."
+ agot_historical_loyalty_blackfyre: "Traditionelle Schwarzfeuer-Loyalisten"
+ agot_historical_loyalty_blackfyre_desc: "Dieses Haus ist bekannt für seine starke Verbundenheit mit dem Haus Schwarzfeuer gezeigt und wird in zukünftigen Konflikten wahrscheinlich auf deren Seite stehen."
+  
+  
+  ###################### 
+  # TRIAL BY COMBAT # 
+  ###################### 
+ agot_unjust_trial_by_combat: "Held Unjust Trial by Combat"
+ agot_unjust_trial_by_combat_desc: "This character declared an unjust champion in a trial by combat, terrorizing the court and insulting the traditional laws of justice."
+ agot_denied_a_trial_by_combat: "Denied A Trial By Combat" #NT!
+ agot_denied_a_trial_by_combat_desc: "This character unjustly denied someone their right to a trial by combat, insulting the traditional laws of justice." #NT!
+  
+  
+  ############ 
+  ## Travel ## 
+  ############ 
+  
+  #Vanilla Roads 
+ majorroad_plains_travel_danger: "[GetTerrain( 'majorroad_plains' ).GetName] [travel_danger|E]"
+ minorroad_plains_travel_danger: "[GetTerrain( 'minorroad_plains' ).GetName] [travel_danger|E]"
+ majorroad_farmlands_travel_danger: "[GetTerrain( 'majorroad_farmlands' ).GetName] [travel_danger|E]"
+ minorroad_farmlands_travel_danger: "[GetTerrain( 'minorroad_farmlands' ).GetName] [travel_danger|E]"
+ majorroad_hills_travel_danger: "[GetTerrain( 'majorroad_hills' ).GetName] [travel_danger|E]"
+ minorroad_hills_travel_danger: "[GetTerrain( 'minorroad_hills' ).GetName] [travel_danger|E]"
+ majorroad_mountains_travel_danger: "[GetTerrain( 'majorroad_mountains' ).GetName] [travel_danger|E]"
+ minorroad_mountains_travel_danger: "[GetTerrain( 'minorroad_mountains' ).GetName] [travel_danger|E]"
+ majorroad_desert_travel_danger: "[GetTerrain( 'majorroad_desert' ).GetName] [travel_danger|E]"
+ minorroad_desert_travel_danger: "[GetTerrain( 'minorroad_desert' ).GetName] [travel_danger|E]"
+ majorroad_desert_mountains_travel_danger: "[GetTerrain( 'majorroad_desert_mountains' ).GetName] [travel_danger|E]"
+ minorroad_desert_mountains_travel_danger: "[GetTerrain( 'minorroad_desert_mountains' ).GetName] [travel_danger|E]"
+ majorroad_oasis_travel_danger: "[GetTerrain( 'majorroad_oasis' ).GetName] [travel_danger|E]"
+ minorroad_oasis_travel_danger: "[GetTerrain( 'minorroad_oasis' ).GetName] [travel_danger|E]"
+ majorroad_jungle_travel_danger: "[GetTerrain( 'majorroad_jungle' ).GetName] [travel_danger|E]"
+ minorroad_jungle_travel_danger: "[GetTerrain( 'minorroad_jungle' ).GetName] [travel_danger|E]"
+ majorroad_forest_travel_danger: "[GetTerrain( 'majorroad_forest' ).GetName] [travel_danger|E]"
+ minorroad_forest_travel_danger: "[GetTerrain( 'minorroad_forest' ).GetName] [travel_danger|E]"
+ majorroad_taiga_travel_danger: "[GetTerrain( 'majorroad_taiga' ).GetName] [travel_danger|E]"
+ minorroad_taiga_travel_danger: "[GetTerrain( 'minorroad_taiga' ).GetName] [travel_danger|E]"
+ majorroad_wetlands_travel_danger: "[GetTerrain( 'majorroad_wetlands' ).GetName] [travel_danger|E]"
+ minorroad_wetlands_travel_danger: "[GetTerrain( 'minorroad_wetlands' ).GetName] [travel_danger|E]"
+ majorroad_steppe_travel_danger: "[GetTerrain( 'majorroad_steppe' ).GetName] [travel_danger|E]"
+ minorroad_steppe_travel_danger: "[GetTerrain( 'minorroad_steppe' ).GetName] [travel_danger|E]"
+ majorroad_floodplains_travel_danger: "[GetTerrain( 'majorroad_floodplains' ).GetName] [travel_danger|E]"
+ minorroad_floodplains_travel_danger: "[GetTerrain( 'minorroad_floodplains' ).GetName] [travel_danger|E]"
+ majorroad_drylands_travel_danger: "[GetTerrain( 'majorroad_drylands' ).GetName] [travel_danger|E]"
+ minorroad_drylands_travel_danger: "[GetTerrain( 'minorroad_drylands' ).GetName] [travel_danger|E]"
+  
+ frozen_flats_travel_danger: "[GetTerrain( 'frozen_flats' ).GetName] [travel_danger|E]"
+ majorroad_frozen_flats_travel_danger: "[GetTerrain( 'majorroad_frozen_flats' ).GetName] [travel_danger|E]"
+ minorroad_frozen_flats_travel_danger: "[GetTerrain( 'minorroad_frozen_flats' ).GetName] [travel_danger|E]"
+ glacier_travel_danger: "[GetTerrain( 'glacier' ).GetName] [travel_danger|E]"
+ majorroad_glacier_travel_danger: "[GetTerrain( 'majorroad_glacier' ).GetName] [travel_danger|E]"
+ minorroad_glacier_travel_danger: "[GetTerrain( 'minorroad_glacier' ).GetName] [travel_danger|E]"
+ canyon_travel_danger: "[GetTerrain( 'canyon' ).GetName] [travel_danger|E]"
+ majorroad_canyon_travel_danger: "[GetTerrain( 'majorroad_canyon' ).GetName] [travel_danger|E]"
+ minorroad_canyon_travel_danger: "[GetTerrain( 'minorroad_canyon' ).GetName] [travel_danger|E]"
+ cloudforest_travel_danger: "[GetTerrain( 'cloudforest' ).GetName] [travel_danger|E]"
+ majorroad_cloudforest_travel_danger: "[GetTerrain( 'majorroad_cloudforest' ).GetName] [travel_danger|E]"
+ minorroad_cloudforest_travel_danger: "[GetTerrain( 'minorroad_cloudforest' ).GetName] [travel_danger|E]"
+ highlands_travel_danger: "[GetTerrain( 'highlands' ).GetName] [travel_danger|E]"
+ majorroad_highlands_travel_danger: "[GetTerrain( 'majorroad_highlands' ).GetName] [travel_danger|E]"
+ minorroad_highlands_travel_danger: "[GetTerrain( 'minorroad_highlands' ).GetName] [travel_danger|E]"
+ taiga_bog_travel_danger: "[GetTerrain( 'taiga_bog' ).GetName] [travel_danger|E]"
+ majorroad_taiga_bog_travel_danger: "[GetTerrain( 'majorroad_taiga_bog' ).GetName] [travel_danger|E]"
+ minorroad_taiga_bog_travel_danger: "[GetTerrain( 'minorroad_taiga_bog' ).GetName] [travel_danger|E]"
+ urban_travel_danger: "[GetTerrain( 'urban' ).GetName] [travel_danger|E]"
+ majorroad_urban_travel_danger: "[GetTerrain( 'majorroad_urban' ).GetName] [travel_danger|E]"
+ minorroad_urban_travel_danger: "[GetTerrain( 'minorroad_urban' ).GetName] [travel_danger|E]"
+ the_bog_travel_danger: "[GetTerrain( 'the_bog' ).GetName] [travel_danger|E]"
+ majorroad_the_bog_travel_danger: "[GetTerrain( 'majorroad_the_bog' ).GetName] [travel_danger|E]"
+ minorroad_the_bog_travel_danger: "[GetTerrain( 'minorroad_the_bog' ).GetName] [travel_danger|E]"
+ hotsprings_travel_danger: "[GetTerrain( 'hotsprings' ).GetName] [travel_danger|E]"
+ majorroad_hotsprings_travel_danger: "[GetTerrain( 'majorroad_hotsprings' ).GetName] [travel_danger|E]"
+ minorroad_hotsprings_travel_danger: "[GetTerrain( 'minorroad_hotsprings' ).GetName] [travel_danger|E]"
+  
+ majorroad_plains_advantage: "[command_modifier_i|E][advantage|E] in Plains (Major Road)"
+ majorroad_plains_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Plains (Major Road)"
+ majorroad_plains_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Plains (Major Road)"
+ majorroad_plains_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Plains (Major Road)"
+ majorroad_plains_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Plains (Major Road)"
+ majorroad_plains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Plains (Major Road)"
+ majorroad_plains_construction_prestige_cost: "$majorroad_plains_construction_gold_cost$"
+ majorroad_plains_development_growth: "$majorroad_plains_development_growth_factor$"
+ majorroad_plains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Plains (Major Road) ([terrain|E])"
+ majorroad_plains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Plains (Major Road)"
+ majorroad_plains_holding_construction_prestige_cost: "$majorroad_plains_holding_construction_gold_cost$"
+ majorroad_plains_tax_mult: "$MOD_TAX_MULT$ in Plains (Major Road)"
+ majorroad_plains_levy_size: "$MOD_LEVY_SIZE$ in Plains (Major Road)"
+ majorroad_plains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Plains (Major Road)"
+ minorroad_plains_advantage: "[command_modifier_i|E][advantage|E] in Plains (Minor Road)"
+ minorroad_plains_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Plains (Minor Road)"
+ minorroad_plains_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Plains (Minor Road)"
+ minorroad_plains_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Plains (Minor Road)"
+ minorroad_plains_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Plains (Minor Road)"
+ minorroad_plains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Plains (Minor Road)"
+ minorroad_plains_construction_prestige_cost: "$minorroad_plains_construction_gold_cost$"
+ minorroad_plains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Plains (Minor Road) ([terrain|E])"
+ minorroad_plains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Plains (Minor Road)"
+ minorroad_plains_holding_construction_prestige_cost: "$minorroad_plains_holding_construction_gold_cost$"
+ minorroad_plains_tax_mult: "$MOD_TAX_MULT$ in Plains (Minor Road)"
+ minorroad_plains_levy_size: "$MOD_LEVY_SIZE$ in Plains (Minor Road)"
+ minorroad_plains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Plains (Minor Road)"
+ majorroad_farmlands_advantage: "[command_modifier_i|E][advantage|E] in Meadows (Major Road)"
+ majorroad_farmlands_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Meadows (Major Road)"
+ majorroad_farmlands_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Meadows (Major Road)"
+ majorroad_farmlands_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Meadows (Major Road)"
+ majorroad_farmlands_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Meadows (Major Road)"
+ majorroad_farmlands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Meadows (Major Road)"
+ majorroad_farmlands_construction_prestige_cost: "$majorroad_farmlands_construction_gold_cost$"
+ majorroad_farmlands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Meadows (Major Road) ([terrain|E])"
+ majorroad_farmlands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Meadows (Major Road)"
+ majorroad_farmlands_holding_construction_prestige_cost: "$majorroad_farmlands_holding_construction_gold_cost$"
+ majorroad_farmlands_tax_mult: "$MOD_TAX_MULT$ in Meadows (Major Road)"
+ majorroad_farmlands_levy_size: "$MOD_LEVY_SIZE$ in Meadows (Major Road)"
+ majorroad_farmlands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Meadows (Major Road)"
+ minorroad_farmlands_advantage: "[command_modifier_i|E][advantage|E] in Meadows (Minor Road)"
+ minorroad_farmlands_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Meadows (Minor Road)"
+ minorroad_farmlands_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Meadows (Minor Road)"
+ minorroad_farmlands_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Meadows (Minor Road)"
+ minorroad_farmlands_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Meadows (Minor Road)"
+ minorroad_farmlands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Meadows (Minor Road)"
+ minorroad_farmlands_construction_prestige_cost: "$minorroad_farmlands_construction_gold_cost$"
+ minorroad_farmlands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Meadows (Minor Road) ([terrain|E])"
+ minorroad_farmlands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Meadows (Minor Road)"
+ minorroad_farmlands_holding_construction_prestige_cost: "$minorroad_farmlands_holding_construction_gold_cost$"
+ minorroad_farmlands_tax_mult: "$MOD_TAX_MULT$ in Meadows (Minor Road)"
+ minorroad_farmlands_levy_size: "$MOD_LEVY_SIZE$ in Meadows (Minor Road)"
+ minorroad_farmlands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Meadows (Minor Road)"
+ majorroad_hills_advantage: "[command_modifier_i|E][advantage|E] in Hills (Major Road)"
+ majorroad_hills_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Hills (Major Road)"
+ majorroad_hills_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Hills (Major Road)"
+ majorroad_hills_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Hills (Major Road)"
+ majorroad_hills_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Hills (Major Road)"
+ majorroad_hills_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Hills (Major Road)"
+ majorroad_hills_construction_prestige_cost: "$majorroad_hills_construction_gold_cost$"
+ majorroad_hills_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Hills (Major Road) ([terrain|E])"
+ majorroad_hills_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Hills (Major Road)"
+ majorroad_hills_holding_construction_prestige_cost: "$majorroad_hills_holding_construction_gold_cost$"
+ majorroad_hills_tax_mult: "$MOD_TAX_MULT$ in Hills (Major Road)"
+ majorroad_hills_levy_size: "$MOD_LEVY_SIZE$ in Hills (Major Road)"
+ majorroad_hills_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Hills (Major Road)"
+ minorroad_hills_advantage: "[command_modifier_i|E][advantage|E] in Hills (Minor Road)"
+ minorroad_hills_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Hills (Minor Road)"
+ minorroad_hills_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Hills (Minor Road)"
+ minorroad_hills_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Hills (Minor Road)"
+ minorroad_hills_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Hills (Minor Road)"
+ minorroad_hills_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Hills (Minor Road)"
+ minorroad_hills_construction_prestige_cost: "$minorroad_hills_construction_gold_cost$"
+ minorroad_hills_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Hills (Minor Road) ([terrain|E])"
+ minorroad_hills_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Hills (Minor Road)"
+ minorroad_hills_holding_construction_prestige_cost: "$minorroad_hills_holding_construction_gold_cost$"
+ minorroad_hills_tax_mult: "$MOD_TAX_MULT$ in Hills (Minor Road)"
+ minorroad_hills_levy_size: "$MOD_LEVY_SIZE$ in Hills (Minor Road)"
+ minorroad_hills_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Hills (Minor Road)"
+ majorroad_mountains_advantage: "[command_modifier_i|E][advantage|E] in Mountains (Major Road)"
+ majorroad_mountains_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Mountains (Major Road)"
+ majorroad_mountains_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Mountains (Major Road)"
+ majorroad_mountains_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Mountains (Major Road)"
+ majorroad_mountains_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Mountains (Major Road)"
+ majorroad_mountains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Mountains (Major Road)"
+ majorroad_mountains_construction_prestige_cost: "$majorroad_mountains_construction_gold_cost$"
+ majorroad_mountains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Mountains (Major Road) ([terrain|E])"
+ majorroad_mountains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Mountains (Major Road)"
+ majorroad_mountains_holding_construction_prestige_cost: "$majorroad_mountains_holding_construction_gold_cost$"
+ majorroad_mountains_tax_mult: "$MOD_TAX_MULT$ in Mountains (Major Road)"
+ majorroad_mountains_levy_size: "$MOD_LEVY_SIZE$ in Mountains (Major Road)"
+ majorroad_mountains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Mountains (Major Road)"
+ minorroad_mountains_advantage: "[command_modifier_i|E][advantage|E] in Mountains (Minor Road)"
+ minorroad_mountains_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Mountains (Minor Road)"
+ minorroad_mountains_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Mountains (Minor Road)"
+ minorroad_mountains_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Mountains (Minor Road)"
+ minorroad_mountains_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Mountains (Minor Road)"
+ minorroad_mountains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Mountains (Minor Road)"
+ minorroad_mountains_construction_prestige_cost: "$minorroad_mountains_construction_gold_cost$"
+ minorroad_mountains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Mountains (Minor Road) ([terrain|E])"
+ minorroad_mountains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Mountains (Minor Road)"
+ minorroad_mountains_holding_construction_prestige_cost: "$minorroad_mountains_holding_construction_gold_cost$"
+ minorroad_mountains_tax_mult: "$MOD_TAX_MULT$ in Mountains (Minor Road)"
+ minorroad_mountains_levy_size: "$MOD_LEVY_SIZE$ in Mountains (Minor Road)"
+ minorroad_mountains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Mountains (Minor Road)"
+ majorroad_desert_advantage: "[command_modifier_i|E][advantage|E] in Desert (Major Road)"
+ majorroad_desert_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Desert (Major Road)"
+ majorroad_desert_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Desert (Major Road)"
+ majorroad_desert_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Desert (Major Road)"
+ majorroad_desert_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Desert (Major Road)"
+ majorroad_desert_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Desert (Major Road)"
+ majorroad_desert_construction_prestige_cost: "$majorroad_desert_construction_gold_cost$"
+ majorroad_desert_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Desert (Major Road) ([terrain|E])"
+ majorroad_desert_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Desert (Major Road)"
+ majorroad_desert_holding_construction_prestige_cost: "$majorroad_desert_holding_construction_gold_cost$"
+ majorroad_desert_tax_mult: "$MOD_TAX_MULT$ in Desert (Major Road)"
+ majorroad_desert_levy_size: "$MOD_LEVY_SIZE$ in Desert (Major Road)"
+ majorroad_desert_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Desert (Major Road)"
+ minorroad_desert_advantage: "[command_modifier_i|E][advantage|E] in Desert (Minor Road)"
+ minorroad_desert_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Desert (Minor Road)"
+ minorroad_desert_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Desert (Minor Road)"
+ minorroad_desert_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Desert (Minor Road)"
+ minorroad_desert_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Desert (Minor Road)"
+ minorroad_desert_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Desert (Minor Road)"
+ minorroad_desert_construction_prestige_cost: "$minorroad_desert_construction_gold_cost$"
+ minorroad_desert_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Desert (Minor Road) ([terrain|E])"
+ minorroad_desert_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Desert (Minor Road)"
+ minorroad_desert_holding_construction_prestige_cost: "$minorroad_desert_holding_construction_gold_cost$"
+ minorroad_desert_tax_mult: "$MOD_TAX_MULT$ in Desert (Minor Road)"
+ minorroad_desert_levy_size: "$MOD_LEVY_SIZE$ in Desert (Minor Road)"
+ minorroad_desert_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Desert (Minor Road)"
+ majorroad_desert_mountains_advantage: "[command_modifier_i|E][advantage|E] in Desert Mountains (Major Road)"
+ majorroad_desert_mountains_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Desert Mountains (Major Road)"
+ majorroad_desert_mountains_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Desert Mountains (Major Road)"
+ majorroad_desert_mountains_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Desert Mountains (Major Road)"
+ majorroad_desert_mountains_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Desert Mountains (Major Road)"
+ majorroad_desert_mountains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Desert Mountains (Major Road)"
+ majorroad_desert_mountains_construction_prestige_cost: "$majorroad_desert_mountains_construction_gold_cost$"
+ majorroad_desert_mountains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Desert Mountains (Major Road) ([terrain|E])"
+ majorroad_desert_mountains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Desert Mountains (Major Road)"
+ majorroad_desert_mountains_holding_construction_prestige_cost: "$majorroad_desert_mountains_holding_construction_gold_cost$"
+ majorroad_desert_mountains_tax_mult: "$MOD_TAX_MULT$ in Desert Mountains (Major Road)"
+ majorroad_desert_mountains_levy_size: "$MOD_LEVY_SIZE$ in Desert Mountains (Major Road)"
+ majorroad_desert_mountains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Desert Mountains (Major Road)"
+ minorroad_desert_mountains_advantage: "[command_modifier_i|E][advantage|E] in Desert Mountains (Minor Road)"
+ minorroad_desert_mountains_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Desert Mountains (Minor Road)"
+ minorroad_desert_mountains_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Desert Mountains (Minor Road)"
+ minorroad_desert_mountains_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Desert Mountains (Minor Road)"
+ minorroad_desert_mountains_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Desert Mountains (Minor Road)"
+ minorroad_desert_mountains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Desert Mountains (Minor Road)"
+ minorroad_desert_mountains_construction_prestige_cost: "$minorroad_desert_mountains_construction_gold_cost$"
+ minorroad_desert_mountains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Desert Mountains (Minor Road) ([terrain|E])"
+ minorroad_desert_mountains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Desert Mountains (Minor Road)"
+ minorroad_desert_mountains_holding_construction_prestige_cost: "$minorroad_desert_mountains_holding_construction_gold_cost$"
+ minorroad_desert_mountains_tax_mult: "$MOD_TAX_MULT$ in Desert Mountains (Minor Road)"
+ minorroad_desert_mountains_levy_size: "$MOD_LEVY_SIZE$ in Desert Mountains (Minor Road)"
+ minorroad_desert_mountains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Desert Mountains (Minor Road)"
+ majorroad_oasis_advantage: "[command_modifier_i|E][advantage|E] in Oasis (Major Road)"
+ majorroad_oasis_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Oasis (Major Road)"
+ majorroad_oasis_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Oasis (Major Road)"
+ majorroad_oasis_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Oasis (Major Road)"
+ majorroad_oasis_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Oasis (Major Road)"
+ majorroad_oasis_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Oasis (Major Road)"
+ majorroad_oasis_construction_prestige_cost: "$majorroad_oasis_construction_gold_cost$"
+ majorroad_oasis_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Oasis (Major Road) ([terrain|E])"
+ majorroad_oasis_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Oasis (Major Road)"
+ majorroad_oasis_holding_construction_prestige_cost: "$majorroad_oasis_holding_construction_gold_cost$"
+ majorroad_oasis_tax_mult: "$MOD_TAX_MULT$ in Oasis (Major Road)"
+ majorroad_oasis_levy_size: "$MOD_LEVY_SIZE$ in Oasis (Major Road)"
+ majorroad_oasis_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Oasis (Major Road)"
+ minorroad_oasis_advantage: "[command_modifier_i|E][advantage|E] in Oasis (Minor Road)"
+ minorroad_oasis_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Oasis (Minor Road)"
+ minorroad_oasis_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Oasis (Minor Road)"
+ minorroad_oasis_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Oasis (Minor Road)"
+ minorroad_oasis_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Oasis (Minor Road)"
+ minorroad_oasis_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Oasis (Minor Road)"
+ minorroad_oasis_construction_prestige_cost: "$minorroad_oasis_construction_gold_cost$"
+ minorroad_oasis_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Oasis (Minor Road) ([terrain|E])"
+ minorroad_oasis_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Oasis (Minor Road)"
+ minorroad_oasis_holding_construction_prestige_cost: "$minorroad_oasis_holding_construction_gold_cost$"
+ minorroad_oasis_tax_mult: "$MOD_TAX_MULT$ in Oasis (Minor Road)"
+ minorroad_oasis_levy_size: "$MOD_LEVY_SIZE$ in Oasis (Minor Road)"
+ minorroad_oasis_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Oasis (Minor Road)"
+ majorroad_jungle_advantage: "[command_modifier_i|E][advantage|E] in Jungle (Major Road)"
+ majorroad_jungle_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Jungle (Major Road)"
+ majorroad_jungle_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Jungle (Major Road)"
+ majorroad_jungle_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Jungle (Major Road)"
+ majorroad_jungle_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Jungle (Major Road)"
+ majorroad_jungle_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Jungle (Major Road)"
+ majorroad_jungle_construction_prestige_cost: "$majorroad_jungle_construction_gold_cost$"
+ majorroad_jungle_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Jungle (Major Road) ([terrain|E])"
+ majorroad_jungle_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Jungle (Major Road)"
+ majorroad_jungle_holding_construction_prestige_cost: "$majorroad_jungle_holding_construction_gold_cost$"
+ majorroad_jungle_tax_mult: "$MOD_TAX_MULT$ in Jungle (Major Road)"
+ majorroad_jungle_levy_size: "$MOD_LEVY_SIZE$ in Jungle (Major Road)"
+ majorroad_jungle_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Jungle (Major Road)"
+ minorroad_jungle_advantage: "[command_modifier_i|E][advantage|E] in Jungle (Minor Road)"
+ minorroad_jungle_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Jungle (Minor Road)"
+ minorroad_jungle_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Jungle (Minor Road)"
+ minorroad_jungle_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Jungle (Minor Road)"
+ minorroad_jungle_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Jungle (Minor Road)"
+ minorroad_jungle_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Jungle (Minor Road)"
+ minorroad_jungle_construction_prestige_cost: "$minorroad_jungle_construction_gold_cost$"
+ minorroad_jungle_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Jungle (Minor Road) ([terrain|E])"
+ minorroad_jungle_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Jungle (Minor Road)"
+ minorroad_jungle_holding_construction_prestige_cost: "$minorroad_jungle_holding_construction_gold_cost$"
+ minorroad_jungle_tax_mult: "$MOD_TAX_MULT$ in Jungle (Minor Road)"
+ minorroad_jungle_levy_size: "$MOD_LEVY_SIZE$ in Jungle (Minor Road)"
+ minorroad_jungle_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Jungle (Minor Road)"
+ majorroad_forest_advantage: "[command_modifier_i|E][advantage|E] in Forest (Major Road)"
+ majorroad_forest_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Forest (Major Road)"
+ majorroad_forest_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Forest (Major Road)"
+ majorroad_forest_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Forest (Major Road)"
+ majorroad_forest_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Forest (Major Road)"
+ majorroad_forest_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Forest (Major Road)"
+ majorroad_forest_construction_prestige_cost: "$majorroad_forest_construction_gold_cost$"
+ majorroad_forest_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Forest (Major Road) ([terrain|E])"
+ majorroad_forest_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Forest (Major Road)"
+ majorroad_forest_holding_construction_prestige_cost: "$majorroad_forest_holding_construction_gold_cost$"
+ majorroad_forest_tax_mult: "$MOD_TAX_MULT$ in Forest (Major Road)"
+ majorroad_forest_levy_size: "$MOD_LEVY_SIZE$ in Forest (Major Road)"
+ majorroad_forest_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Forest (Major Road)"
+ minorroad_forest_advantage: "[command_modifier_i|E][advantage|E] in Forest (Minor Road)"
+ minorroad_forest_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Forest (Minor Road)"
+ minorroad_forest_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Forest (Minor Road)"
+ minorroad_forest_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Forest (Minor Road)"
+ minorroad_forest_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Forest (Minor Road)"
+ minorroad_forest_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Forest (Minor Road)"
+ minorroad_forest_construction_prestige_cost: "$minorroad_forest_construction_gold_cost$"
+ minorroad_forest_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Forest (Minor Road) ([terrain|E])"
+ minorroad_forest_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Forest (Minor Road)"
+ minorroad_forest_holding_construction_prestige_cost: "$minorroad_forest_holding_construction_gold_cost$"
+ minorroad_forest_tax_mult: "$MOD_TAX_MULT$ in Forest (Minor Road)"
+ minorroad_forest_levy_size: "$MOD_LEVY_SIZE$ in Forest (Minor Road)"
+ minorroad_forest_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Forest (Minor Road)"
+ majorroad_taiga_advantage: "[command_modifier_i|E][advantage|E] in Taiga (Major Road)"
+ majorroad_taiga_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Taiga (Major Road)"
+ majorroad_taiga_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Taiga (Major Road)"
+ majorroad_taiga_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Taiga (Major Road)"
+ majorroad_taiga_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Taiga (Major Road)"
+ majorroad_taiga_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Taiga (Major Road)"
+ majorroad_taiga_construction_prestige_cost: "$majorroad_taiga_construction_gold_cost$"
+ majorroad_taiga_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Taiga (Major Road) ([terrain|E])"
+ majorroad_taiga_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Taiga (Major Road)"
+ majorroad_taiga_holding_construction_prestige_cost: "$majorroad_taiga_holding_construction_gold_cost$"
+ majorroad_taiga_tax_mult: "$MOD_TAX_MULT$ in Taiga (Major Road)"
+ majorroad_taiga_levy_size: "$MOD_LEVY_SIZE$ in Taiga (Major Road)"
+ majorroad_taiga_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Taiga (Major Road)"
+ minorroad_taiga_advantage: "[command_modifier_i|E][advantage|E] in Taiga (Minor Road)"
+ minorroad_taiga_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Taiga (Minor Road)"
+ minorroad_taiga_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Taiga (Minor Road)"
+ minorroad_taiga_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Taiga (Minor Road)"
+ minorroad_taiga_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Taiga (Minor Road)"
+ minorroad_taiga_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Taiga (Minor Road)"
+ minorroad_taiga_construction_prestige_cost: "$minorroad_taiga_construction_gold_cost$"
+ minorroad_taiga_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Taiga (Minor Road) ([terrain|E])"
+ minorroad_taiga_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Taiga (Minor Road)"
+ minorroad_taiga_holding_construction_prestige_cost: "$minorroad_taiga_holding_construction_gold_cost$"
+ minorroad_taiga_tax_mult: "$MOD_TAX_MULT$ in Taiga (Minor Road)"
+ minorroad_taiga_levy_size: "$MOD_LEVY_SIZE$ in Taiga (Minor Road)"
+ minorroad_taiga_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Taiga (Minor Road)"
+ majorroad_wetlands_advantage: "[command_modifier_i|E][advantage|E] in Wetlands (Major Road)"
+ majorroad_wetlands_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Wetlands (Major Road)"
+ majorroad_wetlands_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Wetlands (Major Road)"
+ majorroad_wetlands_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Wetlands (Major Road)"
+ majorroad_wetlands_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Wetlands (Major Road)"
+ majorroad_wetlands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Wetlands (Major Road)"
+ majorroad_wetlands_construction_prestige_cost: "$majorroad_wetlands_construction_gold_cost$"
+ majorroad_wetlands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Wetlands (Major Road) ([terrain|E])"
+ majorroad_wetlands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Wetlands (Major Road)"
+ majorroad_wetlands_holding_construction_prestige_cost: "$majorroad_wetlands_holding_construction_gold_cost$"
+ majorroad_wetlands_tax_mult: "$MOD_TAX_MULT$ in Wetlands (Major Road)"
+ majorroad_wetlands_levy_size: "$MOD_LEVY_SIZE$ in Wetlands (Major Road)"
+ majorroad_wetlands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Wetlands (Major Road)"
+ minorroad_wetlands_advantage: "[command_modifier_i|E][advantage|E] in Wetlands (Minor Road)"
+ minorroad_wetlands_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Wetlands (Minor Road)"
+ minorroad_wetlands_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Wetlands (Minor Road)"
+ minorroad_wetlands_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Wetlands (Minor Road)"
+ minorroad_wetlands_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Wetlands (Minor Road)"
+ minorroad_wetlands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Wetlands (Minor Road)"
+ minorroad_wetlands_construction_prestige_cost: "$minorroad_wetlands_construction_gold_cost$"
+ minorroad_wetlands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Wetlands (Minor Road) ([terrain|E])"
+ minorroad_wetlands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Wetlands (Minor Road)"
+ minorroad_wetlands_holding_construction_prestige_cost: "$minorroad_wetlands_holding_construction_gold_cost$"
+ minorroad_wetlands_tax_mult: "$MOD_TAX_MULT$ in Wetlands (Minor Road)"
+ minorroad_wetlands_levy_size: "$MOD_LEVY_SIZE$ in Wetlands (Minor Road)"
+ minorroad_wetlands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Wetlands (Minor Road)"
+ majorroad_steppe_advantage: "[command_modifier_i|E][advantage|E] in Steppe (Major Road)"
+ majorroad_steppe_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Steppe (Major Road)"
+ majorroad_steppe_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Steppe (Major Road)"
+ majorroad_steppe_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Steppe (Major Road)"
+ majorroad_steppe_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Steppe (Major Road)"
+ majorroad_steppe_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Steppe (Major Road)"
+ majorroad_steppe_construction_prestige_cost: "$majorroad_steppe_construction_gold_cost$"
+ majorroad_steppe_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Steppe (Major Road) ([terrain|E])"
+ majorroad_steppe_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Steppe (Major Road)"
+ majorroad_steppe_holding_construction_prestige_cost: "$majorroad_steppe_holding_construction_gold_cost$"
+ majorroad_steppe_tax_mult: "$MOD_TAX_MULT$ in Steppe (Major Road)"
+ majorroad_steppe_levy_size: "$MOD_LEVY_SIZE$ in Steppe (Major Road)"
+ majorroad_steppe_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Steppe (Major Road)"
+ minorroad_steppe_advantage: "[command_modifier_i|E][advantage|E] in Steppe (Minor Road)"
+ minorroad_steppe_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Steppe (Minor Road)"
+ minorroad_steppe_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Steppe (Minor Road)"
+ minorroad_steppe_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Steppe (Minor Road)"
+ minorroad_steppe_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Steppe (Minor Road)"
+ minorroad_steppe_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Steppe (Minor Road)"
+ minorroad_steppe_construction_prestige_cost: "$minorroad_steppe_construction_gold_cost$"
+ minorroad_steppe_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Steppe (Minor Road) ([terrain|E])"
+ minorroad_steppe_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Steppe (Minor Road)"
+ minorroad_steppe_holding_construction_prestige_cost: "$minorroad_steppe_holding_construction_gold_cost$"
+ minorroad_steppe_tax_mult: "$MOD_TAX_MULT$ in Steppe (Minor Road)"
+ minorroad_steppe_levy_size: "$MOD_LEVY_SIZE$ in Steppe (Minor Road)"
+ minorroad_steppe_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Steppe (Minor Road)"
+ majorroad_floodplains_advantage: "[command_modifier_i|E][advantage|E] in Floodplains (Major Road)"
+ majorroad_floodplains_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Floodplains (Major Road)"
+ majorroad_floodplains_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Floodplains (Major Road)"
+ majorroad_floodplains_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Floodplains (Major Road)"
+ majorroad_floodplains_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Floodplains (Major Road)"
+ majorroad_floodplains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Floodplains (Major Road)"
+ majorroad_floodplains_construction_prestige_cost: "$majorroad_floodplains_construction_gold_cost$"
+ majorroad_floodplains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Floodplains (Major Road) ([terrain|E])"
+ majorroad_floodplains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Floodplains (Major Road)"
+ majorroad_floodplains_holding_construction_prestige_cost: "$majorroad_floodplains_holding_construction_gold_cost$"
+ majorroad_floodplains_tax_mult: "$MOD_TAX_MULT$ in Floodplains (Major Road)"
+ majorroad_floodplains_levy_size: "$MOD_LEVY_SIZE$ in Floodplains (Major Road)"
+ majorroad_floodplains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Floodplains (Major Road)"
+ minorroad_floodplains_advantage: "[command_modifier_i|E][advantage|E] in Floodplains (Minor Road)"
+ minorroad_floodplains_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Floodplains (Minor Road)"
+ minorroad_floodplains_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Floodplains (Minor Road)"
+ minorroad_floodplains_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Floodplains (Minor Road)"
+ minorroad_floodplains_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Floodplains (Minor Road)"
+ minorroad_floodplains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Floodplains (Minor Road)"
+ minorroad_floodplains_construction_prestige_cost: "$minorroad_floodplains_construction_gold_cost$"
+ minorroad_floodplains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Floodplains (Minor Road) ([terrain|E])"
+ minorroad_floodplains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Floodplains (Minor Road)"
+ minorroad_floodplains_holding_construction_prestige_cost: "$minorroad_floodplains_holding_construction_gold_cost$"
+ minorroad_floodplains_tax_mult: "$MOD_TAX_MULT$ in Floodplains (Minor Road)"
+ minorroad_floodplains_levy_size: "$MOD_LEVY_SIZE$ in Floodplains (Minor Road)"
+ minorroad_floodplains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Floodplains (Minor Road)"
+ majorroad_drylands_advantage: "[command_modifier_i|E][advantage|E] in Drylands (Major Road)"
+ majorroad_drylands_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Drylands (Major Road)"
+ majorroad_drylands_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Drylands (Major Road)"
+ majorroad_drylands_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Drylands (Major Road)"
+ majorroad_drylands_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Drylands (Major Road)"
+ majorroad_drylands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Drylands (Major Road)"
+ majorroad_drylands_construction_prestige_cost: "$majorroad_drylands_construction_gold_cost$"
+ majorroad_drylands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Drylands (Major Road) ([terrain|E])"
+ majorroad_drylands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Drylands (Major Road)"
+ majorroad_drylands_holding_construction_prestige_cost: "$majorroad_drylands_holding_construction_gold_cost$"
+ majorroad_drylands_tax_mult: "$MOD_TAX_MULT$ in Drylands (Major Road)"
+ majorroad_drylands_levy_size: "$MOD_LEVY_SIZE$ in Drylands (Major Road)"
+ majorroad_drylands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Drylands (Major Road)"
+ minorroad_drylands_advantage: "[command_modifier_i|E][advantage|E] in Drylands (Minor Road)"
+ minorroad_drylands_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Drylands (Minor Road)"
+ minorroad_drylands_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Drylands (Minor Road)"
+ minorroad_drylands_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Drylands (Minor Road)"
+ minorroad_drylands_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Drylands (Minor Road)"
+ minorroad_drylands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Drylands (Minor Road)"
+ minorroad_drylands_construction_prestige_cost: "$minorroad_drylands_construction_gold_cost$"
+ minorroad_drylands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Drylands (Minor Road) ([terrain|E])"
+ minorroad_drylands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Drylands (Minor Road)"
+ minorroad_drylands_holding_construction_prestige_cost: "$minorroad_drylands_holding_construction_gold_cost$"
+ minorroad_drylands_tax_mult: "$MOD_TAX_MULT$ in Drylands (Minor Road)"
+ minorroad_drylands_levy_size: "$MOD_LEVY_SIZE$ in Drylands (Minor Road)"
+ minorroad_drylands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Drylands (Minor Road)"
+ frozen_flats_advantage: "[command_modifier_i|E][advantage|E] in Frozen Flats"
+ frozen_flats_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Frozen Flats"
+ frozen_flats_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Frozen Flats"
+ frozen_flats_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Frozen Flats"
+ frozen_flats_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Frozen Flats"
+ frozen_flats_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Frozen Flats"
+ frozen_flats_construction_prestige_cost: "$frozen_flats_construction_gold_cost$"
+ frozen_flats_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Frozen Flats ([terrain|E])"
+ frozen_flats_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Frozen Flats"
+ frozen_flats_holding_construction_prestige_cost: "$frozen_flats_holding_construction_gold_cost$"
+ frozen_flats_tax_mult: "$MOD_TAX_MULT$ in Frozen Flats"
+ frozen_flats_levy_size: "$MOD_LEVY_SIZE$ in Frozen Flats"
+ frozen_flats_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Frozen Flats"
+ majorroad_frozen_flats_advantage: "[command_modifier_i|E][advantage|E] in Frozen Flats (Major Road)"
+ majorroad_frozen_flats_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Frozen Flats (Major Road)"
+ majorroad_frozen_flats_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Frozen Flats (Major Road)"
+ majorroad_frozen_flats_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Frozen Flats (Major Road)"
+ majorroad_frozen_flats_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Frozen Flats (Major Road)"
+ majorroad_frozen_flats_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Frozen Flats (Major Road)"
+ majorroad_frozen_flats_construction_prestige_cost: "$majorroad_frozen_flats_construction_gold_cost$"
+ majorroad_frozen_flats_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Frozen Flats (Major Road) ([terrain|E])"
+ majorroad_frozen_flats_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Frozen Flats (Major Road)"
+ majorroad_frozen_flats_holding_construction_prestige_cost: "$majorroad_frozen_flats_holding_construction_gold_cost$"
+ majorroad_frozen_flats_tax_mult: "$MOD_TAX_MULT$ in Frozen Flats (Major Road)"
+ majorroad_frozen_flats_levy_size: "$MOD_LEVY_SIZE$ in Frozen Flats (Major Road)"
+ majorroad_frozen_flats_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Frozen Flats (Major Road)"
+ minorroad_frozen_flats_advantage: "[command_modifier_i|E][advantage|E] in Frozen Flats (Minor Road)"
+ minorroad_frozen_flats_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Frozen Flats (Minor Road)"
+ minorroad_frozen_flats_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Frozen Flats (Minor Road)"
+ minorroad_frozen_flats_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Frozen Flats (Minor Road)"
+ minorroad_frozen_flats_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Frozen Flats (Minor Road)"
+ minorroad_frozen_flats_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Frozen Flats (Minor Road)"
+ minorroad_frozen_flats_construction_prestige_cost: "$minorroad_frozen_flats_construction_gold_cost$"
+ minorroad_frozen_flats_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Frozen Flats (Minor Road) ([terrain|E])"
+ minorroad_frozen_flats_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Frozen Flats (Minor Road)"
+ minorroad_frozen_flats_holding_construction_prestige_cost: "$minorroad_frozen_flats_holding_construction_gold_cost$"
+ minorroad_frozen_flats_tax_mult: "$MOD_TAX_MULT$ in Frozen Flats (Minor Road)"
+ minorroad_frozen_flats_levy_size: "$MOD_LEVY_SIZE$ in Frozen Flats (Minor Road)"
+ minorroad_frozen_flats_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Frozen Flats (Minor Road)"
+ glacier_advantage: "[command_modifier_i|E][advantage|E] in Glacier"
+ glacier_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Glacier"
+ glacier_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Glacier"
+ glacier_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Glacier"
+ glacier_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Glacier"
+ glacier_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Glacier"
+ glacier_construction_prestige_cost: "$glacier_construction_gold_cost$"
+ glacier_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Glacier ([terrain|E])"
+ glacier_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Glacier"
+ glacier_holding_construction_prestige_cost: "$glacier_holding_construction_gold_cost$"
+ glacier_tax_mult: "$MOD_TAX_MULT$ in Glacier"
+ glacier_levy_size: "$MOD_LEVY_SIZE$ in Glacier"
+ glacier_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Glacier"
+ majorroad_glacier_advantage: "[command_modifier_i|E][advantage|E] in Glacier (Major Road)"
+ majorroad_glacier_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Glacier (Major Road)"
+ majorroad_glacier_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Glacier (Major Road)"
+ majorroad_glacier_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Glacier (Major Road)"
+ majorroad_glacier_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Glacier (Major Road)"
+ majorroad_glacier_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Glacier (Major Road)"
+ majorroad_glacier_construction_prestige_cost: "$majorroad_glacier_construction_gold_cost$"
+ majorroad_glacier_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Glacier (Major Road) ([terrain|E])"
+ majorroad_glacier_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Glacier (Major Road)"
+ majorroad_glacier_holding_construction_prestige_cost: "$majorroad_glacier_holding_construction_gold_cost$"
+ majorroad_glacier_tax_mult: "$MOD_TAX_MULT$ in Glacier (Major Road)"
+ majorroad_glacier_levy_size: "$MOD_LEVY_SIZE$ in Glacier (Major Road)"
+ majorroad_glacier_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Glacier (Major Road)"
+ minorroad_glacier_advantage: "[command_modifier_i|E][advantage|E] in Glacier (Minor Road)"
+ minorroad_glacier_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Glacier (Minor Road)"
+ minorroad_glacier_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Glacier (Minor Road)"
+ minorroad_glacier_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Glacier (Minor Road)"
+ minorroad_glacier_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Glacier (Minor Road)"
+ minorroad_glacier_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Glacier (Minor Road)"
+ minorroad_glacier_construction_prestige_cost: "$minorroad_glacier_construction_gold_cost$"
+ minorroad_glacier_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Glacier (Minor Road) ([terrain|E])"
+ minorroad_glacier_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Glacier (Minor Road)"
+ minorroad_glacier_holding_construction_prestige_cost: "$minorroad_glacier_holding_construction_gold_cost$"
+ minorroad_glacier_tax_mult: "$MOD_TAX_MULT$ in Glacier (Minor Road)"
+ minorroad_glacier_levy_size: "$MOD_LEVY_SIZE$ in Glacier (Minor Road)"
+ minorroad_glacier_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Glacier (Minor Road)"
+ canyon_advantage: "[command_modifier_i|E][advantage|E] in Canyon"
+ canyon_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Canyon"
+ canyon_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Canyon"
+ canyon_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Canyon"
+ canyon_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Canyon"
+ canyon_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Canyon"
+ canyon_construction_prestige_cost: "$canyon_construction_gold_cost$"
+ canyon_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Canyon ([terrain|E])"
+ canyon_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Canyon"
+ canyon_holding_construction_prestige_cost: "$canyon_holding_construction_gold_cost$"
+ canyon_tax_mult: "$MOD_TAX_MULT$ in Canyon"
+ canyon_levy_size: "$MOD_LEVY_SIZE$ in Canyon"
+ canyon_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Canyon"
+ majorroad_canyon_advantage: "[command_modifier_i|E][advantage|E] in Canyon (Major Road)"
+ majorroad_canyon_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Canyon (Major Road)"
+ majorroad_canyon_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Canyon (Major Road)"
+ majorroad_canyon_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Canyon (Major Road)"
+ majorroad_canyon_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Canyon (Major Road)"
+ majorroad_canyon_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Canyon (Major Road)"
+ majorroad_canyon_construction_prestige_cost: "$majorroad_canyon_construction_gold_cost$"
+ majorroad_canyon_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Canyon (Major Road) ([terrain|E])"
+ majorroad_canyon_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Canyon (Major Road)"
+ majorroad_canyon_holding_construction_prestige_cost: "$majorroad_canyon_holding_construction_gold_cost$"
+ majorroad_canyon_tax_mult: "$MOD_TAX_MULT$ in Canyon (Major Road)"
+ majorroad_canyon_levy_size: "$MOD_LEVY_SIZE$ in Canyon (Major Road)"
+ majorroad_canyon_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Canyon (Major Road)"
+ minorroad_canyon_advantage: "[command_modifier_i|E][advantage|E] in Canyon (Minor Road)"
+ minorroad_canyon_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Canyon (Minor Road)"
+ minorroad_canyon_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Canyon (Minor Road)"
+ minorroad_canyon_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Canyon (Minor Road)"
+ minorroad_canyon_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Canyon (Minor Road)"
+ minorroad_canyon_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Canyon (Minor Road)"
+ minorroad_canyon_construction_prestige_cost: "$minorroad_canyon_construction_gold_cost$"
+ minorroad_canyon_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Canyon (Minor Road) ([terrain|E])"
+ minorroad_canyon_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Canyon (Minor Road)"
+ minorroad_canyon_holding_construction_prestige_cost: "$minorroad_canyon_holding_construction_gold_cost$"
+ minorroad_canyon_tax_mult: "$MOD_TAX_MULT$ in Canyon (Minor Road)"
+ minorroad_canyon_levy_size: "$MOD_LEVY_SIZE$ in Canyon (Minor Road)"
+ minorroad_canyon_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Canyon (Minor Road)"
+ cloudforest_advantage: "[command_modifier_i|E][advantage|E] in Cloud Forest"
+ cloudforest_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Cloud Forest"
+ cloudforest_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Cloud Forest"
+ cloudforest_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Cloud Forest"
+ cloudforest_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Cloud Forest"
+ cloudforest_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Cloud Forest"
+ cloudforest_construction_prestige_cost: "$cloudforest_construction_gold_cost$"
+ cloudforest_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Cloud Forest ([terrain|E])"
+ cloudforest_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Cloud Forest"
+ cloudforest_holding_construction_prestige_cost: "$cloudforest_holding_construction_gold_cost$"
+ cloudforest_tax_mult: "$MOD_TAX_MULT$ in Cloud Forest"
+ cloudforest_levy_size: "$MOD_LEVY_SIZE$ in Cloud Forest"
+ cloudforest_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Cloud Forest"
+ majorroad_cloudforest_advantage: "[command_modifier_i|E][advantage|E] in Cloud Forest (Major Road)"
+ majorroad_cloudforest_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Cloud Forest (Major Road)"
+ majorroad_cloudforest_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Cloud Forest (Major Road)"
+ majorroad_cloudforest_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Cloud Forest (Major Road)"
+ majorroad_cloudforest_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Cloud Forest (Major Road)"
+ majorroad_cloudforest_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Cloud Forest (Major Road)"
+ majorroad_cloudforest_construction_prestige_cost: "$majorroad_cloudforest_construction_gold_cost$"
+ majorroad_cloudforest_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Cloud Forest (Major Road) ([terrain|E])"
+ majorroad_cloudforest_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Cloud Forest (Major Road)"
+ majorroad_cloudforest_holding_construction_prestige_cost: "$majorroad_cloudforest_holding_construction_gold_cost$"
+ majorroad_cloudforest_tax_mult: "$MOD_TAX_MULT$ in Cloud Forest (Major Road)"
+ majorroad_cloudforest_levy_size: "$MOD_LEVY_SIZE$ in Cloud Forest (Major Road)"
+ majorroad_cloudforest_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Cloud Forest (Major Road)"
+ minorroad_cloudforest_advantage: "[command_modifier_i|E][advantage|E] in Cloud Forest (Minor Road)"
+ minorroad_cloudforest_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Cloud Forest (Minor Road)"
+ minorroad_cloudforest_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Cloud Forest (Minor Road)"
+ minorroad_cloudforest_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Cloud Forest (Minor Road)"
+ minorroad_cloudforest_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Cloud Forest (Minor Road)"
+ minorroad_cloudforest_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Cloud Forest (Minor Road)"
+ minorroad_cloudforest_construction_prestige_cost: "$minorroad_cloudforest_construction_gold_cost$"
+ minorroad_cloudforest_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Cloud Forest (Minor Road) ([terrain|E])"
+ minorroad_cloudforest_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Cloud Forest (Minor Road)"
+ minorroad_cloudforest_holding_construction_prestige_cost: "$minorroad_cloudforest_holding_construction_gold_cost$"
+ minorroad_cloudforest_tax_mult: "$MOD_TAX_MULT$ in Cloud Forest (Minor Road)"
+ minorroad_cloudforest_levy_size: "$MOD_LEVY_SIZE$ in Cloud Forest (Minor Road)"
+ minorroad_cloudforest_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Cloud Forest (Minor Road)"
+ highlands_advantage: "[command_modifier_i|E][advantage|E] in Highlands"
+ highlands_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Highlands"
+ highlands_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Highlands"
+ highlands_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Highlands"
+ highlands_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Highlands"
+ highlands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Highlands"
+ highlands_construction_prestige_cost: "$highlands_construction_gold_cost$"
+ highlands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Highlands ([terrain|E])"
+ highlands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Highlands"
+ highlands_holding_construction_prestige_cost: "$highlands_holding_construction_gold_cost$"
+ highlands_tax_mult: "$MOD_TAX_MULT$ in Highlands"
+ highlands_levy_size: "$MOD_LEVY_SIZE$ in Highlands"
+ highlands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Highlands"
+ majorroad_highlands_advantage: "[command_modifier_i|E][advantage|E] in Highlands (Major Road)"
+ majorroad_highlands_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Highlands (Major Road)"
+ majorroad_highlands_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Highlands (Major Road)"
+ majorroad_highlands_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Highlands (Major Road)"
+ majorroad_highlands_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Highlands (Major Road)"
+ majorroad_highlands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Highlands (Major Road)"
+ majorroad_highlands_construction_prestige_cost: "$majorroad_highlands_construction_gold_cost$"
+ majorroad_highlands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Highlands (Major Road) ([terrain|E])"
+ majorroad_highlands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Highlands (Major Road)"
+ majorroad_highlands_holding_construction_prestige_cost: "$majorroad_highlands_holding_construction_gold_cost$"
+ majorroad_highlands_tax_mult: "$MOD_TAX_MULT$ in Highlands (Major Road)"
+ majorroad_highlands_levy_size: "$MOD_LEVY_SIZE$ in Highlands (Major Road)"
+ majorroad_highlands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Highlands (Major Road)"
+ minorroad_highlands_advantage: "[command_modifier_i|E][advantage|E] in Highlands (Minor Road)"
+ minorroad_highlands_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Highlands (Minor Road)"
+ minorroad_highlands_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Highlands (Minor Road)"
+ minorroad_highlands_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Highlands (Minor Road)"
+ minorroad_highlands_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Highlands (Minor Road)"
+ minorroad_highlands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Highlands (Minor Road)"
+ minorroad_highlands_construction_prestige_cost: "$minorroad_highlands_construction_gold_cost$"
+ minorroad_highlands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Highlands (Minor Road) ([terrain|E])"
+ minorroad_highlands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Highlands (Minor Road)"
+ minorroad_highlands_holding_construction_prestige_cost: "$minorroad_highlands_holding_construction_gold_cost$"
+ minorroad_highlands_tax_mult: "$MOD_TAX_MULT$ in Highlands (Minor Road)"
+ minorroad_highlands_levy_size: "$MOD_LEVY_SIZE$ in Highlands (Minor Road)"
+ minorroad_highlands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Highlands (Minor Road)"
+ taiga_bog_advantage: "[command_modifier_i|E][advantage|E] in Taiga Bog"
+ taiga_bog_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Taiga Bog"
+ taiga_bog_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Taiga Bog"
+ taiga_bog_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Taiga Bog"
+ taiga_bog_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Taiga Bog"
+ taiga_bog_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Taiga Bog"
+ taiga_bog_construction_prestige_cost: "$taiga_bog_construction_gold_cost$"
+ taiga_bog_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Taiga Bog ([terrain|E])"
+ taiga_bog_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Taiga Bog"
+ taiga_bog_holding_construction_prestige_cost: "$taiga_bog_holding_construction_gold_cost$"
+ taiga_bog_tax_mult: "$MOD_TAX_MULT$ in Taiga Bog"
+ taiga_bog_levy_size: "$MOD_LEVY_SIZE$ in Taiga Bog"
+ taiga_bog_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Taiga Bog"
+ majorroad_taiga_bog_advantage: "[command_modifier_i|E][advantage|E] in Taiga Bog (Major Road)"
+ majorroad_taiga_bog_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Taiga Bog (Major Road)"
+ majorroad_taiga_bog_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Taiga Bog (Major Road)"
+ majorroad_taiga_bog_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Taiga Bog (Major Road)"
+ majorroad_taiga_bog_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Taiga Bog (Major Road)"
+ majorroad_taiga_bog_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Taiga Bog (Major Road)"
+ majorroad_taiga_bog_construction_prestige_cost: "$majorroad_taiga_bog_construction_gold_cost$"
+ majorroad_taiga_bog_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Taiga Bog (Major Road) ([terrain|E])"
+ majorroad_taiga_bog_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Taiga Bog (Major Road)"
+ majorroad_taiga_bog_holding_construction_prestige_cost: "$majorroad_taiga_bog_holding_construction_gold_cost$"
+ majorroad_taiga_bog_tax_mult: "$MOD_TAX_MULT$ in Taiga Bog (Major Road)"
+ majorroad_taiga_bog_levy_size: "$MOD_LEVY_SIZE$ in Taiga Bog (Major Road)"
+ majorroad_taiga_bog_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Taiga Bog (Major Road)"
+ minorroad_taiga_bog_advantage: "[command_modifier_i|E][advantage|E] in Taiga Bog (Minor Road)"
+ minorroad_taiga_bog_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Taiga Bog (Minor Road)"
+ minorroad_taiga_bog_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Taiga Bog (Minor Road)"
+ minorroad_taiga_bog_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Taiga Bog (Minor Road)"
+ minorroad_taiga_bog_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Taiga Bog (Minor Road)"
+ minorroad_taiga_bog_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Taiga Bog (Minor Road)"
+ minorroad_taiga_bog_construction_prestige_cost: "$minorroad_taiga_bog_construction_gold_cost$"
+ minorroad_taiga_bog_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Taiga Bog (Minor Road) ([terrain|E])"
+ minorroad_taiga_bog_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Taiga Bog (Minor Road)"
+ minorroad_taiga_bog_holding_construction_prestige_cost: "$minorroad_taiga_bog_holding_construction_gold_cost$"
+ minorroad_taiga_bog_tax_mult: "$MOD_TAX_MULT$ in Taiga Bog (Minor Road)"
+ minorroad_taiga_bog_levy_size: "$MOD_LEVY_SIZE$ in Taiga Bog (Minor Road)"
+ minorroad_taiga_bog_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Taiga Bog (Minor Road)"
+ urban_advantage: "[command_modifier_i|E][advantage|E] in Urban"
+ urban_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Urban"
+ urban_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Urban"
+ urban_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Urban"
+ urban_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Urban"
+ urban_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Urban"
+ urban_construction_prestige_cost: "$urban_construction_gold_cost$"
+ urban_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Urban ([terrain|E])"
+ urban_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Urban"
+ urban_holding_construction_prestige_cost: "$urban_holding_construction_gold_cost$"
+ urban_tax_mult: "$MOD_TAX_MULT$ in Urban"
+ urban_levy_size: "$MOD_LEVY_SIZE$ in Urban"
+ urban_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Urban"
+ majorroad_urban_advantage: "[command_modifier_i|E][advantage|E] in Urban (Major Road)"
+ majorroad_urban_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Urban (Major Road)"
+ majorroad_urban_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Urban (Major Road)"
+ majorroad_urban_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Urban (Major Road)"
+ majorroad_urban_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Urban (Major Road)"
+ majorroad_urban_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Urban (Major Road)"
+ majorroad_urban_construction_prestige_cost: "$majorroad_urban_construction_gold_cost$"
+ majorroad_urban_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Urban (Major Road) ([terrain|E])"
+ majorroad_urban_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Urban (Major Road)"
+ majorroad_urban_holding_construction_prestige_cost: "$majorroad_urban_holding_construction_gold_cost$"
+ majorroad_urban_tax_mult: "$MOD_TAX_MULT$ in Urban (Major Road)"
+ majorroad_urban_levy_size: "$MOD_LEVY_SIZE$ in Urban (Major Road)"
+ majorroad_urban_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Urban (Major Road)"
+ minorroad_urban_advantage: "[command_modifier_i|E][advantage|E] in Urban (Minor Road)"
+ minorroad_urban_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Urban (Minor Road)"
+ minorroad_urban_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Urban (Minor Road)"
+ minorroad_urban_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Urban (Minor Road)"
+ minorroad_urban_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Urban (Minor Road)"
+ minorroad_urban_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Urban (Minor Road)"
+ minorroad_urban_construction_prestige_cost: "$minorroad_urban_construction_gold_cost$"
+ minorroad_urban_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Urban (Minor Road) ([terrain|E])"
+ minorroad_urban_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Urban (Minor Road)"
+ minorroad_urban_holding_construction_prestige_cost: "$minorroad_urban_holding_construction_gold_cost$"
+ minorroad_urban_tax_mult: "$MOD_TAX_MULT$ in Urban (Minor Road)"
+ minorroad_urban_levy_size: "$MOD_LEVY_SIZE$ in Urban (Minor Road)"
+ minorroad_urban_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Urban (Minor Road)"
+ the_bog_advantage: "[command_modifier_i|E] [advantage|E] im Moor"
+ the_bog_attrition_mult: "[command_modifier_i|E] [attrition|E] durch das Moor"
+ the_bog_cancel_negative_supply: "[command_modifier_i|E] negiert [supply_limit|E]-Abzüge im Moor"
+ the_bog_max_combat_roll: "[command_modifier_i|E] maximum [combat_roll|E] im Moor"
+ the_bog_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in The Bog"
+ the_bog_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ im Moor"
+ the_bog_construction_prestige_cost: "$the_bog_construction_gold_cost$"
+ the_bog_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ im Moor ([terrain|E])"
+ the_bog_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ im Moor"
+ the_bog_holding_construction_prestige_cost: "$the_bog_holding_construction_gold_cost$"
+ the_bog_tax_mult: "$MOD_TAX_MULT$ im Moor"
+ the_bog_levy_size: "$MOD_LEVY_SIZE$ im Moor"
+ the_bog_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ im Moor"
+ majorroad_the_bog_advantage: "[command_modifier_i|E][advantage|E] in The Bog (Major Road)"
+ majorroad_the_bog_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in The Bog (Major Road)"
+ majorroad_the_bog_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in The Bog (Major Road)"
+ majorroad_the_bog_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in The Bog (Major Road)"
+ majorroad_the_bog_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in The Bog (Major Road)"
+ majorroad_the_bog_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in The Bog (Major Road)"
+ majorroad_the_bog_construction_prestige_cost: "$majorroad_the_bog_construction_gold_cost$"
+ majorroad_the_bog_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in The Bog (Major Road) ([terrain|E])"
+ majorroad_the_bog_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in The Bog (Major Road)"
+ majorroad_the_bog_holding_construction_prestige_cost: "$majorroad_the_bog_holding_construction_gold_cost$"
+ majorroad_the_bog_tax_mult: "$MOD_TAX_MULT$ in The Bog (Major Road)"
+ majorroad_the_bog_levy_size: "$MOD_LEVY_SIZE$ in The Bog (Major Road)"
+ majorroad_the_bog_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in The Bog (Major Road)"
+ minorroad_the_bog_advantage: "[command_modifier_i|E][advantage|E] in The Bog (Minor Road)"
+ minorroad_the_bog_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in The Bog (Minor Road)"
+ minorroad_the_bog_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in The Bog (Minor Road)"
+ minorroad_the_bog_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in The Bog (Minor Road)"
+ minorroad_the_bog_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in The Bog (Minor Road)"
+ minorroad_the_bog_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in The Bog (Minor Road)"
+ minorroad_the_bog_construction_prestige_cost: "$minorroad_the_bog_construction_gold_cost$"
+ minorroad_the_bog_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in The Bog (Minor Road) ([terrain|E])"
+ minorroad_the_bog_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in The Bog (Minor Road)"
+ minorroad_the_bog_holding_construction_prestige_cost: "$minorroad_the_bog_holding_construction_gold_cost$"
+ minorroad_the_bog_tax_mult: "$MOD_TAX_MULT$ in The Bog (Minor Road)"
+ minorroad_the_bog_levy_size: "$MOD_LEVY_SIZE$ in The Bog (Minor Road)"
+ minorroad_the_bog_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in The Bog (Minor Road)"
+ hotsprings_advantage: "[command_modifier_i|E][advantage|E] in Hotsprings"
+ hotsprings_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Hotsprings"
+ hotsprings_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Hotsprings"
+ hotsprings_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Hotsprings"
+ hotsprings_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Hotsprings"
+ hotsprings_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Hotsprings"
+ hotsprings_construction_prestige_cost: "$hotsprings_construction_gold_cost$"
+ hotsprings_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Hotsprings ([terrain|E])"
+ hotsprings_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Hotsprings"
+ hotsprings_holding_construction_prestige_cost: "$hotsprings_holding_construction_gold_cost$"
+ hotsprings_tax_mult: "$MOD_TAX_MULT$ in Hotsprings"
+ hotsprings_levy_size: "$MOD_LEVY_SIZE$ in Hotsprings"
+ hotsprings_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Hotsprings"
+ majorroad_hotsprings_advantage: "[command_modifier_i|E][advantage|E] in Hotsprings (Major Road)"
+ majorroad_hotsprings_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Hotsprings (Major Road)"
+ majorroad_hotsprings_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Hotsprings (Major Road)"
+ majorroad_hotsprings_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Hotsprings (Major Road)"
+ majorroad_hotsprings_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Hotsprings (Major Road)"
+ majorroad_hotsprings_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Hotsprings (Major Road)"
+ majorroad_hotsprings_construction_prestige_cost: "$majorroad_hotsprings_construction_gold_cost$"
+ majorroad_hotsprings_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Hotsprings (Major Road) ([terrain|E])"
+ majorroad_hotsprings_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Hotsprings (Major Road)"
+ majorroad_hotsprings_holding_construction_prestige_cost: "$majorroad_hotsprings_holding_construction_gold_cost$"
+ majorroad_hotsprings_tax_mult: "$MOD_TAX_MULT$ in Hotsprings (Major Road)"
+ majorroad_hotsprings_levy_size: "$MOD_LEVY_SIZE$ in Hotsprings (Major Road)"
+ majorroad_hotsprings_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Hotsprings (Major Road)"
+ minorroad_hotsprings_advantage: "[command_modifier_i|E][advantage|E] in Hotsprings (Minor Road)"
+ minorroad_hotsprings_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Hotsprings (Minor Road)"
+ minorroad_hotsprings_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Hotsprings (Minor Road)"
+ minorroad_hotsprings_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Hotsprings (Minor Road)"
+ minorroad_hotsprings_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Hotsprings (Minor Road)"
+ minorroad_hotsprings_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Hotsprings (Minor Road)"
+ minorroad_hotsprings_construction_prestige_cost: "$minorroad_hotsprings_construction_gold_cost$"
+ minorroad_hotsprings_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Hotsprings (Minor Road) ([terrain|E])"
+ minorroad_hotsprings_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Hotsprings (Minor Road)"
+ minorroad_hotsprings_holding_construction_prestige_cost: "$minorroad_hotsprings_holding_construction_gold_cost$"
+ minorroad_hotsprings_tax_mult: "$MOD_TAX_MULT$ in Hotsprings (Minor Road)"
+ minorroad_hotsprings_levy_size: "$MOD_LEVY_SIZE$ in Hotsprings (Minor Road)"
+ minorroad_hotsprings_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Hotsprings (Minor Road)"
+  
+  ################# 
+  # TRAVEL EVENTS # 
+  ################# 
+  
+  #At the Crossroads event chain 
+ agot_true_knight: "Wahrer Ritter"
+ agot_true_knight_desc: "Dieser Charakter hat bewiesen, dass er seines Titels würdig ist"
+  
+ agot_won_finger_dance: "Fingersieger"
+ agot_won_finger_dance_desc: "Dieser Charakter hat in einer Partie Fingertanz bewiesen, dass er ein wahrere Eisenmann ist"
+  
+ agot_won_tavern_brawl: "Schenkenprügel"
+ agot_won_tavern_brawl_desc: "Dieser Charakter hat vor Kurzem eine Schlägerei in einer Taverne gewonnen"
+  
+ agot_hired_outlaw_band: "Hired Sellsword Band"
+ agot_hired_outlaw_band_desc: "Dieser Charakter sammelt Gesetzlose unter seinem Banner"
+  
+  # A dragon, I saw a dragon! 
+ agot_rumors_of_dragons: "Rumors of Dragons"
+ agot_rumors_of_dragons_desc: "This county is concerned with rumors of a nearby dragon, causing the populace to be more compliant, but less productive."
+  
+  # Travel to Myr Scholastic Guilds 
+ agot_invite_scholars: "Invited Many Scholars"
+ agot_invite_scholars_desc: "This character has invited many scholars to their court, hoping to gain knowledge and wisdom from their presence."
+ agot_discuss_scholars: "Increased Knowledge"
+ agot_discuss_scholars_desc: "This character has been discussing with the scholars, and has gained a lot of knowledge from them."
+  
+  # Ruins Restoration 
+ agot_rewarded_builders: "Rewarded Builders"
+ agot_rewarded_builders_desc: "The builders have been rewarded for their work"
+ agot_harrenhal_health: "Godly Prayer" #NT!
+ agot_harrenhal_health_desc: "Did the gods hear me?" #NT!
+ agot_green_man_gold: "Green Man's Gold" #NT!
+  
+ agot_reclaimed_knowledge_modifier: "Reclaimed Knowledge"
+ agot_reclaimed_knowledge_modifier_desc: "This character gathered unseful knowledge from ancient, ancestral pictograms."
+  
+ agot_cheerful_disposition_modifier: "Cheerful Disposition"
+ agot_cheerful_disposition_desc: "This character finds it particularly easy to smile and laugh."
+  
+  ##################### 
+  # NPK FILLER EVENTS # 
+  ##################### 
+  
+ agot_sponsored_torturer_inventor_modifier: "Sponsored Torturer Inventor"
+ agot_sponsored_torturer_inventor_modifier_desc: "This character has funded an inventor with a specialization for creating intricate and painful devices used for torture."
+  
+ agot_sponsored_construction_inventor_modifier: "Sponsored Architecture Inventor"
+ agot_sponsored_construction_inventor_modifier_desc: "This character has funded an architect who excels in the design and invention of impressive, unique structures."
+  
+ agot_generic_daydreaming_modifier: "Port Daydreaming"
+ agot_generic_daydreaming_modifier_desc: "This character is lost in thought, imagining ships coming and going in a bustling port, their mind adrift with visions of maritime activity."
+  
+ agot_delicious_food_modifier: "Delicious Food"
+ agot_delicious_food_modifier_desc: "This character is savoring the memory of a recent meal, having enjoyed incredibly tasty and satisfying food that left their taste buds dancing with delight."
+  
+ agot_quick_thinking_intrigue_modifier: "Quick Thinker"
+ agot_quick_thinking_intrigue_modifier_desc: "This character is a quick thinker, adept at swiftly devising cunning and intriguing strategies, their mind agile and sharp when it comes to matters of intrigue."
+  
+ agot_supports_tyroshi_slave_industry_modifier: "Tyroshi Slave Industry Supporter"
+ agot_supports_tyroshi_slave_industry_modifier_desc: "This character has a hand in the Tyroshi slave industry, supporting the practice and its masters whenever possible."
+  
+ agot_supports_tyroshi_dye_industry_modifier: "Tyroshi Dye Industry Supporter"
+ agot_supports_tyroshi_dye_industry_modifier_desc: "This character actively backs the Tyroshi dye industry, showing strong support for the vibrant and colorful trade that defines Tyrosh."
+  
+ agot_supports_tyroshi_sex_industry_modifier: "Tyroshi Pillow House Industry Supporter"
+ agot_supports_tyroshi_sex_industry_modifier_desc: "This character supports the Tyroshi pillow house industry, actively endorsing the cities luxurious and indulgent establishments that offer comfort and companionship."
+  
+  ###################### 
+  # FREE CITIES FILLER # 
+  ###################### 
+ agot_filler_upset_merchants: "Upset Merchants"
+  
+ agot_filler_maester_visit_bonus: "Scholarly Projects"
+  
+ agot_filler_maester_visit_success_bonus: "Scholarly Advancements"
+ agot_filler_maester_visit_success_bonus_desc: "Thanks to the diligent research conducted by a foreign scholar, this county is flourishing."
+  
+ agot_filler_deadly_gardens: "Deadly Gardener"
+ agot_filler_deadly_gardens_desc: "This character has taken a particular interest in toxic flora, adorning their gardens with the most exotic varieties of poisonous plants."
+  
+ agot_filler_exotic_collection: "Deadly Collection"
+ agot_filler_exotic_collection_desc: "This character has taken a particular interest in venomous animals, whatever purpose they might serve."
+  
+ agot_filler_mysterious_disappearances: "Mysterious Abductions"
+ agot_filler_mysterious_disappearances_desc: "Recent disappearances have raised many concerns among the local smallfolk... some whisper that the local guard might be involved."
+  
+ agot_filler_grave_robbers: "Tarnished Graves"
+ agot_filler_grave_robbers_desc: "To the peasantry's dismay, corpses are said to disappear from local cementaries — a fact strangely ignored by the local ruler..."
+  
+ agot_filler_piracy_disrupts_trade: "Piracy Disrupts Trade"
+ agot_filler_piracy_disrupts_trade_desc: "Trade disruptions persist as numerous merchant vessels en route to nearby harbors fall into the hands of increasingly greedy pirates."
+  
+ agot_filler_employs_pirates: "Hires Pirates"
+ agot_filler_employs_pirates_desc: "This character is said to conduct shady dealings with local pirate lords. Though profitable, the practice is frowned upon by most."
+  
+ agot_filler_safe_shipping_lanes: "Safe Shipping Lanes"
+ agot_filler_safe_shipping_lanes_desc: "Trade flourishes here as increased patrols effectively deter pirates from harassing maritime traffic."
+  
+ agot_filler_local_militia: "Emboldened Sailors"
+ agot_filler_local_militia_desc: "As the pirate threat grows, many have taken up arms to defend their possessions."
+  
+ agot_filler_smugglers_alliance: "Black Markets"
+ agot_filler_smugglers_alliance_desc: "Thieves and smugglers rule over local markets while the corrupted guard turns a blind eye."
+  
+  ###################### 
+  # WARS # 
+  ###################### 
+ proven_against_pirates_modifier: "Proven Against Pirates"
+ proven_against_pirates_modifier_desc: "This character fended off an attack on their realm by pirates."
+  
+ proven_against_pirates_offensive_modifier: "Proven Against Pirates"
+ proven_against_pirates_offensive_modifier_desc: "This character disrupted piracy on the shores of their realm and beyond."
+  
+ agot_disrupted_piracy_modifier: "Disrupted Piracy"
+ agot_disrupted_piracy_modifier_desc: "Recent excursions against local pirates have made this province safer."
+  
+ agot_stunned_by_pirates_modifier: "Fearsome Pirates"
+ agot_stunned_by_pirates_modifier_desc: "A stunning victory by local pirates against this province's liege have left its subjects frozen in shock and fear."
+  
+ proven_against_anti_pirate_invaders_offensive_modifier: "Resilient Pirate"
+ proven_against_anti_pirate_invaders_offensive_modifier_desc: "This character bested invaders seeking to end their plundering."
+  
+ agot_bested_anti_pirate_invaders: "Unexpected Plunder"
+ agot_bested_anti_pirate_invaders_desc: "A failed invasion against the pirates of this province has bolstered the loot stockpile here."
+  
+ humiliated_by_pirates: "Humiliated by Pirates"
+ humiliated_by_pirates_desc: "This character's attempt to rid their coasts of pirates failed miserably."
+  
+ pirate_adventurer_modifier: "Stepstones Adventurer" #NT!
+ pirate_adventurer_modifier_desc: "This character left their home with an army of rogues and adventurers, seeking to carve out a realm in the Stepstones." #NT!
+  
+ castle_storming_event_modifier: "Assault Underway"
+ castle_storming_event_modifier_desc: "This character is currently leading the assault upon a great fortress."
+ castle_storming_fort_level_event_modifier: "Assault Underway"
+ castle_storming_fort_level_event_modifier_desc: "This holding is currently being assaulted by a determined enemy force."
+  
+ agot_pentos_braavos_treaty: "Braavos-Pentos Treaty"
+ agot_pentos_braavos_treaty_desc: "This character is subject to the Braavos-Pentos Treaty of 209 AC. They are prohibited from hiring sellswords and participating in the slave trade. Their military might has also been severely hampered."
+ agot_exile_faegon_invader_embark_modifier: "Invader"
+ agot_exile_faegon_invader_embark_modifier_desc: "This character is launching an invasion."
+  
+  #################### 
+  # SCHEME MODIFIERS # 
+  #################### 
+  
+ bond_with_dragon_scheme_scheme_phase_duration_add: "[GetScheme('bond_with_dragon_scheme').GetTypeName] [scheme_speed_single|E]"
+ deepen_bond_with_dragon_scheme_scheme_phase_duration_add: "[GetScheme('deepen_bond_with_dragon_scheme').GetTypeName] [scheme_speed_single|E]"
+ steal_back_artifact_enemy_scheme_phase_duration_add: "[GetScheme('steal_back_artifact').GetTypeName] [scheme_speed_single|E]"
+  
+  ############################# 
+  # MISSING VANILLA MODIFIERS # 
+  ############################# 
+  
+  ############################# 
+  # GOVERNMENT # 
+  ############################# 
+ republic_government_levy_contribution_add: "[republican|E] [vassal|E] [levy|E] [modifier_base_contribution|E]"
+ lp_feudal_government_tax_contribution_mult: "$lp_feudal_government$ [vassal|E] [tax|E] [modifier_contribution|E]" #NT!
+  
+  ########################### 
+  # DESTINED (HEALTH BOOST) # 
+  ########################### 
+  
+ kings_deathbed_modifier: "Destined"
+ kings_deathbed_modifier_desc: "This character still has things to live up to in this life and doesn't intend to die before they are done."
+  
+  ########################### 
+  # AGOT RELIGIONS          # 
+  ########################### 
+  
+ agot_healing_flames_critical_success: "Healing Flames"
+ agot_healing_flames_critical_success_desc: "This character was healed by the flames of R'hllor."
+  
+ agot_shadowbinding_tenet_bonus: "Shadowbinding"
+ agot_shadowbinding_tenet_bonus_value_desc: "$agot_shadowbinding_tenet_bonus$: $VALUE|+0=-+$"
+  
+ whispering_stone_blessing: "The Whispering Stone"
+ whispering_stone_blessing_desc: "The echoes of ancient, forgotten tongues now murmur within this character, unveiling secrets hidden in the shadows."
+ eternal_design_blessing: "Abyssal Order's Blessing"
+ eternal_design_blessing_desc: "Unfathomable patterns from the void guide this character's hand, lending order and vitality to their actions."
+ monolith_wisdom_blessing: "Wisdom of the Monolith"
+ monolith_wisdom_blessing_desc: "The inscrutable wisdom of an ancient monolith infuses this character, enhancing their understanding and easing the strain of mortal concerns."
+ eldritch_presence_blessing: "Presence of the Eldritch"
+ eldritch_presence_blessing_desc: "A mysterious, unseen force envelops this character, augmenting their influence and fortifying their vitality."
+ black_heart_blessing: "The Black Heart"
+ black_heart_blessing_desc: "A relentless, dark resolve pulses within this character, empowering their resolve and sharpening their instincts."
+ agot_kinslayer_malus_0: "Known [GetTrait('accidental_kinslayer').GetName( GetNullCharacter )]" #NT!
+ agot_kinslayer_malus_1: "Known [GetTrait('kinslayer_1').GetName( GetNullCharacter )]" #NT!
+ agot_kinslayer_malus_2: "Known [GetTrait('kinslayer_2').GetName( GetNullCharacter )]" #NT!
+ agot_kinslayer_malus_3: "Known [GetTrait('kinslayer_3').GetName( GetNullCharacter )]" #NT!
+ accidental_kinslayer_crime_dynasty: "$kinslayer_crime_dynasty$" #NT!
+  
+ demanded_artifact_ransom: "Took My Artifacts as Ransom" #NT!
+ demanded_heirloom_artifact_ransom: "Took House Heirlooms as Ransom" #NT!
+  
+  #Pirates 
+ agot_refused_pirate_haven_fee: "Refused to pay Pirate Haven Fee" #NT!
+ agot_raided_pirate_ship_crime: "Raided Pirate Ship" #NT!
+ attempted_raid_pirate_ship_crime: "Attempted to Raid Pirate Ship" #NT!
+ agot_newly_made_pirate: "Newly Made Pirate" #NT!
+ demanded_pirate_leave: "Expelled Me" #NT!
+ refused_pirate_expulsion: "Refused to Leave Port" #NT!
+  
+ pirate_level_1_control_modifier: "Pirate Presence Level 1" #NT!
+ pirate_level_2_control_modifier: "Pirate Presence Level 2" #NT!
+ pirate_level_3_control_modifier: "Pirate Presence Level 3" #NT!
+ pirate_level_4_control_modifier: "Pirate Presence Level 4" #NT!
+ pirate_level_5_control_modifier: "Pirate Presence Level 5" #NT!
+  
+ pirate_level_1_control_modifier_desc: "The presence of pirates is negatively impacting the [control|e] in this county." #NT!
+ pirate_level_2_control_modifier_desc: "$pirate_level_1_control_modifier_desc$" #NT!
+ pirate_level_3_control_modifier_desc: "$pirate_level_1_control_modifier_desc$" #NT!
+ pirate_level_4_control_modifier_desc: "$pirate_level_1_control_modifier_desc$" #NT!
+ pirate_level_5_control_modifier_desc: "$pirate_level_1_control_modifier_desc$" #NT!
+  
+ pirate_tax_rate_01_displayer_modifier: "$pirate_tax_rate_law$" #NT!
+ pirate_tax_rate_01_displayer_modifier_desc: "[agot_landless_pirate_domiciles|e] will pay:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 5 @gold_icon! docking fee, and a 20 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 10 @gold_icon! docking fee, and a 40 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 15 @gold_icon! docking fee, and a 60 @gold_icon! yearly fee." #NT!
+  
+ pirate_tax_rate_02_displayer_modifier: "$pirate_tax_rate_law$" #NT!
+ pirate_tax_rate_02_displayer_modifier_desc: "[agot_landless_pirate_domiciles|e] will pay:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 7.5 @gold_icon! docking fee, and a 30 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 12.5 @gold_icon! docking fee, and a 50 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 17.5 @gold_icon! docking fee, and a 70 @gold_icon! yearly fee." #NT!
+  
+ pirate_tax_rate_03_displayer_modifier: "$pirate_tax_rate_law$" #NT!
+ pirate_tax_rate_03_displayer_modifier_desc: "[agot_landless_pirate_domiciles|e] will pay:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 10 @gold_icon! docking fee, and a 40 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 15 @gold_icon! docking fee, and a 60 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 20 @gold_icon! docking fee, and an 80 @gold_icon! yearly fee." #NT!
+  
+ pirate_tax_rate_04_displayer_modifier: "$pirate_tax_rate_law$" #NT!
+ pirate_tax_rate_04_displayer_modifier_desc: "[agot_landless_pirate_domiciles|e] will pay:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 12.5 @gold_icon! docking fee, and a 50 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 17.5 @gold_icon! docking fee, and a 70 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 22.5 @gold_icon! docking fee, and a 90 @gold_icon! yearly fee." #NT!

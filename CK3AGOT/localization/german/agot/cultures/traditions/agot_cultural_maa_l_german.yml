@@ -1,0 +1,83 @@
+﻿l_german:
+  
+  #Westeros MAA 
+ culture_parameter_unlock_maa_royal_crossbowmen: "Kann [GetMaA('royal_crossbowmen').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_finger_scouts: "Kann [GetMaA('finger_scouts').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_green_hand: "Kann [GetMaA('green_hand').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_honeywine_quirrels: "Kann [GetMaA('honeywine_quirrels').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_marcher_longbowmen: "Can recruit [GetMaA('marcher_longbowmen').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_hunters_of_the_moon: "Kann [GetMaA('hunters_of_the_moon').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_summer_knights: "Kann [GetMaA('summer_knights').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_river_bows: "Kann [GetMaA('river_bows').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_misty_shields: "Kann [GetMaA('misty_shields').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_pass_pikes: "Kann [GetMaA('pass_pikes').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_storm_knights: "Kann [GetMaA('storm_knights').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_winged_knights: "Kann [GetMaA('winged_knights').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_arbor_marines: "Kann [GetMaA('arbor_marines').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_rain_bringers: "Can recruit [GetMaA('rain_bringers').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_barrow_knights: "Kann [GetMaA('barrow_knights').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_marsh_walkers: "Can recruit [GetMaA('marsh_walkers').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_stolen_spears: "Kann [GetMaA('stolen_spears').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_clan_champions: "Kann [GetMaA('clan_champions').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_frog_spears: "Can recruit [GetMaA('frog_spears').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_winter_wolves: "Kann [GetMaA('winter_wolves').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_wolfswood_hunters: "Kann [GetMaA('wolfswood_hunters').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_sistermen_pirates: "Kann [GetMaA('sistermen_pirates').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_unicorn_riders: "Kann [GetMaA('unicorn_riders').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_cape_watch: "Kann [GetMaA('cape_watch').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_ironborn_reavers: "Can recruit [GetMaA('ironborn_reavers').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_dragonguard: "Can recruit [GetMaA('dragonguard').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_sea_snakes: "Kann [GetMaA('sea_snakes').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_greenblood_oars: "Kann [GetMaA('greenblood_oars').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_sun_spears: "Kann [GetMaA('sun_spears').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_sand_steeds: "Kann[GetMaA('sand_steeds').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_stepstone_sailors: "Kann [GetMaA('stepstone_sailors').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_bronze_raiders: "Kann [GetMaA('bronze_raiders').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_she_bears: "Can recruit [GetMaA('she_bears').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_ar_archers: "Can recruit [GetMaA('ar_archers').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_black_blood_cavalry: "Can recruit [GetMaA('black_blood_cavalry').GetName] as [men_at_arms|E]" #NT!
+  
+  #Essos 
+ culture_parameter_unlock_maa_black_wall_chariots: "Can recruit [GetMaA('black_wall_chariots').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_tiger_cloaks: "Can recruit [GetMaA('tiger_cloaks').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_purple_marines: "Can recruit [GetMaA('purple_marines').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_indentured_legion: "Kann [GetMaA('indentured_legion').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_myrish_crossbows: "Kann [GetMaA('myrish_crossbows').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_ornate_helms: "Can recruit [GetMaA('ornate_helms').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_weeping_guard: "Kann [GetMaA('weeping_guard').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_disputant_scouts: "Can recruit [GetMaA('disputant_scouts').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_star_carved: "Can recruit [GetMaA('star_carved').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_qarlons_fallen: "Can recruit [GetMaA('qarlons_fallen').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_moroshi_pikes: "Can recruit [GetMaA('moroshi_pikes').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_stair_guard: "Can recruit [GetMaA('stair_guard').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_cohort_of_the_three_thousand: "Kann [GetMaA('cohort_of_the_three_thousand').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_unsullied: "Kann [GetMaA('unsullied').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_collared_bows: "Kann [GetMaA('collared_bows').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_pit_fighters: "Can recruit [GetMaA('pit_fighters').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_lockstep_legion: "Can recruit [GetMaA('lockstep_legion').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_mother_sworn: "Can recruit [GetMaA('mother_sworn').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_festival_guards: "Can recruit [GetMaA('festival_guards').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_flower_spears: "Can recruit [GetMaA('flower_spears').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_green_daggers: "Can recruit [GetMaA('green_daggers').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_garden_guard: "Can recruit [GetMaA('garden_guard').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_grey_spears: "Can recruit [GetMaA('grey_spears').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_triarchs_herd: "Kann [GetMaA('triarchs_herd').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_caravan_guards: "Can recruit [GetMaA('caravan_guards').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_cymmeri_iron_shirts: "Can recruit [GetMaA('cymmeri_iron_shirts').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_gipp_wicker_shields: "Can recruit [GetMaA('gipp_wicker_shields').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_zoqora_chariots: "Can recruit [GetMaA('zoqora_chariots').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_lake_wardens: "Can recruit [GetMaA('lake_wardens').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_library_guard: "Can recruit [GetMaA('library_guard').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_clan_raiders: "Can recruit [GetMaA('clan_raiders').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_silver_shields: "Can recruit [GetMaA('silver_shields').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_scythed_chariots: "Can recruit [GetMaA('scythed_chariots').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_shining_cataphracts: "Can recruit [GetMaA('shining_cataphracts').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_coin_collectors: "Can recruit [GetMaA('coin_collectors').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_temple_guardians: "Can recruit [GetMaA('temple_guardians').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_hill_runners: "Can recruit [GetMaA('hill_runners').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_firstborne: "Can recruit [GetMaA('firstborne').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_lastborne: "Can recruit [GetMaA('lastborne').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_slave_legion: "Can recruit [GetMaA('slave_legion').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_shepherds: "Can recruit [GetMaA('shepherds').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_tribute_guards: "Can recruit [GetMaA('tribute_guards').GetName] as [men_at_arms|E]" #NT!
+ culture_parameter_unlock_maa_dothraki_archers: "Can recruit [GetMaA('dothraki_archers').GetName] as [men_at_arms|E]" #NT!

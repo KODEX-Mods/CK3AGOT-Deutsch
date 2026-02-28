@@ -1,0 +1,158 @@
+﻿l_german:
+  
+  # Taming 
+ tame_dragon_interaction: "Tame Dragon"
+ tame_dragon_interaction_desc: "You will attempt to tame [recipient.GetNameNoTooltip]"
+ tame_dragon_interaction_desc_warning: "You will attempt to tame [recipient.GetNameNoTooltip].\n\n@warning_icon! #warning Taming a dragon before bonding it is extremely risky.#!"
+ tame_dragon_no_active_bond_schemes: "You do not own a [GetScheme('bond_with_dragon_scheme').GetTypeName] [scheme|e]"
+ tame_dragon_notification: "Attempt to Tame Dragon"
+ tame_dragon_interaction_tt1: "You may tame [recipient.GetName] or you may become wounded or die."
+ tame_dragon_interaction_tt2: "#warning Taming a dragon before bonding it is extremely risky.#!"
+  
+  # Bonding 
+ bond_with_dragon_interaction: "Bond with Dragon"
+ bond_with_dragon_interaction_desc: "You will attempt to bond with [recipient.GetNameNoTooltip]."
+ bond_dragon_notification: "Bonding With [recipient.GetNameNoTooltip]"
+ deepen_bond_with_dragon_interaction: "Deepen Bond"
+ deepen_bond_with_dragon_interaction_desc: "You will attempt to deepen your bond with [recipient.GetNameNoTooltip]."
+ deepen_bond_dragon_notification: "Deepening Bond with [recipient.GetNameNoTooltip]"
+ blow_dragon_horn_interaction: "Rebind Dragon"
+ blow_dragon_horn_interaction_desc: "[recipient.GetNamePossessiveNoTooltip] binding has waned. You will attempt to strengthen that bond again with your dragon horn."
+ must_equip_dragon_horn: "Has an equipped dragon horn"
+ binding_is_unstable: "The strength of the binding on this dragon has worn low"
+ visit_dragonpit_with_child_interaction: "Visit Dragonpit Together"
+ visit_dragonpit_with_child_interaction_desc: "You visit the dragonpit with [recipient.GetNameNoTooltip]."
+ visit_dragonpit_interaction_tt: "[recipient.GetName] may bond or tame a dragon in your dragonpits."
+  
+ dragon_beyond_the_wall: "Dragons will not stray beyond the Wall"
+  
+  # Dragon slaying 
+ slay_dragon_interaction: "Slay Dragon"
+ slay_dragon_interaction_desc: "You will attempt to slay [recipient.GetNameNicknamed].\n\n@warning_icon! #warning Attempting to slay a dragon is incredibly dangerous#!"
+ slay_dragon_notification: "Attempt to Slay Dragon"
+ slay_dragon_interaction.found_cave: "You find [recipient.GetNamePossessiveNoTooltip] lair"
+ slay_dragon_interaction.found_by_dragon: "[recipient.GetNameNoTooltip] finds you"
+ slay_dragon_interaction.cannot_find_cave: "You are unable to locate [recipient.GetNameNoTooltip]"
+ ds_cooldown_desc: "You have recently fought a dragon or attempted to slay a dragon"
+ dragon_is_in_combat: "The dragon is engaged in combat."
+ dragon_is_in_dragonpit: "The dragon is locked in a dragonpit."
+  
+  # Schemes 
+ bond_with_dragon_scheme: "Bond With This Dragon"
+ bond_with_dragon_scheme_action: "Bond With"
+ bond_with_dragon_scheme_desc: "You can attempt to bond with this dragon"
+ bond_with_dragon_scheme_desc_general: "A character can attempt to deepen their bond with this dragon"
+ deepen_bond_with_dragon_scheme: "Deepen Bond With Your Dragon"
+ deepen_bond_with_dragon_scheme_action: "Deepen Bond With"
+ deepen_bond_with_dragon_scheme_desc: "You can attempt to deepen your bond with your dragon"
+ deepen_bond_with_dragon_scheme_desc_general: "A character can attempt to deepen their bond with your dragon"
+  
+  # Scheme / success chances 
+ SCHEME_DRAGON_BASE: "Base: #V $VALUE|0=$#!"
+ SCHEME_DRAGON_BONDED_BASE: "Bonded Dragon Base: #V $VALUE|0=$#!"
+ SCHEME_DRAGON_UNBONDED_BASE: "Unbonded Dragon Base: #V $VALUE|0=$#!"
+ SCHEME_BOND_DRAGON_THEIR_OPINION: "[target.GetTitledFirstNamePossessive] opinion of you: $VALUE|+0=-+$"
+ SCHEME_BOND_BOTH_TRAIT: "You have a similar personality: $VALUE|+0=-+$"
+ SCHEME_BOND_OWNER_DILIGENT: "You are [GetTrait('diligent').GetName(GetNullCharacter)]: $VALUE|+0=-+$"
+ SCHEME_BOND_OWNER_LAZY: "You are [GetTrait('lazy').GetName(GetNullCharacter)]: $VALUE|+0=-+$"
+ DRAGON_AGE: "[target.GetTitledFirstNamePossessive] age: #N -[target.GetAge]#!"
+ SCHEME_BOND_DRAGON_DREAD: "Your intimidating presence: $VALUE|+0=-+$"
+ SCHEME_BOND_DRAGON_GRAVITAS: "Your personal gravitas: $VALUE|+0=-+$"
+ SCHEME_BOND_DRAGON_DRACONIC_DREAD: "[target.GetFirstNamePossessive] [draconic_dread|E]: $VALUE|+0=-+$"
+ SCHEME_BOND_DRAGON_TEMPERAMENT: "[target.GetFirstNamePossessive] [temperament|E]: $VALUE|+0=-+$"
+ SCHEME_BOND_DRAGON_TAMING_CHANCE: "[target.GetFirstNamePossessive] [taming_chance|E]: $VALUE|+0=-+$"
+ BOND_DRAGON_SUCCESS_DESC: "You will bond with this [dragon|E]"
+ DEEPEN_BOND_DRAGON_SUCCESS_DESC: "You will #P increase#! the experience of your [GetTrait('dragonrider').GetName(GetNullCharacter)] bond"
+ SCHEME_BOND_VALYRIAN_BLOOD: "You have Dragonblood: $VALUE|+0=-+$"
+ SCHEME_BOND_DYNASTY_LEGACY: "[GetDynastyPerk( 'dragonrider_dynasty_legacy_2' ).GetName]: $VALUE|+0=-+$"
+ SCHEME_EX_DRAGONRIDER: "You already bonded one [dragon|E]: $VALUE|+0=-+$"
+ SCHEME_BOND_DESTINED_RIDER: "You feel a destined bond: $VALUE|+0=-+$"
+ scheme_depressed_dragon: "[target.GetFirstName] is [GetTrait('dragon_depressed').GetName(GetNullCharacter)]: $VALUE|+0=-+$" #NT!
+ bonded_with_me: "Bonded with me"
+ failed_to_bond_with_me: "Failed to bond with me"
+  
+  # Eggs / hatching 
+ select_egg_for_hatching: "Select Dragon Egg For Hatching Activity"
+ select_egg_for_hatching_desc: "Select which of your dragon eggs you will try to hatch"
+ selected_egg_for_hatching_notification_title: "Selected Egg For Hatching"
+ selected_egg_for_hatching_notification_desc: "You have selected the [target.GetName] for hatching."
+ cradle_egg: "Cradle Dragon Egg"
+ cradle_egg_desc: "Cradle your dragon egg"
+ started_cradling_egg_notification: "You're Cradling A Dragon Egg"
+ started_cradling_egg_notification_title: "Cradling Dragon Egg"
+ started_cradling_egg_notification_desc: "You are cradling the [target.GetName]."
+ give_egg: "Give Dragon Egg"
+ give_egg_desc: "Give a dragon egg to [recipient.GetName]"
+ gave_egg_for_cradling_notification: "Give Egg To Child"
+ gave_egg_for_cradling_notification_title: "Gave Dragon Egg to [recipient.GetFirstName]"
+ gave_egg_for_cradling_notification_desc: "You gave [target.GetName] to [recipient.GetFirstName]."
+ received_egg_for_cradling_notification_title: "received Dragon Egg from [actor.GetTitledFirstName]"
+ received_egg_for_cradling_notification_desc: "You have been given a [target.GetName] by [actor.GetFirstName]! You are now cradling this egg."
+ taught_dragonlore_title: "Taught Dragonlore"
+ taught_dragonlore_desc: "You taught dragonlore to [recipient.GetName]."
+ taught_dragonlore_received_desc: "You were taught dragonlore by [actor.GetFirstName]."
+ has_a_dragon: "[actor.GetFirstName] already has a tamed or bonded dragon" #NT!
+  
+  # Terror campaign 
+ agot_instruct_to_conduct_terror_campaign: "Conduct Terror Campaign"
+ agot_instruct_to_conduct_terror_campaign_desc: "Instruct [recipient.GetName] to use [recipient.MakeScope.Var('current_dragon').GetCharacter.GetName] to conduct a Terror Campaign.\n$conduct_terror_campaign_tooltip$"
+  
+ agot_stop_conducting_terror_campaign: "End Terror Campaign"
+ agot_stop_conducting_terror_campaign_desc: "Instruct [recipient.GetName] to cease [recipient.GetHerHis] Terror Campaign"
+  
+ agot_refusing_stop_conducting_terror_campaign_tt: "[recipient.GetFirstName] already refused to stop [recipient.GetHerHis] Terror Campaign"
+  
+ agot_dragon.imprisoned_on_terror_campaign.t: "Terror Campaign Ended!"
+ agot_dragon.imprisoned_on_terror_campaign.desc: "[ROOT.Char.GetFirstName] has been imprisoned, and will no longer burn the lands of your enemies."
+  
+  # Teach dragon lore 
+ agot_teach_dragonlore: "Teach Dragonlore"
+ agot_teach_dragonlore_desc: "With the aid of your [GetCourtPositionType('head_dragonkeeper_court_position').GetName()], you will teach [recipient.GetName] dragonlore vital to dragon taming"
+ scheme_taught_dragonlore: "Taught Dragonlore: $VALUE|+0=-+$"
+ scheme_dragonkeeper: "Head Dragonkeeper: $VALUE|+0=-+$"
+ scheme_pitted_dragon: "Encaged in a [dragonpit|e]: $VALUE|+0=-+$"
+ scheme_wild_dragon: "[wild_dragon|E]: $VALUE|+0=-+$"
+ agot_teach_dragonlore_increased_dragonlore_preview_tt: "[recipient.GetName] will increase [recipient.GetHerHis] dragonlore by #P [TopScope.GetValue('hdk_aptitude')]#!"
+ agot_teach_dragonlore_increased_dragonlore_interface_tt: "[recipient.GetName] increased [recipient.GetHerHis] dragonlore by #P [TopScope.GetValue('hdk_aptitude')]#!"
+  
+ agot_send_to_dragonpit: "AI Send to Dragonpit"
+ agot_send_to_dragonpit_desc: "AI will send [recipient.GetName] to [recipient.GetHerHis] [dragonpit|E]"
+  
+ agot_remove_from_dragonpit: "AI remove from Dragonpit"
+ agot_remove_from_dragonpit_desc: "AI will remove [recipient.GetName] from [recipient.GetHerHis] [dragonpit|E]"
+  
+ agot_grant_dragonpit_permission: "Grant Access to Dragonpit"
+ agot_grant_dragonpit_permission_desc: "Grant [recipient.GetName] access to your [dragonpit|e], and any [dragons_plural|e] locked within. This will make [recipient.GetNameNoTooltip] an [authorized_tamer|e] of that dragonpit."
+ agot_grant_dragonpit_permission_effect_tt: "[recipient.GetName] will become an [authorized_tamer|e] of the [dragon_pit_location.GetNameNoTier] [dragonpit|e]."
+  
+ agot_ban_from_dragonpit: "Ban Access to Dragonpit"
+ agot_ban_from_dragonpit_desc: "[recipient.GetName] currently has access to your [dragonpit|e] because of your dragonpit [laws|e]. This will remove their access to the specified dragonpit."
+ agot_banned_from_dragonpit_permission_effect_tt: "[recipient.GetName] will be banned from the [dragon_pit_location.GetNameNoTier] [dragonpit|e]."
+ agot_banned_from_dragonpit_interface_tt: "[recipient.GetName] has been banned from accessing your [dragonpit|e] in [dragon_pit_location.GetNameNoTier]."
+  
+ agot_reverse_dragonpit_ban: "Lift Dragonpit Ban"
+ agot_reverse_dragonpit_ban_desc: "[recipient.GetName] is currently banned from a [dragonpit|e] in your [domain|e], this action will undo that ban."
+ agot_reversed_ban_from_dragonpit_interface_tt: "[recipient.GetNamePossessive] ban on accessing your [dragonpit|e] has been lifted."
+ agot_ban_lifted_from_dragonpit_effect_tt: "[recipient.GetNamePossessive] ban from the [target.GetNameNoTier] [dragonpit|e] will be lifted."
+  
+ agot_request_dragonpit_permission: "Request Access to Dragonpit"
+ agot_request_dragonpit_permission_desc: "You may request permission to access [recipient.GetShortUINamePossessive] [dragonpit|e]."
+ agot_request_dragonpit_permission_effect_tt: "[actor.GetShortUIName] will become an [authorized_tamer|e] of the [dragon_pit_location.GetNameNoTier] [dragonpit|e]."
+  
+ agot_dragonpit_access_gained: "Dragonpit Access Granted"
+ agot_dragonpit_access_gained_interface_tt: "[actor.GetShortUIName] made you an [authorized_tamer|E] of [actor.GetHerHis] [dragonpit|E]!"
+ agot_dragonpit_access_denied: "Dragonpit Access Denied"
+ agot_dragonpit_access_denied_interface_tt: "[recipient.GetShortUIName] refused you access to [recipient.GetHerHis] [dragonpit|E]!"
+ agot_request_dragonpit_permission_ai_modifier_i_am_blood_of_the_dragon: "Recognizes the importance of their dragons"
+  
+ agot_send_egg_to_pit: "Send Egg to Dragonpit"
+ agot_send_egg_to_pit_desc: "Send one of your dragon eggs to a [dragonpit|e] for hatching"
+ agot_send_all_eggs_to_pit: "Send All Eggs to Dragonpit"
+ agot_send_all_eggs_to_pit_desc: "Send all unequipped dragon eggs to a [dragonpit|e] for hatching"
+  
+ agot_retrieve_egg_from_pit: "Retrieve Egg from Dragonpit"
+ agot_retrieve_egg_from_pit_desc: "Retrieve an egg stored in one of your [dragonpits|e]"
+  
+ rename_dragon_interaction: "Rename Dragon"
+ rename_dragon_interaction_desc: "Rename [recipient.GetName]"
+ renaming_dragon_you_are_house_head_tt: "At least one of these:\n$EFFECT_LIST_BULLET$You are this dragon's companion\n$EFFECT_LIST_BULLET$You are the house head of this dragon's companion or rider"

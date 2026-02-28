@@ -1,0 +1,114 @@
+﻿l_german:
+  #NOTE: follows the order of dynasties in the \common\dynasties\ files 
+  ### DORNE DYNASTIES/CADET BRANCHES ### 
+  #Dorne Great Houses 
+ dynn_Martell_motto: "Ungebeugt, Ungezähmt, Ungebrochen"
+  
+  #Salt Dornish 
+ dynn_Briar_motto: "Das Grünste vom Blute"
+ dynn_Brook_motto: "Wächter der Bäche"
+ dynn_Dalt_motto: "Die feinste Frucht"
+ dynn_Gargalen_motto: "Standing Tall" #NT!
+ dynn_Hood_motto: "Wir kennen den richtigen Weg"
+ dynn_Hull_motto: "Tapfer und treu"
+ dynn_Jordayne_motto: "Lasst es aufgeschrieben werden"
+ dynn_Santagar_motto: "Für jedermann sichtbar"
+ dynn_Shell_Dorne_motto: "Die härtesten Schalen"
+ dynn_Toland_motto: "Der Drache ist tot"
+ dynn_Wade_motto: "Von den ersten"
+  
+  #Sand Dornish 
+ dynn_Allyrion_motto: "Kein Feind wird passieren"
+ dynn_Ladybright_motto: "Der grösste Schatz"
+ dynn_Qorgyle_motto: "Das Blut wird brennen"
+ dynn_Uller_motto: "Wüsten des Feuers"
+ dynn_Vaith_motto: "Stahl im Sand"
+ dynn_Wells_motto: "Ein Schluck aus der Tränke"
+ dynn_Claviger_motto: "We Will Carry, We Will Keep"
+  
+  #Stone Dornish 
+ dynn_Blackmont_motto: "Was genommen wurde, wird zurückkehren"
+ dynn_Dayne_motto: "Die Morgendämmerung bringt Licht"
+ dynn_Drinkwater_motto: "Für Liebe und Vergnügen"
+ dynn_Fowler_motto: "Lasst mich aufsteigen"
+ dynn_Manwoody_motto: "Das Sterben der Könige"
+ dynn_Wyl_motto: "Schwarzes Herz, wahrer Wille"
+ dynn_Yronwood_motto: "Wir bewachen den Weg"
+  
+  #Landless Houses 
+  
+  #Extinct 
+ dynn_Dryland_motto: "Fire From Below"
+  
+  #Filler Salt Dornish 
+ dynn_Shade_motto: "Above and Looming" #NT!
+ dynn_Jytarn_motto: "We Saw the Fall" #NT!
+ dynn_Beveridge_motto: "Nothing Sweeter" #NT!
+ dynn_Tart_motto: "With Sharp Tongues" #NT!
+ dynn_Vestor_motto: "Carry the Memory" #NT!
+ dynn_Zundanar_motto: "Foolishly Forgotten" #NT!
+ dynn_Haulight_motto: "Tie the Knots" #NT!
+ dynn_Ogier_motto: "Crowned With Cuts" #NT!
+ dynn_Qaurovera_motto: "We Make Do" #NT!
+ dynn_Newmock_motto: "No Storm Impairs Us" #NT!
+ dynn_Karlach_motto: "You Know, Soldier?" #NT!
+ dynn_Belam_motto: "Tempered By Temper" #NT!
+ dynn_Shore_motto: "We Know What Lies Beneath" #NT!
+ dynn_Sanders_motto: "Drifting Upwards" #NT!
+ dynn_Murrandy_motto: "The Desert's Rage" #NT!
+ dynn_Trackand_motto: "Our Bounty Unsung" #NT!
+ dynn_Mercer_motto: "The Sun to Our Backs" #NT!
+ dynn_Shells_motto: "Pierce the Waves" #NT!
+  
+  #Filler Sand Dornish 
+ dynn_Ruthvan_motto: "With the Morning"
+ dynn_Maltrevar_motto: "The Stability We Hold"
+ dynn_Cook_motto: "From Hearth, We Rise"
+ dynn_Cascabel_motto: "Burning Flowers, Burning Hearts" #NT!
+ dynn_Renshar_motto: "Seven Towers, Seven Warnings" #NT!
+ dynn_Cuttar_motto: "Not So Brittle" #NT!
+ dynn_Veckryn_motto: "One Swarm Follows Another" #NT!
+ dynn_Writ_motto: "Go Ahead, Sign" #NT!
+ dynn_Pronghorn_motto: "No Man Can Ignore" #NT!
+ dynn_Shanin_motto: "Now Unleashed" #NT!
+ dynn_Pentorn_motto: "Sound the Trumpets!" #NT!
+ dynn_Urlagon_motto: "Flesh Made Bounty" #NT!
+ dynn_Swelter_motto: "Peerless Survivors" #NT!
+ dynn_Aradesh_motto: "The Snake Beneath" #NT!
+ dynn_Flask_motto: "Our Kindness Repaid" #NT!
+ dynn_Roast_motto: "Where Flowers Become Ash" #NT!
+ dynn_Nessarry_motto: "We Must Repay" #NT!
+ dynn_Pink_motto: "Just Give Me A Reason" #NT!
+ dynn_Barb_motto: "It Only Takes One" #NT!
+ dynn_Flinders_motto: "The Land Is Your Enemy" #NT!
+ dynn_Errey_motto: "Sharp As the Bend" #NT!
+ dynn_Dryside_motto: "One For Each Bard" #NT!
+ dynn_Seir_motto: "The Hells Pale" #NT!
+  
+  #Filler Stone Dornish 
+ dynn_Ronce_motto: "Know Our Thorns"
+ dynn_Sallow_motto: "We Return Their Hostility"
+ dynn_Stillbloom_motto: "Beauty Kills"
+ dynn_Warriner_motto: "First to Fight"
+ dynn_Cane_motto: "Bless the Rains" #NT!
+ dynn_Weekes_motto: "Our Embers Burn Brightest" #NT!
+ dynn_Bellows_motto: "Try Your Luck" #NT!
+ dynn_Sandracer_motto: "Know No Such Venom" #NT!
+ dynn_Regel_motto: "Tempted by No King" #NT!
+ dynn_Endar_motto: "It Wasn't Always Red" #NT!
+ dynn_Peele_motto: "Say Your Name" #NT!
+ dynn_Cage_motto: "Wrought Like Iron" #NT!
+ dynn_Trapp_motto: "We Are No Bait" #NT!
+ dynn_Trevanion_motto: "Not Once Tested" #NT!
+ dynn_Gore_motto: "What Lies Beneath?" #NT!
+ dynn_Offal_motto: "The Fate Of All Fools" #NT!
+ dynn_Ravencroft_motto: "Where Darkness Falls" #NT!
+ dynn_Dodges_motto: "Feel Their Light, Feel Their Warmth" #NT!
+ dynn_Thatch_motto: "On The Cusp" #NT!
+ dynn_Parry_motto: "Singing Steel's Song" #NT!
+ dynn_Tannicks_motto: "All Must Reflect" #NT!
+ dynn_Aster_motto: "Some Choose the Quill" #NT!
+ dynn_Scourgeborn_motto: "And They Say We're Mad" #NT!
+  
+  #Filler Rhoynish 
+ dynn_Erdinyyra_motto: "Where Water Sings" #NT!

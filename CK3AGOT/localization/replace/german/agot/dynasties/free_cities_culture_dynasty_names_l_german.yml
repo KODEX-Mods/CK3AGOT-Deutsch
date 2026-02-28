@@ -1,0 +1,830 @@
+﻿l_german:
+  #NOTE: follows the order of dynasties in the \common\dynasties\ files 
+  ### FREE CITIES CULTURE DYNASTIES/CADET BRANCHES ### 
+  #Braavosi 
+ dynn_Nestoris: "Nestoris"
+ dynn_Velaron: "Velaron"
+ dynn_Dimittis: "Dimittis"
+ dynn_Zalyne: "Zalnye"
+ dynn_Volentin: "Volentin"
+ dynn_Velaron: "Velaron"
+ dynn_Lostayn: "Lostayn"
+ dynn_Gasparyon: "Gasparyon"
+ dynn_Parnel: "Parnel"
+ dynn_of_Braavos: "von Braavos"
+ dynn_Antaryon: "Antaryon"
+ dynn_Reyaan: "Reyaan"
+ dynn_Grivas: "Grivas"
+ dynn_Lanferel: "Lanferel"
+ dynn_Braybale: "Braybale"
+ dynn_Barun: "Barun"
+ dynn_Avoo: "Avoo"
+ dynn_Valagel: "Valagel"
+ dynn_Peyrel: "Peyrel"
+ dynn_Phalys: "Phalys"
+ dynn_Qarghas: "Qarghas"
+ dynn_Tremolo: "Tremolo"
+ dynn_Saldaaris: "Saldaaris"
+ dynn_Vereno: "Vereno"
+ dynn_Jamiroqyr: "Jamiroqyr"
+ dynn_Gartyne: "Gartyne"
+ dynn_Zheyme: "Zheyme"
+ dynn_Aeteno: "Aeteno"
+ dynn_Pranelis: "Pranelis"
+ dynn_Tymoris: "Tymoris"
+ dynn_Otherys: "Otherys"
+ dynn_Terys: "Terys"
+ dynn_Prestayn: "Prestayn"
+ dynn_Parnel: "Parnel"
+ dynn_Forel: "Forel"
+ dynn_Manterys: "Manterys"
+ dynn_Tendyris: "Tendyris"
+ dynn_Fregar: "Fregar"
+ dynn_of_Braavos: "von Braavos"
+ dynn_Vaar: "Vaar"
+ dynn_Gresayn: "Gresayn"
+ dynn_Kamaryn: "Kamaryn"
+ dynn_Demetrys: "Demetrys"
+ dynn_Pristris: "Pristris"
+ dynn_Ferys: "Ferys"
+ dynn_Ydorys: "Ydorys"
+ dynn_Parnel: "Parnel"
+ dynn_Morel: "Morel"
+ dynn_Saar: "Saar"
+ dynn_Malhorvys: "Malhorvys"
+ dynn_Maros: "Maros"
+ dynn_Palarios: "Palarios"
+ dynn_Vollyr: "Vollyr"
+ dynn_Irnatis: "Irnatis"
+ dynn_Sorrohrin: "Sorrohrin"
+ dynn_Ennaenor: "Ennaenor"
+ dynn_Marerion: "Marerion"
+ dynn_Ostaan: "Ostaan"
+ dynn_Gasparyon: "Gasparyon"
+ dynn_Ferys: "Ferys"
+ dynn_Dothare: "Dothare"
+ dynn_Erastes: "Erastes"
+ dynn_Pranelis: "Pranelis"
+ dynn_Torone: "Torone"
+ dynn_Lostayn: "Lostayn"
+ dynn_Atarys: "Atarys"
+ dynn_Lotherys: "Lotherys"
+ dynn_Balyne: "Balyne"
+ dynn_Trestayn: "Trestayn"
+ dynn_Ranelis: "Ranelis"
+ dynn_Molentin: "Molentin"
+ dynn_Nerastes: "Nerastes"
+ dynn_Lantaryon: "Lantaryon"
+ dynn_Santaryon: "Santaryon"
+ dynn_Tantyaron: "Tantaryon"
+ dynn_Brenyron: "Brenyron"
+ dynn_Drenonnis: "Drenonnis"
+ dynn_Eranys: "Eranys"
+ dynn_Flaeris: "Flaeris"
+ dynn_Hesteris: "Hesteris"
+ dynn_Hotoris: "Hotoris"
+ dynn_Lerastes: "Lerastes"
+ dynn_Ormiris: "Ormiris"
+ dynn_Pahrel: "Pahrel"
+ dynn_Sorel: "Sorel"
+ dynn_Torel: "Torel"
+ dynn_Morel: "Morel"
+ dynn_Norel: "Norel"
+ dynn_Saniris: "Saniris"
+ dynn_Toranyon: "Toranyon"
+ dynn_Paenos: "Paenos"
+ dynn_Raelon: "Raelon"
+ dynn_Ralenor: "Ralenor"
+ dynn_Irryon: "Irryon"
+ dynn_Irnelyon: "Irnelyon"
+ dynn_Faeneryon: "Faeneryon"
+ dynn_Sanorlan: "Sanorlan"
+ dynn_Sorren: "Sorren"
+ dynn_Dynolis: "Dynolis"
+ dynn_Lithanis: "Lithanis"
+ dynn_Yond: "Yond"
+ dynn_Valaros: "Valaros"
+ dynn_Ptek: "Ptek"
+ dynn_Marnel: "Marnel"
+ dynn_Fentel: "Fentel" #NT!
+ dynn_Romaris: "Romaris" #NT!
+ dynn_Ketharys: "Ketharys" #NT!
+  
+  #Pentoshi 
+ dynn_Aesces: "Aesces" #NT!
+ dynn_Allacce: "Allacce" #NT!
+ dynn_Arettares: "Arettares" #NT!
+ dynn_Asas: "Asas" #NT!
+ dynn_Asaz: "Asaz" #NT!
+ dynn_Avacci: "Avacci" #NT!
+ dynn_Avadri: "Avadri" #NT!
+ dynn_Belmosi: "Belmosi" #NT!
+ dynn_Bescce: "Bescce" #NT!
+ dynn_Ccelaqi: "Ccelaqi" #NT!
+ dynn_Ccellacce: "Ccellacce" #NT!
+ dynn_Ccellacces: "Ccellacces" #NT!
+ dynn_Ccypsi: "Ccypsi" #NT!
+ dynn_Ccypsys: "Ccypsys" #NT!
+ dynn_Ccyqelbar: "Ccyqelbar" #NT!
+ dynn_Ccyse: "Ccyse" #NT!
+ dynn_Ccysis: "Ccysis" #NT!
+ dynn_Ccyson: "Ccyson" #NT!
+ dynn_Ccyvros: "Ccyvros" #NT!
+ dynn_Cedris: "Cedris" #NT!
+ dynn_Cogrore: "Cogrore" #NT!
+ dynn_Cogrores: "Cogrores" #NT!
+ dynn_Copasases: "Copasases" #NT!
+ dynn_Copenos: "Copenos" #NT!
+ dynn_Copesase: "Copesase" #NT!
+ dynn_Crecos: "Crecos" #NT!
+ dynn_Credronazon: "Credronazon" #NT!
+ dynn_Credroni: "Credroni" #NT!
+ dynn_Credronys: "Credronys" #NT!
+ dynn_Daccos: "Daccos" #NT!
+ dynn_Daorys: "Daorys"
+ dynn_Daqos: "Daqos" #NT!
+ dynn_Dori: "Dori" #NT!
+ dynn_Draz: "Draz"
+ dynn_Edanie: "Edanie" #NT!
+ dynn_Edreli: "Edreli" #NT!
+ dynn_Edri: "Edri" #NT!
+ dynn_Edris: "Edris" #NT!
+ dynn_Egras: "Egras" #NT!
+ dynn_Egraz: "Egraz" #NT!
+ dynn_Elleri: "Elleri" #NT!
+ dynn_Elleros: "Elleros" #NT!
+ dynn_Ellote: "Ellote" #NT!
+ dynn_Ellotes: "Ellotes" #NT!
+ dynn_Ellotiz: "Ellotiz" #NT!
+ dynn_Eltare: "Eltare" #NT!
+ dynn_Enare: "Enare"
+ dynn_Enaris: "Enaris" #NT!
+ dynn_Eperys: "Eperys" #NT!
+ dynn_Evarone: "Evarone" #NT!
+ dynn_Ezygdi: "Ezygdi" #NT!
+ dynn_Ezygedys: "Ezygedys" #NT!
+ dynn_Gevi: "Gevi" #NT!
+ dynn_Gevun: "Gevun" #NT!
+ dynn_Gos: "Gos"
+ dynn_Goz: "Goz" #NT!
+ dynn_Gydros: "Gydros" #NT!
+ dynn_Gydroz: "Gydroz" #NT!
+ dynn_Gyesocce: "Gyesocce" #NT!
+ dynn_Gyesocces: "Gyesocces" #NT!
+ dynn_Gyydros: "Gyydros" #NT!
+ dynn_Gyydroz: "Gyydroz" #NT!
+ dynn_Idanie: "Idanie" #NT!
+ dynn_Jaccetys: "Jaccetys" #NT!
+ dynn_Jandros: "Jandros" #NT!
+ dynn_Jenieme: "Jenieme" #NT!
+ dynn_Jeniemes: "Jeniemes" #NT!
+ dynn_Jenymys: "Jenymys" #NT!
+ dynn_Jevesar: "Jevesar" #NT!
+ dynn_Jezos: "Jezos" #NT!
+ dynn_Jezoz: "Jezoz" #NT!
+ dynn_Jori: "Jori" #NT!
+ dynn_Jorys: "Jorys" #NT!
+ dynn_Laze: "Laze" #NT!
+ dynn_Lazes: "Lazes" #NT!
+ dynn_Lazez: "Lazez" #NT!
+ dynn_Lozenos: "Lozenos" #NT!
+ dynn_Lycencci: "Lycencci" #NT!
+ dynn_Lycenccys: "Lycenccys" #NT!
+ dynn_Lycenon: "Lycenon" #NT!
+ dynn_Medarun: "Medarun" #NT!
+ dynn_Medre: "Medre" #NT!
+ dynn_Medris: "Medris" #NT!
+ dynn_Mopate: "Mopate" #NT!
+ dynn_Mopates: "Mopates" #NT!
+ dynn_Mopatis: "Mopatis"
+ dynn_Myracce: "Myracce" #NT!
+ dynn_Myraccis: "Myraccis" #NT!
+ dynn_Naiatys: "Naiatys" #NT!
+ dynn_Nalavalerun: "Nalavalerun" #NT!
+ dynn_Narrati: "Narrati" #NT!
+ dynn_Narratys: "Narratys"
+ dynn_Nevepos: "Nevepos" #NT!
+ dynn_Notari: "Notari" #NT!
+ dynn_Notarys: "Notarys"
+ dynn_Orbaros: "Orbaros" #NT!
+ dynn_Ormos: "Ormos" #NT!
+ dynn_Oseri: "Oseri" #NT!
+ dynn_Oseris: "Oseris" #NT!
+ dynn_Oserys: "Oserys" #NT!
+ dynn_Osraje: "Osraje" #NT!
+ dynn_Osrajis: "Osrajis" #NT!
+ dynn_Otapsce: "Otapsce" #NT!
+ dynn_Otapsyz: "Otapsyz" #NT!
+ dynn_Ovoncce: "Ovoncce" #NT!
+ dynn_Ovoncces: "Ovoncces" #NT!
+ dynn_Ovoncon: "Ovoncon" #NT!
+ dynn_Ovonun: "Ovonun" #NT!
+ dynn_Palccis: "Palccis" #NT!
+ dynn_Paras: "Paras" #NT!
+ dynn_Paraz: "Paraz" #NT!
+ dynn_Peldos: "Peldos" #NT!
+ dynn_Pesavos: "Pesavos" #NT!
+ dynn_Pyataros: "Pyataros" #NT!
+ dynn_Pyrcces: "Pyrcces" #NT!
+ dynn_Pysacos: "Pysacos" #NT!
+ dynn_Pytaroz: "Pytaroz" #NT!
+ dynn_Qellacce: "Qellacce" #NT!
+ dynn_Qrecoscon: "Qrecoscon" #NT!
+ dynn_Racatis: "Racatis" #NT!
+ dynn_Relares: "Relares" #NT!
+ dynn_Rencos: "Rencos" #NT!
+ dynn_Ropatis: "Ropatis"
+ dynn_Ropotys: "Ropotys" #NT!
+ dynn_Sis: "Sis" #NT!
+ dynn_Siz: "Siz" #NT!
+ dynn_Syrcces: "Syrcces" #NT!
+ dynn_Syrccy: "Syrccy" #NT!
+ dynn_Syrvalar: "Syrvalar" #NT!
+ dynn_Syzestar: "Syzestar" #NT!
+ dynn_Syzonon: "Syzonon" #NT!
+ dynn_Temros: "Temros" #NT!
+ dynn_Tyras: "Tyras" #NT!
+ dynn_Tyraz: "Tyraz" #NT!
+ dynn_Uperys: "Uperys" #NT!
+ dynn_Utapsis: "Utapsis" #NT!
+ dynn_Vacos: "Vacos" #NT!
+ dynn_Valaron: "Valaron" #NT!
+ dynn_Vaosce: "Vaosce" #NT!
+ dynn_Vosy: "Vosy" #NT!
+ dynn_Ypa: "Ypa" #NT!
+ dynn_Yrcce: "Yrcce" #NT!
+ dynn_Yrcces: "Yrcces" #NT!
+ dynn_Yrstrotis: "Yrstrotis" #NT!
+ dynn_Yvryses: "Yvryses" #NT!
+ dynn_Zegyenos: "Zegyenos" #NT!
+ dynn_Zyllre: "Zyllre" #NT!
+  
+  #Lysene 
+ dynn_Ormollen: "Ormollen"
+ dynn_of_Lys: "von Lys"
+ dynn_Lohar: "Lohar"
+ dynn_Assadyrn: "Assadryn"
+ dynn_Galeros: "Galeros"
+ dynn_Quanis: "Quanis"
+ dynn_Quaynis: "Quaynis"
+ house_Altoris: "Altoris"
+ dynn_Erosenes: "Erosenes"
+ dynn_Rogare: "Rogare"
+ dynn_Seris: "Seris"
+ dynn_Cadaraan: "Cadaraan"
+ house_Balgar: "Balgar" #NT!
+ dynn_Qahaar: "Qahaar"
+ dynn_Naethys: "Naethys"
+ dynn_Taeryhen: "Taeryhen"
+ dynn_Eigares: "Eigares"
+ dynn_Taradys: "Taradys"
+ dynn_Haen: "Haen"
+ dynn_Novyrdion: "Novyrdion"
+ dynn_Adorean: "Adorean"
+ dynn_Trynna: "Trynna"
+ dynn_Saan: "Saan"
+ dynn_Etollan: "Etollan"
+ dynn_Berases: "Berases"
+ dynn_Ibilis: "Ibilis"
+ dynn_Porevos: "Porevos"
+ dynn_Mopios: "Mopios"
+ dynn_Nestyr: "Nestyr"
+ dynn_Hartar: "Hartar"
+ dynn_Ahrerris: "Ahrerris"
+ dynn_Iranyris: "Iranyris"
+ dynn_Ropyrion: "Ropyrion"
+ dynn_Faenyl: "Faenyl"
+ dynn_Drennolis: "Drennolis"
+ dynn_Maroran: "Maroran"
+ dynn_Celivias: "Celivias"
+ dynn_Maar: "Maar"
+ dynn_Saantes: "Saantes"
+ dynn_Rathsantes: "Rathsantes"
+ dynn_Romare: "Romare"
+ dynn_Raan: "Raan"
+ dynn_Aenira: "Aenira"
+ dynn_Baranis: "Baranis"
+ dynn_Diraan: "Diraan"
+ dynn_Eranaar: "Eranaar"
+ dynn_Faenan: "Faenan"
+ dynn_Logare: "Logare"
+ dynn_Mohar: "Mohar"
+ dynn_Ormaan: "Ormaan"
+ dynn_Ormelar: "Ormelar"
+ dynn_Romollen: "Romollen"
+ dynn_Roganis: "Roganis"
+ dynn_Sogare: "Sogare"
+ dynn_Stassaan: "Stassaan"
+ dynn_Togare: "Togare"
+ dynn_Tormollen: "Tormollen"
+ dynn_Vogare: "Vogare"
+ dynn_Vormollon: "Vormollon"
+ dynn_Eranos: "Eranos"
+ dynn_Orlaan: "Orlaan"
+ dynn_Tyssatis: "Tyssatis"
+ dynn_Lysserion: "Lysserion"
+ dynn_Tyssel: "Tyssel"
+ dynn_Ormanaar: "Ormanaar"
+ dynn_Ostanaar: "Ostanaar"
+ dynn_Lystaanos: "Lystaanos"
+ dynn_Dirassar: "Dirassar"
+ dynn_Hotaan: "Hotaan"
+ dynn_Ranerah: "Ranerah"
+ dynn_Phassion: "Phassion"
+ dynn_Nardaeyris: "Nardaeyris"
+ dynn_Faenyrion: "Faenyrion"
+ dynn_Naerymion: "Naerymion"
+ dynn_Maegoran: "Maegoran"
+ dynn_Paenios: "Paenios"
+ dynn_Vynirah: "Vynirah"
+ dynn_Ormenion: "Ormenion"
+ dynn_Sorraan: "Sorraan"
+ dynn_of_the_Stepstones: "von den Trittsteinen"
+  
+  #Qohorik 
+ dynn_Hoat: "Hoat"
+ dynn_of_Qohor: "of Qohor"
+ dynn_Zhander: "Zhander"
+ dynn_Reymnos: "Reymnos"
+ dynn_Togott: "Togott"
+ dynn_Baroat: "Baroat"
+ dynn_Qarit: "Qarit"
+ dynn_Nartos: "Nartos"
+ dynn_Voatar: "Voatar"
+ dynn_Taladorys: "Taladorys"
+ dynn_Ragat: "Ragat"
+ dynn_Rolgott: "Rolgott"
+ dynn_Malavott: "Malavott"
+ dynn_Corlott: "Corlott"
+ dynn_Irnonnit: "Irnonnit"
+ dynn_Irnen: "Irnen"
+ dynn_Ostorlat: "Ostorlat"
+ dynn_Aenerat: "Aenarat"
+ dynn_Hotinar: "Hotinar"
+ dynn_Phassenohr: "Phassenohr"
+ dynn_Baerrin: "Baerrin"
+ dynn_Drennerion: "Drennerion"
+ dynn_Vott: "Vott"
+ dynn_Voat: "Voat"
+ dynn_Bhot: "Bhot"
+ dynn_Hott: "Hott"
+ dynn_Moat: "Moat"
+ dynn_Dott: "Dott"
+ dynn_Bott: "Bott"
+ dynn_Zott: "Zott"
+ dynn_Zoat: "Zoat"
+ dynn_Loat: "Loat"
+ dynn_Noat: "Noat"
+ dynn_Doat: "Doat"
+ dynn_Coat: "Coat"
+ dynn_Kott: "Kott"
+ dynn_Obho: "Obho"
+ dynn_Vart: "Vart"
+ dynn_Sarg: "Sarg"
+ dynn_Targ: "Targ"
+ dynn_Ogar: "Ogar"
+ dynn_Grot: "Grot"
+ dynn_Trot: "Trot"
+ dynn_Nott: "Nott"
+ dynn_Ahbo: "Ahbo"
+ dynn_Ehbo: "Ehbo"
+ dynn_Qhbo: "Qhbo"
+ dynn_Qott: "Qott"
+ dynn_Qoat: "Qoat"
+ dynn_Qarg: "Qarg"
+ dynn_Qobo: "Qobo"
+ dynn_Qobb: "Qobb"
+ dynn_Mobb: "Mobb"
+ dynn_Qoss: "Qoss"
+ dynn_Hoss: "Hoss"
+ dynn_Qhot: "Qhot"
+ dynn_Qhor: "Qhor"
+ dynn_Qhan: "Qhan"
+ dynn_Qhho: "Qhho"
+ dynn_Qhol: "Qhol"
+ dynn_Qoho: "Qoho"
+ dynn_Ostar: "Ostar"
+ dynn_Poat: "Poat"
+ dynn_Arpo: "Arpo"
+ dynn_Pott: "Pott"
+ dynn_Lott: "Lott"
+ dynn_Yoat: "Yoat"
+ dynn_Yott: "Yott"
+ dynn_Joat: "Joat"
+ dynn_Jott: "Jott"
+  
+  #Norvosi 
+ dynn_of_Norvos: "von Norvos"
+ dynn_Hotah: "Hotah"
+ dynn_of_Norvos: "von Norvos"
+ dynn_Nyelossos: "Nyelossos"
+ dynn_Daryth: "Daryth"
+ dynn_Morvdys: "Morvdys"
+ dynn_Narlan: "Narlan"
+ dynn_Votyris: "Votyris"
+ dynn_Falos: "Falos"
+ dynn_Hortyr: "Hortyr"
+ dynn_Andredyos: "Andredyos"
+ dynn_Mortosh: "Mortosh"
+ dynn_Maloros: "Maloros"
+ dynn_Bartah: "Bartah"
+ dynn_Bertran: "Bertran"
+ dynn_Notarys: "Notarys"
+ dynn_Hartanah: "Hartanah"
+ dynn_Sorrah: "Sorrah"
+ dynn_Ostah: "Ostah"
+ dynn_Phassyl: "Phassyl"
+ dynn_Ormenah: "Ormenah"
+ dynn_Stosah: "Stosah"
+ dynn_Orlin: "Orlin"
+ dynn_Naerah: "Naerah"
+ dynn_Golathis: "Golathis"
+ dynn_Ahiris: "Ahiris"
+ dynn_Botyris: "Botyris"
+ dynn_Cotyris: "Cotyris"
+ dynn_Dotyris: "Dotyris"
+ dynn_Hotyris: "Hotyris"
+ dynn_Notyris: "Notyris"
+ dynn_Gotyris: "Gotyris"
+ dynn_Sotyris: "Sotyris"
+ dynn_Motyris: "Motyris"
+ dynn_Gotah: "Gotah"
+ dynn_Sotah: "Sotah"
+ dynn_Lotah: "Lotah"
+ dynn_Motah: "Motah"
+ dynn_Zotah: "Zotah"
+ dynn_Notah: "Notah"
+ dynn_Botah: "Botah"
+ dynn_Dortalor: "Dortalor"
+ dynn_Ennelar: "Ennelar"
+ dynn_Lotyris: "Lotyris"
+ dynn_Irrahan: "Irrahan"
+ dynn_Marohar: "Marohar"
+ dynn_Nestah: "Nestah"
+ dynn_Anerosh: "Anerosh"
+ dynn_Baholish: "Baholish"
+ dynn_Iranerah: "Iranerah"
+ dynn_Hestosh: "Hestosh"
+ dynn_Hartirah: "Hartirah"
+ dynn_Eranolis: "Eranolis"
+ dynn_Sanosh: "Sanosh"
+ dynn_Pahoran: "Pahoran"
+ dynn_Ormosh: "Ormosh"
+ dynn_Mopolish: "Mopolish"
+ dynn_Hotosh: "Hotosh"
+ dynn_Hotelar: "Hotelar"
+  
+  #Myrman 
+ dynn_of_Myr: "von Myr"
+ dynn_Trellos: "Trellos"
+ dynn_Uteuran: "Uteuran"
+ dynn_Lornel: "Lornel"
+ dynn_Rhegan: "Rhegan"
+ dynn_Drahar: "Drahar"
+ dynn_Mallar: "Mallar"
+ dynn_Naelor: "Naelor"
+ dynn_Pimman: "Pimman"
+ dynn_Sordios: "Sordios"
+ dynn_Abersys: "Abersys"
+ dynn_Allegel: "Allegel"
+ dynn_Varghan: "Varghan"
+ dynn_Saldorys: "Saldorys"
+ dynn_Mercor: "Mercor"
+ dynn_Lavelos: "Lavelos"
+ dynn_Dynanar: "Dynanar"
+ dynn_Baerrys: "Baerrys"
+ dynn_Anerelar: "Anerelar"
+ dynn_Stassanar: "Stassanar"
+ dynn_Iranin: "Iranin"
+ dynn_Ahranar: "Ahranar"
+ dynn_Brahar: "Brahar"
+ dynn_Mahar: "Mahar"
+ dynn_Baherah: "Baherah"
+ dynn_Dyrelar: "Dyrelar"
+ dynn_Eranhar: "Eranhar"
+ dynn_Inerah: "Inerah"
+ dynn_Lahar: "Lahar"
+ dynn_Marerah: "Marerah"
+ dynn_Nahirah: "Nahirah"
+ dynn_Osthar: "Osthar"
+ dynn_Paenirah: "Paenirah"
+ dynn_Ranirah: "Ranirah"
+ dynn_Tessyr: "Tessyr"
+ dynn_Tesserah: "Tesserah"
+ dynn_Eranyl: "Eranyl"
+ dynn_Eranirah: "Eranirah"
+ dynn_Dirryl: "Dirryl"
+ dynn_Bahyr: "Bahyr"
+ dynn_Araenyr: "Araenyr"
+ dynn_Nesterris: "Nesterris"
+ dynn_Paenoris: "Paenoris"
+ dynn_Fyllios: "Fyllios"
+ dynn_Bahyl: "Bahyl"
+ dynn_Ryllin: "Ryllin"
+ dynn_Sanyrion: "Sanyrion"
+ dynn_Maegyr: "Maegyr"
+ dynn_Hesenyr: "Hesenyr"
+ dynn_Phassel: "Phassel"
+ dynn_Eranios: "Eranios"
+ dynn_Malenor: "Malenor"
+ dynn_Irnaenor: "Irnaenor"
+ dynn_Drennen: "Drennen"
+ dynn_Ormyr: "Ormyr"
+ dynn_Ostyl: "Ostyl"
+ dynn_Hestyr: "Hestyr"
+ dynn_Raenolis: "Raenolis"
+ dynn_Lashare: "Lashare"
+ dynn_Surkavys: "Surkavys"
+ dynn_Gahadrion: "Gahadrion"
+ dynn_Zevys: "Zevys"
+ dynn_Avreheton: "Avreheton"
+ dynn_Talquion: "Talquion"
+ dynn_Jeheon: "Jeheon"
+ dynn_Illion: "Illion"
+ dynn_Bardreon: "Bardreon"
+ dynn_Osvellys: "Osvellys"
+ dynn_Arellion: "Arellion"
+ dynn_Petrys: "Petrys"
+ dynn_Saeryon: "Saeryon"
+ dynn_Vartahar: "Vartahar"
+ dynn_Varkar: "Varkar"
+ dynn_Aerigos: "Aerigos"
+ dynn_Agamio: "Agamio"
+ dynn_Coryon: "Coryon"
+ dynn_Qelarys: "Qelarys"
+ dynn_Piokoryos: "Piokoryos"
+ dynn_Saidon: "Saidon"
+ dynn_Ivakeon: "Ivakeon"
+ dynn_Heron: "Heron"
+ dynn_Monnilys: "Monnilys"
+ dynn_Nericos: "Nericos"
+  
+  #Tyroshi 
+ dynn_Badraddin: "Badraddin"
+ dynn_Ilyas: "Ilyas"
+ dynn_Murad: "Murad"
+ dynn_Nazzar: "Nazzar"
+ dynn_Zokan: "Zokan"
+ dynn_Zafrir: "Zafrir"
+ dynn_of_Tyrosh: "von Tyrosh"
+ dynn_Naharis: "Naharis"
+ dynn_Xenos: "Xenos"
+ dynn_Ryndoon: "Ryndoon"
+ dynn_Lectris: "Lectris"
+ dynn_Uhoris: "Uhoris"
+ dynn_Adarys: "Adarys"
+ dynn_Tumitis: "Tumitis"
+ dynn_Caharis: "Caharis"
+ dynn_Jayn: "Jayn"
+ dynn_Vollyr: "Vollyr"
+ dynn_Mopin: "Mopin"
+ dynn_Ormorlan: "Ormorlan"
+ dynn_Dynohrin: "Dynohrin"
+ dynn_Brenyl: "Brenyl"
+ dynn_Ennys: "Ennys"
+ dynn_Durghan: "Durghan"
+ dynn_Idarys: "Idarys"
+ dynn_Quhoris: "Quhoris"
+ dynn_Qudarys: "Quadarys"
+ dynn_Adaynis: "Adaynis"
+ dynn_Odarys: "Odarys"
+ dynn_Ahoris: "Ahoris"
+ dynn_Ruaynis: "Ruaynis"
+ dynn_Radarys: "Radarys"
+ dynn_Qyndoon: "Qyndoon"
+ dynn_Lyndoon: "Lyndoon"
+ dynn_Quaydoon: "Quaydoon"
+ dynn_Laharis: "Laharis"
+ dynn_Maharis: "Maharis"
+ dynn_Baharis: "Baharis"
+ dynn_Qaharis: "Qaharis"
+ dynn_Ohoris: "Qhoris"
+ dynn_Quayoris: "Quayoris"
+ dynn_Rynoris: "Rynoris"
+ dynn_Rynarys: "Rynarys"
+ dynn_Nahoris: "Nahoris"
+ dynn_Tumoris: "Tumoris"
+ dynn_Tumaynis: "Tumaynis"
+ dynn_Tumaris: "Tumaris"
+ dynn_Tumdayn: "Tumdayn"
+ dynn_Tuhoris: "Tuhoris"
+ dynn_Tadarys: "Tadarys"
+ dynn_Qumitis: "Qumitis"
+ dynn_Nahitis: "Nahitis"
+ dynn_Rymitis: "Rymitis"
+ dynn_Amitis: "Amitis"
+ dynn_Aneris: "Aneris"
+ dynn_Brenys: "Brenys"
+ dynn_Bumitis: "Bumitis"
+ dynn_Badrys: "Badrys"
+ dynn_Buaynis: "Buaynis"
+ dynn_Banarys: "Banarys"
+ dynn_Fylloris: "Fylloris"
+ dynn_Fyllin: "Fyllin"
+ dynn_Irnaris: "Irnaris"
+ dynn_Malaeris: "Malaeris"
+ dynn_Nestolis: "Nestolis"
+ dynn_Paenyr: "Paenyr"
+ dynn_Raeris: "Raeris"
+ dynn_Sumitis: "Sumitis"
+ dynn_Syndoon: "Syndoon"
+ dynn_Suhoris: "Suhoris"
+ dynn_Nahoran: "Nahoran"
+ dynn_Nahelar: "Nahelar"
+ dynn_Nahinar: "Nahinar"
+ dynn_Nahorlan: "Nahorlan"
+ dynn_Nehonnis: "Nehonnis"
+ dynn_Phahiris: "Phahiris"
+ dynn_Tysorrion: "Tysorrion"
+ dynn_Tyniris: "Tyniris"
+ dynn_Tyraanis: "Tyraanis"
+  
+  #Volantene 
+ dynn_Achion: "Achion" #NT!
+ dynn_Aqes: "Aqes" #NT!
+ dynn_Baelaros: "Baelaros" #NT!
+ dynn_Berruo: "Berruo" #NT!
+ dynn_Bevemmuo: "Bevemmuo" #NT!
+ dynn_Bikio: "Bikio" #NT!
+ dynn_Ephenoros: "Ephenoros" #NT!
+ dynn_Maelymion: "Maelymion" #NT!
+ dynn_Moretho: "Moretho" #NT!
+ dynn_Segal: "Segal" #NT!
+ dynn_Zaethon: "Zaethon" #NT!
+ dynn_Zirtaphos: "Zirtaphos" #NT!
+  
+  #Lorathi 
+ dynn_of_Lorath: "von Lorath"
+ dynn_Naylan: "Naylan"
+ dynn_Reltis: "Reltis"
+ dynn_Oloryon: "Oloryon"
+ dynn_Lathtis: "Lathtis"
+ dynn_Vazollen: "Vazollen"
+ dynn_H_ghai: "H'ghai"
+ dynn_Kaldorys: "Kaldorys"
+ dynn_N_ghan: "N'ghan"
+ dynn_N_rahl: "N'rahl"
+ dynn_Dalthor: "Dalthor"
+ dynn_Delyios: "Delyios"
+ dynn_Ormyris: "Ormyris"
+ dynn_Pahryl: "Pahryl"
+ dynn_Dirrirah: "Dirrirah"
+ dynn_Nestaar: "Nestaar"
+ dynn_Ahrel: "Ahrel"
+ dynn_Mopyris: "Mopyris"
+ dynn_Hartel: "Hartel"
+ dynn_Naherah: "Naherah"
+ dynn_Nahen: "Nahen"
+ dynn_Dh_gar: "Dh'gar"
+ dynn_N_ghar: "N'gar"
+ dynn_H_nar: "H'nar"
+ dynn_L_ghar: "L'ghar"
+ dynn_L_ghai: "L'ghai"
+ dynn_L_ghan: "L'ghan"
+ dynn_N_ghan: "N'ghan"
+ dynn_H_ghan: "H'ghan"
+ dynn_L_ghai: "L'ghai"
+ dynn_Z_ghar: "Z'ghar"
+ dynn_T_hrald: "T'hrald"
+ dynn_M_neotha: "M'neotha"
+ dynn_T_hefra: "T'hefra"
+ dynn_E_simar: "E'simar"
+ dynn_O_rlys: "O'rlys"
+ dynn_O_ghar: "O'ghar"
+ dynn_O_ghan: "O'ghan"
+ dynn_O_ghai: "O'ghai"
+ dynn_M_rohr: "M'rohr"
+ dynn_M_ghar: "M'ghar"
+ dynn_D_naan: "D'naan"
+ dynn_B_ahyr: "B'ahyr"
+ dynn_B_ahel: "B'ahel"
+ dynn_F_ylla: "F'ylla"
+ dynn_Fy_illin: "Fy'illin"
+ dynn_I_rel: "I'rel"
+ dynn_Thae_dasae: "Thae'dasae"
+ dynn_M_nitse: "M'nitse"
+ dynn_Sel_riph: "Sel'riph"
+ dynn_E_nsoh: "E'nsoh"
+ dynn_S_arla: "S'arla"
+ dynn_N_arla: "N'arla"
+ dynn_K_arla: "K'arla"
+ dynn_H_arla: "H'arla"
+ dynn_G_arla: "G'arla"
+ dynn_G_ryllo: "G'ryllo"
+ dynn_Dhy_vole: "Dhy'vole"
+ dynn_Phal_min: "Phal'min"
+ dynn_S_ghan: "S'ghan"
+ dynn_S_ghar: "S'ghar"
+ dynn_S_ghat: "S'ghat"
+ dynn_T_asseh: "T'asseh"
+ dynn_Cu_iffo: "Cu'iffo"
+ dynn_E_oba: "E'oba"
+ dynn_Sci_ali: "Sci'ali"
+ dynn_Da_sheth: "Da'sheth"
+ dynn_L_sheth: "L'sheth"
+ dynn_N_shath: "N'shath"
+  
+  #Essarion 
+ dynn_Pahryris: "Pahryris"
+ dynn_Naeyor: "Naeyor"
+ dynn_Iranoran: "Iranoran"
+ dynn_Hestyrion: "Hestyrion"
+ dynn_Naerys: "Naerys"
+ dynn_Paenoran: "Paenoran"
+ dynn_Sorrerion: "Sorrerion"
+ dynn_Drennion: "Drennion"
+ dynn_Marymion: "Marymion"
+ dynn_Pahrassar: "Pahrassar"
+ dynn_Orlos: "Orlos"
+ dynn_Essohrin: "Essohrin"
+ dynn_Sorryl: "Sorryl"
+ dynn_Ostos: "Ostos"
+ dynn_Paessoran: "Paessoran"
+ dynn_Vhassoran: "Vhassoran"
+ dynn_Hestelion: "Hestelion"
+ dynn_Nahiris: "Nahiris"
+ dynn_Dynyris: "Dynyris"
+ dynn_Forah: "Forah"
+ dynn_Brenen: "Brenen"
+ dynn_Stassyl: "Stassyl"
+ dynn_Essyris: "Essyris"
+ dynn_Aenyris: "Aenyris"
+ dynn_Mopen: "Mopen"
+ dynn_Ennymion: "Ennymion"
+ dynn_Dynah: "Dynah"
+ dynn_Flaerel: "Flaerel"
+ dynn_Vollion: "Vollion"
+ dynn_Ahryr: "Ahryr"
+ dynn_Maros: "Maros"
+ dynn_Vynaris: "Vynaris"
+ dynn_Vhassymion: "Vhassymion"
+ dynn_Vhasselion: "Vhasselion"
+ dynn_Aynirahion: "Aynirahion"
+ dynn_Essel: "Essel"
+ dynn_Essenohr: "Essenohr"
+ dynn_Essyr: "Essyr"
+ dynn_Essaenor: "Essaenor"
+ dynn_Essiris: "Essiris"
+ dynn_Essatis: "Essatis"
+ dynn_Esserion: "Esserion"
+ dynn_Essorlan: "Essorlan"
+ dynn_Tessiris: "Tessiris"
+ dynn_Esserah: "Esserah"
+ dynn_Bessatis: "Bessatis"
+ dynn_Besserion: "Besserion"
+ dynn_Bessorlan: "Bessorlan"
+ dynn_Resterris: "Resterris"
+ dynn_Nestonnis: "Nestonnis"
+ dynn_Ormanion: "Ormanion"
+  
+  #Gogossite 
+ dynn_Paenohrin: "Paenohrin"
+ dynn_Brenaris: "Brenaris"
+ dynn_Nahion: "Nahion"
+ dynn_Vhassorlan: "Vhassorlan"
+ dynn_Ennyrion: "Ennyrion"
+ dynn_Forin: "Forin"
+ dynn_Anerion: "Anerion"
+ dynn_Baharan: "Baharan"
+ dynn_Aenolis: "Aenolis"
+ dynn_Stelar: "Stelar"
+ dynn_Sanoran: "Sanoran"
+ dynn_Orlerris: "Orlerris"
+ dynn_Eranos: "Eranos"
+ dynn_Forymion: "Forymion"
+ dynn_Brenyrion: "Brenyrion"
+ dynn_Hestarion: "Hestarion"
+ dynn_Sasyrion: "Sasyrion"
+ dynn_Lentheon: "Lentheon"
+ dynn_Hotorlan: "Hotorlan"
+ dynn_Bahinar: "Bahinar"
+ dynn_Melgyreon: "Melgyreon"
+ dynn_Sorylthos: "Sorylthos"
+ dynn_Marion: "Marion"
+ dynn_Aenorlan: "Aenorlan"
+ dynn_Sorranor: "Sorranor"
+ dynn_Hestiros: "Hestiros"
+ dynn_Phasselion: "Phasselion"
+ dynn_Maronnis: "Maronnis"
+ dynn_Ahyrmion: "Ahyrmion"
+ dynn_Nesten: "Nesten"
+ dynn_Ahrorys: "Ahrorys"
+ dynn_Nestyrion: "Nestyrion"
+ dynn_Naeroyor: "Naeroyor"
+ dynn_Ranyrion: "Ranyrion"
+ dynn_Sorroran: "Sorroran"
+ dynn_Sorrorys: "Sorrorys"
+ dynn_Sanorrion: "Sanorrion"
+ dynn_Sothyrion: "Sothyrion"
+ dynn_Resthoyos: "Resthoyos"
+ dynn_Eranyrion: "Eranyrion"
+ dynn_Iratyrion: "Iratyrion"
+ dynn_Eratyrion: "Eratyrion"
+ dynn_Tessorion: "Tessorion"
+ dynn_Tessorys: "Tessorys"
+ dynn_Vynirah: "Vynirah"
+ dynn_Sanaenor: "Sanaenor"
+ dynn_Iranorys: "Iranorys"
+ dynn_Faenorys: "Faenorys"
+ dynn_Bothorys: "Bothorys"
+ dynn_Zothorys: "Zothorys"

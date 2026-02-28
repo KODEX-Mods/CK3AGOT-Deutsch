@@ -1,0 +1,11 @@
+﻿l_german:
+  # Title Paramount 
+ petition_liege_decision_option_paramount: "Oberste Lehnsherrschaft erbitten\n#low Verleiht einen oberlordschaftlichen [title|E]#!"
+ petition_liege_paramount_desc: "Bittet [ROOT.Char.GetLiege.GetTitledFirstName] darum, Euch eine Oberste Lehnsherrschaft zu verleihen"
+ petition_liege_paramount_tooltip: "$petition_liege_decision_second_tooltip$"
+ petition_liege_paramount_tt: "#X Keiner Eurer [claims|E] wird von Eurem [liege|E] gehalten oder er kann es sich nicht leisten, sich vom [title|E] zu trennen#!"
+  # Legitimate House Boost 
+ petition_liege_decision_option_legitimate_house_boost: "Support House Claim\n#low Endorse as the [agot_legitimate_house|E]#!"
+ petition_liege_legitimate_house_boost_desc: "Request [ROOT.Char.GetLiege.GetTitledFirstName] to support your house's claim to be the [agot_legitimate_house|E] of [ROOT.Char.GetPrimaryTitle.GetName]"
+ petition_liege_legitimate_house_boost_tooltip: "$petition_liege_decision_second_tooltip$"
+ petition_liege_legitimate_house_boost_tt: "#X Your house is already legitimate, you have already been supported, or your liege is not the Legitimate House of their primary title#!"

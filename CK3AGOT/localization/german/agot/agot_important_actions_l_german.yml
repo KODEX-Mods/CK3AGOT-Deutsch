@@ -8,3 +8,8 @@
  action_can_hire_maester_label: "Ihr könnt einen Maester anheuern"
  action_can_hire_maester_desc: "Ihr beschäftigt keinen Maester als [court_position|E], Ihr solltet einen einstellen."
  action_can_hire_maester_click: "#I Zum Anzeigen klicken#!"
+  
+ action_appoint_pirate_ship_landless_successor: "Appoint a [pirate_ship_designated_heir|E]" #NT!
+ action_appoint_pirate_ship_landless_successor_label: "You can appoint a [pirate_ship_designated_heir|E]" #NT!
+ action_appoint_pirate_ship_landless_successor_desc: "A member of your court can be appointed as your [pirate_ship_designated_heir|E]!\n\nYou can do so through the #V Designate Pirate Ship Heir#! [character_interaction|E]." #NT!
+ action_appoint_pirate_ship_landless_successor_click: "#I Click to appoint a successor#!" #NT!

@@ -1,0 +1,21 @@
+﻿l_german:
+ agot_artifact_events.0010.t: "The Possessions of [prisoner.GetTitledFirstNameNoTooltip]" #NT!
+ agot_artifact_events.0010.desc: "[prisoner.GetNameNicknamed] remains in my custody, and with [prisoner.GetHerHis] freedom yet denied, the matter of [prisoner.GetHerHis] possessions weighs upon my thoughts.\n\nAs [prisoner.GetHerHis] captor, I may claim certain artifacts as terms of release. Such items may prove valuable if my demands are chosen with care." #NT!
+ agot_artifact_events.0010.a: "I should decide what to do with each..." #NT!
+ agot_artifact_events.0010.a_tt: "I will consider each of [prisoner.GetTitledFirstNamePossessiveNoTooltip] items in turn." #NT!
+ agot_artifact_events.0010.a_tt_artifact: "I will consider what to do with [artifact_to_inform.GetName]." #NT!
+ agot_artifact_events.0010.b: "I will reassess my demands." #NT!
+ agot_artifact_events.0010.c: "These will suffice." #NT!
+ agot_artifact_events.0010.c_tt: "I will demand [artifact_to_show.GetNameNoTooltip]." #NT!
+  
+ agot_artifact_events.0011.t: "$agot_artifact_events.0010.t$" #NT!
+ agot_artifact_events.0011.desc: "I have decided to offer [prisoner.GetTitledFirstName] the chance to leave my custody in exchange for some of [prisoner.GetHerHis] possessions. I must now decide which items to demand.\n\n[artifact_to_steal.GetName] comes to mind. Should I add this to my list of demands, or leave it be? Will [prisoner.GetSheHe] be willing to part with this artifact if I make the offer?" #NT!
+ agot_artifact_events.0011.a: "I will add this to my list of demands." #NT!
+ agot_artifact_events.0011.a_valyrian_tt_no_house: "If [prisoner.GetTitledFirstNameNoTooltip] accepts, members of House [prisoner.GetHouse.GetNameNoTooltip] will resent you for taking a family heirloom." #NT!
+ agot_artifact_events.0011.a_illustrious: "Due to its rarity, this artifact will cost [prestige_i|E] #N 1000#! to take as ransom." #NT!
+ agot_artifact_events.0011.a_famed: "Due to its rarity, this artifact will cost [prestige_i|E] #N 500#! to take as ransom." #NT!
+ agot_artifact_events.0011.a_masterwork: "Due to its rarity, this artifact will cost [prestige_i|E] #N 250#! to take as ransom." #NT!
+ agot_artifact_events.0011.a_common: "Due to its rarity, this artifact will cost [prestige_i|E] #N 100#! to take as ransom." #NT!
+ agot_artifact_events.0011.b: "I have no interest in taking this artifact." #NT!
+ agot_artifact_events.0011.b_tt: "This artifact belongs with its rightful owner." #NT!
+ agot_artifact_events.0011.c: "I am done reviewing artifacts." #NT!

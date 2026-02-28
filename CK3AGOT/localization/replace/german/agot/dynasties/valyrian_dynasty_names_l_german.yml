@@ -1,0 +1,62 @@
+﻿l_german:
+  #NOTE: follows the order of dynasties in the \common\dynasties\ files 
+  ### PREFIXES ### 
+ dynnp_of_the: "von "
+  
+  ### VALYRIAN DYNASTIES/CADET BRANCHES ### 
+  #Great Houses 
+ dynn_Targaryen: "Targaryen"
+ dynn_Essos: "aus Essos"
+ dynn_Baratheon: "Baratheon"
+ dynn_Blackfyre: "Schwarzfeuer"
+ dynn_Bittersteel: "Bitterstahl"
+ dynn_Hammer: "Hammer"
+ dynn_White: "Weiß"
+ dynn_Farseed: "Weitsaat"
+ dynn_Truefyre: "Wahrfeuer"
+ dynn_Brightflame: "Brightflame"
+  
+  #High Valyrian 
+ dynn_Velaryon: "Velaryon"
+ dynn_Varezys: "Varezys"
+ dynn_Urnebar: "Urnebar"
+ dynn_Sonaryen: "Sonaryen"
+ dynn_Tresys: "Tresys"
+ dynn_Belaerys: "Belaerys"
+ dynn_Mataeryon: "Mataeryon"
+ dynn_Laryen: "Laryen" #NT!
+ dynn_Volarys: "Volarys" #NT!
+ dynn_Quinarion: "Quinarion" #NT!
+ dynn_Ozastys: "Ozastys" #NT!
+ dynn_Zabrozar: "Zabrozar" #NT!
+ dynn_Phassalmaar: "Phassalmaar" #NT!
+ dynn_Arakys: "Arakys" #NT!
+ dynn_Undaryen: "Undaryen" #NT!
+ dynn_Symbaxes: "Symbaxes" #NT!
+  
+  #West Valyrian 
+ dynn_Celtigar: "Celtigar"
+ dynn_Qoherys: "Qoherys"
+ dynn_Longwaters: "Langwasser"
+ dynn_Scales: "Sturmleiter"
+ dynn_Saerygan: "Saerygan" #NT!
+  
+  #East Valyrian 
+ dynn_Maegyr: "Maegyr"
+ dynn_Paenymion: "Paenymion"
+ dynn_Vhassar: "Vhassar"
+ dynn_Qhaedar: "Qhaedar"
+ dynn_Vaelaros: "Vaelaros"
+ dynn_Staegone: "Staegone"
+ dynn_Tagaros: "Tagaros"
+ dynn_Nogarys: "Nogarys"
+ dynn_Votar: "Votar"
+ dynn_Qoheros: "Qoheros"
+  
+  #Slaver's Bay 
+ dynn_Lodaorys: "Lodaorys"
+ dynn_Rebagyr: "Rebagyr"
+ dynn_Zobridar: "Zobridar"
+ dynn_Azantone: "Azantone"
+ dynn_Mazemagyr: "Mazemagyr"
+ dynn_Ilvar: "Ilvar"

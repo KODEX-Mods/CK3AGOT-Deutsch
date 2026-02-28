@@ -1,7 +1,7 @@
 ﻿l_german:
   #AGOT Modified 
- #DEFAULT_NICKNAME_DESC: "Friends and foes across the land know [CHARACTER.GetShortUINameNoTooltipNoFormat] as '[CHARACTER.GetNicknameNoTooltip]'." #NT!
- DEFAULT_NICKNAME_DESC: "Friends and foes across the land know [CHARACTER.GetShortUINameNoTooltipNoFormat] as '[CHARACTER.GetNicknameNoTooltip].'" #NT!
+ #DEFAULT_NICKNAME_DESC: "Friends and foes across the land know [CHARACTER.GetShortUINameNoTooltipNoFormat] as '[CHARACTER.GetNicknameNoTooltip]'."
+ DEFAULT_NICKNAME_DESC: "Friends and foes across the land know [CHARACTER.GetShortUINameNoTooltipNoFormat] as '[CHARACTER.GetNicknameNoTooltip].'"
   
  nick_tiny: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Winzige"
  nick_tiny_desc: "Dieser Charakter ist bekannt für sein … Streben nach ‚Größe‘."
@@ -42,11 +42,11 @@
  nick_the_black: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schwarze"
  nick_the_black_desc: "Eine grausame Haltung, bekanntermaßen ungerechte Geschäfte und ein allgemein verdammenswertes Verhalten gegenüber seinen Mitmenschen haben diesem Charakter einen schlechten Ruf eingebracht."
  nick_the_blessed: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Selige"
- nick_the_blessed_desc: "Eine rechtschaffene Gesinnung und eine feste Stimme bei der Verteidigung des Glaubens sind das Einzige, worüber man bei diesem Charakter spricht."
+ nick_the_blessed_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] so holy as to be considered blessed by the gods."
  nick_the_blind: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Blinde"
  nick_the_blind_desc: "Der mangelnde Weitblick dieses Charakters scheint das Einzige zu sein, was die Welt an ihm bemerkt."
  nick_the_bold: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kühne"
- nick_the_bold_desc: "Wagemutig, kühn, unerschrocken, tapfer, heldenhaft – der Name dieses Charakters ist gleichbedeutend mit direktem und schnellem Handeln. Sogar seine Feinde nennen ihn ‚$nick_the_bold$‘ – zumindest dämmt das die Flut an anderen Beinamen ein."
+ nick_the_bold_desc: "Entering a tourney as a mystery knight at the mere age of ten, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] first given this epithet by the Prince of Dragonflies, and with [CharYourHerHis(CHARACTER)] deeds proven [CharYourHerHimself(CHARACTER)] to be more than worthy of having it."
  nick_the_boneless: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Knochenlose"
  nick_the_boneless_desc: "Das zerbrechliche Skelett dieses Charakters steht im Widerspruch zu seiner Wildheit in Geist und Seele."
  nick_the_brave: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Mutige"
@@ -56,9 +56,9 @@
  nick_the_confessor: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Konfessor[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_confessor_desc: "Dieser Charakter ist bekannt für seine Zerknirschung bei der kleinsten Sünde."
  nick_the_conqueror: "der Eroberer"
- nick_the_conqueror_desc: "Welche mächtige Tat könnte eher in die Annalen eingehen als die Unterwerfung eines #EMP ganzen#! Reichs? Die Menschen werden gewiss nicht vergessen, was dieser Charakter erreicht hat."
+ nick_the_conqueror_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] the preeminent figure of [CharYourHerHis(CHARACTER)] age, conquering the Seven Kingdoms with fire and blood."
  nick_the_cruel: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Grausame"
- nick_the_cruel_desc: "Dieser Charakter meint, dass er wirklich ein recht sonniges Gemüt hat. Die Leute scheinen einfach keinen Sinn für #EMP Humor#! zu haben."
+ nick_the_cruel_desc: "For [CharYourHerHis(CHARACTER)] great acts of cruelty and malice, history will forever remember [CHARACTER.GetShortUINameNoTooltipNoFormat] as 'the Cruel.'"
  nick_the_child_of_devilgod: "die Brut des Bösen"
   # _Oh my_, an extra E? Wonder what _that_ could mean! 
   ## Shh, it's fine. Leave it alone. 
@@ -132,8 +132,8 @@
  nick_the_lisp_and_lame_desc: "Da der langsame, unbeholfene Gang wohl noch nicht reichte, haben die höheren Mächte ([CHARACTER.GetFaith.HealthGodName]) es auch für nötig befunden, diesen Charakter mit einem schrecklichen Lispeln zu verfluchen."
  nick_the_magnificent: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Prächtige"
   #AGOT Modified 
- #nick_the_magnificent_desc: "Tales of [CharYourHerHis(CHARACTER)] splendid deeds are told from Ireland to Cathay." #NT!
- nick_the_magnificent_desc: "Tales of [CharYourHerHis(CHARACTER)] splendid deeds are told from the Wall to Asshai." #NT!
+ #nick_the_magnificent_desc: "Tales of [CharYourHerHis(CHARACTER)] splendid deeds are told from Ireland to Cathay."
+ nick_the_magnificent_desc: "Tales of [CharYourHerHis(CHARACTER)] splendid deeds are told from the Wall to the Shadow Lands beyond Asshai."
  nick_the_martyr: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Märtyrer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_martyr_desc: "Dieser Charakter ist für höhere Mächte ([CHARACTER.GetFaith.HighGodName]) gestorben, und die [CHARACTER.GetFaith.GetAdherentNamePlural] der Welt gedenken seines Opfers."
  nick_the_merry: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Fröhliche"
@@ -180,8 +180,8 @@
  nick_the_victorious: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Siegreiche"
  nick_the_victorious_desc: "Der Triumph ist für diesen Charakter eine Selbstverständlichkeit – und die Welt stimmt ihm zu."
   #AGOT Modified 
- #nick_the_viking: "the Viking" #NT!
- nick_the_viking: "the Reaver" #NT!
+ #nick_the_viking: "the Viking"
+ nick_the_viking: "the Reaver"
  nick_the_viking_desc: "Dieser Charakter war schon immer der Meinung, dass das Konzept des Eigentums ein eher dehnbarer Begriff ist."
  nick_the_young: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Junge"
  nick_the_young_desc: "Als junger Mensch fand dieser Charakter Anerkennung und Beachtung. Ganz gleich, wie viele Jahre auch vergehen: Er ist sich sicher, dass der Beiname hängen bleibt."
@@ -226,8 +226,8 @@
  nick_the_fox_desc: "Gerissen, gewitzt, ehrgeizig – diese Tugenden mögen vielleicht nicht ritterlich sein, doch sie #EMP sind#! wirksam."
  nick_the_shrewd: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Gescheite"
   #AGOT Modified 
- #nick_the_shrewd_desc: "It's wise never to play [CharYouSheHe(CHARACTER)] at cards — few folk can be sure what [CharYouSheHe(CHARACTER)] [CharHaveHas(CHARACTER)] up [CharYourHerHis(CHARACTER)] sleeve." #NT!
- nick_the_shrewd_desc: "It's wise never to play [CharYouSheHe(CHARACTER)] at cyvasse — few folk can be sure what [CharYouSheHe(CHARACTER)] [CharHaveHas(CHARACTER)] up [CharYourHerHis(CHARACTER)] behind the mountains." #NT!
+ #nick_the_shrewd_desc: "It's wise never to play [CharYouSheHe(CHARACTER)] at cards — few folk can be sure what [CharYouSheHe(CHARACTER)] [CharHaveHas(CHARACTER)] up [CharYourHerHis(CHARACTER)] sleeve."
+ nick_the_shrewd_desc: "It's wise never to play [CharYouSheHe(CHARACTER)] at cyvasse — few folk can be sure what [CharYouSheHe(CHARACTER)] [CharHaveHas(CHARACTER)] up [CharYourHerHis(CHARACTER)] behind the mountains."
  nick_the_gracious: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Anmutige"
  nick_the_gracious_desc: "Gute Manieren, edles Auftreten und stattliche Nachsicht machen diesen Charakter zu einem beliebten Gast an den meisten Tischen."
  nick_the_magnanimous: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Großmütige"
@@ -338,7 +338,7 @@
  nick_the_unrelenting: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Unbeugsame"
  nick_the_unrelenting_desc: "Wenn dieser Charakter sich etwas in den Kopf setzt, erreicht er es auch. Ganz gleich, wie lange es dauert."
  nick_the_glorious: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Glorreiche"
- nick_the_glorious_desc: "Dieser Charakter wird sicher als einer der majestätischsten Menschen in die Geschichte eingehen, die je auf Erden gewandelt sind."
+ nick_the_glorious_desc: "Whether for wisdom, war or wit, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] acquired much glory."
  nick_the_ecumenist: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Ökumeniker[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_ecumenist_desc: "Seine Bemühungen um die Konsolidierung und Versöhnung der christlichen Welt machen diesen Charakter für viele zu einem Helden – für manche aber auch zum Ketzer."
  nick_the_unifier_of_africa: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Einiger[CHARACTER.Custom('DE_END_NOU_S_GS_N')] Afrikas"
@@ -505,7 +505,7 @@
  nick_the_worthy: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Würdige"
  nick_the_worthy_desc: "Wer diesen Charakter so eingeschätzt hat, ist umstritten, doch alle sind sich einig, dass er es sich wirklich verdient hat."
  nick_the_unworthy: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Unwerte"
- nick_the_unworthy_desc: "Eine wahrlich gescheiterte Existenz – in der Theorie wie in der Praxis."
+ nick_the_unworthy_desc: "Rather than working to be worthy of [CharYourHerHis(CHARACTER)] inherited responsibility, [CHARACTER.GetShortUINameNoTooltipNoFormat] wiled away [CharYourHerHis(CHARACTER)] days to the disappointment of all."
  nick_the_traitor: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Verräter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_traitor_desc: "Das Wort dieses Charakters ist etwa so viel wert wie die Luft, über die es einem ans Ohr dringt."
  nick_the_courageous: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Mutige"
@@ -654,8 +654,8 @@
  nick_beth_nahrain_desc: "Die bloße Anwesenheit dieses Charakters lässt die Massen erbeben: Aus Ehrfurcht und Staunen vor seiner Leistung bei der Vereinigung weichen sie zurück."
  nick_the_child_killer: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kindsmörder[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
   #AGOT Modified 
- #nick_the_child_killer_desc: "Biblical scholars generally hold that [CharYouSheHe(CHARACTER)] missed the point of Solomon's ruling." #NT!
- nick_the_child_killer_desc: "Parents are right to hide their babes from [CharYouHerHim(CHARACTER)]." #NT!
+ #nick_the_child_killer_desc: "Biblical scholars generally hold that [CharYouSheHe(CHARACTER)] missed the point of Solomon's ruling."
+ nick_the_child_killer_desc: "Parents are right to hide their babes from [CharYouHerHim(CHARACTER)]."
  nick_the_anathema: "das Anathema"
  nick_the_anathema_desc: "Das Chaos der sterblichen Welt schreckt vor diesem Charakter zurück."
  nick_the_angel_of_death: "der Engel von [CHARACTER.GetFaith.DeathDeityName|U]"
@@ -666,6 +666,25 @@
  nick_health_god_mercy_desc: "Trotz eines elenden Beginns fand dieser Charakter den Weg in die Welt der Medizin und machte sich einen Namen bei der Versorgung der Armen."
  nick_genghis_khan: "Dschingis Khan"
  nick_genghis_khan_desc: "Dieser Charakter ist die Strafe der höchsten Mächte ([CHARACTER.GetFaith.HighGodName]) für alle Sünden der Welt – denn wenn die Welt nicht voller Sünder wäre, hätten diese Mächte dann einen wie #EMP ihn#! zur Strafe geschickt?"
+ nick_cengiz_khan: "Cengiz Khan"
+ nick_cengiz_khan_desc: "$nick_genghis_khan_desc$"
+ nick_yekhe_khagan: "Yekhe-Khagan"
+ nick_yekhe_khagan_desc: "Der Große, der Prächtige, der Herrscher des Grasmeers und aller besiedelten Lande! Dieser Charakter ist der Hengst, der die Welt besteigt."
+ nick_dort_yonlug_khagan: "Dört-Yönlüg-Khagan"
+ nick_dort_yonlug_khagan_desc: "Weit erstreckt sich die Erde in alle vier Richtungen und alles – selbst der letzte, finsterste, unbekannteste Ort am Ende Welt – gehört rechtmäßig diesem Charakter! Der Kosmos richtet sich zu seinem Gefallen aus und wird von ihm befehligt."
+ nick_tengri_khagan: "Tengri-Khagan"
+ nick_tengri_khagan_desc: "In den alten Tagen der Kök-Türken-Khagane wurde dieser Titel in Stein gemeißelt! Tengri-Khagan – der Himmelsgeborene, der Weise: Dieser Charakter wurde vom Großen Blauen Himmel geschaffen, um die Welt zu beherrschen."
+ nick_xormuzta: "Xormuzta"
+ nick_xormuzta_desc: "Dieser uralte Ehrentitel hing vor langer Zeit mit der alten iranischen ‚Himmelsgottheit‘ zusammen und wird jetzt von östlichen Christen und ihresgleichen verwendet, um legendäre Gründer wie diesen Charakter zu verehren."
+ nick_mar_sargis: "Mar Sargis"
+ nick_mar_sargis_desc: "Der heilige Märtyrer Sargis soll die fromme Herrschaft dieses Charakters angeleitet haben."
+ nick_cihangir: "Cihangir"
+ nick_cihangir_desc: "Durch Allahs göttlichem Willen wurde dieser Charakter zum Eroberer der ganzen Welt. Noch nie haben der Dar al-Islam und die Lande der Ungläubigen ein solch lautes Beben von Hufen vernommen!"
+ nick_culture_khagan: "[CHARACTER.GetCulture.GetNameNoTooltip|U]er Khagan"
+ nick_culture_khagan_desc: "Dieser Charakter wird als Größter aller [CHARACTER.GetCulture.GetCollectiveNounNoTooltip] und [CHARACTER.GetCulture.GetCollectiveNounNoTooltip] verehrt – die Kinder des Schicksals, die Pferdevölker, die Städte zermalmen, die die Schwerter und Geißeln der Großreiche schwingen!"
+ nick_akhshunwar: "Achschunwar"
+ nick_akhshunwar_desc: "Lange schon tragen die Herren der Seidenstraße hohe Titel wie #EMP Ichschid#!, #EMP Schahanschah#! und #EMP Achschunwar#!, doch noch keiner war derart würdig wie dieser Charakter, um den Ehrentitel „Mächtiger“ zu führen!"
+  
  nick_fabulous_she_he: "Fabelhaft[CHARACTER.Custom('DE_END_ADJ_IND_S_N')] [CHARACTER.GetFirstNameNoTooltip|U]"
  nick_fabulous_she_he_desc: "Es ist nicht ungewöhnlich, dass zufällige Beobachter aus Respekt auf die Knie fallen, wenn dieser Charakter vorüberkommt."
  nick_the_wary: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Argwöhnische"
@@ -679,7 +698,7 @@
  nick_the_hairy: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Haarige"
  nick_the_hairy_desc: "Ist dieser Charakter Mensch oder Tier? Auf den ersten Blick ist es schwer zu erkennen."
  nick_the_child: "Das Kind"
- nick_the_child_desc: "Leider endete das Leben dieses Charakters zu früh, als dass er für irgendetwas anderes als sein jähes Ende hätte bekannt sein können."
+ nick_the_child_desc: "This High Septon is known for being elevated to their position whilst still in their childhood, against the objections of many."
  nick_the_wake: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Wache"
  nick_the_wake_desc: "Dieser Charakter hält stets die Augen offen nach Ungerechtigkeit, fremden Eroberern und einheimischen Verräter gleichermaßen – bei der bloßen Erwähnung seines Namens zittern sie!"
  nick_the_bearded: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Bärtige"
@@ -776,6 +795,8 @@
  nick_the_dunged_desc: "Dieser Charakter würde lieber nicht über diese Erinnerung sprechen – alle anderen versuchen, den Geruch nicht zu erwähnen."
  nick_the_smelly: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Stinkende"
  nick_the_smelly_desc: "Irgendwie bleibt er #EMP doch#!."
+ #AGOT MODIFIED 
+ #nick_the_venator: "the Venator" #NT!
  nick_the_venator: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Venator[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_venator_desc: "Kein Tier kann sich dem scharfen Jagdinstinkt dieses Charakters entziehen."
   
@@ -873,11 +894,11 @@
  nick_of_the_empty_pockets: "mit den leeren Taschen"
  nick_of_the_empty_pockets_desc: "Dieser Charakter hat Löcher in den Taschen und wird immer für die Leere in Erinnerung bleiben, die er in der eigenen Schatzkammer verbreitet hat."
   #AGOT Modified 
- #nick_the_goliath: "the Goliath" #NT!
- nick_the_goliath: "the Jhogwin" #NT!
+ #nick_the_goliath: "the Goliath"
+ nick_the_goliath: "der Goliath"
   #AGOT Modified 
- #nick_the_goliath_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] an enormous warrior, like the biblical Goliath." #NT!
- nick_the_goliath_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] as enormous as [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] deadly, likened to the ancient beasts slain by the Jogos Nhai." #NT!
+ #nick_the_goliath_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] an enormous warrior, like the biblical Goliath."
+ nick_the_goliath_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] as enormous as [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] deadly, likened to the ancient beasts slain by the Jogos Nhai."
  nick_the_shield_of_capital: "der Schild von [CHARACTER.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip]"
  nick_the_shield_of_capital_desc: "Dieser Charakter ist ein tapferer Krieger und wird von den Menschen in seinem Hauptsitz geliebt."
  nick_the_ladder_legs: "das Leiterbein"
@@ -896,8 +917,8 @@
  nick_the_righteous_desc: "Dieser Charakter ist dafür bekannt, einen ausgeprägten Gerechtigkeitssinn zu besitzen."
  nick_the_venerable: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Ehrwürdige"
   #AGOT Modified fixing Paradox typo 
- #nick_the_venerable_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] spent [CharYourHerHis(CHARACTER)] in a gofly way, earning [CharYouHerHim(CHARACTER)] trust." #NT!
- nick_the_venerable_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] spent [CharYourHerHis(CHARACTER)] life in a pious way, earning [CharYouHerHim(CHARACTER)] trust." #NT!
+ #nick_the_venerable_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] spent [CharYourHerHis(CHARACTER)] in a gofly way, earning [CharYouHerHim(CHARACTER)] trust."
+ nick_the_venerable_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] spent [CharYourHerHis(CHARACTER)] life in a pious way, earning [CharYouHerHim(CHARACTER)] trust."
  nick_the_miracle_worker: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Wunderwirker[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_miracle_worker_desc: "Dieser Charakter ist mit mystischen Belangen ansatzweise vertraut, doch nutzt seine Entdeckungen für gute Taten."
  nick_the_merciful: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Barmherzige"
@@ -927,7 +948,7 @@
  nick_the_zealot: "[CHARACTER.Custom('DE_ART_DEF_S_N')] [Select_CString(CHARACTER.IsFemale, 'Eiferin', 'Eiferer')]"
  nick_the_zealot_desc: "Dieser Charakter ist dafür bekannt, seine Frömmigkeit auch mit Gewalt zu verbreiten."
  nick_the_elder: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Ältere"
- nick_the_elder_desc: "Dieser Charakter hat viele, viele Jahre gelebt. Viel mehr, als man erwarten würde."
+ nick_the_elder_desc: "Not the only [CHARACTER.GetFirstName] of [CharYourHerHis(CHARACTER)] family at the time, this [CHARACTER.GetFirstName] is the elder."
  nick_the_evil: "[CHARACTER.Custom('DE_ART_DEF_S_N')] [Select_CString(CHARACTER.IsFemale, 'Teufelin', 'Teufel')]"
  nick_the_evil_desc: "Dieser Charakter ist sündhaft, gottlos und scheut sich nicht davor, Priester und Untertanen gleichermaßen einzuschüchtern."
  nick_the_jovial: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Fröhliche"
@@ -962,8 +983,8 @@
  nick_the_indolent_desc: "Dieser Charakter ist dafür bekannt, überwiegend untätig bei allem zu sein."
  nick_the_sluggard: "der Faulpelz"
   #AGOT Modified fixing Paradox typo 
- #nick_the_sluggard_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] takes their sweet time doing #EMP anything#!..." #NT!
- nick_the_sluggard_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] takes [CharYourHerHis(CHARACTER)] sweet time doing #EMP anything#!..." #NT!
+ #nick_the_sluggard_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] takes their sweet time doing #EMP anything#!..."
+ nick_the_sluggard_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] takes [CharYourHerHis(CHARACTER)] sweet time doing #EMP anything#!..."
  nick_the_idle: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Untätige"
  nick_the_idle_desc: "Dieser Charakter ist für … sein Nichtstun bekannt."
  nick_the_short: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kurze"
@@ -1093,7 +1114,7 @@
  nick_the_temple_builder: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Tempelbauer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_temple_builder_desc: "Dieser Charakter zeigt seine Ergebenheit gegenüber einer höheren Ebene, indem er auf Erden Monumente errichtet."
  nick_the_dragonslayer: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Drachentöter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_dragonslayer_desc: "Dieser Charakter und seine legendäre Jagd auf einen wilden Drachen waren einzigartig."
+ nick_the_dragonslayer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] won glory for all time, achieving the impossible by slaying a mighty dragon!"
  nick_natures_bane: "Geißel der Natur"
  nick_natures_bane_desc: "Die Kraft dieses Charakters ist derart groß, dass sogar die Natur selbst sich seinem Willen unterwirft."
  nick_the_stout: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Stämmige"
@@ -1322,7 +1343,7 @@
  nick_the_young_michael_iii: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Junge"
  nick_the_young_michael_iii_desc: "Da er schon von Kindesbeinen an regierte, erscheint es wie ein grausames Verbrechen, dass er so lange herrschte und doch so jung starb. Es war ein Unfall."
  nick_the_exile: "der Auswanderer"
- nick_the_exile_desc: "Dieser Charakter wurde aus dem eigenen Heimatland vertrieben oder verließ es, um einer unvorhergesehenen Bürde zu entkommen. In der Fremde suchte er Zuflucht."
+ nick_the_exile_desc: "For fleeing the doom of Valyria to Dragonstone, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] known as [CHARACTER.GetFirstNameNoTooltipNoFormat] 'the Exile.'"
  nick_lackland_young: "Ohneland"
  nick_lackland_young_desc: "Dieser arme Charakter wurde als jüngster Sohn einer Schar von illustren Brüdern geborgen. Wie soll er denn so jemals über irgendetwas herrschen?"
  nick_lackland_ironic: "$nick_lackland_young$"
@@ -1341,3 +1362,25 @@
   
  nick_the_ploughman: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Pflüger[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_ploughman_desc: "Als die Gesandten kamen, um [CHARACTER.GetShortUINameNoTooltipNoFormat|U] zur Thronbesteigung zu holen, fand man [CHARACTER.Custom('DE_PRO_PER_S_3P_A')] als bescheidenes Mitglied der Bauernschaft am Pflug auf dem Acker vor."
+  
+  # MPO 
+ nick_the_dreadful: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schreckliche"
+ nick_the_dreadful_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] glaubt, dass man nur Achtung erfährt, wenn man auch gefürchtet wird."
+  
+  # TGP 
+ nick_shinno: "Shin’nō"
+ nick_shinno_desc: "Dieser Charakter ist dafür bekannt, sich [Select_CString(CHARACTER.IsFemale, 'zur', 'zum')] „[Select_CString(CHARACTER.IsFemale, 'neuen Kaiserin', 'neuen Kaiser')]“ von Japan ausgerufen zu haben und einen Aufstand gegen die Zentralregierung anzuführen."
+ nick_murasaki_shikibu: "Murasaki Shikibu"
+ nick_murasaki_shikibu_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ist unter dem Namen #EMP Murasaki Shikibu#! bekannt. Dieser Name leitet sich von der violetten (jap. #EMP murasaki#!) Glyzinienblüte ab, die man auch #EMP Fujiwara#! nennt. Ihre Familie wurde nach dieser Blüte benannt. Der Name bezieht sich zudem auf das Amt ihres Vaters im #EMP Shikibu-shō#!, dem Ministerium für zeremonielle Angelegenheiten."
+ nick_izumi_shikibu: "Izumi Shikibu"
+ nick_izumi_shikibu_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ist unter dem Namen #EMP Izumi Shikibu#! bekannt. Er leitet sich vom Amt ihres Gatten als Statthalter der Provinz #EMP Izumi#! und vom Amt ihres Vaters im #EMP Shikibu-shō#!, dem Ministerium für zeremonielle Angelegenheiten, ab."
+ nick_sei_shonagon: "Sei Shōnagon"
+ nick_sei_shonagon_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ist unter dem Namen #EMP Sei Shōnagon#! bekannt. Ihr Name setzt sich aus #EMP Sei#!, der chinesischen Lesart ihres Familiennamens #EMP Kiyohara#!, und dem Titel eines Verwandten, #EMP Shōnagon#!, zusammen. Letzteres bedeutet so viel wie „kleiner Staatsrat“."
+ nick_the_fierce: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Fürchterliche"
+ nick_the_fierce_desc: "All who meet [CHARACTER.GetShortUINameNoTooltipNoFormat] in combat know exactly how [CharYouSheHe(CHARACTER)] earned [CharYourHerHis(CHARACTER)] name."
+ nick_tenjin: "Tenjin"
+ nick_tenjin_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] soll nach [CHARACTER.Custom('DE_PRO_POS_S_3P')]er ungerechten Behandlung ein rachsüchtiger Geist geworden sein und wird nun als himmlisches Wesen verehrt."
+ nick_ushiwakamaru: "Ushiwakamaru"
+ nick_ushiwakamaru_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ist bekannt dafür, die Stärke und Hartnäckigkeit eines jungen Bullen zu haben, sodass alle in seiner Umgebung ihn fürchten."
+ nick_ho_seung: "Ho-seung"
+ nick_ho_seung_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ist von einer Legende umrankt: Ein Tiger starb nach dem Sturz in eine Grubenfalle und wurde als Mensch wiedergeboren, um danach ein Mönch zu werden. Dieser Sage zufolge ist niemand anders als [CHARACTER.GetShortUINameNoTooltipNoFormat] selbst dieser Mönch."

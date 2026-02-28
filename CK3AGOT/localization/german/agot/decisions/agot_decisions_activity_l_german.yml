@@ -1,0 +1,8 @@
+﻿l_german:
+ agot_go_on_reaving_decision: "Eine Große Ernte unternehmen"
+ agot_go_on_reaving_decision_opening_desc: "#F Zahlt den Eisernen Preis und bereitet einen Große Ernte vor, um die Länder jenseits der Meerenge zu plündern. Eisenmänner aus dem ganzen Reich werden sich Eurer Flotte anschließen, um die Länder von Safran und Seide zu verwüsten!#!"
+ reaving_effect_1: "Ihr werdet ein erntereifes Ziel wählen"
+ reaving_effect_2: "Je erfolgreicher Euere Ernte ist ist, desto mehr [piety|E] und [prestige|E] erhaltet Ihr"
+ reaving_effect_3: "Ihr könntet die [GetTrait('viking').GetName( GetNullCharacter )]-Eigenschaft erhalten"
+ agot_go_on_reaving_decision_tooltip: "Eine Große [reaving|E] wird ausgerufen."
+ agot_go_on_reaving_decision_confirm: "Die Grünländer werden die Eisenmänner fürchten!"

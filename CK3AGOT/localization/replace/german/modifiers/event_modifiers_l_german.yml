@@ -8,6 +8,8 @@
  strong_blood: "Starkes Blut"
  dynasty_of_many_crowns: "Dynastie der vielen Kronen"
  dynasty_of_many_crowns_desc: ""
+ dynasty_of_many_crowns_nomad: "Dynastie vieler Khane"
+ dynasty_of_many_crowns_nomad_desc: ""
  ireland_laudabiliter_modifier: "Laudabiliter"
  ireland_laudabiliter_modifier_desc: "Der Heilige Stuhl hat den Anspruch dieser Familie auf Irland abgesegnet und somit jedweden Feldzug ihrer Mitglieder gegen die Kleinkönige der Insel gerechtfertigt."
  ruler_of_the_ganges_modifier: "Hüter des Heiligen Flusses"
@@ -247,5 +249,15 @@
  arson_rebuilding_modifier: "Wiederaufbau"
  arson_rebuilding_modifier_desc: "Unlängst gab es in dieser Gemeinde eine Brandstiftung im Suff. Geld wurde zur Seite gelegt und die Besteuerung ausgesetzt, um beim Wiederaufbau zu helfen."
   
+ silk_road_situation_silk_road_domain: "$silk_road_situation_participant_group_silk_road_domain$"
+ silk_road_situation_china_realm: "$silk_road_situation_participant_group_china_realm$"
+ silk_road_situation_silk_road_realm: "$silk_road_situation_participant_group_silk_road_realm$"
+ silk_road_situation_silk_road_periphery: "$silk_road_situation_participant_group_silk_road_periphery$"
+ silk_road_situation_silk_road_nomad: "$silk_road_situation_participant_group_silk_road_nomad$"
+  
  artifact_physician_aptitude_1_modifier: "Medizinsammlung"
  artifact_physician_aptitude_1_modifier_desc: "Dieses Artefakt erhöht die [aptitude|E] des [GetCourtPositionType('court_physician_court_position').GetName()]s."
+  
+ terraced_hills_modifier: "Landwirtschaftsneuerungen"
+ terraced_hills_modifier_desc: "Der landwirtschaftliche Ausstoß dieser Gemeinde profitiert ungeheuer von neuen Feldfrüchten aus der Ferne."
+  

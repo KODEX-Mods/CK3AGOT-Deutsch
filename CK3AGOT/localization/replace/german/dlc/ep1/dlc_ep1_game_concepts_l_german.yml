@@ -30,12 +30,12 @@
  game_concept_court_type_trait_desc: "Nachdem ein [courtier|E] [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] Jahre an einem [royal_court|E] verbracht hat, erhält er eine [trait|E], die der [court_type|E] des Hofs entspricht.\n\nDie Qualität dieser Eigenschaft hängt davon ab, wie lange der [character|E] als Höfling am Hof gedient hat."
   
   #AGOT Modified 
- #game_concept_court_language: "Court Language" #NT!
- #game_concept_court_languages: "Court Languages" #NT!
- #game_concept_court_language_desc: "A Court Language is the official [language|E] of a [royal_court|E], spoken by the nobility and used by the bureaucracy.\n\nThe [court_grandeur|E] Baseline is increased for each [realm|E] [county|E] that shares the Language, for each Royal Court which speaks the same Court Language, and if it is the [ruler|E]'s native Language." #NT!
- game_concept_court_language: "Court Tongue" #NT!
- game_concept_court_languages: "Court Tongues" #NT!
- game_concept_court_language_desc: "A Court Tongue is the official [language|E] of a [royal_court|E], spoken by the nobility and used by the bureaucracy.\n\nThe [court_grandeur|E] Baseline is increased for each [realm|E] [county|E] that shares the Tongue, for each Royal Court which speaks the same Court Tongue, and if it is the [ruler|E]'s native Tongue." #NT!
+ #game_concept_court_language: "Court Language"
+ #game_concept_court_languages: "Court Languages"
+ #game_concept_court_language_desc: "A Court Language is the official [language|E] of a [royal_court|E], spoken by the nobility and used by the bureaucracy.\n\nThe [court_grandeur|E] Baseline is increased for each [realm|E] [county|E] that shares the Language, for each Royal Court which speaks the same Court Language, and if it is the [ruler|E]'s native Language."
+ game_concept_court_language: "Court Tongue"
+ game_concept_court_languages: "Court Tongues"
+ game_concept_court_language_desc: "A Court Tongue is the official [language|E] of a [royal_court|E], spoken by the nobility and used by the bureaucracy.\n\nThe [court_grandeur|E] Baseline is increased for each [realm|E] [county|E] that shares the Tongue, for each Royal Court which speaks the same Court Tongue, and if it is the [ruler|E]'s native Tongue."
   
  game_concept_inspiration: "Inspiration"
  game_concept_inspirations: "Inspirationen"
@@ -43,10 +43,12 @@
  game_concept_inspiration_desc: "Inspirierte [characters|E] sind geübte Kunsthandwerker mit einem [project|E], das Wirklichkeit werden kann, wenn Ihr ihr [sponsor|E] werdet.\n\nIhr könnt die [decision|E] „Artefakt in Auftrag geben“ treffen, um einen solchen Charakter anzuwerben, damit er ein [artifact|E] erschafft.[SelectLocalization(HasDlcFeature('royal_court'), 'game_concept_inspiration_desc_DLC', '')]\n\nWird das Vorhaben abgeschlossen, darf der Gönner das Ergebnis behalten – in den meisten Fällen ein Artefakt."
  game_concept_inspiration_desc_DLC: "\n\nDes Weiteren erscheinen Inspirierte Charaktere gelegentlich an [Concept('royal_courts', 'Königshöfen')|E], insbesondere solchen mit hoher [court_grandeur_level|E]."
  game_concept_sponsor: "Gönner"
+ game_concept_sponsored: "gefördert"
  game_concept_sponsor_desc: "Ein Gönner ist der [ruler|E], der das [project|E] eines [Concept('inspired', 'inspirierten')|E] [Concept('character','Charakters')|E] finanziert."
   
  game_concept_artifact: "Artefakt"
  game_concept_artifacts: "Artefakte"
+ game_concept_artifact_i: "@artifact_icon!"
  game_concept_artifact_desc: "Ein Artefakt ist ein bedeutendes Objekt, das einem [character|E], der es im Besitz hat, einen Bonus gewährt.\n\n[SelectLocalization(HasDlcFeature('court_artifacts'), 'game_concept_artifact_desc_DLC', 'game_concept_artifact_desc_NO_DLC')]\n\nManche Artefakte sind spezieller als andere und haben daher eine höhere [rarity|E].\n\nEbenso wie auf [titles|E] können Charaktere auch [artifact_claims|E] auf ein Artefakt erlangen und versuchen, es in ihren Besitz zu bringen.\n\nArtefakte haben auch eine [durability|E]: Erreicht sie null, ist das Artefakt zerstört.\n\nArtefakte werden immer an den [Concept('player_heir', 'Spielererben')|E] ihres Besitzers vererbt. Wird ein Artefakt an jemanden vererbt, der kein [close_family_member|E] ist, verliert es [durability|E] oder kann sogar ganz zerstört werden."
  game_concept_artifact_desc_NO_DLC: "Artefakte, die man am Körper trägt oder bei sich führt, werden auch als [inventory_artifacts|E] bezeichnet."
  game_concept_artifact_desc_DLC: "Artefakte unterteilen sich in zwei Kategorien:\n$BULLET_WITH_TAB$[inventory_artifacts|E] trägt ein Charakter am Körper oder bei sich\n$BULLET_WITH_TAB$[court_artifacts|E] werden am [royal_court|E] eines [Concept('ruler', 'Herrschers')|E] verwahrt"
@@ -78,6 +80,7 @@
   
  game_concept_aptitude: "Eignung"
  game_concept_aptitude_desc: "Die $game_concept_aptitude$ eines [Concept('character', 'Charakters')|E] bestimmt, wie effektiv er bestimmte Rollen am [court|E] ausfüllen kann. Zu diesen Rollen zählen [court_positions|E], [diarchs|E] und [tax_collectors|E].\n\n$game_concept_aptitude$ wird in 5 Stufen bemessen, die von „Schrecklich“ bis „Hervorragend“ reichen. Die Stufe in Sachen $game_concept_aptitude$ eines Charakters entscheidet über die Boni, die der [liege|E] bekommt, wenn dieser diese Rolle am [court|E] mit ihm besetzt.\n\nSo ist beispielsweise ein Charakter mit der Eigenschaft „[GetTrait('lifestyle_physician').GetName(GetNullCharacter)]“ besser gerüstet, um als $court_physician_court_position$ zu dienen."
+ game_concept_aptitude_i: "#P @aptitude:5:inherit_color!#!"
   
  game_concept_court_event: "Hof-Ereignis"
  game_concept_court_events: "Hof-Ereignisse"

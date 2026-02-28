@@ -1,0 +1,6 @@
+﻿l_german:
+ esr_rivals: "All [rivals|E] of [victim.GetShortUIName]"
+ esr_all_friends_and_lovers: "All [friends|E] and [lovers|E] of [victim.GetShortUIName]"
+ esr_rivals_attempted: "All [rivals|E] of [target.GetShortUIName]"
+ esr_rivals_execution: "All [rivals|E] of [THIS.GetCharacter.GetShortUIName]"
+ esr_extended_family_members: "All [extended_family|E] of [THIS.GetCharacter.GetShortUIName]"

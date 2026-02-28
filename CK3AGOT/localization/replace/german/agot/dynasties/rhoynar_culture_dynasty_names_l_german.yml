@@ -1,0 +1,304 @@
+﻿l_german:
+  #NOTE: follows the order of dynasties in the \common\dynasties\ files 
+  ### RHOYNAR CULTURE DYNASTIES/CADET BRANCHES ### 
+  #Sand Dornish 
+ dynn_Gapalgar: "Gapalgar"
+ dynn_Norland: "Norland"
+ dynn_Galesand: "Galsand"
+ dynn_Ramdrin: "Ramdrin"
+ dynn_Manroner: "Manroner"
+ dynn_Santon: "Santon"
+ dynn_Paldwyn: "Paldwyn"
+ dynn_Goodwyn: "Guthwyn"
+ dynn_Byrnell: "Byrnell"
+ dynn_Ryparr: "Ryparr"
+ dynn_Redham: "Rothyn"
+ dynn_Tawnell: "Tonell"
+ dynn_Summers: "Sommern"
+ dynn_Briddon: "Briddon"
+ dynn_Shadbolt: "Schattenbolt"
+ dynn_Bells: "Schellen"
+ dynn_Qowell: "Qowell"
+  
+  #Salt Dornish 
+ dynn_Aldana: "Aldana"
+ dynn_Tanatell: "Tannatell"
+ dynn_Solavar: "Solavar"
+ dynn_Reddune: "Redden"
+ dynn_Sourton: "Sauerten"
+ dynn_Barrows: "Karenn"
+ dynn_Driftway: "Driftweg"
+ dynn_Somberlyn: "Somberlyn"
+ dynn_Quarton: "Quarton"
+ dynn_Lockhart: "Lockhart"
+ dynn_Wendane: "Wendayn"
+ dynn_Dartyng: "Dartyng"
+ dynn_Dancer: "Tänzern"
+ dynn_Woodlyn: "Waldyn"
+ dynn_Ethers: "Eters"
+ dynn_Nightfall: "Nachtfall"
+ dynn_Lemonwood: "Zitronenhain"
+ dynn_Meredyn: "Meredyn"
+ dynn_Merrihill: "Merriberg"
+  
+  #Rhoynish 
+ dynn_Aleam: "Aleam" #NT!
+ dynn_Arhe: "Arhe" #NT!
+ dynn_Biarho: "Biarho" #NT!
+ dynn_Boydharea: "Boydharea" #NT!
+ dynn_Bybys: "Bybys" #NT!
+ dynn_Dalhylu: "Dalhylu" #NT!
+ dynn_Deaspile: "Deaspile" #NT!
+ dynn_Derhian: "Derhian" #NT!
+ dynn_Dhadhi: "Dhadhi" #NT!
+ dynn_Dhiamram: "Dhiamram" #NT!
+ dynn_Dhygealloy: "Dhygealloy" #NT!
+ dynn_Donmoyska: "Donmoyska" #NT!
+ dynn_Dymdymki: "Dymdymki" #NT!
+ dynn_Eagia: "Eagia" #NT!
+ dynn_Eanealan: "Eanealan" #NT!
+ dynn_Eku: "Eku" #NT!
+ dynn_Emlho: "Emlho" #NT!
+ dynn_Erhe: "Erhe" #NT!
+ dynn_Esia: "Esia" #NT!
+ dynn_Eyu: "Eyu" #NT!
+ dynn_Gealealha: "Gealealha" #NT!
+ dynn_Gianoy: "Gianoy" #NT!
+ dynn_Giasa: "Giasa" #NT!
+ dynn_Giapo: "Giapo" #NT!
+ dynn_Godhy: "Godhy" #NT!
+ dynn_Gollhea: "Gollhea" #NT!
+ dynn_Goykoda: "Goykoda" #NT!
+ dynn_Gumrhoy: "Gumrhoy" #NT!
+ dynn_Gywoysi: "Gywoysi" #NT!
+ dynn_Healsy: "Healsy" #NT!
+ dynn_Hiasna: "Hiasna" #NT!
+ dynn_Hianne: "Hianne" #NT!
+ dynn_Hoalhy: "Hoalhy" #NT!
+ dynn_Hoynso: "Hoynso" #NT!
+ dynn_Idho: "Idho" #NT!
+ dynn_Ianhean: "Ianhean" #NT!
+ dynn_Iheakoy: "Iheakoy" #NT!
+ dynn_Ilwoylian: "Ilwoylian" #NT!
+ dynn_Kepa: "Kepa" #NT!
+ dynn_Keses: "Keses" #NT!
+ dynn_Kewoy: "Kewoy" #NT!
+ dynn_Kialherho: "Kialherho" #NT!
+ dynn_Kilnian: "Kilnian" #NT!
+ dynn_Kywinia: "Kywinia" #NT!
+ dynn_Leanorhoyku: "Leanorhoyku" #NT!
+ dynn_Leamdhian: "Leamdhian" #NT!
+ dynn_Leawoy: "Leawoy" #NT!
+ dynn_Learhem: "Learhem" #NT!
+ dynn_Lhami: "Lhami" #NT!
+ dynn_Lhanllin: "Lhanllin" #NT!
+ dynn_Lharho: "Lharho" #NT!
+ dynn_Lhiariarha: "Lhiariarha" #NT!
+ dynn_Lhoydly: "Lhoydly" #NT!
+ dynn_Lhoypedhia: "Lhoypedhia" #NT!
+ dynn_Lhoytea: "Lhoytea" #NT!
+ dynn_Lhyo: "Lhyo" #NT!
+ dynn_Liahe: "Liahe" #NT!
+ dynn_Libosa: "Libosa" #NT!
+ dynn_Lihamia: "Lihamia" #NT!
+ dynn_Llanrho: "Llanrho" #NT!
+ dynn_Llagagi: "Llagagi" #NT!
+ dynn_Llagusu: "Llagusu" #NT!
+ dynn_Llenhisnyl: "Llenhisnyl" #NT!
+ dynn_Loadarhoy: "Loadarhoy" #NT!
+ dynn_Lolho: "Lolho" #NT!
+ dynn_Lunube: "Lunube" #NT!
+ dynn_Midhe: "Midhe" #NT!
+ dynn_Mumhumko: "Mumhumko" #NT!
+ dynn_Munylia: "Munylia" #NT!
+ dynn_Mygis: "Mygis" #NT!
+ dynn_Mysdamu: "Mysdamu" #NT!
+ dynn_Myslanle: "Myslanle" #NT!
+ dynn_Nadhyki: "Nadhyki" #NT!
+ dynn_Nelia: "Nelia" #NT!
+ dynn_Nodymea: "Nodymea" #NT!
+ dynn_Noge: "Noge" #NT!
+ dynn_Noylako: "Noylako" #NT!
+ dynn_Nudhy: "Nudhy" #NT!
+ dynn_Obenem: "Obenem" #NT!
+ dynn_Odhunsoy: "Odhunsoy" #NT!
+ dynn_Oealian: "Oealian" #NT!
+ dynn_Oylliali: "Oylliali" #NT!
+ dynn_Oylkia: "Oylkia" #NT!
+ dynn_Pealrhi: "Pealrhi" #NT!
+ dynn_Raoylea: "Raoylea" #NT!
+ dynn_Reael: "Reael" #NT!
+ dynn_Reanea: "Reanea" #NT!
+ dynn_Renyn: "Renyn" #NT!
+ dynn_Rheloyian: "Rheloyian" #NT!
+ dynn_Rhumiheam: "Rhumiheam" #NT!
+ dynn_Rhystialsu: "Rhystialsu" #NT!
+ dynn_Rhisoymboy: "Rhisoymboy" #NT!
+ dynn_Roynro: "Roynro" #NT!
+ dynn_Roynrho: "Roynrho" #NT!
+ dynn_Ruhybia: "Ruhybia" #NT!
+ dynn_Sagoykum: "Sagoykum" #NT!
+ dynn_Sal: "Sal" #NT!
+ dynn_Saperhi: "Saperhi" #NT!
+ dynn_Selhom: "Selhom" #NT!
+ dynn_Sewu: "Sewu" #NT!
+ dynn_Songoku: "Songoku" #NT!
+ dynn_Sosy: "Sosy" #NT!
+ dynn_Soyka: "Soyka" #NT!
+ dynn_Soylanta: "Soylanta" #NT!
+ dynn_Soyrowial: "Soyrowial" #NT!
+ dynn_Tialo: "Tialo" #NT!
+ dynn_Til: "Til" #NT!
+ dynn_Till: "Till" #NT!
+ dynn_Tio: "Tio" #NT!
+ dynn_Topea: "Topea" #NT!
+ dynn_Toylhiama: "Toylhiama" #NT!
+ dynn_Tuslhias: "Tuslhias" #NT!
+ dynn_Tylgia: "Tylgia" #NT!
+ dynn_Tysgydoym: "Tysgydoym" #NT!
+ dynn_Ulheam: "Ulheam" #NT!
+ dynn_Undhialon: "Undhialon" #NT!
+ dynn_Undosta: "Undosta" #NT!
+ dynn_Uon: "Uon" #NT!
+ dynn_Wallu: "Wallu" #NT!
+ dynn_Werode: "Werode" #NT!
+ dynn_Yibia: "Yibia" #NT!
+ dynn_Ylmun: "Ylmun" #NT!
+  
+  #Sarhoyan 
+ dynn_Treboros: "Treboros"
+ dynn_Myros: "Myros"
+ dynn_Aryenos: "Aryenos"
+ dynn_Allerion: "Allerion"
+ dynn_Leynar: "Leynar"
+ dynn_Chroyos: "Chroyos"
+ dynn_Ghoylen: "Ghoylen"
+ dynn_Nylayne: "Nylayne"
+ dynn_Largyle: "Largyle"
+ dynn_Lorezos: "Lorezos"
+ dynn_Ryonar: "Ryonar"
+ dynn_Obarlen: "Obarlen"
+ dynn_Rhoyonos: "Rhoyonos"
+ dynn_Yandros: "Yandros"
+ dynn_Malloren: "Malloren"
+ dynn_Nystos: "Nystos"
+ dynn_Noylos: "Noylos"
+ dynn_Mirtayne: "Mirtayn"
+ dynn_Feron: "Feron"
+ dynn_Sandamel: "Sandamel"
+ dynn_Hylane: "Hyleyn"
+ dynn_Nysaros: "Nyaros"
+ dynn_Somayne: "Somayn"
+ dynn_Silvane: "Silvayn"
+ dynn_Sallerion: "Sallerion"
+ dynn_Choyan: "Choyan"
+ dynn_Ghoyane: "Ghoyan"
+ dynn_Armell: "Armell"
+ dynn_Larnoy: "Larnoy"
+ dynn_Nymell: "Nymell"
+  
+  #Sar Melli 
+ dynn_Treboros: "Treboros"
+ dynn_Myros: "Myros"
+ dynn_Aryenos: "Aryenos"
+ dynn_Allerion: "Allerion"
+ dynn_Leynar: "Leynar"
+ dynn_Chroyos: "Chroyos"
+ dynn_Ghoylen: "Ghoylen"
+ dynn_Nylayne: "Nylayne"
+ dynn_Largyle: "Largyle"
+ dynn_Lorezos: "Lorezos"
+ dynn_Ryonar: "Ryonar"
+ dynn_Obarlen: "Obarlen"
+ dynn_Rhoyonos: "Rhoyonos"
+ dynn_Yandros: "Yandros"
+ dynn_Malloren: "Malloren"
+ dynn_Nystos: "Nystos"
+ dynn_Noylos: "Noylos"
+ dynn_Mirtayne: "Mirtayn"
+ dynn_Feron: "Feron"
+ dynn_Sandamel: "Sandamel"
+ dynn_Hylane: "Hyleyn"
+ dynn_Nysaros: "Nyaros"
+ dynn_Somayne: "Somayn"
+ dynn_Silvane: "Silvayn"
+ dynn_Sallerion: "Sallerion"
+ dynn_Choyan: "Choyan"
+ dynn_Ghoyane: "Ghoyan"
+ dynn_Armell: "Armell"
+ dynn_Larnoy: "Larnoy"
+ dynn_Nymell: "Nymell"
+  
+  #Chroyani 
+ dynn_Treboros: "Treboros"
+ dynn_Myros: "Myros"
+ dynn_Aryenos: "Aryenos"
+ dynn_Allerion: "Allerion"
+ dynn_Leynar: "Leynar"
+ dynn_Chroyos: "Chroyos"
+ dynn_Ghoylen: "Ghoylen"
+ dynn_Nylayne: "Nylayne"
+ dynn_Largyle: "Largyle"
+ dynn_Lorezos: "Lorezos"
+ dynn_Ryonar: "Ryonar"
+ dynn_Obarlen: "Obarlen"
+ dynn_Rhoyonos: "Rhoyonos"
+ dynn_Yandros: "Yandros"
+ dynn_Malloren: "Malloren"
+ dynn_Nystos: "Nystos"
+ dynn_Noylos: "Noylos"
+ dynn_Mirtayne: "Mirtayn"
+ dynn_Feron: "Feron"
+ dynn_Sandamel: "Sandamel"
+ dynn_Hylane: "Hyleyn"
+ dynn_Nysaros: "Nyaros"
+ dynn_Somayne: "Somayn"
+ dynn_Silvane: "Silvayn"
+ dynn_Sallerion: "Sallerion"
+ dynn_Choyan: "Choyan"
+ dynn_Ghoyane: "Ghoyan"
+ dynn_Armell: "Armell"
+ dynn_Larnoy: "Larnoy"
+ dynn_Nymell: "Nymell"
+  
+  #Ny Sari 
+ dynn_Treboros: "Treboros"
+ dynn_Myros: "Myros"
+ dynn_Aryenos: "Aryenos"
+ dynn_Allerion: "Allerion"
+ dynn_Leynar: "Leynar"
+ dynn_Chroyos: "Chroyos"
+ dynn_Ghoylen: "Ghoylen"
+ dynn_Nylayne: "Nylayne"
+ dynn_Largyle: "Largyle"
+ dynn_Lorezos: "Lorezos"
+ dynn_Ryonar: "Ryonar"
+ dynn_Obarlen: "Obarlen"
+ dynn_Rhoyonos: "Rhoyonos"
+ dynn_Yandros: "Yandros"
+ dynn_Malloren: "Malloren"
+ dynn_Nystos: "Nystos"
+ dynn_Belgyle: "Belgyl"
+ dynn_Noylos: "Noylos"
+ dynn_Mirtayne: "Mirtayn"
+ dynn_Feron: "Feron"
+ dynn_Sandamel: "Sandamel"
+ dynn_Hylane: "Hyleyn"
+ dynn_Nysaros: "Nyaros"
+ dynn_Somayne: "Somayn"
+ dynn_Silvane: "Silvayn"
+ dynn_Sallerion: "Sallerion"
+ dynn_Choyan: "Choyan"
+ dynn_Ghoyane: "Ghoyan"
+ dynn_Armell: "Armell"
+ dynn_Larnoy: "Larnoy"
+ dynn_Nymell: "Nymell"
+  
+  ## unlocalized ones 
+ dynn_Tidmarch: "Tidmarch"
+ dynn_Rhoynos: "Rhoynos"
+  
+  #Upper Rhoynar (excluded due to continued replication of dynasty names — if a localisation is found missing then manually add them in) 
+  
+  #Ar Noyan (excluded due to continued replication of dynasty names — if a localisation is found missing then manually add them in) 
+  

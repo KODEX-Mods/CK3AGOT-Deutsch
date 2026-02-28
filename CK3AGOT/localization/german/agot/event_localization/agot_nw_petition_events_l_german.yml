@@ -1,0 +1,250 @@
+﻿l_german:
+ nw_petition_supplies_army_mod: "Well Provisioned Black Brothers"
+ nw_petition_supplies_normal_mod: "Well Provisioned Smaller Posts"
+ nw_petition_persuation_succeds: "You are able to persuade [nw_petition_target.GetTitledFirstNameNoTooltip]"
+ nw_petition_persuasion_fail: "You are unable to persuade [nw_petition_target.GetTitledFirstNameNoTooltip]"
+ nw_petition_persuation_player_target: "You will try to persuade [nw_petition_target.GetTitledFirstName]"
+  
+  # NIGHTSWATCH ENVOY START 
+ agot_nw_petition_events.01.t: "An Envoy to the Seven Kingdoms" #NT!
+ agot_nw_petition_events.01.desc: "The duty of Lord Commander is a thankless one — long nights spent with the maester, inking scrolls and sending ravens south in hopes of securing supplies and fresh recruits.\n\n"Ravens and scrolls can only do so much," [nw_petition_envoy.GetTitledFirstName] tells me, with a self-satisfied grin. "Some lords may respond better to a bit of ... #italic diplomatic#! effort."\n\n[nw_petition_envoy.GetSheHe|U] tells me that I ought to send [nw_petition_envoy.GetHerHim] as an envoy to the south. #italic But what should I request?#!" #NT!
+ agot_nw_petition_events.01.a: "I'll ask for more men." #NT!
+ agot_nw_petition_events.01.b: "I'll ask for supplies." #NT!
+ agot_nw_petition_events.01.c: "Why not both?" #NT!
+ agot_nw_petition_events.01.d: "Maybe it is not a good idea, after all." #NT!
+  
+  # NIGHTSWATCH ENVOY RANDOM TRAVELING EVENTS 
+ agot_nw_petition_events.0100.t: "Hidden Treasure" #NT!
+ agot_nw_petition_events.0100.desc: "While traveling, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] has stumbled upon a stash of valuable trinkets. Surely they are worth their weight in gold!\n\nBut as Lord Commander, I have considerations beyond my own. #italic What should I do with this newfound wealth?#!" #NT!
+ agot_nw_petition_events.0100.a: "Keep it for the Watch!" #NT!
+ agot_nw_petition_events.0100.b: "Give to a local ruler." #NT!
+ agot_nw_petition_events.0100.c: "Give to the local smallfolk." #NT!
+  
+ agot_nw_petition_events.0101.t: "Worthy Volunteers" #NT!
+ agot_nw_petition_events.0101.desc: "While traveling, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] has met a number of zealous young men, eager for adventure. With a bit of convincing, [nw_petition_envoy.GetSheHe] has talked them into joining the Night's Watch as recruits!" #NT!
+ agot_nw_petition_events.0101.a: "We need all the men we can get." #NT!
+ agot_nw_petition_events.0101.b: "The Watch is no place for adventurers." #NT!
+  
+ agot_nw_petition_events.0102.t: "An Offer of Supplies" #NT!
+ agot_nw_petition_events.0102.desc: "While traveling, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] has grown friendly with a local lord. Though he does not have much, the lord has offered some supplies to our cause." #NT!
+ agot_nw_petition_events.0102.a: "We will make use of any gift." #NT!
+ agot_nw_petition_events.0102.b: "The Night's Watch are no beggars." #NT!
+  
+ agot_nw_petition_events.0103.t: "An Angry Mob" #NT!
+ agot_nw_petition_events.0103.desc: "While traveling, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] has run into a bit of a problem... A local peasant leader, [peasant_leader.GetFirstName], has raised a small mob to chase [nw_petition_envoy.GetFirstNameNoTooltip] out of town. [nw_petition_envoy.GetSheHe|U] has no choice — #italic should [nw_petition_envoy.GetSheHe|l] flee or fight?#!" #NT!
+ agot_nw_petition_events.0103.a: "Attack the leader!" #NT!
+ agot_nw_petition_events.0103.b: "Try to flee." #NT!
+ nw_petition_rand_event_4_flee_succ: "Your envoy successfully flees the angry mob."
+ nw_petition_rand_event_4_flee_fail: "Your envoy is unable to flee the angry mob."
+  
+ agot_nw_petition_events.0104.t: "Mistaken for a Brigand" #NT!
+ agot_nw_petition_events.0104.desc: "While traveling, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] has been mistaken for a common bandit by a local knight. [idiotic_knight_whomst_think_BB_is_bandit.GetFirstName] does not seem the type to be trifled with... #italic What should [nw_petition_envoy.GetFirstNameNoTooltip] do?#!" #NT!
+ agot_nw_petition_events.0104.a: "Try to reason with him." #NT!
+ agot_nw_petition_events.0104.b: "It is time to fight!" #NT!
+ agot_nw_petition_events.0104.c: "Perhaps my envoy's charm can smooth things over?" #NT!
+ nw_petition_rand_event_4_succ: "Your envoy convinces the knight of his mission."
+ nw_petition_rand_event_4_fail: "The knight is #N unconvinced#!..."
+  
+ agot_nw_petition_events.0105.t: "Drunk on the Job" #NT!
+ agot_nw_petition_events.0105.desc: "It would seem my faith in [nw_petition_envoy.GetFirstNameNoTooltip] was misplaced. While traveling as my envoy to the south, [nw_petition_envoy.GetSheHe] has instead taken time to visit every last tavern and brothel.\n\nNow there are even rumors that [nw_petition_envoy.GetSheHe] killed a Wildling with [nw_petition_envoy.GetHerHis] bare hands! #italic No doubt a drunken boast...#!" #NT!
+ agot_nw_petition_events.0105.a: "When I get my hands on that drunk envoy..." #NT!
+  
+ agot_nw_petition_events.0106.t: "An Accidental Insult" #NT!
+ agot_nw_petition_events.0106.desc: "While traveling, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] has met all manner of folk, from peasants to lords, buskers to hedge knights. One local knight, [local_knight.GetFirstName], claims to have been insulted by something my envoy had to say... #italic What should [nw_petition_envoy.GetFirstNameNoTooltip] do?#!" #NT!
+ agot_nw_petition_events.0106.a: "Pay the knight recompense for the slight." #NT!
+ agot_nw_petition_events.0106.b: "Tell the knight to bugger off!" #NT!
+ agot_nw_petition_events.0106.c: "Perhaps my envoy's charm can smooth things over?" #NT!
+  
+ agot_nw_petition_events.0107.t: "Tavern Brawl" #NT!
+ agot_nw_petition_events.0107.desc: "My envoy [nw_petition_envoy.GetFirstNameNoTooltip] makes occasional stops at local taverns on [nw_petition_envoy.GetHerHis] travels, but tonight's visit was unlike any other.\n\nIt started quiet enough, but before [nw_petition_envoy.GetSheHe] knew what was happening, the situation devolved into an #bold epic tavern brawl#!!" #NT!
+ agot_nw_petition_events.0107.a: "Fight! Fight! Fight!" #NT!
+  
+ agot_nw_petition_events.0108.t: "A Cutpurse Attacks" #NT!
+ agot_nw_petition_events.0108.desc: "While traveling, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] must stay alert at all times. When a shadowy figure approaches, one never knows if [vile_bandit.GetSheHe] may have ill intentions.\n\nToday, luck was not on my envoy's side. A vile bandit, [vile_bandit.GetFirstName], managed to ambush [nw_petition_envoy.GetHerHim] on the road, far away from help of any kind. #italic What should [nw_petition_envoy.GetFirstNameNoTooltip] do?#!" #NT!
+ agot_nw_petition_events.0108.a: "Kill the cutpurse." #NT!
+ agot_nw_petition_events.0108.b: "Perhaps a bribe will suffice?" #NT!
+ agot_nw_petition_events.0108.c: "Time to flee!" #NT!
+  
+ agot_nw_petition_events.0109.t: "An Animal Attacks" #NT!
+ agot_nw_petition_events.0109.desc: "While traveling, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] must stay alert at all times. Around every nook or cranny, imminent danger may lurk.\n\nToday, luck was not on my envoy's side. A vicious beast caught [nw_petition_envoy.GetHerHim] unawares, far from any help. #italic What should [nw_petition_envoy.GetFirstNameNoTooltip] do?#!" #NT!
+ agot_nw_petition_events.0109.a: "Kill the beast." #NT!
+ agot_nw_petition_events.0109.b: "Time to flee!" #NT!
+ nw_petition_rand_event_9_flee_succ: "Your envoy flees the beast successfully."
+ nw_petition_rand_event_9_flee_fail: "Your envoy does not get away."
+  
+ agot_nw_petition_events.0111.t: "A Bloody Affair" #NT!
+ agot_nw_petition_events.0111.desc: "My envoy [nw_petition_envoy.GetFirstNameNoTooltip] seems to have gotten [nw_petition_envoy.GetHerHim|l]self into trouble. A fight broke out, blood was spilled, and only one of the combatants walked away..." #NT!
+ agot_nw_petition_events.0111.a: "[nw_petition_envoy.GetSheHe] had better continue onward to the petitioned lord!" #NT!
+ agot_nw_petition_events.0111.b: "No! Why... [nw_petition_envoy.GetSheHe] was so young..." #NT!
+ nw_petition_rand_event_10_win: "Your envoy survives!"
+ nw_petition_rand_event_10_wounded: "Your envoy survives, but is wounded."
+ nw_petition_rand_event_10_defeat: "Your envoy dies..."
+  
+ agot_nw_petition_events.0113.t: "Enemies Evaded" #NT!
+ agot_nw_petition_events.0113.desc: "Whether by skill or luck, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] has managed to escape [nw_petition_envoy.GetHerHis] pursuers. [nw_petition_envoy.GetSheHe] can now continue onward to the petitioned lord." #NT!
+ agot_nw_petition_events.0113.a: "The sooner, the better." #NT!
+  
+ agot_nw_petition_events.0114.t: "Envoy Captured" #NT!
+ agot_nw_petition_events.0114.desc: "Despite [nw_petition_envoy.GetFirstNameNoTooltip]'s best efforts, [nw_petition_envoy.GetSheHe] was unable to escape from [nw_petition_envoy.GetHerHis] pursuers. [nw_petition_envoy.GetSheHe|U] was found hiding in a bush, praying to [nw_petition_envoy.GetHerHis] gods.\n\n#bold This is the final chance for [nw_petition_envoy.GetHerHim] to survive.#!" #NT!
+ agot_nw_petition_events.0114.a: "My envoy must accept [nw_petition_envoy.GetHerHis] fate." #NT!
+ agot_nw_petition_events.0114.b: "[nw_petition_envoy.GetSheHe|U] must fight for [nw_petition_envoy.GetHerHis] life!" #NT!
+  
+ agot_nw_petition_events.0115.t: "The Knight Hears Reason" #NT!
+ agot_nw_petition_events.0115.desc: "The depths of [idiotic_knight_whomst_think_BB_is_bandit.GetFirstNameNoTooltipPossessive] idiocy has no limits. However, with some smooth words and a lot of patience, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] was able to convince the dim-witted knight of the truth of [nw_petition_envoy.GetHerHis] mission." #NT!
+ agot_nw_petition_events.0115.a: "Good, now on with the mission." #NT!
+  
+ agot_nw_petition_events.0116.t: "The Knight Has None of It" #NT!
+ agot_nw_petition_events.0116.desc: "The depths of [idiotic_knight_whomst_think_BB_is_bandit.GetFirstNameNoTooltipPossessive] idiocy has no limits. Despite my envoy's smooth words and abundant patience, the dim-witted knight is convinced that [nw_petition_envoy.GetFirstNameNoTooltip] is a bandit.\n\n"After all, #bold why else#! would you be wearing all black?" [idiotic_knight_whomst_think_BB_is_bandit.GetFirstNameNoTooltip] asks, seemingly unaware of his stupidity. [idiotic_knight_whomst_think_BB_is_bandit.GetSheHe] refuses to hear reason — #italic what should [nw_petition_envoy.GetFirstNameNoTooltip] do?#!" #NT!
+  
+ agot_nw_petition_events.0117.t: "Envoy Kills the Beast" #NT!
+ agot_nw_petition_events.0117.desc: "Despite being caught by surprise, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] was quick to react, allowing [nw_petition_envoy.GetHerHim] to fend off the beast.\n\nAfter locking eyes and circling one another, the beast attempted another strike — only for my envoy's sword to find its mark deep in the wild animal's chest." #NT!
+ agot_nw_petition_events.0117.a: "Good, now on with the mission." #NT!
+  
+ agot_nw_petition_events.0118.t: "Envoy Barely Kills the Beast" #NT!
+ agot_nw_petition_events.0118.desc: "My envoy [nw_petition_envoy.GetFirstNameNoTooltip] was caught completely by surprise when the wild animal launched its attack. Despite the beast's best efforts, [nw_petition_envoy.GetFirstNameNoTooltip] was able to regain [nw_petition_envoy.GetHerHis] composure and fend off the attack.\n\nWhen the beast attempted another strike, my envoy's sword found its mark deep in the wild animal's chest. Unfortunately, the fight has left [nw_petition_envoy.GetHerHim] badly wounded." #NT!
+ agot_nw_petition_events.0118.a: "As long as it does not delay the mission..." #NT!
+  
+ agot_nw_petition_events.0119.t: "Beast Kills My Envoy" #NT!
+ agot_nw_petition_events.0119.desc: "Alas, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] was caught completely by surprise when the wild animal launched its attack. Despite [nw_petition_envoy.GetHerHis] best efforts, [nw_petition_envoy.GetSheHe] never regained [nw_petition_envoy.GetHerHis] composure to fend off the beast's attack.\n\nAfter locking eyes and circling one another, the beast hurled itself forward fiercely for another strike — catching my envoy in the head and nearly ripping [nw_petition_envoy.GetHerHis] face clean off.\n\n#italic So much for my petition...#!" #NT!
+ agot_nw_petition_events.0119.a: "Perhaps [nw_petition_envoy.GetHerHis] bones can be returned to Castle Black." #NT!
+  
+ agot_nw_petition_events.0120.t: "Envoy Escapes the Beast" #NT!
+ agot_nw_petition_events.0120.desc: "Despite being caught by surprise, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] was quick to react, regaining [nw_petition_envoy.GetHerHis] composure and sprinting away from the wild animal to safety.\n\nThough it wasn't glamorous, and [nw_petition_envoy.GetHerHis] trousers are a darker shade of brown now, my envoy escaped with his life." #NT!
+ agot_nw_petition_events.0120.a: "Wash those trousers before meeting with the lord, please." #NT!
+  
+  # NIGHTSWATCH ENVOY MAIN 
+ agot_nw_petition_events.1000.t: "An Envoy to the Seven Kingdoms" #NT!
+ agot_nw_petition_events.1000.desc: "Preparations have been made, plans put in place, and now [nw_petition_envoy.GetTitledFirstName] has come before me for a final time before [nw_petition_envoy.GetHerHis] departure.\n\n"Lord Commander, I promise to fulfill my duties in the south expeditiously, returning to Castle Black with what we have requested," [nw_petition_envoy.GetFirstNameNoTooltip] assures me. "Though the road is long, and many perils await me, I pledge my life and honor to this purpose. #bold Onward, to [nw_petition_target.GetCapitalLocation.GetName]!"" #NT!
+ agot_nw_petition_events.1000.a: "Go forth, and do your duty." #NT!
+  
+ agot_nw_petition_events.1001.t: "An Envoy to the Seven Kingdoms" #NT!
+ agot_nw_petition_events.1001.desc: "What [nw_petition_envoy.GetTitledFirstName] told me about the long road ahead and the perils awaiting [nw_petition_envoy.GetHerHim] could not have been more true. But at long last, [nw_petition_envoy.GetFirstNameNoTooltip] has arrived at [nw_petition_envoy.GetHerHis] destination, [nw_petition_target.GetCapitalLocation.GetName]!" #NT!
+ agot_nw_petition_events.1001.a: "Let us pray the host accepts our petition." #NT!
+  
+ agot_nw_petition_events.1002.t: "An Envoy from the Night's Watch" #NT!
+ agot_nw_petition_events.1002.desc.a: "A strange traveler arrives at my court, clad in all black and reeking of the road.\n\n"[nw_petition_envoy.GetTitledFirstName], my [ROOT.Char.GetLadyLord|l]," [nw_petition_envoy.GetSheHe] introduces [nw_petition_envoyGetHerselfHimself]. "I am here on a mission — as an envoy of the black brothers, the watchers on the Wall." I yawn, hoping this envoy will get to the point.\n\n"Ehem, my [ROOT.Char.GetLadyLord|l]. I am here to petition your court for supplies, to help our sworn order defend the Seven Kingdoms!" #NT!
+ agot_nw_petition_events.1002.desc.b: "A strange traveler arrives at my court, clad in all black and reeking of the road.\n\n"[nw_petition_envoy.GetTitledFirstName], my [ROOT.Char.GetLadyLord|l]," [nw_petition_envoy.GetSheHe] introduces [nw_petition_envoyGetHerselfHimself]. "I am here on a mission — as an envoy of the black brothers, the watchers on the Wall." I yawn, hoping this envoy will get to the point.\n\n"Ehem, my [ROOT.Char.GetLadyLord|l]. I am here to petition your court for men, to help our sworn order defend the Seven Kingdoms!" #NT!
+ agot_nw_petition_events.1002.desc.c: "A strange traveler arrives at my court, clad in all black and reeking of the road.\n\n"[nw_petition_envoy.GetTitledFirstName], my [ROOT.Char.GetLadyLord|l]," [nw_petition_envoy.GetSheHe] introduces [nw_petition_envoyGetHerselfHimself]. "I am here on a mission — as an envoy of the black brothers, the watchers on the Wall." I yawn, hoping this envoy will get to the point.\n\n"Ehem, my [ROOT.Char.GetLadyLord|l]. I am here to petition your court for both supplies and men, to help our sworn order defend the Seven Kingdoms!" #NT!
+ agot_nw_petition_events.1002.a: "Aye, I will spare whatever I can to help the black brothers!" #NT!
+ nw_ruler_accepted_petition: "You accept the Night's Watch petition."
+ agot_nw_petition_events.1002.b: "Hm, I may accept... if the Night's Watch can fulfill my request." #NT!
+ nw_ruler_select_condition: "You conditionally accept the Night's Watch petition."
+ agot_nw_petition_events.1002.c: "Har! You wish for aid to help keep watch for snarks and grumkins?" #NT!
+ nw_ruler_petition_inital_reject: "You reject the Night's Watch petition."
+  
+ agot_nw_petition_events.1003.t: "An Envoy from the Night's Watch" #NT!
+ agot_nw_petition_events.1003.desc: ""While I am honored to host a brother of the Night's Watch, truly," I begin, with a sly grin. "And one such as yourself must know the gravity of what you ask. Why else would the Lord Commander have sent an envoy instead of a raven?"\n\nWith that, [nw_petition_envoy.GetTitledFirstName] seems to have understood my meaning. "If I were to accept this petition from the Night's Watch, I would need #italic something#! in return..."" #NT!
+ agot_nw_petition_events.1003.a: "Free the captives held by the Wildlings." #NT!
+ agot_nw_petition_events.1003.b: "Take this good-for-nothing with you." #NT!
+ agot_nw_petition_events.1003.c: "Attack a Wildling tribe for me." #NT!
+ agot_nw_petition_events.1003.d: "We can agree on a fair price..." #NT!
+ agot_nw_petition_events.1003.e: "A rare artifact is worth more than gold!" #NT!
+  
+ agot_nw_petition_events.1004.t: "An Envoy to the Seven Kingdoms" #NT!
+ agot_nw_petition_events.1004.desc.a: "I have received word from my envoy to [nw_petition_target.GetCapitalLocation.GetName], [nw_petition_envoy.GetTitledFirstName], that the negotiations have gone #bold splendidly#!!\n\nWhile the details are still being discussed, [nw_petition_envoy.GetFirstNameNoTooltip] believes the [nw_petition_target.GetLadyLord] will agree to our petition." #NT!
+ agot_nw_petition_events.1004.desc.b: "I have received word from my envoy to [nw_petition_target.GetCapitalLocation.GetName], [nw_petition_envoy.GetTitledFirstName], that the negotiations have gone tepidly.\n\nWhile the details are still being discussed, [nw_petition_envoy.GetFirstNameNoTooltip] believes the [nw_petition_target.GetLadyLord] will agree to our petition... #italic under one condition.#!" #NT!
+ agot_nw_petition_events.1004.desc.c: "I have received word from my envoy to [nw_petition_target.GetCapitalLocation.GetName], [nw_petition_envoy.GetTitledFirstName], that the negotiations have gone #N terribly#!!\n\nThere is no need to say more. [nw_petition_envoy.GetFirstNameNoTooltip] is certain that [nw_petition_target.GetLadyLord] will not agree to our petition." #NT!
+ agot_nw_petition_events.1004.a: "I must accept!" #NT!
+ agot_nw_petition_events.1004.b: "Try to persuade the [nw_petition_target.GetLadyLord]!" #NT!
+ agot_nw_petition_events.1004.c: "Perhaps a bribe will work?" #NT!
+  
+ agot_nw_petition_events.1005.t: "An Envoy to the Seven Kingdoms" #NT!
+ agot_nw_petition_events.1005.desc: "There are rare moments in one's life where they prove the purpose of their existence. Today, [nw_petition_envoy.GetTitledFirstName] proved [nw_petition_envoy.GetHerHis].\n\nI tasked [nw_petition_envoy.GetHerHim] with persuading [nw_petition_target.GetTitledFirstName] to come to the aid of the Night's Watch, and by the gods... #bold  [nw_petition_envoy.GetFirstNameNoTooltip] did it!#!" #NT!
+ agot_nw_petition_events.1005.a: "I mustn't let it go to [nw_petition_envoy.GetHerHis] head." #NT!
+  
+ agot_nw_petition_events.1006.t: "An Envoy to the Seven Kingdoms" #NT!
+ agot_nw_petition_events.1006.desc: "There are rare moments in one's life where they prove the purpose of their existence. Today was #bold not#! such a day for poor [nw_petition_envoy.GetTitledFirstName].\n\nI tasked [nw_petition_envoy.GetHerHim] with persuading [nw_petition_target.GetTitledFirstName] to come to the aid of the Night's Watch, and by the gods... #N [nw_petition_envoy.GetFirstNameNoTooltip] failed.#!" #NT!
+ agot_nw_petition_events.1006.a: "What a failure..." #NT!
+  
+ agot_nw_petition_events.1007.t: "An Envoy to the Seven Kingdoms" #NT!
+ agot_nw_petition_events.1007.desc: "[nw_petition_envoy.GetTitledFirstName] has returned once more to plead the case of the Night's Watch. I can barely follow the blabber about vows and promises, the darkness of night and the coming of the cold.\n\nWhen [nw_petition_envoy.GetSheHe] finally finishes the petition, I lock eyes with [nw_petition_envoy.GetHerHim] — the only way to get a true measure of one's character. In that moment, I know what I must do." #NT!
+ agot_nw_petition_events.1007.a: "A compelling case, and one that I will oblige." #NT!
+ agot_nw_petition_events.1007.b: "I do not doubt your conviction, but I must deny your petition." #NT!
+ agot_nw_petition_events.1007.c: "You dare brazenly make this request a second time!" #NT!
+  
+ agot_nw_petition_events.1008.t: "An Envoy to the Seven Kingdoms" #NT!
+ agot_nw_petition_events.1008.desc.a: "[nw_petition_envoy.GetTitledFirstName] has done all that [nw_petition_envoy.GetSheHe] could to convince [nw_petition_target.GetTitledFirstName] to come to the aid of the Night's Watch — with great success!\n\nNow, [nw_petition_envoy.GetSheHe] must prepare for a welcome return to the Wall." #NT!
+ agot_nw_petition_events.1008.desc.b: "[nw_petition_envoy.GetTitledFirstName] has done all that [nw_petition_envoy.GetSheHe] could to convince [nw_petition_target.GetTitledFirstName] to come to the aid of the Night's Watch — and eventually came to an agreement...\n\nNow, [nw_petition_envoy.GetSheHe] must prepare for a welcome return to the Wall." #NT!
+ agot_nw_petition_events.1008.desc.c: "[nw_petition_envoy.GetTitledFirstName] has done all that [nw_petition_envoy.GetSheHe] could to convince [nw_petition_target.GetTitledFirstName] to come to the aid of the Night's Watch — all for naught.\n\nNow, [nw_petition_envoy.GetSheHe] must prepare for a long, bitter return to the harshness of the Wall." #NT!
+ agot_nw_petition_events.1008.a: "Onward to Castle Black!" #NT!
+  
+ agot_nw_petition_events.1009.t: "An Envoy to the Seven Kingdoms" #NT!
+ agot_nw_petition_events.1009.desc.a: "Through [nw_petition_envoy.GetHerHis] sheer effort, [nw_petition_envoy.GetTitledFirstName] was able to convince [nw_petition_target.GetTitledFirstName] to agree to the terms of our petition." #NT!
+ agot_nw_petition_events.1009.desc.b: "Through [nw_petition_envoy.GetHerHis] sheer effort, [nw_petition_envoy.GetTitledFirstName] was able to convince [nw_petition_target.GetTitledFirstName] to agree to the newly-outlined terms of our petition." #NT!
+ agot_nw_petition_events.1009.desc.c: "Despite [nw_petition_envoy.GetTitledFirstName]'s best efforts, [nw_petition_target.GetTitledFirstName] dismisses the petition once more." #NT!
+ agot_nw_petition_events.1009.a: "I must accept!" #NT!
+ agot_nw_petition_events.1009.b: "No, this negotiation is over." #NT!
+ agot_nw_petition_events.1009.c: "Thank you, my [nw_petition_target.GetLadyLord]." #NT!
+  
+ agot_nw_petition_events.1010.t: "An Envoy to the Seven Kingdoms" #NT!
+ agot_nw_petition_events.1010.desc.a: "When [nw_petition_envoy.GetTitledFirstName] left Castle Black, [nw_petition_envoy.GetSheHe] promised to pursue [nw_petition_envoy.GetHerHis] mission expeditiously, leaving no stone unturned in hopes of securing aid for the Night's Watch.\n\nToday, [nw_petition_envoy.GetFirstNameNoTooltip] completes [nw_petition_envoy.GetHerHis] journey, deserving of a hero's welcome as [nw_petition_envoy.GetSheHe] walks through the gate.\n\n"You did it," I say, as I take a hold of [nw_petition_envoy.GetHerHis] hand. "You successfully served as an envoy of the Night's Watch."\n\n#italic Now, what to do with the hard-won prize?#!" #NT!
+ agot_nw_petition_events.1010.desc.b: "When [nw_petition_envoy.GetTitledFirstName] left Castle Black, [nw_petition_envoy.GetSheHe] promised to pursue [nw_petition_envoy.GetHerHis] mission expeditiously, leaving no stone unturned in hopes of securing aid for the Night's Watch.\n\nToday, [nw_petition_envoy.GetFirstNameNoTooltip] completes [nw_petition_envoy.GetHerHis] journey, deserving of a hero's welcome as [nw_petition_envoy.GetSheHe] walks through the gate.\n\n"You did it," I say, as I take a hold of [nw_petition_envoy.GetHerHis] hand. "You successfully served as an envoy of the Night's Watch."\n\n#italic Now, what to do with the hard-won prize?#!" #NT!
+ agot_nw_petition_events.1010.desc.c: "When [nw_petition_envoy.GetTitledFirstName] left Castle Black, [nw_petition_envoy.GetSheHe] promised to pursue [nw_petition_envoy.GetHerHis] mission expeditiously, leaving no stone unturned in hopes of securing aid for the Night's Watch.\n\nToday, [nw_petition_envoy.GetFirstNameNoTooltip] completes [nw_petition_envoy.GetHerHis] journey, unsuccessful yet resilient as [nw_petition_envoy.GetSheHe] walks through the gate.\n\n"You may not have gotten what we wanted," I say, as I take a hold of [nw_petition_envoy.GetHerHis] hand. "But you made it back in one piece."" #NT!
+ agot_nw_petition_events.1010.a: "Send the men to the guard." #NT!
+ agot_nw_petition_events.1010.b: "Send the men to garrison unused castles." #NT!
+ agot_nw_petition_events.1010.c: "Send the supplies to our black brothers." #NT!
+ agot_nw_petition_events.1010.d: "Send the supplies to smaller posts." #NT!
+ agot_nw_petition_events.1010.e: "Send the men to the guard, and send the supplies to our black brothers." #NT!
+ agot_nw_petition_events.1010.f: "Send the men to garrison unused castles, and send the supplies to our black brothers." #NT!
+ agot_nw_petition_events.1010.g: "Send the men to the guard, and send the supplies to smaller posts." #NT!
+ agot_nw_petition_events.1010.h: "Send the men to garrison unused castles, and send the supplies to smaller posts." #NT!
+ agot_nw_petition_events.1010.i: "Now, back to your post." #NT!
+  
+  # FAILSAFE FOR NIGHTSWATCH ENVOY DESC OPTIONS 
+ NW_SOMETHING_BROKE: "Das Warten auf eine Nachricht von meinem Gesandten ist zu meiner Hauptbeschäftigung geworden - aber leider scheint scheint es, dass etwas auf dem Weg verloren gegangen ist.\n\nIch kann nicht länger warten, ich kann nur vermuten, welche Wahl mein Gesandter mir vorgelegt hätte. #italic Was soll ich tun?#!"
+  
+  # VIOLATED GUEST RIGHT WORLD EVENT 
+ agot_nw_petition_events.1011.t: "Guest Right Violated" #NT!
+ agot_nw_petition_events.1011.opening: "An Envoy of the Night's Watch... Shunned!" #NT!
+ agot_nw_petition_events.1011.desc: "While visiting the court of [nw_petition_target.GetTitledFirstName] as an envoy of the Night's Watch, I was chastised and humiliated. All of the world should know of [nw_petition_target.GetFirstNamePossessiveNoTooltip] shame!" #NT!
+ agot_nw_petition_events.1011.a: "Truly an embarrassment!" #NT!
+  
+  # NIGHTSWATCH ENVOY RANDOM RETURNING EVENTSS 
+ agot_nw_petition_events.0200.t: "Desire to Join the Night's Watch" #NT!
+ agot_nw_petition_events.0200.desc: "While my envoy [nw_petition_envoy.GetTitledFirstName] is visiting the court of [nw_petition_target.GetTitledFirstName], [nw_petition_envoy.GetSheHe] is approached by a member of [nw_petition_envoy.GetHerHis] host's family.\n\n[nw_petition_200_lords_family_member.GetFirstNameNoTooltip] says he has long dreamed of the day that a black brother would enter his halls — #bold giving him an opportunity to leave this home behind and join the Night's Watch!#!" #NT!
+ agot_nw_petition_events.0200.a: "We need more men!" #NT!
+ agot_nw_petition_events.0200.b: "We cannot allow this." #NT!
+ nw_post_petition_rand_event_1_family_member_taken: "You accept [nw_petition_200_lords_family_member.GetFirstNamePossessiveNoTooltip] request. He shall join the Night's Watch, forsaking all claims to inheritance."
+ nw_post_petition_rand_event_1_family_member_refused: "You refuse [nw_petition_200_lords_family_member.GetFirstNamePossessiveNoTooltip] request. The Wall is no place for dreamers."
+  
+ agot_nw_petition_events.0202.t: "Recruits Attempt to Flee" #NT!
+ agot_nw_petition_events.0202.desc: "Sometimes, the recruits taken to join the Night's Watch do not come willingly. And oft, a wandering crow must keep a watchful eye over the flock.\n\nToday, a group of new recruits attempted to flee from the caravan, but [nw_petition_envoy.GetTitledFirstName] was able to capture them before they made it far. #italic Now, what to do with the deserters?#!" #NT!
+ agot_nw_petition_events.0202.a: "Death is the sentence for desertion." #NT!
+ agot_nw_petition_events.0202.b: "We need every recruit we can get. Spare them." #NT!
+  
+ agot_nw_petition_events.0203.t: "Local Knight Wishes to Join the Watch" #NT!
+ agot_nw_petition_events.0203.desc: "Myths and rumors about the perils — and glory — of the Night's Watch are plentiful. Some speak of the #italic Others#!, beings made of ice that can only be defeated by the greatest of knights. Others speak of #bold giants#!, still roaming north of the Wall.\n\nWhether glory or folly has rooted itself in [nw_petition_203_local_knight.GetTitledFirstName]'s head, [nw_petition_envoy.GetTitledFirstName] isn't sure. All [nw_petition_envoy.GetSheHe] knows is that this knight has a dream to join the Night's Watch!" #NT!
+ agot_nw_petition_events.0203.a: "We need more men!" #NT!
+ agot_nw_petition_events.0203.b: "We cannot allow this." #NT!
+ nw_post_petition_rand_event_4_knight_taken: "You accept [nw_petition_203_local_knight.GetFirstNamePossessiveNoTooltip] request. [nw_petition_203_local_knight.GetSheHe] shall join the Night's Watch, forsaking all claims to inheritance."
+ nw_post_petition_rand_event_4_knight_refused: "You refuse [nw_petition_203_local_knight.GetFirstNamePossessiveNoTooltip] request. The Wall is no place for dreamers."
+  
+ agot_nw_petition_events.0204.t: "Local Blacksmith Offers Supplies" #NT!
+ agot_nw_petition_events.0204.desc: "Some in Westeros still hold the Night's Watch in high regard — those who know the sacrifice that black brothers make, and the grave perils they face.\n\nA local blacksmith, [nw_petition_204_blacksmith.GetFirstNameNoTooltip], has sought out my envoy [nw_petition_envoy.GetTitledFirstName] to offer what supplies [nw_petition_204_blacksmith.GetSheHe] has to aid the mission of the Night's Watch." #NT!
+ agot_nw_petition_events.0204.a: "Take the supplies." #NT!
+ agot_nw_petition_events.0204.b: "We are not beggars." #NT!
+ nw_post_petition_rand_event_5_gain_supp: "You accept the supplies from the local blacksmith."
+  
+ agot_nw_petition_events.0205.t: "Spoiled Supplies" #NT!
+ agot_nw_petition_events.0205.desc: "While making the long return trip to Castle Black, my envoy [nw_petition_envoy.GetTitledFirstName] has discovered that a significant amount of the supplies have spoiled.\n\nIt's only a matter of time before this rots spreads throughout the remaining supplies, rendering this entire journey #N useless#!!" #NT!
+ agot_nw_petition_events.0205.a: "Damn it!" #NT!
+ agot_nw_petition_events.0205.b: "Figure out a way to save the rest." #NT!
+ agot_nw_petition_events.0205.c: "Convince a local lord to replace the supplies." #NT!
+ agot_nw_petition_events.0205.d: "Desperate times call for desperate measures; time to beg." #NT!
+ nw_post_petition_rand_event_6_lose_supp: "You lose the spoiled supplies."
+ nw_post_petition_rand_event_6_small_lose_supp: "You saved some of the supplies, but those already spoiled are beyond saving."
+ nw_post_petition_rand_event_6_gain_supp: "You gain supplies to replace those that are already spoiled."
+  
+ agot_nw_petition_events.0206.t: "A Thief Among Us" #NT!
+ agot_nw_petition_events.0206.desc: "The journey back to Castle Black is filled with peril, especially with a caravan full of fresh supplies. My envoy [nw_petition_envoy.GetTitledFirstName] must keep a watchful eye over the camp.\n\nToday, [nw_petition_envoy.GetSheHe] discovered a thief among us! Thanks to [nw_petition_envoy.GetHerHis] vigilance, [nw_petition_206_supplies_thief.GetTitledFirstName] was captured before [nw_petition_206_supplies_thief.GetSheHe] could escape. #italic Now, what to do with the brigand?#!" #NT!
+ agot_nw_petition_events.0206.a: "The price for this crime is #bold death#!." #NT!
+ agot_nw_petition_events.0206.b: "Take the thief to the Wall, as a recruit." #NT!
+ agot_nw_petition_events.0206.c: "A local lord can deal with this scum." #NT!
+ nw_post_petition_rand_event_7_wall: "Most recruits to join the Night's Watch are criminals, why would this be any different?"
+  
+ agot_nw_petition_events.0207.t: "More Supplies Than Needed" #NT!
+ agot_nw_petition_events.0207.desc: "What an awkward position to be in... My envoy [nw_petition_envoy.GetTitledFirstName]has informed me that our mission to the south went #bold so well#! that in truth we have too many supplies — more than we know what to do with.\n\nIt pains me to think of leaving anything behind, but would it be better to leave some of the supplies behind in order to avoid any potential spoilage?" #NT!
+ agot_nw_petition_events.0207.a: "Keep the excess supplies." #NT!
+ agot_nw_petition_events.0207.b: "Give some supplies to the smallfolk." #NT!
+ nw_post_petition_rand_event_8_gain_supp: "You keep all of the supplies, despite the risk."
+ nw_post_petition_rand_event_8_give_to_small_folk: "You give away supplies to the smallfolk, improving the local development."

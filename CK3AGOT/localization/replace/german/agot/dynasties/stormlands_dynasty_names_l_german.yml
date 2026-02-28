@@ -1,0 +1,117 @@
+﻿l_german:
+  ### STORMLANDS DYNASTIES/CADET BRANCHES ### 
+  #Great Houses 
+ dynn_Baratheon: "Baratheon"
+ dynn_Durrandon: "Durrandon"
+ dynn_Bolling: "Bolling"
+ dynn_Wensington: "Wensingen"
+  
+  #Landed Houses 
+ dynn_Brownhill: "Braunhügel"
+ dynn_Buckler: "Buckler"
+ dynn_Cafferen: "Cafferen"
+ dynn_Caron: "Caron"
+ dynn_Cole: "Kraut"
+ dynn_Connington: "Connington"
+ dynn_Crowell: "Crowell"
+ dynn_Dondarrion: "Dondarrion"
+ dynn_Errol: "Errol"
+ dynn_Estermont: "Estermont"
+ dynn_Fell: "Grimm"
+ dynn_Gower: "Gauer"
+ dynn_Grandison: "Grandison"
+ dynn_Hasty: "Hastig"
+ dynn_Herston: "Herston"
+ dynn_Horpe: "Horpe"
+ dynn_Kellington: "Kellington"
+ dynn_Lonmouth: "Lonmund"
+ dynn_Mertyns: "Mertyns"
+ dynn_Morrigen: "Morrigen"
+ dynn_Musgood: "Mausgut"
+ dynn_Peasebury: "Erbsengraben"
+ dynn_Penrose: "Fünfrosen"
+ dynn_Ripping: "Ripping"
+ dynn_Rogers: "Ruhmspeer"
+ dynn_Selmy: "Selmy"
+ dynn_Sendney: "Sending"
+ dynn_Shaw: "Schor"
+ dynn_Staedmon: "Staedmon"
+ dynn_Stillman: "Stillmann"
+ dynn_Straw: "Stroh"
+ dynn_Swann: "Swann"
+ dynn_Swygert: "Swygert"
+ dynn_Tarth: "Tarth"
+ dynn_Toyne: "Toyn"
+ dynn_Trant: "Trant"
+ dynn_Tudbury: "Kroydengraben"
+ dynn_Wagstaff: "Wedelstab"
+ dynn_Whitehead: "Weißhaupt"
+ dynn_Wormwood: "Wurmholz"
+ dynn_Wylde: "Wyld"
+ dynn_Polander: "Polander"
+  
+  #Landless Houses 
+ dynn_Pease: "Erbsen"
+ dynn_Noye: "Noye"
+ dynn_Scallard: "Scallard"
+  
+  #Telltale Fanon 
+ dynn_Hardcastle: "Hartburg"
+  
+  #Modcanon and Easter Eggs 
+ dynn_Morrison: "Morrisen"
+ dynn_Grimsby: "Grimmsby"
+ dynn_Rooke: "Ruch"
+ dynn_Staines: "Steynen"
+ dynn_Dennecent: "Denncent"
+ dynn_Hildreath: "Hügelkranz"
+ dynn_Densmore: "Densmor"
+ dynn_Spurn: "Spurn"
+ dynn_Ginett: "Ginett"
+ dynn_Peck: "Peck"
+ dynn_Lambert: "Lambert"
+ dynn_Pointe: "Pointe" #NT!
+ dynn_Pierce: "Pierce" #NT!
+ dynn_Bolander: "Bolander" #NT!
+ dynn_Sulk: "Sulk" #NT!
+ dynn_Hargraves: "Hargraves" #NT!
+ dynn_Ferrers: "Ferrers"
+ dynn_Spelder: "Spelder" #NT!
+ dynn_Leddan: "Leddan" #NT!
+ dynn_Hussell: "Hussell" #NT!
+ dynn_Mullgrub: "Mullgrub" #NT!
+ dynn_Charron: "Charron" #NT!
+ dynn_Dripps: "Dripps" #NT!
+ dynn_Brandish: "Brandish" #NT!
+ dynn_Gayle: "Gayle" #NT!
+ dynn_Ire: "Ire" #NT!
+ dynn_Den_Veln: "Den Veln" #NT!
+ dynn_Snapper: "Snapper" #NT!
+ dynn_Orlestor: "Orlestor" #NT!
+ dynn_Bane: "Bane" #NT!
+ dynn_Claught: "Claught" #NT!
+ dynn_Standard: "Standard" #NT!
+ dynn_Hennett: "Hennett" #NT!
+ dynn_Morden: "Morden" #NT!
+ dynn_Bander: "Bender"
+ dynn_Masters: "Masters" #NT!
+ dynn_Rellace: "Rellace" #NT!
+ dynn_Pang: "Pang"
+ dynn_Harthwood: "Harthwood" #NT!
+ dynn_Cowley: "Cowley" #NT!
+ dynn_Blythe: "Blythe" #NT!
+ dynn_Shear: "Shear" #NT!
+ dynn_Venerer: "Venerer" #NT!
+ dynn_Bitters: "Bitters" #NT!
+ dynn_Wenton: "Wenton" #NT!
+ dynn_Yeller: "Yeller" #NT!
+ dynn_Burnett: "Burnett" #NT!
+ dynn_Mitchell: "Mitchell" #NT!
+ dynn_Poe: "Poe" #NT!
+ dynn_Lurrelen: "Lurrelen" #NT!
+ dynn_Ambellan: "Ambellan" #NT!
+ dynn_Noonan: "Noonan" #NT!
+ dynn_Tempers: "Tempers" #NT!
+ dynn_Morles: "Morles" #NT!
+ dynn_Burden: "Burden" #NT!
+ house_Mallace: "Mallace" #NT!

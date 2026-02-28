@@ -1,18 +1,18 @@
 ﻿l_german:
- #Crownlanders 
+  # Crownlanders 
  mercenary_company_company_of_the_blackwater: "Kompanie des Schwarzwassers"
   
- #Northmen 
+  # Northmen 
  mercenary_company_wolf_pack: "Wolfsrudel"
  mercenary_company_wolf_pack_article: "das "
  mercenary_company_winter_sons: "Wintergeborene"
  mercenary_company_company_of_the_grim: "Kompanie des Grimmmigen"
  mercenary_company_wandering_wolves: "Streunende Wölfe"
- mercenary_company_wandering_wolves: "Streunende Wölfe"
+ mercenary_company_wandering_wolves_article: "the" #NT!
  mercenary_company_extra_mouths: "Großmäuler"
  mercenary_company_extra_mouths_article: "die "
   
- #Crannogmen 
+  # Crannogmen 
  mercenary_company_frog_spears: "Froschspeere"
  mercenary_company_lizard_lions: "Löwenechsen"
  mercenary_company_fever_sails: "Fiebersegler"
@@ -20,31 +20,31 @@
  mercenary_company_soggy_boots: "Durchnäßten Burschen"
  mercenary_company_soggy_boots_article: "die "
   
- #Valemen 
+  # Valemen 
  mercenary_company_company_of_the_moon: "Kompanie des Mondes"
   
- #Westerlands 
+  # Westerlands 
  mercenary_company_company_of_the_lion: "Kompanie des Löwen"
  mercenary_company_yellow_coats: "Gelbröcke"
  mercenary_company_gilded_men: "Vergoldete Männer"
  mercenary_company_company_of_the_boar: "Kompanie des Ebers"
  mercenary_company_pudding_kings: "Puddingkönige"
   
- #Reachmen 
+  # Reachmen 
  mercenary_company_company_of_the_thorn: "Kompanie des Dorns"
  mercenary_company_brown_thumbs: "Braune Daumen"
  mercenary_company_mander_sails: "Mandersegler"
  mercenary_company_company_of_the_bloody_blade: "Kompanie der Blutigen Klinge"
  mercenary_company_company_of_the_apple: "Kompanie des Apfels"
   
- #Shieldmen 
+  # Shieldmen 
  mercenary_company_misty_shields: "Nebelschilde"
  mercenary_company_grey_oars: "Graue Ruderer"
  mercenary_company_lonely_men: "Einsame Männer"
  mercenary_company_rusted_helms: "Rostige Helme"
  mercenary_company_iron_feet: "Eiserne Füße"
   
- #Riverlanders 
+  # Riverlanders 
  mercenary_company_fools_men: "Narrenmänner"
  mercenary_company_fishermen: "Fischer"
  mercenary_company_fishermen_article: "die "
@@ -53,7 +53,7 @@
  mercenary_company_boat_hooks: "Bootshaken"
   
   
- #Stormlanders 
+  # Stormlanders 
  mercenary_company_stormbreakers: "Sturmbrecher"
  mercenary_company_stormbreakers_article: "die "
  mercenary_company_bastards_hands: "Bastardhände"
@@ -61,14 +61,14 @@
  mercenary_company_galladons_men: "Galladons Männer"
  mercenary_company_rain_company: "Regenkompanie"
   
- #Marchers 
+  # Marchers 
  mercenary_company_vulture_hunters: "Geierjäger"
  mercenary_company_red_runners: "Rote Läufer"
  mercenary_company_black_company: "Schwarze Kompanie"
  mercenary_company_company_of_the_hunt: "Kompanie der Jagd"
  mercenary_company_march_watch: "Marschwache"
   
- #Stone Dornish 
+  # Stone Dornish 
  mercenary_company_hand_takers: "Handlanger"
  mercenary_company_red_raptors: "Rote Raubtiere"
  mercenary_company_company_of_the_vulture: "Kompanie des Geiers"
@@ -76,7 +76,7 @@
  mercenary_company_tendon_biters: "Sehnenbeißer"
   
   
- #Ironborn 
+  # Ironborn 
  mercenary_company_thrall_takers: "Sklavenjäger"
  mercenary_company_red_reavers: "Rote Plünderer"
  mercenary_company_lorons_legion: "Lorons Legion"

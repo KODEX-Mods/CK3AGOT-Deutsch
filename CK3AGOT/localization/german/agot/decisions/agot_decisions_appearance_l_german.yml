@@ -1,0 +1,61 @@
+﻿l_german:
+  
+ decision_group_type_appearance: "Appearance Decisions" #NT!
+  
+ agot_dye_hair_decision: "Dye Hair" #NT!
+ agot_dye_hair_decision_desc: "I have kept my current hair color too long; it has grown too familiar and dull!\nIt is past time that I seek a new shade." #NT!
+ agot_dye_hair_decision_effect: "You will be presented with dozens of shades of hair dye to choose from" #NT!
+ agot_dye_hair_decision_tooltip: "Dye your hair a new color" #NT!
+ agot_dye_hair_decision_confirm: "It's time for a new look!" #NT!
+  
+ agot_buy_eye_gem_decision: "Ersetzt euer Auge durch einen Edelstein!"
+ agot_replace_eye_gem_decision: "Replace Eye Gem" #NT!
+ agot_buy_eye_gem_desc: "I shall summon my craftsman to present a selection of gemstones to choose from and replace my lost eye. If I must go without an eye, I may as well do it in style." #NT!
+ agot_buy_eye_gem_decision_tooltip: "Purchase a gem to use in place of your lost eye" #NT!
+ agot_buy_eye_gem_decision_confirm: "Edelstein wählen"
+ agot_buy_eye_gem_decision_next_stop_button: "Bringt mir die schönsten Edelsteine!"
+  
+ agot_remove_eye_gem_decision: "Remove Eye Gem" #NT!
+ agot_remove_eye_gem_desc: "I will request a new eyepatch to be made and worn in place of the gem. A simple solution, and one that suits me well enough." #NT!
+ agot_remove_eye_gem_decision_tooltip: "Return to using an eyepatch" #NT!
+ agot_remove_eye_gem_decision_effect: "Your gemstone eye will be #N removed#!, and you will use an eyepatch again." #NT!
+ agot_remove_eye_gem_decision_confirm: "Send for a craftsman!" #NT!
+  
+ replace_eye_gem_option_red: "Rubin"
+ replace_eye_gem_option_orange: "Spessartit"
+ replace_eye_gem_option_yellow: "Citrin"
+ replace_eye_gem_option_green: "Smaragd"
+ replace_eye_gem_option_blue: "Opal"
+ replace_eye_gem_option_dark_blue: "Sapphire" #NT!
+ replace_eye_gem_option_purple: "Amethyst"
+ replace_eye_gem_option_black: "Obsidian"
+ replace_eye_gem_option_white: "Diamant"
+  
+  # Flavor for when you hover over the options 
+ has_eye_gem_red_tooltip: "#BOLD;COLOR:{0.48,0.05,0.09} Ruby#!, deep red and fiery, mined in the Summer Isles." #NT!
+ has_eye_gem_orange_tooltip: "#BOLD;COLOR:{1.00,0.44,0.00} Topaz#!, glowing amber, flickering like fire." #NT!
+ has_eye_gem_yellow_tooltip: "#BOLD;COLOR:{0.89,0.84,0.10} Citrine#!, bright as the midday sun, sharp and radiant." #NT!
+ has_eye_gem_green_tooltip: "#BOLD;COLOR:{0.12,0.3,0.18} Emerald#!, vibrant green from the depths of Sothoryos." #NT!
+ has_eye_gem_blue_tooltip: "#BOLD;COLOR:{0.28,0.52,0.9} Lapis Lazuli#!, the clear blue of the Summer Sea." #NT!
+ has_eye_gem_dark_blue_tooltip: "#BOLD;COLOR:{0.11,0.20,0.8} Sapphire#!, deep blue like a shard of polished midnight." #NT!
+ has_eye_gem_purple_tooltip: "#BOLD;COLOR:{0.35,0.00,0.45} Amethyst#!, a rich purple that brings to mind the dragonlords of old." #NT!
+ has_eye_gem_black_tooltip: "#BOLD;COLOR:{0.35,0.35,0.35} Obsidian#!, also known as dragonglass, dark and reflective." #NT!
+ has_eye_gem_white_tooltip: "#BOLD;COLOR:{0.93,0.93,0.93} Diamond#!, clear and brilliant. A rare choice." #NT!
+  
+  # Wear the Mask 
+ agot_wear_the_mask_decision: "Wear a Mask" #NT!
+ agot_wear_the_mask_decision_tooltip: "Cover your disfigurement with a mask to hide it from the world" #NT!
+ agot_wear_the_mask_decision_desc: "I can no longer bear to see myself in this hideous state. If my courtiers cannot look upon me without recoiling, maybe I should consider concealing my face." #NT!
+ agot_wear_the_mask_decision_confirm: "Bring me a mask" #NT!
+  
+  # Remove the Mask 
+ agot_remove_the_mask_decision: "Remove Mask" #NT!
+ agot_remove_the_mask_decision_tooltip: "Remove your mask and reveal your disfigurement to the world" #NT!
+ agot_remove_the_mask_decision_desc: "I tire of hiding behind a mask. Is my face truly so grotesque that I must conceal it from the world?" #NT!
+ agot_remove_the_mask_decision_confirm: "Let them see me" #NT!
+  
+  # Eye Patches 
+ agot_change_eye_patch_decision: "Consider Eye Coverings" #NT!
+ agot_change_eye_patch_decision_tooltip: "Consider potential eye coverings for your lost eye" #NT!
+ agot_change_eye_patch_desc: "I shall summon my craftsman to present a selection of eyepatches to choose from. If I must go without an eye, I may as well do it in style." #NT!
+ agot_change_eye_patch_decision_confirm: "Bring me the eyepatches!" #NT!

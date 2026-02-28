@@ -1,5 +1,0 @@
-﻿l_german:
- agot_proclaim_kingdom_decision: "Ruft ein mächtiges Königreich aus"
- agot_proclaim_kingdom_decision_desc: "Die Macht von [ROOT.Char.GetPrimaryTitle.GetName] ist mit den Jahren gewachsen. Es ist Zeit, unser eigenes, mächtiges Königreich zu errichten. Unabhängig und bereit, den Zahn der Zeit zu überstehen."
- agot_proclaim_kingdom_decision_tooltip: "Ihr werdet einen neuen Titel erschaffen, mächtiger als je zuvor!"
- agot_proclaim_kingdom_decision_confirm: "Bereitet die Bekanntmachung vor."

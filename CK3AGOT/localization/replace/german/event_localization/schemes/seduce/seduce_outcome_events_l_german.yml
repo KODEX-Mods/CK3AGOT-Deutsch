@@ -109,7 +109,6 @@
  seduce_outcome.2307.a: "Küsst mich erneut, o grauenhaftes Monster!"
  seduce_outcome.2307.b: "Lasst mich in Ruhe! Ihr seid zwischen den Kissen zu nichts zu gebrauchen!"
   
-  
  seduce_outcome.2308.t: "Mein[target.Custom('DE_END_PRO_S_N')] geliebt[target.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))]"
  seduce_outcome.2308.desc_illigal: "Als mein[target.Custom('DE_END_PRO_S_N')] wunderbar[target.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.GetTitledFirstName] mich so neckisch anlächelt, fällt es mir schwer, mich daran zu erinnern, dass die Zuneigung in meinem Herzen verpönt ist.\n\nUnd dann, als [target.Custom('DE_PRO_PER_S_3P_N')] an meinem Hemd zieht und [target.Custom('DE_PRO_POS_S_3P')]en Händen freies Spiel lässt, schert es mich auch nicht weiter. "
  seduce_outcome.2308.desc_not_illigal: "Als mein[target.Custom('DE_END_PRO_S_N')] wunderbar[target.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.GetTitledFirstName] mich so neckisch anlächelt, lasse ich alle vorgetäuschte Zurückhaltung fallen. Ich reiße [target.Custom('DE_PRO_PER_S_3P_D')] das Hemd vom Leib, umschlinge [target.Custom('DE_PRO_POS_S_3P')]e Hüfte, presse meinen Mund auf [target.Custom('DE_PRO_POS_S_3P')]en Hals, meine schwellende Leidenschaft gegen die [target.Custom('DE_PRO_POS_S_3P')]e …\n\n"

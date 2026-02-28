@@ -69,7 +69,7 @@
   
   #AGOT Modified 
  #catalyst_successfully_expelled_interloper: "Win [iberian_reclamation|E] [struggle_catalyst_catalyst|E]"
- catalyst_successfully_expelled_interloper: "Win [btw_reclamation|E] [struggle_catalyst_catalyst|E]" #NT!
+ catalyst_successfully_expelled_interloper: "Win [btw_reclamation|E] [struggle_catalyst_catalyst|E]"
   #AGOT Modified 
  #catalyst_successfully_expelled_interloper_desc: "Win an [iberian_reclamation|E] against an [struggle_uninvolved|E] $game_concept_character$"
  catalyst_successfully_expelled_interloper_desc: "Eine [btw_reclamation|E] gegen einen am [Concept('struggle_uninvolved', 'Konflikt unbeteiligten')|E] $game_concept_character$ gewinnen"
@@ -312,3 +312,11 @@
  catalyst_revealed_secret_faith_non_islam_desc: "Offenbarter nicht-[GetReligionByKey('islam_religion').GetAdjective|l]er Geheim-[faith|E]"
  catalyst_revealed_secret_faith_islam: "[struggle_catalyst_catalyst|E] „Offenbarter [GetReligionByKey('islam_religion').GetAdjective|l]er Geheim-[faith|E]“"
  catalyst_revealed_secret_faith_islam_desc: "Offenbarter [GetReligionByKey('islam_religion').GetAdjective|l]er Geheim-[faith|E]"
+  
+  
+ catalyst_coronation_event_unrest: "Eine laute Unmutsbekundung während einer Krönung"
+ catalyst_coronation_event_unrest_desc: "Ein hitziger Streit zwischen Unterstützern und Verleumdern während der [coronation|E] endete mit lautstarker Unterstützung einer Umwälzung des Status quo"
+ catalyst_coronation_event_concession: "Eine laute Unmutsbekundung während einer Krönung"
+ catalyst_coronation_event_concession_desc: "Ein hitziger Streit zwischen Unterstützern und Verleumdern während der [coronation|E] endete mit lautstarker Unterstützung für einen möglichen Kompromiss"
+ catalyst_coronation_event_stabilization: "$catalyst_coronation_event_unrest$"
+ catalyst_coronation_event_stabilization_desc: "Ein hitziger Streit zwischen Unterstützern und Verleumdern während der [coronation|E] endete mit lautstarker Unterstützung für mehr Stabilität"
