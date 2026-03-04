@@ -1,13 +1,13 @@
 ﻿l_german:
-  
- agot_choose_dragonpit_event.0001.t: "A Dragonpit for [dragon.GetNameNoTooltip]" #NT!
- agot_choose_dragonpit_event.0001.desc: "A dragon without a rider is an unpredictable and dangerous asset. Without a bond to restrain it, there is little to prevent the beast from leaving or turning hostile. If we wish to retain control, the dragon must be housed. Fortunately, we have several suitable locations available, each with its own advantages and drawbacks." #NT!
- agot_choose_dragonpit_event.0001.desc_rider: "A dragon is a powerful asset, but without a rider their loyalty cannot be guaranteed. If [Select_CString( rider.IsLocalPlayer, 'I', rider.GetName )] [Select_CString( rider.IsLocalPlayer, 'die', 'dies' )], [dragon.GetName] may leave and return to the wild. To preserve our control, [dragon.Custom('GetDragonSheHe')] must be housed. Fortunately, we have several suitable locations available, each with its own advantages and drawbacks." #NT!
- agot_choose_dragonpit_event.0001.a: "This will do." #NT!
- agot_choose_dragonpit_event.0001.a.tt: "[dragon.GetNameNoTooltip] will be housed in the selected dragonpit." #NT!
- agot_choose_dragonpit_event.0001.a.tt_2: "@warning_icon! #X Housing [dragon.GetNameNoTooltip] in a pit away from [dragon.Custom('GetDragonHerHis')] rider will prevent [dragon.Custom('GetDragonHerHim')] from being used in travel or war and may cause their bond to weaken#!" #NT!
- agot_choose_dragonpit_event.0001.b: "[dragon.GetNameNoTooltip] should be free." #NT!
- agot_choose_dragonpit_event.0001.c: "[dragon.GetNameNoTooltip] is fine where [dragon.Custom('GetDragonSheHe')] is." #NT!
- agot_choose_dragonpit_event.0001.d: "No, I will not imprison [dragon.GetNameNoTooltip]." #NT!
-  
- dragon_bond_weakening_toast: "Weakening Bond" #NT!
+
+ agot_choose_dragonpit_event.0001.t: "Eine Drachengrube für [dragon.GetNameNoTooltip]"
+ agot_choose_dragonpit_event.0001.desc: "Ein Drache ohne Reiter ist ein unberechenbarer und gefährlicher Machtfaktor. Ohne eine Bindung, die ihn zügelt, gibt es kaum etwas, das das Tier am Fortfliegen oder an Feindseligkeit hindert. Wenn wir die Kontrolle behalten wollen, muss der Drache sicher untergebracht werden. Glücklicherweise stehen uns mehrere geeignete Orte zur Verfügung, ein jeder mit eigenen Vor- und Nachteilen."
+ agot_choose_dragonpit_event.0001.desc_rider: "Ein Drache ist ein mächtiger Verbündeter, doch ohne Reiter ist seine Treue nicht garantiert. Wenn [Select_CString( rider.IsLocalPlayer, 'ich', rider.GetName )] [Select_CString( rider.IsLocalPlayer, 'sterbe', 'stirbt' )], könnte er fortfliegen und in die Wildnis zurückkehren. Um die Kontrolle zu behalten, müssen wir ihn sicher unterbringen. Glücklicherweise stehen uns mehrere geeignete Orte zur Verfügung, jeder mit eigenen Vor- und Nachteilen."
+ agot_choose_dragonpit_event.0001.a: "Das wird genügen."
+ agot_choose_dragonpit_event.0001.a.tt: "[dragon.GetNameNoTooltip] wird in der ausgewählten Drachengrube untergebracht."
+ agot_choose_dragonpit_event.0001.a.tt_2: "@warning_icon! #X Einen Drachen in einer Grube fern von seinem Reiter unterzubringen, verhindert, dass er auf Reisen oder im Krieg eingesetzt wird, und kann die Bindung schwächen#!"
+ agot_choose_dragonpit_event.0001.b: "[dragon.GetNameNoTooltip] sollte frei sein."
+ agot_choose_dragonpit_event.0001.c: "[dragon.GetNameNoTooltip] ist gut aufgehoben, wo [dragon.Custom('GetDragonSheHe')] ist."
+ agot_choose_dragonpit_event.0001.d: "Nein, ich werde [dragon.GetNameNoTooltip] nicht einsperren."
+
+ dragon_bond_weakening_toast: "Bindung wird geschwächt"
