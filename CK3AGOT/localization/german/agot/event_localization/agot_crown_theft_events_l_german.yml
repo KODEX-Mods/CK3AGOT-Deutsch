@@ -1,305 +1,305 @@
 ﻿l_german:
-  ################################ 
-  ### WAR OF SUCCESSION EVENTS ### 
-  ################################ 
-  
-  #USURPER CAN DECIDE TO USURP 
- agot_crown_theft.0100.t: "The Throne"
-  #King dies in trial by combat 
- agot_crown_theft.0100.desc.tbc: "As my [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king'))], the [Select_CString(crown_theft_king.IsFemale,'queen','king')], breathes [crown_theft_king.GetHerHis] last in the trial by combat arena,"
- agot_crown_theft.0200.desc.tbc: "As the [Select_CString(crown_theft_king.IsFemale,'queen','king')], breathes [crown_theft_king.GetHerHis] last in the trial by combat arena,"
-  #King dies in battle 
- agot_crown_theft.0100.desc.battle: "As my [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king'))], the [Select_CString(crown_theft_king.IsFemale,'queen','king')], succumbs to [crown_theft_king.GetHerHis] wounds on the battlefield,"
- agot_crown_theft.0200.desc.battle: "As the [Select_CString(crown_theft_king.IsFemale,'queen','king')], succumbs to [crown_theft_king.GetHerHis] wounds on the battlefield,"
-  #King dies in illness 
- agot_crown_theft.0100.desc.illness: "As my [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king'))], the [Select_CString(crown_theft_king.IsFemale,'queen','king')], lies on [crown_theft_king.GetHerHis] deathbed,"
- agot_crown_theft.0200.desc.illness: "As the [Select_CString(crown_theft_king.IsFemale,'queen','king')], lies on [crown_theft_king.GetHerHis] deathbed,"
-  #King dies in siege 
- agot_crown_theft.0100.desc.siege: "As my [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king'))], the [Select_CString(crown_theft_king.IsFemale,'queen','king')], perishes within the walls of the besieged castle,"
- agot_crown_theft.0200.desc.siege: "As the [Select_CString(crown_theft_king.IsFemale,'queen','king')], perishes within the walls of the besieged castle,"
-  
-  #desc 
- agot_crown_theft.0100.intro.desc: "the weight of [crown_theft_king.GetHerHis] crown looms heavy in the air. "
- agot_crown_theft.0100.intro_bastard.desc: "the weight of [crown_theft_king.GetHerHis] crown looms heavy in the air. Regardless, customs dictate that a bastard cannot inherit titles, but fate has woven a different path. "
- agot_crown_theft.0100.intro_disinherited.desc: "the weight of [crown_theft_king.GetHerHis] crown looms heavy in the air. Regardless, I was disinherited and cannot inherit titles, yet the winds of fate now blow differently. "
-  
- agot_crown_theft.0100.trait_brave.desc: "It would be a challenge for me to take hold of it. The greater the danger, the more satisfying the reward. The risk is real, but it turns out that"
- agot_crown_theft.0100.trait_craven.desc: "I am not reassured by the thought, but I could... #italic maybe#!... take it. I get dizzy just thinking about it, but it turns out that"
- agot_crown_theft.0100.trait_wrathful.desc: "It should be mine! #bold Mine and only mine!#! However, this [crown_theft_king_legit_heir.Custom('InsultNoun')],"
- agot_crown_theft.0100.trait_calm.desc: "I take a deep breath, to think calmly, and then I think of one thing,"
- agot_crown_theft.0100.trait_chaste.desc: "Desire, whatever it may be, has never interested me, yet I tell myself that"
- agot_crown_theft.0100.trait_lustful.desc: "I think of all the [ROOT.Char.Custom('AttractionWomanManIndef')] who would be on their knees in front of me, desperate to sleep with their new [Select_CString(crown_thief.IsFemale,'queen','king')]. It also turns out that"
- agot_crown_theft.0100.trait_content.desc: "I have never had any ambition, yet I think of all the things I could do with such power, and I realize that"
- agot_crown_theft.0100.trait_ambitious.desc: "I do not deny that my heart has greatly desired this, and it turns out that"
- agot_crown_theft.0100.trait_diligent.desc: "I have spent my life working tirelessly, this would only be a just reward for all this work, and it appears that"
- agot_crown_theft.0100.trait_lazy.desc: "Ordinarily, it would take too much effort to get hold of it, but luckily it turns out that"
- agot_crown_theft.0100.trait_forgiving.desc: ""
- agot_crown_theft.0100.trait_vengeful.desc: "With such power in my hands, anyone who would harm me would die like flies, moreover,"
- agot_crown_theft.0100.trait_generous.desc: "The wealth and power I would obtain would allow me to have so much to offer, plus it turns out that"
- agot_crown_theft.0100.trait_greedy.desc: "I can already see myself drowning under tides of wealth, gold and goods. I'm salivating in advance, especially since"
- agot_crown_theft.0100.trait_gregarious.desc: "At the top of the steps, I would be the [Select_CString(crown_thief.IsFemale,'queen','king')] of the party, celebrating beyond hours in a room overflowing with people. I think about the fact that"
- agot_crown_theft.0100.trait_shy.desc: "If I took it for myself, I... #italic No!#! I can't... how could I... I would have to... that..."
- agot_crown_theft.0100.trait_honest.desc: ""
- agot_crown_theft.0100.trait_deceitful.desc: "I would know #bold exactly#! what to do with such a power, and it could be easy to seize it, because by a #italic lucky combination of circumstances#!,"
- agot_crown_theft.0100.trait_humble.desc: "I never would have hoped that someone as ordinary as me would have the opportunity to seize such power, but it is nevertheless the case, because"
- agot_crown_theft.0100.trait_arrogant.desc: "No one is more worthy of obtaining such power than me, I was born to become one, and I want as proof that"
- agot_crown_theft.0100.trait_just.desc: "This is not my right. It was decided otherwise. Yet... yet the more I think about it, the more I think about the fact that"
- agot_crown_theft.0100.trait_arbitrary.desc: "I was not the one chosen... but that does not matter to me. Rules are made to be broken, and besides,"
- agot_crown_theft.0100.trait_patient.desc: "#italic The gods have yet to make a [Select_CString(crown_thief.IsFemale,'woman','man')] who lacks the patience for absolute power#!, and it seems that patience rewards me handsomely, because"
- agot_crown_theft.0100.trait_impatient.desc: "#italic The gods have yet to make a [Select_CString(crown_thief.IsFemale,'woman','man')] who lacks the patience for absolute power#!, but I have waited too long, and I see a possibility, because"
- agot_crown_theft.0100.trait_temperate.desc: "The idea of having such power in my hands is disconcerting, especially for me who favors measure over abundance, and yet I think of the fact that"
- agot_crown_theft.0100.trait_gluttonous.desc: "Who says crowned head, says full belly. Obtaining power means being able to obtain all the foods you want. And it turns out that"
- agot_crown_theft.0100.trait_trusting.desc: "Taking possession of it would be a risky undertaking, but I am sure that the kingdom will line up behind the most able to carry it, especially since"
- agot_crown_theft.0100.trait_paranoid.desc: "#italic What will happen to me?!#! I am #bold not#! the heir, but I am on the #bold line of succession#!. They #bold could#! decide to have me #bold executed#! to eliminate any #italic potential#! #bold rivals#!. I #italic still#! have a #bold chance#! of #italic survival#! because"
- agot_crown_theft.0100.trait_zealous.desc: "I have always been the most devoted in the family, the most pious, and that is why I see this as a sign of [ROOT.Char.GetFaith.HighGodName]. This power is a gift from [ROOT.Char.GetFaith.HighGodName], the reward for faithfully following his/her path. I want as proof that"
- agot_crown_theft.0100.trait_cynical.desc: "#italic According to the laws of gods and men...#! I do not care about gods and men follow the law of those who have power. I then reflect on the fact that"
- agot_crown_theft.0100.trait_fallback.desc: "Though I have long harbored ambitions of ruling the realm, "
-  
- agot_crown_theft.0100.outro.desc: " the rightful heir, my [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king_legit_heir'))], [crown_theft_king_legit_heir.GetTitledFirstName], is currently absent from the capital.\n\nThe opportunity to seize the throne for myself beckons, promising power and authority beyond measure."
- agot_crown_theft.0100.outro_guardian.desc: " the rightful heir, [crown_theft_king_legit_heir.GetTitledFirstName], is currently absent from the capital.\n\nThe opportunity to seize the throne for my ward, [crown_thief.GetTitledFirstName], beckons, promising power and authority beyond measure."
-  
- agot_crown_theft.0100.a: "The throne is mine!"
- agot_crown_theft.0200.a: "The throne is [crown_thief.GetTitledFirstNamePossessiveNoTooltip]!"
- agot_crown_theft.0100.b: "No, I must respect the line of succession."
-  
-  #KING DECIDES WHO TO CONTINUE AS 
- agot_crown_theft.0102.t: "Deathbed"
-  #King dies in trial by combat 
- agot_crown_theft.0102.desc.tbc: "As I draw my final breaths on the trial by combat grounds,"
-  #King dies in battle 
- agot_crown_theft.0102.desc.battle: "As I meet my end on the battlefield, surrounded by the clash of steel and the cries of warriors,"
-  #King dies in illness 
- agot_crown_theft.0102.desc.illness: "As I lie on my deathbed,"
-  #King dies in siege 
- agot_crown_theft.0102.desc.siege: "As I perish within the walls of the besieged fortress, my last moments filled with the sound of crashing siege engines,"
-  #desc 
- agot_crown_theft.0102.desc: "my mind is consumed by ponderings of the kingdom's destiny. My [SCOPE.sC('crown_theft_king').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))], [crown_thief.GetTitledFirstName], stands ready to seize the throne, stirring within me a blend of hope and dread.\n\nI pray for peace, but the looming prospect of conflict casts a dark shadow over my final moments."
- agot_crown_theft.0202.desc: "my mind is consumed by ponderings of the kingdom's destiny. The guardian of [crown_thief.GetTitledFirstNameNoTooltip], [usurper_guardian.GetTitledFirstName], stands ready to seize the throne for my [SCOPE.sC('crown_theft_king').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))], stirring within me a blend of hope and dread.\n\nI pray for peace, but the looming prospect of conflict casts a dark shadow over my final moments."
- agot_crown_theft.0302.desc: "my mind is consumed by ponderings of the kingdom's destiny. My bastard [SCOPE.sC('crown_theft_king').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))], [crown_thief.GetTitledFirstName], stands ready to seize the throne, stirring within me a blend of hope and dread.\n\nI pray for peace, but the looming prospect of conflict casts a dark shadow over my final moments."
- agot_crown_theft.0402.desc: "my mind is consumed by ponderings of the kingdom's destiny. My disinherited [SCOPE.sC('crown_theft_king').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))], [crown_thief.GetTitledFirstName], stands ready to seize the throne, stirring within me a blend of hope and dread.\n\nI pray for peace, but the looming prospect of conflict casts a dark shadow over my final moments."
-  
- agot_crown_theft.0102.a: "I wish I could help [crown_thief.GetTitledFirstNameNoTooltip] in [crown_thief.GetHerHis] reign."
- agot_crown_theft.0102.b: "My successor should have been [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip]."
- agot_crown_theft.0502.b: "[landed_helper.GetTitledFirstNameNoTooltip] must help my [SCOPE.sC('crown_theft_king').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king_legit_heir'))]."
-  
-  #LEGITIMATE HEIR DECIDES TO PUSH CLAIMS OR ACCEPT THEIR FATE 
- agot_crown_theft.0110.t: "The Heir's Resolve"
- agot_crown_theft.0110.desc: "As word reaches my ears of my  [SCOPE.sC('crown_theft_king_legit_heir').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))] [crown_thief.GetFirstNamePossessive] treachery in seizing the throne, a storm of conflicting emotions rages within my breast.\n\nThe weight of my birthright bears down upon me, urging me to rise and demand what is rightfully mine. Yet, amidst the turmoil, a whisper of caution tugs at my conscience, urging restraint in the face of uncertainty."
- agot_crown_theft.0210.desc: "As word reaches my ears of [usurper_guardian.GetTitledFirstNamePossessive] treachery in seizing the throne for my [SCOPE.sC('crown_theft_king_legit_heir').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))], [crown_thief.GetFirstName], a storm of conflicting emotions rages within my breast.\n\nThe weight of my birthright bears down upon me, urging me to rise and demand what is rightfully mine. Yet, amidst the turmoil, a whisper of caution tugs at my conscience, urging restraint in the face of uncertainty."
- agot_crown_theft.0310.desc: "As word reaches my ears of my bastard [SCOPE.sC('crown_theft_king_legit_heir').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))] [crown_thief.GetFirstNamePossessive] treachery in seizing the throne, a storm of conflicting emotions rages within my breast.\n\nThe weight of my birthright bears down upon me, urging me to rise and demand what is rightfully mine. Yet, amidst the turmoil, a whisper of caution tugs at my conscience, urging restraint in the face of uncertainty."
- agot_crown_theft.0410.desc: "As word reaches my ears of my disinherited [SCOPE.sC('crown_theft_king_legit_heir').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))] [crown_thief.GetFirstNamePossessive] treachery in seizing the throne, a storm of conflicting emotions rages within my breast.\n\nThe weight of my birthright bears down upon me, urging me to rise and demand what is rightfully mine. Yet, amidst the turmoil, a whisper of caution tugs at my conscience, urging restraint in the face of uncertainty."
- agot_crown_theft.0510.desc: "As word reaches my ears of my [SCOPE.sC('crown_theft_king_legit_heir').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))] [crown_thief.GetFirstNamePossessive] treachery in seizing the throne, a storm of conflicting emotions rages within my breast.\n\nThe weight of my birthright bears down upon me, urging me to rise and demand what is rightfully mine.\n\nAs I make haste to seek refuge at [landed_helper.GetTitledFirstNamePossessive] court, I find myself pondering the weight of my forthcoming decision."
-  
- agot_crown_theft.0110.a: "I have to assert my birthright!"
- agot_crown_theft.0110.a.tt: "One step closer to war.."
- agot_crown_theft.0110.b: "I should not provoke the new [Select_CString(crown_thief.IsFemale,'queen','king')]."
-  
-  #USURPER RECEIVES LETTER FROM LEGITIMATE HEIR: TO STEP DOWN, USURPER OFFERS SOME ARTIFACT OR LAND, OR NOTHING FOR LEGITIMATE HEIR AS A PRICE OF PEACE 
- agot_crown_theft.0111.opening: "To the [crown_thief.Custom('UsurperName')],"
- agot_crown_theft.0211.opening: "To the treacherous [usurper_guardian.GetTitledFirstNameNoTooltip],"
- agot_crown_theft.0311.opening: "To the bastard [Select_CString(crown_thief.IsFemale,'queen','king')],"
- agot_crown_theft.0411.opening: "To the illegitimate [Select_CString(crown_thief.IsFemale,'queen','king')],"
-  
- agot_crown_theft.0111.desc: "I write with urgency, for the kingdom festers under your wrongful rule. As the rightful heir to the throne, I demand you to step down now and spare our land further turmoil. This throne is not yours to keep."
- agot_crown_theft.0211.desc: "I write with urgency, for the kingdom festers under your wrongful rule. As the rightful heir to the throne, I demand you and my [SCOPE.sC('crown_theft_king_legit_heir').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))] to step down now and spare our land further turmoil. This throne is not yours to keep."
- agot_crown_theft.0111.a: "Please accept a family heirloom."
- agot_crown_theft.0111.a.tt: "You propose [random_artifact_one.GetName] as a gesture to secure [crown_theft_king_legit_heir.GetTitledFirstNamePossessiveNoTooltip] peace"
- agot_crown_theft.0111.b: "Maybe something exotic?"
- agot_crown_theft.0111.b.tt: "You offer [random_artifact_two.GetName] for [crown_theft_king_legit_heir.GetTitledFirstNamePossessiveNoTooltip] tranquility"
- agot_crown_theft.0111.c: "Perhaps some land would keep you quiet."
- agot_crown_theft.0111.c.tt: "You offer [random_giveaway_title.GetName] to keep the peace"
- agot_crown_theft.0111.d: "Time for you to gracefully retreat."
-  
-  #USURPER RECEIVES LETTER FROM LEGITIMATE HEIR: ABOUT THEIR PEACE DECISION 
- agot_crown_theft.0112.opening: "To [crown_thief.GetFirstNameNoTooltip],"
- agot_crown_theft.0112.desc: "As your humble vassal, I extend my wishes for your reign to be just and prosperous. May the realm find peace and stability under your rule."
- agot_crown_theft.0112.a: "[crown_theft_king_legit_heir.GetSheHe|U] was never meant to be [Select_CString(crown_theft_king_legit_heir.IsFemale,'queen','king')]."
-  
-  #LEGITIMATE HEIR RECEIVES LETTER FROM USURPER: ACCEPT GIFT OR SEND ULTIMATUM 
- agot_crown_theft.0113.opening: "To [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip],"
- agot_crown_theft.0113.desc.artifact_one: "I send this missive bearing an offer from my hand. An heirloom, [random_artifact_one.GetName], gifted as a token of goodwill in hopes of securing peace between us. Let this be seen as a gesture of reconciliation, and may it pave the way for harmony for us."
- agot_crown_theft.0113.desc.artifact_two: "I send this missive bearing an offer from my hand. An heirloom, [random_artifact_two.GetName], gifted as a token of goodwill in hopes of securing peace between us. Let this be seen as a gesture of reconciliation, and may it pave the way for harmony for us."
- agot_crown_theft.0113.desc.duchy: "I send this missive bearing an offer from my hand. A land of mine, [random_giveaway_title.GetName], gifted as a token of goodwill in hopes of securing peace between us. Let this be seen as a gesture of reconciliation, and may it pave the way for harmony for us."
- agot_crown_theft.0113.desc.nothing: "I have received your missive and duly noted your demands. However, I cannot accede to your request to relinquish the throne. The kingdom's stability and prosperity are of paramount importance, and I trust you understand the necessity of my continued rule."
- agot_crown_theft.0213.desc.nothing: "I have received your missive and duly noted your demands. However, I cannot accede to your request to relinquish the throne. The kingdom's stability and prosperity are of paramount importance, and I trust you understand the necessity of [crown_thief.GetFirstNamePossessive] continued rule."
- agot_crown_theft.0113.a: "A fair exchange."
- agot_crown_theft.0113.b: "Step down, or face war!"
-  
-  #USURPER RECEIVES LETTER FROM LEGITIMATE HEIR: ULTIMATUM RECEIVED: WAR OR ABDICATION 
- agot_crown_theft.0114.opening: "To the [crown_thief.Custom('UsurperName')],"
- agot_crown_theft.0114.desc: "Step down, or know that the fires of war shall consume you and your ambitions. Choose wisely, this is my last warning."
- agot_crown_theft.0114.a: "To war then."
- agot_crown_theft.0114.b: "I have to keep the peace, regardless of the price."
- agot_crown_theft.0114.b.tt: "I will abdicate all my titles to [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip]"
-  
-  #USURPER RECEIVES LETTER FROM LEGITIMATE HEIR: THEY ACCEPTED THE GIFT 
- agot_crown_theft.0115.opening: "To [crown_thief.GetFirstNameNoTooltip],"
- agot_crown_theft.0115.desc: "I write to you to acknowledge receipt of your generous gift. Your gesture speaks volumes of your desire for peace, a sentiment I wholeheartedly reciprocate. Let us endeavor to maintain amity between us for the good of the realm."
- agot_crown_theft.0115.a: "We should."
- agot_crown_theft.0215.a: "That is well, but what gift do you speak of?"
- agot_crown_theft.0215.a.tt: "[usurper_guardian.GetTitledFirstName] has gifted [random_artifact_one.GetName] to [crown_theft_king_legit_heir.GetTitledFirstName] in your name"
-  
-  #LEGITIMATE HEIR RECEIVES LETTER FROM USURPER: WAR 
- agot_crown_theft.0116.opening: "To [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip],"
- agot_crown_theft.0116.desc: "I write to you with a heavy heart, for despite all attempts to sway your resolve, it seems our efforts have been in vain. Know that I have exhausted every avenue to find common ground, yet alas, it appears we stand at an impasse. I cannot yield to your demands, for to do so would be to betray the trust and stability of the realm. Mayhaps time will yet offer a path to reconciliation, but for now, I fear we must accept the current state of affairs."
- agot_crown_theft.0216.desc: "I write to you with a heavy heart, for despite all attempts to sway your resolve, it seems our efforts have been in vain. Know that I have exhausted every avenue to find common ground, yet alas, it appears we stand at an impasse. We cannot yield to your demands, for to do so would be to betray the trust and stability of the realm. Mayhaps time will yet offer a path to reconciliation, but for now, I fear we must accept the current state of affairs."
- agot_crown_theft.0116.a: "To war then!"
-  
-  #LEGITIMATE HEIR RECEIVES LETTER FROM USURPER: ABDICATION 
- agot_crown_theft.0117.t: "To [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip],"
- agot_crown_theft.0117.desc: "I pen these words with a heavy heart, yet also with a glimmer of hope for the realm. After much consideration and deliberation, I have come to the solemn decision to heed your demand. The throne shall pass from my hands to yours, in the hopes that this gesture shall pave the way for peace and prosperity. I entrust the fate of the kingdom to you, knowing that you shall rule with wisdom and benevolence. May your reign be marked by unity and prosperity for all."
- agot_crown_theft.0117.a: "A wise decision."
-  
-  #REALM NOTIFIED ABOUT THE CONFLICT: WAR 
+  ################################
+  ### WAR OF SUCCESSION EVENTS ###
+  ################################
+
+  #USURPER CAN DECIDE TO USURP
+ agot_crown_theft.0100.t: "Der Thron"
+  #King dies in trial by combat
+ agot_crown_theft.0100.desc.tbc: "Als mein[crown_theft_king.Custom('DE_END_PRO_S_N'))] [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king'))], [crown_theft_king.Custom('DE_ART_DEF_S_N')] [Select_CString(crown_theft_king.IsFemale,'Königin','König')], in der Arena[crown_theft_king.Custom('DE_PRO_POS_S_3P')]en letzten Atemzug tut, während des Urteils durch Kampf,"
+agot_crown_theft.0200.desc.tbc:0 "Als [crown_theft_king.Custom('DE_ART_DEF_S_N')] [Select_CString(crown_theft_king.IsFemale,'Königin','König')] [crown_theft_king.Custom('DE_PRO_POS_S_3P')]en letzten Atemzug in der Arena tut, während des Urteils durch Kampf,"
+ #King dies in battle
+ agot_crown_theft.0100.desc.battle:0 "Als mein[crown_theft_king.Custom('DE_END_PRO_S_N')] [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king'))], [crown_theft_king.Custom('DE_ART_DEF_S_N')] [Select_CString(crown_theft_king.IsFemale,'Königin','König')], [crown_theft_king.Custom('DE_PRO_POS_S_3P')]en Wunden auf dem Schlachtfeld erliegt,"
+ agot_crown_theft.0200.desc.battle:0 "Als [crown_theft_king.Custom('DE_ART_DEF_S_N')] [Select_CString(crown_theft_king.IsFemale,'Königin','König')] [crown_theft_king.Custom('DE_PRO_POS_S_3P')]en Wunden auf dem Schlachtfeld erliegt,"
+ #King dies in illness
+ agot_crown_theft.0100.desc.illness:0 "Als mein[crown_theft_king.Custom('DE_END_PRO_S_N')] [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king'))], [crown_theft_king.Custom('DE_ART_DEF_S_N')] [Select_CString(crown_theft_king.IsFemale,'Königin','König')], auf [crown_theft_king.Custom('DE_PRO_POS_S_3P')]em Sterbebett liegt,"
+ agot_crown_theft.0200.desc.illness:0 "Als [crown_theft_king.Custom('DE_ART_DEF_S_N')] [Select_CString(crown_theft_king.IsFemale,'Königin','König')] auf [crown_theft_king.Custom('DE_PRO_POS_S_3P')]em Sterbebett liegt,"
+ #King dies in siege
+ agot_crown_theft.0100.desc.siege:0 "Als mein[crown_theft_king.Custom('DE_END_PRO_S_N')] [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king'))], [crown_theft_king.Custom('DE_ART_DEF_S_N')] [Select_CString(crown_theft_king.IsFemale,'Königin','König')], innerhalb der Mauern der belagerten Burg den Tod findet,"
+ agot_crown_theft.0200.desc.siege:0 "Als [crown_theft_king.Custom('DE_ART_DEF_S_N')] [Select_CString(crown_theft_king.IsFemale,'Königin','König')] innerhalb der Mauern der belagerten Burg den Tod findet,"
+
+  #desc
+agot_crown_theft.0100.intro.desc: "lastet das Gewicht [crown_theft_king.Custom('DE_PRO_POS_S_3P')]er Krone schwer in der Luft. "
+ agot_crown_theft.0100.intro_bastard.desc: "lastet das Gewicht [crown_theft_king.Custom('DE_PRO_POS_S_3P')]er Krone schwer in der Luft. Gleichwohl gebieten es die Sitten, dass ein Bastard keine Titel erben darf, doch das Schicksal hat einen anderen Pfad gewoben. "
+ agot_crown_theft.0100.intro_disinherited.desc: "lastet das Gewicht [crown_theft_king.Custom('DE_PRO_POS_S_3P')]er Krone schwer in der Luft. Gleichwohl ward ich enterbt und kann keine Titel erben, doch die Winde des Schicksals wehen nun anders. "
+
+ agot_crown_theft.0100.trait_brave.desc: "Es wäre eine Herausforderung, sie an mich zu reißen. Je größer die Gefahr, desto befriedigender die Belohnung. Das Wagnis ist groß, doch die Umstände sind günstig, denn"
+ agot_crown_theft.0100.trait_craven.desc: "Der Gedanke beruhigt mich keineswegs, doch ich könnte... #italic vielleicht#!... zugreifen. Mir wird schwindelig beim bloßen Gedanken daran, doch ich bedenke:"
+ agot_crown_theft.0100.trait_wrathful.desc: "Sie sollte mein sein! #bold Mein und nur mein!#! Doch dies[crown_theft_king_legit_heir.Custom('DE_END_ADJ_IND_S_N')] [crown_theft_king_legit_heir.Custom('InsultNoun')],"
+ agot_crown_theft.0100.trait_calm.desc: "Ich atme tief durch, um einen klaren Gedanken zu fassen, und dann denke ich an eines:"
+ agot_crown_theft.0100.trait_chaste.desc: "Begehren, welcher Art auch immer, hat mich nie gelockt, und dennoch bedenke ich:"
+ agot_crown_theft.0100.trait_lustful.desc: "Ich denke an all die [Select_CString(crown_thief.IsFemale,'Männer','Frauen')], die vor mir auf den Knien lägen, verzweifelt begierig, [Select_CString(crown_thief.IsFemale,'es ihrer neuen Königin zu besorgen','für ihren neuen König die Beine zu öffnen')]. Meine lustvollen Träume könnten wahr werden, denn"
+ agot_crown_theft.0100.trait_content.desc: "Nie hegte ich sonderlichen Ehrgeiz, und dennoch denke ich an all die Dinge, die ich mit solcher Macht vollbringen könnte, und ich bedenke:"
+ agot_crown_theft.0100.trait_ambitious.desc: "Ich leugne nicht, dass mein Herz dies innig begehrt hat, und ich könnte nun endlich mein Ziel erreichen, denn"
+ agot_crown_theft.0100.trait_diligent.desc: "Mein ganzes Leben habe ich unermüdlich gewirkt, dies wäre nur ein gerechter Lohn für all diese Mühen, und es scheint, dass der Lohn nun zum Greifen nah ist, denn"
+ agot_crown_theft.0100.trait_lazy.desc: "Für gewöhnlich wäre es mir zu mühselig, sie an mich zu reißen, doch glücklicherweise zeigt sich eine einfache Gelegenheit, denn"
+ agot_crown_theft.0100.trait_forgiving.desc: "" #TODO, currently turned off
+ agot_crown_theft.0100.trait_vengeful.desc: "Mit solcher Macht in meinen Händen würde jeder, der mir zu schaden trachtete, wie eine Fliege verenden, überdies sind mir die Umstände günstig, denn"
+ agot_crown_theft.0100.trait_generous.desc: "Der Reichtum und die Macht, die ich erlangen würde, gäben mir so vieles zu gewähren, zudem fügt es sich, dass"
+ agot_crown_theft.0100.trait_greedy.desc: "Ich sehe mich bereits in Fluten von Reichtum, Gold und Gütern ertrinken. Mir läuft schon das Wasser im Munde zusammen, denn"
+ agot_crown_theft.0100.trait_gregarious.desc: "An der Spitze der Stufen wäre ich [Select_CString(crown_thief.IsFemale,'die Königin','der König')] des Festes und feierte bis in die späten Stunden in einem Saal voller Menschen. Ich bedenke:"
+ agot_crown_theft.0100.trait_shy.desc: "Nähme ich sie an mich, ich... #italic Nein!#! Ich kann nicht... wie könnte ich nur... ich müsste... dies... theoretisch..."
+ agot_crown_theft.0100.trait_honest.desc: "" #TODO, currently turned off
+ agot_crown_theft.0100.trait_deceitful.desc: "Ich wüsste #bold genau#!, was ich mit solcher Macht anzufangen hätte, und es wäre ein Leichtes, sie zu ergreifen, denn durch eine #italic glückliche Fügung#!,"
+ agot_crown_theft.0100.trait_humble.desc: "Nie hätte ich zu hoffen gewagt, dass jemand so Gewöhnliches wie ich die Gelegenheit erhielte, solche Macht an sich zu reißen, doch es ist gleichwohl der Fall, denn"
+ agot_crown_theft.0100.trait_arrogant.desc: "Niemand ist würdiger, solche Macht zu erlangen, als ich. Ich ward geboren, um zu herrschen, und nun ergäbe sich die Möglichkeit, denn"
+ agot_crown_theft.0100.trait_just.desc: "Es ist nicht mein Recht. Es ward anders bestimmt. Und dennoch... dennoch, je mehr ich darüber nachsinne, desto mehr bedenke ich, dass"
+ agot_crown_theft.0100.trait_arbitrary.desc: "Nicht ich ward auserkoren... doch das kümmert mich nicht. Regeln sind dazu da, gebrochen zu werden, und überdies,"
+ agot_crown_theft.0100.trait_patient.desc: "#italic Die Götter haben noch [Select_CString(crown_thief.IsFemale,'keine Frau','keinen Mann')] geschaffen, der die Geduld für unumschränkte Macht fehlt#!, und es scheint, als belohne mich die Geduld reichlich, denn"
+ agot_crown_theft.0100.trait_impatient.desc: "#italic Die Götter haben noch [Select_CString(crown_thief.IsFemale,'keine Frau','keinen Mann')] geschaffen, der die Geduld für unumschränkte Macht fehlt#!, doch ich habe zu lange gewartet, und ich sehe eine Möglichkeit, denn"
+ agot_crown_theft.0100.trait_temperate.desc: "Der Gedanke, solche Macht in meinen Händen zu halten, verstört mich, zumal für jemanden wie mich, der das Maß dem Überfluss vorzieht, und dennoch bedenke ich, dass"
+ agot_crown_theft.0100.trait_gluttonous.desc: "Wer ein gekröntes Haupt hat, hat auch einen vollen Bauch. Macht zu erlangen bedeutet, sich all die Speisen verschaffen zu können, die man begehrt. Und die Umstände sind mir gewogen, denn"
+ agot_crown_theft.0100.trait_trusting.desc: "Sie in an mich zu nehmen wäre ein gewagtes Unterfangen, doch ich bin gewiss, dass sich das Königreich hinter den Fähigsten scharen wird, denn"
+ agot_crown_theft.0100.trait_paranoid.desc: "#italic Was wird aus mir werden?!#! Ich bin #bold nicht#! der Erbe, doch ich stehe in der #bold Thronfolge#!. Man #bold könnte#! beschließen, mich #bold hinrichten#! zu lassen, um jegliche #italic möglichen#! #bold Rivalen#! auszumerzen. Mir bleibt #italic noch#! eine #bold Chance#! zu #italic überleben#!, denn"
+ agot_crown_theft.0100.trait_zealous.desc: "Stets war ich der Frömmste in der Familie, der Gottesfürchtigste, und deshalb sehe ich dies als ein Zeichen vom [ROOT.Char.GetFaith.HighGodName]. Diese Macht ist ein Geschenk des Himmels, der Lohn dafür, dass ich treu dem Pfade der Götter folgte. Ich hätte nun die Gelegenheit, diesem Zeichen folge zu leisten, denn"
+ agot_crown_theft.0100.trait_cynical.desc: "#italic Nach den Gesetzen der Götter und der Menschen...#! Die Götter scheren mich nicht, und die Menschen folgen dem Gesetz jener, die die Macht besitzen. So bedenke ich, dass"
+ agot_crown_theft.0100.trait_fallback.desc: "Wenngleich ich lange den Ehrgeiz hegte, über das Reich zu herrschen, "
+
+ agot_crown_theft.0100.outro.desc: " [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] rechtmäßig[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')], mein[crown_theft_king_legit_heir.Custom('DE_END_PRO_S_N')] [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king_legit_heir'))], [crown_theft_king_legit_heir.GetTitledFirstName], weilt derzeit fern der Hauptstadt.\n\nDie Gelegenheit, den Thron an mich zu reißen, lockt und verheißt Macht und Autorität über jedes Maß hinaus."
+ agot_crown_theft.0100.outro_guardian.desc: " [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] rechtmäßig[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')], [crown_theft_king_legit_heir.GetTitledFirstName], weilt derzeit fern der Hauptstadt.\n\nDie Gelegenheit, den Thron für mein Mündel, [crown_thief.GetTitledFirstName], zu ergreifen, lockt und verheißt Macht und Autorität über jedes Maß hinaus."
+
+ agot_crown_theft.0100.a: "Der Thron ist mein!"
+ agot_crown_theft.0200.a: "Der Thron gehört [crown_thief.GetTitledFirstNameNoTooltip]!"
+ agot_crown_theft.0100.b: "Nein, ich muss die rechtmäßige Thronfolge achten."
+
+  #KING DECIDES WHO TO CONTINUE AS
+ agot_crown_theft.0102.t: "Sterbebett"
+  #King dies in trial by combat
+ agot_crown_theft.0102.desc.tbc: "Während ich während des Urteils durch Kampf meine letzten Atemzüge tue,"
+  #King dies in battle
+ agot_crown_theft.0102.desc.battle: "Während ich auf dem Schlachtfeld mein Ende finde, umgeben vom Klirren des Stahls und den Schreien der Krieger,"
+  #King dies in illness
+ agot_crown_theft.0102.desc.illness: "Während ich auf meinem Sterbebett liege,"
+  #King dies in siege
+ agot_crown_theft.0102.desc.siege: "Während ich innerhalb der Mauern der belagerten Burg den Tod finde, meine letzten Augenblicke erfüllt vom Dröhnen der Belagerungwerkzeuge,"
+  #desc
+ agot_crown_theft.0102.desc: "kreisen meine Gedanken um das Schicksal des Königreichs. Mein[crown_thief.Custom('DE_END_PRO_S_N')] [SCOPE.sC('crown_theft_king').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))], [crown_thief.GetTitledFirstName], steht bereit, den Thron an sich zu reißen, und weckt in mir eine Mischung aus Hoffnung und Furcht.\n\nIch bete um Frieden, doch der Schatten eines drohenden Krieges lastet schwer auf meinen letzten Stunden."
+ agot_crown_theft.0202.desc: "kreisen meine Gedanken um das Schicksal des Königreichs. [crown_thief.Custom('DE_ART_DEF_S_N')] Vormund[crown_thief.Custom('DE_END_NOU_S_GS_N')] von [crown_thief.GetTitledFirstNameNoTooltip], [usurper_guardian.GetTitledFirstName], steht bereit, den Thron für mein[crown_thief.Custom('DE_END_PRO_S_A')] [SCOPE.sC('crown_theft_king').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))] zu ergreifen, und weckt in mir eine Mischung aus Hoffnung und Furcht.\n\nIch bete um Frieden, doch der Schatten eines drohenden Krieges lastet schwer auf meinen letzten Stunden."
+ agot_crown_theft.0302.desc: "kreisen meine Gedanken um das Schicksal des Königreichs. Mein[crown_thief.Custom('DE_END_PRO_S_N')] Bastard-[SCOPE.sC('crown_theft_king').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))], [crown_thief.GetTitledFirstName], steht bereit, den Thron an sich zu reißen, und weckt in mir eine Mischung aus Hoffnung und Furcht.\n\nIch bete um Frieden, doch der Schatten eines drohenden Krieges lastet schwer auf meinen letzten Stunden."
+ agot_crown_theft.0402.desc: "kreisen meine Gedanken um das Schicksal des Königreichs. Mein[crown_thief.Custom('DE_END_PRO_S_N')] enterbt[crown_thief.Custom('DE_END_ADJ_DEF_S_N')] [SCOPE.sC('crown_theft_king').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))], [crown_thief.GetTitledFirstName], steht bereit, den Thron an sich zu reißen, und weckt in mir eine Mischung aus Hoffnung und Furcht.\n\nIch bete um Frieden, doch der Schatten eines drohenden Krieges lastet schwer auf meinen letzten Stunden."
+
+ agot_crown_theft.0102.a: "Ich wünschte, ich könnte [crown_thief.GetTitledFirstNameNoTooltip] in [crown_thief.Custom('DE_PRO_POS_S_3P')]er Herrschaft beistehen."
+ agot_crown_theft.0102.b: "Mein[crown_theft_king_legit_heir.Custom('DE_END_PRO_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Nachfolgerin','Nachfolger')] hätte [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip] sein sollen."
+ agot_crown_theft.0502.b: "[landed_helper.GetTitledFirstNameNoTooltip] muss mein[crown_theft_king_legit_heir.Custom('DE_END_PRO_S_D')] [SCOPE.sC('crown_theft_king').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king_legit_heir'))] beistehen."
+
+  #LEGITIMATE HEIR DECIDES TO PUSH CLAIMS OR ACCEPT THEIR FATE
+ agot_crown_theft.0110.t: "Die Entschlossenheit des Erben"
+ agot_crown_theft.0110.desc: "Als die Kunde vom Verrat und Thronraub mein[crown_thief.Custom('DE_END_PRO_S_G')] [SCOPE.sC('crown_theft_king_legit_heir').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))], [crown_thief.GetFirstName], mein Ohr erreicht, tobt ein Sturm widerstreitender Gefühle in meiner Brust.\n\nDas Gewicht meines Geburtsrechts lastet schwer auf mir und drängt mich, mich zu erheben und einzufordern, was mir von Rechts wegen zusteht. Doch inmitten des Aufruhrs zupft ein Flüstern der Vorsicht an meinem Gewissen und mahnt zur Zurückhaltung angesichts der Ungewissheit."
+ agot_crown_theft.0210.desc: "Als die Kunde von [usurper_guardian.GetTitledFirstName] und dessen Verrat mein Ohr erreicht, der den Thron für mein[crown_thief.Custom('DE_END_PRO_S_A')] [SCOPE.sC('crown_theft_king_legit_heir').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))], [crown_thief.GetFirstName], usurpiert hat, tobt ein Sturm widerstreitender Gefühle in meiner Brust.\n\nDas Gewicht meines Geburtsrechts lastet schwer auf mir und drängt mich, mich zu erheben und einzufordern, was mir von Rechts wegen zusteht. Doch inmitten des Aufruhrs zupft ein Flüstern der Vorsicht an meinem Gewissen und mahnt zur Zurückhaltung angesichts der Ungewissheit."
+ agot_crown_theft.0310.desc: "Als die Kunde vom Verrat und Thronraub mein[crown_thief.Custom('DE_END_PRO_S_G')] Bastard-[SCOPE.sC('crown_theft_king_legit_heir').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))], [crown_thief.GetFirstName], mein Ohr erreicht, tobt ein Sturm widerstreitender Gefühle in meiner Brust.\n\nDas Gewicht meines Geburtsrechts lastet schwer auf mir und drängt mich, mich zu erheben und einzufordern, was mir von Rechts wegen zusteht. Doch inmitten des Aufruhrs zupft ein Flüstern der Vorsicht an meinem Gewissen und mahnt zur Zurückhaltung angesichts der Ungewissheit."
+ agot_crown_theft.0410.desc: "Als die Kunde vom Verrat und Thronraub mein[crown_thief.Custom('DE_END_PRO_S_G')] enterbt[crown_thief.Custom('DE_END_ADJ_DEF_S_G')] [SCOPE.sC('crown_theft_king_legit_heir').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))], [crown_thief.GetFirstName], mein Ohr erreicht, tobt ein Sturm widerstreitender Gefühle in meiner Brust.\n\nDas Gewicht meines Geburtsrechts lastet schwer auf mir und drängt mich, mich zu erheben und einzufordern, was mir von Rechts wegen zusteht. Doch inmitten des Aufruhrs zupft ein Flüstern der Vorsicht an meinem Gewissen und mahnt zur Zurückhaltung angesichts der Ungewissheit."
+ agot_crown_theft.0510.desc: "Als die Kunde vom Verrat und Thronraub mein[crown_thief.Custom('DE_END_PRO_S_G')] [SCOPE.sC('crown_theft_king_legit_heir').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))], [crown_thief.GetFirstName], mein Ohr erreicht, tobt ein Sturm widerstreitender Gefühle in meiner Brust.\n\nDas Gewicht meines Geburtsrechts lastet schwer auf mir und drängt mich, mich zu erheben und einzufordern, was mir von Rechts wegen zusteht.\n\nWährend ich mich eilends aufmache, um Zuflucht am Hof von[landed_helper.GetTitledFirstName] zu suchen, grüble ich über die Schwere der Entscheidung, die mir bevorsteht."
+
+ agot_crown_theft.0110.a: "Ich muss mein Geburtsrecht einfordern!"
+ agot_crown_theft.0110.a.tt: "Einen Schritt näher am Krieg..."
+ agot_crown_theft.0110.b: "Ich sollte [crown_thief.Custom('DE_ART_DEF_S_A')] neu[crown_thief.Custom('DE_END_ADJ_DEF_S_A')] [Select_CString(crown_thief.IsFemale,'Königin','König')] nicht herausfordern."
+
+  #USURPER RECEIVES LETTER FROM LEGITIMATE HEIR: TO STEP DOWN, USURPER OFFERS SOME ARTIFACT OR LAND, OR NOTHING FOR LEGITIMATE HEIR AS A PRICE OF PEACE
+ agot_crown_theft.0111.opening: "An [crown_thief.Custom('DE_ART_DEF_S_A')] [crown_thief.Custom('UsurperName')],"
+ agot_crown_theft.0211.opening: "An [usurper_guardian.Custom('DE_ART_DEF_S_A')] verräterisch[usurper_guardian.Custom('DE_END_ADJ_DEF_S_A')] [usurper_guardian.GetTitledFirstNameNoTooltip],"
+ agot_crown_theft.0311.opening: "An [Select_CString(crown_thief.IsFemale,'die Bastardkönigin','den Bastardkönig')],"
+ agot_crown_theft.0411.opening: "An [Select_CString(crown_thief.IsFemale,'die unrechtmäßige Königin','den unrechtmäßigen König')],"
+
+ agot_crown_theft.0111.desc: "Ich schreibe Euch in aller Dringlichkeit, denn das Königreich siecht unter Eurer unrechtmäßigen Herrschaft dahin. Als rechtmäßig[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')] des Thrones fordere ich Euch auf, unverzüglich abzudanken und unserem Land weiteres Unheil zu ersparen. Dieser Thron steht Euch nicht zu."
+ agot_crown_theft.0211.desc: "Ich schreibe Euch in aller Dringlichkeit, denn das Königreich siecht unter Eurer unrechtmäßigen Herrschaft dahin. Als rechtmäßig[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')] des Thrones fordere ich Euch und mein[crown_thief.Custom('DE_END_PRO_S_A')] [SCOPE.sC('crown_theft_king_legit_heir').Custom2('RelationToMeShort', SCOPE.sC('crown_thief'))] auf, unverzüglich abzudanken und unserem Land weiteres Unheil zu ersparen. Dieser Thron steht Euch nicht zu."
+ agot_crown_theft.0111.a: "Nehmt dieses Familienerbstück als Zeichen des guten Willens."
+ agot_crown_theft.0111.a.tt: "Ihr bietet [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip] [random_artifact_one.GetName] als friedensstiftende Geste an"
+ agot_crown_theft.0111.b: "Vielleicht etwas Erleseneres?"
+ agot_crown_theft.0111.b.tt: "Ihr bietet [random_artifact_two.GetName] für [crown_theft_king_legit_heir.GetTitledFirstNamePossessiveNoTooltip] Stillschweigen an"
+ agot_crown_theft.0111.c: "Vielleicht hält Euch etwas Land ruhig."
+ agot_crown_theft.0111.c.tt: "Ihr bietet [random_giveaway_title.GetName] an, um den Frieden zu wahren"
+ agot_crown_theft.0111.d: "Es ist an der Zeit, dass Ihr Euch mit Anstand zurückzieht."
+
+  #USURPER RECEIVES LETTER FROM LEGITIMATE HEIR: ABOUT THEIR PEACE DECISION
+ agot_crown_theft.0112.opening: "An [crown_thief.GetFirstNameNoTooltip],"
+ agot_crown_theft.0112.desc: "Als [crown_thief.Custom('DE_PRO_POS_P_2P_N')|U] demütig[crown_thief.Custom('DE_END_ADJ_IND_S_N')] Vasall[crown_thief.Custom('DE_END_NOU_S_GS_N')] wünsche ich Eurer Herrschaft Gerechtigkeit und Wohlstand. Möge das Reich unter Eurer Regentschaft Frieden und Beständigkeit finden."
+ agot_crown_theft.0112.a: "[crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_N')|U] war nie dazu bestimmt, [Select_CString(crown_theft_king_legit_heir.IsFemale,'Königin','König')] zu sein."
+
+  #LEGITIMATE HEIR RECEIVES LETTER FROM USURPER: ACCEPT GIFT OR SEND ULTIMATUM
+ agot_crown_theft.0113.opening: "An [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip],"
+ agot_crown_theft.0113.desc.artifact_one: "Ich sende Euch diese Botschaft mit einem Angebot aus meiner Hand. Ein Erbstück, [random_artifact_one.GetName], als Zeichen des guten Willens überreicht, in der Hoffnung, den Frieden zwischen uns zu sichern. Möge dies als Geste der Versöhnung verstanden werden und den Weg zur Eintracht zwischen uns ebnen."
+ agot_crown_theft.0113.desc.artifact_two: "Ich sende Euch diese Botschaft mit einem Angebot aus meiner Hand. Ein Erbstück, [random_artifact_two.GetName], als Zeichen des guten Willens überreicht, in der Hoffnung, den Frieden zwischen uns zu sichern. Möge dies als Geste der Versöhnung verstanden werden und den Weg zur Eintracht zwischen uns ebnen."
+ agot_crown_theft.0113.desc.duchy: "Ich sende Euch diese Botschaft mit einem Angebot aus meiner Hand. Ein Land aus meinem Besitz, [random_giveaway_title.GetName], als Zeichen des guten Willens überreicht, in der Hoffnung, den Frieden zwischen uns zu sichern. Möge dies als Geste der Versöhnung verstanden werden und den Weg zur Eintracht zwischen uns ebnen."
+ agot_crown_theft.0113.desc.nothing: "Ich habe Eure Botschaft empfangen und Eure Forderungen zur Kenntnis genommen. Gleichwohl vermag ich Eurem Ansinnen, den Thron aufzugeben, nicht zu entsprechen. Die Beständigkeit und das Wohl des Königreichs sind von höchster Bedeutung, und ich vertraue darauf, dass Ihr die Notwendigkeit der Fortdauer meiner Herrschaft anerkennt."
+ agot_crown_theft.0213.desc.nothing: "Ich habe Eure Botschaft empfangen und Eure Forderungen zur Kenntnis genommen. Gleichwohl vermag ich Eurem Ansinnen, den Thron aufzugeben, nicht zu entsprechen. Die Beständigkeit und das Wohl des Königreichs sind von höchster Bedeutung, und ich vertraue darauf, dass Ihr die Notwendigkeit der Fortdauer der Herrschaft von [crown_thief.GetFirstName] anerkennt."
+ agot_crown_theft.0113.a: "Ein gerechtes Angebot."
+ agot_crown_theft.0113.b: "Dankt ab, oder seht Euch dem Krieg gegenüber!"
+
+  #USURPER RECEIVES LETTER FROM LEGITIMATE HEIR: ULTIMATUM RECEIVED: WAR OR ABDICATION
+ agot_crown_theft.0114.opening: "An [crown_thief.Custom('DE_ART_DEF_S_A')] [crown_thief.Custom('UsurperName')],"
+ agot_crown_theft.0114.desc: "Dankt ab, oder wisset, dass die Flammen des Krieges Euch und Eure Ambitionen verzehren werden. Wählt weise, dies ist meine letzte Warnung."
+ agot_crown_theft.0114.a: "Dann sei es Krieg."
+ agot_crown_theft.0114.b: "Ich muss den Frieden wahren, gleich welchen Preis es kostet."
+ agot_crown_theft.0114.b.tt: "Ich werde all meine Titel an [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip] abtreten"
+
+  #USURPER RECEIVES LETTER FROM LEGITIMATE HEIR: THEY ACCEPTED THE GIFT
+ agot_crown_theft.0115.opening: "An [crown_thief.GetFirstNameNoTooltip],"
+ agot_crown_theft.0115.desc: "Ich schreibe Euch, um den Empfang Eures großzügigen Geschenks zu bestätigen. Eure Geste zeugt von Eurem Verlangen nach Frieden, ein Empfinden, das ich von ganzem Herzen erwidere. Lasst uns bestrebt sein, die Eintracht zwischen uns zum Wohle des Reiches zu wahren."
+ agot_crown_theft.0115.a: "So sei es."
+ agot_crown_theft.0215.a: "Das ist super, doch... von welchem Geschenk sprecht Ihr?"
+ agot_crown_theft.0215.a.tt: "[usurper_guardian.GetTitledFirstName] hat [random_artifact_one.GetName] in Eurem Namen an [crown_theft_king_legit_heir.GetTitledFirstName] überreicht"
+
+  #LEGITIMATE HEIR RECEIVES LETTER FROM USURPER: WAR
+ agot_crown_theft.0116.opening: "An [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip],"
+ agot_crown_theft.0116.desc: "Schweren Herzens schreibe ich Euch, denn ungeachtet aller Versuche, Euren Entschluss zu mildern, scheinen unsere Bemühungen vergebens gewesen zu sein. Wisset, dass ich jeden Weg ausgeschöpft habe, einen gemeinsamen Grund zu finden, doch den Göttern zu leide scheint es, als stünden wir vor einer unüberbrückbaren Kluft. Ich vermag Euren Forderungen nicht nachzukommen, denn dies käme einem Verrat an dem Vertrauen und der Beständigkeit des Reiches gleich. Vielleicht bietet die Zeit noch einen Pfad zur Versöhnung, doch vorerst, so fürchte ich, müssen wir die gegenwärtigen Umstände hinnehmen."
+ agot_crown_theft.0216.desc: "Schweren Herzens schreibe ich Euch, denn ungeachtet aller Versuche, Euren Entschluss zu mildern, scheinen unsere Bemühungen vergebens gewesen zu sein. Wisset, dass ich jeden Weg ausgeschöpft habe, einen gemeinsamen Grund zu finden, doch den Göttern zu leide scheint es, als stünden wir vor einer unüberbrückbaren Kluft. Wir vermögen Euren Forderungen nicht nachzukommen, denn dies käme einem Verrat an dem Vertrauen und der Beständigkeit des Reiches gleich. Vielleicht bietet die Zeit noch einen Pfad zur Versöhnung, doch vorerst, so fürchte ich, müssen wir die gegenwärtigen Umstände hinnehmen."
+ agot_crown_theft.0116.a: "Dann sei es Krieg!"
+
+  #LEGITIMATE HEIR RECEIVES LETTER FROM USURPER: ABDICATION
+ agot_crown_theft.0117.t: "An [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip],"
+ agot_crown_theft.0117.desc: "Schweren Herzens setze ich diese Worte nieder, doch auch mit einem Schimmer der Hoffnung für das Reich. Nach reiflicher Überlegung und langer Beratung bin ich zu dem feierlichen Entschluss gelangt, Eurer Forderung zu entsprechen. Der Thron soll aus meinen Händen in die Euren übergehen, in der Hoffnung, dass diese Geste den Weg zu Frieden und Wohlstand ebnen möge. Ich vertraue das Schicksal des Königreichs Euch an, wohl wissend, dass Ihr mit Weisheit und Güte herrschen werdet. Möge Eure Herrschaft von Einigkeit und Gedeihen für alle geprägt sein."
+ agot_crown_theft.0117.a: "Eine weise Entscheidung."
+
+  #REALM NOTIFIED ABOUT THE CONFLICT: WAR
  agot_crown_theft.0120.t: "[crown_theft_king_legit_heir.Custom('WarOfSuccessionNumbers')] [crown_theft_king_legit_heir.Custom('WarOfSuccessionNames')]"
- agot_crown_theft.0120.desc: "Ravens traverse the skies, bearing ominous tidings to every corner of the realm. A storm brews on the horizon as the drums of war resound, heralding the outbreak of conflict between the rival claimants, [crown_thief.GetTitledFirstName] and [crown_theft_king_legit_heir.GetTitledFirstName].\n\nWhispers echo through the halls of every castle, recounting the tale of usurpation, as [crown_thief.GetTitledFirstNameNoTooltip] seized the crown while [crown_theft_king.GetTitledFirstNameNoTooltip] lay upon [crown_theft_king.GetHerHis] deathbed. Now, [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip], the rightful heir, has sounded the clarion call, declaring war to reclaim what is rightfully [crown_theft_king_legit_heir.GetHersHis]."
- agot_crown_theft.0220.desc: "Ravens traverse the skies, bearing ominous tidings to every corner of the realm. A storm brews on the horizon as the drums of war resound, heralding the outbreak of conflict between the rival claimants, [crown_thief.GetTitledFirstName], backed by [usurper_guardian.GetTitledFirstName], and [crown_theft_king_legit_heir.GetTitledFirstName].\n\nWhispers echo through the halls of every castle, recounting the tale of usurpation, as [crown_thief.GetTitledFirstNameNoTooltip] seized the crown while [crown_theft_king.GetTitledFirstName] lay upon [crown_theft_king.GetHerHis] deathbed. Now, [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip], the rightful heir, has sounded the clarion call, declaring war to reclaim what is rightfully [crown_theft_king_legit_heir.GetHersHis]."
- agot_crown_theft.0320.desc: "Ravens traverse the skies, bearing ominous tidings to every corner of the realm. A storm brews on the horizon as the drums of war resound, heralding the outbreak of conflict between the rival claimants, the bastard [crown_thief.GetTitledFirstName] and [crown_theft_king_legit_heir.GetTitledFirstName].\n\nWhispers echo through the halls of every castle, recounting the tale of usurpation, as [crown_thief.GetTitledFirstNameNoTooltip] seized the crown while [crown_theft_king.GetTitledFirstName] lay upon [crown_theft_king.GetHerHis] deathbed. Now, [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip], the rightful heir, has sounded the clarion call, declaring war to reclaim what is rightfully [crown_theft_king_legit_heir.GetHersHis]."
- agot_crown_theft.0420.desc: "Ravens traverse the skies, bearing ominous tidings to every corner of the realm. A storm brews on the horizon as the drums of war resound, heralding the outbreak of conflict between the rival claimants, the disinherited [crown_thief.GetTitledFirstName] and [crown_theft_king_legit_heir.GetTitledFirstName].\n\nWhispers echo through the halls of every castle, recounting the tale of usurpation, as [crown_thief.GetTitledFirstNameNoTooltip] seized the crown while [crown_theft_king.GetTitledFirstName] lay upon [crown_theft_king.GetHerHis] deathbed. Now, [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip], the rightful heir, has sounded the clarion call, declaring war to reclaim what is rightfully [crown_theft_king_legit_heir.GetHersHis]."
-  
- agot_crown_theft.0120.a: "This is worrying."
-  
-  #REALM NOTIFIED ABOUT THE CONFLICT: RESOLUTION 
- agot_crown_theft.0121.t: "A Resolved Conflict"
- agot_crown_theft.0121.desc.usurper: "The conflict that once threatened to tear the realm asunder has reached its conclusion, with [crown_thief.GetTitledFirstName], once the usurper [Select_CString(crown_thief.IsFemale,'queen','king')], now relinquishing [crown_thief.GetHerHis] claim to the throne.\n\nAs the dust settles, the kingdom braces itself for a new era, one shaped by the aftermath of bitter rivalry and the promise of renewed unity."
- agot_crown_theft.0121.desc.legit: "The conflict that once threatened to tear the realm asunder has reached its conclusion, with [crown_theft_king_legit_heir.GetTitledFirstName], once the legitimate heir to the throne, now relinquishing [crown_theft_king_legit_heir.GetHerHis] claim to the throne.\n\nAs the dust settles, the kingdom braces itself for a new era, one shaped by the aftermath of bitter rivalry and the promise of renewed unity."
- agot_crown_theft.0321.desc.usurper: "The conflict that once threatened to tear the realm asunder has reached its conclusion, with [crown_thief.GetTitledFirstName], once the bastard [Select_CString(crown_thief.IsFemale,'queen','king')], now relinquishing [crown_thief.GetHerHis] claim to the throne.\n\nAs the dust settles, the kingdom braces itself for a new era, one shaped by the aftermath of bitter rivalry and the promise of renewed unity."
- agot_crown_theft.0421.desc.usurper: "The conflict that once threatened to tear the realm asunder has reached its conclusion, with [crown_thief.GetTitledFirstName], once the illegitimate [Select_CString(crown_thief.IsFemale,'queen','king')], now relinquishing [crown_thief.GetHerHis] claim to the throne.\n\nAs the dust settles, the kingdom braces itself for a new era, one shaped by the aftermath of bitter rivalry and the promise of renewed unity."
-  
- agot_crown_theft.0121.a: "Let peace endure."
-  
-  ################### 
-  ### MISC EVENTS ### 
-  ################### 
-  
-  #USURPER GUARDIAN RECEIVES LETTER FROM LEGITIMATE HEIR: ABOUT THEIR PEACE DECISION 
- agot_crown_theft.0222.opening: "To [usurper_guardian.GetTitledFirstNameNoTooltip],"
- agot_crown_theft.0222.desc: "As my [Select_CString(crown_thief.IsFemale,'queen','king')]'s humble vassal, I extend my wishes for [crown_thief.GetHerHis] reign to be just and prosperous. May the realm find peace and stability under [crown_thief.GetHerHis] rule."
- agot_crown_theft.0222.a: "[crown_theft_king_legit_heir.GetSheHe|U] was never meant to be [Select_CString(crown_theft_king_legit_heir.IsFemale,'queen','king')]."
-  
-  #USURPER GUARDIAN RECEIVES LETTER FROM LEGITIMATE HEIR: ULTIMATUM RECEIVED: WAR OR ABDICATION 
- agot_crown_theft.0223.opening: "To the traitorous [usurper_guardian.GetTitledFirstNameNoTooltip],"
- agot_crown_theft.0223.desc: "Step down, or know that the fires of war shall consume you and your [Select_CString(crown_thief.IsFemale,'queen','king')]. Choose wisely, this is my last warning."
- agot_crown_theft.0223.a: "Worrying."
-  
-  #KINGMAKER 
- agot_crown_theft.0224.t: "The False Coronation"
- agot_crown_theft.0224.desc.you: "In a brazen display of treachery, [usurper_guardian.GetTitledFirstName] has crowned [crown_thief.GetFirstName] in [crown_thief.GetCapitalLocation.GetName] before a grand assembly, usurping the throne that is rightfully mine.\n\nThis affront to my claim cannot go unanswered."
- agot_crown_theft.0224.desc.notyou: "In a brazen display of treachery, [usurper_guardian.GetTitledFirstName] has crowned [crown_thief.GetTitledFirstName] in [crown_thief.GetCapitalLocation.GetName] before a grand assembly, usurping the throne that rightfully belongs to [crown_theft_king_legit_heir.GetTitledFirstName]."
- agot_crown_theft.0224.a: "Prepare for my wrath, Kingmaker."
- agot_crown_theft.0224.queen.a: "Prepare for my wrath, Queenmaker."
- agot_crown_theft.0224.b: "Interesting."
-  
-  #KINGMAKER followup 
- agot_crown_theft.0225.t: "The Kingmaker"
- agot_crown_theft.0225.queen.t: "The Queenmaker"
- agot_crown_theft.0225.desc.king: "My guardian, [usurper_guardian.GetTitledFirstName], has crowned me in [crown_thief.GetCapitalLocation.GetName] before a grand assembly.\n\nFrom this day on, I am the rightful [Select_CString(crown_thief.IsFemale,'queen','king')]."
- agot_crown_theft.0225.desc.guardian: "I have crowned [crown_thief.GetTitledFirstName] in [crown_thief.GetCapitalLocation.GetName] before a grand assembly.\n\nFrom this day on, [crown_thief.GetSheHe] is the rightful [Select_CString(crown_thief.IsFemale,'queen','king')]."
- agot_crown_theft.0225.a: "The kingdom is ours."
-  
-  #BASTARD CAN LEGIZIMIZE 
- agot_crown_theft.0318.t: "Rise of the Bastard King"
- agot_crown_theft.0318.desc: "Having seized the throne despite my birthright, I now stand at a pivotal moment. The chance to legitimize myself and claim the crown with unchallenged authority is within reach.\n\nYet, the question remains, Shall I embrace legitimacy and the full power it brings, or shall I remain in the shadows, a bastard king ruling by might alone?"
- agot_crown_theft.0318.a: "I have to claim my birthright."
- agot_crown_theft.0318.b: "I shall never forget what I am, for surely the world will not."
- agot_crown_theft.0318.b.tt: "You remain an illegitimate bastard"
-  
-  #REALM NOTIFIED: BASTARD KING 
- agot_crown_theft.0322.t: "A Throne in Shadow"
- agot_crown_theft.0322.desc: "The realm is astir with whispers as the startling truth unfurls like a banner in the wind, a bastard has seized the throne for [crown_thief.GetHerselfHimself], defying the conventions of noble birthright.\n\nShock reverberates through courtly circles and reaches the ears of commonfolk alike, igniting debates and casting doubt upon the legitimacy of the new ruler's reign."
- agot_crown_theft.0322.a: "A bastard [Select_CString(crown_thief.IsFemale,'queen','king')]?"
-  
-  #BASTARD CAN LEGIZIMIZE 
- agot_crown_theft.0418.t: "Reclaiming My Birthright"
- agot_crown_theft.0418.desc: "Defying the conventions of noble customs, I have seized the throne despite being disinherited.\n\nNow, I have taken steps to restore my rightful status, removing the disinheritance and affirming my claim to the crown."
- agot_crown_theft.0418.a: "The throne is mine."
-  
-  #REALM NOTIFIED: BASTARD KING 
- agot_crown_theft.0422.t: "The [crown_thief.Custom('UsurperName')]"
- agot_crown_theft.0422.desc: "The realm is astir with whispers as the startling truth unfurls like a banner in the wind, a disinherited member of the royal family has seized the throne for [crown_thief.GetHerselfHimself], defying the conventions of noble birthright.\n\nShock reverberates through courtly circles and reaches the ears of commonfolk alike, igniting debates and casting doubt upon the legitimacy of the new ruler's reign."
- agot_crown_theft.0422.a: "An illegitimate [Select_CString(crown_thief.IsFemale,'queen','king')]?"
-  
-  #The prince arrives 
- agot_crown_theft.0523.t: "Sanctuary of the Fallen Heir"
- agot_crown_theft.0523.desc: "[crown_theft_king_legit_heir.GetTitledFirstName] and [crown_theft_king_legit_heir.GetHerHis] spouse, [legit_spouse.GetTitledFirstName], arrive at my court, weary and destitute, having fled the capital. The [crown_thief.Custom('UsurperName')] has seized the throne, casting them into exile.\n\nNow, they seek my counsel and aid, hoping to rally support to reclaim what is rightfully theirs."
- agot_crown_theft.0523.a: "They are safe now."
-  
-  #Spouse's House Head decides about support 
- agot_crown_theft.0518.t: "A Call to Arms"
- agot_crown_theft.0518.desc: "As the usurped heir and [crown_theft_king_legit_heir.GetHerHis] spouse seek refuge within my court, [crown_theft_king_legit_heir.GetSheHe] confides in me [crown_theft_king_legit_heir.GetHerHis] desire to reclaim [crown_theft_king_legit_heir.GetHerHis] throne. The weight of the kingdom's future now rests upon my shoulders.\n\nWithout my support, [crown_theft_king_legit_heir.GetHerHis] cause seems doomed. Shall I lend [crown_theft_king_legit_heir.GetHerHim] my strength and risk the stability of my lands, or shall I refuse and preserve my own realm's peace?"
- agot_crown_theft.0518.desc.already_here: "As the usurped heir seeks refuge within my court, [crown_theft_king_legit_heir.GetSheHe] confides in me [crown_theft_king_legit_heir.GetHerHis] desire to reclaim [crown_theft_king_legit_heir.GetHerHis] throne. The weight of the kingdom's future now rests upon my shoulders.\n\nWithout my support, [crown_theft_king_legit_heir.GetHerHis] cause seems doomed. Shall I lend [crown_theft_king_legit_heir.GetHerHim] my strength and risk the stability of my lands, or shall I refuse and preserve my own realm's peace?"
- agot_crown_theft.0518.a: "I will not support this war."
- agot_crown_theft.0518.b: "I have to help [crown_theft_king_legit_heir.GetHerHim]."
- agot_crown_theft.0518.b.tt: "If [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip] decides to declare war against the [Select_CString(crown_thief.IsFemale,'queen','king')], you will become the war leader."
-  
-  #No Support 
- agot_crown_theft.0519.t: "A Hope Dashed"
- agot_crown_theft.0519.desc: "My heart sinks as [landed_helper.GetTitledFirstName] turns down my plea for aid in reclaiming the throne. The rejection leaves me without the necessary support to challenge the [crown_thief.Custom('UsurperName')]'s hold on the kingdom.\n\nThe path to my rightful seat now seems blocked, and the weight of this setback bears heavily upon me. The dream of justice and reclaiming my birthright must be set aside, for now."
- agot_crown_theft.0519.a: "I will endure."
-  
-  #Usurper Won 
- agot_crown_theft.0522.t: "A Kingdom Secured"
- agot_crown_theft.0522.desc: "Word reaches me that [crown_theft_king_legit_heir.GetTitledFirstName], the ousted heir, lacks the necessary support to challenge my reign. [crown_theft_king_legit_heir.GetHerHis] isolation in this struggle fortifies my position, solidifying my hold on the throne.\n\nWith each passing moment, my rule grows more secure, while [crown_theft_king_legit_heir.GetTitledFirstNamePossessive] hopes of reclaiming [crown_theft_king_legit_heir.GetHerHis] birthright dwindle in solitude."
- agot_crown_theft.0522.a: "And now my rule begins."
-  
-  #REALM NOTIFIED ABOUT THE CONFLICT: WAR 
- agot_crown_theft.0520.t: "The War of Succession"
- agot_crown_theft.0520.desc: "Ravens traverse the skies, bearing ominous tidings to every corner of the realm. A storm brews on the horizon as the drums of war resound, heralding the outbreak of conflict between the rival claimants, [crown_thief.GetTitledFirstName] and [crown_theft_king_legit_heir.GetTitledFirstName].\n\nWhispers echo through the halls of every castle, recounting the tale of usurpation, as [crown_thief.GetTitledFirstNameNoTooltip] seized the crown while [crown_theft_king.GetTitledFirstName] lay upon his deathbed. Now, [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip], the rightful heir, with the help of [landed_helper.GetTitledFirstName], has sounded the clarion call, declaring war to reclaim what is rightfully [crown_theft_king_legit_heir.GetHersHis]."
-  
- agot_crown_theft.0623.desc: "[crown_theft_king_legit_heir.GetTitledFirstName] arrives at my court, weary and destitute, having fled the capital. The [crown_thief.Custom('UsurperName')] has seized the throne, casting [crown_theft_king_legit_heir.GetHerHis] into exile.\n\nNow, [crown_theft_king_legit_heir.GetSheHe] seeks my counsel and aid, hoping to rally support to reclaim what is rightfully [crown_theft_king_legit_heir.GetHersHis]."
- agot_crown_theft.0623.a: "[crown_theft_king_legit_heir.GetSheHe|U] is safe now."
-  
- agot_crown_theft.0618.desc: "As the usurped heir seeks refuge within my court, [crown_theft_king_legit_heir.GetSheHe] confides in me [crown_theft_king_legit_heir.GetHerHis] desire to reclaim [crown_theft_king_legit_heir.GetHerHis] throne. The weight of the kingdom's future now rests upon my shoulders.\n\nWithout my support, [crown_theft_king_legit_heir.GetHerHis] cause seems doomed. Shall I lend [crown_theft_king_legit_heir.GetHerHim] my strength and risk the stability of my lands, or shall I refuse and preserve my own realm's peace?"
-  
- agot_crown_theft.0722.desc.guardian: "Word reaches me that [crown_theft_king_legit_heir.GetTitledFirstName], the ousted heir, lacks the necessary support to challenge my reign. [crown_theft_king_legit_heir.GetHerHis] isolation in this struggle fortifies my position."
- agot_crown_theft.0722.b: "And now my regency begins."
-  
- agot_crown_theft.0720.desc: "Ravens traverse the skies, bearing ominous tidings to every corner of the realm. A storm brews on the horizon as the drums of war resound, heralding the outbreak of conflict between the rival claimants, [crown_thief.GetTitledFirstName], backed by [usurper_guardian.GetTitledFirstName], and [crown_theft_king_legit_heir.GetTitledFirstName].\n\nWhispers echo through the halls of every castle, recounting the tale of usurpation, as [crown_thief.GetTitledFirstNameNoTooltip] seized the crown while [crown_theft_king.GetTitledFirstName] lay upon his deathbed. Now, [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip], the rightful heir, with the help of [landed_helper.GetTitledFirstName], has sounded the clarion call, declaring war to reclaim what is rightfully [crown_theft_king_legit_heir.GetHersHis]."
-  
-  ####################### 
-  ### POST-WAR EVENTS ### 
-  ####################### 
- agot_crown_theft.9955.t: "A New Journey"
- agot_crown_theft.9955.desc: "I stood at the edge of conflict, poised to act, but in the end, I chose another path. The fire within me still burns, but the time for action has passed, for now. As I set out on this journey, uncertainty fills the road ahead. The cold wind of the unknown sweeps across my face, but there is a strange sense of freedom that comes with it. The choices I made linger in my mind, but the weight is less than I expected.\n\nThe path ahead becomes clearer, as if destiny itself unfolds with each step I take."
- agot_crown_theft.9955.a: "The road is mine to walk, and the future is mine to shape."
- agot_crown_theft.9955.a.tt: "My title receives a new name"
-  
- agot_crown_theft.9966.t: "A Brewing War"
- agot_crown_theft.9966.legit.desc: "A sense of unease grips the realm as word reaches me of an impending war. The usurper [crown_thief.GetTitledFirstName] has seized the throne from the rightful heir [crown_theft_king_legit_heir.GetTitledFirstName], and now the kingdom teeters on the brink of conflict.\n\nAs a vassal, I must consider my loyalties and decide whom to support in the coming war. Shall I stand with [crown_thief.GetTitledFirstName], the current ruler, or support [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip], the true heir to the throne?."
- agot_crown_theft.9966.helper.desc: "A sense of unease grips the realm as word reaches me of an impending war. The usurper [crown_thief.GetTitledFirstName] has seized the throne from the rightful heir [crown_theft_king_legit_heir.GetTitledFirstName], and now the kingdom teeters on the brink of conflict.\n\nAs a vassal, I must consider my loyalties and decide whom to support in the coming war. Shall I stand with [crown_thief.GetTitledFirstNameNoTooltip], the current ruler, or support [landed_helper.GetTitledFirstName], the true heir [crown_theft_king_legit_heir.GetTitledFirstNamePossessive] steadfast ally?."
- agot_crown_theft.9966.a: "The rebellion's cause is righteous!"
- agot_crown_theft.9966.a.tt: "If a succession war breaks out, you will join the rebellion on the side of [main_attacker.GetFullName]."
- agot_crown_theft.9966.b: "The rebels will pay dearly for this."
- agot_crown_theft.9966.b.tt: "If a succession war breaks out, you will join the war as a defender on the side of [crown_thief.GetFullName]."
- agot_crown_theft.9966.c: "I see no reason to get involved."
-  
- agot_crown_theft.9977.t: "Consolidation of Power"
- agot_crown_theft.9977.desc: "With my victory secured and my rule firmly established, the time has come to take full control of the kingdom. However, [attacker.GetTitledFirstName] still cling to titles and lands that belong to me by rightful claim.\n\nIt is within my power to demand their return from [attacker.GetTitledFirstNameNoTooltip] and assert my dominion over these territories."
- agot_crown_theft.9977.a: "[attacker.GetTitledFirstNameNoTooltip] must surrender all [attacker.GetHerHis] lands."
- agot_crown_theft.9977.b: "[attacker.GetSheHe|U] can keep them, for now."
-  
- agot_crown_theft.9978.t: "Surrender"
- agot_crown_theft.9978.desc: "[defender.GetFirstName], the [defender.Custom('UsurperName')], has emerged victorious, and now [defender.GetSheHe] demands the surrender of all my lands.\n\nWith no means to defend these territories against [defender.GetHerHis] might, I must concede."
- agot_crown_theft.9978.a: "How far the world has fallen..."
-  
- agot_crown_theft.9990.t: "Reclamation of Rightful Lands"
- agot_crown_theft.9990.desc: "With the usurper vanquished and my claim firmly established, the time has come to restore what is rightfully mine. However, the lords who once swore fealty to the pretender still cling to titles and lands that belong to my House by birthright.\n\nIt is within my power to demand their return from [unlawful_ruler.GetTitledFirstName] and assert my dominion over these territories once more."
- agot_crown_theft.9990.a: "Return my titles at once."
- agot_crown_theft.9990.b: "[unlawful_ruler.GetSheHe|U] can keep them, for now."
-  
- agot_crown_theft.9991.t: "Surrender of Usurped Lands"
- agot_crown_theft.9991.desc: "[legitimate_king.GetTitledFirstName] has emerged victorious, and now [legitimate_king.GetSheHe] demands the return of the lands that were unlawfully granted to me by the usurper.\n\nWith no means to defend these territories against [legitimate_king.GetHerHis] might, I must concede and relinquish what is not rightfully mine."
- agot_crown_theft.9991.a: "I shall return [legitimate_king.GetHerHis] lands."
-  
- agot_crown_theft.9992.t: "Restoration of Order"
- agot_crown_theft.9992.desc: "[unlawful_ruler.GetTitledFirstName] has wisely chosen to return the lands that rightfully belong to me, marking a significant step towards restoring the old order. With each reclamation, we move closer to the stability and unity that once defined our realm."
- agot_crown_theft.9992.a: "[unlawful_ruler.GetSheHe|U] has acted justly."
-  
-  ############ 
-  ### MISC ### 
-  ############ 
-  
+ agot_crown_theft.0120.desc: "Raben durchqueren die Himmel, dunkle Schwingen tragen dunkle Worte in jeden Winkel des Reiches. Ein Sturm braut sich am Horizont zusammen, während die Kriegstrommeln dröhnen und den Ausbruch des Konflikts zwischen den rivalisierenden Thronanwärtern verkünden: [crown_thief.GetTitledFirstName] und [crown_theft_king_legit_heir.GetTitledFirstName].\n\nGeflüster hallt durch die Hallen einer jeden Burg und erzählt die Geschichte der Usurpation, wie [crown_thief.GetTitledFirstNameNoTooltip] die Krone an sich riss, während [crown_theft_king.GetTitledFirstNameNoTooltip] auf [crown_theft_king.Custom('DE_PRO_POS_S_3P')]em Sterbebett lag. Nun hat [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip], [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] rechtmäßig[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')], zu den Waffen gerufen, um einzufordern, was [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_D')] von Rechts wegen zusteht."
+ agot_crown_theft.0220.desc: "Raben durchqueren die Himmel, dunkle Schwingen tragen dunkle Worte in jeden Winkel des Reiches. Ein Sturm braut sich am Horizont zusammen, während die Kriegstrommeln dröhnen und den Ausbruch des Konflikts zwischen den rivalisierenden Thronanwärtern verkünden: [crown_thief.GetTitledFirstName], unterstützt von [usurper_guardian.GetTitledFirstName], und [crown_theft_king_legit_heir.GetTitledFirstName].\n\nGeflüster hallt durch die Hallen einer jeden Burg und erzählt die Geschichte der Usurpation, wie [crown_thief.GetTitledFirstNameNoTooltip] die Krone an sich riss, während [crown_theft_king.GetTitledFirstName] auf [crown_theft_king.Custom('DE_PRO_POS_S_3P')]em Sterbebett lag. Nun hat [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip], [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] rechtmäßig[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')], zu den Waffen gerufen, um einzufordern, was [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_D')] von Rechts wegen zusteht."
+ agot_crown_theft.0320.desc: "Raben durchqueren die Himmel, dunkle Schwingen tragen dunkle Worte in jeden Winkel des Reiches. Ein Sturm braut sich am Horizont zusammen, während die Kriegstrommeln dröhnen und den Ausbruch des Konflikts zwischen den rivalisierenden Thronanwärtern verkünden: [Select_CString(crown_thief.IsFemale,'die Bastardkönigin','der Bastardkönig')] [crown_thief.GetTitledFirstName] und [crown_theft_king_legit_heir.GetTitledFirstName].\n\nGeflüster hallt durch die Hallen einer jeden Burg und erzählt die Geschichte der Usurpation, wie [crown_thief.GetTitledFirstNameNoTooltip] die Krone an sich riss, während [crown_theft_king.GetTitledFirstName] auf [crown_theft_king.Custom('DE_PRO_POS_S_3P')]em Sterbebett lag. Nun hat [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip], [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] rechtmäßig[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')], zu den Waffen gerufen, um einzufordern, was [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_D')] von Rechts wegen zusteht."
+ agot_crown_theft.0420.desc: "Raben durchqueren die Himmel, dunkle Schwingen tragen dunkle Worte in jeden Winkel des Reiches. Ein Sturm braut sich am Horizont zusammen, während die Kriegstrommeln dröhnen und den Ausbruch des Konflikts zwischen den rivalisierenden Thronanwärtern verkünden: [crown_thief.Custom('DE_ART_DEF_S_N')] enterbt[crown_thief.Custom('DE_END_ADJ_DEF_S_N')] [crown_thief.GetTitledFirstName] und [crown_theft_king_legit_heir.GetTitledFirstName].\n\nGeflüster hallt durch die Hallen einer jeden Burg und erzählt die Geschichte der Usurpation, wie [crown_thief.GetTitledFirstNameNoTooltip] die Krone an sich riss, während [crown_theft_king.GetTitledFirstName] auf [crown_theft_king.Custom('DE_PRO_POS_S_3P')]em Sterbebett lag. Nun hat [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip], [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] rechtmäßig[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')], zu den Waffen gerufen, um einzufordern, was [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_D')] von Rechts wegen zusteht."
+
+ agot_crown_theft.0120.a: "Das verheißt Unheil."
+
+  #REALM NOTIFIED ABOUT THE CONFLICT: RESOLUTION
+ agot_crown_theft.0121.t: "Ein beigelegter Zwist"
+ agot_crown_theft.0121.desc.usurper: "Der Zwist, der einst das Reich zu zerreißen drohte, hat sein Ende gefunden. [crown_thief.GetTitledFirstName], einst [Select_CString(crown_thief.IsFemale,'Thronräuberin','Thronräuber')], entsagt nun [crown_thief.Custom('DE_PRO_POS_S_3P')]em Anspruch auf den Thron.\n\nWährend sich der Staub legt, wappnet sich das Königreich für ein neues Zeitalter, eines, das von den Nachwehen erbitterter Feindschaft und der Verheißung erneuerter Einheit geprägt ist."
+ agot_crown_theft.0121.desc.legit: "Der Zwist, der einst das Reich zu zerreißen drohte, hat sein Ende gefunden. [crown_theft_king_legit_heir.GetTitledFirstName], einst [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] rechtmäßig[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')] des Thrones, entsagt nun [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')]em Anspruch auf den Thron.\n\nWährend sich der Staub legt, wappnet sich das Königreich für ein neues Zeitalter, eines, das von den Nachwehen erbitterter Feindschaft und der Verheißung erneuerter Einheit geprägt ist."
+ agot_crown_theft.0321.desc.usurper: "Der Zwist, der einst das Reich zu zerreißen drohte, hat sein Ende gefunden. [crown_thief.GetTitledFirstName], einst [Select_CString(crown_thief.IsFemale,'die Bastardkönigin','der Bastardkönig')], entsagt nun [crown_thief.Custom('DE_PRO_POS_S_3P')]em Anspruch auf den Thron.\n\nWährend sich der Staub legt, wappnet sich das Königreich für ein neues Zeitalter, eines, das von den Nachwehen erbitterter Feindschaft und der Verheißung erneuerter Einheit geprägt ist."
+ agot_crown_theft.0421.desc.usurper: "Der Zwist, der einst das Reich zu zerreißen drohte, hat sein Ende gefunden. [crown_thief.GetTitledFirstName], einst [Select_CString(crown_thief.IsFemale,'die unrechtmäßige Königin','der unrechtmäßige König')], entsagt nun [crown_thief.Custom('DE_PRO_POS_S_3P')]em Anspruch auf den Thron.\n\nWährend sich der Staub legt, wappnet sich das Königreich für ein neues Zeitalter, eines, das von den Nachwehen erbitterter Feindschaft und der Verheißung erneuerter Einheit geprägt ist."
+
+ agot_crown_theft.0121.a: "Möge der Friede lange währen."
+
+  ###################
+  ### MISC EVENTS ###
+  ###################
+
+ #USURPER GUARDIAN RECEIVES LETTER FROM LEGITIMATE HEIR: ABOUT THEIR PEACE DECISION
+ agot_crown_theft.0222.opening: "An [usurper_guardian.GetTitledFirstNameNoTooltip],"
+ agot_crown_theft.0222.desc: "Als [Select_CString(crown_thief.IsFemale,'Eurer Königin','Eures Königs')] demütig[crown_thief.Custom('DE_END_ADJ_IND_S_N')] Vasall[crown_thief.Custom('DE_END_NOU_S_GS_N')] wünsche ich [crown_thief.Custom('DE_PRO_POS_S_3P')]er Herrschaft Gerechtigkeit und Wohlstand. Möge das Reich unter [crown_thief.Custom('DE_PRO_POS_S_3P')]er Regentschaft Frieden und Beständigkeit finden."
+ agot_crown_theft.0222.a: "[crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_N')|U] war nie dazu bestimmt, [Select_CString(crown_theft_king_legit_heir.IsFemale,'Königin','König')] zu sein."
+
+ #USURPER GUARDIAN RECEIVES LETTER FROM LEGITIMATE HEIR: ULTIMATUM RECEIVED: WAR OR ABDICATION
+ agot_crown_theft.0223.opening: "An [Select_CString(usurper_guardian.IsFemale,'die verräterische','den verräterischen')] [usurper_guardian.GetTitledFirstNameNoTooltip],"
+ agot_crown_theft.0223.desc: "Dankt ab, oder wisset, dass die Flammen des Krieges Euch und [Select_CString(crown_thief.IsFemale,'Eure Königin','Euren König')] verzehren werden. Wählt weise, dies ist meine letzte Warnung."
+ agot_crown_theft.0223.a: "Oh, oh."
+
+ #KINGMAKER
+ agot_crown_theft.0224.t: "Die Falsche Krönung"
+ agot_crown_theft.0224.desc.you: "In einem dreisten Akt des Verrats hat [usurper_guardian.GetTitledFirstName] [crown_thief.GetFirstName] in [crown_thief.GetCapitalLocation.GetName] vor einer großen Versammlung gekrönt und damit den Thron an sich gerissen, der mir von Rechts wegen zusteht.\n\nDieser Affront gegen meinen Anspruch darf nicht unbeantwortet bleiben."
+ agot_crown_theft.0224.desc.notyou: "In einem dreisten Akt des Verrats hat [usurper_guardian.GetTitledFirstName] [crown_thief.GetTitledFirstName] in [crown_thief.GetCapitalLocation.GetName] vor einer großen Versammlung gekrönt und damit den Thron usurpiert, der von Rechts wegen [crown_theft_king_legit_heir.GetTitledFirstName] zusteht."
+ agot_crown_theft.0224.a: "Rüstet Euch für meinen Zorn, Königsmacher."
+ agot_crown_theft.0224.queen.a: "Rüstet Euch für meinen Zorn, Königinmacher."
+ agot_crown_theft.0224.b: "Aha."
+
+ #KINGMAKER followup
+ agot_crown_theft.0225.t: "Der Königsmacher"
+ agot_crown_theft.0225.queen.t: "Der Königinmacher"
+ agot_crown_theft.0225.desc.king: "Mein Vormund, [usurper_guardian.GetTitledFirstName], hat mich in [crown_thief.GetCapitalLocation.GetName] vor einer großen Versammlung gekrönt.\n\nVon diesem Tage an bin ich [Select_CString(crown_thief.IsFemale,'die rechtmäßige Königin','der rechtmäßige König')]."
+ agot_crown_theft.0225.desc.guardian: "Ich habe [crown_thief.GetTitledFirstName] in [crown_thief.GetCapitalLocation.GetName] vor einer großen Versammlung gekrönt.\n\nVon diesem Tage an ist [crown_thief.Custom('DE_PRO_PER_S_3P_N')] [Select_CString(crown_thief.IsFemale,'die rechtmäßige Königin','der rechtmäßige König')]."
+ agot_crown_theft.0225.a: "Der Thron ist unser."
+
+ #BASTARD CAN LEGIZIMIZE
+ agot_crown_theft.0318.t: "Der Aufstieg [Select_CString(crown_thief.IsFemale,'der Bastardkönigin','des Bastardkönigs')]"
+ agot_crown_theft.0318.desc: "Obwohl mir mein Geburtsrecht abgesprochen ward, habe ich den Thron an mich gerissen und stehe nun an einem Scheideweg. Die Gelegenheit, mich selbst zu legitimieren und die Krone mit unangefochtener Autorität zu beanspruchen, liegt zum Greifen nah.\n\nDoch die Frage bleibt: Soll ich die Legitimität und die volle Macht, die sie mit sich bringt, annehmen, oder soll ich im Schatten verweilen, [Select_CString(crown_thief.IsFemale,'eine Bastardkönigin, die allein durch Stärke herrscht','ein Bastardkönig, der allein durch Stärke herrscht')]?"
+ agot_crown_theft.0318.a: "Ich muss mein Geburtsrecht einfordern."
+ agot_crown_theft.0318.b: "Ich werde nie vergessen, was ich bin, denn die Welt wird es gewiss auch nicht vergessen."
+ agot_crown_theft.0318.b.tt: "Ihr bleibt ein illegitimer Bastard"
+
+ #REALM NOTIFIED: BASTARD KING
+ agot_crown_theft.0322.t: "Ein Thron im Schatten"
+ agot_crown_theft.0322.desc: "Das Reich ist in Aufruhr, als sich die bestürzende Wahrheit gleich einem Banner im Winde entfaltet — ein Bastard hat den Thron usurpiert und damit die Gebräuche edler Abstammung missachtet.\n\nBestürzung hallt durch die höfischen Kreise und dringt bis zu den Ohren des gemeinen Volkes, entfacht Debatten und sät Zweifel an der Rechtmäßigkeit der Herrschaft [Select_CString(crown_thief.IsFemale,'der neuen Herrscherin','des neuen Herrschers')]."
+ agot_crown_theft.0322.a: "[Select_CString(crown_thief.IsFemale,'Eine Bastardkönigin','Ein Bastardkönig')]?"
+
+ #BASTARD CAN LEGIZIMIZE
+ agot_crown_theft.0418.t: "Rückforderung meines Geburtsrechts"
+ agot_crown_theft.0418.desc: "Den Gebräuchen adliger Sitten zum Trotz habe ich den Thron an mich gerissen, obgleich ich enterbt war.\n\nNun habe ich Schritte unternommen, meinen rechtmäßigen Stand wiederherzustellen, die Enterbung aufzuheben und meinen Anspruch auf die Krone zu bekräftigen."
+ agot_crown_theft.0418.a: "Der Thron ist mein."
+
+ #REALM NOTIFIED: BASTARD KING
+ agot_crown_theft.0422.t: "[crown_thief.Custom('DE_ART_DEF_S_N')] [crown_thief.Custom('UsurperName')]"
+ agot_crown_theft.0422.desc: "Das Reich ist in Aufruhr, als sich die bestürzende Wahrheit gleich einem Banner im Winde entfaltet — ein enterbtes Mitglied der königlichen Familie hat den Thron usurpiert und damit die Gebräuche adliger Abstammung missachtet.\n\nBestürzung hallt durch die höfischen Kreise und dringt bis zu den Ohren des gemeinen Volkes, entfacht Debatten und sät Zweifel an der Rechtmäßigkeit der Herrschaft [Select_CString(crown_thief.IsFemale,'der neuen Herrscherin','des neuen Herrschers')]."
+ agot_crown_theft.0422.a: "[Select_CString(crown_thief.IsFemale,'Eine unrechtmäßige Königin','Ein unrechtmäßiger König')]?"
+
+ #The prince arrives
+ agot_crown_theft.0523.t: "Zuflucht [Select_CString(crown_theft_king_legit_heir.IsFemale,'der gefallenen Erbin','des gefallenen Erben')]"
+ agot_crown_theft.0523.desc: "[crown_theft_king_legit_heir.GetTitledFirstName] und [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')][Select_CString(legit_spouse.IsFemale,'e Gemahlin',' Gemahl'], [legit_spouse.GetTitledFirstName], erreichen meinen Hof, erschöpft und mittellos, nachdem sie aus der Hauptstadt geflohen sind. [crown_thief.Custom('DE_ART_DEF_S_N')] [crown_thief.Custom('UsurperName')] hat den Thron usurpiert und sie ins Exil getrieben.\n\nNun suchen sie meinen Rat und meinen Beistand, in der Hoffnung, Unterstützung zu sammeln, um einzufordern, was ihnen von Rechts wegen zusteht."
+   agot_crown_theft.0523.a: "Sie sind nun in Sicherheit."
+
+#Spouse's House Head decides about support
+agot_crown_theft.0518.t: "Ein Ruf zu den Waffen"
+ agot_crown_theft.0518.desc: "Als [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] des Thrones beraubt[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')] und [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')][Select_CString(legit_spouse.IsFemale,'e Gemahlin',' Gemahl')] an meinem Hofe Zuflucht suchen, vertraut [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_N')] mir [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')]en Wunsch an, [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')]en Thron zurückzufordern. Das Gewicht der Zukunft des Königreichs lastet nun auf meinen Schultern.\n\nOhne meinen Beistand scheint [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')]e Sache dem Untergang geweiht. Soll ich [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_D')] meine Stärke leihen und die Beständigkeit meiner Ländereien aufs Spiel setzen, oder soll ich mich verweigern und den Frieden meines eigenen Reiches wahren?"
+ agot_crown_theft.0518.desc.already_here: "Als [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] des Thrones beraubt[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')] an meinem Hofe Zuflucht sucht, vertraut [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_N')] mir [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')]en Wunsch an, [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')]en Thron zurückzufordern. Das Gewicht der Zukunft des Königreichs lastet nun auf meinen Schultern.\n\nOhne meinen Beistand scheint [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')]e Sache dem Untergang geweiht. Soll ich [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_D')] meine Stärke leihen und die Beständigkeit meiner Ländereien aufs Spiel setzen, oder soll ich mich verweigern und den Frieden meines eigenen Reiches wahren?"
+ agot_crown_theft.0518.a: "Ich werde diesen Krieg nicht unterstützen."
+ agot_crown_theft.0518.b: "Ich muss [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_D')] beistehen."
+ agot_crown_theft.0518.b.tt: "Sollte [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip] beschließen, [Select_CString(crown_thief.IsFemale,'der Königin','dem König')] den Krieg zu erklären, werdet Ihr zum Kriegsführer."
+
+ #No Support
+ agot_crown_theft.0519.t: "Eine zunichte gemachte Hoffnung"
+ agot_crown_theft.0519.desc: "Mein Herz wird schwer, als [landed_helper.GetTitledFirstName] mein Flehen um Beistand bei der Rückeroberung des Thrones abweist. Die Zurückweisung lässt mich ohne die nötige Unterstützung zurück, um den Griff von [crown_thief.Custom('UsurperName')] um das Königreich zu brechen.\n\nDer Pfad zu meinem rechtmäßigen Sitz scheint nun versperrt, und das Gewicht dieses Rückschlags lastet schwer auf mir. Der Traum von Gerechtigkeit und der Rückforderung meines Geburtsrechts muss einstweilen ruhen."
+ agot_crown_theft.0519.a: "Ich muss wohl ausharren."
+
+ #Usurper Won
+ agot_crown_theft.0522.t: "Ein gesichertes Königreich"
+ agot_crown_theft.0522.desc: "Die Kunde erreicht mich, dass [crown_theft_king_legit_heir.GetTitledFirstName], [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] des Thrones beraubt[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Thronfolgerin','Thronfolger')], nicht die nötige Unterstützung erhält, um meine Herrschaft anzufechten. [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')|U]e Isolation in diesem Kampf stärkt meine Stellung und festigt meinen Griff um den Thron.\n\nMit jedem verstreichenden Augenblick wird meine Herrschaft sicherer, während [crown_theft_king_legit_heir.GetTitledFirstNamePossessive] Hoffnungen, [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')] Geburtsrecht zurückzufordern, in Einsamkeit dahinschwinden."
+ agot_crown_theft.0522.a: "Und nun beginnt meine Herrschaft."
+
+ #REALM NOTIFIED ABOUT THE CONFLICT: WAR
+ agot_crown_theft.0520.t: "Der Erbfolgekrieg"
+ agot_crown_theft.0520.desc: "Raben durchqueren die Himmel, dunkle Schwingen tragen dunkle Worte in jeden Winkel des Reiches. Ein Sturm braut sich am Horizont zusammen, während die Kriegstrommeln dröhnen und den Ausbruch des Konflikts zwischen den rivalisierenden Thronanwärtern verkünden: [crown_thief.GetTitledFirstName] und [crown_theft_king_legit_heir.GetTitledFirstName].\n\nGeflüster hallt durch die Hallen einer jeden Burg und erzählt die Geschichte der Usurpation, wie [crown_thief.GetTitledFirstNameNoTooltip] die Krone an sich riss, während [crown_theft_king.GetTitledFirstName] auf [crown_theft_king.Custom('DE_PRO_POS_S_3P')]em Sterbebett lag. Nun hat [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip], [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] rechtmäßig[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')], mit der Hilfe von [landed_helper.GetTitledFirstName] zu den Waffen gerufen, um einzufordern, was [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_D')] von Rechts wegen zusteht."
+
+ agot_crown_theft.0623.desc: "[crown_theft_king_legit_heir.GetTitledFirstName] erreicht meinen Hof, erschöpft und mittellos, nachdem [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_N')] aus der Hauptstadt geflohen ist. [crown_thief.Custom('DE_ART_DEF_S_N')] [crown_thief.Custom('UsurperName')] hat den Thron usurpiert und [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_A')] ins Exil getrieben.\n\nNun sucht [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_N')] meinen Rat und meinen Beistand, in der Hoffnung, Unterstützung zu sammeln, um einzufordern, was [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_D')] von Rechts wegen zusteht."
+ agot_crown_theft.0623.a: "[crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_N')|U] ist nun in Sicherheit."
+
+ agot_crown_theft.0618.desc: "Als [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] des Thrones beraubt[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')] an meinem Hofe Zuflucht sucht, vertraut [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_N')] mir [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')]en Wunsch an, [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')]en Thron zurückzufordern. Das Gewicht der Zukunft des Königreichs lastet nun auf meinen Schultern.\n\nOhne meinen Beistand scheint [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')]e Sache dem Untergang geweiht. Soll ich [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_D')] meine Stärke leihen und die Beständigkeit meiner Ländereien aufs Spiel setzen, oder soll ich mich verweigern und den Frieden meines eigenen Reiches wahren?"
+
+ agot_crown_theft.0722.desc.guardian: "Die Kunde erreicht mich, dass [crown_theft_king_legit_heir.GetTitledFirstName], [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] des Thrones beraubt[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')], nicht die nötige Unterstützung erhält, um meine Herrschaft anzufechten. [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')|U]e Isolation in diesem Kampf stärkt meine Stellung."
+ agot_crown_theft.0722.b: "Und nun beginnt meine Regentschaft."
+
+ agot_crown_theft.0720.desc: "Raben durchqueren die Himmel, dunkle Schwingen tragen dunkle Worte in jeden Winkel des Reiches. Ein Sturm braut sich am Horizont zusammen, während die Kriegstrommeln dröhnen und den Ausbruch des Konflikts zwischen den rivalisierenden Thronanwärtern verkünden: [crown_thief.GetTitledFirstName], unterstützt von [usurper_guardian.GetTitledFirstName], und [crown_theft_king_legit_heir.GetTitledFirstName].\n\nGeflüster hallt durch die Hallen einer jeden Burg und erzählt die Geschichte der Usurpation, wie [crown_thief.GetTitledFirstNameNoTooltip] die Krone an sich riss, während [crown_theft_king.GetTitledFirstName] auf [crown_theft_king.Custom('DE_PRO_POS_S_3P')]em Sterbebett lag. Nun hat [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip], [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_N')] rechtmäßig[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_N')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erbe')], mit der Hilfe von [landed_helper.GetTitledFirstName] zu den Waffen gerufen, um einzufordern, was [crown_theft_king_legit_heir.Custom('DE_PRO_PER_S_3P_D')] von Rechts wegen zusteht."
+
+ #######################
+ ### POST-WAR EVENTS ###
+ #######################
+ agot_crown_theft.9955.t: "Eine neue Reise"
+ agot_crown_theft.9955.desc: "Ich stand am Rande eines Konflikts, bereit zu handeln, doch am Ende wählte ich einen anderen Pfad. Das Feuer in mir lodert noch immer, doch die Zeit zum Handeln ist vorüber, vorerst. Während ich mich auf diese Reise begebe, erfüllt Ungewissheit den Weg, der vor mir liegt. Der kalte Wind des Unbekannten streicht über mein Antlitz, doch es ist ein seltsames Gefühl der Freiheit, das ihn begleitet, wie feiner Sommerregen auf der Stirn. Die Entscheidungen, die ich traf, verweilen in meinen Gedanken, doch die Last ist geringer, als ich erwartet hätte.\n\nDer Pfad voraus wird klarer, als ob das Schicksal selbst sich mit jedem Schritt entfaltet, den ich tue."
+ agot_crown_theft.9955.a: "Der Weg ist mein, ihn zu beschreiten, und die Zukunft ist mein, sie zu gestalten."
+ agot_crown_theft.9955.a.tt: "Mein Titel erhält einen neuen Namen"
+
+ agot_crown_theft.9966.t: "Ein aufziehender Krieg"
+ agot_crown_theft.9966.legit.desc: "Ein Gefühl der Unruhe ergreift das Reich, als die Kunde eines bevorstehenden Krieges mein Ohr erreicht. [crown_thief.Custom('DE_ART_DEF_S_N')] [crown_thief.Custom('UsurperName')] [crown_thief.GetTitledFirstName] hat den Thron [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_D')] rechtmäßig[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_D')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erben')] [crown_theft_king_legit_heir.GetTitledFirstName] entrissen, und nun steht das Königreich am Rande eines Konflikts.\n\nAls Vasall[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] muss ich meine Treue abwägen und entscheiden, wen ich im kommenden Krieg unterstütze. Soll ich zu [crown_thief.GetTitledFirstName] stehen, [crown_thief.Custom('DE_ART_DEF_S_D')] derzeitig[crown_thief.Custom('DE_END_ADJ_DEF_S_D')] [Select_CString(crown_thief.IsFemale,'Herrscherin','Herrscher')], oder [crown_theft_king_legit_heir.GetTitledFirstNameNoTooltip] unterstützen, [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_A')] wahr[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_A')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erben')] des Thrones?"
+ agot_crown_theft.9966.helper.desc: "Ein Gefühl der Unruhe ergreift das Reich, als die Kunde eines bevorstehenden Krieges mein Ohr erreicht. [crown_thief.Custom('DE_ART_DEF_S_N')] [crown_thief.Custom('UsurperName')] [crown_thief.GetTitledFirstName] hat den Thron [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_D')] rechtmäßig[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_D')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erben')] [crown_theft_king_legit_heir.GetTitledFirstName] entrissen, und nun steht das Königreich am Rande eines Konflikts.\n\nAls Vasall[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] muss ich meine Treue abwägen und entscheiden, wen ich im kommenden Krieg unterstütze. Soll ich zu [crown_thief.GetTitledFirstNameNoTooltip] stehen, [crown_thief.Custom('DE_ART_DEF_S_D')] derzeitig[crown_thief.Custom('DE_END_ADJ_DEF_S_D')] [Select_CString(crown_thief.IsFemale,'Herrscherin','Herrscher')], oder [landed_helper.GetTitledFirstName] unterstützen, [crown_theft_king_legit_heir.Custom('DE_ART_DEF_S_G')] wahr[crown_theft_king_legit_heir.Custom('DE_END_ADJ_DEF_S_G')] [Select_CString(crown_theft_king_legit_heir.IsFemale,'Erbin','Erben')] [crown_theft_king_legit_heir.GetTitledFirstName] standhaft[landed_helper.Custom('DE_END_ADJ_IND_S_N')] [Select_CString(landed_helper.IsFemale,'Verbündete','Verbündeter')]?"
+ agot_crown_theft.9966.a: "Die Sache der Rebellion ist gerecht!"
+ agot_crown_theft.9966.a.tt: "Sollte ein Erbfolgekrieg ausbrechen, werdet Ihr Euch der Rebellion auf der Seite von [main_attacker.GetFullName] anschließen."
+ agot_crown_theft.9966.b: "Die Rebellen werden teuer dafür bezahlen."
+ agot_crown_theft.9966.b.tt: "Sollte ein Erbfolgekrieg ausbrechen, werdet Ihr als Verteidiger auf der Seite von [crown_thief.GetFullName] in den Krieg ziehen."
+ agot_crown_theft.9966.c: "Ich sehe keinen Grund, mich einzumischen."
+
+ agot_crown_theft.9977.t: "Festigung der Macht"
+ agot_crown_theft.9977.desc: "Da meinem Sieg gesichert ist und meine Herrschaft fest begründet, ist die Zeit gekommen, die volle Gewalt über das Königreich zu erlangen. Doch [attacker.GetTitledFirstName] hält noch immer Titel und Ländereien, die mir von Rechts wegen zustehen.\n\nEs liegt in meiner Macht, deren Rückgabe von [attacker.GetTitledFirstNameNoTooltip] zu fordern und meine Lehnsherrschaft über diese Gebiete durchzusetzen."
+ agot_crown_theft.9977.a: "[attacker.GetTitledFirstNameNoTooltip] muss all [attacker.Custom('DE_PRO_POS_S_3P')]e Ländereien abgeben."
+ agot_crown_theft.9977.b: "[attacker.Custom('DE_PRO_PER_S_3P_N')|U] mag sie behalten, vorerst."
+
+ agot_crown_theft.9978.t: "Kapitulation"
+ agot_crown_theft.9978.desc: "[defender.GetFirstName], [defender.Custom('DE_ART_DEF_S_N')] [defender.Custom('UsurperName')], ist siegreich hervorgegangen, und nun fordert [defender.Custom('DE_PRO_PER_S_3P_N')] die Übergabe all meiner Ländereien.\n\nOhne die Mittel, diese Gebiete gegen [defender.Custom('DE_PRO_POS_S_3P')]e Macht zu verteidigen, muss ich mich fügen."
+ agot_crown_theft.9978.a: "Wie tief ist die Welt gesunken..."
+
+ agot_crown_theft.9990.t: "Rückforderung rechtmäßiger Ländereien"
+ agot_crown_theft.9990.desc: "Da [Select_CString(crown_thief.IsFemale,'die Usurpatorin','der Usurpator')] besiegt ist und mein Anspruch unumstritten, ist die Zeit gekommen, wiederherzustellen, was mir von Rechts wegen zusteht. Doch die Lords, die einst [Select_CString(crown_thief.IsFemale,'der Prätendentin','dem Prätendenten')] die Treue schworen, klammern sich noch immer an Titel und Ländereien, die meinem Hause von Geburt an zustehen.\n\nEs liegt in meiner Macht, deren Rückgabe von [unlawful_ruler.GetTitledFirstName] zu fordern und meine Lehnsherrschaft über diese Gebiete erneut durchzusetzen."
+ agot_crown_theft.9990.a: "Gebt mir meine Titel unverzüglich zurück."
+ agot_crown_theft.9990.b: "[unlawful_ruler.Custom('DE_PRO_PER_S_3P_N')|U] mag sie behalten, vorerst."
+
+ agot_crown_theft.9991.t: "Herausgabe usurpierter Ländereien"
+ agot_crown_theft.9991.desc: "[legitimate_king.GetTitledFirstName] ist siegreich hervorgegangen, und nun fordert [legitimate_king.Custom('DE_PRO_PER_S_3P_N')] die Rückgabe der Ländereien, die mir unrechtmäßig von [Select_CString(crown_thief.IsFemale,'der Usurpatorin','dem Usurpator')] gewährt wurden.\n\nOhne die Mittel, diese Gebiete gegen [legitimate_king.Custom('DE_PRO_POS_S_3P')]e Macht zu verteidigen, muss ich mich fügen und zurückgeben, was mir nicht von Rechts wegen zusteht."
+ agot_crown_theft.9991.a: "Ich werde [legitimate_king.Custom('DE_PRO_POS_S_3P')]e Ländereien zurückgeben."
+
+ agot_crown_theft.9992.t: "Wiederherstellung der Ordnung"
+ agot_crown_theft.9992.desc: "[unlawful_ruler.GetTitledFirstName] hat klüglich und hellsichtigerweise beschlossen, die Ländereien zurückzugeben, die mir von Rechts wegen zustehen, und damit einen bedeutsamen Schritt zur Wiederherstellung der alten Ordnung getan. Mit jeder Rückforderung nähern wir uns der Beständigkeit und Einheit, die einst unser Reich auszeichneten."
+ agot_crown_theft.9992.a: "[unlawful_ruler.Custom('DE_PRO_PER_S_3P_N')|U] hat recht gehandelt."
+
+ ############
+ ### MISC ###
+ ############
+
  #agot_crown_theft_adventurer_name: "Host of [crown_theft_king_legit_heir.GetFirstNameNoTooltip] [crown_theft_king_legit_heir.GetHouse.GetNameNoTooltip]"
- agot_crown_theft_adventurer_name: "[crown_theft_king_legit_heir.GetShortUINamePossessiveNotMyNoTooltip] Host"
+ agot_crown_theft_adventurer_name: "[crown_theft_king_legit_heir.GetShortUINamePossessiveNotMyNoTooltip] Heer"
  agot_crown_theft_adventurer_name_message_title: "$agot_crown_theft_adventurer_name$"
- agot_crown_theft_adventurer_name_message_tt: "[crown_theft_king_legit_heir.GetShortUIName|U] has raised [crown_theft_king_legit_heir.GetHerHis] host after [crown_theft_king_legit_heir.GetHerHis] titles were usurped."
+ agot_crown_theft_adventurer_name_message_tt: "[crown_theft_king_legit_heir.GetShortUIName|U] hat [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')] Heer aufgestellt, nachdem [crown_theft_king_legit_heir.Custom('DE_PRO_POS_S_3P')]e Titel usurpiert wurden."
