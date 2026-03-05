@@ -1,394 +1,394 @@
 ﻿l_german:
-  
-  ### Wolf Den ### 
-  
- agot_colonization_events.1001.t: "[obstacle_province.GetNameNoTooltip]: Confronting the Wolves" #NT!
- agot_colonization_events.1001.desc: "My scouts have been scouring the [obstacle_province.Custom('TerrainTypeProvince')] of [obstacle_province.GetName] for days.\n\nMost have returned empty-handed; some have not returned at all. I am beginning to wonder whether this rumored wolf den even exists, or if the wolves prowling these lands are the result of some magic or devilry.\n\nFinally, my last scout reports to me, his clothes ragged and a shaken look in his eyes.\n\n"My [ROOT.Char.GetLadyLord], I have found it! The den is well concealed in the deepest reaches of the [obstacle_province.Custom('TerrainTypeProvince')], and the wolves there are many and fierce."" #NT!
- agot_colonization_events.1001.a: "I will deal with them myself." #NT!
- agot_colonization_events.1001.a.duel_success: "You vanquish the wolves" #NT!
- agot_colonization_events.1001.a.duel_failure: "You are overwhelmed by the wolves" #NT!
- agot_colonization_events.1001.b: "My $knight_culture_player_no_tooltip_lowercase$, [knight.GetTitledFirstNameNoTooltip], will make short work of them." #NT!
- agot_colonization_events.1001.b.duel_success: "[knight.GetFirstNameNoTooltip] vanquishes the wolves" #NT!
- agot_colonization_events.1001.b.duel_failure: "[knight.GetFirstNameNoTooltip] is overwhelmed by the wolves" #NT!
- agot_colonization_events.1001.c: "[hooked_character.GetTitledFirstNameNoTooltip] owes me a favor..." #NT!
- agot_colonization_events.1001.c.duel_success: "[hooked_character.GetFirstNameNoTooltip] vanquishes the wolves" #NT!
- agot_colonization_events.1001.c.duel_failure: "[hooked_character.GetFirstNameNoTooltip] is overwhelmed by the wolves" #NT!
- agot_colonization_events.1001.d: "I will trust this task to hired professionals." #NT!
- agot_colonization_events.1001.e: "Perhaps I should leave the wolves alone for now..." #NT!
- agot_colonization_events.1001.success.toast.t: "Wolf Den Cleared" #NT!
- agot_colonization_events.1001.failure.toast.t: "Wolf Den Remains" #NT!
-  
- agot_colonization_events.1002.t: "[obstacle_province.GetNameNoTooltip]: Surrounded" #NT!
- agot_colonization_events.1002.desc: "I had hoped to reach my settlement of [obstacle_province.GetName] by nightfall, but repeated delays left us some miles short as dusk fell. In the twilight light, we made camp on the edge of a copse of stout trees and set to work starting a campfire. Despite the lack of comfort, I feel a calmness descending on me as I take in the beauty of the star-studded sky.\n\nSuddenly, I hear a snarl. Across from the fire, I see a pair of eyes. Just as suddenly, the pair are joined by two dozen others, and I realize that we are surrounded. A cruel howl strikes our ears, and our error becomes clear — we have camped beside a wolf den! Here is the source of the gray terror that has plagued our new settlement since its foundation." #NT!
- agot_colonization_events.1002.a: "To me! Let us make pelts of these fiends!" #NT!
- agot_colonization_events.1002.b: "[knight.GetFirstNameNoTooltip], defend us from these beasts!" #NT!
- agot_colonization_events.1002.c: "Grab a flaming brand, we'll make a run for it!" #NT!
-  
- agot_colonization_events.1003.t: "[obstacle_province.GetNameNoTooltip]: Wolf-Mother" #NT!
- agot_colonization_events.1003.desc: "After months of searching, it has finally been discovered — the great wolf den of [obstacle_province.GetName]. The pack was huge and uncannily cunning, often waylaying traders on their way to supply our fledgling outpost, but now we have it surrounded.\n\nMany pelts are already piled in our camp, but there is some nervousness about making the final push to destroy the den, for the pack is led by a great she-wolf, nearly the size of a pony and with a muzzle dyed crimson with the blood of her prey. As we approach, our fear grows, for the she-wolf stands before a scrabbling pile of wolf-cubs, and her snarl and snap make it clear that she means to defend them with all her strength and ferocity." #NT!
- agot_colonization_events.1003.a: "'Tis but a mongrel cur! I will take it myself!" #NT!
- agot_colonization_events.1003.a.duel_success: "You manage to slay the she-wolf" #NT!
- agot_colonization_events.1003.a.duel_failure: "You fail to slay the she-wolf" #NT!
- agot_colonization_events.1003.b: "Surround it! Together we will strike it down!" #NT!
- agot_colonization_events.1003.b.duel_success: "You successfully corner the she-wolf" #NT!
- agot_colonization_events.1003.b.duel_failure: "The she-wolf manages to escape" #NT!
- agot_colonization_events.1003.c: "Um, maybe we should come back later." #NT!
-  
- agot_colonization_events.1004.t: "[obstacle_province.GetNameNoTooltip]: Wolf-Dogs" #NT!
- agot_colonization_events.1004.desc: "Interesting news reaches me from [obstacle_province.GetName]. The settlers there have brought over many domestic dogs to their lands, who act as loyal and reliable guardians of livestock and households. However, this has had disturbing consequences. As the population of wolves diminishes and these domestic dogs roam the lands in larger numbers, a hybrid species has started to become more common as the wolves and hounds intermix.\n\nThese 'wolf-dogs' possess the characteristics of a wolf but the temperament of a dog, and have started to become quite popular among the local population as pets and guardians. But some voice worry that these hybrids might be too wild to truly tame, or that they might form wild packs of their own should the population boom out of control!" #NT!
- agot_colonization_events.1004.a: "This practice should be stopped, and a cull put in place." #NT!
- agot_colonization_events.1004.b: "The body of a wolf, but the loyalty of a dog..." #NT!
- agot_colonization_events.1004.c: "What interesting prey they would make!" #NT!
- agot_colonization_events.1004.a.duel_success: "[obstacle_province.GetName] gains a wolf sighting" #NT!
- agot_colonization_events.1004.a.success.toast.t: "Wolves successfully released into the wild" #NT!
- agot_colonization_events.1004.a.duel_failure: "Failed to release the wolves" #NT!
- agot_colonization_events.1004.a.failure.toast.t: "Popular outrage" #NT!
- agot_colonization_events.1004.b.duel_success: "You successfully train a wolf-dog" #NT!
- agot_colonization_events.1004.b.success.toast.t: "Man's Best Friend" #NT!
- agot_colonization_events.1004.b.duel_failure: "You fail to tame the wolf" #NT!
- agot_colonization_events.1004.b.failure.toast.t: "Wild wolf untamed" #NT!
-  
- agot_colonization_events.1005.t: "[obstacle_province.GetNameNoTooltip]: The Vanished" #NT!
- agot_colonization_events.1005.desc: "Sad news from [obstacle_province.GetName] comes to my attention today, as a recent string of tragedies has rocked the settlements there. The local wolf packs of the area have, seemingly emboldened by the constant trespasses upon their territory, started to pick off the young, the helpless, and the elderly in great numbers.\n\nWith boldness hitherto unseen by them, they have even started to prowl into the villages at night in massive packs! Something must be done before the wolves get bold enough to steal babes from their very cribs." #NT!
- agot_colonization_events.1005.a: "We must organize the villagers to take the fight to the wolves!" #NT!
- agot_colonization_events.1005.a.duel_success: "The wolf den is cleared" #NT!
- agot_colonization_events.1005.a.duel_failure: "The wolf den remains, and the colony is lost" #NT!
- agot_colonization_events.1005.success.toast.t: "Wolf den cleared!" #NT!
- agot_colonization_events.1005.failure.toast.t: "Failed to clear the wolf den" #NT!
- agot_colonization_events.1005.b: "Rally the villagers and burn the wolves out." #NT!
- agot_colonization_events.1005.b.duel_success: "You burn the wolf den" #NT!
- agot_colonization_events.1005.b.duel_failure: "The wolf den remains, and the colony is lost" #NT!
- agot_colonization_events.1005.c: "Unfortunate, but these are the risks of the frontier." #NT!
-  
- agot_colonization_events.1006.t: "[obstacle_province.GetNameNoTooltip]: Hunted" #NT!
- agot_colonization_events.1006.desc: "What initially seemed to be an easy culling has quickly spiraled out of control. A great black wolf has stalked my band and struck in the night under the cover of fog, accompanied by its vengeful pack. The hunters I led into the wolf den of [obstacle_province.GetName] have been picked off one by one, and soon I am alone, facing off against the unnatural beast.\n\nIt is by far the largest wolf I have ever seen, and the disturbingly intelligent glint in its eyes promises a long, miserable death should I not flee its territory immediately." #NT!
- agot_colonization_events.1006.a: "You'll make a fine rug." #NT!
- agot_colonization_events.1006.a.duel_success: "The wolf den is cleared" #NT!
- agot_colonization_events.1006.a.duel_failure: "The wolf den remains" #NT!
- agot_colonization_events.1006.success.toast.t: "Wolf den cleared!" #NT!
- agot_colonization_events.1006.failure.toast.t: "Failed to clear the wolf den" #NT!
- agot_colonization_events.1006.b: "If I start a fire, I can trap the beast and kill it that way." #NT!
- agot_colonization_events.1006.c: "I will bravely, bravely run away!" #NT!
- agot_colonization_events.1006.b.duel_success: "The wolf den is cleared" #NT!
- agot_colonization_events.1006.b.duel_failure: "The wolf den remains" #NT!
-  
- agot_colonization_events.1007.t: "[obstacle_province.GetNameNoTooltip]: Howls From the Hills" #NT!
- agot_colonization_events.1007.desc: "A messenger arrives at my court, bearing news from the settlement at [obstacle_province.GetName]. The news bodes well, yet as the messenger finishes his report, he relays one request from the villagers: while they have driven the majority of the wolves from the settlement, a sizeable pack still remains in the hills a few miles from the village. They seek my aid in destroying them once and for all.\n\nMy [steward.Custom('GetCouncilOrCourtPosition')] interjects, "If the wolves have truly been driven into the hills miles away from the settlement, I feel there is little need for us to interfere. The wolves will end up moving on on their own."" #NT!
- agot_colonization_events.1007.a: "Let us take no risks. I will send the necessary aid." #NT!
- agot_colonization_events.1007.b: "I must agree with [steward.GetFirstName], the wolves pose little threat now." #NT!
- agot_colonization_events.1007.success.toast.t: "Wolves Naturally Disperse" #NT!
- agot_colonization_events.1007.failure.toast.t: "Wolves Remain" #NT!
-  
- agot_colonization_events.1008.t: "[obstacle_province.GetNameNoTooltip]: Hunting Clubs" #NT!
- agot_colonization_events.1008.desc: "Thanks to the dedicated effort to eradicate the dangerous wolf population in [obstacle_province.GetName], hunters have started to form hunting clubs to better coordinate their efforts.\n\nBesides the obvious benefit of making the culling of wolves much safer and easier, it has begun to foster a distinct subculture in the county, as hunting becomes more widespread and popular among the strong and the brave in local communities as a pastime." #NT!
- agot_colonization_events.1008.a: "A passing fad, but interesting nonetheless." #NT!
- agot_colonization_events.1008.success.toast.t: "Hunting clubs fostered!" #NT!
- agot_colonization_events.1008.failure.toast.t: "Wolf-hunting goes out of control!" #NT!
- agot_colonization_events.1008.b: "We should foster these hunting clubs further!" #NT!
- agot_colonization_events.1008.b.duel_success: "You successfully foster the hunting clubs" #NT!
- agot_colonization_events.1008.b.duel_failure: "The hunting goes out of control..." #NT!
- agot_colonization_events.1008.c: "I should pay a visit to these people; they surely have a few tips and tricks to share." #NT!
-  
- agot_colonization_events.1009.t: "[obstacle_province.GetNameNoTooltip]: Howls in the Night" #NT!
- agot_colonization_events.1009.desc: "As I visit [obstacle_province.GetName] to check on the progress of the colony there, I note the sheer devastation of some of the villages — half-empty ghost towns, with haggard villagers protected by flimsy palisades, barely kept from falling to the ground in exhaustion by their own pitchforks. The wolves, they say, are so numerous and terrible that merely surviving the nights is a challenge. The situation is unsustainable.\n\nAs my retinue and I prepare to return home to gather a force to cull the wolves, I get separated from the rest of my group with only a small handful of people. Before long, the quiet gloom of the night is shattered by the howls of what must be at least a hundred wolves. In the blink of an eye, my entourage is surrounded on all sides by snapping and snarling wolves, kept at bay only by the light of my torches. But as the torchlight dims, the wolves circle closer and closer..." #NT!
- agot_colonization_events.1009.a: "Formation! Get in formation and let them break upon us!" #NT!
- agot_colonization_events.1009.a.duel_success: "Your martial skills overcome the wolves' attack" #NT!
- agot_colonization_events.1009.a.duel_failure: "Your martial skills don't help prevent the wolves' attack" #NT!
- agot_colonization_events.1009.success.toast.t: "Defended from wolves" #NT!
- agot_colonization_events.1009.failure.toast.t: "Wounded by wolves!" #NT!
- agot_colonization_events.1009.b: "Keep the fires going! We need to hold out!" #NT!
- agot_colonization_events.1009.b.duel_success: "You manage to drive away the wolves with the fire" #NT!
- agot_colonization_events.1009.b.duel_failure: "The fire did not prove sufficient..." #NT!
- agot_colonization_events.1009.c: "[knight.GetName], protect your [ROOT.Char.GetTitleAsNameNoTooltip]!" #NT!
- agot_colonization_events.1009.c.duel_success: "[knight.GetNameNoTooltip] bravely fights the wolves" #NT!
- agot_colonization_events.1009.c.duel_failure: "You and [knight.GetNameNoTooltip] get wounded in the attack" #NT!
-  
-  ### Bear Den ### 
-  
- agot_colonization_events.1101.t: "[obstacle_province.GetNameNoTooltip]: Yoh-gi" #NT!
- agot_colonization_events.1101.desc: "My settlers in [obstacle_province.GetName] are used to bears roaming near their colony. A little extra caution is ordinarily all that is required, and even the more inquisitive beasts can usually be deterred by the vigorous clanging of cooking pans.\n\nOne bear is different. Known as 'Yoh-gi' in the local dialect, he is smarter than the average bear, stalking work parties and attacking them whenever they pause for a meal. As soon as the workers scatter, he raids their baggage for supplies, stealing any food they have brought with them.\n\nThere is considerable debate in the settlement as to how to deal with the problem. The colony has employed rangers, who wish to mount an expedition against the bear. However, the settlement's smith believes the bear can be lured into an ingenious trap of his own design, baited with a honey-laden beehive." #NT!
- agot_colonization_events.1101.a: "Oversee the ranger expedition." #NT!
- agot_colonization_events.1101.a.duel_success: "The rangers successfully take down Yoh-gi and the rest of his kind" #NT!
- agot_colonization_events.1101.a.duel_failure: "The rangers are outwitted by the bear" #NT!
- agot_colonization_events.1101.b: "Pay the smith to build his trap." #NT!
- agot_colonization_events.1101.c: "What nonsense! I will dispatch this beast personally." #NT!
- agot_colonization_events.1101.c.duel_success: "You successfully take down Yoh-gi and the rest of his kind" #NT!
- agot_colonization_events.1101.c.duel_failure: "You are outwitted and overwhelmed by the bear" #NT!
- agot_colonization_events.1101.d: "Hey, hey, hey! Leave that bear alone!" #NT!
- agot_colonization_events.1101.success.toast.t: "Bear Den Cleared" #NT!
- agot_colonization_events.1101.failure.toast.t: "Bear Den Remains" #NT!
-  
- agot_colonization_events.1102.t: "[obstacle_province.GetNameNoTooltip]: Beargild" #NT!
- agot_colonization_events.1102.desc: "After four days tramping across difficult terrain, my bear hunt nears its finale. A great she-bear stands in the mouth of a cave, her gaze fixed on me. She rears on her hind legs and roars, but seems reluctant to charge and leave the shelter of her rocky recess. Taking this for a sign of weakness, I leap forward and plunge my spear into her chest. After a short struggle, the bear collapses, twitching. With her last strength, she looks into my eyes again with an expression that seems almost... pleading. Disconcerted, I step back and drop the spear.\n\nIt is then that I hear the mewling.\n\nAt the back of the cave, I find the source of the noise — a tiny cub, still blind and feeble, crawls towards me. An overwhelming feeling of guilt grips me. Feeding it would be expensive, but maybe I can raise the bear myself..." #NT!
- agot_colonization_events.1102.a: "I will put it out of its misery." #NT!
- agot_colonization_events.1102.b: "I will attempt to raise the cub myself." #NT!
- agot_colonization_events.1102.b.success.toast.t: "Training Success" #NT!
- agot_colonization_events.1102.b.failure.toast.t: "Training Failure" #NT!
- agot_colonization_events.1102.c: "Perhaps it can survive alone..." #NT!
-  
- agot_colonization_events.1103.t: "[obstacle_province.GetNameNoTooltip]: The Raid" #NT!
- agot_colonization_events.1103.desc: "The new settlement at [obstacle_province.GetNameNoTier] is shaping up nicely. A cluster of buildings has already sprung up, smoke rising to the sky from myriad chimneys and fire-pits. Land has been cleared for farming, and the wilderness is gradually giving way to a tamed and tended landscape. As I muse on the progress that has been made, my reverie is interrupted by a scream.\n\nA bear! Its giant hulk bounds into the heart of the settlement, scattering colonists like skittles." #NT!
- agot_colonization_events.1103.a: "Bring me a bow! I will bring it down myself." #NT!
- agot_colonization_events.1103.a.duel_success: "You manage to kill the bear" #NT!
- agot_colonization_events.1103.a.duel_failure: "You fail to kill the bear" #NT!
- agot_colonization_events.1103.b: "Sound the horns! We must put an end to this!" #NT!
- agot_colonization_events.1103.b.duel_success: "Your party manages to kill the bear" #NT!
- agot_colonization_events.1103.b.duel_failure: "Your party failed to kill the bear" #NT!
- agot_colonization_events.1103.c: "Flee! This foe is greater than any of us" #NT!
- agot_colonization_events.1103.failure.toast.t: "Bear Den Remains" #NT!
- agot_colonization_events.1103.success.toast.t: "Bear Den Cleared" #NT!
-  
- agot_colonization_events.1104.t: "[obstacle_province.GetNameNoTooltip]: Mushroom Bear" #NT!
- agot_colonization_events.1104.desc: "My [steward.Custom('GetCouncilOrCourtPosition')] [steward.GetFirstName] brings me news from our nascent colony at [obstacle_province.GetName]. It is such a baffling tale that [steward.GetFirstNameNoTooltip] insisted on verifying it before bringing it to me, but he is now certain of its veracity. It seems that one of our colonists has discovered a particularly potent form of mushroom, the consumption of which gives astonishing visions and feelings of intense euphoria.\n\nThat may be all well and good, but a cultivated patch of mushrooms has been raided by a local bear of fearsome size. This bear has subsequently gone on a rampage of immense proportions, destroying houses and storerooms and slaughtering settlers, such that the colony now faces an existential threat." #NT!
- agot_colonization_events.1104.a: "Divert some of our levies to deal with this furry threat." #NT!
- agot_colonization_events.1104.a.duel_failure: "Your levies fail to drive off the bear" #NT!
- agot_colonization_events.1104.a.duel_success: "Your levies successfully drive off the bear" #NT!
- agot_colonization_events.1104.b: "Dig a spiked pit and lure the bear with fresh fungus" #NT!
- agot_colonization_events.1104.b.duel_failure: "The bear manages to escape your trap" #NT!
- agot_colonization_events.1104.b.duel_success: "You successfully lure the bear into your trap" #NT!
- agot_colonization_events.1104.c: "I would like to try some of these mushrooms... for medicinal purposes." #NT!
- agot_colonization_events.1104.c.success.toast.t: "Shroomed Up" #NT!
- agot_colonization_events.1104.c.failure.toast.t: "Shroomed Down" #NT!
- agot_colonization_events.1104.failure.toast.t: "Bear Den Remains" #NT!
- agot_colonization_events.1104.success.toast.t: "Bear Driven Off" #NT!
-  
- agot_colonization_events.1105.t: "[obstacle_province.GetNameNoTooltip]: More Than Meets the Eye" #NT!
- agot_colonization_events.1105.desc: "The lands surrounding [obstacle_province.GetName] have long been renowned for the large bears that make their home there.\n\nAs I visit my colony to check on its progress, I am accosted on the road by what seems to be a small family of massive bears. Seemingly leading them is a massive beast of a man, who demands that we leave their lands lest they extract vengeance for all the bears we have slain." #NT!
- agot_colonization_events.1105.a: "I should like to see you try, savage!" #NT!
- agot_colonization_events.1105.b: "Keep your bears away from our settlements..." #NT!
- agot_colonization_events.1105.c: "We were just leaving, weren't we, fellows?" #NT!
- agot_colonization_events.1105.toast.t: "The bear remains" #NT!
- agot_colonization_events.1105.a.duel_success: "You drive off the skinchanger" #NT!
- agot_colonization_events.1105.a.success.toast.t: "Bear Den Cleared" #NT!
- agot_colonization_events.1105.a.duel_failure: "You fail to drive off the skinchanger" #NT!
- agot_colonization_events.1105.a.failure.toast.t: "Wounded hunting bears" #NT!
- agot_colonization_events.1105.b.duel_success: "You manage to strike a deal with the skinchanger" #NT!
- agot_colonization_events.1105.b.success.toast.t: "Co-exist" #NT!
- agot_colonization_events.1105.b.duel_failure: "You fail to strike a deal with the skinchanger" #NT!
- agot_colonization_events.1105.b.failure.toast.t: "Bear Den Remains" #NT!
-  
- agot_colonization_events.1106.t: "[obstacle_province.GetNameNoTooltip]: The Man-Eater" #NT!
- agot_colonization_events.1106.desc: "It watches in the night. Seven feet tall, and half a ton in weight. Its hide is thicker and tougher than dragon scales, its fangs and claws greater than swords, the stench of its breath more putrid than a meadow after battle. It bears the scars of a hundred battles, and its face shows the wear and bruises of a hundred years.\n\nAt least, that's what the letters from [obstacle_province.GetName] tell me. It is likely that at least some of the facts about this great bear are exaggerated, yet their feeling is clear. They report many things: that it is nigh invincible; that it has survived a thousand arrows; that it slaughters hunting parties of fifty men; and that it enters the village at night, unseen, to slaughter livestock and townsfolk — especially townsfolk! The colonists are clear: they plead for aid, for anything; for this terror of the night to be rid of once and for all." #NT!
- agot_colonization_events.1106.success.toast.t: "Bear Killed" #NT!
- agot_colonization_events.1106.failure.toast.t: "Bear Den Remains" #NT!
- agot_colonization_events.1106.a: "Send my finest warriors to slaughter this beast!" #NT!
- agot_colonization_events.1106.b: "[marshal.GetFirstName], rally the colonists and bring me this bear's head." #NT!
- agot_colonization_events.1106.b.duel_success: "Bear is killed" #NT!
- agot_colonization_events.1106.b.duel_failure: "Bear survived" #NT!
- agot_colonization_events.1106.c: "Ah, 'tis naught but the superstition of peasants! They can deal with the bear themselves." #NT!
-  
- agot_colonization_events.1107.t: "[obstacle_province.GetNameNoTooltip]: Hated Enemies" #NT!
- agot_colonization_events.1107.desc: "As the colony in [obstacle_province.GetName] grows, the troublesome bear population in the area is hunted down — safety, food, and mere sport. But it seems that our actions have incurred the ire of these bears, as while I visit the colony to check on its progress, we come under siege by the damned things, alongside what is by far the largest bear I have ever seen. Worse yet, it looks to be commanding the smaller bears somehow!" #NT!
- agot_colonization_events.1107.success.toast.t: "Bear Killed" #NT!
- agot_colonization_events.1107.failure.toast.t: "Bear Den Remains" #NT!
- agot_colonization_events.1107.a: "It's bear season, boys!" #NT!
- agot_colonization_events.1107.b: "Cut that big beastie's head off, and the bears will disperse." #NT!
- agot_colonization_events.1107.duel_success: "Bear is killed" #NT!
- agot_colonization_events.1107.duel_failure: "Bear survived" #NT!
- agot_colonization_events.1107.c: "Distract them for me while I, er, go to get reinforcements!" #NT!
-  
- agot_colonization_events.1108.t: "[obstacle_province.GetNameNoTooltip]: Bear-Baiting" #NT!
- agot_colonization_events.1108.desc: "Deciding to visit [obstacle_province.GetName] to check up on the place, I am greeted with a lavish festival to mark my arrival. Food is piled high, and drink flows. At the peak of the revelry, I am led to a large arena and seated on the high seat. A number of mean-looking, large dogs are brought into the pit of the arena from one door. And then, to my great surprise, a sad-looking bear slowly lumbers out from the other!\n\nLike a shot, the dogs charge at the beast, snapping at it. The whole ordeal quickly becomes an orgy of blood, but eventually, the bear is brought low by the surviving hound. As I turn to look at the smiling governor sitting next to me, I consider my reaction to the spectacle." #NT!
- agot_colonization_events.1108.a: "Now that's what I call entertainment!" #NT!
- agot_colonization_events.1108.b: "This is a disgusting practice, and you shall not do it again!" #NT!
- agot_colonization_events.1108.c: "...How do I make money from this?" #NT!
- agot_colonization_events.1108.c.duel_success: "You successfully monetize these bear fights" #NT!
- agot_colonization_events.1108.success.toast.t: "Successful Monetization" #NT!
- agot_colonization_events.1108.c.duel_failure: "You fail to monetize these bear fights" #NT!
- agot_colonization_events.1108.failure.toast.t: "Failed Monetization" #NT!
-  
- agot_colonization_events.1109.t: "[obstacle_province.GetNameNoTooltip]: Sloth and Savagery" #NT!
- agot_colonization_events.1109.desc: "Some rather concerning news arrives on my desk this morning from [obstacle_province.GetName]. The local bear population found there has, since the settlement's beginning, been a constant thorn in the side of the locals due to the aggressive nature of the beasts. Maned, sickle-clawed, and shaggy-furred are these bears, but what makes them so dangerous is their savagery — attacking people with little provocation and little warning. Things have gotten so bad that I have been personally requested by the local governor to step in and deal with the threat these sloth bears pose." #NT!
- agot_colonization_events.1109.success.toast.t: "Bear Killed" #NT!
- agot_colonization_events.1109.failure.toast.t: "Bear Den Remains" #NT!
- agot_colonization_events.1109.a: "[knight.GetFirstName], care to go bear hunting?" #NT!
- agot_colonization_events.1109.b: "Someone pass me my good bear spear!" #NT!
- agot_colonization_events.1109.duel_success: "Bear is killed" #NT!
- agot_colonization_events.1109.duel_failure: "Bear survived" #NT!
- agot_colonization_events.1109.c: "All very interesting, but I simply do not have the time." #NT!
-  
-  ### Bandit Den ### 
-  
- agot_colonization_events.1201.t: "[obstacle_province.GetNameNoTooltip]: The Outcasts" #NT!
- agot_colonization_events.1201.desc.1: "For weeks, I have been receiving pleading letters from the settlement in [obstacle_province.GetName]. They are being plagued by a band of outlaws who have repeatedly raided the town's food supplies." #NT!
- agot_colonization_events.1201.desc.2.marshal: "My [marshal.GetCouncilTitle], [marshal.GetName], suggests a punitive expedition to drive the bandits away.\n\nHowever, " #NT!
- agot_colonization_events.1201.desc.2.knight: "My military advisor, [marshal.GetName], suggests a punitive expedition to drive the bandits away.\n\nHowever, " #NT!
- agot_colonization_events.1201.desc.3.spymaster: "my [spymaster.GetCouncilTitle], [spymaster.GetName], whispers that there is more to this situation than meets the eye. It seems the outlaws were among the earliest colonists, and for the most part, were upstanding subjects — until driven from their homes by former soldiers who were better armed and less inclined to construct shelters with their own hands when they could steal those that had already been built." #NT!
- agot_colonization_events.1201.desc.3.scholar: "the scholar, [spymaster.GetName], whispers that there is more to this situation than meets the eye. It seems the outlaws were among the earliest colonists, and for the most part, were upstanding subjects — until driven from their homes by former soldiers who were better armed and less inclined to construct shelters with their own hands when they could steal those that had already been built." #NT!
- agot_colonization_events.1201.a: "I don't care who was there first. Settle this with swords!" #NT!
- agot_colonization_events.1201.a.duel_success: "Your men slay the last of the troublemakers." #NT!
- agot_colonization_events.1201.a.duel_failure: "Your men are driven back by the bandits." #NT!
- agot_colonization_events.1201.b: "Pardon the outlaws and restore them to their lands." #NT!
- agot_colonization_events.1201.b.duel_success: "You craft a just settlement for the outcasts" #NT!
- agot_colonization_events.1201.b.duel_failure: "Your attempts to find justice for the outcasts fail" #NT!
- agot_colonization_events.1201.c: "Perhaps they can come to a compromise..." #NT!
- agot_colonization_events.1201.c.duel_success: "You come to an agreement between the outcasts and the settlers" #NT!
- agot_colonization_events.1201.c.duel_failure: "You fail to strike an agreement between the outcasts and the settlers" #NT!
- agot_colonization_events.1201.d: "I don't have time for this right now!" #NT!
- agot_colonization_events.1201.success.toast.t: "Bandits Cleared" #NT!
- agot_colonization_events.1201.failure.toast.t: "Bandits Remain" #NT!
-  
- agot_colonization_events.1202.t: "[obstacle_province.GetNameNoTooltip]: The Corral" #NT!
- agot_colonization_events.1202.desc.marshal: "My [marshal.GetCouncilTitle], [marshal.GetName], brings me cheering news. The local garrison has discovered the hideout of a group of bandits who have been terrorizing my settlement in [obstacle_province.GetName]. The soldiers have encircled the outlaws, and for the last few days, an extensive exchange of arrows has taken place. But as yet, there has been no decisive push to end the standoff.\n\nThe bandit leader seems willing to fight to the end if necessary but has offered to leave the area in exchange for a substantial payoff." #NT!
- agot_colonization_events.1202.desc.knight: "My military advisor, [marshal.GetNameNoTooltip], brings me cheering news. The local garrison has discovered the hideout of a group of bandits who have been terrorizing my settlement in [obstacle_province.GetNameNoTooltip]. The soldiers have encircled the outlaws, and for the last few days, an extensive exchange of arrows has taken place. But as yet, there has been no decisive push to end the standoff.\n\nThe bandit leader seems willing to fight to the end if necessary but has offered to leave the area in exchange for a substantial payoff." #NT!
- agot_colonization_events.1202.a: "Crush them!" #NT!
- agot_colonization_events.1202.a.duel_success: "Your men slay the last of the troublemakers." #NT!
- agot_colonization_events.1202.a.duel_failure: "Your men are driven back by the bandits." #NT!
- agot_colonization_events.1202.b: "What if they could be persuaded to enlist?" #NT!
- agot_colonization_events.1202.b.duel_success: "You convince the bandit leader to help defend the colony for an ongoing fee." #NT!
- agot_colonization_events.1202.b.duel_failure: "Your negotiation efforts fail." #NT!
- agot_colonization_events.1202.c: "I suppose I could pay their travel expenses..." #NT!
-  
- agot_colonization_events.1203.t: "[obstacle_province.GetNameNoTooltip]: The Brotherhood" #NT!
- agot_colonization_events.1203.desc: "Banditry has been a problem in [obstacle_province.GetName] for some time now. What was at first only a number of isolated gangs of thugs and brigands has, over time, started to consolidate under the command of a select few bosses. Ruthless, clever, and ambitious, these bandits have grown big enough and organized enough to intimidate the meager garrison of [obstacle_province.GetNameNoTooltip] into laying down their arms and accepting this so-called 'Brotherhood' as the new governors of the colony. This, naturally, is very alarming to me.\n\nGathering up a host of trained warriors, I prepare to march onto [obstacle_province.GetNameNoTooltip] to reclaim it from these usurpers. But upon arrival, I am met under the flag of truce. The leaders of the Brotherhood step out to meet with me and present an offer. They will protect [obstacle_province.GetNameNoTooltip] with their forces and build it up with their labor in exchange for clemency and a tax-break period while the Brotherhood becomes a legitimate guild in the area. Judging by how well-built [obstacle_province.GetNameNoTooltip] has become under their stewardship, perhaps I should take them up on their offer..." #NT!
- agot_colonization_events.1203.a: "Surely you didn't think this would work?" #NT!
- agot_colonization_events.1203.a.duel_success: "Your men slay the members of the Brotherhood." #NT!
- agot_colonization_events.1203.a.duel_failure: "Your men are driven back by the bandits." #NT!
- agot_colonization_events.1203.b: "An interesting offer! But I have a much better one." #NT!
- agot_colonization_events.1203.b.duel_success: "You convince the guild to leave the colony for a fee." #NT!
- agot_colonization_events.1203.b.duel_failure: "Your negotiation efforts fail." #NT!
- agot_colonization_events.1203.c: "Done! I will take your oaths of fealty here." #NT!
- agot_colonization_events.1203.success.toast.t: "Bandits Cleared" #NT!
- agot_colonization_events.1203.failure.toast.t: "Bandits Remain" #NT!
-  
- agot_colonization_events.1204.t: "[obstacle_province.GetNameNoTooltip]: Wildling Tribes" #NT!
- agot_colonization_events.1204.desc: "Beyond the Wall has been sparsely inhabited for a long time now. The few who still call this cold place home are primitive, hardy, and stone-hearted. As [obstacle_province.GetName] grows, so too does the ire of the locals, as they have to compete for the few resources that can be found in the area.\n\nWhat was once tense stand-offs from a distance has started to escalate into small-scale skirmishes, cattle raids, and the occasional kidnapping for ransom. If these tribes decide to take matters into their own hands, there is a very real chance they might utterly destroy [obstacle_province.GetNameNoTooltip] if they launch a raid. Something must be done." #NT!
- agot_colonization_events.1204.a: "Scatter these bandits!" #NT!
- agot_colonization_events.1204.a.duel_success: "Your men slay the bandits" #NT!
- agot_colonization_events.1204.a.duel_failure: "Your men are driven back by the bandits" #NT!
- agot_colonization_events.1204.b: "Send an emissary to the Chief." #NT!
- agot_colonization_events.1204.b.duel_success: "You set clear boundaries between our people" #NT!
- agot_colonization_events.1204.b.duel_failure: "Your negotiation efforts fail" #NT!
- agot_colonization_events.1204.c: "As if these rag-wearing savages are any threat." #NT!
- agot_colonization_events.1204.success.toast.t: "Bandits Cleared" #NT!
- agot_colonization_events.1204.failure.toast.t: "Bandits Remain" #NT!
-  
- agot_colonization_events.1205.t: "[obstacle_province.GetNameNoTooltip]: The Traitor" #NT!
- agot_colonization_events.1205.desc: "Work against the bandits of [obstacle_province.GetName] has been tough and slow, yet generally steady. Whereas previously camps of bandits and brigands dotted the wilderness, most of their outposts have now been destroyed. Yet, for the colonists, the threat still remains. The remaining bandits and survivors have banded together, forming one large camp.\n\nOne morning, a ragged, savage-looking [traitor.GetWomanMan] kneels before my throne.\n\n"Yer Highness, I am aware that the poor villagers of [obstacle_province.GetNameNoTooltip] have been hurt badly by the menace of bandits, living every day under the fear of attack!" [traitor.GetSheHe|U] grins. "I have a proposition for you: I let some of your village guards in at night, and they can kill every last bandit! All I ask for is a meager sum of gold, much less than what it would take to destroy the camp by force."\n\nIt is an interesting proposition..." #NT!
- agot_colonization_events.1205.a: "Very well, if you say so." #NT!
- agot_colonization_events.1205.a.duel_success: "The plan works as expected." #NT!
- agot_colonization_events.1205.a.duel_failure: "You are betrayed." #NT!
- agot_colonization_events.1205.b: "My soldiers shall curse the bandit scum." #NT!
- agot_colonization_events.1205.b.duel_success: "Your men slay the bandits." #NT!
- agot_colonization_events.1205.b.duel_failure: "Your men are driven back by the bandits." #NT!
- agot_colonization_events.1205.c: "I do not need your help." #NT!
- agot_colonization_events.1205.success.toast.t: "Bandits Cleared" #NT!
- agot_colonization_events.1205.failure.toast.t: "Bandits Remain" #NT!
-  
- agot_colonization_events.1206.t: "[obstacle_province.GetNameNoTooltip]: The Cunning Brigand" #NT!
- agot_colonization_events.1206.desc: "While going through the most recent reports from the settlement in [obstacle_province.GetName], I am surprised to find a letter addressed to me. It has been sent by [brigand.GetName], one of the leaders of the bandits that plague the region.\n\nThe contents of the letter are as bold as they are brazen: [brigand.GetFirstName] wishes for my permission to claim the settlement as [brigand.GetHerHis] own, in exchange for swearing fealty to me and becoming my vassal.\n\nWhile this is an unorthodox offer indeed, perhaps there is merit to be found here?" #NT!
- agot_colonization_events.1206.a: "Outrageous. Have this fool captured." #NT!
- agot_colonization_events.1206.b: "Instead, I shall recruit this brigand." #NT!
- agot_colonization_events.1206.c: "Very well. Swear fealty to me." #NT!
- agot_colonization_events.1206.c.tt.success: "[brigand.GetFirstNameNoTooltip] keeps [brigand.GetHerHis] word." #NT!
- agot_colonization_events.1206.c.tt.failure: "[brigand.GetFirstNameNoTooltip] seizes [obstacle_province.GetNameNoTooltip] for [brigand.GetHerselfHimself]." #NT!
- agot_colonization_events.1206.d: "I don't need your fealty. [obstacle_province.GetNameNoTooltip] is yours." #NT!
- agot_colonization_events.1206.d.tt: "[brigand.GetFirstNameNoTooltip] is granted [obstacle_province.GetNameNoTooltip]." #NT!
-  
-  ### Dense Growth ### 
-  
- agot_colonization_events.1301.t: "[obstacle_province.GetNameNoTooltip]: Lost in the Woods" #NT!
- agot_colonization_events.1301.desc: "Ill news reaches me from the settlement in [obstacle_province.GetName]. While visiting the settlement and taking a stroll through the nearby landscape, [lost_person.GetNameNoTooltip] has become lost in the deep woods!\n\nVanishing without leaving any trace is a feat few can pride themselves on, but I sense that this disappearance was not voluntary. [lost_person.GetFirstNameNoTooltip] may be in grave danger...\n\nIt is up to me to respond to this situation." #NT!
- agot_colonization_events.1301.a: "Spare no expenses! I want [lost_person.GetHerHim] found!" #NT!
- agot_colonization_events.1301.b: "I'll lead the search party myself!" #NT!
- agot_colonization_events.1301.duel_success: "You rescue [lost_person.GetFirstNameNoTooltip]." #NT!
- agot_colonization_events.1301.duel_failure: "You fail to find [lost_person.GetFirstNameNoTooltip]." #NT!
- agot_colonization_events.1301.c: "Our efforts should go towards aiding the settlement instead." #NT!
- agot_colonization_events.1301.c.death: "Only [lost_person.GetFirstNameNoTooltip]'s remains are found." #NT!
- agot_colonization_events.1301.c.vanished: "[lost_person.GetFirstNameNoTooltip] remains lost without a trace." #NT!
- agot_colonization_events.1301.c.laamp: "[lost_person.GetFirstNameNoTooltip] survived by becoming an [adventurer|E]." #NT!
-  
- agot_colonization_events.1302.t: "[obstacle_province.GetNameNoTooltip]: Yield of the Forest" #NT!
- agot_colonization_events.1302.desc: "I've received a report from the settlement in [obstacle_province.GetName]. The dense forests surrounding the colony have been cleared enough for basic infrastructure to be established in the province.\n\nAlong with this good news, an inquiry from the settlement is brought to my attention: What should be done with all the wood that was chopped while clearing paths through the forests?" #NT!
- agot_colonization_events.1302.a: "We should sell what we don't need." #NT!
- agot_colonization_events.1302.duel_success: "You manage to make great profits." #NT!
- agot_colonization_events.1302.duel_failure: "You only achieve meager profits." #NT!
- agot_colonization_events.1302.b: "Use the wood to build up the settlement." #NT!
- agot_colonization_events.1302.c: "Let us build a big pyre to celebrate!" #NT!
- agot_colonization_events.1302.d: "The woods could be cultivated..." #NT!
-  
- agot_colonization_events.1303.t: "[obstacle_province.GetNameNoTooltip]: The Ancient Ruin" #NT!
- agot_colonization_events.1303.desc: "My workers in the settlement of [obstacle_province.GetName] are making good progress. The thickets have been cleared, and paths carved through the dense forest, enabling the colony to establish its necessary infrastructure.\n\nWhile clearing the surrounding lands, the workers have discovered an ancient ruin of unknown origin and purpose. Who can say what long-lost culture once built this place?\n\nThough the ruin is not an immediate obstacle to developing the settlement, the question remains, the question remains of what should be done with it." #NT!
- agot_colonization_events.1303.a: "Let's try to convert the ruin into a usable building." #NT!
- agot_colonization_events.1303.duel_success: "A new building is constructed in [obstacle_province.GetNameNoTooltip]" #NT!
- agot_colonization_events.1303.duel_failure: "The ruin crumbles, leaving only dust behind" #NT!
- agot_colonization_events.1303.b: "Leave the ruin be, and focus on the settlement." #NT!
- agot_colonization_events.1303.c: "We should study the ruin and repair what we can!" #NT!
- agot_colonization_events.1303.d: "Tear it down! Its stones can be used elsewhere." #NT!
-  
- agot_colonization_events.1304.t: "[obstacle_province.GetNameNoTooltip]: Nature's Retribution" #NT!
- agot_colonization_events.1304.desc: "Astonishing news reaches me from the settlement in [obstacle_province.GetName]. The local workers have been diligently cutting down parts of the dense forests surrounding the colony, but after a particularly dark night, many of the trees have mysteriously returned!\n\nIt is unclear what has caused this, but much of the settlement's work has been undone. The workers grow frustrated, and productivity and morale are dwindling. It seems I must act quickly..." #NT!
- agot_colonization_events.1304.a: "I'll cut down these trees myself!" #NT!
- agot_colonization_events.1304.duel_success: "Your efforts are successful." #NT!
- agot_colonization_events.1304.duel_failure: "The trees return in greater number." #NT!
- agot_colonization_events.1304.b: "Let's detach a number of levies to bolster my workers." #NT!
- agot_colonization_events.1304.c: "Leave these trees be for now... and build elsewhere." #NT!
- agot_colonization_events.1304.d: "I know how to appease nature here..." #NT!
-  
-  ### Flooded Lands ### 
-  
- agot_colonization_events.1401.t: "[obstacle_province.GetNameNoTooltip]: Ditch and Drain" #NT!
- agot_colonization_events.1401.desc: "The marshy terrain around our new colony in [obstacle_province.GetName] has proven beneficial in many ways. For one, it is easily defendable, as the approaches are difficult for any large body of men. For another, the fenlands are teeming with bream, perch, pike, and eels, which my settlers can catch fresh or smoke for winter.\n\nOn the other hand, the marshes present a formidable threat of flooding, particularly during the spring thaw when the marshland islets can be overwhelmed by rising waters. To defend against this, my settlers have begun work on a system of dykes and channels to protect their homes and drain land for agriculture. This requires an enormous amount of labor and has proven a difficult burden for the nascent colony. Now, it seems one of the dykes has been breached, and floodwaters threaten to destroy the settlement altogether." #NT!
- agot_colonization_events.1401.a: "I shall oversee a relief effort and invest in fresh labor." #NT!
- agot_colonization_events.1401.a.duel_success: "Your project runs under budget." #NT!
- agot_colonization_events.1401.a.duel_failure: "Your project runs over budget." #NT!
- agot_colonization_events.1401.success.toast.t: "Project Under Budget" #NT!
- agot_colonization_events.1401.failure.toast.t: "Project Over Budget" #NT!
- agot_colonization_events.1401.b: "Dedicate some troops to help reconstruct and finish the dyke." #NT!
- agot_colonization_events.1401.c: "Maybe this colony was doomed from the start..." #NT!
-  
- agot_colonization_events.1402.t: "[obstacle_province.GetNameNoTooltip]: Marsh Fever" #NT!
- agot_colonization_events.1402.desc: "My marshland settlement in [obstacle_province.GetName] is often inundated during the spring floods, but the threat is slowly receding as a system of levees is completed to hold back and divert the rising tides.\n\nYet the colony remains afflicted by a mysterious ailment, seemingly brought on by the biting insects that swarm above the waters. This ague brings fever, shivering, and terrible fatigue.\n\nThe colonists have now written, demanding supplies of willow bark to relieve their suffering and mugwort to deter the insects." #NT!
- agot_colonization_events.1402.a: "They shall get what they need." #NT!
- agot_colonization_events.1402.b: "It's about time the clergy provided some charity here..." #NT!
- agot_colonization_events.1402.c: "If they'd worked harder to drain the marshes, this wouldn't be a problem!" #NT!
-  
-  ### Pirate Remnants ### 
-  
- agot_colonization_events.1501.t: "[obstacle_province.GetNameNoTooltip]: The Last Raid" #NT!
- agot_colonization_events.1501.desc: "Under cover of darkness, a band of desperate pirate stragglers strikes the colony's storage sheds. They burn grain and set buildings ablaze, leaving frightened settlers scrambling for safety. Reports come of scorched ground, plundered supplies, and the distant echo of maniacal laughter as pirates disappear into the night.\n\nThe colony will not last much longer unless I deal with these raiders decisively." #NT!
- agot_colonization_events.1501.a: "Pursue them and punish to the last man." #NT!
- agot_colonization_events.1501.a.duel_success: "Your soldiers catch the raiders by surprise, breaking their hold on the province" #NT!
- agot_colonization_events.1501.a.duel_failure: "You lose men in the chase. The raiders vanish with vital supplies" #NT!
- agot_colonization_events.1501.b: "Fortify defenses and conserve remaining stock." #NT!
- agot_colonization_events.1501.b.duel_success: "Your cautious planning buys time and preserves supplies until your soldiers can fight them off" #NT!
- agot_colonization_events.1501.b.duel_failure: "Pirate raiders quickly strike again with deadly force" #NT!
- agot_colonization_events.1501.c: "The pirates have made colonization here a fool's errand." #NT!
- agot_colonization_events.1501.success.toast.t: "Pirate Remnants Cleared" #NT!
- agot_colonization_events.1501.failure.toast.t: "Pirate Remnants Remain" #NT!
-  
- agot_colonization_events.1502.t: "[obstacle_province.GetNameNoTooltip]: Shadows off the Shore" #NT!
- agot_colonization_events.1502.desc: "I awoke to strange news: this morning the fog had parted to reveal a weather-beaten vessel drifting along the coastline near [obstacle_province.GetName]. No traders were expected, and the colonists gathered on the shore, murmuring uneasily, unsure if the ship was abandoned, cursed, or some ill omen. Hours passed, yet the vessel lingered, adrift and silent.\n\nBy dusk, though no one had glimpsed a soul disembark, a warning was found pinned at the colony's gate with a rusty dagger.\n\n#italic We've come to take back what was stolen. Surrender your stores and ships, or drown beneath the tide.#!" #NT!
- agot_colonization_events.1502.a: "We meet them with fire and steel." #NT!
- agot_colonization_events.1502.a.duel_success: "Your men repel the landing party and burn their vessel" #NT!
- agot_colonization_events.1502.a.duel_failure: "The raiders sack the harbor before vanishing back into the mists" #NT!
- agot_colonization_events.1502.b: "Offer them coin to disappear for good." #NT!
- agot_colonization_events.1502.b.duel_success: "They take the coin and vanish with the tide" #NT!
- agot_colonization_events.1502.b.duel_failure: "They take the coin and attack anyway" #NT!
- agot_colonization_events.1502.c: "These pirates are proving to be more trouble than they're worth." #NT!
- agot_colonization_events.1502.success.toast.t: "Pirate Remnants Cleared" #NT!
- agot_colonization_events.1502.failure.toast.t: "Pirate Remnants Remain" #NT!
-  
- agot_colonization_events.1503.t: "[obstacle_province.GetNameNoTooltip]: The Pirate Commander" #NT!
- agot_colonization_events.1503.desc: "[pirate_leader.GetName], one of the surviving pirate leaders, has rallied a band of stragglers and established a fortified encampment somewhere near [obstacle_province.GetNameNoTooltip]. [pirate_leader.GetSheHe|U] has sent word through an envoy to leave them be, or the colony will burn.\n\nA full assault could end in disaster but inaction could be just as dangerous." #NT!
- agot_colonization_events.1503.a: "Challenge [pirate_leader.GetFirstNameNoTooltip] to single combat." #NT!
- agot_colonization_events.1503.a.duel_success: "You slay the pirate commander yourself and [pirate_leader.GetHerHis] crew scatters" #NT!
- agot_colonization_events.1503.a.duel_failure: "[pirate_leader.GetSheHe|U] defeats you" #NT!
- agot_colonization_events.1503.b: "Assault the stronghold under cover of darkness." #NT!
- agot_colonization_events.1503.b.duel_success: "The stronghold is destroyed. The threat is ended" #NT!
- agot_colonization_events.1503.b.duel_failure: "Your soldiers walk into a trap. Few return alive" #NT!
- agot_colonization_events.1503.c: "Offer coin to see them gone." #NT!
- agot_colonization_events.1503.c.duel_success: "They take the gold and vanish into the mists" #NT!
- agot_colonization_events.1503.c.duel_failure: "They take the gold and thank you for your \"donation\"" #NT!
- agot_colonization_events.1503.d: "If we leave them alone, surely they will do the same..." #NT!
- agot_colonization_events.1503.success.toast.t: "Pirate Remnants Cleared" #NT!
- agot_colonization_events.1503.failure.toast.t: "Pirate Remnants Remain" #NT!
-  
- agot_colonization_events.1504.t: "[obstacle_province.GetNameNoTooltip]: The Ambush" #NT!
- agot_colonization_events.1504.desc: "While conducting routine patrols near the coast, my men were ambushed by well-armed pirates. Hidden caves have served as a staging ground for raids. These stragglers are not aimless raiders; they're organized and deadly.\n\nIf we do not root them out now, they may overrun the settlement itself." #NT!
- agot_colonization_events.1504.a: "Storm the caves. Leave none alive." #NT!
- agot_colonization_events.1504.a.duel_success: "The caves are cleared" #NT!
- agot_colonization_events.1504.a.duel_failure: "Your men are slaughtered in the dark" #NT!
- agot_colonization_events.1504.b: "Too dangerous. Post extra guards and pray they move on" #NT!
- agot_colonization_events.1504.success.toast.t: "Pirate Remnants Cleared" #NT!
- agot_colonization_events.1504.failure.toast.t: "Pirate Remnants Remain" #NT!
+
+ ### Wolf Den ###
+
+ agot_colonization_events.1001.t: "[obstacle_province.GetNameNoTooltip]: Den Wölfen entgegentreten"
+ agot_colonization_events.1001.desc: "Meine Kundschafter durchkämmen seit Tagen die [obstacle_province.Custom('TerrainTypeProvince')] von [obstacle_province.GetName].\n\nDie meisten kehrten mit leeren Händen zurück; manche kehrten gar nicht zurück. Schon frage ich mich, ob dieser bemunkelte Wolfsbau überhaupt existiert oder ob die angeblichen Wölfe, die diese Lande heimsuchen, Werk von Zauberei oder Teufelskunst sind.\n\nEndlich meldet sich mein letzter Kundschafter bei mir, die Kleidung zerfetzt und der Blick verstört.\n\n„My [ROOT.Char.GetLadyLord], ich habe ihn gefunden! Der Bau liegt wohlverborgen in den tiefsten Winkeln der [obstacle_province.Custom('TerrainTypeProvince')], und die Wölfe dort sind zahlreich und furchterregend.“"
+ agot_colonization_events.1001.a: "Ich werde selbst mit ihnen abrechnen."
+ agot_colonization_events.1001.a.duel_success: "Ihr bezwingt die Wölfe"
+ agot_colonization_events.1001.a.duel_failure: "Ihr werdet von den Wölfen überwältigt"
+ agot_colonization_events.1001.b: "Mein $knight_culture_player_no_tooltip_lowercase$, [knight.GetTitledFirstNameNoTooltip], wird leichtes Spiel mit ihnen haben."
+ agot_colonization_events.1001.b.duel_success: "[knight.GetFirstNameNoTooltip] bezwingt die Wölfe"
+ agot_colonization_events.1001.b.duel_failure: "[knight.GetFirstNameNoTooltip] wird von den Wölfen überwältigt"
+ agot_colonization_events.1001.c: "[hooked_character.GetTitledFirstNameNoTooltip] schuldet mir einen Gefallen..."
+ agot_colonization_events.1001.c.duel_success: "[hooked_character.GetFirstNameNoTooltip] bezwingt die Wölfe"
+ agot_colonization_events.1001.c.duel_failure: "[hooked_character.GetFirstNameNoTooltip] wird von den Wölfen überwältigt"
+ agot_colonization_events.1001.d: "Ich vertraue diese Aufgabe bezahlten Fachleuten an."
+ agot_colonization_events.1001.e: "Vielleicht sollte ich die Wölfe vorerst in Ruhe lassen..."
+ agot_colonization_events.1001.success.toast.t: "Wolfsbau beseitigt"
+ agot_colonization_events.1001.failure.toast.t: "Wolfsbau besteht fort"
+
+ agot_colonization_events.1002.t: "[obstacle_province.GetNameNoTooltip]: Umzingelt"
+ agot_colonization_events.1002.desc: "Ich hatte gehofft, meine Siedlung in [obstacle_province.GetName] bis zum Einbruch der Nacht zu erreichen, doch wiederholte Verzögerungen ließen uns bei Dämmerung noch einige Meilen zurück. Im Zwielicht schlugen wir am Rand eines Hains aus starken Bäumen unser Lager auf und machten uns daran, ein Feuer zu entfachen. Trotz aller Entbehrung überkommt mich eine innere Ruhe, während ich die Schönheit des sternübersäten Himmels betrachte.\n\nPlötzlich höre ich ein Knurren. Jenseits des Feuers sehe ich ein Paar Augen. Ebenso plötzlich kommen zwei Dutzend weitere hinzu, und mir wird klar, dass wir umzingelt sind. Ein grausames Heulen fährt uns in die Ohren, und unser Fehler wird offenbar —  wir haben unser Lager neben einem Wolfsbau aufgeschlagen! Hier haust also der graue Schrecken, der unsere neue Siedlung seit ihrer Gründung heimsucht."
+ agot_colonization_events.1002.a: "Zu mir! Lasst uns aus diesen Scheusalen Pelze machen!"
+ agot_colonization_events.1002.b: "[knight.GetFirstNameNoTooltip], verteidigt uns vor diesen Bestien!"
+ agot_colonization_events.1002.c: "Flieht, ihr Narren!"
+
+  agot_colonization_events.1003.t: "[obstacle_province.GetNameNoTooltip]: Die Wolfsmutter"
+ agot_colonization_events.1003.desc: "Nach monatelanger Suche wurde er endlich entdeckt — der große Wolfsbau von [obstacle_province.GetName]. Das Rudel war gewaltig und von unheimlicher Schläue, oftmals lauerte es Händlern auf, die unseren jungen Außenposten versorgen wollten, doch nun haben wir es umzingelt.\n\nBereits türmen sich zahlreiche Felle in unserem Lager, doch herrscht eine gewisse Beklommenheit ob des letzten Vorstoßes zur Zerstörung des Baus, denn das Rudel wird von einer gewaltigen Wölfin angeführt, beinahe so groß wie ein ein kleines Pferd, deren Schnauze vom Blut ihrer Beute purpurn gefärbt ist. Als wir uns nähern, wächst unsere Furcht, denn die Wölfin steht vor einem wimmelnden Haufen Welpen, und ihr Knurren und Zähnefletschen lassen keinen Zweifel daran, dass sie gewillt ist, ihre Jungen mit all ihrer Kraft und Wildheit zu verteidigen."
+ agot_colonization_events.1003.a: "Nichts als eine räudige Töle! Ich werde sie mir selbst vorknöpfen!"
+ agot_colonization_events.1003.a.duel_success: "Ihr erschlagt die Wölfin"
+ agot_colonization_events.1003.a.duel_failure: "Es gelingt Euch nicht, die Wölfin zu töten"
+ agot_colonization_events.1003.b: "Umzingelt sie! Gemeinsam werden wir sie niederstrecken!"
+ agot_colonization_events.1003.b.duel_success: "Ihr treibt die Wölfin erfolgreich in die Enge"
+ agot_colonization_events.1003.b.duel_failure: "Der Wölfin gelingt die Flucht"
+ agot_colonization_events.1003.c: "Ähm, vielleicht kommen wir später wieder... irgendwann."
+
+ agot_colonization_events.1004.t: "[obstacle_province.GetNameNoTooltip]: Wolfshunde"
+ agot_colonization_events.1004.desc: "Bemerkenswerte Kunde erreicht mich aus [obstacle_province.GetName]. Die dortigen Siedler haben zahlreiche Haushunde in ihre Lande gebracht, die als treue und zuverlässige Wächter von Vieh und Heim dienen. Dies jedoch hat beunruhigende Folgen gezeitigt. Da die Wolfspopulation schwindet und jene Haushunde in immer größerer Zahl durch die Lande streifen, ist eine Mischung beider Arten häufiger geworden, da sich Wölfe und Hunde miteinander paaren.\n\nDiese „Wolfshunde“ besitzen die Merkmale eines Wolfes, doch das Gemüt eines Hundes, und erfreuen sich unter der hiesigen Bevölkerung wachsender Beliebtheit als Gefährten und Wächter. Doch manch einer äußert die Sorge, diese Mischlinge könnten zu wild sein, um wahrhaft gezähmt zu werden, oder dass sie eigene verwilderte Rudel bilden könnten, sollte ihre Zahl unkontrolliert anwachsen!"
+agot_colonization_events.1004.a: "Diese Praxis sollte unterbunden und eine Keulung angeordnet werden."
+ agot_colonization_events.1004.b: "Der Leib eines Wolfes, doch die Treue eines Hundes..."
+ agot_colonization_events.1004.c: "Was für eine vortreffliche Beute sie abgäben!"
+ agot_colonization_events.1004.a.duel_success: "[obstacle_province.GetName] verzeichnet eine Wolfssichtung"
+ agot_colonization_events.1004.a.success.toast.t: "Wölfe erfolgreich in die Wildnis entlassen"
+ agot_colonization_events.1004.a.duel_failure: "Freilassung der Wölfe fehlgeschlagen"
+ agot_colonization_events.1004.a.failure.toast.t: "Empörung in der Bevölkerung"
+ agot_colonization_events.1004.b.duel_success: "Ihr zähmt erfolgreich einen Wolfshund"
+ agot_colonization_events.1004.b.success.toast.t: "Des Menschen bester Freund"
+ agot_colonization_events.1004.b.duel_failure: "Es gelingt Euch nicht, den Wolf zu zähmen"
+ agot_colonization_events.1004.b.failure.toast.t: "Zähmen des wilden Wolfshundes fehlgeschlagen"
+
+ agot_colonization_events.1005.t: "[obstacle_province.GetNameNoTooltip]: Die Verschwundenen"
+ agot_colonization_events.1005.desc: "Betrübliche Kunde aus [obstacle_province.GetName] erreicht mich heute, denn eine Reihe jüngster Unglücke hat die dortigen Siedlungen erschüttert. Die hiesigen Wolfsrudel haben, offenbar ermutigt durch die beständigen Übergriffe auf ihr Revier, begonnen, die Jungen, die Wehrlosen und die Alten in großer Zahl zu reißen.\n\nMit einer bislang ungekannten Dreistigkeit streifen sie des Nachts sogar in gewaltigen Rudeln durch die Dörfer! Es muss etwas unternommen werden, ehe die Wölfe kühn genug werden, Säuglinge aus ihren Wiegen zu rauben."
+ agot_colonization_events.1005.a: "Wir müssen die Dörfler sammeln und den Kampf zu den Wölfen tragen!"
+ agot_colonization_events.1005.a.duel_success: "Der Wolfsbau ist beseitigt"
+ agot_colonization_events.1005.a.duel_failure: "Der Wolfsbau besteht fort und die Siedlung ist verloren"
+ agot_colonization_events.1005.success.toast.t: "Wolfsbau beseitigt!"
+ agot_colonization_events.1005.failure.toast.t: "Wolfsbau konnte nicht beseitigt werden"
+ agot_colonization_events.1005.b: "Schart die Dörfler zusammen und brennt die Wölfe aus!"
+ agot_colonization_events.1005.b.duel_success: "Ihr brennt den Wolfsbau nieder"
+ agot_colonization_events.1005.b.duel_failure: "Der Wolfsbau besteht fort, und die Siedlung ist verloren"
+ agot_colonization_events.1005.c: "Bedauerlich, doch dies sind die Gefahren der Grenzlande."
+
+ agot_colonization_events.1006.t: "[obstacle_province.GetNameNoTooltip]: Gejagt"
+ agot_colonization_events.1006.desc: "Was zunächst wie ein leichtes Keulen anmutete, ist rasch außer Kontrolle geraten. Ein großer schwarzer Wolf hat meinen Trupp verfolgt und des Nachts im Schutze des Nebels zugeschlagen, begleitet von seinem rachsüchtigen Rudel. Die Jäger, die ich in den Wolfsbau von [obstacle_province.GetName] geführt habe, wurden einer nach dem anderen gerissen, und bald stehe ich allein der widernatürlichen Bestie gegenüber.\n\nEs ist bei weitem der größte Wolf, den ich je erblickt habe, und das beunruhigend kluge Glimmen in seinen Augen verheißt einen langen, grausamen Tod, sollte ich nicht augenblicks aus seinem Revier fliehen."
+ agot_colonization_events.1006.a: "Du wirst einen feinen Teppich abgeben."
+ agot_colonization_events.1006.a.duel_success: "Der Wolfsbau ist beseitigt"
+ agot_colonization_events.1006.a.duel_failure: "Der Wolfsbau besteht fort"
+ agot_colonization_events.1006.success.toast.t: "Wolfsbau beseitigt!"
+ agot_colonization_events.1006.failure.toast.t: "Wolfsbau konnte nicht beseitigt werden"
+ agot_colonization_events.1006.b: "Mit einem Feuer, kann ich die Bestie in die Falle locken und so erlegen."
+ agot_colonization_events.1006.c: "Ich werde tapfer und mutig das Weite suchen!"
+ agot_colonization_events.1006.b.duel_success: "Der Wolfsbau ist beseitigt"
+ agot_colonization_events.1006.b.duel_failure: "Der Wolfsbau besteht fort"
+
+ agot_colonization_events.1007.t: "[obstacle_province.GetNameNoTooltip]: Das Heulen aus den Hügeln"
+ agot_colonization_events.1007.desc: "Ein Bote erreicht meinen Hof mit Kunde aus der Siedlung in [obstacle_province.GetName]. Die Nachricht verheißt Gutes, doch als der Bote seinen Bericht beendet, überbringt er eine Bitte der Dörfler: Wenngleich sie den Großteil der Wölfe aus der Siedlung vertrieben haben, haust noch immer ein beträchtliches Rudel in den Hügeln, wenige Meilen vom Dorf entfernt. Sie ersuchen mich um Beistand, die Bestien ein für alle Mal zu vernichten.\n\n[steward.Custom('GetCouncilOrCourtPosition')] wirft ein: „Wenn die Wölfe wahrhaftig in die Hügel getrieben wurden, Meilen von der Siedlung entfernt, so sehe ich wenig Grund, einzugreifen. Die Wölfe werden von selbst weiterziehen.“"
+ agot_colonization_events.1007.a: "Gehen wir kein Wagnis ein. Ich werde die nötige Hilfe aussenden."
+ agot_colonization_events.1007.b: "Ich muss [steward.GetFirstName] beipflichten — die Wölfe stellen kaum noch eine Gefahr dar."
+ agot_colonization_events.1007.success.toast.t: "Die Wölfe zerstreuen sich auf natürliche Weise"
+ agot_colonization_events.1007.failure.toast.t: "Die Wölfe verbleiben"
+
+ agot_colonization_events.1008.t: "[obstacle_province.GetNameNoTooltip]: Jagdgesellschaften"
+ agot_colonization_events.1008.desc: "Dank der beharrlichen Bemühungen, die gefährliche Wolfspopulation in [obstacle_province.GetName] auszurotten, haben Jäger begonnen, Jagdgesellschaften zu gründen, um ihre Anstrengungen besser aufeinander abzustimmen.\n\nNeben dem offenkundigen Vorteil, die Keulung der Wölfe weitaus sicherer und leichter zu gestalten, hat dies eine eigenständige Lebensart in dem Gebiet hervorgebracht, da die Jagd unter den Tapferen und Kühnen der hiesigen Gemeinschaften als Zeitvertreib immer größere Verbreitung und Beliebtheit erfährt."
+ agot_colonization_events.1008.a: "Eine vorübergehende Laune, doch gleichwohl interessant."
+ agot_colonization_events.1008.success.toast.t: "Jagdgesellschaften gefördert!"
+ agot_colonization_events.1008.failure.toast.t: "Wolfsjagd gerät außer Kontrolle!"
+ agot_colonization_events.1008.b: "Wir sollten diese Jagdgesellschaften weiter fördern!"
+ agot_colonization_events.1008.b.duel_success: "Ihr fördert die Jagdgesellschaften erfolgreich"
+ agot_colonization_events.1008.b.duel_failure: "Die Jagd gerät außer Kontrolle..."
+ agot_colonization_events.1008.c: "Ich sollte diesen Leuten einen Besuch abstatten; gewiss haben sie den ein oder anderen nützlichen Kniff zu teilen."
+
+ agot_colonization_events.1009.t: "[obstacle_province.GetNameNoTooltip]: Heulen in der Nacht"
+ agot_colonization_events.1009.desc: "Als ich [obstacle_province.GetName] aufsuche, um den Fortschritt der dortigen Kolonie zu begutachten, fällt mir die schiere Verwüstung mancher Dörfer ins Auge — halb leere Geisterstätten, deren ausgemergelte Bewohner hinter kläglichen Palisaden kauern und sich kaum noch auf den Beinen halten, gestützt nur von ihren eigenen Mistgabeln. Die Wölfe, so sagen sie, seien so zahlreich und fürchterlich, dass allein das Überleben der Nächte zur Bewährungsprobe werde. Der Zustand ist unaushaltbar.\n\nAls mein Gefolge und ich uns anschicken, heimzukehren und eineb Trupp zur Keulung der Wölfe zusammenzurufen, werde ich vom Rest meiner Gruppe getrennt — nur eine Handvoll Begleiter verbleibt an meiner Seite. Schon bald zerreißt das Heulen von gewiss hundert Wölfen die stille Düsternis der Nacht. Im Handumdrehen ist mein Gefolge von allen Seiten von zähnefletschenden, knurrenden Wölfen umringt, einzig das brennende Licht unserer Fackeln hält sie auf Abstand. Doch als der Fackelschein erlischt, rücken die Wölfe näher und näher..."
+ agot_colonization_events.1009.a: "Formation! In Formation, und lasst sie an uns zerbrechen!"
+ agot_colonization_events.1009.a.duel_success: "Eure Kampferfahrung überwindet den Angriff der Wölfe"
+ agot_colonization_events.1009.a.duel_failure: "Eure Kampferfahrung vermag den Angriff der Wölfe nicht abzuwehren"
+ agot_colonization_events.1009.success.toast.t: "Wölfe abgewehrt"
+ agot_colonization_events.1009.failure.toast.t: "Von Wölfen verwundet!"
+ agot_colonization_events.1009.b: "Haltet die Feuer am Brennen! Wir müssen durchhalten!"
+ agot_colonization_events.1009.b.duel_success: "Es gelingt Euch, die Wölfe mit dem Feuer zu vertreiben"
+ agot_colonization_events.1009.b.duel_failure: "Das Feuer erwies sich als nicht ausreichend..."
+ agot_colonization_events.1009.c: "[knight.GetName], beschützt Eur[ROOT.Char.Custom('DE_END_ADJ_NUL_S_A')] [ROOT.Char.GetTitleAsNameNoTooltip]!"
+ agot_colonization_events.1009.c.duel_success: "[knight.GetNameNoTooltip] stellt sich den Wölfen tapfer entgegen"
+ agot_colonization_events.1009.c.duel_failure: "Ihr und [knight.GetNameNoTooltip] werdet bei dem Angriff verwundet"
+
+ ### Bear Den ###
+
+ agot_colonization_events.1101.t: "[obstacle_province.GetNameNoTooltip]: Yoh-gi"
+ agot_colonization_events.1101.desc: "Meine Siedler in [obstacle_province.GetName] sind es gewohnt, dass Bären in der Nähe ihrer Kolonie umherstreifen. Ein wenig zusätzliche Vorsicht genügt für gewöhnlich, und selbst die neugierigsten Bestien lassen sich zumeist durch beherztes Schlagen mit Löffeln auf Kochtöpfe vertreiben.\n\nEin Bär jedoch ist anders. In der hiesigen Mundart als 'Yoh-gi' bekannt, ist er klüger als der gemeine Bär. Er lauert Arbeitstrupps auf und fällt über sie her, sobald sie zur Mahlzeit rasten. Kaum sind die Arbeiter auseinandergestoben, plündert er ihr Gepäck und stiehlt jedweden Proviant.\n\nIn der Siedlung herrscht beträchtlicher Zwist darüber, wie dem Übel beizukommen sei. Die von der Kolonie angeworbenen Wildhüter wünschen, einen Jagdzug gegen den Bären zu unternehmen. Der Schmied der Siedlung hingegen ist überzeugt, die Bestie mittels einer sinnreichen Falle eigener Konstruktion überlisten zu können, geködert mit einem honiggetränkten Bienenstock."
+ agot_colonization_events.1101.a: "Den Jagdzug der Wildhüter beaufsichtigen."
+ agot_colonization_events.1101.a.duel_success: "Die Wildhüter erlegen Yoh-gi und seinesgleichen erfolgreich"
+ agot_colonization_events.1101.a.duel_failure: "Die Wildhüter werden von dem Bären überlistet"
+ agot_colonization_events.1101.b: "Den Schmied für den Bau seiner Falle entlohnen."
+ agot_colonization_events.1101.c: "Was ein Schwachsinn! Ich erledige das Viech selbst!"
+ agot_colonization_events.1101.c.duel_success: "Ihr erlegt Yoh-gi und seinesgleichen erfolgreich"
+ agot_colonization_events.1101.c.duel_failure: "Ihr werdet von dem Bären überlistet und überwältigt"
+ agot_colonization_events.1101.d: "He, he, he! Lasst den Bären in Frieden!"
+ agot_colonization_events.1101.success.toast.t: "Bärenbau beseitigt"
+ agot_colonization_events.1101.failure.toast.t: "Bärenbau besteht fort"
+
+ agot_colonization_events.1102.t: "[obstacle_province.GetNameNoTooltip]: Bärgelt" # AGOT will hier auf Weregild (althochdeutsch Wergelt) anspielen, das im Mittelalter eine Art Schadensersatz oder Sühnegeld für getötete oder verletzte Personen war, hier aber auf die Bärenjagd übertragen wird. Wird hier kein Spieler raffen, aber ich lass es trotzdem hier
+ agot_colonization_events.1102.desc: "Nach vier Tagen beschwerlichen Marsches durch unwirtliches Gelände nähert sich meine Bärenjagd ihrem Ende. Eine gewaltige Bärin steht im Eingang einer Höhle, den Blick unverwandt auf mich gerichtet. Sie stellt sich auf die Hinterläufe auf und brüllt, scheint jedoch zu zögern, vorzupreschen und den Schutz ihres felsigen Unterschlupfs zu verlassen. Dies für ein Zeichen der Schwäche haltend, springe ich vor und stoße ihr meinen Speer in die Brust. Nach kurzem Ringen bricht die Bärin zuckend zusammen. Mit letzter Kraft blickt sie mir abermals in die Augen, mit einem Ausdruck, der beinahe... flehend wirkt. Verstört weiche ich zurück und lasse den Speer fallen.\n\nDa erst vernehme ich das Wimmern.\n\nIm hinteren Teil der Höhle entdecke ich die Quelle des Geräusches — ein winziges Junges, noch blind und hilflos, kriecht auf mich zu. Überwältigende Schuld ergreift mich. Es zu füttern wäre kostspielig, doch vielleicht vermag ich den Bären selbst aufzuziehen..."
+ agot_colonization_events.1102.a: "Ich werde es von seinem Elend erlösen."
+ agot_colonization_events.1102.b: "Ich werde versuchen, das Junge selbst aufzuziehen."
+ agot_colonization_events.1102.b.success.toast.t: "Aufzucht erfolgreich"
+ agot_colonization_events.1102.b.failure.toast.t: "Aufzucht fehlgeschlagen"
+ agot_colonization_events.1102.c: "Vielleicht vermag es allein zu überleben..."
+
+ agot_colonization_events.1103.t: "[obstacle_province.GetNameNoTooltip]: Der Überfall"
+ agot_colonization_events.1103.desc: "Die neue Siedlung in [obstacle_province.GetNameNoTier] nimmt prächtig Gestalt an. Ein Häuflein Gebäude ist bereits emporgewachsen, Rauch steigt aus zahllosen Schornsteinen und Feuerstellen gen Himmel. Land wurde für den Ackerbau gerodet, und die Wildnis weicht allmählich einer gezähmten und gepflegten Landschaft. Während ich über die erzielten Fortschritte sinniere, wird mein Tagtraum von einem Schrei durchbrochen.\n\nEin Bär! Sein gewaltiger Leib stürmt mitten ins Herz der Siedlung und fegt die Siedler beiseite wie Kegel."
+ agot_colonization_events.1103.a: "Bringt mir einen Bogen! Ich werde ihn selbst zur Strecke bringen."
+ agot_colonization_events.1103.a.duel_success: "Es gelingt Euch, den Bären zu erlegen"
+ agot_colonization_events.1103.a.duel_failure: "Es gelingt Euch nicht, den Bären zu erlegen"
+ agot_colonization_events.1103.b: "Blast die Hörner! Dem muss ein Ende bereitet werden!"
+ agot_colonization_events.1103.b.duel_success: "Eurem Trupp gelingt es, den Bären zu erlegen"
+ agot_colonization_events.1103.b.duel_failure: "Euer Trupp vermochte den Bären nicht zu erlegen"
+ agot_colonization_events.1103.c: "Flieht! Dieser Feind ist stärker als wir alle!"
+ agot_colonization_events.1103.failure.toast.t: "Bärenbau besteht fort"
+ agot_colonization_events.1103.success.toast.t: "Bärenbau beseitigt"
+
+ agot_colonization_events.1104.t: "[obstacle_province.GetNameNoTooltip]: Pilzbär"
+ agot_colonization_events.1104.desc: "Mein[steward.Custom('DE_END_PRO_S_N')] [steward.Custom('GetCouncilOrCourtPosition')] [steward.GetFirstName] überbringt mir Kunde aus unserer jungen Kolonie in [obstacle_province.GetName]. Die Geschichte ist derart haarsträubend, dass [steward.GetFirstNameNoTooltip] darauf bestand, sie zu überprüfen, bevor [steward.Custom('DE_PRO_PER_S_3P_N')] sie mir vortrug, doch nun ist [steward.Custom('DE_PRO_PER_S_3P_N')] sich [steward.Custom('DE_PRO_POS_S_3P')]er Sache gewiss. Es scheint, als habe einer unserer Siedler eine besonders wirkungsvolle Pilzart entdeckt, deren Verzehr erstaunliche Visionen und Gefühle überwältigender Glückseligkeit hervorruft.\n\nDaran mag nichts Verwerfliches sein, doch ein angelegtes Pilzbeet wurde von einem hiesigen Bären von furchterregendem Ausmaß geplündert. Besagter Bär hat daraufhin einen Wutorgie von gewaltigem Ausmaß veranstaltet, Behausungen und Vorratskammern zerstört und Siedler abgeschlachtet, sodass die Kolonie nun in ihrer Existenz bedroht ist."
+ agot_colonization_events.1104.a: "Einige unserer Aufgebote zur Beseitigung dieser haarigen Bedrohung abstellen."
+ agot_colonization_events.1104.a.duel_failure: "Es gelingt Euren Aufgeboten nicht, den Bären zu vertreiben"
+ agot_colonization_events.1104.a.duel_success: "Eure Aufgebote vertreiben den Bären erfolgreich"
+ agot_colonization_events.1104.b: "Eine Spießgrube ausheben und den Bären mit frischen Pilzen ködern."
+ agot_colonization_events.1104.b.duel_failure: "Dem Bären gelingt die Flucht aus Eurer Falle"
+ agot_colonization_events.1104.b.duel_success: "Ihr lockt den Bären erfolgreich in Eure Falle"
+ agot_colonization_events.1104.c: "Ich möchte einige dieser Pilze probieren... zu Heilzwecken, versteht sich."
+ agot_colonization_events.1104.c.success.toast.t: "Ihr seid bär-rauscht und verpfifferlingt"
+ agot_colonization_events.1104.c.failure.toast.t: "Ihr spürt nur den Pilzkater danach"
+ agot_colonization_events.1104.failure.toast.t: "Bärenbau besteht fort"
+ agot_colonization_events.1104.success.toast.t: "Bär vertrieben"
+
+ agot_colonization_events.1105.t: "[obstacle_province.GetNameNoTooltip]: Mehr als das Auge sieht"
+ agot_colonization_events.1105.desc: "Die Lande um [obstacle_province.GetName] sind seit langem für die gewaltigen Bären bekannt, die dort hausen.\n\nAls ich meine Kolonie aufsuche, um ihren Fortschritt zu begutachten, werde ich auf der Straße von etwas aufgehalten, das einer kleinen Familie massiger Bären gleicht. Angeführt werden sie offenbar von einem ungeheuren Hünen von einem Mann, der verlangt, dass wir ihre Lande verlassen, ehe sie Vergeltung fordern für all die Bären, die wir erschlagen haben."
+ agot_colonization_events.1105.a: "Das möchte ich sehen, Wilder!"
+ agot_colonization_events.1105.b: "Haltet Eure Bären von unseren Siedlungen fern..."
+ agot_colonization_events.1105.c: "Wir waren gerade im Aufbruch begriffen, nicht wahr, Leute?"
+ agot_colonization_events.1105.toast.t: "Der Bär verbleibt"
+ agot_colonization_events.1105.a.duel_success: "Ihr vertreibt den Leibwechsler"
+ agot_colonization_events.1105.a.success.toast.t: "Bärenbau beseitigt"
+ agot_colonization_events.1105.a.duel_failure: "Es gelingt Euch nicht, den Leibwechsler zu vertreiben"
+ agot_colonization_events.1105.a.failure.toast.t: "Bei der Bärenjagd verwundet"
+ agot_colonization_events.1105.b.duel_success: "Ihr erzielt eine Übereinkunft mit dem Leibwechsler"
+ agot_colonization_events.1105.b.success.toast.t: "Koexistenz"
+ agot_colonization_events.1105.b.duel_failure: "Es gelingt Euch nicht, eine Übereinkunft mit dem Leibwechsler zu erzielen"
+ agot_colonization_events.1105.b.failure.toast.t: "Bärenbau besteht fort"
+
+ agot_colonization_events.1106.t: "[obstacle_province.GetNameNoTooltip]: Der Menschenfresser"
+ agot_colonization_events.1106.desc: "Er lauert in der Nacht. Sieben Fuß hoch und eine halbe Tonne schwer. Sein Fell ist dicker und zäher als Drachenschuppen, seine Fänge und Klauen gewaltiger als Schwerter, der Gestank seines Atems fauliger als eine Wiese nach der Schlacht. Er trägt die Narben hunderter Kämpfe, und sein Antlitz zeigt die Spuren und Blessuren hunderter Jahre.\n\nZumindest berichten dies die Briefe aus [obstacle_province.GetName]. Es ist wahrscheinlich, dass zumindest einige der Angaben über diesen gewaltigen Bären übertrieben sind, doch die Empfindung dahinter ist unmissverständlich. Sie berichten vielerlei: dass er beinahe unbesiegbar sei; dass er tausend Pfeile überlebt habe; dass er Jagdtrupps von fünfzig Mann hinschlachte; und dass er des Nachts ungesehen ins Dorf eindringe, um Vieh und Dörfler zu reißen — insbesondere Dörfler! Die Siedler flehen unmissverständlich: um Beistand, um irgendetwas; dass dieser Schrecken der Nacht ein für alle Mal beseitigt werde."
+ agot_colonization_events.1106.success.toast.t: "Bär erlegt"
+ agot_colonization_events.1106.failure.toast.t: "Bärenbau besteht fort"
+ agot_colonization_events.1106.a: "Entsendet meine besten Krieger, diese Bestie niederzustrecken!"
+ agot_colonization_events.1106.b: "[marshal.GetFirstName], sammelt die Siedler und bringt mir den Kopf dieses Bären."
+ agot_colonization_events.1106.b.duel_success: "Der Bär ist erlegt"
+ agot_colonization_events.1106.b.duel_failure: "Der Bär hat überlebt"
+ agot_colonization_events.1106.c: "Ach, nichts als der Aberglaube von Bauern! Sie mögen den Bären selbst bezwingen."
+
+ agot_colonization_events.1107.t: "[obstacle_province.GetNameNoTooltip]: Erbitterte Feinde"
+ agot_colonization_events.1107.desc: "Während die Kolonie in [obstacle_province.GetName] wächst, wird die lästige Bärenpopulation in der Gegend bejagt — der Sicherheit, der Nahrung und des bloßen Zeitvertreibs wegen. Doch es scheint, als hätten unsere Taten den Zorn dieser Bären auf uns gezogen, denn als ich die Kolonie aufsuche, um ihren Fortschritt zu begutachten, werden wir von den verfluchten Bestien belagert, angeführt von dem bei weitem größten Bären, den ich je erblickt habe. Schlimmer noch, er scheint die kleineren Bären auf irgendeine Weise zu befehligen!"
+ agot_colonization_events.1107.success.toast.t: "Bär erlegt"
+ agot_colonization_events.1107.failure.toast.t: "Bärenbau besteht fort"
+ agot_colonization_events.1107.a: "Es ist Bärensaison, Jungs!"
+ agot_colonization_events.1107.b: "Schlagt dem großen Untier den Kopf ab, und die Bären werden sich zerstreuen."
+ agot_colonization_events.1107.duel_success: "Der Bär ist erlegt"
+ agot_colonization_events.1107.duel_failure: "Der Bär hat überlebt"
+ agot_colonization_events.1107.c: "Lenkt sie ab, während ich, äh, Verstärkung hole!"
+
+ agot_colonization_events.1108.t: "[obstacle_province.GetNameNoTooltip]: Bärenhatz"
+ agot_colonization_events.1108.desc: "Als ich beschließe, [obstacle_province.GetName] einen Besuch abzustatten, um nach dem Rechten zu sehen, werde ich mit einem üppigen Fest zu meiner Ankunft empfangen. Speisen türmen sich auf, und der Trunk fließt in Strömen. Auf dem Höhepunkt der Festlichkeiten werde ich zu einer großen Arena geleitet und auf dem Ehrensitz platziert. Einige bösartig dreinblickende, große Hunde werden durch eine Pforte in die Grube der Arena geführt. Und dann, zu meiner großen Überraschung, trottet ein traurig dreinblickender Bär langsam durch die andere Pforte herein!\n\nWie auf Kommando stürzen die Hunde auf die Bestie los und schnappen nach ihr. Das ganze Schauspiel wird rasch zu einem Blutbad, doch schließlich wird der Bär vom letzten überlebenden Hund niedergerungen. Als ich mich dem lächelnden Statthalter zu meiner Linken zuwende, bedenke ich meine Haltung zu dem Spektakel."
+ agot_colonization_events.1108.a: "Das nenne ich Kurzweil!"
+ agot_colonization_events.1108.b: "Dies ist ein abscheulicher Brauch, und Ihr werdet ihn nicht wiederholen!"
+ agot_colonization_events.1108.c: "...Wie lässt sich damit Geld verdienen?"
+ agot_colonization_events.1108.c.duel_success: "Es gelingt Euch, aus diesen Bärenkämpfen Gewinn zu schlagen"
+ agot_colonization_events.1108.success.toast.t: "Einträgliches Geschäft"
+ agot_colonization_events.1108.c.duel_failure: "Es gelingt Euch nicht, aus diesen Bärenkämpfen Gewinn zu schlagen"
+ agot_colonization_events.1108.failure.toast.t: "Geschäft ertraglos"
+
+ agot_colonization_events.1109.t: "[obstacle_province.GetNameNoTooltip]: Trägheit und Wildheit"
+ agot_colonization_events.1109.desc: "Recht beunruhigende Kunde erreicht mich heute Morgen aus [obstacle_province.GetName]. Die dortige Bärenpopulation ist seit Anbeginn der Siedlung ein beständiger Dorn im Fleische der Ansässigen, bedingt durch die Angriffslust der Bestien. Bemähnt, sichelkrallig und struppig befellt sind diese Bären, doch was sie so gefährlich macht, ist ihre Wildheit — sie fallen Menschen ohne nennenswerten Anlass und ohne Vorwarnung an. Die Lage hat sich derart zugespitzt, dass der hiesige Statthalter persönlich an mich herangetreten ist mit der Bitte, einzugreifen und der Bedrohung durch diese Lippenbären ein Ende zu bereiten."
+ agot_colonization_events.1109.success.toast.t: "Bär erlegt"
+ agot_colonization_events.1109.failure.toast.t: "Bärenbau besteht fort"
+ agot_colonization_events.1109.a: "[knight.GetFirstName], hättet Ihr Lust auf eine Bärenjagd?"
+ agot_colonization_events.1109.b: "Reicht mir meinen heeren Bär-Speer her, Herr!"
+ agot_colonization_events.1109.duel_success: "Den schweren Bären mit dem heeren Bär-Speer sehr verheerend versehrt"
+ agot_colonization_events.1109.duel_failure: "Der schwere Bär trotz heerem Bär-Speer unversehrt"
+ agot_colonization_events.1109.c: "Höchst interessant, doch ich habe schlicht nicht die Muße dafür."
+
+ ### Bandit Den ###
+
+ agot_colonization_events.1201.t: "[obstacle_province.GetNameNoTooltip]: Die Verstoßenen"
+ agot_colonization_events.1201.desc.1: "Seit Wochen erreichen mich flehentliche Briefe aus der Siedlung in [obstacle_province.GetName]. Eine Bande von Geächteten überfällt seit geraumer Zeit wiederholt die Nahrungsvorräte der Ortschaft."
+ agot_colonization_events.1201.desc.2.marshal: "Mein[marshal.Custom('DE_END_PRO_S_N')] [marshal.GetCouncilTitle], [marshal.GetName], schlägt einen Strafzug vor, um die Banditen zu vertreiben.\n\nAllerdings "
+ agot_colonization_events.1201.desc.2.knight: "Mein[marshal.Custom('DE_END_PRO_S_N')] Heerberater[marshal.Custom('DE_END_NOU_S_GS_N')], [marshal.GetName], schlägt einen Strafzug vor, um die Banditen zu vertreiben.\n\nAllerdings "
+ agot_colonization_events.1201.desc.3.spymaster: "raunt mein[spymaster.Custom('DE_END_PRO_S_N')] [spymaster.GetCouncilTitle], [spymaster.GetName], dass an dieser Angelegenheit mehr ist, als das bloße Auge sieht. Es scheint, die Geächteten gehörten zu den frühesten Siedlern und waren größtenteils rechtschaffene Untertanen — bis ehemalige Soldaten, besser bewaffnet und wenig geneigt, mit eigenen Händen Unterkünfte zu errichten, sie aus ihren Behausungen vertrieben und jene stahlen, die bereits errichtet worden waren."
+ agot_colonization_events.1201.desc.3.scholar: "raunt [spymaster.Custom('DE_ART_DEF_S_N')] Gelehrte, [spymaster.GetName], dass an dieser Angelegenheit mehr ist, als das bloße Auge sieht. Es scheint, die Geächteten gehörten zu den frühesten Siedlern und waren größtenteils rechtschaffene Untertanen — bis ehemalige Soldaten, besser bewaffnet und wenig geneigt, mit eigenen Händen Unterkünfte zu errichten, sie aus ihren Behausungen vertrieben und jene stahlen, die bereits errichtet worden waren."
+ agot_colonization_events.1201.a: "Es kümmert mich nicht, wer zuerst da war. Regelt dies mit dem Schwert!"
+ agot_colonization_events.1201.a.duel_success: "Eure Leute bringen die letzten Unruhestifter zur Strecke."
+ agot_colonization_events.1201.a.duel_failure: "Eure Leute werden von den Banditen zurückgeschlagen."
+ agot_colonization_events.1201.b: "Begnadigt die Geächteten und gebt ihnen ihr Land zurück."
+ agot_colonization_events.1201.b.duel_success: "Ihr erwirkt eine gerechte Einigung für die Verstoßenen"
+ agot_colonization_events.1201.b.duel_failure: "Eure Bemühungen, den Verstoßenen Gerechtigkeit widerfahren zu lassen, scheitern"
+ agot_colonization_events.1201.c: "Vielleicht lässt sich ein Vergleich erzielen..."
+ agot_colonization_events.1201.c.duel_success: "Ihr erzielt eine Übereinkunft zwischen den Verstoßenen und den Siedlern"
+ agot_colonization_events.1201.c.duel_failure: "Es gelingt Euch nicht, eine Übereinkunft zwischen den Verstoßenen und den Siedlern zu erzielen"
+ agot_colonization_events.1201.d: "Dafür fehlt mir gegenwärtig schlicht die Muße!"
+ agot_colonization_events.1201.success.toast.t: "Banditen beseitigt"
+ agot_colonization_events.1201.failure.toast.t: "Banditen verbleiben"
+
+ agot_colonization_events.1202.t: "[obstacle_province.GetNameNoTooltip]: Der Kessel"
+ agot_colonization_events.1202.desc.marshal: "Mein[marshal.Custom('DE_END_PRO_S_N')] [marshal.GetCouncilTitle], [marshal.GetName], überbringt mir erfreuliche Kunde. Die hiesige Garnison hat das Versteck einer Bande von Gesetzlosen ausfindig gemacht, die meine Siedlung in [obstacle_province.GetName] drangsalieren. Die Soldaten haben die Geächteten eingekreist, und seit einigen Tagen findet ein anhaltendes Geplänkel statt. Doch bislang kam es zu keinem entscheidenden Vorstoß, die Pattsituation zu beenden.\n\nDer Anführer der Banditen scheint gewillt, notfalls bis zum Letzten zu kämpfen, hat jedoch angeboten, die Gegend gegen eine ansehnliche Entschädigung zu verlassen."
+ agot_colonization_events.1202.desc.knight: "Mein[marshal.Custom('DE_END_PRO_S_N')] Heerberater[marshal.Custom('DE_END_NOU_S_GS_N')], [marshal.GetNameNoTooltip], überbringt mir erfreuliche Kunde. Die hiesige Garnison hat das Versteck einer Bande von Banditen ausfindig gemacht, die meine Siedlung in [obstacle_province.GetNameNoTooltip] drangsalieren. Die Soldaten haben die Geächteten eingekreist, und seit einigen Tagen findet ein anhaltendes Geplänkel statt. Doch bislang kam es zu keinem entscheidenden Vorstoß, die Pattsituation zu beenden.\n\nDer Anführer der Banditen scheint gewillt, notfalls bis zum Letzten zu kämpfen, hat jedoch angeboten, die Gegend gegen eine ansehnliche Entschädigung zu verlassen."
+ agot_colonization_events.1202.a: "Macht sie nieder!"
+ agot_colonization_events.1202.a.duel_success: "Eure Leute bringen die letzten Unruhestifter zur Strecke."
+ agot_colonization_events.1202.a.duel_failure: "Eure Leute werden von den Banditen zurückgeschlagen."
+ agot_colonization_events.1202.b: "Was, wenn man sie zum Dienst überreden könnte?"
+ agot_colonization_events.1202.b.duel_success: "Ihr überzeugt den Banditenführer, die Kolonie gegen regelmäßigen Sold zu verteidigen."
+ agot_colonization_events.1202.b.duel_failure: "Eure Verhandlungsbemühungen scheitern."
+ agot_colonization_events.1202.c: "Ich könnte wohl ihre Reisespesen übernehmen..."
+
+ agot_colonization_events.1203.t: "[obstacle_province.GetNameNoTooltip]: Die Bruderschaft"
+ agot_colonization_events.1203.desc: "Das Banditenunwesen in [obstacle_province.GetName] stellt seit geraumer Zeit ein Ärgernis dar. Was anfänglich nur eine Handvoll vereinzelter Banden von Schurken und Wegelagerern war, hat sich mit der Zeit unter dem Befehl einiger weniger Anführer zusammengeschlossen. Skrupellos, gerissen und ehrgeizig, sind diese Banditen mittlerweile so zahlreich und wohlorganisiert, dass sie die kümmerliche Garnison von [obstacle_province.GetNameNoTooltip] durch Einschüchterug dazu gebracht haben, die Waffen niederzulegen und diese sogenannte 'Bruderschaft' als neue Statthalter der Kolonie hinzunehmen. Dies ist für mich, verständlicherweise, höchst beunruhigend.\n\nMit einem Aufgebot fähiger Krieger schicke ich mich an, auf [obstacle_province.GetNameNoTooltip] zu marschieren, um es diesen Umstürzlern zu entreißen. Doch bei meiner Ankunft werde ich unter weißer Flagge empfangen. Die Anführer der Bruderschaft treten mir entgegen und unterbreiten ein Angebot. Sie werden [obstacle_province.GetNameNoTooltip] mit ihren Schwertern schützen und mit ihren Händen aufbauen, im Gegenzug für Gnade und eine Schonfrist bei den Abgaben, während die Bruderschaft sich zu einer rechtmäßigen Gilde in der Gegend wandelt. Angesichts dessen, wie wohl gediehen [obstacle_province.GetNameNoTooltip] unter ihrer Verwaltung ist, sollte ich ihr Angebot vielleicht sogar in Betracht ziehen..."
+ agot_colonization_events.1203.a: "Ihr habt doch wohl nicht im Ernst geglaubt, dies würde gelingen?"
+ agot_colonization_events.1203.a.duel_success: "Eure Leute hauen die Bruderschaft kurz und klein."
+ agot_colonization_events.1203.a.duel_failure: "Eure Leute werden von den Banditen zurückgeschlagen."
+ agot_colonization_events.1203.b: "Ein interessantes Angebot! Doch ich habe ein weitaus besseres."
+ agot_colonization_events.1203.b.duel_success: "Ihr überzeugt die Gilde, die Kolonie gegen eine Entschädigung zu verlassen."
+ agot_colonization_events.1203.b.duel_failure: "Eure Verhandlungsbemühungen scheitern."
+ agot_colonization_events.1203.c: "Abgemacht! Ich werde Eure Treueeide hier und jetzt entgegennehmen."
+ agot_colonization_events.1203.success.toast.t: "Banditen beseitigt"
+ agot_colonization_events.1203.failure.toast.t: "Banditen verbleiben"
+
+ agot_colonization_events.1204.t: "[obstacle_province.GetNameNoTooltip]: Wildlingsstämme"
+ agot_colonization_events.1204.desc: "Die Lande jenseits der Mauer sind seit langem nur dünn besiedelt. Die wenigen, die diesen kalten Flecken noch immer ihre Heimat nennen, sind primitiv, zäh und hartgesotten. Während [obstacle_province.GetName] wächst, wächst auch der Groll der Einheimischen, da sie um die wenigen Rohstoffe wetteifern müssen, die in dieser Gegend zu finden sind.\n\nWas einst angespannte Gegenüberstellungen aus der Ferne waren, hat sich zu kleinen Scharmützeln, Viehdiebstählen und gelegentlichen Entführungen zwecks Lösegelderpressung ausgewachsen. Sollten diese Stämme beschließen, die Sache selbst in die Hand zu nehmen, besteht die sehr reale Gefahr, dass sie [obstacle_province.GetNameNoTooltip] bei einem Überfall gänzlich vernichten könnten. Es muss etwas unternommen werden."
+ agot_colonization_events.1204.a: "Vernichtet diese Banditen!"
+ agot_colonization_events.1204.a.duel_success: "Eure Leute machen die Banditen nieder"
+ agot_colonization_events.1204.a.duel_failure: "Eure Leute werden von den Banditen zurückgeschlagen"
+ agot_colonization_events.1204.b: "Entsendet einen Abgesandten zum Häuptling."
+ agot_colonization_events.1204.b.duel_success: "Ihr zieht klare Grenzen zwischen unseren Völkern"
+ agot_colonization_events.1204.b.duel_failure: "Eure Verhandlungsbemühungen scheitern"
+ agot_colonization_events.1204.c: "Als ob diese lumpentragenden Wilden eine Bedrohung darstellten."
+ agot_colonization_events.1204.success.toast.t: "Banditen beseitigt"
+ agot_colonization_events.1204.failure.toast.t: "Banditen verbleiben"
+
+ agot_colonization_events.1205.t: "[obstacle_province.GetNameNoTooltip]: Der Verräter"
+ agot_colonization_events.1205.desc: "Die Bekämpfung der Banditen von [obstacle_province.GetName] war mühsam und schleppend, verlief jedoch im Großen und Ganzen zufriedenstellend. Wo zuvor Lager von Banditen und Wegelagerern die Wildnis übersäten, sind die meisten ihrer Stützpunkte mittlerweile zerschlagen. Doch für die Siedler besteht die Bedrohung fort. Die verbliebenen Banditen und Überlebenden haben sich zusammengerottet und ein einziges großes Lager errichtet.\n\nEines Morgens kniet [traitor.Custom('DE_ART_IND_N')] zerlumpt[traitor.Custom('DE_END_ADJ_DEF_S_N')], verwildert aussehend[traitor.Custom('DE_END_ADJ_DEF_S_N')] [traitor.GetWomanMan] vor meinem Thron nieder.\n\n„Eure Hoheit, es ist mir wohl bewusst, dass die armen Dörfler von [obstacle_province.GetNameNoTooltip] schwer unter der Geißel der Banditen gelitten haben und jeden Tag in Furcht vor einem Überfall leben!“ [traitor.Custom('DE_PRO_PER_S_3P_N')|U] grinst. „Ich hätte einen Vorschlag für Euch: Ich lasse des Nachts einige Eurer Dorfwachen ein, und sie können jeden letzten Banditen erschlagen! Alles, worum ich bitte, ist eine bescheidene Summe Goldes, weitaus weniger als das, was es kosten würde, das Lager mit Gewalt zu zerstören.“\n\nEin interessanter Vorschlag..."
+ agot_colonization_events.1205.a: "Nun gut, wenn Ihr es sagt."
+ agot_colonization_events.1205.a.duel_success: "Der Plan geht wie erwartet auf."
+ agot_colonization_events.1205.a.duel_failure: "Ihr werdet verraten."
+ agot_colonization_events.1205.b: "Meine Soldaten werden das Gesindel zur Strecke bringen."
+ agot_colonization_events.1205.b.duel_success: "Eure Leute machen die Banditen nieder"
+ agot_colonization_events.1205.b.duel_failure: "Eure Leute werden von den Banditen zurückgeschlagen."
+ agot_colonization_events.1205.c: "Ich bedarf Eurer Hilfe nicht."
+ agot_colonization_events.1205.success.toast.t: "Banditen beseitigt"
+ agot_colonization_events.1205.failure.toast.t: "Banditen verbleiben"
+
+ agot_colonization_events.1206.t: "[obstacle_province.GetNameNoTooltip]: Der gerissene Brigant"
+ agot_colonization_events.1206.desc: "Als ich die jüngsten Berichte aus der Siedlung in [obstacle_province.GetName] durchgehe, finde ich zu meiner Überraschung einen an mich adressierten Brief darunter. Verschickt wurde er von [brigand.GetName], [Select_CString( brigand.IsFemale, 'eine der Anführer', 'einem der Anführer' )] der Banditen, die das Gebiet heimsuchen.\n\nDer Inhalt des Briefes ist ebenso dreist wie verwegen: [brigand.GetFirstName] erbittet meine Erlaubnis, die Siedlung als [brigand.Custom('DE_PRO_POS_S_3P')] eigen zu beanspruchen, im Gegenzug für einen Treueeid mir gegenüber und den Dienst als mein[brigand.Custom('DE_END_PRO_S_N')] Vasall[brigand.Custom('DE_END_NOU_S_GS_N')].\n\nWenngleich dies ein wahrlich ungewöhnliches Angebot ist, so steckt darin vielleicht doch ein Funken Vernunft?"
+ agot_colonization_events.1206.a: "Ungeheuerlich. Lasst dies[brigand.Custom('DE_END_ADJ_NUL_S_A')] Narr[brigand.Custom('DE_END_NOU_S_GS_N')] ergreifen."
+ agot_colonization_events.1206.b: "Stattdessen werde ich dies[brigand.Custom('DE_END_ADJ_NUL_S_A')] Brigant[brigand.Custom('DE_END_NOU_S_GS_N')] in meine Dienste nehmen."
+ agot_colonization_events.1206.c: "Einverstanden. Schwört mir hier und jetzt die Treue."
+ agot_colonization_events.1206.c.tt.success: "[brigand.GetFirstNameNoTooltip] hält [brigand.Custom('DE_PRO_POS_S_3P')] Wort."
+ agot_colonization_events.1206.c.tt.failure: "[brigand.GetFirstNameNoTooltip] reißt [obstacle_province.GetNameNoTooltip] an sich."
+ agot_colonization_events.1206.d: "Ich brauche Euren Treueid nicht. [obstacle_province.GetNameNoTooltip] gehört Euch."
+ agot_colonization_events.1206.d.tt: "[brigand.GetFirstNameNoTooltip] wird [obstacle_province.GetNameNoTooltip] zugesprochen."
+
+ ### Dense Growth ###
+
+ agot_colonization_events.1301.t: "[obstacle_province.GetNameNoTooltip]: Im Dickicht verschwunden"
+agot_colonization_events.1301.desc: "Betrübliche Kunde erreicht mich aus der Siedlung in [obstacle_province.GetName]. Während eines Besuchs der Siedlung und eines Spaziergangs durch die umliegende Landschaft ist [lost_person.GetNameNoTooltip] in den tiefen Wäldern verschollen!\n\nSpurlos zu verschwinden ist ein Kunststück, dessen sich nur wenige rühmen können, doch ich hege den Verdacht, dass dieses Verschwinden nicht aus freien Stücken geschah. [lost_person.GetFirstNameNoTooltip] schwebt womöglich in großer Gefahr...\n\nEs obliegt mir, auf diese Lage zu reagieren."
+ agot_colonization_events.1301.a: "Scheut keine Kosten! Ich will, dass man [lost_person.Custom('DE_PRO_PER_S_3P_A')] findet!"
+ agot_colonization_events.1301.b: "Ich werde den Suchtrupp persönlich anführen!"
+ agot_colonization_events.1301.duel_success: "Ihr rettet [lost_person.GetFirstNameNoTooltip]."
+ agot_colonization_events.1301.duel_failure: "Es gelingt Euch nicht, [lost_person.GetFirstNameNoTooltip] zu finden."
+ agot_colonization_events.1301.c: "Unsere Bemühungen sollten stattdessen der Siedlung zugutekommen."
+ agot_colonization_events.1301.c.death: "Nur die sterblichen Überreste von [lost_person.GetFirstNameNoTooltip] werden gefunden."
+ agot_colonization_events.1301.c.vanished: "[lost_person.GetFirstNameNoTooltip] bleibt spurlos verschwunden."
+ agot_colonization_events.1301.c.laamp: "[lost_person.GetFirstNameNoTooltip] hat überlebt und wurde [adventurer|E]."
+
+ agot_colonization_events.1302.t: "[obstacle_province.GetNameNoTooltip]: Ertrag des Waldes"
+ agot_colonization_events.1302.desc: "Ich habe einen Bericht aus der Siedlung in [obstacle_province.GetName] erhalten. Die dichten Wälder rings um die Kolonie wurden hinreichend gerodet, um die grundlegende Erschließung der Provinz zu ermöglichen.\n\nNeben dieser erfreulichen Kunde wird mir eine Anfrage aus der Siedlung vorgelegt: Was soll mit all dem Holz geschehen, das beim Schlagen der Schneisen durch die Wälder angefallen ist?"
+ agot_colonization_events.1302.a: "Was wir nicht benötigen, sollten wir verkaufen."
+ agot_colonization_events.1302.duel_success: "Es gelingt Euch, stattlichen Gewinn zu erzielen."
+ agot_colonization_events.1302.duel_failure: "Ihr erzielt nur kärglichen Gewinn."
+ agot_colonization_events.1302.b: "Verwendet das Holz zum Ausbau der Siedlung."
+ agot_colonization_events.1302.c: "Wir sollten ein großes Knäckerchen machen!"
+ agot_colonization_events.1302.d: "Die Wälder ließen sich bewirtschaften..."
+
+ agot_colonization_events.1303.t: "[obstacle_province.GetNameNoTooltip]: Die uralte Ruine"
+ agot_colonization_events.1303.desc: "Meine Arbeiter in der Siedlung von [obstacle_province.GetName] machen gute Fortschritte. Das Buschwerk wurde gerodet und Pfade durch den dichten Wald geschlagen, sodass die Kolonie ihre notwendige Erschließung vorantreiben kann.\n\nBeim Roden des umliegenden Landes haben die Arbeiter eine uralte Ruine unbekannten Ursprungs und Zwecks entdeckt. Wer vermag zu sagen, welch längst vergessene Kultur einst diesen Ort errichtete?\n\nWenngleich die Ruine kein unmittelbares Hindernis für die Erschließung der Siedlung darstellt, bleibt die Frage, was mit ihr geschehen soll."
+ agot_colonization_events.1303.a: "Versuchen wir, die Ruine in etwas brauchbares umzuwandeln."
+ agot_colonization_events.1303.duel_success: "Ein neues Gebäude wird in [obstacle_province.GetNameNoTooltip] errichtet"
+ agot_colonization_events.1303.duel_failure: "Die Ruine zerfällt und hinterlässt nichts als Staub"
+ agot_colonization_events.1303.b: "Lasst die Ruine in Frieden und widmet Euch der Siedlung."
+ agot_colonization_events.1303.c: "Wir sollten die Ruine erforschen und wiederaufbauen, was wir vermögen!"
+ agot_colonization_events.1303.d: "Reißt sie ab! Ihre Steine können andernorts Verwendung finden."
+
+ agot_colonization_events.1304.t: "[obstacle_province.GetNameNoTooltip]: Vergeltung der Natur"
+ agot_colonization_events.1304.desc: "Erstaunliche Kunde erreicht mich aus der Siedlung in [obstacle_province.GetName]. Die hiesigen Arbeiter haben eifrig Teile der dichten Wälder rings um die Kolonie gerodet, doch nach einer besonders finsteren Nacht sind viele der Bäume auf rätselhafte Weise zurückgekehrt!\n\nEs ist unklar, was dies verursacht hat, doch ein Großteil der geleisteten Arbeit der Siedlung ist zunichtegemacht. Die Arbeiter werden zunehmend verdrossen, und Ertragskraft wie Arbeitsgeist schwinden dahin. Es scheint, als müsse ich rasch handeln..."
+ agot_colonization_events.1304.a: "Ich werde diese Bäume eigenhändig fällen!"
+ agot_colonization_events.1304.duel_success: "Eure Bemühungen sind von Erfolg gekrönt."
+ agot_colonization_events.1304.duel_failure: "Die Bäume kehren in noch größerer Zahl zurück."
+ agot_colonization_events.1304.b: "Stellen wir einige Aufgebote ab, um meinen Arbeitern unter die Arme zu greifen."
+ agot_colonization_events.1304.c: "Lasst diese Bäume vorerst in Frieden... und baut woanders."
+ agot_colonization_events.1304.d: "Ich weiß, wie man die Natur hier besänftigt..."
+
+ ### Flooded Lands ###
+
+ agot_colonization_events.1401.t: "[obstacle_province.GetNameNoTooltip]: Gräben graben"
+ agot_colonization_events.1401.desc: "Das sumpfige Gelände rings um unsere neue Kolonie in [obstacle_province.GetName] hat sich in vielerlei Hinsicht als vorteilhaft erwiesen. Zum einen ist es leicht zu verteidigen, da die Zugänge für jede größere Streitmacht beschwerlich sind. Zum anderen wimmeln die Moore von Brassen, Barschen, Hechten und Aalen, die meine Siedler frisch fangen oder für den Winter räuchern können.\n\nAndererseits birgt das Marschland eine gewaltige Gefahr der Überflutung, insbesondere während der Frühjahrsschmelze, wenn die sumpfigen Eilande von steigenden Wassern überschwemmt werden können. Um sich dagegen zu wappnen, haben meine Siedler mit dem Bau eines Systems aus Deichen und Kanälen begonnen, um ihre Behausungen zu schützen und Land für den Ackerbau trockenzulegen. Dies erfordert ein ungeheures Maß an Arbeitskraft und hat sich als schwere Bürde für die junge Kolonie erwiesen. Nun scheint einer der Deiche gebrochen zu sein, und die Fluten drohen, die Siedlung gänzlich zu vernichten."
+ agot_colonization_events.1401.a: "Ich werde die Hilfsmaßnahmen persönlich beaufsichtigen und in Arbeitskräfte investieren."
+ agot_colonization_events.1401.a.duel_success: "Euer Vorhaben bleibt unter dem veranschlagten Budget."
+ agot_colonization_events.1401.a.duel_failure: "Euer Vorhaben übersteigt den veranschlagten Budget."
+ agot_colonization_events.1401.success.toast.t: "Vorhaben unter dem veranschlagten Budget"
+ agot_colonization_events.1401.failure.toast.t: "Vorhaben über dem veranschlagten Budget"
+ agot_colonization_events.1401.b: "Stellt einige Truppen ab, um beim Wiederaufbau und der Fertigstellung des Deichs zu helfen."
+ agot_colonization_events.1401.c: "Vielleicht war diese Kolonie von Anbeginn zum Scheitern verurteilt..."
+
+ agot_colonization_events.1402.t: "[obstacle_province.GetNameNoTooltip]: Sumpffieber"
+ agot_colonization_events.1402.desc: "Meine Marschlandsiedlung in [obstacle_province.GetName] wird während der Frühjahrsfluten häufig überschwemmt, doch die Bedrohung schwindet allmählich, da ein System von Dämmen fertiggestellt wird, um die steigenden Wassermassen zurückzuhalten und umzuleiten.\n\nGleichwohl wird die Kolonie von einem rätselhaften Siechtum heimgesucht, das offenbar von den stechenden Insekten herrührt, die über den Wassern schwärmen. Diese Krankheit bringt Schüttelfrost, Zittern und entsetzliche Erschöpfung mit sich.\n\nDie Siedler haben nunmehr geschrieben und fordern Vorräte an Weidenrinde zur Linderung ihrer Leiden sowie Beifuß zur Abwehr der Insekten."
+ agot_colonization_events.1402.a: "Sie sollen erhalten, was sie benötigen, gegen diese kleinen Mistviecher."
+ agot_colonization_events.1402.b: "Es wäre an der Zeit, dass die Geistlichkeit hier etwas Wohlfahrt leisten..."
+ agot_colonization_events.1402.c: "Hätten sie sich eifriger um die Entwässerung bemüht, bestünde dieses Übel nicht!"
+
+ ### Pirate Remnants ###
+
+ agot_colonization_events.1501.t: "[obstacle_province.GetNameNoTooltip]: Die letzten Piraten"
+ agot_colonization_events.1501.desc: "Unter dem Schutze der Dunkelheit fällt eine Bande verzweifelter Piratenüberbleibsel über die Lagerschuppen der Kolonie her. Sie verbrennen Getreide und setzen Gebäude in Brand, sodass die verängstigten Siedler um ihr Leben rennen. Berichte künden von verbrannter Erde, geplünderten Vorräten und dem fernen Widerhall irren Gelächters, während die Piraten in der Nacht verschwinden.\n\nDie Kolonie wird nicht mehr lange bestehen, wenn ich diesen Räubern nicht entschieden ein Ende bereite."
+ agot_colonization_events.1501.a: "Verfolgt sie und bestraft sie bis zum letzten Mann."
+ agot_colonization_events.1501.a.duel_success: "Eure Soldaten überraschen die Räuber und beenden ihren Einfluss auf die Provinz"
+ agot_colonization_events.1501.a.duel_failure: "Ihr verliert Männer bei der Verfolgung. Die Räuber verschwinden mit lebenswichtigen Vorräten"
+ agot_colonization_events.1501.b: "Die Verteidigungsanlagen verstärken und die verbliebenen Vorräte bewahren."
+ agot_colonization_events.1501.b.duel_success: "Eure umsichtige Planung verschafft Euch Zeit und bewahrt die Vorräte, bis Eure Soldaten die Räuber abwehren können"
+ agot_colonization_events.1501.b.duel_failure: "Die Räuber schlagen rasch erneut zu, mit tödlicher Gewalt"
+ agot_colonization_events.1501.c: "Die Piraten haben die Kolonisierung hier zur Narretei gemacht."
+ agot_colonization_events.1501.success.toast.t: "Piratenüberbleibsel beseitigt"
+ agot_colonization_events.1501.failure.toast.t: "Piratenüberbleibsel verbleiben"
+
+ agot_colonization_events.1502.t: "[obstacle_province.GetNameNoTooltip]: Schatten vor der Küste"
+ agot_colonization_events.1502.desc: "Ich erwachte zu seltsamer Kunde: An diesem Morgen hatte sich der Nebel gelichtet und ein sturmgepeitschtes Schiff enthüllt, das entlang der Küste nahe [obstacle_province.GetName] dahintrieb. Keine Händler waren erwartet worden, und die Siedler versammelten sich am Ufer, unruhig murmelnd, ungewiss ob das Schiff verlassen, verflucht oder ein übles Omen sei. Stunden vergingen, doch das Schiff trieb auf der Stelle, träge und stumm.\n\nBei Einbruch der Dämmerung, obgleich niemand eine Seele hatte von Bord gehen sehen, fand sich eine Warnung am Tor der Kolonie, befestigt mit einem rostigen Dolch.\n\n#italic Wir sind gekommen, zurückzuholen, was uns gestohlen ward. Übergebt eure Vorräte und Schiffe, oder ertrinkt in der Flut.#!"
+ agot_colonization_events.1502.a: "Wir empfangen sie mit Feuer und Stahl."
+ agot_colonization_events.1502.a.duel_success: "Eure Leute schlagen den Landungstrupp zurück und verbrennen ihr Schiff"
+ agot_colonization_events.1502.a.duel_failure: "Die Räuber plündern den Hafen, ehe sie im Nebel verschwinden"
+ agot_colonization_events.1502.b: "Bietet ihnen Gold, damit sie ein für alle Mal verschwinden."
+ agot_colonization_events.1502.b.duel_success: "Sie nehmen das Gold und verschwinden mit der Ebbe"
+ agot_colonization_events.1502.b.duel_failure: "Sie nehmen das Gold und greifen dennoch an"
+ agot_colonization_events.1502.c: "Diese Piraten erweisen sich als mehr Ärgernis, als sie wert sind."
+ agot_colonization_events.1502.success.toast.t: "Piratenüberbleibsel beseitigt"
+ agot_colonization_events.1502.failure.toast.t: "Piratenüberbleibsel verbleiben"
+
+ agot_colonization_events.1503.t: "[obstacle_province.GetNameNoTooltip]: Der Piratenhauptmann"
+ agot_colonization_events.1503.desc: "[pirate_leader.GetName], einer der überlebenden Piratenanführer, hat eine Schar Nachzügler um sich geschart und irgendwo nahe [obstacle_province.GetNameNoTooltip] ein befestigtes Lager errichtet. Er hat durch einen Boten Wort geschickt, man möge sie in Frieden lassen, oder die Kolonie werde brennen.\n\nEin offener Sturmangriff könnte in einer Katastrophe enden, doch Untätigkeit wäre ebenso verhängnisvoll."
+ agot_colonization_events.1503.a: "Fordert [pirate_leader.GetFirstNameNoTooltip] zum Zweikampf heraus."
+ agot_colonization_events.1503.a.duel_success: "Ihr erschlagt den Piratenhauptmann eigenhändig, und seine Mannschaft zerstreut sich"
+ agot_colonization_events.1503.a.duel_failure: "Er besiegt Euch"
+ agot_colonization_events.1503.b: "Stürmt die Befestigung unter dem Schutze der Dunkelheit."
+ agot_colonization_events.1503.b.duel_success: "Die Befestigung ist zerstört. Die Bedrohung ist gebannt"
+ agot_colonization_events.1503.b.duel_failure: "Eure Soldaten laufen in eine Falle. Nur wenige kehren lebend zurück"
+ agot_colonization_events.1503.c: "Bietet Gold, damit sie verschwinden."
+ agot_colonization_events.1503.c.duel_success: "Sie nehmen das Gold und verschwinden im Nebel"
+ agot_colonization_events.1503.c.duel_failure: "Sie nehmen das Gold und danken Euch für Eure „Spende“"
+ agot_colonization_events.1503.d: "Wenn wir sie in Ruhe lassen, werden sie gewiss dasselbe tun..."
+ agot_colonization_events.1503.success.toast.t: "Piratenüberbleibsel beseitigt"
+ agot_colonization_events.1503.failure.toast.t: "Piratenüberbleibsel verbleiben"
+
+ agot_colonization_events.1504.t: "[obstacle_province.GetNameNoTooltip]: Der Hinterhalt"
+ agot_colonization_events.1504.desc: "Während einer Routinepatrouille nahe der Küste wurden meine Leute von schwerbewaffneten Piraten überfallen. Verborgene Höhlen dienten als Ausgangspunkt für ihre Raubzüge. Diese Nachzügler sind keine ziellosen Plünderer; sie sind wohlorganisiert und tödlich.\n\nWenn wir sie nicht jetzt mit der Wurzel ausreißen, könnten sie die Siedlung selbst überrennen."
+ agot_colonization_events.1504.a: "Stürmt die Höhlen. Lasst keinen am Leben."
+ agot_colonization_events.1504.a.duel_success: "Die Höhlen sind gesäubert"
+ agot_colonization_events.1504.a.duel_failure: "Eure Leute werden in der Finsternis niedergemetzelt"
+ agot_colonization_events.1504.b: "Zu gefährlich. Stellt zusätzliche Wachen auf und betet, dass sie weiterziehen."
+ agot_colonization_events.1504.success.toast.t: "Piratenüberbleibsel beseitigt"
+ agot_colonization_events.1504.failure.toast.t: "Piratenüberbleibsel verbleiben"
