@@ -1,11 +1,11 @@
 ﻿l_german:
-  
- agot_commission_crown.0001.t: "Crown Commission"
- agot_commission_crown.0001.desc: "It's decided. Let history remember me by my name, my deeds, and the symbols I chose to bear. I shall commission a crown that will become an heirloom passed from generation to generation, openly showcasing my power and influence."
- agot_commission_crown.0001.desc_coronation: "Every coronation requires a crown and so I shall commission one. It will become an heirloom passed from generation to generation, openly showcasing my power and influence."
- agot_commission_crown.0001.a: "This is the one."
- agot_commission_crown.0001.b: "I've changed my mind. I no longer wish to make a new crown."
-  
+
+ agot_commission_crown.0001.t: "Eine neue Krone"
+   agot_commission_crown.0001.desc: "Es ist beschlossen. Die Geschichte soll sich meiner durch meinen Namen, meine Taten und die Symbole, die ich zu tragen erwählte, erinnern. Ich werde eine Krone in Auftrag geben, die als Erbstück von Generation zu Generation weitergereicht wird und offen meine Macht und meinen Einfluss zur Schau stellt."
+   agot_commission_crown.0001.desc_coronation: "Jede Krönung bedarf einer Krone, und so werde ich eine in Auftrag geben. Sie wird als Erbstück von Generation zu Generation weitergereicht werden und offen meine Macht und meinen Einfluss zur Schau stellen."
+   agot_commission_crown.0001.a: "Diese soll es sein."
+   agot_commission_crown.0001.b: "Ich habe es mir anders überlegt. Ich wünsche keine neue Krone mehr anfertigen zu lassen."
+
  # agot_commission_crown.0001.t: "Crown Commission"
  # agot_commission_crown.0001.desc: "It's decided. A proper crown should proudly represent one's house. It shall become an heirloom passed from generation to generation, openly showcasing the power and influence of this family. I will commission a crown inspired by my lineage."
  # agot_commission_crown.0001.1: "Make me a crown inspired by House Blackwood."
@@ -40,7 +40,7 @@
  # agot_commission_crown.0001.30: "Make me a crown inspired by House Velaryon."
  # agot_commission_crown.0001.31: "Make me a set of crowns inspired by House Gardener."
  # agot_commission_crown.0001.32: "Make me a crown inspired by House Mudd."
-  
+
  # agot_commission_crown.0002.t: "Crown Commission"
  # agot_commission_crown.0002.desc: "It's decided. What better form of representing my reign than to pay homage to the very lands and titles that I call my own? I will commission a crown inspired by my seat of power."
  # agot_commission_crown.0002.1: "Make me a crown inspired by the lands beyond the Wall."
@@ -48,7 +48,7 @@
  # agot_commission_crown.0002.3: "Make me a crown inspired by the Iron Islands."
  # agot_commission_crown.0002.4: "Make me a crown inspired by the North."
  # agot_commission_crown.0002.5: "Make me a crown inspired by the Wall."
-  
+
  # agot_commission_crown.0003.t: "Crown Commission"
  # agot_commission_crown.0003.desc: "It's decided. From the lowest of smallfolk, to the highest of lords, and even Kings, we are all but faithful servants to divinity. It is important to pay homage to that which created us, and to showcase our devotion to their teachings. I will commission a crown inspired by my faith."
  # agot_commission_crown.0003.1: "Make me a crown to honor the Drowned God."
@@ -56,7 +56,7 @@
  # agot_commission_crown.0003.3: "Make me a crown to honor R'hllor."
  # agot_commission_crown.0003.4: "Make me a circlet to honor R'hllor."
  # agot_commission_crown.0003.5: "Make me a crown to honor the Old Gods."
-  
+
  # agot_commission_crown.0004.t: "Crown Commission"
  # agot_commission_crown.0004.desc: "It's decided. Let history remember me by my name, my deeds, and the symbols I chose to bear. I will commission a unique crown."
  # agot_commission_crown.0004.1: "Make me a crown fit for Aegon I Targaryen."
@@ -78,7 +78,7 @@
  # agot_commission_crown.0004.17: "Make me a crown fit for the Night's King."
  # agot_commission_crown.0004.18: "Make me a true Crown of Winter."
  # agot_commission_crown.0004.19: "Make me a crown fit for Daemon I Blackfyre."
-  
+
  # agot_commission_crown.0001.011111: "I've changed my mind. I no longer wish to make a new crown."
  # agot_commission_crown.0002.011111: "I've changed my mind. I no longer wish to make a new crown."
  # agot_commission_crown.0003.011111: "I've changed my mind. I no longer wish to make a new crown."
