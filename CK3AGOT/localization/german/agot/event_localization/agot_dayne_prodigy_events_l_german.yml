@@ -1,193 +1,193 @@
 ﻿l_german:
-  # Parent will have choice of either trying to make their son brave, or have them train with a sword 
-  # Scopes are: prodigy 
- agot_dayne_prodigy.0002.t: "The Bold Star"
- agot_dayne_prodigy.0002.desc: "My [ROOT.Char.Custom2('RelationToMe', prodigy)] [prodigy.GetFirstName] has spent two years doing little save studying warfare and training with [prodigy.GetHerHis] blade, now it's time to truly instruct [prodigy.GetHerHim].\n\nTo become the Sword of the Morning, one must be prepared to face even the most harrowing of foes — and to that end, I have two choices for instruction before me: either to instill that courage in [prodigy.GetFirstNameNoTooltip] with a dangerous jousting exercise, or to have [prodigy.GetHerHim] receive more direct weapons training."
- agot_dayne_prodigy.0002.a: "To the horses!"
- agot_dayne_prodigy.0002.a.tt: "You will attempt to make [prodigy.GetFirstNameNoTooltip] more brave"
- agot_dayne_prodigy.0002.b: "Pick up the blade!"
- agot_dayne_prodigy.0002.b.tt: "[prodigy.GetFirstNameNoTooltip] will continue [prodigy.GetHerHis] weapons training"
- agot_dayne_prodigy.0002.gainedprowess1: "[prodigy.GetFirstNamePossessiveNoTooltip] [prowess|E] increases by [prowess_i] 1"
- agot_dayne_prodigy.0002.gainedprowess2: "[prodigy.GetFirstNamePossessiveNoTooltip] [prowess|E] increases by [prowess_i] 2"
- agot_dayne_prodigy.0002.gainedprowess3: "[prodigy.GetFirstNamePossessiveNoTooltip] [prowess|E] increases by [prowess_i] 3"
- agot_dayne_prodigy.0002.gainednoprowess: "[prodigy.GetFirstNameNoTooltip] gained no [prowess|E]"
- agot_dayne_prodigy.0002.gainedtraitbrave: "[prodigy.GetFirstNameNoTooltip] gained the [trait|E] [GetTrait('brave').GetName( prodigy )]"
- agot_dayne_prodigy.0002.gainedtraitcraven: "[prodigy.GetFirstNameNoTooltip] gained the [trait|E] [GetTrait('craven').GetName( prodigy )]"
-  
-  # Parent will have option to push their child for prowess training, or to make them just 
-  # Scopes are: prodigy 
- agot_dayne_prodigy.0003.t: "Justice and Steel"
- agot_dayne_prodigy.0003.desc: "[prodigy.GetFirstNamePossessive] training is proceeding well, though there is more to knighthood than to swing a blade and charge your foes. You must also bear your liege's justice to those who deserve it. Justice is a heavy thing though, and not without its fair share of challenges.\n\nSo I've come to a fork in the road, caught between two lessons my [ROOT.Char.Custom2('RelationToMe', prodigy)] still needs learn... There is to be a trial soon, and with it a chance to see justice done in person. Witnessing this trial will take time that could be spent with a blade in hand, though, so I must choose:\n\nWhat is weightier to the Sword of the Morning — justice, or #bold [prodigy.GetHerHis] sword?"
- agot_dayne_prodigy.0003.a: "[prodigy.GetSheHe|U] will bear the weight of justice."
- agot_dayne_prodigy.0003.a.tt: "You will try to make [prodigy.GetFirstNameNoTooltip] more just"
- agot_dayne_prodigy.0003.b: "[prodigy.GetSheHe|U] will keep to the weight of the sword."
- agot_dayne_prodigy.0003.b.tt: "[prodigy.GetFirstNameNoTooltip] will continue [prodigy.GetHerHis] weapons training"
- agot_dayne_prodigy.0003.gainedtraitjust: "[prodigy.GetFirstNameNoTooltip] gained the [trait|E] [GetTrait('just').GetName( prodigy )]"
- agot_dayne_prodigy.0003.gainedtraitcallous: "[prodigy.GetFirstNameNoTooltip] gained the [trait|E] [GetTrait('callous').GetName( prodigy )]"
-  
-  # Parent will have the option of having them train harder, or trying to make them compassionate 
-  # Scopes are: prodigy 
- agot_dayne_prodigy.0004.t: "A Kind Hand"
- agot_dayne_prodigy.0004.desc: "What separates the Sword of the Morning from the common knights of lesser Houses isn't simply their peerless skill with a blade, but the nobility of spirit that each of them carried in all their tasks. To be a truly great knight is to show mercy, even when it may be the more difficult choice.\n\nSome are born with kindness, others must learn it in their rearing. I know [prodigy.GetFirstName] must not simply develop with the blade, but learn these lessons of mercy and compassion. To do so will mean showing [prodigy.GetHerHim] the lives of others, and the truth of their value. This will take time away from training with the blade, but may prove far more valuable for all [prodigy.GetHerHis] days to come. Still, it is a choice I must make:\n\nThe blade, or the heart?"
- agot_dayne_prodigy.0004.desc_nocomp: "What separates the Sword of the Morning from the common knights of lesser Houses isn't simply their peerless skill with a blade, but the nobility of spirit that each of them carried in all their tasks. To be a truly great knight is to show mercy, even when it may be the more difficult choice.\n\nSome are born with kindness, others must learn it in their rearing. I fear there is little time now to impress any such lessons upon them, so all I can do now is teach them the value of skill with your steel."
- agot_dayne_prodigy.0004.a: "We will nurture the heart before the arms."
- agot_dayne_prodigy.0004.a.tt: "You will attempt to make [prodigy.GetFirstNameNoTooltip] more compassionate"
- agot_dayne_prodigy.0004.b: "The blade will be of more comfort than a kind heart."
- agot_dayne_prodigy.0004.b.tt: "[prodigy.GetFirstNameNoTooltip] will continue [prodigy.GetHerHis] weapons training"
- agot_dayne_prodigy.0004.gainedtraitcompassionate: "[prodigy.GetFirstNameNoTooltip] gained the trait [trait|E] [GetTrait('compassionate').GetName( prodigy )]"
- agot_dayne_prodigy.0004.gainedtraitsadistic: "[prodigy.GetFirstNameNoTooltip] gained the trait [trait|E] [GetTrait('sadistic').GetName( prodigy )]"
-  
-  # Parent will have the option of trying to make them a blademaster with a bunch of XP or giving up, may result in death if they choose the former 
-  # Scopes are: prodigy 
- agot_dayne_prodigy.0005.t: "A Test at Dawn"
- agot_dayne_prodigy.0005.desc: "[prodigy.GetFirstName] has trained [prodigy.GetHerHis] entire life for this day, the day where [prodigy.GetSheHe] will either prove [prodigy.GetHerHis] skill at arms, or forever find [dawn.GetName] out of reach. To be the Sword of the Morning you must above all be a true master of the blade, perhaps the greatest in Westeros or beyond.\n\nA peerless knight is all that will do for [dawn.GetNameNoTooltip], and so the time of trial has come. [prodigy.GetFirstNameNoTooltip] must face a full-grown knight in combat — and not only win, but show exceptional skill in the process. Should [prodigy.GetSheHe] succeed, [prodigy.GetSheHe] will have at least proven [prodigy.GetHerHis] skill beyond the doubt of any knight. This will be a dangerous challenge, and may even end with [prodigy.GetFirstNamePossessiveNoTooltip] death.\n\nIs that a risk I am willing to take?"
-  
-  # They put their son through extreme trials, leading to their death, maiming, or becoming a blademaster 
- agot_dayne_prodigy.0005.a: "A true knight risks death, start the trial."
- agot_dayne_prodigy.0005.a.tt: "[prodigy.GetFirstNameNoTooltip] will attempt a deadly test of skill"
- agot_dayne_prodigy.0005.b: "I cannot risk [prodigy.GetHerHim], call it off!"
- agot_dayne_prodigy.0005.b.tt: "[prodigy.GetFirstNameNoTooltip] will give up all hope of being the Sword of the Morning"
-  
- agot_dayne_prodigy.0006.t: "A Night of Anticipation"
- agot_dayne_prodigy.0006.desc: "My [ROOT.Char.Custom2('RelationToMe', prodigy)] [prodigy.GetFirstName] is still in the yard practicing with a blade, even though the moon is high in the sky and morning remains far away. Tomorrow [prodigy.GetSheHe] will be weighed and measured, and [prodigy.GetSheHe] worries [prodigy.GetSheHe] will be found wanting.\n\nAll we can do now is wait for the dawn."
- agot_dayne_prodigy.0006.a: "It's nearly judgment time."
- agot_dayne_prodigy.0006.a.tt: "[prodigy.GetFirstNameNoTooltip] will be judged on [prodigy.GetHerHis] worthiness"
-  
-  # See if the prodigy is worthy of being SOTM 
- agot_dayne_prodigy.0007.t: "A Rising Sun"
-  
-  # Description if dynasty head is not their parent 
- agot_dayne_prodigy.0007.desc.non_parent: "I have heard stories of late, whispers of a prodigy of our House, skilled with a blade and honorable of heart, they say. I'm told that [prodigy.GetSheHe] is the future of our House, and, which is more, that they are meant to be the Sword of the Morning.\n\nWhatever else is true, the final judgment lies as much with me as anyone: Is [prodigy.GetFullNameNicknamed] ready to become the Sword of the Morning?"
- agot_dayne_prodigy.0007.desc: "The day of judgment has come, and all of our House are here to witness. I have heard the reports of lords and ladies high and low, of smallfolk and knights. Tales of skill, bravery, and a noble heart. Though their deeds have yet to be written, not all who claimed [dawn.GetName] were known to the realm when they first held the ancient blade aloft. There is plenty of time yet for the fame to come to them.\n\nThe light of the morning is scattering across the room, landing on the milky white blade of [dawn.GetNameNoTooltip] in my hand, illuminating its surface and sending chills down my spine. Now is the time, there is little more to be heard, and much to be considered.\n\nThe final judgment lies as much with me as anyone: Is my [ROOT.Char.Custom2('RelationToMe', prodigy)] worthy of becoming the legendary Sword of the Morning? Can they be trusted to bring light to a world so full of darkness?"
-  
-  # Prodigy becomes SOTM 
- agot_dayne_prodigy.0007.a: "[prodigy.GetSheHe|U] is worthy!"
- agot_dayne_prodigy.0007.a.tt: "[prodigy.GetFirstNameNoTooltip] will become the Sword of the Morning"
-  
-  # Prodigy fails to become SOTM may attempt to steal Dawn 
- agot_dayne_prodigy.0007.b: "[prodigy.GetFirstNameNoTooltip] has proven [prodigy.GetHerselfHimself] unworthy."
- agot_dayne_prodigy.0007.b.tt: "[prodigy.GetFirstNameNoTooltip] will not become the Sword of the Morning"
-  
-  # Prodigy is worthy but denied the sword anyway 
- agot_dayne_prodigy.0007.c: "[prodigy.GetFirstNameNoTooltip] may be worthy, but I will not grant [prodigy.GetHerHim] [dawn.GetNameNoTooltip]."
- agot_dayne_prodigy.0007.c.tt: "[prodigy.GetFirstNameNoTooltip] will not become the Sword of the Morning"
-  
-  # Prodigy may be worthy, but there is a SOTM already 
- agot_dayne_prodigy.0008.t: "The Waiting Star"
- agot_dayne_prodigy.0008.desc: "[prodigy.GetFirstName] has trained hard and well, and has proven [prodigy.GetHerselfHimself] more than worthy of bearing [dawn.GetName], and the title that comes with it. Though another wields our House's sword already, we know a new star waits to take up the mantle should they fall. [prodigy.GetFirstNameNoTooltip] is disappointed, and has a right to be, but [prodigy.GetHerHis] time will come."
- agot_dayne_prodigy.0008.a: "Patience is a hard lesson."
- agot_dayne_prodigy.0008.a.tt: "[prodigy.GetFirstNameNoTooltip] can not become Sword of the Morning yet"
-  
-  
-  # Events for if Prodigy's parent is dead 
-  
-  # Prodigy will have choice of either trying to be brave, or training with a sword 
- agot_dayne_prodigy.0009.t: "The Bold Star"
- agot_dayne_prodigy.0009.desc: "I have spent two years doing little save studying warfare and training with my blade, now it might be time to prove my courage! To become the Sword of the Morning, one must be prepared to face even the most harrowing of foes. I have two choices to help prepare me, a jousting exercise that will test my courage, or to focus on my lessons with a sword."
-  
-  # Prodigy tries to become brave 
- agot_dayne_prodigy.0009.a: "Bring me my horse!"
- agot_dayne_prodigy.0009.a.tt: "You will attempt to prove your bravery"
-  
-  # Prodigy trains with sword 
- agot_dayne_prodigy.0009.b: "[dawn.GetNameNoTooltip] must have a peerless knight to wield it."
- agot_dayne_prodigy.0009.b.tt: "You will train with the sword"
- agot_dayne_prodigy.0009.gainedprowess1: "Your [prowess|E] increases by [prowess_i] 1"
- agot_dayne_prodigy.0009.gainedprowess2: "Your [prowess|E] increases by [prowess_i] 2"
- agot_dayne_prodigy.0009.gainedprowess3: "Your [prowess|E] increases by [prowess_i] 3"
- agot_dayne_prodigy.0009.gainednoprowess: "You gained no [prowess|E]"
- agot_dayne_prodigy.0009.gainedtraitbrave: "You gained the [trait|E] [GetTrait('brave').GetName( ROOT.Char )]"
- agot_dayne_prodigy.0009.gainedtraitcraven: "You gained the [trait|E] [GetTrait('craven').GetName( ROOT.Char )]"
-  
-  # Prodigy will have choice of either trying to be just, or training with a sword 
- agot_dayne_prodigy.0010.t: "Honor and Steel"
- agot_dayne_prodigy.0010.desc: "There is soon to be a trial for a local criminal; all of the stories talk of knights as honorable dispensers of their liege's justice, and if I am to prove myself worthy of [dawn.GetName] I must strive to do the same. In this trial, I see a chance to see justice done first hand, or at the least to see it fail to be done. This will take time, which I could be spending with a sword in my hand.\n\nWhich is worth more: honor, or skill?"
-  
-  # Prodigy tries to become just 
- agot_dayne_prodigy.0010.a: "I'll choose honor."
- agot_dayne_prodigy.0010.a.tt: "You will attempt to learn the ways of justice, though may find yourself more callous than you'd hoped"
-  
-  # Prodigy trains with sword 
- agot_dayne_prodigy.0010.b: "I'll choose skill. "
- agot_dayne_prodigy.0010.b.tt: "You will spend the time training with your sword"
- agot_dayne_prodigy.0010.gainedtraitjust: "You gained the [trait|E] [GetTrait('just').GetName( ROOT.Char )]"
- agot_dayne_prodigy.0010.gainedtraitcallous: "You gained the [trait|E] [GetTrait('callous').GetName( ROOT.Char )]"
-  
-  # Prodigy will have choice of either trying to be compassionate, or training with a sword 
- agot_dayne_prodigy.0011.t: "A Tender Heart"
- agot_dayne_prodigy.0011.desc: "The stories tell of chivalrous knights, saving fair maids from towers and protecting the smallfolk from those who would exploit them. To be like a knight out of those stories, I must prove to carry the same kindness in my soul.\n\nShould I spend time among the smallfolk, in hopes of learning and showing my compassion? Or prioritize my skill at arms?"
-  
-  # Prodigy tries to become compassionate 
- agot_dayne_prodigy.0011.a: "I'll walk amongst the people."
- agot_dayne_prodigy.0011.a.tt: "You will attempt to prove your compassion, though the reverse may be true"
-  
-  # Prodigy trains with sword 
- agot_dayne_prodigy.0011.b: "I'll focus on the sword."
- agot_dayne_prodigy.0011.b.tt: "You continue to train with a sword"
- agot_dayne_prodigy.0011.gainedtraitcompassionate: "You gained the [trait|E] [GetTrait('compassionate').GetName( ROOT.Char )]"
- agot_dayne_prodigy.0011.gainedtraitsadistic: "You gained the [trait|E] [GetTrait('sadistic').GetName( ROOT.Char )]"
-  
-  # Prodigy may try to become a blademaster with a bunch of xp, or give up on the dream of being SOTM, may result in death at the trials 
- agot_dayne_prodigy.0012.t: "A Test at Dawn"
- agot_dayne_prodigy.0012.desc: "A lone knight waits in the training yard for me, with the purple-hued light of dawn bearing down on shining plate. The members of my House have gathered here to see this test, and to gauge my worth. I am to face this full-grown knight in single combat, not with blunted training swords but with sharpened steel. The duel is not to the death, but more than one star has fallen in this very trial. I take a deep breath as I polish the surface of my sword. There is still time to back out, to protect my own safety and give up my dream of wielding [dawn.GetName] in my family's name.\n\nSo shall I face this test? Or run from all of my hopes."
-  
-  # Prodigy goes through extreme trials to become a blademaster, may result in death 
- agot_dayne_prodigy.0012.a: "I'll face the challenge."
- agot_dayne_prodigy.0012.a.tt: "You will attempt to prove yourself as a blademaster, though it is risky"
-  
-  # Prodigy gives up on being SOTM 
- agot_dayne_prodigy.0012.b: "Forget my dream, I'll keep my life."
- agot_dayne_prodigy.0012.b.tt: "You give up on becoming the Sword of the Morning"
-  
-  # Prodigy finds out if they're worthy or not to be SOTM 
- agot_dayne_prodigy.0013.t: "The Rising Star"
- agot_dayne_prodigy.0013.desc.intro: "I stand inside the halls of the seat of House Dayne, with Dawn itself waiting on the wall. Today I learn if I have earned myself the right to be the Sword of the Morning.\n\n"
- agot_dayne_prodigy.0013.desc.worthynothousehead: "With a smile across [dayne_dynasty_head.GetHerHis] face [dayne_dynasty_head.GetFullName], the head of House Dayne, bids me step forth and claim [dawn.GetName] from its resting place. With trembling hands I reach out to touch the sword that wrote the history of my House while my family cheers my name behind me. History will have its eyes on me now, I must prove that I am worthy of its gaze."
- agot_dayne_prodigy.0013.desc.unworthynothousehead: "With a disappointed frown [dayne_dynasty_head.GetFullName], the head of House Dayne, bar me from ever holding [dawn.GetName], leave alone wielding it in my House's name. I am not worthy of carrying the blade, and my dreams for being Sword of the Morning lie in the dust."
- agot_dayne_prodigy.0013.desc.worthyhousehead: "As the head of my House it falls to me to determine if a knight has proven worthy of taking up [dawn.GetName]. Without ego I can say none would doubt my worthiness, I have proven my skill and nobility many times over, and it is my right to claim our ancient blade. Today I will stand as the Sword of the Morning, and carve my name into the history of Westeros!"
- agot_dayne_prodigy.0013.desc.unworthyhousehead: "As the head of House Dayne it falls to me to determine if any knight amongst us is worthy to claim [dawn.GetName] and become the Sword of the Morning. As I look at the blade in its hallowed resting place, every fiber of me wants to claim it, to call myself the Sword of the Morning and feel the glory of that title.\n\nI know the truth though, I have not earned either that blade or the title that follows it. To take it now would only dishonor myself and my House. [dawn.GetNameNoTooltip] must remain in place, waiting for a more worthy hand."
-  
-  # Prodigy becomes SOTM 
- agot_dayne_prodigy.0013.a: "I am the Sword of the Morning!"
- agot_dayne_prodigy.0013.a.tt: "You have become the Sword of the Morning, and will wield [dawn.GetNameNoTooltip]"
-  
-  # Prodigy fails to become SOTM 
- agot_dayne_prodigy.0013.b: "I have failed my House."
- agot_dayne_prodigy.0013.b.tt: "You will never be Sword of the Morning"
-  
-  # Prodigy may be worthy, but there is a SOTM already 
- agot_dayne_prodigy.0014.t: "The Waiting Star"
- agot_dayne_prodigy.0014.desc: "Though all freely admit I am worthy of bearing the title Sword of the Morning, another already holds that title. Perhaps my chance will come in time, or perhaps it was never fated to be. In either case I must focus my energies on other pursuits for now."
- agot_dayne_prodigy.0014.a: "Perhaps one day."
- agot_dayne_prodigy.0014.a.tt: "There is already a Sword of the Morning"
-  
-  # Prodigy has stolen Dawn 
- agot_dayne_prodigy.0015.t: "A Thief in the Dark"
- agot_dayne_prodigy.0015.desc: "[prodigy.GetFirstName], having been denied [prodigy.GetHerHis] prize of becoming the Sword of the Morning, has stolen [dawn.GetName] from its resting place. If action is not taken quickly [prodigy.GetSheHe] may escape, I have no choice now but to attempt to bring [prodigy.GetHerHim] back to be caged, and for justice to be done.\n\nThough I had hoped [prodigy.GetSheHe] would be our new Sword of the Morning, [prodigy.GetSheHe] has chosen the night."
-  
-  # Attempt to imprison them 
- agot_dayne_prodigy.0015.a: "Bring them back to me in an iron cage!"
- agot_dayne_prodigy.0015.a.tt: "You will attempt to imprison [prodigy.GetFirstNameNoTooltip], though [prodigy.GetSheHe] may escape"
-  
-  # Notify Dayne parents their child has become SOTM 
- agot_dayne_prodigy.0016.t: "A New Dawn"
- agot_dayne_prodigy.0016.desc: "I've received word that my [ROOT.Char.Custom2('RelationToMe', prodigy)] [prodigy.GetFirstName] has finally achieved [prodigy.GetHerHis] long held goal of becoming the Sword of the Morning, and that [prodigy.GetSheHe] has become a knight all of House Dayne should be proud of."
- agot_dayne_prodigy.0016.a: "To the newly risen Star!"
- agot_dayne_prodigy.0016.a.tt: "You have raised a Sword of the Morning"
-  
-  # Prodigy died before story cycle completion 
- agot_dayne_prodigy.0017.t: "The Fallen Star"
- agot_dayne_prodigy.0017.desc: "My [ROOT.Char.Custom2('RelationToMe', prodigy)], and all my grand hopes go to the gods with [prodigy.GetHerHim]. [prodigy.GetSheHe|U] showed such promise, and now their light has been snuffed out like the briefest and brightest of candles. The gods made us creatures of love, and that makes the loss that follows all the harder to bear. Though we must go on all the same, until another star may rise like the sun in the morning."
- agot_dayne_prodigy.0017.a: "Goodbye, my child."
- agot_dayne_prodigy.0017.a.tt: "You will grieve your loss"
-  
-  # Prodigy failed early with parent/grandparent 
- agot_dayne_prodigy.0018.t: "The Wasted Star"
- agot_dayne_prodigy.0018.desc: "With [prodigy.GetHerHis] failure in the most recent test of their character and ability, it has become clear to all of our House that [prodigy.GetFirstName] will never be the Sword of the Morning.\n\nPerhaps it was my fault, that I wasted their potential and failed to teach [prodigy.GetHerHim] of the knightly virtues. Or maybe there was some failing hidden within [prodigy.GetHerHim] from the start, and I merely got my hopes up too high. In any case, we must close this chapter of [prodigy.GetHerHis] story for good and find some other way [prodigy.GetSheHe] and prove [prodigy.GetHerselfHimself] to our House."
- agot_dayne_prodigy.0018.a: "I have failed you."
- agot_dayne_prodigy.0018.a.tt: "[prodigy.GetFirstNameNoTooltip] will never become the Sword of the Morning"
-  # Prodigy failed early without parent/grandparent 
- agot_dayne_Prodigy.0019.t: "A Failed Star"
- agot_dayne_prodigy.0019.desc: "With my recent performance in the latest test of my skills and personality as a knight, I have proven myself unworthy in the eyes of gods and men. It is clear to me now that I can never be considered worthy of becoming the Sword of the Morning, and should give up on this pointless dream.\n\nThough I may never be the greatest of knights, there are yet many ways I can prove myself to House Dayne."
- agot_dayne_prodigy.0019.a: "I'll find another way to be of use."
- agot_dayne_prodigy.0019.a.tt: "You will never be the Sword of the Morning"
+ # Parent will have choice of either trying to make their son brave, or have them train with a sword
+ # Scopes are: prodigy
+ agot_dayne_prodigy.0002.t: "Der kühne Stern"
+ agot_dayne_prodigy.0002.desc: "Mein[prodigy.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', prodigy)] [prodigy.GetFirstName] hat zwei Jahre damit zugebracht, wenig anderes zu tun, als die Kunst des Krieges zu studieren und mit [prodigy.Custom('DE_PRO_POS_S_3P')]er Klinge zu üben. Nun ist die Zeit gekommen, [prodigy.Custom('DE_PRO_PER_S_3P_A')] wahrhaft zu unterweisen.\n\nUm das Schwert des Morgens zu werden, muss man bereit sein, selbst den furchteinflößendsten Feinden entgegenzutreten — und zu diesem Zwecke stehen mir zwei Wege der Unterweisung offen: Entweder jenen Mut in [prodigy.GetFirstNameNoTooltip] durch eine gefahrvolle Tjost zu erwecken, oder [prodigy.Custom('DE_PRO_PER_S_3P_A')] einer unmittelbaren Waffenübung zu unterziehen."
+ agot_dayne_prodigy.0002.a: "Zu den Pferden!"
+ agot_dayne_prodigy.0002.a.tt: "Ihr werdet versuchen, [prodigy.GetFirstNameNoTooltip] tapferer zu machen"
+ agot_dayne_prodigy.0002.b: "Heb dein Schwert auf!"
+ agot_dayne_prodigy.0002.b.tt: "[prodigy.GetFirstNameNoTooltip] wird [prodigy.Custom('DE_PRO_POS_S_3P')]e Waffenübungen fortsetzen"
+ agot_dayne_prodigy.0002.gainedprowess1: "[prowess|E] von [prodigy.GetFirstNameNoTooltip] steigt um [prowess_i] 1" # Possessive im Deutschen mit Dativ (von...) ersetzen
+ agot_dayne_prodigy.0002.gainedprowess2: "[prowess|E] von [prodigy.GetFirstNameNoTooltip] steigt um [prowess_i] 2"
+ agot_dayne_prodigy.0002.gainedprowess3: "[prowess|E] von [prodigy.GetFirstNameNoTooltip] steigt um [prowess_i] 3"
+ agot_dayne_prodigy.0002.gainednoprowess: "[prodigy.GetFirstNameNoTooltip] hat kein [prowess|E] erhalten"
+ agot_dayne_prodigy.0002.gainedtraitbrave: "[prodigy.GetFirstNameNoTooltip] hat die [trait|E] [GetTrait('brave').GetName( prodigy )] erhalten"
+ agot_dayne_prodigy.0002.gainedtraitcraven: "[prodigy.GetFirstNameNoTooltip] hat die [trait|E] [GetTrait('craven').GetName( prodigy )] erhalten"
+
+ # Parent will have option to push their child for prowess training, or to make them just
+ # Scopes are: prodigy
+ agot_dayne_prodigy.0003.t: "Stahl und Gerechtigkeit"
+ agot_dayne_prodigy.0003.desc: "Die Ausbildung von [prodigy.GetFirstName] schreitet fein voran, doch Rittertum verlangt mehr, als nur eine Klinge zu schwingen und den Feind anzureiten. Man muss auch die Gerechtigkeit [prodigy.Custom('DE_PRO_POS_S_3P')]es Lehnsherrn zu jenen bringen, die sie verdienen sind. Gerechtigkeit jedoch ist eine schwere Bürde, und nicht ohne ihre Tücken.\n\nSo stehe ich nun an einer Wegscheide, gefangen zwischen zwei Lektionen, die mein[prodigy.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', prodigy)] noch zu erlernen hat... Bald findet ein Prozess statt, und das bietet die Gelegenheit, Gerechtigkeit aus erster Hand zu erleben. Jenem Prozess beizuwohnen wird indes Zeit kosten, die auch mit einer Klinge in der Hand verbracht werden könnte, und so muss ich wählen:\n\nWas ist wichtiger für das Schwert des Morgens — Gerechtigkeit oder #bold [prodigy.Custom('DE_PRO_POS_S_3P')] Schwert?"
+ agot_dayne_prodigy.0003.a: "[prodigy.Custom('DE_PRO_PER_S_3P_N')|U] soll die Last der Gerechtigkeit kennelernen."
+ agot_dayne_prodigy.0003.a.tt: "Ihr werdet versuchen, [prodigy.GetFirstNameNoTooltip] gerechter zu machen"
+ agot_dayne_prodigy.0003.b: "[prodigy.Custom('DE_PRO_PER_S_3P_N')|U] soll sich mit dem Schwert besser werden."
+ agot_dayne_prodigy.0003.b.tt: "[prodigy.GetFirstNameNoTooltip] wird [prodigy.Custom('DE_PRO_POS_S_3P')]e Waffenübungen fortsetzen"
+ agot_dayne_prodigy.0003.gainedtraitjust: "[prodigy.GetFirstNameNoTooltip] hat die [trait|E] [GetTrait('just').GetName( prodigy )] erhalten"
+ agot_dayne_prodigy.0003.gainedtraitcallous: "[prodigy.GetFirstNameNoTooltip] hat die [trait|E] [GetTrait('callous').GetName( prodigy )] erhalten"
+
+ # Parent will have the option of having them train harder, or trying to make them compassionate
+ # Scopes are: prodigy
+ agot_dayne_prodigy.0004.t: "Eine gütige Hand"
+ agot_dayne_prodigy.0004.desc: "Was das Schwert des Morgens von den gewöhnlichen Rittern minderer Häuser unterscheidet, ist nicht allein [prodigy.Custom('DE_PRO_POS_S_3P')]e unvergleichliche Fertigkeit mit der Klinge, sondern der edle Geist, den ein jeder von ihnen in all seinen Taten mit sich trug. Ein wahrhaft großer Ritter zu sein bedeutet, Gnade zu zeigen, selbst wenn dies die schwerere Wahl sein mag.\n\nManch einer wird mit Güte geboren, andere müssen sie in der Erziehung erlernen. Ich weiß, dass [prodigy.GetFirstName] sich nicht nur an der Klinge vervollkommnen, sondern auch jene Lektionen der Gnade und des Mitgefühls erlernen muss. Dazu wird es nötig sein, [prodigy.Custom('DE_PRO_PER_S_3P_D')] das Leben anderer zu zeigen und den wahren Wert eines jeden Menschen. Dies wird Zeit kosten, die sonst mit der Klinge verbracht werden könnte, doch es mag sich als weitaus wertvoller erweisen für all [prodigy.Custom('DE_PRO_POS_S_3P')]e kommenden Tage. Gleichwohl muss ich eine Wahl treffen:\n\nDie Klinge oder das Herz?"
+ agot_dayne_prodigy.0004.desc_nocomp: "Was das Schwert des Morgens von den gewöhnlichen Rittern minderer Häuser unterscheidet, ist nicht allein [prodigy.Custom('DE_PRO_POS_S_3P')]e unvergleichliche Fertigkeit mit der Klinge, sondern der edle Geist, den ein jeder von ihnen in all seinen Taten mit sich trug. Ein wahrhaft großer Ritter zu sein bedeutet, Gnade zu zeigen, selbst wenn dies die schwerere Wahl sein mag.\n\nManch einer wird mit Güte geboren, andere müssen sie in der Erziehung erlernen. Doch ich fürchte, es bleibt nun wenig Zeit, [prodigy.Custom('DE_PRO_PER_S_3P_D')] solche Lektionen noch einzuprägen, und so kann ich [prodigy.Custom('DE_PRO_PER_S_3P_A')] nur noch den Wert der Fertigkeit mit dem Stahl lehren."
+ agot_dayne_prodigy.0004.a: "Wir werden zuerst das Herz und dann die Waffen schulen."
+ agot_dayne_prodigy.0004.a.tt: "Ihr werdet versuchen, [prodigy.GetFirstNameNoTooltip] mitfühlender zu machen"
+ agot_dayne_prodigy.0004.b: "Die Klinge wird mehr Trost spenden als ein gütiges Herz."
+ agot_dayne_prodigy.0004.b.tt: "[prodigy.GetFirstNameNoTooltip] wird [prodigy.Custom('DE_PRO_POS_S_3P')]e Waffenübungen fortsetzen"
+ agot_dayne_prodigy.0004.gainedtraitcompassionate: "[prodigy.GetFirstNameNoTooltip] hat die [trait|E] [GetTrait('compassionate').GetName( prodigy )] erhalten"
+ agot_dayne_prodigy.0004.gainedtraitsadistic: "[prodigy.GetFirstNameNoTooltip] hat die [trait|E] [GetTrait('sadistic').GetName( prodigy )] erhalten"
+
+ # Parent will have the option of trying to make them a blademaster with a bunch of XP or giving up, may result in death if they choose the former
+ # Scopes are: prodigy
+ agot_dayne_prodigy.0005.t: "Prüfung im Morgengrauen"
+ agot_dayne_prodigy.0005.desc: "[prodigy.GetFirstName] hat [prodigy.Custom('DE_PRO_POS_S_3P')] ganzes Leben lang auf diesen Tag hingeübt — den Tag, an dem [prodigy.Custom('DE_PRO_PER_S_3P_N')] entweder [prodigy.Custom('DE_PRO_POS_S_3P')]e Waffenkunst unter Beweis stellt, oder [dawn.GetName] für immer unerreichbar bleibt. Um das Schwert des Morgens zu werden, muss man vor allem ein wahrer Schwertmeister sein, vielleicht der größte in Westeros oder darüber hinaus.\n\nNur ein makelloser Ritter genügt für [dawn.GetNameNoTooltip], und so ist die Stunde der Prüfung gekommen. [prodigy.GetFirstNameNoTooltip] muss einem ausgewachsenen Ritter im Kampfe gegenübertreten — und nicht nur siegen, sondern dabei außergewöhnliches Geschick beweisen. Sollte [prodigy.Custom('DE_PRO_PER_S_3P_N')] bestehen, so hat [prodigy.Custom('DE_PRO_PER_S_3P_N')] [prodigy.Custom('DE_PRO_POS_S_3P')]e Fertigkeit zumindest über jeden Zweifel eines jeden Ritters hinaus bewiesen. Dies wird eine gefahrvolle Prüfung sein und könnte gar mit dem Tode von [prodigy.GetFirstNameNoTooltip] enden.\n\nBin ich bereit, dieses Wagnis einzugehen?"
+
+ # They put their son through extreme trials, leading to their death, maiming, or becoming a blademaster
+ agot_dayne_prodigy.0005.a: "Ein wahrer Ritter trotzt dem Tode — beginnt die Prüfung!"
+ agot_dayne_prodigy.0005.a.tt: "[prodigy.GetFirstNameNoTooltip] wird sich einer tödlichen Prüfung stellen"
+ agot_dayne_prodigy.0005.b: "Ich kann [prodigy.Custom('DE_PRO_PER_S_3P_A')] nicht aufs Spiel setzen — brecht ab!"
+ agot_dayne_prodigy.0005.b.tt: "[prodigy.GetFirstNameNoTooltip] wird jede Hoffnung aufgeben, das Schwert des Morgens zu werden"
+
+ agot_dayne_prodigy.0006.t: "Eine Nacht des Bangens"
+ agot_dayne_prodigy.0006.desc: "Mein[prodigy.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', prodigy)] [prodigy.GetFirstName] steht noch immer im Hof und übt mit der Klinge, obwohl der Mond bereits hoch am Himmel steht und der Morgen noch fern ist. Beim ersten Sonnenstrahl wird [prodigy.Custom('DE_PRO_PER_S_3P_N')] gewogen und gemessen werden, und [prodigy.Custom('DE_PRO_PER_S_3P_N')] fürchtet, für zu leicht befunden zu werden.\n\nAlles, was wir nun tun können, ist auf die Morgendämmerung zu warten."
+ agot_dayne_prodigy.0006.a: "Die Stunde des Urteils naht."
+ agot_dayne_prodigy.0006.a.tt: "[prodigy.GetFirstNameNoTooltip] wird nach [prodigy.Custom('DE_PRO_POS_S_3P')]er Würdigkeit beurteilt werden"
+
+ # See if the prodigy is worthy of being SOTM
+agot_dayne_prodigy.0007.t: "Eine aufgehende Sonne"
+
+# Description if dynasty head is not their parent
+ agot_dayne_prodigy.0007.desc.non_parent: "In jüngster Zeit sind mir Geschichten zu Ohren gekommen, Geflüster von einem Wunderkind unseres Hauses — geschickt mit der Klinge und edel im Herzen, so heißt es. Man sagt mir, [prodigy.Custom('DE_PRO_PER_S_3P_N')] sei die Zukunft unseres Hauses, und mehr noch, [prodigy.Custom('DE_PRO_PER_S_3P_N')] sei dazu bestimmt, das Schwert des Morgens zu werden.\n\nWas auch immer sonst der Wahrheit entspricht, das endgültige Urteil liegt bei mir ebenso wie bei jedem anderen: Ist [prodigy.GetFullNameNicknamed] bereit, das Schwert des Morgens zu werden?"
+ agot_dayne_prodigy.0007.desc: "Der Tag des Urteils ist gekommen, und das ganze Haus hat sich versammelt, um dieses Urteil zu bezeugen. Ich habe die Berichte von Lords und Ladys hohen und niederen Ranges vernommen, von Rittern und dem gemeinen Volk. Erzählungen von Geschick, von Tapferkeit und edlem Herzen. Wenngleich [prodigy.Custom('DE_PRO_POS_S_3P')]e Taten noch geschrieben werden müssen, so waren nicht alle, die [dawn.GetName] für sich beanspruchten, dem Reich bereits bekannt, als sie das uralte Schwert zum ersten Male emporhoben. Es bleibt noch Zeit genug, dass der Ruhm [prodigy.Custom('DE_PRO_PER_S_3P_A')] finden wird.\n\nDas erste Licht des Morgens fällt durch den Saal und trifft auf die milchweiße Klinge von [dawn.GetNameNoTooltip] in meiner Hand, erhellt ihre Oberfläche und jagt mir Schauer über den Rücken. Nun ist die Stunde da, es gibt wenig mehr zu hören und vieles zu bedenken.\n\nDas endgültige Urteil liegt bei mir ebenso wie bei jedem anderen: Ist mein[prodigy.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', prodigy)] würdig, das sagenumwobene Schwert des Morgens zu werden? Kann man [prodigy.Custom('DE_PRO_PER_S_3P_D')] anvertrauen, Licht in eine Welt zu tragen, die so voller Dunkelheit ist?"
+
+  # Prodigy becomes SOTM
+ agot_dayne_prodigy.0007.a: "[prodigy.Custom('DE_PRO_PER_S_3P_N')|U] ist würdig!"
+ agot_dayne_prodigy.0007.a.tt: "[prodigy.GetFirstNameNoTooltip] wird das Schwert des Morgens"
+
+  # Prodigy fails to become SOTM may attempt to steal Dawn
+ agot_dayne_prodigy.0007.b: "[prodigy.GetFirstNameNoTooltip] hat sich als unwürdig erwiesen."
+ agot_dayne_prodigy.0007.b.tt: "[prodigy.GetFirstNameNoTooltip] wird nicht das Schwert des Morgens"
+
+  # Prodigy is worthy but denied the sword anyway
+ agot_dayne_prodigy.0007.c: "[prodigy.GetFirstNameNoTooltip] mag würdig sein, doch ich werde [prodigy.Custom('DE_PRO_PER_S_3P_D')] [dawn.GetNameNoTooltip] nicht gewähren."
+ agot_dayne_prodigy.0007.c.tt: "[prodigy.GetFirstNameNoTooltip] wird nicht das Schwert des Morgens"
+
+  # Prodigy may be worthy, but there is a SOTM already
+ agot_dayne_prodigy.0008.t: "Der wartende Stern"
+ agot_dayne_prodigy.0008.desc: "[prodigy.GetFirstName] hat hart und gut geübt und sich mehr als würdig erwiesen, [dawn.GetName] zu tragen mitsamt dem Titel, der damit einhergeht. Wenngleich ein anderer bereits das Schwert unseres Hauses führt, so wissen wir doch, dass ein neuer Stern bereitsteht, den Mantel zu übernehmen, sollte jener fallen. [prodigy.GetFirstNameNoTooltip] ist enttäuscht, und das mit Recht, doch [prodigy.Custom('DE_PRO_POS_S_3P')]e Zeit wird kommen."
+ agot_dayne_prodigy.0008.a: "Geduld ist eine schwere Lektion."
+ agot_dayne_prodigy.0008.a.tt: "[prodigy.GetFirstNameNoTooltip] kann noch nicht das Schwert des Morgens werden"
+
+
+  # Events for if Prodigy's parent is dead
+
+  # Prodigy will have choice of either trying to be brave, or training with a sword
+ agot_dayne_prodigy.0009.t: "Der kühne Stern"
+ agot_dayne_prodigy.0009.desc: "Zwei Jahre habe ich mit wenig anderem zugebracht, als die Kunst des Krieges zu studieren und mit meiner Klinge zu üben. Nun mag die Zeit gekommen sein, meinen Mut unter Beweis zu stellen! Um das Schwert des Morgens zu werden, muss man bereit sein, selbst den furchteinflößendsten Feinden entgegenzutreten. Zwei Wege stehen mir offen: eine gefahrvolle Tjost, die meinen Mut auf die Probe stellt, oder mich ganz meinen Lektionen mit dem Schwert zu widmen."
+
+  # Prodigy tries to become brave
+ agot_dayne_prodigy.0009.a: "Bringt mir mein Destrier!"
+ agot_dayne_prodigy.0009.a.tt: "Ihr werdet versuchen, Euren Mut zu beweisen"
+
+  # Prodigy trains with sword
+ agot_dayne_prodigy.0009.b: "[dawn.GetNameNoTooltip] verlangt nach einem makellosen Ritter, der es führt."
+ agot_dayne_prodigy.0009.b.tt: "Ihr werdet mit dem Schwert üben"
+ agot_dayne_prodigy.0009.gainedprowess1: "Euer [prowess|E] steigt um [prowess_i] 1"
+ agot_dayne_prodigy.0009.gainedprowess2: "Euer [prowess|E] steigt um [prowess_i] 2"
+ agot_dayne_prodigy.0009.gainedprowess3: "Euer [prowess|E] steigt um [prowess_i] 3"
+ agot_dayne_prodigy.0009.gainednoprowess: "Ihr habt kein [prowess|E] erhalten"
+ agot_dayne_prodigy.0009.gainedtraitbrave: "Ihr habt die [trait|E] [GetTrait('brave').GetName( ROOT.Char )] erhalten"
+ agot_dayne_prodigy.0009.gainedtraitcraven: "Ihr habt die [trait|E] [GetTrait('craven').GetName( ROOT.Char )] erhalten"
+
+  # Prodigy will have choice of either trying to be just, or training with a sword
+ agot_dayne_prodigy.0010.t: "Ehr und Stahl"
+ agot_dayne_prodigy.0010.desc: "Bald steht der Prozess eines Verbrechers aus der Gegend bevor; all die Geschichten berichten von Rittern als ehrenhafte Vollstrecker der Gerechtigkeit ihres Lehnsherrn, und wenn ich mich als würdig für [dawn.GetName] erweisen will, muss ich es ihnen gleichtun. In diesem Prozess sehe ich die Gelegenheit, Gerechtigkeit aus erster Hand zu erleben — oder zumindest ihr Scheitern zu bezeugen. Dies wird Zeit kosten, die ich auch mit einer Klinge in der Hand verbringen könnte.\n\nWas wiegt schwerer: Ehre oder eine fähige Schwerthand?"
+
+  # Prodigy tries to become just
+ agot_dayne_prodigy.0010.a: "Ich wähle Ehre."
+ agot_dayne_prodigy.0010.a.tt: "Ihr werdet versuchen, die Wege der Gerechtigkeit zu erlernen, wenngleich Ihr Euch als kaltblütiger erweisen könntet, als Ihr gehofft hattet"
+
+  # Prodigy trains with sword
+ agot_dayne_prodigy.0010.b: "Ich wähle Kampfgeschick."
+ agot_dayne_prodigy.0010.b.tt: "Ihr werdet die Zeit mit Waffenübungen verbringen"
+ agot_dayne_prodigy.0010.gainedtraitjust: "Ihr habt die [trait|E] [GetTrait('just').GetName( ROOT.Char )] erhalten"
+ agot_dayne_prodigy.0010.gainedtraitcallous: "Ihr habt die [trait|E] [GetTrait('callous').GetName( ROOT.Char )] erhalten"
+
+  # Prodigy will have choice of either trying to be compassionate, or training with a sword
+ agot_dayne_prodigy.0011.t: "Ein gütiges Herz"
+ agot_dayne_prodigy.0011.desc: "Die Geschichten berichten von tugendhaften Rittern, die holde Maiden aus Türmen erretten und das gemeine Volk vor jenen beschützen, die es ausbeuten wollen. Um einem Ritter aus jenen Geschichten gleichzukommen, muss ich beweisen, dass dieselbe Güte meiner Seele innewohnt.\n\nSoll ich Zeit unter Gemeinen verbringen, in der Hoffnung, Mitgefühl zu erlernen und zu zeigen? Oder soll ich meiner Waffenkunst den Vorrang geben?"
+
+  # Prodigy tries to become compassionate
+ agot_dayne_prodigy.0011.a: "Ich werde unter die Leute gehen."
+ agot_dayne_prodigy.0011.a.tt: "Ihr werdet versuchen, Euer Mitgefühl zu beweisen, wenngleich das Gegenteil eintreten könnte"
+
+  # Prodigy trains with sword
+ agot_dayne_prodigy.0011.b: "Ich werde mich auf das Schwert fokussieren."
+ agot_dayne_prodigy.0011.b.tt: "Ihr werdet Eure Waffenübungen fortsetzen"
+ agot_dayne_prodigy.0011.gainedtraitcompassionate: "Ihr habt die [trait|E] [GetTrait('compassionate').GetName( ROOT.Char )] erhalten"
+ agot_dayne_prodigy.0011.gainedtraitsadistic: "Ihr habt die [trait|E] [GetTrait('sadistic').GetName( ROOT.Char )] erhalten"
+
+  # Prodigy may try to become a blademaster with a bunch of xp, or give up on the dream of being SOTM, may result in death at the trials
+ agot_dayne_prodigy.0012.t: "Prüfung im Morgengrauen"
+ agot_dayne_prodigy.0012.desc: "Ein einsamer Ritter wartet im Übungshof auf mich, das purpurne Licht der Morgendämmerung fällt auf seine glänzende Rüstung. Die Mitglieder meines Hauses haben sich hier versammelt, um dieser Prüfung beizuwohnen und meinen Wert zu ermessen. Ich soll diesem kampferprobten Ritter im Duell gegenübertreten — nicht mit stumpfen Übungsschwertern, sondern mit geschliffenem Stahl. Der Zweikampf geht nicht auf Leben und Tod, doch manch ein Stern ist bei ebendieser Prüfung bereits untergegangen. Ich atme tief ein, während ich die Oberfläche meines Schwertes poliere. Noch ist Zeit umzukehren, mein eigenes Leben zu schützen und meinen Traum aufzugeben, [dawn.GetName] im Namen meiner Familie zu führen.\n\nSoll ich mich dieser Prüfung stellen? Oder all meinen Hoffnungen den Rücken kehren?"
+
+  # Prodigy goes through extreme trials to become a blademaster, may result in death
+ agot_dayne_prodigy.0012.a: "Ich stelle mich der Herausforderung!"
+ agot_dayne_prodigy.0012.a.tt: "Ihr werdet versuchen, Euch als Schwertmeister zu beweisen — doch es ist nicht ohne Gefahr"
+
+  # Prodigy gives up on being SOTM
+ agot_dayne_prodigy.0012.b: "Ich vergesse den Traum — ich behalte mein Leben."
+ agot_dayne_prodigy.0012.b.tt: "Ihr gebt den Traum auf, das Schwert des Morgens zu werden"
+
+  # Prodigy finds out if they're worthy or not to be SOTM
+ agot_dayne_prodigy.0013.t: "Der aufsteigende Stern"
+ agot_dayne_prodigy.0013.desc.intro: "Ich stehe in den Hallen des Stammsitzes von Haus Dayn, und Dämmerung selbst hängt und wartet an der Wand. Heute erfahre ich, ob ich mir das Recht verdient habe, das Schwert des Morgens zu sein.\n\n"
+ agot_dayne_prodigy.0013.desc.worthynothousehead: "Mit einem Lächeln auf [dayne_dynasty_head.Custom('DE_PRO_POS_S_3P')]em Antlitz fordert [dayne_dynasty_head.GetFullName], das Oberhaupt von Haus Dayn, mich auf, vorzutreten und [dawn.GetName] von seinem Ruheplatz zu nehmen. Mit zitternden Händen greife ich nach dem Schwert, das die Geschichte meines Hauses geprägt hat, während meine Familie hinter mir meinen Namen skandiert. Die Geschichte wird fortan ihre Augen auf mich richten — ich muss beweisen, dass ich ihres aufmerksamen Blickes würdig bin."
+ agot_dayne_prodigy.0013.desc.unworthynothousehead: "Mit enttäuschter Miene verwehrt mir [dayne_dynasty_head.GetFullName], das Oberhaupt von Haus Dayn, auf ewig, [dawn.GetName] auch nur zu berühren, geschweige denn im Namen meines Hauses zu führen. Ich bin nicht würdig, die Klinge zu tragen, und mein Traum, das Schwert des Morgens zu werden, liegt im Staube."
+ agot_dayne_prodigy.0013.desc.worthyhousehead: "Als Oberhaupt meines Hauses obliegt es mir zu bestimmen, ob ein Ritter sich als würdig erwiesen hat, [dawn.GetName] zu erheben. Ohne Eitelkeit darf ich sagen, dass niemand an meiner Würdigkeit zweifeln würde — ich habe mein Geschick und meinen Edelmut vielfach unter Beweis gestellt, und es ist mein Recht, unsere uralte Klinge zu beanspruchen. Heute werde ich als das Schwert des Morgens dastehen und meinen Namen in die Geschichte von Westeros einschreiben!"
+ agot_dayne_prodigy.0013.desc.unworthyhousehead: "Als Oberhaupt von Haus Dayn obliegt es mir zu bestimmen, ob ein Ritter unter uns würdig ist, [dawn.GetName] zu beanspruchen und das Schwert des Morgens zu werden. Während ich die Klinge an ihrem geheiligten Ruheplatz betrachte, will jede Faser meines Seins nach ihr greifen, mich das Schwert des Morgens nennen und den Ruhm dieses Titels kosten.\n\nDoch ich kenne die Wahrheit — ich habe mir weder jene Waffe noch den Titel verdient, der ihr folgt. Sie jetzt an mich zu nehmen, hieße nur, mich selbst und mein Haus zu entehren. [dawn.GetNameNoTooltip] muss an seinem Platz verbleiben und auf eine würdigere Hand warten."
+
+  # Prodigy becomes SOTM
+ agot_dayne_prodigy.0013.a: "Ich bin das Schwert des Morgens!"
+ agot_dayne_prodigy.0013.a.tt: "Ihr seid das Schwert des Morgens geworden und werdet [dawn.GetNameNoTooltip] führen"
+
+  # Prodigy fails to become SOTM
+ agot_dayne_prodigy.0013.b: "Ich habe mein Haus enttäuscht."
+ agot_dayne_prodigy.0013.b.tt: "Ihr werdet niemals das Schwert des Morgens sein"
+
+  # Prodigy may be worthy, but there is a SOTM already
+ agot_dayne_prodigy.0014.t: "Der wartende Stern"
+ agot_dayne_prodigy.0014.desc: "Wenngleich alle freimütig einräumen, dass ich würdig wäre, den Titel des Schwerts des Morgens zu tragen, so hält ein anderer diesen Titel bereits inne. Vielleicht wird meine Stunde noch kommen, vielleicht war es mir auch nie bestimmt. In jedem Falle muss ich meine Kräfte vorerst auf andere Dinge richten."
+ agot_dayne_prodigy.0014.a: "Eines Tages vielleicht..."
+ agot_dayne_prodigy.0014.a.tt: "Es gibt bereits ein Schwert des Morgens"
+
+  # Prodigy has stolen Dawn
+ agot_dayne_prodigy.0015.t: "Ein Dieb in der Dunkelheit"
+ agot_dayne_prodigy.0015.desc: "[prodigy.GetFirstName] hat, nachdem [prodigy.Custom('DE_PRO_PER_S_3P_D')] der Preis verwehrt wurde, das Schwert des Morgens zu werden, [dawn.GetName] von seinem Ruheplatz gestohlen. Wird nicht rasch gehandelt, so könnte [prodigy.Custom('DE_PRO_PER_S_3P_N')] entkommen. Mir bleibt keine andere Wahl, als zu versuchen, [prodigy.Custom('DE_PRO_PER_S_3P_A')] zurückzuschaffen, auf dass [prodigy.Custom('DE_PRO_PER_S_3P_N')] in Ketten gelegt und der Gerechtigkeit zugeführt werde.\n\nIch hatte gehofft, [prodigy.Custom('DE_PRO_PER_S_3P_N')] würde unser neues Schwert des Morgens werden, doch [prodigy.Custom('DE_PRO_PER_S_3P_N')] hat die Nacht gewählt."
+
+  # Attempt to imprison them
+ agot_dayne_prodigy.0015.a: "Bringt [prodigy.Custom('DE_PRO_PER_S_3P_A')] mir in ehernen Ketten zurück!"
+ agot_dayne_prodigy.0015.a.tt: "Ihr versucht, [prodigy.GetFirstNameNoTooltip] gefangen zu nehmen, doch [prodigy.Custom('DE_PRO_PER_S_3P_N')] könnte entkommen"
+
+  # Notify Dayne parents their child has become SOTM
+ agot_dayne_prodigy.0016.t: "Eine neue Morgenröte"
+ agot_dayne_prodigy.0016.desc: "Kunde ward mir gebracht, dass mein[prodigy.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', prodigy)] [prodigy.GetFirstName] endlich [prodigy.Custom('DE_PRO_POS_S_3P')] lang gehegtes Ziel erreicht hat, das Schwert des Morgens zu werden, und dass [prodigy.Custom('DE_PRO_PER_S_3P_N')] ein Ritter geworden ist, auf den ganz Haus Dayn stolz sein darf."
+ agot_dayne_prodigy.0016.a: "Auf den neu aufgestiegenen Stern!"
+ agot_dayne_prodigy.0016.a.tt: "Ihr habt ein Schwert des Morgens großgezogen"
+
+  # Prodigy died before story cycle completion
+ agot_dayne_prodigy.0017.t: "Der gefallene Stern"
+ agot_dayne_prodigy.0017.desc: "Mein[prodigy.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', prodigy)], und all meine großen Hoffnungen steigen mit [prodigy.Custom('DE_PRO_PER_S_3P_D')] zu den Göttern empor. [prodigy.Custom('DE_PRO_PER_S_3P_N')|U] zeigte solch eine Verheißung, und nun ward [prodigy.Custom('DE_PRO_POS_S_3P')] Licht erloschen gleich der kürzesten und hellsten aller Kerzen. Die Götter schufen uns als Geschöpfe der Liebe, und das macht den Verlust, der darauf folgt, nur umso schwerer zu ertragen. Gleichwohl ist mir bewusst: Kummer ist der Preis der Liebe. Es wäre traurig, wenn es nicht traurig wäre. Wir müssen weitergehen, bis ein anderer Stern aufgehen mag wie die Sonne am Morgen."
+ agot_dayne_prodigy.0017.a: "Leb wohl, mein Kind."
+ agot_dayne_prodigy.0017.a.tt: "Ihr werdet um Euren Verlust trauern"
+
+  # Prodigy failed early with parent/grandparent
+ agot_dayne_prodigy.0018.t: "Der vergeudete Stern"
+ agot_dayne_prodigy.0018.desc: "Nach [prodigy.Custom('DE_PRO_POS_S_3P')]em Scheitern in der jüngsten Prüfung von Charakter und Können ist es allen in unserem Hause klar geworden, dass [prodigy.GetFirstName] niemals das Schwert des Morgens sein wird.\n\nVielleicht war es meine Schuld, dass ich [prodigy.Custom('DE_PRO_POS_S_3P')] Potenzial vergeudet und es versäumt habe, [prodigy.Custom('DE_PRO_PER_S_3P_D')] die ritterlichen Tugenden zu lehren. Oder vielleicht war von Anbeginn ein verborgener Makel in [prodigy.Custom('DE_PRO_PER_S_3P_D')], und ich habe meine Hoffnungen lediglich zu hoch gesteckt. Wie dem auch sei, wir müssen dieses Kapitel [prodigy.Custom('DE_PRO_POS_S_3P')]er Geschichte endgültig schließen und einen anderen Weg finden, auf dem [prodigy.Custom('DE_PRO_PER_S_3P_N')] sich unserem Hause beweisen kann."
+ agot_dayne_prodigy.0018.a: "Ich habe bei dir versagt."
+ agot_dayne_prodigy.0018.a.tt: "[prodigy.GetFirstNameNoTooltip] wird niemals das Schwert des Morgens werden"
+  # Prodigy failed early without parent/grandparent
+ agot_dayne_Prodigy.0019.t: "Ein gescheiterter Stern"
+ agot_dayne_prodigy.0019.desc: "Nach meinem jüngsten Abschneiden in der letzten Prüfung meines Könnens und meines ritterlichen Wesens habe ich mich in den Augen der Götter und der Menschen als unwürdig erwiesen. Es ist mir nun klar, dass ich niemals als würdig erachtet werden kann, das Schwert des Morgens zu werden, und diesen sinnlosen Traum aufgeben sollte.\n\nWenngleich ich vielleicht nie der größte aller Ritter sein werde, so gibt es doch noch viele Wege, auf denen ich mich Haus Dayn beweisen kann."
+ agot_dayne_prodigy.0019.a: "Ich werde einen anderen Weg finden, von Nutzen zu sein."
+ agot_dayne_prodigy.0019.a.tt: "Ihr werdet niemals das Schwert des Morgens werden"
