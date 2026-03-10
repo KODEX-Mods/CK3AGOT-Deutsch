@@ -1,4 +1,5 @@
 {
     "commentTranslate.source": "Google",
-    "commentTranslate.targetLanguage": "de"
+    "commentTranslate.targetLanguage": "de",
+    "inlineChat.defaultModel": "Claude Sonnet 4.6 (copilot)"
 }
