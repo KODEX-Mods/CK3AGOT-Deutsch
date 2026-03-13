@@ -7,7 +7,7 @@
   SWITCH_SIDES_CONTROLS_CAPITAL: "[recipient.GetSheHe|U] kontrolliert nicht [recipient.GetHerHis]n Hauptsitz: $VALUE|=+0$"
   SWITCH_SIDES_LOSING_WAR: "[recipient.GetHerHis|U] Seite verliert den Krieg: $VALUE|=+0$"
 
-  AGOT_REALM_MEGAWAR_REASON: "Reich befindet sich im Krieg: $VALUE|=+0$"
+  AGOT_REALM_MEGAWAR_REASON: "Reich befindet im Krieg: $VALUE|=+0$"
 
   DESIGNATE_HEIR_HAS_CHILD: "Ihr habt bereits einen Erben!"
 
@@ -28,15 +28,15 @@
   childhood_education.1032.wv.desc: "Nachdem ich [ward.GetTitledFirstName] so lange unterrichtet hatte, freute es mich umso mehr, als [ward.GetSheHe] mir mitteilte, dass [ward.GetSheHe] sich der [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur zugehörig fühlt!"
   childhood_education.1032.ev.desc: "Nachdem ich [ward.GetTitledFirstName] so lange unterrichtet hatte, freute es mich umso mehr, als [ward.GetSheHe] mir mitteilte, dass [ward.GetSheHe] sich der [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur zugehörig fühlt!"
 
-  agot_strip_knighthood: "Ritterstand aberkennen"
-  NOT_RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON: "[recipient.GetSheHe|U] ist religiös nicht an [recipient.GetHerHis]en Ritterstand gebunden: $VALUE|=+0$"
-  RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON: "[recipient.GetSheHe|U] ist religiös an [recipient.GetHerHis]en Ritterstand gebunden: $VALUE|=+0$"
+  agot_strip_knighthood: "Ritterwürde aberkennen"
+  NOT_RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON: "[recipient.GetSheHe|U] hat keine religiöse Verbundenheit zum Rittertum: $VALUE|=+0$"
+  RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON: "[recipient.GetSheHe|U] hat religiöse Verbundenheit zum Rittertum: $VALUE|=+0$"
 
-  agot_send_to_nw: "Das Schwarz anlegen ([nw_govt|E])" #NT!
-  RELEASE_BANISH_INVALID_SEND_TO_NW_CONDITION: "Du kannst nicht gleichzeitig Charaktere verbannen und sie zur nachtwache schicken." #NT!
-  RELEASE_SEND_TO_NW_INVALID_BANISH_CONDITION: "Du kannst nicht gleichzeitig Charaktere verbannen und sie zur nachtwache schicken." #NT!
-  NW_NEGATIVE_REASON: "[recipient.GetSheHe|U] Fürchtet sich davor, Schwarz anzulegen: $VALUE|=+0$" #NT!
+  agot_send_to_nw: "An die Mauer schicken"
+  RELEASE_BANISH_INVALID_SEND_TO_NW_CONDITION: "Ihr könnten Charaktere nicht gleichzeitig verbannen und zur Nachtwache schicken."
+  RELEASE_SEND_TO_NW_INVALID_BANISH_CONDITION: "Ihr könnten Charaktere nicht gleichzeitig verbannen und zur Nachtwache schicken."
+  NW_NEGATIVE_REASON: "[recipient.GetSheHe|U] fürchtet sich davor, das Schwarz anzulegen: $VALUE|=+0$"
 
-  agot_ransom_artifact: "Artefaktforderung" #NT!
-  agot_ransom_artifact_requirement: "Verwende die Interaktion $ransom_for_artifacts$ um mindestens ein Artefakt zu deinen Forderungen hinzuzufügen." #NT!
+  agot_ransom_artifact: "Für Artefakt freilassen" #NT!
+  agot_ransom_artifact_requirement: "Verwendet die Interaktion $ransom_for_artifacts$, um mindestens ein Artefakt zu Euren Forderungen hinzuzufügen." #NT!
   ARTIFACT_RANSOM_REASON: "[recipient.GetSheHe|U] wird Artefakte verlieren: $VALUE|=+0$" #NT!
