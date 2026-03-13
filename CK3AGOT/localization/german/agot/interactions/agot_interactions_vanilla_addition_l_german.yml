@@ -7,7 +7,7 @@
   SWITCH_SIDES_CONTROLS_CAPITAL: "[recipient.GetSheHe|U] kontrolliert nicht [recipient.GetHerHis]n Hauptsitz: $VALUE|=+0$"
   SWITCH_SIDES_LOSING_WAR: "[recipient.GetHerHis|U] Seite verliert den Krieg: $VALUE|=+0$"
 
-  AGOT_REALM_MEGAWAR_REASON: "Reich befindet im Krieg: $VALUE|=+0$"
+  AGOT_REALM_MEGAWAR_REASON: "Reich im Krieg: $VALUE|=+0$"
 
   DESIGNATE_HEIR_HAS_CHILD: "Ihr habt bereits einen Erben!"
 
