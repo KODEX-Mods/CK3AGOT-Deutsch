@@ -1,5 +1,5 @@
 ﻿l_german:
- settle_wilderness_icon: "@directive_wilderness!" #NT!
- settle_wilderness: "$settle_wilderness_icon$ Settle [wilderness|E]" #NT!
- vassal_directive_settle_wilderness: "[recipient.GetUIName] will focus on settling wilderness." #NT!
- settlement_focus_text: "[directive|E]: Settle wilderness counties" #NT!
+  settle_wilderness_icon: "@directive_wilderness!"
+  settle_wilderness: "$settle_wilderness_icon$ [wilderness|E] besiedeln"
+  vassal_directive_settle_wilderness: "[recipient.GetUIName] wird sich darauf konzentrieren, die [wilderness|E] zu besiedeln."
+  settlement_focus_text: "[directive|E]: Wildnis-Gebiete besiedeln"
